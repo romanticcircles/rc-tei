@@ -2,32 +2,211 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
-                <author>Paul Westover</author>
+                <!--  CHANGE TITLE, AUTHOR NAME, AND EDITOR NAME(S)  -->
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">"A Romantic Circles Electronic Edition"</title> 
+                <!-- Subtitle will change based on site section; 
+for Editions, "A Romantic Circles Electronic Edition" 
+for Praxis, "A Romantic Circles Praxis Volume" 
+for Pedagogies, "A Romantic Circles Pedagogies Commons Volume" -->
+                <title level="a">Introduction to <title level="m">Dorothy Wordsworth's Lake District</title></title>
+                <!-- If author is a contemporary critic (secondary) -->
+                <author role="secondary">
+                    <name>Michelle Levy</name>
+                    <name>Nicholas Mason</name>
+                    <name>Paul Westover</name>
+                </author>
+                <!-- Remove the above if not contemporary author -->
+                <editor role="editor">VOLUME/EDITION EDITOR(S)</editor> 
+                    <name>Michelle Levy</name>
+                    <name>Nicholas Mason</name>
+                    <name>Paul Westover</name>
+                <!-- Repeat the above line in the case of multiple editors -->
+                <!-- If external funding was used in production, include the following section -->
+                <funder>Brigham Young University</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+                
+                <!-- Remove above "funder" section if not relevant -->            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <!-- In the following, keep only the relevant section editor(s) -->
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <!-- Choose section editor from above -->
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition><date>2022-05-06</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
             </editionStmt>
             <publicationStmt>
-                <p>unknown</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:</p>
+                    <address>
+                        <addrLine>Romantic Circles</addrLine>
+                        <addrLine>c/o Professor Paul Youngquist</addrLine>
+                        <addrLine>Department of English</addrLine>
+                        <addrLine>University of Colorado Boulder</addrLine>
+                        <addrLine>Boulder, CO 80309</addrLine>
+                        <addrLine>paul.youngquist@colorado.edu</addrLine>
+                    </address>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- CHANGE IDNO; ENSURE THAT THE "EDITION" LINE EXACTLY MATCHES THE FILE NAME -->
+                <idno type="edition">editions.2022.DW.intro</idno>
+                <idno type="resource">DW</idno>
             </publicationStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction to <title level="m">Dorothy Wordsworth's Lake District</title></title>
+                        <ptr target="SECTION/VOL-ABBREV/SECTION.YEAR.VOL-ABBREV.AUTHORLAST.html"/>
+                    </analytic>
+                    <!-- CHANGE TITLES -->
+                    <monogr>
+                        <title level="m">Dorothy Wordsworth's Lake District</title>
+                        <title level="s">Introduction to <title level="m">Dorothy Wordsworth's Lake District</title></title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <revisionDesc>
-            <listChange>
-                <change><date>2022-09-09T19:05:52Z</date><name>Paul Westover</name></change>
-            </listChange>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND CHANGE THE DATE RIGHT BEFORE PUBLICATION  -->
+                <name>Lavender Earnest</name>
+                <date>2020-09-09</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!-- End of Header -->
+        
+        
     <text>
         <body>
             <p style="text-align: center;"
