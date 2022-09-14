@@ -204,22 +204,23 @@
             </revisionDesc>
         </teiHeader>
     
-    <!--why is this not liking my div stuff? -->
-    <div type="essay">
+    <text>
+    <body>
+    <div type="paratext">
         <head>
-            <!-- do I need to put the "Biographical Index" in bold using the hi funciton thing? -->
-            <title level="a">Biographical Index</title> 
-            
-            <p>This index provides information about individuals mentioned repeatedly in Dorothy Wordsworth’s writings 
+        <title level="m">Biographical Index</title></head>
+        <div type="abstract"><p>This index provides information about individuals mentioned repeatedly in Dorothy Wordsworth’s writings 
                 and in our editorial apparatus.<title level="m">DNB</title>indicates the existence of a fuller entry on
-                said person in the <title level="m">Oxford Dictionary of National Biography. </title>For information on
-                the large cast of characters (many of them obscure) mentioned in the<title level="m">Rydal Journals</title>,
-                please see the indexes of people and places unique to that section of the edition [links]. Additional
-                biographical details may appear in editorial notes to individual texts.</p>
-            <!-- I need to add hyperlinks to the [links] thing above. How to do this? -->
+            said person in the <title level="m"><ref target="https://www.oxforddnb.com/">Oxford Dictionary of National Biography.</ref></title> For information on
+            the large cast of characters (many of them obscure) mentioned in the<title level="m"><ref target=
+            "https://www.romantic-circles.org/editions/DW/editions.2022.DW.RJ-overview">Rydal Journals</ref></title>,
+            please see the indexes of people and places unique to that section of the edition. Additional
+            biographical details may appear in editorial notes to individual texts.</p></div>
+    </div>
             
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">?, Agnes</hi></p>
-            <!-- Here do I need to specify bold, or do I do this as a title? What about size? -->
+            <!--Reference this section for the rest-->
+            <div type="section">
+                <head><persName xml:id="Agnes">?, Agnes</persName></head>
                 <p>Mary Barker’s maid and one of the four people who, along with Dorothy, summited Scafell Pike on 7 October 1818.
                     In Dorothy’s account she is mentioned but not named (e.g., “We had some miles to travel to the foot of the mountain,
                     and accordingly went thither in a cart—Miss Barker, her maid, and myself”). She is identified as Agnes in Jonathan
@@ -227,30 +228,37 @@
                     accompanied Mary Barker on her first visit to Esk Hause. In 1819, she accompanied Barker to her new home in Boulogne,
                     France.</p>
             
-                    <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p><hi style="font-size:10pt">“Excursion up Scawfell Pike”</hi></p>
-                         <!-- How should I format these? -->
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p>“<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title>”</p>
+          </div>
+            <!--End of reference section-->
             
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Allison, John (1786–1855)</hi></p>
-                <p>The unnamed “kind neighbor of Miss Barker’s, a statesman and shepherd of the vale,” who guided Barker and Dorothy
+          <div type="section">
+              <head><persName xml:id="Allison">Allison, John (1786–1855)</persName></head>
+               <p>The unnamed “kind neighbor of Miss Barker’s, a statesman and shepherd of the vale,” who guided Barker and Dorothy
                     Wordsworth to Esk Hause and then to the summit of Scafell Pike in October 1818.</p>
             
-                    <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p><hi style="font-size:10pt">“Excursion up Scawfell Pike”</hi></p>
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></p>
+          </div>
             
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Ashburner, Thomas (1754– ), Peggy (née Lancaster), and Sarah (1790– )</hi></p>
-             <p>Town End neighbors of the Wordsworths whose home, Below Sike, was opposite Dove Cottage. Thomas was a widower with 
+            <div type="section">
+                <head><persName xml:id="Ashburner">Ashburner, Thomas (1754– ), Peggy (née Lancaster), and Sarah (1790– )</persName></head>
+                <p>Town End neighbors of the Wordsworths whose home, Below Sike, was opposite Dove Cottage. Thomas was a widower with 
                  five young daughters, including his newborn Sarah (a. k. a. “Sally”), when he married Margaret “Peggy” Lancaster 
-                 of Grasmere in 1791 (<title level="m">GJ</title>, 163). During their years as neighbors, the Ashburner girls did 
-                 odd jobs for the Wordsworths and Thomas supplied them with coal. In 1823 the<title level="m">WG</title>reported 
+                 of Grasmere in 1791 (<title level="m"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.GJ-intro">GJ</ref></title>, 163). During their years 
+                 as neighbors, the Ashburner girls did odd jobs for the Wordsworths and Thomas supplied them with coal. In 1823 the<title level="m">WG</title>reported 
                  that “Thomas Ashburner, aged 70, holds the Cottage and Garden [at Town End] for his life, free from payment of rent” 
                  (14 June 1823).</p>
             
-                   <p><hi rend="bold underline color(044389)">Mentioned In</hi><hi rend="bold color(004999)"> </hi></p>
-                   <p><hi style="font-size:10pt">“A Narrative concerning George &amp; Sarah Green,” Grasmere Journal</hi></p>
-            
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Barker, Mary (c. 1780–1853)</hi></p>
-              <p>A lively friend of Dorothy who was a writer, a music teacher, an amateur painter, and a fell walker. Mary met Robert Southey
+                   <p><hi rend="bold">Mentioned In</hi></p>
+                   <p><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.Greens-intro">“A Narrative concerning George &amp; Sarah Green,” Grasmere 
+                    Journal</ref></p>
+          </div>
+        
+            <div type="section">
+                <head><persName xml:id="Barker">Barker, Mary (c. 1780–1853)</persName></head>
+                <p>A lively friend of Dorothy who was a writer, a music teacher, an amateur painter, and a fell walker. Mary met Robert Southey
                  in Portugal in 1800 and became a close friend, eventually settling next door to his family in Keswick (1812–1817). Over time,
                  she became acquainted with the broader Southey-Coleridge-Wordsworth circle, close especially with Dorothy and Sara Hutchinson.
                  In 1816, she overextended herself financially to build a new home in Rosthwaite, Borrowdale, where she lived for just a short
@@ -258,15 +266,15 @@
                  for the 1818 Scafell Pike. In the following year, Mary moved to Boulogne in order to retrench and never returned to England,
                  but the Wordsworths continued to correspond with her, and they visited her in France during their 1820 Continental Tour. In
                  1830, she married a younger man named Mr. Slade, concerning her friends at home. The most complete source on her life is David
-                 Bradbury’s <title level="m">Senhora Small Fry: Mary Barker and the Lake Poets </title>(2003). </p>
+                 Bradbury’s <title level="m">Senhora Small Fry: Mary Barker and the Lake Poets</title>(2003).</p>
             
-                 <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                 <p><hi style="font-size:10pt">“Excursion up Scawfell Pike”</hi></p>
+                 <p><hi rend="bold">Mentioned In</hi></p>
+                 <p><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></p>
+            </div>
             
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt" xml:space="preserve">Beaumont, Sir George Howland, 7th Baronet (1753–1827 | </hi><ref
-                target="https://doi.org/10.1093/ref:odnb/1872"><hi rend="italic bold" style="font-family:PT Sans;font-size:14.5pt">DNB</hi></ref><hi rend="bold 
-                    underline color(044389)" style="font-size:14.5pt" xml:space="preserve">) and Lady Margaret (née Willes; 1756–1829) </hi></p>
-            <!--something about this link stuff seems odd to me-->
+            <div type="section">
+                <head><persName xml:id="Beaumont">Beaumont, Sir George Howland, 7th Baronet (1753–1827 | <ref target="https://doi.org/10.1093/ref:odnb/1872">DNB</ref>) and Lady 
+                 Margaret (née Willes; 1756–1829)</persName></head>
                 <p>Childless couple who were major patrons of the arts and, from 1803, close friends of the Wordsworths. Sir George was an amateur
                     landscape painter, art collector, and major force in establishing the National Gallery. He married Margaret, the granddaughter of
                     Lord Chief Justice John Willes, in 1778, and the two honeymooned at Keswick. Revisiting the town 25 years later, they met the
@@ -275,13 +283,13 @@
                     for her new friend in 1805. In later years the Wordsworths would regularly visit them at their Leicestershire estate, Coleorton, and
                     their London townhouse in Grosvenor Square.</p>
             
-                    <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p><hi style="font-size:10pt">“Excursion up Scawfell Pike,” “Excursion on the Banks of Ullswater” (apparatus)</hi></p>
-           
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt" xml:space="preserve">Bell, Andrew (c. 1753–1832 | </hi><ref
-                target="https://doi.org/10.1093/ref:odnb/1995"><hi rend="italic bold" style="font-family:PT Sans;font-size:14.5pt">DNB</hi></ref><hi
-                    rend="Hyperlink"><seg rend="bold" style="font-size:14.5pt">)</seg></hi></p>
-            <!--something about this link stuff seems odd to me-->
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title>, <title 
+                    level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.Ulls-intro">Excursion on the Banks of Ullswater (apparatus)</ref></title></p>
+                </div>
+        
+        <div type="section">
+                <head><persName xml:id="Bell">Bell, Andrew (c. 1753–1832 | <ref target="https://doi.org/10.1093/ref:odnb/1995">DNB</ref>)</persName></head>
                 <p>A prominent Scottish clergyman and educational reformer renowned for the “Madras System,” a plan that called for advanced students
                     to tutored their less advanced peers which he developed at an orphan asylum in India. Bell met the Wordsworths through his close
                     friend and later biographer Robert Southey. According to Southey’s <title level="m">Life</title>, after Bell requested Dorothy’s
@@ -292,25 +300,27 @@
                     “Kenyon Transcript.” By his death in 1832, his National Society for the Education of the Poor in the Principles of the Christian Church
                     had charge of more than 12,000 schools.</p>
                       
-                    <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p><hi style="font-size:10pt" xml:space="preserve">“Excursion up Scawfell Pike” (apparatus)</hi></p>
-           
-            <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Carr, Thomas (1795–1856) and Ann Dorcas (née Dowling; 1784–1837)</hi></p>
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title> (apparatus)</p>
+        </div>
+        
+        <div type="section">
+                 <head><persName xml:id="Carr">Carr, Thomas (1795–1856) and Ann Dorcas (née Dowling; 1784–1837)</persName></head>
                  <p>An Ambleside apothecary and schoolteacher who married on 11 February 1824. As the Wordsworths’ physician after 1820, Mr. Carr was a regular
                      visitor to Rydal Mount (<title level="m">Letters</title>, 3:133; <title level="m">MWL</title>, 332). Dorothy’s trust in and affection for
-                     him is evident in her letters and journals and her late poem “To Thomas Carr, My Medical Attendant” [link to our ed. of the poems<!-- put
-                         internal link here -->]. Mrs. Carr was a former governess who moved to Ambleside in the early 1810s to teach at Mrs. Fletcher’s school
+                     him is evident in her letters and journals and her late poem <ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.Poems-intro">“To Thomas 
+                     Carr, My Medical Attendant”</ref>. Mrs. Carr was a former governess who moved to Ambleside in the early 1810s to teach at Mrs. Fletcher’s school
                      for girls. After taking over the school in 1818, she briefly employed her former student Dora Wordsworth as a teacher. In the early 1830s,
                      the Carrs moved from Cumpstone Lodge in Ambleside to Hill Top in Near Sawrey, a home now associated with its later occupant, Beatrix Potter.</p>
             
-                     <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                     <p><hi style="font-size:10pt">Poems,</hi><title level="m">Rydal Journals</title></p>
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p>Poems,<title level="m"><ref target="RJ-overview">Rydal Journals</ref></title></p>
+        </div>
             
-           <p><hi rend="bold underline color(044389)" style="font-size:14.5pt" xml:space="preserve">Clarkson, Thomas (1760–1846
-               | </hi><ref target="https://doi.org/10.1093/ref:odnb/5545"><title level="m">DNB</title></hi></ref>) and Catherine 
-               (née Buck; 1772–1856)</p>
-            <!--something about this link stuff seems odd to me-->
-                 <p>Couple whom William Wordsworth met in 1799 while touring the Lake District with Samuel Taylor Coleridge. A famous abolitionist, Thomas
+        <div type="section">
+                <head><persName xml:id="Clarkson">Clarkson, Thomas (1760–1846 | <ref target="https://doi.org/10.1093/ref:odnb/5545"><title level="m">DNB</title></ref>) and Catherine 
+                 (née Buck; 1772–1856)</persName></head>
+                <p>Couple whom William Wordsworth met in 1799 while touring the Lake District with Samuel Taylor Coleridge. A famous abolitionist, Thomas
                      Clarkson temporarily retired to his Ullswater estate in 1794 when the war with France stalled the movement to end slavery. Two years
                      later, he married Catherine Buck of Bury St Edmunds, Suffolk, a like-minded gentlewoman. According to her childhood friend (and later
                      boon companion of the Wordsworths) Henry Crabb Robinson, she “was the most eloquent woman I have ever known, with the exception of Madame
@@ -318,8 +328,10 @@
                      Lakes in 1804, when Thomas returned to public life, their friendship with the Wordsworths endured and Caroline became one of Dorothy’s
                      most regular correspondents. In 1807, Thomas would help achieve the long-delayed passage of the Slave Trade Act.</p>
             
-                     <p><hi rend="bold underline color(044389)">Mentioned In</p>
-                     <p>Grasmere Journal, “Excursion on the Banks of Ullswater,” “A Narrative concerning George &amp; Sarah Green,” <title level="m">Rydal Journals</title></p>
+                    <p><hi rend="bold">Mentioned In</hi></p>
+                    <p>Grasmere Journal, <ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.Ulls-intro">Excursion on the Banks of Ullswater</ref>, <ref 
+                        target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.Greens-intro">A Narrative concerning George &amp; Sarah Green</ref>, <title
+                        level="m"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.RJ-overview">Rydal Journals</ref></title></p>
             
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt" xml:space="preserve">Coleridge, Derwent (1800–1883 | </hi><ref
                 target="https://doi.org/10.1093/ref:odnb/5879"><hi rend="italic bold" style="font-family:PT Sans;font-size:14.5pt">DNB</hi></ref><hi
@@ -359,7 +371,7 @@
                     quarrelling with William in the spring of 1810, he again moved south, this time for good.</p>
             
                       <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                      <p>Grasmere Journal, “Excursion on the Banks of Ullswater,” “Excursion up Scawfell Pike” (apparatus), “A Narrative concerning George &amp; Sarah Green,” 
+                      <p>Grasmere Journal, “Excursion on the Banks of Ullswater,” “<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></ref></title></ref></title></ref></title>” (apparatus), “A Narrative concerning George &amp; Sarah Green,” 
                             <title level="m">Rydal Journals</title></p>
             
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Cottle, Amos (1768–1800) and Joseph (1770–1853)</hi></p>
@@ -411,7 +423,7 @@
                     farmed in various locations, including Gallow Hill (Yorkshire), Park House (near Ullswater), and Hindwell (Mid Wales).</p>
             
                     <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p>Grasmere Journal, “Excursion up Scawfell Pike,” “Excursion on the Banks of Ullswater,” Poems</p>
+                    <p>Grasmere Journal, “<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></ref></title></ref></title></ref></title>,” “Excursion on the Banks of Ullswater,” Poems</p>
             
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Johnson, William (1784–1864 | </hi><ref target=
                 "https://doi.org/10.1093/ref:odnb/14926"><hi rend="italic bold" style="font-family:PT Sans;font-size:14.5pt">DNB</hi></ref><hi
@@ -426,7 +438,7 @@
                     him “the Patriarch of National Education.”</p>
             
                     <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p>“Excursion up Scawfell Pike”</p>
+                    <p>“<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></ref></title></ref></title></ref></title>”</p>
             
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Kenyon, George, 2nd Baron (1776–1855 | <link dest="https://doi.org/10.1093/ref:odnb/38921">DNB</link>)
                 <!--here I tried to embed a link; I still think I need some type of something to indicate the different font of DNB-->
@@ -437,7 +449,7 @@
                     was sent to the Hutchinsons under his franking privilege. For this reason, we refer to it as the “Kenyon Transcript.” </p>
             
                      <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                     <p>“Excursion up Scawfell Pike” (apparatus)</p>
+                     <p>“<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></ref></title></ref></title></ref></title>” (apparatus)</p>
             
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Lloyd, Charles (1775–1839 | </hi><ref target=
                 "https://doi.org/10.1093/ref:odnb/38921"><hi rend="italic bold" style="font-family:PT Sans;font-size:14.5pt">DNB</hi></ref><hi
@@ -488,7 +500,7 @@
                     otherwise be unknown.</p>
                 
                     <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
-                    <p>“Excursion up Scawfell Pike” (apparatus)</p>
+                    <p>“<title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro"><title level="a"><ref target="https://www.romantic-circles.org/editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title></ref></title></ref></title></ref></title>” (apparatus)</p>
                 
             <p><hi rend="bold underline color(044389)" style="font-size:14.5pt">Robinson, Capt. Charles (1788–1864) and Charlotte (née Kearsley; 1798–1862)</hi></p>
                 <p>After Charles retired from the navy ca. 1820, this couple moved to Ambleside and began socializing with the Wordsworths. Charles 
@@ -590,6 +602,8 @@
                 
                      <p><hi rend="bold underline color(044389)">Mentioned In</hi></p>
                      <p><title level="m">Rydal Journals</p>
-        </head>
+    
     </div>
+    </body>
+    </text>    
 </TEI>
