@@ -1,0 +1,554 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    
+                    <title type="main">Dorothy Wordsworth's Lake District</title>
+                    <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                    <!--  The reading texts should all be encoded as level="m"  -->
+                    <title level="m">General Bibliography</title>
+                    
+                    <author role="secondary">
+                        <name>Michelle Levy</name>
+                        <name>Nicholas Mason</name>
+                        <name>Paul Westover</name>
+                    </author>
+                    
+                    <editor role="editor">Michelle Levy</editor> 
+                    <editor role="editor">Nicolas Mason</editor>
+                    <editor role="editor">Paul Westover</editor> 
+                    
+                    
+                    <funder>Brigham Young University College of Humanities</funder>
+                    <principal>Paul Westover</principal>
+                    <respStmt>
+                        <resp>TEI Encoding</resp>
+                        <name>EXTERNAL CODER</name>
+                    </respStmt>            
+                    <sponsor>Romantic Circles</sponsor>
+                    <respStmt>
+                        <resp>General Editor</resp>
+                        <name>Paul Youngquist</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>General Editor</resp>
+                        <name>Orrin N. C. Wang</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Electronic Editions Editor</resp>
+                        <name>Michelle Speitz</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Assistant Editor</resp>
+                        <name>Jessica Tebo</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Assistant Editor</resp>
+                        <name>T. J. McLemore</name>
+                    </respStmt>
+                </titleStmt>
+                <editionStmt>
+                    <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                    <edition><date>YYYY-MM-DD</date></edition>
+                </editionStmt>
+                <publicationStmt>
+                    <publisher>Romantic Circles, https://romantic-circles.org, 
+                        University of Colorado Boulder</publisher>
+                    <pubPlace>Boulder, CO</pubPlace>
+                    <availability status="free">
+                        <p>Material from the Romantic Circles Website may not be downloaded, 
+                            reproduced or disseminated in any manner without authorization unless 
+                            it is for purposes of criticism, comment, news reporting, teaching, 
+                            and/or classroom use as provided by the Copyright Act of 1976, as 
+                            amended.</p>
+                        <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                            Circles are copyrighted by the author/editor and may be shared only in 
+                            accordance with the Fair Use provisions of U.S. copyright law. Except 
+                            as expressly permitted by this statement, redistribution or republication 
+                            in any medium requires express prior written consent from the author(s)/
+                            editor(s) and advance notification of Romantic Circles. Any requests 
+                            for authorization should be forwarded to Romantic Circles:</p>
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address>
+                        <p>By their use of these texts and images, users agree to the following 
+                            conditions: 
+                            <list>
+                                <item>These texts and images may not be used for any commercial 
+                                    purpose without prior written permission from Romantic Circles.</item>
+                                <item>These texts and images may not be re-distributed in any 
+                                    forms other than their current ones.</item>
+                            </list></p>
+                        <p>Users are not permitted to download these texts and images in order 
+                            to mount them on their own servers. It is not in our interest or that 
+                            of our users to have uncontrolled subsets of our holdings available 
+                            elsewhere on the Internet. We make corrections and additions to our 
+                            edited resources on a continual basis, and we want the most current text 
+                            to be the only one generally available to all Internet users. Institutions 
+                            can, of course, make a link to the copies at Romantic Circles, subject 
+                            to our conditions of use.</p>
+                    </availability>
+                    <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                    <idno type="edition">editions.2022.DW.biblio</idno>
+                    <idno type="resource">DW</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <biblStruct>
+                        <analytic>
+                            <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                            <title level="m" type="main">General Bibliography</title>
+                            
+                            <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                            <ptr target="editions/DW/editions.2022.DW.biblio"/>
+                        </analytic>
+                        
+                        <monogr>
+                            <title level="m">Dorothy Wordworth's Lake District</title>
+                            <title level="s">Editions</title>
+                            <imprint>
+                                <publisher>Romantic Circles, https://romantic-circles.org, 
+                                    University of Colorado Boulder</publisher>
+                                <pubPlace>Boulder, CO</pubPlace>
+                                <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                                <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <editorialDecl>
+                    <quotation>
+                        <p>All quotation marks and apostrophes have been changed: 
+                            " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                        <p>Any dashes occurring in line breaks have been removed 
+                            except in the case of diplomatic transcriptions.</p>
+                        <p>Because of web browser variability, all hyphens 
+                            have been typed on the U.S. keyboard</p>
+                        <p>Em dashes have been rendered as &#8212;</p>
+                        <p>En dashes have been rendered as &#8211;</p>
+                    </hyphenation>
+                    <normalization method="markup">
+                        <p>Spelling has not been regularized.</p>
+                        <p>Writing in other hands appearing on these manuscripts 
+                            has been indicated as such, the content recorded in brackets.</p>
+                    </normalization>
+                    <normalization>
+                        <p>&amp; has been used for the ampersand sign.</p>
+                        <p>&#35; has been used for #, the pound sign</p>
+                        <p>All other characters, those with accents, non-breaking spaces, 
+                            etc., have been encoded in HTML entity decimals.</p>
+                    </normalization>
+                </editorialDecl>
+                <tagsDecl>
+                    <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                    <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                    <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                    <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                    <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                    <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                    <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                    <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                    <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                    <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                    <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                    <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                    <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                    <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                    <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                    <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                    <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                    <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                    <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                    <rendition xml:id="figure" scheme="css">text-align: center; 
+                        font-size: 12pt;</rendition>
+                    <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                    <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+                </tagsDecl>
+            </encodingDesc>
+            <profileDesc>
+                <textClass>
+                    <catRef scheme="#genre" target="#Paratext"/>
+                    <catRef scheme="#dcType" target="#Typescript"/>
+                    <catRef scheme="#discipline" target="#Literature"/>
+                    <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                    <keywords scheme="http://www.romantic-circles.org/#tags">
+                        <term subtype="tags">walking</term>
+                        <term subtype="tags">women writers</term>
+                        <term subtype="tags">travel</term>
+                        <term subtype="tags">travel writing</term>
+                        <term subtype="tags">manuscripts</term>
+                        <term subtype="tags">nature</term>
+                        <term subtype="tags">editing</term>
+                        <term subtype="tags">biography</term> 
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change>
+                    <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                    <name>Lavender Earnest</name>
+                    <date>2022-09-19</date>
+                    <list>
+                        <item>TEI encoding the text</item>
+                    </list>
+                </change>
+            </revisionDesc>
+        </teiHeader>
+        <!--END OF HEADER-->
+    
+    
+    <text>
+    <body>
+            
+           <div type"paratext">
+               <head><title level="m">General Bibliography</title></head>
+           </div>
+        
+          <div type="section">
+            <p>Abrams. M. H., ed. <title level="m">Norton Anthology of English Literature</title>. 3rd
+                ed. New York: W. W. Norton, 1974.</p>
+              
+              <p>Arnold, Thomas. <title level="m">Passages in a Wandering Life</title>. London: E. Arnold, 1900.</p>
+              
+            <p>Atkin, Polly. <title level="m">Recovering Dorothy: The Hidden Life of Dorothy.</title> Salford: Saraband, 2021.</p>
+              
+            <p>Axon, Ernest. <title level="m">The Family of Bayley of Manchester and Hope.</title> Manchester: n.p., 1894.</p>
+              
+            <p>Bainbridge, Simon. <title level="m">Mountaineering and British Romanticism: The Literary Cultures of Climbing</title>, 1770&#8211;1836. Oxford: Oxford UP, 2020.</p>
+              
+            <p>———. <title level="a">&#8216;Active Climbers of the Hills&#8217;: Women in the Mountains.</title> Saturday Talks Series, Wordsworth Grasmere, 1 December 2018.</p>
+              
+            <p>Baines, Edward, Jr. <title level="m">A Companion to the Lakes of Cumberland, Westmoreland, and Lancashire</title>. 2nd ed. London: Hurst, 1830.</p>
+              
+            <p>Bardsley, Charles W. <title level="m">Chronicles of the Town and Church of Ulverston</title>. Ulverston: Atkinson, 1885.</p>
+              
+            <p>Barker, Juliet. <title level="m">William Wordsworth: A Life</title>. London: Viking, 2001.</p>
+              
+            <p>Bellanca, Mary Ellen. <title level="a">After-Life-Writing: Dorothy Wordsworth’s Journals in the Memoirs of William Wordsworth,</title> <title level="m">European 
+                Romantic Review</title> 25 (April 2014): 201–18.</p>
+              
+            <p>———. <title level="m">Daybooks of Discovery: Nature Diaries in Britain</title>, 1770&#8211;1870. Charlottesville: U of Virginia P, 2007.</p>
+              
+            <p>Bohls, Elizabeth A. <title level="a">Dorothy Wordsworth and the Cultural Politics of Scenic Tourism.</title> In <title level="m">Women Travel Writers and the Language 
+                of Aesthetics, 1716&#8211;1818,</title> 170–208. Cambridge: Cambridge UP, 1995. </p>
+              
+            <p>Bradbury, David. <title level="m">Senhora Small Fry: Mary Barker and the Lake Poets</title>. Whitehaven: Past Presented, 2003.</p>
+              
+            <p>Brooke, Stopford. <title level="a">On Wordsworth’s <title level="m">Guide to the Lakes</title>.</title> <title level="m">Transactions of the Wordsworth Society</title> 
+                5 (1883): 25&#8211;35.</p>
+              
+            <p>Burke, Bernard. <title level="m">A Genealogical and Heraldic Dictionary of the Landed Gentry of Great Britain and Ireland</title>. 2 vols. London: Harrison, 1882.</p>
+              
+            <p>Burton, Mary E., ed. <title level="m">The Letters of Mary Wordsworth, 1800&#8211;1855</title>. Oxford: Clarendon, 1958. </p>
+              
+            <p>Butler, Marilyn. <title level="m">Editing Women.</title> <title level="m">Studies in the Novel</title> 27, no. 3 (1995): 273&#8211;85.</p>
+              
+            <p>Cameron, Sharon. <title level="m">Choosing Not Choosing: Dickinson’s Fascicles</title>. Chicago: U of Chicago P, 1992.</p>
+              
+            <p>Carr, Mary. <title level="m">Thomas Wilkinson: A Friend of Wordsworth</title>. London: Headley Brothers, 1905.</p>
+              
+            <p>Coburn, <title level="m">Kathleen, ed. Letters of Sara Hutchinson, 1800&#8211;1835</title>. Toronto: U of Toronto P, 1954.</p>
+              
+            <p>Coleridge, Hartley. <title level="m">Letters of Hartley Coleridge</title>. Edited by Grace Evelyn Griggs and Earl Leslie Griggs. Oxford: Oxford UP, 1937.</p>
+              
+            <p>Comitini, Patricia. <title level="a">&#8216;More Than Half a Poet&#8217;: Vocational Philanthropy and Dorothy Wordsworth’s <title level="m">Grasmere 
+                  Journals</title>.</title> <title level="m">European Romantic Review</title> 14 (2003): 307&#8211;22.</p>
+              
+            <p>Cressy, David. <title level="m">Gypsies: An English History</title>. Oxford: Oxford UP, 2018.</p>
+              
+            <p>Culley, Amy, and Anna M. Fitzer. <title level="a">Introduction: Editing Women’s Writing, 1670&#8211;1840.</title> In <title level="m">Editing Women’s Writing, 
+                  1670&#8211;1840</title>, edited by Amy Culley and Anna M. Fitzer, 1&#8211;17. Abingdon: Routledge, 2018.</p>
+              
+            <p>Darbishire, Helen, ed. <title level="m">Journals of Dorothy Wordsworth</title>. Oxford World’s Classics. London: Oxford UP, 1958.</p>
+              
+            <p>Darlington, Beth. <title level="a">Reclaiming Dorothy Wordsworth’s Legacy.</title> In <title level="m">The Age of William Wordsworth: Critical Essays on the Romantic 
+                  Tradition</title>, edited by Kenneth R. Johnston and Gene W. Ruoff, 160&#8211;72. New Brunswick: Rutgers UP, 1987.</p>
+              
+            <p>De Quincey, Thomas. <title level="a">Lake Reminiscences, from 1807 to 1830, by the English Opium Eater, no. 3, William Wordsworth, Continued.</title> <title 
+                  level="m">Tait’s Edinburgh Magazine</title> 6 (April 1839): 246&#8211;54.</p>
+              
+            <p>———. <title level="m">Recollections of the Lakes and the Lake Poets: Coleridge, Wordsworth and Southey</title>. Edinburgh: Adam and Charles Black, 1862.</p>
+              
+            <p>———. <title level="a">Samuel Taylor Coleridge,</title> pt. 3. <title level="m">Tait’s Edinburgh Magazine</title> 1 (November 1834): 685&#8211;92.</p>
+              
+            <p>———. <title level="a">Sketches of Life and Manners; from the Autobiography of an English Opium-Eater,</title> pt. 1. <title level="m">Tait’s Edinburgh Magazine</title> 
+                6 (December 1839): 569&#8211;81.</p>
+              
+            <p>———. <title level="a">Sketches of Life and Manners; from the Autobiography of an English Opium-Eater,</title> pt. 2, <title level="m">Tait’s Edinburgh Magazine</title> 
+                7 (January 1840): 32&#8211;39.</p>
+              
+            <p>De Sélincourt, Ernest, ed. <title level="m">A Narrative Concerning George and Sarah Green</title>. Oxford: Clarendon, 1936. </p>
+              
+            <p>———. <title level="m">Dorothy Wordsworth: A Biography</title>. Oxford: Clarendon, 1933. ———, ed. <title level="m">Journals of Dorothy Wordsworth</title>. 2 vols. 
+                London: Macmillan, 1941.</p>
+              
+            <p>——— et al. <title level="m">The Letters of William and Dorothy Wordsworth</title>. 2nd ed. 8 vols. Oxford: Clarendon, 1967&#8211;93.</p>
+              
+            <!--pick up here-->  
+              
+            <p>Dybeck, Maurice, ed. Jessy’s Journal: Jessy and John, the Hardens of Brathay Hall 1804–1811. Ambleside: Brathay Trust, 2015.</p>
+              
+            <p>Easley, Alexis. “Wandering Women: Dorothy Wordsworth’s Grasmere Journals and the Discourse on Female Vagrancy.” Women’s Writing 3, no. 1 (1996), 63–77. </p>
+              
+            <p>Ezell, Margaret J. M. “Invisible Books.” In Producing the Eighteenth Century Book: Writers and Publishers in England, 1650–1800, edited by Pat Rogers and Laura Runge, 53–69. Newark: U of Delaware P, 2009.</p>
+              
+            <p>———. Social Authorship and the Advent of Print. Baltimore: Johns Hopkins UP, 1999.</p>
+              
+            <p>Fay, Elizabeth. Becoming Wordsworthian: A Performative Aesthetics. Amherst: U of Massachusetts P, 1995.</p>
+              
+            <p>Feder, Rachel. “The Experimental Dorothy Wordsworth.” Studies in Romanticism, no. 4 (2014), 541–59.</p>
+              
+            <p>Fletcher, Eliza. Autobiography of Mrs. Fletcher. Edinburgh: Edmonston and Douglas, 1875.</p>
+              
+            <p>Foskett, Daphne. John Harden of Brathay Hall, 1772–1847. Kendal: Abbot Hall, 1974.</p>
+              
+            <p>Gill, Stephen. William Wordsworth: A Life. Oxford: Clarendon, 1989. </p>
+              
+            <p>Gittings, Robert, and Jo Manton. Dorothy Wordsworth. Oxford: Clarendon, 1985.</p>
+              
+            <p>Gordon, Mary. “Christopher North”: A Memoir of John Wilson. New York: Middleton, 1863.</p>
+              
+            <p>Green, William. The Tourist’s New Guide, Containing a Description of the Lakes, Mountains, and Scenery in Cumberland, Westmorland, and Lancashire. 2
+                vols. Kendal: Lough, 1819.</p>
+              
+            <p>Greg, W. W. The Editorial Problem in Shakespeare: A Survey of the Foundations of the Text. 3rd ed. Oxford: Clarendon, 1954.</p>
+              
+            <p>Griggs, Earl L., ed. Collected Letters of Samuel Taylor Coleridge. 6 vols. Oxford: Clarendon, 1956–71.</p>
+              
+            <p>Hamilton, Elizabeth. Memoirs of the Late Mrs. Elizabeth Hamilton. London: Longman, 1818. </p>
+              
+            <p>Handbook to the English Lakes, with an Introduction by the Late William Wordsworth, Esq. Kendal: T. Wilson, 1859[?].</p>
+              
+            <p>Heinzelman, Kurt. “The Cult of Domesticity: Dorothy and William Wordsworth at Grasmere.” In Romanticism and Feminism, edited by Anne K. Mellor, 52–76. Bloomington: Indiana UP, 1988.</p>
+              
+            <p>Hey, David. The Oxford Companion to Local and Family History. 2nd ed. Oxford: Oxford UP, 2008.</p>
+              
+            <p>Howitt, William. The Rural Life of England. London: Longman, 1838.</p>
+              
+            <p>Hudson, John, ed. A Complete Guide to the Lakes, comprising minute directions for the tourist, with Mr. Wordsworth’s description of the country, &amp;c. and three letters upon the geology of the Lake District, by the Rev. Professor Sedgwick. Kendal: Hudson and Nicholson, 1842.</p>
+              
+            <p>Hurley, Ann, and Chanita Goodblatt, “Preface.” In Women Editing/Editing Women: Early Modern Women Writers and the New Textualism. Cambridge: Cambridge Scholars, 2009.</p>
+              
+            <p>Hutchinson, Sara. Letters of Sara Hutchinson, 1800–1835. Edited by Kathleen Coburn. Toronto: U of Toronto P, 1954.</p>
+              
+            <p>Jarvis, Robin. Romantic Writing and Pedestrian Travel. New York: St. Martin’s, 1997.</p>
+              
+            <p>Jefferson, Samuel Jefferson. History and Antiquities of Carlisle. Carlisle: Jefferson, 1838.</p>
+              
+            <p>Ketcham, Carl H. “Dorothy Wordsworth’s Journals, 1824–1835,” Wordsworth Circle 9, no. 1 (1978), 3–16.</p>
+            
+            <p>Knight, William, ed. Journals of Dorothy Wordsworth. 2 vols. London: Macmillan, 1897.</p>
+              
+            <p>———, ed. Letters of the Wordsworth Family from 1787–1855. 3 vols. Boston: Ginn, 1907.</p>
+              
+            <p>———. Life of William Wordsworth. 3 vols. (Poetical Works of William Wordsworth, vols. 9–11.) Edinburgh: William Paterson, 1889.</p>
+              
+            <p>———, ed. Memorials of Coleorton: Being Letters from Coleridge, Wordsworth and His Sister, Southey, and Sir Walter Scott to Sir George and Lady Beaumont of Coleorton, Leicestershire, 1803–1834. 2 vols. Edinburgh: D. Douglas, 1887. </p>
+              
+            <p>———, ed. Prose Works of William Wordsworth. 2 vols. London: Macmillan, 1896.</p>
+              
+            <p>———, ed. Transactions of the Wordsworth Society, no. 5. Edinburgh UP, 1883.</p>
+              
+            <p>———, ed. Wordsworthiana: A Selection from Papers Read to the Wordsworth Society. London: Macmillan, 1889.</p>
+              
+            <p>Levin, Susan M. Dorothy Wordsworth and Romanticism. Rev. ed. Jefferson, North Carolina: McFarland, 2009.</p>
+              
+            <p>———, ed. Dorothy Wordsworth: A Longman Cultural Edition. London: Pearson Longman, 2009.</p>
+              
+            <p>Levy, Michelle. Family Authorship and Romantic Print Culture. Houndmills: Palgrave Macmillan, 2008.</p>
+              
+            <p>———. “The Wordsworths, the Greens, and the Limits of Sympathy.” Studies in Romanticism 42, no. 4 (Winter 2003): 543–63.</p>
+            
+            <p>Liu, Alan. “On the Autobiographical Present: Dorothy Wordsworth’s ‘Grasmere Journals.’” 26, no. 2 (1984): 115–37.</p>
+            
+            <p>Martineau, Harriet. A Complete Guide to the English Lakes. Pocket ed. Windermere: John Garnett, 1855.</p>
+              
+            <p>Mason, Nicholas, Shannon Stimpson, and Paul Westover, eds. William Wordsworth’s Guide to the Lakes: A Romantic Circles Digital Edition. Romantic Circles, 2015. Rev. ed. 2020.</p>
+              
+            <p>McConnell, Anita, and Philip Collins. “Will the True Originator of the Storm Glass Please Own Up?,” Ambix 53, no. 1 (2006): 67–75.</p>
+              
+            <p>McCracken, David. Wordsworth and the Lake District: A Guide to the Poems and Their Places. Oxford: Oxford UP, 1985.</p>
+              
+            <p>McGann, Jerome. A Critique of Modern Textual Criticism. Chicago: U of Chicago P, 1983.</p>
+              
+            <p>Mellor, Anne. Romanticism and Gender. New York: Routledge, 1993.</p>
+              
+            <p>Moorman, Mary, ed. Journals of Dorothy Wordsworth. Oxford: Oxford UP, 1971.</p>
+              
+            <p>Newlyn, Lucy. William and Dorothy Wordsworth: “All in Each Other.” Oxford: Oxford UP, 2013.</p>
+              
+            <p>Oliver, R. C. B. “The (Wordsworth) Hutchinsons in Radnorshire and on the Border.” Radnorshire Society Transactions 49 (1979): 24–46.</p>
+              
+            <p>Otley, Jonathan [Anthony Loajet, pseud.]. Letter to the editor, “The Ascent of Scawfell, as Narrated in Wordsworth’s Guide-Book.” Kendal Mercury, May 26, 1855.</p>
+              
+            <p>———. Letter to the editor, “Appendix to the Ascent of Esk Hause and Scawfell.” Kendal Mercury, June 29, 1855.</p>
+              
+            <p>Owen, W. J. B., and Jane Worthington Smyser, eds. The Prose Works of William Wordsworth. 3 vols. Oxford: Clarendon, 1974.</p>
+              
+            <p>Pinton, F. B. A Wordsworth Chronology. Boston: G. K. Hall, 1988.</p>
+              
+            <p>Potter, Stephen, ed. Minnow among Tritons: Mrs. S. T. Coleridge’s Letters to Thomas Poole, 1799–1834. Bloomsbury: Nonesuch, 1934.</p>
+            
+            <p>Pratt, Lynda, Tim Fulford, and Ian Packer, eds. The Collected Letters of Robert Southey: A Romantic Circles Electronic Edition. Romantic
+                Circles, 2009–17.</p>
+              
+            <p>Purton, Valerie. A Coleridge Chronology. Houndmills: Macmillan, 1993.</p>
+              
+            <p>Rawnsley, H. D. Literary Associations of the English Lakes. 2 vols. Glasgow: MacLehose, 1894.</p>
+            
+            <p>———. A Rambler’s Note-book at the English Lakes. Glasgow: MacLehose, 1902.</p>
+              
+            <p>Reed, Mark L. Wordsworth: The Chronology of the Middle Years. Cambridge: Harvard UP, 1975.</p>
+              
+            <p>Remembering the Greens of Grasmere: A Village Bicentenary, March 2008. Grasmere: Wordsworth Trust, 2008.</p>
+              
+            <p>Rigge, Henry Fletcher. “The Harrington Tomb in Cartmel Priory Church.” Transactions of the Cumberland and Westmorland Antiquarian and Archaeological Society 5
+                (1881): 114–15.</p>
+            <p>Robertson, Eric S. Wordsworthshire: An Introduction to a Poet’s Country. London: Chatto and Windus, 1911.</p>
+              
+            <p>Robinson, Daniel. “Mary Robinson’s Poetry and the Question of Quality.” In Editing Women’s Writing, 1670–1840, edited by Amy Culley and Anna M. Fitzer, 43–59. Abingdon:
+                Routledge, 2018.</p>
+              
+            <p>Robinson, Henry Crabb. Diary, Reminiscences, and Correspondence of Henry Crabb Robinson. Edited by Thomas Sadler. 3 vols. London: Macmillan, 1869.</p>
+              
+            <p>———. Henry Crabb Robinson on Books and Their Writers. Edited by Edith J. Morley. 3 vols. New York: AMS, 1967.</p>
+              
+            <p>Rose, Thomas. Westmorland, Cumberland, Durham, and Northumberland, from Original Drawings by Thomas Allom,
+                    George Pickering, &amp;c., with Descriptions by T. Rose. 3 vols. London: H. Fisher, R. Fisher, and P. Jackson, 1832.</p>
+              
+            <p>Royal Commission on Historical Manuscripts. The Manuscripts of Lord Kenyon (Report 14, Appendix, Part 4). London: HM Stationery Office, 1894.</p>
+              
+            <p>Salt, Henry S. On Cambrian and Cumbrian Hills: Pilgrimages to Snowdon and Scawfell. London: A. C. Fifield, 1908.</p>
+              
+            <p>Sands, Ronald. Portrait of the Wordsworth Country. London: Robert Hale, 1984.</p>
+              
+            <p>Seventh Annual Report of the National Society, for Promoting the Education of the Poor in the Principles of the Established Church. London: F. C. and J. Rivington, 1818.</p>
+              
+            <p>Shairp, J. C., ed. Recollections of a Tour Made in Scotland A.D. 1803. By Dorothy Wordsworth. Edinburgh: Edmonston and Douglas, 1874.</p>
+            
+            <p>Slagle, Judith Bailey, ed. The Collected Letters of Joanna Baillie. 2 vols. Madison: Fairleigh Dickinson UP, 1997.</p>
+              
+            <p>Southey, Charles Cuthbert, ed. Life and Correspondence of Robert Southey. 6 vols. London: Longman, 1850.</p>
+              
+            <p>Southey, Robert. Life of the Rev. Andrew Bell. Edited by Caroline Bowles Southey and Charles Cuthbert Southey. 3 vols. London: John Murray,
+                1844.</p>
+              
+            <p>Speck, W. A. Robert Southey: Entire Man of Letters. New Haven: Yale UP, 2006.</p>
+              
+            <p>Spenser, Edmund. The Faerie Queene. Edited by A.C . Hamilton. Revised 2nd ed. London: Pearson Longman, 2007.</p>
+              
+            <p>Stillinger, Jack. Multiple Authorship and the Myth of Solitary Genius. New York: Oxford UP, 1991.</p>
+              
+            <p>Stockdale, James. Annales Caermoelenses, Or Annals of Cartmel. Ulverston: Kitchin, 1872.</p>
+              
+            <p>Thoreau, Henry David. Walden, or, Life in the Woods. Boston: Ticknor and Fields, 1854.</p>
+              
+            <p>Trott, Nicola. Review of Dorothy Wordsworth: The Grasmere Journals, ed. Pamela Woof.” Wordsworth Circle 23, no. 4 (1992): 213–14.</p>
+              
+            <p>Vincent, Howard P., ed. Letters of Dora Wordsworth. Chicago: Packard, 1944.</p>
+              
+            <p>Wainwright, Alfred. A Pictorial Guide to the Lakeland Fells. 1960. 7 vols. 50th anniversary ed. London: Frances Lincoln, 2005.</p>
+              
+            <p>Wallace, Anne D. “Home at Grasmere Again: Revising the Family in Dove Cottage.” In Literary Couplings: Writing Couples, Collaborators, and the Construction of Authorship, edited by Marjorie Stone and Judith Thompson, 100–123. Madison: U of Wisconsin P, 2006.</p>
+              
+            <p>———. Sisters and the English Household: Domesticity and Women’s Autonomy in Nineteenth-Century English Literature. London: Anthem, 2018.</p>
+              
+            <p>West, Thomas. A Guide to the Lakes, in Cumberland, Westmorland, and Lancashire. 5th ed. London: W. Richardson, 1793.</p>
+              
+            <p>———. Antiquities of Furness. Ulverston: Ashburner, 1805.</p>
+              
+            <p>Whellan, William. The History and Topography of the Counties of Cumberland and Westmoreland. London, 1860.</p>
+              
+            <p>Wilson, Frances. The Ballad of Dorothy Wordsworth: A Life. New York: Farrar, Straus and Giroux, 2008.</p>
+              
+            <p>Wittke-Michalsen, E. “The History of Leech Therapy.” In Medicinal Leech Therapy, edited by Andreas Michalsen et al., 4–12. Stuttgart: Thieme,
+                2007.</p>
+              
+            <p>Wilkinson, Joseph. Select Views in Cumberland, Westmoreland, and Lancashire. London: Ackermann, 1810.</p>
+              
+            <p>Wolfson, Susan. “Dorothy Wordsworth in Conversation with William.” In Romanticism and Feminism, edited by Anne K. Mellor, 139–66.
+                Bloomington: Indiana UP, 1988.</p>
+              
+            <p>———. “Two Wordsworths: Mountain-Climbing, Letter-Writing.” In Romanticism and the Letter, edited by Madeleine Callaghan and Anthony
+                Howe, 61–82. London: Palgrave Macmillan, 2020.</p>
+              
+            <p>Wolfson, Susan, and Peter Manning, eds. Longman Anthology of English Literature, 5th ed.. Vol. 2A. Boston: Pearson, 2012.</p>
+              
+            <p>Woof, Pamela. “Dorothy Wordsworth and Old Age,” Wordsworth Circle 46, no. 3 (2015), 156–76.</p>
+              
+            <p>———. “Dorothy Wordsworth’s Grasmere Journals: The Patterns and Pressures of Composition.” In Romantic Revisions, edited by Robert
+                Brinkley and Keith Hanley, 169–90. Cambridge: Cambridge UP, 1992.</p>
+              
+            <p>———. Dorothy Wordsworth: Wonders of the Everyday. Grasmere: Wordsworth Trust, 1988.</p>
+              
+            <p>———. Dorothy Wordsworth, Writer. Grasmere: Wordsworth Trust, 2013.</p>
+              
+            <p>———, ed. Dorothy Wordsworth: The Grasmere and Alfoxden Journals. Oxford World’s Classics. Oxford: Oxford P, 2002.</p>
+              
+            <p>Wordsworth, Christopher. Memoirs of William Wordsworth. 2 vols. Edited by Henry Reed. Boston: Ticknor, Reed, and Fields, 1851.</p>
+              
+            <p>———. “The Letters of Dora Wordsworth to Maria Kinnaird (1826–1843).” Edited by John O. Hayden. Wordsworth Circle 15, no. 4
+                (1984), 142–68.</p>
+              
+            <p>Wordsworth, Dorothy. Dorothy Wordsworth’s Illustrated Lakeland Journals. London: Diamond, 1992.</p>
+              
+            <p>———. Journals of Dorothy Wordsworth. Edited by Helen Darbishire. Oxford: Oxford UP, 1958.</p>
+              
+            <p>———. Journals of Dorothy Wordsworth. 2nd ed. Edited by Mary Moorman. Introduction by Helen Darbishire. Oxford: Oxford UP, 1971.</p>
+              
+            <p>———. The Earliest Poems, 1785–1790. Edited by Duncan Wu. Manchester: Carcanet, 2002.</p>
+              
+            <p>———. The Grasmere and Alfoxden Journals. Edited by Pamela Woof. Oxford: Oxford UP, 2002.</p>
+            <p>———. Recollections of a Tour Made in Scotland, A. D. 1803. Edited by John Campbell Shairp. Edinburgh: Edmonston and Douglas, 1874.</p>
+              
+            <p>———. Recollections of a Tour Made in Scotland. Edited by Carol Kyros Walker. New Haven: Yale UP, 1997.</p>
+              
+            <p>Wordsworth, William. A Guide through the District of the Lakes in the North of England, with a Description of the Scenery, for the Use of Tourists and Residents. 5th ed. Kendal: Hudson and Nicholson, 1835.</p>
+              
+            <p>———. Description of the Scenery of the Lakes in the North of England. 3rd ed. London: Longman, 1822.</p>
+              
+            <p>———. Description of the Scenery of the Lakes in the North of England. 4th ed. London: Longman, 1823.</p>
+              
+            <p>———. Guide to the Lakes. Edited by Ernest de Sélincourt. Oxford: Humphrey Milford, 1926.</p>
+              
+            <p>———. Last Poems, 1821–1850. Edited by Jared Curtis. Ithaca: Cornell UP, 1999.</p>
+              
+            <p>———. The Major Works. Edited by Stephen Gill. Oxford’s World’s Classics. Oxford: Oxford UP, 2011.</p>
+              
+            <p>———. Poems by William Wordsworth: Including Lyrical Ballads, and the Miscellaneous Pieces of the Author. 2
+                vols. London: Longman, 1815.</p>
+              
+            <p>———. Poems, Chiefly of Early and Late Years. London: Moxon, 1842.</p>
+              
+            <p>———. Selected Prose. Edited by John O. Hayden. New York: Penguin, 1988.</p>
+            
+            <p>———. Select Views in Cumberland, Westmoreland, and Lancashire (letterpress only). London: Ackermann, 1810.</p>
+              
+            <p>———. The Poetic Works of William Wordsworth. 6 vols. London: Moxon, 1836.</p>
+              
+            <p>———. The Poetical Works of William Wordsworth. 6 vols. London: Moxon, 1870.</p>
+              
+            <p>———. The River Duddon, A Series of Sonnets; Vaudracour and Julia, and Other Poems; to which is Annexed a Topographical Description of the Country of the Lakes in the North of England. London: Longman, 1820.</p>
+              
+            <p>———. The Sonnets of William Wordsworth. London: Moxon, 1838.</p>
+              
+            <p>“Wordsworth’s Scenery of the Lakes.” New European Magazine 1 (December 1822): 490–97.</p>
+              
+            <p>Worthen, John. The Gang: Coleridge, the Hutchinsons, and the Wordsworths in 1802. New Haven: Yale UP, 2001.</p>
+              
+            <p>Zimmerman, Sarah M. “Dorothy Wordsworth and the Liabilities of Literary Production.” In Romanticism, Lyricism, and History, 113–46. Albany: State
+                U of New York P, 1999.</p>
+              
+        </body>
+    </text>
+</TEI>
