@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Introduction to &#8216;Excursion up Scawfell Pike&#8217; (1818)                   
+                </title>
+  
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                
+                <author role="secondary">
+                    <name>Paul Westover</name>
+                </author>
+                
+                <editor role="editor">Paul Westover</editor> 
+                             
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.SP-intro</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction to &#8216;Excursion up Scawfell Pike&#8217;
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.SP-intro"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Lavender Earnest</name>
+                <date>2022-09-21</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    <text>
+        <body>
+            <div type="paratext">
+                
+            <head><title level="m">5. Introduction to <title level="a">Excursion up Scawfell Pike</title> (1818)</title></head>
+            <p>Paul Westover</p>
+                
+            <p>I. Contexts</p>
+            <list rend="numbered">
+                <item><ref target="Overview">Overview</ref></item>
+                <item><ref target="Background">Background Story</ref></item>
+                <item><ref target="Afterlives">Afterlives: Dorothy’s Mark on the Mountains</ref></item>
+            </list>
+                
+            <p>II. Textual and Editorial Issues</p>
+            <list rend="numbered">
+                <item><ref target="MSS">Manuscript Witnesses and Related Primary Sources</ref></item>
+                <item><ref target="Editorial">Editorial Principles</ref></item>
+                <item><ref target="DWandWW" xml:space="preserve">Dorothy’s Account vs. William's Guide to the Lakes</ref></item>
+                <item><ref target="Editions">Post-Guide Editions of the Text</ref></item>
+            </list>
+                
+            <p>I. Contexts</p>
+            <p>A. <anchor xml:id="Overview"/>Overview</p>
+            <p>This section of our edition features Dorothy Wordsworth’s account of climbing Scafell Pike,<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt">“Scaw Fell” and “Scawfell” were common
+                                spellings in DW’s time, but today the accepted form is “Scafell
+                                Pike.”</hi></p></note></hi> England’s highest mountain, in 1818. A
+                revised and abbreviated version of the text </p>
+            <p>appeared under her brother William’s name in his
+                <hi rend="italic" xml:space="preserve">Description of the Scenery of the Lakes in </hi></p>
+            <p><hi rend="italic">the North of England</hi> (1822), the first stand-alone edition of
+                the work, now commonly known as Wordsworth’s <hi rend="italic">Guide to the
+                    Lakes</hi> (figs. 5.1 and 5.2).<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote">
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">A Description of the Scenery of the Lakes in the North of England </hi><hi style="font-size:11pt" xml:space="preserve">(1822) was the third printing of WW’s essay but the first in the form of a guidebook. On the textual history of Wordsworth’s </hi><hi
+                                rend="italic" style="font-size:11pt"
+                                >Guide</hi><hi style="font-size:11pt" xml:space="preserve">, see the 2015 </hi><ref
+                                target="https://romantic-circles.org/editions/guide_lakes"><hi
+                                    style="font-family:PT Sans;font-size:11pt">Romantic Circles
+                                    digital critical edition</hi></ref><hi style="font-size:11pt">,
+                                ed. Mason, Westover, and Stimpson.</hi>
+                        </p></note></hi> Since subsequent editions of William’s <hi rend="italic"
+                    >Guide</hi> continued to present her description of the ascent as his, Dorothy’s
+                authorship was not broadly acknowledged until 1941, when Ernest de Sélincourt
+                included the full text in his important edition of her journals.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"><hi style="font-size:11pt" xml:space="preserve"> “Excursion up Scawfell Pike” is the final item in De Sélincourt’s</hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">DWJ, </hi><hi style="font-size:11pt" xml:space="preserve">vol. 1 (423–30). De Sélincourt had earlier described and quoted from “Excursion” in his 1933 </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">DWB </hi><hi style="font-size:11pt" xml:space="preserve">(313–16), but this was the first time the text was presented in full. </hi></p></note></hi></p>
+            <p>In the <hi rend="italic">Guide</hi>, William introduced Dorothy’s narrative as an
+                “extract from a letter to a Friend.”<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">WW’s “extract from a letter” explanation first appeared in the 1822 </hi><hi
+                                rend="italic" style="font-size:11pt"
+                                >Guide</hi><hi style="font-size:11pt" xml:space="preserve"> (129). [Link to 5e Scawfell C</hi><hi
+                                style="font-family:PT Sans;font-size:11pt"
+                                >—--</hi><hi style="font-size:11pt" xml:space="preserve">1822 </hi><hi
+                                rend="italic" style="font-size:11pt">Guide</hi><hi
+                                style="font-size:11pt">, para. 1 of
+                    transcription.]</hi></p></note></hi> While this attribution was technically
+                accurate, as Dorothy did send the account in a letter to their mutual friend, the
+                Reverend William Johnson, William never mentioned that the source was his <hi
+                    rend="italic">sister’s</hi> letter, leaving readers to assume that he was its
+                author. Later writers of travel books, drawing on the <hi rend="italic">Guide</hi>,
+                enthusiastically quoted Dorothy’s language as if it were William’s and supposed that
+                he had made the climb. For over a century, then, devotees of the poet intent on
+                emulating his ascent remained unaware that it was, in fact, Dorothy’s footsteps that
+                they were retracing.</p>
+            <figure>
+                <graphic n="1001" width="5.278783333333333cm" height="9.263769444444444cm"
+                    url="media/image1.jpeg" rend="inline"/>
+                <graphic n="1002" width="9.776047222222223cm" height="4.499783333333333cm"
+                    url="media/image2.jpeg" rend="inline"/>
+            </figure>
+            <p>Figures 5.1 and 5.2: (Left) Title page from William Wordsworth’s <hi rend="italic"
+                    >Description of the Scenery of the Lakes in the North of England</hi>. (Right)
+                Selection from the book’s table of contents, showing “Ascent to the Top of
+                Scawfell.” (Courtesy: Brigham Young University, Harold B. Lee Library)</p>
+            <p>Dorothy’s description of her ascent, which De Sélincourt called “Excursion up
+                Scawfell Pike,” is remarkable for at least two related reasons. First, it is a
+                landmark in the history of British mountaineering—one of the earliest reports of a
+                recreational climb of Scafell Pike (3,209 ft., or 978 m) and the first by a
+                    woman.<note place="end"><p rend="endnote text"
+                        ><hi style="font-size:11pt" xml:space="preserve"> DW’s account of climbing Scafell Pike was not quite the first. In </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">The Tourist’s New Guide </hi><hi style="font-size:11pt" xml:space="preserve">(1819), William Green described summiting the mountain with Jonathan Otley in September 1816 and noted that Otley had already done so with Edward Birkett in June 1815 (2:318–26). If, as Green claims, he began writing his book in late 1816 and printing it in 1817 (1:vii), his account predated DW’s. It was certainly first in print, as DW’s did not appear until 1822. </hi>
+                    </p></note> Second, it captures an aspect of Dorothy’s life that has sometimes
+                been overlooked. Dorothy Wordsworth was a prodigious walker—this fact is well
+                known—but her pioneering achievements as a mountaineer have insufficiently shaped
+                the public’s memory of her.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Happily, recent scholarship has helped bring DW’s mountaineering into view. See especially Simon Bainbridge’s </hi><hi
+                                rend="italic" style="font-size:11pt">Mountaineering and British
+                                Romanticism</hi><hi style="font-size:11pt" xml:space="preserve">, chapter 7. </hi></p></note></hi>
+                “Excursion” helps us reimagine Dorothy on the fells, representing one of her most
+                dramatic walks in the vibrant prose for which she is famous. </p>
+            <p>Of course, recovering Dorothy’s place in mountaineering history requires bringing her
+                “Excursion” out of the shadow of her brother’s writing. One admirer subtly pointed
+                this out in 1855, the year of Dorothy’s death. In a letter to the editor of the <hi
+                    rend="italic">Kendal Mercury</hi>, venerable mountain guide Jonathan Otley
+                hinted that there was more to tell about the now-famous Scafell Pike adventure: “The
+                story of the ascent of Scawfell, in Wordsworth’s Guide, said in some former editions
+                to be extracted from a letter to a friend; and in the last edition from a letter by
+                a friend, is well told, and is good as far as it goes; but it might have been
+                improved by a prefatory introduction, and extended by an appendix.”<note place="end"
+                        ><p rend="Times NR 10 footnote"><hi style="font-size:11pt" xml:space="preserve"> Appearing in the 26 May 1855 issue under the anagrammatic pen name “Anthony Loajet,” Otley’s</hi>
+                        <hi rend="italic" style="font-size:11pt" xml:space="preserve">Kendal Mercury </hi><hi style="font-size:11pt" xml:space="preserve">letter was occasioned by the recent publication of Harriet Martineau’s </hi><hi
+                            rend="italic" style="font-size:11pt">Complete Guide to the English
+                            Lakes</hi><hi style="font-size:11pt" xml:space="preserve">. Although he did not say so, he must have known that DW (recently deceased) was the letter-writing “friend.” The textual change he mentions occurred in the second and third editions of Hudson’s </hi>
+                        <hi rend="italic" style="font-size:11pt">A Complete Guide to the
+                            Lakes</hi><hi style="font-size:11pt" xml:space="preserve"> (1843, 1846), which incorporated WW’s </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Guide </hi><hi
+                            style="font-size:11pt">but added supplementary
+                    materials.</hi></p></note> Our introduction and editorial apparatus should
+                perform the record-expanding services that Otley imagined, restoring a historic
+                experience and its documentation to the rightful owner: Dorothy Wordsworth. </p>
+            <p><anchor xml:id="Background"/>B. Background Story</p>
+            <p>On Wednesday, 7 October 1818, Dorothy Wordsworth (age 46) and her friend Mary Barker
+                (age 44) climbed Scafell Pike, the highest mountain in England. They were joined by
+                a shepherd-guide (John Allison, Barker’s neighbor), a porter, and Barker’s maid
+                (Agnes)—none of whom were named in Dorothy’s account of the adventure.<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> We owe the names of John Allison (1787–1855) and Agnes to Otley, who includes them in the </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Kendal Mercury </hi><hi
+                                style="font-size:11pt">letter previously cited. Otley was unreliable
+                                in some details, but he knew the people concerned and was sound in
+                                his basic recollections. While the names of the maid and guide do
+                                not appear in DW’s narrative, we include them in part to counteract
+                                the tendency to mythologize writer-mountaineers while overlooking
+                                those who accompanied them and helped make their accomplishments
+                                possible. Agnes was obviously a fit and trusted companion for Mary
+                                Barker, though we know little more about her. Perhaps John Allison
+                                was no Tenzing Norgay, but he deserves honorable mention in the
+                                history of British mountaineering alongside other shepherd-guides of
+                                the early days. About the unnamed porter, unfortunately, we know
+                                nothing at all.</hi></p><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve">Regarding Agnes, see various letters of SH and DW’s own </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Journal of a Tour on the Continent </hi><hi
+                                style="font-size:11pt">(1820), in which she reports on visiting Mary
+                                Barker at Boulogne. At this reunion, the party “had Borrowdale Agnes
+                                to wait upon us, a little frenchified in exterior, it is true, but
+                                retaining her good Cumberland speech” (</hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">DWJ, </hi><hi style="font-size:11pt" xml:space="preserve">2:331). John Allison’s life is otherwise documented. His grave marker survives at St. Andrew’s Churchyard, Stonethwaite. Fittingly, given his occupation, the stone features a ram and ewe with their lambs and the inscription “Jesus Saith Feed My Sheep.” A brief obituary appeared in the </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Carlisle Patriot </hi><hi style="font-size:11pt" xml:space="preserve">for 27 January: “At Rosthwaite, in Borrowdale, John Allison, on the 22nd inst., Mr. John Allison, yeoman, aged 68.” Given that Allison and DW passed away within three days of each other in January 1855, Otley’s May letter can perhaps be understood as a tribute to both. </hi></p></note></hi>
+                They walked an ambitious nine-mile loop that took the better part of a day: Dorothy
+                reports setting out in the morning and finishing as the first stars appeared over
+                Borrowdale.</p>
+            <p>For Dorothy, this hike was the culmination of a season spent among brilliant
+                associates. Her old acquaintance William Wilberforce, the statesman and
+                abolitionist, had arrived in the Lake District with his family in late August 1818
+                and spent most of September at Rydal to be near the Wordsworths. Sir George and Lady
+                Beaumont, dear friends and prominent art patrons, also visited Rydal in
+                    September.<note place="end"><p rend="endnote text"
+                        ><hi style="font-size:11pt" xml:space="preserve"> Prior to this, the Beaumonts had been visiting mutual friends, the Marshalls, at Hallsteads on Ullswater—perhaps one reason why DW wrote to Jane Marshall on 14 October to report on recent adventures. </hi></p></note>
+                In early October, the Wilberforces decamped to nearby Keswick, where Dorothy and the
+                Beaumonts soon joined them. (William Wordsworth, meanwhile, was occupied with
+                political business.)<note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> WW missed out on several opportunities that year due to absorption in the Westmorland election and its aftermath. In late June, John Keats tried to visit him at Rydal Mount and lamented that the older poet was out canvassing for the Lowther interest. Famously, several writers of the younger generation condemned his active engagement in Tory politics. DW, for her part, supported WW’s efforts. For accounts of DW’s Scafell Pike walk set against the context of late 1818, see </hi><hi
+                            rend="italic" style="font-size:11pt">DWB</hi><hi style="font-size:11pt" xml:space="preserve">, chapter 16 and </hi>
+                        <hi rend="italic" style="font-size:11pt"
+                        >Gittings</hi><hi style="font-size:11pt" xml:space="preserve">, chapter 15. </hi>
+                    </p></note> Learning of this gathering in Keswick, Mary Barker invited the whole
+                group to dine at her new home in Rosthwaite, Borrowdale, six miles to the south
+                (fig. 5.3). </p>
+            <figure>
+                <graphic n="1003" width="10.287080555555555cm" height="6.855852777777778cm"
+                    url="media/image3.jpeg" rend="inline"/>
+            </figure>
+            <p>Figure 5.3: The Scafell Hotel in scenic Rosthwaite, Borrowdale, originally the home
+                of Mary Barker. It has long been a launching point for walks in the mountains.
+                (Photo: Paul Westover, October 2018)</p>
+            <p>A writer, artist, and music teacher, Mary Barker had lived next door to the Robert
+                Southey family in Keswick between 1812 and 1817. She soon became intimate with the
+                larger “Lake Poet” circle, and in 1814, Dorothy described her to Catherine Clarkson
+                as the epitome of “Generosity, Frankness, Sincerity, and perfect
+                    disinterestedness.”<note place="end"><p rend="endnote text"><hi style="font-size:11pt" xml:space="preserve"> In her letter to Caroline Clarkson, 24 April 1814, DW takes Barker’s part in a dispute with the Southey and Coleridge women next door. She and Barker had been nursing Basil Montagu junior together for several weeks, and this had been an important season for the solidification of their friendship (</hi>
+                        <hi rend="italic" style="font-size:11pt">Letters</hi><hi
+                            style="font-size:11pt">, 3:137–44).</hi></p></note> Dorothy also
+                mentioned her friend’s “warm temper” and “disdain [for concealing] her opinions.”
+                Barker was passionate, funny, and independent.<note place="end"><p
+                        rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> Barker’s nicknames included “The Senhora,” “The Colonel,” and “The Major.” Gittings characterizes Barker as a “rollicking spinster” (215), and Susan Wolfson as a “gender-fluid personality” (“Two Wordsworths,” 69). The most thorough biographical treatment of Barker is David Bradbury’s </hi><hi
+                            rend="italic" style="font-size:11pt">Senhora Small Fry: Mary Barker and
+                            the Lake
+                            Poets</hi><hi style="font-size:11pt" xml:space="preserve"> (2003). Barker is a major presence in Southey’s correspondence, and she sometimes appears in footnotes to literary history as the author of a 1798 novel, </hi><hi
+                            rend="italic" style="font-size:11pt">A Welsh
+                            Story</hi><hi style="font-size:11pt" xml:space="preserve">; as the “Bhow Begum” of Southey’s </hi><hi
+                            rend="italic" style="font-size:11pt">The
+                        Doctor</hi><hi style="font-size:11pt" xml:space="preserve">; or as the writer of the satirical “Lines Addressed to a Noble Lord [Lord Byron] by one of the Small Fry of the Lakes.” </hi></p></note>
+            </p>
+            <p>Though impractical,<note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> Southey dubbed Barker’s new home “Barker’s Folly,” in part because it overtaxed her income (see letter </hi><ref
+                            target="https://romantic-circles.org/editions/southey_letters/Part_Five/HTML/letterEEd.26.2854.html"
+                                ><hi style="font-family:PT Sans;font-size:11pt"
+                            >2584</hi></ref><hi style="font-size:11pt" xml:space="preserve"> in </hi><hi
+                            rend="italic" style="font-size:11pt">Romantic Circles Electronic
+                            Edition</hi><hi style="font-size:11pt" xml:space="preserve">). Sara Coleridge offered details in a 4 June 1819 letter: “Our friend, Miss Barker . . . [,] with an annuity of 400 a year, and 1200 pounds in money . . . [,] is obliged to leave us, and a house in Borrowdale half finished (the foolish building of which, has caused this temporary ruin) and retire to France to live in her Uncle’s house, at Boulogne until her annuity can pay her debts. This is the precious fruits of having </hi><hi
+                            rend="italic" style="font-size:11pt">a taste for
+                            magnificence</hi><hi style="font-size:11pt" xml:space="preserve">. We are sorry to part with her, and so are the Wordsworths, for she was lively, sensible, and accomplished” (Potter, </hi><hi
+                            rend="italic" style="font-size:11pt">Minnow among
+                        Tritons</hi><hi style="font-size:11pt" xml:space="preserve">, 76). Because Barker moved to Boulogne in 1819 and never returned to England, the October 1818 walk was one of the last chances for her and DW to make such a memory. </hi></p></note>
+                relatively isolated, and built alongside a flood-prone branch of the River Derwent,
+                Mary Barker’s new home was nonetheless ideal for hosting friends who shared her
+                taste for mountain scenery.<note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> William Green mentioned Barker’s new home and its setting in his </hi><hi
+                            rend="italic" style="font-size:11pt">Tourist’s New
+                        Guide</hi><hi style="font-size:11pt" xml:space="preserve"> (1819): “On the banks of the Stonethwaite arm of the Derwent, there has recently been erected, by Miss Barker, an excellent house, commanding a fine view over the river. . . . There is scarcely amongst these northern vallies, a place, in which an equally valuable collection of painters’ studies may be so speedily collected, as from the environs of Rosthwaite” (2:136). </hi>
+                    </p></note> Dorothy went there on the morning of 5 October, possibly to help
+                with preparations for the dinner. Then, on 6 October, the Wilberforce entourage and
+                the Beaumonts made their way into Borrowdale “with store of provisions,” while
+                Barker “provided vegetables, etc.”<note place="end"><p rend="Times NR 10 footnote"
+                            ><hi style="font-size:11pt" xml:space="preserve"> These details appear in DW’s letter to Jane Marshall, 14 October 1818 (</hi><hi
+                            rend="italic" style="font-size:11pt">Letters</hi><hi
+                            style="font-size:11pt">, 3:494–97).</hi>
+                    </p></note> In a period famous for its “immortal” dinners, this was a gathering
+                worthy of remembrance. </p>
+            <p>In the course of conversation, the Wilberforces expressed their intent to ride up
+                Skiddaw (3,054 ft., 931 m), the far-famed mountain overlooking Keswick, on the
+                following morning, and the Beaumonts pledged to accompany them. Wilberforce would be
+                revisiting an ascent he made years earlier while touring the Lakes as a young man.
+                Accordingly, most of the visitors returned to Keswick for the night, looking forward
+                to their outing, but Dorothy stayed at Rosthwaite. She and her host settled on their
+                own hiking plan. Thus, as Dorothy reports, she and Mary Barker summited Scafell Pike
+                on the same day their friends explored Skiddaw, 14 miles to the north. The Skiddaw
+                excursion was less ambitious than the Scafell Pike ascent; still, as Wilberforce was
+                in his late 50s and the Beaumonts in their 60s, none of them in perfect health, we
+                should admire the spirit of this group as well—not least because they got a good
+                wetting in the rain.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> The Skiddaw ascent must have been a challenge for at least some of the group. William Green, who coincidentally met with the party on the mountain, left a humorous journal entry in which he described Sir George Beaumont as “Sir George Breadth” (original owned by Lakeland Arts in Kendal). Green himself was now in his late 50s but was still an enthusiastic walker of the fells. </hi></p></note></hi>
+                Meanwhile, from high in the mountains above Borrowdale, Dorothy and Mary, enjoying
+                comparatively mild weather themselves, saw rainbows over Skiddaw and felt grateful
+                that the weather had eventually cleared for their friends. </p>
+            <p>Dorothy and Mary Barker did not at first aim to climb Scafell Pike—their original
+                goal was to ascend Esk Hause (2,490 ft.), a high pass that on a clear day would
+                afford excellent views of the surrounding peaks and valleys. Barker, of late “an
+                active climber of the hills,” had recently been to Esk Hause and was eager to share
+                the “magnificent prospect.”<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"><hi style="font-size:11pt" xml:space="preserve"> We are indebted to Otley for this knowledge, though DW hints at it by mentioning that Barker confidently promised her fantastic views from Esk Hause. On the earlier occasion, Otley reports, “Miss B. was so enraptured with the prospect that it was not till her maid reminded her that the sun was going down, that she could think of leaving the place; vowing that she would visit it again ere long.” She and Agnes had to find their own way down into Borrowdale, having been abandoned by their guide. At Seathwaite, they happened to meet John Allison, who promised to “direct [Miss Barker] by a better route than the one by which she had descended.” Later, when DW visited, “[the friends] fixed upon an excursion, and called upon Mr. Allinson [</hi>
+                            <hi rend="italic" style="font-size:11pt">sic</hi><hi
+                                style="font-size:11pt">] to redeem his promise” (</hi><hi
+                                rend="italic" style="font-size:11pt">Kendal
+                            Mercury,</hi><hi style="font-size:11pt" xml:space="preserve"> 26 May 1855, 6). </hi></p></note></hi>
+                However, when the friends arrived at the pass, they decided to press on. As Dorothy
+                reports, their “spirit of enterprise” did not fail, and they climbed where, so far
+                as we can tell, few other recreational walkers had been. </p>
+            <p>Because it was a fine day, they could see for miles in every direction.
+                Heart-stopping views like this were relatively uncommon in an age unfamiliar with
+                air travel and satellite imagery. However, Dorothy characteristically noticed
+                close-range features as well as the vast panorama. She observed, for instance, that
+                the rocks were “covered with never-dying lichens . . . adorn[ed] with colours of the
+                most vivid and exquisite beauty.” She also observed the extreme silence of the
+                summit, having had the sound of mountain streams in her ears for much of the
+                ascent.</p>
+            <p rend="List Paragraph">Despite her emphasis on accurate description, Dorothy explored
+                the limits of her perceptions. Looking out from the mountain to the sea (over 12
+                miles away), she supposed she saw a ship. “<hi rend="italic">Is</hi> it a ship?” her
+                smiling guide asked. Barker quickly supported Dorothy’s conclusion: “A ship, yes, it
+                can be nothing else.” However, a moment later, the “ship” had become a horse, for in
+                fact the friends had been watching a cloud. Dorothy enjoyed this joke on herself,
+                resolving to remember it when she was “again inclined to positiveness.” Like many
+                great Romantic texts, Dorothy’s “Excursion” reminds us that what we see depends to
+                some extent on prior experience, perspective, and imagination. </p>
+            <p>Reading Dorothy’s account, one gets the impression that she was pleased with herself,
+                and rightly so. She remarks upon the “continuance of that vigour of body, which
+                enabled me to climb the high mountain, as in the days of my youth” and reports that
+                she and Barker each dashed off a triumphant letter to Sara Hutchinson<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"><hi style="font-size:11pt" xml:space="preserve"> SH was of course the sister of WW’s wife, Mary, close to DW, and a friend also to Mary Barker. A keen mountaineer in her own right, she was an integral part of the Wordsworth circle, perhaps most famous now for being the longtime object of STC’s passion. She may be the most important shadow character in the history of DW’s Scafell Pike ascent and the writing that emerged from it. On this subject, see our speculations in paragraph [X—insert link when body paragraphs are numbered] on DW’s memory of STC’s 1802 Scafell ascent and also our appendix on the Kenyon Transcript [</hi>
+                            <hi rend="color(0070C0)" style="font-size:11pt">insert
+                            link</hi><hi style="font-size:11pt" xml:space="preserve">]. </hi></p></note></hi>
+                from the summit. (It is remarkable to think of them carrying pens, paper, and ink,
+                if not also something to write on—no wonder they secured the help of a porter!) A
+                week later, Dorothy wrote briefly about the experience to her old friend Jane
+                    Marshall,<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> Jane Marshall (née Pollard) [link to personography] and DW had been friends since their childhood days in Halifax. Jane was married to John Marshall, a wealthy linen manufacturer and politician from Leeds, and now lived at Hallsteads, a fine house on the shore of Ullswater near Watermillock. </hi>
+                        </p></note></hi> and a week after that she composed the longer, more
+                circumstantial letter to William Johnson that forms (indirectly, as explained in our
+                textual and editorial section) the basis of our edited text, speaking of the “feat”
+                she and Barker had performed and aptly calling it an “uncommon performance.” Then,
+                before mailing the letter, she copied it into one of her notebooks for preservation.
+                She and her companion had broken with social convention and done something worth
+                remembering and sharing. Part of their enjoyment, clearly, was writing about it.</p>
+            <p>C. <anchor xml:id="Afterlives"/>Afterlives: Dorothy’s Mark on the Mountains</p>
+            <p>When Dorothy Wordsworth climbed Scafell Pike, this mountain—which had been proven to
+                be England’s highest peak by Joseph Banks’s Trigonometrical Survey in 1790<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Though the Trigonometrical Survey had confirmed the preeminence of Scafell Pike, it appears that the news was not yet universally accepted. DW and Mary Barker thought that neighboring Scafell was the higher peak and found out otherwise only after their ascent. Then, in the </hi><hi
+                                rend="italic" style="font-size:11pt">Guide</hi><hi style="font-size:11pt" xml:space="preserve">, WW introduced DW’s account by saying that it recorded “a visit to a summit of one of the highest of these mountains,” as if he were not certain of its claim to be </hi>
+                            <hi rend="italic" style="font-size:11pt"
+                                >the</hi><hi style="font-size:11pt" xml:space="preserve"> highest (</hi><hi
+                                rend="italic" style="font-size:11pt">A Description of the Scenery of
+                                the
+                                Lakes</hi><hi style="font-size:11pt" xml:space="preserve"> [1822], 130—or </hi><ref
+                                target="https://romantic-circles.org/editions/guide_lakes/editions.2020.guide_lakes.1835.html#:~:text=BANKS%20OF%20ULSWATER.-,117,-.%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0It%20was%20my"
+                                    ><hi style="font-family:PT Sans;font-size:11pt" xml:space="preserve">para. 117 in the 1835 </hi><hi rend="italic" style="font-family:PT Sans;font-size:11pt" xml:space="preserve">Guide </hi><hi
+                                    style="font-family:PT Sans;font-size:11pt"
+                            >text</hi></ref><hi style="font-size:11pt" xml:space="preserve">). </hi></p></note></hi>—was
+                not yet on the beaten tourist trail. While highland walking had increased in
+                popularity in recent years, the vast majority of Lake District pedestrians tended to
+                stick to well-established routes around the central valleys.<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote">
+                            <hi style="font-size:11pt" xml:space="preserve">WW makes this point himself in </hi>
+                            <hi rend="italic" style="font-size:11pt">Select Views</hi><hi
+                                style="font-size:11pt">: “But it must be observed that the visits of
+                                travellers are for the most part confined to the Vales of Coniston,
+                                Winandermere with the intermediate country between Ambleside and
+                                Keswick, the Vale of Keswick itself, Buttermere, and Ulswater, which
+                                are the most easy of access, and indeed from their several
+                                characters most likely to repay general curiosity” (iii—</hi><ref
+                                target="https://romantic-circles.org/editions/guide_lakes/editions.2020.guide_lakes.1810.html#:~:text=of%20the%20wheel.-,4.%C2%A0,-Such%2C%20concisely%20given"
+                                    ><hi style="font-family:PT Sans;font-size:11pt">para.
+                                4</hi></ref>
+                            <hi rend="color(0070C0)" style="font-size:11pt" xml:space="preserve">in </hi><hi style="font-size:11pt" xml:space="preserve">RC </hi><hi
+                                rend="italic" style="font-size:11pt">Select Views
+                                edition</hi><hi style="font-size:11pt" xml:space="preserve">). In short, Romantic-era visitors normally looked </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >up</hi><hi style="font-size:11pt" xml:space="preserve"> at the Lake District’s mountains, and when (increasingly) they did seek out the high places, they usually climbed Skiddaw or the more challenging Helvellyn. </hi></p></note></hi>
+                Maps of the mountains included limited detail, and those enterprising tourists who
+                did explore them generally depended on local guides. In subsequent decades, of
+                course, mountain walks became common practice and guidebook staples. Scafell Pike in
+                particular became a rite of passage for Lakeland peak-baggers. Dorothy and her
+                friends played a part in bringing about this shift, though relatively few people
+                knew this. </p>
+            <p>The perennial challenge in studies of Dorothy Wordsworth has been her tendency to
+                disappear, a propensity abetted by William’s habit of absorbing her work and by
+                models of literary history that have undervalued the kinds of writing she did and
+                the methods she used to share it. Readers often locate her influence indirectly, in
+                poems of William’s that rework her journal entries, in letters that reveal her
+                collaboration, and so forth, but except on occasions when William mentions her
+                directly or includes her verses in his collections, it is often difficult to say,
+                “There it is—there’s Dorothy’s mark.” </p>
+            <p>Yet Dorothy’s mark is visible on England’s highest mountain, where walkers have
+                unwittingly followed her footsteps for two centuries now. Almost literally, you find
+                those footsteps inscribed on the landscape in the form of trails (fig. 5.4). To be
+                sure, many aspects of trail-making are determined by practical factors unrelated to
+                literary history, but Dorothy’s Scafell Pike route has endured partly because of her
+                writing’s intersection with the nineteenth century’s multiplication of maps and
+                guidebooks.</p>
+            <figure>
+                <graphic n="1004" width="10.181319444444444cm" height="9.54086388888889cm"
+                    url="media/image4.png" rend="inline"/>
+            </figure>
+            <p>Figure 5.4: The route taken by Dorothy Wordsworth, Mary Barker, and their companions
+                on 7 October 1818, ascending from Seathwaite via Grains Gill and returning by way of
+                Sty Head. This loop remains easily traceable on maps today. (Created by Paul
+                Westover and Teresa Gomez, Brigham Young University) </p>
+            <p>Dorothy observed of Scafell Pike’s rocky summit, “No gems or flowers can surpass in
+                colouring the beauty of some of these masses of stone which no human eye beholds
+                except the shepherd led thither by chance or traveler by curiosity; and how seldom
+                this must happen!”—seldom because, as she noted, sheep would find little in the
+                rocks to eat, and because recreational fell-walking there was still in its early
+                days. However, once Dorothy’s letter found its way into William’s <hi rend="italic"
+                    >Guide</hi>, a transformative process began. By incorporating Dorothy’s ascent
+                narrative (not far removed in genre from accounts that would later appear in Alfred
+                Wainwright’s books and on trekking websites), the <hi rend="italic">Guide</hi> made
+                it a permanent part of the tourist literature and encouraged readers to imagine and
+                undertake their own mountain ascents. </p>
+            <p>Just as importantly, William’s
+                <hi rend="italic" xml:space="preserve">Guide </hi>provided material that would be
+                recycled by other travel writers. Numerous Lakeland guidebooks of the Victorian era,
+                including Harriet Martineau’s famous <hi rend="italic">Complete Guide</hi> (fig.
+                5.5), lingered on the <hi rend="italic">Guide</hi>’s description of climbing Scafell
+                Pike. Normally, writers attributed the description to William, if they attributed it
+                at all, but in doing so they enshrined Dorothy’s descriptive language and
+                    itinerary.<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> At times, DW’s text was (mis-)cited with comical results. Consider Henry S. Salt’s </hi><hi
+                                rend="italic" style="font-size:11pt">On Cambrian and Cumbrian Hills:
+                                Pilgrimages to Snowdon and
+                                Scawfell</hi><hi style="font-size:11pt" xml:space="preserve"> (1908). Salt praises certain descriptions by poets like WW and Walter Scott but gripes that “on the whole . . . the poets have written about mountains as if they had never set foot on them, but had been content to take the panoramic ‘views’ of them from afar” (46). As evidence, he cites WW’s </hi><hi
+                                rend="italic" style="font-size:11pt">Guide</hi><hi style="font-size:11pt" xml:space="preserve">: “Even Wordsworth’s prose account of his ascent from Seathwaite ‘to the top of the ridge, called Ash Course,’ makes one suspect that his real acquaintance with the hills was very slight; indeed his corruption of the guide’s pronunciation of ‘Esk Hause’ . . . into the absurdity of ‘Ash Course,’ shows that he had but little sympathetic knowledge either of the nomenclature of the hills or of the dialect of the hillmen” (46). This sort of thing can happen when you publish your sister’s work as your own; by compressing her account, you make it less nuanced. DW mentions that “Ash Course” must be a corruption of “Esk Hause” and even provides the etymology for </hi>
+                            <hi rend="italic" style="font-size:11pt"
+                                >Hause</hi><hi style="font-size:11pt" xml:space="preserve">, the normal word for a mountain saddle in the region. WW’s </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >Guide</hi><hi style="font-size:11pt" xml:space="preserve"> cuts out her chatty and interesting explanation, leaving Salt, the latter-day man of the mountains, to conclude that the poet was ignorant. </hi></p></note></hi>
+            </p>
+            <figure>
+                <graphic n="1005" width="8.275241666666666cm" height="6.2064361111111115cm"
+                    url="media/image5.jpeg" rend="inline"/>
+            </figure>
+            <p>Figure 5.5: The Scafell Pike section of Martineau’s <hi rend="italic">Complete Guide
+                    to the English Lakes</hi> (1855 pocket edition), which quotes extensively from
+                Dorothy’s account by way of William’s <hi rend="italic">Guide</hi>. Note the imprint
+                from a pressed flower, which suggests that this was once a favorite section of the
+                volume’s owner. On the following page, Martineau writes, “As far as what is seen
+                from [the peak], the best service to the stranger is still to copy portions of that
+                ‘Letter to a friend’ which Mr. Wordsworth published many years ago, and which is the
+                best account we have of the greatest mountain excursion in England” (138).
+                (Courtesy: Brigham Young University, Harold B. Lee Library)</p>
+            <p>The transmission process continued across many decades, as Dorothy’s (unacknowledged)
+                observations were reprinted, quoted, and remembered by authors of various
+                publications. Their influence reverberated even as far as Wainwright, the patron
+                saint of latter-day Lakeland fell-walkers, who offered his own endorsement of
+                Dorothy’s path in 1960: “Of the many routes of approach to Scafell Pike,” he wrote,
+                “this, from Borrowdale via Esk Hause, is the finest.”<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Wainwright, </hi><hi
+                                rend="italic" style="font-size:11pt">Pictorial Guide to the Lakeland
+                                Fells</hi><hi style="font-size:11pt" xml:space="preserve">, 4: Scafell Pike 18. </hi>
+                        </p></note></hi> A few pages earlier, he specifically recommended the loop
+                Dorothy and her friends followed—ascent via Grains Gill, descent via Sty Head. He
+                might have done this coincidentally, but probably not; he knew Wordsworth’s <hi
+                    rend="italic">Guide</hi>. </p>
+            <p>Hardwicke Rawnsley, writing in <hi rend="italic">Literary Associations of the English
+                    Lakes</hi> (1894), captured both the reach and the essential irony of the
+                reception history of Dorothy’s “Excursion.” Having quoted approvingly from the
+                Scafell Pike section of the <hi rend="italic" xml:space="preserve">Guide </hi>and
+                smiled over its observation (by then quaint) that few travelers summit that
+                mountain, he concluded, “It may well be that never shall we witness such
+                storm-grandeur as it was Wordsworth’s lot to witness when, having climbed hither on
+                a still autumn day, he was bade by his shepherd guide not to linger, for a storm was
+                    coming.”<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">Rawnsley, </hi><hi
+                                rend="italic" style="font-size:11pt">Literary Associations of the
+                                English Lakes</hi><hi style="font-size:11pt">, 1:159–60.</hi>
+                        </p></note></hi> Of course,
+                <hi rend="italic" xml:space="preserve">William </hi>Wordsworth never did witness
+                that storm-grandeur—in fact, he never climbed Scafell Pike at all, so far as records
+                can tell. Rawnsley, like many others, assumed that he had, and his aim was to
+                emphasize that modern pilgrims might stand where the poet had stood. After all, as
+                Rawnsley said, “the wanderer up Borrowdale and the mountains in its vicinity” will
+                always “move” in “the company of chosen spirits.” But which spirits? In the minds of
+                many, the company has always worn trousers, but we hope our edition helps readers
+                correctly imagine skirts and bonnets in the party. </p>
+            <p>The 2018 bicentennial of Dorothy’s Scafell Pike adventure offered a unique occasion
+                to promote awareness of the “Excursion” and its place in history. A cluster of
+                commemorative projects, including an award-nominated exhibition at the Wordsworth
+                Museum in Grasmere, <hi rend="italic">This Girl Did: Dorothy Wordsworth and Women
+                    Mountaineers</hi>; a series of related lectures, magazine articles, and
+                interviews; reenactments of the Scafell Pike and Skiddaw ascents; and a documentary
+                film, combined to make this text more visible than perhaps it has ever been.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Videos associated with the bicentennial may be viewed at the </hi><ref
+                                target="https://www.youtube.com/playlist?list=PLJvHjPhm4PEZBsk5MuJHSeGI5Jf9cpllY"
+                                    ><hi style="font-family:PT Sans;font-size:11pt">Wordsworth
+                                    Grasmere YouTube
+                                channel</hi></ref><hi style="font-size:11pt" xml:space="preserve">. Interviews are available for streaming </hi><ref
+                                target="https://www.bbc.co.uk/sounds/play/m00013tt"><hi
+                                    style="font-family:PT Sans;font-size:11pt"
+                                >here</hi></ref><hi style="font-size:11pt" xml:space="preserve"> and </hi><ref
+                                target="https://www.bbc.co.uk/programmes/m0002r6p"><hi
+                                    style="font-family:PT Sans;font-size:11pt"
+                                >here</hi></ref><hi style="font-size:11pt" xml:space="preserve"> from BBC Radio 4 and from </hi><ref
+                                target="https://www.byuradio.org/c9fe31b6-b491-4f5b-afed-e06f2cfa58b0"
+                                    ><hi style="font-family:PT Sans;font-size:11pt">BYU
+                                Radio</hi></ref><hi style="font-size:11pt" xml:space="preserve">. Jo Taylor’s talk at the opening of the Wordsworth Museum’s </hi><hi
+                                rend="italic" style="font-size:11pt">This Girl
+                                Did</hi><hi style="font-size:11pt" xml:space="preserve"> exhibit is available </hi><ref
+                                target="https://www.youtube.com/watch?v=reVa4SOAZa0"><hi
+                                    style="font-family:PT Sans;font-size:11pt"
+                                >here</hi></ref><hi style="font-size:11pt" xml:space="preserve">. See also Simon Bainbridge’s related December 2018 talk, “’Active Climbers of the Hills’: </hi><ref
+                                target="https://www.youtube.com/watch?v=PSdbk5uvHeA"><hi
+                                    style="font-family:PT Sans;font-size:11pt">Women in the
+                                    Mountains</hi></ref><hi rend="Hyperlink"><seg
+                                    style="font-size:11pt"
+                                >,</seg></hi><hi style="font-size:11pt" xml:space="preserve">” and his </hi><hi
+                                rend="italic" style="font-size:11pt">Mountaineering and British
+                                Romanticism</hi><hi style="font-size:11pt" xml:space="preserve"> (Oxford UP, 2020), which both details and contextualizes DW’s mountain-climbing career.</hi></p></note></hi>
+                This digital edition further aids in this effort, not only by celebrating Dorothy’s
+                descriptive prose but also by providing illustrations that will help readers
+                visualize the route she and Mary Barker took on 7 October 1818. In particular, we
+                recommend visiting our Story Map, a <ref target="https://arcg.is/1C01Lv">multimodal
+                    reconstruction of
+                    that</ref><ref target="https://arcg.is/1C01Lv" xml:space="preserve"> day</ref><ref
+                    target="https://arcg.is/1C01Lv">,</ref> complete with a 3D map, photographs, and
+                videos. We trust that these resources help restore “Excursion up Scawfell Pike” to
+                the honorable place it deserves in the canon of Dorothy’s writings—and in the
+                tradition of ascent narratives generally. </p>
+            <p> II. Textual and Editorial Issues</p>
+            <p>A. <anchor xml:id="MSS"/>Manuscript Witnesses and Related Primary Sources</p>
+            <p>Although De Sélincourt categorized Dorothy’s Scafell Pike account with her journals,
+                it is not a diary entry per se. This genre question deserves consideration, for some
+                of the text’s character depends on its material forms, its circulation, and its
+                audiences. </p>
+            <p>In conception, Dorothy’s account emerged from a cluster of letters—including, we
+                presume, the lost one she wrote to Sara Hutchinson on top of the mountain. The
+                earliest surviving record of her ascent is her letter to Jane Marshall, dated 14
+                October 1818, which reads like a seed draft for the expanded report she would pen a
+                week later. Dorothy expresses continued admiration for William Wilberforce (“There
+                never lived on earth, I am sure, a man of sweeter temper”) and recaps the lively 6
+                October dinner at Rosthwaite. “The next day,” she continues, “which was one of the
+                finest of the year, I ascended Scaw Fell from Seathwaite with Miss Barker—and never
+                before did I behold so sublime a mountain prospect.” Grateful for the weather they
+                enjoyed, she reports, “Our Guide, who is a Shepherd of Borrowdale, turning his eyes
+                thoughtfully round when we were on the pinnacle of Scaw Fell, said ‘I do not know
+                that ever in the whole course of my life, I was at any season so high upon the
+                mountains on so calm a day.’ There was not a breath of wind to stir the very papers
+                which we spread out with our food, when we ate our dinners on that commanding
+                eminence.” Some of this language would reappear almost verbatim in Dorothy’s final
+                treatment of the subject.</p>
+            <p>The experience of climbing the mountain obviously remained vivid in Dorothy’s mind.
+                Eager to share it at length, she wrote on 21 October to the Reverend William
+                Johnson, former curate and schoolmaster in Grasmere (1811–1812), who had since taken
+                up an important teaching post in London. The original of her letter has been lost.
+                Fortunately, two copies survive, and these are our manuscript authorities for
+                “Excursion up Scawfell Pike.” </p>
+            <p>The most complete extant manuscript is Dorothy’s own backup copy: as noted
+                previously, she transcribed her letter to Johnson into a hand-sewn notebook, which
+                is now catalogued as Dove Cottage Manuscript (DCMS) 51 (fig. 5.6). Similar to DCMS
+                120, which preserves Dorothy’s poetry [link to that section of the edition], DCMS 51
+                collects literary efforts that she valued. “Excursion up Scawfell Pike” is its final
+                item (fig. 5.7). It features both Dorothy’s edits in ink and various pencil marks,
+                possibly by William, which move the text in the direction of his <hi rend="italic"
+                    >Guide</hi>.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> Some of the pencil marks on DCMS 51 are literal scribbles—cancellations, insertion marks, and the like—while others suggest verbal revisions. It is difficult to determine who made the marks or when, though many of them do advance reshaping for the </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Guide </hi><hi style="font-size:11pt" xml:space="preserve">project, and it is likely that there are multiple layers. Possibly DW herself undertook adjustments at WW’s request, so we have to take care when assigning intention and responsibility. </hi></p></note></hi>
+                Besides the obvious merit of being written in Dorothy’s own hand, this manuscript
+                also includes two important notes at the bottom of the last page: “October 21st
+                1818” (confirming the composition date of the Johnson letter) and “Went up Scaw Fell
+                on Wednesday the 7th October-1818.” </p>
+            <figure>
+                <graphic n="1006" width="6.01655cm" height="7.982938888888889cm"
+                    url="media/image6.jpeg" rend="inline"/>
+                <graphic n="1007" width="6.2815916666666665cm" height="8.094938888888889cm"
+                    url="media/image7.jpeg" rend="inline"/>
+            </figure>
+            <p>Figures 5.6 and 5.7: (Left) The cover of DCMS 51, the notebook that contains
+                Dorothy’s copy of the Johnson letter. The cover inscription reads
+                “Dorothy/Wordsworth/Rydal Mount.” (Right) The beginning of Dorothy’s “Scawfell”
+                account.</p>
+            <p>The second surviving manuscript, described hereafter as the Kenyon Transcript, is
+                written in an attractive, unknown hand on paper watermarked 1817 (fig. 5.8). At once
+                a letter in its own right (addressed to “Miss Hutchinson” in Wales) but otherwise
+                businesslike, with no conventional gestures of greeting or conclusion, it is
+                actually an incomplete copy of Dorothy’s letter to Johnson. It is dated “October,
+                1818” and bracketed entirely within quotation marks. It begins, “I must inform you
+                of a feat that Miss Barker and I performed on Wednesday the 7th of this month.” In
+                short, it omits material that takes up more than a page of Dorothy’s notebook
+                version, including her introduction of Mary Barker and her description of the dinner
+                at Barker’s home. As Simon Bainbridge summarizes, it “edits out the first part of
+                the original letter to focus on the ascent narrative.”<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Bainbridge, </hi><hi
+                                rend="italic" style="font-size:11pt">Mountaineering and British
+                                Romanticism</hi><hi style="font-size:11pt">,
+                    239.</hi></p></note></hi></p>
+            <figure>
+                <graphic n="1008" width="6.602133333333334cm" height="10.434594444444445cm"
+                    url="media/image8.jpeg" rend="inline"/>
+            </figure>
+            <p>Figure 5.8: The first page of the Kenyon Transcript, written in an unknown hand.
+                (Courtesy: The Wordsworth Trust)</p>
+            <p>While DCMS 51 is longer and arguably more authoritative than the Kenyon Transcript,
+                much of its final page has been torn out and lost (fig. 5.9). Therefore, at least
+                for the closing section of Dorothy’s account, the Kenyon Transcript is essential. </p>
+            <figure>
+                <graphic n="1009" width="12.066694444444444cm" height="7.688647222222222cm"
+                    url="media/image9.jpg" rend="inline"/>
+            </figure>
+            <p>Figure 5.9: The final two pages of DCMS 51. (Courtesy: The Wordsworth Trust)</p>
+            <p>Furthermore, the Kenyon Transcript may match the original Johnson letter more closely
+                than the DCMS 51 copy in some respects. We suggest this because DCMS 51 shows edits
+                for style and economy that the Kenyon Transcript does not include. Derived directly
+                from the Johnson letter (or from yet another copy that has not survived), the Kenyon
+                Transcript likely retains many original readings, despite errors in copying.
+                Additionally, the transcript includes a final paragraph that Dorothy omits in DCMS
+                51: “I believe that you are not much acquainted with the Scenery of this Country,
+                except in the Neighbourhood of Grasmere, your duties when you were a resident here,
+                having confined you so much to that one Vale; I hope, however, that my long Story
+                will not be very dull; and even I am not without a further hope, that it may awaken
+                in you a desire to spend a long holiday among the Mountains, and explore their
+                recesses.” No doubt this invitation was part of the original letter to Johnson, but
+                Dorothy saw no reason to copy it for her own records. </p>
+            <p>The Kenyon Transcript complicates the view that Dorothy’s text was never published
+                except as part of William’s <hi rend="italic">Guide to the Lakes</hi>. True,
+                “Excursion up Scawfell Pike” was never <hi rend="italic">printed</hi> as Dorothy’s
+                during her lifetime, but it seems to have enjoyed a lively public (or at least
+                semipublic) existence in handwritten forms, moving among family, friends, and
+                    associates.<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Considering “Excursion Up Scafell Pike” as a manuscript publication naturally prompts us to ask if still more copies were made. This question may be unanswerable. However, minor variants in De Sélincourt’s edition (</hi><hi
+                                rend="italic" style="font-size:11pt">DWJ</hi><hi
+                                style="font-size:11pt">) that reflect neither DCMS 51 nor the Kenyon
+                                Transcript suggest that an additional copy, now lost, might have
+                                been available to him. Owen and Smyser speculate on this point
+                                (</hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Prose </hi><hi style="font-size:11pt" xml:space="preserve">2:367). Unfortunately, De Sélincourt says nothing about his manuscript sources. </hi></p></note></hi>
+                Dorothy did write for an audience. By revealing some of her circuits of
+                communication, the Kenyon Transcript helps us guess at the significance of
+                “Excursion” for both its writer and her friends and admirers. For more on the Kenyon
+                Transcript, please see the appendix to our diplomatic transcription [link]. </p>
+            <p>In addition to the missing Johnson letter, the lost letters Dorothy and Mary Barker
+                wrote to Sara Hutchinson from Scafell Pike would surely round out our understanding
+                of 7 October 1818. Did these summit posts recall another famous “Scawfell letter,”
+                written to the same Sara by Samuel Taylor Coleridge 16 years before on the
+                neighboring peak?<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> STC’s exuberant journal-letter to SH has become a classic of mountain literature. He is often said to have been the first nonlocal to climb Scafell and also, accidentally, England’s first rock climber, as he got himself in a tight pinch while descending. From 5 August 1802, we have this self-dramatizing passage: “On a nice Stone Table am I now at this moment writing to you—between 2 and 3 o’clock as I guess, surely the first Letter ever written from the Top of Sca’ Fell!” He adds, “You shall call this Letter when it passes before you the Sca’Fell Letter.” See Griggs, </hi><hi
+                                rend="italic" style="font-size:11pt">Collected
+                            Letters</hi><hi style="font-size:11pt" xml:space="preserve">, 2:834–51. As Bainbridge notes, STC’s letter would be for the Wordsworth circle the “best-known of all descriptions of mountain peril” (235). </hi>
+                        </p></note></hi> We can only speculate, but it is not hard to imagine
+                Dorothy recalling Coleridge’s exploit. Her “gift for drawing into the present all
+                the wealth of past memories” surely applies to this text as it does to others.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> This description of DW’s tendency to saturate present experience with memory comes from </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >DWB</hi><hi style="font-size:11pt" xml:space="preserve">, 151. </hi></p></note></hi>
+                If the missing on-the-spot letters ever surface, we may have more details to enrich
+                our story and help us better understand why the Kenyon Transcript was mailed to
+                “Miss Hutchinson.” </p>
+            <p><anchor xml:id="Editorial"/>B. Editorial Principles</p>
+            <p>Our annotated and illustrated reading text [link] is based primarily on DCMS 51, with
+                minor emendations indicated in notes and the shift to the Kenyon Transcript (where
+                DCMS 51 is torn) clearly indicated. Our emendations reflect the fact that certain
+                conventions that today’s readers take for granted were not fully standardized in the
+                early nineteenth century. Like other editors of Romantic-era writing, we have tried
+                to balance reading convenience with preserving our text’s historical character.<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Our approach largely corresponds with that of William Knight, who wrote in his preface to </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Letters of the Wordsworth Family </hi><hi
+                                style="font-size:11pt">(1907), “I have not retained the punctuation
+                                adopted by Wordsworth—sometimes there was none—nor the capital
+                                letters, which were both numerous, and very arbitrary. . . .</hi>
+                            <hi style="font-size:11pt">It might have been interesting, from a
+                                linguistic point of view, to preserve all the archaisms of spelling
+                                and punctuation (even when the dashes took the place alike of
+                                semicolons, colons, and periods); but the Wordsworth family were so
+                                arbitrary and casual in their letter-writing—and even careless at
+                                times—that it would have been unjust to them, as well as disturbing
+                                to their readers, to have done so” (1:xi).</hi></p></note></hi>
+                Insofar as possible, we preserve Dorothy’s paragraphing, though her indentations
+                vary and her intentions can be hard to discern. Dorothy’s underlined words are set
+                in italics. Her ampersands are converted to <hi rend="italic">and</hi>, and her
+                occasional abbreviations are expanded—for example, “Sir G. and &amp; Lady B.” to
+                “Sir George and Lady Beaumont.” Capitalization is largely standardized, though we
+                retain some instances in which Dorothy seems to capitalize common nouns for
+                emphasis. We also retain Dorothy’s spelling. </p>
+            <p>Admittedly, any regularization may obscure important ambiguities or idiosyncrasies in
+                the text. Some readers may wish to consult the original manuscripts to study
+                Dorothy’s frequent and varied uses of dashes, as such marks either disappear in our
+                reading text or appear uniformly as em dashes. Others may simply crave more
+                antiquarian flavor. Fortunately, our digital edition includes page images of the two
+                manuscript sources [links] as well as diplomatic transcriptions [links], allowing
+                readers to make their own judgments. In today’s “versioning” culture of editing,
+                made convenient by technology, readers can generate their own ideal texts. </p>
+            <p>C. <anchor xml:id="DWandWW"/>Dorothy’s Account vs. William’s <hi rend="italic">Guide
+                    to the Lakes</hi></p>
+            <p>Though based on DCMS 51, the version of “Excursion” that appears in William’s 1822
+                <hi rend="italic" xml:space="preserve">Guide </hi>simplifies Dorothy’s textual
+                chronology and removes all dates, as if aiming to make the account timeless. It
+                introduces various minor revisions.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> The </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Guide </hi><hi style="font-size:11pt" xml:space="preserve">version changes “Scaw Fell” to “Scawfell Head,” presumably to better distinguish that eminence from Scafell Pike; adds a passage (relocated from a different section of the </hi><hi
+                                rend="italic" style="font-size:11pt">Guide</hi><hi
+                                style="font-size:11pt">) about “celestial” drinking water on
+                                neighboring Great Gavel; inserts a comparison between the colors of
+                                Scafell Pike’s lichen-painted stones and “brilliant feathers”; and
+                                so
+                                forth.</hi><hi rend="annotation_reference" xml:space="preserve"> </hi><hi
+                                style="font-size:11pt">However, these are minor features; the
+                                principal transformation comes from removing contextual framing and
+                                the participants’ names.</hi></p></note></hi> However, the most
+                obvious difference between Dorothy’s manuscript and the adaptation is the latter’s
+                reduced length. William’s version includes approximately 1,205 words, whereas
+                Dorothy’s original runs over 2,500. Unsurprisingly, Dorothy’s text is richer. The
+                    <hi rend="italic">Guide</hi>’s main editorial tendency is to make Dorothy’s
+                narrative less personal. In the manuscript, Dorothy begins by recording the visits
+                of the Beaumonts and Wilberforces and by introducing Mary Barker—that is, by
+                assembling her cast of characters. All of this social context disappears in the <hi
+                    rend="italic">Guide</hi>. Thus, when the <hi rend="italic">Guide</hi> reports,
+                “Having left Rossthwaite [<hi rend="italic">sic</hi>] in Borrowdale . . . we
+                ascended,” readers have little sense of who “we” might be. In Dorothy’s manuscript,
+                readers find friendship, personality, wonder, and humor, all shaping an expedition
+                organized by two intrepid women. In William’s abridgment, readers mainly encounter
+                landscape visions that might be comparable with those afforded by the Alps.<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                            ><hi style="font-size:11pt" xml:space="preserve"> WW’s 1822 title page promises “illustrative remarks upon the Scenery of the Alps,” and his attempt to “reconcile a Briton to the scenery of his own country” (120) has included an argument that, although the Lakeland fells cannot compare with the Alps in absolute height and grandeur, they compare favorably in their proportions and combinations. Accordingly, WW introduces DW’s account in this way: “The Reader may not however be displeased with the following extract from a letter to a Friend, giving an account of a visit to a summit of one of the highest of these mountains; of which I am reminded by the observations of Mr. West, and by reviewing what has been said of this district in comparison with the Alps” (129–30). He has already quoted West saying that Britons who intend to tour the Continent should begin in the Lake District “as it will give, in miniature, an idea of what they are to meet with there” (128). He and DW had recently undertaken this sort of comparison, exploring the Alps during their 1820 Continental tour. </hi></p></note></hi>
+                After reading William’s version, one knows nothing of the occasion that prompted the
+                mountain walk and finds no sign that any women were involved. </p>
+            <p>What might Dorothy’s feelings have been about supplying this text for William’s <hi
+                    rend="italic">Guide</hi>? We have a few key facts to consider. First, Dorothy
+                was part of the project from the start. Back at the time of <hi rend="italic">Select
+                    Views</hi> (1810), the first version of what became the <hi rend="italic"
+                    >Guide</hi>, William asked Dorothy to finish some of the writing when the work
+                became “irksome” to him.<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Letter to Catherine Clarkson, 12 November 1810 (</hi><hi
+                                rend="italic" style="font-size:11pt">Letters</hi><hi
+                                style="font-size:11pt">, 2:449).</hi>
+                        </p></note></hi> Meanwhile, Dorothy opined that William might repurpose <hi
+                    rend="italic">Select Views</hi>, create his own guide to the Lake District, and
+                find the product more lucrative than his “higher [poetic] labours.”<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> Letter to Catherine Clarkson, 18 November 1809 (</hi><hi
+                                rend="italic" style="font-size:11pt">Letters</hi><hi
+                                style="font-size:11pt">, 2:372).</hi>
+                        </p></note></hi> William eventually took her advice by including
+                <hi rend="italic" xml:space="preserve">Select Views </hi>material in his 1820
+                <hi rend="italic" xml:space="preserve">River Duddon </hi>volume. This experiment
+                resulted in encouraging sales and reviews, so issuing a stand-alone guidebook seemed
+                like a logical next step. However, for this purpose, William likely sensed that his
+                text needed some padding out.<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> In </hi><hi
+                                rend="italic" style="font-size:11pt">The River
+                                Duddon</hi><hi style="font-size:11pt" xml:space="preserve">, the “Topographical Description of the Country of the Lakes in the North of England” ran to approximately 108 pages (213–321), or about a third of the total volume and some 40 percent of the total word count. The 1822 </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >Guide</hi><hi style="font-size:11pt" xml:space="preserve"> added ten thousand words and came to 156 pages. </hi></p></note></hi>
+                Happily, he had promising material on hand in the form of Dorothy’s notebook and its
+                copy of the Scafell Pike letter. Dorothy was fond of this autobiographical piece,
+                which she had bound with other specimens of her best work (DCMS 51). She was
+                probably willing—perhaps even pleased—to see it in print, even if it would appear in
+                truncated form. Perhaps William transformed it for his own ends, but we should keep
+                in mind the likelihood that Dorothy wanted him to use it and even preferred that he
+                remove personal details about her and her friends. Indeed, she may have assisted
+                with the edits.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"><hi style="font-size:11pt" xml:space="preserve"> Compare revisions DW made to </hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Recollections of a Tour Made in Scotland, A.D. 1803 </hi><hi style="font-size:11pt" xml:space="preserve">(described well in </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >DWB</hi><hi style="font-size:11pt" xml:space="preserve">, 411–12) when preparing a copy for possible publication; also, consider her rationale for refusing to print her “Narrative Concerning George and Sarah Green,” discussed elsewhere in this edition [link]. Tact and privacy were important to her. </hi>
+                        </p></note></hi> The <hi rend="italic">Guide</hi> was an important effort in
+                favor of the family economy, and Dorothy supported this endeavor as she had so many
+                others. </p>
+            <p>Readers must decide for themselves about the ethics of William’s borrowing, an issue
+                that has been addressed repeatedly in studies of the Wordsworths but perhaps not
+                sufficiently with respect to “Excursion up Scawfell Pike.” This instance of
+                appropriation seems unique in scale and significance, as William tacitly takes
+                credit not only for Dorothy’s writing but also for her physical accomplishment.
+                Might it not have been a simple matter for William to describe the account as “an
+                extract from <hi rend="italic">my sister’s</hi> letter to a friend”? Nonetheless, we
+                have no evidence that Dorothy objected to his editorial sleight of hand. Lucy
+                Newlyn’s observation, offered in a different context, may apply in this situation:
+                “Dorothy’s preference was always for an anonymous role in their collaboration, but
+                this need not be read as a sign that she believed herself inferior. . . . Her labour
+                was not alienated, and she knew her gifts to be greatly valued.”<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi rend="italic" style="font-size:11pt"
+                            >Newlyn</hi><hi style="font-size:11pt" xml:space="preserve">, 238. </hi></p></note></hi></p>
+            <p>In any case, the <hi rend="italic">Guide</hi>’s incorporation of Dorothy’s Scafell
+                Pike ascent must have been thought a success by all concerned. The 1822 <hi
+                    rend="italic">Guide</hi> sold well, and then, in the 1823 edition, another gem
+                from Dorothy’s notebook (DCMS 51) was added: her account of an 1805 walking tour
+                around Ullswater [link to Ullswater section of the edition]. This meant that
+                Dorothy’s presence in the <hi rend="italic">Guide</hi> grew as the project evolved.
+                We do not know precisely how many words she contributed in 1810 or 1820,<hi
+                    rend="endnote_reference"><note place="end"><p rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> For conjectures on this point, see </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Prose </hi><hi
+                                style="font-size:11pt">2</hi><hi rend="italic"
+                                style="font-size:11pt"
+                            >:</hi><hi style="font-size:11pt" xml:space="preserve">126, 143. One substantial 1810 passage Owen and Smyser conclude to be DW’s, written in her hand, comes to 452 words. Unfortunately, handwriting in the surviving </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Guide </hi><hi style="font-size:11pt" xml:space="preserve">manuscripts is no sure evidence of authorship, since DW, WW, MW, and SH all took turns writing. </hi></p></note></hi>
+                but in 1822, she generated at least 1,200 words out of the total 29,800 (about 4
+                percent), and in 1823, at least 4,446 words of 35,300 (13 percent). The placement of
+                her offerings was also important, since her two “excursions” became the final,
+                climactic section of the book.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">As Mary Ellen Bellanca argues, DW’s writing reached readers mostly “by means of William’s poetic reputation and in context ancillary to it,” but it </hi><hi
+                                rend="italic" style="font-size:11pt"
+                                >did</hi><hi style="font-size:11pt" xml:space="preserve"> find readers, and indeed it “helped to </hi><hi
+                                rend="italic" style="font-size:11pt"
+                                >make</hi><hi style="font-size:11pt" xml:space="preserve"> [WW’s] reputation”; therefore, “it is well past time to discard the notion of Dorothy Wordsworth as an unpublished, or only posthumously published, writer” (</hi><hi
+                                rend="italic" style="font-size:11pt">Daybooks</hi><hi style="font-size:11pt" xml:space="preserve">, 138). Along this line, it is noteworthy that enthusiastic readers of the </hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Guide </hi><hi
+                                style="font-size:11pt">often singled out DW’s contributions. See,
+                                for instance, one of the earliest reviews, which quoted the Scafell
+                                Pike narrative at length (“Wordsworth’s Scenery of the Lakes,”
+                                494–95).</hi></p></note></hi>
+            </p>
+            <p>D. <anchor xml:id="Editions"/>Post-<hi rend="italic">Guide</hi> Editions of the
+                Text</p>
+            <p>For over a century, the survival of Dorothy’s “Excursion” in print depended on the
+                popularity of William’s <hi rend="italic">Guide</hi>. William Angus Knight did not
+                include it in his 1897 edition of Dorothy’s journals or his 1907 <hi rend="italic"
+                    >Letters of the Wordsworth Family</hi>. Consequently, as noted previously, its
+                full public introduction had to wait for the appearance of De Sélincourt’s 1941
+                <hi rend="italic" xml:space="preserve">Journals </hi>(vol. 1).<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                ><hi style="font-size:11pt" xml:space="preserve"> De Sélincourt had not included the text in his (first) edition of WW and DW’s correspondence, published 1935–39, possibly because the original letter was missing. However, he did include the related letter to Jane Marshall and mention in a footnote that DW’s account of climbing Scafell Pike could be found (revised) in WW’s </hi><hi
+                                rend="italic" style="font-size:11pt">Guide</hi><hi
+                                style="font-size:11pt">.</hi></p></note></hi> De Sélincourt’s
+                edition, with its brief but valuable introduction, remained the standard for
+                years.</p>
+            <p>In 1970, the text appeared in the revised Oxford
+                <hi rend="italic" xml:space="preserve">Letters of William and Dorothy Wordsworth </hi>(vol.
+                3, <hi rend="italic">Middle Years II, 1812–1820</hi>). This resource correctly
+                reframed the text as a letter (“D. W. to William Johnson”); however, some
+                information it provided was misleading. The editors of that volume, Mary Moorman and
+                Alan G. Hill, cited as their manuscript authority “<hi rend="italic">WL transcript
+                    [possibly in John Carter’s hand]</hi>.”<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">
+                            <hi rend="italic" style="font-size:11pt"
+                            >Letters</hi><hi style="font-size:11pt" xml:space="preserve">, 3:499. </hi></p></note></hi>
+                Either that document has been lost or, more likely, the editors meant to describe
+                what our edition calls the Kenyon Transcript, which is definitely not in John
+                Carter’s hand. Moreover, the editors did not faithfully follow that source. Instead,
+                they largely adopted De Sélincourt’s text from <hi rend="italic">Journals</hi>,
+                though they did add one sentence, Dorothy’s final invitation to come explore the
+                mountains. </p>
+            <p>A few years later, W. J. B. Owen and Jane Worthington Smyser provided a more reliable
+                and thoroughly annotated version of the Scafell Pike “Excursion” as an appendix to
+                    <hi rend="italic">The Prose Works of William Wordsworth</hi>, vol. 2 (1974),
+                aiming to illuminate the origins of the <hi rend="italic">Guide to the Lakes</hi>.
+                Unfortunately, <hi rend="italic">Prose Works</hi> is out of print, expensive to
+                purchase on the used market, and available mainly in research libraries. It remains
+                an essential source for scholars aiming to trace textual variants; however, it is
+                neither easily obtained nor especially friendly for the general reader, and it
+                places Dorothy Wordsworth in a secondary role.</p>
+            <p>“Excursion up Scawfell Pike” was occasionally mentioned in scholarship of the 1980s
+                and 90s; for instance, Susan M. Levin discussed it in her <hi rend="italic">Dorothy
+                    Wordsworth and Romanticism</hi> (1987). Surprisingly, however, Levin chose to
+                omit it from her own anthology, <hi rend="italic">Dorothy Wordsworth, A Longman
+                    Cultural Edition</hi> (2009). Susan Wolfson chose in 1999 to include most of
+                Dorothy’s “Excursion” in <hi rend="italic">The Longman Anthology of British
+                    Literature</hi>, making the text available to student readers for the first
+                    time.<hi rend="endnote_reference"><note place="end"><p
+                            rend="Times NR 10 footnote"
+                                ><hi style="font-size:11pt" xml:space="preserve"> The text appeared in all five editions of the </hi><hi rend="italic" style="font-size:11pt" xml:space="preserve">Longman Anthology of British Literature </hi><hi style="font-size:11pt" xml:space="preserve">(1999 forward), specifically in </hi><hi
+                                rend="italic" style="font-size:11pt">Volume 2A, The Romantics and
+                                Their
+                            Contemporaries</hi><hi style="font-size:11pt" xml:space="preserve">, coedited by Susan Wolfson and Peter Manning. Wolfson has been one of the text’s most prominent recent champions. See also her “Two Wordsworths,” 61–82. </hi></p></note></hi>
+                A few respected critics have discussed the text more recently. Still, it seems safe
+                to say that the text remains an underappreciated part of Dorothy’s oeuvre. We trust
+                that this digital edition makes “Excursion up Scawfell Pike” available to a broader
+                audience while also providing a vital and up-to-date resource to scholars. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
