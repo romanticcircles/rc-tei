@@ -210,23 +210,38 @@
         <body>
             <div type="essay">
             <head>3. Introduction to <title level="a">Excursion on the Banks of Ullswater</title>(1805)</head>
-            <byline>Paul Westover</byline>
+            <byline>
+                <docAuthor>Paul Westover</docAuthor>
+                <affiliation>Brigham Young University</affiliation>
+            </byline>
                 <!--something weird is happening here...Paul has included links to other parts of the document. Ask Jessica for help-->
            
-              <div type="paratext"><ref target="URLPLACEHOLDER">I: Contexts for <title level="a">Ullswater Excursion</title></ref>
-            Composition and Reception 
-            Occasion of Dorothy’s Narrative
+              <div type="paratext">
+                  <p rend="large">I: Contexts for <title level="a">Ullswater Excursion</title></p>
+                  <list type="unordered">
+                      <item><ref target="#Composition">A. Composition and Reception </ref></item>
+                      <item><ref target="#Occasion">B. Occasion of Dorothy’s Narrative</ref></item>
+                  </list>     
+           
+            <p rend="large">II: Textual and Editorial Issues</p>
+                  <list type="unordered">
+                      <item><ref target="#Manuscripts">A. Manuscripts </ref></item>
+                      <item><ref target="#Dorothy's">B. Dorothy’s Account vs. William’s <title level="a">Guide to the Lakes</title></ref></item>
+                      <item><ref target="#Published">C. Published Versions</ref></item>
+                      <item><ref target="#Editorial">D. Editorial Principles</ref></item> 
+                  </list>
+              </div>
+                <lb/><milestone unit="paratext"/><lb/> 
             
-            II: Textual and Editorial Issues
-            Manuscripts
-            Dorothy’s Account vs. William’s <title level="a">Guide to the Lakes</title>
-            Published Versions
-            Editorial Principles</div>
+           
             
-            <div type="section"><head>I. Contexts for <title level="a">Ullswater Excursion</title></head>
+            <div type="section">
+                <head>I. Contexts for <title level="a">Ullswater Excursion</title></head>
             
-                <div type="section">
-                    <head>A. Composition and Reception</head>
+    
+                    <head type="subhead">
+                        <anchor xml:id="Composition"/>A. Composition and Reception
+                    </head>
             <p>On 6 November 1805, just as mild weather gave way to autumn rain, Dorothy and William
                 Wordsworth set out to see their friends Charles and Letitia Luff in Patterdale, 12
                 miles northeast of Grasmere on the southern tip of Ullswater.
@@ -238,9 +253,8 @@
                 Dorothy called the “wonderful country” around England’s second-largest lake.
                 <note place="foot" resp="editors">
                             <!--THIS IS AN ANCHOR I THINK BUT I DONT KNOW HOW TO DO IT-->
-                    <ref target="PLACEHOLDER">DW to Lady Beaumont, 7 November 1805 (
-                        <title level="m">Letters</title>, 1:637).</ref> [Link to letter 1 in this
-                                section]</note>
+                    <ref target="/editions/DW/editions.2022.DW.Ulls-letters">DW to Lady Beaumont, 7 November 1805 (
+                        <title level="m">Letters</title>, 1:637).</ref></note>
                 Her account of this tour, <title level="a">Excursion
                 on the Banks of Ullswater</title> (hereafter <title level="a">Ullswater Excursion</title>), presents her
                 observations and experiences in genial prose. Since many of the landmarks she
@@ -435,7 +449,10 @@
                 again anthologized as by the famous poet rather than his sister.
                 <note place="foot" resp="editors">WW, <title level="m">Selected Prose</title>, 449&#8211;61.</note></p></div>
             
-            <div type="section"><head>B. Occasion of Dorothy’s Narrative</head>
+            <div type="section">
+                <head type="subhead">
+                    <anchor xml:id="Occasion"/>B. Occasion of Dorothy’s Narrative
+                </head>
             <p>On one level, the Wordsworth siblings’ journey to Ullswater was a house-hunting trip.
                 Fond as they were of Dove Cottage, it was becoming too small for the growing family
                 and its regular house guests, especially in the wintertime, when everyone spent more
