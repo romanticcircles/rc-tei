@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Version C: Guide to the lakes (1823)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <editor role="editor">Paul Westover</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.Ulls-C</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Version C: Guide to the Lakes (1823)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.Ulls-C"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-09-09</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    
+    <text>
+        <body>
+            <div type="essay">
+            <head>Version C of <title level="a">Ullswater Excursion</title>: <title level="m">Guide to the
+                Lakes</title> (1823)</head>
+                <byline>
+                    <docAuthor>Paul Westover</docAuthor><!--not sure if this stays the same because Paul is the editor-->
+                    <affiliation>Brigham Young University</affiliation>
+                </byline>
+                
+            <p><hi rend="bold">[Editor’s note:</hi> This, the earliest
+                published version of Dorothy Wordsworth’s “Ullswater Excursion,” appeared in 1823 in
+                the fourth edition of her brother’s <title level="m">Guide to the Lakes</title>.
+                <note place="foot" resp="editors">Although now commonly known as the fourth edition of WW’s <title level="m">Guide</title>, this book, like the 
+                    third edition of 1822, was titled <title level="m">A Description of the Scenery of the Lakes in the North of England</title>. 
+                    <title level="a">Ullswater Excursion</title> appears from pp. 117&#8211;29.
+                </note>
+                As the only printed version through the late nineteenth century, the
+                <title level="m">Guide</title> text is crucial for the text’s
+                reception history. Labeled <title level="a">Excursion on the Banks of Ulswater,</title> it was appended,
+                without a header or section break, to Dorothy’s <title level="a">Excursion to the Top of Scawfell,</title>
+                which a year earlier William had included in the third edition of his <title level="m">Guide</title>. Dorothy’s authorship of these narratives was
+                acknowledged neither in their original printings nor in the definitive 1835 edition
+                of the <title level="m">Guide</title>, where they were flanked by two poems by
+                William.
+                <note place="foot" resp="editors">The minor differences between the versions of <title level="a">Ullswater Excursion</title> published in the 1823 
+                    and 1835 editions can be seen in the 
+                    <ref target="https://romantic-circles.org/sites/default/files/imported/editions/guide_lakes/parallel_text_chart.pdf">parallel-text 
+                    comparison table</ref> in Mason, Stimpson, and Westover’s Romantic Circles edition of the <title level="m">Guide</title>.
+                </note>
+                The manuscript draft in DCMS 51 that closely corresponds with the printed text of 1823 features revisions in both Dorothy’s and William’s 
+                hands, suggesting that preparing <title level="a">Ullswater Excursion</title> for publication was a collaborative endeavor.
+                <note place="foot" resp="editors">For details on DW’s unacknowledged contributions to the <title level="m">Guide</title> and the differences 
+                    between her manuscript versions and those that appeared in print, see the introductions to <title level="a">
+                    <ref target="editions/DW/editions.2022.DW.SP-intro">Excursion up Scawfell Pike</ref></title> and 
+                    <title level="a"><ref target="editions/DW/editions.2022.DW.Ulls-intro">Excursion on the Banks of Ullswater.</ref></title>
+                </note>
+            </p>
+                
+            <lb/><milestone unit="essay"/><lb/>
+            
+            <p>Having said so much of a point of view to which few are likely to ascend, I am
+                induced to subjoin an account of a short excursion through more accessible parts of
+                the country, made at a time when it is seldom seen but by the inhabitants. As the
+                journal was written for one acquainted with the general features of the country,
+                only those effects and appearances are dwelt upon, which are produced by the
+                changeableness of the atmosphere, or belong to the season when the excursion was
+                made.
+            </p>
+                
+            <p>A.D. 1805.—On the 7th of November, on a damp and gloomy morning, we left Grasmere
+                Vale, intending to pass a few days on the banks of Ulswater. A mild and dry autumn
+                had been unusually favourable to the preservation and beauty of foliage; and, far
+                advanced as the season was, the trees on the larger Island of Rydal-mere retained a
+                splendour which did not need the heightening of sunshine. We noticed, as we passed,
+                that the line of the grey rocky shore of that island, shaggy with variegated bushes
+                and shrubs, and spotted and striped with purplish brown heath, indistinguishably
+                blending with its image reflected in the still water, produced a curious
+                resemblance, both in form and colour, to a richly-coated caterpillar, as it might
+                appear through a magnifying glass of extraordinary power. The mists gathered as we
+                went along: but, when we reached the top of Kirkstone, we were glad we had not been
+                discouraged by the apprehension of bad weather. Though not able to see a hundred
+                yards before us, we were more than contented. At such a time, and in such a place,
+                every scattered stone the size of one's head becomes a companion. Near the top of
+                the pass is the remnant of an old wall, which (magnified, though obscured, by the
+                vapour) might have been taken for a fragment of some monument of ancient
+                grandeur,—yet that same pile of stones we had never before even observed. This
+                situation, it must be allowed, is not favourable to gaiety; but a pleasing hurry of
+                spirits accompanies the surprize occasioned by objects transformed, dilated, or
+                distorted, as they are when seen through such a medium. Many of the fragments of
+                rock on the top and slopes of Kirkstone, and of similar places are fantastic enough
+                in themselves; but the full effect of such impressions can only be had in a state of
+                weather when they are not likely to be <emph>sought</emph> for. It was not
+                till we had descended considerably that the fields of Hartshope were seen, like a
+                lake tinged by the reflection of sunny clouds: I mistook them for Brothers-water,
+                but, soon after, we saw that Lake gleaming faintly with a steelly brightness,—then,
+                as we continued to descend, appeared the brown oaks, and the birches of lively
+                yellow—and the cottages—and the lowly Hall of Hartshope, with its long roof and
+                ancient chimneys. During great part of our way to Patterdale, we had rain, or rather
+                drizzling vapour; for there was never a drop upon our hair or clothes larger than
+                the smallest pearls upon a lady's ring.
+            </p>
+                
+            <p>The following morning, incessant rain till 11 o'clock, when the sky began to clear,
+                and we walked along the eastern shore of Ulswater towards the farm of Blowick. The
+                wind blew strong, and drove the clouds forward, on the side of the mountain above
+                our heads;—two storm-stiffened black yew-trees fixed our notice, seen through, or
+                under the edge of, the flying mists,—four or five goats were bounding among the
+                rocks;—the sheep moved about more quietly, or cowered beneath their sheltering
+                places. This is the only part of the country where goats are now found
+                <note place="foot" resp="editors"> WW’s note: “A. D. 1805. These also have disappeared.”
+                </note>
+                ; but this morning, before we had seen these, I was reminded of
+                that picturesque animal by two rams of mountain breed, both with Ammonian horns, and
+                with beards majestic as that which Michael Angelo has given to his statue of
+                Moses.——But to return; when our path had brought us to that part of the naked common
+                which overlooks the woods and bush-besprinkled fields of Blowick, the lake, clouds,
+                and mists were all in motion to the sound of sweeping winds; —the church and
+                cottages of Patterdale scarcely visible, or seen only by fits between the shifting
+                vapours. To the northward the scene was less visionary;—Place Fell steady and
+                bold;—the whole lake driving onward like a great river—waves dancing round the small
+                islands. The house at Blowick was the boundary of our walk; and we returned,
+                lamenting to see a decaying and uncomfortable dwelling in a place where sublimity
+                and beauty seemed to contend with each other. But these regrets were dispelled by a
+                glance on the woods that clothe the opposite steeps of the lake. How exquisite was
+                the mixture of sober and splendid hues! The general colouring of the trees was
+                brown—rather that of ripe hazel nuts: but towards the water, there were yet beds of
+                green, and in the highest parts of the wood, was abundance of yellow foliage, which,
+                gleaming through a vapoury lustre, reminded us of masses of clouds, as you see them
+                gathered together in the west, and touched with the golden light of the setting
+                sun.
+            </p>
+                
+            <p>After dinner we walked up the Vale: I had never had an idea of its extent and width
+                in passing along the public road on the other side. We followed the path that leads
+                from house to house; two or three times it took us through some of those copses or
+                groves that cover the little hillocks in the middle of the vale, making an intricate
+                and pleasing intermixture of lawn and wood. Our fancies could not resist the
+                temptation; and we fixed upon a spot for a cottage, which we began to build: and
+                finished as easily as castles are raised in the air.—Visited the same spot in the
+                evening. I shall say nothing of the moonlight aspect of the situation which had
+                charmed us so much in the afternoon; but I wish you had been with us when, in
+                returning to our friend's house, we espied his lady's large white dog, lying in the
+                moonshine upon the round knoll under the old yew-tree in the garden, a romantic
+                image—the dark tree and its dark shadow—and the elegant creature, as fair as a
+                spirit! The torrents murmured softly: the mountains down which they were falling did
+                not, to my sight furnish a back-ground for this Ossianic picture; but I had a
+                consciousness of the depth of the seclusion, and that mountains were embracing us on
+                all sides; "I saw not, but I <emph>felt</emph> that they were there."
+            </p>
+                
+            <p>Friday, November 9th.—Rain, as yesterday, till 10 o'clock , when we took a boat to
+                row down the lake. The day improved,—clouds and sunny gleams on the mountains. In
+                the large bay under Place Fell, three fishermen were dragging a net, a picturesque
+                group beneath the high and bare crags! A raven was seen aloft; not hovering like the
+                kite, for that is not the habit of the bird; but passing on with a straight-forward
+                perseverance, and timing the motion of its wings to its own croaking. The waters
+                were agitated; and the iron tone of the raven's voice, which strikes upon the ear at
+                all times as the more dolorous from its regularity, was in fine keeping with the
+                wild scene before our eyes. This carnivorous fowl is a great enemy to the lambs of
+                these solitudes; I recollect frequently seeing, when a boy, bunches of unfledged
+                ravens suspended from the churchyard gates of H–––––––– for which a reward of 
+                <emph>so</emph> much a head was given to the adventurous destroyer.—The
+                fishermen drew their net ashore, and hundreds of fish were leaping in their prison.
+                They were all of the kind called skellies, a sort of fresh-water herring, shoals of
+                which may sometimes be seen dimpling or rippling the surface of the lake in calm
+                weather. This species is not found, I believe, in any other of these lakes; nor, as
+                far as I know, is the chevin, that <emph>spiritless</emph> fish, (though I
+                am loth to call it so, for it was a prime favourite with Isaac Walton,) which must
+                frequent Ulswater, as I have seen a large shoal passing into the lake from the river
+                Emont. <emph>Here</emph> are no pike, and the char are smaller than
+                those of the other lakes, and of inferior quality; but the grey trout attains a very
+                large size, sometimes weighing above twenty pounds. This lordly creature seems to
+                know that "retiredness is a piece of majesty"; for it is scarcely ever caught, or
+                even seen, except when it quits the depths of the lake in the spawning season, and
+                runs up into the streams, where it is too often destroyed in disregard of the law of
+                the land and of nature.
+            </p>
+                
+            <p>Quitted the boat in the bay of Sandwyke, and pursued our way towards Martindale along
+                a pleasant path—at first through a coppice, bordering the lake, then through green
+                fields—and came to the village, (if village it may be called, for the houses are
+                few, and separated from each other,) a sequestered spot, shut out from the view of
+                the lake. Crossed the one-arched bridge, below the chapel, with its "bare ring of
+                mossy wall," and single yew-tree. At the last house in the dale we were greeted by
+                the master, who was sitting at his door, with a flock of sheep collected round him,
+                for the purpose of smearing them with tar (according to the custom of the season)
+                for protection against the winter's cold. He invited us to enter, and view a room
+                built by Mr. Hasell for the accommodation of his friends at the annual chase of red
+                deer in his forests at the head of these dales. The room is fitted up in the
+                sportsman's style, with a cupboard for bottles and glasses, with strong chairs, and
+                a dining-table; and ornamented with the horns of the stags caught at these hunts for
+                a succession of years—the length of the last race each had run being recorded under
+                his spreading antlers. The good woman treated us with oaten cake, new and crisp; and
+                after this welcome refreshment and rest, we proceeded on our return to Patterdale by
+                a short cut over the mountains. On leaving the fields of Sandwyke, while ascending
+                by a gentle slope along the valley of Martindale, we had occasion to observe that in
+                thinly-peopled glens of this character the general want of wood gives a peculiar
+                interest to the scattered cottages embowered in sycamore. Towards its head, this
+                valley splits into two parts; and in one of these (that to the left) there is no
+                house, nor any building to be seen but a cattle-shed on the side of a hill, which is
+                sprinkled over with trees, evidently the remains of an extensive forest. Near the
+                entrance of the other division stands the house where we were entertained, and
+                beyond the enclosures of that farm there are no other. A few old trees remain,
+                relics of the forest, a little stream hastens, though with serpentine windings,
+                through the uncultivated hollow, where many cattle were pasturing. The cattle of
+                this country are generally white, or light-coloured; but these were dark brown, or
+                black, which heightened the resemblance this scene bears to many parts of the
+                Highlands of Scotland.—While we paused to rest upon the hill-side, though well
+                contented with the quiet every-day sounds—the lowing of cattle, bleating of sheep,
+                and the very gentle murmuring of the valley stream, we could not but think what a
+                grand effect the music of the bugle-horn would have among these mountains. It is
+                still heard once every year, at the chase I have spoken of; a day of festivity for
+                the inhabitants of this district except the poor deer, the most ancient of them all.
+                Our ascent even to the top was very easy; when it was accomplished we had
+                exceedingly fine views, some of the lofty Fells being resplendent with sunshine, and
+                others partly shrouded by clouds. Ulswater, bordered by black steeps, was of
+                dazzling brightness: the plain beyond Penrith smooth and bright, or rather gleamy,
+                as the sea or sea sands. Looked down into Boardale, which, like Stybarrow, has been
+                named from the wild swine that formerly abounded here; but it has now no sylvan
+                covert, being smooth and bare, a long, narrow, deep, cradle-shaped glen, lying so
+                sheltered that one would be pleased to see it planted by human hands, there being a
+                sufficiency of soil; and the trees would be sheltered almost like shrubs in a
+                green-house.—After having walked some way along the top of the hill, came in view of
+                Glenriddin and the mountains at the head of Grisdale.—Before we began to descend,
+                turned aside to a small ruin, called at this day the chapel, where it is said the
+                inhabitants of Martindale and Patterdale were accustomed to assemble for worship.
+                There are now no traces from which you could infer for what use the building had
+                been erected; the loose stones and the few which yet continue piled up resemble
+                those which lie elsewhere on the mountain; but the shape of the building having been
+                oblong, its remains differ from those of a common sheep-fold; and it has stood east
+                and west. Scarcely did the Druids, when they fled to these fastnesses, perform their
+                rites in any situation more exposed to disturbance from the elements. One cannot
+                pass by without being reminded that the rustic psalmody must have had the
+                accompaniment of many a wildly-whistling blast; and what dismal storms must have
+                often drowned the voice of the preacher! As we descend Patterdale opens upon the eye
+                in grand simplicity, skreened by mountains, and proceeding from two heads, Deepdale
+                and Hartshope, where lies the little lake of Brotherswater, named in old maps
+                Broaderwater, and probably rightly so; for Bassenthwaite Mere at this day, is
+                familiarly called Broadwater; but the change in the appellation of this small lake
+                or pool (if it be a corruption) may have been assisted by some melancholy accident
+                similar to what happened about twenty years ago, when two brothers were drowned
+                there, having gone out to take their holiday pleasure upon the ice on a new-year's
+                day.
+            </p>
+                
+            <p>A rough and precipitous peat track brought us down to our friend's house.—Another
+                fine moonlight night; but a thick fog rising from the neighbouring river, enveloped
+                the rocky and wood-crested knoll on which our fancy-cottage had been erected; and,
+                under the damp cast upon my feelings, I consoled myself with moralising on the folly
+                of hasty decisions in matters of importance, and the necessity of having at least
+                one year's knowledge of a place before you realise airy suggestions in solid
+                stone.
+            </p>
+                
+            <p>Saturday, November 10th. At the breakfast-table tidings reached us of the death of
+                Lord Nelson, and of the victory at Trafalgar. Sequestered as we were from the
+                sympathy of a crowd, we were shocked to hear that the bells had been ringing
+                joyously at Penrith to celebrate the triumph. In the rebellion of the year 1745,
+                people fled with their valuables from the open country to Patterdale, as a place of
+                refuge secure from the incursions of strangers. At that time, news such as we had
+                heard might have been long in penetrating so far into the recesses of the mountains;
+                but now, as you know, the approach is easy, and the communication, in summer time,
+                almost hourly: nor is this strange, for travellers after pleasure are become not
+                less active, and more numerous than those who formerly left their homes for purposes
+                of gain. The priest on the banks of the remotest stream of Lapland will talk
+                familiarly of Buonaparte's last conquests, and discuss the progress of the French
+                revolution, having acquired much of his information from adventurers impelled by
+                curiosity alone.
+            </p>
+                
+            <p>The morning was clear and cheerful after a night of sharp frost. At 10 o’clock we
+                took our way on foot towards Pooley Bridge, on the same side of the lake we had
+                coasted in a boat the day before.—Looked backwards to the south from our favourite
+                station above Blowick. The dazzling sunbeams striking upon the church and village,
+                while the earth was steaming with exhalations not traceable in other quarters,
+                rendered their forms even more indistinct than the partial and flitting veil of
+                unillumined vapour had done two days before. The grass on which we trod, and the
+                trees in every thicket were dripping with melted hoar-frost. We observed the
+                lemon-coloured leaves of the birches, as the breeze turned them to the sun, sparkle,
+                or rather <emph>flash</emph>, like diamonds, and the leafless purple twigs
+                were tipped with globes of shining crystal.
+            </p>
+                
+            <p>The day continued delightful, and unclouded to the end. I will not describe the
+                country which we slowly travelled through, nor relate our adventures; and will only
+                add, that on the afternoon of the 13th we returned along the banks of Ulswater by
+                the usual road. The lake was in deep repose after the agitations of a wet and stormy
+                morning. The trees in Gowbarrow park were in that state when what is gained by the
+                disclosure of their bark and branches compensates, almost, for the loss of foliage,
+                exhibiting the variety which characterises the point of time between autumn and
+                winter. The hawthorns were leafless; their round heads covered with rich red
+                berries, and adorned with arches of green brambles, and eglantines hung with glossy
+                hips; and the grey trunks of some of the ancient oaks, which in the summer season
+                might have been regarded only for their venerable majesty, now attracted notice by a
+                pretty embellishment of green mosses and fern intermixed with russet leaves retained
+                by those slender outstarting twigs which the veteran tree would not have tolerated
+                in his strength. The smooth silver branches of the ashes were bare; most of the
+                alders as green as the Devonshire cottage-myrtle that weathers the snows of
+                Christmas.—Will you accept it as some apology for my having dwelt so long on the
+                woodland ornaments of these scenes—that artists speak of the trees on the banks of
+                Ulswater, and especially along the bays of Stybarrow crags, as having a peculiar
+                character of picturesque intricacy in their stems and branches, which their rocky
+                stations and the mountain winds have combined to give them?
+            </p>
+                
+            <p>At the end of Gowbarrow park a large herd of deer were either moving slowly or
+                standing still among the fern. I was sorry when a chance companion, who had joined
+                us by the way, startled them with a whistle, disturbing an image of grave simplicity
+                and thoughtful enjoyment; for I could have fancied that those natives of this wild
+                and beautiful region were partaking with us a sensation of the solemnity of the
+                closing day. The sun had been set some time; and we could perceive that the light
+                was fading away from the coves of Helvellyn, but the lake under a luminous sky, was
+                more brilliant than before.
+            </p>
+                
+            <p>After tea at Patterdale, set out again:— a fine evening; the seven stars close to the
+                mountain-top; all the stars seemed brighter than usual. The steeps were reflected in
+                Brotherswater, and, above the lake, appeared like enormous black perpendicular
+                walls. The Kirkstone torrents had been swoln by the rains, and now filled the
+                mountain pass with their roaring, which added greatly to the solemnity of our walk.
+                Behind us, when we had climbed to a great height, we saw one light, very distinct,
+                in the vale, like a large red star—a solitary one in the gloomy region. The
+                cheerfulness of the scene was in the sky above us.
+            </p>
+                
+            <p>Reached home a little before midnight. </p>
+            <lb/>
+            <lb/><milestone unit="essay"/><lb/>
+            </div>
+        </body>
+    </text>
+</TEI>
