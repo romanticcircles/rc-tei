@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Two Letters Related to "Ullswater Excursion"
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <editor role="editor">Paul Westover</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.letters</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Two Letters Related to "Ullswater Excursion"
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.letters"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-09-09</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    
+    
+    
+    <text>
+        <body>
+            <div type="essay">
+            <head>Two Letters Related to <title level="a">Ullswater Excursion</title></head>
+            <p>
+                <hi rend="bold">[Editor’s Note:</hi> Two letters Dorothy sent to Lady Margaret Beaumont in November 1805 make for valuable supplements to her 
+                Ullswater account.
+                <note place="foot" resp="editors">These transcriptions, which vary slightly
+                    from those published in <title level="m">Letters</title> (1:636&#8211;40, 648&#8211;52), are based on the
+                    originals at the Wordsworth Trust (WLL / Wordsworth, W and D / 2 / 152 and 154).
+                </note>
+                They touch on several concerns, including William’s struggles to finish various poetic projects, the rapid growth of William and Mary’s family, 
+                the prospect of being forced to leave Grasmere, her shock over the recent deaths of her brother John and Admiral Nelson, and her fears over 
+                the seemingly interminable war with France, along with related worries about Coleridge’s health and safety. Passages most directly connected 
+                to the <title level="a">Ullswater Excursion</title> of 6&#8211;12 November appear in 
+                <hi rend="bold color(385623)">green type</hi>.]<!--how do I indicate this colors?-->
+            </p>
+                
+            <lb/><milestone unit="essay"/><lb/>
+                
+            <div type="letter">
+                <head>1. Dorothy Wordsworth to Lady Beaumont, 7 November 1805</head></hi>
+            <salute>My dear Friend,</salute>
+            <p>Being at Patterdale on a rainy day I am at perfect leisure &amp; I think I cannot do better than transcribe for you a poem which my Brother wrote 
+            the <del rend="strike">other</del> day before yesterday. We left home yesterday morning. I rode upon my little pony and William walked by my side. 
+            We came over Kirkstone and had a very pleasant journey though the day was misty; &amp; at the top of Kirkstone we could not see fifty yards around us. 
+            We were very anxious to visit some of the Vales tributary to Ulswater where we have never been before, while yet the brown leaves are upon some of 
+            the trees; but I am afraid it must not be this year, for the weather seems broken. We are in the house of a Friend, a comfortable Cottage
+                <note place="foot" resp="editors">Side, the Patterdale home of Charles and Letitia Luff. DW writes this letter from the Luffs’ house on the second 
+                    day of her journey.
+                </note>
+            most happily situated in the main Vale above the Lake of Ulswater. From this room I look over the level bed of the valley, intersected with hedgerows, 
+            (it seems as level as a bowling-green) horses &amp; cows are feeding in the fields which are of a soft yellow hue, through which you hardly perceive 
+            the tinge of the fading green, a colour that harmonizes exquisitely with that of the trees upon the mountain opposite, where a thick cloud is resting; 
+            and through that veil, rocks and craggy points now appear.—and then are hidden again. My dear Lady Beaumont, this is a wonderful country; the 
+            more wonderful, the more we know of it, much as the Tourists stare at our great rocks while they wheel along the turnpike roads. Yesterday we had 
+            visions of things, imperfectly seen as we passed along, that might have employed our fancy happily for hours, if they had not in the next moment 
+            been replaced by others as beautiful. This Dale has not yet been intruded upon by any of the Fancy-builders, —there is only one offensive object, the 
+            house of Mr Mounsey, the King of Patterdale,
+                <note place="foot" resp="editors">John Mounsey (1761–1820), who lived at Patterdale Hall. His “King of Patterdale” title was passed down by 
+                    local courtesy from an ancestor said to have defeated a party of Border raiders. DW may use the title somewhat ironically on the model of 
+                    “King Pocky,” the nickname given to Joseph Pocklington (1736–1817), who, among his other eccentricities, purchased the island in Derwentwater and 
+                    built a folly house there. Later in this letter, when DW speaks of a gentleman purchasing the island in Grasmere and likely building a pavilion 
+                    or obelisk on it, she has actual exploits of “King Pocky” in mind.
+                </note>
+            &amp; that is chiefly ugly from the colour which has been so cried out against that he intends to change it next summer. But poor Grasmere is a 
+            devoted place! You may remember that I spoke of the white-washing of the church, &amp; six years ago a trim Box was erected on 
+            <del rend="strike">the</del> a hill-side; <del rend="strike">which</del> it is surrounded with fir and Larch plantations, that look like a blotch or 
+            scar on the fair surface of the mountain. Luckily these deformities are not visible in the grand view of the Vale, but alas poor Grasmere! The first 
+            object which now presents itself after you have clomb the hill from Rydale is Mr Crump’s newly-erected large mansion,
+                <note place="foot" resp="editors">Allan Bank, which, ironically, the Wordsworths would end up renting from John Crump between 1808 
+                    and 1811. Although William called it “a temple of abomination” and Dorothy a “monster of a house,” it commanded excellent views of 
+                    the Grasmere Vale and more space for a growing family and frequent houseguests.
+                </note>
+            staring over the church Steeple, its foundation under the crags being much above the top of the Steeple—then a farm-house opposite to ours, on the 
+            other side of the Lake, has been taken by a dashing man from Manchester
+                <note place="foot" resp="editors">Samuel Barber, a bachelor who had moved into and begun renovating William Gell’s cottage.</note>
+            who, no doubt, will make a <hi rend="underline">fine place</hi> of it, and as he has taken the Island, too, will probably erect a pavilion 
+            <del rend="strike">there</del> upon it, or, it may be, an Obelisk. This is not all. A very beautiful little Estate has been purchased in 
+            the more retired part of the Vale, and the first thing the Gentleman has done preparatory to building his house, has been to make a 
+            <hi rend="underline">sunk Fence</hi>
+                <note place="foot" resp="editors">Apparently DW is describing a “ha-ha,” a landscape feature that became fashionable in the late 
+                    eighteenth century. Its usual intent was to prevent sheep from grazing on the lawns and gardens near a house without 
+                    obstructing views.
+                </note>
+            which you overlook on every side from the rocks, thickets, and green sloping hills! Add to all that Sir Michael Fleming
+                <note place="foot" resp="editors">Sir Michael Fleming (or le Fleming; 1748–1806), 4th Baronet, of Rydal Hall. The Wordsworths would 
+                    later rent Rydal Mount from his widow, Lady Diana (Howard) le Fleming, with whom they had years of tense relations.
+                </note> 
+            has been getting his woods appraised, and after Christmas the Ax is to be lifted against them, &amp; not one tree left, so the whole eastern side of 
+            the Lake will be entirely naked, even to the very edge of the water!—but what could we expect better from Sir Michael? who has been building a long 
+            high wall under the grand woods behind his house which cuts the hill in two by a straight line; and to make his doings visible to all men he 
+            has whitewashed it as white as snow. One who could do this wants a sense which others have. To him there is no “<hi
+                    rend="underline">Spirit in the wood</hi>.”
+                 <note place="foot" resp="editors">DW here recalls the closing line of WW’s “Nutting,” first published in the second edition of 
+                    <title level="m">Lyrical Ballads</title> (1800).
+                 </note>
+            </p>
+            <p>
+                <!--how to I indent this when it's not a line-->I must add to my lamentations for the fate of Grasmere one consolation for you; that our regrets 
+                at parting with it will be more than half spent before we go; &amp; that, in fact, we begin already to think that there may be many places which 
+                we should now prefer.
+                    <note place="foot" resp="editors">Aware of the Wordsworths’ fondness for their home at Town End, Grasmere, readers may be surprised by 
+                        this statement of DW’s. However, by 1805 it was obvious that Dove Cottage was too small for the family. Moreover, the Wordsworths hoped to 
+                        own (not merely rent) a home. In the end, the Wordsworths spent the winter of 1806–1807 as guests of the Beaumonts at Coleorton, and in 
+                        1808 they moved to Allan Bank (see n3). Removals to the Rectory in Grasmere (1811) and finally to Rydal Mount (1813) would follow. In 
+                        this letter, DW comforts herself at the necessity of moving by lamenting that Grasmere is not what it used to be.
+                    </note>
+            </p>
+                
+            <p>I seem to have forgotten my object, which was to transcribe my Brother’s Poem,
+                <note place="foot" resp="editors">The poem, of course, is “The Solitary Reaper.” The version DW offers here is quite close to the one published 
+                    in the second volume of WW’s <title level="m">Poems</title> (1807).
+                </note> 
+                and forgotten too, his exclamations against my last <hi
+                    rend="underline">long</hi> letter. The poem, which as it pleases me so much I feel assured will please you, was suggested by a very 
+                beautiful passage in a Journal of a Tour among the Highlands, by Thomas Wilkinson,
+                <note place="foot" resp="editors">Thomas Wilkinson (1751–1836), the Quaker poet, lived at Yanwath, between Penrith and Lord Lowther’s 
+                    estate. In her Ullswater journal, DW describes walking with him in the Lowther woods and reports that WW asked him to help negotiate 
+                    the purchase of Broad How.
+                </note>
+                the person mentioned by my Brother to Sir George as employed by Lord Lowther
+                <note place="foot" resp="editors"> William Lowther, 2nd Earl of Lonsdale, who, unlike his notorious father (who refused to pay debts owed to 
+                    the Wordsworth family), became a friend and patron to WW.
+                </note> 
+                to regulate the improvements in his grounds.
+            </p>
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>Behold her single in the Field,</l>
+                    <l>Yon solitary Highland Lass!</l>
+                    <l>Reaping and singing by herself;</l>
+                    <l>Stop here, or gently pass.</l>
+                    <l>Alone she cuts and binds the grain,</l>
+                    <l>And sings a melancholy strain;</l>
+                    <l>O listen! for the Vale profound</l>
+                    <l>Is overflowing with the sound.</l>
+                </lg>
+                <lg type="stanza">
+                    <l>No nightingale did ever chaunt</l>
+                    <l>So sweetly to reposing bands</l>
+                    <l>Of Travellers, in some shady haunt</l>
+                    <l>Among Arabian Sands.</l>
+                    <l>No sweeter voice was ever heard</l>
+                    <l>In spring-time from the Cuckow-Bird,</l>
+                    <l>Breaking the silence of the seas</l>
+                    <l>Among the farthest Hebrides.</l>
+                </lg>
+                <lg type="stanza">
+                    <l>Will no one tell me what she sings?</l>
+                    <l>Perhaps the plaintive numbers flow</l>
+                    <l>For old unhappy far-off things</l>
+                    <l>And battles long ago.</l>
+                    <l>Or is it some more humble lay.</l>
+                    <l>Familiar matter of today,</l>
+                    <l>Some natural sorry, loss or pain,</l>
+                    <l>That <del rend="strike">has</del> been, &amp; may be again?</l>
+                </lg>
+                <lg type="stanza">
+                    <l>Whate’er the theme, the Maiden sung</l>
+                    <l>As if her song could have no ending;</l>
+                    <l>I saw her singing at her work,</l>
+                    <l>And o’er her sickle bending;</l>
+                    <l>I listened till I had my fill,</l>
+                    <l>And, as I mounted up the hill,</l>
+                    <l>The music in my heart I bore</l>
+                    <l>Long after it was heard no more.</l>
+                </lg>
+            </div>
+            <p>I was glad to hear that you were so much pleased with the Translation from Michael Angelo, —I think it is very happily done, &amp; a 
+                very fine Sonnet.
+                <note place="foot" resp="editors"><title level="a">From the Italian of Michelangelo</title> later appeared among the 
+                    <title level="a">Miscellaneous Sonnets</title> in the first volume of <title level="m">Poems</title> (1807). WW tried to translate 
+                    “at least fifteen” of Michelangelo’s sonnets at the request of a friend, who was writing a biography of the artist. In speaking of 
+                    “so much thought” in the poems, DW echoes something WW wrote to Sir George Beaumont in late October: “So much meaning has been put 
+                    by Michael Angelo into so little room, and that meaning sometimes so excellent in itself that I found the difficulty of translating 
+                    him insurmountable” (<title level="m">Letters</title>, 1.628).
+                </note> 
+                I wish my Brother could have done more in testimony of his reverence for so great a man, but he finds so much thought in the poems &amp; the Italian 
+                so difficult that he has tried in vain. Adieu, —I write with a party talking round me—excuse blunders—it is now eight o’clock in the evening. Since 
+                I began in the morning we have had a most enchanting walk, &amp; we hope to have a fine day tomorrow, when we shall return to Grasmere. On Saturday 
+                we shall feast on the Leicestershire hare
+                <note place="foot" resp="editors">On 4 November, DW had written to thank Lady Beaumont for a present that had arrived the night before: 
+                    “Again we all thank you for the game—it will almost make epicures of us—coming from you it will be such a feast” 
+                    (<title level="m">Letters</title>, 1:635–36). Presumably, the Leicestershire hare was a remnant of that gift.
+                </note>
+                &amp; drink a bumper to your healths by our own fire side. Farewell! believe me your ever affectionate and faithful Friend Dorothy Wordsworth.
+            </p>
+            </div>
+                <lb/><milestone unit="essay"/><lb/>
+                
+            <div type="letter">
+            <head>2. <title level="m">Dorothy Wordsworth to Lady Beaumont, 29 November 1805</title></head>
+            <dateline>Friday evening—Grasmere November 29<hi rend="sup">th</hi></dateline>
+            <p>I received the first of your short letters on Monday, the second not till today; judge of the mismanagement of our Post office!—regular Office, 
+                indeed we have none, but the Post now comes <hi rend="underline">four</hi> times a week; yet (so do they arrange it) on the Sunday evenings he 
+                brings as many letters as all the rest of the week put together. I do not know why I have troubled you with this my lamentation at this time 
+                except that in future it may serve to explain to you if there should be any extraordinary delay when you may have written what may demand an 
+                immediate answer. My Brother and Sister are at Park House. She left me last Monday and William yesterday morning, &amp; I do not expect them 
+                home before the end of next week: perhaps my Sister may stay longer, as she is still not in 
+                <hi rend="underline">strong</hi> health, &amp; we think that change of air may be of service to her. She will bring Miss Hutchinson
+                <note place="foot" resp="editors">SH, MW’s sister. As WW put it in autobiographical memoranda dictated toward the end of his life, 
+                    “She lived alternately with her brother and with us” (<title level="m">Memoirs</title>, 17). In truth, she lived mostly with the 
+                    Wordsworths from 1806 forward.
+                </note> 
+                to spend the winter with us.
+            </p>
+            <p>My dear Lady Beaumont, you are so affectionate &amp; kind to me that I often feel a restless desire that you should know me better which 
+                impels me to write to you; for while I write I seem to draw nearer to you &amp; to bring you more near to me.
+            </p>
+            <p>I have many dear and cheerful thoughts, and many melancholy ones in my solitude—these I sometimes seek, but at others they master me &amp; 
+                I turn my cowardly heart to some other employment. I read, I copy some of my Brother’s Poems (a work which he has left me to do) or 
+                I write a letter. The Children are now in bed. The evening is very still, and there are no indoor sounds but the ticking of our Family watch 
+                which hangs over the chimney-piece under the drawing of the Applethwaite Cottage,
+                <note place="foot" resp="editors">In 1803, Sir George Beaumont had given the Wordsworths a plot of land at Applethwaite, near Keswick, so that 
+                    they might live closer to STC. Sir George had also sent a drawing of “the Cottage, its dashing waters, and the corner of old Skiddaw” 
+                    (DW to Lady Beaumont, <title level="m">Letters</title>, 1:483). This picture, a symbol of home, friendship, and friends’ belief in WW’s 
+                    poetic calling, hung in Dove Cottage for the whole time the Wordsworths lived there. It now resides at the Wordsworth Trust (reference GRMDC.B31).
+                </note> 
+                &amp; a breathing or a beating of one single irregular Flame in my fire. No one who has not been an Inmate with Children in a 
+                <hi rend="underline">Cottage</hi> can have a notion of the quietness that takes possession of it when they are gone to sleep. The hour 
+                before is generally a noisy one, often given up to boisterous efforts to amuse them, &amp; the noise is heard in every corner of the 
+                house—then comes the washing and undressing, a work of misery, &amp; in ten minutes after, all is stillness and perfect rest. It is at 
+                all times a sweet hour to us; but I can fancy that I have never enjoyed it so much as now that I am quite alone—yet it is a strange kind 
+                of pleasure for the Image of our departed Brother
+                <note place="foot" resp="editors">John Wordsworth, DW’s younger brother, had perished in February off England’s southern coast. He was captain of 
+                    the <emph>Earl of Abergavenny</emph>, an East Indiaman that was wrecked in Weymouth Bay. Though 155 people survived, Captain Wordsworth went 
+                    down with the ship, along with much of his crew.
+                </note> 
+                haunts me with many a pang in the midst of happy recollections of him, &amp; glorious hopes—he loved this fireside—he paced over this floor in 
+                pride before we had been six weeks in the house, exulting within his noble heart that his Father’s Children had once again a home together. We 
+                did not know on what day he would come, though we were expecting him every hour, therefore he had no reason to fear that he should surprize
+                us suddenly; yet twice did he approach the door &amp; lay his hand upon the latch, &amp; stop, and turn away without the courage to enter (we 
+                had not met for several years) he then went to the Inn and sent us word that he was come. This will give you a notion of the depth of his 
+                affections and the delicacy of his feelings. While he stayed with us he busied himself continually with little schemes for our comfort. At 
+                this moment, when I cast my eyes about I scarcely see any thing that does not remind me of some circumstance of this kind, &amp; my tears 
+                <hi rend="underline">will</hi> flow by fits in spite of my inner and habitual sense of the many consolations which he has let for us (chiefly in 
+                his innocent life &amp; noble death) and that all our regrets are selfish. <hi rend="underline">His</hi> hope and mine, our Brother William, is 
+                yet spared to me, —&amp; I have many blessings which poor John did not share; he knew &amp; affectionately loved my Sister but he never saw her 
+                after her marriage, &amp; he had only heard the names of their dear Children...
+                <note place="foot" resp="editors">That is, John (born June 1803) and Dorothy (born August 1804).</note>
+                Oh! What a beautiful spectacle are they, as I have just left them this evening upon their pillows! how divine an image of peace! —But I was 
+                seeking consolation, and I find I am further from it for then came a bitter pang. I was weak enough to grieve for <hi rend="underline">
+                his</hi> Loss, thinking what happiness would have been his, could he have beheld their blessed countenances.
+            </p>
+            <p>I begin again after a pause. Poor Coleridge! We must not talk of him. I hope we shall not see him this winter; yet I cannot in my mind depend 
+                upon it, for I <hi rend="underline">know</hi> that his earnest desire to return is the cause of his silence—he has nothing decisive to 
+                communicate &amp; therefore has not heart to write. Heaven preserve him from Captivity in France!
+                <note place="foot" resp="editors">STC traveled to Malta in April 1804, hoping to escape his failing marriage, overcome his addiction to opiates, 
+                    and restore his physical and mental health. As DW suggests, the ongoing war with Napoleonic France, compounded by STC’s own delays 
+                    (including wanderings around Italy), made his long absence a trial to both family and friends. When he finally returned to England in 1806, 
+                    DW was shocked at his condition.
+                </note><!--RIGHT HEREEEEEEEEE-->
+            </p>
+            <p>
+                <hi rend="color(385623)" style="font-size:12pt">The very morning after I wrote to
+                    you the tidings of Lord Nelson’s Fate reached us at Patterdale. We were at
+                    Breakfast when Mr. Luff’s Maid-servant opened the door and, shewing only her
+                    head, with an uncouth stare and a grin of pleasure told us that there had been a
+                    great victory, and Lord Nelson was shot. It was a blow. —</hi><hi
+                    rend="underline color(385623)" style="font-size:12pt"
+                    >I</hi><hi rend="color(385623)" style="font-size:12pt" xml:space="preserve"> was not collected enough to doubt, and burst into tears; but William would not believe it all at once &amp; forced me to suspend my grief till he had made further inquiries. At the Inn we were told that there were “great rejoicings at Penrith—all the Bells ringing” — “Then, I exclaimed, he cannot be dead!” but we soon heard enough to leave us without a doubt, &amp; bitterly did we lament for him and our Country. Your account of what you have heard of him interests me very much. I believe that every truly </hi><hi
+                    rend="underline color(385623)" style="font-size:12pt"
+                >brave</hi><hi rend="color(385623)" style="font-size:12pt" xml:space="preserve"> Man, in the highest sense of the word, is, as you describe Lord Nelson to have been, tender and humane in all the daily acts of life. </hi></p>
+            <p><hi style="font-size:12pt"> I was sure that you would be pleased with the Stanzas on
+                    the solitary Reaper. There is something inexpressively soothing to me in the
+                    sound of those two Lines</hi></p>
+            <p style="text-align: center;"><hi style="font-size:12pt">Oh listen! For the Vale
+                    profound</hi></p>
+            <p style="text-align: center;"><hi style="font-size:12pt">Is overflowing with the
+                    sound.</hi></p>
+            <p><hi style="font-size:12pt">I often catch myself repeating them in disconnection with
+                    any thought, or even, I may say, recollection of the Poem.</hi></p>
+            <p><hi style="font-size:12pt"> My Brother has not yet begun fairly with his great
+                    work;</hi><hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">DW refers to </hi><hi
+                                rend="italic" style="font-size:11pt">The
+                                Recluse</hi><hi style="font-size:11pt" xml:space="preserve">, which WW never did complete, though he considered </hi><hi
+                                rend="italic" style="font-size:11pt">The
+                                Prelude</hi><hi style="font-size:11pt" xml:space="preserve"> (what DW calls “the Poem on his own life” later in the paragraph) its prologue and </hi><hi
+                                rend="italic" style="font-size:11pt">The
+                            Excursion</hi><hi style="font-size:11pt" xml:space="preserve"> (published 1814) its second part. </hi></p></note></hi><hi style="font-size:12pt" xml:space="preserve"> but I hope he will after his return from Park house. We shall then in right earnest enjoy winter quiet &amp; loneliness; besides starlight walks and winter winds are his delight—his mind, I think is often more fertile in this season than any other. I am now engaged in making a fair and final transcript of the Poem on his own Life. I mean </hi><hi
+                    rend="underline" style="font-size:12pt">final</hi><hi style="font-size:12pt">,
+                    till it is prepared for the press, which will not be for many years. No doubt
+                    before that time he will, either from the suggestions of his Friends or his own,
+                    or both, have some alterations to make, but it appears to us at present to be
+                    finished.</hi><hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">DW here shows considerable insight into her brother’s psychology and habits of work. WW would, of course, revise the poem further, and it would not see print until after his death in 1850. Nonetheless, this letter of DW’s is one authority for considering the 1805 </hi><hi
+                                rend="italic" style="font-size:11pt"
+                            >Prelude</hi><hi style="font-size:11pt" xml:space="preserve"> as a complete version of the work, widely considered her brother’s masterpiece. </hi></p></note></hi></p>
+            <p><hi style="font-size:12pt"> We were very sorry that Sir George had not been well. My
+                    Brother entreats that he will not write to him till he can do it with perfect
+                    ease and comfort. He prizes Sir George’s letters most highly; but I can assure
+                    you, he never suffers himself to expect them, &amp; would be very much hurt were
+                    he to attempt to write to him when it was an effort. You do not tell me whither
+                    you are going from Aston, probably to Dunmow</hi><hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">Dunmow, in Essex, was the home of the Dowager Lady Beaumont, Sir George’s mother. </hi></p></note></hi><hi style="font-size:12pt" xml:space="preserve"> before you settle in London for the winter. Coleridge gave us such a description of Sir George’s venerable Mother whom he had the happiness of seeing at Dunmow as inspired me with reverence &amp; admiration. Pray tell me if she continues to enjoy the same excellent health &amp; cheerful spirits. Have you heard from your Sister again? I cannot express how much pleasure it gives me when you speak of her. </hi><hi
+                    rend="color(385623)" style="font-size:12pt">I had almost forgotten to tell you
+                    that we were at Lowther three days after I wrote from Patterdale. We walked
+                    through the woods, &amp; along the Forest path which my Brother described to
+                    you—but it was not the time to see its beauties for there were no daisies or
+                    other flowers, &amp; the very line of the path was invisible, the whole ground
+                    being covered with leaves. Thomas Wilkinson (The Quaker), who was our Guide
+                    mentioned to us that he had seen a Gentleman just come from Coleorton, who had
+                    been among the woods for many hours in search of the path but could not find it.
+                    We wished we could have seen him, &amp; my Brother sent a message to him to
+                    request that if he came into our neighborhood, he would have the goodness to
+                    call upon him. We spent a delightful day at Lowther, indeed the whole week was
+                    delightful—we ranged from one beautiful scene to another. I came home in perfect
+                    health, &amp; we boasted of my wonderful
+                    strength</hi><hi style="font-size:12pt" xml:space="preserve">; but last week I was confined to my bed four days by a violent pain in my left side. I was bled, blistered &amp;c, and am now perfectly well, and the Apothecary tells me I have no reason to apprehend a return of the disease in consequence of having once had it. It being a </hi><hi
+                    rend="underline" style="font-size:12pt"
+                >new</hi><hi style="font-size:12pt" xml:space="preserve"> disease, I believe I was unduly alarmed, else, now that it is over, I think I should not have thought it worth while to mention it to you.</hi></p>
+            <p><hi style="font-size:12pt" xml:space="preserve">	At another time I should have told you, </hi><hi
+                    rend="underline" style="font-size:12pt">by way of
+                    consolation</hi><hi style="font-size:12pt" xml:space="preserve">, on coming to the end of this letter, that it may probably be a long time before you receive another of equal length, for when our household is gathered together again I shall have less leisure; but you so kindly encourage me to believe that all that happens to us is interesting to you; that I am not afraid that even </hi><hi
+                    rend="underline" style="font-size:12pt">this</hi>
+                <hi style="font-size:12pt">letter will tire you. Believe me I consider your delight
+                    in hearing from me as a sure proof of your affection; for what have I to
+                    communicate but our daily goings-on, (which hardly vary from day to day,) &amp;
+                    my own peculiar feelings; and to make these interesting love must be in your
+                    heart. Adieu, my good and dear Friend,</hi></p>
+            <p>
+                <hi style="font-size:12pt"> Your ever affectionate</hi></p>
+            <p>
+                <hi style="font-size:12pt"> Dorothy Wordsworth</hi></p>
+            <p><hi style="font-size:12pt" xml:space="preserve">I do not know whether I gave you a distinct notion of Sir Michael’s white wall. It is high upon the hillside, directly under the woods behind his house, which are backed by the mountains of Rydale head. This wall many would take for a bleaching yard, only that linen cloth is generally bleached in a low meadow by a river-side. — It is like a piece of broad-cloth hung upon tenters as you see them in Yorkshire, only twice the length of an ordinary piece of cloth &amp; perhaps three times the breadth. This white Line entirely destroys the grandeur &amp; simplicity of the Recess, or mountain Cove behind his house. </hi></p>
+            <p><hi style="font-size:12pt"> On looking again at the date of your last I find I am
+                    mistaken, I thought it had been written the day after the former. I am reading
+                    Rosco’s Leo the tenth.</hi><hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt" xml:space="preserve">William Roscoe’s </hi><hi
+                                rend="italic" style="font-size:11pt">The Life and Pontificate of Leo
+                                the
+                            Tenth</hi><hi style="font-size:11pt" xml:space="preserve">, published that year. </hi></p></note></hi>
+                <hi style="font-size:12pt" xml:space="preserve">I have only got through the first Chapter which I find exceedingly interest. The whole Book can scarcely be so interesting to me. </hi></p>
+            <p><hi style="font-size:12pt" xml:space="preserve">	Do not think yourself bound to write to me except when you have time &amp; opportunity—Only let us know if any evil befalls you or yours &amp; I shall never wonder at your silence or be uneasy. </hi></p>
+        </body>
+    </text>
+</TEI>
