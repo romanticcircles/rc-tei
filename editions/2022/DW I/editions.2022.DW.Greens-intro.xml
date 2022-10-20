@@ -50,8 +50,7 @@
             <edition><date>YYYY-MM-DD</date></edition>
         </editionStmt>
         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, 
-                University of Colorado Boulder</publisher>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado Boulder</publisher>
             <pubPlace>Boulder, CO</pubPlace>
             <availability status="free">
                 <p>Material from the Romantic Circles Website may not be downloaded, 
@@ -92,21 +91,21 @@
                     can, of course, make a link to the copies at Romantic Circles, subject 
                     to our conditions of use.</p>
             </availability>
-            <!-- CHANGE IDNO; ENSURE THAT THE "EDITION" LINE EXACTLY MATCHES THE FILE NAME -->
-            <idno type="edition">SECTION.YEAR.VOL-ABBREV.AUTHORLAST</idno>
-            <idno type="resource">VOL-ABBREV [same as above]</idno>
+            
+            <idno type="edition">editions.2022.DW.Greens-intro</idno>
+            <idno type="resource">DW</idno>
         </publicationStmt>
         <sourceDesc>
             <biblStruct>
-                <analytic>
-                    <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                    <title level="a" type="main">SECTION TITLE</title>
-                    <ptr target="SECTION/VOL-ABBREV/SECTION.YEAR.VOL-ABBREV.AUTHORLAST.html"/>
+                <analytic>                  
+                    <title level="a" type="main">Introduction to “A Narrative concerning George &amp; Sarah Green of the Parish of Grasmere, addressed to a Friend” (DCMS 64)
+                    </title>
+                    <ptr target="editions.2022.DW.Greens-intro.html"/>
                 </analytic>
-                <!-- CHANGE TITLES -->
+
                 <monogr>
-                    <title level="m">FULL TITLE OF EDITION</title>
-                    <title level="s">SECTION</title>
+                    <title level="m">Dorothy Wordsworth's Lake District</title>
+                    <title level="s">Editions</title>
                     <imprint>
                         <publisher>Romantic Circles, https://romantic-circles.org, 
                             University of Colorado Boulder</publisher>
@@ -186,9 +185,8 @@
     </profileDesc>
     <revisionDesc>
         <change>
-            <!--  PUT YOUR NAME HERE. AND CHANGE THE DATE RIGHT BEFORE PUBLICATION  -->
-            <name>YOUR NAME</name>
-            <date>YYYY-MM-DD</date>
+            <name>Lavender Earnest</name>
+            <date>2022.10.20</date>
             <list>
                 <item>TEI encoding the text</item>
             </list>
@@ -199,187 +197,180 @@
 
     <text>
         <body>
-            <p>Introduction to “A Narrative concerning George &amp; Sarah Green</p>
-            <p>of the Parish of Grasmere, addressed to a Friend” (DCMS 64)</p>
-            <p>Michelle Levy</p>
-            <list rend="numbered">
-                <item>Contexts<list rend="numbered">
-                        <item>“Laying Schemes” to Help the Orphans</item>
+            <div type="essay">
+                <head>Introduction to A <title level="m">Narrative concerning George &amp; Sarah Green of the Parish of Grasmere, addressed to a Friend</title> (DCMS 64)</head>                        <byline>
+                    <docAuthor>Michelle Levy</docAuthor>
+                    <affiliation>Brigham Young University</affiliation>
+                </byline>
+                
+                <div type="paratext">          
+                    <p rend="large">Contexts</p>
+                    <list type="unordered">         
+                        <item>&#8220;Laying Schemes&#8221; to Help the Orphans</item>
                         <item>Dorothy as Social Historian</item>
-                        <item>Circulating the “Narrative” (after Funds Had Been Raised)</item>
-                    </list></item>
-            </list>
-            <list rend="numbered">
-                <item>Textual and Editorial Issues</item>
-            </list>
-            <p>I. Contexts</p>
+                        <item>Circulating the &#8220;Narrative&#8221; (after Funds Had Been Raised)</item>
+                    </list>
+            
+                    <p rend="large">Textual and Editorial Issues</p>
+            
+                <lb/><milestone unit="paratext"/><lb/>
+                    
+               <div type="section">
+                   <head>I. Contexts</head>
+           
             <p>On 19 March 1808, a local married couple, George and Sarah Green, died attempting to
                 cross Langdale Fell on their way home during a storm. They lived at the far end of
                 Easedale, about two miles northwest of the Wordsworths, who were living in Dove
-                Cottage, Town End, Grasmere, at the time and had employed one of the Greens’
-                daughters, Sally, as a maid. The Greens’ deaths orphaned eight children under the
-                age of 16 and six under age 11, as well as six grown children by previous
-                    marriages.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
-                                ><hi style="font-size:11pt" xml:space="preserve"> The eight young children of George and Sarah Green were Mary (b. 1793, age 15); Sarah, called Sally (b. 1795, age 12); Jane (b. 1796, age 11); George (b. 1798, age 10); John (b. 1800, age 7); William (b. 1804, age 4); Thomas (b. 1805, age 3); and an infant “at the breast,” Hannah (b. 1807, age 1). George Green had a son and three daughters by a prior marriage: Margaret (b. 1766); Betty (b. 1771); Agnes, or Aggy) (b. 1775, d. 1842); and James (b. 1777, d. 1851). Sarah Green had had a son and a daughter before her marriage; both were in service in Langdale in 1808. Dates from </hi><hi
-                                rend="italic" style="font-size:11pt">Remembering the Greens of
-                                Grasmere</hi><hi style="font-size:11pt" xml:space="preserve">: </hi><hi
-                                rend="italic" style="font-size:11pt">A Village Bicentenary, March
-                                2008</hi><hi style="font-size:11pt" xml:space="preserve"> (Wordsworth Trust, 2008). </hi></p></note></hi>
+                Cottage, Town End, Grasmere, at the time and had employed one of the Greens&#8217;
+                daughters, Sally, as a maid. The Greens&#8217; deaths orphaned eight children under 
+                the age of 16 and six under age 11, as well as six grown children by previous
+                marriages.
+                    <note place="foot" resp="editors">The eight young children of George and Sarah Green were Mary (b. 1793, age 15); Sarah, called
+                     Sally (b. 1795, age 12); Jane (b. 1796, age 11); George (b. 1798, age 10); John (b. 1800, age 7); William (b. 1804, age 4); 
+                     Thomas (b. 1805, age 3); and an infant &#8220;at the breast,&#8221; Hannah (b. 1807, age 1). George Green had a son and three
+                     daughters by a prior marriage: Margaret (b. 1766); Betty (b. 1771); Agnes, or Aggy) (b. 1775, d. 1842); and James (b. 1777, d.
+                     1851). Sarah Green had had a son and a daughter before her marriage; both were in service in Langdale in 1808. Dates from 
+                     <title level="m">Remembering the Greens of Grasmere: A Village Bicentenary, March 2008</title> (Wordsworth Trust, 2008).</note>
                 George Green was 65, and Sarah, considerably younger at 43, had recently given birth
-                to a baby girl.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
-                                ><hi style="font-size:11pt" xml:space="preserve"> Sarah’s age is never given by DW, but we draw information from the Greens’ gravestone, which interestingly has George’s age at death as 66 rather than 65. </hi><hi
-                                rend="color(4472C4)" style="font-size:11pt">[Illustration: the grave
-                                in St. Oswald’s churchyard, Grasmere.]</hi></p></note></hi> The loss
-                of the parents threw “the whole vale,” in Dorothy Wordsworth’s words, into “the
-                greatest consternation.”<hi rend="endnote_reference"><note place="end"><p>
-                            <hi rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:201, DW to WW, 23 March 1808.</hi>
-                        </p></note></hi>
+                to a baby girl.
+                    <note place="foot" resp="editors">Sarah&#8217;s age is never given by DW, but we draw information from the Greens&#8217; gravestone,
+                    which interestingly has George&#8217;s age at death as 66 rather than 65. [Illustration: the grave in St. Oswald’s churchyard, Grasmere.]</note> 
+                                                                                                <!--Remember to put illustration above-->
+                The loss of the parents threw &#8220;the whole vale,&#8221; in Dorothy 
+                Wordsworth&#8217;s words, into &#8220;the greatest consternation.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 2:201, DW to WW, 23 March 1808.</note>
             </p>
-            <p>A. “Laying Schemes” to Help the Orphans</p>
-            <p>Nine days after the tragedy, Dorothy reported to her friend Catherine Clarkson that
-                the Wordsworths had immediately been “employed in laying schemes to prevent the
-                children from falling into the hands of persons who may use them unkindly.”<hi
-                    rend="endnote_reference"><note place="end"><p>
-                            <hi rend="italic" style="font-size:11pt"
-                            >Letters</hi><hi style="font-size:11pt" xml:space="preserve">, 2:206, DW to Catherine Clarkson, 28 March 1808. DW also criticizes the practice of orphans being boarded in the ”Narrative concerning George &amp; Sarah Green” (hereafter “Narrative”) itself, describing how they were often given “to the lowest Bidder, that is, to board them out with Persons who will take them at the cheapest rate; and such as are the least able to provide for them properly are often the readiest Bidders, for the sake of having a little money coming in.” At 10 years of age, children were made parish apprentices, “at best a slavish condition.” DW also explains how Sarah Green herself had “been a Parish Apprentice and therefore, probably, a neglected Child.” </hi>
-                        </p></note></hi> The specific fear was that the young Greens would suffer
-                the usual fate of orphans, being boarded out by the parish to foster families paid a
-                mere two shillings per week per child. Accordingly, the Wordsworths began to solicit
-                donations, and a brief account of the events was written by William and circulated
-                to those who might be willing to contribute (see appendix A).<hi
-                    rend="endnote_reference"><note place="end"><p rend="endnote text"
-                                ><hi style="font-size:11pt" xml:space="preserve"> WW wrote letters asking for donations, enclosing the short description of the events, in extant 1808 letters to Richard Sharp (</hi><hi
-                                rend="italic" style="font-size:11pt"
-                                >Letters</hi><hi style="font-size:11pt" xml:space="preserve"> 2:210, 13 April) and Francis Wrangham (</hi><hi
-                                rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2: 211–12, 17 April). He and DW wrote
-                                letters acknowledging the receipt of funds to Lady Beaumont
-                                (</hi><hi rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:224, 20 April), Richard Sharp (</hi><hi
-                                rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:229–30, 25 April), Jane Marshall
-                                (</hi><hi rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2: 234, 11 May), Lady Holland (</hi><hi
-                                rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:253, 20 June), Walter Scott (</hi><hi
-                                rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:263, 4 August), Samuel Rogers (</hi><hi
-                                rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:267, 29 September), and again Francis
-                                Wrangham (</hi><hi rend="italic" style="font-size:11pt"
-                                >Letters</hi><hi style="font-size:11pt">, 2:269, 2
-                            October).</hi></p></note></hi> It seems that the Wordsworths were
-                tireless in their efforts, as William, in a letter to Francis Wrangham dated 17
-                April 1808, apologizes for the “dim transcript made by a multiplying writer, we
-                having had occasion to make so many copies.”<hi rend="endnote_reference"><note
-                        place="end"><p rend="endnote text">
-                            <hi rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:212, WW to FW, 17 April 1808.</hi>
-                        </p></note></hi></p>
+                   
+            <p><hi rend="bold">A. &#8220;Laying Schemes&#8221; to Help the Orphans</hi><lb/>
+               Nine days after the tragedy, Dorothy reported to her friend Catherine Clarkson that
+               the Wordsworths had immediately been &#8220;employed in laying schemes to prevent the
+               children from falling into the hands of persons who may use them unkindly.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 2:206, DW to Catherine Clarkson, 28 March 1808. DW also criticizes
+                    the practice of orphans being boarded in the <title level="a">Narrative concerning George &amp; Sarah Green</title> (hereafter 
+                    <title level="a">Narrative</title>) itself, describing how they were often given &#8220;to the lowest Bidder, that is, to board them 
+                    out with Persons who will take them at the cheapest rate; and such as are the least able to provide for them properly are often the 
+                    readiest Bidders, for the sake of having a little money coming in.&#8221; At 10 years of age, children were made parish apprentices,
+                    &#8220;at best a slavish condition.&#8221; DW also explains how Sarah Green herself had &#8220;been a Parish Apprentice and therefore,
+                    probably, a neglected Child.&#8221;</note>
+                The specific fear was that the young Greens would suffer the usual fate of orphans, 
+                being boarded out by the parish to foster families paid a mere two shillings per week
+                per child. Accordingly, the Wordsworths began to solicit donations, and a brief 
+                account of the events was written by William and circulated to those who might be 
+                willing to contribute (see appendix A).
+                    <note place="foot" resp="editors">WW wrote letters asking for donations, enclosing the short description of the events, in extant 1808
+                    letters to Richard Sharp (<title level="m">Letters</title> 2:210, 13 April) and Francis Wrangham (<title level="m">Letters</title>, 2:
+                    211&#8211;12, 17 April). He and DW wrote letters acknowledging the receipt of funds to Lady Beaumont (<title level="m">Letters</title>,
+                    2:224, 20 April), Richard Sharp (<title level="m">Letters</title>, 2:229&#8211;30, 25 April), Jane Marshall (<title level="m">Letters</title>,
+                    2: 234, 11 May), Lady Holland (<title level="m">Letters</title>, 2:253, 20 June), Walter Scott (<title level="m">Letters</title>, 2:263, 4
+                    August), Samuel Rogers (<title level="m">Letters</title>, 2:267, 29 September), and again Francis Wrangham (<title level="m">Letters</title>,
+                    2:269, 2 October).</note>
+                It seems that the Wordsworths were tireless in their efforts, as William, in a letter
+                to Francis Wrangham dated 17 April 1808, apologizes for the &#8220;dim transcript made
+                by a multiplying writer, we having had occasion to make so many copies.&#8220;
+                    <note place="foot" resp="editors">Letters</note>, 2:212, WW to FW, 17 April 1808.</note></p>
+                
             <p>A letter from William to Coleridge written precisely one month after the tragedy, on
-                19 April 1808, included a copy of a short poem he had written entitled “Elegiac
-                Stanzas composed in the Churchyard of Grasmere, Westmorland, a few days after the
-                Internment there of a Man and his Wife, Inhabitants of the Vale, who were lost upon
-                the neighbouring Mountains, on the night of the nineteenth of March last” (see
-                appendix B).<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
-                            <hi rend="italic" style="font-size:11pt">Letters</hi><hi
-                                style="font-size:11pt">, 2:219, WW to STC, 19 April
-                        1808.</hi></p></note></hi> William urged Coleridge, who was then in London
-                delivering a series of lectures, to “turn these verses to any profit for the poor
-                Orphans in any way, either by reciting, circulating in manuscript or publishing
-                them.” William also explained, “As soon as she has leisure Dorothy means to draw up
-                a minute detail of all that she knows concerning the lives and characters of the
-                Husband and Wife, and everything relating to their melancholy end, and its effect
-                upon the Inhabitants of this Vale; a story that will be rich both in pleasure and
-                profit.” Dorothy, in fact, had begun drafting her own record at roughly this same
-                time, as evidenced by her noting near the beginning of her account, “It was a month
-                yesterday since the sad event happened.”<hi rend="endnote_reference"><note
-                        place="end"><p rend="endnote text">
-                            <hi style="font-size:11pt" xml:space="preserve">DCMS 64, 18. Unless otherwise noted, all quotations from the “Narrative” included in this introduction refer to DCMS 64. </hi></p></note></hi>
-                The end of the “Narrative” is signed and dated 4 May 1808, suggesting that Dorothy
-                completed it over a period of two weeks. </p>
-            <p>The success of the Wordsworths’ efforts in circulating requests for funds is
+                19 April 1808, included a copy of a short poem he had written entitled 
+                <title level="a">Elegiac Stanzas composed in the Churchyard of Grasmere, Westmorland,
+                a few days after the Internment there of a Man and his Wife, Inhabitants of the Vale,
+                who were lost upon the neighbouring Mountains, on the night of the nineteenth of March
+                last</title> (see appendix B).
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 2:219, WW to STC, 19 April 1808.</note>
+                William urged Coleridge, who was then in London delivering a series of lectures, to 
+                &#8220;turn these verses to any profit for the poor Orphans in any way, either by 
+                reciting, circulating in manuscript or publishing them.&#8221; William also explained,
+                &#8220;As soon as she has leisure Dorothy means to draw up a minute detail of all that
+                she knows concerning the lives and characters of the Husband and Wife, and everything
+                relating to their melancholy end, and its effect upon the Inhabitants of this Vale; a
+                story that will be rich both in pleasure and profit.&#8221; Dorothy, in fact, had begun
+                drafting her own record at roughly this same time, as evidenced by her noting near the
+                beginning of her account, &#8220;It was a month yesterday since the sad event happened.&#8220;
+                    <note foot="place" resp="editors">DCMS 64, 18. Unless otherwise noted, all quotations from the &#8220;Narrative&#8221; included in this 
+                    introduction refer to DCMS 64.</note>
+                The end of the &#8220;Narrative&#8221; is signed and dated 4 May 1808, suggesting that
+                Dorothy completed it over a period of two weeks.</p>
+                   
+             <p>The success of the Wordsworths&#8217; efforts in circulating requests for funds is
                 immediately apparent upon perusal of the subscription book they kept to record
-                donations pledged and received. By the middle of May 1808—just two months after the
-                tragedy—more than £300 had been raised, and by September 1808 almost 300 donors had
-                pledged nearly £500. Individual pledges varied, as we would expect, largely
+                donations pledged and received. By the middle of May 1808&#8212;just two months after the
+                tragedy&#8212;more than &#35;300 had been raised, and by September 1808 almost 300 donors had
+                pledged nearly &#35;500. Individual pledges varied, as we would expect, largely
                 according to the means of the donor, ranging from the 10 guineas given by both the
                 Bishop of Llandaff and Lord Muncaster to offerings of mere sixpences by local
                 laboring people and servants, many of whom could probably ill afford even these
-                small sums. </p>
+                small sums.</p>
+                   
             <p>Somewhat surprisingly, so far as the records show, the Wordsworths made no direct
                 monetary contribution themselves. This was probably owing to their own straitened
                 financial circumstances in 1808 or rationalized in terms of their deciding to retain
                 Sally Green after the tragedy instead of letting her go, which had been their plan.
-                The Wordsworths’ belief that the charity bestowed upon the Greens had, in some way,
-                to be circumscribed is readily apparent in their decision to cap at £500 the funds
+                The Wordsworths&#8217; belief that the charity bestowed upon the Greens had, in some way,
+                to be circumscribed is readily apparent in their decision to cap at &#35;500 the funds
                 raised for the orphans in order not to raise the children above (or at least
-                significantly above) their prior station.<hi rend="endnote_reference"><note
-                        place="end"><p rend="endnote text"
-                            ><hi style="font-size:11pt" xml:space="preserve"> Levy, “The Wordsworths, the Greens,” 542.</hi></p></note></hi>
+                significantly above) their prior station.
+                    <note place="foot" resp="editors">Levy, <title level="a">The Wordsworths, the Greens,</title> 542.</note>
                 This led to significant friction with Coleridge, who questioned both the belief that
-                the subscription should be capped and the Wordsworths’ decision to sell the entire
-                contents of the Greens’ cottage. Other hints of worry over possible unintended
-                consequences of assisting the family occur in the “Narrative.” Dorothy, for
-                instance, notes the initial concerns of some genteel women who housed the children
-                before their placement in new homes. Fears had been expressed that “wayward desires”
-                in the children might be raised “by the luxuries among which they had lived for the
-                last three weeks.” While Dorothy expresses her relief (and that of the other women)
-                “that [their] fears that this might happen were ill-grounded,” the articulation of
-                this worry is in itself revealing.</p>
+                the subscription should be capped and the Wordsworths&#8217; decision to sell the entire
+                contents of the Greens&#8217; cottage. Other hints of worry over possible unintended
+                consequences of assisting the family occur in the <title level="m">Narrative.</title>
+                Dorothy, for instance, notes the initial concerns of some genteel women who housed the
+                children before their placement in new homes. Fears had been expressed that 
+                &#8220;wayward desires&#8221; in the children might be raised &#8220;by the luxuries
+                among which they had lived for the last three weeks.&#8220; While Dorothy expresses 
+                her relief (and that of the other women) &#8220;that [their] fears that this might 
+                happen were ill-grounded,&#8220; the articulation of this worry is in itself revealing.</p>
+                   
             <p>The Wordsworths were far from unassisted in supervising the collection of funds and
                 the placement and upbringing of the Green children. The rector of Grasmere, the
                 Reverend Thomas Jackson, agreed to act as trustee, and George Mackereth, the parish
                 clerk, was appointed official collector. Six local women—Mrs. Watson (the wife of
                 the Bishop of Llandaff), Mrs. Lloyd (wife of author Charles Lloyd), Mrs. King and
-                Mrs. North (both recent settlers in the neighborhood), a Miss Knot, and William’s
-                wife, Mary—were appointed to superintend the collection of subscriptions, administer
+                Mrs. North (both recent settlers in the neighborhood), a Miss Knot, and William&#8217;s
+                wife, Mary&#8212;were appointed to superintend the collection of subscriptions, administer
                 the funds collected, and oversee the care of the children in their new homes. For
                 the next 21 years, until the youngest Green children were able to support
                 themselves, the trustees distributed the funds to the families who had taken in the
-                younger orphaned children, deservedly earning Ernest de Sélincourt’s praise as “a
-                model of a simple act of charity wisely conceived and scrupulously administered.”<hi
-                    rend="endnote_reference"><note place="end"><p rend="endnote text">
-                            <hi style="font-size:11pt" xml:space="preserve">De Selincourt, </hi><hi
-                                rend="italic" style="font-size:11pt">A Narrative Concerning George
-                                and Sarah Green</hi><hi style="font-size:11pt">,
-                    11.</hi></p></note></hi> Surviving collections receipts in the Wordsworth Trust
-                archives from the woman-led effort to finance the children’s schooling, medical
-                care, and clothing allow historians to piece together a vivid portrait of the care
-                of these children. Dorothy’s “Narrative” in particular demonstrates how the work of
-                charity and caregiving was largely a female endeavor. </p>
+                younger orphaned children, deservedly earning Ernest de Sélincourt&#8217;s praise as
+                &#8220;a model of a simple act of charity wisely conceived and scrupulously 
+                administered.&#8221;
+                    <note place="foot" resp="editors">De Selincourt, <title level="m">A Narrative Concerning George and Sarah Green</title>, 11.</note>
+                Surviving collections receipts in the Wordsworth Trustarchives from the woman-led
+                effort to finance the children&#8217;s schooling, medical care, and clothing allow
+                historians to piece together a vivid portrait of the care of these children. 
+                Dorothy&#8217;s <title level="m">Narrative</title> in particular demonstrates how
+                the work of charity and caregiving was largely a female endeavor.</p>
+                   
             <p>For the most part, these women worked harmoniously in the service of the children.
-                Susan Levin has described Dorothy’s story as “an affirmation of a certain mode of
-                social assistance” and a “positive description of a community in which experience
-                and relation of that experience almost conflate.”<hi rend="endnote_reference"><note
-                        place="end"><p rend="endnote text">
-                            <hi rend="italic" style="font-size:11pt">Levin</hi><hi
-                                style="font-size:11pt">, 44, 47.</hi></p></note></hi> For Susan
-                Wolfson, Dorothy’s general “social sensibility” throughout her prose and poetic
-                works, including the “Narrative,” differentiates her writing from William’s “more
-                solitary poetics.”<hi rend="endnote_reference"><note place="end"
-                            ><p><hi style="font-size:11pt" xml:space="preserve"> Wolfson, “Dorothy Wordsworth in Conversation with William,” 154.</hi></p></note></hi>
-                Nevertheless, in the “Narrative,” Dorothy cannot help criticizing one Mrs North, who
-                    “<hi rend="strikethrough">cannot do a charitable action without the pleasure of
-                    being busy</hi>.” As this strikethrough suggests, Dorothy censors herself,
-                deleting her bitter complaints and canceling her antagonist’s name. Elsewhere in the
-                manuscript she writes, “I will not blemish a narrative of events so moving, which
-                have brought forward so many kind and good feelings, by entering into the cabals and
-                heart-burnings of M<hi rend="superscript underline">rs</hi>
-                <hi rend="strikethrough">North.</hi>” Throughout DCMS 64, Mrs. North’s name is
-                completely erased, revealing that Dorothy was sufficiently concerned about the
+                Susan Levin has described Dorothy&#8217;s story as &#8220;an affirmation of a certain
+                mode of social assistance&#8221; and a &#8220;positive description of a community in 
+                which experience and relation of that experience almost conflate.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Levin</title>, 44, 47.</note>
+                For Susan Wolfson, Dorothy&#8217;s general &#8220;social sensibility&#8221; throughout
+                her prose and poetic works, including the <title level="a">Narrative,</title> 
+                differentiates her writing from William&#8217;s &#8220;more solitary poetics.&#8221;
+                    <note place="foot" resp="editors">Wolfson, <title level="a">Dorothy Wordsworth in Conversation with William,</title> 154.</note>
+                Nevertheless, in the <title level="m">Narrative,</title> Dorothy cannot help criticizing
+                one Mrs North, who &#8220;<hi rend="strike">cannot do a charitable action without the 
+                pleasure of being busy</hi>.&#8221; As this strikethrough suggests, Dorothy censors 
+                herself, deleting her bitter complaints and canceling her antagonist’s name. Elsewhere
+                in the manuscript she writes, &#8220;I will not blemish a narrative of events so moving,
+                which have brought forward so many kind and good feelings, by entering into the cabals 
+                and heart-burnings of M<add rend="sup"><hi rend="underline">rs</hi></hi>
+                <hi rend="strikethrough">North.</hi>&#8221; Throughout DCMS 64, Mrs. North&#8217;s name 
+                is completely erased, revealing that Dorothy was sufficiently concerned about the
                 circulation of the “Narrative” to accentuate discretion as well as an impression of
                 local solidarity.</p>
-            <p>B. Dorothy as Social Historian</p>
-            <p>The “Narrative” is a remarkable work of local history, one that utilizes Dorothy’s
-                talents as a precise and compassionate recorder of speech and events. Both a keen
-                observer of and a participant in this crisis, she brings the perspectives of both an
-                outsider and an insider: an outsider in that the Greens, as poor farmers, belonged
-                to a different class and moved in different social circles; and an insider in that,
-                as an inhabitant of Grasmere Vale, she possessed a deep understanding of the Greens’
-                way of life and had a firsthand perspective on the aftermath of the parents’
-                untimely deaths. </p>
+                   
+            <p><hi rend="bold">B. Dorothy as Social Historian</hi><lb/>
+            <p>The <title level="a">Narrative</title> is a remarkable work of local history, one that 
+                utilizes Dorothy&#8217;s talents as a precise and compassionate recorder of speech and
+                events. Both a keen observer of and a participant in this crisis, she brings the 
+                perspectives of both an outsider and an insider: an outsider in that the Greens, as 
+                poor farmers, belonged to a different class and moved in different social circles; and
+                an insider in that, as an inhabitant of Grasmere Vale, she possessed a deep understanding
+                of the Greens&#8217; way of life and had a firsthand perspective on the aftermath of the
+                parents&#8217; untimely deaths.</p>
+                
             <figure>
                 <graphic n="1001" width="6.447125cm" height="7.774608333333333cm"
                     url="media/image1.tiff" rend="inline">
@@ -837,6 +828,7 @@
                     is: “that of leaving behind a record of human sympathies, and moral sentiments,
                     either as they were called forth or brought to remembrance, by a distressful
                     event.”</p>
+            </div>
             </div>
         </body>
     </text>
