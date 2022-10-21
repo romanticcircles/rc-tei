@@ -1,0 +1,3421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="m">Reading Text (diplomatic transcription)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <editor role="editor">Michelle Levy</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.GJ-text</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Reading Text (diplomatic transcription)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.GJ-text"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-10-21 </date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    
+    
+    <text>
+        <body>
+            <div type="section">
+            <head>First Notebook of the Grasmere Journal: Diplomatic Transcription</head>
+            <head type="subhead">(DCMS 20, 14 May–22 December 1800)</head>
+            <byline>
+                <docAuthor>Michelle Levy</docAuthor>
+                <affiliation>Furman University</affiliation>
+            </byline>
+            
+            <p>May 14 1800 [Wednesday].<lb/>
+            W<hi rend="sup">m</hi> &amp; John
+                <note place="foot" resp="editors">DW’s younger brother, who worked as a
+                                merchant sailor for the East India Company and whom DW had not seen
+                                for eight years.
+                </note>
+                set off into York=<lb/>
+            =shire after dinner at ½ past<lb/>
+            2 o’clock – cold pork in their<lb/>
+            pockets. I left them at the<lb/>
+            turning of the Low-wood bay<lb/>
+            under the trees. My heart<lb/>
+            was so full that I could<lb/>
+            hardly speak to W when<lb/>
+            I gave him a farewell kiss.<lb/>
+            I sate a long time upon<lb/>
+            a stone at the <del rend="strike">foot of</del><lb/>
+            margin of the lake, &amp; <lb/>
+            after a flood of tears my <lb/>
+            heart was easier. The [PAGE BREAK]</p>
+                
+            <p>lake looked to me I knew<lb/>
+            not why dull and melancho-<lb/>
+            -ly, the weltering on the<lb/>
+            shores seemed a heavy<lb/>
+            sound. I walked as long<lb/>
+            as I could amongst the stones<lb/>
+            of the shore. The wood<lb/>
+            rich in flowers. A beau-<lb/>
+            -tiful yellow, palish yellow<lb/>
+            flower, that looked thick<lb/>
+            round &amp; double, &amp; smelt<lb/>
+            very sweet – I supposed<lb/>
+            it was a ranunculus – <lb/>
+            Crowfoot – the grassy<lb/>
+            leaved Rabbit toothed white<lb/>
+            flower, strawberries, Gerani-<lb/>
+            -um – scentless violet, [PAGE BREAK]<lb/>
+                
+            <p>anemones two kinds, orchises, <lb/>
+            primroses. The heckberry<lb/>
+            very beautiful ∧ <hi rend="endnote_reference">The crab coming out</hi> as a low
+                shrub.<lb/>
+            Met a blind man driving </p>
+            a very large beautiful </p>
+            Bull &amp; a cow – he walked </p>
+            with two sticks. Came home </p>
+            by Clappersgate. The valley </p>
+            very green – many sweet views </p>
+            up to Rydale head when </p>
+            I could juggle away the </p>
+            fine houses – but they </p>
+            disturbed me even more </p>
+            than when I have been </p>
+            happier – one beautiful </p>
+            view of the Bridge, without </p>
+            Sir Michaels. [PAGE BREAK] </p>
+                
+            <p>Sate down very often – tho’ </p>
+            <p>it was cold – I resolved to </p>
+            <p>write a journal of the time </p>
+            <p>till W &amp; J return – &amp; I </p>
+            <p>set about keeping my re=</p>
+            <p>=solve because I will not quar=</p>
+            <p>=rel with <hi rend="strikethrough">my</hi> myself &amp; because </p>
+            <p>I shall give W<hi rend="superscript">m</hi> Pleasure by </p>
+            <p>it when he [illegible deleted word] comes home </p>
+            <p>again. At Rydale a woman </p>
+            <p>of the village, stout &amp; well</p>
+            <p>=dressed, begged a halfpenny</p>
+            <p>she had never she said done </p>
+            <p>it before – but these “hard </p>
+            <p>times!” – Arrived at home </p>
+            <p>with a bad head-ach – set </p>
+            <p>some slips of privett. The </p>
+            <p>evening cold – had a fire – </p>
+            <p>my face now flame-coloured [PAGE BREAK]</p>
+            <p>It is nine o’clock, I shall soon </p>
+            <p>go to bed. A young woman </p>
+            <p>begged at the door – she had come </p>
+            <p>from Manchester on Sunday morn </p>
+            <p>with two shillings &amp; a slip of paper </p>
+            <p>which she supposed a Bank </p>
+            <p>note – it was a cheat. She </p>
+            <p>had buried her husband &amp; three </p>
+            <p>children within a year &amp; a </p>
+            <p>half – All in one grave burying </p>
+            <p>very dear – paupers all put </p>
+            <p>in one place – 20 shillings </p>
+            <p>paid for as much ground as </p>
+            <p>will bury a man – a <hi rend="superscript">grave</hi> stone </p>
+            <p>to be put over it or it <hi rend="superscript">the right</hi> will </p>
+            <p>be lost: 11-6 each time the </p>
+            <p>ground is opened. Oh! that I </p>
+            <p>had a letter from William! [PAGE BREAK]</p>
+            <p>_____________________</p>
+            <p>May 15 Thursday </p>
+            <p>A coldish dull morning – hoed </p>
+            <p>the first row of peas, weeded &amp;c </p>
+            <p>&amp;c – sat hard to mending till </p>
+            <p>evening. When the rain which </p>
+            <p>had threatened all day came on </p>
+            <p>just when I was going to </p>
+            <p>walk –</p>
+            <p>_____________________</p>
+            <p>Friday morning [May 16<hi rend="superscript">th</hi>]. Warm &amp; mild </p>
+            <p>after a fine night of rain </p>
+            <p>Transplanted raddishes after </p>
+            <p>breakfast. Walked to Mr Gells </p>
+            <p>with the Books – gathered, moss </p>
+            <p>&amp; plants. The woods extremely </p>
+            <p>beautiful with all autumnal </p>
+            <p>variety &amp; softness – I carried </p>
+            <p>a basket for mosses, &amp; gathered </p>
+            <p>some wild plants – Oh! that we </p>
+            <p>had a book of botany – all </p>
+            <p>flowers now are gay &amp; deli</p>
+            <p>=ciously sweet. The primrose </p>
+            <p>still pre-eminent among </p>
+            <p>the later flowers of the spring. [PAGE BREAK] </p>
+            <p>Foxgloves very tall – with their heads </p>
+            <p>budding. – I went forward round </p>
+            <p>the lake at the foot of Lough</p>
+            <p>=rigg fell – I was much amused </p>
+            <p>with the business of a pair of </p>
+            <p>stone chats. Their restless voices </p>
+            <p>as they skimmed along the </p>
+            <p>water following each other </p>
+            <p>their shadows <hi rend="strikethrough">upon</hi> under </p>
+            <p>them, &amp; their returning back </p>
+            <p>to the stones on the shore, chirping </p>
+            <p>with the same unwearied voice </p>
+            <p>could not cross the water so I </p>
+            <p>went round by the stepping stones </p>
+            <p>The morning clear but cloudy, that</p>
+            <p>is the hills were not overhung by </p>
+            <p>mists. After dinner Aggy<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt">Agnes (Aggy) Fisher, who with her husband,
+                                John, and sister Molly lived across the road from WW and DW. They
+                                are often described as helping DW with gardening and
+                            housework.</hi></p></note></hi> weeded </p>
+            <p>onions &amp; carrots – I helped for a </p>
+            <p>little – wrote to Mary Hutchinson</p>
+            <p>washed my head – worked. After </p>
+            <p>tea went to Ambleside. A pleasant </p>
+            <p>cool but not cold evening. Rydale </p>
+            <p>was very beautiful with spear-</p>
+            <p>=shaped streaks of polished </p>
+            <p>steel. No letters! – – only one </p>
+            <p>newspaper. I retuned by Clappers<hi rend="subscript">=gate</hi>. [PAGE BREAK] </p>
+            <p>Grasmere was very solemn in </p>
+            <p>the last glimpse of twilight </p>
+            <p>it calls home the heart to </p>
+            <p>quietness. I had been very melan</p>
+            <p>choly in my walk back. I had </p>
+            <p>many of my saddest thoughts </p>
+            <p>&amp; I could not keep the tears </p>
+            <p>within me. But when I </p>
+            <p>came to Grasmere I felt </p>
+            <p>that it did me good. </p>
+            <p>I finished my letter to M</p>
+            <p>H. – ate hasty pudding, &amp; </p>
+            <p>went to bed. As I was going </p>
+            <p><hi rend="underline" xml:space="preserve">out in the morning I met </hi></p>
+            <p>a half crazy old man. He shewed </p>
+            <p>me a pincushion, &amp; begged </p>
+            <p>a pin, afterwards a halfpenny. </p>
+            <p>He began in a kind of indistinct </p>
+            <p>voice in this manner “Matthew </p>
+            <p>Jobson’s lost a cow. Tom Nichol </p>
+            <p>has two good horses strained </p>
+            <p>Jim Jones’s cow’s brokken her </p>
+            <p>horn, &amp;c &amp;c – –’ [PAGE BREAK] </p>
+            <p>He went into Aggys &amp; persuaded </p>
+            <p>her to give him some whey &amp; let </p>
+            <p>him boil some porridge. She</p>
+            <p>declares he ate two quarts.</p>
+            <p>_________________________</p>
+            <p>Saturday [May 17<hi rend="superscript">th</hi>] Incessant rain from </p>
+            <p>morning till night. T. Ashburner<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt">Thomas Ashburner was a neighbor, a resident
+                                of a cottage nearly opposite the Wordsworths’, who supplied them
+                                with coals to heat their home. He was a widower with five younger
+                                girls. Sara/Sally is mentioned in this journal.</hi>
+                        </p></note></hi>
+            </p>
+            <p>brought us coals. Worked hard </p>
+            <p>&amp; Read Midsummer nights’ dream </p>
+            <p>Ballads – sauntered a little </p>
+            <p>in the garden. The Skobby sate </p>
+            <p>quietly in its nest rocked by </p>
+            <p>the winds &amp; beaten by the </p>
+            <p>rain.</p>
+            <p>_________________________</p>
+            <p>Sunday 19<hi rend="superscript">th</hi> [May 18<hi rend="superscript">th</hi>] Went
+                to church</p>
+            <p>slight showers, a cold air. </p>
+            <p>The mountains from this </p>
+            <p>window look much greener </p>
+            <p>&amp; I think the valley is more </p>
+            <p>green<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt">Here, “green” seems to be written over
+                                something else.</hi></p></note></hi> than ever. The corn </p>
+            <p>begins to shew itself. The ashes </p>
+            <p>are still bare. Went part of </p>
+            <p>the way home with Miss </p>
+            <p>Simpson… – A little girl </p>
+            <p>from Coniston came to beg. She [PAGE BREAK] </p>
+            <p>had lain out all night – her </p>
+            <p>step-mother had turn’d her out of </p>
+            <p>doors. Her father could not stay </p>
+            <p>at home “She flights so”. Walked </p>
+            <p>to Ambleside in the evening round </p>
+            <p>the lake. The prospect exceeding </p>
+            <p>beautiful from loughrigg fell. </p>
+            <p>It was so green, that no eye </p>
+            <p>could be weary of reposing </p>
+            <p>upon it. The most beautiful </p>
+            <p>situation for a house in the </p>
+            <p>field next to Mr Benson’s – </p>
+            <p>It threatened rain all the </p>
+            <p>evening but was mild &amp; </p>
+            <p>pleasant. I was overtaken </p>
+            <p>by 2 Cumberland people on </p>
+            <p>the other side of Rydale who </p>
+            <p>complimented me upon my </p>
+            <p>walking. They were going to sell </p>
+            <p>cloth, &amp; odd things which they </p>
+            <p>make themselves in Hawkshead </p>
+            <p>&amp; the neighbourhood. The post </p>
+            <p>was not arrived so I walked </p>
+            <p>thro the town, past Mrs Taylors </p>
+            <p>&amp; met him. Letters from [PAGE BREAK] </p>
+            <p>Coleridge &amp; Cottle – John Fisher </p>
+            <p>overtook me on the other side </p>
+            <p>of Rydale – he talked much </p>
+            <p>about the alteration in the </p>
+            <p>times, &amp; observed that in a </p>
+            <p>short time there would be only </p>
+            <p>two ranks of people, the </p>
+            <p>very rich &amp; the very poor, </p>
+            <p>for those who have small </p>
+            <p>estates says he are forced </p>
+            <p>to sell, &amp; all the land goes </p>
+            <p>into one hand. Did not </p>
+            <p>reach home till 10 o clock.</p>
+            <p>_________________________</p>
+            <p>Monday [May 19<hi rend="superscript">th</hi>] – Sauntered a good </p>
+            <p>deal in the garden, bound car=</p>
+            <p>=pets, mended old clothes. Read </p>
+            <p>Timon of Athens. Dried linen – </p>
+            <p>Molly weeded the turnips, </p>
+            <p>John stuck the peas –</p>
+            <p>We had not much sunshine </p>
+            <p>or wind but no rain till </p>
+            <p>about 7 o’clock when we </p>
+            <p>had a slight shower just [PAGE BREAK] </p>
+            <p>after I had set out upon </p>
+            <p>my walk. I did not re-</p>
+            <p>=turn but walked up into the </p>
+            <p>Black quarter. I sauntered </p>
+            <p>a long time among the rocks </p>
+            <p>above the church. The most </p>
+            <p>delightful situation possible </p>
+            <p>for a cottage commanding </p>
+            <p>two distinct views of the </p>
+            <p>vale &amp; of the lake, is </p>
+            <p>among those rocks – I strolled </p>
+            <p>on, gathered mosses, &amp;c. The </p>
+            <p>quietness &amp; still seclusion </p>
+            <p>of the valley affected me </p>
+            <p>even to producing the deepest </p>
+            <p>melancholy – I forced myself </p>
+            <p>from it.<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt">Illegible canceled word before
+                            “The.”</hi></p></note></hi> The </p>
+            <p>wind rose before I went </p>
+            <p>to bed. No rain – Dowell </p>
+            <p>&amp; Wilkinson called in my </p>
+            <p>absence. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Tuesday Morning [May 20<hi rend="superscript">th</hi>] A fine mild </p>
+            <p>rain – after Breakfast the </p>
+            <p>sky cleared &amp; before the clouds </p>
+            <p>passed from the hill, I went </p>
+            <p>to Ambleside – It was </p>
+            <p>a sweet morning – Every</p>
+            <p>thing green &amp; overflowing </p>
+            <p>with life, &amp; the streams </p>
+            <p>making a perpetual song </p>
+            <p>with the thrushes &amp; all </p>
+            <p>little birds, not forgetting </p>
+            <p>the Stone chats. The post </p>
+            <p>was not come in – I walked </p>
+            <p>as far as Windermere. I </p>
+            <p>met him there.
+                <hi rend="superscript" xml:space="preserve">No letters! No papers </hi>Came home </p>
+            <p>by Clappersgate – I was sadly </p>
+            <p>tired, ate a hasty dinner; &amp; </p>
+            <p>had a bad head-ach. Went </p>
+            <p>to bed &amp; slept at least 2 </p>
+            <p>hours – Rain came on in the </p>
+            <p>Evening – Molly washing [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Wednesday [May 21<hi rend="superscript">st</hi>] Went often </p>
+            <p>to spread the linen which </p>
+            <p>was bleaching – a rainy </p>
+            <p>day – &amp; very wet night</p>
+            <p>_________________________</p>
+            <p>Thursday [May 22<hi rend="superscript">nd</hi>] A very fine day </p>
+            <p>with showers – dried the </p>
+            <p>linen &amp; starched. Drank </p>
+            <p>tea at Mr Simpsons. </p>
+            <p>Brought down Batchelors </p>
+            <p>Buttons (Rock Ranunculus) </p>
+            <p>&amp; other plants – went part </p>
+            <p>of the way back. A show-</p>
+            <p>=ery, mild evening all the peas <hi rend="subscript">up.</hi></p>
+            <p>_________________________</p>
+            <p>Friday 23<hi rend="superscript">rd</hi> [May] Ironing till tea </p>
+            <p>time. So heavy a rain </p>
+            <p>that I could not go <hi rend="strikethrough">for</hi>
+            </p>
+            <p>for letters – put by the linen</p>
+            <p>mended stockings &amp;c </p>
+            <p>_________________________</p>
+            <p>Saturday May 24<hi rend="superscript">th</hi> [PAGE BREAK] </p>
+            <p>Walked in the morning to Ambleside </p>
+            <p>I found a letter from W<hi rend="superscript">m</hi> &amp; from </p>
+            <p>Mary Hutchinson &amp; Douglass. Returned </p>
+            <p>on the other side of the lakes – </p>
+            <p>wrote to William after dinner – </p>
+            <p>nailed up the beds worked in </p>
+            <p>the garden – sate in the evening </p>
+            <p>under the trees. I went to bed </p>
+            <p>soon with bad head-ache – </p>
+            <p><hi rend="superscript" xml:space="preserve">          a fine day</hi></p>
+            <p>_________________________</p>
+            <p>Sunday [May 25<hi rend="superscript">th</hi>] A very fine warm day – had </p>
+            <p>no fire. Read Macbeth in the </p>
+            <p>morning – sate under the trees after </p>
+            <p>dinner. Miss Simpson came </p>
+            <p>just as I was going out &amp; she </p>
+            <p>sate with me I wrote to my </p>
+            <p>Brother Christopher<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt">Christopher Wordsworth (1774–1846), the
+                                youngest of the Wordsworth siblings and three years younger than DW,
+                                was then a Fellow at Trinity College, Cambridge. He married Charles
+                                Lloyd’s sister, Priscilla, in 1804.</hi></p></note></hi> &amp; sent
+                John </p>
+            <p>Fisher to Ambleside after tea. </p>
+            <p>Miss Simpson &amp; I walked to the </p>
+            <p>foot of the lake – her Brother met </p>
+            <p>us. I went with them nearly </p>
+            <p>home &amp; on my return found </p>
+            <p>a letter from Coleridge &amp; from </p>
+            <p>Charles Lloyd &amp; three papers -- -- [PAGE BREAK]</p>
+            <p>Monday May 26 A very fine </p>
+            <p>morning worked in the garden </p>
+            <p>till after 10 when old Mr Simp=</p>
+            <p>=son came &amp; [illegible deleted word] talked to me </p>
+            <p>till after 12. Molly weeding </p>
+            <p>wrote letters to J H Coleridge </p>
+            <p>C Ll &amp; W.<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            <hi style="font-size:11pt">Initials referring to Joanna Hutchinson, S.
+                                T. Coleridge, Charles Lloyd, and William
+                    Wordsworth.</hi></p></note></hi> I walked towards </p>
+            <p>Rydale &amp; turned aside at my </p>
+            <p>favourite field. The air &amp; the lake </p>
+            <p>were still. One ∧<hi rend="superscript">cottage</hi> light in the vale,</p>
+            <p>had so much of day left that </p>
+            <p>I [illegible deleted word] could distinguish objects</p>
+            <p>the woods; trees &amp; houses. Two or </p>
+            <p>three different kinds of Birds </p>
+            <p>sang at intervals on the opposite </p>
+            <p>shore I sate till I could hardly </p>
+            <p>drag myself away I grew <hi rend="underline">so</hi>
+            </p>
+            <p>sad. “When pleasant thoughts” </p>
+            <p>&amp;c.</p>
+            <p>_________________________</p>
+            <p>Tuesday [May] 27<hi rend="superscript">th</hi> I walked to Am=</p>
+            <p>=bleside with letters – met the post </p>
+            <p>before I reached Mr Partridges</p>
+            <p>one paper, only a letter for </p>
+            <p>Coleridge – – I expected a lr </p>
+            <p>from Wm. [PAGE BREAK] </p>
+            <p>It was a sweet morning – the </p>
+            <p>ashes in the valleys nearly in full </p>
+            <p>leaf but still to be distinguished, </p>
+            <p>quite bare on the higher grounds. </p>
+            <p>I was warm in returning </p>
+            <p>&amp; becoming cold with sitting </p>
+            <p>in the house – I had a bad </p>
+            <p>head-ach, went to bed after dinner</p>
+            <p>&amp; lay till after 5 – not well </p>
+            <p>after tea. I worked in the gar-</p>
+            <p>=den but did not walk further. </p>
+            <p>A delightful evening before the </p>
+            <p>Sun set but afterwards it grew </p>
+            <p>colder. Mended stockings &amp;c</p>
+            <p>_________________________</p>
+            <p>Wednesday [May 28<hi rend="superscript">th</hi>] In the morning walked </p>
+            <p>up to the rocks above Jenny </p>
+            <p>Dockeray’s sate a long time upon </p>
+            <p>the grass the prospect divinely </p>
+            <p>beautiful. If I had three hundred </p>
+            <p>pounds &amp; could afford to have a bad </p>
+            <p>interest for my money I would </p>
+            <p>buy that estate &amp; we would </p>
+            <p>build a cottage there to end our [PAGE BREAK] </p>
+            <p>days in – I went into her garden </p>
+            <p>&amp; got white &amp; yellow lilies <hi rend="strikethrough">&amp;c</hi></p>
+            <p>periwinkle &amp; which I planted. </p>
+            <p>Sate under the trees with </p>
+            <p>my work – no fire in the </p>
+            <p>morning. Worked till between </p>
+            <p>7 &amp; 8 &amp; then watered the </p>
+            <p>garden, &amp; was about to go </p>
+            <p>up to Mr Simpson’s when Miss </p>
+            <p>S &amp; her visitors passed the door. </p>
+            <p>I went home with them a </p>
+            <p>beautiful evening the crescent </p>
+            <p>moon hanging above helm crag.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt">Helm Crag (1,328 ft., or 405 m) rises
+                                dramatically just north of the village of Grasmere.</hi>
+                        </p></note></hi></p>
+            <p>_________________________</p>
+            <p>Thursday [May 29<hi rend="superscript">th</hi>] </p>
+            <p>In the morning worked in </p>
+            <p>the garden a little, read King </p>
+            <p>John. Miss Simpson &amp; Miss Falcon </p>
+            <p>&amp; Mr S came very early went </p>
+            <p>to Mr Gells boat before tea </p>
+            <p>we fished upon the lake &amp; </p>
+            <p>amongst us caught 13 Bass. </p>
+            <p>Miss Simpson brought gooseberries </p>
+            <p><hi rend="underline">&amp; cream</hi> left the water at near [PAGE BREAK] </p>
+            <p>nine o’clock, very cold. Went </p>
+            <p>part of the way home with </p>
+            <p>the party.</p>
+            <p>_________________________</p>
+            <p>Friday [May 30<hi rend="superscript">th</hi>]. In the morning went </p>
+            <p>to Ambleside, forgetting that </p>
+            <p>the post does not come till </p>
+            <p>the evening – how was I grieved </p>
+            <p>when I was so informed – </p>
+            <p>I walked back resolving to </p>
+            <p>go again in the evening. </p>
+            <p>It rained very mildly &amp; sweetly </p>
+            <p>in the morning as I came </p>
+            <p>home, but came on a wet </p>
+            <p>afternoon &amp; evening – lucki-</p>
+            <p>-ly I caught Mr Ollifs Lad </p>
+            <p>as he was going for letters – </p>
+            <p>he brought me one from </p>
+            <p>Wm &amp; 12 papers. I planted </p>
+            <p>London pride upon the </p>
+            <p>wall &amp; many things on </p>
+            <p>the Borders. John sodded </p>
+            <p>the wall. As I came past [PAGE BREAK] </p>
+            <p>Rydale in the morning I </p>
+            <p>saw a Heron swimming with </p>
+            <p>only its neck out of water – </p>
+            <p>it beat &amp; struggled amongst </p>
+            <p>the water when it flew away </p>
+            <p>&amp; was long in getting loose.</p>
+            <p>_________________________</p>
+            <p>Saturday [May 31<hi rend="superscript">st</hi>] A sweet mild rainy </p>
+            <p>morning. Grundy the </p>
+            <p>carpet man called I </p>
+            <p>paid him 1-10 – – –.</p>
+            <p>Went to the Blind man’s </p>
+            <p>for plants. I got such a load </p>
+            <p>that I was obliged to leave </p>
+            <p>my Basket in the Road &amp; </p>
+            <p>send Molly for it – – Planted &amp;c. </p>
+            <p>After dinner when I was </p>
+            <p>putting up valances Miss </p>
+            <p>Simpson &amp; her Visitors called </p>
+            <p>I went with them to Brathay </p>
+            <p>Bridge – We got Broom in </p>
+            <p>returning, strawberries &amp;c. </p>
+            <p>Came home by Ambleside </p>
+            <p>Grasmere looked Divinely beaut<hi rend="subscript">iful</hi> [PAGE BREAK] </p>
+            <p>M<hi rend="superscript">r</hi>, Miss Simpson &amp; Tommy </p>
+            <p>drank tea at 8 o’clock – I walked </p>
+            <p>to the Potters with them</p>
+            <p>_________________________</p>
+            <p>Sunday <hi rend="superscript" xml:space="preserve">June 1st </hi> Rain in the night – </p>
+            <p>a sweet mild morning – Read Ballads </p>
+            <p>went to church. Singers from </p>
+            <p>Wytheburn. Went part of the </p>
+            <p>way home with Miss Simpson. </p>
+            <p>Walked upon the hill above </p>
+            <p>the house till dinnertime – </p>
+            <p>went again to church – a Christening </p>
+            <p>&amp; singing which kept us very late. </p>
+            <p>The pewside came down with </p>
+            <p>me. Walked with Miss Simpson </p>
+            <p>nearly home. After tea went </p>
+            <p>to Ambleside – [three illegible deleted words] </p>
+            <p>round the lakes – a very fine warm </p>
+            <p>evening. I lay upon the steep of </p>
+            <p>Loughrigg my heart dissolved in </p>
+            <p>what I saw when I was not startled </p>
+            <p>but recalled from my reverie by a </p>
+            <p>noise as of a child paddling without </p>
+            <p>shoes. I looked up and saw a [illegible deleted word] [PAGE BREAK] </p>
+            <p>lamb close to me – it approached </p>
+            <p>nearer &amp; nearer as if to examine </p>
+            <p>me &amp; stood a long time. I did not </p>
+            <p>move at last it ran past me </p>
+            <p>&amp; went bleating along the pathway </p>
+            <p>seeming to be seeking its mother. </p>
+            <p>I saw a hare in the high road</p>
+            <p>The post was not come in I </p>
+            <p>waited in the Road till Johns </p>
+            <p>apprentice came with a letter </p>
+            <p>from Coleridge &amp; 3 papers. – </p>
+            <p>The moon shone upon the </p>
+            <p>water – reached home at </p>
+            <p>10 o clock – went to bed imme=</p>
+            <p>=diately Molly brought Daisies &amp;c </p>
+            <p>which we planted.</p>
+            <p>_________________________</p>
+            <p>Monday [June 2<hi rend="superscript">nd</hi>]. A cold dry windy </p>
+            <p>morning. I worked in the garden </p>
+            <p>&amp; planted flowers &amp;c – sate under </p>
+            <p>the trees after dinner till tea time </p>
+            <p>John Fisher stuck the </p>
+            <p>peas. Molly weeded &amp; washed. I went </p>
+            <p>to Ambleside after tea, crossed </p>
+            <p>the stepping-stones at [illegible deleted word] the [PAGE BREAK] </p>
+            <p>foot of Grasmere &amp; pursued my </p>
+            <p>way on the other side of Rydale </p>
+            <p>&amp; by Clappersgate – – I sate a long </p>
+            <p>time to watch the hurrying waves </p>
+            <p>and to hear the regularly irregu</p>
+            <p>-lar sound of the dashing waters –</p>
+            <p>The waves round about the little </p>
+            <p>seemed like a dance of spirits </p>
+            <p>that rose out of the water, </p>
+            <p>round its small circumfer-</p>
+            <p>-ence of shore. Inquired about </p>
+            <p>lodgings for Coleridge, &amp; was </p>
+            <p>accompanied by Mrs Nicholson </p>
+            <p>as far as Rydale. This </p>
+            <p>was very kind, but God be </p>
+            <p>thanked I want not society </p>
+            <p>[three illegible deleted words] by a moonlight </p>
+            <p>lake – – It was near 11 </p>
+            <p>when I reached home. I wrote </p>
+            <p>to Coleridge &amp; went late to bed [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Tuesday [June 3<hi rend="superscript">rd</hi>] Sent off my letter </p>
+            <p>by the Butcher – a boisterous </p>
+            <p>drying day – – [two illegible deleted words] &amp;</p>
+            <p>worked in the garden before </p>
+            <p>dinner. Read R<hi rend="superscript">d.</hi> Second </p>
+            <p>was not well after dinner &amp; </p>
+            <p>lay down. Mrs Simpsons </p>
+            <p>grandson brought me some </p>
+            <p>gooseberries – I got up &amp; walked </p>
+            <p>with him part of the way </p>
+            <p>home, afterwards went down </p>
+            <p>rambling by the lake side </p>
+            <p>got Lockety goldings, strawberries </p>
+            <p>&amp;c, &amp; planted. After tea </p>
+            <p>the wind fell I walked towards </p>
+            <p>Mr Simpsons. Gave the newspa-</p>
+            <p>-pers to the Girl, reached home </p>
+            <p>at 10. No letter, no William</p>
+            <p>a letter from R<hi rend="superscript">d</hi> to John. [PAGE BREAK]</p>
+            <p>Wednesday [June 4<hi rend="superscript">th</hi>] A very fine day </p>
+            <p>I sate out of doors most of the </p>
+            <p>day, wrote <hi rend="strikethrough">Coleridge</hi> – Mr </p>
+            <p>Jackson. … Ambleside fair. </p>
+            <p>I walked to the lake side </p>
+            <p>in the morning – took up plants </p>
+            <p>&amp; sate upon a stone reading </p>
+            <p>Ballads. In the Evening I was </p>
+            <p>watering plants when Mr &amp; </p>
+            <p>Miss Simpson called. I accom-</p>
+            <p>=panied them home – &amp; we went </p>
+            <p>to the waterfall at the head </p>
+            <p>of the valley – it was very </p>
+            <p>interesting in the Twilight. </p>
+            <p>I brought home lemon thyme </p>
+            <p>&amp; several other plants, &amp; planted </p>
+            <p>them by moonlight. I lingered </p>
+            <p>out of doors in the hope of hearing </p>
+            <p>my Brothers tread. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Thursday [June 5<hi rend="superscript">th</hi>] I sate out of doors </p>
+            <p>great part of the day &amp; </p>
+            <p>worked in the Garden – had </p>
+            <p>a letter from Mr Jackson </p>
+            <p>&amp; wrote an answer to Cole=</p>
+            <p>=ridge. The little birds </p>
+            <p>busy making love &amp; pecking </p>
+            <p>the blossoms &amp; bits of moss off </p>
+            <p>the trees, they flutter about </p>
+            <p>&amp; about &amp; thru the trees as </p>
+            <p>I lie under them – Molly </p>
+            <p>went out to tea – I would </p>
+            <p>not go far from home ex=</p>
+            <p>=pecting my Brothers – I rambled </p>
+            <p>on the hill above the house </p>
+            <p>gathered wild thyme &amp; took </p>
+            <p>up roots of wild Columbine. </p>
+            <p>Just as I was returning with </p>
+            <p>my “load” Mr &amp; Miss Simpson [PAGE BREAK] </p>
+            <p>called. We went again upon </p>
+            <p>the hill, got more plants, set </p>
+            <p>them, &amp; then went to the </p>
+            <p>Blind Mans for London Pride </p>
+            <p>for Miss Simpson. I went </p>
+            <p>up with them as far as </p>
+            <p>the Blacksmith’s. A fine </p>
+            <p>lovely moonlight night. </p>
+            <p>_________________________</p>
+            <p>Friday [June 6<hi rend="superscript">th</hi>] Sate out of doors reading </p>
+            <p>the Whole Afternoon, but </p>
+            <p>in the morning I wrote to </p>
+            <p>my aunt Cookson. In the </p>
+            <p>Evening I went to Ambleside </p>
+            <p>with Coleridge’s letter – it </p>
+            <p>was a lovely night as the </p>
+            <p>day had been. I went </p>
+            <p>by Loughrigg &amp; Clappersgate </p>
+            <p>&amp; just met the post at </p>
+            <p>the turnpike he told me [PAGE BREAK] </p>
+            <p>there were two letters but </p>
+            <p>none for me. So I was in </p>
+            <p>no hurry &amp; went round </p>
+            <p>again by Clappersgate, </p>
+            <p>crossed the stepping stones </p>
+            <p>&amp; entered Ambleside at </p>
+            <p>Matthew Harrisons – A </p>
+            <p>letter from Jack Hutchinson </p>
+            <p>&amp; one from Montagu en</p>
+            <p>-closing a 3£ note – </p>
+            <p>No William! I slackened </p>
+            <p>my pace as I came <hi rend="strikethrough">home</hi>
+            </p>
+            <p>near home fearing to </p>
+            <p>hear that he was not </p>
+            <p>come. I listened till </p>
+            <p>after one o’clock to every </p>
+            <p>barking dog cock fighting &amp; other </p>
+            <p>sports: it was Mr Borricks </p>
+            <p>opening. Foxgloves just </p>
+            <p>coming into blossom [PAGE BREAK] </p>
+            <p>Saturday [June 7<hi rend="superscript">th</hi>] – A very warm </p>
+            <p>cloudy morning, threatening to </p>
+            <p>rain. I walked up to Mr Simpsons </p>
+            <p>to gather gooseberries – it was </p>
+            <p>a very fine afternoon – little <lb/>Tommy came down with me, </p>
+            <p>ate gooseberry pudding &amp; drank </p>
+            <p>tea with me. We went up </p>
+            <p>the hill to gather sods &amp; plants </p>
+            <p>&amp; went down to the lake side </p>
+            <p>&amp; took up orchises &amp;c – I </p>
+            <p>watered the garden &amp; weeded </p>
+            <p>I did not leave home in the </p>
+            <p>expectation of Wm &amp; John </p>
+            <p>&amp; sitting at work till after 11 </p>
+            <p>o clock. I heard a foot go </p>
+            <p>to the front of the house, </p>
+            <p>turn round, &amp; open the gate </p>
+            <p>It was William – – after our </p>
+            <p>first joy was over we got </p>
+            <p>some tea. We did not go [PAGE BREAK] </p>
+            <p>to bed till 4 o clock in the morning </p>
+            <p>so he had an opportunity of </p>
+            <p>seeing our improvements. </p>
+            <p>The birds were singing, </p>
+            <p>&amp; all looked fresh though not </p>
+            <p>gay. There was a greyness </p>
+            <p>on earth &amp; sky. We did not </p>
+            <p>rise till near 10 in the morning. </p>
+            <p>We were busy all day in writ</p>
+            <p>=ing letters to Coleridge, Montagu, </p>
+            <p>Douglass, Richard. Mr &amp; </p>
+            <p>Miss Simpson called in the </p>
+            <p>Evening the little Boy carried our </p>
+            <p>letters to Ambleside. We </p>
+            <p>walked with Mr &amp; Miss S </p>
+            <p>home on their return the </p>
+            <p>evening was cold &amp; I was </p>
+            <p>afraid of the tooth-ach </p>
+            <p>for William. We met John </p>
+            <p>on our return home. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Monday [June] 9<hi rend="superscript">th</hi> In the morning W </p>
+            <p>cut down the winter cherry tree </p>
+            <p>I sowed French Beans &amp; </p>
+            <p>weeded. A coronetted Landau </p>
+            <p>went by when we were sitting </p>
+            <p>upon the sodded wall. The ladies </p>
+            <p>(evidently Tourists) turned an </p>
+            <p>eye of interest upon our </p>
+            <p>little garden &amp; cottage. We </p>
+            <p>went to R Newtons for pikefloats </p>
+            <p>&amp; went round to Mr Gell’s </p>
+            <p>Boat and on to the Lake to </p>
+            <p>fish we caught nothing – I </p>
+            <p>was extremely cold. The Reeds </p>
+            <p>&amp; Bulrushes or Bullpipes of </p>
+            <p>a tender soft green making </p>
+            <p>a plain whose surface </p>
+            <p>moved with the wind. The </p>
+            <p>reeds not yet tall. The </p>
+            <p>lake clear to the Bottom, but</p>
+            <p>saw no fish. In the evening </p>
+            <p>I stuck peas, watered the garden </p>
+            <p>&amp; planted Brocoli – [PAGE BREAK] </p>
+            <p>Did not walk for it was very </p>
+            <p>cold. A poor Girl called </p>
+            <p>to beg who had no work at home </p>
+            <p>was going in search of it to Kendal. </p>
+            <p>She slept in Mr Bensons </p>
+            <p>Lathe – &amp; went off after </p>
+            <p>Breakfast in the morning with 7<hi rend="superscript">d</hi>
+            </p>
+            <p>&amp; a letter to the Mayor of Ken-</p>
+            <p>-dal.</p>
+            <p>_________________________</p>
+            <p>Tuesday [June] 10<hi rend="superscript">th</hi> A cold </p>
+            <p>yet sunshiny morning. John </p>
+            <p>carried letters to Ambleside. </p>
+            <p>I made tarts, pies &amp;c. – <hi rend="strikethrough">after</hi></p>
+            <p>Wm stuck peas. After </p>
+            <p>dinner he lay down. John </p>
+            <p>not at home – I stuck peas </p>
+            <p>alone – Molly washing. </p>
+            <p>Cold showers with hail &amp; </p>
+            <p>rain but at half past </p>
+            <p>five after a heavy rain [PAGE BREAK] </p>
+            <p>the lake become calm - - &amp; very </p>
+            <p>beautiful. Those parts of the </p>
+            <p>water which were perfectly unruffled </p>
+            <p>lay like green islands of various </p>
+            <p>shapes – W &amp; I walked to Am</p>
+            <p>bleside to seek lodgings for C. </p>
+            <p>No letters – no papers – It was </p>
+            <p>a very cold cheerless evening. John </p>
+            <p>had been fishing in Langdale &amp; was </p>
+            <p>gone to bed.</p>
+            <p>_________________________</p>
+            <p>On Tuesday May 27<hi rend="superscript">th</hi> a very </p>
+            <p>tall woman, tall much beyond </p>
+            <p>the measure of tall women, </p>
+            <p><hi rend="superscript">called at the door</hi>
+            </p>
+            <p>She had on a very long brown </p>
+            <p>cloak, &amp; a very white cap </p>
+            <p>without Bonnet – her face </p>
+            <p>was excessively brown, but it </p>
+            <p>had plainly once been fair. She </p>
+            <p>led a little bare footed child about </p>
+            <p>2 years old by the hand &amp; said her </p>
+            <p>husband who was a tinker was </p>
+            <p>gone before with the other children. </p>
+            <p>I gave her a piece of Bread – </p>
+            <p>Afterwards on my road to Am</p>
+            <p>-bleside, beside the Bridge at [PAGE BREAK]</p>
+            <p>Rydale, I saw her husband sitting </p>
+            <p>by the road-side his two asses </p>
+            <p>feeding beside him &amp; the two young </p>
+            <p>children at play upon the grass. </p>
+            <p>The man did not beg – I </p>
+            <p>passed on &amp; about ¼ of a mile </p>
+            <p>further I saw two boys <hi rend="superscript">before me</hi> one about </p>
+            <p>10 the other about 8 years old </p>
+            <p>at play chasing a butterfly. </p>
+            <p>They were wild figures, not </p>
+            <p>very ragged, but without </p>
+            <p>shoes &amp; stockings, the hat of </p>
+            <p>the elder was wreathed round </p>
+            <p>with yellow flowers, the </p>
+            <p>younger whose hat was only </p>
+            <p>a rimless crown, had stuck </p>
+            <p>it round with laurel leaves. </p>
+            <p>They continued at play till </p>
+            <p>I drew very near &amp; then they </p>
+            <p>addressed me with the Begging [PAGE BREAK] </p>
+            <p>cant &amp; the whining voice of </p>
+            <p>sorrow – I said I served your </p>
+            <p>Mother this morning. (The Boys </p>
+            <p>were so like
+                the<hi rend="superscript" xml:space="preserve"> woman who had called at the door</hi>
+                that I could </p>
+            <p>not be mistaken) – O! says the </p>
+            <p>elder you could not serve </p>
+            <p>my mother for she’s dead &amp; </p>
+            <p>my father’s on at the next </p>
+            <p>town – he’s a potter” – I per</p>
+            <p>=sisted in my assertion &amp; that I </p>
+            <p>would give them nothing. Says </p>
+            <p>the elder Come let’s “away” &amp; </p>
+            <p>away they flew like lightning </p>
+            <p>They had however sauntered so </p>
+            <p>long <hi rend="strikethrough">at Ambleside</hi> in their </p>
+            <p>road that they did not reach </p>
+            <p>Ambleside before me, &amp; I saw them </p>
+            <p>go up to Matthew Harrison’s </p>
+            <p>house with their wallet upon the </p>
+            <p>elder’s shoulder, &amp; creeping with </p>
+            <p>a Beggars complaining foot [PAGE BREAK] </p>
+            <p>On my return ∧<hi rend="superscript">through Ambleside</hi> I met ∧<hi
+                    rend="superscript">in the street</hi> the </p>
+            <p>mother driving her asses; in the </p>
+            <p>two Panniers of one of which was </p>
+            <p>the two little children whom </p>
+            <p>she was chiding &amp; threaten-</p>
+            <p>=ing with a wand which </p>
+            <p>she used to drive on her asses </p>
+            <p>while the little things hung in </p>
+            <p>wantonness over the Panni</p>
+            <p>-ers edge. The woman had </p>
+            <p>told me in the morning that </p>
+            <p>she was of Scotland, which </p>
+            <p>her accent fully proved </p>
+            <p>but that she had lived (I think </p>
+            <p>at Wigton) that they could not </p>
+            <p>keep a house, &amp; so they travelled. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Wednesday 13<hi rend="superscript">th</hi> June [11<hi rend="superscript">th</hi>]
+                –</p>
+            <p>A very cold morning – we went </p>
+            <p>on the lake to set pike floats with John’s fish – [illegible deleted </p>
+            <p>words] W &amp; J went first </p>
+            <p>alone. Mr Simpson called &amp; </p>
+            <p>I accompanied him to the Lake </p>
+            <p>side. My Brothers &amp; I again went </p>
+            <p>upon the water, &amp; returned to</p>
+            <p>dinner we landed upon the </p>
+            <p>Island where I saw the whitest </p>
+            <p>Hawthorn I have seen this year, </p>
+            <p>the generality of hawthorns </p>
+            <p>are bloomless – I saw wild </p>
+            <p>roses in the hedges – went </p>
+            <p>to bed in the afternoon &amp; slept </p>
+            <p>till after six – a threatening </p>
+            <p>of the tooth-ach. Wm &amp; John </p>
+            <p>went to the pikefloats – they </p>
+            <p>brought in 2 pikes. I sowed </p>
+            <p>Kidney-beans &amp; spinnach, a cold evening. </p>
+            <p>Molly stuck the peas. I weeded </p>
+            <p>a little – – Did not walk. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Thursday 14<hi rend="superscript">th</hi> June [12<hi rend="superscript">th</hi>]
+                –</p>
+            <p>William &amp; I went upon the </p>
+            <p>water to set pike floats. </p>
+            <p>John fished under Loughrigg. </p>
+            <p>We returned to dinner – </p>
+            <p>2 pikes boiled &amp; roasted. A </p>
+            <p>very cold air but warm sun. </p>
+            <p>W &amp; I again went upon </p>
+            <p>the water – [illegible deleted word] we </p>
+            <p>walked to Rydale after tea, &amp; </p>
+            <p>up to the potter’s – a cold night, </p>
+            <p>but warmer</p>
+            <p>_________________________</p>
+            <p>15 Friday [June 13<hi rend="superscript">th</hi>] A rainy morning </p>
+            <p>W &amp; J went upon the Lake </p>
+            <p>very warm &amp; pleasant </p>
+            <p>gleams of sunshine </p>
+            <p>went upon the water </p>
+            <p>after tea – caught a pike </p>
+            <p>7½ [lbs] Mr Simpson trolling </p>
+            <p>Mr Gell &amp; his party come [PAGE BREAK]</p>
+            <p>Saturday [June 14<hi rend="superscript">th</hi>] – A fine morning but clou=</p>
+            <p>=dy … W &amp; John went upon the </p>
+            <p>lake. I staid at home – </p>
+            <p>We drank tea at Mr Simpsons</p>
+            <p>Stayed till after 10 o clock</p>
+            <p>_________________________</p>
+            <p>Sunday [June 15<hi rend="superscript">th</hi>] John walked to Coniston</p>
+            <p>W &amp; I sauntered in the Garden</p>
+            <p>Afterwards walked by the lake- </p>
+            <p>side: a cold air – we pushed through </p>
+            <p>the wood – walked behind </p>
+            <p>the fir grove and returned </p>
+            <p>to dinner. We lay down after </p>
+            <p>dinner. Parker, the Tanner </p>
+            <p>&amp; the Blacksmith from Hawkshead </p>
+            <p>called.</p>
+            <p>_________________________</p>
+            <p>Monday [June 16<hi rend="superscript">th</hi>] Wm &amp; I went to Brathay </p>
+            <p>by Little Langdale &amp; Collath </p>
+            <p>&amp; Skellth. It was a warm </p>
+            <p>mild morning with threatening </p>
+            <p>of rain. [PAGE BREAK] </p>
+            <p>The [illegible deleted word] vale of <hi rend="superscript">Little</hi> Langdale </p>
+            <p>looked bare &amp; unlovely … Collath</p>
+            <p>was wild &amp; interesting. From the </p>
+            <p>Peat carts &amp; peat gatherers – the </p>
+            <p>valley all perfumed with </p>
+            <p>the Gale &amp; wild thyme. </p>
+            <p>The woods about the waterfall </p>
+            <p>[illegible deleted word] veined with rich yellow </p>
+            <p>Broom. A succession of </p>
+            <p>delicious views from Skelleth </p>
+            <p>to Brathay – we met near </p>
+            <p>Skelleth a pretty little </p>
+            <p>Boy with a wallet over </p>
+            <p>his shoulder he came from </p>
+            <p>Hawkshead &amp; was going to </p>
+            <p>“late” a lock of meal. He </p>
+            <p>spoke gently &amp; without </p>
+            <p>complaint. When I asked </p>
+            <p>him if he got enough to </p>
+            <p>eat he looked surprized &amp; </p>
+            <p>said “Nay”. He was 7 [PAGE BREAK] </p>
+            <p>years old but seemed not </p>
+            <p>more than 5. We drank </p>
+            <p>tea at Mr Ibbetsons &amp; returned </p>
+            <p>by Ambleside. Sent 3-9-0 to </p>
+            <p>the Potter at Kendal. Met </p>
+            <p>John on our return home at </p>
+            <p>about 10 o clock. Saw a primrose <hi rend="subscript">in blossom</hi></p>
+            <p>_________________________</p>
+            <p>Tuesday [June 17<hi rend="superscript">th</hi>] We put the new </p>
+            <p>window in. I ironed &amp; worked </p>
+            <p>about a good deal in house &amp; </p>
+            <p>garden. In the Evening </p>
+            <p>we walked for letters. Found one </p>
+            <p>for Coleridge at Rydale, &amp; </p>
+            <p>I returned much tired</p>
+            <p>_________________________</p>
+            <p>Wednesday [June 18<hi rend="superscript">th</hi>] we walked round </p>
+            <p>the lake in the morning &amp; </p>
+            <p>in the evening to the lower </p>
+            <p>waterfall at Rydale – it was </p>
+            <p>a warm, dark, lovely evening [PAGE BREAK]</p>
+            <p> _________________________</p>
+            <p>Thursday [June 19<hi rend="superscript">th</hi>] A very hot morning. </p>
+            <p>W &amp; I walked up to Mr Simpsons</p>
+            <p>W &amp; old Mr S. went to fish in </p>
+            <p>Wytheburn water. I dined with </p>
+            <p>John, &amp; lay under the trees </p>
+            <p>The afternoon changed from </p>
+            <p>clear to cloudy &amp; to clear </p>
+            <p>again – John &amp; I walked </p>
+            <p>up to the waterfall &amp; to </p>
+            <p>Mr Simpsons, &amp; with Miss </p>
+            <p>Simpson met the fishers. </p>
+            <p>W. caught a pike weigh=</p>
+            <p>=ing 4¾ lb. There was </p>
+            <p>a gloom almost terrible </p>
+            <p>over [illegible deleted words]<hi rend="subscript">Grasmere</hi> water &amp; vale – </p>
+            <p>a few drops fell but not </p>
+            <p>much rain. No Coleridge whom </p>
+            <p><hi rend="subscript"> we fully expected</hi></p>
+            <p>_________________________</p>
+            <p>Friday [June 20<hi rend="superscript">th</hi>] I worked in the garden </p>
+            <p>in the morning. Wm prepared </p>
+            <p>pea sticks. Threatening for rain [PAGE BREAK] </p>
+            <p>but yet it comes not –</p>
+            <p>On Wednesday evening a poor </p>
+            <p>man called, a hatter – he had </p>
+            <p>been long ill – but was now </p>
+            <p>recovered &amp; his wife was lying in </p>
+            <p>of her 4<hi rend="superscript">th</hi> child. The parish </p>
+            <p>would not help him because </p>
+            <p>he had [illegible deleted words] imple=</p>
+            <p>=ments of trade &amp;c. &amp;c.</p>
+            <p>We gave him 6d.</p>
+            <p>_________________________</p>
+            <p>Saturday [June 21<hi rend="superscript">st</hi>] In the morning W. </p>
+            <p>&amp; I went to Ambleside to get his </p>
+            <p>tooth drawn, &amp; put in – a fine </p>
+            <p>clear morning but cold. – Ws </p>
+            <p>tooth drawn with very little pain </p>
+            <p>he slept till 3 o’clock. <hi rend="strikethrough">Mr</hi>
+            </p>
+            <p>Young Mr. S drank tea &amp; supped </p>
+            <p>with us they fished in Rydale </p>
+            <p>water &amp; they caught 2 small fishes. </p>
+            <p>W no bite. John 3. Miss Simp</p>
+            <p>son &amp; 3 children called I walked </p>
+            <p>with them to Rydale. The evening cold </p>
+            <p>&amp; clear &amp; frosty, but the wind [PAGE BREAK] </p>
+            <p>was falling as I returned. I staid </p>
+            <p>at home about an hour &amp; then </p>
+            <p>walked up the hill to Rydale lake. </p>
+            <p>Grasmere looked so beautiful </p>
+            <p>that my heart was almost </p>
+            <p>melted away. It was quite calm </p>
+            <p>only spotted with sparkles of light </p>
+            <p>The church visible. On our return </p>
+            <p>all distant objects had faded </p>
+            <p>away – <hi rend="strikethrough">but</hi> all but the hills. </p>
+            <p>The reflection of the light </p>
+            <p>bright sky above Black quarter </p>
+            <p>was very solemn. Mr S did not </p>
+            <p>go till 12 o’clock.</p>
+            <p>_________________________</p>
+            <p>Sunday [June 22<hi rend="superscript">nd</hi>] In the morning W &amp; I </p>
+            <p>walked towards Rydale &amp; up into the </p>
+            <p>wood but finding it not very pleas</p>
+            <p>=ant we returned – sauntered in </p>
+            <p>the garden – a showery day –</p>
+            <p>In the evening I planted a </p>
+            <p>honey suckle round the yew tree </p>
+            <p>In the evening we walked for letters </p>
+            <p>No letters, no news of Coleridge [PAGE BREAK] </p>
+            <p>Jimmy Benson came home </p>
+            <p>drunk beside us</p>
+            <p>_________________________</p>
+            <p>Monday [June 23<hi rend="superscript">rd</hi>] Mr Simpson called in </p>
+            <p>the morning Tommys Father dead </p>
+            <p>W &amp; I went into Langdale to </p>
+            <p>fish. The morning was very </p>
+            <p>cold. I sate at the foot </p>
+            <p>of the lake till my head ached </p>
+            <p>with cold-- -- The view exquisitely </p>
+            <p>beautiful, through the gate &amp; </p>
+            <p>under a sycamore tree beside </p>
+            <p>the first house going into </p>
+            <p>Loughrigg – Elter water looked </p>
+            <p><hi rend="strikethrough">barren</hi> barren &amp; the view from the </p>
+            <p>church less beautiful than </p>
+            <p>in winter. When W went </p>
+            <p>down to the water to fish I </p>
+            <p>lay under the wind my head </p>
+            <p>pillowed upon a mossy rock </p>
+            <p>&amp; slept about 10 minutes which </p>
+            <p>relieved my headach. [illegible deleted word] </p>
+            <p>We ate our dinner together </p>
+            <p>&amp; parted again. W<hi rend="superscript">m</hi> was afraid [PAGE BREAK] </p>
+            <p>he had lost his line &amp; sought </p>
+            <p>me. An old Man saw me </p>
+            <p>just after I had crossed the </p>
+            <p>stepping stones &amp; was going </p>
+            <p>thro’ a copse – Ho, where were </p>
+            <p>were you going? To Elterwater </p>
+            <p>Bridge – Why says he its well </p>
+            <p>I saw you, ye were gane </p>
+            <p>to Little Langdale by Wrynose </p>
+            <p>&amp; several other places, which </p>
+            <p>he ran over, with a mixture </p>
+            <p>of triumph, good-nature, &amp; wit. </p>
+            <p>Its well I saw you or youd </p>
+            <p>ha been lost. The evening </p>
+            <p>grew very pleasant we sate </p>
+            <p>on the side of the hill looking </p>
+            <p>to Elterwater. I was much </p>
+            <p>tired &amp; returned home to </p>
+            <p>tea. W went to fish for </p>
+            <p>pike in Rydale. John </p>
+            <p>came in when I had done </p>
+            <p>tea, &amp; he &amp; I carried a </p>
+            <p>jug of tea to William. We </p>
+            <p>met him in the old road </p>
+            <p>from Rydale – he drank his </p>
+            <p>tea upon the turf – the [PAGE BREAK] </p>
+            <p>setting sun threw a red purple </p>
+            <p>light upon the rocks &amp; stones </p>
+            <p>walls of Rydale which gave </p>
+            <p>them a most interesting &amp; beau-</p>
+            <p>-tiful appearance</p>
+            <p>_________________________</p>
+            <p>Tuesday [June 24<hi rend="superscript">th</hi>] W went to Amble</p>
+            <p>-side – John walked out – </p>
+            <p>I made tarts &amp;c. Mr B Simpson </p>
+            <p>called &amp; asked us to tea – </p>
+            <p>I went to the view of Rydale </p>
+            <p>to meet William. John went </p>
+            <p>[blot] to him – I returned – </p>
+            <p>W &amp; I drank tea at Mr </p>
+            <p>Simpsons brought down </p>
+            <p>Lemon Thyme, greens &amp;c – </p>
+            <p>The old woman was very </p>
+            <p>happy to see us &amp; we were </p>
+            <p>so in the pleasure we gave. </p>
+            <p>She was an affecting picture </p>
+            <p>of Patient disappointment suffer</p>
+            <p>-ing under <hi rend="subscript">no</hi> particular afflict</p>
+            <p>=tion. [PAGE BREAK]</p>
+            <p>Wednesday [June 25<hi rend="superscript">th</hi>]. A very rainy </p>
+            <p>day – I made a shoe – W<hi rend="superscript">m</hi> &amp; </p>
+            <p>John went to fish in Langdale </p>
+            <p>In the evening – I went above </p>
+            <p>the house, &amp; gathered flowers </p>
+            <p>which I planted, fox-glove &amp;c. </p>
+            <p>On Sunday Mr &amp; Mrs Coleridge </p>
+            <p>&amp; Hartley came. The day was </p>
+            <p>very warm we sailed to the </p>
+            <p>foot of Loughrigg. They </p>
+            <p>staid with us three weeks </p>
+            <p>&amp; till the Thursday following, </p>
+            <p>ie. till the 23 [24<hi rend="superscript">th</hi>] of July. On </p>
+            <p>the Friday preceding their de=</p>
+            <p>=parture we drank tea at the </p>
+            <p>island. The weather very delight</p>
+            <p>-ful – &amp; on the Sunday </p>
+            <p>we made a great fire, &amp; drank </p>
+            <p>tea in Bainriggs with the </p>
+            <p>Simpsons – I accompanied </p>
+            <p>Mrs C to Wytheburne &amp; returned </p>
+            <p>with W – to tea at Mr [PAGE BREAK] </p>
+            <p>Simpsons. It was excessively hot. </p>
+            <p>But the day after </p>
+            <p>Friday July 24 [July 25<hi rend="superscript">th</hi>] still hotter. </p>
+            <p>All the morning I was engaged </p>
+            <p>in unpacking our Somersetshire goods </p>
+            <p>&amp; in making pies –The house </p>
+            <p>was a hot oven but yet we </p>
+            <p>could not bake the pies – </p>
+            <p>I was so weary I could not </p>
+            <p>walk so I went &amp; sate with </p>
+            <p>W<hi rend="superscript">m</hi> in the orchard – we had </p>
+            <p>a delightful half hour – in the </p>
+            <p>warm still evening –</p>
+            <p>_________________________</p>
+            <p>Saturday 25<hi rend="superscript">th</hi> [July 26<hi rend="superscript">th</hi>].
+                Still hotter </p>
+            <p>I sate with W. in the </p>
+            <p>orchard all the morning &amp; </p>
+            <p>made my shoe. </p>
+            <p>In the after noon from excessive </p>
+            <p>heat I was ill in the headach </p>
+            <p>&amp; toothache &amp; went to bed – </p>
+            <p>I was refreshed with washing </p>
+            <p>myself [illegible deleted words] after I got </p>
+            <p>up – but it was too hot to [PAGE BREAK] </p>
+            <p>walk till near dark, &amp; then </p>
+            <p>I sate upon the wall finishing </p>
+            <p>my shoes – </p>
+            <p>_________________________</p>
+            <p>Sunday Mor. 26<hi rend="superscript">th</hi> [July 27<hi rend="superscript">th</hi>]
+                very warm </p>
+            <p>Molly ill – John bathed in the lake</p>
+            <p>I wrote out Ruth in the afternoon, </p>
+            <p>in the morning I read </p>
+            <p>Mr Knight’s Landscape. After tea </p>
+            <p>we rowed down to Loughrigg </p>
+            <p>Fell – visited the white fox=</p>
+            <p>=glove, gathered wild strawberries </p>
+            <p>&amp; walked up to view Rydale we </p>
+            <p>lay a long time looking at the </p>
+            <p>lake, the shores all embrowned </p>
+            <p>with the scorching sun – The </p>
+            <p>Ferns were burning yellow, that </p>
+            <p>is here &amp; there one was quite </p>
+            <p>turned. <hi rend="strikethrough">The lake of</hi> [illegible deleted word] </p>
+            <p>We walked round by Benson’s </p>
+            <p>wood home. The lake was </p>
+            <p>now most still &amp; reflected the </p>
+            <p>beautiful yellow &amp; blue &amp; </p>
+            <p>purple &amp; grey colours of the </p>
+            <p>sky. We heard a strange sound </p>
+            <p>in the Bainriggs wood as we </p>
+            <p>were floating on the water it </p>
+            <p><hi rend="underline">seemed</hi> in the wood, but it [PAGE BREAK] </p>
+            <p>must have been above it, for pre-</p>
+            <p>-sently we saw a [illegible deleted word] raven very </p>
+            <p>high above us – it called out </p>
+            <p>&amp; the Dome of the sky seemed </p>
+            <p>to echoe the sound – it called </p>
+            <p>again &amp; again as it flew </p>
+            <p>onwards, &amp; the mountains </p>
+            <p>gave back the sound, seeming </p>
+            <p>as if from their [illegible deleted word] center </p>
+            <p>a musical bell-like answering </p>
+            <p>to the birds hoarse voice. We </p>
+            <p>heard both the [illegible deleted words] </p>
+            <p>call of the bird &amp; the echoes </p>
+            <p>[illegible deleted word] after we could see him no </p>
+            <p>longer. We walked up to the </p>
+            <p>top of the hill again in view </p>
+            <p>of Rydale – met Mr &amp; Miss </p>
+            <p>Simpson on horseback— The </p>
+            <p>crescent moon which had shone </p>
+            <p>upon the water was now gone </p>
+            <p>down. Returned to supper at </p>
+            <p>10 o clock</p>
+            <p>_________________________</p>
+            <p>Monday morning [July 28<hi rend="superscript">th</hi>] received a letter from </p>
+            <p>Coleridge enclosing one from Mr </p>
+            <p>Davy about the Lyrical Ballads [PAGE BREAK] </p>
+            <p>intensely hot I made pies in </p>
+            <p>the morning. Wm went into the wood </p>
+            <p>&amp; altered his poems. In the Evening </p>
+            <p>it was so very warm that I </p>
+            <p>was too much tired to walk</p>
+            <p>_________________________</p>
+            <p>Tuesday [July 29<hi rend="superscript">th</hi>] still very hot. We gathered </p>
+            <p>peas for dinner.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> There is a large X across this part of the entry; it stops at “We walked.”</hi></p></note></hi>
+                The evening excessively </p>
+            <p>beautiful a rich reflection of </p>
+            <p>the moon. The moonlight clouds &amp; </p>
+            <p>the hills &amp; from the Rays gap </p>
+            <p>a huge rainbow pillar. We sailed </p>
+            <p>upon the lake till it was </p>
+            <p>10 o clock</p>
+            <p>_________________________</p>
+            <p>We walked up in the Evening </p>
+            <p>to find out Hewetson’s cottage, but </p>
+            <p>it was too dark. I was sick &amp; </p>
+            <p>weary</p>
+            <p>_________________________</p>
+            <p>Wednesday <hi rend="superscript">July 30th</hi> gathered peas for Mrs </p>
+            <p>Simpson. John &amp; I walked </p>
+            <p>up with them – very hot – W<hi rend="superscript">m</hi>
+            </p>
+            <p>had intended going to Keswick. </p>
+            <p>I was obliged to lie down after </p>
+            <p>dinner from excessive heat &amp; headach </p>
+            <p>The Evening &amp;c see above<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> “See above” refers to a cross-out. Here, DW has begun an entry for 29 July but canceled it as the entry in fact describes 30 July.</hi>
+                        </p></note></hi> [PAGE BREAK]</p>
+            <p>Thursday [July 31<hi rend="superscript">st</hi>] All the morning I was busy </p>
+            <p>copying poems – gathered peas, &amp; in </p>
+            <p>the afternoon Coleridge came </p>
+            <p>very hot, he brought the 2<hi rend="superscript">nd</hi> volume </p>
+            <p>of the Anthology – – [illegible deleted word] </p>
+            <p>The men went to bathe &amp; we after</p>
+            <p>=wards sailed down to Loughrigg </p>
+            <p>read poems on the water &amp; let </p>
+            <p>the boat take its own course – we </p>
+            <p>walked a long time upon Loughrigg</p>
+            <p> &amp; returned in the grey twilight. </p>
+            <p>The moon just setting as we </p>
+            <p>reached home</p>
+            <p>_________________________</p>
+            <p>Friday 1<hi rend="superscript">st Aug</hi> In the morning I copied </p>
+            <p>The Brothers. Coleridge &amp; Wm went </p>
+            <p>down to the lake. They returned </p>
+            <p>&amp; we all went together to Mary </p>
+            <p>Point where we sate in the </p>
+            <p>breeze &amp; the shade &amp; read </p>
+            <p>W<hi rend="superscript">ms</hi> poems altered ‘The Whirl-</p>
+            <p>=blast &amp;c’—Mr Simpson came </p>
+            <p>to tea &amp; Mr B Simpson afterwards </p>
+            <p>we drank in the orchard [PAGE BREAK]</p>
+            <p>Saturday [August] <hi rend="superscript">2nd</hi> Morning W<hi rend="superscript"
+                    >m</hi> &amp; Coleridge </p>
+            <p>went to Keswick. John went </p>
+            <p>with them to Wytheburn &amp; staid all </p>
+            <p>day fishing &amp; brought home 2 </p>
+            <p>small pikes at night. I accompanied </p>
+            <p>them to Lewthwaite’s cottage &amp; on</p>
+            <p>my return papered W<hi rend="superscript">m’s</hi> room – </p>
+            <p>I afterwards lay down till tea </p>
+            <p>time &amp; after tea worked at my </p>
+            <p>shifts in the orchard. A grey evening – </p>
+            <p>about 8 o’clock it gathered for </p>
+            <p>rain &amp; I had the scatterings of a </p>
+            <p>shower, but afterwards the lake </p>
+            <p>became of a glassy calmness </p>
+            <p>&amp; all was still. I sate till I </p>
+            <p>could see no longer &amp; then continued </p>
+            <p>my work in the house</p>
+            <p>_________________________</p>
+            <p>Sunday [August] <hi rend="superscript">3rd</hi> Morning. I made pies &amp; </p>
+            <p>stuff’d the pike, baked a loaf</p>
+            <p>Head ach after dinner. I lay </p>
+            <p>down, a letter from W<hi rend="superscript">m</hi> rouzed </p>
+            <p>me, desiring us to go to Keswick </p>
+            <p>After writing to W<hi rend="superscript">m</hi> we walked as far [PAGE BREAK] </p>
+            <p>as Mr Simpson’s &amp; ate black cherries </p>
+            <p>A Heavenly warm evening with </p>
+            <p>scattered clouds upon the hills</p>
+            <p>There was a vernal greenness </p>
+            <p>upon the grass from the rains of </p>
+            <p>the morning &amp; afternoon – peas
+                for<hi rend="subscript" xml:space="preserve"> dinner</hi></p>
+            <p>_________________________</p>
+            <p>Monday [August] <hi rend="superscript">4th</hi> Rain in the night. </p>
+            <p>I tied up Scarlet beans, nailed the </p>
+            <p>honeysuckles &amp;c &amp;c. John was </p>
+            <p>prepared to <hi rend="strikethrough">go</hi> walk to Keswick all </p>
+            <p>the morning – he seized a </p>
+            <p>returned chaise &amp; went after </p>
+            <p>dinner. I pulled a large </p>
+            <p>basket of peas &amp; sent to Kes-</p>
+            <p>=wick by a returned chaise a </p>
+            <p>very cold evening – assisted </p>
+            <p>to spread out linen in the morning – –</p>
+            <p>_________________________</p>
+            <p>Tuesday [August] <hi rend="superscript">5th</hi> Dried the linen in </p>
+            <p>the morning, the air still cold</p>
+            <p>I pulled a bag full of peas for </p>
+            <p>Mrs Simpson. Miss Simpson drank </p>
+            <p>tea with me &amp; supped on [PAGE BREAK] </p>
+            <p>her return from Ambleside. A </p>
+            <p>very fine evening. I sate on </p>
+            <p>the wall making my shifts till </p>
+            <p>I could see no longer – walked </p>
+            <p>half-way home with Miss Simpson</p>
+            <p>_________________________</p>
+            <p>Wednesday <hi rend="superscript">6th August</hi> a rainy morning </p>
+            <p>I ironed till dinner time – sewed </p>
+            <p>till near dark, then pulled a </p>
+            <p>basket of peas, &amp; afterwards </p>
+            <p>boiled &amp; picked gooseberries. William </p>
+            <p>came home from Keswick </p>
+            <p>at 11 o clock a very fine night</p>
+            <p>_________________________</p>
+            <p>Thursday morning. packed up <hi rend="superscript">7th August</hi> the </p>
+            <p>mattrass, &amp; sent to Keswick – </p>
+            <p>boiled gooseberries – NB 2 </p>
+            <p>lbs of sugar in the first panfull </p>
+            <p>3 quarts all good measure – </p>
+            <p>3 lbs in the 2<hi rend="superscript">nd</hi> 4 quarts 2 ½ lbs </p>
+            <p>in the 3<hi rend="superscript">rd</hi> – a very fine day. </p>
+            <p>William composing in the wood in </p>
+            <p>the morning in the evening </p>
+            <p>we walked to Mary Point, a very </p>
+            <p><hi rend="underline">fine</hi> sun-set. [PAGE BREAK]</p>
+            <p>Friday morning [August 8<hi rend="superscript">th</hi>]. We intended </p>
+            <p>going to Keswick – but were </p>
+            <p>prevented by the excessive </p>
+            <p>heat. Nailed up scarlet beans </p>
+            <p>in the morning – Drank tea </p>
+            <p>at Mr Simpsons; &amp; walked </p>
+            <p>over the mountains by Wattenlath – </p>
+            <p>very fine gooseberries at </p>
+            <p>Mr S’s – a most enchanting </p>
+            <p>walk – Wattenlath a heavenly </p>
+            <p>scene. Reached Coleridge’s at 11 o clock.</p>
+            <p>_________________________</p>
+            <p>Saturday morning [August 9<hi rend="superscript">th</hi>] I walked </p>
+            <p>with Coleridge in the Windy </p>
+            <p>Brow woods</p>
+            <p>_________________________</p>
+            <p>Sunday [August 10<hi rend="superscript">th</hi>] very hot the Cs went </p>
+            <p>to church. We sailed upon </p>
+            <p>Derwent in the evening. </p>
+            <p>_________________________</p>
+            <p>Monday afternoon [August 11<hi rend="superscript">th</hi>] Walked with </p>
+            <p><hi rend="strikethrough">Mrs C to</hi> Windy Brow.</p>
+            <p>_________________________</p>
+            <p>Tuesday [August 12<hi rend="superscript">th</hi>] drank tea with the </p>
+            <p>Cockins – Wm &amp; I walked [PAGE BREAK] </p>
+            <p>along the Cockermouth road </p>
+            <p>he was altering his poems</p>
+            <p>_________________________</p>
+            <p>Wednesday [August 13<hi rend="superscript">th</hi>] Made the Windy Brow seat</p>
+            <p>_________________________</p>
+            <p>Thursday morning [August 14<hi rend="superscript">th</hi>] Called </p>
+            <p>at the Speddings. In the </p>
+            <p>evening walked in the woods </p>
+            <p>with W – very very beautiful </p>
+            <p>the moon</p>
+            <p>_________________________</p>
+            <p>Friday morning [August 15<hi rend="superscript">th</hi>] W in the wood </p>
+            <p>I went with Hartley to see </p>
+            <p>the Cockins &amp; to buy Bacon</p>
+            <p>in the evening we walked </p>
+            <p>to Water End – feasted on </p>
+            <p>gooseberries at Silver hill</p>
+            <p>_________________________</p>
+            <p>Saturday morning [August 16<hi rend="superscript">th</hi>]. Worked for </p>
+            <p>Mrs C &amp; walked with Cole-</p>
+            <p>-ridge intending to gather </p>
+            <p>Raspberries – joined by Miss </p>
+            <p>Spedding [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Sunday 16<hi rend="superscript">th</hi> August [17<hi rend="superscript">th</hi>]
+                Came </p>
+            <p>home – Dined in Borrowdale </p>
+            <p>A rainy morning but a </p>
+            <p>fine evening – saw the Bristol </p>
+            <p>prison &amp; Bassenthwaite at </p>
+            <p>the same time – W<hi rend="superscript">m</hi> read</p>
+            <p> us – the 7 Sisters on a stone</p>
+            <p>_________________________</p>
+            <p>Monday [August 18<hi rend="superscript">th</hi>]. Putting linen by &amp; </p>
+            <p>mending. Walked with John </p>
+            <p>to Mr Simpson’s &amp; met W<hi rend="superscript">m</hi>
+            </p>
+            <p>in returning a fine warm day</p>
+            <p>_________________________</p>
+            <p>Tuesday [August 19<hi rend="superscript">th</hi>] Mr &amp; Mrs Simpson </p>
+            <p>dined with us Miss S &amp; Brother </p>
+            <p>drank tea in the orchard</p>
+            <p>_________________________</p>
+            <p>Wednesday [August 20<hi rend="superscript">th</hi>] I worked in the </p>
+            <p>morning. Cold in the evening </p>
+            <p>&amp; rainy. Did not walk.</p>
+            <p>_________________________</p>
+            <p>Thursday [August 21<hi rend="superscript">st</hi>] read Wallenstein </p>
+            <p>&amp; sent it off – worked in the </p>
+            <p>morning – walked with John </p>
+            <p>round the two lakes [PAGE BREAK] </p>
+            <p>gathered white fox glove seeds </p>
+            <p>&amp; found W<hi rend="superscript">m</hi> in Bain-riggs at </p>
+            <p>our return</p>
+            <p>_________________________</p>
+            <p>Fri<hi rend="strikethrough">Satur</hi>day 21<hi rend="superscript">st</hi> [August
+                    22<hi rend="superscript">nd</hi>] very cold baking </p>
+            <p><hi rend="superscript">gathered pea seeds &amp; took up</hi></p>
+            <p>in the morning. –– lighted</p>
+            <p>a fire up stairs. Walked </p>
+            <p>as far as Rydale with John </p>
+            <p>intending to have gone on </p>
+            <p>to Ambleside but we found </p>
+            <p>the papers at Rydale – W<hi rend="superscript">m</hi></p>
+            <p> walking in the wood all the </p>
+            <p>time. John &amp; he went out </p>
+            <p>after our return. I mended </p>
+            <p>stockings. Wind very high </p>
+            <p>shaking the corn</p>
+            <p>_________________________</p>
+            <p>Saturday 22<hi rend="superscript">nd</hi> [August 23<hi rend="superscript">rd</hi>] –
+                A very fine morning. </p>
+            <p>W<hi rend="superscript">m</hi> was composing all the </p>
+            <p>morning – I shelled peas </p>
+            <p>gathered beans, &amp; walked in the </p>
+            <p>garden till ½ past 12 then [PAGE BREAK] </p>
+            <p>walked with William in the wood </p>
+            <p>The Gleams of sunshine &amp; the </p>
+            <p>stirring trees &amp; gleaming [illegible deleted word] bright </p>
+            <p>cheerful lake – most delightful</p>
+            <p>After dinner we walked to </p>
+            <p>Ambleside – showery, went to </p>
+            <p>see Mr Partridges house. </p>
+            <p>Came home by Clappersgate </p>
+            <p>we had intended going by Rydale </p>
+            <p>woods, but it was cold – </p>
+            <p>I was not well, &amp; tired got </p>
+            <p>tea immediately, &amp; had a </p>
+            <p>fire – did not reach home </p>
+            <p>till 7 o clock – mended </p>
+            <p>stockings – &amp; W read Peter </p>
+            <p>Bell. He read us the </p>
+            <p>Poem of Joanna beside </p>
+            <p>the Rothay by the road</p>
+            <p>side</p>
+            <p>_________________________</p>
+            <p>Sunday 23<hi rend="superscript">rd</hi> [August 24<hi rend="superscript">th</hi>]. A
+                fine cool pleasant </p>
+            <p>breezy day walked in the wood in </p>
+            <p>the morning. Mr Twining called </p>
+            <p>[illegible deleted word] John walked up to Mr </p>
+            <p>Simpsons in the evening I staid </p>
+            <p>at home &amp; wrote to Mrs Raw<hi rend="subscript">son</hi> [PAGE BREAK] </p>
+            <p>&amp; my aunt Cookson. I was ill in </p>
+            <p>the afternoon and lay down – got </p>
+            <p>up restored by a sound sleep</p>
+            <p>_________________________</p>
+            <p>Monday a <hi rend="superscript">24</hi> [August 25<hi rend="superscript">th</hi>] a
+                fine day – walked in</p>
+            <p>the wood in the morning &amp; to </p>
+            <p>the fir-grove – walked up to </p>
+            <p>Mr Simpsons in the evening</p>
+            <p>_________________________</p>
+            <p>Tuesday<hi rend="superscript" xml:space="preserve">25 </hi>[August 26<hi
+                    rend="superscript">th</hi>] we walked in the even=</p>
+            <p>=ing to Ambleside W<hi rend="superscript">m</hi> not quite </p>
+            <p>well I bought sacking for </p>
+            <p>the mattrass – a very fine </p>
+            <p>solemn evening The wind blew </p>
+            <p>very free from the island &amp; at </p>
+            <p>Rydale – we went on the other </p>
+            <p>side of Rydale, &amp; sate a </p>
+            <p>long time looking at the mountains </p>
+            <p>which were all black at </p>
+            <p>Grasmere &amp; very bright in </p>
+            <p>Rydale – Grasmere exceedingly </p>
+            <p>dark &amp; Rydale of a light </p>
+            <p>yellow green</p>
+            <p>_________________________</p>
+            <p>Wednesday [August 27] In the morning we walked</p>
+            <p><hi rend="superscript">John Baty passed us</hi></p>
+            <p>We walked along the </p>
+            <p>shore of the lake in the Evening</p>
+            <p>&amp; went over into Langdale &amp; down [PAGE BREAK] </p>
+            <p>to Loughrigg tarn a very fine evening </p>
+            <p>calm &amp; still.</p>
+            <p>_________________________</p>
+            <p>Thursday <hi rend="superscript">27 August</hi> [28<hi rend="superscript">th</hi>]
+                Still very fine weather I </p>
+            <p>baked bread &amp; cakes. In the </p>
+            <p>Evening we walked round the </p>
+            <p>Lake by Rydale &amp; [illegible deleted words]</p>
+            <p>[illegible deleted line] </p>
+            <p>Mr Simpson came to fish.</p>
+            <p>_________________________</p>
+            <p>Friday [August 29<hi rend="superscript">th</hi>] evening We walked </p>
+            <p>to Rydale to inquire for letters</p>
+            <p>We walked over the hill </p>
+            <p>by the Firgrove. I sate </p>
+            <p>upon a rock &amp; observed a flight </p>
+            <p>of swallows gathering toge</p>
+            <p>=ther high above my head they </p>
+            <p>flew towards Rydale. We </p>
+            <p>walked through the wood over </p>
+            <p>the stepping stones – The lake </p>
+            <p>of Rydale very beautiful</p>
+            <p> partly still. John &amp; I left </p>
+            <p>W<hi rend="superscript">m</hi> to compose an Inscrip</p>
+            <p>tion – that about the path. We had </p>
+            <p>a very fine walk by the </p>
+            <p>gloomy lake. There was a curious [PAGE BREAK] </p>
+            <p>yellow reflection in the water </p>
+            <p>as of corn fields, there was no </p>
+            <p>light in the clouds from which </p>
+            <p>it appeared to come</p>
+            <p>_________________________</p>
+            <p>Saturday morning <hi rend="superscript">28th August</hi> [30<hi rend="superscript"
+                    >th</hi>] I was baking </p>
+            <p>Bread pies &amp; dinner. It was </p>
+            <p>very warm. <hi rend="superscript">Wm</hi> finished </p>
+            <p>his Inscription of the Pathway </p>
+            <p>Then walked in the wood &amp; </p>
+            <p>when John returned he sought </p>
+            <p>him &amp; they bathed together</p>
+            <p>I read a little of Boswells </p>
+            <p>life of Johnson. I had a head=</p>
+            <p>=ache &amp; went to lie down in </p>
+            <p>the orchard. I was rouzed </p>
+            <p>by a shout that Anthony </p>
+            <p>Harrison was come. We </p>
+            <p>sate in the orchard till </p>
+            <p>tea time, drank tea early </p>
+            <p>&amp; rowed down the lake which </p>
+            <p>was stirred by Breezes. We </p>
+            <p>looked at Rydale which [PAGE BREAK] </p>
+            <p>was soft, cheerful &amp; beautiful</p>
+            <p>We then went to peep into </p>
+            <p>Langdale. The Pikes were very </p>
+            <p>grand. We walked back to </p>
+            <p>the view of Rydale, which </p>
+            <p>was now a dark mirror</p>
+            <p>We rowed home over a </p>
+            <p>lake still as glass &amp; then </p>
+            <p>went to George Mackareth’s </p>
+            <p>to hire a horse for John</p>
+            <p>A fine moonlight night. </p>
+            <p>The beauty of the moon </p>
+            <p>was startling as it rose </p>
+            <p>to us over Loughrigg Fell</p>
+            <p>We returned to supper at 10 </p>
+            <p>o’clock Thomas Ashburner </p>
+            <p>_________________________</p>
+            <p><hi rend="strikethrough" xml:space="preserve">Sunday morning </hi></p>
+            <p>brought us our 8<hi rend="superscript">th</hi> cart </p>
+            <p>of coals since May 17<hi rend="superscript">th</hi></p>
+            <p>_________________________</p>
+            <p>Sunday <hi rend="superscript" xml:space="preserve">29th </hi>[August 31<hi
+                    rend="superscript">st</hi>] Anthony Harrison </p>
+            <p>&amp; John left us at ½ past seven </p>
+            <p>a very fine morning – [PAGE BREAK]</p>
+            <p>a great deal of corn is </p>
+            <p>cut in the vale, &amp; the </p>
+            <p>whole prospect though not </p>
+            <p>tinged with a general au=</p>
+            <p>=tumnal yellow, yet softened </p>
+            <p>down into a mellowness of </p>
+            <p>colouring which seems to </p>
+            <p>impart softness to the </p>
+            <p>forms of hills &amp; mountains</p>
+            <p>At 11 o’clock Coleridge came </p>
+            <p>when I was walking in </p>
+            <p>the still, clear moonshine </p>
+            <p>in the garden – he came over </p>
+            <p>Helvellyn – W<hi rend="superscript">m</hi> was gone to </p>
+            <p>bed &amp; John also, worn out with </p>
+            <p>his ride round Coniston We </p>
+            <p>sate and chattered till ½ past </p>
+            <p>three W in his dressing gown </p>
+            <p>Coleridge read us a part of </p>
+            <p>Christabel. Talked much about </p>
+            <p>the mountains &amp;c &amp;c Miss </p>
+            <p>Thrale’s hatred – Losh’s opinion [PAGE BREAK] </p>
+            <p>of Southey – the first of poets</p>
+            <p>_________________________</p>
+            <p>Monday <hi rend="superscript strikethrough">30</hi> morning <hi rend="superscript"
+                    >1st September</hi> We walked in</p>
+            <p>the wood by the Lake – W read </p>
+            <p>Joanna &amp; the Firgrove to </p>
+            <p>Coleridge. They bathed. The morn</p>
+            <p>=ing was delightful with </p>
+            <p>somewhat of an autumnal </p>
+            <p>freshness. After dinner Coleridge </p>
+            <p>discovered a rock seat </p>
+            <p>in the orchard, cleared away </p>
+            <p>the brambles. Coleridge obliged </p>
+            <p>to go to bed after tea. John </p>
+            <p>&amp; I followed W<hi rend="superscript">m</hi> up to the hill </p>
+            <p>&amp; then returned to go to Mr </p>
+            <p>Simpsons – we borrowed some </p>
+            <p>bottles for bottling rum. </p>
+            <p>The evening some what frosty </p>
+            <p>&amp; grey but very pleasant </p>
+            <p>[line struck through]</p>
+            <p>I broiled Coleridge a mutton </p>
+            <p>chop which he ate in bed [PAGE BREAK] </p>
+            <p>Wm was gone to bed – I chatted </p>
+            <p>with John &amp; Coleridge till </p>
+            <p>near 12.</p>
+            <p>_________________________</p>
+            <p>Tuesday <hi rend="strikethrough">3</hi><hi rend="superscript strikethrough">rd</hi>
+                    2<hi rend="superscript">nd</hi> [September] In the morning they </p>
+            <p>all went to Stickel Tarn</p>
+            <p>A very fine, warm sunny </p>
+            <p>beautiful morning. I baked </p>
+            <p>a pie &amp;c for dinner – little </p>
+            <p>Sally was with me.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">
+                            <hi style="font-size:11pt">Sara Ashburner, born 1790, seems to have
+                                helped DW around the house and garden.</hi></p></note></hi> The fair </p>
+            <p>day. Miss Simpson &amp; Mr </p>
+            <p>came down to tea we </p>
+            <p>walked to the fair. There </p>
+            <p>seem’d very few people &amp; </p>
+            <p>very few stalls yet I believe </p>
+            <p>there were many cakes </p>
+            <p>&amp; much beer sold. My </p>
+            <p>Brothers came home to dinner </p>
+            <p>at 6 o’clock – We drank </p>
+            <p>Tea immediately after by Candle</p>
+            <p>-light. It was a lovely [PAGE BREAK] </p>
+            <p>moonlight night. We talked </p>
+            <p>much about a house on Hel-</p>
+            <p>vellyn. The moonlight shone </p>
+            <p>only upon the village it </p>
+            <p>did not eclipse the village </p>
+            <p>lights &amp; the sound of </p>
+            <p>dancing &amp; merriment came </p>
+            <p>along the still air – I </p>
+            <p>walked with Coleridge &amp; </p>
+            <p>W<hi rend="superscript">m</hi> up the Lane &amp; by </p>
+            <p>the Church I then lingered </p>
+            <p>with Coleridge in the garden </p>
+            <p>John &amp; W<hi rend="superscript">m</hi> were both </p>
+            <p>gone to bed &amp; all the lights </p>
+            <p>out</p>
+            <p>_________________________</p>
+            <p>Wednesday <hi rend="superscript">3rd September</hi> Coleridge W<hi rend="superscript"
+                    >m</hi> &amp; </p>
+            <p>John went from home to </p>
+            <p>go upon Helvellyn with </p>
+            <p>Mr Simpson. They set out </p>
+            <p>after breakfast. I accompa=</p>
+            <p>=nied them up near the [PAGE BREAK] </p>
+            <p>Blacksmith’s. A fine coolish </p>
+            <p>morning. I ironed till ½ </p>
+            <p>past three – now very hot. </p>
+            <p>I then went to a funeral </p>
+            <p>at John Dawsons. About </p>
+            <p>10 men &amp; 4 women. Bread </p>
+            <p>cheese &amp; ale – they talked </p>
+            <p>sensibly &amp; cheerfully about </p>
+            <p>common things. The dead </p>
+            <p>person 56 years of age </p>
+            <p>buried by the parish – the </p>
+            <p>coffin was neatly lettered </p>
+            <p>&amp; painted black &amp; covered </p>
+            <p>with a decent cloth they </p>
+            <p>set the corpse down at </p>
+            <p>the door &amp; while we stood </p>
+            <p>within the threshold the </p>
+            <p>t<hi rend="strikethrough">hree</hi> men with their hats </p>
+            <p>off sang with decent &amp; </p>
+            <p>solemn countenances a [PAGE BREAK] </p>
+            <p>verse of a funeral psalm </p>
+            <p>The corpse was then borne</p>
+            <p><hi rend="strikethrough">to church</hi> down the hill </p>
+            <p>&amp; they sang till they had got </p>
+            <p>past the town end. I was </p>
+            <p>affected to tears while we </p>
+            <p>stood in the house, the </p>
+            <p>coffin lying before me. </p>
+            <p>There were no near kind</p>
+            <p>-red, no children. When </p>
+            <p>we got out of the dark </p>
+            <p>house the sun was shining </p>
+            <p>&amp; the prospect looked so </p>
+            <p>divinely beautiful as I </p>
+            <p>never saw it. It seemed </p>
+            <p>more sacred then I had </p>
+            <p>ever seen it, &amp; yet more </p>
+            <p>allied to human life. </p>
+            <p>The green fields, neighbours</p>
+            <p>of the churchyard were </p>
+            <p>green [illegible deleted words] as possible [PAGE BREAK] </p>
+            <p>and with the brightness of </p>
+            <p>of the sunshine looked quite </p>
+            <p>gay. I thought she was </p>
+            <p>going to be a quiet spot &amp;</p>
+            <p>I could not help weeping </p>
+            <p>very much – When we </p>
+            <p>came to the bridge they </p>
+            <p>began to sing again &amp; </p>
+            <p>stopped during 4 lines </p>
+            <p>before they entered the </p>
+            <p>church-yard – The priest </p>
+            <p>met us – he did not </p>
+            <p>look as a man ought </p>
+            <p>to do on such an occasion</p>
+            <p>I had seen him half drunk </p>
+            <p>the day before in a pot-</p>
+            <p>house. Before we came </p>
+            <p>with the corpse one of </p>
+            <p>the company observed [PAGE BREAK] </p>
+            <p>he wondered what sort of </p>
+            <p>cue “our Parson would be in.” </p>
+            <p>N B it was the day after </p>
+            <p>the Fair. I had not finished </p>
+            <p>ironing till 7 o clock. The </p>
+            <p>wind was now high &amp;</p>
+            <p>I did not walk – writing </p>
+            <p>my journal now at 8</p>
+            <p>o clock. W &amp; John came home at <hi rend="subscript">10 o clock</hi></p>
+            <p>_________________________</p>
+            <p>Thursday 4<hi rend="superscript">th September</hi> A fine warm day </p>
+            <p>I was busy all the morning </p>
+            <p>making a mattrass. Mr Simpson </p>
+            <p>called in the afternoon. W<hi rend="superscript">m</hi>
+            </p>
+            <p>walked in the wood in the </p>
+            <p>morning &amp; in the evening as </p>
+            <p>we set forward to walk a </p>
+            <p>letter from Mrs Clarkson.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> DW first met Catherine Clarkson (1772–1856), wife of Thomas Clarkson (1760–1846), later this week (see entry for 6 September). They became close friends and regular correspondents. The Clarksons lived from 1794 to 1803 in the Lakes, at Eusemere, on Ullswater. Thomas Clarkson was a well-known abolitionist who worked alongside William Wilberforce and others.</hi>
+                        </p></note></hi>
+            </p>
+            <p><hi rend="strikethrough">Wm &amp; John</hi> [illegible deleted word] We walked </p>
+            <p>into the black quarter. The </p>
+            <p>patches of corn very interesting. [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Friday morning <hi rend="strikethrough">3</hi><hi rend="superscript strikethrough"
+                    >rd</hi> 4 [5<hi rend="superscript" xml:space="preserve">th </hi>September].
+                    Finished<hi rend="superscript">5</hi>
+            </p>
+            <p>the mattrass ironed the </p>
+            <p>white bed in the afternoon</p>
+            <p>When I was putting it up </p>
+            <p>Mr &amp; Mrs Losh arrived while </p>
+            <p>Wm &amp; John were walking</p>
+            <p>_________________________</p>
+            <p>Saturday <hi rend="superscript">6th September</hi> morning Break=</p>
+            <p>=fasted with the Loshes – very </p>
+            <p>warm – returned through </p>
+            <p>Rydale woods. The Clarksons </p>
+            <p>dined after tea we walked </p>
+            <p>round Rydale, a little rain</p>
+            <p>_________________________</p>
+            <p>Sunday morning 7<hi rend="superscript" xml:space="preserve">th </hi>[September] rainy
+                – </p>
+            <p>walked before dinner over </p>
+            <p>the stepping stones to Lang-</p>
+            <p>-dale &amp; home on the other </p>
+            <p>side of the lake I </p>
+            <p>lay down after dinner W<hi rend="superscript">m</hi> [PAGE BREAK] </p>
+            <p>poorly – walked into the </p>
+            <p>Black quarter.</p>
+            <p>_________________________</p>
+            <p>Monday <hi rend="superscript" xml:space="preserve">8th September </hi>morning very
+                rainy </p>
+            <p>The Clarksons left us after </p>
+            <p>dinner – still rainy </p>
+            <p>We walked towards Rydale </p>
+            <p>&amp; then to Mr Olliff’s gate a</p>
+            <p>fine evening</p>
+            <p>_________________________</p>
+            <p>Tuesday 9<hi rend="superscript">th</hi> [September] morning Mr Mar-</p>
+            <p>-shall came – he dined with</p>
+            <p>us. My Brothers, walked </p>
+            <p>with him round the lakes </p>
+            <p>after dinner – windy we </p>
+            <p>went to the island. W &amp; I </p>
+            <p>after to tea. John &amp; I went </p>
+            <p>to the B quarter, before </p>
+            <p>supper went to seek a horse </p>
+            <p>at Dawsons – fir grove – [PAGE BREAK] </p>
+            <p>after supper talked of W<hi rend="superscript">m</hi>s </p>
+            <p>Poems.</p>
+            <p>_________________________</p>
+            <p>Wednesday <hi rend="superscript" xml:space="preserve">Sept. </hi><hi
+                    rend="superscript strikethrough"
+                >10</hi><hi rend="superscript" xml:space="preserve"> 10th</hi> After Break=</p>
+            <p>-fast Mr Marshall, Wm</p>
+            <p>&amp; John went on horseback </p>
+            <p>to Keswick – I wrote </p>
+            <p>to Mrs Marshall – a fine </p>
+            <p>autumnal day. I had a fire. </p>
+            <p>Paid Mr. Bousfield 8.2.11.</p>
+            <p>After tea walked with French </p>
+            <p>Beans to Mr Simpsons. </p>
+            <p>Went up to the Forestside </p>
+            <p>above a deserted house sat</p>
+            <p>till twilight came on</p>
+            <p>Mr &amp; Miss S came down </p>
+            <p>with me &amp; supped</p>
+            <p>_________________________</p>
+            <p>Thursday <hi rend="superscript strikethrough" xml:space="preserve">11 </hi><hi
+                    rend="superscript">11th</hi> [September] all the morning [PAGE BREAK] </p>
+            <p>[illegible deleted word] mending white gown </p>
+            <p>washed my head – Molly </p>
+            <p>washing. Drank tea at Mr</p>
+            <p>Simpsons – Found W<hi rend="superscript">m</hi> at home </p>
+            <p>at my return he was unable to go </p>
+            <p>on with Mr Marshall &amp; parted from </p>
+            <p>him in Borrowdale – Made tea </p>
+            <p>after my return.</p>
+            <p>_________________________</p>
+            <p>Friday 12th <hi rend="superscript">Sept.</hi> I worked in the morning </p>
+            <p>cut my thumb. Walked in the </p>
+            <p>Fir-grove before dinner – after </p>
+            <p>dinner sate under the trees </p>
+            <p>in the orchard</p>
+            <p>a rainy morning but very fine </p>
+            <p>afternoon. Miss Simpson called </p>
+            <p>for my packing needle. The </p>
+            <p>Fern of the mountains now </p>
+            <p>spread yellow veins among </p>
+            <p>the trees. The coppice wood </p>
+            <p>turns brown. William observed </p>
+            <p>some affecting little things in </p>
+            <p>Borrowdale – a decayed </p>
+            <p>house with this inscription [PAGE BREAK]</p>
+            <p>in the church-yard, the tall </p>
+            <p>silent rocks seen thro’ the </p>
+            <p>broken windows – a kind </p>
+            <p>of rough column put upon </p>
+            <p>the gavel end of a house </p>
+            <p>with a ball stone smooth from </p>
+            <p>the river placed upon it </p>
+            <p>for ornament near it one </p>
+            <p>stone like it upon an old </p>
+            <p>mansion carefully hewn</p>
+            <p>_________________________</p>
+            <p>Saturday <hi rend="superscript">13 September</hi> morning William </p>
+            <p>writing his preface did not </p>
+            <p>walk. Jones &amp; Mr Palmer </p>
+            <p>came to tea – we walked </p>
+            <p>with them to Borricks</p>
+            <p>a lovely evening but the </p>
+            <p>air frosty – worked when </p>
+            <p>I returned home. W<hi rend="superscript">m</hi> walked </p>
+            <p>out – John came, horse [PAGE BREAK] </p>
+            <p>from Mr Marshall sent </p>
+            <p>backward to Mrs Clarkson</p>
+            <p>_________________________</p>
+            <p>Sunday 14<hi rend="superscript">th</hi> [September] morning – Made </p>
+            <p>bread – a sore <hi rend="strikethrough">finger</hi>
+            </p>
+            <p>thumb from a cut – </p>
+            <p>a lovely day – read Bos-</p>
+            <p>-well in the house in the </p>
+            <p>morning &amp; after dinner under </p>
+            <p>the bright yellow leaves </p>
+            <p>of the orchard – the pear </p>
+            <p>trees a bright yellow</p>
+            <p> the apple trees green still</p>
+            <p> a sweet lovely afternoon</p>
+            <p>_________________________</p>
+            <p>Here I have long neglected my </p>
+            <p>Journal. John came home </p>
+            <p>in the evening after Jones left us</p>
+            <p>Jones returned again on the </p>
+            <p>Friday the 19<hi rend="superscript">th</hi> September – Jones </p>
+            <p>stayed with us till Friday 26<hi rend="superscript">th</hi>
+            </p>
+            <p>September. Coleridge came on [PAGE BREAK] </p>
+            <p>Tuesday 23<hi rend="superscript">rd</hi> [September] &amp; went home </p>
+            <p>with Jones. Charles Lloyd </p>
+            <p>called on Tuesday 23<hi rend="superscript">rd</hi> &amp; </p>
+            <p>on Sunday 27<hi rend="superscript">th</hi> we drank tea </p>
+            <p>&amp; supped with him, &amp; on that </p>
+            <p>day heard of the Abergavennys </p>
+            <p>arrival. While Jones was </p>
+            <p>with us we had much rainy weather</p>
+            <p><hi rend="strikethrough">through the</hi> [illegible deleted word] On</p>
+            <p>Sunday the 21<hi rend="superscript">st</hi> Tom Myers </p>
+            <p>&amp; Father called, &amp; on the </p>
+            <p>28<hi rend="superscript">th</hi> Mr &amp; Miss Smith. </p>
+            <p>On Monday 29<hi rend="superscript">th</hi> John </p>
+            <p>left us. W<hi rend="superscript">m</hi> &amp; I parted with </p>
+            <p>him in sight of Ulswater. It </p>
+            <p>was a fine day, showery but</p>
+            <p>with sunshine &amp; fine clouds </p>
+            <p>– poor fellow my heart was </p>
+            <p>right sad – I could not [PAGE BREAK] </p>
+            <p>help thinking we should see him again</p>
+            <p>because he was only going to Penrith </p>
+            <p>On Tuesday 30<hi rend="superscript">th</hi>
+                <hi rend="strikethrough">October</hi> September Charles Lloyd </p>
+            <p>dined with us. We walked home=</p>
+            <p>=wards with him after dinner – </p>
+            <p>it rained very hard. Rydale </p>
+            <p>was extremely wild &amp; we</p>
+            <p>had a fine walk. We sate </p>
+            <p>quietly &amp; comfortably by the </p>
+            <p>fire. I wrote – the last sheet </p>
+            <p>of notes &amp; preface – Went </p>
+            <p>to bed at 12 o’clock</p>
+            <p>Wednesday 1<hi rend="superscript">st</hi> October – A </p>
+            <p>fine morning – a showery </p>
+            <p>night the lake still in the </p>
+            <p>morning – in the forenoon </p>
+            <p>flashing light from the </p>
+            <p>beams of the sun – as it </p>
+            <p>was ruffled by the wind </p>
+            <p>We corrected the last sheet [PAGE BREAK]</p>
+            <p>Thursday 2<hi rend="superscript">nd</hi> October – </p>
+            <p>A very rainy morning – We </p>
+            <p>walked after dinner to observe </p>
+            <p>the torrents – I followed </p>
+            <p>W<hi rend="superscript">m</hi> to Rydale, he after-</p>
+            <p>-wards went to Butterlip </p>
+            <p>How. I came home to </p>
+            <p>receive the Lloyds. They </p>
+            <p>walked with us to see </p>
+            <p>Churnmilk force &amp; the</p>
+            <p>Black quarter. The black </p>
+            <p>quarter looked marshy </p>
+            <p>&amp; the general prospect </p>
+            <p>was cold – but the Force </p>
+            <p>was very grand. The </p>
+            <p>Lychens are now coming </p>
+            <p>out afresh. I carried home </p>
+            <p>a collection in the afternoon [PAGE BREAK] </p>
+            <p>We had a pleasant conversa</p>
+            <p>-tion about the manners of </p>
+            <p>the rich – Avarice, [illegible deleted word]</p>
+            <p> inordinate desires, &amp; the </p>
+            <p>effeminacy unnaturalness </p>
+            <p>&amp; the unworthy objects of </p>
+            <p>education – After the </p>
+            <p>Lloyds were gone we </p>
+            <p>walked – a showery even</p>
+            <p>=ing. The moonlight lay </p>
+            <p>upon the hills, like snow</p>
+            <p>_________________________</p>
+            <p>Friday <hi rend="superscript">3rd October</hi> Very rainy all </p>
+            <p>the morning – little Sally </p>
+            <p>learning to mark. W<hi rend="superscript">m</hi> walked </p>
+            <p>to Ambleside after dinner </p>
+            <p>I went with him part of </p>
+            <p>the way – he talked much </p>
+            <p>about the object of his [PAGE BREAK] </p>
+            <p>Essay for the 2<hi rend="superscript">nd</hi> volume </p>
+            <p>of LB. I returned ex-</p>
+            <p>=pecting the Simpsons – </p>
+            <p>they did not come. I sh<hi rend="superscript">d</hi>
+            </p>
+            <p>have met W<hi rend="superscript">m</hi> but my </p>
+            <p>teeth ached &amp; it was </p>
+            <p>showery &amp; late – he returned </p>
+            <p>after 10 – Amos Cottle’s </p>
+            <p>death in the Morning Post </p>
+            <p>Wrote to S Lowthian</p>
+            <p>_________________________</p>
+            <p>N.B When W<hi rend="superscript">m</hi> &amp; I re=</p>
+            <p>=turned from accompa=</p>
+            <p>-nying Jones we met an </p>
+            <p>old man almost double, </p>
+            <p>he had on a coat thrown </p>
+            <p>over his shoulders above his </p>
+            <p>waistcoat &amp; coat. Under </p>
+            <p>this he carried a bundle </p>
+            <p>&amp; had an apron on &amp; a </p>
+            <p>night cap. His face was [PAGE BREAK] </p>
+            <p>interesting. He had Dark </p>
+            <p>eyes &amp; a long nose – John </p>
+            <p>who afterwards met him </p>
+            <p>at Wythburn took him </p>
+            <p>for a Jew. He was of Scotch </p>
+            <p>parents but had been born in </p>
+            <p>the army – He had had a </p>
+            <p>wife “&amp; a good woman &amp; </p>
+            <p>it pleased God to bless us </p>
+            <p>with 10 children all these </p>
+            <p>were dead but one of whom </p>
+            <p>he had not heard for many </p>
+            <p>years, a Sailor – his trade </p>
+            <p>was to gather leeches but </p>
+            <p>now leeches are scarce </p>
+            <p>&amp; he had not strength for </p>
+            <p>it – he lived by begging </p>
+            <p>&amp; was making his way </p>
+            <p>to Carlisle where he [PAGE BREAK] </p>
+            <p>should buy a few god=</p>
+            <p>=ly books to sell. He said </p>
+            <p>leeches were very scarce </p>
+            <p>partly owing to this dry </p>
+            <p>season, but many years </p>
+            <p>they have been scarce – he </p>
+            <p>supposed it owing to their </p>
+            <p>being much sought after, </p>
+            <p>that they did not breed fast, </p>
+            <p>&amp; were of slow growth. </p>
+            <p>Leeches were formerly 2/6 </p>
+            <p>100 – they are now 30/[illegible deleted figure]</p>
+            <p>He had been hurt in driv-</p>
+            <p>ing a cart, his leg broke </p>
+            <p>his body driven over his </p>
+            <p>skull fractured – he felt </p>
+            <p>no pain till he recovered </p>
+            <p>from his first insensibility. </p>
+            <p>It was then “<hi rend="superscript">late</hi> in the evening [PAGE BREAK] </p>
+            <p>when the light was just </p>
+            <p>going away”</p>
+            <p>_________________________</p>
+            <p>Saturday October 4<hi rend="superscript">th</hi> 1800<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"
+                            ><hi style="font-size:11pt" xml:space="preserve"> 1800 added in pencil.</hi></p></note></hi>
+            </p>
+            <p>A very rainy – or rather </p>
+            <p>showery &amp; gusty morning</p>
+            <p>for often the sun shines </p>
+            <p>Thomas Ashburner could </p>
+            <p>not go to Keswick. </p>
+            <p>Read a part of Lambs </p>
+            <p>play. The language is </p>
+            <p>often very beautiful, but </p>
+            <p>too imitative in particular </p>
+            <p>phrases, words &amp;c. The </p>
+            <p>characters except Marga</p>
+            <p>=ret unintelligible, &amp; </p>
+            <p>except Margaret do </p>
+            <p>not shew themselves in </p>
+            <p>action. Coleridge came [PAGE BREAK] </p>
+            <p>in while we were at dinner </p>
+            <p>very wet … We talked till </p>
+            <p>12 o clock. He had sate </p>
+            <p>up all the night before </p>
+            <p>writing Essays for the </p>
+            <p>newspaper. His youngest </p>
+            <p>child had been very ill in </p>
+            <p>convulsion fits – Exceeding<hi rend="strikethrough">ly</hi>
+            </p>
+            <p><hi rend="strikethrough">ngly delighted</hi> with the </p>
+            <p>2<hi rend="superscript">nd</hi> part of Christabel</p>
+            <p>_________________________</p>
+            <p>Sunday Morning. 5<hi rend="superscript">th</hi> October. </p>
+            <p>Coleridge read a 2<hi rend="superscript">nd</hi> time </p>
+            <p>Christabel – we had increasing </p>
+            <p>pleasure. A delicious morning. </p>
+            <p>W<hi rend="superscript">m</hi>
+                <hi rend="strikethrough">was</hi> &amp; I were employed </p>
+            <p>all the morning in writing </p>
+            <p>an addition to the preface </p>
+            <p>W<hi rend="superscript">m</hi> went to bed very i[ll?] [blot or deletion] [PAGE
+                BREAK] </p>
+            <p>after working after dinner – </p>
+            <p>Coleridge &amp; I walked to </p>
+            <p>Ambleside after dark with </p>
+            <p>the letter – Returned to tea </p>
+            <p>at 9 o’clock. W<hi rend="superscript">m</hi> – still </p>
+            <p>in bed &amp; very ill Silver How in both </p>
+            <p>lakes</p>
+            <p>_________________________</p>
+            <p>Monday [October 6<hi rend="superscript">th</hi>] a rainy day – Cole=</p>
+            <p>=ridge intending to go but </p>
+            <p>did not get off – We walk</p>
+            <p>ed after dinner to Rydale </p>
+            <p>After tea read The Pedlar. </p>
+            <p>Determined not to print </p>
+            <p>Christabel with the LB.</p>
+            <p>_________________________</p>
+            <p>Tuesday [October 7<hi rend="superscript">th</hi>] Coleridge went off </p>
+            <p>at 11 o clock – I went as far </p>
+            <p>as Mr Simspon’s returned with</p>
+            <p>Mary She drank tea </p>
+            <p>here – I was very </p>
+            <p>ill in the Evening at the [PAGE BREAK] </p>
+            <p>Simpsons – went to bed </p>
+            <p>supped there. Returned </p>
+            <p>with Miss S &amp; Mrs J – </p>
+            <p>heavy showers – Found W<hi rend="superscript">m</hi>
+            </p>
+            <p>at home – I was still weak &amp; </p>
+            <p>unwell – went to bed imme=</p>
+            <p>=diately</p>
+            <p>_________________________</p>
+            <p>Wednesday [October 8<hi rend="superscript">th</hi>] – A threatening </p>
+            <p>bad morning – we dried the </p>
+            <p>Linen frequent threatening </p>
+            <p>of showers – Received a </p>
+            <p>5£ note from Montagu</p>
+            <p>W<hi rend="superscript">m</hi> walked to Rydale </p>
+            <p>I copied a part of the </p>
+            <p>Beggar in the morning</p>
+            <p> – I was not quite well </p>
+            <p>in the Evening therefore I did not </p>
+            <p>walk. W<hi rend="superscript">m</hi> walked a very</p>
+            <p>mild moonlight night [PAGE BREAK] </p>
+            <p>Glowworms everywhere!</p>
+            <p>_________________________</p>
+            <p>Thursday [October 9<hi rend="superscript">th</hi>]. I was ironing all </p>
+            <p>the day till tea-time. Very </p>
+            <p>rainy – W<hi rend="superscript">m</hi> &amp; I walked </p>
+            <p>in the evening – intending to go </p>
+            <p>to Lloyds but it came on </p>
+            <p>so very rainy that we were </p>
+            <p>obliged to shelter at Flemings </p>
+            <p>A grand Ball at Rydale </p>
+            <p>After sitting some time – we </p>
+            <p>went homewards &amp; were again </p>
+            <p>caught by a shower &amp; shel-</p>
+            <p>-tered under the Sycamores </p>
+            <p>at the boat house – a </p>
+            <p>very cold snowlike rain </p>
+            <p>A man called in a soldiers </p>
+            <p>dress – he was thirty years </p>
+            <p>old – of Cockermouth, had </p>
+            <p>lost a leg &amp; thigh in </p>
+            <p>battle was going to his </p>
+            <p>home [PAGE BREAK] </p>
+            <p>He could earn more money in </p>
+            <p>travelling with his ass than at </p>
+            <p>home.</p>
+            <p>_________________________</p>
+            <p>Friday 10<hi rend="superscript">th</hi> October – In the </p>
+            <p>morning when I arose the mists </p>
+            <p>were hanging over the oppo=</p>
+            <p>=site hills &amp; the tops of the </p>
+            <p>highest hills were covered with </p>
+            <p>snow – There was a most lovely </p>
+            <p>combination at the head </p>
+            <p>of the vale – of the yellow </p>
+            <p>autumnal hills wrapped in </p>
+            <p>sunshine, &amp; overhung with par-</p>
+            <p>=tial mists, the green &amp; </p>
+            <p>yellow trees &amp; the distant snow</p>
+            <p>-topped [illegible deleted word] mountains – It </p>
+            <p>was a most heavenly </p>
+            <p>morning. The Cockermouth </p>
+            <p>Traveller came with thread [PAGE BREAK] </p>
+            <p>hardware mustard, &amp;c. She is very </p>
+            <p>healthy, has travelled over the </p>
+            <p>mountains these thirty years. </p>
+            <p>She does not mind the storms </p>
+            <p>if she can keep her goods </p>
+            <p>dry. Her husband will not </p>
+            <p>travel with an ass – because </p>
+            <p>it is the tramper’s badge </p>
+            <p>She would have one to </p>
+            <p>relieve her from the wea-</p>
+            <p>-ry load. She was going </p>
+            <p>to Ulverston &amp; was to </p>
+            <p>return to Ambleside Fair. </p>
+            <p>After I had finished baking </p>
+            <p>I went out with W<hi rend="superscript">m</hi> Mrs </p>
+            <p>Jameson &amp; Miss Simpson to-</p>
+            <p>=wards Rydale – the fern </p>
+            <p>among the Rocks exquisitely </p>
+            <p>beautiful – we turned home </p>
+            <p>&amp; walked to Mr Gells [PAGE BREAK] </p>
+            <p>After dinner W<hi rend="superscript">m</hi> went </p>
+            <p>to bed – I read Southey’s letters </p>
+            <p>Miss Simpson &amp; Mrs Jameson </p>
+            <p>came to tea – After tea we </p>
+            <p>went to Lloyds – a fine </p>
+            <p>Evening as we went but </p>
+            <p>rained in returning – we </p>
+            <p>were wet – found them not </p>
+            <p>at home – I wrote to Mrs </p>
+            <p>Clarkson – sent off The </p>
+            <p>Beggar &amp;c by Thomas Ash-</p>
+            <p>burner – who went to fetch </p>
+            <p>our 9<hi rend="superscript">th</hi> cart of coals </p>
+            <p>W<hi rend="superscript">m</hi> sat up after me writing </p>
+            <p>Point Rash judgment.</p>
+            <p>_________________________</p>
+            <p>Saturday 11<hi rend="superscript">th</hi> A fine October </p>
+            <p>morning – sat in the house </p>
+            <p>working all the morning </p>
+            <p>W<hi rend="superscript">m</hi> composing – Sally </p>
+            <p>Ashburner learning to mark </p>
+            <p>After Dinner we walked up Green</p>
+            <p>head Gill in search of a Sheep-</p>
+            <p>-fold. We went by Mr Ollifs &amp; </p>
+            <p>through his woods – <hi rend="strikethrough">His</hi> It was </p>
+            <p>a delightful day &amp; the views looked </p>
+            <p>excessively chearful &amp; beautiful </p>
+            <p>chiefly that from Mr Ollif’s </p>
+            <p>field where our house is </p>
+            <p>to be built. The Colours of the </p>
+            <p>mountains soft &amp; rich, with </p>
+            <p>orange fern – The Cattle pastur</p>
+            <p>ing upon the hill-tops Kites </p>
+            <p>sailing as in the sky above </p>
+            <p>our heads – Sheep bleating </p>
+            <p>&amp; in lines &amp; chains &amp; patterns </p>
+            <p>scattered over the mountains. </p>
+            <p>They come down &amp; feed on </p>
+            <p>the little green islands in </p>
+            <p>the beds of the torrents &amp; [PAGE BREAK] </p>
+            <p>so may be swept away. The </p>
+            <p>Sheep fold is falling away it </p>
+            <p>is built nearly in the form </p>
+            <p>of a heart unequally divided </p>
+            <p>Look down the brook &amp; </p>
+            <p>see the drops rise upwards </p>
+            <p>&amp; sparkle in the air, at </p>
+            <p>the little falls, the higher </p>
+            <p>sparkles the tallest. We walked </p>
+            <p>along the turf of the moun-</p>
+            <p>-tain till we came to a </p>
+            <p>Cattle track – made by </p>
+            <p>the cattle which come upon </p>
+            <p>the hills – We drank </p>
+            <p>tea at Mr Simpson’s returned </p>
+            <p>at about nine – a fine </p>
+            <p>mild night. Sunday <hi rend="superscript">October</hi> 12<hi rend="superscript"
+                    >th</hi>
+            </p>
+            <p>beautiful day – Sate in the </p>
+            <p>house writing in the morning [PAGE BREAK] </p>
+            <p>while W<hi rend="superscript">m</hi> went into the </p>
+            <p>wood to compose – wrote to </p>
+            <p>John in the morning – copied </p>
+            <p>poems for the LB. in the </p>
+            <p>evening wrote to Mrs Rawson</p>
+            <p><hi rend="strikethrough">left</hi> Mary Jameson &amp; Sally </p>
+            <p>Ashburner dined – We pulled </p>
+            <p>apples after dinner, a large </p>
+            <p>basket full – We walked before </p>
+            <p>tea by Bainriggs to observe </p>
+            <p>the many coloured foliage </p>
+            <p>the oaks dark green with </p>
+            <p>yellow leaves – The birches </p>
+            <p>generally still green, some </p>
+            <p>near the water yellowish. </p>
+            <p>The Sycamore crimson </p>
+            <p>&amp; crimson-tufted – The mountain </p>
+            <p>ash a deep orange – the </p>
+            <p>common ash Lemon colour [PAGE BREAK] </p>
+            <p>but many ashes still fresh </p>
+            <p>in their summer green – Those </p>
+            <p>that were discolouring chiefly </p>
+            <p>near the water. William </p>
+            <p>composing in the Evening </p>
+            <p>went to bed at 12 o clock</p>
+            <p>_________________________</p>
+            <p>Monday October 13<hi rend="superscript">th</hi> A grey </p>
+            <p>[illegible deleted word(s)] day – Mists on </p>
+            <p>the hills – We did not walk </p>
+            <p>in the morning – I copied </p>
+            <p>poems on the naming of </p>
+            <p>places <hi rend="superscript">walked in the black quarter at night</hi> a fair at
+                Ambleside</p>
+            <p>_________________________</p>
+            <p>Tuesday [October] 14<hi rend="superscript">th</hi></p>
+            <p>W<hi rend="superscript">m</hi> lay down after dinner – I </p>
+            <p>read Southeys Spain. <hi rend="strikethrough">W</hi><hi
+                    rend="superscript strikethrough">m</hi> The </p>
+            <p>wind rose very high at </p>
+            <p>[illegible deleted word] Evening. W<hi rend="superscript">m</hi> walked </p>
+            <p>out just at bed time. I went </p>
+            <p>to bed early – we walked before </p>
+            <p>dinner to Rydale – [PAGE BREAK]</p>
+            <p>Wednesday [October 15<hi rend="superscript">th</hi>] a very fine clear </p>
+            <p>morning – after Wm had com</p>
+            <p>-posed a little – I persuaded </p>
+            <p>him to go into the orchard – </p>
+            <p>we walked backwards &amp; forwards</p>
+            <p>the prospect most divinely bea</p>
+            <p>-utiful from the <hi rend="strikethrough">sight</hi> seat – all </p>
+            <p>colours, all melting into each </p>
+            <p>other. I went in to put </p>
+            <p>bread in the oven &amp; we </p>
+            <p>both walked within view </p>
+            <p>of Rydale – W<hi rend="superscript">m</hi> again </p>
+            <p>composed at the sheep-fold </p>
+            <p>after dinner – I walked with </p>
+            <p>him to Wytheburn, &amp; he </p>
+            <p>went on to Keswick. I </p>
+            <p>drank tea &amp; supped at </p>
+            <p>Mr Simpsons – a very </p>
+            <p>cold frosty air, &amp; a spangled </p>
+            <p>sky in returning. Mr &amp; </p>
+            <p>Miss S came with me [PAGE BREAK]</p>
+            <p>Wytheburn looked very </p>
+            <p>wintry but yet there </p>
+            <p>was a foxglove blossoming </p>
+            <p>by the road-side -- -- --</p>
+            <p>_________________________</p>
+            <p><hi rend="strikethrough">Wedne</hi> Thursday 16<hi rend="superscript">th</hi> October </p>
+            <p>a very fine morning. Starch-</p>
+            <p>-ed &amp; hung out linen a very </p>
+            <p>fine day – John Fisher</p>
+            <p>TA, SA, &amp; Molly </p>
+            <p>working in the garden </p>
+            <p>Wrote to Miss Nicholson</p>
+            <p>I walked as far as Rydale between </p>
+            <p>3 &amp; 4 – Ironed till six – got </p>
+            <p>tea &amp; wrote to Mr Giffith. </p>
+            <p>A letter from Mr Clarkson</p>
+            <p>_________________________</p>
+            <p>Friday [October] 17<hi rend="superscript">th</hi> a very fine grey </p>
+            <p>Morning – The swan hunt</p>
+            <p>Sally working in the garden [PAGE BREAK] </p>
+            <p>I walked round the lake between </p>
+            <p>¼ past 12 &amp; 1 ½ past one – wrote </p>
+            <p>to M H. After dinner I walked </p>
+            <p>to Lloyds – carried my letters to </p>
+            <p>Miss N. &amp; M H. The Lloyds </p>
+            <p>not in – I waited for them </p>
+            <p>Charles not well – Letters </p>
+            <p>from M H. Biggs, &amp; John </p>
+            <p>In my walk in the morning </p>
+            <p>I observed Benson’s Honey-suckles </p>
+            <p>in flower, &amp; great beauty – </p>
+            <p>It was a very fine mild [illegible deleted word] </p>
+            <p>evening Lls servants came </p>
+            <p>with me to Parkes. I found </p>
+            <p>W<hi rend="superscript">m</hi> at home where he had been <hi rend="superscript"
+                    >almost</hi>
+            </p>
+            <p>ever since my departure – Coleridge </p>
+            <p>had done nothing for the LB – </p>
+            <p>Working hard for Stuart</p>
+            <p>Glowworms in abundance </p>
+            <p>_________________________</p>
+            <p>Saturday [18<hi rend="superscript">th</hi>] a very fine October </p>
+            <p>morning [PAGE BREAK] </p>
+            <p>William worked all the </p>
+            <p>morning at the sheep fold </p>
+            <p>but in vain. He lay down </p>
+            <p>in the afternoon, till 7 o clock </p>
+            <p>but could not sleep – I slept </p>
+            <p>My head better – he unable </p>
+            <p>to work – we did not </p>
+            <p>walk all day</p>
+            <p>_________________________</p>
+            <p>Sunday [October 19<hi rend="superscript">th</hi>] morning – we arose late </p>
+            <p>&amp; walked directly after </p>
+            <p>breakfast. The tops of Gmere </p>
+            <p>mountains cut off – Rydale </p>
+            <p>was very very beautiful the </p>
+            <p>surface of the water quite </p>
+            <p>still like a dim mirror. The </p>
+            <p>colours of the large island exqui</p>
+            <p>=sitely beautiful &amp; the trees [PAGE BREAK] </p>
+            <p>still fresh &amp; green were magni</p>
+            <p>=fied by the mists. The prospects </p>
+            <p>on the west side of the Lake </p>
+            <p>were very beautiful we sate </p>
+            <p>at the two points looking up </p>
+            <p>to Park’s The lowing of the </p>
+            <p>Cattle – was echoed by a </p>
+            <p>hollow voice in Knab Scar</p>
+            <p>We went upon Loughrigg </p>
+            <p>Fell – &amp; were disappointed </p>
+            <p>with Gmere it did not </p>
+            <p>look near so beautiful </p>
+            <p>as Rydale. We returned home </p>
+            <p>over the stepping-stone W<hi rend="superscript">m</hi>
+            </p>
+            <p>got to work – we are not to </p>
+            <p>dine till 4 o’ Clock –––</p>
+            <p>Dined at ½ past 5 – Mr </p>
+            <p>Simpson dined &amp; drank tea </p>
+            <p>with us. We went to bed </p>
+            <p>immediately after he left <hi rend="subscript">us</hi> [PAGE BREAK]</p>
+            <p>Monday [October] 20<hi rend="superscript">th</hi>
+            </p>
+            <p>William worked in the morning </p>
+            <p>at the sheep-fold – After dinner </p>
+            <p>we walked to Rydale crossed </p>
+            <p>the stepping stones &amp; while </p>
+            <p>we were walking under </p>
+            <p>the tall oak trees the Lloyds </p>
+            <p>called out to us – They went with </p>
+            <p>us on the western side of </p>
+            <p>Rydale. The lights were </p>
+            <p>very grand upon the woody </p>
+            <p>Rydale Hills – Those behind </p>
+            <p>dark &amp; topp’d with clouds</p>
+            <p>The two lakes were divinely </p>
+            <p>beautiful – Grasmere excessively </p>
+            <p>solemn &amp; the whole lake was</p>
+            <p>calm &amp; dappled with soft grey </p>
+            <p>dapple. The Lloyds stayed </p>
+            <p>with us till 8 o clock. We [PAGE BREAK] </p>
+            <p>then walked to the top of the </p>
+            <p>hill at Rydale – very mild </p>
+            <p>&amp; warm – about 6 glowworms </p>
+            <p>shining faintly – We went up </p>
+            <p>as far as the groove When </p>
+            <p>we came home the fire </p>
+            <p>was out – We ate our </p>
+            <p>supper in the dark &amp; went </p>
+            <p>to bed immediately – William </p>
+            <p>was disturbed in the night </p>
+            <p>by the rain coming into his </p>
+            <p>room – for it was a very </p>
+            <p>rainy night – The Ash leaves </p>
+            <p>lay across the Road </p>
+            <p>_________________________</p>
+            <p>Tuesday [October] 21<hi rend="superscript">st</hi> – We walked in the </p>
+            <p>morning past Mr Gells – a </p>
+            <p>very fine clear &amp; sharp </p>
+            <p>sunny morning We drank tea </p>
+            <p>at the Lloyd – it was [PAGE BREAK] </p>
+            <p>very cold in the evening </p>
+            <p>quite frosty, &amp; starlight. </p>
+            <p>W<hi rend="superscript">m</hi> had been unsuccessful </p>
+            <p>in the morning at the sheep </p>
+            <p>fold The reflection of the </p>
+            <p>ash scattered, &amp; the tree stripped</p>
+            <p>_________________________</p>
+            <p>Wednesday Morning [October 22<hi rend="superscript">nd</hi>] we walked to </p>
+            <p>Mr Gells a very fine morning –</p>
+            <p>W<hi rend="superscript">m</hi> composed without much </p>
+            <p>success at the sheep fold – </p>
+            <p>Coleridge came in to dinner. </p>
+            <p>He had done nothing. We </p>
+            <p>were very merry – C. </p>
+            <p>&amp; I went to look at the </p>
+            <p>prospect from his seat. </p>
+            <p>In the evening Stoddart </p>
+            <p>came in when we were [PAGE BREAK] </p>
+            <p>at tea – and after tea Mr </p>
+            <p>&amp; Miss Simpson with large </p>
+            <p>potatoes &amp; plumbs. We </p>
+            <p>read after supper, Ruth </p>
+            <p>&amp;c – Coleridge Christabel</p>
+            <p>_________________________</p>
+            <p>Thursday [October] 23<hi rend="superscript">rd</hi> – Coleridge </p>
+            <p>&amp; Stoddart went to Keswick – </p>
+            <p>we accompanied them to </p>
+            <p>Wytheburne – A wintry </p>
+            <p>grey morning from the </p>
+            <p>top of the Rays Grasmere </p>
+            <p>looked like winter &amp; </p>
+            <p>Wytheburne still more </p>
+            <p>so – we called upon </p>
+            <p>Mrs Simpson &amp; sate 10 </p>
+            <p>minutes in returning [PAGE BREAK] </p>
+            <p>W<hi rend="superscript">m</hi> was not successful </p>
+            <p>in composition in the Evening.</p>
+            <p>_________________________</p>
+            <p>Friday [October] 24<hi rend="superscript">th</hi> A very fine </p>
+            <p>morning we walked before </p>
+            <p><hi rend="strikethrough">dinner</hi> W<hi rend="superscript">m</hi> began to work </p>
+            <p>to the Top of the Rydale </p>
+            <p>Hill. He was afterwards only </p>
+            <p>partly successful in compo-</p>
+            <p>-sition. After dinner we </p>
+            <p>walked round Rydale Lake </p>
+            <p>rich, calm, streaked</p>
+            <p>very beautiful – We went </p>
+            <p>to the top of Loughrigg </p>
+            <p>Grasmere sadly inferior </p>
+            <p>We were much tired Wm </p>
+            <p>went to bed till ½ past [PAGE BREAK] </p>
+            <p>seven The ash in our garden </p>
+            <p>green – one close to it bare the </p>
+            <p>next nearly so</p>
+            <p>_________________________</p>
+            <p>Saturday [October 25<hi rend="superscript">th</hi>] a very rainy </p>
+            <p>day – Wm again unsuccess</p>
+            <p>-ful – We could not </p>
+            <p>walk it was so very rainy – We read Rogers Miss </p>
+            <p>Seward, Cowper &amp;c</p>
+            <p>_________________________</p>
+            <p>Sunday [October 26<hi rend="superscript">th</hi>] heavy rain all </p>
+            <p>night. A fine morning after </p>
+            <p>10 o clock – W<hi rend="superscript">m</hi> composed </p>
+            <p>a good deal – in the morning. </p>
+            <p>The Lloyds came to dinner </p>
+            <p>&amp; were [illegible deleted word] caught in </p>
+            <p>a shower. W<hi rend="superscript">m</hi> read some </p>
+            <p>of his poems after dinner </p>
+            <p>a terrible night I went </p>
+            <p>with Mrs Lloyd to Newtons [PAGE BREAK] </p>
+            <p>to see for Lodgings. </p>
+            <p>Mr Simpson in coming from </p>
+            <p>Ambleside called in for</p>
+            <p>a glass of rum, just before </p>
+            <p>we went to bed…</p>
+            <p>_________________________</p>
+            <p>28<hi rend="superscript">th</hi> October Monday [27<hi rend="superscript">th</hi>]
+                Not </p>
+            <p><hi rend="strikethrough">fine</hi> a rainy morning. </p>
+            <p>The Hill tops covered with </p>
+            <p>snow. Charles Lloyd came for </p>
+            <p>his wife’s glass. I walked home </p>
+            <p>with him past Rydale </p>
+            <p>When he came I met </p>
+            <p>him as I was carrying </p>
+            <p>some cold meat to W<hi rend="superscript">m</hi> in </p>
+            <p>the Fir-grove <hi rend="strikethrough">He</hi> I had </p>
+            <p>before walked with him [PAGE BREAK] </p>
+            <p>there for some time. It was </p>
+            <p>a fine shelter from the </p>
+            <p>wind. The Coppices now </p>
+            <p>nearly of one brown. An </p>
+            <p>oak tree in a sheltered </p>
+            <p>place near John Fisher’s – </p>
+            <p>not having lost any of </p>
+            <p>its leaves was quite brown </p>
+            <p>&amp; dry – We did not walk </p>
+            <p>after dinner – it was a </p>
+            <p>fine wild moonlight </p>
+            <p>night. W<hi rend="superscript">m</hi> could not </p>
+            <p>compose much fatigued </p>
+            <p>himself with altering.</p>
+            <p>_________________________</p>
+            <p>Tuesday 29<hi rend="superscript">th</hi> [October 28<hi rend="superscript">th</hi>] a
+                very rainy </p>
+            <p>night I was baking bread </p>
+            <p>in the morning &amp; made a </p>
+            <p>giblet pie. We walked </p>
+            <p>out before dinner to our [PAGE BREAK]</p>
+            <p>favourite field – The mists </p>
+            <p>sailed along the mountains </p>
+            <p>&amp; rested upon them enclosing </p>
+            <p>the whole vale. In the </p>
+            <p>_________________________</p>
+            <p><hi rend="strikethrough">Wednesday 30</hi><hi rend="superscript strikethrough"
+                    >th</hi></p>
+            <p><hi rend="strikethrough">A cold &amp; rainy</hi> m</p>
+            <p>Evening the Lloyds came</p>
+            <p>We drank tea with them </p>
+            <p>at Borricks &amp; played a </p>
+            <p>rubber at Whist stayed </p>
+            <p>supper – W<hi rend="superscript">m</hi> looked very </p>
+            <p>well. A fine moon<hi rend="superscript">light</hi></p>
+            <p>night [illegible deleted word] when we came </p>
+            <p>home – –</p>
+            <p>_________________________</p>
+            <p>Wednesday [October 29<hi rend="superscript">th</hi>] William working [PAGE BREAK] </p>
+            <p>at his poem all the </p>
+            <p>morning – After dinner Mr </p>
+            <p>Clarkson called – We </p>
+            <p>went down to Borrwicks </p>
+            <p>&amp; he &amp; the Lloyds &amp; Pri=</p>
+            <p>=scilla came back to </p>
+            <p>drink tea with us. </p>
+            <p>We met Stoddart upon the </p>
+            <p>Bridge – Played at Cards</p>
+            <p>The Lloyds &amp;c went </p>
+            <p>home to supper. Mr </p>
+            <p>Clarkson slept here.</p>
+            <p>_________________________</p>
+            <p>Thursday [October 30<hi rend="superscript">th</hi>]</p>
+            <p>A rainy morning Mr </p>
+            <p>C went over Kirkstone </p>
+            <p>W<hi rend="superscript">m</hi> talked all day &amp; almost </p>
+            <p>all night with Stoddart [PAGE BREAK] </p>
+            <p>Mrs &amp; Miss Ll called </p>
+            <p>in the morning. I walked </p>
+            <p>with them to Tail End </p>
+            <p>a fine pleasant morning </p>
+            <p>but a very rainy afternoon </p>
+            <p>W &amp; S in the house </p>
+            <p>all day</p>
+            <p>_________________________</p>
+            <p>Friday [October 31<hi rend="superscript">st</hi>] W &amp; S did</p>
+            <p>not rise till 1 o clock </p>
+            <p>W very sick &amp; very </p>
+            <p>ill. S &amp; I drank tea </p>
+            <p>at Lloyds &amp; came </p>
+            <p>home immediately after </p>
+            <p>a very fine moonlight </p>
+            <p>night – The moonshine [PAGE BREAK] </p>
+            <p>with herrings in the water</p>
+            <p>_________________________</p>
+            <p>Saturday [November 1<hi rend="superscript">st</hi>] William better</p>
+            <p>We met as we walked </p>
+            <p>to Rydale a Boy from </p>
+            <p>Lloyds – coming for </p>
+            <p>Don Quixote – Talk </p>
+            <p>in the evening Tom Ash=</p>
+            <p>=burner brought our 10<hi rend="superscript">th</hi> cart of </p>
+            <p>coals</p>
+            <p>_________________________</p>
+            <p>Sunday morning [November 2<hi rend="superscript">nd</hi>] we walked </p>
+            <p>into the Black Quarter </p>
+            <p>a very fine morning </p>
+            <p>a succession of beautiful </p>
+            <p>views mists &amp;c, &amp;c</p>
+            <p>Much rain in the night</p>
+            <p>In the Evening drank [PAGE BREAK] </p>
+            <p>tea at Lloyds found </p>
+            <p>them all ill in colds </p>
+            <p>came home to supper.</p>
+            <p>_________________________</p>
+            <p>Monday Morning [November 3<hi rend="superscript">rd</hi>] walked </p>
+            <p>to Rydale a cold day </p>
+            <p>W<hi rend="superscript">m</hi> &amp; Stoddart still </p>
+            <p>talking frequent showers </p>
+            <p>in our walk – In </p>
+            <p>the evening we talked </p>
+            <p>merrily over the fire </p>
+            <p>The Speddings stopped at the door</p>
+            <p>_________________________</p>
+            <p>Tuesday [November 4<hi rend="superscript">th</hi>] Stoddart left </p>
+            <p>us -- I walked a little way </p>
+            <p>with W &amp; him, W went </p>
+            <p>to the Tarn afterwards </p>
+            <p>to the top of Seat San-<hi rend="subscript">-dal</hi> [PAGE BREAK] </p>
+            <p>he was obliged to lie </p>
+            <p>down in the tremendous </p>
+            <p>wind – the snow blew </p>
+            <p>from Helvellyn horizon</p>
+            <p>=tally like smoke – </p>
+            <p>the Spray of the un-</p>
+            <p>=seen Waterfall like </p>
+            <p>smoke – – Miss Lloyd </p>
+            <p>called upon me – I walked </p>
+            <p>with her past Rydale </p>
+            <p>W<hi rend="superscript" xml:space="preserve">m </hi>sadly tired, threa=</p>
+            <p>=tening of the piles</p>
+            <p>_________________________</p>
+            <p>Wednesday [November 5<hi rend="superscript">th</hi>] Wm not well </p>
+            <p>A very fine beautiful </p>
+            <p>clear winter’s day – I walked </p>
+            <p>after dinner to Lloyds [PAGE BREAK] </p>
+            <p>drank tea &amp; Mrs &amp; </p>
+            <p>Miss Lloyd came to </p>
+            <p>Rydale with me – the </p>
+            <p>moon was rising but </p>
+            <p>the sky all over cloud </p>
+            <p>I made tea for William Piles</p>
+            <p>_________________________</p>
+            <p>Thursday <hi rend="superscript">6th November</hi> A very rainy </p>
+            <p>morning &amp; night – </p>
+            <p>I was baking bread </p>
+            <p>dinner &amp; parkins. Charles </p>
+            <p>&amp; P Lloyd called – W<hi rend="superscript">m</hi>
+            </p>
+            <p>somewhat better read </p>
+            <p>Point Rash Judgment</p>
+            <p>The lake calm &amp; very </p>
+            <p>beautiful a very </p>
+            <p>rainy afternoon &amp; </p>
+            <p>night. [PAGE BREAK]</p>
+            <p>Friday 7<hi rend="superscript">th</hi> November – </p>
+            <p>a cold rainy morning Wm </p>
+            <p>still unwell. I working &amp; </p>
+            <p>reading Amelia. The </p>
+            <p>Michaelmas daisy droops </p>
+            <p>The pansies are full </p>
+            <p>of flowers. The Ashes opposite </p>
+            <p>are green, all but one </p>
+            <p>but they have lost </p>
+            <p>many of their leaves. </p>
+            <p>The copses are quite </p>
+            <p>brown. The poor woman &amp; child </p>
+            <p>from Whitehaven drank tea <hi rend="superscript">nothing warm</hi>
+            </p>
+            <p><hi rend="subscript">that day</hi></p>
+            <p>_________________________</p>
+            <p>Friday [November] 7<hi rend="superscript">th</hi> – a very rainy </p>
+            <p>morning – it cleared </p>
+            <p>up in the afternoon</p>
+            <p>We expected the Lloyds [PAGE BREAK] </p>
+            <p>but they did not come. <hi rend="superscript">A rainy night</hi>
+            </p>
+            <p>Wm still unwell [illegible deleted word]</p>
+            <p>_________________________</p>
+            <p>Saturday 8<hi rend="superscript">th</hi> November </p>
+            <p>a rainy morning – a whirl-</p>
+            <p>=wind came – that tossed </p>
+            <p>about the leaves &amp; tore </p>
+            <p>off the still green leaves </p>
+            <p>of the Ashes. A fine after-</p>
+            <p>-noon. W<hi rend="superscript">m</hi> &amp; I walked </p>
+            <p>out at 4 o clock – went </p>
+            <p>as far as Rothay Bridge </p>
+            <p>met the Butcher’s man </p>
+            <p>with a Lr from Monk </p>
+            <p>Lewis. The country very </p>
+            <p>wintry – some oaks quite </p>
+            <p>bare – others more sheltered </p>
+            <p>with a few green leaves [PAGE BREAK] </p>
+            <p>others with brown leaves – </p>
+            <p>but the whole face of the </p>
+            <p>country in a winter covering. </p>
+            <p>We went early to bed</p>
+            <p>_________________________</p>
+            <p>Sunday [November 9<hi rend="superscript">th</hi>] W<hi rend="superscript">m</hi>
+                slept tolerably </p>
+            <p>better this morning. – </p>
+            <p>It was a frosty night we </p>
+            <p>walked to Rydale after </p>
+            <p>dinner, partly expecting </p>
+            <p>to meet the Lloyds </p>
+            <p>[illegible deleted word] Mr Simpson </p>
+            <p>brought newspapers </p>
+            <p>but met Molly with </p>
+            <p>them – <hi rend="superscript">W burnt the sheep fold</hi> – a rainy night</p>
+            <p>_________________________</p>
+            <p>Monday [November 10<hi rend="superscript">th</hi>] I baked bread </p>
+            <p>a fine clear frosty </p>
+            <p>morning. We walked [PAGE BREAK] </p>
+            <p>after dinner – to Rydale </p>
+            <p>village</p>
+            <p>Jupiter over the Hill-</p>
+            <p>=tops – the only star </p>
+            <p>like a sun flashed</p>
+            <p>out at intervals from </p>
+            <p>behind a black cloud.</p>
+            <p>_________________________</p>
+            <p>Tuesday Morning [November 11<hi rend="superscript">th</hi>] walked to </p>
+            <p>Rydale before dinner for </p>
+            <p>letters. William had been </p>
+            <p>working at the sheep-fold. </p>
+            <p>They were salving sheep </p>
+            <p>a rainy morning. The </p>
+            <p>Lloyds drank tea with </p>
+            <p>us. Played at Cards – </p>
+            <p>Priscilla not well. We </p>
+            <p>walked after they left </p>
+            <p>us to the Top of the Rydale [PAGE BREAK] </p>
+            <p>Hill then towards Mr </p>
+            <p>Ollifs &amp; towards the</p>
+            <p>village – A mild night </p>
+            <p>partly cloudy partly star-</p>
+            <p>-light – The cottage lights </p>
+            <p>the mountains not very </p>
+            <p>distinct</p>
+            <p>_________________________</p>
+            <p>Wednesday [November 12<hi rend="superscript">th</hi>] – we sate in the </p>
+            <p>house all the day – Mr </p>
+            <p>Simpson called &amp; found </p>
+            <p>us at dinner – a rainy evening </p>
+            <p>he staid the evening &amp; </p>
+            <p>supper – I lay down after </p>
+            <p>dinner with a headach.</p>
+            <p>_________________________</p>
+            <p>Thursday [November 13<hi rend="superscript">th</hi>] <hi rend="superscript">A stormy
+                    night</hi> – We sate in </p>
+            <p>the house all the morning </p>
+            <p>rainy weather -- [PAGE BREAK] </p>
+            <p>Old Mr Simpson, Mrs J </p>
+            <p>&amp; Miss S. drank tea </p>
+            <p>&amp; supped played at cards, </p>
+            <p>found us at dinner – a </p>
+            <p>poor woman from Haw-</p>
+            <p>kshead begged – a widow </p>
+            <p>of Grasmere – a merry </p>
+            <p>African from Longtown</p>
+            <p>_________________________</p>
+            <p>Friday [November 14<hi rend="superscript">th</hi>]. I had a bad </p>
+            <p>head-ach. Much wind but <hi rend="subscript">a sweet mild</hi>
+            </p>
+            <p>morning. I nailed up </p>
+            <p>trees. Sent Molly Ash-</p>
+            <p>=burner to excuse us </p>
+            <p>to Lloyds – 2 letters from </p>
+            <p>Coleridge – very ill. </p>
+            <p>One from Sara H.</p>
+            <p>on from S Lothian. I [PAGE BREAK] </p>
+            <p>wrote to S Hutchinson &amp; received </p>
+            <p>3£ from her</p>
+            <p>_________________________</p>
+            <p>Saturday morning [November 15<hi rend="superscript">th</hi>] a terrible </p>
+            <p>rain so W<hi rend="superscript">m</hi> prevented from </p>
+            <p>going to Coleridges – The after</p>
+            <p>noon fine &amp; mild I walked </p>
+            <p>to the top of the hill for </p>
+            <p>a head-ach. We both set </p>
+            <p>forward at 5 o clock after </p>
+            <p>tea – a fine wild but </p>
+            <p>not cold night – I walked </p>
+            <p>with him over the Rays </p>
+            <p>it was starlight. I parted </p>
+            <p>with him very sad unwilling </p>
+            <p>not to go on – The hills </p>
+            <p>&amp; the stars &amp; the white </p>
+            <p>waters with their ever va</p>
+            <p>-rying yet ceaseless sound [PAGE BREAK] </p>
+            <p>were very impressive – </p>
+            <p>I supped at the Simpsons </p>
+            <p>Mr S. walked home with </p>
+            <p>me – –</p>
+            <p>_________________________</p>
+            <p>Sunday 16<hi rend="superscript">th</hi> November </p>
+            <p>a very fine warm sunny </p>
+            <p>morning a Letter from </p>
+            <p>Coleridge &amp; one from Stod-</p>
+            <p>-dart – Coleridge better…</p>
+            <p>my head aching very much </p>
+            <p>I sent to excuse myself </p>
+            <p>to Lloyds – then walked </p>
+            <p>to the Cottage beyond Mr</p>
+            <p>Gell’s. One beautiful ash </p>
+            <p>tree sheltered with yellow </p>
+            <p>leaves – one low one </p>
+            <p>quite green – some low [PAGE BREAK] </p>
+            <p>ashes green – a </p>
+            <p>noise of boys in the </p>
+            <p>rocks hunting some </p>
+            <p>animal. Walked a little </p>
+            <p>in the garden when I </p>
+            <p>came home – very pleasant. </p>
+            <p>Now rain came on </p>
+            <p>Mr Jackson called in the </p>
+            <p>evening when I was at tea </p>
+            <p>brought me a letter from </p>
+            <p>C &amp; W – C better –.</p>
+            <p>_________________________</p>
+            <p>Monday morning [November 17<hi rend="superscript">th</hi>] – a fine </p>
+            <p>clear frosty morning with a </p>
+            <p>sharp wind. I walked to Kes-</p>
+            <p>=wick, set off at 5 minutes </p>
+            <p>past 10, &amp; arrived at ½ </p>
+            <p>past 2. I found them all [PAGE BREAK] </p>
+            <p>[PAGE BREAK] </p>
+            <p>[PAGE BREAK] </p>
+            <p>well.</p>
+            <p>_________________________</p>
+            <p>On Tuesday [November 18<hi rend="superscript">th</hi>] morning W &amp; C </p>
+            <p>set off towards Penrith</p>
+            <p>W<hi rend="superscript">m</hi> met Sara Hutchinson </p>
+            <p>at Threlkeld – they arrived </p>
+            <p>at Keswick at tea-time.</p>
+            <p>_________________________</p>
+            <p>Wednesday [November 19<hi rend="superscript">th</hi>] We walked </p>
+            <p>by the lake side, </p>
+            <p>&amp; they went to Mr </p>
+            <p>Denton’s. I called upon </p>
+            <p>the Miss Cockyns.</p>
+            <p>_________________________</p>
+            <p>Thursday [20<hi rend="superscript">th</hi>] – We spent </p>
+            <p>the morning in the Town </p>
+            <p>Mr Jackson &amp; Mr </p>
+            <p>Peach dined with us [PAGE BREAK]</p>
+            <p>Friday [November 21<hi rend="superscript">st</hi>] a very fine day </p>
+            <p>went to Mrs Greaves </p>
+            <p>Mrs C &amp; I called upon </p>
+            <p>the Speddings a beautiful </p>
+            <p>Crescent moon –</p>
+            <p>_________________________</p>
+            <p>Saturday morning [November 22<hi rend="superscript">nd</hi>] after </p>
+            <p>visiting Mr Peaches </p>
+            <p>Chinese pictures we </p>
+            <p>set off <hi rend="superscript">to Grasmere</hi> – a threatening </p>
+            <p>&amp; rather rainy morning. </p>
+            <p>Arrived at G – very </p>
+            <p>dirty &amp; a little wet </p>
+            <p>at the closing in of Even-</p>
+            <p>-ing – Wm not quite </p>
+            <p>well [PAGE BREAK]</p>
+            <p>_________________________</p>
+            <p>Sunday [November 23<hi rend="superscript">rd</hi>] Wm not well </p>
+            <p>I baked bread &amp; pie for </p>
+            <p>dinner. Sarah &amp; I walk</p>
+            <p>-ed after dinner &amp; met </p>
+            <p>Mr Gawthorpe – paid </p>
+            <p>his bill &amp; he drank tea </p>
+            <p>with us paid 5£ for </p>
+            <p>Mr Bousfield – – –</p>
+            <p>_________________________</p>
+            <p>Monday [November 24<hi rend="superscript">th</hi>] a fine morning. </p>
+            <p>Sara &amp; I walked to </p>
+            <p>Rydale. After dinner </p>
+            <p>we went to Lloyds </p>
+            <p>&amp; drank tea &amp; supped </p>
+            <p>a sharp cold night </p>
+            <p>with sleet &amp; snow [PAGE BREAK] </p>
+            <p>I had the tooth-ach in the </p>
+            <p>night – took Laudanum</p>
+            <p>_________________________</p>
+            <p>Tuesday [November 25<hi rend="superscript">th</hi>] very ill – in bed </p>
+            <p>all day – better in the Evening </p>
+            <p>I read Tom Jones – very </p>
+            <p>sleepy slept all night</p>
+            <p>_________________________</p>
+            <p>Wednesday [November 26<hi rend="superscript">th</hi>] Well in the </p>
+            <p>morning. W<hi rend="superscript">m</hi> very well </p>
+            <p>We had a delightful </p>
+            <p>walk up into Eastdale. </p>
+            <p>The Tops of the mountains </p>
+            <p>covered with snow – frosty </p>
+            <p>&amp; sunny – the roads slippery </p>
+            <p>a letter from Mary</p>
+            <p>The Lloyds drank tea. [PAGE BREAK] </p>
+            <p>we walked with them </p>
+            <p>near to Ambleside – </p>
+            <p>a beautiful moonlight </p>
+            <p>night – Sara &amp; I walked </p>
+            <p>before home – William very </p>
+            <p>well &amp; highly poetical</p>
+            <p>_________________________</p>
+            <p>Thursday <hi rend="superscript">27th November</hi> wrote to Tom </p>
+            <p>Hutchinson to desire him </p>
+            <p>to bring Mary with him from </p>
+            <p>Stockton – a thaw &amp; the </p>
+            <p>ground covered with snow</p>
+            <p>Sara &amp; I walked before </p>
+            <p>dinner. <hi rend="strikethrough">Miss Simpson</hi>
+            </p>
+            <p><hi rend="strikethrough">Drank tea</hi></p>
+            <p>_________________________</p>
+            <p><hi rend="superscript">Friday</hi> [November 28<hi rend="superscript">th</hi>]
+                Coleridge walked over </p>
+            <p>Miss Simpsons drank [PAGE BREAK] </p>
+            <p>tea with us – William walked </p>
+            <p>home with her. Coleridge </p>
+            <p>was very unwell – he </p>
+            <p>went to bed before W<hi rend="superscript">m</hi>’s </p>
+            <p>return – Great Boils </p>
+            <p>upon his neck.</p>
+            <p>_________________________</p>
+            <p>Saturday [November 29<hi rend="superscript">th</hi>] a fine day</p>
+            <p>_________________________</p>
+            <p>Sunday 29<hi rend="superscript">th</hi> November [30<hi rend="superscript">th</hi>] </p>
+            <p>A very fine clear morning</p>
+            <p>Snow upon the ground </p>
+            <p>every where – Sara &amp; I </p>
+            <p>walked towards Rydale by </p>
+            <p>the upper road &amp; were </p>
+            <p>obliged to return – because </p>
+            <p>of the snow walked by </p>
+            <p>moonlight –</p>
+            <p>_________________________</p>
+            <p>Monday [December 1<hi rend="superscript">st</hi>] A thaw in </p>
+            <p>the night &amp; the snow </p>
+            <p>was entirely gone Sara </p>
+            <p>&amp; I had a delightful </p>
+            <p>Baking day little loaves</p>
+            <p>[PAGE BREAK] </p>
+            <p>walk <hi rend="strikethrough">round</hi> by the </p>
+            <p>upper Rydale road &amp; </p>
+            <p>Mr King’s – Coleridge </p>
+            <p>unable to go home for </p>
+            <p>his health -- we walked by </p>
+            <p>moonlight –</p>
+            <p>_________________________</p>
+            <p>Tuesday December 2<hi rend="superscript">nd</hi> a </p>
+            <p>Rainy morning – Coleridge </p>
+            <p>was obliged to set off –</p>
+            <p> Sara &amp; I met C Lloyd </p>
+            <p>&amp; P – turned back with </p>
+            <p>them. I walked round </p>
+            <p>the 2 lakes with Charles </p>
+            <p>very pleasant – passing </p>
+            <p>lights – I was sadly </p>
+            <p>wet when we came [PAGE BREAK] </p>
+            <p>home &amp; very cold – Pris</p>
+            <p>-cilla drank tea with </p>
+            <p>us – we all walked to </p>
+            <p>Ambleside – a pleasant </p>
+            <p>moonlight evening but </p>
+            <p>not clear – Supped </p>
+            <p>upon a hare – it came </p>
+            <p>on a terrible evening </p>
+            <p>hail &amp; wind &amp; cold </p>
+            <p>&amp; rain – </p>
+            <p>_________________________</p>
+            <p>Wednesday December 3<hi rend="superscript">rd</hi> – </p>
+            <p>We lay in bed till 11 o clock</p>
+            <p>Wrote to John &amp; MH. </p>
+            <p><hi rend="strikethrough">Pork from Mr Simpson</hi></p>
+            <p>William &amp; Sara &amp; I </p>
+            <p>walked to Rydale after [PAGE BREAK] </p>
+            <p>tea – a very fine frosty </p>
+            <p>night Sara &amp; W walked </p>
+            <p>round the other side </p>
+            <p>I was tired &amp; returned </p>
+            <p>home – We went to bed </p>
+            <p>early.</p>
+            <p>_________________________</p>
+            <p>Thursday [December 4<hi rend="superscript">th</hi>] – Coleridge </p>
+            <p>came in just as we </p>
+            <p>finished dinner – Pork </p>
+            <p>from the Simpsons </p>
+            <p>Sara &amp; I walked round </p>
+            <p>the 2 lakes – a very </p>
+            <p>fine morning. C. ate </p>
+            <p>nothing to cure his boils </p>
+            <p>We walked after tea </p>
+            <p>by moonlight to look [PAGE BREAK] </p>
+            <p>at Langdale covered with </p>
+            <p>snow – the pikes not grand </p>
+            <p>but the old man very </p>
+            <p>impressive – cold &amp; </p>
+            <p>slippery, but exceeding</p>
+            <p>ly pleasant. Sat up till </p>
+            <p>½ past one</p>
+            <p>_________________________</p>
+            <p>Friday morning [December 15<hi rend="superscript">th</hi>] terribly </p>
+            <p>cold &amp; rainy Coleridge </p>
+            <p>&amp; Wm set forwards </p>
+            <p>towards Keswick but </p>
+            <p>the wind in Coleridge’s </p>
+            <p>eyes made him turn back </p>
+            <p>Sara &amp; I had a </p>
+            <p>grand bread &amp; cake </p>
+            <p>baking we were very </p>
+            <p>merry in the evening </p>
+            <p>but grew sleepy soon [PAGE BREAK] </p>
+            <p>tho’ we did not go </p>
+            <p>to bed till 12 o clock.</p>
+            <p>_________________________</p>
+            <p>Saturday [December 6<hi rend="superscript">th</hi>] W<hi rend="superscript">m</hi>
+                accompan</p>
+            <p>ied Coleridge to the foot </p>
+            <p>of the Rays – a very </p>
+            <p>pleasant morning – Sara </p>
+            <p>&amp; I accompanied him </p>
+            <p>half way to Keswick. </p>
+            <p>Thirlemere [illegible deleted word] was </p>
+            <p>very beautiful – even </p>
+            <p>more so than in summer</p>
+            <p>William was not well </p>
+            <p>had labored unsuccessfully</p>
+            <p>Charles Lloyd had called </p>
+            <p>Sara &amp; I drank tea </p>
+            <p>with Mrs Simpson. [PAGE BREAK] </p>
+            <p>A sharp shower met </p>
+            <p>us – it rained a little </p>
+            <p>when we came home</p>
+            <p>Mr B S accompanied </p>
+            <p>us – Miss S at Ambleside </p>
+            <p>William tired &amp; not </p>
+            <p>well – A letter from </p>
+            <p>MH -- </p>
+            <p>_________________________</p>
+            <p>Sunday [December 7<hi rend="superscript">th</hi>] a fine morning</p>
+            <p>I read – Sara wrote to Hartley</p>
+            <p>W<hi rend="superscript">m</hi> to Mary, I to Mrs C</p>
+            <p>We walked just before dinner </p>
+            <p>to the Lake-side &amp; found </p>
+            <p>out a seat in a tree windy </p>
+            <p>but pleasant. Sara </p>
+            <p>&amp; W<hi rend="superscript">m</hi> walked to the water-</p>
+            <p>=falls at Rydale. I was </p>
+            <p>unwell &amp; went to bed [PAGE BREAK] </p>
+            <p>till 8 o clock – a pleasant </p>
+            <p>mild evening – Went to bed </p>
+            <p>at 12 – Miss Simpson </p>
+            <p>called</p>
+            <p>_________________________</p>
+            <p>Monday 8<hi rend="superscript">th</hi> December – A sweet </p>
+            <p>mild morning … I wrote to Mrs </p>
+            <p>Cookson &amp; Miss Griffith</p>
+            <p>_________________________</p>
+            <p>Tuesday [December] 9<hi rend="superscript">th</hi> I<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"> DW seems first to have first
+                            written “we,” then superimposed “I” on second thoughts.</p></note></hi>
+                dined at </p>
+            <p>Lloyds – W<hi rend="superscript">m</hi> drank tea </p>
+            <p>walked home a pleasant </p>
+            <p>starlight frosty evening – reached </p>
+            <p>home at one o clock – W<hi rend="superscript">m</hi>
+            </p>
+            <p>finished his poem today –</p>
+            <p>_________________________</p>
+            <p>Wednesday [December] 10<hi rend="superscript">th</hi> walked to Keswick </p>
+            <p>Snow upon the ground . . .</p>
+            <p>A very fine day ate bread </p>
+            <p>&amp; ale at John Stanley’s [PAGE BREAK] </p>
+            <p>Found Coleridge better</p>
+            <p>Stayed at Keswick till </p>
+            <p>Sunday 14<hi rend="superscript">th</hi> December.</p>
+            <p>Monday [December 15<hi rend="superscript">th</hi>] – Baking &amp; starching</p>
+            <p>Tuesday [December 16<hi rend="superscript">th</hi>] Ironing – the Lloyds </p>
+            <p>called – Wednesday [December 17<hi rend="superscript">th</hi>] a very </p>
+            <p>fine day – Writing all </p>
+            <p>the morning for William</p>
+            <p>Thursday [December 18<hi rend="superscript">th</hi>] Mrs Coleridge </p>
+            <p>&amp; Derwent came – sweeping </p>
+            <p>chimneys. Friday [December 19<hi rend="superscript">th</hi>] – baking</p>
+            <p>Saturday [December 20<hi rend="superscript">th</hi>] Coleridge came </p>
+            <p>very ill rheumatic, feverish </p>
+            <p>Rain – incessantly – Monday [December 22<hi rend="superscript">nd</hi>] </p>
+            <p>S &amp; W<hi rend="superscript">m</hi> went to Lloyds W<hi rend="superscript">m</hi>
+            </p>
+            <p>dined it rained very hard </p>
+            <p>when he came home at…</p>
+            <p> [from the other end of the book after stubs]</p>
+            <p> Epitaphs</p>
+            <p>Taken from the life of D<hi rend="superscript">r</hi><lb/>Franklin</p>
+            <p>Here lie</p>
+            <p>Tobias Franklin and Abiah his <hi rend="subscript">wife</hi></p>
+            <p>They lived together with recipro</p>
+            <p>=cal affection for fifty nine years;</p>
+            <p>And without private fortune,</p>
+            <p>Without lucrative employment.</p>
+            <p>By assiduous labour &amp; honest</p>
+            <p>industry decently supported a</p>
+            <p>numerous family, &amp; educated with</p>
+            <p>success thirteen children and</p>
+            <p>seven grandchildren. Let this </p>
+            <p>example, reader, encourage thee</p>
+            <p>diligently to discharge the [PAGE BREAK]</p>
+            <p>duties of thy calling, and rely </p>
+            <p>on the support of divine Pro-</p>
+            <p>-idence.</p>
+            <p>He was pious and prudent</p>
+            <p>She discreet and virtuous</p>
+            <p>Their youngest Son* from a senti=</p>
+            <p>=ment of filial duty consecrates</p>
+            <p>this stone to their memory—</p>
+            <p>*D<hi rend="superscript">r</hi> Franklin</p>
+            <p>_________________________</p>
+            <p>Epitaph written by D<hi rend="superscript">r</hi> Frank=</p>
+            <p>=lin many years before his </p>
+            <p>death— </p>
+            <p>The Body</p>
+            <p> of</p>
+            <p>Benjamin Franklin Printer</p>
+            <p>(Like the cover of an old book)</p>
+            <p>the contents torn out, [PAGE BREAK]</p>
+            <p>And stript of its lettering &amp; gilding]</p>
+            <p>Lies here food for worms</p>
+            <p>Yet the work itself shall not be lost</p>
+            <p>For it will (as he believed) appear once more</p>
+            <p>In a new</p>
+            <p>And more beautiful edition.</p>
+            <p>Corrected, and amended</p>
+            <p>by</p>
+            <p>The Author</p>
+            <p>_________________________</p>
+            <p>Epitaph taken from the</p>
+            <p>Parish church of Long Newton</p>
+            <p>in the county of Durham</p>
+            <p>See Hutchinson history of Durham</p>
+            <p>p. 168 – 3<hi rend="superscript">rd</hi> Volume.</p>
+            <p>(a figure of brasswork on the</p>
+            <p>marble) [PAGE BREAK]</p>
+            <p>Epitaph taken from the Parish Church-Yard</p>
+            <p>of Marsh in the County of York</p>
+            <p>A virtuous woman I have been</p>
+            <p>And many troubles I have seen</p>
+            <p>When I was alive I did my best</p>
+            <p>But now my bones are laid at rest.</p>
+            <p>_________________________</p>
+            <p>Here lieth the [PAGE BREAK]</p>
+            <p>Here lieth the Body of Sir George Vane interred</p>
+            <p>May the first 1679 Second Son of S<hi rend="superscript">r.</hi>
+                <hi rend="strikethrough">Henry</hi> Henery</p>
+            <p>Vane, some time principal Secretary of State </p>
+            <p>To King Charles the first. He married Elizabeth,</p>
+            <p>The Heiress of Sir Lionell Maddison of New-</p>
+            <p>Castle upon Tyne, by whom he had thirteen</p>
+            <p>Hopeful children viz foure Sons and nine Daughters.</p>
+            <p>His Honour wonne i’th field lies here in dust</p>
+            <p>His honours got by grace shall never rust</p>
+            <p>The former fades, the latter shall faile never</p>
+            <p>For why, he was S<hi rend="superscript">r</hi> George once, b’t St. George ever.
+                [PAGE BREAK]</p>
+            <p>The snow-tracks of my friends I see<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">The lines that follow, all ultimately discarded, are
+                            draft material for WW’s “The Complaint of a Forsaken Indian
+                        Woman.”</p></note></hi></p>
+            <p>Their foot marks do not trouble me</p>
+            <p>For ever left alone am I</p>
+            <p>Then wherefore should I fear to die</p>
+            <p>Me to the last my friends did cherish</p>
+            <p>And to the last were good and kind</p>
+            <p>Methinks ‘tis strange I did not perish</p>
+            <p>The Moment I was left behind</p>
+            <p>Why do I watch those running deer</p>
+            <p>And wherefore, wherefore come they here</p>
+            <p>And wherefore do I seem to love</p>
+            <p>The things that live the things that move</p>
+            <p>Why do I look upon the sky</p>
+            <p>I do not live for what I see</p>
+            <p>Why open thus mine eyes? to die</p>
+            <p>Is all that now is left for me</p>
+            <p>If I could smother up my heart</p>
+            <p>My life would then at once depart [PAGE BREAK]</p>
+            <p>My Friends you live &amp; yet you seem</p>
+            <p>To me the people of a dream</p>
+            <p>A dream in which there is no love</p>
+            <p>And yet my friends you live &amp; move</p>
+            <p>With [three illegible words] to [stream?]</p>
+            <p>And can one hour to me remain</p>
+            <p>[Seven illegible words] </p>
+            <p>One moment one to me arrive </p>
+            <p>When I could live without a pain</p>
+            <p>And feel no wish to be alive</p>
+            <p>In quiet hopelessness I sleep</p>
+            <p>Alas how quiet and how deep!</p>
+            <p>Ah no I do not cannot rue</p>
+            <p>I did not strive to follow you</p>
+            <p>I might have dropp’d &amp; died alone</p>
+            <p>On unknown snows, a spot unknown</p>
+            <p>This spot to me must needs be dear</p>
+            <p>Oh my dear Friends I see the trace</p>
+            <p>You saw me friends you laid me here</p>
+            <p><hi rend="strikethrough">This spot must needs to me be dear</hi></p>
+            <p>You know where my poor bones shall lie</p>
+            <p>Then wherefore should I fear to die [PAGE BREAK]</p>
+            <p>Alas that one beloved, forlorn</p>
+            <p>Should lie beneath the cold starlight</p>
+            <p>With them I think I could have borne</p>
+            <p>The journey of another night</p>
+            <p>And with my friends now far away</p>
+            <p>I could have lived another day.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"> The reader must invert the notebook to read these
+                            last six lines of verse. </p></note></hi></p>
+        </body>
+    </text>
+</TEI>
