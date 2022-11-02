@@ -1,3 +1,4 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
         <titleStmt>           
@@ -206,12 +207,13 @@
                 <div type="paratext">          
                     <p rend="large">Contexts</p>
                     <list type="unordered">         
-                        <item>&#8220;Laying Schemes&#8221; to Help the Orphans</item>
-                        <item>Dorothy as Social Historian</item>
-                        <item>Circulating the &#8220;Narrative&#8221; (after Funds Had Been Raised)</item>
+                        <item><ref target="#Laying">&#8220;Laying Schemes&#8221; to Help the Orphans</ref></item>
+                        <item><ref target="#Dorothy">Dorothy as Social Historian</ref></item>
+                        <item><ref target="#Circulating">Circulating the &#8220;Narrative&#8221; (after Funds Had Been Raised)</ref></item>
                     </list>
             
-                    <p rend="large">Textual and Editorial Issues</p>
+                    <p rend="large"><ref target="#Textual">Textual and Editorial Issues</ref></p>
+                </div>
             
                 <lb/><milestone unit="paratext"/><lb/>
                     
@@ -239,10 +241,14 @@
                 The loss of the parents threw &#8220;the whole vale,&#8221; in Dorothy 
                 Wordsworth&#8217;s words, into &#8220;the greatest consternation.&#8221;
                     <note place="foot" resp="editors"><title level="m">Letters</title>, 2:201, DW to WW, 23 March 1808.</note>
-            </p>
+            </p></div>
+                
+            <div type="section">
                    
-            <head type="subhead">A. &#8220;Laying Schemes&#8221; to Help the Orphans</head>
-               Nine days after the tragedy, Dorothy reported to her friend Catherine Clarkson that
+            <head type="subhead">
+                <anchor xml:id="Laying"/>A. &#8220;Laying Schemes&#8221; to Help the Orphans
+            </head>
+               <p>Nine days after the tragedy, Dorothy reported to her friend Catherine Clarkson that
                the Wordsworths had immediately been &#8220;employed in laying schemes to prevent the
                children from falling into the hands of persons who may use them unkindly.&#8221;
                     <note place="foot" resp="editors"><title level="m">Letters</title>, 2:206, DW to Catherine Clarkson, 28 March 1808. DW also criticizes
@@ -267,7 +273,7 @@
                 It seems that the Wordsworths were tireless in their efforts, as William, in a letter
                 to Francis Wrangham dated 17 April 1808, apologizes for the &#8220;dim transcript made
                 by a multiplying writer, we having had occasion to make so many copies.&#8220;
-                    <note place="foot" resp="editors">Letters</note>, 2:212, WW to FW, 17 April 1808.</note></p>
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 2:212, WW to FW, 17 April 1808.</note></p>
                 
             <p>A letter from William to Coleridge written precisely one month after the tragedy, on
                 19 April 1808, included a copy of a short poem he had written entitled 
@@ -285,9 +291,9 @@
                 story that will be rich both in pleasure and profit.&#8221; Dorothy, in fact, had begun
                 drafting her own record at roughly this same time, as evidenced by her noting near the
                 beginning of her account, &#8220;It was a month yesterday since the sad event happened.&#8220;
-                    <note foot="place" resp="editors">DCMS 64, 18. Unless otherwise noted, all quotations from the &#8220;Narrative&#8221; included in this 
+                    <note place="foot" resp="editors">DCMS 64, 18. Unless otherwise noted, all quotations from the &#8220;Narrative&#8221; included in this 
                     introduction refer to DCMS 64.</note>
-                The end of the &#8220;Narrative&#8221; is signed and dated 4 May 1808, suggesting that
+                The end of the <title level="a">Narrative</title> is signed and dated 4 May 1808, suggesting that
                 Dorothy completed it over a period of two weeks.</p>
                    
              <p>The success of the Wordsworths&#8217; efforts in circulating requests for funds is
@@ -350,18 +356,23 @@
                 differentiates her writing from William&#8217;s &#8220;more solitary poetics.&#8221;
                         <note place="foot" resp="editors">Wolfson, <title level="a">Dorothy Wordsworth in Conversation with William,</title> 154.</note>
                 Nevertheless, in the <title level="a">Narrative,</title> Dorothy cannot help criticizing
-                one Mrs North, who &#8220;<hi rend="strike">cannot do a charitable action without the 
-                pleasure of being busy</hi>.&#8221; As this strikethrough suggests, Dorothy censors 
+                one Mrs North, who &#8220;<del rend="strike">cannot do a charitable action without the 
+                pleasure of being busy</del>.&#8221; As this strikethrough suggests, Dorothy censors 
                 herself, deleting her bitter complaints and canceling her antagonist&#8217;s name. Elsewhere
                 in the manuscript she writes, &#8220;I will not blemish a narrative of events so moving,
                 which have brought forward so many kind and good feelings, by entering into the cabals 
-                and heart-burnings of M<add rend="sup"><hi rend="underline">rs</hi></hi>
-                <hi rend="strike">North.</hi>&#8221; Throughout DCMS 64, Mrs. North&#8217;s name 
+                and heart-burnings of M<add rend="sup"><hi rend="underline">rs</hi></add>
+                <del rend="strike">North.</del>&#8221; Throughout DCMS 64, Mrs. North&#8217;s name 
                 is completely erased, revealing that Dorothy was sufficiently concerned about the
                 circulation of the <title level="a">Narrative</title> to accentuate discretion as well as an impression of
                 local solidarity.</p>
+            </div>
+           
+          <div type="section">
                  
-           <head type="subhead">B. Dorothy as Social Historian</head>
+           <head type="subhead">
+               <anchor xml:id="Dorothy"/>B. Dorothy as Social Historian
+           </head>
             <p>The <title level="a">Narrative</title> is a remarkable work of local history, one that 
                 utilizes Dorothy&#8217;s talents as a precise and compassionate recorder of speech and
                 events. Both a keen observer of and a participant in this crisis, she brings the 
@@ -373,19 +384,20 @@
                 
             <figure>
                 
-                <graphic url="PLACEHOLDER">
+                <graphic url="PLACEHOLDER" width="400px" rend="inline"/>
                     <head>Figure 4.1:</head>
                     <figDesc>First page of Dorothy&#8217;s <title level="a">A Narrative concerning George &amp; Sarah Green
                         of the Parish of Grasmere addressed to a Friend</title> in DCMS 64. (Courtesy: Wordsworth Trust)
                     </figDesc>
-                </graphic>
             </figure>
             
              <p>Dorothy&#8217;s insider status is apparent in her direct addresses to her confidential
                 readers, namely those members of her social circle she expected would read her account
                 in manuscript. The full title of the <title level="a">Narrative</title> includes 
                 &#8220;addressed to a friend,&#8221;
-                        <note place="foot" resp="editors">Similarly, in WW&#8217;s <title level="m">Guide</title>, a key section written by DW is described as an &#8220;extract from a                         letter to a friend&#8221;: see <ref target="/editions/DW/editions.2022.DW.SP-C"><title level="m">William Wordsworth&#8217;s</title> Guide to the Lakes
+                        <note place="foot" resp="editors">Similarly, in WW&#8217;s <title level="m">Guide</title>, a key section written by DW is described as 
+                            an &#8220;extract from a letter to a friend&#8221;: see <ref target="/editions/DW/editions.2022.DW.SP-C"><title level="m">William 
+                                Wordsworth&#8217;s</title> Guide to the Lakes
                         <title level="m">A Romantic Circles Digital Edition</title></ref> and our introduction to <ref target="/editions/DW/editions.2022.DW.SP-intro">
                         <title level="a">Excursion up Scawfell Pike</title></ref></note>                      
                 and its opening line&#8212;&#8220;You remember a single Cottage at the foot of Blentern
@@ -430,7 +442,7 @@
                 were reduced by little and little till scarcely anything <hi rend="underline">but</hi>
                 the <hi rend="underline">Land</hi> was left. The Cow was grown old; and they had not 
                 money to buy another; they had sold their horse; and were in the habit of carrying any
-                trifles <hi rend="strike">that</hi> they could spare out of house or stable to barter
+                trifles <del rend="strike">that</del> they could spare out of house or stable to barter
                 for potatoes or meal. Luxuries they had none&#8212;they never made tea, and when the 
                 Neighbours went to look after the Children they found nothing in the house but two 
                 boiling potatoes, a very little meal, a little bread, and three or four legs of lean 
@@ -458,8 +470,9 @@
                 of these families to public notice was &#8220;the work&#8221; that Thomas Clarkson had
                 in mind in urging Dorothy to publish the narrative; a request that prompted her 
                 well-known reply to Catherine Clarkson, on 9 December 1810, discussed in detail below.
-                    <note place="foot" resp="foot">Letters</hi>, 2:453&#8211;455, DW to Catherine Clarkson, 9 December 1810. See also letter from the Clarksons to DW, BL Add MSS.                          36997, 41186.</note>
-            <div>
+                    <note place="foot" resp="foot"><title level="m">Letters</title>, 2:453&#8211;455, DW to Catherine Clarkson, 9 December 1810. 
+                        See also letter from the Clarksons to DW, BL Add MSS. 36997, 41186.</note></p>
+            
                 
             <p>How much did the Wordsworths know about the Greens&#8217; poverty prior to their deaths, 
                and were they willfully blind to it? In a 2003 essay, <title level="a">The Wordsworths, 
@@ -503,14 +516,14 @@
                she cancels several lines that embody this understanding of the Greens as willingly suffering
                the burden of poverty:
                
-               <quote>… <hi rend="strike">I must say that the general feelings have been purely kind and 
+               <quote>… I must say that the general feelings have been purely kind and 
                benevolent, arising from compassion for the forlorn condition of the Orphans and from a 
-               respectful regard for the memory of their Parents who with unexampled chearfulness, patience
-               and self-denial, had supported themselves and their Family in extreme poverty; and</hi> have
-               left in them a living testimony of their own virtuous conduct: <hi rend="strike">for the 
-               Children&#8217;s manners (I again repeat it) are of one innocent,</hi> [illegible deleted word]
-               <hi rend="strike">and affectionate in a remarkable degree, so that each of them has already 
-               made Friends of</hi> [illegible deleted word]. (30)</quote>
+               respectful regard for the memory of their Parents who <del rend="strike">with unexampled chearfulness, patience
+               and self-denial, had supported themselves and their Family in extreme poverty; and</del> have
+               left in them a living testimony of their own virtuous conduct: <del rend="strike">for the 
+               Children&#8217;s manners (I again repeat it) are of one innocent,</del> [illegible deleted word]
+               <del rend="strike">and affectionate in a remarkable degree, so that each of them has already 
+               made Friends of</del> [illegible deleted word]. (30)</quote>
                                    
                These cancellations may suggest her inner conflict over such conceptions of the poor.</p>
                 
@@ -534,7 +547,7 @@
                the <title level="a">Narrative</title> as a character who experiences and expresses the sympathy
                on which the story turns. In reflecting on the place where the Greens were lost, she recalls her
                own experience &#8220;at the top of Blea Crag above Easedale Tarn, that very spot where I myself
-               had sate down <add rend="sup">&lt;three&gt;</hi> six years ago, unable to see a yard before me, or
+               had sate down <add rend="sup">&lt;three&gt;</add> six years ago, unable to see a yard before me, or
                to go a step further over the Crags.&#8221; Anyone, she suggests, might have shared the Greens&#8217;
                fate, as a mountain-walker like Dorothy had special cause to know.</p>
                 
@@ -555,9 +568,13 @@
                Yorkshire (and later to others, some welcoming and some less so), the Green children were all kept close
                to their native vale and placed with families that seemed genuinely devoted to them. As Dorothy concluded,
                &#8220;The general feelings have been purely kind and benevolent, arising from compassion for the forlorn
-               condition of the Orphans and from a respectful regard for the memory of their Parents.&#8221;</p>
+               condition of the Orphans and from a respectful regard for the memory of their Parents.&#8221;</p></div>
                 
-           <head type="subhead">C. Circulating the <title level="a">Narrative</title> (after Funds Had Been Raised)</head>
+           <div type="section">
+                
+           <head type="subhead">
+               <anchor xml:id="Circulating"/>C. Circulating the <title level="a">Narrative</title> (after Funds Had Been Raised)
+           </head>
                
            <p>As detailed in the <ref target="#Textual">Textual and Editorial headnote</ref>, long after funds had been raised
               in aid of the Green children, Dorothy&#8217;s <title level="a">Narrative</title> was read and copied by
@@ -588,10 +605,11 @@
                
           <p>Over thirty years after the deaths of George and Sarah Green, in 1839, Thomas De  Quincey, a well-known author who
              had moved into Dove Cottage after the Wordsworths relocated, revisited the episode in his essay 
-             <title level="m">Recollections of Grasmere,</title> which was first published as the </hi>September 1839 installment
+             <title level="m">Recollections of Grasmere,</title> which was first published as the September 1839 installment
              of his <title level="m">Tait&#8217;s Edinburgh Magazine</title> series, <title level="a">Sketches of Life and Manners; from
              the Autobiography of an English Opium Eater.</title>
-                    <note place="foot" resp="editors">It was also republished in the posthumous collection of De Quincey&#8217;s essays, <title level="m">Recollections of the Lakes                        and the Lake Poets</title> (1862).</note>
+                    <note place="foot" resp="editors">It was also republished in the posthumous collection of De Quincey&#8217;s essays, 
+                        <title level="m">Recollections of the Lakes and the Lake Poets</title> (1862).</note>
              De Quincey recollects that, after returning from a visit to the Lakes to Oxford in 1808, he received a letter from
              Dorothy &#8220;asking for any subscriptions [he] might succeed in obtaining, amongst [his] college friends, in aid
              of the funds then raising in behalf of an orphan family, who had become such by an affecting tragedy that had occurred
@@ -620,7 +638,7 @@
              storytelling. At one point, in fact, he confesses to having entertained a party of American visitors &#8220;by
              conducting them through Grasmere into the little inner chamber of Easedale, and there, within sight of the
              solitary cottage, Blentarn Ghyll, telling them the story of the Greens.&#8221;
-                    <note place="foot" resp="editors">De Quincey, <title level="a">Sketches of Life and Manners,</title> 2:38.</hi></note>
+                    <note place="foot" resp="editors">De Quincey, <title level="a">Sketches of Life and Manners,</title> 2:38.</note>
              In other words, albeit decades later, her once-intimate friend De Quincey exploited the Greens&#8217; fate
              much in the way Dorothy feared.</p>
                 
@@ -630,9 +648,10 @@
             romanticized of the records, and also the most poignant.</p>
                 
             </div>
+       
                 
         <div type="section">
-                <head><anchor xml:id="Textual">Textual and Editorial Issues</anchor></head>
+                <head><anchor xml:id="Textual"/>Textual and Editorial Issues</head>
                 
             <p>The diplomatic transcription of the <title level="a">Narrative</title> that follows is taken from DCMS
                64, a blue, clothbound notebook in the collections of the Wordsworth Trust. Written on the cover of
@@ -650,11 +669,10 @@
                made by a stationer, as the paper board cover is original (fig. 4.2).</p>
             
                 <figure>
-                    <graphic url="PLACEHOLDER">
+                    <graphic url="PLACEHOLDER" width="400px" rend="inline"/>
                         <head>Figure 4.2:</head>
                         <figDesc>DCMS 64. Dorothy has written <title level="a">Narrative the Greens. 1808</title> on the blue board cover. (Courtesy: The Wordsworth Trust)</figDesc>
-                    </graphic>
-                </figure>
+                 </figure>
        
             <p>Dorothy&#8217;s <title level="a">Narrative</title> fills the entire rest of the notebook now catalogued
                as DCMS 64. She paginated it from page 2 to the end of the <title level="a">Narrative</title> on page 43.
@@ -713,7 +731,8 @@
                     and the original dedicatee of the narrative. At the end of a letter dated 9 
                     February 1812, Clarkson writes to Dorothy, &#8220;Don’t forget your promise of
                     giving me a copy of your Narrative in your own hand-writing.&#8221;
-                            <note place="foot" resp="editors">Catherine Clarkson to DW, 9 February 1812, cataloged as f.36 in the Clarkson Papers, Add MS41267 A: 1787&#8211;1853,                                  British Library.</note>
+                            <note place="foot" resp="editors">Catherine Clarkson to DW, 9 February 1812, cataloged as 
+                                f.36 in the Clarkson Papers, Add MS41267 A: 1787&#8211;1853, British Library.</note>
                     Clarkson had certainly read a copy of the <title level="a">Narrative</title>
                     earlier, as is evidenced by her letter of 9 December 1810 urging Dorothy to
                     publish it, but perhaps she never had her own copy prior to 1812. The paper in
