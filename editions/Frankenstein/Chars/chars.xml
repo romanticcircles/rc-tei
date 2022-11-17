@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Frankenstein</title>
+				<title type="subordinate">A Romantic Circles Electronic Edition</title>
+				<author>
+					<name>Mary Shelley (1797-1851)</name>
+				</author>
+				<editor>Stuart Curran</editor>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Neil Fraistat</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Steven E. Jones</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Carl Stahmer</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno type="edition">frank27.chars</idno>
+				<publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+				<pubPlace>College Park, MD</pubPlace>
+				<date when="2009-04-01">May 1, 2009</date>
+				<availability status="restricted">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in any manner without
+						authorization unless it is for purposes of criticism, comment, news reporting, teaching, and/or classroom use as provided by
+						the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by the author/editor and may be
+						shared only in accordance with the Fair Use provisions of U.S. copyright law. Except as expressly permitted by this statement,
+						redistribution or republication in any medium requires express prior written consent from the author/editors and advance
+						notification of Romantic Circles. Any requests for authorization should be forwarded to Romantic Circles:&gt;
+						<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+					</p>
+					<p>By their use of these texts and images, users agree to the following conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose without prior written permission from Romantic
+								Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms other than their current ones.</item>
+						</list>
+					</p>
+					<p>Users are not permitted to download these texts and images in order to mount them on their own servers. It is not in our
+						interest or that of our users to have uncontrolled subsets of our holdings available elsewhere on the Internet. We make
+						corrections and additions to our edited resources on a continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make a link to the copies at Romantic Circles, subject
+						to our conditions of use.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a">STUDY AIDS : CHARACTERS</title>
+						<author>
+							<persName>Curran, Stuart</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title type="main">Frankenstein</title>
+						<title type="subordinate">A Romantic Circles Electronic Edition</title>
+						<editor>Curran, Stuart</editor>
+						<imprint>
+							<publisher>Romantic Circles</publisher>
+							<pubPlace>College Park, MD</pubPlace>
+							<date>2009-05-01</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for ’.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+					<p>Dashes have been rendered as —</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="g" corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E">
+					<bibl>NINES categories for Genre and Material Form at
+						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on 2009-02-26</bibl>
+					<category xml:id="g1">
+						<catDesc>Architecture</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Artifacts</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Letters</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Politics</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Folklore</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>History</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Leisure</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Humor</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Education</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>nonfiction</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Perodical</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Philosphy</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Family Life</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Visual Art</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Travel</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Book History</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Law</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef target="#g12" scheme="#genre"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change n="3" when="2009-05-01" who="#LM">
+				<label>Changed by</label>
+				<name xml:id="LM">Laura Mandell</name>
+				<list>
+					<item>XSLT Transforming into TEI, RDF</item>
+				</list>
+			</change>
+			<change n="2" when="2009-05-01" who="#DR">
+				<label>Changed by</label>
+				<name xml:id="DR">David Rettenmaier</name>
+				<list>
+					<item>XHTML Encoding</item>
+				</list>
+			</change>
+			<change n="1" when="2009-05-01" who="#MQ">
+				<label>Changed by</label>
+				<name xml:id="MQ">Mike Quilligan</name>
+				<list>
+					<item>XHTML Encoding</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>STUDY AIDS : CHARACTERS</head>
+			<div type="appCharsA">
+				<list>
+					<item>
+						<ref target="beaufort">M. Beaufort</ref>
+					</item>
+					<item>
+						<ref target="clerval">Henry Clerval</ref>
+					</item>
+					<item>
+						<ref target="creature">The Creature</ref>
+					</item>
+					<item>
+						<ref target="agatha">Agatha de Lacey</ref>
+					</item>
+					<item>
+						<ref target="felix">Felix de Lacey</ref>
+					</item>
+					<item>
+						<ref target="delacey">M. de Lacey</ref>
+					</item>
+					<item>
+						<ref target="alphonse">Alphonse Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="caroline">Caroline Beaufort Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="eliz">Elizabeth Lavenza Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="ernest">Ernest Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="felix">Victor Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="william">William Frankenstein</ref>
+					</item>
+					<item>
+						<ref target="kirwin">Mr. Kirwin</ref>
+					</item>
+					<item>
+						<ref target="krempe">Herr Krempe</ref>
+					</item>
+					<item>
+						<ref target="justine">Justine Moritz</ref>
+					</item>
+					<item>
+						<ref target="nugent">Daniel Nugent</ref>
+					</item>
+					<item>
+						<ref target="safie">Safie</ref>
+					</item>
+					<item>
+						<ref target="saville">Margaret Saville</ref>
+					</item>
+					<item>
+						<ref target="waldman">Professor Waldman</ref>
+					</item>
+					<item>
+						<ref target="walton">Robert Walton</ref>
+					</item>
+				</list>
+			</div>
+			<div type="appCharsB">
+				<list>
+					<item>
+						<term rend="bold" xml:id="agatha" target="#agatha">Agatha De Lacey</term>
+						<lb/>
+						<p>Daughter of M. De Lacey and sister of Felix.</p>
+						<p>Agatha first appears anonymously (described only as "a young creature") in the Creature's narration (II:3:14): </p>
+						<p/>
+						<p> I ate my breakfast with pleasure, and was about to remove a plank to procure myself a little water, when I heard a step,
+							and, looking through a small chink, I beheld a young creature, with a pail on her head, passing before my hovel. The girl
+							was young and of gentle demeanour, unlike what I have since found cottagers and farm-house servants to be. Yet she was
+							meanly dressed, a coarse blue petticoat and a linen jacket being her only garb; her fair hair was plaited, but not
+							adorned; she looked patient, yet sad. </p>
+						<p> She provides the Creature with his first experience of beauty (II:3:15): </p>
+						<p> The young girl was occupied in arranging the cottage; but presently she took something out of a drawer, which employed her
+							hands, and she sat down beside the old man, who, taking up an instrument, began to play, and to produce sounds, sweeter
+							than the voice of the thrush or the nightingale. It was a lovely sight, even to me, poor wretch! who had never beheld
+							aught beautiful before. </p>
+						<p> The Creature first learns her name in II:4:9, as he learns the rudiments of language. Over time he comes to know her
+							history: she once "had ranked with ladies of the highest distinction" (II:6:2), but after De Lacey's fall, she was
+							imprisoned with her father (II:6:13). After five months in prison, the family was condemned to exile and found "a
+							miserable asylum in the cottage in Germany," where the Creature first encounters her.</p>
+						<p> In her last appearance in the novel, she faints from terror upon beholding the Creature (II:7:38): </p>
+						<p>At that instant the cottage door was opened, and Felix, Safie, and Agatha entered. Who can describe their horror and
+							consternation on beholding me? Agatha fainted; and Safie, unable to attend to her friend, rushed out of the cottage.</p>
+						<p> When the Creature returns to the cottage, the De Laceys have deserted it (II:8:7).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="william" target="#william">William Frankenstein </term>
+						<lb/>
+						<p>Youngest son of Alphonse and Caroline Frankenstein; brother to Victor and Ernest.</p>
+						<p> Victor Frankenstein describes William in the novel's first chapter: </p>
+						<p>William, the youngest of our family, was yet an infant, and the most beautiful little fellow in the world; his lively blue
+							eyes, dimpled cheeks, and endearing manners, inspired the tenderest affection. (I:1:27)</p>
+						<p>WhileFrankenstein is at Ingolstadt, Elizabeth provides this account of "darling William":</p>
+						<p>he is very tall of his age, with sweet laughing blue eyes, dark eye-lashes, and curling hair. When he smiles, two little
+							dimples appear on each cheek, which are rosy with health. He has already had one or two little wives, but Louisa Biron is
+							his favourite, a pretty little girl of five years of age" (I:5:7).</p>
+						<p> William is murdered by the Creature, who discovers that he is a relation of Frankenstein (II:8:29), and Justine Moritz is
+							framed for the murder (I:6:31).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="alphonse" target="#alphonse">Alphonse Frankenstein </term>
+						<lb/>
+						<p>Father of Victor, Ernest, and William Frankenstein; husband of Caroline; uncle and adoptive father of Elizabeth.</p>
+						<p> Alphonse Frankenstein is a syndic (magistrate) of Geneva and comes from a long line of syndics. Victor describes his
+							character and his devotion to public duty: </p>
+						<p> My father had filled several public situations with honour and reputation. He was respected by all who knew him for his
+							integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs
+							of his country; and it was not until the decline of life that he thought of marrying, and bestowing on the state sons who
+							might carry his virtues and his name down to posterity. (I:1:1)</p>
+						<p>The emphasis on duty is clear in all of his dealings with his son.</p>
+						<p> Alphonse dies of an apoplectic fit after hearing of the death of Elizabeth.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="beaufort" target="#beaufort">M. Beaufort </term>
+						<lb/>
+						<p>"Intimate friend" of Alphonse Frankenstein (I:1:2); father of Caroline, who becomes his wife.</p>
+						<p> Victor Frankenstein relates that Beaufort, </p>
+						<p> from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a
+							proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had
+							formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable
+							manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. (I:1:2) </p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="caroline" target="#caroline">Caroline Frankenstein </term>
+						<lb/>
+						<p>Daughter of M. Beaufort; mother of Victor, Ernest, and William Frankenstein; wife of Alphonse; aunt and adoptive mother of
+							Elizabeth; mother surrogate to Justine Moritz.</p>
+						<p> Beaufort, in his decline into poverty and wretchedness, brings Caroline with him, and during his final illness, she
+							ministers to him for ten months. Finally, </p>
+						<p> Her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort's
+							coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who
+							committed herself to his care, and after the interment of his friend he conducted her to Geneva, and placed her under the
+							protection of a relation. Two years after this event Caroline became his wife. (I:1:5) </p>
+						<p> She joined the hands of Elizabeth and myself: "My children," she said, "my firmest hopes of future happiness were placed
+							on the prospect of your union. This expectation will now be the consolation of your father. Elizabeth, my love, you must
+							supply my place to your younger cousins. Alas! I regret that I am taken from you; and, happy and beloved as I have been,
+							is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour to resign myself cheerfully to
+							death, and will indulge a hope of meeting you in another world." (I:2:2)</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="clerval" target="#clerval">Henry Clerval </term>
+						<lb/>
+						<p>Friend and schoolfellow of Victor and Elizabeth from childhood; murdered by the Creature.</p>
+						<p> Victor describes him as an only child, "the son of a merchant of Geneva, an intimate friend of my father. He was a boy of
+							singular talent and fancy" (I:1:11). Clerval is almost a family member in the Frankensten household: when Victor complains
+							that "My brothers were considerably younger than myself," he notes, "but I had a friend in one of my schoolfellows, who
+							compensated for this deficiency" (I:1:11), and Victor includes Clerval in his account of his "domestic circle" because "he
+							was constantly with us" (I:1:13). The two are united by "the closest friendship" (1831:I:2:2).</p>
+						<p> After parting from Clerval on his departure for Ingolstadt, Victor does not see his friend until after the creation of the
+							Creature: he arrives just in time to care for Victor in his first insane fever (I:4:17).</p>
+						<p> After Frankenstein's recovery, Clerval convinces his father to allow him to join Frankenstein at the university, studying
+							classical and Eastern languages: </p>
+						<p> Clerval was no natural philosopher. His imagination was too vivid for the minutiae of science. Languages were his
+							principal study; and he sought, but acquiring their elements, to open a field for self-instruction on his return to
+							Geneva. Persian, Arabic, and Hebrew, gained his attention, after he had made himself perfectly master of Greek and Latin.
+							(I:5:14)</p>
+						<p> He came to the university with the design of making himself complete master of the oriental languages, as thus he should
+							open a field for the plan of life he had marked out for himself. Resolved to pursue no inglorious career, he turned his
+							eyes toward the East, as affording scope for his spirit of enterprise. (1831:I:6:14) </p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="creature" target="#creature">The Creature</term>
+						<lb/>
+						<p>Frankenstein describes the Creature's creation: </p>
+						<p> I doubted at first whether I should attempt the creation of a being like myself or one of simpler organization; but my
+							imagination was too much exalted by my first success to permit me to doubt of my ability to give life to an animal as
+							complex and wonderful as man. The materials at present within my command hardly appeared adequate to so arduous an
+							undertaking; but I doubted not that I should ultimately succeed. . . . As the minuteness of the parts formed a great
+							hindrance to my speed, I resolved, contrary to my first intention, to make the being of a gigantic stature; that is to
+							say, about eight feet in height, and proportionably large. (I:3:7) </p>
+						<p> How can I describe my emotions at this catastrophe, or how delineate the wretch whom with such infinite pains and care I
+							had endeavoured to form? His limbs were in proportion, and I had selected his features as beautiful. Beautiful! Great God!
+							His yellow skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous black, and flowing;
+							his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast with his watery eyes, that
+							seemed almost of the same colour as the dun white sockets in which they were set, his shrivelled complexion, and straight
+							black lips. (I:4:2)</p>
+						<p> After unintentionally driving the De Laceys from him, he vows vengeance on humanity, and especially on his creator: "I,
+							like the arch fiend, bore a hell within me; and, finding myself unsympathized with, wished to tear up the trees, spread
+							havoc and destruction around me, and then to have sat down and enjoyed the ruin. . . . I declared everlasting war against
+							the species, and, more than all, against him who had formed me, and sent me forth to this insupportable misery" (II:8:3).
+							He goes to seek Frankenstein, and on the way encounters and murders William (1818:II:31).</p>
+						<p> At the end of his long narrative, the Creature demands that Frankestein create for him a mate (II:8:36), a task
+							Frankenstein at first refuses. But the Creature's eloquence prevails: </p>
+						<p> If I have no ties and no affections, hatred and vice must be my portion; the love of another will destroy the cause of my
+							crimes, and I shall become a thing, of whose existence every one will be ignorant. My vices are the children of a forced
+							solitude that I abhor; and my virtues will necessarily arise when I live in communion with an equal. I shall feel the
+							affections of a sensitive being, and become linked to the chain of existence and events, from which I am now excluded.
+							(II:9:14)</p>
+						<p> But Frankenstein, fearing the propagation of "a race of devils" (III:3:2), reneges on his promise, and destroys his
+							half-finished creation (III:3:4). The furious Creature declares,</p>
+						<p> Slave, I before reasoned with you, but you have proved yourself unworthy of my condescension. Remember that I have power;
+							you believe yourself miserable, but I can make you so wretched that the light of day will be hateful to you. You are my
+							creator, but I am your master; obey! (III:3:11)</p>
+						<p> Finally Frankenstein is picked up by Walton, who is uncertain about his story until, after Frankenstein's death from
+							exhaustion, the Creature appears aboard ship and laments over his body (III:WC:35). He justifies his actions to Walton—"I
+							pitied Frankenstein; my pity amounted to horror: I abhorred myself. . . . I knew that I was preparing for myself a deadly
+							torture; but I was the slave, not the master of an impulse, which I detested, yet could not disobey"—and declares his
+							intention to "seek the most northern extremity of the globe," there to immolate himself and find rest in death.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="delacey" target="#delacey">M. De Lacey </term>
+						<lb/>
+						<p>Father of Agatha and Felix.</p>
+						<p> The Creature first observes De Lacey from the inside of his sty: "In one corner, near a small fire, sat an old man,
+							leaning his head on his hands in a disconsolate attitude" (II:3:15). He further describes the </p>
+						<p> old man, who, taking up an instrument [a guitar], began to play, and to produce sounds, sweeter than the voice of the
+							thrush or the nightingale. . . . The silver hair and benevolent countenance of the aged cottager, won my reverence.
+							(II:3:15)</p>
+						<p> The Creature soon discovers De Lacey is blind (II:4:3), and as he learns language, he learns about the family. He learns
+							first their names and familial relations: "I learned also the names of the cottagers themselves. The youth and his
+							companion had each of them several names, but the old man had only one, which was father. The girl was called sister, or
+							Agatha; and the youth Felix, brother, or son" (II:4:9). Later he learns their story: </p>
+						<p> The name of the old man was De Lacey. He was descended from a good family in France, where he had lived for many years in
+							affluence, respected by his superiors, and beloved by his equals. His son was bred in the service of his country; and
+							Agatha had ranked with ladies of the highest distinction. A few months before my arrival, they had lived in a large and
+							luxurious city, called Paris, surrounded by friends, and possessed of every enjoyment which virtue, refinement of
+							intellect, or taste, accompanied by a moderate fortune, could afford. (II:6:2)</p>
+						<p> The Creature, hoping to make his presence known to the family, decides to begin with old De Lacey, whose blindness will
+							prevent him from being horrified by him (II:7:13). The Creature begins to relate his story and his hopes of finding a
+							friend, when Felix returns to the cottage, and drives the Creature from it. When he returns later, the family has
+							abandoned the cottage.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="eliz" target="#eliz">Elizabeth Lavenza Frankenstein </term>
+						<lb/>
+						<p>Cousin, adopted sister, and eventually wife of Victor Frankenstein (in the first edition of 1818; in the third edition of
+							1831, she is a foundling).</p>
+						<p> The Frankenstein family adopted Elizabeth, and Caroline Frankenstein early planned that Elizabeth should be Victor's
+							future wife. Frankenstein describes her character at length: </p>
+						<p> She was docile and good tempered, yet gay and playful as a summer insect. Although she was lively and animated, her
+							feelings were strong and deep, and her disposition uncommonly affectionate. No one could better enjoy liberty, yet no one
+							could submit with more grace than she did to constraint and caprice. Her imagination was luxuriant, yet her capability of
+							application was great. Her person was the image of her mind; her hazel eyes, although as lively as a bird's, possessed an
+							attractive softness. Her figure was light and airy; and, though capable of enduring great fatigue, she appeared the most
+							fragile creature in the world. While I admired her understanding and fancy, I loved to tend on her, as I should on a
+							favourite animal; and I never saw so much grace both of person and mind united to so little pretension. (I:1:9).</p>
+						<p> On Victor's return to Geneva, Alphonse Frankenstein returns to his late wife's plan, that Victor and Elizabeth should
+							marry. Victor agrees, but postpones the wedding until after he has completed his task. When he destroys the half-finished
+							female creature (III:3:4), the Creature vows, "I will be with you on your wedding-night!"(III:3:15)—a threat Frankenstein
+							imagines is directed against himself ("I carried pistols and a dagger constantly about me," (III:5:30).</p>
+						<p> The two are married after the death of Clerval and Frankenstein's imprisonment and long illness. On their wedding night,
+							however, Frankenstein leaves the room, and hears a scream above. He returns to find Elizabeth "lifeless and inanimate,
+							thrown across the bed, her head hanging down, and her pale and distorted features half covered by her hair" (III:6:8).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="ernest" target="#ernest">Ernest Frankenstein </term>
+						<lb/>
+						<p>Younger son of Alphonse and Caroline Frankenstein; brother to Victor and William.</p>
+						<p> Victor Frankenstein describes his younger brother: </p>
+						<p> Ernest was six years younger than myself, and was my principal pupil. He had been afflicted with ill health from his
+							infancy, through which Elizabeth and I had been his constant nurses: his disposition was gentle, but he was incapable of
+							any severe application. (I:1:27). </p>
+						<p> Ernest is the only Frankenstein to survive the novel.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="felix" target="#felix">Felix De Lacey</term>
+						<lb/>
+						<p>Son of the blind M. De Lacey and brother of Agatha.</p>
+						<p> It is through Felix's conversation and language tutoring to Safie that the Creature learns to speak and read. As he
+							becomes more proficient in the language, he learns Felix's story: he had fallen in love with Safie and arranged her
+							father's escape from prison (II:6:9), but, betrayed by her father (II:6:13), he finds his family imprisoned and Safie
+							taken out of his reach. The De Laceys flee to "a miserable asylum in the cottage in Germany" (II:6:15). </p>
+						<p> Felix is never aware of the Creature until he returns to the cottage to find his father in the Creature's presence.
+							Fearing for his father's safety, he "darted forward, and with supernatural force tore me from his father, to whose knees I
+							clung: in a transport of fury, he dashed me to the ground and struck me violently with a stick" (II:7:38). The Creature
+							flees; on his return, he discovers that the De Laceys have abandoned the cottage.</p>
+						<p> Felix seems to have served as a role model for the Creature, who reverts to his betrayal by him in speaking to Walton: "Am
+							I to be thought the only criminal, when all human kind sinned against me? Why do you not hate Felix, who drove his friend
+							from his door with contumely?" (III:WC:43).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="frank" target="#frank">Victor Frankenstein </term>
+						<lb/>
+						<p>Son of Alphonse and Caroline Frankenstein; brother to Ernest and William; cousin, adoptive brother, and later husband to
+							Elizabeth; childhood playfriend of Henry Clerval; student of Krempe and Waldman.</p>
+						<p> Rescued from an icefloe in the Arctic Ocean (I:L4:6), Frankenstein narrates the complete novel to Robert Walton. Born in
+							Geneva, Victor is educated at the University of Ingolstadt in chemistry. There his researches bring him to discover the
+							secret of life, and he constructs and animates a giant being (I:3 and I:4). Appalled by his ugliness, Victor flees, and
+							upon returning to his lodgings finds the Creature gone. He suffers a nervous collapse and is nursed back to health over
+							several months by Clerval, who has also come to the university to study.</p>
+						<p> A year-and-a-half pass, then Victor receives a letter from his father announcing the death of his youngest sibling,
+							William, and summoning him home. On the way he encounters his Creature on the outskirts of Geneva (I:6:22) and realizes
+							that the Creature has been agent of William's death. Upon his arrival, however, he is greeted with news of the arrest of
+							Justine Moritz for the deed. Justine is tried and, convicted on circumstantial evidence, is executed. Recognizing his
+							responsibility, Victor sinks into a deep depression.</p>
+						<p> Hoping to recover the family's former sense of well-being, Alphonse proposes a trip to the valley of Chamounix beneath Mt.
+							Blanc. (In the 1831 edition Victor undertakes this tour by himself.) Upon the glacier known as the Mer de Glace, Victor
+							suddenly encounters his Creature (II:2:5) and is forced to listen to the story of the Creatures' existence up to that
+							point, a narration that takes up the central third of the novel. The Creature appeals to Victor to create a mate for him,
+							and Victor reluctantly promises to do so.</p>
+						<p> Returning to Geneva, Victor asks of his father that his nuptials with Elizabeth be postponed until he has had a chance to
+							travel. His real purpose for his trip to England is to gain further knowledge before creating a second being. Clerval
+							accompanies him on this trip, but they part in Scotland; Victor settles in the remote Orkney Islands and sets to work. He
+							is racked with second thoughts and, upon discovering the Creature observing his efforts, destroys the being he was
+							creating. The Creature vows revenge, telling Victor that he will be with him on his wedding night. Victor sets off for the
+							Scottish mainland, but a strong wind carries his boat to the northern coast of Ireland, where he is arrested for a murder
+							just committed, that of his friend Clerval. This event precipitates a second collapse of health; he is brought back to
+							health after the arrival of his father.</p>
+						<p> Acquitted on the grounds that he had arrived in Ireland after Clerval's death, Victor returns to Geneva to marry
+							Elizabeth. On the night of their marriage the Creature's vow that he would be with Victor on this night translates into
+							the murder of his bride. Alphonse suffers a fatal stroke, and Victor sets off to enact his own revenge on the Creature,
+							travelling first to Marseilles, then across the Mediterranean Sea to Russia and across its vast expanse to the frozen
+							Arctic Ocean. There, after a break-up of the ice, Victor finds himself stranded and incapable of further pursuit, but he
+							is rescued by Walton. When Walton, under threat of a mutiny, determines to abandon his expedition and return to England,
+							the exhausted and now purposeless Victor dies (III:WC:31). The Creature returns to the ship, where Walton encounters him
+							lamenting his creator's death.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="justine" target="#justine">Justine Moritz </term>
+						<lb/>
+						<p>Servant to the Frankenstein family and particular friend of Elizabeth.</p>
+						<p> Elizabeth relates how Justine came to join the Frankenstein household: </p>
+						<p> Madame Moritz, her mother, was a widow with four children, of whom Justine was the third. This girl had always been the
+							favourite of her father; but, through a strange perversity, her mother could not endure her, and, after the death of M.
+							Moritz, treated her very ill. My aunt observed this; and, when Justine was twelve years of age, prevailed on her mother to
+							allow her to live at her house. (I:5:3)</p>
+						<p> She is accused of the murder of William (I:6:31), is convicted on circumstantial evidence (I:7:12), and, although thought
+							innocent by the entire Frankenstein family, is executed for the crime.</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="kirwin" target="#kirwin">Kirwin</term>
+						<lb/>
+						<p>Irish magistrate who charges Victor Frankenstein with the death of Clerval (III:4:1).</p>
+						<p> When Frankenstein falls into another fever, this one lasting two months, Kirwin nurses him back to health until Victor's
+							father arrives (III:4:36). Afterwards, Kirwin, convinced of Frankenstein's innocence, serves as his defense
+							(III:4:44).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="krempe" target="#krempe">Krempe</term>
+						<lb/>
+						<p>Professor of Natural Philosophy at the University of Ingolstadt whose instruction Victor Frankenstein resists.</p>
+						<p> Krempe, discovering Frankenstein's fondness for alchemists in their first interview, bursts out contemptuously, "Have you
+							really spent your time in studying such nonsense?" (I:2:9). Frankenstein relates his impression of his new teacher: </p>
+						<p> M. Krempe was a little squat man, with a gruff voice and repulsive countenance; the teacher, therefore, did not prepossess
+							me in favour of his doctrine. (I:2:12)</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="nugent" target="#nugent">Daniel Nugent </term>
+						<lb/>
+						<p>An Irish fisherman and witness against Victor Frankenstein for the murder of Clerval (III:4:2).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="safie" target="#safie">Safie</term>
+						<lb/>
+						<p>Daughter of a Turkish merchant, adopted by the De Lacey family.</p>
+						<p> The Creature watches Safie's arrival at the cottage, admiring her "countenance of angelic beauty" (II:5:4), and noting her
+							cheering effect on Felix. He soon notices that as she "appeared to have a language of her own, she was neither understood
+							by, or herself understood, the cottagers" (II:5:6); the Creature resolves to use this to his advantage, learning the
+							French language by overhearing Safie's language lessons.</p>
+						<p> As the Creature learns a language, he learns the shared story of Safie and the De Laceys. Safie was the daughter of a
+							Turkish merchant resident in Paris and a Christian Arab, enslaved by the Turks, who had raised her as a Christian
+							(II:6:8). Her father's arrest (on unspecified political grounds) leads Felix to vow to free him, and this attracts Safie
+							to him. The night before his scheduled execution, he frees the Turk and conducts him to Leghorn with Safie. The Creature
+							notes that "The Turk allowed this intimacy to take place," not wishing to lose Felix's help (II:6:12). But when the De
+							Lacey family is imprisoned for assisting in his escape, "the treacherous Turk, for whom he and his family endured such
+							unheard-of oppression, on discovering that his deliverer was thus reduced to poverty and impotence, became a traitor to
+							good feeling and honour, and had quitted Italy with his daughter" (II:6:15).</p>
+						<p> Safie, averse to the thought of living in Turkey, fled her father and traveled to Germany to stay with the De Laceys. As
+							the Creature notes of their cottage, "The presence of Safie diffused happiness among its inhabitants" (II:7:10). The
+							Creature's last sight of her is as she flees the cottage in horror upon discovering him with old De Lacey (II:7:38).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="savillewalton" target="#savillewalton">Margaret Walton Saville </term>
+						<lb/>
+						<p>Sister of Robert Walton and the recipient of the letters that constitute the novel. Although her brother's confidante, she
+							disapproves of his expedition (the first sentence of the novel, [I:L1:1]).</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="waldman" target="#waldman">Waldman</term>
+						<lb/>
+						<p>Professor of Natural Philosophy at the University of Ingolstadt, with a specialty in chemistry, and instructor of Victor
+							Frankenstein.</p>
+						<p> Unlike Krempe, whom Frankenstein finds intellectually and physically repulsive, Waldman proves a kind and understanding
+							teacher. Frankenstein describes him: </p>
+						<p> This professor was very unlike his colleague. He appeared about fifty years of age, but with an aspect expressive of the
+							greatest benevolence; a few grey hairs covered his temples, but those at the back of his head were nearly black. His
+							person was short, but remarkably erect; and his voice the sweetest I had ever heard. (I:2:25)</p>
+					</item>
+					<item>
+						<term rend="bold" xml:id="walton" target="#walton">Robert Walton </term>
+						<lb/>
+						<p>English ship's captain on an arctic expedition in search of the Northeast Passage to the Pacific Ocean. Rescuing Victor
+							Frankenstein at sea, he is the recipient of the narrative of Victor's life.</p>
+						<p> Robert Walton writes the series of letters to his sister, Margaret Saville, that constitute the novel.</p>
+					</item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>
