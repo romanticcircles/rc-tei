@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,13 +6,8 @@
                 
                 <title type="main">Dorothy Wordsworth's Lake District</title>
                 <title type="subordinate">A Romantic Circles Electronic Edition</title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="m">[37] A Tribute to the memory of the Revd John Curwen
-                    
+                <title level="m">16. Thoughts <hi rend="underline">on my</hi> sickbed
                 </title>
-                
-                
-                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
                 
                 <author role="primary">
                     <name>Dorothy Wordsworth</name>
@@ -100,18 +94,15 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">editions.2022.DW.Poems-37</idno>
+                <idno type="edition">editions.2022.DW.Poems-16</idno>
                 <idno type="resource">DW</idno>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main">[37] A Tribute to the memory of the Revd John Curwen
+                        <title level="m" type="main">16. Thoughts <hi rend="underline">on my</hi> sickbed
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="editions/DW/editions.2022.DW.Poems-37"/>
+                        <ptr target="editions/DW/editions.2022.DW.Poems-16"/>
                     </analytic>
                     
                     <monogr>
@@ -187,13 +178,12 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">aging</term>
+                    <term subtype="tags">charity</term>
                     <term subtype="tags">childhood</term>
-                    <term subtype="tags">disability</term>
-                    <term subtype="tags">environment</term>
-                    <term subtype="tags">memory</term>
-                    <term subtype="tags">mobility</term>
-                    <term subtype="tags">walking</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
                 </keywords>
                 
             </textClass>
@@ -201,102 +191,141 @@
         <revisionDesc>
             <change>
                 <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
-                <name>Lavender Earnest</name>
-                <date>2022-11-09</date>
+                <name>Emily Stephens</name>
+                <date>2022-11-17</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
-  
+    <!--END OF HEADER-->
+    
     <text>
         <body>
             <div type="paratext">
-                <head>
-                    <span change="blue">
-                        <hi rend="underline">[Page f.15r (from back of notebook)]</hi>
-                    </span>
-                </head>
+                <p><span change="blue"><hi rend="underline">[Page f.32v]</hi></span></p>
             </div>
             
             <div type="poetry">
-                <head>[37] A Tribute to the memory of the Revd John Curwen</head>
+                <head>16. Thoughts <hi rend="underline">on my</hi> sickbed</head>
                 <lg type="stanza">
-                    <l>Yes! let the poor afflicted soul</l>
-                    <l>The widow &amp; the orphan mourn!</l>
-                    <l>Their stedfast friend, in death asleep</l>
-                    <l>Can soothe no more the heart forlorn</l>
+                    <l>⟨The first spring time⟩</l>
+                </lg>
+                
+                <lg type="stanza">    
+                    <l>And has the remnant of my life</l>
+                    <l>⟨pilfered⟩ Been pilfered of this sunny Spring?</l>
+                    <l>And have its own prelusive sounds</l>
+                    <l>Touched in my heart no echoing string?</l>
                 </lg>
                 
                 <lg type="stanza">
-                    <l>His was the candid generous soul &#8212;</l>
-                    <l>The liberal hand, the kinder heart;</l>
-                    <l>And never did a death-bell toll</l>
-                    <l>For one more free from worldly art</l>
+                    <l>Ah! say not so — the hidden life</l>
+                    <l>Couchant within this feeble frame</l>
+                    <l>Hath been enriched by kindred gifts,</l>
+                    <l>That, undesired, unsought-for, came</l>
                 </lg>
                 
                 <lg type="stanza">
-                    <l>And never was the cry of grief</l>
-                    <l>Disease, or poverty, or pain</l>
-                    <l>Or supplication for relief</l>
-                    <l>Addressed to his kind heart in vain</l>
+                    <l>With joyful heart in youthful days</l>
+                    <l>When fresh each season in its Round</l>
+                    <l>I welcomed the earliest Celandine</l>
+                    <l>Glittering <del rend="strike">atop</del> <add rend="sup">upon</add> the mossy ground;</l>
+                    <l>With busy eyes I pierced the lane</l>
+                    <l>In quest of known and unknown things,</l>
+                    <l>⟨a lamp⟩— The primrose ^ <add rend="sup">a lamp</add> on its fortress rock,</l>
+                    <l>⟨The silent⟩ <del rend="strike">The</del> butterfly <del rend="strike">trying</del> <add rend="sup">spreading</add> its wings, ⟨silent⟩</l>
                 </lg>
                 
                 <lg type="stanza">
-                    <l>But ready still, by night or day</l>
-                    <l>Was he the poor man&#8217;s prayer to hear</l>
-                    <l>The sufferer&#8217;s anguish to alloy</l>
-                    <l>The desolate orphans heart to chear</l>
+                    <l>The violet betrayed by its <del rend="strike">breath</del>, noiseless breath;</l>
+                    <l>The daffodil dancing in the breeze,</l>
+                    <l>The carolling thrush, on his naked perch,</l>
+                    <l>Towering above the budding trees.</l>
+                </lg>
+            
+                <lg type="stanza">
+                    <l>Our cottage-hearth no longer our home,</l>
+                    <l>Companions of Nature were we,</l>
+                    <l>The stirring, the Still, the Loquacious, the Mute —</l>
+                    <l>To all we gave our sympathy.</l>
+                </lg>
+            
+                <lg type="stanza">
+                    <l>⟨Yet⟩ <del rend="strike">But</del> never in those careless days,</l>
+                    <l>When spring-time in rock, field, or bower</l>
+                    <l>Was <del rend="strike">but as a</del> <add rend="sup">but a</add> fountain of <del rend="strike">hope</del> earthly hope,</l>
+                    <l>A promise of fruits &amp; the <hi rend="underline">splendid</hi> flower.</l> 
+                </lg>
+            </div>
+            <pb/>
+            
+            <div type="paratext">
+                <p><span change="blue"><hi rend="underline">[Page f.33r]</hi></span></p>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>No! then I never felt a bliss</l> 
+                    <l>That might with <hi rend="underline">that</hi> compare</l>
+                    <l>Which, piercing to my couch of rest,</l>
+                    <l>Came on the vernal air,</l>
                 </lg>
                 
                 <lg type="stanza">
-                    <l>The cherished Friends who knew his work &#8212;</l>
-                    <l>By firm esteem to him were bound</l> 
-                </lg>    
-                    <pb/>
+                    <l>When loving Friends an offering brought,</l>
+                    <l>The first flowers of the year,</l>
+                    <l>Culled from the precincts of our home,</l>
+                    <l>From nooks to Memory dear.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With some sad thoughts <del rend="strike">that</del> <add rend="sup">the</add> work was done, the</l>
+                    <l>Unprompted and unbidden,</l>
+                    <l>But joy it brought to my <hi rend="underline">hidden</hi> life,</l>
+                    <l>To consciousness no longer hidden.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I felt a power unfelt before,</l>
+                    <l>Controlling weakness, languor, pain;</l>
+                    <l>It bore me to the Terrace walk</l>
+                    <l>I trod the hills again; —</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>No prisoner in this lonely room,</l>
+                    <l>I <hi rend="underline">saw</hi> the green Banks of the Wye,</l>
+                    <l>Recalling thy prophetic words,</l>
+                    <l>Bard, Brother, Friend from infancy!</l>
+                </lg>
+           
+                <lg type="stanza">
+                    <l>No need of motion, or of strength,</l>
+                    <l>Or even the breathing air:</l>
+                    <l>—I thought of Natures&#8217; loveliest scenes; (Q? haunts</l> 
+                    <l>Q? scenes⟩</l>
+                    <l>And <hi rend="underline">with Memory I was there.</hi></l>
+                </lg>
             </div>
             
             <div type="paratext">
-                <head>
-                    <span change="blue"><hi rend="underline">[Page 15v]</hi></span>
-                </head>
-            </div>
-                
-            <div type="poetry">
-                <lg type="stanza">
-                    <l>And gaiety &amp; harmless mirth</l>
-                    <l>In him a kind promoter found.</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>His long descent &#8212; his ancient line &#8212;</l>
-                    <l>Too oft in men the cause of pride &#8212;</l>
-                    <l>He counted naugh! &#8212; his great design</l>
-                    <l>Was to far nobler thoughts allied.</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>It was the spread of Christian love</l>
-                    <l>And charity &#8217;mongst small &amp; great;</l>
-                    <l>His life long aim was to remove</l>
-                    <l>Dissension, enmity, &amp; hate</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>Although a carping few there be</l>
-                    <l>Who slightingly his Merits hold;</l>
-                    <l>Yet hundreds more will say with me</l>
-                    <l>A warmer heart death ne&#8217;er made cold</l>
-                </lg>
-                               
-                <p rend="indent1">D Wordsworth. March 3<add rend="sup">rd</add> 1848</p>
-               
-            </div>
+                <p><span change="blue"><hi rend="underline">[Page f.33v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.35v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.35v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.36v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.36v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.37v]</hi></span></p>
+                <p><span change="blue"><hi rend="underline">[Page f.37v]</hi></span></p>
+                <note place="end" resp="editors">Composed on f.37v, opposite the final 
+                    stanza of &#8220;Irregular Verses&#8221; on f.382, this appears to be part of a 
+                    reworking of that poem. The second image shows how the notebook appears when open.
+                    </note>
+           </div>
         </body>
     </text>
 </TEI>
-
 
 
 

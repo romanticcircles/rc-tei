@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,13 +6,8 @@
                 
                 <title type="main">Dorothy Wordsworth's Lake District</title>
                 <title type="subordinate">A Romantic Circles Electronic Edition</title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="m">[37] A Tribute to the memory of the Revd John Curwen
-                    
+                <title level="m">17. [Irregular Verses] [Version B of To Julia Marshal-A Fragment]
                 </title>
-                
-                
-                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
                 
                 <author role="primary">
                     <name>Dorothy Wordsworth</name>
@@ -100,18 +94,15 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">editions.2022.DW.Poems-37</idno>
+                <idno type="edition">editions.2022.DW.Poems-17a</idno>
                 <idno type="resource">DW</idno>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main">[37] A Tribute to the memory of the Revd John Curwen
+                        <title level="m" type="main">17. [Irregular Verses] [Version B of To Julia Marshal-A Fragment]
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="editions/DW/editions.2022.DW.Poems-37"/>
+                        <ptr target="editions/DW/editions.2022.DW.Poems-17a"/>
                     </analytic>
                     
                     <monogr>
@@ -187,13 +178,12 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">aging</term>
+                    <term subtype="tags">charity</term>
                     <term subtype="tags">childhood</term>
-                    <term subtype="tags">disability</term>
-                    <term subtype="tags">environment</term>
-                    <term subtype="tags">memory</term>
-                    <term subtype="tags">mobility</term>
-                    <term subtype="tags">walking</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
                 </keywords>
                 
             </textClass>
@@ -201,101 +191,39 @@
         <revisionDesc>
             <change>
                 <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
-                <name>Lavender Earnest</name>
-                <date>2022-11-09</date>
+                <name>Emily Stephens</name>
+                <date>2022-11-17</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
-  
+    <!--END OF HEADER-->
+    
     <text>
         <body>
-            <div type="paratext">
-                <head>
-                    <span change="blue">
-                        <hi rend="underline">[Page f.15r (from back of notebook)]</hi>
-                    </span>
-                </head>
-            </div>
             
             <div type="poetry">
-                <head>[37] A Tribute to the memory of the Revd John Curwen</head>
-                <lg type="stanza">
-                    <l>Yes! let the poor afflicted soul</l>
-                    <l>The widow &amp; the orphan mourn!</l>
-                    <l>Their stedfast friend, in death asleep</l>
-                    <l>Can soothe no more the heart forlorn</l>
-                </lg>
+                <head>17. [Irregular Verses] [Version B of To Julia Marshal-A Fragment]</head>
                 
                 <lg type="stanza">
-                    <l>His was the candid generous soul &#8212;</l>
-                    <l>The liberal hand, the kinder heart;</l>
-                    <l>And never did a death-bell toll</l>
-                    <l>For one more free from worldly art</l>
+                    <l>Maxims of caution, prudent fears ^^ <add rend="sup">should endure</add> </l>
+                    <l>Vexed not the projects of those years;</l> 
+                    <l>Simplicity our steadfast <add rend="sub">darling</add> theme</l>
+                    <l>No works of art adorned our scheme.—</l>
+                    <l><del rend="strike">Simplicity our steadfast theme.</del> ⟨darling scheme⟩</l>
+                    <l>A cottage &amp; c</l> 
                 </lg>
-                
-                <lg type="stanza">
-                    <l>And never was the cry of grief</l>
-                    <l>Disease, or poverty, or pain</l>
-                    <l>Or supplication for relief</l>
-                    <l>Addressed to his kind heart in vain</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>But ready still, by night or day</l>
-                    <l>Was he the poor man&#8217;s prayer to hear</l>
-                    <l>The sufferer&#8217;s anguish to alloy</l>
-                    <l>The desolate orphans heart to chear</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>The cherished Friends who knew his work &#8212;</l>
-                    <l>By firm esteem to him were bound</l> 
-                </lg>    
-                    <pb/>
             </div>
             
             <div type="paratext">
-                <head>
-                    <span change="blue"><hi rend="underline">[Page 15v]</hi></span>
-                </head>
-            </div>
-                
-            <div type="poetry">
-                <lg type="stanza">
-                    <l>And gaiety &amp; harmless mirth</l>
-                    <l>In him a kind promoter found.</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>His long descent &#8212; his ancient line &#8212;</l>
-                    <l>Too oft in men the cause of pride &#8212;</l>
-                    <l>He counted naugh! &#8212; his great design</l>
-                    <l>Was to far nobler thoughts allied.</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>It was the spread of Christian love</l>
-                    <l>And charity &#8217;mongst small &amp; great;</l>
-                    <l>His life long aim was to remove</l>
-                    <l>Dissension, enmity, &amp; hate</l>
-                </lg>
-                
-                <lg type="stanza">
-                    <l>Although a carping few there be</l>
-                    <l>Who slightingly his Merits hold;</l>
-                    <l>Yet hundreds more will say with me</l>
-                    <l>A warmer heart death ne&#8217;er made cold</l>
-                </lg>
-                               
-                <p rend="indent1">D Wordsworth. March 3<add rend="sup">rd</add> 1848</p>
-               
-            </div>
+                <p><span change="blue"><hi rend="underline">[Page 38r]</hi></span></p>
+            </div> 
         </body>
     </text>
 </TEI>
+
 
 
 
