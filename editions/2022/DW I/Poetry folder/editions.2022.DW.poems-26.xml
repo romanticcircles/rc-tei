@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -208,7 +206,7 @@
         <body>
             <div type="paratext">
                 <head>
-                    <span change="blue">[Page f.insert 5, pasted to 48v]</span>
+                    <span change="blue"><hi rend="underline">[Page f.insert 5, pasted to 48v]</hi></span>
                 </head>
             </div>
             
@@ -220,7 +218,8 @@
             <div type="paratext">
                 <span change="blue">[Column 1]</span>       <!--This needs to be a lighter blue than above paratext-->
             </div>
-                
+             
+             <div type="poetry">
                 <lg type="stanza">
                     <l>The worship of this sabbath Morn</l>
                     <l>How sweetly it begins!</l> 
@@ -236,11 +235,13 @@
                     <l>And leisure, peace &amp; loving friends</l>
                     <l>Are the best treasures of an earthly home</l>
                 </lg>
-            
+             </div>
+                
             <div type="paratext">
-                <span>[Column 2]</span>
+                <span change="blue">[Column 2]</span>  <!--This needs to be a lighter blue than above paratext-->
             </div>
             
+            <div type="poetry">
                 <lg type="stanza">
                     <l>Such gifts are mine</l>
                     <l>Then why deplore the body&#8217;s gentle slow decay?</l>
@@ -248,34 +249,13 @@
                     <l>To fix my hopes upon a surer stay.</l>
                 </lg>
                 
-                <p rend="indent1">Dorothy Wordsworth<lb/>                                   <!--Is this indent done correctly for both lines?-->
-                    <hi rend="indent1">Rydal Mount, April 26<add rend="sup">th</add></hi>
+                <p><hi rend="indent1">Dorothy Wordsworth</hi><lb/>                                   <!--Is this indent done correctly for both lines?-->
+                <hi rend="indent1">Rydal Mount, April 26<add rend="sup">th</add></hi><lb/>
+                <hi rend="indent3">1849</hi><lb/>
+                To Mr. Graham.
                 </p>
-                
-                <div type="paratext">
-                    <head>
-                        <span change="blue">[Page f.49r]</span>
-                    </head>
-                </div>
-                
-                <div type="paratext">
-                    <head>
-                        <span change="blue">[Page f.49v]</span>
-                    </head>
-                </div>
-                
-                <div type="paratext">
-                    <head>
-                        <span change="blue">[Page f.50v]</span>
-                    </head>
-                </div>
-                
-                <div type="paratext">
-                    <head>
-                        <span change="blue">[Page f.50r]</span>
-                    </head>
-                </div>
-                
+            </div>
+              
             </div>
             
         </body>
