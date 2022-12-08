@@ -425,7 +425,7 @@ Romantic Circles, subject to our conditions of use.</p>
 </teiHeader>
 <text>
 <body>
-	<div type="paratext">
+	  <div type="section">
 		<head><l rendition="#largest">FRANKENSTEIN;</l>
 			<l rendition="#smallest"><hi rendition="#smallcaps">OR,</hi></l><lb/>
 		<l rendition="#larger">THE MODERN PROMETHEUS.</l> 
@@ -441,79 +441,86 @@ Romantic Circles, subject to our conditions of use.</p>
 		<l rendition="#large">VOL. I.</l>
 				<l>&#8212;&#8212;&#8212;</l>
 		<l rendition="#small">London:</l>
-				<l rendition="#smallest"><hi rendition="#smallcaps">PRINTED FOR</hi></l>
-		<l>LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</l><lb/>
-		<l>FINSBURY SQUARE.</l>
+				<l rendition="#smallest"><hi rendition="#smallcaps">PRINTED FOR</hi><lb/>
+		LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,<lb/>
+		FINSBURY SQUARE.</l>
 			<l>&#8212;&#8212;&#8212;</l>
 		<l>1818.</l></head>
-	</div>
+	</div> 
+	
 	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="paratext">
+		<anchor xml:id="index"/>
 		<head>Index</head></div>
 		
 	<div type="section">
 		<list type="unordered">
-			<item>Dedication</item>
-			<item>Preface</item>
-			<item>Letter I</item>
-			<item>Letter II</item>
-			<item>Letter III</item>
-			<item>Letter IV</item></list></div>
+			<item><ref target="#dedication">Dedication</ref></item>
+			<item><ref target="#preface">Preface</ref></item>
+			<item><ref target="#letter1">Letter I</ref></item>
+			<item><ref target="#letter2">Letter II</ref></item>
+			<item><ref target="#letter3">Letter III</ref></item>
+			<item><ref target="#letter4">Letter IV</ref></item></list></div>
 	
 	<div type="section">
-			<head>Vol. I</head>
+			<head><ref target="#vol1">Vol. I</ref></head>
 		<list type="unordered">
-			<item>Chapter 1</item>
-			<item>Chapter 2</item>
-			<item>Chapter 3</item>
-			<item>Chapter 4</item>
-			<item>Chapter 5</item>
-			<item>Chapter 6</item>
-			<item>Chapter 7</item></list></div>
+			<item><ref target="#vol1ch1">Chapter 1</ref></item>
+			<item><ref target="#vol1ch2">Chapter 2</ref></item>
+			<item><ref target="#vol1ch3">Chapter 3</ref></item>
+			<item><ref target="#vol1ch4">Chapter 4</ref></item>
+			<item><ref target="#vol1ch5">Chapter 5</ref></item>
+			<item><ref target="#vol1ch6">Chapter 6</ref></item>
+			<item><ref target="#vol1ch7">Chapter 7</ref></item></list></div>
 
 	<div type="section">
-		<head>Vol. II</head>
+		<head><ref target="#vol2">Vol. II</ref></head>
 		<list type="unordered">
-		<item>Chapter 1</item>
-		<item>Chapter 2</item>
-		<item>Chapter 3</item>
-		<item>Chapter 4</item>
-		<item>Chapter 5</item>
-		<item>Chapter 6</item>
-		<item>Chapter 7</item>
-		<item>Chapter 8</item>
-		<item>Chapter 9</item>
+		<item><ref target="#vol2ch1">Chapter 1</ref></item>
+		<item><ref target="#vol2ch2">Chapter 2</ref></item>
+		<item><ref target="#vol2ch3">Chapter 3</ref></item>
+		<item><ref target="#vol2ch4">Chapter 4</ref></item>
+		<item><ref target="#vol2ch5">Chapter 5</ref></item>
+		<item><ref target="#vol2ch6">Chapter 6</ref></item>
+		<item><ref target="#vol2ch7">Chapter 7</ref></item>
+		<item><ref target="#vol2ch8">Chapter 8</ref></item>
+		<item><ref target="#vol2ch9">Chapter 9</ref></item>
 		</list></div>
 	<div type="section">
-		<head>Vol. III</head>
+		<head><ref target="#vol3">Vol. III</ref></head>
 		<list type="unordered">
-		<item>Chapter 1</item>
-		<item>Chapter 2</item>
-		<item>Chapter 3</item>
-		<item>Chapter 4</item>
-		<item>Chapter 5</item>
-		<item>Chapter 6</item>
-		<item>Chapter 7</item>
-		<item>Walton, continued</item></list>
+		<item><ref target="#vol3ch1">Chapter 1</ref></item>
+		<item><ref target="#vol3ch2">Chapter 2</ref></item>
+		<item><ref target="#vol3ch3">Chapter 3</ref></item>
+		<item><ref target="#vol3ch4">Chapter 4</ref></item>
+		<item><ref target="#vol3ch5">Chapter 5</ref></item>
+		<item><ref target="#vol3ch6">Chapter 6</ref></item>
+		<item><ref target="#vol3ch7">Chapter 7</ref></item>
+		<item><ref target="#walton">Walton, continued</ref></item></list>
 	</div>
 	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
-		<head>Dedication</head>
+		<anchor xml:id="dedication"/><head>Dedication</head>
 			<l>TO</l>
-			<l rend="emph">WILLIAM GODWIN,</l>
+			<l>WILLIAM GODWIN,</l>
 			<l>AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;C.</l>
 			<l>THESE VOLUMES</l>
-			<l>Are respectfully inscribed BY</l>
-			<l>THE AUTHOR</l>
+			<l>Are respectfully inscribed BY<lb/>
+			THE AUTHOR</l>
+		
 	</div>
+	
+	<div type="section">
+	<p rend="emph"><ref target="#index">Index</ref></p></div>
 	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="preface"/>
 		<head>Preface</head>
 		<p>THE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not
 			of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in
@@ -545,9 +552,13 @@ Romantic Circles, subject to our conditions of use.</p>
 			scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="letter1"/>
 		<head>Letter I</head>
 		<p>To Mrs. SAVILLE, England.</p>
 		<p>St. Petersburgh, Dec. 11th, 17--.</p>
@@ -612,9 +623,13 @@ Romantic Circles, subject to our conditions of use.</p>
 		<p>R. WALTON.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="letter2"/>
 		<head>Letter II</head>
 		<p>To Mrs. SAVILLE, England.</p>
 		<p>Archangel, 28th March, 17--.</p>
@@ -669,9 +684,13 @@ Romantic Circles, subject to our conditions of use.</p>
 		<p>ROBERT WALTON.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="letter3"/>
 		<head>Letter III</head>
 		<p>To Mrs. SAVILLE, England.</p>
 		<p>July 7th, 17--.</p>
@@ -692,9 +711,13 @@ Romantic Circles, subject to our conditions of use.</p>
 		<p>R.W.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="letter4"/>
 		<head>Letter IV</head>
 		<p>To Mrs. SAVILLE, England.</p>
 		<p>August 5th, 17--.</p>
@@ -812,9 +835,20 @@ Romantic Circles, subject to our conditions of use.</p>
 			but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
 	<lb/><milestone unit="paratext"/><lb/>
 	
 	<div type="section">
+		<anchor xml:id="vol1"/>
+		<head>
+			<l rendition="#largest">1818 EDITION : VOL. 1</l>	
+		</head>
+	</div>
+	
+	<div type="section">
+		<anchor xml:id="vol1ch1"/>
 		<head>Chapter 1</head>
 
 
@@ -987,8 +1021,15 @@ Romantic Circles, subject to our conditions of use.</p>
 	comply with and obey the slightest desire of each other.</p>
 
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 2 -->
 	<div type="section">
+		<anchor xml:id="vol1ch2"/>
 	<head>Chapter 2</head>
 		
 		<p>WHEN I had attained the age of seventeen, my parents resolved that I should become a
@@ -1166,9 +1207,15 @@ Romantic Circles, subject to our conditions of use.</p>
 		
 			<p>Thus ended a day memorable to me; it decided my future destiny.</p>
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
 		
 	<!-- Chapter 3 -->
-<div type="section">	
+<div type="section">
+<anchor xml:id="vol1ch3"/>	
 		<head>Chapter 3</head>
 	
 		<p>FROM this day natural philosophy, and particularly
@@ -1428,8 +1475,14 @@ Romantic Circles, subject to our conditions of use.</p>
 			my creation should be complete.</p>
 	
 </div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
 <!-- Chapter 4 -->
 	<div type="section">
+		<anchor xml:id="vol1ch4"/>
 	<head>Chapter 4</head>
 		<p>IT was on a
 			dreary night of November, that I beheld the accomplishment of
@@ -1693,8 +1746,15 @@ Romantic Circles, subject to our conditions of use.</p>
 				from your cousin, I believe."</p>
 		
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 5 -->
 	<div type="section">
+		<anchor xml:id="vol1ch5"/>
 		<head>Chapter 5</head>
 <p>
 CLERVAL then put the following letter into my
@@ -1908,8 +1968,8 @@ happily turned the conversation from a subject that was so
 annoying to me.</p>
 
 
-<p>Clerval was no natural philosopher.  His imagination was too vivid for the
-minutiae of science.  Languages were
+<p>Clerval was no natural philosopher. His imagination was too vivid for the
+minutiae of science. Languages were
 his principal study; and he sought, but acquiring their elements, to
 open a field for self-instruction on his return to Geneva.  Persian,
 Arabic, and Hebrew, gained his attention, after he had made himself
@@ -1992,8 +2052,15 @@ feelings of unbridled joy and
 hilarity.
 </p>
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 6 -->
 	<div type="section">
+		<anchor xml:id="vol1ch6"/>
 <head>Chapter 6</head>
 
 <p>
@@ -2110,7 +2177,7 @@ horses."</p>
 
 
 <p>During our walk, Clerval endeavoured to raise my spirits.  He did not do
-this by common topics of consolation, but by exhibiting the truest sympathy.  "Poor William!" said
+this by common topics of consolation, but by exhibiting the truest sympathy. "Poor William!" said
 he, "that dear child; he now sleeps with
 his angel mother.  His friends mourn and weep, but he is at rest:  he
 does not now feel the murderer's grasp; a sod covers his gentle form, and
@@ -2294,14 +2361,14 @@ joyous and delighted.  But we are now unhappy; and, I am afraid,
 tears instead of smiles will be your welcome.  Our father looks
 so sorrowful:  this dreadful event seems to have revived in his
 mind his grief on the death of Mamma.  Poor Elizabeth also is
-quite inconsolable."  Ernest began to weep as he
+quite inconsolable." Ernest began to weep as he
 said these
 words.</p>
 
 
 <p>"Do not," said I, "welcome me thus; try to be more calm, that
 I may not be absolutely miserable the moment I enter my father's
-house after so long an absence.  But, tell me, how does my father
+house after so long an absence. But, tell me, how does my father
 support his misfortunes? and how is my poor Elizabeth?"</p>
 
 
@@ -2381,16 +2448,16 @@ eagerness, but without prognosticating an evil result.</p>
 
 
 <p>We were soon joined by Elizabeth. Time had made great
-alterations in her form since I had last beheld her.  Six years
+alterations in her form since I had last beheld her. Six years
 before she had been a pretty, good-humoured girl, whom every one
-loved and caressed.  She was now a woman in stature and
-expression of countenance, which was uncommonly lovely.  An open
+loved and caressed. She was now a woman in stature and
+expression of countenance, which was uncommonly lovely. An open
 and capacious forehead gave indications of a good understanding,
-joined to great frankness of disposition.  Her eyes
+joined to great frankness of disposition. Her eyes
 were hazel,
 and expressive of mildness, now through recent affliction allied
-to sadness.  Her hair was of a rich dark auburn, her complexion
-fair, and her figure slight and graceful.  She welcomed me with
+to sadness. Her hair was of a rich dark auburn, her complexion
+fair, and her figure slight and graceful. She welcomed me with
 the greatest affection. "Your arrival, my dear cousin," said she,
 "fills me with hope. You perhaps will find some means to justify
 my poor guiltless Justine. Alas! who is safe, if she be convicted
@@ -2408,20 +2475,22 @@ proved; fear nothing, but let your spirits be cheered by the
 assurance of her acquittal."</p>
 
 
-<p>"How kind you are! every one else believes in her
-    guilt, and
-    that made me wretched; for I knew that it was impossible: and to
-    see every one else prejudiced in so deadly a manner, rendered me
-    hopeless and despairing." She wept.</p>
+<p>"How kind you are! every one else believes in her guilt, and that made me wretched; for I knew that it was impossible: and to see every one else 
+	prejudiced in so deadly a manner, rendered me hopeless and despairing." She wept.</p>
 
 
-<p>"Sweet niece," said my father, "dry your
-        tears. If she is, as you believe, innocent, rely on the justice of our
-    judges, and the activity with which I shall prevent the slightest
-    shadow of partiality."</p>
+<p>"Sweet niece," said my father, "dry your tears. If she is, as you believe, innocent, rely on the justice of our judges, and the activity with which I shall 
+	prevent the slightest shadow of partiality."</p>
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 7 -->
 	<div type="section">
+		<anchor xml:id="vol1ch7"/>
 <head>Chapter 7</head>
 		<p>WE passed a few sad hours, until eleven o'clock, when the trial was to commence. My father
 			and the rest of the family being obliged to attend as witnesses, I accompanied them to the court. During the whole
@@ -2617,7 +2686,8 @@ assurance of her acquittal."</p>
 				consolation, for there is no hope. Yet heaven bless thee, my dearest Justine, with resignation, and a confidence
 				elevated beyond this world. Oh! how I hate its shews and mockeries! when one creature is murdered, another is
 				immediately deprived of life in a slow torturing manner; then the executioners, their hands yet reeking with the
-				blood of innocence, believe that they have done a great deed. They call this retribution. Hateful name! When that word is pronounced, I know greater and more horrid punishments are going to be
+				blood of innocence, believe that they have done a great deed. They call this retribution. Hateful name! When that word is pronounced, 
+				I know greater and more horrid punishments are going to be
 				inflicted than the gloomiest tyrant has ever invented to satiate his utmost revenge. Yet this is not consolation
 				for you, my Justine, unless indeed that you may glory in escaping from so miserable a den. Alas! I would I were in
 				peace with my aunt and my lovely William, escaped from a world which is hateful to me, and the visages of men
@@ -2677,20 +2747,27 @@ assurance of her acquittal."</p>
 				endured.</p>
 		
 		
-		<p>END OF VOL. I.</p>
+		<p rend="emph">END OF VOL. I.</p>
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+
 	
 	<lb/><milestone unit="section"/><lb/>
 	
 	<!-- Beginning of Vol.2 -->
-	<div type="paratext">
+	  <div type="section">
+	  	<anchor xml:id="vol2"/>
 		<head>
-			<l rendition="largest">1818 EDITION : VOL. 2</l>>	
+			<l rendition="#largest">1818 EDITION : VOL. 2</l>	
 		</head>
-	</div>
+	</div> 
 	
 	<!-- Chapter 1 -->
 	<div type="section">
+		<anchor xml:id="vol2ch1"/>
 		<head>Chapter 1</head>
 		<p>NOTHING is more painful to the human mind, than, after the feelings have been worked up by a quick succession of events, the
 			dead calmness of inaction and certainty which follows, and deprives the soul both of hope and fear. Justine died; she rested;
@@ -2821,8 +2898,14 @@ assurance of her acquittal."</p>
 			<p>We retired early to our apartments, but not to sleep; at least I did not. I remained many hours at the window, watching the
 				pallid lightning that played above Mont Blanc, and listening to the rushing of the Arve, which ran below my window.</p></div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 2 -->
 	<div type="section">
+		<anchor xml:id="vol2ch2"/>
 		<head>Chapter 2</head>
 		<p> THE next day, contrary to the prognostications of our guides, was fine, although clouded. We visited the source of the
 			Arveiron, and rode about the valley until evening. These sublime and magnificent scenes afforded me the greatest consolation
@@ -2971,8 +3054,14 @@ assurance of her acquittal."</p>
 				to listen; and, seating myself by the fire which my odious companion had lighted, he thus began his tale.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 3 -->
 	<div type="section">
+		<anchor xml:id="vol2ch3"/>
 		<head>Chapter 3</head>
 		<p> "IT is with considerable difficulty that I remember the original æra of my being: all the events of that period appear
 			confused and indistinct. A strange multiplicity of sensations seized me, and I saw, felt, heard, and smelt, at the same time;
@@ -3151,8 +3240,14 @@ assurance of her acquittal."</p>
 				rest.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!--Chapter 4 -->
 	<div type="section">
+		<anchor xml:id="vol2ch4"/>
 		<head>Chapter 4</head>
 		<p> "I LAY on my straw, but I could not sleep. I thought of the occurrences of the day. What chiefly struck me was the gentle
 			manners of these people; and I longed to join them, but dared not. I remembered too well the treatment I had suffered the
@@ -3280,8 +3375,14 @@ assurance of her acquittal."</p>
 				blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of joy.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 5 -->
 	<div type="section">
+		<anchor xml:id="vol2ch5"/>
 		<head>Chapter 5</head>
 		<p> "I NOW hasten to the more moving part of my story. I shall relate events that impressed me with feelings which, from what I
 			was, have made me what I am.</p>
@@ -3409,8 +3510,15 @@ assurance of her acquittal."</p>
 			<p>"I will soon explain to what these feelings tended; but allow me now to return to the cottagers, whose story excited in me such
 				various feelings of indignation, delight, and wonder, but which all terminated in additional love and reverence for my
 				protectors (for so I loved, in an innocent, half painful self-deceit, to call them).</p></div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 6 -->
 	<div type="section">
+		<anchor xml:id="vol2ch6"/>
 		<head>Chapter 6</head>
 		<p>"SOME time elapsed before I learned the history of my friends. It was one which could not fail to impress itself deeply on my
 			mind, unfolding as it did a number of circumstances each interesting and wonderful to one so utterly inexperienced as I
@@ -3528,9 +3636,15 @@ assurance of her acquittal."</p>
 				lived took care that Safie should arrive in safety at the cottage of her lover.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 7 -->
 	
 	<div type="section">
+		<anchor xml:id="vol2ch7"/>
 		<head>Chapter 7</head>
 		<p> "SUCH was the history of my beloved cottagers. It impressed me deeply. I learned, from the views of social life which it
 			developed, to admire their virtues, and to deprecate the vices of mankind.</p>
@@ -3728,9 +3842,15 @@ assurance of her acquittal."</p>
 				by pain and anguish, I quitted the cottage, and in the general tumult escaped unperceived to my hovel.</p>	
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 8 -->
 	
 	<div type="section">
+		<anchor xml:id="vol2ch8"/>
 		<head>Chapter 8</head>
 		<p> "CURSED, cursed creator! Why did I live? Why, in that instant, did I not extinguish the spark of existence which you had so
 			wantonly bestowed? I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge. I could
@@ -3921,8 +4041,14 @@ assurance of her acquittal."</p>
 				deny herself to me. My companion must be of the same species, and have the same defects. This being you must create."</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 9 -->
 	<div type="section">
+		<anchor xml:id="vol2ch9"/>
 		<head>Chapter 9</head>
 		<p> THE being finished speaking, and fixed his looks upon me in expectation of a reply. But I was bewildered, perplexed, and
 			unable to arrange my ideas sufficiently to understand the full extent of his proposition. He continued—</p>
@@ -4047,15 +4173,22 @@ assurance of her acquittal."</p>
 				least with some degree of tranquillity.</p>
 		<p rend="emph">END OF VOL. II</p>
 	</div>
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	
+	
 	<lb/><milestone unit="section"/><lb/>
 	
 	<!-- Beginning of Vol.3 -->
-	<div type="paratext">
+	  <div type="paratext">
+	  	<anchor xml:id="vol3"/>
 		<head>
-			<l rendition="largest">1818 EDITION : VOL. 3</l>>	
-		</head>
-	</div>
+			<l rendition="#largest">1818 EDITION : VOL. 3</l>	
+		</head> 
+	</div> 
 	<div type="section">
+		<anchor xml:id="vol3ch1"/>
 		<head>Chapter 1</head>
 		<p>
 DAY after day, week after week, passed away on my
@@ -4159,7 +4292,7 @@ variation was agreeable to me, and I was delighted with the idea
 of spending a year or two in change of scene and variety of
 occupation, in absence from my
 family; during which period some event might happen which
-would restore me to them in peace and happiness:  my promise
+would restore me to them in peace and happiness: my promise
 might be fulfilled, and the monster have departed; or some
 accident might occur to destroy him, and put an end to my slavery for ever.</p>
 
@@ -4172,24 +4305,24 @@ walls of my native town.</p>
 <p>
 I urged my entreaty with earnestness, and my father was
 easily induced to comply; for a more indulgent and less
-dictatorial parent did not exist upon earth.  Our plan was soon
-arranged.  I should travel to Strasburgh, where Clerval would
-join me.  Some short time would be spent in the towns of Holland,
-and our principal stay would be in England.  We should return by
+dictatorial parent did not exist upon earth. Our plan was soon
+arranged. I should travel to Strasburgh, where Clerval would
+join me. Some short time would be spent in the towns of Holland,
+and our principal stay would be in England. We should return by
 France; and it was agreed that the tour should occupy the space
 of two years.</p>
 
 <p>My father pleased himself with the reflection, that my union
 with Elizabeth should take place immediately on my return to
-Geneva.  "These two years," said he, "will pass swiftly, and it
+Geneva. "These two years," said he, "will pass swiftly, and it
 will be the last delay that will oppose itself to your happiness.
 And, indeed, I earnestly desire that period to arrive, when we
 shall all be united, and neither hopes or fears arise to disturb
 our domestic calm."</p>
 
-<p>"I am content," I replied, "with your arrangement.  By that
+<p>"I am content," I replied, "with your arrangement. By that
 time we shall both have become wiser, and I hope happier, than we
-at present are."  I sighed; but my father kindly forbore to
+at present are." I sighed; but my father kindly forbore to
 question me further concerning the cause of my dejection.  He
 hoped that new scenes, and the amusement of travelling, would
 restore my tranquillity.</p>
@@ -4216,15 +4349,15 @@ August that I departed, to pass two years of exile. Elizabeth
 approved of the reasons of my departure, and only regretted that she had not the
 same opportunities of enlarging her experience, and cultivating
 her understanding.  She wept, however, as she bade me
-farewell, and entreated me to return happy and tranquil.  "We
+farewell, and entreated me to return happy and tranquil. "We
 all," said she, "depend upon you; and if you are miserable, what
 must be our feelings?"</p>
 
 <p>I threw myself into the carriage that was to convey me away,
 hardly knowing whither I was going, and careless of what was passing
-around.  I remembered only, and it was with a bitter anguish
+around. I remembered only, and it was with a bitter anguish
 that I reflected on it, to order that my chemical instruments
-should be packed to go with me:  for I resolved to fulfil my
+should be packed to go with me: for I resolved to fulfil my
 promise while abroad, and return, if possible, a free man. Filled with dreary
 imaginations, I passed through many beautiful and majestic
 scenes; but my eyes were fixed and unobserving. I could only
@@ -4348,8 +4481,14 @@ heard of even in my country.</p>
 <p>At length, we saw the numerous steeples of London, St. Paul's towering above all, and the Tower famed in English history.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 <!-- Chapter 2 -->
 	<div type="section">
+		<anchor xml:id="vol3ch2"/>
 		<head>Chapter 2</head>
 		<p> LONDON was our present point of rest; we determined to remain several
 			months in this wonderful and celebrated city. Clerval desired the intercourse of the men of genius and talent who
@@ -4397,7 +4536,8 @@ heard of even in my country.</p>
 				filled with the remembrance of the events that had
 				been transacted there more than a century and a half before. It was here that Charles I. had collected his forces.
 				This city had remained faithful to him, after the whole nation had forsaken his cause to join the standard of
-				parliament and liberty. The memory of that unfortunate king, and his companions, the amiable Falkland, the insolent Gower, his queen, and son, gave a peculiar interest to every
+				parliament and liberty. The memory of that unfortunate king, and his companions, the amiable Falkland, the insolent Gower, his queen, and son, 
+				gave a peculiar interest to every
 				part of the city, which they might be supposed to have inhabited. The spirit of elder days found a dwelling here,
 				and we delighted to trace its footsteps. If these feelings had not found an imaginary gratification, the
 				appearance of the city had yet in itself sufficient beauty to obtain our admiration. The colleges are ancient and
@@ -4525,12 +4665,16 @@ heard of even in my country.</p>
 				intermixed with obscure forebodings of evil, that made my heart sicken in my bosom.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 3 -->
 	<div type="section">
+		<anchor xml:id="vol3ch3"/>
 		<head>Chapter 3</head>
-		<p>
-I SAT one evening in my laboratory; the sun had
-set, and the moon was just rising from the sea; I had not
+		<p>I SAT one evening in my laboratory; the sun had set, and the moon was just rising from the sea; I had not
 sufficient light for my employment, and I remained idle, in a
 pause of consideration of whether I should leave my labour for
 the night, or hasten its conclusion by an unremitting attention
@@ -4894,9 +5038,15 @@ memory of the frightful events which I am about to relate, in proper detail, to 
 recollection.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 4 -->
 
 <div type="section">
+	<anchor xml:id="vol3ch4"/>
 	<head>Chapter 4</head>
 	<p> I WAS soon introduced into the presence of the magistrate, an old benevolent man, with calm and mild manners. He looked upon me, however, with some degree of severity; 
 		and then, turning towards my conductors, he asked who appeared as witnesses on this occasion.</p>
@@ -5090,8 +5240,14 @@ recollection.</p>
 	My father, who was watching over me, perceiving my restlessness, awoke me, and pointed to the port of Holyhead, which we were now entering.</p>
 </div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 5 -->
 <div type="section">
+	<anchor xml:id="vol3ch5"/>
 	<head>Chapter 5</head>
 	<p> WE had resolved not to go to London, but to cross the country to Portsmouth, and thence to embark for Havre. I preferred this plan principally because I
 		dreaded to see again those places in which I had enjoyed a few moments of tranquillity with my beloved Clerval. I
@@ -5339,9 +5495,15 @@ recollection.</p>
 			those cares and fears revive, which soon were to clasp me, and cling to me for ever.</p>
 </div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 6 -->
 	
 	<div type="section">
+		<anchor xml:id="vol3ch6"/>
 		<head>Chapter 6</head>
 	
 	<p>IT was eight o'clock when we landed; we walked for a short time on the
@@ -5408,8 +5570,7 @@ recollection.</p>
 			landed, they proceeded to search the country, parties going in different directions among the woods and vines.</p>
 	
 		<p>I did not accompany them; I was exhausted: a film covered my eyes, and my skin was parched
-			with the heat of fever. In this state I lay on a bed,
-			hardly conscious of what had happened; my eyes wandered round the room, as if to seek something that I had
+			with the heat of fever. In this state I lay on a bed, hardly conscious of what had happened; my eyes wandered round the room, as if to seek something that I had
 			lost.</p>
 	
 		<p>At length I remembered that my father would anxiously expect the return of Elizabeth and
@@ -5523,9 +5684,15 @@ recollection.</p>
 			action.</p>
 	</div>
 	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Chapter 7 -->
 	
 	<div type="section">
+		<anchor xml:id="vol3ch7"/>
 		<head>Chapter 7</head>
 		<p> MY present situation was one in which all voluntary thought was
  swallowed up and lost. I was hurried away by fury; revenge alone endowed me
@@ -5836,8 +6003,15 @@ Justine, Clerval, Elizabeth, my father, and of the wretched Victor, and thrust y
 aright.
 </p>
 	</div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
+	
 	<!-- Walton, in continuation -->
 <div type="section">
+	<anchor xml:id="walton"/>
 	<head>Walton, in continuation</head>
 <p>August 26th,
 17--.</p>
@@ -6363,6 +6537,11 @@ which lay close to the vessel. He was soon borne away by the
 waves, and lost in darkness and
 distance."</p>
 </div>
+	
+	<div type="section">
+		<p rend="emph"><ref target="#index">Index</ref></p></div>
+	
+	<lb/><milestone unit="paratext"/><lb/>
 		
 </body>
 </text>
