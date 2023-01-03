@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Index of Key People in Notebook 15 of the Rydal Journals
+                    DCMS 118.5 (1834–1835)                    
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="secondary">
+                    <name>Nick Mason</name>
+                </author>
+                
+                <editor role="editor">Nick Mason</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.RJ-15-index</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Index of Key People in Notebook 15 of the Rydal Journals
+                            DCMS 118.5 (1834–1835)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.RJ-15-index"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Lavender Earnest</name>
+                <date>2022-09-09</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="essay">
+                <div type="paratext">
+            <head>Index of Key People in Notebook 15 of the Rydal Journals</head>
+                <head type="subhead">DCMS 118.5 (1834&#8211;1835)</head>
+            
+            <p>This index provides details on those individuals who appear most frequently in
+                Notebook 15, placing particular emphasis on their relationship with Dorothy
+                Wordsworth in 1834&#8211;1835. Each entry begins with the person&#8217;s name (marking maiden
+                names with &#8220;née&#8221;), birth and death years, age at the start of 1835 (or midway
+                through this notebook), and, when applicable, a link to his or her entry in the
+                online version of the <hi rend="italic">Oxford Dictionary of National
+                Biography</hi>. General bios for many individuals listed below can be found in this
+                edition’s Biographical Index (link).</p>
+             </div>
+                <lb/><milestone unit="paratext"></milestone>
+            
+            <div type="section">
+            <head>The Household at Rydal Mount</head>
+                
+            <p><hi rend="bold">Wordsworth, William (1770–1850, age 64, <ref
+                target="https://doi.org/10.1093/ref:odnb/29973"><span change="blue">DNB</span></ref>):</hi>
+                DW&#8217;s elder brother, with whom she had made a home since both were in their mid-twenties.
+                In 1834&#8211;35 WW was weighed down by his sister&#8217;s and daughter&#8217;s illnesses,
+                his own chronic eye pain, his growing anxiety about the state of the nation, and the recent
+                deaths of several close friends, including Walter Scott, Samuel Taylor Coleridge, and Charles Lamb.
+                <note place="foot" resp="editors">Letters</hi>, 5:728, 746.</note> He nevertheless
+                remained actively engaged in local and national politics, his duties as Distributor
+                of Stamps, and his literary pursuits, which included writing and revising numerous
+                poems and overseeing publication of his two critical and popular successes of 1835,
+                the fifth (and final) edition of his <title level="m">Guide to the Lakes</title> and
+                his new verse collection, <title level="m">Yarrow Revisited</title.
+                    <note place="foot" resp="editors">For the reception of the 1835 <title level="m">Guide</title>, 
+                        see <ref target="/editions.2020.guide_lakes.introduction.html#section5">paras. 29&#8211;31
+                        of the introduction</ref> to Mason, Westover, and Stimpson, <hi rend="italic">William
+                        Wordsworth&#8217;s</hi> Guide. For the composition and reception of <hi rend="italic">Yarrow
+                        Revisited</hi>, see Barker, 655&#8211;69.</note></p>
+                
+                <p><hi rend="bold">Wordsworth, Mary (née Hutchinson, 1770&#8211;1859, age 64):</hi> WW&#8217;s wife
+                and DW&#8217;s beloved friend and housemate. Like her husband, MW remained physically,
+                socially, and intellectually vibrant during a period when many of her contemporaries
+                had grown feeble or passed away. In 1835 Henry Crabb Robinson described her as
+                &#8220;perfect of her kind,&#8221; and Hartley Coleridge remarked in 1832 that &#8220;Mrs. W seems
+                remarkably flourishing, and does not grow older. Indeed, both she and her excellent
+                husband belong to that class of persons, who look very old at thirty and very young
+                at sixty.&#8221;
+                    <note place="foot" resp="editors"> Robinson, <title level="m">Henry Crabb Robinson on Books</title>,
+                        474; H. Coleridge, <title level="m">Letters</title>, 136.</note></p>
+            
+                <p><hi rend="bold">Wordsworth, Dora (1804&#8211;47, age 30):</hi> WW and MW&#8217;s second child and
+                only surviving daughter, who, partly owing to her fragile health, continued to live
+                with her parents at RM. In her twenties, Dora had had at least two serious suitors:
+                her distant cousin Lt. Tom Robinson in 1825 (as chronicled in Notebook 1) and Rev.
+                William Ayling, a visitor to Rydal who unexpectedly proposed in 1830 and was
+                decisively rejected.
+                    <note place="foot" resp="editors">For details on Ayling&#8217;s surprise proposal, see <title level="m">Letters</title>,
+                        5:429n. Years later, Dora conjectured that Ayling and his family &#8220;only wanted [her] among them because [she]
+                        was Wordsworth&#8217;s daughter&#8221; (<hi rend="italic">LDW</hi>, 90).</note> 
+                Between her chronic illnesses and an apparent eating disorder, Dora grew so feeble in the mid-1830s that
+                her parents openly referred to her and DW as the twin &#8220;Invalids&#8221; of RM and WW
+                privately worried that his daughter might need to be sent away, as &#8220;the state of
+                [her] poor Aunt causes so much Distress to Dora that <hi rend="italic">she</hi>
+                cannot I am sure recover, if she remains here.&#8221; &#8220;The most painful part,&#8221;
+                he continued, &#8220;is the effect which her Aunt&#8217;s illness produces upon the Niece.
+                The poor Aunt is 64 years of age, but Dora is young.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 6:166. See also <title level="m">LMW</title>,
+                        136, 141, 144; Barker, 660&#8211;61.</note>
+                </p>
+                
+             <p><hi rend="bold">Wordsworth, Willy (1810&#8211;83, age 24):</hi> WW and MW&#8217;s youngest
+                surviving child, who in his mid-twenties seemed uninterested in starting a family of
+                his own (he would remain single until 1847) but was settling into a career as his
+                father&#8217;s Sub-distributor of Stamps in Carlisle. Although WW had sufficient faith in
+                his son’s abilities to nominate him as his natural successor when he relinquished
+                his distributorship, MW continued to scold Willy for his carefree ways, warning him
+                at one point to expect no further financial support from RM if he kept living for
+                &#8220;the billiard room&#8221; and &#8220;balls.&#8221;
+                    <note place="foot" resp="editors">
+                        <hi rend="italic">LMW</hi>, 138&#8211;41.</p></note></p>
+            <p><hi rend="bold">Hutchinson, Sara (1775&#8211;1835, age 59):</hi> MW&#8217;s younger sister, who,
+                having never married, moved between the homes of her married siblings but spent most
+                of her adult life in the Lakes with the Wordsworths. After a year away from Rydal,
+                SH returned in June 1834 to nurse DW and Dora and help the Southeys cope with
+                Edith’s confinement to a mental health hospital in York.
+                <note place="foot" resp="editors">Letters</hi>, 5:747.</p></note> Having come to rely on her
+                good health and her firmness in times of crisis, the family at RM was thunderstruck
+                when, after seeming to have beaten the rheumatic fever, SH suddenly relapsed and
+                passed away on 24 June 1835.
+                    <note place="foot" resp="editors"> Barker, 658&#8211;59, 666&#8211;67.</note> 
+                In the hours after her death, her dazed brother-in-law WW wrote that her &#8220;departure is something like a
+                dream,&#8221; as she &#8220;was to this House an inestimable Friend, disinterested, generous,
+                noble-minded, a sincere and pious Christian.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title></hi>, 6:67.</note>
+            </p>
+                
+            <p><hi rend="bold">Hutchinson, Joanna (1780&#8211;1843, age 54):</hi> MW and SH&#8217;s youngest
+                sibling who, between stints with the Wordsworths, lived primarily with her brother
+                Tom until 1826, when she and her newly retired sailor brother, Henry, established a
+                home of their own on the Isle of Man. From 7 November 1834&#8211;30 March 1835, or most of
+                the span of Notebook 15, she was in Rydal helping to nurse DW and her niece Dora,
+                the latter of whom posited that her Aunt Joanna was &#8220;made to be loved&#8221; and was &#8220;the
+                meekest spirit that ever breathed.&#8221;
+                <note place="foot" resp="editors"><title level="m">LDW</title>, 35.</note>
+            </p>
+                
+             <p><hi rend="bold">Hutchinson, Elizabeth &#8220;Ebba&#8221; (1820&#8211;1905, age 14):</hi> The second
+                daughter of Tom and Mary Hutchinson, beloved in-laws of the Wordsworths who for
+                nearly a quarter century had lived as semi-genteel farmers in Herefordshire and
+                eastern Wales. As a token of their love and respect, the Hutchinsons had asked DW to
+                serve as Ebba&#8217;s godmother upon the child&#8217;s birth in 1820. Just how seriously DW took
+                this charge is evident in a letter she sent Ebba in late 1834 expressing a fervent
+                desire to see her &#8220;dear God-daughter before I quit this world&#8221; and imparting &#8220;a
+                God-mother&#8217;s Blessing, with sincerest wishes that [she] may not waste the happy days
+                of Youth.&#8221;
+                 <note place="foot" resp="editors">Letters</note>, 5:738 (see also 5:751).</note>
+                Soon thereafter Ebba made the 200-mile journey north to help care for DW and her cousin
+                Dora, and she ended up staying at RM for most of 1835, dividing her time between
+                domestic chores (including spending long hours reading to DW), attending the
+                Dowlings&#8217; school in Ambleside, and socializing with fellow teenagers from families
+                in the Wordsworths&#8217; social set.
+                    <note place="foot" resp="editors"><title level="m">LSH</title></hi>, 440.</note>
+            </p>
+            </div>
+                
+            <div type="section"    
+            <head>Friends, Family, and Acquaintances in the Lake District</head>
+            <p><hi rend="bold">Arnold, Thomas (1795&#8211;1842, age 39, 
+                <ref target="https://doi.org/10.1093/ref:odnb/686">DNB</hi>) and Mary (née Penrose, 
+                1791&#8211;1873, age 43):</hi> A large, energetic, and brilliant family who, after
+                falling in love with the Grasmere area while holidaying at Allan Bank in the summer 
+                of 1833, decided to build a vacation home of their own and took possession of Fox How
+                in Loughrigg in 1834. Since 1827 Thomas Sr. had been headmaster at Rugby, the prestigious
+                boarding school in Wiltshire. While devoutly Christian and deeply moralistic, he zealously
+                campaigned for ecclesiastical and parliamentary reform, often leaving him at odds
+                with High Church Tory acquaintances like the Wordsworths.
+                    <note place="foot" resp="editors">In 1832, WW remarked to another progressive friend, Crabb Robinson, that
+                        Dr. Arnold was &#8220;as keen a reformer as [Robinson], or any other dissenting Whig&#8221; 
+                        (<title level="m">Letters</hi>, 5:546). Lord Lonsdale, for one, was wary of WW&#8217;s new friend,
+                        complaining to the poet in 1835 that the Rugby headmaster &#8220;show[ed] but
+                        little of that Discretion which ought to distinguish an Instructor of youth&#8221;
+                        (WT MS WLL / Lonsdale and Lowther / 37).</note>
+                These political differences notwithstanding, the Arnold parents and their nine children&#8212;the eldest
+                of whom were their daughter <hi rend="bold">Jane (1821&#8211;99, age 13)</hi> and the
+                budding poet and critic <hi rend="bold">Matthew (1822&#8211;88, age 12, 
+                <ref target="https://doi.org/10.1093/ref:odnb/679">DNB</ref>)</hi>&#8212;quickly became
+                regular visitors to RM when in residence at Fox How.
+            </p>
+                
+            <p><hi rend="bold">Carr, Thomas (1795&#8211;1856, age 39) and Ann (née Dowling, 1784&#8211;1837,
+                age 50):</hi> The local medical man whom H. C. Robinson described as &#8220;a thinker and
+                a man of some reading&#8221; and &#8220;a superior man of the class of country apothecary,&#8221; and
+                his largely bed-ridden wife, who before their 1824 marriage had run the girls&#8217;
+                school in Ambleside.
+                    <note place="foot" resp="editors">Robinson, On Books and Their Writers, 2:482.</note>
+                In the early 1830s Mr. Carr scaled back his practice and the childless couple moved from Cumpstone
+                Lodge in Ambleside to Hill Top, a home in Near Sawrey now associated with its later
+                resident, Beatrix Potter. Despite the move, Mr. Carr remained highly assiduous
+                toward the Wordsworths, making the 18-mile round-trip journey from Hill Top to RM
+                several times in a week when Dora&#8217;s or DW&#8217;s condition required. While DW teased him
+                about needing an &#8220;ear trumpet&#8221; to hear his patients, she paid heartfelt tribute to
+                this &#8220;faithful Friend&#8221; in her 1835 poem &#8220;To Thomas Carr, My Medical Attendant&#8221;  <!--Include link here!!! BUt where is it? Can't find in Poems-->
+                [link to poem elsewhere in this edition].
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 5:679. DW sent a fair copy of this poem to
+                     James Greenwood of Grasmere in October 1835 (<title level="m">Letters</title>, 6:101).</p></note> Unlike
+                     her husband, Mrs. Carr makes few appearances in Notebook 15, as by the mid-1830s she was battling the maladies
+                     that would lead to her death in January 1837 at the age of 52.</note>
+            </p>
+                
+            <p><hi rend="bold">Cookson, Elizabeth (née Mitford, 1775&#8211;1868, age 59), Elizabeth
+                (1799&#8211;1891, age 35), and Hannah (1812&#8211;84, age 22):</hi> Three members (the
+                mother and two eldest daughters) of the &#8220;Kendal Cooksons,&#8221; a family that for three
+                decades had been among the Wordsworths&#8217; closest friends. Amid the national financial
+                crisis of the late 1820s, the Cooksons&#8217; once&#8212;thriving textile businesses near Kendal
+                became mired in debt. While their sons Strickland (1801&#8211;77) and Henry (1810&#8211;76)
+                would escape to have successful careers as a London lawyer and Cambridge headmaster,
+                their other sons were forced either to emigrate to America or take menial jobs in
+                England, and their daughters Elizabeth and Hannah resorted to opening a girls&#8217;
+                day&#8212;school in Ambleside.
+                    <note place="foot" resp="editors"><title level="m">LSH</title>, 372, 377&#8211;78; <hi rend="italic">LDW</hi>, 68;
+                    <title level="m">Letters</title>, 5:219&#8211;20. Published versions of the 22 March 1830 letter in which DW
+                        discusses the planned school in Ambleside mistranscribe &#8220;Hannah&#8221; as &#8220;Harriet&#8221; to read,
+                        incorrectly, &#8220;Elizabeth and Harriet intend to begin a day-school.&#8221; The Cooksons did not have a
+                        Harriet&#8212;their four daughters were Elizabeth, Hannah, Sarah (b. 1814), and Mary (b. 1819)&#8212;and
+                        Hannah&#8217;s role in opening the school is confirmed by Dora&#8217;s 1830 report that &#8220;Hannah is
+                        truly an <hi rend="italic">admirable</hi> person &#8212; She has twelve Pupils &amp; contrives to satisfy
+                        completely all the Mamas &amp; is beloved by her pupils&#8221; (<hi rend="italic">LDW</hi>, 73).</note>
+                Meanwhile, having declared bankruptcy in 1831, the parents, Thomas and Elizabeth, decamped
+                to the Isle of Man for its lower cost of living, only for him to die unexpectedly in the autumn
+                of 1833.
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 5:624. Preliminary
+                    and final notices of the Cooksons&#8217; bankruptcy appeared in <title level="m">Aris&#8217;s
+                    Birmingham Gazette</title>, 4 December 1826, <title level="m">Perry’s Bankrupt
+                    Gazette</title>, 21 May 1831, and <title level="m">WG,</title> 26 January 1833.</note>
+                Thereafter, the widowed Mrs. Cookson moved in with her daughters in Ambleside, where
+                she apparently still resided during the period of Notebook 15. Her final decades
+                would be spent at How Foot, a cottage adjacent to Dove Cottage where she lived to
+                the age of 94.
+                    <note place="foot" resp="editors">The Cooksons&#8217; headstone, which is adjacent to the Wordsworth
+                        family plot in the Grasmere churchyard, reads, &#8220;Elizabeth Cookson of How Foot, Grasmere, Nov.
+                        5th 1868, aet. 94, widow of Thomas Cookson of Kendal, who died Oct. 20th 1833, aged 62, at Ramsey,
+                        Isle of Man.&#8221;</note>
+            </p>
+                
+            <p><hi rend="bold">Elliott, John (1763?&#8211;1835, age 71?) and Anna Maria (née Maltby,
+                1771&#8211;1855, age 63):</hi> A well-connected, peripatetic, and apparently childless
+                couple who befriended the Wordsworths while leasing Ivy Cottage in Rydal from
+                1822&#8211;24. Mr. Elliott was the eldest son of Rear Adm. George Elliott and Mrs. Elliott
+                the daughter of a successful Norwich merchant and sister of Edward Maltby, a
+                Reformist clergyman who became Bishop of Chichester in 1830 and Bishop of Durham in
+                1836. After leaving Rydal, the Elliotts spent six years at various home near
+                Ambleside and four years outside the area before returning to the Central Lakes in 1834.
+                    <note place="foot" resp="editors">Letters</hi>, 5:128, 178. In the <title level="m">RMVB</hi>, MW wryly
+                    listed &#8220;The World&#8221; as the Elliotts&#8217; place of residence when they called after returning
+                    to the Lakes in July 1834.</note>
+                After her husband&#8217;s death in October 1835, Mrs. Elliott passed her remaining years
+                at her brother&#8217;s episcopal residence in Durham.
+                    <note place="foot" resp="editors">Obit. in <title level="m">Berrow&#8217;s Worcester Journal</hi>, 15 September 1855. For
+                    details on Mrs. Elliott&#8217;s family, see the <ref target="https://doi.org/10.1093/ref:odnb/17900">DNB entry</ref> for her
+                    brother Edward Maltby (1770&#8211;1859). After his promotion amid the Whig scheme to pack the House of Lords with supporters
+                    of Reform, DW derisively dubbed him &#8220;The Unitarian Bishop&#8221; in her journal entry for 19 October
+                    1831.</note>
+            </p>
+                
+            <p><hi rend="bold">Farquhar, Sir Minto (1809&#8211;66, age 25):</hi> The only child of Lady
+                Maria Farquhar and her late first husband, Sir Robert. This dashing young baronet&#8217;s
+                arrival from Vienna, where he was employed at the British embassy, sent ripples
+                through the Wordsworths&#8217; social set during the Christmas holiday season of 1834&#8211;35.
+                Dora, for instance, teased her friend Maria Kinnaird, &#8220;Sir Minto, is ready for you
+                &amp; I will give my consent to your becoming his with all my heart&#8212;he has been at
+                the Ivy Cottage for nearly two months &amp; really is the nicest creature ever seen
+                . . . &amp; is moreover a most entertaining creature with a very handsome face [and]
+                sings divinely.&#8221;
+                    <note place="foot" resp="editors"><title level="a">The Letters of Dora,</title> 167.</note>
+                Any hopes, however, that this highly eligible bachelor would fall for a local girl were
+                dashed when word arrived in late 1835 of his having married the daughter of a Scottish noble.
+            </p>
+                
+            <p><hi rend="bold" xml:space="preserve">Fisher, Mary (née Dawson, 1777&#8211;1854, age 67):</hi> A
+                former servant at Dove Cottage and RM who over time had become a valued family
+                friend. Notebook 15 records her regularly visiting DW’s sickbed, and other documents
+                from this period show SH taking tea at Mary&#8217;s cottage in Town End, Grasmere, and WW
+                asking his family in a letter from London to &#8220;keep a glass of Mary Fisher&#8217;s Elder
+                wine for me.&#8221;
+                    <note place="foot" resp="editors"><title level="m">LSH</title>, 422; <title level="m">Letters</title>,
+                    6:257.</note>
+            </p>
+                
+            <p><hi rend="bold">Godwin, Thomas (1781&#8211;1852, age 53) and Catherine Grace (née Garnett, 
+                1798&#8211;1845, ages 36,<ref target="https://doi.org/10.1093/ref:odnb/10888">DNB</ref>):</hi>
+                A retired East India Company surgeon and his literary wife, whose debut verse collection of 
+                1824 had garnered praise from such poetic luminaries as WW, Robert Southey, and Joanna
+                Baillie. The Godwins were married soon after this volume&#8217;s release and settled in
+                Barbon, the village in the southeast corner of Westmorland where she had spent most
+                of her adolescence. In 1829 Mrs. Godwin dedicated her second collection, 
+                <title level="m">The Wanderer&#8217;s Legacy</title>, to WW, and it was in hopes of forging
+                a closer relationship with him and his family that she and her husband repeatedly
+                leased Spring Cottage in Loughrigg in ensuing years, including during the period of
+                Notebook 15.
+                    <note place="foot" resp="editors">Dora&#8217;s letters place the Godwins at Spring Cottage during the
+                    summers of 1831 and 1834 (<title level="a">Letters of Dora Wordsworth,</title> 167 and <ref target="http://collections.wordsworth.org.uk/wtweb/home.asp?page=Letters%20item%20details&amp;mwsquery=%20(%20(%20(%7bTEI%20authors%7d%20=*%20%7bWordsworth,%20Dora%20(1804-1847)%7d)%20)%20)%20&amp;id=1184">WT MS WLL / Wordsworth, Dora / 1 / 35</ref>), and Notebook 15 suggests the latter stay extended
+                     through early 1835.</note>
+                Writing on WW&#8217;s behalf in 1835, DW urged Edward Moxon to consider becoming her publisher,
+                calling Mrs. Godwin and her husband &#8220;excellent and agreeable neighbours&#8221; and opining that
+                &#8220;her style, language, and versification <hi rend="italic">appear to me</hi> very
+                much superior to those of most of the popular female writers of the present
+                day.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 5:743. After Moxon passed on it, Catherine
+                        Godwin&#8217;s collection, <title level="m">The Reproving Angel</title>, was
+                        published in 1835 by the London bookseller Sampson Low.</note>
+            </p>
+                <!--LEFT OFF HERE-->
+                
+            <p><hi rend="bold" xml:space="preserve">Hamilton, Capt. Thomas (1789–1842, age 45, </hi><ref
+                    target="https://doi.org/10.1093/ref:odnb/12129"><hi
+                        rend="italic bold color(0070C0)" style="font-family:PT Sans"
+                    >DNB</hi></ref><hi rend="bold">) and Lady Maria Farquhar (née de Lautour,
+                    1792–1875, age 42):</hi> A middle-aged couple, who, having both been widowed,
+                met in Rydal in 1833, married in February 1834, and lived at Ivy Cottage (his home
+                since 1830) until late 1835, when they moved to Elleray, the Windermere estate of
+                his friend and fellow writer John Wilson. Having inherited a large fortune from her
+                father, an official in the East India company, the former Maria Lautour married her
+                first spouse, Robert Townsend Farquhar, in 1809. A year later they welcomed a son,
+                Minto, and left for Mauritius, where her husband would serve as the colony’s
+                governor from 1810 to 1817 and, after acceding to his baronetcy in 1819, serve a
+                second term from 1820 and 1823. During her earlier stint on this island, Lady
+                Farquhar bonded with her fellow expatriate <hi rend="color(0070C0)">Letitia
+                    Luff</hi>, and twenty years later, after both had been widowed, she met her
+                future husband while visiting her old friend in Loughrigg.<note place="foot"
+                    xml:id="ftn25" n="25"><p rend="footnote text">
+                        <hi rend="italic">Letters</hi>, 5:485–86. Decades later, the Arnolds’ son
+                        Tom remembered
+                        <hi rend="color(ED7D31)" xml:space="preserve">Sir Thomas Pasley </hi>and
+                        Capt. Hamilton being “two of the handsomest men in England.” His principal
+                        recollections of Hamilton were that he had “an unmanageable stammer,” a
+                        giant dog named Lion, and a gift for preparing curries from his time in
+                        India (<hi rend="italic">Passages</hi>, 47–48).</p></note> Prior to moving
+                to the Lakes in 1830, Capt. Hamilton had spent eight years in the army—where he
+                fought in the Peninsular Wars and spent time in Canada—before retiring to Edinburgh
+                on half pay in 1818, becoming a regular contributor to the fledgling <hi
+                    rend="italic">Blackwood’s Magazine</hi>, and having a minor hit in 1827 with his
+                autobiographical novel <hi rend="italic">Cyril Thornton</hi>. Such was this book’s
+                renown that, upon Hamilton’s arrival in Rydal, Dora took to calling him “Cyril,” as
+                in her letter announcing his engagement and reporting that Lady Farquhar “is still
+                at Fox Ghyll &amp; Cyril is there the day thro’.”<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text"> DW, “Letters to Kinnaird,” 161. Elsewhere in
+                        this letter, Dora mocks Hamilton’s stutter by referring to him as
+                        “C-C-Cyril.”</p></note></p>
+            <p><hi rend="bold" xml:space="preserve">Harrison, Benson (1786–1863, age 48) and Dorothy (née Wordsworth, 1800–90, age 34): </hi>Affluent
+                relatives of the Wordsworths who in 1827 had moved from Ulverston, where Benson’s
+                father had made a fortune forging iron, to Green Bank, the spacious Ambleside home
+                where they would spend their remaining days. “Cousin Dorothy,” as she was
+                affectionately known at RM, was the youngest surviving daughter of WW and DW’s first
+                cousin Richard Wordsworth (1752–1816) and had grown close to her Rydal relations
+                while spending nearly a year with them in her early teens.<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text">
+                        <hi rend="italic">Letters</hi>, 2:112, 123.</p></note> Their mutual
+                affection only deepened after she returned to the area as an adult, with DW calling
+                her in 1830 as “good a soul as ever lived.”<note place="foot" xml:id="ftn28" n="28"
+                        ><p rend="footnote text">
+                        <hi rend="italic">Letters</hi>, 5:247.</p></note> Through most of the period
+                covered by Notebook 15, the Harrisons had six children at home—five from their own
+                union (ages 2–10) and a 16-year-old daughter from Benson’s first marriage—but Cousin
+                Dorothy would give birth to their last child in late September 1835.</p>
+            <p><hi rend="bold">Lloyd, Rev. Owen (1803–41, age 31):</hi> A nephew of DW’s brother
+                Christopher who, after spending much of his childhood in the Central Lakes, had
+                graduated from Cambridge, returned to the area as a schoolteacher, and become Curate
+                of Langdale, a position he faithfully filled from 1828 until his tragically early
+                death in 1841.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">
+                        Rawnsley, <hi rend="italic">A Rambler’s Note-book</hi>, 231; <hi
+                            rend="italic">Letters</hi>, 5:171, 648n. Priscilla Lloyd (1781–1815), a
+                        sister of Owen’s father, had married Christopher Wordsworth in
+                    1804.</p></note> The scion to a wealthy Quaker banking family from Birmingham,
+                Owen’s father, Charles Lloyd (1775–1839, <ref
+                    target="https://doi-org.erl.lib.byu.edu/10.1093/ref:odnb/16823"><hi
+                        rend="italic color(0070C0)" style="font-family:PT Sans">DNB</hi></ref><hi
+                    rend="color(0070C0)">)</hi>, had settled at Old Brathay near Ambleside in 1800
+                and, before suffering a nervous breakdown in the early 1810s, earned a reputation as
+                a minor member of the “Lake Poets.” Perhaps biased by the Lloyds’ well-documented
+                history of mental illness, Tom Arnold would later remember Owen as “generally
+                talking to himself and eccentric in other ways” during their encounters in the
+                    mid-1830s.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                        Arnold, <hi rend="italic">Passages</hi>, 47.</p></note> Yet he was a clear
+                favorite of DW and others at RM, and Sara Coleridge maintained in 1832 that, while
+                Owen’s sisters were “very pleasing girls,” he was “the flower of the family.”<note
+                    place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                        <ref
+                            target="https://collections.wordsworth.org.uk/wtweb/home.asp?page=Letters%20item%20details&amp;mwsquery=%7BTopic%20id%7D=%7Bstate-of-being-miscarriage%7D&amp;id=145"
+                            >WT MS WLMS A / Coleridge, Sara / 30</ref>.</p></note></p>
+            <p><hi rend="bold" xml:space="preserve">Pasley, Sir Thomas Sabine (1804–84, age 30, </hi><ref
+                    target="https://doi.org/10.1093/ref:odnb/21502"><hi
+                        rend="italic bold color(0070C0)" style="font-family:PT Sans"
+                    >DNB</hi></ref><hi rend="bold">), Lady Jane Matilda (née Wynyard, 1806–69, age
+                    28):</hi> A vibrant and well-connected young couple who, during a pause in his
+                naval career, moved to Bowness in the early 1830s, where they were immediately
+                welcomed into the Wordsworths’ social set. Lady Jane was the eldest daughter of Rev.
+                Montagu John Wynyard (1781–1857), an army officer turned Yorkshire rector who in
+                1834 was appointed a spiritual advisor to William IV.<note place="foot"
+                    xml:id="ftn32" n="32"><p rend="footnote text">
+                        <hi rend="italic">London Gazette</hi>, 7 November 1834.</p></note> Sir
+                Thomas was born not a Pasley but a Sabine, but changed his surname after acceding to
+                his maternal grandfather’s baronetcy shortly before his fourth birthday. After
+                attending the Royal Naval Cottage, he went to sea in 1818 and became a commander in
+                1828 and captain in 1831.<note place="foot" xml:id="ftn33" n="33"><p
+                        rend="footnote text"> Later in his career, he would be promoted to
+                        rear-admiral in 1856, vice-admiral in 1863, and admiral in 1866.</p></note>
+                Both husband and wife were amateur painters and passed their interest to their
+                daughter <hi rend="bold">Jane (1827–95, age 7)</hi>—the eldest of the five Pasley
+                children born by 1835—who in childhood was a regular visitor at RM and as a teenager
+                delighted the family with an etching she made of WW.<note place="foot"
+                    xml:id="ftn34" n="34"><p rend="footnote text">
+                        <hi rend="italic">Letters</hi>, 5:602.</p></note></p>
+            <p><hi rend="bold">Robinson, Capt. Charles (1788–1864, age 46) and Charlotte (née
+                    Kearsley, 1798–1861, age 36):</hi> Relatives of the Wordsworths who settled in
+                Ambleside shortly after their 1822 marriage and his retirement from the navy. Capt.
+                Robinson, a first cousin once removed of WW and DW, is a major presence early in the
+                <hi rend="italic" xml:space="preserve">RJ </hi>but appears less frequently in later
+                notebooks, likely owing both to DW’s limited mobility and the demands of raising the
+                eight children he and his wife had welcomed by the end of 1835.<note place="foot"
+                    xml:id="ftn35" n="35"><p rend="footnote text"> Before turning 40 in 1838,
+                        Charlotte Robinson would bear five more children, bringing her total to 13
+                        deliveries in her first 16 years of marriage.</p></note> In her ledgers at
+                the end of Notebook 15, DW twice records purchasing books for the Robinsons’ eldest
+                daughter, <hi rend="bold">Mary (1823–66, age 11)</hi>.</p>
+            <p><hi rend="bold" xml:space="preserve">Southey, Robert (1774–1843, age 60, </hi><ref
+                    target="https://doi.org/10.1093/ref:odnb/26056"><hi
+                        rend="italic bold color(0070C0)" style="font-family:PT Sans"
+                    >DNB</hi></ref><hi rend="bold">) and Edith (née Fricker, 1774–1837, age
+                    60):</hi> The Keswick-based family of WW’s fellow poet and Tory polemicist who
+                over the decades had grown increasingly close to the Wordsworths. The six-month span
+                covered by Notebook 15 was a harrowing one for the Southeys, as, after years of
+                severe depression exacerbated by the deaths of four of her eight children, Edith’s
+                illness grew so distressing by the fall of 1834 that her husband felt compelled to
+                admit her to a mental asylum in York.<note place="foot" xml:id="ftn36" n="36"><p
+                        rend="footnote text"> The Southeys lost their infant daughters Margaret and
+                        Emma in 1803 and 1809, their 9-year-old son Herbert in 1816, and their
+                        13-year-old daughter Isabel in 1826.</p></note> Observing these events
+                unfold, SH was so stirred by the poet’s solicitude toward his wife that she opined,
+                “If any man ever deserved the Title of
+                <hi rend="italic" xml:space="preserve">Christian </hi>Philosopher it is he—so much
+                feeling with so much power to overcome I never before saw exemplified.” She was
+                nearly as impressed by the fortitude shown by <hi rend="bold">Bertha (1809–77, age
+                    25)</hi> and<hi rend="bold" xml:space="preserve"> Kate (1810–64, age 24)</hi>,
+                his two grown daughters still living at Greta Hall, writing, “Kate dear little
+                Creature! is her father’s own child—She has behaved like a Heroine—&amp; dear Bertha
+                has done her best.”<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">
+                        <hi rend="italic">LSH</hi>, 430.</p></note> Yet, despite their outward
+                resilience, the family’s internal turmoil was captured by Southey’s moving report of
+                2 October 1834, when he wrote, “I have been parted from my wife by something worse
+                than death. Forty years has she been the life of my life; and I have left her this
+                day in a lunatic asylum.”<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text"> C. C. Southey, <hi rend="italic">Life</hi>,
+                    6:244.</p></note> Over ensuing months, DW's journal carefully tracked news from
+                York and, along with her letters and poems from this period, her entries display
+                abiding compassion for Edith and unmistakable affection for Bertha and Kate, with
+                whom she had forged an unusually tight bond during their regular stays at RM.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
