@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Gipsy Prince</title>
+				<author>
+					<name>Thomas Moore</name>
+				</author>
+				<editor>Frederick Burwick</editor>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Justin Tonra</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding and Proofreading</resp>
+					<name>Deborah K. Wright</name>
+				</respStmt>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Neil Fraistat</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Steven E. Jones</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>2011-10-01</edition>
+			</editionStmt>
+			<extent/>
+			<publicationStmt>
+				<idno type="nines">rce890</idno>
+				<idno type="edition">introduction</idno>
+				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
+					Maryland</publisher>
+				<pubPlace>College Park, MD</pubPlace>
+				<date when="2011-10-20">october 1, 2011</date>
+				<availability status="restricted">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
+						or disseminated in any manner without authorization unless it is for
+						purposes of criticism, comment, news reporting, teaching, and/or classroom
+						use as provided by the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+						are copyrighted by the author/editor and may be shared only in accordance
+						with the Fair Use provisions of U.S. copyright law. Except as expressly
+						permitted by this statement, redistribution or republication in any medium
+						requires express prior written consent from the author/editors and advance
+						notification of Romantic Circles. Any requests for authorization should be
+						forwarded to Romantic Circles:
+						<address>
+							<addrLine>Romantic Circles</addrLine>
+							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>Department of English</addrLine>
+							<addrLine>University of Maryland</addrLine>
+							<addrLine>College Park, MD 20742</addrLine>
+							<addrLine>fraistat@umd.edu</addrLine>
+						</address>
+					</p>
+					<p>By their use of these texts an../images, users agree to the following
+						conditions: <list>
+							<item>These texts an../images may not be used for any commercial purpose
+								without prior written permission from Romantic Circles.</item>
+							<item>These texts an../images may not be re-distributed in any forms
+								other than their current ones.</item>
+						</list>
+					</p>
+					<p>Users are not permitted to download these texts an../images in order to mount
+						them on their own servers. It is not in our interest or that of our users to
+						have uncontrolled subsets of our holdings available elsewhere on the
+						Internet. We make corrections and additions to our edited resources on a
+						continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make
+						a link to the copies at Romantic Circles, subject to our conditions of
+						use.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+				  <analytic><title>Introduction</title>
+				  <author><persName><forename>Fred</forename><surname>Burwick</surname></persName></author></analytic>
+				  
+					<monogr>
+						<author>
+							<persName>
+								<forename>Thomas</forename>
+								<surname>Moore</surname>
+								<addName type="loc">Moore, Thomas, 1779-1852</addName>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename>Michael</forename>
+								<surname>Kelly</surname>
+								<addName type="loc">Kelly, Michael, 1762-1826</addName>
+							</persName>
+						</author>
+						<title>The Gipsy Prince; or, the Loves of Don Sebastian de Nurillo, and the Fair Antonia, translated from the Spanish. By C. Moor, Esq.</title>
+						<imprint>
+							<pubPlace>London, UK</pubPlace>
+							<publisher>J. Roach</publisher>
+							<date when="1801">1801</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p><gi>Speaker</gi> element names have been regularised across this file and the
+						Manuscript file, according to the names reproduced in the Dramatis Personae
+						printed in the Historical Narrative: Don Roderic; Don Dominic; Gipsy Prince;
+						Rincon; Old Jew; Alcaide; Alguazil(s); Officer(s); Messenger; Gipsies;
+						Diego; Antonia; Poppee; Lachimee; Blanch; Alguazils, Peasants, Gipsies, etc.
+						Note: the regularisation takes place only within <gi>speaker</gi> elements;
+						it does not occur in the stage directions, text of the play or Dramatis
+						Personae.</p>
+				</normalization>
+				<hyphenation>
+					<p>All dashes have been represented with an emdash: <gi>&#x2014;</gi>, and
+						surrounding whitespace has been deleted (except where dash is preceded by a
+						full stop).</p>
+				</hyphenation>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+				</quotation>
+				<normalization method="markup">
+					<p>Incorrect and idiosyncratic spelling has not been regularised; instances are
+						marked by a <gi>sic</gi> element.</p>
+				</normalization>
+			</editorialDecl>
+			<tagsDecl>
+				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+				<rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+				<rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+				<rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+				<rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+				<rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+				<rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+				<rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+				<rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+				<rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+				<rendition xml:id="center" scheme="css">text-align: center;</rendition>
+				<rendition xml:id="left" scheme="css">text-align: left;</rendition>
+				<rendition xml:id="right" scheme="css">text-align: right;</rendition>
+				<rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+				<rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+				<rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+				<rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+				<rendition xml:id="italic" scheme="css">font-style: italic;</rendition>
+			</tagsDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="genre">
+					<bibl>NINES categories for Genre and Material Form at
+						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
+						on 2009-02-26</bibl>
+					<category xml:id="g1">
+						<catDesc>Architecture</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Artifacts</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Letters</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Politics</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Folklore</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>History</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Leisure</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Humor</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Education</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>nonfiction</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Perodical</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Philosphy</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Family Life</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Visual Art</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Travel</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Book History</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Law</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef scheme="#genre" target="#g5"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#LM" when="2012-03-12" n="2">
+				<label>Changed by the editor</label>
+				<name>Laura Mandell</name>
+				<list>
+				  <item>editing for TEI</item>
+				  <item>add header</item>
+					<item>XSLT Transforming</item>
+				</list>
+			</change>
+			<change who="#LM" when="2011-09-05" n="1">
+				<list>
+					<item>IDHMC studnents do TEI encoding</item>
+				</list>
+			</change>
+		</revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="essay">
+        <head>Introduction</head>
+        <byline><docAuthor>Frederick Burwick</docAuthor></byline>
+        <p>Opening mid-season at Haymarket on July 24, <title level="m">The Gipsy Prince</title> was the collaboration of
+          Thomas Moore who composed the libretto and lyrics and Michael Kelly who provided the
+          musical score and performed in the title role.<note n="1" place="foot" resp="author"
+            >Thomas Moore, <title level="m">Songs, Duets, Trios, and Choruses, in the Gipsy Prince, a Musical
+            Entertainment in Two Acts, first performed at the Theatre-Royal, Hay-Market, July 24,
+            1801. The Overture and Musick Composed and Selected by Mr. Kelly</title> (London: Printed by T.
+            Woodfall, Little Russell Street, Covent Garden, for Mssrs. Cadell and Davies in the
+            Strand, 1801). <title level="m">The Gipsy Prince, A Comic Opera in Two Acts, Now Performing with
+            Universal applause at the Theatre Royal, Haymarket, Compos’d &amp; Selected by Michael
+            Kelly</title> (Printed for Michael Kelly, to be had at his Music Warehouse, No. 9 New Lisle
+            Street, Leicester Square, &amp; at all Music Shops [1801]). In addition to these two
+            published sources, I have relied on manuscript 1329, <title level="a">The Gipsy Prince,</title> in
+            the collection of John Larpent, Lord Chamberlain’s Examiner of Plays (1778-1824), at the
+            Huntington Library.</note> Although declared &quot;a very poor piece&quot; in Thomas
+          Dutton's the <title level="j">Dramatic Censor</title>,<note n="2" place="foot" resp="author"><title level="j">The Dramatic Censor;
+            or, Monthly Epitome of Taste, Fashion, and Manners </title>(August 1801), by T. Dutton;
+            published by J. Roach and C. Chapple; printed by J. Roach, Russel-Court, Drury-Lane;
+            quoted in John Genest, <title level="m">Account of the English Stage, 1660-1830</title>, 10 vols. (Bath: Printed
+            by H. E. Carrington, 1832.), 7:522.</note> <title level="m">The Gipsy Prince</title> was nevertheless popular
+          with audiences and was performed for ten nights, the second longest run of Haymarket's
+          season from June 18 to October 7. The average number of performances for a single piece
+          that season was four nights, and the longest run was secured by <title level="m">The Corsair; or the
+          Italian Nuptials</title>, which may have been acted as many as nineteen times.<note n="3"
+            place="foot" resp="author">Closed Sundays, performances at the Haymarket for the 1801
+            season were held on 96 evenings from June 18 to October 7. Not counting all afterpieces,
+            25 productions were launched during that period, with the only two premier events, <title level="m">The
+              Gipsy Prince</title> as Musical Entertainment and <title level="m">The Corsair</title> as Pantomime, securing the longest
+            runs.</note> Dutton's opinion of the play was not shared by his publisher, the theatre
+          aficionado John Roach, who was amused by the ploy of presenting the Irish disguised as
+          Gipsies.<note n="4" place="foot" resp="author">John Roach, <title level="m">Authentic Memoirs of the
+            Green-room; involving sketches, biographical, critical, &amp; characteristic, of the
+            performers of the Theatres Royal, Drury-lane, Covent-Garden, and the Hay-Market.
+            Embellished with seven portraits of eminent performers.</title> 2 vols. (London : Printed by and
+            for J. Roach , 1806), 1:186.</note> Kelly claimed that he had so thoroughly lost all
+          trace of brogue that he was no longer capable of playing a stage Irishman.<note n="5"
+            place="foot" resp="author">Michael Kelly, <title level="m">Reminiscences of Michael Kelly, of the King's
+            Theatre, and Theatre Royal Drury Lane, including a period of nearly half a century; with
+            original anecdotes of many distinguished persons, political, literary, and musical.</title> 2
+            vols. (London, H. Colburn, 1826), 2:76. &quot;About the middle of May, an opera was
+            acted at Drury Lane, in which I had to perform an Irish character. My friend [John
+            Henry] Johnstone [prominent actor of Irish character roles] took great pains to instruct
+            me in the brogue, but I did not feel quite up to the mark; and, after all, it seems my
+            vernacular phraseology was not the most perfect; for, when the opera was over, [Richard
+            Brinsley] Sheridan came into the green-room, and said, 'Bravo! Kelly; very well, indeed
+            ; upon my honour, I never before heard you speak such good English in all my life.' This
+            sarcastic compliment produced much laughter from the performers who heard
+            him.&quot;</note> In spite of his disclaimer, Kelly in the title role as the Gipsy
+          Prince readily communicated to the audience what John Larpent in his duty as censor had
+          failed to see: these Gipsies under the Spanish Inquisition were very like the Irish under
+          British rule. </p>
+        <p>If the disguise had become too transparent, then further disguise might not be helpful,
+          but the attempt was nevertheless made, probably more out of delight in elaborating the
+          hoax than with any conviction that readers might be fooled. Timed for publication at the
+          end of the Haymarket summer season, the hoax might have been intended to stir up
+          sufficient controversy to convince Colman, manager of the Haymarket from 1789 to
+          1805,<note n="6" place="foot" resp="author">Hubert Heffner, <title level="a">The Haymarket Theater
+            under Colman the Younger, 1789 to 1805,</title> <title level="m">Communication Monographs</title>, 10, no. 1
+            (1943): 23-29.</note> to give place to <title level="m">The Gipsy Prince</title> on the performance calendar for
+          1802. In September, 1801, John Roach published &quot;two genuine Historical
+          Narratives&quot; which are identified on the title-page as the sources for <title level="m">The Gipsy
+            Prince</title> and <title level="m">The Corsair</title>, &quot;performed at the Haymarket Theatre, with universal Applause;
+          being the only New Dramas, produced at the Summer Theatre, during the present
+          Season.&quot;<note n="7" place="foot" resp="author"><title level="m">The Gipsy Prince; or, The Loves of
+            Don Sebastian de Nurillo, and the Fair Antonia, translated from the Spanish. By C. Moor,
+            Esq. To which is added, The Corsair; or The Italian Nuptials</title>. (London: J. Roach. 1801).
+            64pp. -- Front. dated Sept. 7, 1801.</note> <title level="m">The Corsair</title> was the work of Charles Farley,
+          so it is no surprise that Farley himself has translated the &quot;Historical Record,&quot;
+          said to be &quot;from the Italian of Geoffrey Benini.&quot;<note n="8" place="foot"
+            resp="author">Probably Giovanni-Vincenzio Benini (1744?-1814).</note> The source for
+          Moore's play, so this edition declares, is <title level="m">The Gipsy Prince; or, The Loves of Don
+          Sebastian de Nurillo, and the Fair Antonia</title>, translated &quot;from the Spanish of Hermandez
+          de Feyjoo, a Writer of considerable eminence, who flourished towards the close of the
+          fifteenth century.&quot;<note n="9" place="foot" resp="author"><title level="a">Advertisement by the
+            Translator</title>, <title level="m">The Gipsy Prince</title> p. 3.</note> &quot;The Spanish Original,&quot; according to
+          the note on the title-page, &quot;may be seen in the British Museum.&quot;<note n="10"
+            place="foot" resp="author"><title level="a">Advertisement by the
+              Translator</title>, <title level="m">The Gipsy Prince</title> p. 4,
+            repeats the assertion that the reader may consult the original in the Archives of the
+            British Museum.</note> The translator is identified on the title-page as &quot;C. Moor,
+          Esq.&quot; In the <title level="a">Supplementary Remarks</title> it is stated that &quot;Mr. Charles
+          Moore, an Irish gentleman of very respectable connexions, and well know to the literary
+          world, by his translation of the Odes of Anacreon, has constructed the Musical
+          Entertainment, recently produced at the Haymarket Theatre, under the title of the Gipsy
+            Prince.&quot;<note n="11" place="foot" resp="author"><title level="a">Supplementary Remarks</title>, <title level="m">The Gipsy
+            Prince</title>, p. 50.</note></p>
+        <p>Every detail of this edition has been twisted to serve the hoax. There is no
+          fifteenth-century Spanish author named Hermandez de Feyjoo. Although this name is to be
+          found in the catalogue of the British Library, it occurs only in reference to this
+          &quot;translation.&quot;<note n="12" place="foot" resp="author"><title level="m">The Gipsy Prince</title>,
+            British Library shelf mark: 12330.e.37.(2.).</note> There is no Spanish original. The
+          translator is &quot;C. Moor,&quot; perhaps a playful reference to Carl Moor, the hero of
+          Friedrich Schiller's <title level="m">The Robbers</title>, which had been translated into English by Alexander
+          Tytler in 1792.<note n="13" place="foot" resp="author">Schiller, <title level="m">The Robbers</title>, trans.
+            Alexander Fraser Tytler, Lord Woodhouselee, (London: G. G. J. &amp; J. Robinsons, 1792.
+            Second edition, corrected and improved, 1795. Fourth edition, 1800).</note> The stage
+          adaptation, Joseph Holman's <title level="m">The Red Cross Knights</title>, was revived at the Haymarket on August
+          24, 1801,<note n="14" place="foor" resp="author">When Joseph G. Holman attempted to bring
+            <title level="m">The Robbers</title> to the stage, John Larpent refused a license because of the politically
+            volatile themes; in Holman's tamed adaptation, <title level="m">The Red Cross Knights</title> (first performed at
+            Haymarket, 21 August 1799), he changed the name of Carl Moor to Ferdinand.</note>
+          exactly one month after the opening of <title level="m">The Gipsy Prince</title>. Holman argued that Carl Moor was
+          not the radical revolutionary some critics had argued him to be, but rather a man whose
+          ethical character &quot;commands admiration, when devoted to a good cause, become a
+          torment to the possessor, when perverted from the proper channel.&quot; The cause of that
+          change, similar to the fate of the Gipsy Prince, derives from witnessing the evil abuse of
+          power perpetrated by others.<note n="15" place="foot" resp="author">Leonard W. Conolly <title level="m">The
+            Censorship of English drama, 1737-1824</title> (San Marino: Huntington Library, 1976), pp.
+            98-99; letter dated 29 March 1799 from Joseph Holman to John Larpent, transcribed from
+            the Folger manuscript W.b. 67 (63-63v).</note> In addition to the notorious &quot;C.
+          Moor&quot; as translator, this edition also names the author of the English adaptation,
+          &quot;Mr. Charles Moore,&quot; another nom de plume to join company with Anacreon Moore,
+          Thomas Brown the Younger, and Thomas Little. As a prose narrative it shares similarities
+          with Moore's <title level="m">The Epicurean</title>,<note n="16" place="foot" resp="author">Moore, <title level="m">The Epicurean, a
+            Tale</title>. (London: Printed for Longman, Rees, Orme, Brown, and Green, 1827).</note> and as a
+          polemical hoax championing the cause of the exploited Irish, it can be considered
+          alongside of Moore's <title level="m">Memoirs of Captain Rock</title>.<note n="17" place="foot" resp="author"
+            >Moore, <title level="m">Memoirs of Captain Rock: the celebrated Irish Chieftain, with some account of
+            his ancestors, written by himself</title>. (London: Longman, Hurst, Rees, Brown and Green,
+            1824); Moore and Mortimer O'Sullivan, <title level="m">Captain Rock detected, or, The origin and
+            character of the recent disturbances and the causes, both moral and political, of the
+            present alarming condition of the South and West of Ireland, fully and fairly considered
+            and exposed</title>. (London: Printed for T. Cadell, 1824). Attributed to O'Sullivan as a reply
+            to Moore's <title level="m">Memoirs</title>.</note> Kelly most likely authored the concluding notes to the songs,
+          but the narrative, with its classical allusions and its three inserted lyrical poems, was
+          the work of Moore himself.</p>
+        <p>The major difference between the play and prose narrative is that the latter is charged
+          with salaciously explicit sexual episodes, at odds with the insistence by &quot;C.
+          Moor&quot; that &quot;Hermandez de Feyjoo&quot; possesses &quot;a very devout and
+          religious character, indulges in prolix moral reflexions, and interlards his narrative too
+          copiously with pious comment.&quot; With reminders that moral commentary has been omitted,
+          the text preserves the flowery rhetoric of erotic indulgence. In their youth Roderic (not
+          the uncle but the father of Antonia) and Dominic (the father of Sebastian) were students
+          at the University of Saragossa. At the convent of St. Benito they encounter two novices,
+          &quot;whose uncommon beauty and elegance of figure inspired them with, the most ardent and
+          ungovernable passion.&quot; Obsessed with sexual desire, they manage &quot;to gain access
+          to their mistresses&quot;:<quote>In an unguarded moment; whilst prudence slept, and
+            passion usurped the reins from judgment, our panting Dulcineas, yielding to Nature's
+            impulse, celebrated the virgin-sacrifice of Love, in the absence of Hymen. Once
+            solemnized, their Cytherean rites were found too delightful and ecstatic not to be
+            frequently repeated. (p. 7)</quote> When the girls become pregnant, Roderic and Dominic
+          smuggle them out of the convent and flee to Italy where Sebastian and Antonia are born and
+          where their mothers die within the year. Roderic, who seeks advancement in the Church,
+          must pretend that Antonia is his niece. Sebastian is put under the care of an uncle and
+          experiences a series of adventures that take him to the Far East and back again, at which
+          point (p. 15) the events of the prose narrative begin to coincide with those of the play.
+          After hiding the Gipsy Prince overnight the garden pavilion, Antonia decides it would be
+          much better to disguise him in female attire to share her bedroom as her personal maid.
+          The disguise works well enough until Don Roderic becomes sexually aroused at the sight of
+          Antonia's new companion: &quot;The demon of desire instantly seized upon his
+          reverence&quot; (p. 25), but his amorous assault is resisted with such a degree of
+          violence that the chamber-maid's masculine identity is exposed. Far more than the stage
+          play, the prose narrative reveals the moral hypocrisy of the Inquisitor.</p>
+        <p>The prose version concludes with <title level="a">Supplementary Remarks</title> that promise &quot;a
+          brief analysis and examination of the Play&quot; (p. 31), but present only the <foreign>Dramatis
+            Personae</foreign> and the lyrics to the songs with notes apparently by Kelly. In his <title level="m">Reminiscences</title>,
+          Kelly recalls how the collaboration on the play came about. The two met in the King’s Road
+          at the cottage of Anna Maria Crouch, Kelly’s frequent singing partner on stage and
+          full-time partner off stage. Together they had performed the roles of Fatima and Selim in
+          Colman’s <title level="m">Blue-Beard</title>, Katherine and Seraskier in James Cobb’s <title level="m">The Siege of Belgrade</title>, Lady
+          Elinor and Lord William in Cobb’s <title level="m">The Haunted Tower</title>, Louisa and Frederick in Prince
+          Hoare’s <title level="m">No Song, No Supper</title>, Lodoiska and Count Floreski in John Philip Kemble’s <title level="m">Lodoiska</title>.
+          Moore arrived at the cottage in the company of Michael Kelly’s brother Joseph. It was
+          Kelly who instigated the collaboration:<quote>I was much entertained with his
+            conversation, and cultivated his pleasing society; and, in the course of our
+            acquaintance, persuaded him to write a musical afterpiece, for the Haymarket Theatre. I
+            engaged with Mr. Colman to compose music, and to perform in it. It was called <title level="a">The
+            Gipsey Prince,</title> and was performed for the first time on the 24th of July, 1801;
+            part of the poetry was very pretty; but the piece did not succeed, and was
+            withdrawn.<note n="18" place="foot" resp="author">Kelly, <title level="m">Reminiscences</title>,
+            2:162.</note>
+          </quote>
+          Kelly's disappointment was not in the ten-day run, but in Colman's
+          reluctance to slate the musical entertainment for the following year. As a sample of
+          Moore’s lyrics, Kelly cited the song that he sang in his title role as the Gipsy Prince
+          upon his first appearance in the Gipsy camp, &quot;I have roam’d through many a weary
+          round.&quot; The theme of restless wandering is countered in the finale with the Gipsy
+          Prince's declaration of abiding love to Antonia.</p>
+        <p>In addition to his successes as stage tenor, Kelly was frequently enlisted as stage
+          composer. Among the sixty-two dramatic works for which he composed the songs, thirteen
+          were for William Dimond, including the adaptation of Byron’s <title level="m">Bride of Abydos</title> (Drury Lane,
+          2 May 1818); seven were for Matthew Gregory Lewis, and six were for George Colman. Twice
+          he teamed up with Charles Dibdin, twice with James Cobb. Among the box-office attractions
+          featuring his music were also Lewis's <title level="m">The Castle Spectre</title> (Drury Lane, 14 December 1797)
+          and Colman's <title level="m">Bluebeard</title> (1798), in both of which Kelly sang the lead tenor role. He
+          composed the music for Richard Brinsley Sheridan’s <title level="m">Pizarro</title> (1799), Joanna Baillie’s <title level="m">De
+            Montfort</title> (1800), and Samuel Taylor Coleridge’s <title level="m">Remorse</title> (Drury Lane, 23 January 1813). With
+          a team as talented as Kelly and Moore, one might have expected Colman to provide a more
+          enduring commitment.</p>
+        <p><title level="m">The Gipsy Prince</title> was Moore’s first endeavor as a playwright. The scene is set in Murcia,
+          the province in southeast Spain between Andalusia and Valencia on the Mediterranean coast.
+          The repression of Jews, Muslims, and Gipsies under the Inquisition had brought about
+          cautious alliances among the persecuted.<note n="19" place="foot" resp="author">Burwick,
+            <title level="a">The Jew on the Romantic Stage,</title> <title level="m">Romanticism and the Jewish Question,</title> ed.
+            Sheila Spector (Ashgate Press, 2010). The combined representation of several oppressed
+            peoples such as Jews, Muslims, and Gipsies recurs frequently in the plays of the
+            period.</note> The plot is thin and most of the action is reflected in the fourteen
+          songs. Although the characters are provided with little depth or development, the
+          performers fleshed them out effectively both in acting and in song. The two comic
+          characters, the obnoxious skirt-chasing Rincon and the Gipsy girl Poppee, have original
+          and well-articulated roles.</p>
+        <p>Kelly’s overture, in his usual manner, opens softly and simply, then quickly transforms
+          itself into a bravura piece resolutely and immovably planted in D major. The shift in
+          tempo is a motif that Kelly also employed in the <title level="a">Chorus of Gipsies,</title> which opens with a
+          dirge, &quot;Bleak rains may fall,&quot; but then becomes a dance, &quot;Merry we still
+          fly.&quot; In the opening scene, the peasants are gathered celebrating a wedding and
+          singing in chorus of their contented life: &quot;Happy the hearts that love has
+          blest.&quot; Intruding upon this happy scene, Rincon exercises his accustomed lechery by
+          preying on the young girls: &quot;If one of you wishes a partner, my dearies,/ Or – dam’me
+          – if two of you, I am the man.&quot; His first brazen flirtation is an attempt to seduce
+          the bride, Blanch, while her peasant groom is pushed aside. As an occasion to introduce
+          his character, his first song, was a series of risqué quatrains, each describing a
+          unconsummated affair. This song, &quot;My heart, I confess has had amorous fidgets,&quot;
+          was deleted, and for the performance Moore provided him with comic lyric, &quot;I
+          remember,&quot; revealing the character's incapacities, slipping memory, and inability to
+          distinguish his second-childhood from his first. For this song Moore composed the music as
+          well as the lyrics, and it has the unique feature of avoiding the strophic structure
+          typically preferred by Moore. Rincon sings of the prophecy of a toothless old woman, who
+          promised him potency as a &quot;son of a gun.&quot;<note n="20" place="foot" resp="author"
+            >William Henry Smyth (1788-1865). <title level="m">The Sailor’s Word-Book: an alphabetical digest of
+            nautical terms, including some more especially military and scientific, but useful to
+            seamen; as well as archaisms of early voyagers, etc. By the late Admiral W.H. Smyth ...
+            Revised for the press by Vice-Admiral Sir E. Belcher.</title> (London: Blackie and Son, 1867).
+            Son of a gun: &quot; An epithet conveying contempt in a slight degree, and originally
+            applied to boys born afloat, when women were permitted to accompany their husbands at
+            sea; one admiral declared he literally was thus cradled, under the breast of a
+            gun-carriage.&quot;</note> His fancy can shoot even if he cannot.</p>
+        <p>The role of Rincon, played by John Fawcett, provides the comic subplot of the piece.
+          During the regular season, Fawcett performed as comic actor and singer at Covent Garden,
+          popular in such comic roles as Jemmy Jump in John O’Keefe’s <title level="m">Farmer</title> (1787), Placid in
+          Hannah Cowley’s <title level="m">Every One has his Fault</title>, Dr. Pangloss in George Colman’s <title level="m">The Heir at Law</title>
+          (1797), and Ollapod in <title level="m">The Poor Gentleman</title> (1801). He was so successful as Caleb Quotem in
+          <title level="m">Throw Physic to the Dogs</title> (1798), a comic opera by Henry Lee and Samuel Arnold, that for
+          subsequent revivals it was retitled as <title level="m">Caleb Quotem and his Wife! or, Paint, Poetry, and
+          Putty.</title> Fawcett’s first wife, the actress Susan Moore, died in 1797 after nine years of
+          marriage. He married a second time in 1806 to Anne Gaudry, who played the role of Blanch,
+          object of Rincon’s advances. Fawcett heightened the comedy of his performance as Rincon
+          through his ineffectual persistence, seemingly oblivious of his own impotence.</p>
+        <p>Scene 2 opens with the Gipsies gathered around a fire and singing &quot;Black rains may
+          fall.&quot; The Gipsy Prince arrives, dressed &quot;in a fanciful half Eastern
+          Dress.&quot; When his followers depart to set up their tents, the Prince sings his
+          wandering song, &quot;I've roam'd thro' many a weary round.&quot; He is about to exit when
+          two Alguazils, enforcing officers of the Inquisition, drag in a frail Jew. Hearing the
+          Jew's pleas for help, the Prince asks the officers to tell him the man's crime, why they
+          are treating him cruelly, and where they are taking him. His only crime is that he is a
+          Jew, and for that crime he shall be thrown into the dungeon to await execution. The Jew is
+          played by the husband of Mrs. Atkins, née Warrell, of Covent Garden. Describing her as a
+          much admired singer, <title level="m">The Thespian Dictionary</title> (1805) observes that Mr. Atkins &quot;is
+          oftener seen than heard.&quot; He was most often cast, that is, in pantomimic roles. So
+          too here as the pursued and persecuted Jew, his role is to quake, cower, tremble, and,
+          when rescued by the Prince, to show his humble gratitude. The Prince draws his sword and
+          demands the old man's release. The Alguazils respond with swords; they fight; one officer
+          is wounded, and both flee leaving their prisoner to escape. The Prince's skirmish with the
+          Alguazils is secretly witnessed by Rincon.</p>
+        <p>In protecting the old Jew, the Gipsy Prince arouses the wrath of the Grand Inquisitor,
+          Don Roderick, played by veteran comic villain Richard Suett, known for such roles as
+          Yusuph in Cobb’s <title level="m">Siege of Belgrade</title> (1791), Varnel in Kemble’s <title level="m">Lodoiska</title> (1794), the Sultan
+          in Prince Hoare’s <title level="m">Mahmoud, Prince of Persia</title> (1796), and Ibrahim in Colman’s <title level="m">Blue-Beard</title>
+          (1798). Scene 3 is set in the garden of the Inquisitor, Don Roderick, in the company of
+          the Corregidor, Don Dominick, who presides as magistrate to sentence those who oppose the
+          faith and order of the Church. Their conversation introduces two essential elements to the
+          plot: Don Roderick has niece for whom he is eager to arrange a marriage; Don Dominick has
+          a long lost son who would have been the ideal husband. Antonia, the niece, enters with
+          singing and accompanying herself on the guitar. In a comic trio, <title level="a">Sweet oh!
+          sweet,</title> Don Roderick curses the music as intolerable noise and Don Dominick begs her
+          to play on. A messenger arrives with the news that a stranger has interfered with the
+          arrest of a Jew and has wounded one of the officers. Don Roderick vows to capture the
+          stranger and have him executed for the offence.</p>
+        <p>In the characters of Don Dominick and Antonia, the cast is rounded out with two more
+          strong players. John Emery had performed at Covent Garden as Able Drugger in <title level="m">The
+            Tobacconist,</title> as Farmer Ashfield in <title level="m">Speed the Plough,</title> as Silky in <title level="m">Road to Ruin,</title> as Zekiel
+          Homespun in <title level="m">The Heir at Law,</title> and Sam in <title level="m">Raising the Wind.</title> To her role as Antonia, Rosemond
+          Mountain, née Wilkinson, brought what was widely acclaimed as a truly lyrical voice. At
+          Covent Garden she performed as Fidelia in Edward Moore’s <title level="m">The Foundling</title> and as Leonora in
+          Isaac Bickerstaff’s <title level="m">Padlock.</title> In disagreement over salary she left Covent Garden to perform
+          at Haymarket and Drury Lane, also singing in concerts at Vauxhall.</p>
+        <p>After Don Roderick and Don Dominick depart, Antonia is alone in the garden, pondering her
+          uncle's insistence that she find a husband. Just at this moment the Prince clambers over
+          the garden wall to escape his pursuers, not realizing that he has trespassed into the
+          garden of the Grand Inquisitor himself. Careful not to alarm or frighten her, the Gipsy
+          Prince emerges from hiding, bowing deeply, and praising her for her song. As happens in
+          plays, they quickly fall in love, and express their mutual attraction in duet, <title level="a">Good
+          night! Good night, I must away.</title> Antonia conceals the Prince in the turret in her
+          uncle's garden, which may be bolted from within. To signal that he may safely open the
+          door, she will strum on her guitar. When Don Roderick observes her lingering by the
+          turret, she attempts to lull his suspicions by claiming that she has a pet bird.</p>
+        <p>Scene 4 takes place that evening in the Gipsy camp. The duet by Poppee and Lachimee,
+          &quot;Where Gipsy gone,/ Night falling on,/ Fly, to de tents in der willows fly &quot; is
+          sung in dialect. In the dramatis personae they are identified as Hindu Gipsies. Moore is
+          responding to recent research tracing the Hindu roots of the Romany language.<note n="21"
+            place="foot" resp="author">In 1763, a Hungarian, Istvan Valyi, noticed similarities, to
+            the extent of mutual intelligibility, between Gipsy language and that of students from
+            Malabar. Johann Christian Christoph Rüdiger (1751-1822) confirmed the similarities,
+            pointing in particular to Hindustani dialects; see: Rüdiger; <title level="m">Von der Sprache und
+            Herkunft der Zigeuner aus Indien</title> (Leipzig 1782) Rpt. ed. Harald Haarmann (Hamburg:
+            Buske, 1990). Moore may also have consulted: Matthew Raper (trans.), <title level="m">Dissertation on the
+            Gipseys: representing their manner of life, family economy, occupations &amp; trades,
+            marriages &amp; education, sickness, death and burial, religion, language, sciences
+            &amp; arts &amp;c. &amp;c. &amp;c. : with an historical enquiry concerning their origin
+            &amp; first appearance in Europe.</title> (London, Printed by G. Bigg, and to be had of P.
+            Elmsley, and T. Cadell, 1787); Raper translated the work of Heinrich Moritz Gottlieb
+            Grellmann (1756-1804), <title level="m">Die Zigeuner Historischer Versuch über die Zigeuner; betreffend
+            die Lebensart und Verfassung, Sitten und Schicksale dieses Volks seit seiner Erscheinung
+            in Europa, und dessen Ursprung</title> (Göttingen: bey J.C. Dieterich, 1787).</note> Although
+          newly arrived in Murcia, they might be presumed to speak Romany with a mixture of
+          Spanish.<note n="22" place="foot" resp="author">In the refrain to her solo, <title level="a">Oh me
+            was born to wander,</title> Poppee repeats the phrase &quot;Forma notta junga.&quot;
+            Although these seem to be Spanish nouns (<foreign>forma</foreign> = form, shape, order; <foreign>nota</foreign> = note, sign,
+            token; <foreign>junga</foreign> = spear, lance), I hesitate to speculate on a possible a meaning. As
+            printed in Kelly's edition of the musical score, the words are &quot;Fooma molta
+            junga.&quot;</note> For the London stage, Moore might have given them the dialect of
+          English Gipsies. Instead, he has them speak in a Pidjin dialect already made familiar in
+          such slave plays as Fawcett's <title level="m">Obi, or Three-Fingered Jack,</title> with music by Samuel Arnold,
+          first performed at Haymarket just the year previous (5 July 1800)<note n="23" place="foot"
+            resp="author">John Fawcett. <title level="m">Songs, Duets, &amp; Choruses, in the pantomimical drama of
+            Obi, or Three-Finger'd Jack: (perform'd at the Theatre Royal, Hay Market) To which are
+            prefix'd Illlustrative Extracts, and a Prospectus of the Action.</title> (London: T. Woodfall,
+            1800). Story by John Fawcett and music by Samuel Arnold.</note>, or Colman’s <title level="m">Inkle and
+          Yarico,</title> also with music by Samuel Arnold, which premiered at Haymarket fourteen years
+          earlier (4 August 1787). Both <title level="m">Obi</title> and <title level="m">Inkle and Yarico</title> were again performed at Haymarket
+          during the 1801 season with same actresses, Misses Tyrer and Manage, as African
+          slaves.<note n="24" place="foot" resp="author">George Colman, the Younger. <title level="m">Inkle and
+            Yarico. An Opera in Three Acts</title> (London: G. G. J. and J. Robinson, 1787); Genest,
+            7:522-523.</note> Moore thus added a further dimension to the covert satire on the
+          subjugation of the Irish. By having the Gipsy speak in a Pidjin dialect, he hinted that
+          the minorities in Spain were treated by Inquisitors much as slaves at the hands of
+          plantation slaveholders.</p>
+        <p>Rincon enters as Poppee and Lachimee finish their song. They tease him and snatch at his
+          clothes, tossing first his hat and then his wig to their companions. Just as they are on
+          the point of removing more of his dress, the Alguazils rush in to arrest the Gipsies. In
+          the Finale to Act I, with a melody adapted from Giovanni Paisiello, the Alguazils claim
+          their prisoners, &quot;In the name and glory of the Inquisitory stand we
+          command.&quot;<note n="25" place="foot" resp="author">Giovanni Paisiello, <title level="m">Il Re Teodoro
+            in Venezia,</title> heroic-comic drama in two acts; premier performance at the Burgtheater,
+            Vienna, August 23, 1784. Kelly was performing in Vienna from 1783 to 1787 and may have
+            brought the music with him on his return to London. Paisiello has the opening bars from
+            the familiar German fanfare, <title level="a">Hoch soll er leben.</title></note> As they are marched
+          off to prison, the Gipsies deny their guilt in counter-chorus, &quot;Why need we fear your
+          brow severe?/ What crime is ours?&quot;</p>
+        <p>Again in the garden with the turret, Act II, Scene 1 opens with Antonia strumming her
+          guitar to summon the Prince. Together they sing a duet, &quot;Come from thy Cage, silly
+          bird, dost thou hear,/ Thy mistress is singing to thee.&quot; No sheet music was published
+          for this song, nor is it listed with the song lyrics published with the hoax translation.
+          Either the melody was too well known for Kelly to publish it with his compositions, or, as
+          seems more likely, it was omitted from the performance. In the ensuing dialogue, the
+          Prince reveals that he knows neither his parents nor even his own name. They no sooner
+          take the garden path and stroll off-stage than Don Roderick and the Alcaide enter from the
+          opposite side. The Alcaide reports that the Gipsies have been imprisoned and that their
+          leader has yet to be found. During the latter half of this Alcaide's report, Antonia and
+          the Prince reappear on stage. Antonia is able to conceal him once again in the turret
+          before she is seen by her uncle. She again averts his suspicions with her story about
+          keeping a pet bird. Swearing death to the Gipsy leader, Don Roderick exits, and leaves
+          Antonia alone on stage to sing of a forlorn maid who has lost her lover, <title level="a">Yes, now I
+          shall think of that heart broken maid.</title></p>
+        <p>Following Antonia's exit, the garden becomes a hiding place for Rincon in his attempt to
+          impose himself on Poppee. The manuscript version was revised for stage performance. As
+          originally drafted, Rincon pulls the Gipsy girl after him, attempts to kiss her and ply
+          her with wine. Their duet, which opens with Rincon's lines, &quot;Before then I fall to
+          kissing you,/ Here is a drop to baptise you.&quot; Rincon's notion of &quot;baptism&quot;
+          is to convert the heathen into a properly Christian consort. In the version as performed,
+          Poppee enters the garden alone and sings a song that thematically parallels Antonia's
+          lament for the heartbroken maid. But Poppee's lament is expressed in terms of a more
+          resilient philosophy. One must deal with hardships and get on with life, a Gipsy's life of
+          thievery and song. In her solo, <title level="a">Oh me was born to wander,</title> she tells of having
+          run off with a drummer boy who subsequently abandoned her. Rincon enters to hear the final
+          stanza of her song, and takes the lines to argue that she is a promiscuous heathen.
+          Rincon's part in their duet, <title level="a">Fye, fye, you're quite a sinner, girl,</title> taunts her
+          for her dingy skin and heathen ways. He intends to shame her as a wanton pagan, and then
+          offer his forgiving embrace. Not deluded by his &quot;holier than thou&quot;
+          condescension, Poppee turns the shame back on him: &quot;Eh! Have you got no shame now,
+          man,/ For why you talk of christen?&quot; Replying to Rincon's effort to embrace her as
+          his &quot;dingy Miss,&quot; Poppee tells him to get back to his &quot;fine white
+          Miss.&quot; She is not for sale. In his next strophe, Rincon, Spanish profligate though he
+          is, swears a very Irish oath, &quot;By the cowl of St. Bridget,&quot; the celebrated Nun
+          of Leinster.</p>
+        <p>After Poppee runs off, Rincon sees Antonia's guitar. He picks it up, brushes the strings,
+          and the turret door opens. The Prince thinks that he has been caught by the Alguazirs.
+          Rincon momentarily worries that he has been discovered as prowler in a stranger's garden,
+          but that worry passes when he recognizes the Prince as the person who rescued the Jew and
+          fought with the officers. To prevent Rincon from alerting the Alguazirs, the Prince locks
+          him in the turret. Without realizing that the Prince has gone in search of her, Antonia
+          returns from the opposite side of the stage, strums her guitar, and hears a clamor from
+          within the turret. Puzzled that door has been locked from without rather than from within,
+          she opens it and shouts in alarm when Rincon steps out. Rincon vows to call a guard to
+          arrest the Gipsy who has locked him in. Antonia commences a song, <title level="a">Oh! in pity hear
+          me suing,</title> joined first by Rincon, who quickly deduces that Antonia is protecting the
+          Gipsy, then by the Prince, who is determined to lock him up again. With Rincon back in the
+          turret the lovers ponder their fate. Would she be willing to forsake her heritage and live
+          with a Gipsy? Would he be willing to give up his nomadic life of wandering to stay with
+          her? In their duet, Antonia affirms, &quot;Yes, for thee too charming stranger,/ I could
+          smile at every danger,&quot;<note n="26" place="foot" resp="author">The lyrics for
+            <title level="a">Yes, for thee too charming stranger</title> are printed as a continuation of
+            <title level="a">Oh! in pity hear me suing</title> in <title level="m">The Gipsy Prince; or, The Loves of Don
+              Sebastian de Nurillo, and the Fair Antonia,</title> p. 40; in the musical score, <title level="m">The Gipsy
+            Prince, A Comic Opera in Two Acts, [...] Compos’d &amp; Selected by Michael Kelly,</title> the
+            duet follows the trio with the musical demarcation, &quot;Largo,&quot; pp. 59-61; the
+            music to <title level="a">Yes, for thee too charming stranger</title> is then printed as a separate
+            song, pp. 62-63. </note> but the Prince knows that he cannot expose her to a life of
+          persecuted wanderings. Antonia and the Prince depart; the Alguazirs arrive, find the
+          drunken Rincon locked in the turret, and arrest him as a heretic. The scene ends with the
+          discovery of Antonia and the Prince, who are taken by the officers to stand before the
+          tribunal of the Inquisition.</p>
+        <p>Rincon is no foe of miscegenation as long as it entails no other commitment than sexually
+          exploiting a Gipsy girl. Moore's play, however, also presents the opposite example of
+          interracial love, the very matter that had come to be frequently addressed in criticism of
+          <title level="m">Othello</title>.<note n="27" place="foot" resp="author">Kathleen Carliner, <title level="m">The Role of Racism in
+            Shakespeare's <title level="m">Othello</title></title> (Washington, DC: Georgetown University Press, 1998). Edward
+            Pechter, <title level="m"><title level="m">Othello</title> and Interpretive Traditions.</title> (Iowa City: University of Iowa Press,
+            1999). Arthur J. Little, <title level="a">Witnessing Whiteness,</title> <title level="m">Shakespeare Jungle Fever:
+            National-Imperial Re-Visions of Race, Rape, and Sacrifice</title> (Palo Alto: Stanford
+            University Press, 2000): 68-101.</note> By the end of the eighteenth century,
+          miscegenation had been redefined in the context of colonial expansion and the slave trade.
+          In Colman's <title level="m">Inkle and Yarico</title>, an English trader, Inkle, is shipwrecked in the West Indies
+          and rescued by a slave-girl,Yarico. They fall in love, but Inkle no sooner returns to
+          civilization than he plans to sell Yarico into slavery and marry a wealthy white woman,
+          Narcissa. At the last moment, Inkle's sense of love and honor revive, and he returns to
+          marry the faithful Yarico. Interracial, yes, but a white male makes the choice.<note
+            n="28" place="foot" resp="author">Daniel O'Quinn, <title level="a">Mercantile Deformities: George
+              Colman's <title level="m">Inkle and Yarico</title> and the Racialization of Class Relations.</title> <title level="j">Theatre
+            Journal</title> 54.3 (2002) 389-409.</note> In Moore's play, it is a white woman, like
+          Desdemona, who is about to defy the taboo. At the crucial moment, however, Moore provides
+          the not altogether unanticipated turn. The Gipsy Prince is not a Gipsy at all.</p>
+        <p>When he is brought before the Inquisitor, the Corrigidor, and the Alcaide to confront
+          charges of opposing the Church, he is recognized by Don Dominick as his long-lost son,
+          Sebastian. Although he might now take his place among the elite class of Murcia, Sebastian
+          has lived too long among the Gipsies to ignore their plight. Once pardoned, he makes a
+          passionate appeal for the release of his people. Moore avoids a facile and contrived
+          happy-ending by making it clear that the problems of racial subjugation and class
+          exploitation still persist. For the finale, the lovers are joined by the Gipsies and they
+          sing in chorus a turnabout of the Gipsy Prince's first song. He has now found a bride and
+          a home: &quot;The Gipsy Prince no more shall roam.&quot;</p>
+        <p>Moore's libretto adheres to the conventional formula of the popular musical
+          entertainment. In its romance plot it cautiously compromises the theme of interracial
+          marriage, but in its comic subplot it more boldly ridicules and denounces the exploitation
+          of the subjugated and marginalized lower classes. Moore's lyrics were fully integrated
+          into situation and character, not simply interpolated, as was often the case in
+          contemporary musical production. Kelly's musical settings were apt and varied, even the
+          tunes adapted from Paisiello. The entire performance had the support of an experienced and
+          capable cast. The humor depended chiefly upon Fawcett, who acted the lecherous and tipsy
+          Rincon. His song, <title level="a">I remember,</title> with music as well as words by Moore, was the
+          most original composition of the piece. The saucy and self-reliant Poppee was played by
+          Miss Tyrer, who had joined Haymarket just the previous season, when she performed as
+          Josephine in <title level="m">Children in the Wood.</title> She had been tutored in voice by Anna Maria Crouch, and
+          Kelly arranged her songs especially for her voice. At the close of the season at
+          Haymarket, Miss Tyrer chose the role of the slave-girl in <title level="m">Inkle and Yarico</title> for her benefit
+          performance (September 28, 1801).<note n="29" place="foot" resp="author">Genest,
+            7:523.</note> After leaving Haymarket, she performed on the Dublin stage.<note n="30"
+              place="foot" resp="author">See entry for Miss Tyrer in <title level="m">The Thespian Dictionary</title> (London:
+            J. Cundee, 1805).</note>
+        </p>
+        <p>The <title level="a">Notice</title> in <title level="j">The Monthly Mirror</title> (July, 1801) judged <title level="m">The Gipsy Prince</title>
+          &quot;flimsy and uninteresting,&quot; but praised the good taste and &quot;scientific
+          arrangement&quot; of the music. As Moore's biographer Ronan Kelly has observed, the
+          dialogue was panned but the music was praised. Billed as a &quot;Musical
+          Entertainment,&quot; the songs were &quot;applauded heartily&quot; and &quot;praised
+          unanimously&quot; in the reviews. The critic in <title level="j">Morning Post</title> (25 July 1801) complained
+          that &quot;the reputed author of the dialogue had not been very studious of
+          originality.&quot;<note n="31" place="foot" resp="author">Ronan Kelly, <title level="m">Bard of Erin, The
+            Life of Thomas Moore</title> (Dublin: Penguin Ireland, 2008), pp. 83-85. Ronan Kelly cites the
+            reviews in the <title level="j">Morning Post,</title> and the <title level="j">Monthly Mirror.</title> From the <title level="j">London Times</title> he also
+            quotes the reviewers complaint that &quot;the dialogue is as destitute of wit and humour
+            as the incidents are devoid of novelty and bustle which is necessary to gratify the
+            taste of the present day.&quot; </note> The dissatisfaction with the dialogue was not
+          altogether unjustifiable. To be sure, the romance plot accompanied by comic sub-plot
+          adhered to the conventional formula for the genre, and the amorous old man was a stock
+          character. But Rincon presented a marked departure from the stock stereotype. The
+          interracial theme was current but not widely risked by other playwrights. Nor had any
+          recent work presented Gipsies as major characters. <title level="m">The Gipsies,</title> a comic opera by Charles
+          Dibdin, was performed at the Haymarket (3 August 1778). In that work, a brother and sister
+          of nobility (Clarin and Spinetta), together with the sister’s maid (Laura), disguise
+          themselves as Gipsies for amusement.<note n="32" place="foot" resp="author">Charles
+            Dibdin, <title level="m">The Gipsies. A comick opera, in two acts. As it is performed at the
+            Theatre-Royal in the Haymarket</title> (London: printed by T. Sherlock, for T. Cadell, 1778).
+            Genest, 6:35.</note> Moore and Kelly created a more original and daring piece than
+          critics of the period were willing to acknowledge in print. Far more bold than bringing to
+          the stage Gipsies, or would-be Gipsies, was the hint that honest Irishmen were behind the
+          disguise and the Inquisitors were stand-ins for the deluded agents of the British
+          government.</p>
+      </div>
+      <div type="citations">
+        <head>Works Cited</head>
+        <listBibl>
+          
+          <biblStruct>
+            <analytic>
+              <author>Burwick, Frederick</author>
+              <title level="a">The Jew on the Romantic Stage</title>
+            </analytic>
+            <monogr>
+              <title level="m">Romanticism and the Jewish Question</title>
+              <editor role="editor">Sheila Spector</editor>
+              <imprint>
+                <publisher>Ashgate Press</publisher>
+                <date>2010</date>
+                <biblScope type="pp">23-9</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Carliner, Kathleen</author>
+              <title level="m">The Role of Racism in Shakespeare's Othello</title>
+              <imprint>
+                <pubPlace>Washington, DC</pubPlace>
+                <publisher>Georgetown University Press</publisher>
+                <date>1998</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Colman, the Younger George</author>
+              <title level="m">Inkle and Yarico. An Opera in Three Acts</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>G. G. J. and J. Robinson</publisher>
+                <date>1787</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!-- Letter citation needed -->
+          <biblStruct>
+            <analytic>
+              <author>Conolly, Leonard W.</author>
+              <title level="a">Letter</title>
+            </analytic>
+            <monogr>
+              <title level="m">The Censorship of English drama</title>
+              <imprint>
+                <pubPlace>San Marino</pubPlace>
+                <publisher>Huntington Library</publisher>
+                <date>1976</date>
+                <biblScope type="pp">98-99</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Dibdin, Charles</author>
+              <title level="m">The Gipsies. A comick opera, in two acts. As it is performed at the
+                Theatre-Royal in the Haymarket</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>T. Sherlock</publisher>
+                <date>1778</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Fawcett, John</author>
+              <title level="m">Songs, Duets, &amp; Choruses, in the pantomimical drama of Obi, or
+                Three-Finger'd Jack: (perform'd at the Theatre Royal, Hay Market) To which are
+                prefix'd Illlustrative Extracts, and a Prospectus of the Action</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>T. Woodfall</publisher>
+                <date>1800</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Grellmann, Heinrich Moritz Gottlieb</author>
+              <title level="m">
+                <foreign xml:lang="ge">Die Zigeuner Historischer Versuch über die Zigeuner;
+                  betreffend die Lebensart und Verfassung, Sitten und Schicksale dieses Volks seit
+                  seiner Erscheinung in Europa, und dessen Ursprung</foreign>
+             </title>
+              <imprint>
+                <pubPlace>Göttingen</pubPlace>
+                <publisher>J.C. Dieterich</publisher>
+                <date>1787</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <analytic>
+              <author>Heffner, Hubert</author>
+              <title level="a">The Haymarket Theater under Colman the Younger, 1789 to 1805</title>
+            </analytic>
+            <monogr>
+              <title level="m">Communication Monographs</title>
+              <imprint>
+                <publisher>Routledge</publisher>
+                <biblScope type="vol">10</biblScope>
+                <biblScope type="issue">1</biblScope>
+                <date>1943</date>
+                <biblScope type="pp">23-9</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Kelly, Michael</author>
+              <title level="m">Reminiscences of Michael Kelly, of the King's Theatre, and Theatre
+                Royal Drury Lane, including a period of nearly half a century; with original
+                anecdotes of many distinguished persons, political, literary, and musical</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>H. Colburn</publisher>
+                <date>1826</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Kelly, Ronan</author>
+              <title level="m">Bard of Erin, The Life of Thomas Moore</title>
+              <imprint>
+                <pubPlace>Dublin</pubPlace>
+                <publisher>Penguin Ireland</publisher>
+                <date>2008</date>
+                <biblScope type="pp">83-85</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!--Unsure if this was analytic or monograph-->
+          <biblStruct>
+            <analytic>
+              <author>Little, Arthur J.</author>
+              <title level="a">Witnessing Whiteness</title>
+            </analytic>
+            <monogr>
+              <title level="m">Shakespeare Jungle Fever: National-Imperial Re-Visions of Race, Rape,
+                and Sacrifice</title>
+              <imprint>
+                <pubPlace>Palo Alto</pubPlace>
+                <publisher>Stanford University Press</publisher>
+                <date>2000</date>
+                <biblScope type="pp">68-101</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Moore, Thomas</author>
+              <title level="m">Songs, Duets, Trios, and Choruses, in the Gipsy Prince, a Musical
+                Entertainment in Two Acts, first performed at the Theatre-Royal, Hay-Market, July
+                24, 1801. The Overture and Musick Composed and Selected by Mr. Kelly</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>T. Woodfall for Mssrs. Cadell and Davies</publisher>
+                <date>1801</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Moore, Thomas</author>
+              <title level="m">The Gipsy Prince, A Comic Opera in Two Acts, Now Performing with
+                Universal applause at the Theatre Royal, Haymarket, Compos’d &amp; Selected by
+                Michael Kelly</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <date>1801</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Moore, Thomas</author>
+              <title level="m">Memoirs of Captain Rock: the celebrated Irish Chieftain, with some
+                account of his ancestors, written by himself</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Longman, Hurst, Rees, Brown and Green</publisher>
+                <date>1824</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Moore, Thomas</author>
+              <author>O'Sullivan, Mortimer</author>
+              <title level="m">Captain Rock detected, or, The origin and character of the recent
+                disturbances and the causes, both moral and political, of the present alarming
+                condition of the South and West of Ireland, fully and fairly considered and
+                exposed</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>T. Cadell</publisher>
+                <date>1824</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Moore, Thomas</author>
+              <title level="m">The Epicurean, a Tale</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Longman, Rees, Orme, Brown, and Green</publisher>
+                <date>1827</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Pechter, Edward</author>
+              <title level="m">Othello and Interpretive Traditions</title>
+              <imprint>
+                <pubPlace>Iowa City</pubPlace>
+                <publisher>Georgetown University Press</publisher>
+                <date>1999</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <analytic>
+              <author>O'Quinn, Daniel</author>
+              <title level="a">Mercantile Deformities: George Colman's Inkle and Yarico and the
+                Racialization of Class Relations</title>
+            </analytic>
+            <monogr>
+              <title level="m">Theatre Journal</title>
+              <imprint>
+                <biblScope type="vol">54</biblScope>
+                <biblScope type="issue">3</biblScope>
+                <date>2002</date>
+                <biblScope type="pp">389-409</biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!--Person who translated the German book by Grellmann into English-->
+          <biblStruct>
+            <monogr>
+              <author>Raper, Matthew</author>
+              <title level="m">Dissertation on the Gipseys: representing their manner of life,
+                family economy, occupations &amp; trades, marriages &amp; education, sickness, death
+                and burial, religion, language, sciences &amp; arts &amp;c. &amp;c. &amp;c. : with
+                an historical enquiry concerning their origin &amp; first appearance in Europe</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>G. Bigg</publisher>
+                <date>1787</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Roach, John</author>
+              <title level="m">Authentic Memoirs of the Green-room; involving sketches,
+                biographical, critical, &amp; characteristic, of the performers of the Theatres
+                Royal, Drury-lane, Covent-Garden, and the Hay-Market. Embellished with seven
+                portraits of eminent performers</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Roach</publisher>
+                <date>1806</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!-- this is a translation and has several printings listed -->
+          <biblStruct>
+            <monogr>
+              <author>Schiller</author>
+              <title level="m">The Robbers</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>G. G. J. &amp; J. Robinsons</publisher>
+                <date>1795</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author>Smyth, William Henry</author>
+              <title level="m">The Sailor’s Word-Book: an alphabetical digest of nautical terms,
+                including some more especially military and scientific, but useful to seamen; as
+                well as archaisms of early voyagers, etc</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Blackie and Son</publisher>
+                <date>1867</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!--Unknown author of dictionary-->
+          <biblStruct>
+            <monogr>
+              <author>Unknown</author>
+              <title level="m">The Thespian Dictionary</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>J. Cundee</publisher>
+                <date>1805</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <!--The Corsair; or the Italian Nuptials. Citation?-->
+          <!--The Loves of Don Sebastian de Nurillo, and the Fair Antonia. Citation?-->
+          <!--Blue-Beard. Citation?-->
+          <!--The Siege of Belgrade. Citation?-->
+          <!--The Haunted Tower. Citation?-->
+          <!--No Song, No Supper. Citation?-->
+          <!--Lodoiska. Citation?-->
+          <!--Bride of Abydos. Citation?-->
+          <!--The Castle Spectre. Citation?-->
+          <!--Bluebeard. Citation?-->
+          <!--Pizarro. Citation?-->
+          <!--De Montfort. Citation?-->
+          <!--Remorse. Citation?-->
+          <!--Farmer. Citation?-->
+          <!--Every One has his Fault. Citation?-->
+          <!--The Heir at Law. Citation?-->
+          <!--The Poor Gentleman. Citation?-->
+          <!--Throw Physic to the Dogs. Citation?-->
+          <!--Caleb Quotem and his Wife! or, Paint, Poetry, and Putty. Citation?-->
+          <!--Mahmoud, Prince of Persia. Citation?-->
+          <!--The Tobacconist. Citation?-->
+          <!--Speed the Plough. Citation?-->
+          <!--Road to Ruin. Citation?-->
+          <!--The Heir at Law. Citation?-->
+          <!--Raising the Wind. Citation?-->
+          <!--The Foundling. Citation?-->
+          <!--Padlock. Citation?-->
+          <!--Children in the Wood. Citation?-->
+          <!--The Monthly Mirror. Citation?-->
+          <!--Morning Post. Citation?-->
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

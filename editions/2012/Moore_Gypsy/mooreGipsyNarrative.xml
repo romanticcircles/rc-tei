@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Gipsy Prince</title>
+				<author>
+					<name>Thomas Moore</name>
+				</author>
+				<editor>Frederick Burwick</editor>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Justin Tonra</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding and Proofreading</resp>
+					<name>Deborah K. Wright</name>
+				</respStmt>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Neil Fraistat</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Steven E. Jones</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>2011-05-01</edition>
+			</editionStmt>
+			<extent/>
+			<publicationStmt>
+				<idno type="edition">mooreGipsyNarrative</idno>
+				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
+					Maryland</publisher>
+				<pubPlace>College Park, MD</pubPlace>
+				<date when="2010-10-20">May 1, 2011</date>
+				<availability status="restricted">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
+						or disseminated in any manner without authorization unless it is for
+						purposes of criticism, comment, news reporting, teaching, and/or classroom
+						use as provided by the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+						are copyrighted by the author/editor and may be shared only in accordance
+						with the Fair Use provisions of U.S. copyright law. Except as expressly
+						permitted by this statement, redistribution or republication in any medium
+						requires express prior written consent from the author/editors and advance
+						notification of Romantic Circles. Any requests for authorization should be
+						forwarded to Romantic Circles:
+						<address>
+							<addrLine>Romantic Circles</addrLine>
+							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>Department of English</addrLine>
+							<addrLine>University of Maryland</addrLine>
+							<addrLine>College Park, MD 20742</addrLine>
+							<addrLine>fraistat@umd.edu</addrLine>
+						</address>
+					</p>
+					<p>By their use of these texts and images, users agree to the following
+						conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose
+								without prior written permission from Romantic Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms
+								other than their current ones.</item>
+						</list>
+					</p>
+					<p>Users are not permitted to download these texts and images in order to mount
+						them on their own servers. It is not in our interest or that of our users to
+						have uncontrolled subsets of our holdings available elsewhere on the
+						Internet. We make corrections and additions to our edited resources on a
+						continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make
+						a link to the copies at Romantic Circles, subject to our conditions of
+						use.</p>
+				</availability>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">The Gypsy Prince</title>
+						<author>Thomas Moore</author>
+						<editor>Frederick Burwick</editor>
+						<respStmt>
+							<resp>Technical Editor</resp>
+							<name>Justin Tonra</name>
+						</respStmt>
+						<respStmt>
+							<resp>Encoding and Proofreading</resp>
+							<name>Deborah K. Wright</name>
+						</respStmt>
+						<imprint>
+							<publisher>Romantic Circles at the University of Maryland</publisher>
+							<pubPlace>College Park Maryland</pubPlace>
+							<date when="2011-05-01">May 1, 2011</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p><gi>Speaker</gi> element names have been regularised across this file and the
+						Manuscript file, according to the names reproduced in the Dramatis Personae
+						printed in the Historical Narrative: Don Roderic; Don Dominic; Gipsy Prince;
+						Rincon; Old Jew; Alcaide; Alguazil(s); Officer(s); Messenger; Gipsies;
+						Diego; Antonia; Poppee; Lachimee; Blanch; Alguazils, Peasants, Gipsies, etc.
+						Note: the regularisation takes place only within <gi>speaker</gi> elements;
+						it does not occur in the stage directions, text of the play or Dramatis
+						Personae.</p>
+				</normalization>
+				<hyphenation>
+					<p>All dashes have been represented with an emdash: <gi>&#x2014;</gi>, and
+						surrounding whitespace has been deleted (except where dash is preceded by a
+						full stop).</p>
+				</hyphenation>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+				</quotation>
+				<normalization method="markup">
+					<p>Incorrect and idiosyncratic spelling has not been regularised; instances are
+						marked by a <gi>sic</gi> element.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="genre">
+					<bibl>NINES categories for Genre and Material Form at
+						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
+						on 2009-02-26</bibl>
+					<category xml:id="g1">
+						<catDesc>Architecture</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Artifacts</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Letters</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Politics</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Folklore</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>History</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Leisure</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Humor</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Education</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>nonfiction</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Perodical</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Philosphy</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Family Life</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Visual Art</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Travel</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Book History</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Law</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef scheme="#genre" target="g6"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#DKW" when="2011-02" n="1">
+				<label>Changed by the editor</label>
+				<name xml:id="MC">Deborah K. Wright</name>
+				<list>
+					<item>TEI-encoded using P5</item>
+					<item>Codes and comments added by DKW, 2-23-11.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-03-21" n="2">
+				<label>Changed by the editor</label>
+				<name xml:id="JT">Justin Tonra</name>
+				<list>
+					<item>Some minor changes and corrections. Including corrections to typographic
+						errors (to line 527) in the transcription already encoded by Deborah K.
+						Wright</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-06" n="3">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Full proof correction of the encoded text against images of the original
+						document.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-12" n="4">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Regularisation of <gi>speaker</gi> names, detailed above in
+							<gi>normalization</gi>.</item>
+					<item>Regularisation of dashes to em dashes. Detailed above in
+							<gi>hyphenation</gi>.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-13" n="5">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>All <gi>note</gi> elements are now encoded at their point of attachment in
+						the text.</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<front>
+			<div>
+				<listWit>
+
+					<witness xml:id="a">Thomas Moore, The Gipsy Prince, A Comic Opera in Two Acts,
+						Now Performing with Universal applause at the Theatre Royal, Haymarket,
+						Compos'd &amp; Selected by Michael Kelly (Printed for Michael Kelly, to be
+						had at his Music Warehouse, No. 9 New Lisle Street, Leicester Square, &amp;
+						at all Music Shops [1801]).</witness>
+
+					<witness xml:id="c">The Gipsy Prince; or, The Loves of Don Sebastian de Nurillo,
+						and the Fair Antonia, translated from the Spanish. By C. Moor, Esq. To which
+						is added, The Corsair; or The Italian Nuptials. (London: J. Roach. 1801).
+						64pp. -- Front. dated Sept. 7, 1801. [BL shelfmark:
+						12330.e.37.(2.)].</witness>
+				</listWit>
+			</div>
+
+			<pb/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativetitlepageThumb.jpg" width="80px"/></figure>
+			<titlePage>
+				<docTitle>
+					
+					<titlePart type="main">THE<lb/> GIPSY PRINCE;</titlePart>
+					<lb/>
+					<titlePart type="sub">OR, THE LOVES OF<lb/> DON SEBASTIAN DE NURILLO,<lb/> AND THE<lb/>
+						<emph>FAIR ANTONIA</emph>, </titlePart>
+				</docTitle>
+				<byline>TRANSLATED FROM THE SPANISH<!-- I've changed the note element and its attributes from <note anchored="true"> to this, simply because it works for our xslts. A different solution will be necessary. DR. --><note place="foot" resp="editors" n="1"> (<emph
+							>The</emph> SPANISH ORIGINAL <emph>may be seen in the</emph>
+						British Museum.)</note>.<lb/>
+					<lb/> BY C. MOOR, Esq.</byline>
+				<lb/>
+				<docTitle>
+					<titlePart type="sub">To which is added, the<lb/> CORSAIR;<lb/> OR, THE<lb/>
+						<emph>ITALIAN NUPTIALS</emph>.</titlePart>
+					<lb/>
+				</docTitle>
+				<lb/>
+				<argument>
+					<p>N.B. On these two genuine Historical Narratives, are founded; 1st. The New
+							<emph>Musical Entertainment</emph> of the GIPSY PRINCE, and
+						2nd. The <emph>Dramatic Romance</emph> of the CORSAIR; or the
+						ITALIAN NUPTIALS, performed at the Haymarket Theatre, with universal
+						Applause; being the ONLY NEW DRAMAS, produced at the Summer Theatre, during
+						the present Season.</p>
+				</argument>
+				<docImprint><pubPlace><hi>LONDON:</hi></pubPlace><lb/>
+					<publisher>PRINTED BY AND FOR J. ROACH,</publisher>
+					<address><addName>AT THE<lb/>
+					<hi>Britannia Printing-Office</hi>,</addName><lb/>
+					<addrLine>RUSSEL-COURT, DRURY-LANE.</addrLine></address><lb/>
+					<date when="1801">MDCCCI</date></docImprint>
+				<lb/>
+
+			</titlePage>
+
+
+			<pb n="3"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep3Thumb.jpg" width="80px"/></figure>
+			<div>
+				<head><emph>ADVERTISEMENT</emph>.<lb/> BY THE TRANSLATOR.</head>
+				<p>THE following genuine Historical Narrative is translated from the Spanish of
+					HERMANDEZ DE FEYJOO, a Writer of considerable eminence, who flourished towards
+					the close of the fifteenth century. With the exception of a few necessary
+					abridgments, where the Spanish writer, who appears to have been a very devout
+					and religious character, indulges in prolix moral reflexions, and interlards his
+					narrative too copiously with pious comment, the Translator has adhered, with the
+					greatest fidelity, to the text of the original. He has, likewise, in verifying
+					the little poetical specimens, occasionally interspersed in the work,
+					endeavoured to keep, as closely as possible, not only to the <emph
+						>spirit</emph>, but to the <emph>precise turn of expression</emph>
+					of his author. In this view, he has likewise preserved the <emph
+						>original metre</emph>, and in two or <fw type="catch">three</fw>
+					<lb/>
+					<pb n="4"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep4Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">ADVERTISEMENT.</fw> three instances
+					sacrificed a poetical beauty, to a faithful transcript of the author's
+					sentiments. This, he is well-aware, is contrary to the general custom of
+					translators; who not unfrequently make the original work a mere vehicle to
+					convey and usher-in their own ideas&#x2014;but this mode of conduct, the
+					translator of the present work has never been able to reconcile with his fixed
+					ideas of justice, consistency, and honor. Such as it is, he commits his
+					performance to the Public, under the gratifying impression of having
+					conscientiously discharged his duty, as far as the question involves literary
+					integrity, fidelity and truth. In how far the translator is warranted in
+					advancing this public boast, the learned Reader may easily convince himself, by
+					referring to the <emph>Archives</emph> of the <emph
+						>British Museum</emph>.</p>
+				<lb/>
+
+
+
+			</div>
+		</front>
+		
+		<body>
+			<div type="narrative">
+				<pb n="5"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep5Thumb.jpg" width="80px"/></figure>
+
+
+				<head>THE<lb/> GIPSY PRINCE;<lb/> OR, THE LOVES OF<lb/> DON SEBASTIAN DE
+					NURILLO,<lb/> AND THE<lb/> FAIR ANTONIA, &amp;c.</head>
+
+				<p>DON JUAN DE NURILLO, the father of Don Sebastian, and Don Francisco de Mena, the
+					father of Antonia, were descended from two of the most ancient and illustrious
+					families in Spain. They were first-cousins, and being nearly of the same age,
+					were from their earliest infancy brought up together. After going through a
+					preparatory course of school-discipline, they were placed at the University of
+					Saragossa, where they made the most rapid improvement in their studies,
+					combining the erudition of the scholar with the accomplishments which bespeak
+					the gentleman. The fairest prospects opened to their view, when Love, that grand
+					source, as well of our misfortunes as our happiness, involved them in an adven-
+						<fw type="catch">t<supplied reason="character missing">u</supplied>re</fw><lb/>
+					<pb n="6"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep6Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> ture, which
+					entirely reversed the scene, and darkened their horizon with big and lowering
+					clouds.</p>
+				<p>Attending Grand Mass one day, at the convent of St. Benito, in the vicinity of
+					Fraga, their attention was diverted from the duties of devotion to the
+					contemplation of two novices, whose uncommon beauty and elegance of figure
+					inspired them with the most ardent and ungovernable passion. The object of their
+					admiration did not fail to perceive the effects wrought by their
+					charms;&#x2014;a deeper blush instantly suffused their glowing cheeks at the
+					discovery, which added to their attractions, and completed their triumph. During
+					the remainder of the service, our amorous swains continued to feast their
+					ravished eyes with the delectable prospect, imbibing large and copious draughts
+					of Love's delicious poison. Service ended, they watched with circumspect heed
+					the departure of the Nuns, and as the two fair novices entered the convent-gate,
+					had a fortunate opportunity of exchanging a look, which spoke more than the most
+					expressive language is competent to convey. 'Twas, indeed, to adopt the Poet's
+					energetic phrase:
+						<!-- what is the purpose of the 'indent6' attribute - how is this different from 'indent'? --><quote
+						rend="indent6">"Silence, that spoke! and eloquence of eyes!"</quote></p>
+				<p>Every other object was now lost and absorbed in the prosecution of this new
+					pursuit. Many were the wiles and stratagems employed by our two friends, to gain
+					access to their mistresses; but <fw type="catch">as</fw><lb/>
+					<pb n="7"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep7Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE</fw> as a detail of
+					particulars would lead us into too wide a field of digression; and as we are not
+					writing The History of Don Juan and Francisco, but that of their children, we
+					shall follow the example of the great Father of Epic composition, who, instead
+					of commencing his narrative, <emph>ab ovo</emph>, wisely, as Horace
+					remarks: <quote rend="indent6"><lg>
+							<l>"Semper ad eventum festinat, et in medias res,</l>
+							<l>"Non secus ac notas, auditorem rapit."</l>
+						</lg></quote> Suffice it, therefore, to observe, that after a long series of
+					amorous siege, the two lovers succeeded in their hopes. Persevering attention,
+					backed by opportunity, proved victorious. In an unguarded moment; whilst
+					prudence slept, and passion usurped the reins from judgment, our panting
+					Dulcineas, yielding to Nature's impulse, celebrated the virgin-sacrifice of
+					Love, in the absence of Hymen.</p>
+				<p>Once solemnized, their Cytherean rites were found too delightful and ecstatic not
+					to be frequently repeated; 'till at length consequences, such as might naturally
+					be expected from such transactions, roused them from their delicious dream to
+					scenes of perplexity and dismay. Here our Spanish author launches out into a
+					wide field of pious argumentation on the virtue of chastity, and the evils which
+					accrue from the heinous sin of concupiscence, in which (however edifying, his
+					remarks <fw type="catch">may</fw><lb/>
+					<pb n="8"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep8Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> may be) we do
+					not conceive it necessary to follow him on the present occasion. Passing,
+					therefore, from moral disquisition to narrative&#x2014;though the ladies were
+					not professed, and consequently not liable, not having taken the veil, to the
+					dreadful, punishment attendant on the violation of the monastic vow; yet had
+					they and their gallants just cause of apprehension from the resentment of their
+					friends, who, in the event of a discovery, would not fail to wipe out the
+					dishonour brought upon their family by blood. To prevent such dire extremities
+					an elopement was agreed upon, and speedily carried into execution. The necessary
+					preparations being made for flight, the convent-walls were scaled, under the
+					propitious auspices of the sable Goddess of Night, and the two novices,
+					disguised in male attire, accompanied their lovers to Barcelona, where they
+					embarked on board a vessel bound for Leghorn.</p>
+				<p>On their arrival in Italy, they were married, and soon after settled in a
+					delightful retreat on the banks of the Arno. Here, in due process of time, the
+					ladies were both delivered&#x2014;the one of a son&#x2014;the other of a
+					daughter; (the hero and heroine of our present narrative) but though they
+					survived the pangs of child birth, they were not doomed long to taste the joys
+					of mother-hood. <fw type="catch">They</fw><lb/>
+					<pb n="9"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep9Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> They both of
+					them died within a twelvemonth, leaving their husbands disconsolate for their
+					loss.</p>
+				<p>Deprived of their beloved companions, their Tuscan retirement now became
+					insupportable. Every scene reminded them of lost happiness; every object but too
+					forcibly recalled past joys, the recollection of which was now painful. Our two
+					friends resolved, therefore, to leave Italy, and return to Spain, where it was
+					their intention to "bid adieu to the world," and embrace a life of penitence and
+					devotion. Unwilling to expose <emph>Antonia</emph>, whose delicate
+					frame required the nurse's tenderest care, to the perils and inconveniences of
+					the sea, arrangements were made for leaving her in Italy. They then embarked for
+					Carthagena, where the young <emph>Sebastian</emph> was placed under
+					the fosterage of an uncle, named Alvarez. Having thus disposed of their
+					children, they repaired to the city of Murcia, where they took the vows and
+					monastic habit&#x2014;Don Juan assuming the name of <emph
+						>Dominic</emph>, and Don Francisco that of <emph>Roderic</emph>.</p>
+				<p>Here then for the present, we take our leave of Don Francisco, and Don Juan, to
+					follow the fate and adventures of <emph>Sebastian</emph>. He had not
+					yet completed his seventh year, when his uncle <emph>Alvarez</emph>,
+					finding him an enterprizing and spirited lad, determined, with the consent of
+						<emph>Sebastian</emph>'s father to take his nephew with him on a
+					voyage <fw type="catch">of</fw><lb/>
+					<pb n="10"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep10Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> of discovery.
+					The ship was principally fitted out for the purpose of conveying missionaries to
+					China, Ava, Siam, and other remote Eastern territories; but <emph
+						>Alvarez</emph> combined with this part of its destination, views of a
+					different nature, involving mercantile profit. Fate, however, had differently
+					decreed. <emph>Alvarez</emph> had not been landed in Ava many weeks,
+					before he was seized with a malignant fever, which in a few days carried him to
+					his grave, leaving our hero in the most distressing situation, an orphan, in a
+					remote foreign country, the manners and language of which were alike strange and
+					unknown to him. Fortunately for <emph>Sebastian</emph>, he had, by his
+					frank and cheerful disposition, ingratiated himself into the affection of a
+					Jesuit friar, who, on the death of his uncle, took him under his own care, and
+					instructed him in the sciences, with the express design of bringing him up for a
+					missionary.</p>
+				<p>Under this worthy man, <emph>Sebastian</emph> improved rapidly; and in
+					the course of four years made a wonderful proficiency, not merely in classical
+					knowledge; but in the different languages of the East. It was not, however, the
+					will of the Destinies, that the advantage he reaped from the friar's tuition
+					should be permanent. <emph>Sebastian</emph> was now in his twelfth
+					year, when <emph>Fereira</emph> (for that was our friar's name)
+					resolved to visit the neighbouring <fw type="catch">kingdoms</fw><lb/>
+					<pb n="11"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep11Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> kingdoms of
+					Pegu and Siam. <emph>Sebastian</emph> accompanied him on the journey;
+					but scarcely had they entered the confines of the Siamese territory, before they
+					were set upon by a party of the natives, who murdered <emph
+						>Fereira</emph> on the spot, and, took our hero prisoner. To his youth alone
+					was it owing, that <emph>Sebastian</emph> did not experience a similar
+					catastrophe with the friar.</p>
+				<p>Our hero was sold as a slave to one of the principal men in the country; who at
+					first employed him in a menial capacity; but soon finding him apt and
+					intelligent, raised him to a post of superior trust, and generally carried him
+					as his attendant, when he went to pay his court to the monarch. This Prince
+					ranks among the most despotic sovereigns in the world. The mandarins themselves,
+					and the highest officers of state, must always prostrate themselves, when they
+					approach the royal presence. The same spirit of abject submission pervades the
+					subordinate classes. Servants must always appear before their masters in a
+					kneeling posture; and not only bear taunt and rebuke without reply; but even
+					affect to consider stripes, kicks, and buffettings, as an honour conferred upon
+					them. The monarch holds his court, and permanently resides in the city of Siam,
+					from which the whole kingdom takes its name. His palace is nearly three miles in
+					circumference, and is orna- <fw type="catch">mented</fw><lb/>
+					<pb n="12"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep12Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> mented with
+					the most costly materials. It contains among other articles of value, seven
+					idols, each six feet in height, cast in gold of two inches thick, and richly
+					studded with diamonds, gems, and other precious stones. The fronts of the
+					different houses, of which it is composed, dazzle the eye with the brightness of
+					their lustre, being gilt, painted and varnished to an indescribable refulgence.
+					The honours paid to the monarch border almost on adoration. His will is law—nor
+					does his authority acknowledge any controul.</p>
+				<p>It was at the court of this Prince that <emph>Sebastian</emph> formed
+					an acquaintance with one of those Eastern Sages, known by the name of Magi, and
+					who to this day profess the doctrines of the great Zoroaster, from whom they
+					claim an uninterrupted lineal descent. <emph>Kherbhorzsching</emph>
+					(the name of this Sage) was a native of Cambodia, a country but little explored
+					by Europeans. He was thoroughly versed and initiated in all the mysteries of
+					Oriental divination, and the sacred rites of the Fire-worship. He had traversed
+					not only the vast continent of Asia, but every habitable part of Africa,
+					particularly Ethiopia, and the fertile plains of Egypt, where he was introduced
+					to the subterranean <emph>adyta</emph> of the priests. Twelve months
+					did he watch the motions of the heavenly bodies on the summit of Caucasus, and
+					frequently by his potent spells, <fw type="catch">arrested</fw><lb/>
+					<pb n="13"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep13Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> arrested the
+					progress of the labouring moon. Nor was Europe itself unknown to his researches.
+					He had peregrinated the several states of Greece, Turkey, Italy, Germany,
+					Hungary and Poland; had peeped into the crater of Vesuvius, and joined a
+					conclave of necromancers in the frozen climes of Lapland. In fine, he had
+					attained to the very <emph>achme</emph> of magical science, and stood
+					at the head of that sacred order.</p>
+				<p>The more effectually to train and instruct <emph>Sebastian</emph>, for
+					whom <emph>Kherbhorzsching</emph> had conceived a strong paternal
+					affection, he redeemed our hero from servitude, and not only admitted him as a
+					companion, but adopted him as his own son. After he had duly initiated him in
+					all the arcana of magic science, and thoroughly qualified him for the grand
+					design he had in contemplation, he communicated to him the project he had formed
+					for the revival of the ancient race Astrologers, in the accomplishment of which
+					he fixed upon <emph>Sebastian</emph> for his principal instrument and
+					co-adjutor. <emph>Sebastian</emph> readily gave into his views, and
+					the necessary preparations were accordingly made to carry the scheme into
+					effect.</p>
+				<p>For this purpose they travelled, joined by a large number of followers, to
+					Ethiopia, where they still further augmented their troop, and then passed into
+					Egypt. Here a solemn meeting or con- <fw type="catch">clave</fw><lb/>
+					<pb n="14"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep14Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> clave was
+					held, in the caverns of the largest of the Pyramids, at which <emph
+						>Kherbhorzsching</emph> was unanimously and formally appointed the Head and
+					Chief of the New Order, and as such, invested with the insignia of Sovereign
+					Command. This done, it was next resolved to pass over into Spain, where they
+					doubted not to raise a large body of adherents among the Moors. The Jews,
+					likewise, formed an object of speculation; but, before this part of the business
+					could be carried into execution, <emph>Kherbhorzsching</emph> died,
+					appointing <emph>Sebastian</emph> to be his successor, which
+					nomination was confirmed by the unanimous suffrage of the whole troop.</p>
+				<p>The original intention was to land in Granada, that province being more overrun
+					with Moors, as well as Jews, than any other part of Spain; but contrary winds
+					drove them to the vicinity of the Cape de Palos, where they disembarked. Aware
+					of the rigour of the Catholic discipline, they concealed themselves in a vast
+					forest, <emph>Sebastian</emph> undertaking the perilous adventure of
+					reconnoitring the disposition of the inhabitants. Several volunteered to
+					accompany him; but <emph>Sebastian</emph> peremptorily insisted on
+					sallying forth alone, fearful, on the one hand, of exciting alarm by carrying
+					along with him too great an attendance, and reluctant, on the other, to furnish
+					cause for jealousy among his fol- <fw type="catch">lowers</fw><lb/>
+					<pb n="15"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep15Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> lowers, by
+					giving the preference to any particular person, or number of individuals.</p>
+				<p><emph>Sebastian</emph> had not proceeded many miles, on his
+					reconnoittring journey, before he encountered a Jew, whom the officers of the
+					Holy Inquisition were dragging to prison. The venerable aspect of the wretched
+					Israelite, and the visible agony under which he laboured, excited his
+					compassion. The unfortunate man appeared to be in the decline of life, and
+					supplicated for his release in terms of the most piteous despondency. <emph>Sebastian</emph> strongly sympathised in his distress. Add to
+					this, that the present seemed a favourable opportunity of promoting the peculiar
+					and specific object of his mission. By succouring an oppressed individual, he
+					hoped to conciliate the good will of the Jews at large. He therefore stepped
+					forward to interrogate the officers, as to the cause of the Jew's arrest, when
+					receiving, as might, indeed, be naturally expected, an unsatisfactory and even
+					insolent answer, he, without further parley, drew his sword, flew on the
+					alguazils, one of whom he instantly levelled with the ground—on which the other
+					took to his heels, and sought safety by flight.</p>
+				<p>The Jew kneeling to his deliverer, returned thanks for his rescue ; but at the
+					same time warned our hero of the imminent jeopardy he had incurred. <fw
+						type="catch">If</fw><lb/>
+					<pb n="16"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep16Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> If
+					apprehended, (and strict and immediate search would infallibly take place) his
+					life, he apprized him, was forfeited beyond the hopes of redemption&#x2014;death
+					being the inevitable consequence of obstructing the officers of the Inquisition.
+					He therefore entreated our hero to consult his own safety by instant flight. <emph>Sebastian</emph> felt the full weight and cogency of this
+					advice. Giving the Jew directions, and a passport of reception to his troop, he
+					hastily took leave of him, and striking into a different path, endeavoured to
+					elude pursuit.</p>
+				<p>Evening was now drawing on; when <emph>Sebastian</emph> winding the
+					brow of a hill, discovered a troop of horsemen at no great distance. Not
+					doubting but that these were his pursuers, he quickened his pace, till he found
+					himself in the vicinity of a large and populous town. To retreat, was
+					impossible; to proceed, certain and inevitable destruction. In this dilemma he
+					scaled the walls of a garden, which skirted the suburbs, and concealing himself
+					in a pavillion, the door of which was very opportunely left open, awaited the
+					approach of night.</p>
+				<p>He had not remained long in this condition, before the sound of a lute struck his
+					ears, and engaged his most serious attention. <emph>Sebastian</emph>
+					cautiously drew near the lattice, and beheld a lady of great youth and beauty,
+					who seating herself in an <fw type="catch">arbour</fw><lb/>
+					<pb n="17"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep17Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> arbour near
+					him, sang the following lines with a degree of sweetness that charmed his inmost
+					soul, and for the moment caused him to forget the perilous situation in which he
+					stood.</p>
+
+				<lg part="I">
+					<head>SONG</head>
+					<l>SOFT Arno's stream&#x2014;how sweet! <emph>divino!</emph>
+					</l>
+					<l>As on its flow'ry banks we rove;</l>
+					<l>Its cool retreats, its neat <emph>casino!</emph></l>
+					<l>Its jassmine bower, and myrtle grove!</l>
+					<l>There Tuscan swains, in soft <emph>soprano</emph>,</l>
+					<l>Whisper the soothing, amorous tale;</l>
+					<l>There Tuscan maids, in sweet <emph>piano</emph>,</l>
+					<l>Coo, murmuring with the sighing gale!</l>
+				</lg>
+
+				<lg part="F">
+					<l>Ah! lead me to the calm <emph>reposo</emph>,</l>
+					<l> Where all the Loves and Graces dwell!</l>
+					<l>Where ev'ry swain, <emph>affettuoso</emph>,</l>
+					<l>Tenderly sighs his flame to tell!</l>
+					<l>Where ev'ry nymph dissolves in blisses;</l>
+					<l><emph>Caro!</emph> oh, <emph>Caro!</emph> waft me
+						there,</l>
+					<l>Where pains and sorrows die in kisses,</l>
+					<l>Kisses, that charm, and heal despair!</l>
+				</lg>
+
+				<p>Having concluded her song, the lady arose, and was preparing to depart. The
+					ineffable sweetness and benignity, which beamed forth in her looks, bespoke a
+					soul, of Heaven's own likeness, and guaranteed the goodness of her heart. <emph>Sebastian</emph>
+					<fw type="catch">felt</fw>
+					<lb/>
+					<pb n="18"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep18Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> felt inspired
+					with confidence, and determined to avail himself of so favorable an opportunity.
+					Quitting, therefore, his concealment, he threw himself at the lady's feet, and
+					briefly stating his case, implored her protection. The lady, as soon as she had
+					recovered from the surprize in which such unexpected interview naturally
+					involved her, sympathized in the misfortunes of our hero, and promised to
+					befriend him, to the utmost of her power. She counselled him, to pass the
+					ensuing night in the pavillion, which was appropriated for her own use, and the
+					key of which she put into his hands. She then went into the house, from which
+					she soon returned with some refreshments, and a few necessaries to render <emph>Sebastian</emph>'s nocturnal abode in the pavillion more
+					comfortable.</p>
+				<p>Here it will be necessary for us to revert to the former part of our narrative,
+					in order to account for certain circumstances, which otherwise might well excite
+					the reader's astonishment. A Spanish lady, on the banks of the Segura, in the
+					province of Murcia, and in the suburbs of the very capital of that province,
+					chaunting a Tuscan song, descriptive of the beautiful scenery, which graces the
+					flowery banks of Arno, is certainly a novel case, and demands some
+					explanation.</p>
+				<p>The reader will remember, that we took leave of the fathers of our hero and
+					heroine, at the <fw type="catch">time</fw><lb/>
+					<pb n="19"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep19Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> time of their
+					embracing the monastic life. Their exemplary conduct, and strict devotion soon
+					attracted the notice of the Superiors of the convent, and paved the way to their
+					preferment. In due process of time they passed through all the different
+					gradations of monastic rank, and on the demise of the Head Officers of the
+					Inquisition established at Murcia, were appointed to fill their places, <emph>Roderic</emph> being nominated the <emph>Inquisitor
+						General</emph>, and <emph>Dominic</emph> the <emph
+						>Corregidor</emph> of the Holy Office.</p>
+				<p>At the time this event took place, <emph>Antonia</emph>, the daughter
+					of <emph>Roderic</emph>, whom we left in Tuscany, had attained her
+					twentieth year. <emph>Roderic</emph> being now in circumstances, which
+					admitted of her company, sent for her to Murcia, and lodged her in a pleasant
+					house in the suburbs, where for the sake of obviating scandal, and to prevent
+					curiosity, she pass<supplied reason="character missing">e</supplied>d for his
+					niece. It was the wall of the very garden appertaining to this villa, which <emph>Sebastian</emph> scaled, as already recorded, and the lady,
+					whose compassion afforded him an asylum, was no other than <emph
+						>Antonia</emph> herself.</p>
+				<p>Two years had intervened since <emph>Antonia</emph>'s arrival in
+					Murcia, and her present rencounter with <emph>Sebastian</emph>. During
+					that period many were the offers made her of marriage&#x2014;noble and
+					honourable the list of suitors that solicited her hand. She was fair, as the
+					dawning of day! lovely as the <fw type="catch">paradise</fw><lb/>
+					<pb n="20"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep20Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> paradise of
+					God! Her fine auburn locks waved gracefully over her arched and open forehead;
+					or descended in wanton ringlets down her pearly neck, and sported on her
+					shoulders. Her bright sparkling eyes resembled a clear expanse of water, on
+					which the glorious sun casts his refulgent beam! Like Heaven's own lightning,
+					they penetrated to the beholder's heart! but, like lightning, their effulgence
+					was insufferable, and pained the aching sense! Her nose was aquiline, and gave a
+						co<supplied reason="character missing">m</supplied>manding air to her
+					appearance. The blush of her cheeks outvied the damask rose! and in their
+					dimples lurked a thousand Cupids in ambush to ensnare the palpitating heart! Her
+					mellifluous mouth was a garden of sweets! the honey-combs of Hybla--the perfumes
+					of Arabia were there assembled and concentrated! Her coral lips swelled, as it
+					were, to meet the ecstatic kiss, which their pruriency provoked! Her teeth
+					surpassed in whiteness the driven snow and for regularity might be compared, in
+					the language of Solomon, to a flock of sheep, that are even-shorn! Her neck, at
+					once lovely and majestic, with swan-like curve, might serve as a model for the
+					consort of imperial Jove! Her breasts were like the clusters of
+					Engedi!&#x2014;firm and elastic to the touch! gently heaving to the motion of
+					the pulse! downy pillows, on which Love would wish to lie entranced to all
+					eternity! <fw type="catch">Her</fw><lb/>
+					<pb n="21"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep21Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> Her figure
+					corresponded in every respect with the transcendent charms of her face! She was
+					alike distinguished for symmetry, and elegance! To sum up, the aggregate of her
+					perfections, we may say of her, in the words of the Poet: <quote rend="indent6"><lg>
+							<l>In Nature's fairest mould,</l>
+							<l>Whilst Heav'n, and ev'ry genial power,</l>
+							<l>Propitious smil'd, and hail'd the hour,</l>
+							<l>Was blest Antonia form'd—an angel's mind</l>
+							<l>Dwelt in an angel's frame enshrin'd!</l>
+							<l>So flames the Orient gem, encas'd in gold!</l>
+							<l>So flames in rich Golconda's mine,</l>
+							<l>Where Phoebus, with meridian blaze,</l>
+							<l>Darts vertical his burning rays</l>
+							<l>And sublimates the precious stone,</l>
+							<l>The produce of the torrid zone,</l>
+							<l>To climes more temperate unknown.</l>
+							<l>So flames the diamond; so sparkling rubies shine;</l>
+							<l>Antonia's lustre such, and such her radiance divine.</l>
+						</lg></quote> Such was <emph>Antonia</emph>&#x2014;such the person
+					for whose fair hand a thousand suitors contended; but contended in vain! Was it,
+					that <emph>Antonia</emph>, the fair Antonia, was insensible to love?
+					Was it, that with a form calculated to kindle the flame of fierce desire in the
+					bosom of every male beholder, she herself was incapable of participating in the
+					passion which herself inspired? Far, from it. Her <fw type="catch">feeling</fw><lb/>
+					<pb n="22"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep22Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> feelings were
+					equally delicate and refined, as her person. To what cause then, continues our
+					Spanish Historian&#x2014;are we to attribute this seeming indifference and
+					insensibility, on the part of <emph>Antonia</emph>? Doubtless,
+					marriages are decreed, and registered in Heaven! The proper hour had not yet
+					struck&#x2014;the proper object not yet presented himself to her view.</p>
+				<p>Leave we, however, our author to pursue his moral reflections&#x2014;and let us
+					return to <emph>Sebastian</emph>. The reader will easily conceive that
+					his situation was not the most enviable, and that he had sufficient cause of
+					uneasiness to disturb his slumbers, and break in on his repose. Yet, amidst all
+					his difficulties, he derived no small share of consolation, from the
+					recollection of the lively sympathy and interest which the fair <emph>Antonia</emph> evidently took in his fate. Early habituated to a
+					life of adventure and vicissitude, he had learnt to bear the reverses of fortune
+					with stoic apathy; and, though not insensible of the imminent jeopardy in which
+					he stood, yet was he not wholly cast down, and discomfited. Hence, after
+					ruminating for some time on his forlorn condition, he resolved to bear with
+					fortitude, what it was not in his power to alter, and the fatigues he had
+					undergone, in the course of the day, contributing to second the calls <fw
+						type="italic">of</fw><lb/>
+					<pb n="23"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep23Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> of Nature, he
+					fell in a few hours into profound sleep.</p>
+				<p>From this state of mental abstraction, he was, aroused by the greetings of the
+					fair <emph>Antonia</emph>, who rising with the lark (for her slumbers,
+					likewise had been greatly broken-in upon and invaded, by busy and restless
+					thought) sallied into the garden, and approaching the pavilion, gave the signal
+					for <emph>Sebastian</emph> to make his appearance, by singing the
+					following Lines, accompanied by her lute</p>
+				<lg part="I" n="1">
+					<head>1</head>
+					<l>Damon! awake, unseal thine eyes,</l>
+					<l>'Tis Celia calls, and bids thee rise;</l>
+					<l>Celia, whose love, sincere and true,</l>
+					<l>Claims some return of love from you.</l>
+					<l>Damon! awake, unseal thine eyes,</l>
+					<l>Thy Celia calls, and bids thee rise.</l>
+				</lg>
+				<lg part="M" n="2">
+					<head>2</head>
+					<l>The soaring lark his matin sings,</l>
+					<l>And all the grove with music rings;</l>
+					<l>The sun already darts his ray,</l>
+					<l>And ushers in the cheerful day.</l>
+					<l>Damon! awake, unseal thine eyes,</l>
+					<l>Thy Celia calls, and bids thee rise!</l>
+				</lg>
+				<lg part="F" n="3">
+					<head>3</head>
+					<l>No curious prying eye is near;</l>
+					<l>No list'ner on the watch, to hear;</l>
+					<fw type="catch">Alone</fw>
+					<lb/>
+					<pb n="24"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep24Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+					<l>Alone I come; alone I rove,</l>
+					<l>With silent step, the conscious grove.</l>
+					<l>Damon! awake, unseal thine eyes,</l>
+					<l>Thy Celia calls, and bids thee rise!</l>
+				</lg>
+
+				<p><emph>Sebastian</emph> readily obeyed the welcome summons, and opening
+					the door of the pavillion, had the pleasure of passing an hour in close <emph>tête â tête</emph> with the fair <emph>Antonia</emph>.
+					Many were the plans they successively devised and rejected for securing <emph>Sebastian</emph>'s safety and escape; at length it was agreed,
+					that <emph>Antonia</emph> should furnish him with female attire, and
+					under that disguise, shelter him in the house, till the officers of the
+					Inquisition, finding their search fruitless, should be induced to discontinue
+					their pursuit, from which, it was hoped, they would the sooner desist, as the
+					officer supposed to have been killed, turned out to be only wounded, and was
+					pronounced by the physicians to be within the reach of recovery.</p>
+				<p>This scheme was accordingly carried into immediate execution; but unfortunately
+					the very means adopted to conceal our hero, proved the efficient cause of his
+					detection. <emph>Don Roderic</emph>, notwithstanding the ostensible
+					austerity of his manners, and his apparent sanctity, was still at heart a rake,
+					and had sufficient of the old leaven in his composition, to lead him astray into
+					the paths of sly and hidden licentiousness. The very day, that <fw type="catch"
+							><emph>Antonia</emph></fw><lb/>
+					<pb n="25"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep25Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+					<emph>Antonia</emph> introduced <emph>Sebastian</emph> into
+					the house, <emph>Don Roderic</emph> happened to indulge rather to
+					freely in the good things of this world—in plain language, he had partaken of
+					savoury viands, and delicious wines, till they had an effect, not altogether <emph>spiritual</emph>, on his bodily system, and excited that species
+					of insurrection in the flesh, which St. Paul metaphorically designates by the
+					scriptural phrase of a "<emph>war in the members</emph>." In this
+					condition, his pulse beating high, and his blood running riot, he happened, to
+					stumble on <emph>Sebastian</emph>, who, as we have already observed,
+					was equipped in female attire, and was sitting in <emph
+					>Antonia</emph>'s bedroom. The love of novelty and variety forms a leading feature
+					in the character of libertines. Hence <emph>Don Roderic</emph> no
+					sooner perceived a new face, than he felt his passion inflamed to a double pitch
+					of violence. The demon of desire instantly seized upon his
+					reverence&#x2014;place and opportunity both conspired to abet his libidinous
+					inclinations&#x2014;Without further ceremony, therefore, <emph>Don
+						Roderic</emph> attacked <emph>Sebastian</emph>, and was proceeding
+					to extremities, when a blow from our hero felled him to the ground. This
+					salutation was followed by other symptoms, which sufficiently discovered <emph>Sebastian</emph>'s actual sex, and compelled <emph
+						>Don Roderic</emph> to a precipitate retreat.</p>
+				<p>The alarm was now given, and the <emph>ambiguous</emph>
+					<fw type="catch">chamber-</fw><lb/>
+					<pb n="26"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep26Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> chamber-maid
+					taken into custody. The circumstance of a man lurking in the house, under the
+					disguise of a female, was of itself, sufficient to attract the notice of the
+					Holy Office. <emph>Sebastian</emph> was accordingly, without further
+					examination cast into a damp and frightful dungeon, where he was left to
+					ruminate, at leisure, on his wretched fate.</p>
+				<p>On his being brought before the Inquisition for examination, he was immediately
+					recognized for the person who had attacked the officers, and rescued the Jew.
+					Things seemed now to be in a bad train with him. No hopes, no chance remained of
+					escaping the punishment attendant on so flagrant an outrage&#x2014;under these
+					circumstances his death appeared inevitable.</p>
+				<p>He was accordingly remanded back to prison, till the Head Inquisitor, and the
+					Corregidor, who were better employed in feasting and regaling the inner-man,
+					should be at leisure to attend the examination and enquire into the particulars
+					of his case.</p>
+				<p>We shall not attempt to describe the emotions of the fair <emph
+						>Antonia</emph>, on receiving the intelligence of <emph
+						>Sebastian</emph>'s arrest. For such a task, language is much too feeble and
+					imperfect. Gravely to tell the reader, that the sentiments she entertained for
+						<emph>Sebastian</emph> were not merely the effect of sympathy and
+					commiseration, that they partook of a warmer <fw type="catch">passion,</fw><lb/>
+					<pb n="27"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep27Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> passion,
+					would be an insult to his understanding. Unconscious even to herself, <emph>Antonia</emph> harboured the lurking passion of love; the wanton
+					God had taken a just aim, and shot his shaft to her very heart&#x2014;Yet still,
+					so guileless and innocent was the fair nymph, she scarcely knew herself the
+					nature of those feelings which agitated her bosom, till the news of <emph>Sebastian</emph>'s apprehension aroused her to a true sense of
+					the actual state of her heart.</p>
+				<p>The following day, <emph>Sebastian</emph> was brought up to undergo a
+					formal examination. The <emph>Head Inquisitor</emph> and the <emph>Corregidor</emph>, dressed in their robes of office, presided on
+					this solemn occasion. There was no occasion to consume much time in receiving
+					the deposition of witnesses. Our hero's identity was soon proved, nor did he
+					attempt to deny or render doubtful the fact, on which he stood arraigned.</p>
+				<p>His fate, therefore, was considered as already determined. All that remained;
+					previous to passing the irrevocable sentence, was to interrogate him, as to his
+					past course of life. <emph>Sebastian</emph> was not one of those
+					head-strong, contumacious characters, who, when they see themselves cut off from
+					all hope of escaping the vengeance of the law, refuse, in sullen mood, to give
+					an answer to any just question, that may be propounded by the judge. On the
+					contrary, he maintained throughout the <fw type="catch">whole</fw><lb/>
+					<pb n="28"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep28Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> whole of this
+					trying scene, a courteous and dignified demeanour. Death he had long learnt to
+					look in the face, without dismay; and he felt no spark of resentment against
+					those, who in their judicial capacity, were only discharging their duty.</p>
+				<p>When questioned, therefore, relative to his past life, he cheerfully replied with
+					frankness and without reserve. Of his infant years, he observed, he recollected
+					but little. His parents, he did not remember&#x2014;all he knew, was, that at an
+					early age, he was placed under the care of an uncle, named <emph
+						>Alvarez</emph>&#x2014;that he accompanied this relative and foster-parent to
+					Ava, where he had the misfortune to lose him shortly after their arrival.</p>
+				<p>At the name of <emph>Alvarez</emph>; but still more so, at the mention
+					of Ava—both the <emph>Head Inquisitor</emph> and the <emph
+						>Corregidor</emph> eyed <emph>Sebastian</emph> with a look of the
+					most eager and fixed attention. The latter, in particular, appeared most
+					strangely agitated. His voice faltered; his respiration hung suspended, and
+					scarcely could he muster strength to ask the prisoner a few incoherent questions
+					when suddenly rising from his seat, he rushed towards <emph
+						>Sebastian</emph>, and fondly clasping him in his arms: "He is my
+					son!&#x2014;my son!&#x2014;my long-lost son!&#x2014;my dear <emph
+						>Sebastian</emph>!"&#x2014;&#x2014;he exclaimed in a paroxysm of joy and
+					perturbation.</p>
+				<p>Here we shall copy the example of <emph>Timanthes</emph>, <fw
+						type="catch">and</fw><lb/>
+					<pb n="29"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep29Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> and,
+					despairing of doing justice to the feelings of parental and filial love, draw a
+					veil over the affecting scene, which followed this recognition. The examination
+					was, of course closed, and the prisoner conducted by his newly discovered
+					father, not to the dungeons of the Inquisition; but to an apartment in his own
+					house, whither <emph>Don Roderic</emph> accompanied him. The pleasing
+					intelligence soon reached the ears of the agonized <emph
+						>Antonia</emph>, who quickly joined them at the <emph
+						>Corregidor</emph>'s.</p>
+				<p>Yet, though the <emph>Corregidor</emph> , in the person of the
+					prisoner, had discovered his own son, and though the <emph>Head
+						Inquisitor</emph> was not only his intimate friend; but himself related to <emph>Sebastian</emph> , it was not in their power to remit the
+					sentence against our hero, without a previous pardon from the Holy See. That all
+					possible interest was made to obtain this necessary step, the reader will
+					naturally conclude. Nor were their applications ineffectual. As no actual murder
+					had been committed (the officer's wounds not proving mortal, as was first
+					apprehended) the Pope, to whom a circumstantial representation of the whole case
+					was made, granted a full pardon to <emph>Sebastian</emph> , on
+					condition, that he should renounce his Pagan tenets, make a public and formal
+					recantation of his errors, and re-enter the pale of the Mother-Church. To <fw
+						type="catch">these</fw><lb/>
+					<pb n="30"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep30Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE. </fw> these
+					conditions, <emph>Sebastian</emph> readily acceded; only stipulating
+					for a free passport for his followers, to return unmolested to Ethiopia, which
+					was granted. <emph>Sebastian</emph> , thereupon made a public
+					confession of the Christian faith, and was shortly after married to the fair <emph>Antonia</emph> . The rich felicity he experienced from this
+					union, infinitely outweighed all the visionary schemes of happiness, which he
+					had flattered himself to obtain by the accomplishment of his ambitious
+					projects.</p>
+
+			</div>
+			<div>
+				<head>SUPPLEMENTARY REMARKS.</head>
+				<p>FROM the foregoing materials, which we have translated with great fidelity, from
+					the Spanish of HERMANDEZ DE FEYJOO. <emph>Mr. Charles Moore</emph>, an
+					Irish gentleman of very respectable connexions, and well known to the literary
+					world, by his translation of <!-- code added 2-23-11 by DKW --> the <emph>Odes of Anacreon</emph>, has constructed the Musical
+					Entertainment, recently produced at the Haymarket Theatre, under the title of
+					the <emph>Gipsy Prince</emph>. As customary with dramatic, writers,
+					when they dramatize an historical record, he has not adhered to the letter of
+					his text, or the strict matter of fact; but introduced such new characters, as
+					to him appeared necessary, to give a greater and more pleasing general effect to
+					his piece. In order <fw type="catch">that</fw><lb/>
+					<pb n="31"/><figure rend="rightFloat"><graphic url="../images/HistoricalNarrativep31Thumb.jpg" width="80px"/></figure>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw> that the
+					reader may have the means and opportunity of appreciating, in how far Mr. MOORE
+					is indebted to our Spanish author, and in how far he has indulged his own
+					creative fancy, we shall enter into a brief <emph>analysis</emph> and
+					examination of the Play, as performed with great and merited applause at the
+					Haymarket Theatre. The Music to the Piece, partly original, and partly selected,
+					is furnished by Mr. KELLY, and does honor to that gentleman's taste and
+					judgment.</p>
+			</div>
+
+			<!-- From this point on, I have not been able to check the accuracy of the transcript, as
+			there are no images from the document available. Consequently, there is not the same degree 
+			of consistency with matters such as em dashes, white space, and dubious transcriptions. The 
+			one modification I have made below is to change <hi> to <hi rend="italic> in all instances. 
+			Fred Burwick has told with reference to the following text that "the textual variants [between 
+			this and the ms] are minor and are already marked in my annotations. JT 2011-07-07. -->
+
+			<div type="Dramatis_Personae">
+				<head>DRAMATIS PERSONAE.</head>
+				<p><castList>
+						<castItem><role xml:id="dr">Don Roderic, (the <hi>Inquisitor</hi>)</role>
+							<actor>Mr. Suet.</actor></castItem>
+						<castItem><role xml:id="dd">Don. Dominic, (<hi>Corregidor</hi>)</role>
+							<actor>Mr. Emry</actor></castItem>
+						<castItem><role xml:id="gp">Gipsy Prince,</role>
+							<actor>Mr. Kelly.</actor></castItem>
+						<castItem><role xml:id="rin">Rincon,</role>
+							<actor>Mr. Fawcett.</actor></castItem>
+						<castItem><role xml:id="oj">Old Jew,</role>
+							<actor>Mr. Atkins.</actor></castItem>
+						<castItem><role xml:id="alc">Alcaide </role>
+							<actor>Mr. T. Truman.</actor></castItem>
+						<castItem><role xml:id="alg">Alguazils,</role>
+							<actor>Messrs. Caulfield, Klanert, Ledger.</actor></castItem>
+						<castItem><role xml:id="off">Officers,</role>
+							<actor>Messrs. Stokes, Wilkins.</actor></castItem>
+						<castItem><role xml:id="mes">Messenger,</role>
+							<actor>Mr. Chippendale.</actor></castItem>
+						<castItem><role xml:id="gip">Gipsies</role>
+							<actor>Master Menage, Mr. Abbot</actor></castItem>
+						<castItem><role xml:id="die">Diego,</role>
+							<actor>Mr. King.</actor></castItem>
+						<castItem><role xml:id="ant">Antonia (<hi>Niece to Don Roderic</hi>)</role>
+							<actor>Mrs. Mountain.</actor></castItem>
+						<castItem><role xml:id="pop">Poppee Hindu Gipsy Women </role>
+							<actor>Miss Tyrer.</actor></castItem>
+						<castItem><role xml:id="lac">Lachimee,</role>
+							<actor>Miss B. Menage</actor></castItem>
+						<castItem><role xml:id="bla">Blanch,</role>
+							<actor>Miss Guidry.</actor></castItem>
+						<castItem><role xml:id="apg">Alguazils, Peasants, Gipsies,
+							etc.</role></castItem>
+					</castList>
+					<stage type="setting">Scene&#x2014;Murcia.</stage></p>
+			</div>
+
+			<pb n="32"/>
+			<fw type="head" place="top" rend="centered">THE GIPSY PRINCE. </fw>
+
+			<div>
+				<p>The Piece opens with a rich display of rural scenery. </p>
+
+				<sp>
+					<speaker>Chorus</speaker>
+					<lg>
+						<l>HAPPY the hearts that love has blest</l>
+						<l>With such a tie, so sweet as this:</l>
+						<l>All their nights are nights of rest,</l>
+						<l>And all their days are days of bliss.</l>
+						<l>Never shall time their love eclipse,</l>
+						<l>Tho' it may steal some fire away;</l>
+						<l>But, like the roses on their lips,</l>
+						<l>Their joys shall mellow, not decay.</l>
+					</lg>
+				</sp>
+
+				<stage>Enter RINCON<note place="foot" resp="editors" n="2">The character of <emph
+							>Rincon</emph>, a busy, meddling, but whimsical and good-natured fellow,
+						is the author's own invention, and is, in the representation admirably
+						sustained by Mr. FAWCETT<sic>,</sic>
+					</note>.</stage>
+				<sp who="#rin">
+					<lg>
+						<l>Zounds! What a merry-go-frisk-away here is.</l>
+						<l>To it, my pigeons, as brisk as you can;</l>
+						<l>If one of you wishes a partner, my dearies,</l>
+						<l>Or&#x2014;dam'me&#x2014;if two of you, I am the Man!</l>
+					</lg>
+				</sp>
+
+				<sp>
+					<speaker>Chorus</speaker>
+					<l>Happy the hearts &amp;c.</l>
+				</sp>
+
+				<p>The <emph>Mock Bravura</emph>, which follows this <emph
+						>Chorus</emph>, is of a very peculiar kind, and affords ample scope for the
+					inimitable comic powers of Mr. FAWCETT.</p>
+
+				<lb/>
+				<pb n="33"/>
+				<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+				<stage>MOCK BRAVURA <note place="foot" resp="editors" n="3">The music of this Bravura, which is highly
+						characteristic, and has a truly original turn, is the composition of the
+						author of the Piece, and does great credit to his
+					talents.</note>&#x2014;RINCON.</stage>
+				<sp who="#rin">
+					<lg>
+						<l>I REMEMBER</l>
+						<l>'Twas last December,</l>
+						<l>When the tips, Ma'am,</l>
+						<l>Of old women's noses</l>
+						<l>Blush like roses,</l>
+						<l>Or your lips, Ma'&#x2014;</l>
+						<l>'Twas then&#x2014;I remember</l>
+						<l>'Twas, last November&#x2014;</l>
+						<l>No, just December,</l>
+						<l>When an old mumbling witch,</l>
+						<l>Whose gums could scarcely nibble,</l>
+						<l>Mutter'd from a ditch,</l>
+						<l>And told me like a Sibyll!</l>
+						<l>"Rincon, my boy, thou'lt make a row!"</l>
+						<l>She said to me, as I'm saying now;</l>
+						<l>And said I</l>
+						<l>In reply&#x2014;</l>
+						<l><app>
+								<lem wit="#c">Now</lem>
+								<rdg wit="#a">[No]<hi rend="sup">a</hi></rdg>
+							</app> – says she</l>
+						<l>To me</l>
+						<l>"Thou'lt be the babe of wonder!</l>
+						<l>"Be thunder!</l>
+						<l>"Be lightning;</l>
+						<l>"The universe frightening,</l>
+						<l>"My cradle (she said) had been a large <hi>cannon</hi>!"</l>
+						<l>By the bye,</l>
+						<l>Thought I</l>
+						<l>A very fine thing to nurse a man in!</l>
+
+						<lb/>
+						<pb n="34"/>
+						<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+						<l>'Twas this they repute,</l>
+						<l>Taught my fancy to shoot,</l>
+						<l>And made me more flashy than others,</l>
+						<l>I'm the son</l>
+						<l>Of a gun,</l>
+						<l>And bullets are my sisters and brothers!</l>
+					</lg>
+				</sp>
+
+				<stage>CHORUS OF GIPSIES. (<emph>Kelly</emph>.) </stage>
+				<sp who="#gip">
+					<lg>
+						<l>Bleak rains may fall, and winds whistle over us,</l>
+						<l>Nothing but heaven and darkness to cover us.</l>
+						<l>Merry we still fly,</l>
+						<l>Where our fates lead us,</l>
+						<l>Winter or chill sky</l>
+						<l>Cannot impede us.</l>
+					</lg>
+				</sp>
+
+				<stage>SONG <note place="foot" resp="editors" n="4">There is an exquisite degree of sweetness in this
+						soft and plaintive air. It ranks, indeed, among the very best pieces of
+						composition in the whole <sic>drama,</sic>
+						<!-- code added 2-23-11 by DKW --><!-- This should presumably be a full stop,
+						but in the absence of the original document to confirm, I have let the comma 
+						stand. JT, 2011-07-07. --></note>&#x2014;GIPSY
+						PRINCE&#x2014;(<emph>Kelly</emph>.)</stage>
+				<sp who="#gp">
+					<lg part="I">
+						<l>I have roam'd through many a weary round,</l>
+						<l>I have wander'd East and West;</l>
+						<l>Pleasure in every clime, I found,</l>
+						<l>But sought in vain for rest.</l>
+					</lg>
+
+					<lg part="M">
+						<l>While glory sighs for other spheres,</l>
+						<l>I see; that <emph>one</emph>'s too wide,</l>
+						<l>And think the home, which love endears,</l>
+						<l>Were worth the world beside.</l>
+					</lg>
+
+					<lb/>
+					<pb n="35"/>
+					<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+					<lg part="F">
+						<l>"The needle thus, too rudely mov'd,</l>
+						<l>"Wanders unconscious where,</l>
+						<l>"Till having found the place it lov'd,</l>
+						<l>"It trembling, settles there!"</l>
+					</lg>
+				</sp>
+
+				<stage>TRIO&#x2014;ANTONIA, DON RODERIC, DON DOMINIC&#x2014;(<emph
+						>Kelly</emph>.) </stage>
+				<sp who="#ant">
+					<speaker>Antonia <note place="foot" resp="editors" n="5">It is impossible for any person, who has
+							not witnessed the representation, to form an adequate conception, either
+							of the native sweetness of this melody, or the beautiful manner which
+							Mrs. MOUNTAIN executes it.</note></speaker>
+					<lg>
+						<l>Sweet, oh! Sweet the spring is coming,</l>
+						<l>Nature's heavenly blush appears;</l>
+						<l>Earth expands her breathing bosom,</l>
+						<l>To be bath's in vernal tears.</l>
+						<l>Sweet, oh! Sweet the spring is coming,</l>
+						<l>Nature's heavenly blush appears;</l>
+					</lg>
+				</sp>
+				<sp who="#dr">
+					<speaker>Don Roderic</speaker>
+					<lg>
+						<l>Stop, oh! Stop your plaguy strumming,</l>
+						<l>Or you will kill me thro' my ears,</l>
+					</lg>
+				</sp>
+				<sp who="#dd">
+					<speaker>Don Dominic</speaker>
+					<l>Bravo! Delightful!</l>
+				</sp>
+				<sp who="#dr">
+					<speaker>Don Roderic</speaker>
+					<l>Bah! ‘tis frightful!</l>
+				</sp>
+
+				<sp>
+					<l>Sweet, oh! sweet, &amp;c. </l>
+				</sp>
+
+				<stage>DUET&#x2014;ANTONIA AND GIPSY PRINCE&#x2014;(<emph
+					>Kelly</emph>.)</stage>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<lg>
+						<l>Good night! Good night, I must away,</l>
+						<l>Altho' my heart would bid me stay.</l>
+					</lg>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<lg>
+						<l>Oh Lady, say "good night" once more.</l>
+						<l>And I'll repeat it o'er and o'er.</l>
+					</lg>
+				</sp>
+
+				<lb/>
+				<pb n="36"/>
+				<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+				<sp who="#ant #gp">
+					<speaker>Both</speaker>
+					<lg>
+						<l>Till the first glance of dawning light,</l>
+						<l>Should find us saying still "good night."</l>
+						<l>Good night! good night!</l>
+					</lg>
+				</sp>
+				<stage>DUET and CHORUS.<lb/> POPPEE, LACHIMEE, and <note place="foot" resp="editors" n="6">It is a
+						great pity, that Miss MENAGE, who personates this character, has not
+						superior powers of voice. She is, likewise, much too <emph
+							>affected</emph>, and dresses too <emph>finical</emph> for the
+						part.</note> GIPSIES&#x2014;(<emph>Kelly</emph>.)</stage>
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>Where Gipsy gone,</l>
+						<l>Night falling on,</l>
+						<l>Fly, to de tents in der willows fly&#x2014;</l>
+						<l>See, now dey creep</l>
+						<l>From yonder steep,</l>
+						<l>No fearee now de watchful eye.</l>
+					</lg>
+				</sp>
+
+				<sp who="#lac">
+					<speaker>Lachimee</speaker>
+					<lg>
+						<l>Here we spread,</l>
+						<l>In de willows our bed,</l>
+						<l>Fly&#x2014;fly&#x2014;fly to de willows fly.</l>
+						<l>Hush, hush, hum,</l>
+						<l>De gipsies come –</l>
+						<l>No fearee now de watchful eye.</l>
+					</lg>
+				</sp>
+
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>Oh! Gipsy man no care for wind,</l>
+						<l>In summer's glow,</l>
+						<l>Or winter snow,</l>
+						<l>Gipsy man no diff'rence find,</l>
+						<l>His sunshine is de happy mind.</l>
+					</lg>
+				</sp>
+
+				<sp who="#gip">
+					<speaker>Chorus</speaker>
+					<lg>
+						<l>Hush, hush, hum,</l>
+						<l>We gipsies &#x2014;</l>
+						<l>Fly, fly, fly, to de willows fly.</l>
+						<l>Soft we creep</l>
+						<l>To our tents of sleep,</l>
+						<l>Seal'd is now the watchful eye.</l>
+					</lg>
+				</sp>
+
+				<lb/>
+				<pb n="37"/>
+				<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+				<stage>FINALE <note place="foot" resp="editors" n="7">It were to be wished, that Mr. KELLY had
+						condescended to inform the public, what part of this <emph
+							>Finale</emph> is attributable to <emph>Paisiello</emph>; what
+						part to himself.</note>&#x2014;(<emph>Paisiello and
+					Kelly</emph>.)</stage>
+				<sp who="#alg">
+					<speaker>Aguazil</speaker>
+					<lg>
+						<l>In the name and glory</l>
+						<l>Of the Inquisitory</l>
+						<l>Stand we command</l>
+					</lg>
+				</sp>
+				<sp who="#gip">
+					<speaker>Gipsies</speaker>
+					<lg>
+						<l>See they've surpriz'd us.</l>
+						<l>What shall we do?</l>
+						<l>Why need we fear</l>
+						<l>Your brow severe?</l>
+						<l>What crime is ours?</l>
+					</lg>
+				</sp>
+				<sp who="#alg">
+					<speaker>Aguazils</speaker>
+					<lg>
+						<l>No fuss</l>
+						<l>But come with us</l>
+						<l>And yield to Murcia's powers.</l>
+					</lg>
+				</sp>
+				<sp who="#gip">
+					<speaker>Gipsies</speaker>
+					<lg>
+						<l>The guilty only fear the hand </l>
+						<l>Of lordly power, or law's command</l>
+					</lg>
+				</sp>
+				<sp who="#alg">
+					<speaker>Aguazils</speaker>
+					<lg>
+						<l>Thus your rude and roving band, </l>
+						<l>We arrest by law's command</l>
+						<l>Come, come, come, &amp;c.</l>
+					</lg>
+				</sp>
+				<sp who="#gip">
+					<speaker>Gipsies</speaker>
+					<lg>
+						<l>Why, why why,</l>
+						<l>Why should we fear? &amp;c.</l>
+					</lg>
+				</sp>
+
+				<stage>SONG&#x2014;ANTONIA <note place="foot" resp="editors" n="8">In the performance, this plaintive
+						ditty receives a considerable portion of adventitious interest, from Mrs.
+						MOUNTAIN's beautiful style of singing.</note>&#x2014;(<emph
+						>Kelly</emph>.)</stage>
+				<sp who="#ant">
+					<lg part="I">
+						<l>YES, now I shall think of that heartbroken maid,</l>
+						<l>Where in days of my childhood I knew.</l>
+						<l>All night she would weep in the cold willow shade</l>
+						<l>And her tears mingled warm with the dew.</l>
+
+						<lb/>
+						<pb n="38"/>
+						<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+						<l>I've heard her exclaim, as she sadly reclin'd, [her wild bed she
+							prest,]</l>
+						<l>'Mid the willows [Her wild bed] all dripping and chill,</l>
+						<l>I've heard her exclaim, while she shrunk in the wind, [as her wild bed
+							she prest,]</l>
+						<l>"In pity poor bosom lie still!"</l>
+					</lg>
+					<!-- The source of the bracketed phrases is not given. 2-23-11 by DKW -->
+
+					<lg part="F">
+						<l>The youth, whom she lov'd, had been torn from her arms,</l>
+						<l>By a fate too severely unkind;</l>
+						<l>Thus wither'd, alas! was the rose of her charms.</l>
+						<l>And clouded the beams of her mind:</l>
+						<l>Sweet mourner thy fortunes may haply be mine,</l>
+						<l>And I fill in my heart that they will;</l>
+						<l>Then sad shall I say with a sorrow like thine,</l>
+						<l>"In pity fond bosom lie still!"</l>
+					</lg>
+				</sp>
+
+				<stage>SONG.&#x2014;POPPEE <note place="foot" resp="editors" n="9">Miss TYRER, a pupil of Mr. KELLY,
+						displays talents of the fairest promise, both as an <emph
+							>actress</emph>, and a <emph>singer</emph>, in her performance
+						of this part. </note>&#x2014;(<emph>Kelly</emph>.)</stage>
+				<sp who="#pop">
+					<lg part="I">
+						<l>Oh me was born to wander,</l>
+						<l>No money me have got&#x2014;</l>
+						<l>When father stole de gander,</l>
+						<l>The mother boil de pot;</l>
+						<l>While me sing fal la la la la</l>
+						<l>Forma notta junga.</l>
+					</lg>
+
+					<lg part="M">
+						<l>Under a hedge, one summer,</l>
+						<l>Me sat&#x2014;Oh, great de heat;</l>
+						<l>Dere come little drummer,</l>
+						<l>And gay rub dub he beat,</l>
+						<l>Den me sing, &amp;c.</l>
+					</lg>
+
+					<lg part="F">
+						<l>Den me leave hedge and daddy,</l>
+						<l>Wid drummer lad to go,</l>
+						<l>But faithless drummer laddy,</l>
+						<l>Have left me full of woe.</l>
+						<l>Still me sing, &amp;c.</l>
+					</lg>
+				</sp>
+
+				<lb/>
+				<pb n="39"/>
+				<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+				<stage>DUET <note place="foot" resp="editors" n="10">Few pieces of musical composition surpass this
+						Duett, in pleasing and whimsical effect. Mr. Fawcett, and Miss Tyrer are
+						both alike admirable in their several parts.</note>&#x2014;RINCON and
+						POPPEE&#x2014;(<emph>Paisiello</emph>)</stage>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<lg>
+						<l>Fye, fye, you're quite a sinner, girl.</l>
+						<l>You're not the thing for me the;</l>
+						<l>Without some grace, no dinner, girl,</l>
+						<l>I never could kiss with a heathen!</l>
+						<l>No, no, no, no.</l>
+						<l>I could never kiss with a heathen.</l>
+					</lg>
+				</sp>
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>Eh! Have you got no shame now, man,</l>
+						<l>For why you talk of christen?</l>
+						<l>You give poor girl good name now, man.</l>
+						<l>But you'd take it away by kissin!</l>
+						<l>Iss, iss, iss, iss.</l>
+					</lg>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<lg>
+						<l>No, you rogue, I love you dearly,</l>
+						<l>As well as my bottle or &#x2014;nearly.</l>
+					</lg>
+				</sp>
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>But bottle thrown by when you crack 'um,</l>
+						<l>And lips forgot when you smack 'um.</l>
+					</lg>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<lg>
+						<l>Come along, my dingy Miss,</l>
+						<l>Your face is such golden money,</l>
+						<l>It must be stamp'd with a kiss,</l>
+						<l>It shall, by all that's sunny.</l>
+					</lg>
+				</sp>
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>Get along to you fine white Miss,</l>
+						<l>I not de girl for you money;</l>
+						<l>You may stamp and fret to kiss,</l>
+						<l>You shant, by all dat's sunny.</l>
+					</lg>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon <note place="foot" resp="editors" n="11">The effect of Fawcett's peculiar drollery
+							of manner in rehearsing these doggrels, is beyond
+						conception.</note></speaker>
+					<lg>
+						<l>By the cowl of St. Bridget,</l>
+						<l>My heart's in a fidget;</l>
+						<l>Betwitter'd, befrittetter'd,</l>
+						<l>Besnivell'd, bedevill'd.</l>
+					</lg>
+				</sp>
+
+				<lb/>
+				<pb n="40"/>
+				<fw type="head" place="top" rend="centered">THE GIPSY PRINCE.</fw>
+
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>Eh! You come talk, you tipsy man,</l>
+						<l>You not know what you about;</l>
+					</lg>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<lg>
+						<l>I'll touch your hand, sweet Gipsy Ma'am,</l>
+						<l>But first I'll touch your mouth.</l>
+					</lg>
+				</sp>
+				<sp who="#pop">
+					<speaker>Poppee</speaker>
+					<lg>
+						<l>You must touch de hand of Gipsey, Man,</l>
+						<l>Before you touch her mout.</l>
+					</lg>
+				</sp>
+
+				<stage>TRIO&#x2014;ANTONIA, RINCON, and GIPSY&#x2014;(<emph>Kelly</emph>.) </stage>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<lg>
+						<l>Oh! in pity hear me suing,</l>
+						<l>By compassion's dearest sigh.</l>
+					</lg>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<lg>
+						<l>Oh! I see, what she'd be doing,</l>
+						<l>Well, we'll talk on't by and by/</l>
+					</lg>
+				</sp>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<l>Dearest Sir&#x2014;</l>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<l>The deuce is in it.</l>
+				</sp>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<l>Nay, but a minute&#x2014;</l>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<l>Stop, knave, at your peril, stir.</l>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<l>Curse him, here he is again.</l>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<l>Back, back meddler to your den.</l>
+				</sp>
+				<sp who="#rin">
+					<speaker>Rincon</speaker>
+					<l>Oh! dear&#x2014;</l>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<l>In here, in here&#x2014;</l>
+				</sp>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<l>Hush, hush, they'll hear</l>
+				</sp>
+
+				<stage>[DUETT&#x2014;ANTONIA and GIPSY PRINCE&#x2014;(<emph
+						>Kelly</emph>.)]<hi rend="sup">a</hi></stage>
+				<witDetail target="#a" wit="#a"/>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<lg>
+						<l>Yes, for thee too charming stranger,</l>
+						<l>I could smile at every danger. </l>
+					</lg>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<lg>
+						<l>'Tis for me, a lonely stranger,</l>
+						<l>Thou dost smile at every danger.</l>
+					</lg>
+				</sp>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<lg>
+						<l>Far, oh far, thy steps may wander</l>
+						<l>Ere thou find a heart that's fonder.</l>
+					</lg>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<lg>
+						<l>Far, oh far, my steps may wander</l>
+						<l>Ere I find a heart that's fonder.</l>
+					</lg>
+				</sp>
+				<sp who="#ant">
+					<speaker>Antonia</speaker>
+					<lg>
+						<l>No, no, whatever fate is thine,</l>
+						<l>Thou canst not meet a love like mine&#x2014;</l>
+					</lg>
+				</sp>
+				<sp who="#gp">
+					<speaker>Gipsy Prince</speaker>
+					<!-- In the master doc. this speaker designation is not highlighted, but the transformation
+		automatically highlights it in the same manner as every other <speaker>. 2-23-11 by DKW -->
+					<lg>
+						<l>No, no, whatever fate is mine,</l>
+						<l>I ne'er can meet a love like thine.</l>
+					</lg>
+				</sp>
+
+				<stage>[FINALE-&#x2014;GIPSY PRINCE, ANTONIA, and CHORUS&#x2014;(<emph
+						>Kelly</emph>.)</stage>
+				<sp who="#gp #ant">
+					<lg>
+						<l>The Gipsy Prince no more shall roam,</l>
+						<l>His sorrows all beguil'd to rest;</l>
+						<l>The arms of love shall be his home,</l>
+						<l>And joy his ever-smiling guest.]<hi rend="sup">a</hi></l>
+					</lg>
+				</sp>
+				<witDetail target="#a" wit="#a"/>
+
+
+				<p>END OF THE GIPSY PRINCE.</p>
+				<!-- This could also be coded as <stage>. 2-23-11 by DKW -->
+
+			</div>
+		</body>
+	</text>
+</TEI>

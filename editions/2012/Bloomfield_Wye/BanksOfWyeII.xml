@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">
+     <emph>The Banks of Wye</emph>
+    </title>
+    <title type="subordinate">A Romantic Circles Electronic Edition</title>
+    <author>
+     <name>Robert Bloomfield (17661823)</name>
+    </author>
+    <editor>Tim Fulford</editor>
+    <sponsor>Romantic Circles</sponsor>
+    <respStmt>
+     <resp>General Editor, </resp>
+     <name>Neil Fraistat</name>
+    </respStmt>
+    <respStmt>
+     <resp>General Editor, </resp>
+     <name>Steven E. Jones</name>
+    </respStmt>
+    <respStmt>
+     <resp>General Editor, </resp>
+     <name>Carl Stahmer</name>
+    </respStmt>
+    <respStmt>
+     <resp>Technical Editor</resp>
+     <name>Laura Mandell</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <idno type="edition">BanksOfWyeII</idno>
+    <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+    <pubPlace>College Park, MD</pubPlace>
+    <date when="2010-10-10">October 10, 2010</date>
+    <availability status="restricted">
+     <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated
+      in any manner without authorization unless it is for purposes of criticism, comment, news
+      reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+      amended.</p>
+     <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted
+      by the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+      copyright law. Except as expressly permitted by this statement, redistribution or
+      republication in any medium requires express prior written consent from the author/editors and
+      advance notification of Romantic Circles. Any requests for authorization should be forwarded
+      to Romantic Circles:&gt;
+      <address><addrLine>Romantic Circles</addrLine><addrLine>c/o Professor Neil Fraistat</addrLine><addrLine>Department of English</addrLine><addrLine>University of Maryland</addrLine><addrLine>College Park, MD 20742</addrLine><addrLine>fraistat@umd.edu</addrLine></address></p>
+     <p>By their use of these texts and images, users agree to the following conditions: <list>
+       <item>These texts and images may not be used for any commercial purpose without prior written
+        permission from Romantic Circles.</item>
+       <item>These texts and images may not be re-distributed in any forms other than their current
+        ones.</item>
+      </list></p>
+     <p>Users are not permitted to download these texts and images in order to mount them on their
+      own servers. It is not in our interest or that of our users to have uncontrolled subsets of
+      our holdings available elsewhere on the Internet. We make corrections and additions to our
+      edited resources on a continual basis, and we want the most current text to be the only one
+      generally available to all Internet users. Institutions can, of course, make a link to the
+      copies at Romantic Circles, subject to our conditions of use.</p>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>Tim Fulford</author>
+      <title>Book II</title>
+     </analytic>
+     <monogr>
+      <title type="main">Robert Bloomfield - <emph>The Banks of the Wye</emph></title>
+      <title type="subordinate">A Romantic Circles Electronic Edition</title>
+      <author>
+       <name>Robert Bloomfield (17661823)</name>
+      </author>
+      <editor>Tim Fulford</editor>
+      <imprint>
+       <publisher>Romantic Circles</publisher>
+       <pubPlace>University of Maryland</pubPlace>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <quotation>
+     <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ', and ' for
+      '.</p>
+    </quotation>
+    <hyphenation eol="none">
+     <p>Any dashes occurring in line breaks have been removed.</p>
+     <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+     <p>Dashes have been rendered as </p>
+    </hyphenation>
+    <normalization method="markup">
+     <p>Bloomfield's spelling has not been regularized.</p>
+     <p>Writing in other hands appearing on these manuscripts has been indicated as such, the
+      content recorded in brackets.</p>
+    </normalization>
+    <normalization>
+     <p>&amp; has been used for the ampersand sign.</p>
+     <p> has been used for , the pound sign</p>
+     <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in
+      HTML entity decimals.</p>
+    </normalization>
+   </editorialDecl>
+   <classDecl>
+    <taxonomy xml:id="g"
+     corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E">
+     <bibl>NINES categories for Genre and Material Form at
+      http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+      2009-02-26</bibl>
+     <category xml:id="g1">
+      <catDesc>Architecture</catDesc>
+     </category>
+     <category xml:id="g2">
+      <catDesc>Artifacts</catDesc>
+     </category>
+     <category xml:id="g3">
+      <catDesc>Bibliography</catDesc>
+     </category>
+     <category xml:id="g4">
+      <catDesc>Collection</catDesc>
+     </category>
+     <category xml:id="g5">
+      <catDesc>Criticism</catDesc>
+     </category>
+     <category xml:id="g7">
+      <catDesc>Letters</catDesc>
+     </category>
+     <category xml:id="g6">
+      <catDesc>Drama</catDesc>
+     </category>
+     <category xml:id="g8">
+      <catDesc>Life Writing</catDesc>
+     </category>
+     <category xml:id="g9">
+      <catDesc>Politics</catDesc>
+     </category>
+     <category xml:id="g10">
+      <catDesc>Folklore</catDesc>
+     </category>
+     <category xml:id="g11">
+      <catDesc>Ephemera</catDesc>
+     </category>
+     <category xml:id="g12">
+      <catDesc>Fiction</catDesc>
+     </category>
+     <category xml:id="g13">
+      <catDesc>History</catDesc>
+     </category>
+     <category xml:id="g14">
+      <catDesc>Leisure</catDesc>
+     </category>
+     <category xml:id="g15">
+      <catDesc>Manuscript</catDesc>
+     </category>
+     <category xml:id="g16">
+      <catDesc>Reference Works</catDesc>
+     </category>
+     <category xml:id="g17">
+      <catDesc>Humor</catDesc>
+     </category>
+     <category xml:id="g18">
+      <catDesc>Education</catDesc>
+     </category>
+     <category xml:id="g19">
+      <catDesc>Music</catDesc>
+     </category>
+     <category xml:id="g20">
+      <catDesc>nonfiction</catDesc>
+     </category>
+     <category xml:id="g21">
+      <catDesc>Paratext</catDesc>
+     </category>
+     <category xml:id="g22">
+      <catDesc>Perodical</catDesc>
+     </category>
+     <category xml:id="g23">
+      <catDesc>Philosphy</catDesc>
+     </category>
+     <category xml:id="g24">
+      <catDesc>Photograph</catDesc>
+     </category>
+     <category xml:id="g25">
+      <catDesc>Citation</catDesc>
+     </category>
+     <category xml:id="g26">
+      <catDesc>Family Life</catDesc>
+     </category>
+     <category xml:id="g27">
+      <catDesc>Poetry</catDesc>
+     </category>
+     <category xml:id="g28">
+      <catDesc>Religion</catDesc>
+     </category>
+     <category xml:id="g29">
+      <catDesc>Review</catDesc>
+     </category>
+     <category xml:id="g30">
+      <catDesc>Visual Art</catDesc>
+     </category>
+     <category xml:id="g31">
+      <catDesc>Translation</catDesc>
+     </category>
+     <category xml:id="g32">
+      <catDesc>Travel</catDesc>
+     </category>
+     <category xml:id="g33">
+      <catDesc>Book History</catDesc>
+     </category>
+     <category xml:id="g34">
+      <catDesc>Law</catDesc>
+     </category>
+    </taxonomy>
+    <taxonomy corresp="people.xml/category">
+     <category xml:id="people">
+      <catDesc>Romantic Circles people: Bloomfield Banks of the Wye</catDesc>
+     </category>
+    </taxonomy>
+    <taxonomy corresp="people.xml/category">
+     <category xml:id="places">
+      <catDesc>Romantic Circles places: Bloomfield Banks of the Wye</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef target="#g5 #g21" scheme="#genre"/>
+    <catRef target="#EEd.25.names" scheme="#people"/>
+    <catRef target="#EEd.25.places" scheme="#places"/>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <change n="1" when="2011-01-21" who="#JW">
+    <label>Changed by</label>
+    <name xml:id="JW">Jason Whittaker</name>
+    <list>
+     <item>TEI Encoding, first pass, all files</item>
+    </list>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+<text>
+  <body>
+   <div type="paratext">
+    <head rend="center">The Banks of Wye; A Poem. In Four Books, 1811, 1813, 1823. <note n="1" place="foot"
+      resp="editors">The text of the first edition of <emph>The Banks of Wye; A
+       Poem. In Four Books</emph> (London: Vernor, Hood &amp; Sharpe, 1811), collated with the
+      corrected second edition (London, B. &amp; R. Crosby &amp; Co., 1813) and the third
+      edition (London: Longman, Hurst, Rees, Orme &amp; Co., 1823).</note></head></div>
+   <div type="poetry">
+    <head>BOOK II.</head>
+    <head> CONTENTS OF BOOK II. </head>
+    <p rend="noCount"> Henry the Fifth.Morning on the Water.Landoga.Ballad, 'The Maid of Landoga'.Tintern
+     Abbey.Wind-Cliff.Arrival at Chepstow.Persfield.Ballad, 'Morris of Persfield'.View
+     from Wind-Cliff.Chepstow Castle by Moonlight. </p>
+    <lg type="stanza">
+     <l rendition="#indent3">HARRY of MONMOUTH, o'er thy page, </l>
+     <l rendition="#indent3">Great chieftain of a daring age,<note n="2" place="foot" resp="editors"
+      >age,] age! 1823</note>
+     </l>
+     <l rendition="#indent3">The stripling soldier burns to see </l>
+     <l rendition="#indent3">The spot of thy nativity; </l>
+     <l rendition="#indent3">His ardent fancy can restore </l>
+     <l rendition="#indent3">Thy castle's turrets, now no more;<note n="3" place="foot" resp="editors"
+      >now no more] (now no more) 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">See the tall plumes of victory wave, </l>
+     <l rendition="#indent3">And call old valour from the grave; </l>
+     <l rendition="#indent3">Twang the strong bow, and point the lance,</l>
+     <l rendition="#indent3">That pierc'd<note n="4" place="foot" resp="editors"
+       >pierc'd] pierced 1823</note> the shatter'd hosts of France, 10 </l>
+     <l rendition="#indent3">When Europe,<note n="5" place="foot" resp="editors">Europe]
+       nations 1813, 1823</note> in the days of yore, </l>
+     <l rendition="#indent3">Shook at the rampant lion's roar. </l>
+     <l rendition="#indent4">TEN hours were all we could command; </l>
+     <l rendition="#indent3">The Boat<note n="6" place="foot" resp="editors">Boat] boat
+       1823</note> was moor'd upon the strand; </l>
+     <l rendition="#indent3">The midnight current, by her side, </l>
+     <l rendition="#indent3">Was stealing down to meet the tide; </l>
+     <l rendition="#indent3">The wakeful steersman ready lay, </l>
+     <l rendition="#indent3">To rouse us at the break of day;<note n="7" place="foot" resp="editors"
+      >day;] day: 1823 </note>
+     </l>
+     <l rendition="#indent3">It camehow soon! and what a sky, </l>
+     <l rendition="#indent3">To cheer the bounding traveller's eye! </l>
+     <l rendition="#indent3">To make him spurn his couch of rest, </l>
+     <l rendition="#indent3">To shout upon the river's breast;<note n="8" place="foot" resp="editors"
+      >breast;] breast, 1823</note>
+     </l>
+     <l rendition="#indent3">Watching by turns the rosy hue </l>
+     <l rendition="#indent3">Of early cloud, or sparkling dew. </l>
+     <l rendition="#indent3">These living joys the verse shall tell: </l>
+     <l rendition="#indent3">HARRY, and MONMOUTH, fare-ye-well. </l>
+     <l rendition="#indent4">On upland farm, and airy height, </l>
+     <l rendition="#indent3">Swept by the breeze, and cloth'd<note n="9" place="foot" resp="editors"
+      >cloth'd] clothed 1823</note> in light, </l>
+     <l rendition="#indent3">The reapers, early from their beds, </l>
+     <l rendition="#indent3">Perhaps were singing o'er our heads. </l>
+     <l rendition="#indent3">For, stranger, deem not that the eye </l>
+     <l rendition="#indent3">Could hence survey the eastern sky; </l>
+     <l rendition="#indent3">Or mark the streak'd horizon's bound, </l>
+     <l rendition="#indent3">Where first the rosy sun wheels round;<note n="10" place="foot"
+       resp="editors">round;] round. 1823</note>
+     </l>
+     <l rendition="#indent3">Deep in the gulf beneath were we, </l>
+     <l rendition="#indent3">Whence climb'd blue mists o'er rock and tree; </l>
+     <l rendition="#indent3">A mingling, undulating crowd, </l>
+     <l rendition="#indent3">That form'd the dense or fleecy cloud;</l>
+     <l rendition="#indent3">Slow from the darken'd stream upborne, </l>
+     <l rendition="#indent3">They caught the quickening gales of morn; </l>
+     <l rendition="#indent3">There bade their parent WYE good day, </l>
+     <l rendition="#indent3">And, ting'd with purple, sail'd away. </l>
+     <l rendition="#indent4">The MUNNO<note n="11" place="foot" resp="editors">The river
+       Munno, or Mynnow, falls into the Wye, near Monmouth. 1813, 1823 [Bloomfield's note].</note>
+      join'd us all unseen. </l>
+     <l rendition="#indent3"><ref target="places.html#TroyHouse">TROY HOUSE</ref>, and <ref
+       target="people.html#BeaufortDuke">BEAUFORT'S</ref> bowers of green, </l>
+     <l rendition="#indent3">And nameless prospects, half defin'd,<note n="12" place="foot"
+       resp="editors">defin'd] defined 1823</note> </l>
+     <l rendition="#indent3">Involv'd<note n="13" place="foot" resp="editors">Involv'd]
+       Involved 1823</note> in mist, were left behind. </l>
+     <l rendition="#indent3">Yet as the boat still onward bore, </l>
+     <l rendition="#indent3">These<note n="14" place="foot" resp="editors">These] The
+       1813, 1823</note> ramparts of the eastern shore </l>
+     <l rendition="#indent3">Cower'd the high crest to many a sweep, </l>
+     <l rendition="#indent3">And bade us o'er each minor steep </l>
+     <l rendition="#indent3">Mark the bold <ref target="places.html#KyminHill">KYMIN'S</ref> sunny brow, </l>
+     <l rendition="#indent3">That, gleaming o'er our fogs below, </l>
+     <l rendition="#indent3">Lifted amain, with giant power, </l>
+     <l rendition="#indent3">E'en to the clouds his NAVAL TOWER;<note n="15" place="foot" resp="editors"
+      >The Kymin Pavilion, erected in honour of the British Admirals, and their
+       unparalleled victories [Bloomfield's note, referring to the picturesque tower built from 1794
+       on land owned by the Duke of Beaufort. A naval temple, commemorating Nelson's victory at the
+       Battle of the Nile (Aboukir Bay) was built there in 1800. The site is detailed by Charles
+       Heath in a <emph>Descriptive Account of the Kymin Pavilion and Beaulieu Grove, with their
+        Various Views, also the Naval Temple</emph> (Monmouth, 1807)].</note>
+     </l>
+     <l rendition="#indent3">Proclaiming to the morning sky,<note n="16" place="foot" resp="editors"
+      >sky,] sky 1823</note> </l>
+     <l rendition="#indent3">Valour, and fame, and victory. </l>
+    </lg>
+    <lg type="stanza">
+     <l rendition="#indent4">THE air resign'd its hazy blue, </l>
+     <l rendition="#indent3">Just as <ref target="places.html#Llandoga">LANDOGA</ref> came in view;<note
+       n="17" place="foot" resp="editors">view;] view. 1823</note>
+     </l>
+     <l rendition="#indent3">Delightful village! one by one, </l>
+     <l rendition="#indent3">Thy climbing dwellings caught the sun. </l>
+     <l rendition="#indent3">So bright the scene, the air so clear, </l>
+     <l rendition="#indent3">Young Love and Joy seem'd station'd here; </l>
+     <l rendition="#indent3">And each with floating banners cried, </l>
+     <l rendition="#indent3">'Stop, friends, you'll meet the slimy<note n="18" place="foot"
+       resp="editors">slimy] rushing 1813, 1823</note> tide.'</l>
+     <l rendition="#indent3">Rude fragments, torn, disjointed, wild, </l>
+     <l rendition="#indent3">High on the Glo'ster shore are pil'd.<note n="19" place="foot"
+       resp="editors">pil'd] piled 1823</note>
+     </l>
+     <l rendition="#indent3">No ruin'd<note n="20" place="foot" resp="editors">ruin'd]
+       mouldering 1813, 1823</note> fane, the boast of years,</l>
+     <l rendition="#indent3">Unstain'd by time, the wreck appears;<note n="21" place="foot"
+       resp="editors">appears;] appears: 1823</note>
+     </l>
+     <l rendition="#indent3">With foaming<note n="22" place="foot" resp="editors"
+       >foaming] pouring 1813, 1823</note> wrath, and hideous swell,</l>
+     <l rendition="#indent3">Brought headlong down<note n="23" place="foot" resp="editors"
+      >brought headlong down] Down foaming from 1813, 1823</note> a woodland dell,
+      70 </l>
+     <l rendition="#indent3">When a dark thunder-storm had spread</l>
+     <l rendition="#indent3">Its terrors round the guilty head;<note n="24" place="foot" resp="editors"
+      >When a dark thunder-storm had spread / Its terrors round the guilty head; ] A
+       summer flood's resistless pow'r / Raised the grim ruin in an hour! / When that o'erwhelming
+       tempest spread / Its terrors round the guilty head 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">When rocks, earth-bound,<note n="25" place="foot" resp="editors"
+      >When rocks, earth-bound,] When earth-bound rocks 1813, 1823</note> themselves
+      gave way, </l>
+     <l rendition="#indent3">When crash'd the prostrate timbers lay.<note n="26" place="foot"
+       resp="editors">lay.] lay, 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">O, it had been a noble sight, </l>
+     <l rendition="#indent3">Crouching beyond the torrent's might, </l>
+     <l rendition="#indent3">To mark th' uprooted victims bow, </l>
+     <l rendition="#indent3">The grinding masses dash below, </l>
+     <l rendition="#indent3">And hear the long deep peal the while</l>
+     <l rendition="#indent3">Burst over <ref target="places.html#TinternAbbey">TINTERN'S</ref> roofless
+      pile! </l>
+     <l rendition="#indent3">Then, as the sun regain'd his power, </l>
+     <l rendition="#indent3">When the last breeze from hawthorn bower,</l>
+     <l rendition="#indent3">Or Druid oak, had shook away </l>
+     <l rendition="#indent3">The rain-drops 'midst the gleaming day,</l>
+     <l rendition="#indent3">Perhaps the sigh of hope return'd, </l>
+     <l rendition="#indent3">And love in some chaste bosom burn'd, </l>
+     <l rendition="#indent3">And softly trill'd the stream along, </l>
+     <l rendition="#indent3">Some rustic maiden's village song. </l>
+    </lg>
+    <lg type="stanza">
+    <head rend="center"><hi rend="bold">The Maid of <ref target="places.html#Llandoga"
+       >Landoga</ref></hi>.</head>
+   
+     <l rendition="#indent3">RETURN, my Llewellyn,<note n="27" place="foot" resp="editors"
+      >Llewellyn,] Llewellyn! 1823</note> the glory </l>
+     <l rendition="#indent3">That heroes may gain o'er the sea, 90 </l>
+     <l rendition="#indent4">Though nations may feel </l>
+     <l rendition="#indent4">Their invincible steel, </l>
+     <l rendition="#indent3">By falsehood is tarnish'd in story; </l>
+     <l rendition="#indent3">Why tarry, Llewellyn, from me? </l>
+    </lg>
+    <lg type="stanza">
+     <l rendition="#indent3">Thy sails, on the fathomless ocean, </l>
+     <l rendition="#indent3">Are swell'd by the boisterous gale: </l>
+     <l rendition="#indent4">How rests thy tir'd head </l>
+     <l rendition="#indent4">On the rude rocking bed? </l>
+     <l rendition="#indent3">While here not a leaf is in motion, </l>
+     <l rendition="#indent3">And melody reigns in the dale. </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">The mountains of Monmouth invite thee;</l>
+     <l rendition="#indent3">The WYE, O how beautiful here! </l>
+     <l rendition="#indent4">This woodbine, thine own,</l>
+     <l rendition="#indent4">Hath the cottage o'ergrown. </l>
+     <l rendition="#indent3">O what foreign shore can delight thee, </l>
+     <l rendition="#indent3">And where is the current so clear? </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">Can lands, where false pleasure assails thee, </l>
+     <l rendition="#indent3">And beauty invites thee to roam;</l>
+     <l rendition="#indent4">Can the deep orange grove </l>
+     <l rendition="#indent4">Charm with shadows of love? </l>
+     <l rendition="#indent3">Thy love at <ref target="places.html#Llandoga">LANDOGA</ref> bewails thee; </l>
+     <l rendition="#indent3">Remember her truth and thy home. </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">ADIEU <ref target="places.html#Llandoga">LANDOGA</ref>, scene most dear. </l>
+     <l rendition="#indent3">Farewell we bade to ETHEL'S WEIR; </l>
+     <l rendition="#indent3">Round many a point then bore away, </l>
+     <l rendition="#indent3">Till morn was chang'd<note n="28" place="foot" resp="editors"
+      >chang'd] changed 1823</note> to beauteous day: </l>
+     <l rendition="#indent3">And forward on the lowland shore, </l>
+     <l rendition="#indent3">Silent majestic ruins<note n="29" place="foot" resp="editors"
+      >Silent majestic ruins] Silent majestic ruins, 1813; Silent, majestic ruins,
+       1823</note> wore</l>
+     <l rendition="#indent3">The stamp of holiness; this strand </l>
+     <l rendition="#indent3">The steersman hail'd, and touch'd the land. </l>
+     <lb/>
+     <l rendition="#indent3">SUDDEN the change; at once to tread </l>
+     <l rendition="#indent3">The grass-grown mansions of the dead! </l>
+     <l rendition="#indent3">Awful to feeling, where, immense,</l>
+     <l rendition="#indent3">Rose ruin'd, gray magnificence; </l>
+     <l rendition="#indent3">The fair-wrought shaft all ivy-bound, </l>
+     <l rendition="#indent3">The tow'ring<note n="30" place="foot" resp="editors"
+       >tow'ring] towering 1823</note> arch with foliage crown'd, </l>
+     <l rendition="#indent3">That trembles on its brow sublime, </l>
+     <l rendition="#indent3">Triumphant o'er the spoils of time. </l>
+     <l rendition="#indent3">Here, grasping all the eye beheld, </l>
+     <l rendition="#indent3">Thought into mingling anguish swell'd, </l>
+     <l rendition="#indent3">And check'd the wild excursive wing, </l>
+     <l rendition="#indent3">O'er dust or bones of priest or king; </l>
+     <l rendition="#indent3">Or raised some <ref target="people.html#Strongbow">STRONGBOW</ref><note
+       n="31" place="foot" resp="editors">STRONGBOW] BLOOD-STAIN'D 1813, 1823. They
+       shew here] is shewn here 1813, 1823 a mutilated figure, which they call the famous Earl
+       Strongbow; but it appears from Coxe that he was buried at Gloucester. [Bloomfield's note,
+       referring to <ref target="people.html#CoxeWilliam">William Coxe</ref>, <emph>An Historical
+        Tour in Monmouthshire: Illustrated with views by Sir R. C. Hoare, Bart. A New Map of the
+        County, and other Engravings</emph> (London, 1801)].</note> warrior's ghost </l>
+     <l rendition="#indent3">To shout before his banner'd host. </l>
+     <l rendition="#indent3">But all was still.The chequer'd floor </l>
+     <l rendition="#indent3">Shall echo to the step no more; </l>
+     <l rendition="#indent3">Nor airy roof the strain prolong </l>
+     <l rendition="#indent3">Of vesper chant or choral song. </l>
+    </lg>
+    <lg type="stanza">
+     <l rendition="#indent4"><ref target="places.html#TinternAbbey">TINTERN</ref>, thy name shall hence
+      sustain </l>
+     <l rendition="#indent3">A thousand raptures in my brain; </l>
+     <l rendition="#indent3">Joys, full of soul, all strength, all eye, </l>
+     <l rendition="#indent3">That cannot fade, that cannot die. </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent4">NO loitering here, lone walks to steal;</l>
+     <l rendition="#indent3">Welcome<note n="32" place="foot" resp="editors">Welcome]
+       Ours was 1813, 1823</note> the early hunter's meal; </l>
+     <l rendition="#indent3">For time and tide, stern couple, ran </l>
+     <l rendition="#indent3">Their endless race, and laugh'd at man; </l>
+     <l rendition="#indent3">Deaf, had we shouted, 'turn about?'<note n="33" place="foot" resp="editors"
+      >turn about?] turn about, 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">Or, 'wait awhile<note n="34" place="foot" resp="editors"
+       >awhile] a while 1813, 1823</note> till we come out;'<note n="35" place="foot"
+       resp="editors">out;] out: 1823</note>
+     </l>
+     <l rendition="#indent3">To humour them we check'd our pride, </l>
+     <l rendition="#indent3">And ten cheer'd hearts stow'd side by side, </l>
+     <l rendition="#indent3">Push'd from the shore with current strong, </l>
+     <l rendition="#indent3">And,<note n="36" place="foot" resp="editors">And,] And 1813,
+       1823</note> 'Hey for <ref target="places.html#Chepstow">Chepstow,'</ref> steer'd along. </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent4">AMIDST the bright expanding day, </l>
+     <l rendition="#indent3">Solemnly<note n="37" place="foot" resp="editors">Solemnly]
+       The solemn 1813, 1823</note> deep, dark shadows lay </l>
+     <l rendition="#indent3">Of that rich foliage, tow'ring o'er </l>
+     <l rendition="#indent3">Where princely abbots dwelt of yore. </l>
+     <l rendition="#indent3">The mind, with instantaneous glance, </l>
+     <l rendition="#indent3">Beholds his barge of state advance. </l>
+     <l rendition="#indent3">Borne proudly down the ebbing tide, </l>
+     <l rendition="#indent3">She turns<note n="38" place="foot" resp="editors">turns]
+       sweeps 1813, 1823</note> the waving boughs aside; </l>
+     <l rendition="#indent3">She winds with flowing pendants drest,<note n="39" place="foot"
+       resp="editors">drest,] drest; 1823</note>
+     </l>
+     <l rendition="#indent3">And as the current turns south-west, </l>
+     <l rendition="#indent3">She strikes her oars, where, full in view, </l>
+     <l rendition="#indent3">Stupendous <ref target="places.html#Windcliff">WIND-CLIFF</ref> greets
+       his<note n="40" place="foot" resp="editors">his] her 1813, 1823</note> crew. </l>
+     <l rendition="#indent3">But, Fancy, let thy day-dreams cease,<note n="41" place="foot"
+       resp="editors">cease,] cease; 1823</note> </l>
+     <l rendition="#indent3">With fallen greatness be at peace;<note n="42" place="foot" resp="editors"
+      >peace;] peace. 1823</note>
+     </l>
+     <l rendition="#indent3">Enough; for <ref target="places.html#Windcliff">WIND-CLIFF</ref> still was
+      found </l>
+     <l rendition="#indent3">To hail us as we doubled round. </l>
+     <l rendition="#indent4">Bold in primeval strength he stood;</l>
+     <l rendition="#indent3">His rocky brow, all shagg'd with wood, </l>
+     <l rendition="#indent3">O'er-look'd<note n="43" place="foot" resp="editors"
+       >O'er-look'd] O'erlook'd 1823</note> his base, where, doubling strong, </l>
+     <l rendition="#indent3">The inward torrent pours along; </l>
+     <l rendition="#indent3">Then ebbing turns, and turns again, </l>
+     <l rendition="#indent3">To meet the <ref target="places.html#Severn">Severn</ref> and the Main,<note
+       n="44" place="foot" resp="editors">To meet the Severn and the Main,] (To
+       meet the Severn and the Main) 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">Beneath the dark shade sweeping round </l>
+     <l rendition="#indent3">Of beetling <ref target="places.html#Piercefield">PERSFIELD'S</ref> fairy
+      ground, </l>
+     <l rendition="#indent3">By buttresses of rock upborne, </l>
+     <l rendition="#indent3">The rude <ref target="places.html#TwelveApostles">APOSTLES</ref> all
+       unshorn.<note n="45" place="foot" resp="editors">Twelve projecting rocks so
+       named, fringed with foliage near the water's edge. 1823 [Bloomfield's note].</note>
+     </l>
+     <l rendition="#indent4">Long be the slaught'ring axe defy'd;<note n="46" place="foot" resp="editors"
+      >defy'd;] defied: 1823</note>
+     </l>
+     <l rendition="#indent3">Long may they bear their waving pride; </l>
+     <l rendition="#indent3">Tree over tree, bower over bower, </l>
+     <l rendition="#indent3">In uncurb'd nature's wildest power; </l>
+     <l rendition="#indent3">Till WYE forgets to wind below,</l>
+     <l rendition="#indent3">And genial spring to bid them grow. </l>
+    </lg>
+    <lg type="stanza">
+     <l rendition="#indent4">AND shall we e'er forget the day, </l>
+     <l rendition="#indent3">When our last chorus died away? </l>
+     <l rendition="#indent3">When first we hail'd, then moor'd beside </l>
+     <l rendition="#indent3">Rock-founded <ref target="places.html#Chepstow">CHEPSTOW'S</ref> mouldering
+      pride?</l>
+     <l rendition="#indent3">Where that strange bridge,<note n="47" place="foot" resp="editors"
+      >'On my arrival at Chepstow,' says Mr. Coxe, 'I walked to the bridge; it was
+       low water, and I looked down on the river ebbing between forty and fifty feet beneath: six
+       hours after, it rose near forty feet, almost reached the floor of the bridge, and flowed
+       upward with great rapidity. The channel in this place being narrow in proportion to the
+       Severn, and confined between perpendicular cliffs, the great rise and fall of the river are
+       peculiarly manifest.' [Bloomfield's note, referring to <ref target="people.html#CoxeWilliam"
+        >William Coxe</ref>, <emph>An Historical Tour in Monmouthshire: Illustrated with views by
+        Sir R. C. Hoare, Bart. A New Map of the County, and other Engravings</emph> (London,
+       1801)].</note> light, trembling, high, </l>
+     <l rendition="#indent3">Strides like a spider o'er the WYE; </l>
+     <l rendition="#indent3">When, for the joys the morn had giv'n, </l>
+     <l rendition="#indent3">Our thankful hearts were raised to heav'n?<note n="48" place="foot"
+       resp="editors">heav'n] Heav'n 1823</note>
+     </l>
+     <l rendition="#indent3">Never;<note n="49" place="foot" resp="editors">Never;]
+       Never: 1823</note> that moment shall be dear,</l>
+     <l rendition="#indent3">While hills can charm, or sun-beams cheer. </l>
+     <l rendition="#indent3">POLLETT,<note n="50" place="foot" resp="editors">1823 New
+       section </note> farewell! Thy dashing oar </l>
+     <l rendition="#indent3">Shall lull us into peace no more; </l>
+     <l rendition="#indent3">But where <ref target="people.html#KyrleJohn">KYRL</ref><note n="51"
+       place="foot" resp="editors">KYRL] KYRLE 1813, 1823</note> trimm'd his infant
+      green, </l>
+     <l rendition="#indent3">Long mayst thou with thy bark be seen;</l>
+     <l rendition="#indent3">And happy be the hearts that glide </l>
+     <l rendition="#indent3">Through such a scene, with such a guide. </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent4">THE verse of gravel walks that tells, </l>
+
+     <l rendition="#indent3">With pebble-rocks and mole-hill swells, </l>
+     <l rendition="#indent3">May strain description's bursting cheeks, </l>
+     <l rendition="#indent3">And far out-run<note n="52" place="foot" resp="editors"
+       >out-run] outrun 1823</note> the goal it seeks. </l>
+     <l rendition="#indent3">Not so when ev'ning's purpling hours,<note n="53" place="foot"
+       resp="editors">hours,] hours 1813, 1823</note> </l>
+     <l rendition="#indent3">Hied us away to <ref target="places.html#Piercefield">PERSFIELD</ref><note
+       n="54" place="foot" resp="editors">PERSFIELD] PERSFIELD'S 1813, 1823</note>
+      bowers: </l>
+     <l rendition="#indent3">Here no such danger waits the lay,<note n="55" place="foot" resp="editors"
+      >lay,] lay; 1823</note>
+     </l>
+     <l rendition="#indent3">Sing on, and truth shall lead the way;<note n="56" place="foot"
+       resp="editors">way;] way, 1823</note>
+     </l>
+     <l rendition="#indent3">Here sight may range, and hearts may glow,</l>
+     <l rendition="#indent3">Yet shrink from the abyss below; </l>
+     <l rendition="#indent3">Here echoing precipices roar, </l>
+     <l rendition="#indent3">As youthful ardour shouts before: </l>
+     <l rendition="#indent3">Here a sweet paradise shall rise </l>
+     <l rendition="#indent3">At once to greet poetic eyes. </l>
+     <l rendition="#indent3">Then why does he<note n="57" place="foot" resp="editors">he]
+        <emph>HE</emph> 1813, 1823</note> dispel, unkind, </l>
+     <l rendition="#indent3">The sweet illusion from the mind, </l>
+     <l rendition="#indent3">That giant,<note n="58" place="foot" resp="editors">That
+       giant] YON GIANT 1813, 1823. An immense giant of stone, who, to say the best of him, occupies
+       a place where such personages are least wanted or wished. 1813, 1823 [Bloomfield's note]
+      </note> with the goggling eye, </l>
+     <l rendition="#indent3">Who strides in mock sublimity?<note n="59" place="foot" resp="editors"
+      >mock sublimity?] <emph>mock sublimity?</emph> 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">Giants, identified,<note n="60" place="foot" resp="editors"
+       >Giants, identified,] Giants identified 1823</note> may frown; </l>
+     <l rendition="#indent3">Nature and taste would knock them down;<note n="61" place="foot"
+       resp="editors">down;] down:</note> </l>
+     <l rendition="#indent3">Blocks that usurp some noble station, </l>
+     <l rendition="#indent3">As if to curb imagination, </l>
+     <l rendition="#indent3">Which, smiling at the chissel's pow'r,<note n="62" place="foot"
+       resp="editors">chissel's pow'r,] chisel's power 1823</note>
+     </l>
+     <l rendition="#indent3">Makes better monsters every hour. </l>
+     <l rendition="#indent4">Beneath impenetrable green, </l>
+     <l rendition="#indent3">Down 'midst the hazel stems<note n="63" place="foot" resp="editors"
+      >Down 'midst the hazel stems] Down, 'midst the hazel stems, 1823</note> was
+      seen </l>
+     <l rendition="#indent3">The turbid stream, with all that past; </l>
+     <l rendition="#indent3">The lime-white deck, the gliding mast; </l>
+     <l rendition="#indent3">Or skiff with gazers darting by, </l>
+     <l rendition="#indent3">Who rais'd their hands in extasy. </l>
+     <l rendition="#indent3">Impending cliffs hung overhead; </l>
+     <l rendition="#indent3">The rock-path sounded to the tread, </l>
+     <l rendition="#indent3">Where twisted roots, in many a fold,</l>
+     <l rendition="#indent3">Through moss, disputed room for hold.</l>
+     <l rendition="#indent4">The<note n="64" place="foot" resp="editors">The] THE 1823.
+       New section</note> stranger who thus steals one hour </l>
+     <l rendition="#indent3">To trace thy walks from bower to bower, </l>
+     <l rendition="#indent3">Thy noble cliffs, thy wildwood joys, </l>
+     <l rendition="#indent3">Nature's own work that never cloys,</l>
+     <l rendition="#indent3">Who, while reflection bids him roam, </l>
+     <l rendition="#indent3">Exclaims not, '<ref target="places.html#Piercefield">PERSFIELD</ref> is my
+       <emph>home</emph>,'<note n="65" place="foot" resp="editors">Exclaims not,
+       'PERSFIELD is my <emph>home</emph>,'] Calls not this paradise his <emph>home</emph>, 1813,
+       1823</note> 240 </l>
+     <l rendition="#indent3">Can ne'er, with dull unconscious eye, </l>
+     <l rendition="#indent3">Leave them behind without a sigh. </l>
+     <l rendition="#indent3">Thy tale of truth then, Sorrow, tell, </l>
+     <l rendition="#indent3">Of him who bade <emph>this home</emph> farewell; </l>
+     <l rendition="#indent3"><ref target="people.html#MorrisValentine">MORRIS</ref> of <ref
+       target="places.html#Piercefield">PERSFIELD</ref>. Hark, the strains! </l>
+     <l rendition="#indent3">Hark! 'tis some <ref target="places.html#Monmouth">Monmouth</ref><note
+       n="66" place="foot" resp="editors">Monmouth] hoary 1813, 1823</note> bard
+      complains! </l>
+     <l rendition="#indent3">The deeds, the worth, he knew so well, </l>
+     <l rendition="#indent3">The force of nature bids him tell.</l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+    <head rend="center">
+     <ref target="people.html#MorrisValentine">Morris</ref> of <ref target="places.html#Piercefield"
+      >Persfield</ref>. </head>
+    
+     <l rendition="#indent3">WHO was lord of yon beautiful seat; </l>
+     <l rendition="#indent4">Yon woods which are tow'ring so high? </l>
+     <l rendition="#indent3">Who spread the rich board for the great, </l>
+     <l rendition="#indent4">Yet listen'd to pity's soft sigh? </l>
+     <l rendition="#indent3">Who gave with a spirit so free,</l>
+     <l rendition="#indent4">And fed the distress'd at his door?</l>
+     <l rendition="#indent3">Our <ref target="people.html#MorrisValentine">MORRIS</ref> of <ref
+       target="places.html#Piercefield">PERSFIELD</ref> was he, </l>
+     <l rendition="#indent4">Who dwelt in the hearts of the poor. </l>
+     <l rendition="#indent3">But who e'en of wealth shall make sure, </l>
+     <l rendition="#indent4">Since wealth to misfortune has bow'd?</l>
+     <l rendition="#indent3">Long cherish'd untainted and pure, </l>
+     <l rendition="#indent4">The stream of his charity flow'd. </l>
+     <l rendition="#indent3">But all his resources gave way; </l>
+     <l rendition="#indent4">O what could his feelings controul?<note n="67" place="foot" resp="editors"
+      >controul] control 1823</note>
+     </l>
+     <l rendition="#indent3">What shall curb, in the prosperous day, </l>
+     <l rendition="#indent4">Th' excess of a generous soul? </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">He bade an adieu to the town; </l>
+     <l rendition="#indent4">O, can I forget the sad day? </l>
+     <l rendition="#indent3">When I saw the poor widows kneel down</l>
+     <l rendition="#indent4">To bless him, to weep, and to pray. </l>
+     <l rendition="#indent3">Though sorrow was mark'd in his eye, </l>
+     <l rendition="#indent4">This trial he manfully bore; </l>
+     <l rendition="#indent3">Then pass'd o'er the bridge of the WYE, </l>
+     <l rendition="#indent4">To return to his <ref target="places.html#Piercefield">PERSFIELD</ref> no
+      more.</l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">Yet surely<note n="68" place="foot" resp="editors">Yet
+       surely] 'Twas true that 1813, 1823</note> another might feel;</l>
+     <l rendition="#indent4">And<note n="69" place="foot" resp="editors">And] That 1813,
+       1823</note> poverty still may<note n="70" place="foot" resp="editors">may]
+       might 1813, 1823</note> be fed; </l>
+
+     <l rendition="#indent3">I was the one who<note n="71" place="foot" resp="editors">I
+       was the one who] Yet long we 1813, 1823</note> rung out the dumb peal, </l>
+     <l rendition="#indent4">For to us noble <ref target="people.html#MorrisValentine">MORRIS</ref> was
+      dead. </l>
+     <l rendition="#indent3">He had not lost sight of his home, </l>
+     <l rendition="#indent4">Yon domain that so lovely appears, </l>
+     <l rendition="#indent3">When he heard it, and sunk overcome; </l>
+     <l rendition="#indent4">He could feel, and he burst into tears.<note n="72" place="foot"
+       resp="editors">He could feel, and he burst into tears.] He felt it and burst
+       into tears. 1813, 1823</note> </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent3">The lessons of prudence have charms, </l>
+     <l rendition="#indent4">And slighted, may lead to distress; </l>
+     <l rendition="#indent3">But the man whom benevolence warms,<note n="73" place="foot" resp="editors"
+      >warms,] warms 1823</note>
+     </l>
+     <l rendition="#indent4">Is an angel who lives but to bless. </l>
+     <l rendition="#indent3">If ever man merited fame, </l>
+     <l rendition="#indent4">If ever man's failings went free,</l>
+     <l rendition="#indent3">Forgot at the sound of his name, </l>
+     <l rendition="#indent4">Our MORRIS of PERSFIELD was he.<note n="74" place="foot" resp="editors"
+      >The author is equally indebted to Mr. Coxe's County History for this
+       anecdote, as for the greater part of the notes subjoined throughout the Journal.
+       [Bloomfield's note, referring to <ref target="people.html#CoxeWilliam">William Coxe</ref>,
+        <emph>An Historical Tour in Monmouthshire: Illustrated with views by Sir R. C. Hoare, Bart.
+        A New Map of the County, and other Engravings</emph> (London, 1801)].</note>
+     </l>
+    </lg>
+    <lb/>
+    <lg type="stanza">
+     <l rendition="#indent4">CLEFT from the summit, who shall say </l>
+     <l rendition="#indent3">When <ref target="places.html#Windcliff">WIND-CLIFF'S</ref> other half gave
+      way? </l>
+     <l rendition="#indent3">Or when<note n="75" place="foot" resp="editors">when]
+        <emph>when</emph> 1813, 1823</note> the sea-waves<note n="76" place="foot" resp="editors"
+      >sea-waves] sea-waves, 1813, 1823</note> roaring strong, </l>
+     <l rendition="#indent3">First drove the rock-bound tide along? </l>
+     <l rendition="#indent3">To studious leisure be resign'd, </l>
+     <l rendition="#indent3">The task that leads the wilder'd mind,</l>
+     <l rendition="#indent3">From time's first birth throughout the range </l>
+     <l rendition="#indent3">Of Nature's<note n="77" place="foot" resp="editors"
+       >Nature's] nature's 1823</note> everlasting change. </l>
+     <l rendition="#indent3">Soon from his all-commanding brow, </l>
+     <l rendition="#indent3">Lay <ref target="places.html#Piercefield">PERSFIELD's</ref> rocks and woods
+      below.</l>
+     <l rendition="#indent3">BACK over <ref target="places.html#Monmouth">MONMOUTH</ref> who could trace </l>
+     <l rendition="#indent3">The WYE'S fantastic mountain race? </l>
+     <l rendition="#indent3">Before<note n="78" place="foot" resp="editors">Before]
+       BEFORE 1813, 1823</note> us, sweeping far and wide,</l>
+     <l rendition="#indent3">Lay out-stretch'd <ref target="places.html#Severn">Severn's</ref> ocean tide, </l>
+     <l rendition="#indent3">Through whose blue mists, all upward blown, </l>
+     <l rendition="#indent3">Broke the faint lines of heights unknown;</l>
+     <l rendition="#indent3">And still, though clouds would interpose,<note n="79" place="foot"
+       resp="editors">though clouds would interpose,] (though clouds would
+       interpose,) 1813, 1823</note> </l>
+     <l rendition="#indent3">The COTSWOLD promontories rose </l>
+     <l rendition="#indent3">In dark succession: <ref target="places.html#StinchcombeHill"
+       >STINCHCOMB'S</ref><note n="80" place="foot" resp="editors">STINCHCOMB'S]
+       STINCHCOMBE'S 1813, 1823</note> brow, </l>
+     <l rendition="#indent3">With <ref target="places.html#BerkeleyCastle">BERKELEY CASTLE</ref><note
+       n="81" place="foot" resp="editors">BERKELEY CASTLE] BERKELEY-CASTLE 1813,
+       1823</note> crouch'd below; </l>
+     <l rendition="#indent3">And stranger spires on either hand, </l>
+     <l rendition="#indent3">From <ref target="places.html#Thornbury">THORNBURY</ref>, on the Glo'ster
+      strand, 310 </l>
+     <l rendition="#indent3">With black-brow'd woods, and yellow fields,</l>
+     <l rendition="#indent3">The boundless wealth that summer yields,<note n="82" place="foot"
+       resp="editors">The boundless wealth that summer yields,] (The boundless
+       wealth that summer yields,) 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">Detain'd the eye, that glanced again </l>
+     <l rendition="#indent3">O'er <ref target="places.html#Kingroad">KINGROAD</ref> anchorage to the
+      main.</l>
+     <l rendition="#indent4">Or<note n="83" place="foot" resp="editors">Or] OR
+       1823</note> was the bounded view preferr'd, </l>
+     <l rendition="#indent3">Far, far beneath, the spreading herd </l>
+     <l rendition="#indent3">Low'd, as the cow-boy stroll'd along, </l>
+     <l rendition="#indent3">And cheerly sung his last new song. </l>
+     <l rendition="#indent3">But cow-boy, herd, and tide, and spire,<note n="84" place="foot"
+       resp="editors">spire,] spire 1813, 1823</note>
+     </l>
+     <l rendition="#indent3">Sunk into gloom, the tinge of fire,<note n="85" place="foot" resp="editors"
+      >Sunk into gloom, the tinge of fire] Sunk into gloom.The tinge of fire 1813,
+       1823</note> </l>
+     <l rendition="#indent3">As westward roll'd the setting day, </l>
+     <l rendition="#indent3">Fled like a golden dream away. </l>
+     <l rendition="#indent3">Then <ref target="places.html#Chepstow">CHEPSTOW'S</ref> ruin'd fortress
+      caught </l>
+     <l rendition="#indent3">The mind's collected store of thought,<note n="86" place="foot"
+       resp="editors">thought,] thought; 1823</note>
+     </l>
+     <l rendition="#indent3">And seem'd, with mild but jealous frown, </l>
+     <l rendition="#indent3">To promise peace, and warn us down.<note n="87" place="foot" resp="editors"
+      >And seem'd, with mild but jealous frown, / To promise peace, and warn us
+       down.] A dark, majestic, jealous frown / Hung on his brow, and warn'd us down. 1813,
+       1823</note>
+     </l>
+     <l rendition="#indent3">'Twas well; for he has much to boast, </l>
+     <l rendition="#indent3">Much still that tells of glories lost, </l>
+     <l rendition="#indent3">Though rolling years have form'd the sod, </l>
+     <l rendition="#indent3">Where once the bright-helm'd warrior trod </l>
+     <l rendition="#indent3">From tower to tower, and gaz'd<note n="88" place="foot" resp="editors"
+      >gaz'd] gazed 1823</note> around, </l>
+     <l rendition="#indent3">While all beneath him slept profound. </l>
+     <l rendition="#indent3">E'en on the walls where pac'd<note n="89" place="foot" resp="editors"
+      >pac'd] paced 1823</note> the brave,</l>
+     <l rendition="#indent3">High o'er his crumbling turrets wave </l>
+     <l rendition="#indent3">The rampant seedlings.Not a breath </l>
+     <l rendition="#indent3">Past<note n="90" place="foot" resp="editors">Past] Pass'd
+       1823</note> through their leaves; when, still as death, </l>
+     <l rendition="#indent3">We stopp'd to watch the cloudsfor night </l>
+     <l rendition="#indent3">Grew splendid with encreasing<note n="91" place="foot" resp="editors"
+      >encreasing] increasing 1813, 1823</note> light, </l>
+     <l rendition="#indent3">Till, as time loudly told the hour, </l>
+     <l rendition="#indent3">Gleam'd the broad-front of MARTEN'S TOWER,<note n="92" place="foot"
+       resp="editors">Henry Marten, whose signature appears on the death-warrant of
+       Charles the First, finished his days here in prison. Marten lived to the advanced age of
+       seventy-eight, and died by a stroke of apoplexy, which seized him while he was at dinner, in
+       the twentieth year of his confinement. He was buried in the chancel of the parish church at
+       Chepstow. Over his ashes was placed a stone with an inscription, which remained there until
+       one of the succeeding vicars declaring his abhorrence that the monument of a rebel should
+       stand so near the altar, removed the stone into the body of the church! [Bloomfield's
+       note].</note> 340 </l>
+     <l rendition="#indent3">Bright silver'd by the moon.Then rose </l>
+     <l rendition="#indent3">The wild notes sacred to repose; </l>
+     <l rendition="#indent3">Then the lone owl awoke from rest, </l>
+     <l rendition="#indent3">Stretch'd his keen talons, plum'd<note n="93" place="foot" resp="editors"
+      >plum'd] plumed 1823</note> his crest, </l>
+     <l rendition="#indent3">And, from his high embattl'd<note n="94" place="foot" resp="editors"
+      >embattl'd] embattled 1823</note> station, </l>
+     <l rendition="#indent3">Hooted a trembling salutation.</l>
+     <l rendition="#indent3">Rocks caught the 'halloo' from his tongue,</l>
+     <l rendition="#indent3">And <ref target="places.html#Piercefield">PERSFIELD</ref> back the echoes
+      flung</l>
+     <l rendition="#indent3">Triumphant o'er th' illustrious dead, </l>
+     <l rendition="#indent3">Their history lost, their glories fled. </l>
+    </lg>
+	<p rend="noCount">[<ref target="illustration2.html">Illustration 2</ref>]</p>
+    <lb/>
+    <p rend="noCount center"> END OF THE SECOND BOOK. </p>
+	
+	  </div>
+
+   </body>
+   </text>
+   </TEI>

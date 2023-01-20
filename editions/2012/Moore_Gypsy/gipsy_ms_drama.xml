@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Gipsy Prince</title>
+				<author>
+					<name>Thomas Moore</name>
+				</author>
+				<editor>Frederick Burwick</editor>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Justin Tonra</name>
+				</respStmt>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Neil Fraistat</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Steven E. Jones</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>2011-05-01</edition>
+			</editionStmt>
+			<extent/>
+			<publicationStmt>
+				<idno type="edition">mooreGipsyDrama</idno>
+				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
+					Maryland</publisher>
+				<pubPlace>College Park, MD</pubPlace>
+				<date when="2010-10-20">May 1, 2011</date>
+				<availability status="restricted">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
+						or disseminated in any manner without authorization unless it is for
+						purposes of criticism, comment, news reporting, teaching, and/or classroom
+						use as provided by the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+						are copyrighted by the author/editor and may be shared only in accordance
+						with the Fair Use provisions of U.S. copyright law. Except as expressly
+						permitted by this statement, redistribution or republication in any medium
+						requires express prior written consent from the author/editors and advance
+						notification of Romantic Circles. Any requests for authorization should be
+						forwarded to Romantic Circles:
+						<address>
+							<addrLine>Romantic Circles</addrLine>
+							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>Department of English</addrLine>
+							<addrLine>University of Maryland</addrLine>
+							<addrLine>College Park, MD 20742</addrLine>
+							<addrLine>fraistat@umd.edu</addrLine>
+						</address>
+					</p>
+					<p>By their use of these texts and images, users agree to the following
+						conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose
+								without prior written permission from Romantic Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms
+								other than their current ones.</item>
+						</list>
+					</p>
+					<p>Users are not permitted to download these texts and images in order to mount
+						them on their own servers. It is not in our interest or that of our users to
+						have uncontrolled subsets of our holdings available elsewhere on the
+						Internet. We make corrections and additions to our edited resources on a
+						continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make
+						a link to the copies at Romantic Circles, subject to our conditions of
+						use.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<!-- will change, indicating versions of Moore's play -->
+				<note>Additional information on Gipsy Prince texts?</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">The Gypsy Prince</title>
+						<author>Thomas Moore</author>
+						<editor>Frederick Burwick</editor>
+						<respStmt>
+							<resp>Technical Editor</resp>
+							<name>Justin Tonra.</name>
+						</respStmt>
+						<respStmt>
+							<resp>Encoding and Proofreading</resp>
+							<name>Deborah K. Wright</name>
+						</respStmt>
+						<imprint>
+							<publisher>Romantic Circles at the University of Maryland</publisher>
+							<pubPlace>College Park Maryland</pubPlace>
+							<date when="2011-05-01">May 1, 2011</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p><gi>Speaker</gi> element names have been regularised across this file and the
+						Manuscript file, according to the names reproduced in the Dramatis Personae
+						printed in the Historical Narrative: Don Roderic; Don Dominic; Gipsy Prince;
+						Rincon; Old Jew; Alcaide; Alguazil(s); Officer(s); Messenger; Gipsies;
+						Diego; Antonia; Poppee; Lachimee; Blanch; Alguazils, Peasants, Gipsies, etc.
+						Note: the regularisation takes place only within <gi>speaker</gi> elements;
+						it does not occur in the stage directions, text of the play or Dramatis
+						Personae.</p>
+				</normalization>
+				<hyphenation>
+					<p>All dashes have been represented with an emdash: <gi>&#x2014;</gi>, and
+						surrounding whitespace has been deleted (except where dash is preceded by a
+						full stop).</p>
+				</hyphenation>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+				</quotation>
+				<normalization method="markup">
+					<p>Incorrect and idiosyncratic spelling has not been regularised; instances are
+						marked by a <gi>sic</gi> element.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="genre">
+					<bibl>NINES categories for Genre and Material Form at
+						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
+						on 2009-02-26</bibl>
+					<category xml:id="g1">
+						<catDesc>Architecture</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Artifacts</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Letters</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Politics</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Folklore</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>History</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Leisure</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Humor</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Education</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>nonfiction</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Perodical</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Philosphy</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Family Life</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Visual Art</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Travel</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Book History</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Law</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+			<!-- <variantEncoding method="parallel-segmentation" location="internal"/> 
+			NOTE: this method of encoding changed for this particular file on 7/12/2012 -->
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef scheme="#genre" target="g6"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#DKW" when="2011-02" n="1">
+				<label>Changed by the editor</label>
+				<name xml:id="MC">Deborah K. Wright</name>
+				<list>
+					<item>TEI-encoded using P5</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-02-16" n="2">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Minor changes and corrections of <name>Deborah K. Wright</name>'s initial
+						encoding.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-02-21" n="3">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Some further changes: matter omitted from performance; editorial notes for
+						illegible text; changes to cast list.</item>
+				</list>
+			</change>
+			<change who="#DKW" when="2011-02-23" n="4">
+				<label>Changed by the editor/encoder</label>
+				<name>Deborah K. Wright</name>
+				<list>
+					<item>Some further changes, including adding to the cast list to account for the
+						Chorus, other changes/comments in response to Justin's
+						questions/comments.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-02-25" n="5">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>One minor change - removing superfluous square brackets from
+						transcription, and adding tags to deleted word.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-07" n="6">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Several minor changes: I have inserted corrections to the transcript that
+						were identified by <name>Deborah K. Wright</name> after comparison against
+						manuscript images.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-12" n="7">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Regularisation of <gi>speaker</gi> names, detailed above in
+							<gi>normalization</gi>.</item>
+					<item>Regularisation of dashes to em dashes. Detailed above in
+							<gi>hyphenation</gi>.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2011-07-13" n="8">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>Incorrect and idiosyncratic spellings from ms encoded with
+						<gi>sic</gi>.</item>
+				</list>
+			</change>
+			<change who="#JT" when="2012-07-12" n="9">
+				<label>Changed by the editor</label>
+				<name>Justin Tonra</name>
+				<list>
+					<item>This file is a modification of the original 'gipsy_ms' file. The change
+						consists of the removal of the songs from the file, and the insertion of
+							<gi>anchor</gi> elements in their stead. The songs are encoded, using
+						parallel segmentation, in a new file entitled 'gipsy_ms_songs.' The dramatis
+						personae list has also been moved to the 'songs' file, simply because it
+						needs to encoded using parallel segmentation as well--an anchor is also
+						provided for this.</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="ms">Transcribed from MS LA 1329, in the collection of John
+						Larpent,  Lord Chamberlain's Examiner of Plays (1778-1824), at the Huntington
+						Library. </witness>
+					<witness xml:id="a">Thomas Moore, The Gipsy Prince, A Comic Opera in Two Acts,
+						Now Performing with Universal applause at the Theatre Royal, Haymarket,
+						Compos'd &amp; Selected by Michael Kelly (Printed for Michael Kelly, to be
+						had at his Music Warehouse, No. 9 New Lisle Street, Leicester Square, &amp;
+						at all Music Shops [1801]).</witness>
+					<witness xml:id="b">Thomas Moore, Songs, Duets, Trios, and Choruses, in the
+						Gipsy Prince, a Musical Entertainment in Two Acts, first performed at the
+						Theatre-Royal, Hay-Market, July 24, 1801. The Overture and Musick Composed
+						and Selected by Mr. Kelly (London: Printed by T. Woodfall, Little Russell
+						Street , Covent Garden, for Mssrs. Cadell and Davies in the Strand, 1801). </witness>
+					<witness xml:id="c">The Gipsy Prince; or, The Loves of Don Sebastian de Nurillo,
+						and the Fair Antonia, translated from the Spanish. By C. Moor, Esq. To which
+						is added, The Corsair; or The Italian Nuptials. (London: J. Roach. 1801).
+						64pp. -- Front. dated Sept. 7, 1801. [BL shelfmark:
+						12330.e.37.(2.)].</witness>
+				</listWit>
+			</div>
+
+
+			<div>
+				<head>The Gipsy Prince (Haymarket, 24 July 1801)</head>
+				<note><p> Transcribed from MS LA 1329, in the collection of John Larpent, Lord
+						Chancellor's Examiner of Plays (1778-1824), at the Huntington Library.</p>
+					<p>Matter omitted from performance is placed in angle brackets &lt; &gt;<lb/>
+						Words and phrases inked out illegibly are noted in square brackets; if
+						legible, transcription is given in <hi rend="strikethrough">strikethrough
+							text</hi>.</p>
+					<p>Additions from published versions of the songs are placed in square brackets
+						and marked with superscript [ ]<hi rend="sup">a</hi> [ ]<hi rend="sup"
+							>b</hi> [ ]<hi rend="sup">c</hi> indicating the three published versions
+						of the songs:<lb/> [ ]<hi rend="sup">a</hi>
+						<lb/> Thomas Moore, The Gipsy Prince, A Comic Opera in Two Acts, Now
+						Performing with Universal applause at the Theatre Royal, Haymarket, Compos'd
+						&amp; Selected by Michael Kelly (Printed for Michael Kelly, to be had at his
+						Music Warehouse, No. 9 New Lisle Street, Leicester Square, &amp; at all
+						Music Shops [1801]).<lb/> [ ]<hi rend="sup">b</hi><lb/> Thomas Moore, Songs,
+						Duets, Trios, and Choruses, in the Gipsy Prince, a Musical Entertainment in
+						Two Acts, first performed at the Theatre-Royal, Hay-Market, July 24, 1801.
+						The Overture and Musick Composed and Selected by Mr. Kelly (London: Printed
+						by T. Woodfall, Little Russell Street, Covent Garden, for Mssrs. Cadell and
+						Davies in the Strand, 1801).<lb/> [ ]<hi rend="sup">c</hi><lb/> The Gipsy
+						Prince; or, The Loves of Don Sebastian de Nurillo, and the Fair Antonia,
+						translated from the Spanish. By C. Moor, Esq. To which is added, The
+						Corsair; or The Italian Nuptials. (London: J. Roach. 1801). 64pp. -- Front.
+						dated Sept. 7, 1801. [BL shelfmark: 12330.e.37.(2.)].</p></note>
+			</div>
+
+			<titlePage>
+				<docTitle>
+					<titlePart type="main"><hi rend="underline">The Gipsey Prince</hi></titlePart>
+					<lb/>
+					<titlePart type="sub">A Musical Entertainment</titlePart>
+					<lb/>
+					<titlePart type="sub"><hi rend="underline">Act 1. &amp; 2.</hi></titlePart>
+					<lb/>
+				</docTitle>
+			</titlePage>
+
+			<performance>
+				<head/>
+				<p><rs type="place">Theatre Royal Haymarket</rs><lb/>
+					<date when="1801-07-17">17.<hi rend="sup">th</hi> July 1801.</date></p>
+			</performance>
+			<lb/>
+
+			<div type="letter">
+				<head><hi rend="underline">The Gipsey Prince<lb/> A Musical Entertainment</hi><lb/> in<lb/>
+					<hi rend="underline">Two Acts</hi><lb/>
+				</head>
+				<salute>Sir,</salute>
+
+				<p>This Piece, called the Gipsey Prince, is, with the permission of the Right
+					Honourable, the Lord Chamberlain, intended for Representation at the Theatre
+					Royal Hay-market.</p>
+				<closer><salute>I am Sir<lb/> Your most Obedient Serv<hi rend="sup">t</hi>.</salute>
+					<signed>G. Colman</signed>
+					<dateline><name type="place">Theatre Royal Haymarket</name><lb/>
+						<date when="1801-07-18">July 13th 1801</date></dateline><lb/>
+					<name>J. Larpent Esq<hi rend="sup">re</hi></name></closer>
+				<pb n="1"/>
+			</div>
+
+			<titlePage>
+				<docTitle>
+					<titlePart>The Gipsy Prince<lb/> a<lb/> Musical Piece<lb/> in<lb/> Two
+						Acts</titlePart>
+					<lb/>
+				</docTitle>
+			</titlePage>
+
+			<anchor xml:id="dp1"/>
+
+		</front>
+
+		<body>
+			<div type="drama">
+
+				<pb n="2"/>
+				<div type="act" n="1">
+					<head><hi rend="double underline">Act First</hi></head>
+
+					<div type="scene" n="1">
+						<head><hi rend="double underline">Scene First</hi></head>
+						<stage>The Suburbs of Murcia<lb/> Peasant Men and Women dancing before a
+							Cottage,<lb/> while others sitting at the Door are playing on Mandolins
+							and Singing</stage>
+						<lb/>
+
+						<anchor xml:id="song1"/>
+
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>That's right&#x2014;frisk it away&#x2014;there's not a Man in Murcia
+								loves merriment more than Rincon&#x2014;go on&#x2014;I'll caper it
+								with the best of you.</p>
+						</sp>
+						<stage>(dances)</stage>
+						<sp who="#die">
+							<speaker>Diego</speaker>
+							<p>Poh! Here's this troublesome Rincon. What my good
+								Cavallero&#x2014;still at your old trick of meddling in other
+								people's business?</p>
+							<!-- Line not clear in MS image, but trancript appears to have been standardised 
+							in terms of spelling and punctuation. JT, 2011-07-07. -->
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> Ha! How do you do? Why I own I <hi rend="underline">do</hi> like to
+								have a hand and a <hi>foot</hi> in everything going forward – but
+								what are you about? merry-making, eh?</p>
+						</sp>
+						<sp who="#die">
+							<speaker>Diego</speaker>
+							<p>If we must give you a full Account of ourselves&#x2014;<hi
+									rend="underline">I</hi> am Diego.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Go on&#x2014;I knew that before &#x2014;how naturally the fellow puts
+								himself foremost!</p>
+						</sp>
+						<sp who="#die">
+							<speaker>Diego</speaker>
+							<stage>(sulkily) </stage>
+							<p>Well&#x2014;this is Blanch&#x2014;and we've just been
+								married&#x2014;are you satisfied now?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Perfectly at my ease&#x2014;and this is Blanch, eh?</p>
+						</sp>
+
+						<pb n="4"/>
+
+						<stage>(Going up to her)</stage>
+						<sp who="bla">
+							<speaker>Blanch</speaker>
+							<stage>(curtsying <sic>awkwarly</sic>)</stage>
+							<p>Yes, Sir, at your service.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(With his back to the Husband&#x2014;sometimes looking round at
+								him and from him to Blanch)</stage>
+							<p>Well, Child&#x2014;to be sure there is a variety of tastes, but in
+								the choosing of a man (looking down at himself)</p>
+						</sp>
+						<sp who="#die">
+							<speaker>Diego</speaker>
+							<p>What is the fellow at?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(to Blanch)</stage>
+							<p>By our lady of the Rock, thou has got a most delicate lip, Child.</p>
+						</sp>
+						<sp who="#bla">
+							<speaker>Blanch</speaker>
+							<p>A pair of them, Sir, at your service.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> At <hi>my</hi> service&#x2014;egad, I think I should like to be
+								meddling <hi>there</hi> too </p>
+							<stage>(going to kiss her)</stage>
+						</sp>
+						<sp who="die">
+							<speaker>Diego</speaker>
+							<stage>(interposing) </stage>
+							<p>To that <hi rend="underline">I</hi> have a trifling
+								objection&#x2014;and so, good bye to you, Master Go-Between. come
+								along, Girls let the thing dance by itself.</p>
+						</sp>
+						<stage>Exeunt Peasants.</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Odso&#x2014;the fellow is as nice about his Wife, as if she was his
+								own property, but we've learn't better things now-a-days.
+								No&#x2014;No&#x2014;a man's wife <hi rend="underline">us'd</hi> to
+								belong to him <pb n="5"/> but the <hi rend="underline">Husband</hi>
+								<hi>now</hi> is put away among the moveables.</p>
+						</sp>
+
+						<anchor xml:id="song2"/>
+						<anchor xml:id="song3"/>
+
+					</div>
+
+					<pb n="6"/>
+
+					<div type="scene" n="2">
+						<head>Scene 2<hi rend="sup">nd</hi></head>
+						<stage>Discovers Gipsies seated round a Fire in the background. They begin a
+							low, melancholy Dirge</stage>
+
+						<anchor xml:id="song4"/>
+
+						<stage>Enter to them the Gipsy Prince in a fanciful half Eastern
+							Dress.</stage>
+
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Well, fellows, we are now in Murcia, and near the City. I know not
+								how we strollers are receiv'd in Spain, but I'll on to enquire and
+								be back with you at Night fall.</p>
+						</sp>
+						<sp who="#gip">
+							<speaker>1<hi rend="sup">st</hi> Gipsy. </speaker>
+							<p>Where shall we pitch our Tents?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Some distance hence among those Willows. This Dress will at all
+								events secure me from suspicion. Away.</p>
+						</sp>
+
+						<stage>Exeunt Gipsies.</stage>
+
+						<pb n="7"/>
+
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Where shall my wanderings and adventures cease? after travelling
+								thro' the World, unknowing and unknown, I now am made a
+									<hi>Chief</hi> of Vagabonds. Well, well, it matters not where I
+								go. I know no Parent but Nature, and she gives me the World for my
+								home!</p>
+
+							<anchor xml:id="song5"/>
+
+							<stage>Going out starts back upon seeing an old Man dragg'd in by two
+								Alguazils.</stage>
+
+							<pb n="8"/>
+
+							<p>Ha! what's here!</p>
+						</sp>
+						<sp who="#oj">
+							<speaker>Old Jew</speaker>
+							<p>In mercy's name, allow me to escape,&#x2014;I am old and not worth
+								persecuting.</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p>Old Sinners are the worst of all&#x2014;come along </p>
+						</sp>
+						<stage>(they drag him)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>May I ask, Gentlemen, what functions do you bear?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p>Have you dropped from the Moon? We are Officers of the
+								Inquisition.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p> Whither do you drag that poor old Man?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p>To a Dungeon to be sure.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>What is his Crime?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p> He is a Jew.</p>
+						</sp>
+						<sp who="#oj">
+							<speaker>Old Jew</speaker>
+							<p>Oh! Sir&#x2014;some secret Enemy has ruin'd me. I go to suffer Death
+								ever without knowing my accusers.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Is he charg'd with no other Crime than this?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p>I tell you he is a Jew.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Is this the Country of Religion? <gap extent="6/7" unit="words"
+									reason="illegible"/><note type="editorial">[six or seven words
+									inked out]</note> shame on you, persecuting Hypocrites, release
+								your Prisoner this instant.</p>
+						</sp>
+
+						<pb n="9"/>
+
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<stage>(eying him with derision and turning to his Companion) </stage>
+							<p>Here's a fine fellow for you. Why, where have you come from, young
+								Hector? <gap extent="2" unit="lines" reason="illegible"/><note
+									type="editorial">[two lines inked out]</note></p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>What, do you back your cruelty with insolence? Villains&#x2014;I'll
+								shew you that <hi>one</hi> arm in the cause of Humanity is worth a
+								hundred hirelings of oppression.</p>
+						</sp>
+						<stage>(Draws)</stage>
+						<sp who="#alg">
+							<speaker>Alguazils</speaker>
+							<p>Here's rebellion against the Holy Office&#x2014;down with
+								him&#x2014;down with him.</p>
+						</sp>
+						<stage>(While they are fighting Rincon pops his head in)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p><gap extent="4" unit="words" reason="illegible"/><note
+									type="editorial">[four words inked out]</note>&#x2014;Ho,
+								ho&#x2014; Alguazils, and Swords drawn. I'll not meddle here. Bravo,
+								Alguazils&#x2014;knock him down&#x2014;knock him down&#x2014;I'll
+								not meddle&#x2014;I'm off. </p>
+						</sp>
+						<stage>(Exit).</stage>
+						<sp who="#alg">
+							<speaker>1<hi rend="sup">st</hi> Alguazil</speaker>
+							<p>Oh! I'm hurt&#x2014;take to your heels&#x2014;the dog has wounded
+								me.</p>
+						</sp>
+						<stage>(they run off)</stage>
+						<sp who="#oj">
+							<speaker>Old Jew</speaker>
+							<stage>(falling on his knees before the Gipsy Prince) </stage>
+							<p>Generous Stanger! you have preserved <hi>my</hi> life, but your <pb
+									n="10"/> own I fear will be the forfeit. You know not the powers
+								of the Tribunal&#x2014;to oppose <sic>it's</sic> Ministers is Death,
+								and I fear you have wounded one of them&#x2014;for Heaven's sake fly
+								and preserve yourself. You carry with you the prayers of one who
+								owes you his liberty and his life. </p>
+						</sp>
+						<stage>(Exit, Old Man)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Thus runs my fate from one difficulty to another. Must I conceal
+								myself? No&#x2014;let them come&#x2014;and yet&#x2014;to be the
+								sport of such ruffians&#x2014;the thought is worse than
+								death&#x2014;this way seems to lead to the City. Let what will
+								happen there <hi rend="underline">is no one to weep for me!
+								</hi></p>
+						</sp>
+						<stage>(Exit)</stage>
+					</div>
+
+
+					<div type="scene" n="3">
+						<head>Scene 3<hi rend="sup">rd</hi>.</head>
+						<stage>One one side a Bower, and on the other a Turret. Enter Don Roderick
+							and Don Dominick.</stage>
+
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>As you say, my friend, I wish your boy Sebastian <hi>was</hi>
+								here&#x2014;he would just be a match for the Girl&#x2014;but he's
+								dead, isn't he?</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p> Alas! I fear so,</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p> Then he'll not do for <hi>my</hi>
+								<sic>Neice</sic>.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>When my Brother went with the Missionaries to <pb n="11"/> the East,
+								I unfortunately sent the Child along with him, an&#x2014;</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<stage> (aside)</stage>
+							<p> Now have I heard this Story a hundred times&#x2014;Ay, Well?</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>I sent my boy Sebastian with the Missionaries</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>And then lost him and he's dead or gone to the deuce; and you don't
+								know what's become of him. Don't tell your old Stories so often,
+								Brother Dominick, and you'll be a much more agreeable Companion.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Well, well, you are hasty, old Roderick&#x2014;but, how is your
+									<sic>Neice</sic>?</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>My <sic>Neice</sic>! very well&#x2014;fine girl&#x2014;but don't know
+								what to do with her.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p><hi rend="sup">I</hi> say, marry her off your hands as fast as you
+								can.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>That's what I wish, but the jade doesn't seem to know what Matrimony
+								means&#x2014;she has got an old broken winded guittar that I believe
+								she'll be married to for the rest of her life <stage>(the guittar
+									heard without)</stage>. Ay, <pb n="12"/> here she is with that
+								plaguy instrument of hers, the very curse of my life.</p>
+						</sp>
+
+						<stage>Enter Antonia singing to the accompaniment of her Guittar. </stage>
+						<stage>Trio.</stage>
+						<anchor xml:id="song6"/>
+
+						<stage>Enter a Messenger</stage>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p> What now?</p>
+						</sp>
+						<sp who="#mes">
+							<speaker>Messenger</speaker>
+							<p> A Prisoner has just been rescued from the Officers.</p>
+						</sp>
+						<pb n="13"/>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p><gap extent="2" unit="words" reason="illegible"/><note
+									type="editorial">[two words inked out]</note>
+								<sic>Recued</sic>?&#x2014;by whom?</p>
+						</sp>
+						<sp who="#mes">
+							<speaker>Messenger</speaker>
+							<p>By a Stranger who has wounded one of them and escaped.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>What!&#x2014;Rebellion against the Sante Officio? Oh! we'll tickle
+								him, the dog! Catch him, and with our accustomed <sic>Civily</sic>,
+								we'll give him his choice whether he'll be roasted
+								or&#x2014;boiled.</p>
+						</sp>
+						<stage>(Ex<hi rend="sup">t</hi> Messenger)</stage>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p> Come, Roderick. This offence is civil as well as religious We'll to
+								the Alcaide, and order out a guard after him.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p> Do you hear, Niece? Throw away your guittar and look for a Husband;
+								a much better play thing, I assure you. Don't you remember what
+								Gomez, the old ballad-monger says</p>
+							<lg>
+								<l>Marry for money, for love or for mirth,</l>
+								<l>Take a Husband for use or for show'</l>
+								<l>'Tis better by far to lead one Ape on earth</l>
+								<l>Than perhaps lead a hundred below.</l>
+							</lg>
+						</sp>
+						<stage>(Ext. Don Dom. &amp; Don Rod.)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>How Uncle does abuse thee, thou dear companion of many a solitary
+								hour <stage>(looking at her Guittar)</stage> he says <pb n="14"/> a
+								husband would be a better play-thing&#x2014;it may be so, but has a
+								husband much musick in him?&#x2014;Here are two, three, six
+								frets&#x2014;Ah! there are more frets in Matrimony than that, and
+								then, one couldn't play upon a husband so easily </p>
+						</sp>
+						<stage>(Archly, and striking the Chords of the Instrument) </stage>
+
+						<stage>The Gipsy Prince appears on the Walls of the Garden, looking back as
+							if pursued.</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>I am mistaken, I think&#x2014;they were not Officers&#x2014;yet they
+								eyed me suspiciously&#x2014;no matter&#x2014;over I go.
+									<stage>(jumps down)</stage> I cannot be worse than in the hands
+								of those&#x2014;<stage>(starts on seeing Antonia, who screams)
+								</stage>A Woman! <stage>(advancing to her)</stage> Lady&#x2014;if
+								you can pardon such an intrusion&#x2014;</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Pray, Sir, who are you, that thus&#x2014;</p>
+						</sp>
+						<stage>(hesitating)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>I am a Stranger, Madam, but a few hours in Murcia. Passing thro' the
+								Suburbs, I saw an unfortunate old Man, whom the Officers were
+								dragging without mercy to a dungeon. I pitied, I rescued him. This
+								offence, they tell me, is death&#x2014;pursued, and flying, I know
+								not whither&#x2014;Heavens! how beautiful</p>
+						</sp>
+						<stage>(aside)</stage>
+						<pb n="15"/>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p> But Sir, can you imagine&#x2014;</p>
+						</sp>
+						<stage>(hesitating)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p> I see that I offend. Yes, tho' looking thus is life, and death be
+								without those walls, I go&#x2014;</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Stay, Sir, what would you have me do?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p> Nothing for worlds that could a moment disturb you&#x2014;if I might
+								conceal myself in these gardens till night, the darkness then might
+								suffer me to escape, but&#x2014;</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(aside)</stage>
+							<p>I have often wished for an opportunity to do good, now I have it, I
+								will not lose it. <stage>(to him)</stage> Yes&#x2014;Stranger, you
+								shall have concealment here.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<stage>(falling on his knees before her)</stage>
+							<p> Oh! thus let me thank you, not for the life you preserve which is
+								nothing; but for the feeling that warms you, which is every
+								thing.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(aside)</stage>
+							<p> Heaven grant I feel no more than compassion&#x2014;Will you be my
+								prisoner?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Yes, for ever.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p> Here is a little Turret&#x2014;come you shall see
+										it&#x2014;<stage>(<sic>The</sic> go over to the
+									Turret)</stage> There you may rest secure, &amp;
+								and<!-- both appear in ms --> as soon as it is dark&#x2014;</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<stage>(within)</stage>
+							<p>Search the whole city for him. The <pb n="16"/> Corregidore will sit
+								in the morning. [one line inked out]</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>My Uncle!&#x2014;in&#x2014;in, or we are <gap extent="1" unit="words"
+									reason="illegible"/><note type="editorial">[word inked
+									out]</note> ruined.</p>
+						</sp>
+						<stage>Shuts him in the Tower and runs in trepidation to the
+							Guittar.</stage>
+						<stage>(Enter Don Roderick)</stage>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Hey day! still at it? house, house, girl&#x2014;it's growing
+									late&#x2014;<sic>Arn't</sic> you afraid of hobgoblins? They'll
+								be dancing the blue devils' jig about you presently.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>True Sir <stage>(looking towards the Turret)</stage> when one is
+								alone, strange figures will appear to one, as you say.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>What the Plague! you don't see anything appearing now, do you?</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Oh! no, Sir&#x2014;go in&#x2014;and I shall follow you&#x2014;</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Pho! come along, Girl. I must be early in the morning.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Pray, Uncle&#x2014;I have but to&#x2014;but to look after my little
+								bird in the Turret.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>A Bird in the Turret?&#x2014;come, let's see&#x2014;I like birds.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Dearest Uncle&#x2014;no. You'll disturb it.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Not at all&#x2014;no matter </p>
+							<stage>(going towards the Turret)</stage>
+						</sp>
+						<pb n="17"/>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(preventing him)</stage>
+							<p>Besides, Sir, 'tis a Singing bird, &amp; you're not fond of
+								Musick.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Singing Bird, is it?&#x2014;Oh! curse your singing&#x2014;well,
+								well&#x2014;follow me immediately.</p>
+						</sp>
+						<stage>(Ex<hi rend="sup">t</hi> Don Rod)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(running to the Turret)</stage>
+							<p>Hist! hist! but one word more. &#x2014;<stage>(leads out the Gipsy
+									Prince)</stage> there is a little bolt inside, by which you may
+								command the door, and as soon as you think it dark enough to
+								escape&#x2014;but&#x2014;but&#x2014;is this the last time I shall
+								ever see you?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>First time and last!&#x2014;Oh! that would indeed be too little.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Say you so?&#x2014;and will you stay till morning here?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Till morning?&#x2014;Oh! 'twill be a blessed morning that brings you
+								back to bless my eyes again.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(aside)</stage>
+							<p>I am so happy!&#x2014;as soon as it is dawn, I will come to you and
+								the sound of the <sic>Guittar</sic> shall be the Signal for you to
+								appear. Farewell, go to your lodging&#x2014;I must after my
+								Uncle.</p>
+						</sp>
+						<stage>Duett.</stage>
+
+						<anchor xml:id="song7"/>
+
+					</div>
+
+					<div type="scene" n="4">
+						<head>Scene 4.</head>
+						<stage>The Gipsies Tents among the Willows almost dark.</stage>
+						<stage>Duett &amp; Chorus.</stage>
+
+						<anchor xml:id="song8"/>
+
+						<sp who="#gip">
+							<speaker>1<hi rend="sup">st</hi> Gipsy</speaker>
+							<p>Where can this Prince of ours be? Something has happened him in the
+								City, I am afraid.</p>
+						</sp>
+						<sp who="#gip">
+							<speaker>2<hi rend="sup">d</hi> Gipsy.</speaker>
+							<p>Soft!&#x2014;who comes yonder? Stand by&#x2014;we'll sport him.</p>
+						</sp>
+
+						<stage>(Enter Rincon)</stage>
+
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> Dear me!&#x2014;how busy I've been! helping the Alguazils all over
+								the city to find that damn'd sacrilegious dog. Lord, lord&#x2014;how
+								anyone can meddle with the Inquisition! Women and the Holy
+								Office&#x2014;women and the Holy office are never to be meddled
+								with.</p>
+						</sp>
+
+						<pb n="20"/>
+
+						<stage>(Poppee &amp; Lachimee come at each side of him)</stage>
+
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>How do you do, Sir?</p>
+						</sp>
+						<sp who="#lac">
+							<speaker>Lachimee</speaker>
+							<p>How do you do, Sir?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Hey-day! talk of a devil, and two of them appear <stage>(looking
+									alternately at them)</stage>. Black&#x2014;yellow&#x2014;his
+								livery at all events.</p>
+						</sp>
+						<sp who="#pop #lac">
+							<speaker>Poppee &amp; Lachimee</speaker>
+							<p>Dear, dear, what fine dressy man! &#x2014;see&#x2014;see&#x2014;nice
+								fine</p>
+						</sp>
+						<stage>(turning him about)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Do you really admire this dress&#x2014;'pon my Soul these Gipsies
+								have no bad taste I find.</p>
+						</sp>
+						<sp who="#pop #lac">
+							<speaker>Poppee &amp; Lachimee</speaker>
+							<stage>(<hi rend="underline">pointing to different parts of his
+									dress</hi>)</stage>
+							<p>give um dis, give um dat.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>What my hat?&#x2014;what my Sword, eh! no, excuse me&#x2014;</p>
+						</sp>
+						<sp who="#lac">
+							<speaker>Lachimee</speaker>
+							<stage>(Snatching off his Hat)</stage>
+							<p> She got herself here, buddy Quonimo, here fine hat for
+								you&#x2014;</p>
+						</sp>
+						<stage>(putting it on one of the Gipsey men)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Oh! ho!&#x2014;this is their taste for my dress&#x2014;very
+								flattering indeed&#x2014;</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<stage>(coming up roguishly)</stage>
+							<p> Me very fond of you&#x2014;love you plenty&#x2014;you glad?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> Oh! certainly&#x2014;very glad. Your love is extremely dear to
+								me&#x2014;and these are all keep- <pb n="21"/> sakes, you're taking,
+								I suppose?</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p> Iss&#x2014;me wish fine bit of your hair, put in gold ring, eh?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>'Twould be rather difficult, I believe</p>
+						</sp>
+						<stage> (putting his hand to his head)</stage>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>Oh! me find plenty look <stage>(pulls off his Wig and shews it
+									round)</stage> See&#x2014;here fine wig to put in a ring.</p>
+						</sp>
+						<stage>(They all gather round him and seem emulous in tearing at his
+							dress)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>By my chastity, Ladies, you'll leave me not fit to be seen.</p>
+						</sp>
+						<stage>The Alguazils rush in with the Opening of a Finale.</stage>
+
+						<anchor xml:id="song9"/>
+
+						<stage>End of Act 1.</stage>
+
+					</div>
+				</div>
+
+				<pb n="1"/>
+				<div type="act" n="2">
+					<head>Act 2</head>
+					<div type="scene" n="1">
+						<head>Scene 1.</head>
+						<stage>The Gardens &amp; the Turret. Enter Antonia with a Basket on her arm
+							and a Guittar.</stage>
+
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>How my heart beats! I hope they have not observed me. Oh! if my bird
+								has not flown I shall be happy. </p>
+						</sp>
+						<stage>(Strikes the Chords of her Guittar)</stage>
+						<stage>(Enter Gipsey Prince from the Turret)</stage>
+
+						<anchor xml:id="song10"/>
+
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Tell me, dear Stranger&#x2014;</p>
+						</sp>
+						<pb n="2"/>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Oh! say not stranger, call me&#x2014;</p>
+						</sp>
+						<stage>(hesitates)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>What?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>What you will&#x2014;<stage>(Sighs)</stage> I've never had a name. I
+								never lived till now&#x2014;<stage>(takes her hand
+									affectionately)</stage> her lips should give the name, whose
+								eyes have given the life.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>See, I have stolen this little basket of refreshments for you. I'm so
+								afraid that Uncle will come this way&#x2014;feel how my heart
+								beats!</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<stage>(aside)</stage>
+							<p>This is too much. I must not expose this innocent Girl to such
+								dangers. &#x2014;No, 'tis cowardly.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Come, we may venture to walk round yonder path, and then, my dear,
+								dear Nameless, you shall tell me all your story.</p>
+						</sp>
+						<stage>(Exeunt.)</stage>
+						<stage>(Enter Don Roderick &amp; the Alcaide)</stage>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p> Well?</p>
+						</sp>
+						<sp who="#alc">
+							<speaker>Alcaide</speaker>
+							<p>They have hunted him, your Excellency, all round the Suburbs.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Hunted him! ay, ay&#x2014;they are fine beagles&#x2014;after a
+								Heretic&#x2014;"Stole away&#x2014;stole away!" is enough for them,
+								but can they find no traces of the offender?</p>
+						</sp>
+						<pb n="3"/>
+						<sp who="#alc">
+							<speaker>Alcaide</speaker>
+							<p>The found a party of Strolling Gipsies who arrived in Murcia but
+								yesterday. Some of them they apprehended and others
+								escaped&#x2014;from their information we guess it must be their
+								Captain, or Prince, as they call him, who committed this Murder</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Very likely these fellows think no more of poking a man's Guts than
+								of stirring their fire&#x2014;but Murder, did you say?</p>
+						</sp>
+						<sp who="#alc">
+							<speaker>Alcaide</speaker>
+							<p>Yes, if the report be true which I heard this morning, that the
+								Alguazil he wounded is dead.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Ferret him out, ferret him out&#x2014;we must make a shining
+								example&#x2014;by the mass, we'll make an illumination of him.
+									<stage> (During the latter part of this conversation, Antonia
+									&amp; Gipsey Prince Enter, but seeing Don Roderick, She steals
+									to the Turret door, opens it cautiously while the Gipsey Prince
+									gets in&#x2014;just as she closes the door, Don Roderic turns
+									about)</stage>&#x2014;</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Hey day!&#x2014;abroad so early, Antonia? What, with your pet in the
+								Turret, eh?</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Yes, Uncle. I've been feeding it.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>What out of this <stage>(examining the Basket)</stage>. Egad
+								<!-- check this word -->, your Pet has a prodigious good
+								stomach.</p>
+						</sp>
+						<pb n="4"/>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Oh, Sir!&#x2014;that&#x2014;that basket belongs to the Gardener.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Ay, ay, so I thought&#x2014;a fine swallow is the only bird that can
+								manage that breakfast. Goodbye, Girl&#x2014;I've death upon my hands
+								to-day. This fellow that rescued the Jew must be Pickled. We
+								Inquisitors shall go to the devil, if we don't send others in our
+								places.</p>
+						</sp>
+						<stage>(Exit)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>And all this against thee, thou dear, unhappy wanderer! Oh! Heaven
+								avert it, for I fear I cannot.</p>
+						</sp>
+
+						<anchor xml:id="song11"/>
+
+						<stage>Exit</stage>
+						<stage>Enter Rincon (beckoning as to someone without)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Come, you little Gipsey&#x2014;come into this Garden &amp; I'll give
+								you a kiss. What!&#x2014;you won't eh? <stage>(Pulls in
+									Poppee)</stage></p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>No&#x2014;dis is not kissy day wid me.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>So, so&#x2014;you've set days for kissing, have you? I suppose you're
+								like the Thieves in Salamanca, whose piety will not <hi
+									rend="strikethrough">let</hi><!-- how to encode?
+								What is the function of the square brackets? -->
+								<!-- My guess is that the first let is a strikethrough 
+									and the word was simply rewritten. Must check ms.  
+									2-23-11, DKW -->
+								<!-- I missed this when I was making corrections based on
+									Fred's recent responses to our queries - the square
+									brackets were superfluous. 2-25-11, JT -->
+								let them steal on Sunday.</p>
+						</sp>
+						<pb n="5"/>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>Iss&#x2014;but me steal every day.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>The devil you do!</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<stage>(looking round) </stage>
+							<p>How fine Garden here&#x2014;dis your garden all?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Yes&#x2014;all mine&#x2014;all <stage>(aside)</stage> Never laid eyes
+								on it before.</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<stage>(Sees the Basket)</stage>
+							<p> Ha! what you got here?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>She's at it. She's at it.</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>Here good eaty man. Com me stop you mout dis way.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Ay, <sic>at</sic>, while my appetite is for her&#x2014;Her appetite
+								is for the breakfast. Let me see <stage>(goes to her)</stage> By my
+								sobriety, Here's Wine&#x2014;not a bad thing, Gipsey
+									<stage>(drinks)</stage> What! eating meat on a Fast
+								day&#x2014;Oh fye!&#x2014;see how I abstain from flesh and&#x2014;if
+								you don't come kiss me, I'll say you're a downright
+								Heathen&#x2014;Were you ever <hi rend="strikethrough"
+									>christen'd</hi>, you rogue?</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<p>No, Nebber&#x2014;what dat?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> Oh! Lord, Oh! Lord </p>
+						</sp>
+						<stage>(He leads her forward &amp; fills a Glass)</stage>
+
+						<!-- Watch song arrangements here -->
+						<anchor xml:id="song12"/>
+
+						<anchor xml:id="song13"/>
+
+						<anchor xml:id="song14"/>
+
+						<anchor xml:id="song15"/>
+
+
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>There she goes&#x2014;off with her&#x2014;the feet of these Jades are
+								generally as nimble as their Tongues, and old Nick himself can't
+								keep pace with either. What's here? a Guittar?&#x2014;Lord, if I had
+								seen this while that little guinea-pig was here, I'd have soften'd
+								her heart with a sequidilla in an instant. Nothing like musick for
+								putting <pb n="7"/> crotchets in a woman's
+								head&#x2014;So&#x2014;</p>
+						</sp>
+						<stage>(He brushes over the Strings)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<stage>(rushing from the Turret.)</stage>
+							<p> At length you're come. Oh! welcome dearest&#x2014;'Sdeath! we're
+								betray'd! &amp; ruined!</p>
+						</sp>
+						<stage>(turns aside)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(aside)</stage>
+							<p>Now shall I be kicked into the streets for my impertinence, and my
+								Musick all end with a B. flat in the Gutter.
+									Sir&#x2014;<stage>(advancing)</stage> if I may be excused for
+								this intrusion&#x2014;</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>So, so, so&#x2014;he is not of the family</p>
+							<stage>(turns round to Rincon, who stares at and recollects
+								him).</stage>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(aside)</stage>
+							<p>Ho&#x2014;ho&#x2014;are you found at last, my Gentleman. Here's
+								business for me&#x2014;here's meddling to my heart's delight. I'll
+								run to the Court this instant. Good morning to you, Sir.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>This fellow seems to know &#x2014;I must detain him or I am
+								lost&#x2014;Stop, Sir </p>
+							<stage>(Seizes him) </stage>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Dear Sir&#x2014;You're so pressing. I'll call again
+									<stage>(aside)</stage> with a Guard.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Come, come, no trifling&#x2014;do you see that Turret?&#x2014;in
+								there this instant: I must <del><hi rend="strikethrough"
+									>lock</hi></del>lock you up.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Lock me up? Lord, Sir! <stage>(aside)</stage> Oh! The damn'd
+								dog&#x2014;he might as well take the bread out of my Mouth. Sure,
+								Sir, you're not in earnest.</p>
+						</sp>
+						<pb n="8"/>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Peace fool&#x2014;and do as I command &#x2014;</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Oh! dear&#x2014;well, if I must be lock'd up, just allow me, Sir, to
+								take a companion with me </p>
+							<stage>(takes the Bottle &amp; Glass, and the Gipsy Prince locks him
+								in)</stage>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Where is Antonia!&#x2014;but yesterday life was a burden to me, and
+								now, love gives a value to every moment of existence&#x2014;Ah!
+								Antonia!</p>
+						</sp>
+						<stage>(Exit)</stage>
+						<stage>(Enter Antonia in terror &amp; agitation)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>What shall I do? The guards are searching every where <stage>(looking
+									towards the Turret)</stage> Oh! must I see thee torn from my
+								Arms to a Dungeon? Never, never!&#x2014;Hush!&#x2014;I hear
+								footsteps&#x2014;something must be done
+									instantly&#x2014;<stage>(takes up the Guittar &amp; hurries over
+									the Strings)</stage>. Come, come&#x2014;<stage>(Rincon makes a
+									noise within &amp;c<hi rend="sup">a</hi>)</stage> What can be
+								the meaning of this? He cannot get out.</p>
+						</sp>
+						<stage>(She unlocks the door. Rincon rushes out half drunk and catches her
+							in his arms. She shrieks.)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>That's right my little angel of deliverance&#x2014;You let me out
+								just in time, for I had nearly finished the last drop of my
+								bottle.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<stage>(loudly)</stage>
+							<p>Oh! Heaven&#x2014;where is he?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Hush, my dear&#x2014;there's a damned sulky thief lurking here
+								abouts&#x2014;but don't be frighten'd&#x2014;don't be <pb n="9"/>
+								frighten'd, my love; for I'll bring a guard on him in five minutes
+							</p>
+						</sp>
+						<stage>(going towards the door&#x2014;She follows him, seizes his Skirts and
+							kneels)</stage>
+
+						<anchor xml:id="song16"/>
+
+						<stage>(NB.&#x2014;during the Trio they lock Rincon up again and then
+							Exuent.)</stage>
+
+						<stage>(Enter Alguazil's.)</stage>
+						<sp who="#alg">
+							<speaker>1<hi rend="sup">st</hi> Alguazil</speaker>
+							<p>From what the Peasant told us he must be hiding somewhere in this
+								Garden <stage>(They search the bower)</stage> You may swear he has
+								chosen the finest corner he <pb n="10"/> could
+									find&#x2014;<stage>(They look round the Stage)</stage>.</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>2<hi rend="sup">d</hi> Alguazil</speaker>
+							<p>Let us try this Turret&#x2014;<stage>(they unlock the door)</stage>
+								What's here? a fellow fast asleep!&#x2014;this must be he, seize him
+								and carry him off.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(who wakes and comes out somewhat intoxicated)</stage>
+							<p>Lord bless me, what a dream I've had&#x2014;stand off an I'll tell
+								you&#x2014;I thought a damn'd ill-looking fellow&#x2014;very like
+									you&#x2014;<stage>(to one of the Alguazils)</stage> came and
+								seized me by the throttle <stage>(the Alguazil seizes him)</stage>
+								something that way but not quite so hard, and told me I should be
+								hanged&#x2014;</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>1<hi rend="sup">st</hi> Alguazil</speaker>
+							<p>So you shall be hang'd, you reprobate.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>My dream's out&#x2014;isn't that comical?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>2<hi rend="sup">nd</hi> Alguazil</speaker>
+							<p>Come along. You might well dream of hanging, after the murder you've
+								committed.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p> Murder?&#x2014;Let me recollect&#x2014;No&#x2014;I don't think I
+								ever committed murder.</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>1<hi rend="sup">st</hi> Alguazil</speaker>
+							<p>Yes, but you have&#x2014;no later than yesterday evening, and we've
+								come to take you before the Corigidore.</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(in afright)</stage>
+							<p>Do you mean me?&#x2014;pon my Soul <pb n="11"/> gentlemen, I never
+								was guilty of murder in all my life&#x2014;its one of the things I
+								never meddle with. I'm the most harmless man in Murcia&#x2014;never
+								committed Manslaughter or Suicide, except once upon a Pig&#x2014;and
+								I'll tell <del><hi rend="strikethrough">you</hi></del> you how that
+								happened</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>1<hi rend="sup">st</hi> Alguazil</speaker>
+							<p>Hold your Tongue, you Heretic, and come along. </p>
+						</sp>
+						<stage>(they drag him off)</stage>
+
+						<stage>(Enter the Gipsey Prince &amp; Antonia)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>By the noise, they must have been here&#x2014;and, see! the Turret is
+								opened. Now, on my knees I intreat you, determine something, or we
+								are ruined.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Oh! that I could determine.</p>
+						</sp>
+
+						<anchor xml:id="song17"/>
+
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>'Tis death for me to stay, 'tis more than death to fly, while you
+								remain behind&#x2014;but will you, can you be the partner of a
+								wanderer?</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>I shudder at the thought. Oh! do not urge me&#x2014;go save yourself,
+								and sometimes think of me.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>No, let them come&#x2014;'tis sweeter thus to&#x2014;</p>
+						</sp>
+						<stage>(going to embrace her&#x2014;some of the Officers rush in)</stage>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Oh! Heavens&#x2014;here they are!&#x2014;</p>
+						</sp>
+
+						<pb n="12"/>
+						<sp who="#off">
+							<speaker>Officer</speaker>
+							<p>That is the Gipsey Prince.</p>
+						</sp>
+						<sp who="#off">
+							<speaker>2nd Officer</speaker>
+							<p>And this is his protectress&#x2014;force her from him.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Stand off&#x2014;as long as there is a Pulse in this heart not one of
+								you shall dare to seperate us&#x2014;look up, Antonia.</p>
+						</sp>
+						<sp who="#ant">
+							<speaker>Antonia</speaker>
+							<p>Yes&#x2014;tho' I could not in life, at least I will follow you in
+								death</p>
+						</sp>
+						<sp who="#off">
+							<speaker>Officer</speaker>
+							<p>And do you mean to resist going along with us?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>No she revives. I am now at your disposal.</p>
+						</sp>
+						<stage>(Officers put Chains on his hands)</stage>
+						<sp who="#off">
+							<speaker>2nd Officer</speaker>
+							<p>The lady must with us too </p>
+						</sp>
+						<stage>(offering to put Chains on her)</stage>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>What!&#x2014;are you chaining her hands? Cowards! Put all your
+								fetters here <stage>(Shewing his own)</stage> You need not dread
+								resistance from her&#x2014;Come, Antonia&#x2014;Lead on.</p>
+						</sp>
+						<stage>(Exeunt)</stage>
+					</div>
+
+					<div type="scene">
+						<stage>Scene 2. The Tribunal</stage>
+						<stage>Don Dominick, Don Roderick, a Secretary. Guards attending with Rincon
+							Prisoner&#x2014;and Gipsies in fetters behind&#x2014;Discover'd.</stage>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<stage>(to an Alguazil)</stage>
+							<p>In the Rue Larga did you say?</p>
+						</sp>
+						<sp who="#alg">
+							<speaker>Alguazil</speaker>
+							<p>Yes, your excellency.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>By our Lady, the description agrees with my garden,
+								perfectly&#x2014;but that's impossible!</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<stage>(to Rincon)</stage>
+							<p>Well, Sir, you know the Offence for which you are brought here.</p>
+						</sp>
+						<pb n="13"/>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Not I, 'pon my Soul. &#x2014;I say it in pure sobriety&#x2014;I was
+								to be sure a little bewilder'd with the bottle&#x2014;but there is
+								nothing like Alguazils for bringing a man to his senses, or indeed,
+								frightening him out of them</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Wasn't one of your gipsies seen to go into that Garden with you?</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>No, my lord, as I hope to be&#x2014;yet stay&#x2014;there did some
+								little black thing creep in after me&#x2014;but I assure you, the
+								devil, black as it was, did not tempt me to any thing.</p>
+						</sp>
+						<sp who="#pop">
+							<speaker>Poppee</speaker>
+							<stage>(running to him from among the Gipsies)</stage>
+							<p>Ha!&#x2014;you call 'um devil, and you not member you want to kiss
+								devil plenty, eh?&#x2014;take dat, man</p>
+						</sp>
+						<stage>(Slaps his face)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>Hey day!&#x2014;my little Proserpine, between gown and Petticoat, I
+								am in a pretty pucker.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>To the point, Sir&#x2014;Your rescue of the Jew from our
+								Officer&#x2014;</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>[word inked out] Phew!&#x2014;<stage>(whistles and dances
+									about)</stage> I have it now&#x2014;I have it&#x2014;my friend
+								in the Turret&#x2014;my friend in the Turret! <sic>damme</sic>, the
+								wine washed it all out of my head. I'll tell your
+								lordship&#x2014;Here's meddling for me&#x2014;</p>
+						</sp>
+						<stage>(Enter a Messenger)</stage>
+						<sp who="#mes">
+							<speaker>Messenger</speaker>
+							<p>My Lord, the Gipsey is caught at last&#x2014;the other party of
+								Officers has found him, and the Lady who <pb n="14"/> concealed him.
+								They are Prisoners without.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Bring in the Gipsey&#x2014;let the Lady wait. </p>
+						</sp>
+						<stage>(Exit Messenger)</stage>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<p>There now&#x2014;business taken out of my hands again. Oh! if my head
+								did not swim so often, what a man I'd be!&#x2014;I'll tell you all,
+								my Lord&#x2014;</p>
+						</sp>
+						<stage>(Re Enter Messenger with the Gipsey Prince fettered and
+							Guarded)</stage>
+						<sp>
+							<speaker>Don Dominic</speaker>
+							<stage>(Starts up on seeing him, and continues to look at him with
+								earnestness.)</stage>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Whatever punishment this Court prepares for me, I pray you only that
+								it may be speedy, and for the Lady, whose humanity gave me an
+								asylum, you cannot be so cruel as to injure her. &#x2014;If she has
+								erred in protecting a Criminal, humanity even in it's errors, is
+								amiable; and&#x2014;</p>
+						</sp>
+						<sp who="#rin">
+							<speaker>Rincon</speaker>
+							<stage>(interrupting him)</stage>
+							<p>Humanity! Oh, Lord! my Lord, <gap extent="5/6" unit="words"
+									reason="illegible"/><note type="editorial">[five or six words
+									inked out]</note> the fellow was so humane as to be near cutting
+								my throat about half an hour ago.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<stage>(Still gazing with earnestness)</stage>
+							<p>His features!&#x2014;Voice!&#x2014;that Eastern dress, every thing
+								confirms me&#x2014;Young Stranger, be not surprised at my questions
+								- <pb n="15"/> Where is your birthplace?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>I know not.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Where have you passed your life?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>It's younger days in 'Ava.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominick</speaker>
+							<stage>(aside)</stage>
+							<p>I cannot contain myself. Who were your Parents?</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>I never yet could learn&#x2014;the earliest guardian I can remember,
+								and <gap extent="1" unit="words" reason="illegible"/><note
+									type="editorial">[word inked out]</note> him I too soon lost,
+								was a Spanish Monk, who called himself my Uncle. His
+								name&#x2014;</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Alvarez&#x2014;Yes&#x2014;<stage>(Embracing him)</stage> You
+								are&#x2014;you are my Sebastian&#x2014;my long-lost darling Son.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>My Father!&#x2014;And I, a criminal before him!</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p> No, no&#x2014;knock off his Chain. You are innocent of
+								murder&#x2014;the Man whom you wounded but slightly is
+								recovered&#x2014;and now&#x2014;congratulate me Roderick,
+								congratulate me, all. This is my boy&#x2014;my Sebastian&#x2014;is
+								he not a fine fellow, Roderick?</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>Oh! very well, indeed! <stage>(aside)</stage> for a Vagabond.</p>
+						</sp>
+						<sp who="#gp">
+							<speaker>Gipsy Prince</speaker>
+							<p>Father! I cannot shew half my happiness, while there is one dear wish
+								of my heart left ungratified&#x2014;this day gives me a
+								Parent&#x2014;but&#x2014;there is another tie&#x2014;The
+								Lady&#x2014;</p>
+						</sp>
+						<stage>(Antonia is brought in)</stage>
+						<pb n="16"/>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<stage>(Staring and rubbing his eyes)</stage>
+							<p>By all that's miraculous&#x2014;it's my Niece.</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<p>Antonia! why this is as it should be.</p>
+						</sp>
+						<sp who="#dr">
+							<speaker>Don Roderic</speaker>
+							<p>So&#x2014;this is your bird in the Turret, Miss?&#x2014;a fine
+								Cock-canary indeed!&#x2014;You Jade to [word inked out] go shelter a
+								Heretic, a&#x2014;</p>
+						</sp>
+						<sp who="#dd">
+							<speaker>Don Dominic</speaker>
+							<stage>(clapping his hand on his mouth)</stage>
+							<p>Stop, Roderick, he is now my Son, and your Niece may assist us to
+								convert him. </p>
+						</sp>
+
+						<anchor xml:id="song18"/>
+
+						<stage>The End </stage>
+					</div>
+
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
