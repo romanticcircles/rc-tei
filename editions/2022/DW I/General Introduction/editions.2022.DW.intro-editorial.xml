@@ -1,0 +1,580 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!--  CHANGE TITLE, AUTHOR NAME, AND EDITOR NAME(S)  -->
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">"A Romantic Circles Electronic Edition"</title>
+                <!-- Subtitle will change based on site section; 
+for Editions, "A Romantic Circles Electronic Edition" 
+for Praxis, "A Romantic Circles Praxis Volume" 
+for Pedagogies, "A Romantic Circles Pedagogies Commons Volume" -->
+                <title level="a">Editorial Philosophies and Guidelines</title>
+                <!-- If author is a contemporary critic (secondary) -->
+                <author role="secondary">
+                    <name>Michelle Levy</name>
+                    <name>Nicholas Mason</name>
+                    <name>Paul Westover</name>
+                </author>
+                <!-- Remove the above if not contemporary author -->
+                <editor role="editor">VOLUME/EDITION EDITOR(S)
+                    <name>Michelle Levy</name>
+                    <name>Nicholas Mason</name>
+                    <name>Paul Westover</name></editor>
+                <!-- Repeat the above line in the case of multiple editors -->
+                <!-- If external funding was used in production, include the following section -->
+                <funder>Brigham Young University</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+                
+                <!-- Remove above "funder" section if not relevant -->
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <!-- In the following, keep only the relevant section editor(s) -->
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <!-- Choose section editor from above -->
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                        or disseminated in any manner without authorization unless it is for
+                        purposes of criticism, comment, news reporting, teaching, and/or classroom
+                        use as provided by the Copyright Act of 1976, as amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                        are copyrighted by the author/editor and may be shared only in accordance
+                        with the Fair Use provisions of U.S. copyright law. Except as expressly
+                        permitted by this statement, redistribution or republication in any medium
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following
+                        conditions: <list>
+                            <item>These texts and images may not be used for any commercial purpose
+                                without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any forms
+                                other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order to mount
+                        them on their own servers. It is not in our interest or that of our users to
+                        have uncontrolled subsets of our holdings available elsewhere on the
+                        Internet. We make corrections and additions to our edited resources on a
+                        continual basis, and we want the most current text to be the only one
+                        generally available to all Internet users. Institutions can, of course, make
+                        a link to the copies at Romantic Circles, subject to our conditions of
+                        use.</p>
+                </availability>
+                <!-- CHANGE IDNO; ENSURE THAT THE "EDITION" LINE EXACTLY MATCHES THE FILE NAME -->
+                <idno type="edition">editions.2022.DW.intro-editorial</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Editorial Philosophies and Guidelines</title>
+                        <ptr target="SECTION/VOL-ABBREV/SECTION.YEAR.VOL-ABBREV.AUTHORLAST.html"/>
+                    </analytic>
+                    <!-- CHANGE TITLES -->
+                    <monogr>
+                        <title level="m">Dorothy Wordsworth's Lake District</title>
+                        <title level="s">Editorial Philosophies and Guidelines</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, University of
+                                Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2023-08-02">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                        keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+                    12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                    <term subtype="tags">KEYWORD</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND CHANGE THE DATE RIGHT BEFORE PUBLICATION  -->
+                <name>Emily Stephens</name>
+                <date>2023-08-02</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- End of Header -->
+    
+    
+    <text>
+        <body>
+            <div type="essay">
+                <head>Editorial Philosophies and Guidelines<lb/>
+                <title level="m"><hi rend="small">Dorothy Wordsworth&#8217;s Lake District:A Romantic Circles Electronic Edition</hi></title>
+                </head>
+                
+                <byline>
+                    <docAuthor>Paul Westover</docAuthor>
+                    <affiliation>Brigham Young University</affiliation>
+                </byline>
+                
+             <div type="section">
+                <head><span change="blue"><hi rend="small">Romantic-Era Women and the Scholarly Edition</hi></span></head>
+            
+                <p>In 1995, when &#8220;electronic edition&#8221; still had a futuristic ring and even the most
+                inclusive of syllabi were constrained by which noncanonical texts were readily
+                available in print, Marilyn Butler issued a call for scholars and publishers to
+                prioritize producing high-quality yet affordable editions of important works by
+                women. &#8220;We must have true scholarly editions of a significant body of women&#8217;s
+                writing,&#8221; she argued, &#8220;not only to grasp the internal dynamics of an individual
+                career, but to understand its group dynamics, its inter-relations with society and
+                history.&#8221; Merely reprinting an old poem, play, or novel wasn&#8217;t enough, as &#8220;we
+                mustn&#8217;t underrate how much a good edition adds to a &#8216;raw&#8217; text—far more, indeed, if
+                it&#8217;s discreetly presented than most readers retain much consciousness of.&#8221; Even a
+                rudimentary critical apparatus, Butler suggested, tends to make us take a text more
+                seriously, as there is an inherent aura to a work that comes shrouded in a &#8220;penumbra
+                of knowledge, biographical, textual, intertextual and extra-textual.&#8221;
+                    <note place="foot" resp="editors">Butler, <title level="a">Editing Women,</title> 274&#8211;75.
+                    </note>
+                </p>
+            
+                <p>Around the time of Butler&#8217;s appeal, many important new editions of Romantic women&#8217;s
+                writing did, in fact, appear in print. Since then digital publication has emerged as
+                a key avenue for publishing women&#8217;s writing of the period, with the web offering key
+                advantages over print for representing full-color, high-quality images of
+                manuscripts and also for rendering diplomatic transcriptions. In the present
+                instance, publishing on Romantic Circles offers a stable, open-access, and
+                peer-reviewed platform that adheres to the editorial standards of the best print
+                series while also facilitating web-specific features like hypertext links and
+                high-resolution galleries of illustrations and manuscript pages.
+                </p>
+            
+                <p>Whether publishing in print or online, editors of Romantic-era women writers face
+                particular challenges. Researchers studying most women writers lack the trove of
+                archived manuscripts, letters, and notebooks that have been used to make modern
+                editions of male Romantic writers the gold standard for exhaustively researched,
+                copiously annotated, theoretically informed, and editorially inventive critical
+                texts. Thus, while the trailblazing textual scholarship of Romanticists like Neil
+                Fraistat, Jerome McGann, Donald Reiman, Charles Robinson, and Jack Stillinger has
+                reinvigorated the field of scholarly editing, their weighty volumes have sometimes
+                left editors of the period&#8217;s women writers uncertain how to follow suit.
+                    <note place="foot" resp="editors">Other influential modern editors of the 
+                        male Romantics include contributors to the monumental Cornell edition 
+                        of WW, the Princeton edition of Coleridge, and the 
+                        <title level="m">William Blake Archive</title>.
+                    </note> 
+                As Daniel Robinson has observed in relation to his own edition of the writing of Mary
+                Robinson, &#8220;the relationship of the previously neglected woman writer to the canon may 
+                be forever tenuous due to the nature of the archive, and this determines the work an 
+                editor can do. The quality of an edition, therefore, is contingent upon, in effect, 
+                the quality of the archive.&#8221;
+                    <note place="foot" resp="editors">Robinson, &#8220;Mary Robinson&#8217;s Poetry,&#8221; 53.</note> 
+                For many women of the period, the archive consists mainly or exclusively of print editions.
+                Therefore, with a few notable exceptions, those producing editions of women Romantic
+                writers lack primary resources. This is true even for those working on writers like
+                the prolific Ann Radcliffe or ultra-canonical Jane Austen, for whom we have only one
+                manuscript fragment from her six printed novels.
+                </p>
+             </div>
+                
+             <div type="section">
+                <head><span change="blue"><hi rend="small">From &#8220;The Poet&#8217;s Sister&#8221; to Major Author</hi></span></head>
+            
+                <p>With Dorothy Wordsworth, however, the opposite is true. She is a writer who published
+                little in her lifetime, especially under her own name, but who left behind a wealth
+                of manuscripts. Several of her works survive in multiple manuscript versions, almost
+                all of which are conveniently archived at the Wordsworth Trust and, since 2012,
+                available digitally through Adam Matthew&#8217;s <title level="m">Romanticism: Life,
+                iterature, and Landscape</title> database. Moreover, unlike most of her female
+                contemporaries&#8217;, Dorothy&#8217;s writing has, since the Victorian age, have been admired,
+                edited, and even re-edited by a series of leading scholars.
+                </p>
+            
+                <p>Four years before Dorothy&#8217;s death, excerpts from her
+                <title level="m">Grasmere Journals</title> first appeared under
+                her name in <title level="m">Memoirs of William Wordsworth</title>, the biography her
+                nephew Christopher Wordsworth Jr. published in the wake of the poet&#8217;s death.
+                Twenty-three years later, Principal J. C. Shairp&#8217;s 1874 edition of her 
+                <title level="m">Recollections of a Tour Made in Scotland A.D. 1803</title> proved so
+                popular that it went into a third edition within a year. Then, in 1889, the
+                preeminent Wordsworthian of late-Victorian England, William Knight, published the
+                most extensive selections from Dorothy&#8217;s Alfoxden, Hamburg, and Grasmere journals to
+                date in his eleven-volume <title level="m">Life of William Wordsworth</title> (1889).
+                Knight soon republished these excerpts, along with several more from her travel
+                narratives and &#8220;mountain rambles,&#8221; in his landmark two-volume 
+                <title level="m">Journals of Dorothy Wordsworth</title> (1897). This was the standard Dorothy
+                Wordsworth edition until 1941, when Ernest de Sélincourt, the great Wordsworth
+                editor of the early twentieth century, released his own two-volume edition of her
+                journals. (De Sélincourt, like Knight before him, began by working on William&#8217;s
+                writings but soon became one of Dorothy&#8217;s champions.) Although only minimally
+                contextualized and annotated, and devoid of any detailed analysis of conflicting
+                versions and other textual concerns, De Sélincourt&#8217;s <title level="m">Journals of
+                Dorothy Wordsworth</title> remains in many respects the closest thing to a proper
+                scholarly edition of Dorothy&#8217;s prose works.
+                </p>
+            
+                <p>Another breakthrough moment for the study of Dorothy Wordsworth, and arguably for
+                Romantic women writers more broadly, came in 1974, when the Romanticism section in
+                the third edition of the <title level="m">Norton Anthology of English
+                Literature</title>, edited by M. H. Abrams, admitted her into what had previously
+                been an all-male club. Yet, even while introducing excerpts from the 
+                <title level="m">Grasmere Journals</title>, the anthology signaled that Dorothy&#8217;s
+                inclusion had less to do with the intrinsic merits of her writing than with the
+                light they shed on the domestic and writing life of her famous poet-brother.
+                    <note place="foot" resp="editors"> This enduring sense of DW&#8217;s writings being 
+                        more useful as secondary than primary sources partly explains the early, 
+                        persistent, and, at times, exclusive focus on those passages from her 
+                        <title level="m">Grasmere Journals</title> that capture peak moments in 
+                        WW&#8217;s and Coleridge&#8217;s poetic careers.
+                    </note> 
+                 Of course, the <title level="m">Norton Anthology</title> was hardly the first to treat 
+                 her journals as, above all, a study aid for the masterpieces composed by men of the 
+                 &#8220;Wordsworth circle.&#8221; Knight, for instance, notoriously justified abridging her journals 
+                 by explaining that they &#8220;contain numerous trivial details&#8221; and contending, &#8220;there is no 
+                 need to record all the cases in which the sister wrote, &#8216;Today I mended William&#8217;s shirts,&#8217; 
+                 or &#8216;William gathered sticks,&#8217; or &#8216;I went in search of eggs,&#8217; etc. etc.&#8221; He preferred 
+                 passages that would cast &#8220;a flood of light on the circumstances under which her brother&#8217;s
+                 poems were composed.&#8221;
+                    <note place="foot" resp="editors"><title level="m">KJ</title>, 1:vii&#8211;viii, x.</note> 
+                 And while De Sélincourt was well ahead of his time when he declared that &#8220;Dorothy Wordsworth is
+                 probably the most remarkable and the most distinguished of English writers who never
+                 wrote a line for the general public,&#8221;
+                    <note place="foot" resp="editors"><title level="m">DWJ</title>, 1:v.</note>
+                the critical apparatus to his edition of her journals perpetuated the tradition of
+                placing heaviest emphasis on moments when her writings might illuminate William&#8217;s
+                life and works. Furthermore, his claim that Dorothy never wrote for the public
+                demands some scrutiny, for although she rarely wrote with publication directly in
+                view, she knew that much of what she wrote would be absorbed by William and
+                published by him.
+                </p>
+            
+                 <p>With the late twentieth-century feminist turn in literary studies, however, scholars
+                began to be newly attuned to Dorothy&#8217;s distinctive gifts, and to the audience that
+                her writing garnered, even in her lifetime. Susan Levin&#8217;s <title level="m">Dorothy
+                ordsworth and Romanticism</title> (1987) was a breakthrough moment in this
+                respect, as it at once made a persuasive case for revaluing Dorothy&#8217;s life and work
+                and, in its latter half, offered the first anthology of her poems. Likewise,
+                successive Oxford World&#8217;s Classics versions of <title level="m">The Grasmere and
+                Alfoxden Journals</title>, beginning with Helen Darbishire&#8217;s pocket-sized edition
+                of 1958 and culminating in Pamela Woof&#8217;s masterful edition of 2001, treated
+                Dorothy&#8217;s diaries as &#8220;classics&#8221; worthy of meticulous presentation and generous
+                annotation. When the 2001 edition appeared, Nicola Trott rightfully celebrated how
+                Woof &#8220;establishes the full independence of Dorothy Wordsworth as a writer&#8221; and
+                &#8220;makes it abundantly clear that Dorothy&#8217;s writing was not merely fodder for his
+                [William&#8217;s] own, nor indeed was it about him, except in so far as he entered a
+                narrative already crowded with incident and observation.&#8221;
+                    <note place="foot" resp="editors"> Trott, &#8220;Review,&#8221; 213.</note>
+                 </p>
+             </div>
+                
+             <div type="section">
+                <head><span change="blue"><hi rend="small">The Digital Dorothy Wordsworth</hi></span></head>
+            
+                 <p>As in Woof&#8217;s edition, Dorothy is the undisputed protagonist of this Romantic Circles
+                electronic edition of her writings on the Lake District. To a degree matched only by
+                Levin&#8217;s 2009 Longman Cultural Edition, our 
+                <ref target="/editions/DW/editions.2022.DW.contents.html">table of contents</ref> strays
+                from the beaten path in including a range of lesser-known and even previously
+                unpublished works demonstrating her abilities in multiple genres and stages of life.
+                Moreover, excepting Woof, no previous editors have contextualized and annotated
+                Dorothy&#8217;s works as thoroughly as we have here, and we pay unprecedented attention to
+                the material forms of her texts and what they can teach us about the nature of her
+                writing process, literary sociability, and intended audiences.
+                 </p>
+            
+                 <p>At a moment of belt-tightening in academic publishing in the humanities, a 
+                 scholarly edition with this level of breadth and detail is increasingly 
+                 imaginable only in the digital realm, where editors face fewer 
+                 constraints in matters of length, layout, and illustration. Since the 
+                 earliest online editions appeared in the mid-1990s, the best examples 
+                 of the genre have appreciated and capitalized on the distinctive advantages 
+                 of this new medium. As a case in point, the digital version of Charles Robinson&#8217;s 
+                 <ref target="http://shelleygodwinarchive.org/contents/frankenstein/">
+                 <title level="m">Frankenstein</title> Notebooks</ref> published two decades ago 
+                 in the Shelley-Godwin Archive remains an essential resource. On a platform 
+                 available to anyone with an internet connection, it offers high-resolution 
+                 images of Mary Shelley&#8217;s manuscripts and scrupulous transcriptions, which 
+                 combine to present the material contexts of this novel&#8217;s production and 
+                 circulation in an entirely new light. Similarly, the
+                 <ref target="https://www.edickinson.org/">Emily Dickinson Archive</ref> 
+                 deploys digital tools to re-present Emily Dickinson, a manuscript writer 
+                 whose poetry has consistently been distorted by print mediations.
+                 </p>
+            
+                 <p>Following in the footsteps of leading digital editors, we have designed 
+                 this edition to showcase the challenges of rendering Dorothy&#8217;s manuscripts 
+                 into typographic characters. Thanks to the Wordsworth Trust&#8217;s generosity, 
+                 we provide dozens of scans of the original manuscripts, providing many 
+                 opportunities to compare them to our transcriptions. As the digitized pages 
+                 from her notebooks make readily apparent, Dorothy often wrote to the moment, 
+                 particularly when journaling, and did not always come back to revise or create 
+                 fair copies. When necessary, she wrote in a neat, legible hand; otherwise, as 
+                 readers of her letters know, she usually preferred to apologize for her 
+                 &#8220;bad habit of scrawling&#8221; rather than labor over every word.
+                     <note place="foot" resp="editors"><title level="m">Letters</title>,
+                         4:293&#8211;94.
+                     </note> 
+                 Consequently, merely transcribing some of her more private texts, like her 
+                 <ref target="/editions/DW/editions.2022.DW.RJ-1-intro.html">Rydal
+                 Journals</ref>, presents countless editorial dilemmas.
+                 </p>
+            
+                 <p>Dorothy&#8217;s poems pose different challenges, as many survive in multiple 
+                 drafts that are rife with variants. Since she published only a handful 
+                 of these poems and did not regularly identify or collect final versions, 
+                 no one manuscript can be said to have authority over another. Still 
+                 other texts, like <ref target="/editions/DW/editions.2022.DW.Greens-intro.html">
+                 &#8220;A Narrative Concerning George &amp; Sarah Green&#8221;</ref> and 
+                 <ref target="/editions/DW/editions.2022.DW.Ulls-intro.html">&#8220;Excursion on the Banks of
+                 Ullswater&#8221;</ref>, survive in multiple copies made for various purposes and audiences, 
+                 some with substantial corrections and revisions.
+                 </p>
+            
+                 <p>Given such variations, we have been ecumenical in our editorial approach. As detailed
+                in our introductions to specific sections, we have tried to tailor our digital
+                presentation and editorial methodology to the distinctive features of individual
+                texts and manuscripts. For instance, recognizing the challenges of engaging with the
+                fragmentary and allusive <title level="m">Rydal Journals</title> without a familiarity
+                     with Dorothy&#8217;s world ca. 1825&#8211;1835, we supplement our transcriptions with detailed
+                contextual introductions, indexes of key people and places, and hundreds of
+                hyperlinked endnotes. In contrast, with Woof and others having already thoroughly
+                annotated the <title level="m">Grasmere Journals</title>, we instead opt to provide a
+                diplomatic transcription of the first of the four notebooks, emphasizing Dorothy&#8217;s
+                revisions and the manuscript&#8217;s physical characteristics. And for her Lakeland
+                &#8220;excursions,&#8221; we include interactive maps and dozens of illustrations to create a
+                stronger sense of geography and material circumstances. In sum, we trust that
+                editorial flexibility reflects Dorothy Wordsworth&#8217;s own flexibility and variety as a
+                writer.
+                 </p>
+            
+                 <p>Just as we have tried to adopt best practices from earlier digital editions, we have
+                followed the lead of pioneering editors of women&#8217;s writing in questioning the
+                conventional belief that, as W. W. Greg put it in 1954, the editor&#8217;s task is &#8220;to
+                present the text, so far as the available evidence permits, in the form in which we
+                may suppose that it would have stood in a fair copy, made by the author himself, of
+                the work as he finally intended it.&#8221;
+                    <note place="foot" resp="editors">Greg, Editorial Problem, x.</note>
+                Authorial intention is a notoriously vexed subject in critical theory—&#8220;final
+                intention&#8221; perhaps even more so, not least because it depends on the often shaky
+                assumption that &#8220;final&#8221; versions exist. Further, as McGann has argued, this
+                traditional focus on final intentions rests upon notions of &#8220;the autonomy of the
+                isolated author,&#8221; an arguably masculine construction that &#8220;has the effect of
+                desocializing our historical view of the literary work.&#8221;
+                     <note place="foot" resp="editors">McGann, <title level="m">Critique</title>, 8, 121.</note> 
+                And Dorothy is an exemplary
+                social writer, frequently customizing her texts for different readers and occasions
+                and often writing in close collaboration with others. She frequently customized her
+                texts for different readers and occasions and tended to leave multiple versions of
+                texts side by side in her notebooks, making it all but impossible in many cases to
+                determine her &#8220;final intentions.&#8221; The same facts also make it impossible to adopt
+                the tenets of an opposing philosophy of textual editing—one perhaps most famously
+                embraced by the Cornell Wordsworth editors—that consistently privileges the earliest
+                completed version. Even where the sequence of versions can be reconstructed in
+                Dorothy&#8217;s notebooks&#8212;and usually it cannot&#8212;it is impossible to say that one version
+                is better, more authoritative, or more important than another.
+                 </p>
+            
+                 <p>Fortunately, the nature of this digital edition allows us in several cases to offer
+                multiple versions of a text, leaving readers to interpret each on its own terms. In
+                such instances, we apply principles from the modern &#8220;versioning&#8221; school of textual
+                editing, which has perhaps been most effectively modeled by editors such as Mays and
+                Stillinger, who have taken pains to reproduce multiple versions of poems by
+                Coleridge and Keats. As Amy Culley and Anna F. Fitzer have suggested, this approach
+                treats writing &#8220;as a collaborative and social product&#8221; and discerning authorial
+                intent as &#8220;just one in a sequence of textual negotiations.&#8221;
+                     <note place="foot" resp="editors"> Culley and Fitzer, 
+                         <title level="a">Introduction: Editing Women&#8217;s Writing,</title> 7.
+                     </note> 
+                In its attempts to foreground the material, social, and geographical contexts of
+                Dorothy&#8217;s writing, this edition also adopts key tenets of &#8220;the new textualism.&#8221; This
+                approach, as described by Ann Hollinshead Hurley and Chanita Goodblatt, &#8220;focuses on
+                the material properties of the manuscript or book, its print or performance history,
+                and records of its dissemination.&#8221;
+                     <note place="foot" resp="editors"> Hurley and Goodblatt, <title level="a">Preface,</title> xi.</note>
+                Such an approach is necessary given the sociable contexts in which Dorothy wrote and
+                circulated her writing.
+                 </p>
+             </div>
+                
+             <div type="section">
+                <head><span change="blue"><hi rend="small">General Editorial Practices</hi></span></head>
+            
+                 <p>While our editorial approach may vary from text to text, all sections of this edition
+                adhere to the following practices:
+                 </p>
+            <list rend="unordered">
+                <item><hi rend="bold">References to the author</hi>:We default
+                    to the somewhat familiar &#8220;Dorothy&#8221; as an imperfect alternative to the
+                    potentially confusing &#8220;Wordsworth&#8221; (which still tends to connote the brother) or
+                    the clumsy repetition of both writers&#8217; first and last names. Likewise, where
+                    William Wordsworth appears in our apparatus, he becomes &#8220;William.&#8221; For the sake
+                    of brevity, our endnotes use initials for Dorothy (DW), William (WW), and Mary
+                    Wordsworth (MW), Sara Hutchinson (SH), and Samuel Taylor Coleridge (STC).
+                    Endnotes reference William and Mary&#8217;s three surviving children (John, Dora, and
+                    Willy) by first names only (see the list of <ref>Abbreviations of Commonly 
+                    Used Names</ref><!--link to where this is-->).
+                </item>
+            
+                <item><hi rend="bold">References to the region</hi>:To avoid
+                    overusing any one toponym, we use &#8220;the Lakes,&#8221; &#8220;the Lake District,&#8221; &#8220;Lakeland,&#8221;
+                    and &#8220;Cumbria&#8221; interchangeably. In doing so, we are cognizant that the
+                    Wordsworths would have considered themselves residents of &#8220;the Lakes&#8221; and
+                    Westmorland but perhaps not of &#8220;the Lake District&#8221; (which, first gaining
+                    traction in the 1820s, would have seemed a neologism) or &#8220;Cumbria&#8221; (which had
+                    grown archaic). These latter labels became normative only in the latter half of
+                    the twentieth century, after the formations of the &#8220;Lake District National Park&#8221;
+                    in 1951 and County of Cumbria (encompassing the traditional counties of
+                    Westmoreland and Cumberland and slivers of Lancashire and Yorkshire) in 1974.
+                    <note place="foot" resp="editors"> Note, however, that the popularity of 
+                        the &#8220;Lake District,&#8221; both as a concept and as a toponym, was probably 
+                        helped along by William Wordsworth&#8217;s <title level="m">Guide to the Lakes</title>, 
+                        which from its 1835 edition forward had &#8220;District of the Lakes&#8221; in its title.
+                    </note>
+                </item>
+            
+                <item><hi rend="bold">Spelling and punctuation</hi>:All
+                    transcriptions strive to replicate Dorothy&#8217;s spelling and punctuation precisely.
+                    When unconventional, inaccurate, or omitted punctuation in the manuscript might
+                    produce confusion, we provide punctuation marks inside editorial brackets (e.g.,
+                    [,]). While our reading texts preserve Dorothy&#8217;s variant or archaic renderings
+                    of place names (e.g., &#8220;Ulswater&#8221; and &#8220;Scawfell&#8221;), our editorial apparatus
+                    generally privileges modern spellings (e.g., &#8220;Ullswater&#8221; and &#8220;Scafell&#8221;).
+                </item>
+            
+                <item><hi rend="bold">Citations</hi>:As per general Romantic
+                    Circles guidelines, all citations follow the short-form rules dictated in the
+                    <title level="m">Chicago Manual of Style</title> (17th
+                    edition). See also our list of <ref>Abbreviations for
+                    Commonly Used Sources.</ref><!--link to where this is-->
+                </item>
+            
+                <item><hi rend="bold">Titles</hi>:When Dorothy provided a
+                    title for a text, we reproduce it. In many cases, however, she saw no need for
+                    titles. For her unnamed poems, we have resisted the urge to offer standardized
+                    titles, adopting instead the first line and placing it within brackets. For her
+                    journals, also untitled, for ease of reference we use names commonly used by
+                    scholars—that is, <title level="m">Grasmere Journals</title> and 
+                    <title level="m">Rydal Journals</title>. This practice adheres to the norm of formatting
+                    references to posthumously constructed texts (e.g.,
+                    <title level="m">The Prelude</title> of 1805) identically to
+                    those for lifetime editions (e.g.,
+                    <title level="m">Lyrical Ballads</title> of 1798). But when
+                    referring to the physical manuscripts or to specific journal entries we use the
+                    term &#8220;Grasmere journal notebooks&#8221; in acknowledgement of the fact that DW never
+                    appears to have considered the four notebooks now known as the 
+                    <title level="m">Grasmere Journals</title> a unified work. The fact that many teaching editions
+                    extract her Grasmere entries from notebooks that also contain other materials
+                    reminds us that &#8220;journals&#8221; are not necessarily identical with the manuscripts in
+                    which they are found. Especially when referencing these early journals, then, we
+                    attempt to distinguish between the text and its material instantiation on paper.
+                </item>
+                
+                <item>For Dorothy&#8217;s two &#8220;excursion&#8221; narratives, we adopt titles supplied for them in
+                    William&#8217;s <title level="m">Guide to the Lakes</title> and retained by later
+                    editors, as these serviceably describe their contents.
+                </item>
+            </list>
+             </div>
+            </div>
+        </body>
+    </text>
+</TEI>
