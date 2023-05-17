@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <title level="m">[3] [Version A]
+                </title>
+                
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <author role="secondary">
+                    <name>Michelle Levy</name>
+                </author>
+                
+                <editor role="editor">Michelle Levy</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <idno type="edition">editions.2022.DW.Poems-3</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="m" type="main">[3] [Version A]
+                        </title>
+                        <ptr target="editions/DW/editions.2022.DW.Poems-3"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">charity</term>
+                    <term subtype="tags">childhood</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-11-9</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="paratext">
+                <span change="blue"><hi rend="underline">[Page 15v]</hi></span>
+            </div>
+            
+            <div type="poetry">
+                <head>[3] Irregular Stanzas:<lb/>
+                    Holiday at Gwerndovennant – <lb/>
+                    May 1826 [Version A]</head>
+                <lg type="stanza">
+                    <l>&#8220;You&#8217;re here for one long vernal day;</l>
+                    <l>We&#8217;ll give it all to social play</l>
+                    <l>Though forty years have roll&#8217;d away</l>
+                    <l><hi rend="indent5">Since we were young as you.</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l><hi rend="indent10"><hi rend="indent5">1</hi></hi></l>
+                    <l>Then welcome to our spacious Hall,<hi rend="sup">x</hi>
+                    </l>
+                    <l>Tom, Bessy, Mary; welcome all!</l>
+                    <l>Though removed from busy men,</l>
+                    <l>Yea, lonesome as the fox&#8217;s den</l>
+                    <l>&#8216;Tis a place for joyance fit</l>
+                    <l>For frolic games, and inborn wit.</l>
+                    <l>&#8220;Twas <hi rend="underline">Nature</hi> built this Hall of ours</l>
+                    <l>She shaped the banks, she framed the bowers</l>
+                    <l><hi rend="indent3">That close it all around</hi></l>
+                    <l>From her we hold our precious right</l>
+                    <l>And <del rend="strike">here</del>, <hi rend="sup">She</hi> through live-long day &amp; night</l>
+                    <l><hi rend="indent3"><del rend="strike">She rules with mildest sway</del></hi></l>
+                    <l><hi rend="indent3"><del rend="strike">She guards this ha</del></hi></l>
+                    <l>Is guardian of this happy ground.</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l><hi rend="indent10"><hi rend="indent5">2</hi></hi></l>
+                    <l>Our carpet is her verdant sod;</l>
+                    <l>A richer one was never trod</l>
+                    <l><hi rend="indent3">In princes&#8217; proud saloon,</hi></l>
+                    <l>Purple &amp; gold, &amp; spotless white,</l>
+                    <l>And quivering shade &amp; sunny light ⟨(quivering shadow⟩</l>
+                    <l><hi rend="indent10"><hi rend="indent10"><hi rend="indent10">⟨sunny light⟩</hi></hi></hi></l>
+                    <l><hi rend="indent3">Blend with the emerald green</hi></l>
+                </lg>
+            </div>
+            
+            <lb/><milestone unit="poetry"/><lb/>
+            
+            <div type="paratext">
+                    <p><hi rend="sup">x</hi>a green plot within a Dell near the Cottage</p>
+            
+            <pb/>
+                <p><span change="blue"><hi rend="underline">[Page f.16r]</hi></span></p>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">    
+                    <l><hi rend="indent10"><hi rend="indent5">3</hi></hi></l>
+                    <l>She opened for the mountain brook</l>
+                    <l>A gentle winding pebbly way</l>
+                    <l>Into this placis secret nook;</l>
+                    <l>- Its bell-like tinkling &#8212; list, you hear</l> 
+                    <l>&#8216;Tis never loud, <del rend="strike">yet</del> <hi rend="sup">yet it is</hi> <del rend="strike">always</del> clear ⟨yet it is always⟩</l>
+                    <l><hi rend="indent3">As linnet&#8217;s sing in May</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l><hi rend="indent10"><hi rend="indent5">4</hi></hi></l>
+                    <l><del rend="strike">And</del><hi rend="sup">And</hi>we have other music here;</l>
+                    <l>A thousand songsters, through the year,</l>
+                    <l>Dwell in these happy groves;</l>
+                    <l>And in this season of their loves</l>
+                    <l>They join their voices with the doves&#8217;</l>
+                    <l><hi rend="indent3">To raise a perfect harmony.&#8221;</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l><hi rend="indent10"><hi rend="5">5</hi></hi></l>
+                    <l>Thus spake I, while with sober pace</l>
+                    <l>We slipp&#8217;d into that chosen place;</l>
+                    <l>Then from the centre of our Hall</l>
+                    <l>The Young Ones gazed around;</l>
+                    <l>&#8212;And like a flock of vigorous lambs,</l>
+                    <l><del rend="strike">Leaving</del> <hi rend="sup">That leave</hi> their steady slow-paced dams</l>
+                    <l><hi rend="indent3">To gambol o&#8217;er the mead,</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza"> 
+                    <l>That innocent fraternal Troop,</l>
+                    <l>(Ere while a quiet, listening groupe)</l>
+                    <l><hi rend="indent3">Off-starting&#8212; Girl &amp; Boy &#8212;</hi></l>
+                    <l>In gamesome race, with agile Bound</l>
+                    <l>Beat <del rend="strike">o&#8217;er &amp; o&#8217;er</del><hi rend="sup">merrily,</hi>the grassy ground,</l>
+                    <l><hi rend="indent3">As if in motion perfect joy.</hi></l>
+                </lg><pb/>
+            </div>
+            
+            <div type="paratext">
+                <span change="blue"><hi rend="underline">[Page f.16v]</hi></span>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>So vanishes my idle dream</l>
+                    <l>That we through this long vernal day,</l>
+                    <l>Associates in their youthful play</l>
+                    <l>With them might travel in one stream</l>
+                    <l>&#8212; Ah, how should we, whose heads are grey?</l>
+                    <l>Light was my heart, my spirits gay</l>
+                    <l><hi rend="indent3"><del rend="strike">And idly did I dream</del></hi></l>
+                    <l><hi rend="indent3"><hi rend="sup">And pleasure was my theme.</hi></hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>But now, recalled to consciousness</l>
+                    <l>With weight of years of changed estate,</l>
+                    <l>Thought is not needed, to <del rend="strike">suppress</del><hi rend="sup"><del rend="strike">re</del></hi>⟨suppress⟩</l>
+                    <l>Those images of wild delight</l>
+                    <l>That flash&#8217;d before my dazzled sight</l>
+                    <l><hi rend="indent3">Upon that joy-devoted morn.</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>Gladly we seek the stillest nook</l>
+                    <l>Whence we may read, as in a book,</l>
+                    <l>A history of years gone by,</l>
+                    <l>Recall&#8217;d to <del rend="strike">faded</del> Memory&#8217;s<hi rend="sup">fading</hi> eye 
+                        <hi rend="sup"><del rend="strike">failing</del></hi>
+                    </l>
+                    <l>By bright reflexion from the <del rend="strike">Mirth</del><hi rendition="#smallest"><hi rendition="#sub">mirth</hi></hi></l>
+                    <l>Of youthful hearts, a second birth</l>
+                    <l><hi rend="indent3">Of our own childish days.</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>Pleasure unbidden is their Guide,</l>
+                    <l>⟨Q? Companion⟩&#8212;<hi rend="underline">Their leader</hi>&#8212;<hi rend="underline">faithful</hi> to their side</l>
+                    <l>Prompting each wayward feat of strength,</l>
+                    <l>The ambitious leap, the emulous race,</l>
+                    <l>The startling shout, the mimic chace,</l>
+                    <l>The simple half-disguisèd wile</l>
+                    <l>Detected through the fluttering smile,</l> 
+                </lg>
+                <pb/>
+            </div>
+            
+            <div type="paratext">
+                <p><span change="blue"><hi rend="underline">[Page f.17r]</hi></span></p>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>A truce to this unbridled course!</l> 
+                    <l>&#8212; We spread upon the flowery grass</l>
+                    <l>Our noon-tide meal &#8212; each Lad &amp; Lass</l>
+                    <l>Obeys the call: &#8212; we form a Round, &#8212;</l>
+                    <l>And all are seated on the ground.</l>
+                    <l><hi rend="sup">The noon-tide hour is passed away;</hi></l>
+                    <l><del rend="strike">The sun&#8217;s meridian hour is past</del></l> 
+                    <l>&#8212; Again begins the emulous race,</l>
+                    <l>Again succeeds the sportive chace</l>
+                    <l>And thus was spent that vernal day</l>
+                    <l>Till twilight check&#8217;d the noisy play:</l>
+                    <l>Then did they feel a languor spread</l>
+                    <l>Over their limbs &#8212; the beating head</l>
+                    <l>Was still&#8217;d &#8212; the busy throbbing heart,</l>
+                    <l>And silently we all depart</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>The shelter of our rustic cot</l>
+                    <l>⟨&#8212;⟩ Receives us; &amp; we envy not</l>
+                    <l>The palace or the stately dome</l>
+                    <l>But wish that all had such a home,</l>
+                    <l>Each Child repeats his nightly prayer</l>
+                    <l>That God may bless their Parents&#8217; care</l>
+                    <l>To guide them in the way of truth</l>
+                    <l>Through helpless childhood, giddy youth.</l>
+                </lg>
+                <pb/>
+            </div>
+            <div type="paratext">
+                <p><hi rend="underline"><span change="blue">[Page 17v]</span></hi></p>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>The closing hymn of chearful praise</l>
+                    <l>Doth yet again their spirits raise;</l>
+                    <l>And tis not now a thoughtless joy;</l>
+                    <l>&#8212;For tender Parents, loving Friends</l>
+                    <l>And all the gifts God&#8217;s bounty sends</l>
+                    <l><hi rend="indent3"><hi rend="underline">Feelingly</hi> do they bless his name.</hi></l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>That homage paid, the young retire</l>
+                    <l>With no unsatisfied desire:</l>
+                    <l>Theirs is one long, one steady sleep</l>
+                    <l>Till the sun, tip-toe on the Steep,</l>
+                    <l>In front of our beloved Cot,</l>
+                    <l>Casts on the walls his brightest beams:</l>
+                    <l>Within a startling lustre streams:</l>
+                    <l>They all awaken suddenly</l>
+                    <l>As at the touch of magic spell,</l>
+                    <l>Or as the Pilgrim at the Bell:</l>
+                    <l>That summons him to matin prayer.</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>And is it sorrow that they feel?</l>
+                    <l><hi rend="sup">x</hi> (Nay, call it <del rend="strike">not by such a name</del>) <hi rend="sup">by another name)</hi></l>
+                    <l><del rend="strike">The stroke of sadness that doth steal</del> <hi rend="sup"><del rend="strike">That random stroke</del></hi></l>
+                    <l><hi rend="sup"><del rend="strike">will steal</del></hi><hi rendition="#smallest"><hi rendition="#sub"><del rend="strike">The</del>⟨The⟩ random sadness that will steal</hi></hi></l>
+                    <l>With rapid motion through their hearts</l>
+                    <l>When comes the thought that yesterday</l>
+                    <l>With all it&#8217;s joys is pass&#8217;d away,</l>
+                    <l>The long-expected, happy day!</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l><hi rend="sup">x</hi>Ah! call it by another name!</l>
+                </lg><pb/>
+            </div>
+            
+            <div type="paratext">
+                <p><span change="blue"><hi rend="underline">[Page 18r]</hi></span></p>
+            </div>
+            
+            <div type="poetry">
+                <lg type="stanza">
+                    <l>An instant &#8212; and all sadness goes;</l> 
+                    <l>Nor brighter is the half-blown rose</l>
+                    <l>Than now the countenance of each child</l>
+                    <l>Whether of ardent soul, or mild.</l>
+                    <l>The hour was fixed: they are prepared</l>
+                    <l>And homeward straight they must depart;</l>
+                    <l>And, after many a brisk adieu,</l>
+                    <l>On ponies trim, &amp; fleet of limb</l>
+                    <l>Their bustling journey they pursue</l> 
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>The fair-haired, gentle, placid Maid,</l>
+                    <l>And She who is of daring mood,</l>
+                    <l>The valiant, and the <hi rend="underline">timid</hi> Boy</l>
+                    <l>Alike are rouzed to hardihood;</l>
+                    <l>And wheresoe&#8217;er the Troop appear</l>
+                    <l>They scatter smiles; a hearty cheer</l>
+                    <l>Meets them, from Old &amp; Young;</l>
+                    <l>And blessings fall from many a tongue</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>They reach the dear paternal roof;</l>
+                    <l>Nor dread a cold or stern reproof</l>
+                    <l>While they pour forth the history</l>
+                    <l>Of three days&#8217; mirth and revelry.</l>
+                    <l>Ah! Children, happy is your lot</l>
+                    <l>Still bound together in one knot</l>
+                    <l>Beneath your tender Mother&#8217;s eye!</l>
+                    <l>&#8212; Too soon these blessed days shall fly</l>
+                    <l>And brothers <del rend="strike">shall</del> <hi rend="sup">must</hi> from Sisters part.</l>
+                </lg><pb/>
+            </div>
+            
+                <div type="paratext">
+                    <p><span change="blue"><hi rend="underline">[Page f.18v]</hi></span></p>
+                </div>
+                
+                <div type="poetry">
+                <lg type="stanza">
+                    <l>And trust me, whatsoe&#8217;er your doom,</l> 
+                    <l>Whate&#8217;er betide through years to come,</l>
+                    <l>The punctual pleasures of your home</l>
+                    <l><hi rend="indent3">Shall linger in your thoughts &#8212;</hi></l>
+                    <l>More <del rend="strike">dear</del> <hi rend="sup">prized</hi> than any future hope</l>
+                    <l>Though Fancy have her freest scope&#8212;</l>
+                    <l>⟨Trust me⟩&#8212;And Ah! <hi rend="sup">Trust me</hi> too soon your hearts</l> 
+                    <l>shall own</l>
+                    <l>The <hi rend="underline">Past</hi> is all that is your own.</l>
+                </lg>
+                <lb/>
+                <lg type="stanza">
+                    <l>And each appointed festival</l>
+                    <l>Gratefully shall ye then recal</l>
+                    <l>Less for their own sakes than for this</l>
+                    <l>That each shall be a resting-place</l>
+                    <l>For memory; and divide the race</l>
+                    <l>Of childhood&#8217;s smooth and happy years,</l>
+                    <l>Thus lengthening out that term of life</l>
+                    <l>Which, governed by your Parents&#8217; <del rend="strike">care,</del> ⟨love,⟩</l>
+                    <l>Is free from sorrow and from strife.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

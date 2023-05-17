@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Wordsworth on the Greens</title>
+                               
+                <author role="primary">
+                    <name>William Wordsworth</name>
+                </author>
+                
+                <author role="secondary">
+                    <name>Michelle Levy</name>
+                </author>
+                
+                <editor role="editor">Michelle Levy</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.Greens-WW</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Wordsworth on the Greens
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.Greens-WW"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">charity</term>
+                    <term subtype="tags">childhood</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Lavender Earnest</name>
+                <date>2022-10-29</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>   
+    
+    <text>
+        <body>
+            <div type="essay">               
+                <head>William Wordsworth on the Greens</head>
+                
+                
+            <div type="section">
+                <head>1. From a letter to Francis Wrangham (17 April 1808)
+                        <note place="foot" resp="editors"><title level="m">Letters</title>, 2:213&#8211;14.</note>
+                </head>
+                
+            <p>George Green and Sarah his Wife, Inhabitants of the Vale of Grasmere, having gone to
+                Langdale on the morning of Saturday the 19th of March last, set off to return to
+                their own house a lonely Dwelling on the same eve[n]ing, intending to cross over the
+                mountain. They had left a Daughter at home, eleven years of age, with the care of
+                five other children younger than herself, the youngest an infant at the breast. On
+                Monday afternoon, one of the Boys went to the nearest house to borrow a Cloak for
+                his Sister, who (he said) was going to Langdale to seek their Father and Mother, who
+                had not returned as they had expected, on Saturday. Immediately the alarm was
+                spread, and continual search was made, as long as daylight lasted, on that day, and
+                the day following, and till Wednesday afternoon, when the Bodies of the unfortunate
+                Persons were found. It is supposed they had been bewildered by the snow and mist;
+                and they perished by falling over the rocks, they were buried in one Grave on the
+                Friday afternoon. 
+            </p>
+                
+            <p>The unhappy Fate of this Pair, and the forlorn condition in which the children are
+                left, have excited much compassion; which has been more deeply felt in their own
+                neighbourhood because the Deceased were much respected for their good morals and
+                decent manners, for their frugality and industry, and for the constant cheerfulness
+                and independence of mind, with which, without any assistance from the parish, they
+                supported their Family under the burthen of extreme poverty. This compassion has
+                naturally been accompanied with a general desire that more than ordinary exertions
+                should be made to befriend and protect the orphan children. It is therefore thought
+                proper to draw up a brief statement of the condition of the Family, for the
+                information of such persons as may be disposed to promote this benevolent design.
+                </p><pb/>
+                
+            <p>George Green had been twice married, and has left one Son and three Daughters by his
+                first wife who do not stand in need of assistance. By her who died with him, he has
+                left four Sons and four Daughters: the eldest of these, a Girl fifteen years of age,
+                is at present in Service; the second, a girl likewise, is with a Family who will
+                take care of her and fit her out, when she also is fit, for Service. One of the Boys
+                will be maintained by his Father&#8217;s eldest Son, who will breed him up to his own
+                business; so that there remain five children to be provided for.
+            </p>
+                
+            <p>The Father has left a small Estate which is deeply mortgaged, and it is probable that
+                <hi rend="italic">after it is sold,</hi> little or nothing will remain for his
+                children. The Parish have therefore agreed to allow, to each of these five children,
+                two shillings per week till they are fit to go to Service or to be apprenticed. The
+                object then of those Persons who interest themselves on this occasion, is to raise a
+                Sum to make an addition to the weekly allowance of the Parish, by means of which the
+                children may be placed in a respectable Family or Families: it is also intended to
+                send them to School, and what money remains to be employed in setting them forward
+                as Servants or Apprentices.
+            </p>
+                
+            <p>It is conceived that it will be grateful to benevolent Persons to promote a
+                subscription for the above purpose: first, as a natural tribute of human Sympathy
+                upon so melancholy an occasion; secondly, as a testimony of respect for the honesty,
+                industry, patient and even cheerful endurance of extreme poverty by which the
+                Deceased were distinguished: and lastly, and above all, that there may be a better
+                hope that the children may go forward in that course of innocence and virtue in
+                which their Parents have thus far conducted them. 
+            </p>
+         </div>
+                
+         <lb/><milestone unit="section"/><lb/>
+                
+         <div type="poetry">
+             <head>2.<title level="a">Elegiac Stanzas composed in the Churchyard of Grasmere, Westmorland, a few
+                    days after the Interment there of a Man and his Wife, Inhabitants of the Vale,
+                    who were lost upon the neighbouring Mountains, on the night of the nineteenth of
+                    March last</title> (19 April 1808)
+                 <note place="foot" resp="editors">Writing to STC two days later, WW explained the origins of this account:
+                     &#8220;Within a day or two after my return home, when my mind was easier than it has been since, in passing through the churchyard I stopped at the grave of
+                     the poor Sufferers and immediately afterwards composed the following stanzas; <hi rend="italic">composed</hi> I have said, I ought rather to have said effused,
+                     for it is the mere pouring out of my own feeling; but if you can turn these verses to any profit for the poor Orphans in any way, either by reciting, 
+                     circulating in manuscript, or publishing them, either with or without the name of the Author, pray do so&#8221; (2:219&#8211;220). DW copied this poem into 
+                     WW&#8217;s 19 April 1808 letter to STC (see n1). It remained unpublished until 1839, when De Quincey printed
+                    a substantially revised version in <title level="m">Tait&#8217;s Edinburgh Magazine</title> (see n3).</note>
+            </head>
+             
+            <lg type="stanza">
+            <l>Who weeps for Strangers? &#8211; Many wept</l>
+            <l>For George and Sarah Green; </l>
+            <l>Wept for that Pair&#8217;s unhappy end, </l>
+            <l>Whose grave may here be seen. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>By night upon these stormy Heights </l>
+            <l>Did Wife and Husband roam; </l>
+            <l>Six little-ones the Pair had left </l>
+            <l>And could not find their Home. </l>
+            </lg>
+             
+            <lg type="stanza"> 
+            <l>For any Dwelling-place of men </l>
+            <l>As vainly did they seek. &#8211; </l>
+            <l>He perish&#8217;d; and a voice was heard </l>
+            <l>The Widow&#8217;s lonely shriek. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>Down the dark precipice he fell, </l>
+            <l>And she was left alone, </l>
+            <l>Not long to think of Children dear, </l>
+            <l>Not long to pray or groan! </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>A few wild steps &#8211; she too was left </l>
+            <l>A Body without life! </l>
+            <l>The chain of but a few wild steps </l>
+            <l>To the Husband bound the Wife. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>Now lodge they in one Grave, this Grave </l>
+            <l>A House with two-fold Roof, </l>
+            <l>Two Hillocks but one Grave, their own, </l>
+            <l>A covert tempest-proof.</l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>And from all agony of mind </l>
+            <l>It keeps them safe and far; </l>
+            <l>From fear, and from all need of hope. </l>
+            <l>From sun, or guiding Star. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>Our peace is of the immortal Soul, </l>
+            <l>Our anguish is of clay; </l>
+            <l>Such bounty is in Heaven, so pass </l>
+            <l>The bitterest pangs away. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>Three days did teach the Mother&#8217;s Babe </l>
+            <l>Forgetfully to rest </l>
+            <l>In reconcilement how serene! </l>
+            <l>Upon another&#8217;s breast </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>The trouble of the elder Brood </l>
+            <l>I know not that it stay&#8217;d </l>
+            <l>So long &#8211; they seiz&#8217;d their joy, and they </l>
+            <l>Have sung, and danc&#8217;d, and play&#8217;d. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>Now do those sternly-featur’d Hills </l>
+            <l>Look gently on this Grave, </l>
+            <l>And quiet now is the depth of air </l>
+            <l>As a sea without a wave. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>But deeper lies the heart of peace </l>
+            <l>In shelter more profound; </l>
+            <l>The heart of quietness is here, </l>
+            <l>Within this Church-yard ground. </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>O Darkness of the Grave! how calm </l>
+            <l>After that living night, </l>
+            <l>That last and dreary living one</l>
+            <l>Of sorrow and affright! </l>
+            </lg>
+             
+            <lg type="stanza">
+            <l>O sacred Marriage-bed of Death </l>
+            <l>That holds them side by side. </l>
+            <l>In bond of love, in bond of God, </l>
+            <l>Which may not be untied! </l>
+            </lg>
+                    
+      </div>
+                <lb/><milestone unit="poetry"/><lb/>  
+              
+      <div type="poetry">
+                    
+          <head>3.<title level="a">Who Weeps for strangers (1839)</title>
+               <note place="foot" resp="editors">This poem, along with WW&#8217;s <title level="a">Elegiac Stanzas</title> on the Greens (see n2), first appeared in Thomas
+                   De Quincey&#8217;s <title level="a">Sketches of Life and Manners; from the Autobiography of an English Opium Eater</title> (<title level="m">Tait&#8217;s
+                   Edinburgh Magazine</title>, Sept. 1839, 573). Upon republishing this essay in his <title level="m">Recollections of the Lakes and the Lake Poets</title>,
+                   De Quincey added a lengthy account of the Greens&#8217; tragic deaths (see <ref target="/editions/dw/editions.2022.dw.greens-intro.html">introduction to this section</ref>
+                   for further details).</note>
+           </head>
+
+          <lg type="stanza">
+          <l>Who weeps for strangers? Many wept</l>
+          <l>For George and Sarah Green;</l>
+          <l>Wept for that pair&#8217;s unhappy fate,</l>
+          <l>Whose grave may here be seen.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>By night, upon these stormy fells,</l>
+          <l>Did wife and husband roam;</l>
+          <l>Six little ones at home had left,</l>
+          <l>And could not find that home.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>For <hi rend="italic">any</hi> dwelling-place of man</l>
+          <l>As vainly did they seek.</l>
+          <l><hi rend="italic">He</hi> perish&#8217;d; and a voice was heard&#8211;</l>
+          <l>The widow&#8217;s lonely shriek.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>Not many steps, and she was left</l>
+          <l>A body without life&#8211;</l>
+          <l>A few short steps were the chain that bound</l>
+          <l>The husband to the wife.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l><hi rend="italic">Now</hi> do those sternly-featured hills</l>
+          <l>Look gently on this grave;</l>
+          <l>And quiet <hi rend="italic">now</hi> are the depths of air,</l>
+          <l>As a sea without a wave.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>But deeper lies the heart of peace</l>
+          <l>In quiet more profound;</l>
+          <l>The heart of quietness is here</l>
+          <l>Within this churchyard bound.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>And from all agony of mind</l>
+          <l>It keeps them safe, and far</l>
+          <l>From fear and grief, and from all need</l>
+          <l>Of sun or guiding star.</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>O darkness of the grave! how deep,</l>
+          <l>After that living night&#8211;</l>
+          <l>That last and dreary living one</l>
+          <l>Of sorrow and affright?</l>
+          </lg>
+          
+          <lg type="stanza">
+          <l>O sacred marriage-bed of death!</l>
+          <l>That keeps them side by side</l>
+          <l>In bond of peace, in bond of love,</l>
+          <l>That may not be untied!</l>
+          </lg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

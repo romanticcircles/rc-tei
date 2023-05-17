@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Introduction to Notebook 1 of the Rydal Journals
+                    (DCMS 104.1, 11 December 1824—9 December 1825)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="secondary">
+                    <name>Nick Mason</name>
+                </author>
+                
+                <editor role="editor">Nick Mason</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.RJ1-intro</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction to Notebook 1 of the Rydal Journals
+                            (DCMS 104.1, 11 December 1824—9 December 1825)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.RJ-1-intro"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2023-01-04</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="section">
+                <head>7. Introduction to Notebook 1 of the <title level="m">Rydal Journals</title>
+                </head>
+            
+            <div type="section">
+                <head type="subhead">(DCMS 104.1, 11 December 1824&#8211;9 December 1825)
+                </head>
+            
+                <p>Contrary to the lingering notion that the <title level="m">Rydal Journals</title> 
+                (<title level="m">RJ</title>) are, above all, a chronicle of Dorothy Wordsworth&#8217;s
+                inexorable, decade-long slide into infirmity and senescence, the first nine of its
+                15 notebooks capture the tireless comings and goings of a hale and hearty
+                50-something relishing a new stage of life with fewer household duties and relative
+                financial security. At various points in 1825, the year when she completed her first
+                <title level="m">RJ</title> notebook (DCMS 104.1), Dorothy told
+                one friend, &#8220;When the air is clear I can walk nine or ten miles or more with as
+                little fatigue as ever I did in my life&#8221; and another that she could &#8220;walk as well as
+                when but twenty years old, and can climb the hills better than in those days.&#8221;
+                    <note place="foot" resp="editors">DW to
+                            Elizabeth Crump, late April 1825 (<title level="m">Letters</title>,
+                            4:339); DW to Robert Jones, 7 October 1825 (<title level="m">Letters</title>, 4:387).
+                    </note>
+                If anything, the first several volumes of the <title level="m">RJ</title> log 
+                proportionally fewer days when Dorothy was confined to a sickbed than her 
+                <title level="m">Grasmere Journal</title>
+                from a quarter-century before. Until her first major health crisis in the spring of
+                1829, only heavy rain and occasional aches and pains kept the middle-aged writer
+                from spending her days wandering the Westmorland fells and her nights socializing
+                among an ever-widening circle of friends.
+            </p>
+                
+            <p>Like her brother William and sister-in-law Mary, Dorothy grew increasingly prone to
+                wanderlust as the three surviving Wordsworth children came of age during the 1820s.
+                Just how disencumbered she had become by 1825 is suggested by a letter explaining
+                that what was supposed to be a week-long trip to see 
+                <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Cookson">the Cooksons</ref> 
+                in Kendal had stretched to a fortnight because her friends begged
+                her to stay, and, &#8220;having no particular object to call [her] home, [she] could not
+                refuse.&#8221;
+                    <note place="foot" resp="editors">DW to Joanna Hutchinson, 13 February 1825 
+                        (<title level="m">Letters</title>, 4:315).
+                    </note>
+                While her ultimate travel dream was to take another trip
+                to the Continent,
+                    <note place="foot" resp="editors">DW to H. C. Robinson, 12 April 1825 (<title 
+                        level="m">Letters</title>, 4:337), 2 July 1825 (4:373), and 26
+                        November 1825 (4:405&#8211;06). Originally planned for 1827, this second
+                        Continental tour never came to fruition.
+                    </note>
+                she settled in
+                the meantime for extended excursions in the British Isles, including a seven-week
+                tour of Scotland with 
+                <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Joanna">Joanna Hutchinson</ref> in the fall of 1822, a
+                10-month stay with family and friends in the Midlands in 1826, and a trip with
+                William to the Isle of Man in the summer of 1828.
+            </p>
+                
+            <p>All of this travel in surrounding years makes Notebook 1 something of an outlier, as
+                Dorothy spent the entire year it covers (11 December 1824&#8211;9 December 1825) in anchor
+                at Rydal Mount. Not that her 1825 was entirely devoid of holidays, however, as we
+                find her taking several multiday trips throughout the Lakes. For many readers, in
+                fact, the highlight of Notebook 1 will be her entries for 5–8 July 1825, which break
+                from her typical just-the-facts style to describe in vivid detail each leg of a
+                four-day excursion across the region&#8217;s southern peninsulas. The expansive,
+                keen-eyed, and witty style of these entries brings to mind sections of Dorothy&#8217;s
+                travel narratives from Scotland and the Continent.
+                    <note place="foot" resp="editors">The full text of DW&#8217;s 1803 and 1822 tours
+                        of Scotland and her 1820 tour of the Continent are included in <title level="m">DWJ</title>.
+                    </note>
+                Perhaps even closer parallels, though, can be found in the shorter accounts she made of her
+                <ref target="editions.2022.DW.ulls-intro">1805 &#8220;Excursion on the Banks of Ullswater&#8221;</ref> and
+                <ref target="editions.2022.DW.SP-intro">1818 &#8220;Excursion up Scawfell Pike.&#8221;</ref> Considering 
+                the stylistic similarities between the 5&#8211;8 July
+                entries and these two &#8220;excursions&#8221; and the fact that the Ullswater and Scawfell
+                accounts had recently appeared&#8212;albeit with no acknowledgment of her authorship&#8212;in
+                new editions of William&#8217;s <title level="m">Guide to the Lakes</title>,
+                    <note place="foot" resp="editors">In 1822, WW used DW&#8217;s Scafell Pike excursion to 
+                        pad out his third edition of the <title level="m">Guide</title>. He then added her Ullswater excursion for the fourth
+                        edition of 1823. For fuller details, see our introductions to sections <ref target="editions.2022.DW.Ulls-intro">3</ref>
+                        and <ref target="editions.2022.DW.SP-intro">5</ref> of this edition and the general introduction to Mason, Westover, 
+                        and Stimpson, eds., <hi rend="italic">William</hi>
+                        <ref target="https://romantic-circles.org/editions/guide_lakes/editions.2020.guide_lakes.introduction.html">
+                        <title level="m">Wordsworth&#8217;s</title> Guide to the Lakes</ref>.
+                    </note>
+                it seems entirely possible that
+                Dorothy composed this distinctive segment of Notebook 1 in anticipation of her
+                brother&#8217;s wanting to include a third Lake District &#8220;excursion&#8221; in some later edition
+                of his guidebook.
+                <note place="foot" resp="editors">DW never appears to have returned to her 5&#8211;8 July
+                         entries to expand them into a proper &#8220;excursion,&#8221; but this may have been
+                         owing to the unexpected gap between the fourth (1823) and fifth (1835)
+                         editions of the <title level="m">Guide</title>. By the time WW began
+                         working in earnest on the 1835 edition, DW lacked the requisite stamina
+                         for this sort of intensive writing project.
+                     </note>
+            </p>
+                
+            <p>All other sections of Notebook 1 chronicle daily rhythms and routines at Rydal Mount,
+                offering an affecting portrait of Dorothy&#8217;s devotion to her closest family and
+                friends and a clear window into the lives of the middle-aged Wordsworths and, more
+                generally, the provincial English gentry of this period. Within the first few pages,
+                it becomes clear that this was an unusually convivial period for Dorothy. Just how
+                much of a social butterfly she had become was captured by <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#SH">Sara
+                Hutchinson</ref>, who, upon returning to Rydal in August 1825 after a two-year
+                absence, reported finding &#8220;dear Dorothy as well and active as ever&#8212;&amp; a knott of
+                good friends around her&#8212;so that we are in no want of society which would have been
+                no <hi rend="underline">loss</hi> on my first arrival.&#8221;
+                    <note place="foot" resp="editors">SH to John Monkhouse, 7 August
+                        1825 (WT MS WLL / Hutchinson, Sara / 2 / 110a).
+                    </note>
+                Functioning as something of a hub for her &#8220;knott of good friends,&#8221; she inspired
+                intimates like <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Luff">Letitia Luff </ref>and 
+                <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Harrison"> &#8220;Cousin Dorothy&#8221; Harrison</ref> 
+                to relocate to the environs of Rydal
+                and frequently brought together old neighbors, distant cousins, and respectable new
+                arrivals to the area. Just how few social niceties stood between her and her closest
+                female friends is suggested by entries like that of 26 July 1825, in which she
+                records how on this &#8220;loveliest of nights&#8221; she &#8220;called on Mrs Luff in her Bed-room –
+                past 10.&#8221;
+            </p>
+                
+            <p>Throughout Notebook 1, Dorothy mixes freely with young and old alike, displaying a
+                particular relish for playing the surrogate aunt to the grown Cookson, Coleridge,
+                and Southey children, whom she had known since their childhoods, and new favorites
+                like <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Jewsbury">Maria Jane Jewsbury</ref> 
+                and the <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Dowling">Dowling sisters</ref>. 
+                Unlike her letters from the mid-1820s, in which she frequently
+                rails against radicals and reformers, the <title level="m">RJ</title> show Dorothy to
+                be thoroughly ecumenical in her choice of friends, with her inner circle ranging
+                beyond orthodox Anglicans and Tories to incorporate progressives like 
+                <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Barber">Samuel Barber</ref> and the 
+                <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Marshall">Marshalls</ref> and a bevy
+                of Unitarians 
+                (<ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Cookson">the Cooksons</ref>), 
+                Catholics (the Quillinans), and
+                Presbyterians (Mary Honeyman and <ref target="/editions/DW/editions.2022.DW.RJ-1-reading.html#Harden">the Hardens</ref>).
+                    <note place="foot" resp="editors">Cf. sentiments
+                        DW voiced on 28 May 1825 (<title level="m">Letters</title>, 4:354) and
+                        WW&#8217;s from 11 June (4:358&#8211;65).
+                    </note>
+                Her 1825 diary may, in
+                fact, reveal flickering embers of her youthful republicanism. For, not only do we
+                repeatedly see her socializing with working folk in ways women of her rank would
+                never seem to imagine in the contemporary novels of Jane Austen, but we even catch
+                her commiserating with a Windermere ferryman about how &#8220;all the Land&#8221; above the lake
+                . . . had been &#8220;divided among the Gentry&#8221; and opining that the surrounding hills
+                would be considerably &#8220;more cheerful&#8221; if &#8220;scattered over with houses&#8221; of ordinary
+                    Dalesmen.
+                    <note place="foot" resp="editors"><title level="m">RJ</title>, 8 July 1825.</note>
+            </p>
+                
+            <p>Similarly compelling moments elsewhere in this first volume of the <title level="m">RJ</title> 
+                capture the range and breadth of Dorothy&#8217;s reading and her enduring
+                bonds with her brother, his family, and the natural wonders of the Lakes. And,
+                especially through the lists of expenditures and favorite Bible verses she kept
+                inside its front and back covers, we gain a deeper and more nuanced understanding of
+                Dorothy&#8217;s sensibilities, both spiritual and material, than even the fullest
+                biography provides. All told, then, however succinct and weather-obsessed the
+                journal entries may be for pages at a time, those reading this edition&#8217;s
+                transcription of Notebook 1 will find in it a consistently engaging and frequently
+                illuminating portrait of a year in the life of one of the most fascinating figures
+                of Britain&#8217;s Romantic age.
+            </p>
+            </div>
+            </div>    
+        </body>
+    </text>
+</TEI>
