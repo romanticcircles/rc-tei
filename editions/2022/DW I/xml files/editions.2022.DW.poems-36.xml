@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -8,13 +5,9 @@
                 
                 <title type="main">Dorothy Wordsworth's Lake District</title>
                 <title type="subordinate">A Romantic Circles Electronic Edition</title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="m">[36] Liking and Loving – Irregular Verses, addressed to a Child 
-                    [Version C of “Loving and Liking”]
-                </title>
+                <title level="m">[36] Liking and Loving &#8212; Irregular Verses, addressed to a Child<lb/>
+                    [Version C of <emph>Loving and Liking</emph>]</title>
                 
-                
-                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
                 <author role="primary">
                     <name>Dorothy Wordsworth</name>
                 </author>
@@ -100,19 +93,16 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">editions.2022.DW.Poems-36</idno>
+                <idno type="edition">editions.2022.DW.poems-36</idno>
                 <idno type="resource">DW</idno>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main">[36] Liking and Loving – Irregular Verses, addressed to a Child 
-                            [Version C of “Loving and Liking”]                        
+                        <title level="m" type="main">[36] Liking and Loving &#8212; Irregular Verses, addressed to a Child<lb/>
+                            [Version C of <emph>Loving and Liking</emph>]
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="editions/DW/editions.2022.DW.Poems-36"/>
+                        <ptr target="editions/DW/editions.2022.DW.poems-36"/>
                     </analytic>
                     
                     <monogr>
@@ -188,13 +178,12 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">aging</term>
+                    <term subtype="tags">charity</term>
                     <term subtype="tags">childhood</term>
-                    <term subtype="tags">disability</term>
-                    <term subtype="tags">environment</term>
-                    <term subtype="tags">memory</term>
-                    <term subtype="tags">mobility</term>
-                    <term subtype="tags">walking</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
                 </keywords>
                 
             </textClass>
@@ -203,13 +192,14 @@
             <change>
                 <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
                 <name>Lavender Earnest</name>
-                <date>2022-11-09</date>
+                <date>2022-11-10</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     
     <text>
         <body>
@@ -223,10 +213,6 @@
             </div>
             
             <div type="poetry">
-                <head>
-                    [36] Liking and Loving &#8212; Irregular Verses, addressed to a Child<lb/>
-                    [Version C of <title level="a">Loving and Liking</title>]
-                </head>
                 
                 <lg type="stanza">
                     <l><del rend="strike">You may not</del> <hi rend="sup">say not you</hi> <hi rend="underline">love</hi> a roasted fowl;</l>
@@ -261,7 +247,8 @@
                         <hi rend="sup"><del rend="strike">As floating</del></hi> <del rend="strike">like a lifeless 
                         fish</del> <hi rend="sup">With pleasure to your lip is raised</hi></l>
                     <l>Say not you <hi rend="underline">love</hi> the <del rend="strike">delicious</del> <hi rend="sup">
-                        <del rend="strike">elegant</del></hi> <hi rendition="#sub"><del rend="strike"><hi rendition="#smallest">elegant</hi></del></hi> treat; <hi rendition="sup">delicate</hi></l>
+                        <del rend="strike">elegant</del></hi> <hi rendition="#sub"><del rend="strike"><hi rendition="#smallest">elegant</hi></del></hi> treat; 
+                        <hi rendition="sup">delicate</hi></l>
                     <l>But <hi rend="underline">like</hi> it, enjoy it, and thankfully eat</l>     
                 </lg>
                 <lb/>
@@ -370,9 +357,9 @@
                     <l>Her treat that would not crush a worm,</l>
                     <l>And</l>
                 </lg>
-                <pb/>
+              
            </div>
-           
+            <pb/>
            <div type="paratext">
                <p>
                    <span change="blue">
@@ -410,9 +397,9 @@
                     <l><hi rend="sup"><del rend="strike">And</del></hi> Likings <del rend="strike">many</del>
                         <hi rend="sup">fresh</hi> and innocent,</l>
                 </lg>
-                <pb/>
+               
            </div>
-                
+            <pb/>
                 <div type="paratext">
                     <p>
                         <span change="blue">
@@ -431,9 +418,9 @@
                     <l>And it will be our bliss with Saints above</l>
                     <l>&#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211;</l>
                 </lg>
-                <pb/>
+                
            </div>
-                     
+            <pb/>     
           <div type="paratext">
               <p>
                   <span change="blue"><hi rend="underline">[Page f.2r (from back of notebook)]</hi></span>
@@ -450,9 +437,9 @@
                     <l>Encouraged by a loving heart</l>
                     <l>Nor blush if o&#8217;er that heart be stealing</l>
                 </lg>
-                <pb/>
+                
              </div>
-            
+            <pb/>
             <div type="paratext">
                <p> 
                <span change="blue">
@@ -493,6 +480,8 @@
                </span>
                </p> 
             </div>
+        
         </body>
     </text>
+    
 </TEI>
