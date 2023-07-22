@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Introduction to 'Excursion on the Banks of Ullswater'(1805)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="secondary">
+                    <name>Paul Westover</name>
+                </author>
+                
+                <editor role="editor">Paul Westover</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.Ulls-intro</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction to 'Excursion on the Banks of Ullswater'(1805)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.Ulls-intro"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">lake district</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-09-22</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    
+    
+    <text>
+        <body>
+            <div type="essay">
+            <head>3. Introduction to <title level="a">Excursion on the Banks of Ullswater</title>(1805)</head>
+            <byline>
+                <docAuthor>Paul Westover</docAuthor>
+                <affiliation>Brigham Young University</affiliation>
+            </byline>
+                
+              <div type="paratext">
+                  <p rend="large"><ref target="#Contexts">I: Contexts for <title level="a">Ullswater Excursion</title></ref></p>
+                  <list type="unordered">
+                      <item><ref target="#Composition">A. Composition and Reception </ref></item>
+                      <item><ref target="#Occasion">B. Occasion of Dorothy&#8217;s Narrative</ref></item>
+                  </list>     
+           
+            <p rend="large"><ref target="#Textual">II: Textual and Editorial Issues</ref></p>
+                  <list type="unordered">
+                      <item><ref target="#Manuscripts">A. Manuscripts </ref></item>
+                      <item><ref target="#Dorothy">B. Dorothy&#8217;s Account vs. William&#8217;s <title level="a">Guide to the Lakes</title></ref></item>
+                      <item><ref target="#Published">C. Published Versions</ref></item>
+                      <item><ref target="#Editorial">D. Editorial Principles</ref></item> 
+                  </list>
+              </div>
+                <lb/><milestone unit="paratext"/><lb/> 
+                
+            <div type="section">
+                <anchor xml:id="Contexts"/>
+                <head>I. Contexts for <title level="a">Ullswater Excursion</title></head></div>
+            <div type="section">   
+                <anchor xml:id="Composition"/>
+                <head type="subhead">A. Composition and Reception</head>
+            
+                <p>On 6 November 1805, just as mild weather gave way to autumn rain, Dorothy and William
+                Wordsworth set out to see their friends Charles and Letitia Luff in Patterdale, 12
+                miles northeast of Grasmere on the southern tip of Ullswater.
+                    <note place="foot" resp="editors">Composing in the form of a journal, DW divides her account into days. However, as often happens in her 
+                    journals, she mistakes the dates. As noted, she and WW left Grasmere on Wednesday, 6 November (not on 7 November, as stated in her manuscripts) 
+                    and returned on the night of Tuesday, 12 November. Therefore, when DW mentions a date, readers should simply subtract one, though she is accurate 
+                    in identifying the days of the week.
+                    </note>
+                They planned for only a short visit but ended up spending a week exploring what
+                Dorothy called the &#8220;wonderful country&#8221; around England&#8217;s second-largest lake.
+                    <note place="foot" resp="editors">
+                    <ref target="/editions/DW/editions.2022.DW.Ulls-letters.html">DW to Lady Beaumont, 7 November 1805 (<title level="m">Letters</title>, 1:637).</ref>
+                    </note>
+                Her account of this tour, <title level="a">Excursion on the Banks of Ullswater</title> (hereafter <title level="a">Ullswater Excursion</title>), 
+                    presents her observations and experiences in genial prose. Since many of the landmarks she mentions remain today, much of what she saw appears 
+                    in our <ref target="https://tinyurl.com/bdfunzhh">
+                    interactive map</ref> and the photographic illustrations accompanying our annotated reading text.
+                </p>
+                    
+            <p>Dorothy&#8217;s Ullswater tour was essentially a counterclockwise circuit of the lake
+                punctuated by side excursions. Afterward, she summarized her itinerary for her
+                friend Catherine Clarkson: &#8220;William and I spent three days at Luff&#8217;s and three at
+                Park house.
+                    <note place="foot" resp="editors">Park House was Thomas Hutchinson&#8217;s home near the northern end of Ullswater (1804&#8211;1808). His 
+                    sisters Sara and Joanna kept house for him.
+                    </note>
+                We went the Wednesday after you left us&#8212;walked with Thomas Wilkinson through the
+                Lowther woods&#8212;a marvelously beautiful walk. . . . We rode to Park House under
+                Stybarrow Crag, and the day before we were also in Martindale with the
+                Luffs&#8212;crossing over the mountain back to Patterdale.&#8221;
+                    <note place="foot" resp="editors"> See <title level="m">Letters</title>, 1:646&#8211;47 (24&#8211;25 November 1805).
+                    </note>
+                If we add that the siblings crossed the Kirkstone Pass (1,489 ft.&#8212;the Lake
+                District&#8217;s highest road) to reach the Luffs&#8217; and that six days later they marched
+                down Ullswater&#8217;s long western shore and traversed Kirkstone again, we can imagine
+                something like the trip&#8217;s full circle (see fig. 3.1).</p>
+            
+                <figure>
+                    <graphic url="sites/default/files/imported/editions/DW/images/3A1.jpg" width="400px" rend="inline"/>
+                    <head>Figure 3.1:</head>
+                    <figDesc> Route of the Ullswater tour&#8212;a counterclockwise circuit with side expeditions on days 3 and 6.</figDesc>
+                </figure>
+            
+                <p><title level="a">Ullswater Excursion</title> is among the projects Susan Levin has described as &#8220;narratives
+                in which Dorothy Wordsworth represents herself as the woman who goes out to seek
+                experience in the company of family and friends.&#8221;
+                    <note place="foot" resp="editors"><title level="m">LCE</title> xviii. Susan Levin&#8217;s &#8220;seek[ing] experience&#8221;
+                                formula needs slight qualification in this case, given that DW was
+                                not for the most part exploring new territory. She had been to
+                                Ullswater many times, so the novelty of the trip had mainly to do
+                                with circumstances. Still, she and WW wished to visit &#8220;some of the
+                                vales tributary to Ullswater, where [they had] never been before&#8221;
+                        <ref target="/editions/DW/editions.2022.DW.Ulls-letters.html">(<title level="m">Letters</title>, 1:637).</ref>
+                    </note>
+                    
+                It belongs to the Dove Cottage period, when Dorothy also produced her <title level="m">Grasmere Journals</title> (1800&#8211;1803) and 
+                    <title level="m">Recollections of a Tour Made in Scotland, A.D. 1803</title>. In fact, <title level="a">Ullswater Excursion</title> was composed 
+                    at roughly the same time as <title level="m">Recollections</title>,
+                <note place="foot" resp="editors"><title level="m">Recollections</title> underwent multiple stages of composition, revision, and copying, 
+                    but DW completed her first clean copy of the text on 31 May 1805, and the earliest surviving manuscript is a copy made at Patterdale by 
+                    DW&#8217;s friend Catherine Clarkson on 1 November 1805, less than a week before the author&#8217;s Ullswater tour. For details, see 
+                    <title level="m">DWJ</title>, 1.viii&#8211;xiv.
+                </note> 
+                and, though shorter, it belongs to the same genre, the reconstructed travel journal.
+                <note place="foot" resp="editors">DW emphasized that she did not compose <title level="m">Recollections</title> on the spot. By the Bye I am writing,&#8221; 
+                    she wrote to Catherine Clarkson in late 1803, &#8220;not a Journal, for we took no notes, but <hi rend="italic">recollections</hi> of our Tour in the 
+                    form of a Journal&#8221; (<title level="m">Letters</title> 1:421). In truth, DW did make a few hasty notes in Scotland, but she wished she had written 
+                    more (see Carol Kyros Walker&#8217;s editorial introduction to <title level="m">Recollections</title>, 20).
+                </note>
+                As Ernest de Sélincourt explained, her Scottish journal was &#8220;written at leisure
+                after her return, while the events recorded were still vivid in her memory, and when
+                she could see the whole tour in something of artistic perspective&#8221;; the same seems
+                to be true of the Ullswater text.
+                <note place="foot" resp="editors"><title level="m">DWJ</title>, 1:vii.</note>
+                    While Dorothy included some details from the trip in a <ref target="/editions/DW/editions.2022.DW.Ulls-letters.html">letter</ref> she wrote on the
+                trip&#8217;s second day, she apparently waited until after her return to Grasmere to draft the full narrative.
+                <note place="foot" resp="editors">Unfortunately, the manuscripts do not indicate composition dates; each simply begins &#8220;November 1805.&#8221; However, 
+                    given that DW was still describing details of the trip in letters to Catherine Clarkson and Lady Beaumont at the end of November 
+                    (see <title level="m">Letters</title>, 1:646&#8211;47, 648&#8211;52), she likely had not yet completed her
+                                complete account by then. Her late-November letters also indicate
+                                that she had been ill and quite busy, probably without much leisure
+                                to write. Possibly she finished drafting the narrative in December
+                                1805 or January 1806.
+                </note>
+                </p>
+            
+                <p>Why she wrote this account, and for whom, is not altogether clear. As the <title level="m">Grasmere Journals</title> (1800&#8211;1803) 
+                demonstrate, personal and shared memories routinely jostled
+                together in her notebooks, and she often recorded experiences as potential sources
+                for her own future writing or for William&#8217;s. In <title level="a">Ullswater Excursion,</title> she records
+                joyful moments with her brother, yet she clearly has an external audience in mind.
+                She remarks in her report on day 2, &#8220;To attempt to <hi rend="italic">describe</hi>
+                the place would be absurd when you for whom I write have been there, or may go
+                thither as soon as you like.&#8221; Thus, her first intended reader (or readers) must have
+                lived in or near the Lake District or had the means to visit easily. She might have
+                said, as she later did concerning her Scottish tour, &#8220;I wrote my journal, or rather
+                <hi rend="italic">recollections</hi> for the sake of my Friends who it seemed
+                ought to have been with us, but were confined at home by other duties.&#8221;
+                        <note place="foot" resp="editors"><title level="m">Letters</title>, 2:2.</note>
+                At this point, seemingly, she had no thoughts of print publication.
+                </p>
+            
+                <p>In 1941, De Sélincourt speculated that Dorothy wrote <title level="a">Ullswater Excursion</title> for Lady
+                Margaret Beaumont, citing William&#8217;s 1823 explanation that it &#8220;was written for one
+                acquainted with the general features of the country.&#8221;
+                        <note place="foot" resp="editors"><title level="m">DWJ</title>, 1:xiv; <title level="m">Guide</title> 
+                        (1823), 117.
+                        </note>
+                In light of the letters Dorothy sent to Lady Beaumont during and just after the
+                Ullswater tour, she was likely the one of whom William spoke <ref target="/editions/DW/editions.2022.DW.Ulls-letters.html">(see section appendix)
+                </ref>. Although the two women had yet to meet in person, they had been carrying on a warm correspondence.
+                        <note place="foot" resp="editors">See, for instance, DW&#8217;s affectionate letter of 27 October: &#8220;I am sure I seem to know you very well. 
+                        I have the same kind of pleasure in thinking of you as if I had really seen you, I am reminded of you by things daily before our eyes, 
+                        just as if you had been often with us, had frequented the same paths and were familiar with the retired places of our valley&#8221; 
+                        (<title level="m">Letters</title>, 1:630&#8211;31).
+                        </note>
+                Perhaps Lady Beaumont, enthused by Dorothy&#8217;s letters, had
+                asked for a longer, more circumstantial account of her adventure. She and her
+                husband, Sir George, were generous patrons as well as friends to the Wordsworths, so
+                Dorothy was understandably eager to please them. <title level="a">Ullswater Excursion</title> might, then,
+                be read as a reciprocal gift offered in a spirit of gratitude.
+                </p>
+            
+                <p>As detailed more fully in Section II, two manuscript versions of <title level="a">Ullswater
+                Excursion</title> survive. The first, preserved in one of Dorothy&#8217;s notebooks, is slightly
+                longer and somewhat messier, while the second&#8212;a fair copy likely prepared for Lady
+                Beaumont&#8212;removes some details while offering clarifications and stylistic
+                adjustments. Regrettably, we know little about the manuscripts&#8217; use or possible
+                circulation. Our primary clues about their reception are the simple facts already
+                related: one copy was carefully preserved by the Beaumonts, and the other, retained
+                by Dorothy herself, remained significant in Wordsworth family memory. William
+                thought highly enough of it to make it part of his Lakeland guidebook, and, years
+                later, nephew Christopher mentioned it in his 1851 <title level="m">Memoirs of
+                William Wordsworth</title>, acknowledging the authorship of his aunt.
+                        <note place="foot" resp="editors"><title level="m">Memoirs</title>, 1:319. Christopher&#8217;s revelation that 
+                            <title level="a">Ullswater Excursion</title> was &#8220;from Miss Wordsworth&#8217;s pen&#8221; made no 
+                            significant ripple in the reception record, but at least he was able to recognize DW&#8217;s work four years
+                            before her death. At that point, the <title level="m">Guide to the Lakes</title> version of her narrative, 
+                            generally thought to be WW&#8217;s, had been in print for 28 years.
+                        </note>
+                </p>
+            
+            <p>Dorothy composed <title level="a">Ullswater Excursion</title> at a time distinguished by creative
+                accomplishment but also by personal and family worries. She left a good deal unsaid.
+                For instance, when she reports that &#8220;Derwent ran to meet us,&#8221; informed readers
+                should picture a five-year-old who has not seen his father for almost two years,
+                eager to embrace some of the most important adults in his life. The missing father,
+                Samuel Taylor Coleridge, appears by name at only one point, yet his perplexing
+                absence hangs in the air. Then, to acknowledge another powerful absence, when
+                Dorothy describes coming in view of &#8220;the mountains above Grisedale,&#8221; ostensibly
+                making the plainest sort of topographical reference, she unavoidably has in mind her
+                beloved brother John&#8212;Captain John Wordsworth, who died in a shipwreck in February.
+                It was near Grisedale Tarn that she and William parted with him after his last visit
+                to Grasmere, bidding farewell as he rushed down the Ullswater side of the mountains,
+                full of hope about his coming voyage on the <hi rend="italic">Earl of
+                Abergavenny</hi>. It was there, too, that William had found a vent for his
+                feelings in early June, composing an elegy through tears.
+                    <note place="foot" resp="editors">See WW&#8217;s &#8220;I only look&#8217;d for pain and grief&#8221; (<title level="m">Major Works</title>,08&#8211;11), 
+                    published in revised form as <title level="a">Elegiac Verses in Memory of My Brother, John Wordsworth</title> in 1842.
+                    </note>
+                As Dorothy exclaimed in her 9 June letter to Lady Beaumont, &#8220;Oh! My dear Friend, you
+                will not wonder that we love that place.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 1:598&#8211;99.</note>
+                Similarly, when in <title level="a">Ullswater Excursion</title> she recounts the tale of two local brothers
+                drowning (thus explaining the name of &#8220;Brothers Water&#8221;), it seems unimaginable that
+                she isn&#8217;t also reflecting on the recent drowning of her own brother. And might she
+                not also think of him when she describes learning about the death of Admiral Nelson
+                at Trafalgar?
+                <note place="foot" resp="editors">In her 29 November letter to Lady Beaumont, DW recalls that the sudden news of Nelson&#8217;s 
+                    death caused her to burst into tears. Just before this, she reports that &#8220;the Image of our departed Brother haunts me with many a pang&#8221; 
+                    and confesses her worry that STC may face dangers at sea 
+                    <ref target="/editions/DW/editions.2022.DW.Ulls-letters.html">(<title level="m">Letters</title>, 1:648&#8211;45)</ref>.                   
+                </note>                                                         
+            </p>
+            
+            <p>Indeed, with all of these interweaving stories in mind, Dorothy&#8217;s <title level="a">Ullswater
+                Excursion,</title> for all its frankness, actually seems reticent. Most of its emotional
+                iceberg remains underwater. Then again, Dorothy apparently had no need to explain
+                such personal contexts to her first readers. Perhaps an implicit understanding of
+                circumstances was part of what she had in mind when she wrote to Lady Beaumont on 29
+                November, &#8220;To make [our daily goings-on and my own peculiar feelings] interesting
+                love must be in your heart.&#8221;
+                <note place="foot" resp="editors"><ref target="/editions/DW/editions.2022.DW.Ulls-letters.html"><title level="m">Letters</title>, 1:651.</ref>
+                </note>
+            </p>
+                    
+            <p>Because Dorothy&#8217;s original readers (in manuscript) must have been relatively few, the
+                reception of the Ullswater text becomes easier to follow once it finds its way into
+                print. Both of Dorothy&#8217;s &#8220;excursions&#8221;&#8212;<ref target="/editions/DW/editions.2022.DW.SP-intro.html">
+                <title level="a">Excursion up Scawfell Pike</title></ref> (1818) 
+                and <title level="a">Excursion on the Banks of Ullswater</title>
+                (1805)&#8212;have been widely admired since they first appeared, respectively, in the
+                third (1822) and fourth (1823) editions of William&#8217;s <title level="m">Guide to the
+                Lakes</title>. Though written some 13 years apart, these texts were forever linked
+                by being placed alongside each other (and similarly transformed) in all editions or
+                reprintings of the <title level="m">Guide</title> from 1823
+                forward (see fig. 3.2).
+            </p>
+                
+            <figure>
+                <graphic url="sites/default/files/imported/editions/DW/images/3A2.jpg" width="400px" rend="inline"/>
+                <head>Figure 3.2:</head>
+                <figDesc> Table of contents for <title level="m">William Wordsworth&#8217;s Description of the Scenery of the Lakes in
+                    the North of England</title>, 4th ed. (London: Longman, 1823), highlighting the climactic &#8220;Excursions&#8221; 
+                    section. This new division, based on material written by Dorothy Wordsworth, provides the de facto conclusion of
+                    the book, followed only by the brief and utilitarian <title level="a">Directions and Information for the Tourist.</title>
+                    (Courtesy: Brigham Young University, Harold B. Lee Library)
+                    </figDesc>
+            </figure>
+                    
+            <p>Whether quoting from them or reproducing them in full, Victorian travel books
+                consistently attributed both excursions to William, largely as a result of his never
+                publicly acknowledging Dorothy&#8217;s authorship.
+                    <note place="foot" resp="editors">See, for instance, Harriet Martineau&#8217;s <title level="m">Complete Guide to the 
+                    English Lakes</title> (1855) and inexpensive competitors such as T. Wilson&#8217;s <title level="m">Handbook to the English
+                    Lakes, with an Introduction by the Late William Wordsworth</title> (many editions from the 1850s forward) and the similar 
+                    shilling guides from Ward and Lock.
+                    </note>
+                At the 1883 gathering of the Wordsworth Society, Stopford Brooke attempted to
+                support his argument about William&#8217;s propensity for &#8220;falling into the modes of
+                poetry [even] in the midst of his prose&#8221; by quoting several remarkable passages from
+                the <title level="m">Guide</title> actually written by Dorothy.
+                    <note place="foot" resp="editors">Brooke, <title level="a">On Wordsworth&#8217;s <title level="m">Guide</title>,</title> 33, 
+                     an essay later republished in Knight&#8217;s <title level="m">Wordsworthiana</title> (1889). Several passages celebrated by
+                     Brooke originated in <title level="a">Excursion on the Banks of Ullswater.</title> Ironically, Knight revealed DW&#8217;s 
+                     authorship of this material at the same gathering of the Society.
+                    </note>
+                This pattern of misattribution continued through the 1988 Penguin Classics edition
+                of William&#8217;s <title level="m">Selected Prose</title>, where these excursions were once
+                again anthologized as by the famous poet rather than his sister.
+                    <note place="foot" resp="editors">WW, <title level="m">Selected Prose</title>, 449&#8211;61.
+                    </note>
+            </p>
+            </div>
+            
+            <div type="section">
+                <anchor xml:id="Occasion"/>
+                <head type="subhead">B. Occasion of Dorothy&#8217;s Narrative
+                </head>
+                
+            <p>On one level, the Wordsworth siblings&#8217; journey to Ullswater was a house-hunting trip.
+                Fond as they were of Dove Cottage, it was becoming too small for the growing family
+                and its regular house guests, especially in the wintertime, when everyone spent more
+                time indoors. In November 1805, William and Mary had two children under the age of
+                three and were expecting their third.
+                    <note place="foot" resp="editors">John was born on 18 June 1803 and Dora on 16 August 1804. Thomas would be born on 15 June 1806.</note>
+                Moreover, they longed to become homeowners, as evidenced in numerous letters from
+                this period contemplating possible locations and building projects. An early
+                highlight of the trip to Ullswater, then, was inspecting Broad How, an attractive
+                lot for sale near the Luffs&#8217; home in Patterdale. Almost immediately, as Dorothy&#8217;s
+                account chronicles, they began imagining a dream home there, and to that end William
+                visited their friend Thomas Wilkinson to ask for help negotiating the purchase of
+                this property.
+                    <note place="foot" resp="editors">Some details about discovering the potential house site appear in one manuscript (DCMS 51) 
+                    but not in the other (Coleorton). DW writes in the more detailed account, &#8220;Our fancies could not resist the temptation &amp; 
+                    we fixed upon a spot for a cottage which we began to build &amp; finished as easily as castles are raised in the air.&#8221;
+                    </note>
+                Ultimately, with the help of Lord Lowther, William did purchase it in 1806. He held
+                on to this plot for nearly 30 years but never did remodel the old home that stood
+                there or build a new one.
+                    <note place="foot" resp="editors">On the acquisition of Broad How, see Gill, 253; Knight, <title level="m">Life of William
+                    Wordsworth</title>, 2:37&#8211;38; <title level="m">Letters</title>, 2:67&#8211;9, 75&#8211;77; Sands, <title level="m">Portrait
+                    of the Wordsworth Country</title>, 180&#8211;81. As DW reports, WW first visited Wilkinson on the evening of Saturday, 9 November,
+                    after leaving DW at Park House. Then WW and DW (along with SH and one of the Misses Green) returned to Wilkinson&#8217;s house on
+                    Monday, 11 November on their way to visit Lowther Woods, taking Wilkinson as their guide. WW walked Wilkinson home that evening
+                    while DW and the others waited at Red Hill. No doubt the men talked business. WW and DW returned to Grasmere on the following day,
+                    apparently confident that their property negotiations would be in good hands. In the end, the deal did not transpire exactly as 
+                    WW wished, but he reluctantly accepted the terms. Lord Lowther put up &#35;1,000, though WW had said the land was worth no more 
+                    than &#35;800.
+                    </note>
+                To alleviate the crowding problem in Grasmere, the Wordsworths spent the winter of 1806&#8211;1807
+                at Coleorton as guests of the Beaumonts, and in 1808 they moved from Dove Cottage to Allan Bank.
+                </p>
+            
+                <p><title level="a">Ullswater Excursion</title> also records the Wordsworths taking strength
+                from their extended network of friends and family, including the Hutchinsons at Park House and
+                Captain John Wordsworth at Brougham Hall. (Captain Wordsworth was the kinsman who
+                mentored their late brother in his sailor&#8217;s trade.) Yet, while never concealing that
+                their trip was as much about domestic affairs and business as pleasure, Dorothy used
+                the material at hand to create a first-rate piece of travel writing. She was fond of
+                Ullswater because, as she told Lady Beaumont, it had not yet been spoiled by &#8220;fancy
+                builders&#8221; and was &#8220;full of visions of things . . . that might have employed our
+                fancy happily for hours, if they had not in the next moment been replaced by others
+                as beautiful.&#8221;
+                    <note place="foot" resp="editors"><ref target="/editions/DW/editions.2022.DW.Ulls-letters.html"><title level="m">Letters</title></ref>>,
+                        1:637.
+                    </note>
+                And, like many of the age&#8217;s best travel narratives, Dorothy&#8217;s recounts experiencing
+                a distinctive region chiefly on foot. Nature walks were of course among the
+                Wordsworth siblings&#8217; favorite pastimes, and, true to form, Dorothy managed to cover
+                some 75 miles in six days, with only occasional breaks riding her pony (a recent
+                gift from her oldest brother, Richard) or cruising in the Luffs&#8217; rowboat. As Dorothy
+                would afterward quip, her stamina left both herself and her brother &#8220;boast[ing] of
+                [her] wonderful strength.&#8221;
+                    <note place="foot" resp="editors"><ref target="/editions/DW/editions.2022.DW.Ulls-letters.html"><title level="m">Letters</title></ref>,
+                    1:651.
+                    </note>
+                </p>
+            
+                <p>If anything, Dorothy&#8217;s delight in the journey increased as it became more ambitious.
+                Though confessedly reluctant to embark from Grasmere on a &#8220;damp and gloomy morning,&#8221;
+                she reported that &#8220;as the mists thickened&#8221; over Kirkstone Pass, &#8220;[their] enjoyments
+                increased.&#8221; On subsequent days&#8212;usually with William and sometimes also with their
+                friends&#8212;she explored the lake&#8217;s southeastern shore, hiked over the mountains from
+                Martindale to Patterdale, wandered through the Lowther Woods and the familiar
+                streets of Penrith, and twice trekked the full length of Ullswater. On the final day
+                alone, she and William walked or rode approximately 23 miles, all after 3:00 p.m.
+                After coming back across Kirkstone by starlight, she and William arrived at Dove
+                Cottage long after Mary and the children had gone to bed.
+                </p>
+                
+                <p>For Dorothy, this had been a genuine holiday, one reminiscent of tramps undertaken in
+                earlier years, when she and her brother spent much of their lives walking, talking,
+                and planning the future together. It must also have sparked memories of previous
+                Ullswater visits, including their famed encounter with the daffodils beside the lake
+                in 1802, when William was settling his affairs with Annette Vallon and preparing to
+                wed Mary Hutchinson. Grounded, then, in feelings both present and past, <title level="a">Ullswater
+                Excursion</title> offers some of Dorothy&#8217;s most luminous writing. Over two centuries later,
+                it still lingers in the ear and on the mind&#8217;s eye: &#8220;At such a time and in such a
+                place every scattered stone the size of one&#8217;s head becomes a companion&#8221;; &#8220;Place-Fell
+                steady and bold as a lion; the whole lake driving onward like a great river&#8221;; &#8220;We
+                observed the lemon-coloured leaves of the birches . . . as the wind turned them to
+                the sun, sparkle, or rather flash, like diamonds&#8221;; &#8220;The stars in succession took
+                their stations on the mountain-tops&#8221;; &#8220;All the cheerfulness of the scene was in the
+                sky.&#8221; These passages and others like them await the reader of &#8220;Excursion on the
+                Banks of Ullswater,&#8221; which this edition presents with thorough annotations and
+                illustrations.
+                </p>
+            </div>
+                <lb/><milestone unit="section"/><lb/>
+                
+                
+                <div type="section">
+                    <anchor xml:id="Textual"/><head>II: Textual and Editorial Headnote</head>
+                </div>
+                
+                <div type="section">
+                   <anchor xml:id="Manuscripts"/><head type="subhead">A. Manuscripts</head>
+                   
+            <p>As noted previously, <title level="a">Excursion on the Banks of Ullswater</title> survives in two
+                manuscripts. The first, Dove Cottage Manuscript 51 (DCMS 51) is a hand-sewn notebook containing 
+                both prose and verse (fig. 3.3). This notebook preserves various materials related to the Ullswater
+                text, including five pages of draft fragments (pp. 1&#8211;5) plus two experimental introductions
+                (pp. 18&#8211;20) that helped produce the 1823 <title level="m">Guide to the Lakes</title>. Its 
+                complete copy of the Ullswater narrative (pp. 21&#8211;34) is the earliest known. Like 
+                <title level="a">Excursion up Scawfell Pike,</title> it shows multiple sets of revisions, some 
+                in pen and some (later) in pencil. The base layer is in Dorothy&#8217;s hand, while edits appear
+                in her handwriting but possibly also in William&#8217;s. We ignore the penciled edits in
+                our apparatus, seeking so far as possible to emphasize Dorothy&#8217;s own work rather
+                than trace the evolution of William&#8217;s <title level="m">Guide</title>. Still, all of
+                the edits, along with the separate fragments and draft introductions, are arguably
+                important for the reception history of Dorothy&#8217;s writing, and readers can see the
+                results of the multistage revision process in our transcription of the 1823 
+                <title level="m"><ref target="/editions/DW/editions.2022.DW.SP-C.html">Guide</ref></title> text. 
+            </p>
+            
+                <figure>
+                    <graphic url="sites/default/files/imported/editions/DW/images/3A4.jpg" width="400px" rend="inline"/>
+                    <head>Figure 3.3:</head>
+                    <figDesc> First page of the complete <title level="a">Ullswater Excursion</title> in DCMS 51. 
+                        (Courtesy: The Wordsworth Trust)
+                    </figDesc>
+                </figure>
+            
+                <p>The second manuscript&#8212;the basis for our annotated text&#8212;played no direct part in
+                the evolution of Wordsworth&#8217;s <title level="m">Guide</title>. Now held by the Morgan
+                Library and Museum in New York, this 16-page document (MA 1581) appears in Dorothy&#8217;s
+                neatest hand (fig. 3.4).
+                    <note place="foot" resp="editors">See a full digital facsimile of the Coleorton MS plus our transcriptions at the Morgan Library&#8217;s website: 
+                    <ref target="https://www.themorgan.org/collection/dorothy-wordsworth/journal">https://www.themorgan.org/collection/dorothy-wordsworth/journal</ref>
+                    </note>
+                Editors Owen and Smyser named it the &#8220;Coleorton Manuscript,&#8221; noting that it appeared among the Morgan
+                Library&#8217;s <title level="a">Coleorton Papers</title>
+                    <note place="foot" resp="editors">The manuscript remained with the Beaumont family until at least 1882&#8211;1883, when Sir George, the 10th baronet,
+                    loaned it to William Knight, and probably into the early decades of the twentieth century. When and how it left the family is uncertain, but eventually
+                    it came into the possession of <ref target="https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-31085">Benjamin
+                    Ifor Evans</ref>, who sold it to the Morgan Library in 1954.
+                    </note>
+                and supposing (with De Sélincourt) that it was made for Lady Beaumont, who for much
+                of her life resided at Coleorton Hall in Leicestershire. Added support for their
+                surmise comes from the manuscript itself, which features, at the top of its first
+                page, a descriptive note in another hand: &#8220;a mountainous ramble by D Wordsworth
+                sister to <hi rend="underline">the poet</hi>.&#8221; While it is difficult to draw certain
+                conclusions based on a 10-word sample, this appears to be the handwriting of Lady
+                Beaumont.
+                </p>
+            
+                <p>In this attractive document, Dorothy edits the DCMS 51 text or a closely related
+                draft for style and accuracy. Notably, she removes her account (from 11 November,
+                day 6) of walking in Penrith at night, seeing old acquaintances, and revisiting
+                familiar haunts. Perhaps she considered this tour of sites linked to her adolescence
+                too private or just uninteresting for her likely readers.
+                    <note place="foot" resp="editors">Newlyn suggests this passage was &#8220;a keepsake for her sister-in-law [MW], to commemorate their shared past&#8221;
+                     (215). The two became close when, as an orphaned teenager, DW lived in Penrith with her stern maternal grandparents. At that time, the girls (along 
+                     with Mary&#8217;s sister Peggy) would sneak out to walk in the country or visit one another&#8217;s houses (<title level="m">DWB</title>, 17&#8211;18).
+                    </note>
+                In any case, the Coleorton Manuscript probably best reflects her intentions for a
+                manuscript text to be read outside of the immediate family circle.
+                </p>
+            
+                <figure>
+                    <graphic url="sites/default/files/imported/editions/DW/images/3A3.jpg" width="400px" rend="inline"/>
+                    <head>Figure 3.4:</head>
+                    <figDesc> First page of the Coleorton Manuscript. (Courtesy: The Morgan Library and Museum)</figDesc>
+                </figure>
+                </div>
+                
+            <div type="section">
+                <anchor xml:id="Dorothy"/>
+                <head type="subhead">B. Dorothy&#8217;s Account vs. William&#8217;s Guide to the Lakes</head>
+            
+                <p>In William&#8217;s <title level="m">Guide</title>, <title level="a">Ullswater 
+                Excursion</title> gains acceptability for a general audience but loses some of 
+                its personality. As De Sélincourt succinctly puts it, &#8220;Dorothy wrote a 
+                journal of this tour which her brother afterwards recast and appended to his
+                <title level="m">Guide to the Lakes</title>: few readers will prefer his more
+                formal, &#8216;literary&#8217; version to Dorothy&#8217;s.&#8221;
+                    <note place="foot" resp="editors"><title level="m">DWB</title>, 196.</note> 
+                To be fair, the <title level="m">Guide</title> version is also memorable, adapted
+                for its purpose and embellished with a few novel passages. Nonetheless, Dorothy&#8217;s
+                original is warmer, more detailed, and generally more engaging. This is true not
+                only because of what De Sélincourt calls her &#8220;vivid beauty of feeling and 
+                expression&#8221;
+                    <note place="foot" resp="editors"><title level="m">DWB</title>, 196.</note>
+                    &#8212;most of her best descriptive passages do appear in the <title level="m">Guide</title>, even if slightly altered&#8212;but also 
+                    because of the intimacy of her report, which lends it human interest that might actually be out of place in a guidebook.
+                </p>
+            
+                <p>As in the case of <title level="a">Excursion Up Scawfell Pike,</title> the first
+                thing one notices in comparing Dorothy&#8217;s manuscript text to the <title 
+                level="m">Guide</title>&#8217;s adaptation is that the latter is shorter and less
+                personal. All of the individuals are missing: no &#8220;dear Coleridge,&#8221; no
+                Luffs, no Hutchinsons, no Thomas Wilkinson. Even the pony is gone, and that seems 
+                a shame; the poor beast is an important character, if only for what he reveals about
+                Dorothy, whose sympathy toward animals, both wild and domesticated, comes through 
+                strongly in the manuscripts.
+                </p>
+                
+            <p>Overall, then, the social nature of this tour becomes obscured in William&#8217;s retelling.
+                <note place="foot" resp="editors"> Comparing the two versions in this manner, we make WW accountable for the changes. 
+                    However, manuscript evidence somewhat complicates this simple division of responsibility. DCMS 51 shows late-stage edits in 
+                    DW&#8217;s hand as well as WW&#8217;s. Given that DW and WW worked on revisions for the 
+                    <title level="m">Guide</title> together (though certain new passages are unambiguously his), we should consider the possibility 
+                    that edits for publication sometimes represented DW&#8217;s intention.
+                </note>
+                To be sure, William often adopts the first-person plural, as in &#8220;We left Grasmere
+                vale,&#8221; &#8220;We noticed, as we passed,&#8221; and &#8220;The mists gathered as we
+                went along&#8221;&#8212;his narrator does not wander lonely as a cloud. Nonetheless, his
+                &#8220;we&#8221; remain basically anonymous. His formal &#8220;We were more than contented,
+                &#8221; describing the travelers&#8217; wet crossing of the Kirkstone Pass, is far less 
+                evocative than Dorothy&#8217;s report of brother and sister cheerfully advancing through 
+                the mist, &#8220;as happy Travellers as ever paced side by side on a holiday ramble.&#8221;
+                Lamentably, the changes made for the <title level="m">Guide</title>, necessary as they might
+                be to preserve privacy, tend to obscure the core relationship that drives the text: the 
+                partnership of the siblings, who must hold even more tightly to each other now that brother
+                John is gone and the &#8220;set is . . . broken.&#8221;
+                    <note place="foot" resp="editors"><title level="m">Letters</title>, 1:540.</note>
+            </p>
+                
+            <p>That close partnership helps explain a blunt fact that frequently troubles today&#8217;s readers:
+                William published a substantial work by his sister without acknowledging the fact. Even devoted
+                Victorian Wordsworthians could find this appropriation odd, as did Knight in his 1889 biography
+                of the poet: &#8220;[Wordsworth] concluded [the <title level="m">Guide</title>] by incorporating
+                the whole, or nearly the whole, of his sister&#8217;s journal, without any indication to the
+                reader of who the real journalist was, or when his work ended, and that of his sister began!&#8221;
+                    <note place="foot" resp="editors">Knight, <title level="m">Life of William Wordsworth</title>, 2:29. A few years later, Knight included WW&#8217;s 
+                    <title level="m">Guide to the Lakes</title> in volume 2 of his <title level="m">Prose Works</title> (1896) and duly inserted a footnote to the
+                    Ullswater section: &#8220;It was written by his sister Dorothy.&#8212;E<hi rend="smallcaps">D</hi>.&#8221; (106). To his credit, having discovered 
+                    the truth about the material&#8217;s authorship, Knight seemed eager to publicize it.
+                    </note>
+                We feel certain that William did so with her cooperation; &#8220;Wordsworth&#8221; was the family
+                brand, and Dorothy regularly did what she could to support it, contributing to her own financial
+                security as well as her brother&#8217;s reputation.
+                    <note place="foot" resp="editors">Several scholars have written persuasively on the Wordsworths&#8217; shared investment in the family business. See,
+                    for instance, Wallace, &#8220;Home at Grasmere Again,&#8221; and Heinzelman, &#8220;Cult of Domesticity.&#8221;
+                    </note>
+                The result was a substantially coauthored <title level="m">Guide to the Lakes</title>,
+                even if it was not publicly acknowledged as such. With her intimate knowledge of the
+                region, her capacity for wonder, and her gift for descriptive language, Dorothy
+                contributed significantly to the <title level="m">Guide</title>&#8217;s success. As Mary
+                Ellen Bellanca properly observes, &#8220;These considerations make plain that it is well
+                past time to discard the notion of Dorothy Wordsworth as an unpublished, or only
+                posthumously published, writer.&#8221;
+                    <note place="foot" resp="editors">Bellanca, <title level="m">Daybooks of Discovery</title>, 138.
+                    </note></p>
+            <p>That said, to the extent that we base our edited text on manuscript evidence, the posthumously
+                published Dorothy Wordsworth takes precedence in this edition. We offer <title level="a">Ullswater
+                Excursion</title> complete with all of its personal, chatty, quotidian, and whimsical elements. 
+                By doing so, we privilege Dorothy&#8217;s perspective on the Lake District, acknowledge the terms
+                of her appeal to her first readers, and celebrate the qualities that make her travel writing unique.
+            </p>
+            </div>
+            
+            <div type="section">
+                <anchor xml:id="Published"/>
+                <head type="subhead">C. Published Versions</head>   
+            
+            <p>After William&#8217;s <title level="m">Guide to the Lakes</title>, the first significant printing of
+                Dorothy&#8217;s <title level="a">Ullswater Excursion</title> appeared in the 1883 issue of the 
+                <title level="m">Transactions of the Wordsworth Society</title>.
+                    <note place="foot" resp="editors">Knight, ed., <title level="m">Transactions of the Wordsworth Society</title>, no. 5, pp. 103&#8211;10.
+                    </note>
+                At that year&#8217;s gathering of the Society, William Knight announced that a copy of &#8220;a Mountain Ramble
+                with the Poet, written by his Sister, in the year 1805&#8221; had come into his possession.
+                    <note place="foot" resp="editors">Knight, ed.,<title level="m">Transactions of the Wordsworth Society</title> No. 5 8, Records attached
+                     to the Coleorton Papers at the Morgan Library and Museum confirm that Sir George Beaumont (10th Baronet, 1851&#8211;1914) lent a number
+                     of Wordsworth-related items to Knight in November 1882 and March 1883. The Ullswater &#8220;ramble&#8221; (Coleorton Manuscript) must 
+                     have been among these items.
+                    </note>
+                Though he lacked the requisite time to share the text at the meeting, he included an abridged version of it in the 
+                <title level="m">Transactions</title>, explaining that &#8220;a curious 
+                <hi rend="italic">recast</hi> of this Journal-record of his
+                sister was published by Wordsworth in an edition of his <title level="m">Guide to
+                    the Lakes.</title>&#8221;
+                    <note place="foot" resp="editors">Knight, ed., <title level="m">Transactions of the Wordsworth Society</title>,No. 5, 110.
+                    </note>
+                Knight&#8217;s was the first publication of the narrative under Dorothy&#8217;s name,
+                approximately 78 years after its composition.
+            </p>
+                
+            <p>Knight mentioned the text again in his 1889 biography of William, noting the poet&#8217;s incorporation of this &#8220;Mountain Ramble&#8221; in the 
+            <title level="m">Guide</title> and calling it &#8220;one of the most curious instances of
+            the literary &#8216;communism&#8217; between [the siblings].&#8221;
+                <note place="foot">Knight, <title level="m">Life of William Wordsworth</title>, 2:29. Knight mistakenly claims the Ullswater 
+                    text first appeared in the <title level="m">Guide</title>&#8217;s fifth edition (1835) rather than the fourth (1823)
+                </note>
+             Then, in 1897, he included his abridgment in his landmark edition of the <title level="m">Journals of Dorothy Wordsworth</title> 
+             as <title level="a">Journal of a Mountain Ramble by Dorothy and William Wordsworth, November 7th to 13th, 1805.</title>
+                <note place="foot" resp="editors"><title level="m">KJ</title>, 2:153&#8211;160. In <title level="m">Journals</title> 
+                (as in <title level="m">Transactions</title>, Knight omitted 13 separate passages, or a
+                total of 1,030 words, that appeared in the Coleorton MS,
+                acknowledging his abridgments with ellipses in all cases but two. He
+                apparently preferred a brisk pace and pure description to what he
+                might regard as digressive, personal chitchat.
+                </note>
+             Note that Knight&#8217;s consistent use of the word <hi rend="italic">ramble</hi> suggests
+             that he had discovered the Coleorton Manuscript, which includes that label on its
+             first page (see fig. 3.3).
+            </p>
+            
+            <p>Knight&#8217;s edition remained the established text until 1941, when De Sélincourt included a new version in his own 
+            <title level="m">Journals of Dorothy Wordsworth</title>.
+                <note place="foot"><title level="m">DWJ</title>, 1:413&#8211;22.</note>
+            He explained, &#8220;Professor Knight printed an abbreviated version, [but it] is here given complete
+            from Dorothy&#8217;s manuscript.&#8221;
+                <note place="foot" resp="editors"><title level="m">DWJ</title>, 1:xiv.</note>
+            In fact, however, De Sélincourt sometimes followed Knight&#8217;s
+            text, even while seeming unaware of the Coleorton Manuscript. It is possible that De
+            Sélincourt worked from a third manuscript, now unknown,
+                <note place="foot" resp="editors"><title level="m">Prose</title>, 2:367.
+                </note>
+            but it seems more likely that he drew on DCMS 51 with an
+            eye toward Knight. Instead of retaining Knight&#8217;s title (&#8220;A Mountain Ramble&#8221;), he
+            privileged that used in the <hi rend="italic">Guide to the Lakes</hi>, &#8220;Excursion on
+            the Banks of Ullswater,&#8221; solidifying for twentieth-century readers the formal title
+            we also adopt.
+                <note place="foot" resp="editors">WW&#8217;s 1823 <title level="m">Guide</title> introduces a section called
+                <title level="a">Excursions to the Top of Scawfell and on the Banks of Ulswater</title> in the table of contents,
+                then uses <title level="m">Excursion on the Banks of Ullswater</title> as the running header for pp. 117&#8211;29.
+                </note> 
+            </p>
+           
+                <p>In 1974, Jane Worthington Smyser and W. J. B. Owen undertook
+                the most thorough textual analysis to date of <title level="a">Ullswater Excursion</title> in
+                their <title level="m">Prose Works of William Wordsworth</title>
+                volume 2, Appendix IV, pp. 368&#8211;78). They
+                detailed all available manuscript material, including the fragments and false-start
+                introductions of DCMS 51, endeavoring to illuminate the textual history of William&#8217;s
+                <title level="m">Guide</title>. For tracing textual variants, their work remains
+                indispensable. Unfortunately, <title level="m">Prose Works</title> is available only
+                at high cost or in research libraries. Our electronic edition incorporates many of
+                its findings while adding fresh research, providing manuscript facsimiles and other
+                illustrations, and placing Dorothy Wordsworth in the foreground for a broad
+                audience.
+                </p>
+            </div>
+            
+            <div type="section">
+                <anchor xml:id="Editorial"/>
+                <head type="subhead">D. Editorial Principles</head>
+                
+                <p>As noted previously, this edition includes an <ref target="/editions/DW/editions.2022.DW.Ulls-reading.html">annotated and illustrated text</ref> 
+                plus transcriptions of the <ref target="/editions/DW/editions.2022.DW.Ulls-A.html">two surviving manuscripts</ref> and the  
+                <ref target="/editions/DW/editions.2022.DW.Ulls-C.html">1823 <title level="m">Guide</title> text</ref>, allowing readers to compare. The annotated 
+                text is based on the Coleorton Manuscript, but we supply key omitted passages, known
+                from DCMS 51, in the notes. We retain Dorothy&#8217;s idiosyncratic spelling and
+                punctuation; therefore, readers should be aware that several place names differ from
+                those found on modern maps (e.g., <title level="a">Boar Dale</title> for <title level="a">Boredale,</title> <title level="a">Emont</title> for <title level="a">Eamont,</title>
+                <title level="a">Glenriddin</title> for <title level="a">Glenridding,</title> <title level="a">Gowborough</title> 
+                    for <title level="a">Gowbarrow,</title> <title level="a">Sanwick</title> for
+                <title level="a">Sandwick,</title> and <title level="a">Yanworth</title> for <title level="a">Yanwath</title>). For clarity, we expand abbreviated
+                names&#8212;&#8220;W<hi rend="sup">m</hi>&#8221; to &#8220;William,&#8221; &#8220;Sara H.&#8221; to &#8220;Sara
+                Hutchinson,&#8221; &#8220;T. Wilkinson&#8221; to &#8220;Thomas Wilkinson&#8221;&#8212;and regularize &#8220;Mr.&#8221; and &#8220;Mrs.&#8221; in
+                US style, adding a period and using no superscripts.
+                </p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,368 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">7. Overview of the Rydal Journals
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="secondary">
+                    <name>Nick Mason</name>
+                </author>
+                
+                <editor role="editor">Nick Mason</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.RJ-1-overview</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">7. Overview of the Rydal Journals
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.RJ-1-overview"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">domesticity</term>
+                    <term subtype="tags">spirituality</term>
+                    <term subtype="tags">aging</term>
+                    <term subtype="tags">disability</term>
+                    <term subtype="tags">journal-keeping</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Lavender Earnest</name>
+                <date>2022-01-27</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="essay">
+            <head>7. Overview of the <title level="m">Rydal Journals</title><lb/>
+                <hi rend="small">Nicholas Mason</hi></head>
+                <byline>
+                    <docAuthor>Nicholas mason</docAuthor>
+                    <affiliation>Brigham Young University</affiliation>
+                </byline>
+                
+            <p><hi rend="bold">Dorothy&#8217;s Forgotten Diaries</hi><lb/>
+                Despite Dorothy Wordsworth&#8217;s having long ago joined the pantheon of English diarists,
+                her most sustained effort in the genre, the fifteen compact notebooks from 1824&#8211;35
+                generally identified as the <title level="m">Rydal Journals</title> (<title level="m">RJ</title>), 
+                remains largely unpublished and virtually unknown outside specialized academic circles. While
+                several of the more striking passages from these journals have been referenced in the occasional
+                biography or scholarly article, only one short segment&#8212;a three-week stretch chronicling her
+                1828 trip to the Isle of Man&#8212;has appeared in its entirety.<note place="foot" resp="editors">William Knight published the first 
+                    two weeks of DW&#8217;s Isle of Man tour in his 1889 <title level="m">Life of William Wordsworth</title> and later reprinted these excerpts 
+                    in his 1897 edition of DW&#8217;s journals (Knight, <hi rend="italic">Life</hi>, 3:140&#8211;49; <hi rend="italic">KJ</hi>, 2:277&#8211;82). 
+                    Two generations later, Ernest De Sélincourt included the entire tour in vol. 2 of <title level="m">DWJ</title>.</note> 
+                Accordingly, this concluding section of <title level="m">Dorothy Wordsworth&#8217;s Lake 
+                District</title> marks an important first step toward rectifying this problem, as it
+                features complete transcriptions of the first and last volumes (Notebooks 1 and 15)
+                of what proved to be the last great endeavor of Dorothy’s writing career.
+            </p>
+                
+            <p>Paradoxically, one of Dorothy&#8217;s foremost champions, the early twentieth-century
+                Oxford don Ernest De Sélincourt, is perhaps most culpable for consigning the
+                <title level="m">RJ</title> to obscurity. For in both his landmark study of her life
+                (1933) and his two-volume edition of her journals (1941), De Sélincourt categorically
+                dismissed the <title level="m">RJ</title> as &#8220;eleven shabby little notebooks,&#8221;
+                calling them &#8220;wholly capricious&#8221; in design and displaying &#8220;little of
+                the character of the Alfoxden or Grasmere Journals.&#8221;
+                    <note place="foot" resp="editors">Eight years after disparaging the <title level="m">RJ</title> in his 1933 biography, De
+                     Sélincourt recycled many of his remarks verbatim in the introduction to <title level="m">DWJ</title> (<title level="m">DWB</title>,
+                     368; <title level="m">DWJ</title>, 1: xviii&#8211;xix). A half-century later, his erroneous description of the
+                     <title level="m">RJ</title> notebooks&#8212;which are, in fact, fifteen in number and remarkably well preserved&#8212;received
+                     new life when, without citing their obvious source, Gittings and Manton described DW&#8217;s later diaries as &#8220;eleven worn
+                     and shabby notebooks&#8221; (242).</note>
+                To justify how, in a collection putatively featuring all of Dorothy&#8217;s journals, he
+                included just a tiny fraction of the <title level="m">RJ</title>, he somewhat feebly
+                asserted that the Isle of Man tour is &#8220;the only portion written in consecutive
+                style, as a journal rather than a mere diary.&#8221;<note place="foot" resp="editors"><title level="m">DWJ</title>, 1:xix.</note></p>
+                
+            <p>While assertions like these have undoubtedly suppressed interest in the 
+                <title level="m">RJ</title>, numerous researchers and enthusiasts have nonetheless
+                made pilgrimages to Grasmere to study the original notebooks at the Wordsworth
+                Trust. In the 1970s Carl Ketcham transcribed roughly 20% of the
+                <title level="m">RJ</title> and then summarized his findings in a
+                lengthy article published in <title level="m">The Wordsworth Circle</title>
+                in 1978.<note place="foot" resp="editors">Ketcham, <title level="a">Dorothy Wordsworth&#8217;s Journals.</title> Ketcham&#8217;s partial transcription, which his
+                     family donated to the Wordsworth Trust upon his passing in 1991, proved immensely helpful during the early stages of this project, when we were
+                     still learning to decipher DW&#8217;s handwriting.</note> Where he, like many Wordsworthians of his generation, turned to Dorothy&#8217;s
+                journals primarily for insights into the life and works of her famous brother,
+                subsequent scholars have firmly reinstalled Dorothy at the center of the
+                <title level="m">RJ</title> narrative. In an important 2015 article on
+                <title level="a">Dorothy Wordsworth and Old Age,</title> for instance, Pamela Woof
+                offered what was at the time the most thorough engagement with these later notebooks
+                since Ketcham&#8217;s essay. And, in 2021, a pair of writers based three radically
+                different books on the <title level="m">RJ</title>: a historical novel on Dorothy&#8217;s
+                final years (Kathleen Winter&#8217;s <title level="m">Undersong</title>), a poetry 
+                collection on themes of ageing and illness (Polly Atkin&#8217;s <title level="m">Much 
+                with Body</title>), and an alternative biography incorporating perspectives from
+                disability studies (Atkin&#8217;s <title level="m">Recovering Dorothy</title>).
+            </p>
+                
+            <p>That, in order to write about the journals, each of these researchers had to
+                independently copy out those portions that pertained to their interests underscores
+                the need for a reliable and readily accessible transcription of all fifteen volumes
+                of the <title level="m">RJ</title>. While such an undertaking is beyond the scope of
+                this edition, we are excited to make available for the first time fully annotated
+                and contextualized transcriptions of Notebooks 1 and 15. These bookend volumes of
+                the <title level="m">RJ</title> cover dramatically different life stages, the one a
+                period of robust health and the other of increasing infirmity. Yet they share both a
+                setting (Rydal Mount and its environs) and an abiding emphasis on Dorothy’s love for
+                the people and landscapes of her native region.
+                    <note place="foot" resp="editors">While, as the name implies, nine volumes of the <title level="m">RJ</title> (Notebooks 1, 5&#8211;7, and 11&#8211;15)
+                    are set in and around Rydal, the remaining six chronicle extended trips DW made in the late 1820s to the Midlands (Notebooks 2&#8211;4), Halifax (parts of
+                    Notebooks 6 and 10), the Isle of Man (Notebook 8 and part of Notebook 9), and Leicestershire (much of Notebook 10).</note>
+                Notebook 1 spans December 1824 through December 1825, capturing the daily routines of
+                an unusually vibrant 53-year-old who clearly relished a new phase with fewer domestic
+                responsibilities, relative financial security, and a large circle of friends within
+                walking distance of home. Notebook 15, by contrast, chronicles a comparatively
+                dispiriting six-month period of late 1834 and early 1835, when, having survived
+                several recent brushes with death, Dorothy found her experience narrowed to her
+                memories and what she could see or hear from her upstairs bedroom at Rydal Mount.
+            </p>
+                
+            <p><hi rend="bold">The Text of the <title level="m">Rydal Journals</title></hi><lb/>
+                The typical <title level="m">RJ </title>entry consists of three or four succinct,
+                allusive, and fragmentary descriptions written in the slapdash hand that Dorothy 
+                often called &#8220;my scrawl.&#8221; While full of compelling observations and
+                vibrant descriptions, the <title level="m">RJ</title> are considerably more prone
+                than the <title level="m">GJ</title> to lapsing into bare-bones accounts of the
+                weather, the day&#8217;s events, and the health of Dorothy&#8217;s housemates.
+                This &#8220;sparser&#8221; style of the later journals has prompted Lucy Newlyn to
+                conjecture that their &#8220;main purpose was to serve as a rudimentary mnemonic
+                device&#8221; or perhaps as a &#8220;mood-diary.&#8221;
+                    <note place="foot" resp="editors">Newlyn, 271&#8211;72.</note>
+                For his part, Ketcham discerns a subtle artistry in Dorothy&#8217;s &#8220;customary
+                brevity,&#8221; remarking that the finest entries in the <title level="m">RJ</title>
+                combine &#8220;a vivid, staccato
+                impressionism with the awareness of underlying unity.&#8220;<note place="foot" resp="editors">Ketcham, &#8220;Dorothy Wordsworth&#8217;s Journals,&#8221; 4. Woof has also repeatedly referenced the
+                    &#8220;staccato&#8221; style of DW&#8217;s entries (<hi rend="italic">GJ</hi>, ix; <title level="a">Dorothy Wordsworth and Old
+                    Age,</title> 157).</note></p>
+                
+            <p>In keeping with her former practice, Dorothy typically composed several entries in
+                one sitting rather than writing in her journal every night, and she continued to
+                have no compunctions about using the same notebook as a journal, commonplace book,
+                and expense ledger.
+                    <note place="foot" resp="editors">For the mixed uses of DW&#8217;s earlier notebooks, see Woof, &#8220;Dorothy
+                    Wordsworth&#8217;s Grasmere Journals,&#8221; 173&#8211;74. For the degree to which this was common practice during this era,
+                    see Bellanca, <title level="m">Daybooks of Discovery</title>, 11&#8211;14.</note>
+                Yet, whereas the <title level="m">GJ</title> was explicitly written for her brother
+                William and a few close friends and relations, the <title level="m">RJ</title> seem
+                to have been intended solely for Dorothy&#8217;s own benefit. Alternations and emendations
+                in these journals consistently appear in the same shade of ink and quality of pen as the
+                original entry, suggesting that Dorothy almost invariably corrected her prose as she
+                wrote rather than in some later round of dedicated revision. In consequence, this
+                section varies from other parts of this edition in only noting those textual
+                variants or irregularities that might offer fresh perspectives into Dorothy’s
+                writing process. Above all, our priority has been to provide clean and accurate
+                transcriptions that faithfully preserve Dorothy’s final wording, spelling, and
+                punctuation.
+            </p>
+                
+                <figure>
+                    <graphic url="sites/default/files/imported/editions/DW/images/7A4.jpeg" width="400px" rend="inline"/>
+                    <head>Figure 1:</head>
+                    <figDesc> Page from Notebook 15 (covering 8&#8211;12 November 1834) showing the quality
+                        of handwriting and types of revisions typically found in the <title level="m">RJ</title>.</figDesc>
+                </figure>
+                
+               
+
+               
+                
+            <p>After countless passes through the original manuscripts, we have become sufficiently
+                familiar with Dorothy&#8217;s handwriting, diction, and orthography to now be able to
+                offer confident transcriptions of over 95% of the text. Where our transcription
+                remains tentative, we enclose the elusive word or phrase in editorial brackets and
+                add a question mark (e.g., [night?]). If unable or unwilling to hazard a tentative
+                transcription, we use an empty set of editorial brackets ([ ]) to mark each
+                illegible word. Dorothy&#8217;s idiosyncratic punctuation poses a different set of
+                challenges, as she routinely omits apostrophes in possessives (e.g., &#8220;Marys
+                book&#8221;), treats line breaks as a substitute for end punctuation, and does little to
+                distinguish her short dashes from her commas and periods. While careful to retain
+                her punctuation, we have provided clarifying punctuation marks, always placing them
+                inside editorial brackets (e.g., Mary[&#8217;]s book), as needed.
+            </p>
+                
+            <p>Since even a clean transcription of the
+                <title level="m">RJ</title> can be opaque without some knowledge of the people,
+                places, and events being described, we preface both notebooks with a
+                brief introduction and an extensive biographical index covering individuals who
+                appear most frequently therein. And within the text of the journals, we supply
+                scores of hypertext annotations in hopes of helping readers have an even more
+                engaging experience with Dorothy&#8217;s remarkable accounts of life in Rydal 
+                in the 1820s and 1830s.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
