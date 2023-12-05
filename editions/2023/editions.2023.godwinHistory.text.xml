@@ -1,6 +1,146 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <tei>
-        <teiheader>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Godwin's History of England</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Godwin's History of England</title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="primary">
+                    <name>William Godwin</name>
+                </author>
+                
+                <editor role="editor">Suzanne Barnnett</editor> 
+                <editor role="editor">Kate Bennett Gustafson</editor>
+                <editor role="editor">Jared McGeough</editor>
+                
+               
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2023.godwinHistory.text</idno>
+                <idno type="resource">godwinHistory</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Godwin's History of England
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/godwinHistory/editions.2023.godwinHistory.text"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Godwin's History of England</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -21,23 +161,43 @@
                 <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
                 <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
                 <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; font-size:
-                    12pt;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
-            <revisionDesc>
-                <change>
-                    <name>Jessica Tebo</name>
-                    <date>November 8, 2023</date>
-                    <list>
-                        <item>TEI encoding the text</item>
-                    </list>
-                </change>
-            </revisionDesc>
-        </teiheader>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Jessica Tebo</name>
+                <date>2023-11-10</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
     <text>
         <body>
+            <div type="section">
             <head>Godwin's History of England</head>
             <byline>
                 <docAuthor>William Godwin</docAuthor>
@@ -942,27 +1102,29 @@
                 France: but she was a proud, ill-tempered woman, and led him a disagreeable sort of
                 a life.</p>
             <p> To console him for this misfortune, he attached himself to a very beautiful lady,
-                called Fair Rosamond,<note place="foot" resp="editors">Henry II’s lover
+                called Fair Rosamond,<note place="foot" resp="editors"><p>Henry II’s lover
                         Rosamund Clifford—known in folklore as “Fair Rosamund" or the "Rose of the
                         World”—was the subject of several popular ballads. This apocryphal story
                         about her death by posion became a popular motif in her legend. For example,
-                        the seventeenth-century broadside ballad <ref target="http://ebba.english.ucsb.edu/isize-reduced.php?h=480&amp;w=655&amp;ueid=Pepys_1_0498-0499_iBase.jpg">“A Lamentable Ballad of Fair Rosamond, King Henry the Second's Concubine, Who was put to death by Queen Elinor, in Woodstock Bower near Oxford”</ref> includes the story of the poison:
-                    <div type="poetry">
-                    <lg type="stanza">
-                    <l>And down along her [Rosamund’s] comely face,</l>
-                    <l> proceeded many a tear:</l>
-                    <l>But nothing could this furious Queen,</l>
-                    <l> therewith appeased be,</l>
-                    <l>The cup of deadly poyson strong,</l>
-                    <l> as she sat on her knee.</l>
-                    <l>She gave this comely Dame to drink,</l>
-                    <l> who took it in her hand,</l>
-                    <l>And from her bended knee arose,</l>
-                    <l> and on her feet did stand:</l>
-                    <l>And casting up her eyes to heaven,</l>
-                    <l> she did for mercy call,</l>
-                    <l>And drinking up the poyson strong,</l>
-                    <l> her life she lost withal.</l></lg></div></note> 
+                        the seventeenth-century broadside ballad 
+                    <ref target="http://ebba.english.ucsb.edu/isize-reduced.php?h=480&amp;w=655&amp;ueid=Pepys_1_0498-0499_iBase.jpg">
+                        “A Lamentable Ballad of Fair Rosamond, King Henry the Second's Concubine, Who was put to death by Queen Elinor, in Woodstock Bower near Oxford”</ref> 
+                    includes the story of the poison:</p>
+                    <p>
+                    And down along her [Rosamund’s] comely face,<lb/>
+                    proceeded many a tear:<lb/>
+                    But nothing could this furious Queen,<lb/>
+                    therewith appeased be,<lb/>
+                    The cup of deadly poyson strong,<lb/>
+                    as she sat on her knee.<lb/>
+                    She gave this comely Dame to drink,<lb/>
+                    who took it in her hand,<lb/>
+                    And from her bended knee arose,<lb/>
+                    and on her feet did stand:<lb/>
+                    And casting up her eyes to heaven,<lb/>
+                    she did for mercy call,<lb/>
+                    And drinking up the poyson strong,<lb/>
+                    her life she lost withal.</p></note> 
                 by whom he had
                 several children: queen Eleanor was very jealous of her; and, as the story goes, the
                 king made a bower for her to live in at Woodstock in the midst of a labyrinth, so
@@ -2010,7 +2172,7 @@
                 of the monasteries, demolished by Henry VIII in his rage against the pope.</p>
             
             <p><hi rend="center">MARY.<lb/>
-            1553.<br/>
+            1553.<lb/>
             BLOODY QUEEN MARY BURNED THREE HUNDRED PROTESTANTS IN FOUR YEARS,
                 BECAUSE THEY DID NOT THINK JUST AS SHE DID, AND WOULD NOT TELL LIES ABOUT the
                 MATTER.</hi></p>
@@ -2046,7 +2208,7 @@
             </p>
             
             <p><hi rend="center">ELIZABETH.<lb/>
-            1558.<br/>
+            1558.<lb/>
             QUEEN ELIZABETH OF ALL HER SEX HAD A GENIUS BEST FITTED TO GOVERN; BUT SHE WAS APT TO
                 SWEAR, AND BOX HER MINISTERS' EARS: IN HER TIME WAS THE SPANISH ARMADA.</hi></p>
            
@@ -3060,11 +3222,11 @@
                 and many other nations are followers of Mahomet: their Bible is a book, called the
                 Alcoran, written by Mahomet. [p. 36, 62, 154.] [end 178]</p>
             
-            <p>HEATHEN GODS.<lb/>
-                <div class="row">
-                    <div class="column left" id="ledger"> 
-                        <ul>
-                            <li>Druidical<lb/>
+            <p>HEATHEN GODS.</p>
+                
+                     
+                       <p>
+                            Druidical<lb/>
                                 [p. 13]<lb/>
                                 [add in space]<lb/>
                                 [add in space]<lb/>
@@ -3078,13 +3240,12 @@
                                 Saxon<lb/>
                                 [p. 20]<lb/>
                                 [add in space]
-                                </li>
-                        </ul>
-                    </div>
+                                
+                       </p>
+              
                     
-                    <div class="column right" id="ledger">
-                        <ul>
-                            <li>
+                    
+                    <p>
                                 Sun<lb/>
                                 Moon<lb/>
                                 Stars.<lb/>
@@ -3099,12 +3260,10 @@
                                 Thor<lb/>
                                 Friga<lb/>
                                 Sater.
-                            </li>
-                        </ul>
+                    </p>
                         
-                    </div>
-                </div>
-            </p>
+                    
+
             
            
             
@@ -3775,49 +3934,29 @@
             <p>WILLIAM I.<lb/>
             Doomsday-Book: an account of all the estates in England.</p>
                 
-                <p>HENRY II.<lb/>
-                <div class="row">
-               <div class="column left" id="ledger"> 
-                   <ul>
-                       <li>Robert Wace,<lb/>
-                           Benedict St. More.</li>
-                   </ul>
-               </div>
+                <p>HENRY II.</p>
+                <p>Robert Wace,<lb/>
+                           Benedict St. More.</p>
+                   
                 
-                    <div class="column right" id="ledger">
-                        <ul>
-                            <li>
+                    <p>
                                 These authors wrote<lb/>
                                 their poems in French.  
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
+            
                 </p>
                         
-                <p>Joseph of Exeter:<lb/>
-                    <div class="row">
-                        <div class="column left" id="ledger"> 
-                            <ul>
-                                <li>poet<lb/>
+                <p>Joseph of Exeter:</p>
+                    <p>
+                               poet<lb/>
                                     John of Salisbury:<lb/>
                                 prose-writer.
-                                </li>
-                            </ul>
-                        </div>
+                    </p>
                         
-                        <div class="column right" id="ledger">
-                            <ul>
-                                <li>
+                       <p>
                                     These authors were<lb/>
                                     monks, and wrote<lb/>
                                     in Latin.
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
+                   
                 </p>
                    
                 
@@ -4000,7 +4139,8 @@
                 Sheets, for ladies who wish to use them as Ornaments for Screens; and may be had,
                 either in a peculiarly delicate style of colouring, or plain by those who prefer
                 colouring them for themselves.</hi></p>
+            </div>
         </body>
     </text>
-    </tei>
+    
 </TEI>
