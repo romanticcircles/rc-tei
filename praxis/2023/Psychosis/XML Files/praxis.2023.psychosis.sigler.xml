@@ -1,43 +1,211 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
             <titleStmt>
-                <title/>
-                <author>David Sigler</author>
+                
+                <title type="main"><!-- Romantic Psychosis --></title>
+                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a"><!-- “The Lime Trees of <hi rend="italic">Aurora Leigh</hi>: Romanticism’s Psychotic
+                Future” -->
+                </title>
+                
+                <author role="primary">
+                    <name><!-- David Sigler --></name>
+                </author>
+                
+                <editor role="editor"><!-- Elizabeth Fay --></editor> 
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition><date>2022-09-01</date></edition>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
             </editionStmt>
             <publicationStmt>
-                <p>unknown</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">praxis.2023.psychosis.sigler</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <idno type="resource">psychosis</idno>
             </publicationStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main"><!-- The Lime Trees of <hi rend="italic">Aurora Leigh</hi>: Romanticism’s Psychotic
+                Future -->
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="praxis/psychosis/praxis.2023.psychosis.sigler"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m"><!-- Romantic Psychosis --></title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">psychosis</term>
+                    <term subtype="tags">regency culture</term>
+                    <term subtype="tags">sexuality</term>
+                    <term subtype="tags">gender</term>
+                    <term subtype="tags">queer theory</term>
+                    
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
         <revisionDesc>
-            <listChange>
-                <change><date>2023-11-02T01:41:54Z</date><name>David Sigler</name></change>
-            </listChange>
+            <change>
+                <!--  Anna Wingfield. 12.6.2023  -->
+                <name>Anna Wingfield</name>
+                <date>12.6.2023</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     <text>
-        <body>
+        <front>
+            <div type="abstract">
             <p>The Lime Trees of <hi rend="italic">Aurora Leigh</hi>: Romanticism’s Psychotic
                 Future</p>
-            <p>David Sigler, University of Calgary</p>
-            <p>dsigler@ucalgary.ca</p>
-            <p>Abstract:</p>
             <p>This essay examines Aurora Leighʼs reactions to an encroaching lime tree in Book I of
-                Elizabeth</p>
-            <p>Barrett Browningʼs 1856 novel in verse, <hi rend="italic">Aurora Leigh</hi>. I
+                Elizabeth Barrett Browningʼs 1856 novel in verse, <hi rend="italic">Aurora Leigh</hi>. I
                 suggest that Aurora's psychotic response to the tree, from the vantage of her
                 domestic prison, can be considered part of Barrett Browningʼs complex reaction to
                 Samuel Taylor Coleridgeʼs poetry and the legacy of male-authored Romantic poetry
@@ -45,23 +213,24 @@
                 work on that topic by Jacques Lacan, I suggest that Barrett Browning develops,
                 through the account of Aurora's paranoid delusion, a feminist poetics capable of
                 situating itself in the future.</p>
+                
             <p>In Book I of Elizabeth Barrett Browning’s 1856 novel in verse <hi rend="italic"
                     >Aurora Leigh</hi>, the eponymous protagonist is sent, upon the death of her
                 father, to England to live with her aunt at Leigh Hall, which she experiences as a
-                    prison.<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
-                            This research has been supported by the Social Sciences and Humanities
+                prison.<note place="foot" resp="author">This research has been supported by the Social Sciences and Humanities
                             Research Council of Canada, by Insight Grant #435-2017-0037Insight Grant
                             #156722. I thank Elizabeth Fay, Kate Singer, Kaz Oishi, and Alan Bewell
                             for their responses to earlier versions of this essay, and Julie Carlson
-                            for her response in this volume.</p></note></hi> Trapped by the
+                            for her response in this volume.</note> Trapped by the
                 ancestral house and the expectations of its residents, Aurora finds pleasure only in
                 the library and its books of English poetry. The literary experience, though, does
                 not stop her from being wary of the nearby lime tree, visible from the window of her
                 study: </p>
-            <p>First, the lime</p>
-            <p>(I had enough, there, of the lime, to be <anchor xml:id="Int_Yb6XK89N"/>sure,–</p>
+                
+            <p>First, the lime (I had enough, there, of the lime, to be sure,–</p>
             <p>My morning-dream was often hummed away</p>
             <p>By the bees in it;). (bk. 1, lines 578–580). </p>
+                
             <p>The allusion is to Samuel Taylor Coleridge’s conversation poem “This Lime-Tree Bower
                 My Prison,” written a half-century prior (1797, published 1800/1817). Like Barrett
                 Browning, Coleridge had used a lime tree and garden bower as figures for domestic
@@ -69,13 +238,10 @@
                 had declared Coleridge “so much the greater” poet than Robert Southey or William
                 Wordsworth, and the “grander” and “intenser genius” than the latter; when
                 corresponding with Sara Coleridge, she gushed with “reverence for the illustrious
-                name you bear, which presented one of the earliest shrines of my hero worship”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"u8c3lSRx","properties":{"formattedCitation":"(Browning and Browning 5:333, 7:123, 10:129; Inboden 147)","plainCitation":"(Browning and Browning 5:333, 7:123, 10:129; Inboden 147)","noteIndex":0},"citationItems":[{"id":2338,"uris":["http://zotero.org/users/71093/items/JSTUVTHB"],"uri":["http://zotero.org/users/71093/items/JSTUVTHB"],"itemData":{"id":2338,"type":"book","title":"The Brownings' Correspondence","publisher":"Wedgestone Press","publisher-place":"Winfield, KS","number-of-volumes":"18","event-place":"Winfield, KS","title-short":"BC","author":[{"family":"Browning","given":"Robert"},{"family":"Browning","given":"Elizabeth Barrett"}],"editor":[{"family":"Kelley","given":"Phillip"},{"family":"Lewis","given":"Scott"},{"family":"Hagan","given":"Edward"}],"issued":{"date-parts":[["1984"]]}},"locator":"5:333, 7:123, 10:129"},{"id":2336,"uris":["http://zotero.org/users/71093/items/K5SWENND"],"uri":["http://zotero.org/users/71093/items/K5SWENND"],"itemData":{"id":2336,"type":"article-journal","title":"Damsels, Dulcimers, and Dreams: Elizabeth Barrett's Early Response to Coleridge","container-title":"Victorian Poetry","page":"129-150","volume":"46","issue":"2","source":"JSTOR","ISSN":"0042-5206","title-short":"Damsels, Dulcimers, and Dreams","author":[{"family":"Inboden","given":"Robin L."}],"issued":{"date-parts":[["2008"]]}},"locator":"147"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Browning
-                and Browning 5: 333, 7: 123, 10: 129; Inboden 147). Coleridge’s stated pleasure in
-                how “a deep radiance lay / Full on the ancient ivy,” may be one of the reasons why
-                Aurora chooses ivy, instead of bay or myrtle, for her self-made poetic crown
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"shSnsQIL","properties":{"formattedCitation":"(Coleridge, {\\i{}Lime-Tree} 54\\uc0\\u8211{}55; Barrett Browning 2.40-52)","plainCitation":"(Coleridge, Lime-Tree 54–55; Barrett Browning 2.40-52)","noteIndex":0},"citationItems":[{"id":2700,"uris":["http://zotero.org/users/71093/items/8JE7HSYN"],"uri":["http://zotero.org/users/71093/items/8JE7HSYN"],"itemData":{"id":2700,"type":"article","title":"This Lime-Tree Bower My Prison","publisher":"Romantic Circles","URL":"https://romantic-circles.org/editions/poets/texts/limetree.html","title-short":"Lime-Tree","author":[{"family":"Coleridge","given":"Samuel Taylor"}],"accessed":{"date-parts":[["2019",4,2]]}},"locator":"54-55","label":"line"},{"id":2691,"uris":["http://zotero.org/users/71093/items/2DACNT4U"],"uri":["http://zotero.org/users/71093/items/2DACNT4U"],"itemData":{"id":2691,"type":"book","title":"Aurora Leigh: Authoritative Text, Backgrounds and Contexts, Criticism","publisher":"Norton","publisher-place":"New York","number-of-pages":"565","edition":"1","event-place":"New York","ISBN":"978-0-393-96298-7","note":"OCLC: 832668130","title-short":"Aurora Leigh","language":"eng","author":[{"family":"Barrett Browning","given":"Elizabeth"}],"editor":[{"family":"Reynolds","given":"Margaret"}],"issued":{"date-parts":[["1996"]]}},"locator":"2.40-52","label":"line"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Coleridge,
-                    <hi rend="italic">Lime-Tree</hi> 54–55; Barrett Browning 2.40-–52).</p>
+                name you bear, which presented one of the earliest shrines of my hero worship" (Browning and Browning 5: 333, 7: 123, 10:129; Inboden 147). 
+                Coleridge’s stated pleasure in how “a deep radiance lay / Full on the ancient ivy,” may be one of the reasons why
+                Aurora chooses ivy, instead of bay or myrtle, for her self-made poetic crown (Coleridge, <hi rend="italic">Lime-Tree</hi> 54–55; Barrett Browning 2.40-–52).</p>
+                
             <p>Yet Barrett Browning’s lime-tree bower seems a world away from Coleridge’s. In “This
                 Lime-Tree Bower My Prison,” as soon as the speaker notices how “the solitary
                 humble-bee / Sings in the bean-flower!,” he discovers that being “bereft of promis’d
@@ -83,11 +249,13 @@
                     >Aurora Leigh</hi>, not solitary, are capable only of humming away Aurora’s
                 “morning-dream.” The tree is at the edge of Aurora’s consciousness, not the center:
                 Aurora’s aunt encourages her to sit </p>
-            <p>“in just the chair she placed, / </p>
-            <p>With back against the window, to exclude / </p>
-            <p>The sight of the great lime-tree on the lawn, / </p>
-            <p>Which seemed to have come on purpose from the woods / </p>
-            <p>To bring the house a message.” (ll. 1.484–88). </p>
+                
+            <p>in just the chair she placed,  </p>
+            <p>With back against the window, to exclude  </p>
+            <p>The sight of the great lime-tree on the lawn,  </p>
+            <p>Which seemed to have come on purpose from the woods  </p>
+            <p>To bring the house a message. (ll. 1.484–88). </p>
+                
             <p>The content of that message is never shared with the reader, or and possibly not even
                 with Aurora, but the mood is portentous. If Coleridge advises us that “no sound is
                 dissonant which tells of Life” (l. 78), Barrett Browning, appropriating his imagery
@@ -95,34 +263,27 @@
                 to dissonance itself. Because the chair is turned away from the window, Barrett
                 Browning also captures the anxiety that comes with the willful disregard of that
                 dissonance.</p>
+                
             <p>Generally, critics agree that Barrett Browning venerated Coleridge and was aligning
                 herself with his poetic project. Robin Inboden has most thoroughly tracked Elizabeth
                 Barrett’s debts to Coleridge, and has discussed the relative dearth of critical
                 commentary on those debts; Inboden discusses only the poet’s earlier work under the
                 name Elizabeth Barrett, and so does not mention
-                <hi rend="italic" xml:space="preserve">Aurora Leigh </hi>or its lime-tree bower
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"oyJvEApK","properties":{"formattedCitation":"(Inboden 129)","plainCitation":"(Inboden 129)","noteIndex":0},"citationItems":[{"id":2336,"uris":["http://zotero.org/users/71093/items/K5SWENND"],"uri":["http://zotero.org/users/71093/items/K5SWENND"],"itemData":{"id":2336,"type":"article-journal","title":"Damsels, Dulcimers, and Dreams: Elizabeth Barrett's Early Response to Coleridge","container-title":"Victorian Poetry","page":"129-150","volume":"46","issue":"2","source":"JSTOR","ISSN":"0042-5206","title-short":"Damsels, Dulcimers, and Dreams","author":[{"family":"Inboden","given":"Robin L."}],"issued":{"date-parts":[["2008"]]}},"locator":"129"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(129).
+                <hi rend="italic">Aurora Leigh </hi> or its lime-tree bower (129).
                 Critics who have noted the echoes of “This Lime-Tree Bower” in <hi rend="italic"
                     >Aurora Leigh</hi> specifically have presented Barrett Browning as a relatively
                 uncritical admirer of Coleridge’s poem. For Maureen Thum, the allusion to
                 Coleridge’s poem begins the “mental process of Aurora’s awakening,” helping her find
-                “a new alternative view of female identity”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"uj8rSYY0","properties":{"formattedCitation":"(Thum 89)","plainCitation":"(Thum 89)","noteIndex":0},"citationItems":[{"id":2305,"uris":["http://zotero.org/users/71093/items/Y3HYBACN"],"uri":["http://zotero.org/users/71093/items/Y3HYBACN"],"itemData":{"id":2305,"type":"chapter","title":"Challenging Traditionalist Gender Roles: The Exotic Woman as Critical Observer in Elizabeth Barrett Browning's <i>Aurora Leigh</i>","container-title":"The Foreign Woman in British Literature: Exotics, Aliens, and Outsiders","collection-title":"Contributions in Women's Studies","collection-number":"171","publisher":"Greenwood Press","publisher-place":"Westport","page":"79-93","source":"Google Books","event-place":"Westport","ISBN":"978-0-313-30928-1","note":"Google-Books-ID: MyTQNOCsRU8C","title-short":"Challenging Traditionalist Gender Roles","author":[{"family":"Thum","given":"Maureen"}],"editor":[{"family":"Button","given":"Marilyn"},{"family":"Reed","given":"Toni"}],"issued":{"date-parts":[["1999"]]}},"locator":"89"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(89).
-                In Thum’s reading,
-                <hi rend="italic" xml:space="preserve">Aurora Leigh </hi>effectively replicates the
+                “a new alternative view of female identity” (89). In Thum’s reading,
+                <hi rend="italic">Aurora Leigh </hi>effectively replicates the
                 trajectory of Coleridge’s lime-tree fantasy, attuning us to “the implicit call of
                 the natural world beyond the conventions of the house and the narrowness even of the
-                attached garden”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"Fj2zSLU8","properties":{"formattedCitation":"(Thum 88)","plainCitation":"(Thum 88)","noteIndex":0},"citationItems":[{"id":2305,"uris":["http://zotero.org/users/71093/items/Y3HYBACN"],"uri":["http://zotero.org/users/71093/items/Y3HYBACN"],"itemData":{"id":2305,"type":"chapter","title":"Challenging Traditionalist Gender Roles: The Exotic Woman as Critical Observer in Elizabeth Barrett Browning's <i>Aurora Leigh</i>","container-title":"The Foreign Woman in British Literature: Exotics, Aliens, and Outsiders","collection-title":"Contributions in Women's Studies","collection-number":"171","publisher":"Greenwood Press","publisher-place":"Westport","page":"79-93","source":"Google Books","event-place":"Westport","ISBN":"978-0-313-30928-1","note":"Google-Books-ID: MyTQNOCsRU8C","title-short":"Challenging Traditionalist Gender Roles","author":[{"family":"Thum","given":"Maureen"}],"editor":[{"family":"Button","given":"Marilyn"},{"family":"Reed","given":"Toni"}],"issued":{"date-parts":[["1999"]]}},"locator":"88"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(88).
-                For Delores DeLuise and Michael Timko, Coleridge helps Aurora see that her domestic
+                attached garden” (88). For Delores DeLuise and Michael Timko, Coleridge helps Aurora see that her domestic
                 prison is not so bad, and the presence of the lime tree in the poem ensures that “it
-                is clear that she has not given up the belief in the male poet as genius”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"ztrSchQj","properties":{"formattedCitation":"(DeLuise and Timko 92, 99)","plainCitation":"(DeLuise and Timko 92, 99)","noteIndex":0},"citationItems":[{"id":2307,"uris":["http://zotero.org/users/71093/items/VHVRKYS6"],"uri":["http://zotero.org/users/71093/items/VHVRKYS6"],"itemData":{"id":2307,"type":"chapter","title":"Becoming the Poet: The Feminine Poet-Speaker in the Work of Elizabeth Barrett Browning","container-title":"Virginal Sexuality and Textuality in Victorian Literature: Essays in Environmental Philosophy","publisher":"SUNY Press","publisher-place":"Albany","page":"87-104","source":"Google Books","event-place":"Albany","ISBN":"978-0-7914-1283-1","note":"Google-Books-ID: 0YlG3ItVWf4C","title-short":"Becoming the Poet","language":"en","author":[{"family":"DeLuise","given":"Delores"},{"family":"Timko","given":"Michael"}],"editor":[{"family":"Davis","given":"Lloyd"}],"issued":{"date-parts":[["1993"]]}},"locator":"92, 99"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(92,
-                99). Such readings have been part of a broader effort to examine <hi rend="italic"
-                    >Aurora Leigh</hi>’s debts to British Romanticism
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"c5XekLcH","properties":{"formattedCitation":"(Louis; Kobayashi)","plainCitation":"(Louis; Kobayashi)","noteIndex":0},"citationItems":[{"id":2273,"uris":["http://zotero.org/users/71093/items/XGSDUCWW"],"uri":["http://zotero.org/users/71093/items/XGSDUCWW"],"itemData":{"id":2273,"type":"article-journal","title":"Enlarging the Heart: L. E. L.'s “The Improvisatrice,” Hemans's “Properzia Rossi,” and Barrett Browning's <i>Aurora Leigh</i>","container-title":"Victorian Literature and Culture","page":"1-17","volume":"26","issue":"1","ISSN":"1470-1553, 1060-1503","title-short":"Enlarging the Heart","language":"en","author":[{"family":"Louis","given":"Margot K."}],"issued":{"date-parts":[["1998"]]}}},{"id":2314,"uris":["http://zotero.org/users/71093/items/L3T3XCWQ"],"uri":["http://zotero.org/users/71093/items/L3T3XCWQ"],"itemData":{"id":2314,"type":"article-journal","title":"Feeling Intellect in <i>Aurora Leigh</i> and <i>The Prelude</i>","container-title":"SEL: Studies in English Literature 1500-1900","page":"823-848","volume":"51","issue":"4","source":"Project MUSE","ISSN":"1522-9270","title-short":"Feeling Intellect","language":"en","author":[{"family":"Kobayashi","given":"Emily V. Epstein"}],"issued":{"date-parts":[["2011"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Louis;
-                Kobayashi).</p>
-            <p>I want to challenge the supposition that Barrett Browning, in Book I of <hi
+                is clear that she has not given up the belief in the male poet as genius” (92,99). Such readings have been part of a broader effort to examine <hi rend="italic"
+                    >Aurora Leigh</hi>’s debts to British Romanticism (Louis; Kobayashi). </p>
+            
+                <p>I want to challenge the supposition that Barrett Browning, in Book I of <hi
                     rend="italic">Aurora Leigh</hi>, was paying homage to her Romantic predecessor,
                 for I believe that the subtle differences in tone, divergent strategies of
                 figuration, and striking disruptions in meter mark Barrett Browning’s distance from
@@ -135,13 +296,9 @@
                 relation to Coleridge, can be seen as a belated example of a discursive phenomenon
                 known as “fellow Romantics” or “Romantic interactions,” in which male and female
                 poets share discursive common ground and productively challenge and repeat one
-                another
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"hYjU8zlT","properties":{"formattedCitation":"(Lau; Wolfson)","plainCitation":"(Lau; Wolfson)","noteIndex":0},"citationItems":[{"id":483,"uris":["http://zotero.org/users/71093/items/M7MPUUPV"],"uri":["http://zotero.org/users/71093/items/M7MPUUPV"],"itemData":{"id":483,"type":"chapter","title":"Introduction","container-title":"Fellow Romantics: Male and Female British Writers, 1790-1835","publisher":"Ashgate","publisher-place":"Farnham","page":"1-16","event-place":"Farnham","author":[{"family":"Lau","given":"Beth"}],"editor":[{"family":"Lau","given":"Beth"}],"issued":{"date-parts":[["2009"]]}}},{"id":810,"uris":["http://zotero.org/users/71093/items/ZNQ6JUTD"],"uri":["http://zotero.org/users/71093/items/ZNQ6JUTD"],"itemData":{"id":810,"type":"book","title":"Romantic Interactions: Social Being and the Turns of Literary Action","publisher":"The Johns Hopkins University Press","publisher-place":"Baltimore","source":"Amazon.com","event-place":"Baltimore","ISBN":"0-8018-9473-5","title-short":"Romantic Interactions","author":[{"family":"Wolfson","given":"Susan J."}],"issued":{"date-parts":[["2010",9,17]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Lau;
-                Wolfson). The gender politics being negotiated here are complex: even before Barrett
-                Browning arrives onto the scene, the lime-tree bower was is already displaying
+                another (Lau; Wolfson). The gender politics being negotiated here are complex: even before Barrett Browning arrives onto the scene, the lime-tree bower was is already displaying
                 Coleridge’s willingness to appropriate traditionally feminine poetic spaces
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"ROoODLii","properties":{"formattedCitation":"(Labbe 96; Murray 57)","plainCitation":"(Labbe 96; Murray 57)","noteIndex":0},"citationItems":[{"id":2702,"uris":["http://zotero.org/users/71093/items/TUMM7J89"],"uri":["http://zotero.org/users/71093/items/TUMM7J89"],"itemData":{"id":2702,"type":"book","title":"Romantic Visualities: Landscape, Gender, and Romanticism","publisher":"Palgrave Macmillan","publisher-place":"Houndmills","number-of-pages":"222","source":"Google Books","event-place":"Houndmills","ISBN":"978-0-312-21221-6","note":"Google-Books-ID: e4B5QgAACAAJ","title-short":"Romantic Visualities","language":"en","author":[{"family":"Labbe","given":"Jacqueline M."}],"issued":{"date-parts":[["1998"]]}},"locator":"96"},{"id":2302,"uris":["http://zotero.org/users/71093/items/85I8ZQNM"],"uri":["http://zotero.org/users/71093/items/85I8ZQNM"],"itemData":{"id":2302,"type":"book","title":"Tragic Coleridge","publisher":"Ashgate","publisher-place":"Farnham","number-of-pages":"286","source":"Google Books","event-place":"Farnham","abstract":"To Samuel Taylor Coleridge, tragedy was not solely a literary mode, but a philosophy to interpret the history that unfolded around him. Tragic Coleridge explores the tragic vision of existence that Coleridge derived from Classical drama, Shakespeare, Milton and contemporary German thought. Coleridge viewed the hardships of the Romantic period, like the catastrophes of Greek tragedy, as stages in a process of humanity’s overall purification. Offering new readings of canonical poems, as well as neglected plays and critical works, Chris Murray elaborates Coleridge’s tragic vision in relation to a range of thinkers, from Plato and Aristotle to George Steiner and Raymond Williams. He draws comparisons with the works of Blake, the Shelleys, and Keats to explore the factors that shaped Coleridge’s conception of tragedy, including the origins of sacrifice, developments in Classical scholarship, theories of inspiration and the author’s quest for civic status. With cycles of catastrophe and catharsis everywhere in his works, Coleridge depicted the world as a site of tragic purgation, and wrote himself into it as an embattled sage qualified to mediate the vicissitudes of his age.","ISBN":"978-1-317-00834-7","note":"Google-Books-ID: twqgCwAAQBAJ","language":"en","author":[{"family":"Murray","given":"Chris"}],"issued":{"date-parts":[["2013"]]}},"locator":"57"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Labbe
-                96; Murray 57). Barrett Browning might be wresting back this space for the women’s
+                (96; Murray 57). Barrett Browning might be wresting back this space for the women’s
                 side; yet in doing so, she is developing a complex response to the immediacy of
                 Coleridge’s verse. Although Barrett Browning repeatedly alludes to Coleridge’s
                 lime-tree bower in Book I of her text, she does so to flatten Coleridge’s poetic
@@ -150,6 +307,7 @@
                 neurosis of the entrapped male poet, who resents being left behind as his friends go
                 walking, then Barrett Browning’s poem can be said to be approaching that persona
                 psychotically.</p>
+                
             <p>It may seem iniquitous to speak of <hi rend="italic">Aurora Leigh</hi> in terms of
                 psychosis. I am not eager to associate one of the most important feminist poems of
                 the nineteenth century with abnormal conditions of the mind and mental illness,
@@ -162,16 +320,11 @@
                 not appear to be anything particularly psychotic about Aurora’s quest to become an
                 artist or transcend the limitations placed upon her—although Daniel Paul Schreber,
                 too, was “clear thinking and sober” in pursuit of what he called “cool intellectual
-                criticism”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"5r6rCQSz","properties":{"formattedCitation":"(Schreber 69)","plainCitation":"(Schreber 69)","noteIndex":0},"citationItems":[{"id":2704,"uris":["http://zotero.org/users/71093/items/22WRBPPM"],"uri":["http://zotero.org/users/71093/items/22WRBPPM"],"itemData":{"id":2704,"type":"book","title":"Memoirs of my Nervous Illness","publisher":"New York Review Books","publisher-place":"New York","event-place":"New York","title-short":"Memoirs","author":[{"family":"Schreber","given":"Daniel Paul"}],"translator":[{"family":"MacAlpine","given":"Ida"},{"family":"Hunter","given":"Richard"}],"editor":[{"family":"MacAlpine","given":"Ida"},{"family":"Hunter","given":"Richard"}],"issued":{"date-parts":[["2000"]]}},"locator":"69"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(69)—and
-                I am not trying to suggest that the character Aurora Leigh, or that the author
+                criticism” (69)-and I am not trying to suggest that the character Aurora Leigh, or that the author
                 Barrett Browning, is especially psychotic. Instead, I will explore the category of
                 “ordinary psychosis”—a psychosis often indistinguishable from ordinarily neurotic
-                states of mind, except insofar as it relates to language and signification
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"6CRRKRLf","properties":{"formattedCitation":"(Vanheule)","plainCitation":"(Vanheule)","noteIndex":0},"citationItems":[{"id":2696,"uris":["http://zotero.org/users/71093/items/4P9CXJM6"],"uri":["http://zotero.org/users/71093/items/4P9CXJM6"],"itemData":{"id":2696,"type":"chapter","title":"On Ordinary Psychosis","container-title":"Lacan on Psychosis: From Theory to Praxis","publisher":"Routledge","publisher-place":"London","page":"77-103","event-place":"London","title-short":"Ordinary Psychosis","author":[{"family":"Vanheule","given":"Stijn"}],"editor":[{"family":"Mills","given":"Jon"},{"family":"Downing","given":"David L."}],"issued":{"date-parts":[["2019"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Vanheule).
-                It is psychosis as a method of resisting and refusing patriarchal law—and, as Todd
-                McGowan reminds us, “The fundamental law is that of the signifier itself”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"rKST8ItC","properties":{"formattedCitation":"(McGowan 48)","plainCitation":"(McGowan 48)","noteIndex":0},"citationItems":[{"id":2694,"uris":["http://zotero.org/users/71093/items/U8F3V83B"],"uri":["http://zotero.org/users/71093/items/U8F3V83B"],"itemData":{"id":2694,"type":"chapter","title":"The Psychosis of Freedom: Law in Modernity","container-title":"Lacan on Psychosis: From Theory to Praxis","publisher":"Routledge","publisher-place":"London","page":"47-77","event-place":"London","title-short":"The Psychosis of Freedom","author":[{"family":"McGowan","given":"Todd"}],"editor":[{"family":"Mills","given":"Jon"},{"family":"Downing","given":"David L."}],"issued":{"date-parts":[["2019"]]}},"locator":"48"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(48).
+                states of mind, except insofar as it relates to language and signification (Vanheule). It is psychosis as a method of resisting and refusing patriarchal law—and, as Todd
+                McGowan reminds us, “The fundamental law is that of the signifier itself” (48).
                 So, by my use of <hi rend="italic">“psychosis</hi>,” in this essay, I merely mean to
                 indicates that <hi rend="italic">Aurora Leigh</hi> understands figuration and
                 meaning quite differently from Coleridge, and that those differences, taken as a
@@ -182,16 +335,15 @@
                 to situate its protagonist in time. Mary Mullen has shown how, “by representing
                 multiple, overlapping timescapes,
                 <hi rend="italic" xml:space="preserve">Aurora Leigh </hi>questions the dominance of
-                linear, progressive time”
-                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"gDDu4EJl","properties":{"formattedCitation":"(Mullen 64)","plainCitation":"(Mullen 64)","noteIndex":0},"citationItems":[{"id":2460,"uris":["http://zotero.org/users/71093/items/S8966QZL"],"uri":["http://zotero.org/users/71093/items/S8966QZL"],"itemData":{"id":2460,"type":"article-journal","title":"Two Clocks: <i>Aurora Leigh</i>, Poetic Form, and the Politics of Timeliness","container-title":"Victorian Poetry","page":"63-80","volume":"51","issue":"1","archive":"MLA International Bibliography","note":"See document for quotations.","title-short":"Two Clocks","language":"English","author":[{"family":"Mullen","given":"Mary"}],"issued":{"date-parts":[["2013"]]}},"locator":"64"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(64).
-                The strange temporality of <hi rend="italic">Aurora Leigh</hi>’s Book I in
+                linear, progressive time” (64). The strange temporality of <hi rend="italic">Aurora Leigh</hi>’s Book I in
                 particular, which arises from its interactions with Coleridge’s text at the level of
                 figuration, proves confining for Aurora but enables Barrett Browning to build on a
                 tradition of counter-temporal women’s writing inherited from Romantic-era women
                 writers like Catherine Macaulay, Mary Wollstonecraft, Charlotte Smith, and Mary
                 Shelley. Psychosis, in my reading of the poem, is less a medical or psychiatric
                 diagnosis than a way of relating to language, male-authored poetry, and time.</p>
-            <p rend="No Spacing">Aurora dreads that the lime tree, and thus perhaps by extension the
+                
+            <p>Aurora dreads that the lime tree, and thus perhaps by extension the
                 English poetic tradition, may want something from her, and she hesitates to
                 contemplate the tree or turn her chair that waytowards it. In what could easily be
                 described as a paranoid delusion, she maintains that the tree has come from the
@@ -980,6 +1132,6 @@
                 Downing. Routledge, 2019, pp. 77–103.</p>
             <p rend="Bibliography">Wolfson, Susan J. <hi rend="italic">Romantic Interactions: Social
                     Being and the Turns of Literary Action</hi>. The Johns Hopkins UP, 2010.</p>
-        </body>
+        </front>
     </text>
 </TEI>
