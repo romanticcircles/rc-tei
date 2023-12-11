@@ -1,6 +1,147 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <tei>
-        <teiheader>
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main"><!-- Romantic Psychosis --></title>
+                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Introduction: Psychosis and/as Cultural Crisis
+                </title>
+                
+                <author role="primary">
+                    <name>Elizabeth Fay</name>
+                </author>
+                
+                <editor role="editor">Elizabeth Fay</editor> 
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">praxis.2023.psychosis.intro</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <idno type="resource">psychosis</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction: Psychosis and/as Cultural Crisis
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="praxis/psychosis/praxis.2023.psychosis.intro"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romantic Psychosis</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -21,31 +162,43 @@
                 <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
                 <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
                 <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; font-size:
-                    12pt;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
-            
-            <!-- deleted the Nines information and the profile description -->
-            
-            <revisionDesc>
-                <change>
-                    <name><!-- coder name --></name>
-                    <date> <!-- date coded --></date>
-                    <list>
-                        <item>TEI encoding the text</item>
-                    </list>
-                </change>
-            </revisionDesc>
-        </teiheader>
-   
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Wingfield</name>
+                <date>12.10.2023</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
         <text>
-        <front>
-            <div type="abstract">
-                <p>“Psychosis and/as Cultural Crisis” introduces and contextualizes the relation between certain kinds of individual and cultural psychotic expressions during the Regency and George III’s comportment as the “mad king,” behavior tinged with psychotic overtones. “Psychosis” and “psychotic” will be used in this volume primarily to refer to Jacques Lacan’s theoretical explanation of psychosis as a psychic disorder; these terms will also be extended to the cultural arena in a way that his lectures in <hi rend="italic">Seminar III</hi> already hint at. For society during the Regency, challenges to legitimacy and authority caused by the king’s madness reappear traumatically as psychotic cultural expression, literary expression, and the spirit of the cultural moment. Underlying the arguments of this volume is our conviction that the Regency serves analogically to inform our understanding of American life during the Trump regime. In that the Regency is the most concentrated period of the Romantic age for psychotic expression, it is a fitting historical and cultural parallel for what was a prevailing sense of psychosis—that is, of a failed Symbolic in which words have little meaning—in life under Trump. To familiarize readers with Lacanian concepts relevant to discussions of psychotic cultural and aesthetic expression, the introduction also provides a summary explanation of Lacan’s theory of psychosis as a psychical disorder that he finds to be revelatory.</p>
-            </div>
-            </front>
         <body>
             <div type="essay">
                 <head>Introduction: Psychosis and/as Cultural Crisis</head>
@@ -53,14 +206,8 @@
                     <docAuthor>Elizabeth Fay</docAuthor>
                     <affiliation>University of Massachusetts, Boston</affiliation>
                 </byline>
-            
-            
-            
-            
-            
-            
-          
-            <p><hi rend="italic">Romantic Psychosis</hi> begins with the premise that the Trump White House regime
+           
+            <p>  <hi rend="italic">Romantic Psychosis</hi> begins with the premise that the Trump White House regime
                     evinces certain similarities of culturally significant psychotic behavior and
                     psychotic effects between our own historical moment and that of the Regency,
                     with the years leading up to the Regency signaling what we might term
@@ -94,7 +241,7 @@
                 whose phallic loss registers a shattering or rejection of the Symbolic in favor of 
                 hallucinatory irruptions into the communal reality: an irrelevant throne, a failed governmental structure.</p>
             
-                <p>“Romantic psychosis” names this cultural expression of a
+                <p> “Romantic psychosis” names this cultural expression of a
                     lost leader during the Romantic period, in which psychosis revealed in
                     celebrated eccentric behaviors is both embraced by society and critiqued by
                     disquieted writers and poets. The Regent’s narcissism—revealed in his
@@ -117,7 +264,7 @@
                     linguistic or cultural, and in a hallucinated reality is symptomatic of
                     psychosis in a way that this volume explores.</p>
             
-                <p>George III’s disease was both physical and mental:
+                <p> George III’s disease was both physical and mental:
                     diagnosed now as either porphyria or arsenic poisoning or both, it produces
                     bodily and mental symptoms that caused both Parliament and the royal household
                     to treat his increasingly arbitrary dictates and behaviors as “madness” and to
@@ -147,7 +294,7 @@
                             House communiques and tweets (see Asawin Suebsaeng).
                 </note></p>
                 
-            <p>I will remark on the present-past comparison a few more
+            <p>  I will remark on the present-past comparison a few more
                     times here, although this is not our principal focus in the volume. Trump’s
                     tweets and verbal habits during public speeches and televised appearances on
                     Fox—which could all too easily be read as Freudian slips and usually are—often
@@ -167,7 +314,7 @@
                 psychosis that shadows politically pathological neurosis, the instabilities of mind and governance, 
                 the polity and the (whimsical?) object of desire, and the specter of the postword that hung over the Regency and that haunts us again today.</p>
                 
-            <p>Much has been said of the collapse of “truth” as a category in our own time. What registers 
+            <p> Much has been said of the collapse of “truth” as a category in our own time. What registers 
                 even more perhaps is the loss of value suffered by words themselves: a collapse of language more 
                 generally and the resulting inefficacy of words to do their work. Words, and language, are the territory of the Symbolic. 
                 When the symbolic register ceases to organize our psychic and experiential lives, we have a state of psychosis. 
@@ -188,7 +335,7 @@
                 the postword may already be upon us. However, it has a longer political and literary history and was 
                 especially an aspect of Regency British life and legacy.</p>
                 
-            <p>The question of a psychotic relation to words that appears
+            <p>   The question of a psychotic relation to words that appears
                     to result from a set of neurotic symptoms in the White House can be argued two
                     ways: either it is historically overdetermined (truthiness, post-truth,
                     alternative facts, fake news, and now a version of Hamlet’s response to
@@ -222,7 +369,7 @@
                 certain situatedness—the Regency, Trump’s America—when madness seems to have had a particular role in historical 
                 and cultural production is currently a strong, recognizable part of that roping together of the past and present.</p>
                 
-            <p>What does it mean to live now in these mad times when paranoia is a daily marker of our sense 
+            <p> What does it mean to live now in these mad times when paranoia is a daily marker of our sense 
                 of belonging to an internationality and a global community? Our daily uncertainty has a 
                 contemporaneity with that of the Regency’s sense of instability after the Peace of Amiens collapsed. 
                 Those post-1800 years produced an assertive negativity of a possible future that we associate with 
@@ -249,7 +396,7 @@
                 larger consideration of neurocosmopolitanism and its bodily, biological, and linguistic functions of 
                 signification, agency, boundary permeability, and cultural sedimentations and disruptions.</p>
             
-                <p>In bringing together these essays, <hi rend="italic">Romantic Psychosis</hi> offers ways to engage 
+                <p> In bringing together these essays, <hi rend="italic">Romantic Psychosis</hi> offers ways to engage 
                     Lacan’s conception of psychosis in <hi rend="italic">Seminar III</hi> with Romantic texts and lives and to engage 
                     feminist responses to Lacan’s theories, so as to push against some standard assumptions in Romantic studies 
                     concerning the male gaze, body/mind segregation, and past/present noncontinuity. 
@@ -270,7 +417,7 @@
                     knotted together and interlaced in ways that speak to the knots in psychic
                     registers (Imaginary-Real-Symbolic) that Lacan theorizes.</p>
                 
-            <p>More largely, the essays are grounded in the eventfulness of Romanticism. They are premised on the idea 
+            <p> More largely, the essays are grounded in the eventfulness of Romanticism. They are premised on the idea 
                 that what the Romantics developed has great currency for us today. Innovative approaches to recognize and 
                 engage with the female specular gaze, creative ways to grapple with materiality, and expressions of culturally 
                 inscribed psychosis resonate particularly with our own crises of political, environmental, and psychic undoings. 
@@ -280,7 +427,7 @@
                 she also offers a way to think more deeply about what it means to leverage a term like “psychosis” to interrogate adjacencies between 
                 past and present critical times and between language and the law during psychotically destabilized periods of crisis.</p>
                 
-            <p>The law becomes implicitly important for this volume’s
+            <p> The law becomes implicitly important for this volume’s
                     essays precisely because the subject’s relation to the signifier is both to
                     language generally and to the primordial signifier perpetually: that which names
                     the prohibition against the desire for presence. The paternal metaphor, the
@@ -305,7 +452,7 @@
                 signifying structure” (49)—a problem that Brummell in particular discovered quite starkly, although it is 
                 unclear that in his later years he realized the full extent of his disconnection from the law.</p>
                 
-            <p>Law is the irrational prohibition against one’s own desire
+            <p> Law is the irrational prohibition against one’s own desire
                     and thus subtends society’s demand for conformity and for subjects to desire
                     recognition from those in power in order to achieve their own power of
                     recognition. Jane Austen’s Mr. Collins exemplifies the desire for compliance
@@ -373,7 +520,7 @@
                     texts and historical moments in the period that evinces psychosis at either the personal or sociocultural level or both.</p>
            
                 
-                    <p><head>Psychosis, Tout Court</head></p>
+                    <p><head>Psychosis, Tout Court</head>Psychosis, Tout Court</p>
                 
             <p>What follows here is a sketch of Lacan’s theoretical
                     understanding of psychosis as a significant aspect of the human condition in
@@ -816,6 +963,5 @@
                 politico.com/magazine/story/2018/01/10/25th-amendment-trump-216267.</bibl>
             </div>
         </body>
-    </text>
-</tei>
+        </text>
 </TEI>
