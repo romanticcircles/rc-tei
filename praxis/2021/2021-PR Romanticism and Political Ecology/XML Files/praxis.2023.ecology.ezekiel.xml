@@ -2,57 +2,223 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
-                <author>Anna</author>
+                
+                <title type="main"><!-- Romanticism and Political Ecology --></title>
+                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a"><!-- Earth, Spirit, Humanity: Community and
+                    the Nonhuman in Karoline von Günderrode’s “Idea of the Earth” -->
+                </title>
+                <author role="primary">
+                    <name>Joseph Albernaz</name>
+                </author>
+                
+                <editor role="editor"></editor> 
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition><date>2022-08-25</date></edition>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
             </editionStmt>
             <publicationStmt>
-                <p>unknown</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">praxis.2023.political ecology.ezekiel</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <idno type="resource">political ecology</idno>
             </publicationStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main"> Earth, Spirit, Humanity: Community and
+                            the Nonhuman in Karoline von Günderrode’s “Idea of the Earth”
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="praxis/psychosis/praxis.2023.political ecology.ezekiel"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m"><!-- Romanticisim and Political Ecology --></title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
         <revisionDesc>
-            <listChange>
-                <change><date>2023-11-02T02:16:53Z</date><name>Anna</name></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Wingfield</name>
+                <date>12.11.2023</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     <text>
         <body>
-            <p style="text-align: center;"><hi rend="bold">Earth, Spirit, Humanity: Community and
-                    the Nonhuman in Karoline von Günderrode’s “Idea of the Earth”</hi></p>
-            <p>Karoline von Günderrode (1780–1806) has long been recognized as a poet and
+            
+            <p> Karoline von Günderrode (1780–1806) has long been recognized as a poet and
                 paradigmatic figure of the tragic Romantic, but recently her writing has begun to
                 receive attention for its consideration of philosophical questions. Her work is
                 especially promising for its original conceptualizations of death, selfhood, gender,
                 and agency, which Günderrode sites within a metaphysics developed from readings of
                 F. W. J. Schelling, Johann Gottlieb Fichte, Johann Gottfried Herder, Early German
-                Romanticism, and ancient Greek and Indian thought. A Ssecondary literature has
+                Romanticism, and ancient Greek and Indian thought. A secondary literature has
                 emerged on Günderrode’s engagement with Fichte and Schelling (Christmann; Dormann;
-                Nassar), <anchor type="commentRangeStart" n="9"/>her <anchor type="commentRangeEnd"
-                    n="9"/><hi rend="annotation_reference"><note place="comment" resp="#Copyeditor"
-                        n="9"><date when="2022-08-24T21:43:00Z"/><hi rend="background(yellow)">Edit
-                            OK?</hi></note></hi>reimagining of Early German Romantic themes
+                Nassar), her reimagining of Early German Romantic themes
                 (Heimerl; Hilger; Kuzniar), and her contributions to models of identity, especially
                 female identity (Allingham; Battersby; Ezekiel “Metamorphosis”). This paper adds to
-                the growing discussion of Günderrode’s philosophical thought, unpacking Günderrode’s
-                the author’s metaphysics and arguing that the place Günderrode she assigns human
+                the growing discussion of Günderrode’s philosophical thought, unpacking the author's 
+                metaphysics and arguing that the place she assigns human
                 beings in her cosmology requires a reconceptualization of the relationship between
                 human beings and the nonhuman world and the development of communities that include
                 the nonhuman.</p>
+            
             <p> That Günderrode’s work should be a potential source for re-imagining the
-                human-nature relationship is hinted at by her connections with Early German
+                human-nature relationship is hinted at by her connections with early German
                 Romanticism and her influence on American transcendentalism. Her friend Bettina
                 Brentano-von Arnim’s edited collection of their correspondence, <hi rend="italic"
                     >Die Günderode</hi>, was translated into English by Margaret Fuller, and Carol
@@ -66,7 +232,7 @@
                 associated with late Romanticism known as the Heidelberger Kreis. In particular, as
                 Karl Heinz Bohrer has argued, there are parallels between Günderrode’s conception of
                 the self and those of Clemens Brentano and Heinrich von Kleist (“Identität”;
-                <hi rend="italic" xml:space="preserve">Der romantische Brief </hi>75–84, 115–129).
+                <hi rend="italic">Der romantische Brief </hi>75–84, 115–129).
                 Brentano’s and Kleist’s focus on subjective experience is often viewed as part of
                 Romanticism’s “turn inward,” i.e.that is, its move away from attempts to change
                 social relationships towards a focus on the inner, emotional life and experiences of
@@ -76,19 +242,20 @@
                 Ruth Christmann claims that Günderrode’s work was “in accord with developments after
                 1800, which, after the failure of the Early German Romantic attempt at renewal,
                 increasingly sought purchase in a retreat inwards and no longer aimed at connections
-                to society” (119; see also Dormann 14, 240).<hi rend="endnote_reference"><note
-                        place="end"><p rend="endnote text">
-                            <hi style="font-size:12pt" xml:space="preserve">Translations are the author’s, unless stated otherwise. Translations of “Idea of the Earth” and “Idea of Nature” are from Gjesdal and Nassar. Translations of “Letters of Two Friends,” “Story of a Brahmin,” “The true idea of materialism…” and “The Manes” are from Ezekiel, </hi><hi
-                                rend="italic" style="font-size:12pt">Philosophical Fragments</hi><hi
-                                style="font-size:12pt">. Page numbers are not yet available for the
+                to society” (119; see also Dormann 14, 240). <note place="foot" resp="editors">
+                    Translations are the author’s, unless stated otherwise. Translations of “Idea of the Earth” and “Idea of Nature” are from Gjesdal and Nassar. 
+                    Translations of “Letters of Two Friends,” “Story of a Brahmin,” “The true idea of materialism…” and “The Manes” are from Ezekiel, <hi
+                                rend="italic">Philosophical Fragments</hi>. Page numbers are not yet available for the
                                 English translations; references are given to the German in
-                                Günderrode’s collected works.</hi></p></note></hi></p>
-            <p> This paper argues that, rather than rejecting or neglecting social relations,
+                                Günderrode’s collected works.</note> 
+                
+                This paper argues that, rather than rejecting or neglecting social relations,
                 Günderrode’s work presents an ideal of community. This ideal is embedded in the
                 philosophical system that Günderrode was developing up until her death, which
                 includes an account of what human beings are and how they relate to each other and
                 to the nonhuman world.</p>
-            <p>The first part of the paper provides an exposition of Günderrode’s cosmology and the
+            
+            <p> The first part of the paper provides an exposition of Günderrode’s cosmology and the
                 place of human beings within it. Analysis of the unpublished essay “Idea of the
                 Earth” and the closely related epistolary dialogue “Letters of Two Friends” shows
                 that Günderrode presents human beings as embedded in, and the same in kind as, the
@@ -96,16 +263,13 @@
                 that, consistently with this metaphysical picture, Günderrode denies that human
                 beings are justified in adopting a dominating relationship to nature or the nonhuman
                 (or each other). The third part of the paper explores Günderrode’s claim that human
-                beings live in three ways—as animal, as human, and <anchor type="commentRangeStart"
-                    n="21"/>as spirit<anchor type="commentRangeEnd" n="21"/><hi
-                    rend="annotation_reference"><note place="comment" resp="#Copyeditor" n="21"
-                            ><date when="2022-08-24T22:13:00Z"/><hi rend="background(yellow)">Edit
-                            OK (to maintain parallelism)?</hi></note></hi>ually—and considers how
-                these relate to <anchor xml:id="OLE_LINK1"/><anchor xml:id="OLE_LINK2"/>Günderrode’s
+                beings live in three ways—as animal, as human, and as spirit—and considers how
+                these relate to Günderrode’s
                 concept of earth. This part of the investigation reveals that, unlike many other
                 philosophers of the time, who tended to strongly associate human beings and spirit,
                 mind or consciousness, Günderrode disassociates these. </p>
-            <p>The final part of the paper explores how Günderrode’s account translates into
+            
+            <p> The final part of the paper explores how Günderrode’s account translates into
                 concrete ideas about community. I argue that Günderrode’s normative restraint, ideal
                 of harmony, and view of human beings as part of and the same in kind as the rest of
                 nature contribute to a vision of community in which genuine connections can flourish
@@ -115,13 +279,8 @@
                 communities of friends in harmony with nature. On Günderrode’s model, these could
                 potentially grow and eventually, perhaps, enable the emergence of the single,
                 perfect organism she calls the “realized idea of the earth.”</p>
-            <p><anchor type="commentRangeStart" n="26"/><hi rend="bold">1. The</hi><anchor
-                    type="commentRangeEnd" n="26"/><hi rend="annotation_reference"><note
-                        place="comment" resp="#Copyeditor" n="26"><date when="2022-08-24T22:18:00Z"
-                            /><hi rend="background(yellow)" xml:space="preserve">As a digital-only publication, </hi><hi
-                            rend="italic background(yellow)">Romantic
-                        Circles</hi><hi rend="background(yellow)" xml:space="preserve"> automatically numbers each paragraph. For this reason, house style does not allow the numbering of headings so as to avoid confusion for the reader.</hi></note></hi><hi rend="bold" xml:space="preserve"> Idea of the Earth</hi></p>
-            <p>Günderrode’s unpublished fragment “Idea of the Earth” was probably written in 1805,
+          
+            <p> Günderrode’s unpublished fragment “Idea of the Earth” was probably written in 1805,
                 based on references to this piece in her letters (III:272). This dense essay is an
                 intermediate stage between Günderrode’s notes on Schelling, especially the passages
                 “Idea of Nature” (II:398–99) and “The true idea of materialism…” (II:404–6), and the
@@ -135,40 +294,39 @@
                 considered position. Nonetheless, the exposition below takes its starting point from
                 “Idea of the Earth,” which is more detailed and more closely focused on
                 metaphysics.</p>
-            <p>In both “Idea of the Earth” and “Letters of Two Friends,” Günderrode claims that the
+            
+            <p> In both “Idea of the Earth” and “Letters of Two Friends,” Günderrode claims that the
                 world is comprised of “elements,” which join in temporary combinations to form
                 individual entities. When these die or are destroyed, the elements are scattered and
                 can then join together again in different combinations, creating new entities. For
                 Günderrode, “life” is the combination of elements as these entities, while “death”
                 is only a relative term applying to individual entities; by contrast, the elements
-                out of which these are formed do not die:</p>
-            <p>The most intimate mingling of different elements with the highest degree of contact
+                out of which these are formed do not die:
+                
+            <quote>The most intimate mingling of different elements with the highest degree of contact
                 and attraction we call life; to whatever perfection it may have developed it is
                 still only the product of the synthesis of the elements that gestate life. With the
                 dissolution of this synthesis the product also ends, but the life-principle in the
                 elements is immortal; it requires only contact and connection again like before and
                 new life blossoms with all the blooms that we call thought and sensation, and
-                organism and body and soul.</p>
-            <p>Thus life is immortal and surges up and down in the elements, for they are life
+                organism and body and soul.</quote>
+                
+               Thus life is immortal and surges up and down in the elements, for they are life
                 itself. But determinate and individual life is only a life-form given through this
                 determinate connection, attraction and contact, which can last no longer than the
-                connection. (I:446–47; cf. I:359)</p>
-            <p> According to Günderrode, the world we experience is thus comprised of entities that
+                connection. (I:446–47; cf. I:359). According to Günderrode, the world we experience is thus comprised of entities that
                 participate in a cycle of formation and destruction which, at all its stages,
                 manifests the principle of life, just in different ways and forms. </p>
-            <p>Günderrode applies this model of living and dying to all entities, including objects
+            
+            <p> Günderrode applies this model of living and dying to all entities, including objects
                 we usually think of as devoid of life. For Günderrode, living beings such as plants
                 and animals are only higher life-forms that exist on a continuum with supposedly
                 inanimate objects. The beings that we think of as alive have developed from less
                 animated forms of life through the process of repeated combination, dissolution, and
                 recombination, which, Günderrode claims, gradually increases the “life” of the
-                elements and, through these, of the whole: </p>
-            <p><anchor type="commentRangeStart" n="41"/>[E<anchor type="commentRangeEnd" n="41"/><hi
-                    rend="annotation_reference"><note place="comment" resp="#Copyeditor" n="41"
-                            ><date when="2022-09-05T22:48:00Z"/><hi rend="background(yellow)"
-                            style="font-family:Helvetica;font-size:16pt">RC applies CMOS 13.7 and
-                            13.53, which allows silent capitalization changes to the initial letter
-                            in a quotation.</hi></note></hi>]ach mortal gives back to the earth a
+                elements and, through these, of the whole: 
+                
+            <quote>Each mortal gives back to the earth a
                 raised, more developed elemental life, which it cultivates further in ascending
                 forms, and the organism, by assimilating ever more developed elements, must become
                 ever more perfect and universal. Thus the All [<hi rend="italic">Allheit</hi>] comes
@@ -177,23 +335,27 @@
                 elevates and increases, and so by living and dying helps to realize the idea of the
                 earth. Thus however my elements may be dispersed, when they join to what is already
                 living they will elevate it; when they join to those things whose life resembles
-                death, they will animate them. (I:447–48; cf. I:360)</p>
-            <p>At the end of the this above passage, Günderrode likens this process to
+                death, they will animate them. (I:447–48; cf. I:360)</quote>
+                
+                At the end of the this above passage, Günderrode likens this process to
                 reincarnation, adding: “The idea of the Indians of the transmigration of souls
                 corresponds to this opinion[.]” I return to this claim below. Here, I only note that
                 this suggests that Günderrode sees this model as allowing some form of personal
                 survival beyond the death of the individual, although in an altered state.</p>
-            <p>Günderrode maintains that the process of increasing animation through the forming and
+            
+            <p> Günderrode maintains that the process of increasing animation through the forming and
                 re-forming of groups of elements can only stop when and if life has been fully
                 actualized—that is, when all potential life has become real. This, she claims, would
                 take the form of a single organism, which would constitute the realization of what
-                she calls the “idea of the earth”:</p>
-            <p>[E]ach form that [the elements] produce is only a development of their
+                she calls the “idea of the earth”:
+                
+            <quote>Each form that [the elements] produce is only a development of their
                 life-principle. But the earth bears the life-material given back to it again in ever
                 new appearances, until through ever new transformations everything capable of life
                 in it has come to life. This would be when all mass would become organic; only then
-                would the idea of the earth be realized. (I:447; cf. I:359–60)</p>
-            <p>This model has clear connections to the work of Schelling, especially <hi
+                would the idea of the earth be realized. (I:447; cf. I:359–60)</quote>
+                
+            This model has clear connections to the work of Schelling, especially <hi
                     rend="italic">Bruno</hi>, which Günderrode read in 1804. Several of the concepts
                 featured in Günderrode’s metaphysics appear in this text, including “the idea of the
                 earth” (or “idea of earth” as Michael Vater translates <hi rend="italic">Idee der
@@ -211,49 +373,50 @@
                 infinitely more perfect than the living union of the parts of the body[.]”
                 Similarly, Günderrode claims that the kinds of organisms we encounter in our
                 ordinary lives are only approximations to the ultimate organism that would
-                constitute the realized idea of the earth:</p>
-            <p>The earth can therefore only attain its proper being when its organic and inorganic
+                constitute the realized idea of the earth:
+            <quote> The earth can therefore only attain its proper being when its organic and inorganic
                 appearances dissolve in a collective organism,  [. . .…]  where all body would also
                 at the same time be thought, all thinking at the same time body, and a truly
                 transfigured body, without lack or illness and immortal, and thus wholly different
                 from what we call body or material and to which we attribute transience, inertia,
                 illness and deficiency, for this kind of body is, as it were, only a failed attempt
-                by nature to produce that immortal ideal body. (I:448; cf. I:360–61)</p>
-            <p>Thus we should not think of the realization of Günderrode’s idea of the earth as an
+                by nature to produce that immortal ideal body. (I:448; cf. I:360–61)</quote>
+                
+                Thus we should not think of the realization of Günderrode’s idea of the earth as an
                 organism in the ordinary sense. Although the comparison to an organism and
                 Günderrode’s emphasis on the increase of “life” through the progressive forms of its
                 realization suggest that this realization would be some kind of living being, it is
                 characterized most essentially by an identity of form and essence, or body and
                 thought. Günderrode makes this point explicitly: “This perfect unity of essence and
                 form cannot be achieved in <hi rend="italic">separation</hi> and multiplicity 
-                . . . […] because the essence can only be one but the forms are various” (I:448).<hi
-                    rend="endnote_reference"><note place="end"><p> In “Letters of Two Friends,” the
+                . . . […] because the essence can only be one but the forms are various” (I:448).<note place="foot" resp="editors"> In “Letters of Two Friends,” the
                             passage reads: “This perfect sameness of inner essence and form cannot,
                             it seems to me, be achieved in a multiplicity of forms. The essence of
                             the earth is only one, therefore its form may also only be one”
-                            (I:360).</p></note></hi></p>
-            <p>Günderrode also explicitly claims to be uncertain about whether this ultimate
+                            (I:360).</note> </p>
+                
+            <p> Günderrode also explicitly claims to be uncertain about whether this ultimate
                 organism, that is, the realization of the idea of the earth, can or will ever in
-                fact emerge: </p>
-            <p>I do not assert whether the earth will be altogether successful in organizing itself
+                fact emerge: 
+                
+                <quote> I do not assert whether the earth will be altogether successful in organizing itself
                 immortally like this; there may be a disproportion of essence and form in its primal
                 elements that always hinders it from this; and perhaps the totality of our whole
                 solar system is needed to resolve the task of such an equilibrium of essence and
                 form, and perhaps even this does not suffice for it and it is a task for the entire
-                universe. (I:448)<hi rend="endnote_reference"><note place="end"><p
-                            rend="endnote text">
-                            <hi style="font-size:12pt">In “Letters of Two Friends,” the phrase “is
+                universe. (I:448)<note place="foot" resp="author">In “Letters of Two Friends,” the phrase “is
                                 needed to resolve the task of such an equilibrium of essence and
                                 form” is replaced with “is needed to bring about this equilibrium”
-                                (I:361).</hi>
-                        </p></note></hi></p>
-            <p>This statement is significant for a number of reasons, including its suggestion that
+                                (I:361).</note></quote>
+      
+                This statement is significant for a number of reasons, including its suggestion that
                 the earth may itself form part of a larger organism such as the solar system or the
                 universe (at another point, Günderrode refers to “the realized idea of the earth (or
                 of the universe)” [I:449]), and the claim that a “disproportion of form and essence”
                 may exist among the elements that constitute the earth. There is not space to
                 explore the latter claim here, but the question of the role and status of the
                 “earth” in Günderrode’s thought is considered below.</p>
+            
             <p> The picture that emerges from “Idea of the Earth” and “Letters of Two Friends” is of
                 a world in which human beings are not profoundly different in kind from other
                 entities, including objects we usually think of as inanimate. Instead, human beings
@@ -261,8 +424,10 @@
                 nature, and exist on a continuum of liveliness or animation with these other beings.
                 Günderrode’s basic metaphysical picture therefore leaves space to imagine ways of
                 relating to nature, or the nonhuman world, in non-oppositional terms. </p>
+            
             <p><hi rend="bold">2. Perfection versus Exploitation</hi></p>
-            <p>Günderrode’s emphasis on increasing life or animation through the death and
+            
+            <p> Günderrode’s emphasis on increasing life or animation through the death and
                 regeneration of finite beings works against the idea that the human characteristic
                 of mind or consciousness is something that sets human beings apart from nature.
                 Günderrode is not trying to explain how two disparate factors—essence or mind (or
@@ -270,25 +435,26 @@
                 consciousness as emerging within the material world. In other words, these occur on
                 a continuum with aspects of the world that we usually think of as lacking
                 consciousness. Günderrode explains this non-duality in the opening lines of “Idea of
-                the Earth”:</p>
-            <p>The earth is a realized idea, one that is simultaneously effective (force) and
+                the Earth”:
+                
+            <quote>The earth is a realized idea, one that is simultaneously effective (force) and
                 effected (appearance). It is thus a unity of soul and body, of which we call the
                 pole of its activity that it turns outward extension, form, body; the one it turns
                 inwards intension, essence, force, soul. Now, as the whole of the earth only exists
                 through this unification of soul and body, so, too, the individual and smallest
                 things only exist through it and cannot be conceived as split in two, for an outer
                 without an inner, an essence without form, a force without some sort of effect, is
-                not comprehensible. (I:446)<hi rend="endnote_reference"><note place="end"><p
-                            rend="endnote text"
-                            ><hi style="font-size:12pt" xml:space="preserve"> This passage is omitted from “Letters of Two Friends.”</hi></p></note></hi></p>
-            <p>Similarly to Schelling, for Günderrode opposites are not originally separate, but
+                not comprehensible. (I:446)<note place="foot" resp="author"> This passage is omitted from “Letters of Two Friends.”</note></quote>
+                
+                Similarly to Schelling, for Günderrode opposites are not originally separate, but
                 dual aspects or poles of a single thing. This applies to the dualities we think of
                 as essence and form and as mind or soul and body: at root, these are one, like the
                 inside and outside of a single thing, and their full manifestation requires their
                 complete commensurability. Thus, as we saw above, for Günderrode the fully realized
                 idea of the earth is not one in which mind predominates over body, but a state of
                 equilibrium in which these fully penetrate each other: “where all body would also at
-                the same time be thought, all thinking at the same time body[.]”</p>
+                the same time be thought, all thinking at the same time body.”</p>
+            
             <p> Günderrode does imagine a role for human beings in the development of consciousness,
                 and therefore in the emergence of mind or soul in the material. However, we have to
                 search outside “Idea of the Earth” and “Letters” to find support for this claim, and
@@ -302,20 +468,23 @@
                 despite the overt similarities between their work. Günderrode seems to have adapted
                 Schelling’s ideas to fit a philosophical system that she was already in the process
                 of developing when she encountered his thought.</p>
-            <p>In “Story of a Brahmin,” Günderrode claims that the development of “consciousness and
+            
+            <p> In “Story of a Brahmin,” Günderrode claims that the development of “consciousness and
                 thought” from bare matter through human beings and beyond is part of a process of
                 increasing perfection and individuation that will ultimately allow the things of the
                 world to be unified with what she calls, among other things, the “primal force”
-                (Urkraft):</p>
-            <p>[The Brahmin] taught me how in each part of the infinite spirit of nature lies the
+                (Urkraft):
+                
+            <quote>[The Brahmin] taught me how in each part of the infinite spirit of nature lies the
                 aptitude for eternal perfection, how the forces wander through all forms until they
                 develop consciousness and thought in human beings; how from human beings on an
                 infinite series of migrations that lead to ever higher perfection await souls; how
                 eventually, through mysterious ways, they will all unite with the primal force from
                 which they emanated and will become one with it, and still at the same time remain
                 themselves, and thus unite the divinity and universality of the creator with the
-                individuality of the creature. (I:312)</p>
-            <p>As well as indicating that Günderrode views consciousness as developing within the
+                individuality of the creature. (I:312)</quote>
+                
+            As well as indicating that Günderrode views consciousness as developing within the
                 material world, this passage helps clarify the claim in “Idea of the Earth” and
                 “Letters” that “the idea of the Indians of the transmigration of souls corresponds
                 to this opinion[.]” Günderrode views the dissolution of finite beings and their
@@ -324,7 +493,8 @@
                 develops through and beyond human beings towards closer connection with the divine.
                 According to Günderrode, human beings are not the ultimate or even penultimate form
                 in this sequence, but simply one stage of the development of the soul.</p>
-            <p>The idea that human beings are part of a development of the world to consciousness
+            
+            <p> The idea that human beings are part of a development of the world to consciousness
                 and/or towards the divine or the absolute is, of course, not unique to Günderrode.
                 In this, she draws not only on Hindu and Buddhist beliefs, but also on work by her
                 contemporaries and predecessors, including Schelling, Fichte, and the Early German
@@ -332,43 +502,41 @@
                 implication from siting consciousness within the world and developing within it that
                 the nonhuman world should not be viewed as inert or as available for human
                 exploitation. </p>
+            
             <p>The view of the nonhuman world as material that could or should be worked on by human
                 beings, especially through the use of their reason, was widespread at the time
                 Günderrode was writing (as well as before and since). For example, in
-                    <hi rend="italic" xml:space="preserve">The Vocation of </hi><anchor
-                    type="commentRangeStart" n="104"/><hi rend="italic">Man</hi><anchor
-                    type="commentRangeEnd" n="104"/><hi rend="annotation_reference"><note
-                        place="comment" resp="#Copyeditor" n="104"><date when="2022-08-28T12:24:00Z"
-                        />I c<hi rend="background(yellow)">hanged this to match Works Cited
-                            reference.</hi></note></hi><hi rend="italic">Humankind</hi> Fichte
-                states:</p>
-            <p>Nature must gradually enter a condition which allows one to calculate and reckon
+                    <hi rend="italic">The Vocation of Man</hi>Fichte states:
+            <quote>Nature must gradually enter a condition which allows one to calculate and reckon
                 safely on its regular pace, and which keeps its force steady in a definite relation
                 with the power which is destined to control it—the power of man.  [. . . ….]
                 Cultivated lands shall animate and moderate the inert and hostile atmosphere of
                 primeval forests, deserts, and swamps. . . . . […. H]uman power, enlightened and
                 armed by its discoveries, shall control [nature] without effort and peacefully
                 maintain any conquest once it is
-                made.<hi rend="endnote_reference" xml:space="preserve"> </hi>(Fichte 83, trans.
-                Preuss)</p>
-            <p>In this passage, Fichte construes the natural world as “inert” and human beings as
+                made. (Fichte 83) </quote>
+                
+            In this passage, Fichte construes the natural world as “inert” and human beings as
                 “destined” to “control” nature through the use of their reason. We can find similar
                 claims by others, for example Herder (IV:239). Even Novalis and Schlegel, famously
                 concerned with transforming Fichte’s “not-I” into a “you” (Novalis III:430), have
                 been criticized for viewing the nonhuman world as something to be appropriated, or
                 at least worked on and shaped, by a creative subject (Pnevmonidou 273–75; Roetzel
                 370). </p>
-            <p>For Günderrode, by contrast, although human beings have a place in the development of
+            
+            <p> For Günderrode, by contrast, although human beings have a place in the development of
                 both consciousness and the earth, their role is neither to master the nonhuman nor
                 to shape it. Instead, human beings are part of nature and can work on themselves as
                 part of nature’s internal movement towards perfection. In “Idea of the Earth” and
                 “Letters,” we saw how this occurs through the enhancement or increase of life during
                 periods when the elements are organized into living beings, including as human
                 beings: as Günderrode writes in these pieces, “each mortal gives back to the earth a
-                raised, more developed elemental life[.]” </p>
-            <p>The narrator of “Story of a Brahmin” elaborates on the idea of the self-development
-                of the individual within a developing whole:</p>
-            <p>The philosophy that considers every individual as a means for the whole has now
+                raised, more developed elemental life.” </p>
+            
+            <p> The narrator of “Story of a Brahmin” elaborates on the idea of the self-development
+                of the individual within a developing whole:
+                
+            <quote>The philosophy that considers every individual as a means for the whole has now
                 become hateful to me, [the philosophy …] that always asks what use this or that is
                 for the others and considers each as a fruit that has bloomed and ripened in order
                 to be consumed by the whole; that plants the most various natures in one garden, and
@@ -378,8 +546,7 @@
                 a side issue. . . . . [….] Yes, a time of perfection must come, when each being will
                 be harmonious with itself and with the others, when they flow into each other and
                 become one in a great unison, when every melody throws itself into the eternal
-                harmony.</p>
-            <p>Just like health, preservation, propagation are the highest for merely animal life,
+                harmony. Just like health, preservation, propagation are the highest for merely animal life,
                 humanity [<hi rend="italic">Humanität</hi>] in the broadest sense of the word
                 (according to which it also includes morality and culture) is the highest for human
                 beings as human beings; as such, they have humankind [<hi rend="italic"
@@ -390,8 +557,9 @@
                 >menschlich</hi>]—this is its relationship to humankind; spiritually—this is its
                 relationship to the infinite, divine. Whoever does not live in these three ways has
                 a gap in their existence, and something is missing in their aptitudes.
-                (I:310–311)</p>
-            <p>In this passage, Günderrode emphasizes the intrinsic, non-instrumental value of all
+                (I:310–311)</quote>
+                
+            In this passage, Günderrode emphasizes the intrinsic, non-instrumental value of all
                 living (and, on the basis of “Idea of the Earth” and “Letters,” also non-living)
                 things. On Günderrode’s model, while human beings are part of the development and
                 perfecting of nature, their role is not to master the world, nor to cultivate or
@@ -401,7 +569,8 @@
                 end-state of the world is not imposed on or cultivated in nature by human beings,
                 but, if it emerges, will do so through the full self-expression of each of the parts
                 within it, including human beings. </p>
-            <p>One of the most striking characteristics of this model is its normative restraint:
+            
+            <p> One of the most striking characteristics of this model is its normative restraint:
                 the project facing human beings is one of self-cultivation, not cultivation of
                 others, whether human or nonhuman. Nonetheless, Günderrode clearly imagines this
                 self-cultivation of the individual as part of a self-cultivation of the whole,
@@ -412,8 +581,9 @@
                 Günderrode describes in “Story of a Brahmin,” and the differences this reveals
                 between Günderrode’s account and models that associate human beings uniquely with
                 consciousness and spirituality.</p>
+            
             <p><hi rend="bold">3. Being Human</hi></p>
-            <p>In the passage quoted above, Günderrode aligns the animal side of human nature with
+            <p> In the passage quoted above, Günderrode aligns the animal side of human nature with
                 “relationship to (the) earth” (<hi rend="italic">Verhältniß zur Erde</hi>); the
                 human side with “relation to humankind” (<hi rend="italic">Beziehung zur
                     Menschheit</hi>); and the spiritual side with “relation to the infinite, divine”
@@ -422,7 +592,8 @@
                 considers her claims about the relationship of human beings to “humankind” and “the
                 infinite” first, before returning to the animal side of human nature and its
                 relationship to “earth.”</p>
-            <p>In the above passage, Günderrode claims that the human aspect of being human
+            
+            <p> In the above passage, Günderrode claims that the human aspect of being human
                 essentially involves, or essentially <hi rend="italic">is</hi>, relationship to
                 other human beings—to humanity as a whole. As humans, she states, human beings “have
                 humanity as their object.” She also aligns the human aspect of being human with
@@ -431,57 +602,63 @@
                 therefore, morality is specifically something that governs the relations of human
                 beings to each other—in other words.e., morality does not apply to human
                 relationships with “the earth” or with “the infinite, divine.” </p>
-            <p>Nonetheless, both of the latter relationships are also important on Günderrode’s
+            
+            <p> Nonetheless, both of the latter relationships are also important on Günderrode’s
                 account, as she describes in “Story of a Brahmin.” After turning from a worldly life
                 of trade and pleasure, the narrator of this piece first engages in moral thought
-                (I:305) before realizing that participation in the moral world cannot satisfy him: </p>
-            <p>The struggle . . .  […] of the individual with society, of freedom against freedom,
+                (I:305) before realizing that participation in the moral world cannot satisfy him:
+                
+            <quote>The struggle . . .  […] of the individual with society, of freedom against freedom,
                 of singularity against general laws, and of morals against their impediments,
                 stopped occupying and tormenting me so much. For a long time it had already been
                 clear to me that justice is the basis of civil society and morality the basis of
                 human society. These two relations had once satisfied me; I had sought to bring all
                 the points of my mind into contact with them. Now I discovered aptitudes within me
-                that these finite relations would no longer satisfy. (I:307–8)</p>
-            <p>The speaker claims that, whereas social relationships are based on justice (in the
-                case of “civil society”) or morality (in the case of “human society”),<hi
-                    rend="endnote_reference"><note place="end"><p rend="endnote text"
-                                ><hi style="font-size:12pt" xml:space="preserve"> There is not space here to explore the relationship between Günderrode’s ideas of “civil society” and “human society,” and Günderrode does not expand on her interpretation of these concepts. Günderrode was familiar with Kant’s moral thought and these categories may map on to Kant’s distinction between juridico-civil (</hi><hi
-                                rend="italic" style="font-size:12pt">rechtlich-bürgerliche</hi><hi
-                                style="font-size:12pt">) society and ethico-civil (</hi>
-                            <hi rend="italic" style="font-size:12pt">ethisch-bürgerliche</hi><hi
-                                style="font-size:12pt">) or ethical (</hi><hi rend="italic"
-                                style="font-size:12pt">ethische</hi><hi style="font-size:12pt">)
+                that these finite relations would no longer satisfy. (I:307–8)</quote>
+                
+            The speaker claims that, whereas social relationships are based on justice (in the
+                case of “civil society”) or morality (in the case of “human society”),<note place="foot" resp="author"> 
+                    There is not space here to explore the relationship between Günderrode’s ideas of “civil society” and “human society,” 
+                    and Günderrode does not expand on her interpretation of these concepts. Günderrode was familiar with Kant’s moral thought 
+                    and these categories may map on to Kant’s distinction between juridico-civil (<hi
+                                rend="italic">rechtlich-bürgerliche</hi>) society and ethico-civil (
+                            <hi rend="italic">ethisch-bürgerliche</hi>) or ethical (<hi rend="italic"
+                                >ethische</hi>)
                                 society (Kant I.6:94). Whether or not this is the case, Günderrode
                                 here marks a distinction between relationships between human beings
                                 that are governed by different kinds of principles: on the one hand,
                                 rules or laws, perhaps like those in the institutions of the
                                 nation-state and, on the other, moral ideals of how individuals
-                                should behave towards each other.</hi></p></note></hi> these matters
+                                should behave towards each other.</note> these matters
                 do not exhaust the needs of human beings. In other words, not only is the mundane
                 and materialistic business of everyday life not sufficient for a full human
                 existence, but neither is the moral life. </p>
-            <p>Günderrode’s account presents morality as unrelated to the spiritual side of human
+            
+            <p> Günderrode’s account presents morality as unrelated to the spiritual side of human
                 beings, i.e.that is, their relationship to the infinite. Her narrator explains that
                 the aptitudes he has discovered within himself need connection with the infinite,
                 which Günderrode situates beyond the “finite relations” of morals and human society.
-                Her narrator identifies this infinite with “the spirit of nature”:</p>
-            <p>[M]y . . .  […] appetite [sought] an infinite object for its striving; and my inner
+                Her narrator identifies this infinite with “the spirit of nature”:
+                
+            <quote>[M]y . . .  […] appetite [sought] an infinite object for its striving; and my inner
                 sense intimated an invisible and mysterious connection with something that I did not
                 yet know, and to which I would gladly have given a shape and name. . . .  [….] In
                 this longing, in this love the spirit of nature spoke to me. . . . . [… T]he more I
                 listened to it, the clearer it was to me that there was a fundamental force in which
                 everything, visible and invisible, was connected. I named this force primal life,
                 and sought to bring my consciousness into connection with it (for a mysterious and
-                unknown descent from it seemed certain to me)[.] (I:308)</p>
-            <p>Günderrode’s narrator explicitly connects this kind of spiritual relationship with
+                unknown descent from it seemed certain to me)[.] (I:308)</quote>
+                
+            Günderrode’s narrator explicitly connects this kind of spiritual relationship with
                 religion (I:309). He also explicitly
-                <hi rend="italic" xml:space="preserve">disconnects </hi>religion from morality,
-                which, : morality, he emphasizes, belongs to the human realm and not the realm of
+                <hi rend="italic">disconnects </hi>religion from morality,
+                which, he emphasizes, belongs to the human realm and not the realm of
                 the spiritual: “Anyone who needs some sort of religion as a buttress to their
                 morality, their morality is not pure, for according to its nature this must consist
                 in itself. Thus a human being can do without religion and, considered merely as a
                 human being, does not attain its prospects in religion’s territory” (I:310).</p>
-            <p>The infinite with which Günderrode’s narrator seeks a relationship, and which he
+            
+            <p> The infinite with which Günderrode’s narrator seeks a relationship, and which he
                 claims all the world’s religions attempt to disclose (I:309), does not correspond to
                 what is peculiarly human in human beings, (i.e., their moral and civic relations to
                 other human beings). Instead, Günderrode’s narrator aligns this infinite/divine with
@@ -493,7 +670,8 @@
                 during all change and dying. It is at the same time the ground of all things and the
                 things themselves, the condition and the conditioned, the creator and the creature”
                 (I:309). </p>
-            <p>The references to this infinite as “life” and “force,” as well as the claim that it
+            
+            <p> The references to this infinite as “life” and “force,” as well as the claim that it
                 underlies and runs through all things, connect the infinite “ground” of “Story of a
                 Brahmin” to the “All” that Günderrode describes in “Idea of the Earth” and
                 “Letters.” In “Letters,” Günderrode explicitly associates the whole, or the “All,”
@@ -507,8 +685,9 @@
                     >unendlicher Naturgeist</hi>) (I:312) or (as she calls it in “Idea of the Earth”
                 and “Letters”) the “earth-spirit” (<hi rend="italic">Erdgeist</hi>) (I:360, 447,
                 448).</p>
+            
             <p> The above points speak in favor of interpreting the terms “life,” “spirit of
-                    nature,”<hi rend="endnote_reference"><note place="end"><p> Günderrode treats the
+                    nature,”<note place="foot" resp="author">Günderrode treats the
                             term “nature” as roughly synonymous with “spirit of nature,” i.e.that
                             is, not (like “earth”) to describe our world of finite entities, but to
                             refer to the infinite process that underlies it (i.e., like “spirit of
@@ -520,12 +699,13 @@
                             says as he is dying: “I would like to . . .  […] breathe my spirit
                             silently back into silent nature” (I:313); and in “Idea of Nature,”
                             Günderrode writes: , “Nature is an eternal activity, a self producing
-                            product, an ever enduring becoming” (II:398). </p></note></hi> and
+                            product, an ever enduring becoming” (II:398). </note> and
                 “earth-spirit” (as well as several other terms including “essence of the earth,”
                 “god of the earth,” and “the infinite”) as fulfilling the same function in
                 Günderrode’s philosophy. All these terms refer to a single principle or force
                 running through the beings and processes of our world.</p>
-            <p>In some cases, Günderrode seems to attribute a narrower scope to the spirit or
+            
+            <p> In some cases, Günderrode seems to attribute a narrower scope to the spirit or
                 essence of the “earth” than to “life,” “spirit of nature,” or “the infinite.” The
                 latter terms encompass the force, principle or spirit that is unfolding in the
                 entire universe—in everything that exists. By contrast, at some points when
@@ -548,7 +728,8 @@
                 corresponds to “spirit of nature,” “life,” “the infinite” and the other terms she
                 uses to describe the underlying principle or force that is manifested in the beings
                 of the finite world. </p>
-            <p>This ambivalence is likely related to Günderrode’s stated uncertainty about whether
+            
+            <p> This ambivalence is likely related to Günderrode’s stated uncertainty about whether
                 the generative force underlying the succession of finite beings in the world is one
                 that realizes itself in the Earth alone or in all the processes of the universe.
                 This uncertainty causes her to shift back and forth between descriptions of a spirit
@@ -568,7 +749,8 @@
                 and enduring entity, but one that, if it ever appears, will be generated from the
                 existing earth that we know and, furthermore, will emerge through the ordinary
                 processes of temporal existence.</p>
-            <p>Despite the above complication, in general, we can take the terms “life,” “spirit of
+            
+            <p> Despite the above complication, in general, we can take the terms “life,” “spirit of
                 earth,” “spirit of nature,” “the infinite” etc., as they appear in Günderrode’s work
                 to all refer to the same basic concept of a single principle or force that underlies
                 the beings and processes of our world (whether we focus on the planet Earth alone or
@@ -580,7 +762,8 @@
                 would also at the same time be thought, all thinking at the same time body, and a
                 truly transfigured body, without lack or illness and immortal, and thus wholly
                 different from what we call body or material” (I:448).</p>
-            <p>In the unpublished fragment “The Ttrue Iidea of Mmaterialism…,” Günderrode uses
+            
+            <p> In the unpublished fragment “The True Idea of Materialism…,” Günderrode uses
                 different terminology that supports this point. In this piece, she explains that
                 matter “is simple, unchangeable, eternal,” which “contains all things[,]” and she
                 adds: “that through which they are all one is matter, while that through which they
@@ -588,7 +771,8 @@
                 is yet another name for what Günderrode here calls the “principle of all forms” (<hi
                     rend="italic">Prinzip aller Formen</hi>), “worldsoul,” and the “reality of the
                 absolute” (<hi rend="italic">Würklichkeit des Absoluten</hi>) (II:405). </p>
-            <p>Günderrode contrasts this “principle of all forms” with something she calls the
+            
+            <p> Günderrode contrasts this “principle of all forms” with something she calls the
                 “totality of all forms” (<hi rend="italic">Totalität aller Formen</hi>). These terms
                 correspond, respectively, to her later terms “spirit/essence of earth” and “idea of
                 the earth,” as should be clear from the following quote, in which Günderrode again
@@ -599,19 +783,22 @@
                     rend="italic">Formprinzip</hi>]. . . . [.… T]he organic body, the most complete
                 synthesis of form and essence, thinking and being, spirit and body, is its most
                 similar copy” (II:405–406).</p>
-            <p>The contrast between the “principle of all forms” and the “totality of all forms” (or
+            
+            <p> The contrast between the “principle of all forms” and the “totality of all forms” (or
                 the “spirit of earth” and the “idea of the earth,” or the “spirit of nature” and the
                 “idea of nature,” etc.) is between the underlying driving force, principle, and
                 unifying single origin of all the entities in our world (or, in other words, the
                 fundamental process that is ongoing in these entities) and the end-point of this
                 process in a single, perfectly balanced, and harmonious organism. </p>
-            <p>The relationship to the infinite/divine that Günderrode describes as part of human
+            
+            <p> The relationship to the infinite/divine that Günderrode describes as part of human
                 existence in “Story of a Brahmin” is a relationship to the first of these factors:
                 to the infinite “spirit” of earth or nature. The idea of the earth, on the other
                 hand—as explained in more detail below—is a projected end-state that human beings
                 can work towards and begin to realize, especially through new forms of
                 community.</p>
-            <p>There is a third term in this relationship: the “earth” itself. It is this term that
+            
+            <p> There is a third term in this relationship: the “earth” itself. It is this term that
                 Günderrode associates with the third and last aspect of being human described in
                 “Story of a Brahmin”: the animal. While spirituality depends on a relationship to
                 the infinite “life,” “nature,” or “earth-spirit” that exists in all things, the
@@ -625,6 +812,7 @@
                 to earth” is qualitatively different to the spiritual relation to the “earth-spirit”
                 or the “essence of the earth”—that is, the emotional and intuitive experience of
                 connectedness to the principle of life that runs through natural phenomena. </p>
+            
             <p>In some respects, this model reflects ideas current in German philosophy at the time
                 Günderrode was writing. For example, Novalis calls for a change in how human beings
                 relate to the things of the world, including natural forms, that involves perceiving
@@ -635,7 +823,8 @@
                 (Schelling 151). And Fichte describes human beings as combining characteristics of
                 plants, animals, and a specifically human trait of thought, spirituality, or
                 consciousness (Fichte 12).</p>
-            <p>However, as we saw above, unlike these philosophers Günderrode explicitly separates
+            
+            <p> However, as we saw above, unlike these philosophers Günderrode explicitly separates
                 what is specifically human in human existence from spirituality, and spirituality
                 from consciousness and thought, as well as from morality. Being human means,
                 essentially, being moral, and this has no connection to either “earth” or the
@@ -659,14 +848,17 @@
                 development. Thus for Günderrode, while human beings can certainly contribute to a
                 raised, enhanced, and more animated universe by living and by developing themselves,
                 they do this in essentially the same way as any other being.</p>
-            <p>Despite this decentering of what is specifically human in human existence, Günderrode
+            
+            <p> Despite this decentering of what is specifically human in human existence, Günderrode
                 in fact views certain kinds of human relationships as an important part of the
                 process of the development of the world towards its ideal, that is, towards the idea
                 of the earth. In order to understand this, we must turn to Günderrode’s idea of
                 harmony and attempt to understand the role of this idea within her cosmology and her
                 social thought.</p>
+            
             <p><hi rend="bold">4. Community</hi></p>
-            <p>Several commentators have associated Günderrode’s emphasis on relationship to the
+            
+            <p> Several commentators have associated Günderrode’s emphasis on relationship to the
                 infinite with a turn inwards and away from social relationships (Bohrer “Identität”
                 79; Christmann 119; Dormann 14, 240). In the first place, this overlooks the fact
                 that the infinite, for Günderrode, is not a purely spiritual absolute, but the
@@ -679,7 +871,8 @@
                 criticizes for its basis in a view of personal experiences as incommunicable and
                 social interactions as necessarily insincere (<hi rend="italic">Der romantische
                     Brief</hi>, 120). </p>
-            <p>There is some support for this interpretation of Günderrode’s writing. On his way to
+            
+            <p> There is some support for this interpretation of Günderrode’s writing. On his way to
                 understanding the true nature of existence, the narrator of “Story of a Brahmin”
                 tells his listener that “I wrested myself away from all relations with human beings”
                 (I:306), after which he enjoyed a contemplative life in the countryside. His
@@ -690,7 +883,8 @@
                 what would become of [society], if everyone were allowed to kill themselves for it?
                 / Young friend! responded Almor, not everyone can and will do what I did. It does
                 not befit everyone” (I:307). </p>
-            <p>However, Almor does not remain in isolation for long, and the claims that Günderrode
+            
+            <p> However, Almor does not remain in isolation for long, and the claims that Günderrode
                 advocates a turn inward overlooks the new kinds of relationships and communities
                 that she indicates are fostered by an altered relationship to the infinite. In
                 “Story of a Brahmin,” the narrator explains that an old Brahmin “taught me how a
@@ -706,7 +900,8 @@
                 not only includes a closer relationship to the nonhuman world and the spirit that
                 lies behind it, but also involves especially close connections with other human
                 beings. </p>
-            <p>For example, the narrator of “Story of a Brahmin” describes a community of priests
+            
+            <p> For example, the narrator of “Story of a Brahmin” describes a community of priests
                 into whose secrets he must be initiated in order to understand his intimations of
                 infinitude (I:312). One of these priests has such a close connection to the Brahmin
                 that he senses when the old man is dying. The narrator is, furthermore, telling his
@@ -714,10 +909,11 @@
                 of the piece, the narrator has found his own community: he lives with the Brahmin’s
                 daughter, accompanied by palm trees, a stream, and the immortal spirit of the
                 Brahmin. </p>
-            <p>In other pieces, too, Günderrode indicates that an ideal community is formed: (1) on
+            
+            <p> In other pieces, too, Günderrode indicates that an ideal community is formed: (1) on
                 the basis of a relation to the infinite/divine; (2) outside the institutions of
                 civil society or the state (see Licher “Du mußt Dich” 30;
-                <hi rend="italic" xml:space="preserve">Mein Leben </hi>49); and (3) outside a
+                <hi rend="italic">Mein Leben </hi>49); and (3) outside a
                 built-up environment, in proximity to the natural world. For instance, in <hi
                     rend="italic">Muhammad, the Prophet of Mecca</hi>, Muhammad is banished from
                 Mecca with his followers, during which period he appears as a wise and resourceful
@@ -725,16 +921,18 @@
                 conquest of Mecca and return to the city, his tyrannical impulses emerge, and some
                 of the most sympathetic characters in the piece lament his domination of other
                 people (I:193, 197; see Licher,
-                <hi rend="italic" xml:space="preserve">Mein Leben </hi>187–88). In other words, the
+                <hi rend="italic">Mein Leben </hi>187–88). In other words, the
                 ideal community created in the wilderness is lost when Muhammad founds a state with
                 himself as its ruler.</p>
-            <p>In keeping with Günderrode’s normative restraint, she presents Muhammad’s autocracy
+            
+            <p> In keeping with Günderrode’s normative restraint, she presents Muhammad’s autocracy
                 towards the end of the play as both wrongful and antithetical to the good community.
                 As noted above, Günderrode denies that the world is improved by mastering others,
                 whether human or nonhuman. The earth cannot be cultivated through the action of some
                 parts on others, but must develop organically through the natural self-development
                 of all its individual parts. </p>
-            <p>However, that does not mean that this self-development must occur in isolation.
+            
+            <p> However, that does not mean that this self-development must occur in isolation.
                 Günderrode is clear that friendship, love, and connections to others—including
                 nonhuman others—are important to the emergence of a harmonious, organic whole. In
                 the first place, this can involve sharing knowledge of the divine that underlies the
@@ -745,15 +943,17 @@
                 this is not the most fundamental way that relationships between human beings can
                 contribute to the development of the earth towards its organic end-point, as we can
                 see if we return to Günderrode’s basic metaphysical picture. </p>
-            <p>In the first section of this paperoHoHIn In , we saw that, on Günderrode’s model,
+            
+            <p> In the first section of this paper, we saw that, on Günderrode’s model,
                 entities are formed of constellations of elements that break apart as creatures die
                 (or objects break down) and are then reformed into new entities. We also saw that,
                 in this process, the elements, and through them the whole, become more animated,
                 more alive. In “Idea of the Earth,” Günderrode claims that this process is driven by
                 the dual factors of “struggle” (<hi rend="italic">Kampf</hi>) or “exercise” (<hi
                     rend="italic">Übung</hi>) and “laws of affinity” (<hi rend="italic">Gesezen der
-                    Verwantschaft</hi> [<hi rend="italic">sic</hi>]):</p>
-            <p>[W]hen a person is dead, their mixture returns to the substance of the earth, but
+                    Verwantschaft</hi> [<hi rend="italic">sic</hi>]):
+                
+            <quote>[W]hen a person is dead, their mixture returns to the substance of the earth, but
                 that within them that we called force, activity, or rather that of its materials in
                 which the more active pole predominated, reverts to that which is related to it in
                 the earth; the coarser elements likewise seek what is similar to them according to
@@ -763,8 +963,9 @@
                 returning to the earth, like two who have hardened their strength in long struggle
                 are stronger when the struggle has ended than they were before. The elements are
                 like this, for they are alive, and the living force strengthens itself in every
-                exercise. (I:447; cf. I:359)</p>
-            <p>The first factor, struggle, explains how the elements become more animated over time
+                exercise. (I:447; cf. I:359)</quote>
+                
+            The first factor, struggle, explains how the elements become more animated over time
                 (—i.e., through their exercise, including in struggle with each other). The second
                 factor, affinity—which Günderrode elsewhere refers to as “harmony” (<hi
                     rend="italic">Harmonie</hi>) and “something homogenous” (<hi rend="italic">etwas
@@ -775,7 +976,8 @@
                 as all harmonious things are connected in a certain way, whether they are visible or
                 invisible, just as surely we, too, are connected with <hi rend="italic">that
                     part</hi> of the spiritual world that harmonizes with us” (I:33).</p>
-            <p>The teacher adds that this connection is not destroyed by the death of individuals:
+            
+            <p> The teacher adds that this connection is not destroyed by the death of individuals:
                 “The death of a person connected with me in this way does not cancel out this
                 connection. Death is a chemical process, a separation of forces, but no annihilator:
                 it does not tear the bond between me and similar souls” (I:33). On this account, the
@@ -794,7 +996,8 @@
                 reason, it is not surprising that Almor’s description of his community at the end of
                 “Story of a Brahmin” includes not only the Brahmin’s daughter and the dead Brahmin,
                 but also a tree and a spring.</p>
-            <p>Günderrode’s claim that the dead live on in the living is meant literally: The
+            
+            <p> Günderrode’s claim that the dead live on in the living is meant literally: The
                 ability to experience real connections with the dead, as well as nonhuman and even
                 inanimate things (“those things whose life resembles death”), is underpinned by the
                 metaphysical picture outlined above. According to Günderrode, after a person’s
@@ -804,7 +1007,8 @@
                 Eusebio by death, claims that “I consoled myself that our befriended elements,
                 obeying the laws of attraction, would find each other even in infinite space and
                 join with each other” (I:358; see also I:68). </p>
-            <p>A major implication of this model is that the “homogenous” elements in two people, or
+            
+            <p> A major implication of this model is that the “homogenous” elements in two people, or
                 two beings of any kind, that harmonize with each other can join together after death
                 according to the “laws of affinity” to create new, more harmonious forms of life
                 (see, e.g., I:325). Consequently, the constitution of new entities out of the same
@@ -817,7 +1021,8 @@
                 (human and nonhuman) others, as well as self-cultivation in order to be more capable
                 of forming these connections, areis the means by which the beings of the world can
                 gradually come together into a harmonious whole.</p>
-            <p>Günderrode’s ideal for community is based on connections between individuals, and
+            
+            <p> Günderrode’s ideal for community is based on connections between individuals, and
                 includes connections with aspects of the world beyond the human—that is, both
                 nonhuman entities and the universal principle, spirit, force, or life that is
                 manifested in every finite being. This form of community cannot be imposed on people
@@ -835,7 +1040,9 @@
                 made of. In so doing, they not only increase their own “liveliness,” “animation,” or
                 “spirit,” but begin to join together into the interconnected parts of the ultimate
                 organism that would constitute the final order of the earth.</p>
+            
             <p><hi rend="bold">Concluding Remarks on Günderrode and Political Ecology</hi></p>
+            
             <p>Despite its strong commitments to literary and philosophical tropes of its day,
                 Günderrode’s account of human nature and of communities that include both humans and
                 the nonhuman is not as outlandish or outdated as it might at first appear. We accept
@@ -849,7 +1056,8 @@
                 life—whatever we want to call our sense of ourselves as unique living
                 beings—attaches to these atoms, sub-atomic particles, forces, or, in Günderrode’s
                 terminology, “elements.” </p>
-            <p>But this is precisely where Günderrode’s account provides resources for rethinking
+            
+            <p> But this is precisely where Günderrode’s account provides resources for rethinking
                 our relationship, not just to the nonhuman things of the world, but to each other
                 and, ultimately, ourselves. In the first place, this is due to Günderrode’s denial
                 that consciousness is something different to or outside the material world, or even
@@ -866,14 +1074,15 @@
                 as well as to the idea that this gives us some kind of unique role in the world,
                 even—historically in Europe and many forms of Christianity—a special relationship to
                 the divine.</p>
-            <p>However, it must be admitted that, even if we can imagine consciousness in nonhuman
+            
+            <p> However, it must be admitted that, even if we can imagine consciousness in nonhuman
                 animals, and, perhaps, plants, most of us find it a stretch to imagine consciousness
                 attaching to inorganic objects such as rocks, and certainly to atoms or forces.
                 Nonetheless, if we focus on the importance of changing how we imagine the things
                 around (and within) us, rather than on the attempt to develop an ironclad
                 metaphysics, Günderrode’s rethinking of the relationship between humanity and
                 consciousness or spirituality, as well as of the role of humans as moral beings and
-                <hi rend="italic" xml:space="preserve">vis-à-vis </hi>the development of our world,
+                <hi rend="italic">vis-à-vis </hi>the development of our world,
                 provides resources for efforts to rethink our relationship to nature. This may be
                 particularly valuable in light of the current environmental crisis. The roots of the
                 ongoing human-caused devastation of our world in an attitude of human exceptionalism
@@ -887,18 +1096,21 @@
                 circulating around and within human bodies” (ix). In light of the serious, ongoing
                 consequences of viewing non-living things as inert and unfeeling, a metaphysics that
                 rejects this view is at least worth exploring. </p>
+            
             <p>Bennett views the task of her book, not as proving the agentic or conscious
                 properties of matter, but as a partly rhetorical strategy for inducing a less
                 destructive orientation to nature in human beings, a task that she describes as both
-                ontological and political:</p>
-            <p>(1) [T]o paint a positive ontology of vibrant matter, which stretches received
+                ontological and political:
+                
+            <quote>(1) [T]o paint a positive ontology of vibrant matter, which stretches received
                 concepts of agency, action, and freedom sometimes to the breaking point; (2) to
                 dissipate the onto-theological binaries of life/matter, human/animal,
                 will/determination, and organic/inorganic using arguments and other rhetorical means
                 to induce in human bodies an aesthetic-affective openness to material vitality; and
                 (3) to sketch a style of political analysis that can better account for the
-                contributions of nonhuman actants. (x)</p>
-            <p>This is a task to which Günderrode’s ontology, and the account of human sociality
+                contributions of nonhuman actants. (x)</quote>
+                
+                This is a task to which Günderrode’s ontology, and the account of human sociality
                 that she situates within it, can contribute. Günderrode’s emphasis on the intrinsic
                 value of all entities, including human beings, works against an instrumentalizing
                 view of nature as well as against totalizing social or political discourses that
@@ -906,113 +1118,76 @@
                 nonhuman) others. Together with the ideal of harmony, this provides both a goal that
                 we can work towards and a valuable modesty about the extent to which we can bring it
                 about.</p>
-            <p style="text-align: center;"><anchor type="commentRangeStart" n="307"/><hi rend="bold"
-                    >Works Cited</hi><anchor type="commentRangeEnd" n="307"/><hi
-                    rend="annotation_reference"><note place="comment" resp="#Copyeditor" n="307"
-                            ><date when="2022-09-05T22:54:00Z"/><hi rend="background(yellow)">I’ve
-                            silently edited the Works Cited to adhere to MLA style with the
-                            exception of any source addition/deletions.</hi></note></hi></p>
-            <p>Allingham, Liesl. “Countermemory in Karoline von Günderrode’s ‘Darthula nach Ossian’:
-                A Female Warrior, Her Unruly Breast, and the Construction of Her Myth.” <hi
-                    rend="italic">Goethe Yearbook</hi>, vol. 21, 2014, pp. 39–56.</p>
-            <p>Battersby, Christine. “Stages on Kant’s Way: Aesthetics, Morality, and the Gendered
-                Sublime.” <hi rend="italic">Feminism and Tradition in Aesthetics</hi>, edited by
-                Peggy Zeglin Brand and Carolyn Korsmeyer, Pennsylvania State UP, 1995, pp.
-                88–114.</p>
-            <p>Bennett, Jane. <hi rend="italic">Vibrant Matter: A Political Ecology of Things</hi>.
-                Duke UP, 2010.</p>
-            <p>Bohrer, Karl Heinz. “Identität als Selbstverlust. Zum romantischen Subjektbegriff.”
-                    <hi rend="italic">Merkur</hi>, vol. 38, no. 4, 1984, pp. 367–79.</p>
-            <p>———. <hi rend="italic">Der romantische Brief. Die Enstehung ästhetischer
-                    Subjektivität</hi>. Suhrkamp, 1989.</p>
-            <p>Borchardt, E., and J. Wright. “Androgyny: The Search for Wholeness in Karoline von
-                Günderrode and Heinrich von Kleist: Christa Wolf’s Novel <hi rend="italic">Kein Ort.
-                    Nirgends</hi>.” <hi rend="italic">Journal of the Fantastic in the Arts</hi>,
-                vol. 11, no. 3, 2000, pp. 245–56.</p>
-            <p>Christmann, Ruth. <hi rend="italic">Zwischen Identitätsgewinn und Bewußtseinsverlust.
-                    Das philosophisch-literarische Werk der Karoline von Günderrode
-                (1780–1806)</hi>. Lang, 2005.</p>
-            <p>Dallmayr, Fred. <hi rend="italic">Return to Nature? An Ecological
-                Counterhistory</hi>. UP of Kentucky, 2011.</p>
-            <p>Dormann, Helga. <hi rend="italic">Die Kunst des inneren Sinns. Mythisierung der
-                    inneren und äusseren Natur im Werk Karoline von Günderrodes</hi>. Königshausen
-                und Neumann, 2004.</p>
-            <p>Ezekiel, Anna. “Metamorphosis, Personhood, and Power in Karoline von Günderrode.” <hi
-                    rend="italic">European Romantic Review</hi>, vol. 25, no. 6, 2014, pp.
-                773–91.</p>
-            <p>———, editor and translator. <hi rend="italic">Philosophical Fragments</hi>. By
-                Karoline von Günderrode, Oxford UP, forthcoming. </p>
-            <p>Fichte, Johann Gottlieb. <hi rend="italic">The Vocation of Man</hi>. 1800. Translated
-                by Peter Preuss, Hackett, 1987. </p>
-            <p>Gjesdal, Kristin, and Dalia Nassar, editors. <hi rend="italic">Women Philosophers of
+                
+                <div type="citation">
+                    <head>Works Cited</head>
+        
+            <bibl>Allingham, Liesl. “Countermemory in Karoline von Günderrode’s ‘Darthula nach Ossian’: A Female Warrior, Her Unruly Breast, and the Construction of Her Myth.” <hi rend="italic">Goethe Yearbook</hi>, vol. 21, 2014, pp. 39–56.</bibl>
+            
+            <bibl>Battersby, Christine. “Stages on Kant’s Way: Aesthetics, Morality, and the Gendered Sublime.” <hi rend="italic">Feminism and Tradition in Aesthetics</hi>, edited by Peggy Zeglin Brand and Carolyn Korsmeyer, Pennsylvania State UP, 1995, pp. 88–114.</bibl>
+                    
+            <bibl>Bennett, Jane. <hi rend="italic">Vibrant Matter: A Political Ecology of Things</hi>. Duke UP, 2010.</bibl>
+            
+            <bibl>Bohrer, Karl Heinz. “Identität als Selbstverlust. Zum romantischen Subjektbegriff.” <hi rend="italic">Merkur</hi>, vol. 38, no. 4, 1984, pp. 367–79.</bibl>
+                    
+            <bibl>———. <hi rend="italic">Der romantische Brief. Die Enstehung ästhetischer Subjektivität</hi>. Suhrkamp, 1989.</bibl>
+                    
+            <bibl>Borchardt, E., and J. Wright. “Androgyny: The Search for Wholeness in Karoline von Günderrode and Heinrich von Kleist: Christa Wolf’s Novel <hi rend="italic">Kein Ort. Nirgends</hi>.” <hi rend="italic">Journal of the Fantastic in the Arts</hi>, vol. 11, no. 3, 2000, pp. 245–56.</bibl>
+                    
+            <bibl>Christmann, Ruth. <hi rend="italic">Zwischen Identitätsgewinn und Bewußtseinsverlust. Das philosophisch-literarische Werk der Karoline von Günderrode (1780–1806)</hi>. Lang, 2005.</bibl>
+                    
+            <bibl>Dallmayr, Fred. <hi rend="italic">Return to Nature? An Ecological Counterhistory</hi>. UP of Kentucky, 2011.</bibl>
+                    
+            <bibl>Dormann, Helga. <hi rend="italic">Die Kunst des inneren Sinns. Mythisierung der inneren und äusseren Natur im Werk Karoline von Günderrodes</hi>. Königshausen und Neumann, 2004.</bibl>
+                    
+            <bibl>Ezekiel, Anna. “Metamorphosis, Personhood, and Power in Karoline von Günderrode.” <hi rend="italic">European Romantic Review</hi>, vol. 25, no. 6, 2014, pp. 773–91.</bibl>
+            
+            <bibl>———, editor and translator. <hi rend="italic">Philosophical Fragments</hi>. By Karoline von Günderrode, Oxford UP, forthcoming. </bibl>
+                    
+            <bibl>Fichte, Johann Gottlieb. <hi rend="italic">The Vocation of Man</hi>. 1800. Translated by Peter Preuss, Hackett, 1987. </bibl>
+                    
+            <bibl>Gjesdal, Kristin, and Dalia Nassar, editors. <hi rend="italic">Women Philosophers of
                     the Long Nineteenth Century: The German Tradition</hi>. Oxford UP,
-                forthcoming.</p>
-            <p>Heimerl, Joachim. “Dem Tode verfallen: Die Ballade ‘Piedro’ im Kontext des
-                literarischen Werks der Karoline von Günderrode.” <hi rend="italic">Wirkendes
-                    Wort</hi>, vol. 53, no. 3, 2003, pp. 401–16.</p>
-            <p>Herder, Johann Gottfried. <hi rend="italic">Ideen zur Philosophie der Geschichte der
-                    Menschheit. Erster Theil.</hi> Johann Friedrich Hartknoch, 1784.</p>
-            <p>Hilger, Stephanie Mathilde. “Staging Islam: Karoline von Günderrode's Mahomed, der
-                Prophet von Mekka.” <hi rend="italic">Women Write Back: Strategies of Response and
-                    the Dynamics of European Literary Culture, 1790–1805</hi>, Rodopi, 2009, pp.
-                91–118.</p>
-            <p>Kant, Immanuel. “Die Religion Innerhalb der Grenzen der bloßen Vernunft.” 1793. <hi
-                    rend="italic">Kants gesammelte Schriften</hi>. Edited by Königlichen Preußischen
-                Akademie der Wissenschaften. Part I, <hi rend="italic">Werke</hi>, vol. 6, <hi
-                    rend="italic">Die Religion Innerhalb der Grenzen der bloßen Vernunft. Die
-                    Metaphysik der Sitten</hi>. Georg Reimer, 1914.</p>
-            <p>Kastinger Riley, Helene M. “Zwischen den Welten. Ambivalenz und
-                Existentialproblematik im Werk Caroline von Günderrodes.” <hi rend="italic">Die
-                    weiblich Muse: Sechs Essays über künstlerisch schaffende Frauen der
-                    Goethezeit</hi>, Camden House, 1986, pp. 91–119.</p>
-            <p>Kuzniar, Alice. “Labor Pains: Romantic Theories of Creativity and Gender.” <hi
-                    rend="italic">“The Spirit of Poesy”: Essays on Jewish and German Literature and
-                    Thought in Honor of Géza von Molnár</hi>, edited by R. Block and P. Fenves,
-                Northwestern UP, 2000, pp. 74–88.</p>
-            <p>Licher, Lucia Maria. <hi rend="italic">Mein Leben in einer bleibenden Form
-                    aussprechen. Umrisse einer Ästhetik im Werk Karoline von Günderrodes
-                    (1780–1806)</hi>. Winter, 1996.</p>
-            <p>———. “Du mußt Dich in eine entferntere Empfindung versetzen.’ Strategien
-                interkultureller Annäherung im Werk Karoline von Günderrodes (1780–1806). <hi
-                    rend="italic">“Der weibliche multikulturelle Blick.” Ergebnisse eines
-                    Symposiums</hi>, edited by Hannelore Scholz and Brita Baume, Trafo, 1995, pp.
-                21–36.</p>
-            <p>———. “‘Der Völker Schicksal ruht in meinen Busen.’ Karoline von Günderrode als
-                Dichterin der Revolution.” <hi rend="italic">“Der Menschheit Hälfte blieb noch ohne
-                    Recht”. Frauen und die französische Revolution</hi>, edited by Helge Brandes,
-                Deutscher Universitäts Verlag, 1991, pp. 113–32.</p>
-            <p>Nassar, Dalia. “The Human Vocation and the Question of the Earth: Karoline von
-                Günderrode’s Reading of Fichte.” <hi rend="italic">Archiv für Geschichte der
-                    Philosophie</hi>, forthcoming.</p>
-            <p>Nees, Lisette. Letter to Karoline von Günderrode, 17 April 1805. “Karoline von
-                Günderrode in ihrer Umwelt. I,” edited by Max Preitz. <hi rend="italic">Jahrbuch des
-                    Freien Deutschen Hochstifts</hi>, 1962, pp. 208–306.</p>
-            <p>Novalis. <hi rend="italic">Schriften. Zweite, nach den Handschriften ergänzte,
-                    erweiterte und verbesserte Auflage in vier Bänden</hi>. Edited by P. Kluckhohn
-                and R. Samuel, 3 vols., W. Kohlhammer, 1960f.</p>
-            <p>Pattberg, Philipp. “Domination and Control: Europe’s Mastery of Nature in Historic
-                Perspective. <hi rend="italic">Journal of Political Ecology</hi>, vol. 14, 2007, pp.
-                1–9.</p>
-            <p>Pnevmonidou, Elena. “Die Absage an das romantische Ich. Dorothea Schlegels <hi
-                    rend="italic">Florentin</hi> als Umschrift von Friedrich Schlegel’s <hi
-                    rend="italic">Lucinde</hi>.” <hi rend="italic">German Life and Letters</hi>,
-                vol. 58, no. 3, 2005, pp. 271–92.</p>
-            <p>Roetzel, Lisa C. “Feminizing Philosophy.” <hi rend="italic">Theory as Practice: A
-                    Critical Anthology of Early German Romantic Writings</hi>, edited by Jochen
-                Schulte-Sasse, Haynes Horne, and Andreas Michel, U of Minnesota, 1997, pp.
-                361–81.</p>
-            <p>Schelling, Friedrich Wilhelm Joseph. <hi rend="italic">Bruno, or On the Natural and
-                    Divine Principle of Things</hi>. 1802. Edited and translated by Michael Vater,
-                State U of New York P, 1984.</p>
-            <p>Schulz, Karsten A. “Decolonizing Political Ecology: Ontology, Technology and
-                ‘Critical’ Enchantment.” <hi rend="italic">Journal of Political Ecology</hi>, vol.
-                24, 2017, pp. 126–43.</p>
-            <p>Sevin, D., and C. Zeller. <hi rend="italic">Heinrich von Kleist: Perspectives of
-                    Research</hi>. De Gruyter, 2013.</p>
-            <p>Strauss Sotiropoulos, Carol. “Fuller, Goethe, Bettine: Cultural Transfer and Imagined
-                German Womanhood.” <hi rend="italic">Towards a Female Genealogy of
-                    Transcendentalism</hi>, edited by Jana L. Argersinger and Phyllis Cole, U of
-                Georgia P, 2014, 81–101.</p>
+                forthcoming.</bibl>
+                    
+            <bibl>Heimerl, Joachim. “Dem Tode verfallen: Die Ballade ‘Piedro’ im Kontext des literarischen Werks der Karoline von Günderrode.” <hi rend="italic">Wirkendes Wort</hi>, vol. 53, no. 3, 2003, pp. 401–16.</bibl>
+                    
+            <bibl>Herder, Johann Gottfried. <hi rend="italic">Ideen zur Philosophie der Geschichte der Menschheit. Erster Theil.</hi> Johann Friedrich Hartknoch, 1784.</bibl>
+            
+            <bibl>Hilger, Stephanie Mathilde. “Staging Islam: Karoline von Günderrode's Mahomed, der Prophet von Mekka.” <hi rend="italic">Women Write Back: Strategies of Response and the Dynamics of European Literary Culture, 1790–1805</hi>, Rodopi, 2009, pp. 91–118.</bibl>
+            
+            <bibl>Kant, Immanuel. “Die Religion Innerhalb der Grenzen der bloßen Vernunft.” 1793. <hi rend="italic">Kants gesammelte Schriften</hi>. Edited by Königlichen Preußischen Akademie der Wissenschaften. Part I, <hi rend="italic">Werke</hi>, vol. 6, <hi rend="italic">Die Religion Innerhalb der Grenzen der bloßen Vernunft. Die Metaphysik der Sitten</hi>. Georg Reimer, 1914.</bibl>
+                    
+            <bibl>Kastinger Riley, Helene M. “Zwischen den Welten. Ambivalenz und Existentialproblematik im Werk Caroline von Günderrodes.” <hi rend="italic">Die weiblich Muse: Sechs Essays über künstlerisch schaffende Frauen der Goethezeit</hi>, Camden House, 1986, pp. 91–119.</bibl>
+                    
+            <bibl>Kuzniar, Alice. “Labor Pains: Romantic Theories of Creativity and Gender.” <hi rend="italic">“The Spirit of Poesy”: Essays on Jewish and German Literature and Thought in Honor of Géza von Molnár</hi>, edited by R. Block and P. Fenves, Northwestern UP, 2000, pp. 74–88.</bibl>
+                    
+            <bibl>Licher, Lucia Maria. <hi rend="italic">Mein Leben in einer bleibenden Form aussprechen. Umrisse einer Ästhetik im Werk Karoline von Günderrodes (1780–1806)</hi>. Winter, 1996.</bibl>
+                    
+            <bibl>———. “Du mußt Dich in eine entferntere Empfindung versetzen.’ Strategien interkultureller Annäherung im Werk Karoline von Günderrodes (1780–1806). <hi rend="italic">“Der weibliche multikulturelle Blick.” Ergebnisse eines Symposiums</hi>, edited by Hannelore Scholz and Brita Baume, Trafo, 1995, pp. 21–36.</bibl>
+                    
+            <bibl>———. “‘Der Völker Schicksal ruht in meinen Busen.’ Karoline von Günderrode als Dichterin der Revolution.” <hi rend="italic">“Der Menschheit Hälfte blieb noch ohne Recht”. Frauen und die französische Revolution</hi>, edited by Helge Brandes, Deutscher Universitäts Verlag, 1991, pp. 113–32.</bibl>
+                    
+            <bibl>Nassar, Dalia. “The Human Vocation and the Question of the Earth: Karoline von Günderrode’s Reading of Fichte.” <hi rend="italic">Archiv für Geschichte der Philosophie</hi>, forthcoming.</bibl>
+                    
+            <bibl>Nees, Lisette. Letter to Karoline von Günderrode, 17 April 1805. “Karoline von Günderrode in ihrer Umwelt. I,” edited by Max Preitz. <hi rend="italic">Jahrbuch des Freien Deutschen Hochstifts</hi>, 1962, pp. 208–306.</bibl>
+                    
+            <bibl>Novalis. <hi rend="italic">Schriften. Zweite, nach den Handschriften ergänzte, erweiterte und verbesserte Auflage in vier Bänden</hi>. Edited by P. Kluckhohn and R. Samuel, 3 vols., W. Kohlhammer, 1960f.</bibl>
+                    
+            <bibl>Pattberg, Philipp. “Domination and Control: Europe’s Mastery of Nature in Historic Perspective. <hi rend="italic">Journal of Political Ecology</hi>, vol. 14, 2007, pp. 1–9.</bibl>
+                    
+            <bibl>Pnevmonidou, Elena. “Die Absage an das romantische Ich. Dorothea Schlegels <hi rend="italic">Florentin</hi> als Umschrift von Friedrich Schlegel’s <hi rend="italic">Lucinde</hi>.” <hi rend="italic">German Life and Letters</hi>, vol. 58, no. 3, 2005, pp. 271–92.</bibl>
+                    
+            <bibl>Roetzel, Lisa C. “Feminizing Philosophy.” <hi rend="italic">Theory as Practice: A Critical Anthology of Early German Romantic Writings</hi>, edited by Jochen Schulte-Sasse, Haynes Horne, and Andreas Michel, U of Minnesota, 1997, pp. 361–81.</bibl>
+                    
+            <bibl>Schelling, Friedrich Wilhelm Joseph. <hi rend="italic">Bruno, or On the Natural and Divine Principle of Things</hi>. 1802. Edited and translated by Michael Vater, State U of New York P, 1984.</bibl>
+                    
+            <bibl>Schulz, Karsten A. “Decolonizing Political Ecology: Ontology, Technology and‘Critical’ Enchantment.” <hi rend="italic">Journal of Political Ecology</hi>, vol. 24, 2017, pp. 126–43.</bibl>
+                    
+            <bibl>Sevin, D., and C. Zeller. <hi rend="italic">Heinrich von Kleist: Perspectives of Research</hi>. De Gruyter, 2013.</bibl>
+                    
+            <bibl>Strauss Sotiropoulos, Carol. “Fuller, Goethe, Bettine: Cultural Transfer and Imagined German Womanhood.” <hi rend="italic">Towards a Female Genealogy of Transcendentalism</hi>, edited by Jana L. Argersinger and Phyllis Cole, U of Georgia P, 2014, 81–101.</bibl>
+                </div>
         </body>
     </text>
 </TEI>
