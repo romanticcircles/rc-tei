@@ -2,36 +2,31 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main">Romantic Psychosis</title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">After Word
-                </title>
+                <title level="a">After Word</title>
+                
                 
                 <author role="primary">
                     <name>Julie Carlson</name>
                 </author>
                 
-                <editor role="editor">Elizabeth Fay</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -39,13 +34,15 @@
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
-                    <name>T. J. McLemore</name>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-13</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -65,11 +62,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -88,18 +85,27 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.psychosis.carlson</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.psychosis.carlson.</idno> 
                 <idno type="resource">psychosis</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">After Word
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/psychosis/praxis.2023.psychosis.carlson"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Julie</forename>
+                                <surname>Carlson</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/psychosis/praxis.2023.psychosis.carlson"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
@@ -109,13 +115,14 @@
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-13">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -142,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -167,7 +175,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -175,21 +197,20 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">psychosis</term>
-                    <term subtype="tags">poetry</term>
-                    <term subtype="tags">neurodiversity</term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
-               
-                <name>Anna Wingfield</name>
-                <date>December 6, 2023</date>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>February 13, 2024</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -200,8 +221,7 @@
     <text>
         <front>
             <div type="abstract">
-                <head>Abstract</head>
-
+   
             <p>My response to these essays speculates on two motivations for their revisiting the
                 topic of Romantic psychosis now. One is the manifest derangement of top male
                 leadership in the United States as it showcases the bankruptcy of phallic regimes
@@ -619,7 +639,7 @@
                 render and bring into the public what Freud glimpsed in the delusions of psychotics,
                 fledgling attempts to mend a collapsed world as well as ego. These essays share that
                 glimpse and its validity. </p>
-            </div>
+           
             <div type="citation">
                 <head>Works Cited:</head>
             
@@ -701,6 +721,7 @@
                 
             <bibl>Winnicott, D. W. “The Use of an Object.” <hi rend="italic">International Journal of
                     Psychoanalysis</hi>, vol. 50, 1969, pp. 711-16.</bibl>
+            </div>
             </div>
         </body>
     </text>
