@@ -2,6 +2,7 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
                 <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a"><!-- Name of Essay, reading text, etc. --></title>
@@ -36,10 +37,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
                 <edition><date>YYYY-MM-DD</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -86,6 +89,7 @@
                 <idno type="edition"><!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
                 <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
@@ -145,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -170,6 +175,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
             <classDecl>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
                     <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
