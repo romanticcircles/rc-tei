@@ -3,23 +3,21 @@
         
         <fileDesc>
             <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
+                <title level="a"><!-- Name of Essay, reading text, etc. --></title>
+                
                 
                 <author role="primary">
                     <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
                 </author>
                 
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
                     <resp>Director</resp>
                     <name>Thora Brylowe</name>
@@ -94,6 +92,12 @@
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main"><!-- Essay or manuscript name -->
                         </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename><!-- First name --></forename>
+                                <surname><!-- Last Name --></surname>
+                            </persName>
+                        </author>
                         <!-- Referenece the above <idno> tag but only change the final part-->
                         <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
                         <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
@@ -114,6 +118,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -165,7 +170,20 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -178,11 +196,10 @@
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
+                    </keywords>
+                </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
@@ -195,4 +212,33 @@
         </revisionDesc>
     </teiHeader>
     <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+    <text>
+        <front>
+          <div type="abstract"></div>  
+            
+        </front>
+        <body>
+            <div type="essay">
+                <head><!-- Title --></head>
+                    <byline>
+                        <docAuthor></docAuthor>
+                        <affiliation></affiliation>
+                    </byline>
+                <div type="section"><!-- The number of these tags will depend upon whether or not the essay/text has been divided into different sections. 
+                    You will want to use the <head> tag to add in any section headings --></div>
+                
+                <div type="citation">
+                    <head>Works Cited</head>
+                    <bibl><!-- Each entry in the works cited will have a <bibl> tag --></bibl>
+                    
+                    <!-- The very end of all documents should look like this. 
+                        The Works Cited needs to be nested within the "div type="essay" tag or it will not import properly -->
+                </div>
+            </div>
+        </body>
+        </text>
+</TEI>
+    
+    
 
