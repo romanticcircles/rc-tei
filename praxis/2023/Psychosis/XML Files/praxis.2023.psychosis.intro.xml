@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 
-                <title type="main"><!-- Romantic Psychosis --></title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
+               
+                
                 <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a">Introduction: Psychosis and/as Cultural Crisis
                 </title>
@@ -14,7 +14,7 @@
                     <name>Elizabeth Fay</name>
                 </author>
                 
-                <editor role="editor">Elizabeth Fay</editor> 
+                 
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
@@ -22,19 +22,16 @@
                 </respStmt>            
                 <sponsor>Romantic Circles</sponsor>
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+              
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Bryan McGrath</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
+                    <resp>Associate Editor</resp>
                     <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
@@ -42,6 +39,7 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
                 <edition><date>YYYY-MM-DD</date></edition>
@@ -65,11 +63,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -98,6 +96,14 @@
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">Introduction: Psychosis and/as Cultural Crisis
                         </title>
+                        
+                        <author role="secondary">
+                            <persName>
+                                <forename>Elizabeth</forename>
+                                <surname>Fay</surname>
+                            </persName>
+                        </author>
+                        
                         <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
                         <ptr target="praxis/psychosis/praxis.2023.psychosis.intro"/>
                     </analytic>
@@ -167,7 +173,22 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+            
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -182,9 +203,9 @@
                     <term subtype="tags"></term>
                     
                 </keywords>
-                
-            </textClass>
+                </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
@@ -206,6 +227,8 @@
                     <docAuthor>Elizabeth Fay</docAuthor>
                     <affiliation>University of Massachusetts, Boston</affiliation>
                 </byline>
+                
+                <div type="section">
            
             <p>  <hi rend="italic">Romantic Psychosis</hi> begins with the premise that the Trump White House regime
                     evinced certain similarities of culturally significant psychotic behavior and
@@ -270,7 +293,19 @@
                     to treat his increasingly arbitrary dictates and behaviors as “madness” and to
                     restrain him accordingly. His sporadically unsound behaviors included
                     “psychiatric symptoms such as confusion, fits and hallucinations,” by one
-                    account, and “ravings” by another.<note place="foot" resp="author">See the unsigned “Dana-Farber Cancer Institute; Attacks of King George III's Madness Linked to Key Metabolism Molecule,” and see Theodore Porter’s first chapter of <hi rend="italic" >Genetics in the Madhouse.</hi> See also John Wiltshire’s “Frances Burney, the Court, the King and Pathography.”</note> During these episodes, his behavior was policed in a way unthinkable today for any public official. Nevertheless, the confusion and ravings are symptoms that bear resemblance to some of the newspaper reportage on the forty-fifth president, while the king’s hallucinations—the hallmark of psychosis—are resonant with Trump’s paranoid fantasies. Until 1810, when the Regency was established due to the king’s permanent madness, his monarchical career produced another resemblance to that of any twenty-first century national leader in that the Seven Years’ War, as well as Britain’s involvement in the African slave trade and trade with India and the Far East, qualified George III to be the first monarch of a globally connected nation in the modern sense. In many ways George’s madness, as much as a chaotic Regency, reflects our own loss of sane leadership and the subsequent stresses put upon us that will undoubtedly leave scars on both the national and global levels. Beginning with the connection between the dislocations of the Regency’s various semiotic codes and cultural expression as echoing George III’s mental instability and his resulting loss of mental and behavioral coherence, this volume aims to illuminate how cultural expressions and individual writers of the British Romantic period, including the years leading up to and following the Regency, participated in and made use of Romantic psychosis.<note place="foot" resp="author"> That mental
+                    account, and “ravings” by another.<note place="foot" resp="author">See the unsigned “Dana-Farber Cancer Institute; 
+                        Attacks of King George III's Madness Linked to Key Metabolism Molecule,” and see Theodore Porter’s 
+                        first chapter of <hi rend="italic" >Genetics in the Madhouse.</hi> See also John Wiltshire’s “Frances Burney, the Court, the King and Pathography.”</note> 
+                    During these episodes, his behavior was policed in a way unthinkable today for any public official. Nevertheless, the confusion and ravings are 
+                    symptoms that bear resemblance to some of the newspaper reportage on the forty-fifth president, while the king’s hallucinations—the hallmark of psychosis—are 
+                    resonant with Trump’s paranoid fantasies. Until 1810, when the Regency was established due to the king’s permanent madness, his monarchical career produced another
+                    resemblance to that of any twenty-first century national leader in that the Seven Years’ War, as well as Britain’s involvement in the African slave trade and trade 
+                    with India and the Far East, qualified George III to be the first monarch of a globally connected nation in the modern sense. In many ways George’s madness, 
+                    as much as a chaotic Regency, reflects our own loss of sane leadership and the subsequent stresses put upon us that will undoubtedly leave scars 
+                    on both the national and global levels. Beginning with the connection between the dislocations of the Regency’s various semiotic codes and cultural 
+                    expression as echoing George III’s mental instability and his resulting loss of mental and behavioral coherence, this volume aims to illuminate how 
+                    cultural expressions and individual writers of the British Romantic period, including the years leading up to and following the Regency, participated 
+                    in and made use of Romantic psychosis.<note place="foot" resp="author"> That mental
                             health care professionals, many high placed, wrote open letters to
                             newspapers and to Congress diagnosing then President Trump as suffering
                             from clinical narcissism and egomania, followed up with a more recent
@@ -517,7 +552,7 @@
                     volume offer the occasion for reconsidering other instances of Romantic
                     psychosis that have not been identified as such or that have been interpreted
                     otherwise and even ignored. In this sense, <hi rend="italic">Romantic Psychosis </hi> is an open call for more work to be done on 
-                    texts and historical moments in the period that evinces psychosis at either the personal or sociocultural level or both.</p> </div>
+                    texts and historical moments in the period that evinces psychosis at either the personal or sociocultural level or both.</p></div>
            
                 
                    <div type="section">
@@ -964,6 +999,7 @@
                 
             <bibl>Zeitz, Joshua. “Why the 25th Amendment Doesn’t Apply to Trump—No Matter What He Tweets.” <hi rend="italic" >Politico Magazine</hi>, 10 Jan. 2018,
                 politico.com/magazine/story/2018/01/10/25th-amendment-trump-216267.</bibl>
+            </div>
             </div>
         </body>
         </text>
