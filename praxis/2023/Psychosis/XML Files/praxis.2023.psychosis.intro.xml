@@ -2,36 +2,34 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
-                
-               
-                
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">Introduction: Psychosis and/as Cultural Crisis
-                </title>
+                <title level="a">Introduction: Psychosis and/as Cultural Crisis</title>
+                
                 
                 <author role="primary">
                     <name>Elizabeth Fay</name>
                 </author>
                 
-                 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
                     <resp>Director</resp>
                     <name>Thora Brylowe</name>
                 </respStmt>
-              
+                
                 <respStmt>
                     <resp>Praxis Editor</resp>
-                    <name>Bryan McGrath</name>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Associate Editor</resp>
+                    <resp>Assistant Editor</resp>
                     <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
@@ -41,9 +39,10 @@
             </titleStmt>
             
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-14</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -86,26 +85,27 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.psychosis.intro</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2023.psychosis.intro</idno> 
                 <idno type="resource">psychosis</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">Introduction: Psychosis and/as Cultural Crisis
                         </title>
-                        
                         <author role="secondary">
                             <persName>
                                 <forename>Elizabeth</forename>
                                 <surname>Fay</surname>
                             </persName>
                         </author>
-                        
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/psychosis/praxis.2023.psychosis.intro"/>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/psychosis/praxis.2023.psychosis.intro"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
@@ -115,13 +115,14 @@
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-14">February 14, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -148,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -186,7 +188,6 @@
                     <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
                 </taxonomy>
             </classDecl>
-            
         </encodingDesc>
         
         <profileDesc>
@@ -201,16 +202,15 @@
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
                 </keywords>
-                </textClass>
+            </textClass>
         </profileDesc>
         
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.10.2023</date>
+                <name>Anna Paige Wingfield</name>
+                <date>February 14, 2024</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -218,7 +218,6 @@
         </revisionDesc>
     </teiHeader>
     <!--END OF HEADER-->
-    
         <text>
         <body>
             <div type="essay">
@@ -237,7 +236,8 @@
                     prepsychotic destabilizations and the loss of a fully functional relation
                     between the symbolic order and its subjects. The familiar phrase “the Madness of
                     King George” may suggest more than a monarch’s loss of control over his symbolic
-                    function.<note place="foot" resp="author">Alan Bennett’s 1991 play title is actually, <hi rend="italic">The Madness of King George III</hi>.</note>
+                    function.<note place="foot" resp="author">Alan Bennett’s 1991 play title is actually, 
+                        <hi rend="italic">The Madness of King George III</hi>.</note>
                 It describes a psychotic break in the monarch’s
                     identification with the illocutionary force of imperatives—the monarch as both
                     the Father and the Law within the symbolic order—signaling something broader and
@@ -258,7 +258,10 @@
                     Mitchell points out in “American Psychosis: Trumpism and the Nightmare of
                     History” that Nietzsche’s aphorism rings universally true: “Insanity in
                     individuals is somewhat rare. But in groups, parties, nations, and epochs, it is
-                    the rule.”<note place="foot" resp="author">As Mitchell notes in reference to climate denial, even more disastrous is the truth that “When the world’s most powerful nation goes crazy, the consequences are global.” See also Mitchell’s “Present Tense: Time, Madness, and Democracy around 6 November 2018.”</note> 
+                    the rule.”<note place="foot" resp="author">As Mitchell notes in reference to climate denial, 
+                        even more disastrous is the truth that “When the world’s most powerful nation goes crazy, 
+                        the consequences are global.” See also Mitchell’s “Present Tense: Time, Madness, and Democracy 
+                        around 6 November 2018.”</note> 
                 What this ironic witticism doesn’t mention is that communal insanity requires a figurehead, 
                 a leader who speaks on behalf of the larger whole. In George III’s (and Trump’s) case, it is a leader who has lost himself and 
                 whose phallic loss registers a shattering or rejection of the Symbolic in favor of 
