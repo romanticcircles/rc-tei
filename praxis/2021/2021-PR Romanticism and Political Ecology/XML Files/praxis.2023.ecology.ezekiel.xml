@@ -1,37 +1,33 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main"> Romanticism and Political Ecology </title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"> Earth, Spirit, Humanity: Community and
-                    the Nonhuman in Karoline von Günderrode’s “Idea of the Earth” 
-                </title>
+                <title level="a">Earth, Spirit, Humanity: Community and
+                    the Nonhuman in Karoline von Günderrode’s “Idea of the Earth” </title>
+                
                 
                 <author role="primary">
                     <name>Anna Ezekiel</name>
                 </author>
                 
-                <editor role="editor">Kir Kuiken</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -42,10 +38,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -65,11 +63,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -88,35 +86,45 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.political ecology.ezekiel</idno> <!-- use the file name above as a reference, but do not include .xml -->
-                <idno type="resource">political ecology</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2023.ecology.ezekiel</idno> 
+                <idno type="resource">ecology</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"> Earth, Spirit, Humanity: Community and
-                            the Nonhuman in Karoline von Günderrode’s “Idea of the Earth”
+                        <title level="a" type="main">Earth, Spirit, Humanity: Community and
+                            the Nonhuman in Karoline von Günderrode’s “Idea of the Earth” 
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/psychosis/praxis.2023.political ecology.ezekiel"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Anna</forename>
+                                <surname>Ezekiel</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2023.ecology.ezekiel"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
-                        <title level="m"><!-- Romanticisim and Political Ecology --></title>
+                        <title level="m">Romanticism and Political Ecology</title>
                         <title level="s">Praxis</title>
                         <imprint>
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -143,6 +151,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -168,7 +177,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -176,21 +199,20 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">political ecology</term>
-                    <term subtype="tags">community</term>
-                    <term subtype="tags">nonhuman</term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.11.2023</date>
+                <name>Anna Paige Wingfield</name>
+                <date>02.21.2024</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -199,6 +221,10 @@
     </teiHeader>
     <!--END OF HEADER-->
     <text>
+            <front>
+                <div type="abstract"></div>  
+            </front>
+                
         <body>
             <div type="essay">
                 <head>Earth, Spirit, Humanity: Community and
@@ -219,7 +245,7 @@
                 Nassar), her reimagining of Early German Romantic themes
                 (Heimerl; Hilger; Kuzniar), and her contributions to models of identity, especially
                 female identity (Allingham; Battersby; Ezekiel “Metamorphosis”). This paper adds to
-                the growing discussion of the author's philosophical thought, unpacking the author's 
+                the growing discussion of Günderrode's philosophical thought, unpacking the author's 
                 metaphysics and arguing that the place she assigns human
                 beings in her cosmology requires a reconceptualization of the relationship between
                 human beings and the nonhuman world and the development of communities that include
@@ -271,7 +297,7 @@
                 that, consistent with this metaphysical picture, Günderrode denies that human
                 beings are justified in adopting a dominating relationship to nature or the nonhuman
                 (or each other). The third part of the paper explores Günderrode’s claim that human
-                beings live in three ways— as animal, as human, and as spirit — and considers how
+                beings live in three ways— as animal, as human, and spiritually — and considers how
                 these relate to Günderrode’s
                 concept of earth. This part of the investigation reveals that, unlike many other
                 philosophers of the time, who tended to strongly associate human beings and spirit,
@@ -286,7 +312,7 @@
                 natural world, Günderrode describes conditions for the emergence of small
                 communities of friends in harmony with nature. On Günderrode’s model, these could
                 potentially grow and eventually, perhaps, enable the emergence of the single,
-                perfect organism she calls the “realized idea of the earth.”</p></div>
+                perfect organism she calls the “realized idea of the earth.”</p>
             
             <div type="section">
                 <head>The Idea of Earth</head>
@@ -349,7 +375,7 @@
                 living they will elevate it; when they join to those things whose life resembles
                 death, they will animate them. (I:447–48; cf. I:360)</quote>
                 
-                At the end of this above passage, Günderrode likens this process to
+                At the end of this passage, Günderrode likens this process to
                 reincarnation, adding: “The idea of the Indians of the transmigration of souls
                 corresponds to this opinion.” I return to this claim below. Here, I only note that
                 this suggests that Günderrode sees this model as allowing some form of personal
@@ -371,7 +397,7 @@
                     rend="italic">Bruno</hi>, which Günderrode read in 1804. Several of the concepts
                 featured in Günderrode’s metaphysics appear in this text, including “the idea of the
                 earth” (or “idea of earth” as Michael Vater translates <hi rend="italic">Idee der
-                    Erde</hi> [Schelling 125]), although Schelling aligns this concept more clearly
+                    Erde</hi> [Schelling 125, trans. Vater]), although Schelling aligns this concept more clearly
                 with Platonic ideas than Günderrode does. Günderrode, like Schelling in <hi
                     rend="italic">Bruno</hi>, is concerned with explaining how the infinite relates
                 to the finite world we experience. For Schelling, the organism is the closest
@@ -461,7 +487,7 @@
                 without an inner, an essence without form, a force without some sort of effect, is
                 not comprehensible. (I:446)<note place="foot" resp="author"> This passage is omitted from “Letters of Two Friends.”</note></quote>
                 
-                Similarly to Schelling, for Günderrode opposites are not originally separate but
+                Similarly to Schelling, for Günderrode opposites are not originally separate; rather, they are
                 dual aspects or poles of a single thing. This applies to the dualities we think of
                 as essence and form and as mind or soul and body: at root, these are one, like the
                 inside and outside of a single thing, and their full manifestation requires their
@@ -471,7 +497,7 @@
                 the same time be thought, all thinking at the same time body.”</p>
             
             <p> Günderrode does imagine a role for human beings in the development of consciousness,
-                and therefore in the emergence of mind or soul in the material. However, we have to
+                and therefore in the emergence of mind or soul in material. However, we have to
                 search outside “Idea of the Earth” and “Letters” to find support for this claim and
                 for the application of Günderrode’s metaphysics to her ideas on social
                 relationships. Like most of Günderrode’s work, “Story of a Brahmin” is consistent
@@ -521,7 +547,7 @@
             <p>The view of the nonhuman world as material that could or should be worked on by human
                 beings, especially through the use of their reason, was widespread at the time
                 Günderrode was writing (as well as before and since). For example, in
-                    <hi rend="italic">The Vocation of Man</hi>Fichte states:
+                    <hi rend="italic">The Vocation of Man</hi> Fichte states:
                 
             <quote>Nature must gradually enter a condition which allows one to calculate and reckon
                 safely on its regular pace, and which keeps its force steady in a definite relation
@@ -530,7 +556,7 @@
                 primeval forests, deserts, and swamps . . . [H]uman power, enlightened and
                 armed by its discoveries, shall control [nature] without effort and peacefully
                 maintain any conquest once it is
-                made. (Fichte 83) </quote>
+                made. (Fichte 83, trans. Preuss) </quote>
                 
             In this passage, Fichte construes the natural world as “inert” and human beings as
                 “destined” to “control” nature through the use of their reason. We can find similar
@@ -681,8 +707,8 @@
             
             <p> The infinite with which Günderrode’s narrator seeks a relationship, and which he
                 claims all the world’s religions attempt to disclose (I:309), does not correspond to
-                what is peculiarly human in human beings (i.e., their moral and civic relations to
-                other human beings). Instead, Günderrode’s narrator aligns this infinite/divine with
+                what is peculiarly human in human beings, i.e. their moral and civic relations to
+                other human beings. Instead, Günderrode’s narrator aligns this infinite/divine with
                 the spirit of nature or “primal life” (<hi rend="italic">Urleben</hi>). This is the
                 “fundamental force” (<hi rend="italic">Grundkraft</hi>) that connects everything
                 that exists and from which the individual human being has emerged. This is, he
@@ -700,8 +726,8 @@
                     rend="italic">Allheit der Natur</hi>] a being cuts itself loose with such
                 consciousness, and feels torn off from it?” (I:359). Thus, notwithstanding
                 terminological differences, Günderrode articulates the same idea in all three
-                pieces (i.e., that of an eternal, living whole that manifests itself in every
-                aspect of the world). In “Story of a Brahmin,” Günderrode emphasizes the importance
+                pieces, i.e. that of an eternal, living whole that manifests itself in every
+                aspect of the world. In “Story of a Brahmin,” Günderrode emphasizes the importance
                 of cultivating a relationship to this “infinite spirit of nature” (<hi rend="italic"
                     >unendlicher Naturgeist</hi>) (I:312) or (as she calls it in “Idea of the Earth”
                 and “Letters”) the “earth-spirit” (<hi rend="italic">Erdgeist</hi>) (I:360, 447,
@@ -765,7 +791,7 @@
                 “archetypal nature” in which the ideas of finite things within the universe persist
                 in a perfect form. For instance, Anselm claims that “The created earth . . . is
                 not the true earth, but only an image of the earth which is uncreated, unoriginated,
-                and never to pass away” (Schelling 125). This is quite a different
+                and never to pass away” (Schelling 125, trans. Vater). This is quite a different
                 concept from Günderrode’s notion of “idea of the earth,” which is indeed a perfect
                 and enduring entity but one that, if it ever appears, will be generated from the
                 existing earth that we know and, furthermore, will emerge through the ordinary
@@ -784,7 +810,7 @@
                 truly transfigured body, without lack or illness and immortal, and thus wholly
                 different from what we call body or material” (I:448).</p>
             
-            <p> In the unpublished fragment “The True Idea of Materialism,” Günderrode uses
+            <p> In the unpublished fragment “the true idea of materialism,” Günderrode uses
                 different terminology that supports this point. In this piece, she explains that
                 matter “is simple, unchangeable, eternal,” which “contains all things,” and she
                 adds: “that through which they are all one is matter, while that through which they
@@ -1212,6 +1238,7 @@
                     
             <bibl>Strauss Sotiropoulos, Carol. “Fuller, Goethe, Bettine: Cultural Transfer and Imagined German Womanhood.” <hi rend="italic">Towards a Female Genealogy of Transcendentalism</hi>, edited by Jana L. Argersinger and Phyllis Cole, U of Georgia P, 2014, 81–101.</bibl>
                 </div>
+            </div>
         </body>
     </text>
 </TEI>
