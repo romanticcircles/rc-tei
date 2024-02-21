@@ -2,36 +2,31 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main"><!-- Romanticism and Political Ecology --></title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">Communicating the Outside: Nature, the Outside, and Romanticism 
-                </title>
+                <title level="a">Communicating the Outside: Nature, the Outside, and Romanticism</title>
+                
                 
                 <author role="primary">
                     <name>Frederic Neyrat</name>
                 </author>
                 
-                <editor role="editor">Kir Kuiken</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -42,10 +37,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -65,11 +62,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -88,34 +85,44 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.political ecology.neyrat</idno> <!-- use the file name above as a reference, but do not include .xml -->
-                <idno type="resource">political ecology</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2023.ecology.neyrat</idno> 
+                <idno type="resource">ecology</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title> Communicating the Outside: Nature, the Outside, and Romanticism
+                        <title level="a" type="main">Communicating the Outside: Nature, the Outside, and Romanticism
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/ecology/praxis.2023.ecology.neyrat"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Frederic</forename>
+                                <surname>Neyrat</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2023.ecology.neyrat"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
-                        <title level="m"><!-- Romanticism and Political Ecology --></title>
+                        <title level="m">Romanticism and Political Ecology</title>
                         <title level="s">Praxis</title>
                         <imprint>
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -142,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -167,7 +175,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -175,21 +197,20 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">politics</term>
-                    <term subtype="tags">ecology</term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.11.2023</date>
+                <name>anna Paige Wingfield</name>
+                <date>02.21.24</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -200,27 +221,30 @@
     
     <text>
         <front>
+            <div type="abstract"></div>
+        </front>
+        
+            <body>
+                <div type="epigraph">
+                    <quote> L’art respire volontiers l’air irrespirable. Supprimer
+                        cela, c’est fermer la communication avec l’infini. La pensée du poète doit être de
+                        plain-pied avec l’horizon extra-humain.
+                        
+                        (Art willingly breathes unbreathable air. Stopping this is
+                        to end the communication with the infinite. The poet’s thought must be on the same
+                        level as the extra-human horizon).
+                        Victor Hugo, <hi rend="italic">The Promontory of the
+                            Dream</hi>
+                    </quote>
+                </div>
+                
             <div type="essay">
                 <head>Communicating the Outside: Nature, the Outside, and Romanticism</head>
                 <byline>
                     <docAuthor>Frederic Neyrat</docAuthor>
                     <affiliation>University of Wisconsin-Madison</affiliation>
-                </byline></div>
+                </byline>
             
-            <div type="epigraph">
-              <quote> L’art respire volontiers l’air irrespirable. Supprimer
-                cela, c’est fermer la communication avec l’infini. La pensée du poète doit être de
-                plain-pied avec l’horizon extra-humain.
-                
-            (Art willingly breathes unbreathable air. Stopping this is
-                to end the communication with the infinite. The poet’s thought must be on the same
-                level as the extra-human horizon).
-            Victor Hugo, <hi rend="italic">The Promontory of the
-                    Dream</hi></quote></div>
-        </front>
-        <body>
-        
-                  
             <p>There is no outside—this is the main watchword of our time; the second one is that
                 there is no nature. <note place="foot" resp="author">Cyclonopedia : Complicity with
                                 Anonymous Materials.</note> My hypothesis is that
@@ -242,10 +266,10 @@
                 on a crucial difference between thinkers of the first post-structuralist wave
                 (amongst others: Jacques Derrida, Gilles Deleuze, Jean-François Lyotard, and Luce
                 Irigaray) and those who belong to the second post-structuralist one (Bruno Latour
-                and Antonio Negri)–—a difference that is, to me, not underlined enough in
+                and Antonio Negri) — a difference that is, to me, not underlined enough in
                 contemporary debates striving to evaluate post-structuralism in order to go beyond
                 it and to develop a new kind of theory, be it under the name of new materialism,
-                object-oriented philosophy, speculative realism, or the anthropology of ontological
+                object-oriented philosophy, speculative realism, or the anthropology of the ontological
                 turn. The thinkers of the first post-structuralist wave strengthened and developed
                 the calling into question of the great divides (between nature and culture, male and
                 female, and so on) and the rejection of any kind of transcendent Outside, a
@@ -266,12 +290,12 @@
                 third section to an explanation of what I call the <hi rend="italic">field of
                     existential differences</hi>, a concept leaning on the following thesis: indeed,
                 there is no <hi rend="italic">absolute</hi> Outside, but there is
-                an<hi rend="italic"> infinity of outsides</hi> as innumerable
+                an <hi rend="italic"> infinity of outsides</hi> as innumerable
                 as there are singular existences. Each outside opens itself inside each existing
                 being—“chose inouïe, c’est au-dedans de soi qu’il faut regarder le dehors”
                 (surprisingly, it is inside yourself that you can look at the outside), argues
                 Victor Hugo (<hi rend="italic">Préface</hi> 699).<note place="foot" resp="author"> Henceforth cited as
-                        (PO).</note> This internal outside is the condition of the
+                        (PO).</note> This internal outside is the condition of
                 possibility of relationality, or more accurately of communication: existing beings
                 can communicate thanks to their internal openness. Communication occurs between
                 different beings — that is to say, beings defined by their existential difference;
@@ -281,13 +305,13 @@
             
             <p> Once my existentialist proposition is explained, I will be able to revisit the
                 concept of nature. Instead of liquidating nature — killing it; turning it into
-                asubstantial, fungible resources for human “progress” – I will lean on
+                asubstantial, fungible things for human “progress” – I will lean on
                 several Romantic writers to describe, in the fourth and fifth sections, nature as a
                 field of existential differences. As a form of thought, Romanticism was always
                 subject to several metaphysical oscillations: between the natural and the
                 supernatural, between revolutionary stances and reactionary retractions, and between
                 a militant optimism (Percy Shelley’s “If Winter comes, can Spring be far behind?” in
-                his “Ode to the West Wind" and a dark pessimism (Lord Byron’s “better not to
+                his “Ode to the West Wind") and a dark pessimism (Lord Byron’s “better not to
                 be” at the end of “Euthanasie"). Instead of too quickly favoring only one dimension
                 of Romantic thought, I’d rather argue in this essay that these oscillations draw a
                 space of fundamental polarities that still help us to understand our contemporary
@@ -433,7 +457,7 @@
             <p> From cybernetics to object-oriented philosophies through post-structuralism, a
                 theoretical challenge has been advanced: who will be able to definitively erase the
                 difference between living and non-living beings, nature and artifacts, organisms and
-                machines? What will be — please, forgive my irony — the best theory able to
+                machines? What will be — please, forgive my irony — the best theory to
                 justify in ontological terms what capitalism already began to perform in the
                 nineteenth century? During the last 30 years,
                 sociologist Ulrich Beck, meta-sociologist Bruno Latour, and cyber-feminist Donna
@@ -447,7 +471,7 @@
                                 agree with Haraway’s approach, I just question one of its
                                 consequences.</note> 
                 French anthropologist Philippe Descola — a proponent of
-                what I have called in the introduction the anthropology of ontological turn, which
+                what I have called in the introduction the anthropology of the ontological turn, which
                 aims to replace the concept of structure inherited from Claude Levi-Strauss with
                 ontological propositions about cultures — has recently shown that we have to think
                 “beyond nature and culture." And so? Is there anything here that is theoretically objectionable? </p>
@@ -516,7 +540,8 @@
                     seventeenth century, to nothingness. It
                 is because René Descartes at first said that nature is not a “deity” but a
                 mathematizable area that we can use nature — or the Earth — at will, digitalizing,
-                reprogramming, and printing it in 3D: "By ‘Nature’ here, Descartes wrote in 1630’s, I do not mean some deity or other sort
+                reprogramming, and printing it in 3D: "By ‘Nature’ here, Descartes wrote in "
+                <hi rend="italic">Treatise on Light</hi>", I do not mean some deity or other sort
                 of imaginary power. Rather, I use the word to signify matter itself” (25). 
                 Since nature is nothing by itself – according to Descartes, but we could add
                 Francis Bacon, and Galileo Galilei – it is a mere quantity without qualities and
@@ -607,7 +632,7 @@
             <p> Second, coming into existence is only possible through an internal
                 separation leading to polarities (left/right, high/low, inside/outside, but also
                 visible/invisible, light/dark, etc.) that are not initially splits but rather
-                constitute a depth of field that wherein a subject experiments with her or his
+                constitute a depth of field wherein a subject experiments with her or his
                 reason or senses. In this regard, a subject can be defined as an instance of
                 mediation, as a moment of communication, the last term signifying, à la Bataille,
                 the excess through which polarities reveal their unfathomable difference.</p>
@@ -810,7 +835,7 @@
             
             <p> In the middle of this image
                     stands an intertwining of nature, culture, and technology, exactly what Donna
-                    Haraway calls “naturecultures” (12). Subjected to what Ulrich Beck called its total “societalization,” 
+                    Haraway calls “naturecultures” (<hi rend="italics">Cyborgs, Simians, and Women</hi> 12). Subjected to what Ulrich Beck called its total “societalization,” 
                     the nature at stake here is a nature that “can no longer be understood <hi rend="italic" resp="author">outside</hi> of society, or society
                     <hi rend="italic" resp="author">outside</hi> of nature” (80). Ventriloquizing Marx and Engels’s
                 <hi rend="italic">The German Ideology</hi>, Beck adds that “not a hair or a crumb of [nature] is
@@ -894,7 +919,7 @@
                     sense that the inner ground does not exist, since it is what precedes any
                     existence. In my terms, this inner ground is a pure field. The non-ground can be
                     interpreted as a principle of ontological an-archy, an absolute freedom that,
-                    for Hugo, Satan, represents. In “The Plume of Satan,” God calls “freedom”
+                    for Hugo, Satan, the fallen archangel, represents. In “The Plume of Satan,” God calls “freedom”
                     the feather of Satan’s wings that did not fall 
                 (<hi rend="italic">Selected Poems</hi> 104).<note place="foot" resp="author">Henceforth cited as
                     (SP).</note> This leather is “au bord du gouffre ténébreux” (on the edge of the dark abyss) (SP 102), “près du puits de la chute infinite” 
@@ -951,7 +976,7 @@
                     face, in order to leave a place to other forms of existence. I will not resist
                     the temptation to say that the more we refuse the face of the unknown, the more
                     we risk several more Fukushimas. Here the unknown is not the “asylum of
-                    ignorance,” to quote Spinoza, but on the contrary an aware knowledge of the unpredictable. 
+                    ignorance,” to quote Spinoza (241), but on the contrary an aware knowledge of the unpredictable. 
                     It does not dismiss engineers, companies, and political leaders from their responsibilities 
                     vis-à-vis ecological disasters like Katrina or Fukushima, rather it engages another relation 
                     with what is not us. Concerning the last point, I am not sure that the word 
@@ -1013,7 +1038,7 @@
                     intrusions, it is crucial to be able to preserve the opacity of that which
                     exists. Needless to say, Facebook should be deserted. That is the paradox of our
                     time: to communicate the outside, we need to disconnect from the inside, to
-                    create what Deleuze called “vacuoles of non-communication” (175). We need to encrypt what we say, 
+                    create what Deleuze called “vacuoles of non-communication” (<hi rend="italics">Negotiations</hi> 175). We need to encrypt what we say, 
                     in the same way that “phusis kruptestai philein” (nature loves to hide) (Heraclitus 33).</p></div>
                     
                     <div type="citation">
@@ -1183,6 +1208,7 @@
                 
             <bibl>Viveiros de Castro, Eduardo. <hi rend="italic">Cannibal Metaphysics</hi>. Edited and
                 translated by Peter Skafish, Univocal, 2014.</bibl>
+            </div>
             </div>
         </body>
     </text>
