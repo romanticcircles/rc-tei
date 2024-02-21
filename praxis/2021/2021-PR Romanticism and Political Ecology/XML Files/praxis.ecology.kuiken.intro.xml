@@ -1,36 +1,32 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main"> Romantic Psychosis</title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">Introduction
-                </title>
+                <title level="a">Introduction</title>
+                
                 
                 <author role="primary">
                     <name>Kir Kuiken</name>
                 </author>
                 
-                <editor role="editor">Kir Kuiken</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -41,10 +37,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -64,11 +62,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -87,34 +85,44 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.ecology.kuiken.intro</idno> <!-- use the file name above as a reference, but do not include .xml -->
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2021.ecology/praxis.intro</idno> 
                 <idno type="resource">ecology</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"> Introduction
+                        <title level="a" type="main">Introduction
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/ecology/praxis.2023.ecology.kuiken.intro"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Kir</forename>
+                                <surname>Kuiken</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2023.ecology.intro"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
-                        <title level="m">Romantic Psychosis </title>
+                        <title level="m">Romanticism and Political Ecology</title>
                         <title level="s">Praxis</title>
                         <imprint>
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -141,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -166,7 +175,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -179,16 +202,15 @@
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
                     <term subtype="tags"></term>
-                    
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.11.2023</date>
+                <name>Anna Paige Wingfield</name>
+                <date></date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -293,7 +315,7 @@
                 such an extent that it is no longer possible to rigorously distinguish human-made
                 from natural processes.</p>
             
-            <p> Like many of its critical predecessors, asks
+            <p> Like many of its critical predecessors, this volume asks
                 what kinds of political ecologies Romanticism devised and deployed in response to
                 its own historical moment. However, <hi rend="italic">Romanticism and Political
                     Ecology</hi> does so without assuming either that Romantic political ecology
@@ -356,7 +378,7 @@
                 a novel genealogy for Romanticism’s pioneering role in contemporary politico-
                 ecological concerns.</p>
             
-            <p> The collection opens with Frederic Neyrat’s “Communicating the Outside: Nature, the
+            <p> The collection opens with Frédéric Neyrat’s “Communicating the Outside: Nature, the
                 Outside, and Romanticism,” which engages in a critique of the “second wave” of
                 post-structuralism, focusing on the way it argues for the liquidation of the concept
                 of nature as a simple exteriority to the political. Analyzing the work of Bruno
@@ -439,11 +461,10 @@
                 Main,” I analyze the way that he actually reverses the assumed relation between
                 poetry and the Earth found in one of
                 Heidegger’s favorite references to Hölderlin — “poetically Man dwells on this
-                    Earth” (217). In fact, Hölderlin’s river poetry is not one
-                that opens up the possibility of a new “dwelling” on the Earth; instead, it
+                    Earth” (217). In fact, Hölderlin’s river poetry does not open up the possibility of a new “dwelling” on the Earth; instead, it
                 witnesses poetry’s exposure to something so fundamentally exterior to <hi
-                    rend="italic">any</hi> world—the Earth as a <hi rend="italic">terra
-                    incognita</hi>— that it inescapably destabilizes all senses of “dwelling,” along
+                    rend="italic">any</hi> world — the Earth as a <hi rend="italic">terra
+                    incognita</hi> — that it inescapably destabilizes all senses of “dwelling,” along
                 with any conception of native land or soil.</p>
             
             <p> Joseph Albernaz’s essay “Without Task: Abdication, Race, and Relation in Mary
