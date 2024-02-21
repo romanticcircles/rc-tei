@@ -2,36 +2,31 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main"><!-- Romanticism and Political Ecology --></title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">Hölderlin: From the “Death of Nature” to “the Earth”
-                </title>
+                <title level="a">Hölderlin: From the “Death of Nature” to “the Earth”</title>
+                
                 
                 <author role="primary">
                     <name>Kir Kuiken</name>
                 </author>
                 
-                <editor role="editor">Kir Kuiken</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -42,10 +37,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -65,11 +62,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -88,34 +85,44 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2021.political ecology.kuiken</idno> <!-- use the file name above as a reference, but do not include .xml -->
-                <idno type="resource">political ecology</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">raxis.2023.ecology.kuiken</idno> 
+                <idno type="resource">praxis</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title> Hölderlin: From the “Death of Nature” to “the Earth”
+                        <title level="a" type="main">Hölderlin: From the “Death of Nature” to “the Earth”
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/psychosis/ecology.2023.ecology.kuiken"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Kir</forename>
+                                <surname>Kuiken</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2023.ecology.kuiken"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
-                        <title level="m"><!-- Romanticism and Political Ecology --></title>
+                        <title level="m">Romanticism and Political Ecology</title>
                         <title level="s">Praxis</title>
                         <imprint>
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -142,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -167,7 +175,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -175,21 +197,20 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">politics</term>
-                    <term subtype="tags">ecology</term>
-                    <term subtype="tags">german romanticism</term>
-                    <term subtype="tags">psychology</term>
                     <term subtype="tags"></term>
-                    
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.11.2023</date>
+                <name>Anna Paige Wingfield</name>
+                <date>02.21.2024</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -205,13 +226,14 @@
                     <docAuthor>Kir Kuiken</docAuthor>
                     <affiliation>University of Albany</affiliation>
                 </byline>
+                <div type="section">
             <p> Once various scientific societies and associations began to debate the use of the
                 term “Anthropocene” as a geological time period on the same scale as the Holocene,
                 what seemed to register was the paradox of a “shock of the new” that had been long
                 prepared. However one dates the start of this period, it was as if an event had
                 overtaken the “Anthropos” from behind, as if what was “new” in the “Anthropo”- cene
                 (the “cene” deriving from the Greek “kainos” for “new”) had emerged suddenly in the
-                present as a forgotten archaism, making it difficult to say exactly where the
+                present as a forgotten archaism, making it difficult to say exactly when the
                 catastrophe began or to anticipate how it might end. This shock has launched a
                 further set of reactions, from “new materialisms” to renewed attention to
                 alternative cosmologies, in an attempt to have thought measure up to the seemingly
@@ -219,7 +241,7 @@
                 which our current coordinates, concepts and concerns are no longer adequate to think
                 it, much less to respond to its exigency. This in turn has proliferated a kind of
                 post-mortem on a whole series of philosophemes or concepts deemed too complicit with
-                the crisis. Bruno Latour’s Politics of Nature, for
+                the crisis. Bruno Latour’s <hi rend="italic">Politics of Nature</hi>, for
                 instance, argues for a final liquidation of the main concept in its title — Nature —
                 since it has authorized a whole set of power relations grounded on a constitutive
                 exclusion. The notion of a “nature” separate from the “social,” for Latour,
@@ -432,7 +454,7 @@
             <p> What then, does this oscillation of poetic tones have to do with the Earth? Among
                 the many forms of representation or “art character” that Hölderlin lists as
                 characterizing a poem, one in particular is most pointedly associated with the
-                tragic: what he calls the “idealistic image” (idealischen Bilde) (PW 889; 1:83).
+                tragic: what he calls the “idealistic image” (<hi rend="italic">idealischen Bilde</hi>) (PW 889; 1:83).
                 In fact, it is not the content of a work that determines its genre but the
                 oscillating interplay of a poem’s tone and presentation. “On the Difference of
                 Poetic Modes” starts by providing a set of definitions: 
@@ -444,8 +466,8 @@
                 intellectual intuition” (PW 889; 1:83). </quote>
                 
                 In each case, a poem’s presentation remains in a certain tension with its “basic
-                mood,” yet the fact that the tragic form <hi rend="italic">appears</hi> (Schein)
-                heroic, but is in fact “idealistic” in its significance (Bedeutung), could be said
+                mood,” yet the fact that the tragic form <hi rend="italic">appears</hi> (<hi rend="italic">Schein</hi>)
+                heroic, but is in fact “idealistic” in its significance (<hi rend="italic">Bedeutung</hi>), could be said
                 to characterize a fundamental tension in much of Hölderlin’s poetics. That is, what
                 first appears as a lament for the old gods, for a divine that has absconded, and as
                 a reinvigorated desire for the invention of new god(s),<note place="foot" resp="author"> Martin Heidegger, “Only a God Can
@@ -576,8 +598,8 @@
                 the imitation and completion of nature by art, this dialectic is in fact supplanted
                 by something close to the internal oscillation described later in “On the Difference
                 of Poetic Modes.” If, as Hölderlin puts in in “Ground for Empedocles”: “art is the
-                blossom, the perfection of nature” (Die Kunst ist die Blüte, die Vollendung der
-                Natur) (PW 53; 2:116), this is so only because two different forms of production
+                blossom, the perfection of nature” (<hi rend="italic">Die Kunst ist die Blüte, die Vollendung der
+                Natur</hi>) (PW 53; 2:116), this is so only because two different forms of production
                 and organization come to vie with each other rather than reproduce one another.
                 They form a “world” in and through their disjunction, a differentiation that both
                 constitutes the relative unity of that “world” and its conditions of
@@ -589,7 +611,7 @@
                 neologism. Veronique Foti asserts that the organic/aorgic opposition is
                 simply another name for the <hi rend="italic">physis/techne</hi> distinction, which in turn becomes translated into the
                 nature/culture divide. Yet, this doesn’t always seem to be the case. Though
-                Hölderlin draws on Schelling’s opposition between organisch and anorganisch
+                Hölderlin draws on Schelling’s opposition between <hi rend="italic">organisch </hi> and <hi rend="italic">anorganisch</hi>
                     principles, <note place="foot" resp="author"> This distinction is found throughout Schelling’s works on nature. For
                             a particularly focused discussion of it, see F. W. J. Schelling,
                             “Introduction” in <hi rend="italic">Idea for a Philosophy of Nature</hi>
@@ -617,9 +639,9 @@
                 play, in a sense, as nothing but the unfolding of this tension, exemplified by the
                 death of Empedocles. </p>
             
-            <p> As with other oppositions in Holderlin, however, the organic/aorgic opposition that
+            <p> As with other oppositions in Hölderlin, however, the organic/aorgic opposition that
                 defines Empedocles’s world exists only to produce a form of “becoming in
-                dissolution” (<hi rend="italic">Weden im Vergehen</hi>,<note place="foot" resp="author">  This is also the title of an important essay by
+                dissolution” (<hi rend="italic">Weden im Vergehen</hi>),<note place="foot" resp="author">  This is also the title of an important essay by
                             Hölderlin, “Becoming in Dissolution” (PW 96-–100;
                         1:900-–905).</note> a form of self-overcoming where each side of
                 the opposition transcends into its opposite. To avoid being abstract, in order for
@@ -686,7 +708,7 @@
             <l> der Himmel über uns, es lähmt Fluch</l>
             <l> die Glieder den Menschen, und die stärkenden, die</l>
             <l> erfreuenden</l>
-            <l> gaben der Erde sind wie Spreu, es</l>
+            <l> Gaben der Erde sind wie Spreu, es</l>
             <l> spottet unser, mit ihren Geschenken, die Mutter</l>
             <l> und alles ist Schein— (DE 188; 2:152)</l></lg>
                     
@@ -698,8 +720,8 @@
                 Earth, whose gifts “mock” those who remain, along with a world that has
                 fundamentally been dissolved. In fact, Hölderlin’s notes for the continuation of the
                 third version of the play describe Empedocles as “one in and through whom a world
-                dissolves and in the same instant renews itself” (in dem und durch den eine Welt
-                sich zugleich auflöse und erneue) (DE 194; 2:154). In other words, <hi
+                dissolves and in the same instant renews itself” (<hi rend="italic">in dem und durch den eine Welt
+                sich zugleich auflöse und erneue </hi>) (DE 194; 2:154). In other words, <hi
                     rend="italic">The Death of Empedocles</hi> ends at the moment of the dissolution
                 of a given world (and its concomitant configuration of the Earth), without
                 necessarily gesturing at what follows out of it. This is perhaps why “Ground for
@@ -1188,7 +1210,7 @@
                 
             <bibl>Latour, Bruno. <hi rend="italic">Politics of Nature.</hi> Translated by Catherine Porter, Harvard UP, 2004.</bibl>
                 
-            <bibl>———. “The Promie of Constructivism.” <hi rend="italic">Chasing Technoscience: Matrix for Materiality.</hi> Edited by Don Ihde and Evan Selinger, Indiana UP, 2003.</bibl>
+            <bibl>———. “The Promise of Constructivism.” <hi rend="italic">Chasing Technoscience: Matrix for Materiality.</hi> Edited by Don Ihde and Evan Selinger, Indiana UP, 2003.</bibl>
                 
             <bibl>Mitchell, Andrew. <hi rend="italic">The Fourfold: Reading the Late Heidegger.</hi> Northwestern UP, 2015.</bibl>
                 
@@ -1205,7 +1227,7 @@
             <bibl>Schmitt, Carl. <hi rend="italic">The Nomos of the Earth.</hi> Translated by G. L. Ulmen, Telos Press, 2006.</bibl>
                 
             <bibl>Vernant, Jean-Pierre, and Pierre Vidal-Naquet. <hi rend="italic">Myth and Tragedy in Ancient Greece, Vol 1.</hi> Translated by Janet Lloyd, Zone Books, 1990.</bibl>
-                
+           </div>     
         </div>
         </body>
     </text>
