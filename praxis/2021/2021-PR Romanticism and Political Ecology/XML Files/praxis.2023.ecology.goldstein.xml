@@ -2,36 +2,31 @@
     <teiHeader>
         
         <fileDesc>
+            
             <titleStmt>
-                
-                <title type="main"><!-- Romanticism and Political Ecology --></title>
-                <title type="subordinate">A Romantic Circles Praxis Volume</title> 
                 <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a">Utopian Pastoral and the Inhuman Trade
-                </title>
+                <title level="a">Utopian Pastoral and the Inhuman Trade</title>
+                
                 
                 <author role="primary">
                     <name>Amanda Jo Goldstein</name>
                 </author>
                 
-                <editor role="editor">Kir Kuiken</editor> 
+                <sponsor>Romantic Circles</sponsor>
                 
                 <respStmt>
                     <resp>TEI Encoding</resp>
                     <name>EXTERNAL CODER</name>
                 </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Paul Youngquist</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
-                    <resp>General Editor</resp>
-                    <name>Orrin N. C. Wang</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronic Editions Editor</resp>
-                    <name>Michelle Speitz</name>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
@@ -42,10 +37,12 @@
                     <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
             </editionStmt>
+            
             <publicationStmt>
                 <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
@@ -65,11 +62,11 @@
                         for authorization should be forwarded to Romantic Circles:
                         <address>
                             <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
                             <addrLine>Department of English</addrLine>
                             <addrLine>University of Colorado Boulder</addrLine>
                             <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
                         </address></p>
                     <p>By their use of these texts and images, users agree to the following 
                         conditions: 
@@ -88,34 +85,44 @@
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
                 </availability>
-                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
-                <idno type="edition">praxis.2023.political ecology.goldstein</idno> <!-- use the file name above as a reference, but do not include .xml -->
-                <idno type="resource">political ecology</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2021.ecology.goldstein</idno> 
+                <idno type="resource">ecology</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title>Utopian Pastoral and the Inhuman Trade
+                        <title level="a" type="main">Utopian Pastoral and the Inhuman Trade
                         </title>
-                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
-                        <ptr target="praxis/ecology/praxis.2023.ecology.goldstein"/>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Amanda Jo</forename>
+                                <surname>Goldstein</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2021.ecology.goldstein"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
                     
                     <monogr>
-                        <title level="m"><!-- Romanticism and Political Ecology --></title>
+                        <title level="m">Romanticism and Political Ecology</title>
                         <title level="s">Praxis</title>
                         <imprint>
                             <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
-                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
@@ -142,6 +149,7 @@
                         etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -167,7 +175,21 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <catRef scheme="#genre" target="#Paratext"/>
@@ -175,21 +197,20 @@
                 <catRef scheme="#discipline" target="#Literature"/>
                 <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
                 <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags">politics</term>
-                    <term subtype="tags">ecology</term>
-                    <term subtype="tags">pastoral</term>
-                    <term subtype="tags">slavery</term>
-                    <term subtype="tags">poetry</term>
-                    
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
                 </keywords>
-                
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
                 <!--  Coder Name and Date Coded  -->
-                <name>Anna Wingfield</name>
-                <date>12.14.2023</date>
+                <name>Anna Paige Wingfield</name>
+                <date>02.21.24</date>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
@@ -199,6 +220,10 @@
     <!--END OF HEADER-->
     
     <text>
+            <front>
+                <div type="abstract"></div>  
+            </front>
+        
         <body>
            <div type="essay">
                 <head>Utopian Pastoral and the Inhuman Trade</head>
@@ -264,7 +289,7 @@
                 unaccountability that may make Thone’s New Deal “political ecology” a
                 still-pertinent emblem for the state of our art. Rewriting episodes of imperial
                 conquest from the angle of the grass, the effort prefigures now familiar forms of an
-                ecologically motivated “nonhuman turn” and its increasingly notorious political
+                ecologically motivated “nonhuman turn” and their increasingly notorious political
                 shortcomings when it comes to those Sylvia Wynter names “Man’s human Others” (Wynter
                 and Scott 174). Influential new materialist, object-oriented, posthumanist, and
                 Anthropocene theories have been charged justly with “resounding silence” on matters
@@ -370,10 +395,9 @@
                             Martin Preistman’s recent monograph provides the long-needed,
                             comprehensive overview of Erasmus Darwin’s polymathic contributions to
                             late-Enlightenment culture (in biology, medicine, psychology, chemistry,
-                            botany, and geology, as well as comparative mythology, hermeticism,
+                            botany, and geology, as well as comparative mythology, antiquarianism,
                             pedagogy, dissenting politics, and early Romantic poetics), the scope
-                            and influence of his “Lunar Society” community of savants, and the now
-                            extensive scholarly literature on each of these topics.</note>
+                            and influence of his “Lunar Society” community of savants, and the scholarly literature on each of these topics.</note>
                 Despite the long-term triumph of a rival Romantic aesthetics that noisily broke with
                 the doctor-poet’s prosody, philosophy, and politics, <hi rend="italic">The Botanic
                     Garden</hi> (1791) is now recognized quite simply as “the most popular and the most controversial
@@ -408,7 +432,7 @@
                 “Destruction of Mexico”  (57-58).</p>
                 
             <p> My aim in this section is to take seriously (if no less comedically!) the pertinence of
-                revolutionary, anti-colonial, and abolitionist causes of an <hi rend="italic"
+                revolutionary, anti-colonial, and abolitionist causes to an <hi rend="italic"
                     >Economy of Vegetation</hi>, right up to the absurd, limit-possibility of
                 politically partisan vegetables. Previous scholars have shown that Darwin’s critics
                 on the British right provide acute diagnoses of the political and aesthetic threats
@@ -456,7 +480,7 @@
                 the seller’s basket are blossoming into a riot of bonnet rouges, and the little
                 label beneath reads “Zoonomia” — the title of Erasmus Darwin’s medical magnum opus on
                 animal life (1794–96) — followed by the perfectly incriminating subtitle, “Jacobin
-                Plants.” “Zoonomia or Jacobin Plants”: pithy proof that Darwin’s botany was
+                Plants.” “Zoonomia . . . or Jacobin Plants”: pithy proof that Darwin’s botany was
                 perceived as a partisan endeavor in the 1790s and of whose side it was on. Bewell
                 moved outward from here to reevaluate botany in the period as the locus of a
                 “radical form of pastoral poetry”. Thanks to his reading and
@@ -470,9 +494,9 @@
                             addition to Conolly, see, recently and especially, Kelley, 78–93. I
                             borrow the term “libertine botany” from Meeker and Szabari, who deftly
                             theorize an early modern modality of botanical erotics that treats plant
-                            life as “animated by desire yet witho ut interiority,” capable of
+                            life as “animated by desire yet without interiority,” capable of
                             multiplying affect, animation, and pleasure across different kind of
-                            material bodies—rather than subjecting plants to an Enlightenment logic
+                            material bodies — rather than subjecting plants to an Enlightenment logic
                             of analogy that constrains them to model human sexuality or subjectivity
                             (479–80). Darwin’s <hi rend="italic">Loves of the Plants</hi> occupies
                             an ambivalent place in this brilliant analysis, evincing at once a
@@ -522,8 +546,8 @@
                             <hi rend="italic">Zoonomia </hi>(1794–96), which
                             advanced an overtly evolutionary theory of organic life. In hindsight,
                             Griffiths argues, the <hi rend="italic">Botanic Garden</hi> was reread
-                            as a threatening “evolutionary epic”. On this reading, the
-                            metamorphic, multispecies advance of Gillray’s “New Morality” primarily
+                            as a threatening “evolutionary epic” (#54). On this reading, the
+                            metamorphic, multispecies front in Gillray’s “New Morality” primarily
                             represents (conservative skepticism of) an all-encompassing, progressive
                             theory of evolution (79–80), rather than his politics of revolution.
                             Indeed, Griffith ultimately concurs with such critics that Darwin
@@ -550,7 +574,7 @@
                             technical, neo-Lucretian sense, rigorously theorizing the connection
                             between natural and cultural pattern-formation through a sense of
                             “habit” that extends deep into nonhuman being (Goldstein, “Nerve Poetry”
-                            #). Perhaps Griffith’s criticism was meant for Darwin’s later epic, <hi
+                            5#). Perhaps Griffith’s criticism was meant for Darwin’s later epic, <hi
                                 rend="italic">The Temple of Nature</hi> (1803), rather than <hi
                                 rend="italic">The Botanic Garden</hi>? It would then need to contend
                             with Martin Priestman’s work on the political and social arguments
@@ -561,8 +585,8 @@
                 “radical pastoral” to account for the ridiculous and/or dire possibility of
                 multinatural revolutionism found in Darwin’s representations of plant animacy and
                     love?<note place="foot" resp="author">
-                            “Multinaturalism” comes from the Amerindian anthropologist Eduardo
-                            Viveiros de Castro’s studies of Indigenous American cosmological
+                            “Multinaturalism” comes from the anthropologist Eduardo
+                            Viveiros de Castro’s studies of IAmerindian American cosmological
                             perspectivalism in its difference from modern Western multiculturalism.
                             While multiculturalism presumes “the unity of nature and the plurality
                             of cultures,” or many partial representations of one natural reality
@@ -581,7 +605,7 @@
                             of strangers, of immigrants, of foreign plants that have traveled from
                             far across the globe” whose diversity represents the reach and interests
                             of British commercial empire (74, 79). “Multinaturalism” in this sense
-                            thus operates as analogue and corollary (rather than inversion) of
+                            thus operates as analogue and corollary (rather than reversal) of
                             modern Western “multiculturalism.”</note></p>
                 
             <p> Another brilliant parody helps specify the logic — or the fantasy — that keeps turning
@@ -611,10 +635,10 @@
                             the radical journals friendlier to Darwin’s poetry
                     (169–71).</note> More outrageous, even, than “Jacobins,” <hi
                     rend="italic">The Golden Age</hi> hails Darwinian plants as veritable <hi
-                    rend="italic">sans-culottes</hi>. (Yes, plants without pants.) In fact, <hi
+                    rend="italic">sans-culottes</hi>. (Cheekily mistranslated to imply, yes, plants without pants.) In fact, <hi
                     rend="italic">The Golden Age</hi> attempts to expose the whole Darwinian project
                 of versified botany as an awkward, obvious attempt to clothe the “broad,” “brawny”
-                butts of the Paris street in decorous poetic pantaloons. “Attend,” calls the poem’s
+                butts of the Paris street in decorous poetic breeches. “Attend,” calls the poem’s
                 pseudo-Darwin to his sans-culottist comrade, “While in Rhyme’s Galligaskins I
                 enclose / The broad posteriors of thy brawny prose” (B2).</p>
                 
@@ -662,7 +686,7 @@
                             less technological hubris and less magical thinking than the parody lets
                             on. The excerpted question comes at the end of an
                             anything-but-fantastical passage on the healthful and useful properties
-                            of existing botanical butters. Beddoes wants to know whether some such
+                            of actually existing botanical butters. Beddoes wants to know whether some such
                             plant could be bred and cultivated in England, and, in a question of
                             ongoing ecological import, whether a plant-based diet might better and
                             more efficiently nourish the British populace. In fact, in general, his
@@ -678,12 +702,12 @@
                 different, though perhaps equally delusive and damaging, form of techno-utopian
                 ecology in Erasmus Darwin’s sans-culottist botanical poetry. For beyond the epigraph
                 in this instructive spoof, cessation of labor becomes its crucial theme: pastoral
-                <hi rend="italic" >otium </hi>is the key of freedom from toil,
+                <hi rend="italic" >otium </hi> in the key of freedom from toil,
                 carrying with it release from the exigency to transform, combat, coerce, or exchange
                 other natures. What humans (specifically, the “frisky French” and their English
                 admirers) <hi rend="italic" >do </hi>in
                 <hi rend="italic" >The Golden Age </hi>parody is violently
-                revolutionize the social order, delivering the “gigantic blow” that lays Royalty,
+                revolutionize their social order, delivering the “gigantic blow” that lays Royalty,
                 Monarchy, Ministry, Bigotry, Slavery, and God “low” (12–14). What other natures do,
                 in the solidarity that the parodist sarcastically calls their “happiness” and
                 “triumph,” is pitch in to resolve the resultant crisis in production. Their
@@ -699,7 +723,7 @@
                 
             <p> Sketched here in negative, unflattering caricature, then, would seem to be a vision
                 of not-merely-human “communal luxury” that, as an ecological ethos, would be
-                deliciously, improbably predicated on working <note place="foot"> I borrow the
+                deliciously, improbably predicated on working less <note place="foot"> I borrow the
                             evocative and technically apt phrase “communal luxury” from Kristen
                             Ross’s study of the practical imaginary of the Paris commune; see
                             especially 39–66.</note> 
@@ -739,7 +763,7 @@
                 actually had underway in the late 1790s — a poem in which, according to extant notes,
                 “Liberty returns, and leads the golden age” under the aegis of “mild Philosophy” and
                 Nature in the Lucretian shape of <hi rend="italic">“Immortal Love!</hi>” — may have
-                motivated Darwin to abandon that genuine Golden Age project (Priestman Chapt. 10).
+                motivated Darwin to abandon that genuine Golden Age project (Priestman 261, 193-216).
                 Satire and sincerity, original and parody, thrilling possibility and risible absurdity
                 blur so thoroughly in the reception of such utopian political ecology that one
                 begins to suspect that — as with the term <hi rend="italic">utopian</hi>
@@ -747,19 +771,19 @@
                 given reader's degree of attachment to the present order of things. </p>
                 
             <p> <hi rend="italic" >The Golden Age </hi>parody will not let
-                readers forget there is classical precedent for all this.
+                readers forget that there is classical precedent for all this.
                 The poem everywhere
                 references Virgil’s fourth, “messianic”
                 <hi rend="italic" >Eclogue, </hi>notable for infusing Golden Age
                 myth into the pastoral mode and for transposing that Age from the mythic past to the
-                imminent, political future.<note place="foot" resp="author"> On the different origins and character of pastoral
-                            and Golden Age tradition, as well as their initially experimental merger
+                imminent, political future.<note place="foot" resp="author"> On the different origins and character of the pastoral mode,
+                            and Golden Age myth, as well as their experimental merger
                             in Roman literature, see Thomas G. Rosenmeyer 214–24.</note>
                 What matters about this version of pastoral as a means to capture (and skewer)
                 Darwin’s visionary naturalism is that Virgil’s
                 <hi rend="italic" >Eclogue </hi>borrowed the stirring, Golden
                 Age topos of an unforced, unstinting earth — “the fruitful earth unforced bare . . . fruit
-                abundantly and without stint” to mortals “free from toil and grief — and cast this
+                abundantly and without stint” to mortals “free from toil and grief" — and cast this
                 condition of uncoerced terrestrial luxury as subject to political restitution
                 (Hesiod 117–18, 113). An encomium to his patron Pollio, consul at the time of
                 composition, Virgil’s poem augurs the return of the Golden Age under his
@@ -768,14 +792,14 @@
                 suggests that the Lunar Society cohort likewise expects the wholesale
                 “renovation of the world," albeit "under the benign influence of French Freedom” (5n).</p>
                 
-            <p> And here, in fact, is the first politico-ecological feature to mark the classical
+            <p> And here, in fact, is the first political-ecological feature to mark the classical
                 Golden Age tradition associated, by the 1790s, with experimental utopianism and
                 Jacobin internationalism: the notion that plants and animals and winds and waters
                 will participate in a new political dispensation, altering the very face of the
                 earth. On the horizon of the faltering republic, Virgil’s fourth eclogue forecasts a
                 form of theologico-political expiation felt deep into the earth: an alteration that
                 would “free the lands from lasting fear" (Lee 57; Virgil 13–14).<note place="foot" resp="author"> “te duce, si
-                            qua manet sceleris uestigia nostri / inrita perpetua soluent formidine
+                            qua manet sceleris vestigia nostril / inrita perpetua solvent formidine
                             terras” (Virgil 13–14)</note> While the Golden Age renews under
                 the rising sign of empire in Virgil, Ovid’s version harks back to an
                 anarcho-communism of terrestrial elements: the earth (<hi rend="italic">humus</hi>)
@@ -787,7 +811,7 @@
                 men — cultivated faith and rectitude of itself, without law, and without judge or
                 protector, he gathers persons, animals, plants, and planet together, in an epoch of
                 unforced generativity and righteousness (Ovid 1:89–90).<note place="foot" resp="author"> “Aurea prima sata est aetas, quae
-                            vindice nullo, / sponte su, sine lege fidem rectumque colebat” (Ovid
+                            vindice nullo, / sponte sua sine lege fidem rectumque colebat” (Ovid
                             1:89–90).</note></p>
             
             <p> Though their political valences differ diametrically, then, both the Ovidian and the
@@ -802,8 +826,7 @@
                 that conform to aristocratic taste, Virgil — and Darwin’s parodist after him — manages
                 to underscore the eye-brow-raising convenience for (certain) humans of that which the
                 earth is said to give freely (<hi rend="italic">sponte sua</hi>) in her golden
-                    mood.<note place="foot" resp="author"> This
-                            passage serves as confirmation of Anabelle Patterson’s thesis that the
+                    mood.<note place="foot" resp="author">This reading confirms Anabelle Patterson’s thesis that the
                             <hi rend="italic" >Eclogues </hi>serve, throughout
                             their varied and insistent reception and adaptation history, as
                             provocations to explore the connection between literary culture and
@@ -827,29 +850,9 @@
                 <p>For, in fact, in the shadow of Virgil’s pastoral irony, the
                 earth’s supposedly unforced freedom can appear to differ precious little from her forcible
                 transformation: do not other natures live to serve human desires in Golden Age ecology? Celebrating
-                their creative powers à la Darwin (like their “resilience,” in a contemporary
+                their creative powers à la Darwin (like celebrating their “resilience,” in a contemporary
                 idiom), may be little more than an alibi for subjecting them to every serviceable
-                    transformation.<note place="foot" resp="author"> Most hyperbolically, rams and sheep turn themselves
-                            rich colors—purple, saffron, scarlet—gamely obviating the need to dye
-                            their wool or skins (see n. 27 below). In Virgil’s “technicolor” animal
-                            skins (Rosenmeyer 217), the later parodist of Erasmus Darwin finds his
-                            mark: where “nature” is poetically induced past fruiting and farming
-                            into textile manufacture and manipulation, there is an emblem for the
-                            hubris of experimental philosophy and textual artistry at the dawn of
-                            the Industrial Age. (<hi rend="italic">The Golden Age</hi> both adapts
-                            these lines and provides the Latin in a footnote to make sure no one
-                            misses the reference [5, 5n]).The parodist clearly sees a distinction
-                            without a difference between trying to intervene technically in plant
-                            fertility (to “regulat[e] the vegetable functions”) and the Golden Age
-                            vision of their spontaneous technicity that he summons to ridicule that
-                            project (#). The latter is ideological cover for the former, and both
-                            instantiate what
-                            <hi rend="italic" >Anti-Jacobin </hi>satirists on
-                            the British right would soon distill as the core Darwinian/Jacobin
-                            fallacy: “Whatever is, is wrong” (a perversion of the quiescent motto of
-                            that responsible couplet artist, Alexander Pope), which also constitutes
-                            a bad faith and unchristian promise to the rabble that hard labor is not
-                            their lot in this life. Though concern for the status of nonhuman
+                    transformation.<note place="foot" resp="author"> Though concern for the status of nonhuman
                             natures is merely an incidental byproduct of the parodist’s concern for
                             the British social hierarchy (the Order of Nature in the Burkean sense),
                             we glimpse in his early suspicion of GMO-logic how the conservative
@@ -880,19 +883,18 @@
                                 metropole
                             (<hi rend="italic">Natures </hi> 69, 79). </note>
                 But neither, I would argue, can they finally exhaust the provocation of utopian
-                    techno-pastoral.<note place="foot" resp="author"> Visionary radicalism, wish fulfillment, and class
-                            apologetics so openly and intimately entwine in the genealogy of this
-                            particular eco-utopian imaginary that it will—and should—remain
-                            permanently susceptible of ideology critique. Following Karl Mannheim,
-                            the first to mutually theorize “ideology” and “utopia,” we might
-                            differentiate between these two dimensions of mental “incongruence with
-                            the state of reality” by asking whether a given orientation, were it to
-                            “pass over into conduct,” would “shatter” the existing order of things
-                            (utopia) or ensure its maintenance (ideology) (173).</note>
-                Read credulously, four features of the mode stand out as utopian in historical retrospect, \
+                    techno-pastoral.Read credulously, four features of the mode stand out as utopian in historical retrospect, \
                 in so far as they would
                 break the frame of the politics of nature that triumphed in the interim, up to and
-                including our normative sense of political ecology.</p>
+                including our normative sense of political ecology.<note place="foot" resp="author"> Visionary radicalism, wish fulfillment, and class
+                    apologetics so openly and intimately entwine in the genealogy of this
+                    particular eco-utopian imaginary that it will—and should—remain
+                    permanently susceptible of ideology critique. Following Karl Mannheim,
+                    the first to mutually theorize “ideology” and “utopia,” we might
+                    differentiate between these two dimensions of mental “incongruence with
+                    the state of reality” by asking whether a given orientation, were it to
+                    “pass over into conduct,” would “shatter” the existing order of things
+                    (utopia) or ensure its maintenance (ideology) (173).</note></p>
                 
             <p> The first feature concerns pastoral <hi rend="italic">adynata</hi> and <hi
                     rend="italic">impossibilia</hi> — those “miraculous dislocations of natural law",
@@ -911,7 +913,7 @@
                             conceive of nature as inherently lawful, such poetic philosophy ascribed
                             to nature’s least constituents the power to “break the bonds of fate,”
                             lest nothing different would or could ever arise, or have arisen, in the
-                            cosmos. Since this tradition equates that which is familiarly called
+                            cosmos (De rerum natura Book 2, 1. 254, 114-15, trans. modified). Since this tradition equates that which is familiarly called
                             “chance” in the realm of physics with that which is called “freedom” in
                             the realm of ethics, it carves out a broad space for moral, cultural,
                             and political conduct among nonhuman natures, even as it instructs
@@ -956,27 +958,7 @@
                 Situating “invention” and “representation” <hi rend="italic" >within </hi>the realm of
                 generative reproduction and deviation, Darwinian techno-pastoral foregrounds the
                 precedence and participation of other natures as coauthors in the history of art,
-                technology, and mediation.<note place="foot" resp="author" >Take, for instance, Virgil’s outrageous figure of the rams and lambs with self-dying coats: 
-                    
-                        <lg type="stanza">
-                        
-                    <l>ipse sed in pratis aries iam suaue rubenti </l>
-                    <l> murice, iam croceo mutabit uellera luto;</l>
-                     <l>sponte sua sandyx pascentis uestiet agnos. </l>
-                <l>  David Ferry’s recent translation has it thus: </l>
-                  <l>No longer need cloth learn to imitate colors </l>
-                     <l> Out in the meadow the fleece of the ram will change </l>
-                   <l> Of its own accord from purple to yellow; </l>
-                        <l> In the meadow the lambs will graze in bright red coats. </l></lg>
-   Virgil’s apparent disdain for the deceit and artifice of dyeing makes one expect some endorsement of unadulterated, “natural” wool, 
-   but—in ways too complex to unfold here—the moral line in the poem is falling not between nature and artifice, or truth and fiction, 
-   but between spontaneity and coercion. In Virgil’s Latin, in fact, nature and art/techne, and also native and strange, have entered 
-   into a positive feedback loop that heightens naturalness and technical splendor <hi
-                                rend="italic">together</hi>. Above all, from the first image, 
-                    wherein the ram changes the color of his own (ipse suae) coat, to the last, in which the color <hi
-                                rend="italic">sandyx</hi> leaps, <hi rend="italic">sponte sua</hi>, to change the coats of the lambs, the
-                                stress falls on the possibility of spontaneous, uncoerced
-                                transformation.</note>
+                technology, and mediation.
                 
                 Yet such technophilic naturalism, and this is the third
                 point, would remain indistinguishable from familiar technologies of domination, were
@@ -1011,19 +993,19 @@
                 abolishing hierarchy among categories of being accomplishes anybody’s political
                 liberation. In fact, where ontological leveling masquerades as <hi rend="italic"
                     >political</hi> ecology achieved, it necessarily thwarts and mystifies the basic
-                politicization of ecology.<note place="foot" resp="author"> I take this to be the principal flaw of Jane
+                politicization of ecology.<note place="foot" resp="author"> I take this to be the risk of Jane
                             Bennett’s eloquent and influential “new materialist” approach to
                             political ecology in <hi rend="italic">Vibrant Materialism</hi>. Many of
                             her sources in the long, <hi rend="italic">old</hi> history of
                             non-Cartesian, non-Kantian philosophical naturalism, vitalism, and
                             materialism do not share this deficit.</note> 
                 This is because matters of justice, exploitation, and repair in the realm of ecology have never concerned
-                the human and/versus the non-human; they have instead to do with
-                <hi rend="italic" >certain </hi>humans exploiting <hi rend="italic">certain</hi>other human
+                <hi rend="italic">the</hi> human and/versus <hi rend="italic">the</hi> non-human; they have instead to do with
+                <hi rend="italic" >certain</hi> humans exploiting <hi rend="italic">certain</hi> other human
                 and nonhuman beings. An analytic grounded in ontological
                 categories of being has no means to grasp this asymmetrical and differential
                 distribution of responsibility and harm. In this context, parables of ecological
-                jubilee acquire their peculiar utopian, counter-ideological purchase. For, however
+                jubilee acquire their peculiar utopian, <hi rend="italic">counter-ideological purchase</hi>. For, however
                 distortedly, they begin by imagining not ontological equivalency but an end to
                 coercion. This, I would argue, is a genuinely political gambit. </p>
                 
@@ -1054,7 +1036,7 @@
                 to make for easy parody, grasping the ecological intersection between race and class
                 in his work requires a subtler appreciation of the poet’s figurative and
                 compositional tactics. The brilliant Swiss-English graphic artist Henri Fuseli’s
-                frontispiece to the <hi rend="italic">The Economy of Vegetation</hi> provides a
+                frontispiece to <hi rend="italic">The Economy of Vegetation</hi> provides a
                 perfect introduction (Figure 4). The frontispiece is supposed to represent the
                 Goddess of Botany, “Flora, attired by the Elements,” in correspondence with the four,
                 element-focused cantos through which the poem purports to tell the “physiology of
@@ -1077,14 +1059,14 @@
                 personifying elements of earth — that is, figuring the ground—and depicting the action
                 of that and those who have been, in Darwin’s phrase, “disanimated” or
                 reduced to that terrestrial matrix. <note place="foot" resp="author">I adapt the term from a related context: Canto 2, l. 312, analyzed below.</note>
-                The addressees of this Earth canto, elements of
+                The addressees of this Earth Canto, elements of
                 ground whom Darwin personifies as “Gnomes,” bear this figural burden: they operate
                 as a force of frankly de-carceral natality, even as they do not quite cease to
                 embody the inhuman, inanimate states of imprisonment and (social) death in which
                 certain beings are interred, not to mention the stony walls, tombs, and prisons that
                 contain them. In any case, their personification means allowing the background to
                 surge into relief, usually at the cost of someone or something else (Canto 1, l.73). Reading
-                Darwin’s Earth canto alongside anticolonial ecologies of race allows us to see how the
+                Darwin’s Earth Canto alongside anticolonial ecologies of race allows us to see how the
                 kitschy, elastic, preternatural figure of the “Gnomes” — etymologically, <hi
                     rend="italic">earth-men</hi> — come to signify the condition of imposed
                 identification and possible allegiance between varieties of exploited ground and the racialized
@@ -1115,8 +1097,7 @@
                 in the <hi rend="italic">Botanic Garden</hi>.<note place="foot" resp="author">  See Priestman’s related insight that,
                             from the formal level of the line to that of the epic, Darwin’s poems
                             are constructed as spatial architectures rather than temporal
-                            narratives. See also my exploration in “Nerve Poetry and Fiber Art.” And
-                            see Alan Richardson’s groundbreaking recognition of Darwin (among
+                            narratives. And see Alan Richardson’s groundbreaking recognition of Darwin (among
                             others) as advancing an influential, embodied, brain-based science of
                             the “mind” within Romantic culture.</note> Dramatizing the
                 emergence of plastic forms from undifferentiated ground, objects sculpted or molded
@@ -1157,7 +1138,7 @@
             <p> The intimate connection between relief poetics, mineral extraction, industrial
                 manufacturing, and chattel slavery in the (Political) <hi rend="italic">Economy of
                     Vegetation</hi> comes to a head when Darwin embeds the most iconic token of the
-                contemporary transatlantic abolitionist movement in the middle of his Earth canto
+                contemporary transatlantic abolitionist movement in the middle of his Earth Canto
                 (Figure 5). This bas-relief medallion first appears in the course of the canto’s
                 survey of the formation of clays and the manufacture of ceramics. Commissioned in
                 1787 as the seal for the London Committee of the Society for Effecting the Abolition
@@ -1165,7 +1146,7 @@
                 especially after Darwin’s Lunar Society friend and collaborator, the porcelain
                 manufacturer Josiah Wedgwood, put it into mass production as a wearable cameo at his
                 state-of-the-art factory, Etruria (Figure 6). In an irony apparently lost on
-                contemporaries, the SEAST’s emblem against human commodification became quite the
+                those who wore it, the SEAST’s emblem against human commodification became quite the
                 fashionable commodity: the cameo was set in snuffboxes and worn in bracelets and
                 hairpins; like an earlier modern “meme,” it crossed the channel and the Atlantic,
                 switching genders, settings, and media in diverse adaptations (Clarkson 191–92;
@@ -1193,14 +1174,14 @@
                 abolitionist imagination — which preferred to picture a “supplicating Negro” begging
                 kinship recognition (in the nearly unanswerable form of a negative rhetorical
                 question) to the ongoing fact and fear of slave and Maroon uprisings in the
-                colonies — the image also did its share of damage. In casting the slave’s humanity and
+                colonies — the image also did its share of damage. In casting the enslaved person's humanity and
                 freedom as a “gift” in the (presumptively white) spectator’s power to bestow, such
                 visions of “the emancipation moment” symbolically steal a person’s freedom a second time by
                 usurping their power to seize it (Wood 29).<note place="foot" resp="author" > In Marcus Wood’s analysis, 
                     this paradigm of emancipation tees up an ethos of white British self-congratulation for the eventual 
                     abolition of the trade in 1807 that persisted well into the bicentennial celebrations of 2007, 
-                    which failed to commemorate, for instance, the fact that slaveholders and not slaves were financially 
-                    compensated for their “loss.” Without disputing this overall analysis, Hamilton has shown that the visual 
+                    which failed to commemorate, for instance, the fact that slaveholders and not formally enslaved persons were financially 
+                    compensated for their “loss.” Without disputing this overall Fanon-derived analysis, Hamilton has shown that the visual 
                     rhetoric of the kneeling slave was somewhat more nuanced, alluding to the heroic endurance and (potentially 
                     threatening) strength of Hercules. I would also note that Darwin’s own, neurophysiological theory of the operation 
                     of sympathetic mimesis through various perceptual media suggests that such a complex object’s text and sculptured 
@@ -1210,14 +1191,14 @@
                     But because the bas-relief pictures the slave in profile, it positions its viewer as witness, instead, to a 
                     scene in which the slave beseeches someone else. This position of complicit remove was well-keyed to the English 
                     mainland situation, in which citizens could (and frequently did) congratulate themselves on the effective illegality
-                    of slavery on their soil, while profiting magnificently from the trans-Atlantic slave trade. 
+                    of slavery on their soil, while profiting magnificently from the transatlantic slave trade. 
                     Less suspiciously read, this effect correlates with Menely’s keen observation that humanitarian 
                     abolitionist poetics extend the scope of existing sympathetic identification where “the collective
                     addressee witnesses not only the suffering slave but its own witnessing of the slave’s suffering” (65). 
                     Finally, Darwin’s understanding of ideation as bodily mimicry of the object by the senses, particularly in the 
                     case of touch, suggests that the palpable medallion may not only constrain the agency of the depicted slave but
                     also bring the perceiver to his or her (virtual) knees, forcing their nerves to rehearse like attitudes of 
-                    humiliation. See Goldstein “Nerve Poetry and Fiber Art” on Darwin’s neuro-aesthetics. </note>
+                    humiliation. See Goldstein “Nerve Poetry” on Darwin’s neuro-aesthetics. </note>
                 
                 Nor is such an analysis merely a product of hindsight. In his 1801 novel of the
                 Haitian Revolution, <hi rend="italic">The Daughter of Adoption</hi>, John Thelwall
@@ -1242,23 +1223,25 @@
             <l>GNOMES! as you now dissect with hammers fine</l>
             <l>The granite-rock, the nodul’d flint calcine;</l>
             <l>Grind with strong arm, the circling chertz betwixt,</l>
-            <l>Your pure Ka-o-lins and Pe-tun-tses mixt; 300</l>
+            <l>Your pure Ka-o-lins and Pe-tun-tses mixt; 300 </l>
             <l>O’er each red saggars burning cave preside,</l>
             <l>The keen-eyed Fire-Nymphs blazing by your side;</l>
             <l>And pleased on WEDGWOOD ray your partial smile,</l>
             <l>A new Etruria decks Britannia’s isle— </l>
-            <l>Charm’d by your touch, the flint liquescent pours 305</l>
+            <l>Charm’d by your touch, the flint liquescent pours 305 </l>
             <l>Through finer sieves, and falls in whiter showers;</l>
             <l>Charm’d by your touch, the kneaded clay refines,</l>
             <l>The biscuit hardens, the enamel shines;</l>
             <l>Each nicer mould a softer feature drinks,</l>
-            <l>The bold Cameo speaks, the soft Intaglio thinks. 310</l>
+            <l>The bold Cameo speaks, the soft Intaglio thinks. 310 </l>
+                       
             <l>To call the pearly drops from Pity’s eye,</l>
             <l>Or stay Despair’s disanimating sigh,</l>
             <l>Whether, O Friend of art! the gem you mould</l>
             <l>Rich with new taste, with ancient virtue bold;</l>
-            <l>Form the poor fetter’d SLAVE on bended knee; 315</l>
+            <l>Form the poor fetter’d SLAVE on bended knee; 315 </l>
             <l>From Britains sons imploring to be free . . .</l></lg></quote>
+                
                 Commenting on passages such as this some thirty years ago, Maureen McNeil shrewdly
                 observed that Darwin’s industrial poetry erased workers from the scene, instead
                 attributing labor “to ‘gnomes’ who magically perform the work required” (17, 19).
@@ -1279,14 +1262,14 @@
                             famous antislavery medallion, Darwin reproduced the image of another,
                             equally fraught Wedgwood cameo, this one plunging us into the penal
                             colonization of Australia: a cameo of “Hope attended by Peace, and Art,
-                            and Labour; which was made of clay from Botany-Bay; to which place he
+                            and Labour; which was made of clay from Botany-Bay; to which place [Wedgewood]
                             sent many of them, to show the inhabitants what their materials would
                             do, and to encourage their industry” (<hi rend="italic">Economy of
                                 Vegetation</hi> l.315n).</note> Darwin’s remediation makes
                 clear that these occulted agencies (“GNOMES”) contribute to the semiotic and
                 affective efficacy of the cameo (its power to “speak,” “think,” and “call the pearly
                 drops from Pity’s eye, / Or stay Despair’s disanimating sigh”). But as we will see,
-                it is not quite clear that their meaning agrees with its milquetoast motto — <hi
+                it is not quite clear that their meaning agrees with the milquetoast motto — <hi
                     rend="italic">Am I Not A Man and a Brother?</hi> — actually printed thereon.</p>
                 
             <p> On the earthen side of Darwin’s gnomic conjunction, a “new” materialist emphasis on
@@ -1317,7 +1300,7 @@
                 productions include not only rigorously geometrical forms but also mimetic
                 similitudes of other natures: rocks and gemstones that assume the shape of wisps of
                 hair, floral petals and spines, striated sands and tree rings, land- and seascapes.
-                The Earth canto also explores the mineral dimension of plant and animal vitality: Darwin
+                The Earth Canto also explores the mineral dimension of plant and animal vitality: Darwin
                 traces the blush of blood-borne iron beneath a rosy human cheek and the “dark mould,
                 white lime, and crumbling sands” that nourish and awaken dormant seeds (542). By
                 virtue of the recently discovered chemical processes of oxidation, respiration, and
@@ -1331,8 +1314,8 @@
                 of human beings in and on the earth. But as usual, summation at the level of
                 human/nonhuman ontology will occlude the political burden of the not-quite-,
                 not-merely-human “gnomes” in their pointed marginality and plural, collective
-                action. Reading Darwin’s Earth canto in its entirety fact helps mitigate the present
-                tendency to mistake ontology for political ecology that is writ large those theories of the
+                action. Reading Darwin’s Earth Canto in its entirety in fact helps mitigate the present
+                tendency to mistake ontology for political ecology that is writ large in those theories of the
                 “Anthropocene” that urge the suppression of difference under the (negative)
                 universal sign of human peril.<note place="foot" resp="author"> Dipesh Chakrabarty’s brilliant and influential
                             early formulation of the challenge that Anthropocene science posed to
@@ -1370,12 +1353,12 @@
                             collaborations were instrumental to the early and precipitous
                             industrialization of the West Midlands projects ranging from John
                             Wilkinson’s ironworks at Bradley to James Watt’s improvements on the
-                            Newcomen Engine to numerous canal and transportation projects. See
-                            Jennifer S. Uglow’s comprehensive group bibliography.</note>
+                            Newcomen Engine to numerous canal and transportation via projects. See
+                            Jennifer S. Uglow’s comprehensive group biography.</note>
                 Yet Yusoff’s theory of “black inhumanist poetics,” like Monique Allewaert’s notion
                 of “parahuman” allegiance among the beings yoked together by plantation
                 ecology/economy, reveals not only histories of subjugation but also illicit
-                practices of “freedom<hi rend="italic" > in </hi>the earth”
+                practices of “freedom <hi rend="italic" > in </hi>the earth”
                 unleashed when expropriated subjects of “inhuman categorization” tip their
                 compulsory intimacy with the land into strategic alliance and multinatural
                 insurgency (Yusoff xii, 15; Allewaert 7).<note place="foot" resp="author"> Monique Allewaert’s work on “parahuman”
@@ -1386,7 +1369,7 @@
                             categorization) as well as from their participation in and invention of
                             cosmologies that organize nature otherwise.</note> When Yusoff
                 suggests that early American black inhumanist artistry can attest to “a
-                gravitational force so extravagant, it defies gravity” (100), we can perceive the
+                gravitational force so extravagant, it defies gravity”, we can perceive the
                 elective affinity between the long history of Afro-futurism and the eco-utopian
                 “suspensions of natural law” this essay has traced by way of pastoral (100). At stake is a
                 form of multinatural allegiance that upends not only positive laws but also the
@@ -1398,8 +1381,8 @@
                 collectivities that it apostrophizes without being able to activate or control.
                 Though critics from the
                 <hi rend="italic" >Anti-Jacobin </hi>forward have mocked the topical
-                miscellany character of Darwin’s poem, there is a logic to the poem’s movement in the
-                Earth canto, and it is frankly and increasingly - anti-colonial. In fact, Darwin traces, with subtle but
+                miscellany characteristic of Darwin’s poem, there is a logic to the poem’s movement in the
+                Earth Canto, and it is frankly and increasingly - anti-colonial. In fact, Darwin traces, with subtle but
                 intensifying condemnation, the very trajectory mapped by Yusoff’s “inhuman geography,”
                 the geo-logic that unites the histories of fossil capital with that of colonial slavery. </p>
                                 
@@ -1410,7 +1393,7 @@
                 petroleum sublimate whose electrical properties, in Darwin’s lithic retelling,
                 galvanize the American and French Revolutions (“man electrified man” [368]) through
                 the person of Benjamin Franklin only to stumble on the long colonial history of the
-                Americas and, again, the present reality of black enslavement (353–94). In such
+                Americas and, again, the present reality of Black enslavement (353–94). In such
                 sequencing, the volatile blackness of fossil earth forms a link between the poem’s
                 repeated confrontations with chattel slavery in an Age of Revolution, as if the
                 racialized conjunction between usable earth and useable people held the key to
@@ -1425,24 +1408,25 @@
                         
             <l>Whence roof’d with silver beam’d PERU, of old, </l>
             <l>And hapless MEXICO was paved with gold.</l>
+                        
             <l>Heavens! on my sight what sanguine colours blaze!</l>
             <l>Spain’s deathless shame! the crimes of modern days!</l>
-            <l>When Avarice, shrouded in Religion’s robe, 415</l>
+            <l>When Avarice, shrouded in Religion’s robe, 415 </l>
             <l>Sail’d to the West, and slaughter’d half the globe;</l>
             <l>While Superstition, stalking by his side,</l>
             <l>Mock’d the loud groans, and lap’d the bloody tide;</l>
             <l>For sacred truths announced her frenzied dreams,</l>
-            <l>And turn’d to night the sun’s meridian beams. — 420</l>
+            <l>And turn’d to night the sun’s meridian beams. — 420 </l>
             <l>Hear, oh, BRITANNIA! potent Queen of isles,</l>
             <l>On whom fair Art, and meek Religion smiles,</l>
             <l>Now AFRIC’s coasts thy craftier sons invade</l>
             <l>With murder, rapine, theft,—and call it Trade!</l>
-            <l>— The SLAVE, in chains, on supplicating knee, 425</l>
+            <l>— The SLAVE, in chains, on supplicating knee, 425 </l>
             <l>Spreads his wide arms, and lifts his eyes to Thee;</l>
             <l>With hunger pale, with wounds and toil oppress’d,</l>
             <l>“ARE WE NOT BRETHREN ?” sorrow choaks the rest;</l>
             <l>— AIR! bear to heaven upon they azure flood</l>
-            <l>Their innocent cries!—EARTH! cover not their blood! 430</l></lg></quote>
+            <l>Their innocent cries!—EARTH! cover not their blood! 430 </l></lg></quote>
                 
             The closing anti-slavery exhortation, paraphrasing the Wedgwood cameo’s scene and
                 motto, has the ring of a sentimental set piece: an appeal to universal brotherhood
@@ -1457,7 +1441,7 @@
                 lineation. At this breaking point, the materialist nature poem capitulates into a
                 kind of curse or prayer (the language is biblical) that radicalizes Darwin’s overall
                 poetics of deflecting attention towards the background. Calling on the elemental
-                milieu for relief - “AIR! bear to heaven upon they azure flood / Their innocent
+                milieu for relief - “AIR! bear to heaven upon thy azure flood / Their innocent
                 cries! — EARTH! cover not their blood!”<hi rend="italic">—</hi>the speaker cedes to
                 these elemental media that quintessential artistic power of lifting something up for
                 notice or preservation. Now the air is to bear up the slaves’ protest, the earth to
@@ -1514,10 +1498,10 @@
                 great earthy Ocean” (487, 494). Night then “bow[s] his Ethiop brow,” as if to
                 sanctify the action, before the poem turns to celebrate the “Afric Warrior,”
                 Hannibal, to whom the very Alps yielded passage, that he might “sh[ake] the rising
-                empire of the world” (495, 529–41). Implicitly over the course of this movement, Darwin has threatened 
-                that the earth will <hi rend="italic">inhume</hi> that is, smother with earth, the "inhuman trade" in which 
-                his own well-being is implicated and which gives the lie to the contemporary pretenses
-                at universal humanism and humanitarian sentimentalism alike.</p>
+                empire of the world” (495, 529–41). Implicitly, over the course of this movement, Darwin has threatened 
+                that the earth will <hi rend="italic">inhume</hi> that is, smother - with earth - the "inhuman trade" in which 
+                his own well-being is implicated and which gives the lie to contemporary pretenses
+                of universal humanism and humanitarian sentimentalism alike.</p>
                 
             <p> Are such dark pastoral <hi rend="italic">adynata</hi>, no less than the Golden,
                 utopian ones — for in both cases, other-than-human beings suspend the laws of nature
@@ -1526,7 +1510,7 @@
                 itself? Are the twinned, utopian poles of multinatural vengeance and multinatural
                 jubilee anything other than “bad faith” in the presumptively materialist context of
                 Darwin’s poem — examples of the eschatology for atheists that Steven Goldsmith has
-                detected in much new materialist thought or of unchallenging recourse to a common
+                detected in much new materialist thought? Or examples of unchallenging recourse to a common
                 form of Providentialism, in which the elements are once again instruments of a just
                 God? ("Almost Gone" 417) Maybe. Yet in the present context of global climate destabilization, it feels
                 difficult not to read the destructive behavior of the elements as commentary on the
@@ -1545,7 +1529,7 @@
                     >non</hi>-human being for modern Western metaphysics, attempts to move “<hi
                     rend="italic">beyond</hi> the human” without confronting race as intrinsic to
                 the matter at hand cannot but perpetuate humanism’s historical ignorance and silence
-                regarding black critiques and praxes — not least those “irreverent to the normative
+                regarding Black critiques and praxes — not least those “irreverent to the normative
                 production of ‘the human’” all along (216). It ought to go without saying that
                 other-than-white thought and practice, early and late, has a good deal to teach
                 Anthropocene perpetrators about comporting otherwise with other-than-human beings.
@@ -1556,10 +1540,10 @@
                 toward blackness, whether blackness is embraced or not” (Z. I. Jackson 217).</p>
                 
             <p> By turning so incessantly to the ground in his <hi rend="italic">Economy of
-                    Vegetation</hi>, has Darwin found a way of registering — the threat and promise of
+                    Vegetation</hi>, has Darwin found a way of registering the threat and promise of
                 a kind of terrestrial justice meted out by and for subjects scarcely discernible
                 therefrom — sustaining, and threatening his gorgeous <hi rend="italic">Botanic
-                    Garden</hi> with its inhuman, inhuming power? Not so improbably, perhaps, when
+                    Garden</hi> with their "inhuman," inhuming power? Not so improbably, perhaps, when
                 the glaring fact of the “inhuman trade” revealed to anyone who cared to see that the
                 other-than-human realm was rife with human being uncounted as such. For a natural
                 philosopher and poet such as Erasmus Darwin, moreover, such dispossessed subjects
@@ -1579,9 +1563,9 @@
                 of God but to that of the <hi rend="italic">interred</hi>, those scarcely
                 distinguishable from the ground and thereby able to partake, for better or for
                 worse, of its more-than-human power. Who knows what other natures, in their freedom,
-                might do, were we to cease foreclosing that possibility, by force and by
+                might do, were we to cease foreclosing that possibility by force and by
                 philosophy?</p></div>
-           </div>
+         
            
          
                                 
@@ -1796,6 +1780,7 @@
             <bibl>Yusoff, Kathryn. <hi rend="italic">A Billion Black Anthropocenes or None</hi>. U of
                 Minnesota, 2018.</bibl>
         </div>
+           </div>
         </body>
     </text>
 </TEI>
