@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,137 +79,134 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4031Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4031Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4031" type="letter"><head>4031. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1823-06-17">17 June 1823</date>
-<note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 3p.<lb/>
-Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 394–395 [in part].</note></head>
-
-
-<opener><salute>My dear Wynn</salute></opener>
-            <p rend="indent1">I have spoken to the Vicar<note n="1" place="foot" resp="editors">James Lynn (1776–1855), Perpetual Curate of Strood 1805–1814, Rector of Caldbeck 1814–1820, Vicar of Crosthwaite, Keswick 1820–1855.</note> concerning the Gretna Greeners.<note n="2" place="foot" resp="editors">Wynn had written to Southey on 8 June 1823 telling him of the arrival in Keswick of two female cousins and their husbands. Both couples had eloped to Gretna Green and were now seeking to remarry in the Church of England. Wynn asked Southey to vouchsafe – if required by the Vicar – that both women now had their father’s (William Wynne of Peniarth, 1774–1834) permission to wed. The women were Elizabeth Wynne (1805–1826) and her younger sister, Elinor Wynne (1806–1869). Their respective husbands were William Pierrepoint Gardiner (1806–1831) and Richard Burton Phillipson (1801–1864).</note> They have been here about a fortnight &#38; must compleat two months before they can be remarried; &#38; for this I suppose they are waiting, as they have given no intimation of their intentions. They have taken the house which <ref type="m" target="people.html#BunburyHenryWilliam">M<hi rend="sup">r</hi> Bunbury</ref> built. One of the Ladies is said to suffer under considerable depression of spirits at times; but their general conduct has been such as if they sought rather to attract observation than to shun it. </p>
-               <p rend="indent1">It was of Burnets Own Times<note n="3" place="foot" resp="editors">Gilbert Burnet (1643–1715; <title>DNB</title>), <title>History of his own Time: from the Restoration of King Charles II, to the Conclusion of the Treaty of Peace at Utrecht, in the Reign of Queen Anne</title> (1724–1734). A new critical edition by Martin Routh (1755–1854; <title>DNB</title>) appeared in 1823, which Southey reviewed in <title>Quarterly Review</title>, 29 (April 1823), 165–213, published 27–28 September 1823. The book was no. 498 in the sale catalogue of Southey’s library.</note> that I spoke. A most entertaining book it is, &#38; undoubtedly a very valuable one, but its value consists altogether in the materials, which are sometimes somewhat the worse for the workmanship.
-                  Have you seen <ref type="m" target="people.html#TurnerSharon">Sharon Turners</ref> third volume?<note n="4" place="foot" resp="editors">Sharon Turner, <title>History of England</title> (1814–1823), no. 2838 in the sale catalogue of Southey’s library.</note> The York &#38; Lancaster period is given better than by any other author, – very much so. But he has hurried over Henry 7’s reign.<note n="5" place="foot" resp="editors">Sharon Turner, <title>History of England</title>, 3 vols (London, 1814–1823), III; pp. 254–376 dealt with the civil wars of 1455–1471, while pp. 586–639 covered the reign of Henry VII (1457–1509; King of England 1485–1509; <title>DNB</title>).</note></p>
-                  <p rend="indent1">I find in Strada<note n="6" place="foot" resp="editors">Famiano Strada (1572–1649), <title>De Bello Belgico Decades Duae 1555–1590</title> (1635–1648).</note> that Leicester<note n="7" place="foot" resp="editors">Robert Dudley, 1st Earl of Leicester (1532/1533–1588; <title>DNB</title>), a leading English statesman and Governor-General of the United Provinces 1585–1587 in their war of independence against Spain.</note> engaged to turn Catholic &#38; bring over the kingdom, if the Spanish Court would further his design of marrying Elizabeth.<note n="8" place="foot" resp="editors">Elizabeth I (1533–1603; Queen of England 1558–1603; <title>DNB</title>).</note> The letters of the Spanish Ambassador<note n="9" place="foot" resp="editors">Guerrao Despèo (dates unknown), the Spanish Ambassador to England in 1569.</note> communicating this to his government were in Strada’s hands.<note n="10" place="foot" resp="editors">Famiano Strada (1572–1649), <title>De Bello Belgico Decades Duae 1555–1590</title>, 2 vols<title> </title>(Antwerp, 1635–1648), II, p. 400.</note></p>
-            <p rend="indent1">The wisest thing the Royalist Government in Spain could do, would be to restore the Cortes according to its ancient form.<note n="11" place="foot" resp="editors">French forces had invaded Spain on 7 April 1823 to restore royal absolutism. In medieval times, the Cortes of Castile had consisted of three estates – nobles, clergy and representatives of the towns. The Constitution of 1812, which the liberals had restored in 1820–1823, consisted of one chamber.</note> With this shadow of liberty appearances might be saved, &#38; an able ministry might prepare the nation for substantial freedom, of which they are at this time incapable. In Portugal I know, it was not the absolute government which disgusted the better order of men, &#38; made their hearts revolt, but the odious &#38; scandalous perversion of justice, which made every petty magistrate a tyrant.<note n="12" place="foot" resp="editors">A liberal revolution in Portugal in 1820 had led to the adoption in 1822 of a constitution similar to that in Spain.</note> The fair administration of the laws (which in the main were good) – &#38; a habeas <hi rend="ital">corpus</hi> act,<note n="13" place="foot" resp="editors">The Habeas Corpus Act (1679) in England prevented detention without trial.</note> would have remedied half the evils in Portugal. Concerning Spain I cannot speak with the same knowledge, but I believe that in this respect what is true of the one country, will for the most part apply to the other. But supposing that wise administrations could be formed in both countries (&#38; what a hopeless expectation is this!) where are they to find revenues? &#38; how to be supported till national tranquillity, &#38; with it industry &#38; prosperity can be restored?</p>
-            <closer><salute rend="indent1">God bless you</salute>
-		<signed rend="indent2">RS.</signed></closer>
-<lb/>
-<postscript><p rend="indent0"><date when="1823-06-17">17 June 1823 </date></p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4031" type="letter">
+        <head>4031. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1823-06-17">17 June 1823</date>
+          <note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 3p.<lb />
+Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 394&#8211;395 [in part].</note>
+        </head>
+        <opener>
+          <salute>My dear Wynn</salute>
+        </opener>
+        <p rend="indent1">I have spoken to the Vicar<note n="1" place="foot" resp="editors">James Lynn (1776&#8211;1855), Perpetual Curate of Strood 1805&#8211;1814, Rector of Caldbeck 1814&#8211;1820, Vicar of Crosthwaite, Keswick 1820&#8211;1855.</note> concerning the Gretna Greeners.<note n="2" place="foot" resp="editors">Wynn had written to Southey on 8 June 1823 telling him of the arrival in Keswick of two female cousins and their husbands. Both couples had eloped to Gretna Green and were now seeking to remarry in the Church of England. Wynn asked Southey to vouchsafe &#8211; if required by the Vicar &#8211; that both women now had their father&#8217;s (William Wynne of Peniarth, 1774&#8211;1834) permission to wed. The women were Elizabeth Wynne (1805&#8211;1826) and her younger sister, Elinor Wynne (1806&#8211;1869). Their respective husbands were William Pierrepoint Gardiner (1806&#8211;1831) and Richard Burton Phillipson (1801&#8211;1864).</note> They have been here about a fortnight &amp; must compleat two months before they can be remarried; &amp; for this I suppose they are waiting, as they have given no intimation of their intentions. They have taken the house which <ref type="m" target="people.html#BunburyHenryWilliam">M<hi rend="sup">r</hi> Bunbury</ref> built. One of the Ladies is said to suffer under considerable depression of spirits at times; but their general conduct has been such as if they sought rather to attract observation than to shun it. </p>
+        <p rend="indent1">It was of Burnets Own Times<note n="3" place="foot" resp="editors">Gilbert Burnet (1643&#8211;1715; <title>DNB</title>), <title>History of his own Time: from the Restoration of King Charles II, to the Conclusion of the Treaty of Peace at Utrecht, in the Reign of Queen Anne</title> (1724&#8211;1734). A new critical edition by Martin Routh (1755&#8211;1854; <title>DNB</title>) appeared in 1823, which Southey reviewed in <title>Quarterly Review</title>, 29 (April 1823), 165&#8211;213, published 27&#8211;28 September 1823. The book was no. 498 in the sale catalogue of Southey&#8217;s library.</note> that I spoke. A most entertaining book it is, &amp; undoubtedly a very valuable one, but its value consists altogether in the materials, which are sometimes somewhat the worse for the workmanship.
+                  Have you seen <ref type="m" target="people.html#TurnerSharon">Sharon Turners</ref> third volume?<note n="4" place="foot" resp="editors">Sharon Turner, <title>History of England</title> (1814&#8211;1823), no. 2838 in the sale catalogue of Southey&#8217;s library.</note> The York &amp; Lancaster period is given better than by any other author, &#8211; very much so. But he has hurried over Henry 7&#8217;s reign.<note n="5" place="foot" resp="editors">Sharon Turner, <title>History of England</title>, 3 vols (London, 1814&#8211;1823), III; pp. 254&#8211;376 dealt with the civil wars of 1455&#8211;1471, while pp. 586&#8211;639 covered the reign of Henry VII (1457&#8211;1509; King of England 1485&#8211;1509; <title>DNB</title>).</note>
+        </p>
+        <p rend="indent1">I find in Strada<note n="6" place="foot" resp="editors">Famiano Strada (1572&#8211;1649), <title>De Bello Belgico Decades Duae 1555&#8211;1590</title> (1635&#8211;1648).</note> that Leicester<note n="7" place="foot" resp="editors">Robert Dudley, 1st Earl of Leicester (1532/1533&#8211;1588; <title>DNB</title>), a leading English statesman and Governor-General of the United Provinces 1585&#8211;1587 in their war of independence against Spain.</note> engaged to turn Catholic &amp; bring over the kingdom, if the Spanish Court would further his design of marrying Elizabeth.<note n="8" place="foot" resp="editors">Elizabeth I (1533&#8211;1603; Queen of England 1558&#8211;1603; <title>DNB</title>).</note> The letters of the Spanish Ambassador<note n="9" place="foot" resp="editors">Guerrao Desp&#232;o (dates unknown), the Spanish Ambassador to England in 1569.</note> communicating this to his government were in Strada&#8217;s hands.<note n="10" place="foot" resp="editors">Famiano Strada (1572&#8211;1649), <title>De Bello Belgico Decades Duae 1555&#8211;1590</title>, 2 vols<title> </title>(Antwerp, 1635&#8211;1648), II, p. 400.</note>
+        </p>
+        <p rend="indent1">The wisest thing the Royalist Government in Spain could do, would be to restore the Cortes according to its ancient form.<note n="11" place="foot" resp="editors">French forces had invaded Spain on 7 April 1823 to restore royal absolutism. In medieval times, the Cortes of Castile had consisted of three estates &#8211; nobles, clergy and representatives of the towns. The Constitution of 1812, which the liberals had restored in 1820&#8211;1823, consisted of one chamber.</note> With this shadow of liberty appearances might be saved, &amp; an able ministry might prepare the nation for substantial freedom, of which they are at this time incapable. In Portugal I know, it was not the absolute government which disgusted the better order of men, &amp; made their hearts revolt, but the odious &amp; scandalous perversion of justice, which made every petty magistrate a tyrant.<note n="12" place="foot" resp="editors">A liberal revolution in Portugal in 1820 had led to the adoption in 1822 of a constitution similar to that in Spain.</note> The fair administration of the laws (which in the main were good) &#8211; &amp; a habeas <hi rend="ital">corpus</hi> act,<note n="13" place="foot" resp="editors">The Habeas Corpus Act (1679) in England prevented detention without trial.</note> would have remedied half the evils in Portugal. Concerning Spain I cannot speak with the same knowledge, but I believe that in this respect what is true of the one country, will for the most part apply to the other. But supposing that wise administrations could be formed in both countries (&amp; what a hopeless expectation is this!) where are they to find revenues? &amp; how to be supported till national tranquillity, &amp; with it industry &amp; prosperity can be restored?</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <signed rend="indent2">RS.</signed>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="indent0">
+            <date when="1823-06-17">17 June 1823 </date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

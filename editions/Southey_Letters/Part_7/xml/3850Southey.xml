@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,140 +79,141 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3850Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3850Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3850" type="letter"><head>3850. Robert Southey to [<ref type="a" target="people.html#ColeridgeJohnTaylor">John Taylor Coleridge</ref>], <date when="1822-06-04">4 June 1822</date>
-            <note type="headnote" place="foot" resp="editors">Endorsement: 1822./ June 8<hi rend="sup">th</hi>/ R Southey Keswick; 4 June 1822<lb/>
-               MS: British Library, Add MS 47553. ALS; 4p.<lb/>
-               Previously published: W. Braekman, ‘Letters by Robert Southey to Sir John Taylor Coleridge’, <title>Studia Germanica Gandensia</title>, 6 (1964), 120–123.</note></head>
-            
-            
-            <opener><salute>My dear Sir</salute></opener>
-           <p rend="indent1"> In clearing my desk this morning I found your letter of New Years day, &#38; recollected to my shame that it contained some things which required an answer, but to which no answer had been made.</p>
-            <p rend="indent1">You ask me respecting what accounts have been published of the revolutions in S America.<note n="1" place="foot" resp="editors">The French invasion of Spain in 1808 had led most Spanish colonies in Latin America to declare their independence, leading to prolonged local conflicts between the revolutionaries, rival states and Spanish forces.</note> A great many very bad ones I believe; those which I have seen abound in gross errors, &#38; are written under the strongest prejudices. Two volumes by a true-bred Yankee, Brackenbridge by name, which cost me six shillings at one of the cheap shops in Holburn, contain more about Buenos Ayres than I have seen elsewhere:<note n="2" place="foot" resp="editors">Henry Marie Brackenridge (1786–1871), <title>Voyage to South America, Performed by Order of the American Government, in the Years 1817 and 1818, in the Frigate Congress</title> (1820), no. 340 in the sale catalogue of Southey’s library.</note> The Report of the American Commissioners I have not seen: but it would probably (reading it with due allowance) be found to contain more information than any other work which has yet appeared.<note n="3" place="foot" resp="editors"><title>The Reports on the Present State of the United Provinces of South America; Drawn up by Messrs Rodney and Graham, Commissioners sent to Buenos Ayres by the Government of North America</title> (1819).</note> I believe nothing has been published concerning Peru &#38; that side of the continent, but what these works contain. The books relating to Venezuela come chiefly from disappointed adventurers, – men not quite bad enough for the service in which they engaged: &#38; they give a much clearer view of their own worthlessness &#38; the barbarity of all parties, than of the course of events.<note n="4" place="foot" resp="editors">Southey was probably referring to such works as: Joseph Freeman Rattenbury (dates unknown), <title>Narrative of a Voyage to the Spanish Main, in the Ship “Two Friends”: the Occupation of Amelia Island by M’Gregor, &#38;c. Sketches of the Province of East Florida; and Anecdotes Illustrative of the Habits and Manners of the Seminole Indians with an Appendix Containing a Detail of the Seminole War, and the Execution of Arbuthnot and Ambrister</title> (1819), no. 1806 in the sale catalogue of Southey’s library; James Hackett (dates unknown), <title>Narrative of the Expedition which Sailed from England in 1817, to Join the South American Patriots; Comprising Every Particular Connected with its Formation, History and Fate; comprising Observations and Authentic Information Elucidating the Real Character of the Contest, Mode of Warfare, State of the Armies, &#38;c.</title> (1818); and Gustavus Hippisley (1770–1831), <title>A Narrative of the Expedition to the Rivers Orinoco and Apuré, in South America; which Sailed from England in November 1817, and Joined the Patriotic Forces in Venezuela and Caracas</title> (1819), no. 1334 in the sale catalogue of Southey’s library.</note> I can hear of no accounts of what has past in the Nuevo Reyno, Popayan &#38; Quito.<note n="5" place="foot" resp="editors">Modern Colombia and Ecuador.</note> Two Spanish volumes about Mexico were printed in London in &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;, &#38; I obtained a copy when I was told there were not above half a dozen reserved for sale here.<note n="6" place="foot" resp="editors">José Servando Teresa de Mier Noriega y Guerra (1765–1827), <title>Historia de la Revolución de Nueva España</title> (1813), no. 3401 in the sale catalogue of Southey’s library.</note> It pretended to be history, but proved to be little better than controversial matter not worth the trouble of unravelling. An English Book concerning that country was lately advertised.<note n="7" place="foot" resp="editors">William Davis Robinson (b. 1774), <title>Memoirs of the Mexican Revolution: a Narrative of the Expedition of General Xavier Mina. With Some Observations on the Practicability of Opening a Commerce between the Pacific and Atlantic Oceans, through the Mexican Isthmus in the Province of Oaxaca, and at the Lake of Nicaragua; and of the Future Importance of Such Commerce to the Civilized World, and More Especially to the United States</title> (1821), no. 2459 in the sale catalogue of Southey’s library. Robinson was an American, but an English edition of his book was advertised in 1821. See, for example, the <title>Morning Post</title>, 30 May 1821.</note> – Your general view I believe to be perfectly just. And there is this additional cause for mournful reflection, that had the colonists quietly waited for the course of events, &#38; contented themselves with that comparative freedom of trade which could not have been withheld from them, they would at this time have obtained all they have been struggling for, &#38; without the dreadful price which has been paid for it.</p>
-            <p rend="center">————</p>
-            <p rend="indent1">   You will see that I had written thus far before yours of the 31<hi rend="sup">st</hi> arrived. Whatever part of this money <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref> may think proper to remit to <ref type="m" target="people.html#FrickerSarah">his mother</ref>, would, I am perfectly sure, be retained by her for his use, in the belief that it will then be expended with more consideration than if it were in his own hands.<note n="8" place="foot" resp="editors">Hartley Coleridge’s Fellowship at Oriel College, Oxford, had been terminated in 1820, at the end of his probationary year. The College offered Hartley a gift of £300 in compensation, which had initially been refused. However, John Taylor Coleridge had maintained contact with Oriel and, without informing Hartley, collected the money on his cousin’s behalf. Faced with this situation, Hartley agreed to accept the money. He paid off some debts and gave the remainder to his mother.</note> I suppose he excuses himself for not having written a single line to her, in reply to her urgent letters, since his disappearance, by the thought of having the issue of this negociation to communicate. If there were any intention of the whole family settling together, this sum might be most usefully expended in furtherance of such a plan. <del>But</del> I am not aware that any thought of the kind has been entertained; but if M<hi rend="sup">r</hi> Gillman<note n="9" place="foot" resp="editors">James Gillman (1782–1839) had taken Coleridge into his house in Highgate in 1816; Coleridge continued to live there until his death.</note> is tired of <ref type="m" target="people.html#ColeridgeDavidHartley">his inmate</ref> (which I suspect he is) it may possibly arise. There are <del>a good</del> many obstacles in the way. <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref>, we learn from M<hi rend="sup">r</hi> Gillman, is as impatient of advice as of controul; insomuch that to save <ref type="m" target="people.html#ColeridgeSamuelTaylor">his father</ref> from the discomfort &#38; grief which his ill habits occasioned, Gillman formed the pleasant intention of transferring him to me, upon a plea that <ref type="m" target="people.html#FrickerSarah">his mother</ref> might have some influence over him. <ref type="m" target="people.html#Dawes">His schoolmaster</ref> at Ambleside wrote to invite him for a month or six weeks,<note n="10" place="foot" resp="editors">Hartley, and his brother Derwent Coleridge, attended the school at Ambleside run by John Dawes. Dawes had written to Hartley in May 1822, telling him he would be willing to employ Hartley as his assistant.</note> &#38; I do not yet know whether the wish which <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> has expressed for himself &#38; me, of <hi rend="ital">not seeing</hi> him at this time, will prevent him from accepting the invitation. But <del>on</del> &#60;concerning&#62; that part of Gillmans scheme which would have quartered him upon me, I was compelled to tell <ref type="m" target="people.html#FrickerSarah">his mother</ref> that it could not be. – You will judge from this how unlikely it is that <ref type="m" target="people.html#ColeridgeSamuelTaylor">father</ref> &#38; <ref type="m" target="people.html#ColeridgeDavidHartley">son</ref> should continue long together, even if present circumstances should induce them to make the experiment. <ref type="m" target="people.html#FrickerSarah">Mrs C. </ref> would very unwillingly embark in it, from a sure foresight of the anxieties in which it would involve her. It is a case in which I should neither advise nor disadvise except as concerning <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref>, who is best where she is; &#38; <del>whom I should</del> who ought neither to be exposed to the disquietudes &#38; disgusts which she would inevitably meet with, nor to some of the society into which she would be thrown
-               But as to this money, it must take its chance. <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref> will most probably follow a good impulse, &#38; send as much of it to <ref type="m" target="people.html#FrickerSarah">his mother</ref> as may remain when his own embarrasments are cleared off. It will give him an excuse for his hard-hearted silence, &#38; be joyfully received as such by her; – &#38; the money itself be for his own use, in time of need. He has now precluded himself from any other way of life than the precarious one &#60;for&#62; which his pen may qualify him: &#38; Jamieson writes word that he reconciles it to himself by the convenient doctrine of fatalism.<note n="11" place="foot" resp="editors">Robert Sympson Jameson (1796–1854), barrister and old school-friend of Hartley Coleridge from Ambleside. Jameson was later Chief Justice of Dominica 1829–1833 and Attorney-General of Upper Canada 1833–1837, settling in Canada until his death. Hartley had been living with Jameson in London since June 1821.</note></p>
-            <p rend="indent1"> I ought &#38; meant to have written to you long since. You asked me about the Kings Library.<note n="12" place="foot" resp="editors">The Library collected by George III (1738–1820; King of the United Kingdom 1760–1820; <title>DNB</title>). It was open to scholars. After his death, his son, George IV, wished to move the collection out of Queen’s House in order to demolish the building and create what is now Buckingham Palace on the site. After lengthy negotiations, the Library was gifted to the British Museum in 1823.</note> It ought to be much better furnished than it is with foreign books. One would wish that every foreigner who visits it should find there what in his own country would be a good collection of the works in his language. You know I believe that I intend as well as hope, one day to publish some Sketches of Monastic History.<note n="13" place="foot" resp="editors">Southey never completed his ‘History of the Monastic Orders’.</note> There is no library in G Britain which contains materials for such a work: &#38; yet I need not point out to you what important topics it involves. Your friend<note n="14" place="foot" resp="editors">Possibly Sir Frederick Augusta Barnard (1743–1830; <title>DNB</title>), Royal Librarian 1774–1828.</note> would do good service to the Library if he procured these materials for it, before they are destroyed. For exceedingly curious as the books of monastic history are, their value is not yet known in the market, &#38; when convent libraries are dispersed, these books are consumed for waste paper.</p>
-            <p rend="indent1">I should have expected <ref type="m" target="people.html#MayJohn">John May</ref> on Saturday next, but for his last letter. Say to him that we look for him &#38; his son<note n="15" place="foot" resp="editors">John May (1802–1879), son of John May. They did not visit Southey until August–September 1822.</note> in July – but I shall write to him shortly. I will not wish you were to be of his party, – because it would be ill husbandry of our pleasures to have two friends at a time, – &#38; of such pleasures I have learnt to be an economist. You will come, I trust, some time or other; – only bear in <del>xx</del> mind, that these things are sometimes put off too long: &#38; that <ref type="m" target="places.html#Keswick">Keswick </ref>would not be same place to you, if you were to come a few years hence, &#38; find me in the Churchyard.<note n="16" place="foot" resp="editors">Southey was buried in the churchyard at St Kentigern’s, Keswick, but not until 1843.</note> – I am very sorry to hear of M<hi rend="sup">rs</hi> C.s<note n="17" place="foot" resp="editors">Mary Coleridge, née Buchanan (1788–1874), wife of John Taylor Coleridge.</note> continued ill health.</p>
-            <closer> <salute rend="indent1"> God bless you -</salute>
-               <salute rend="indent2">Yrs very truly</salute>
-           <signed rend="indent3"> Robert Southey.</signed></closer>
-            <postscript> <p rend="indent0"><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1822-06-04">4 June. 1822.</date></p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3850" type="letter">
+        <head>3850. Robert Southey to [<ref type="a" target="people.html#ColeridgeJohnTaylor">John Taylor Coleridge</ref>], <date when="1822-06-04">4 June 1822</date>
+          <note type="headnote" place="foot" resp="editors">Endorsement: 1822./ June 8<hi rend="sup">th</hi>/ R Southey Keswick; 4 June 1822<lb />
+               MS: British Library, Add MS 47553. ALS; 4p.<lb />
+               Previously published: W. Braekman, &#8216;Letters by Robert Southey to Sir John Taylor Coleridge&#8217;, <title>Studia Germanica Gandensia</title>, 6 (1964), 120&#8211;123.</note>
+        </head>
+        <opener>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1"> In clearing my desk this morning I found your letter of New Years day, &amp; recollected to my shame that it contained some things which required an answer, but to which no answer had been made.</p>
+        <p rend="indent1">You ask me respecting what accounts have been published of the revolutions in S America.<note n="1" place="foot" resp="editors">The French invasion of Spain in 1808 had led most Spanish colonies in Latin America to declare their independence, leading to prolonged local conflicts between the revolutionaries, rival states and Spanish forces.</note> A great many very bad ones I believe; those which I have seen abound in gross errors, &amp; are written under the strongest prejudices. Two volumes by a true-bred Yankee, Brackenbridge by name, which cost me six shillings at one of the cheap shops in Holburn, contain more about Buenos Ayres than I have seen elsewhere:<note n="2" place="foot" resp="editors">Henry Marie Brackenridge (1786&#8211;1871), <title>Voyage to South America, Performed by Order of the American Government, in the Years 1817 and 1818, in the Frigate Congress</title> (1820), no. 340 in the sale catalogue of Southey&#8217;s library.</note> The Report of the American Commissioners I have not seen: but it would probably (reading it with due allowance) be found to contain more information than any other work which has yet appeared.<note n="3" place="foot" resp="editors">
+            <title>The Reports on the Present State of the United Provinces of South America; Drawn up by Messrs Rodney and Graham, Commissioners sent to Buenos Ayres by the Government of North America</title> (1819).</note> I believe nothing has been published concerning Peru &amp; that side of the continent, but what these works contain. The books relating to Venezuela come chiefly from disappointed adventurers, &#8211; men not quite bad enough for the service in which they engaged: &amp; they give a much clearer view of their own worthlessness &amp; the barbarity of all parties, than of the course of events.<note n="4" place="foot" resp="editors">Southey was probably referring to such works as: Joseph Freeman Rattenbury (dates unknown), <title>Narrative of a Voyage to the Spanish Main, in the Ship &#8220;Two Friends&#8221;: the Occupation of Amelia Island by M&#8217;Gregor, &amp;c. Sketches of the Province of East Florida; and Anecdotes Illustrative of the Habits and Manners of the Seminole Indians with an Appendix Containing a Detail of the Seminole War, and the Execution of Arbuthnot and Ambrister</title> (1819), no. 1806 in the sale catalogue of Southey&#8217;s library; James Hackett (dates unknown), <title>Narrative of the Expedition which Sailed from England in 1817, to Join the South American Patriots; Comprising Every Particular Connected with its Formation, History and Fate; comprising Observations and Authentic Information Elucidating the Real Character of the Contest, Mode of Warfare, State of the Armies, &amp;c.</title> (1818); and Gustavus Hippisley (1770&#8211;1831), <title>A Narrative of the Expedition to the Rivers Orinoco and Apur&#233;, in South America; which Sailed from England in November 1817, and Joined the Patriotic Forces in Venezuela and Caracas</title> (1819), no. 1334 in the sale catalogue of Southey&#8217;s library.</note> I can hear of no accounts of what has past in the Nuevo Reyno, Popayan &amp; Quito.<note n="5" place="foot" resp="editors">Modern Colombia and Ecuador.</note> Two Spanish volumes about Mexico were printed in London in &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;, &amp; I obtained a copy when I was told there were not above half a dozen reserved for sale here.<note n="6" place="foot" resp="editors">Jos&#233; Servando Teresa de Mier Noriega y Guerra (1765&#8211;1827), <title>Historia de la Revoluci&#243;n de Nueva Espa&#241;a</title> (1813), no. 3401 in the sale catalogue of Southey&#8217;s library.</note> It pretended to be history, but proved to be little better than controversial matter not worth the trouble of unravelling. An English Book concerning that country was lately advertised.<note n="7" place="foot" resp="editors">William Davis Robinson (b. 1774), <title>Memoirs of the Mexican Revolution: a Narrative of the Expedition of General Xavier Mina. With Some Observations on the Practicability of Opening a Commerce between the Pacific and Atlantic Oceans, through the Mexican Isthmus in the Province of Oaxaca, and at the Lake of Nicaragua; and of the Future Importance of Such Commerce to the Civilized World, and More Especially to the United States</title> (1821), no. 2459 in the sale catalogue of Southey&#8217;s library. Robinson was an American, but an English edition of his book was advertised in 1821. See, for example, the <title>Morning Post</title>, 30 May 1821.</note> &#8211; Your general view I believe to be perfectly just. And there is this additional cause for mournful reflection, that had the colonists quietly waited for the course of events, &amp; contented themselves with that comparative freedom of trade which could not have been withheld from them, they would at this time have obtained all they have been struggling for, &amp; without the dreadful price which has been paid for it.</p>
+        <p rend="center">&#8212;&#8212;&#8212;&#8212;</p>
+        <p rend="indent1">   You will see that I had written thus far before yours of the 31<hi rend="sup">st</hi> arrived. Whatever part of this money <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref> may think proper to remit to <ref type="m" target="people.html#FrickerSarah">his mother</ref>, would, I am perfectly sure, be retained by her for his use, in the belief that it will then be expended with more consideration than if it were in his own hands.<note n="8" place="foot" resp="editors">Hartley Coleridge&#8217;s Fellowship at Oriel College, Oxford, had been terminated in 1820, at the end of his probationary year. The College offered Hartley a gift of &#163;300 in compensation, which had initially been refused. However, John Taylor Coleridge had maintained contact with Oriel and, without informing Hartley, collected the money on his cousin&#8217;s behalf. Faced with this situation, Hartley agreed to accept the money. He paid off some debts and gave the remainder to his mother.</note> I suppose he excuses himself for not having written a single line to her, in reply to her urgent letters, since his disappearance, by the thought of having the issue of this negociation to communicate. If there were any intention of the whole family settling together, this sum might be most usefully expended in furtherance of such a plan. <del>But</del> I am not aware that any thought of the kind has been entertained; but if M<hi rend="sup">r</hi> Gillman<note n="9" place="foot" resp="editors">James Gillman (1782&#8211;1839) had taken Coleridge into his house in Highgate in 1816; Coleridge continued to live there until his death.</note> is tired of <ref type="m" target="people.html#ColeridgeDavidHartley">his inmate</ref> (which I suspect he is) it may possibly arise. There are <del>a good</del> many obstacles in the way. <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref>, we learn from M<hi rend="sup">r</hi> Gillman, is as impatient of advice as of controul; insomuch that to save <ref type="m" target="people.html#ColeridgeSamuelTaylor">his father</ref> from the discomfort &amp; grief which his ill habits occasioned, Gillman formed the pleasant intention of transferring him to me, upon a plea that <ref type="m" target="people.html#FrickerSarah">his mother</ref> might have some influence over him. <ref type="m" target="people.html#Dawes">His schoolmaster</ref> at Ambleside wrote to invite him for a month or six weeks,<note n="10" place="foot" resp="editors">Hartley, and his brother Derwent Coleridge, attended the school at Ambleside run by John Dawes. Dawes had written to Hartley in May 1822, telling him he would be willing to employ Hartley as his assistant.</note> &amp; I do not yet know whether the wish which <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> has expressed for himself &amp; me, of <hi rend="ital">not seeing</hi> him at this time, will prevent him from accepting the invitation. But <del>on</del> &lt;concerning&gt; that part of Gillmans scheme which would have quartered him upon me, I was compelled to tell <ref type="m" target="people.html#FrickerSarah">his mother</ref> that it could not be. &#8211; You will judge from this how unlikely it is that <ref type="m" target="people.html#ColeridgeSamuelTaylor">father</ref> &amp; <ref type="m" target="people.html#ColeridgeDavidHartley">son</ref> should continue long together, even if present circumstances should induce them to make the experiment. <ref type="m" target="people.html#FrickerSarah">Mrs C. </ref> would very unwillingly embark in it, from a sure foresight of the anxieties in which it would involve her. It is a case in which I should neither advise nor disadvise except as concerning <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref>, who is best where she is; &amp; <del>whom I should</del> who ought neither to be exposed to the disquietudes &amp; disgusts which she would inevitably meet with, nor to some of the society into which she would be thrown
+               But as to this money, it must take its chance. <ref type="m" target="people.html#ColeridgeDavidHartley">Hartley</ref> will most probably follow a good impulse, &amp; send as much of it to <ref type="m" target="people.html#FrickerSarah">his mother</ref> as may remain when his own embarrasments are cleared off. It will give him an excuse for his hard-hearted silence, &amp; be joyfully received as such by her; &#8211; &amp; the money itself be for his own use, in time of need. He has now precluded himself from any other way of life than the precarious one &lt;for&gt; which his pen may qualify him: &amp; Jamieson writes word that he reconciles it to himself by the convenient doctrine of fatalism.<note n="11" place="foot" resp="editors">Robert Sympson Jameson (1796&#8211;1854), barrister and old school-friend of Hartley Coleridge from Ambleside. Jameson was later Chief Justice of Dominica 1829&#8211;1833 and Attorney-General of Upper Canada 1833&#8211;1837, settling in Canada until his death. Hartley had been living with Jameson in London since June 1821.</note>
+        </p>
+        <p rend="indent1"> I ought &amp; meant to have written to you long since. You asked me about the Kings Library.<note n="12" place="foot" resp="editors">The Library collected by George III (1738&#8211;1820; King of the United Kingdom 1760&#8211;1820; <title>DNB</title>). It was open to scholars. After his death, his son, George IV, wished to move the collection out of Queen&#8217;s House in order to demolish the building and create what is now Buckingham Palace on the site. After lengthy negotiations, the Library was gifted to the British Museum in 1823.</note> It ought to be much better furnished than it is with foreign books. One would wish that every foreigner who visits it should find there what in his own country would be a good collection of the works in his language. You know I believe that I intend as well as hope, one day to publish some Sketches of Monastic History.<note n="13" place="foot" resp="editors">Southey never completed his &#8216;History of the Monastic Orders&#8217;.</note> There is no library in G Britain which contains materials for such a work: &amp; yet I need not point out to you what important topics it involves. Your friend<note n="14" place="foot" resp="editors">Possibly Sir Frederick Augusta Barnard (1743&#8211;1830; <title>DNB</title>), Royal Librarian 1774&#8211;1828.</note> would do good service to the Library if he procured these materials for it, before they are destroyed. For exceedingly curious as the books of monastic history are, their value is not yet known in the market, &amp; when convent libraries are dispersed, these books are consumed for waste paper.</p>
+        <p rend="indent1">I should have expected <ref type="m" target="people.html#MayJohn">John May</ref> on Saturday next, but for his last letter. Say to him that we look for him &amp; his son<note n="15" place="foot" resp="editors">John May (1802&#8211;1879), son of John May. They did not visit Southey until August&#8211;September 1822.</note> in July &#8211; but I shall write to him shortly. I will not wish you were to be of his party, &#8211; because it would be ill husbandry of our pleasures to have two friends at a time, &#8211; &amp; of such pleasures I have learnt to be an economist. You will come, I trust, some time or other; &#8211; only bear in <del>xx</del> mind, that these things are sometimes put off too long: &amp; that <ref type="m" target="places.html#Keswick">Keswick </ref>would not be same place to you, if you were to come a few years hence, &amp; find me in the Churchyard.<note n="16" place="foot" resp="editors">Southey was buried in the churchyard at St Kentigern&#8217;s, Keswick, but not until 1843.</note> &#8211; I am very sorry to hear of M<hi rend="sup">rs</hi> C.s<note n="17" place="foot" resp="editors">Mary Coleridge, n&#233;e Buchanan (1788&#8211;1874), wife of John Taylor Coleridge.</note> continued ill health.</p>
+        <closer>
+          <salute rend="indent1"> God bless you -</salute>
+          <salute rend="indent2">Yrs very truly</salute>
+          <signed rend="indent3"> Robert Southey.</signed>
+        </closer>
+        <postscript>
+          <p rend="indent0">
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1822-06-04">4 June. 1822.</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,143 +79,142 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4096Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4096Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4096" type="letter"><head>4096. Robert Southey to <ref type="a" target="people.html#ParsonsWilliam">William Peachy</ref>, <date when="1823-11-28">28 November 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ Major-General Peachy/ Post Office/ Bath<lb/>
-Stamped: KESWICK/ 298<lb/>
-Postmark: E/ 7 OC 7/ 1823<lb/>
-MS: British Library, Add MS 28603. ALS; 4p.<lb/>
-Unpublished.</note></head>
-
-
-   <opener><dateline><address><placeName><ref type="m" target="places.html#QueenAnneSt">Q Anne Street</ref>.</placeName></address> <date when="1823-11-28">28 Nov. 1823</date></dateline>
-
-<salute>My dear Sir</salute></opener>
-   <p rend="indent1">Were I to delay answering your letter till I could do it in comfortable leisure, Heaven only knows when it would be answered. I must therefore <del>xxxxxx</del> rely upon your goodness for excusing a brief &#38; hurried reply, – &#38; proceed at once to state all I know upon the points concerning which you inquire.</p>
-   <p rend="indent1">When I wrote to you concerning a monument for <ref type="m" target="people.html#EdmondsonDr">M<hi rend="sup">r</hi> Edmondson</ref>,<note n="1" place="foot" resp="editors">Southey to William Peachy, 4 October 1823, Letter 4066, discussing a proposed memorial tablet in St Kentigern’s church, Crosthwaite, for John Edmondson.</note> it was in consequence of a conversation with <ref type="m" target="people.html#CalvertWilliam">Calvert</ref>, to whom I started the subject, at a time when he was thinking of proposing it to me. We did not know that the same feeling had been expressed on the day of the funeral, by the persons who had been invited to it, &#38; that <del>each of</del> some twenty of them had immediately subscribed half a guinea each, the intention being that the subscription should be limited to that sum. I have heard since my arrival in town that that intention is given up, that <ref type="m" target="people.html#StangerJames">M<hi rend="sup">r</hi> Stanger</ref> has put down his name for 2 £, &#38; his sons<note n="2" place="foot" resp="editors">James Stanger (1796–1866) and Joshua Stanger (1801–1854), both of whom had gone into their father’s old business in London.</note> there for 1 £ each. &#38; this is all I know. M<hi rend="sup">r</hi> Dentons<note n="3" place="foot" resp="editors">Isaac Denton (c. 1758–1820), Vicar of Crosthwaite, Keswick 1786–1820.</note> monument cost something about forty pounds. I do not suppose that the persons who manage the affair (whoever they are) will think of incurring any unnecessary expence, a public testimony to the worth of a man most exemplary in his station is what is wanted &#38; intended; – a matter of gratitude &#38; feeling, – not of ostentation, – something which may hold up an example to the living, by recording the merits of the dead.</p>
-         <p rend="indent1">I know something of M<hi rend="sup">r</hi> Arnold who was a fellow of Oriel,<note n="4" place="foot" resp="editors">Thomas Arnold (1795–1842; <title>DNB</title>), the educational reformer and Headmaster of Rugby School 1828–1842. He was a Fellow of Oriel College, Oxford 1815–1819, and had visited Southey in Keswick in 1818; see Southey to Herbert Hill, 2 October 1818, <title>The Collected Letters of Robert Southey. Part Five</title>, Letter 3199.</note> &#38; is associated with a brother of Professor Bucklands (your friend) in an institution at Laleham, nearly opposite Staines.<note n="5" place="foot" resp="editors">Thomas Arnold’s sister, Frances Arnold (1790–1863), had married in 1816 the clergyman John Buckland (1785–1859), officiating Minister at St Mary’s, Hampton, Middlesex. The brothers-in-law set up a school in Laleham, Middlesex 1819–1828. John Buckland was the brother of William Buckland (1784–1856; <title>DNB</title>), clergyman, Reader in Mineralogy 1813–1856 and Geology 1818–1856 at the University of Oxford, and Britain’s foremost geologist.</note> Buckland attends to the younger pupils in one house, &#38; Arnold to the elder in his own. What his terms are I do not know, except that they are high, – as may be expected from a man is a scholar of the very first order. Should you think seriously of placing Charles Edward<note n="6" place="foot" resp="editors">Charles Edward Henry (1807–1833), the younger of Peachy’s two stepsons.</note> there, it will be necessary to ascertain whether there be a vacancy for him, &#38; whether M<hi rend="sup">r</hi> Arnold would take him for so short a term.</p>
-            <p rend="indent1">I know nothing of the three clergymen<note n="7" place="foot" resp="editors">Unidentified.</note> whom you mention.</p>
-   <p rend="indent1">You will easily imagine in what a giddy whirl of occupations &#38; engagement I am involved. I shall not feel at rest till I get into the mail coach for my return, – I am now writing before breakfast &#38; expect Lady Malet &#38; the Miss Charters<note n="8" place="foot" resp="editors"><ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>, and Elizabeth Charter (1782–1860), friend of the poet George Crabbe (1754–1832; <title>DNB</title>). They were the sisters of <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>, first wife of William Peachy, and nieces of Sir Charles Malet (1752–1815; <title>DNB</title>), 1st Baronet, a prominent diplomat with the East India Company. Peachy had lent the Charter sisters his home on Derwent Island. They were accompanied by Lady Susanna Malet, née Wales (1779–1868), widow of Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>), the maternal uncle of the Charter sisters.</note> to call at half past ten that we go together to the Central School,<note n="9" place="foot" resp="editors">The Central School in Baldwin’s Gardens, off Gray’s Inn Road, London, was a showpiece for Andrew Bell’s monitorial system of teaching.</note> where <ref type="m" target="people.html#BellAndrew">D<hi rend="sup">r</hi> Bell</ref> expects us. My table is covered with notes, – which must be answered, – my cloak-bag is full of papers tost in higgledy-piggledy by <ref type="m" target="people.html#DoyleCharlesWilliam">Sir Charles Doyle</ref>, which I must take out &#38; bundle up, – the said cloak bag being in requisition because <ref type="m" target="people.html#SoutheyEdithMay">my daughter</ref> &#38; I shift our quarters this afternoon from hence to Palace Yard, where we shall pass a week with <ref type="m" target="people.html#RickmanJohn">M<hi rend="sup">r</hi></ref> &#38; <ref type="m" target="people.html#RickmanSusannah">M<hi rend="sup">rs</hi> Rickman</ref>. I am to meet <ref type="m" target="people.html#DavyHumphry">Sir Humphry Davy</ref> &#38; Davies Gilbert<note n="10" place="foot" resp="editors">Davies Gilbert (1767–1839; <title>DNB</title>), the Cornish engineer, author, antiquarian, early patron of Humphry Davy and MP for Helston 1804–1806, and Bodmin 1806–1832. Southey may have met him before, at Bristol in 1799–1802, in connection with Davy and the Pneumatic Institution. </note> there at dinner, while <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> goes to the play with <ref type="m" target="people.html#WynnMary">M<hi rend="sup">rs</hi> Charles Wynn</ref> &#38; her daughters<note n="11" place="foot" resp="editors">Mary Williams Wynn had five daughters: Charlotte (1807–1869); Mary (1808–1869); Harriet (1812–1878); Emma (1814–1824) and Sidney (1818–1867). She also had two sons, Watkin (1816–1832) and Charles (1822–1896).</note></p>
-   <p rend="indent1">Our kindest remembrances to <ref type="m" target="people.html#PeachyMrs">M<hi rend="sup">rs</hi> Peachy</ref> &#38; Charles Edward. <ref type="m" target="people.html#SoutheyHenryHerbert">The Doctor</ref> would desire his; did he know how I am employed –</p>
-   <closer><salute rend="indent2">farewell my dear Sir</salute>
-      <salute rend="indent3">&#38; believe me</salute>
-      <salute rend="indent4">always most truly yours</salute>
-				<signed rend="indent3">Robert Southey.</signed></closer>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4096" type="letter">
+        <head>4096. Robert Southey to <ref type="a" target="people.html#ParsonsWilliam">William Peachy</ref>, <date when="1823-11-28">28 November 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ Major-General Peachy/ Post Office/ Bath<lb />
+Stamped: KESWICK/ 298<lb />
+Postmark: E/ 7 OC 7/ 1823<lb />
+MS: British Library, Add MS 28603. ALS; 4p.<lb />
+Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#QueenAnneSt">Q Anne Street</ref>.</placeName>
+            </address>
+            <date when="1823-11-28">28 Nov. 1823</date>
+          </dateline>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1">Were I to delay answering your letter till I could do it in comfortable leisure, Heaven only knows when it would be answered. I must therefore <del>xxxxxx</del> rely upon your goodness for excusing a brief &amp; hurried reply, &#8211; &amp; proceed at once to state all I know upon the points concerning which you inquire.</p>
+        <p rend="indent1">When I wrote to you concerning a monument for <ref type="m" target="people.html#EdmondsonDr">M<hi rend="sup">r</hi> Edmondson</ref>,<note n="1" place="foot" resp="editors">Southey to William Peachy, 4 October 1823, Letter 4066, discussing a proposed memorial tablet in St Kentigern&#8217;s church, Crosthwaite, for John Edmondson.</note> it was in consequence of a conversation with <ref type="m" target="people.html#CalvertWilliam">Calvert</ref>, to whom I started the subject, at a time when he was thinking of proposing it to me. We did not know that the same feeling had been expressed on the day of the funeral, by the persons who had been invited to it, &amp; that <del>each of</del> some twenty of them had immediately subscribed half a guinea each, the intention being that the subscription should be limited to that sum. I have heard since my arrival in town that that intention is given up, that <ref type="m" target="people.html#StangerJames">M<hi rend="sup">r</hi> Stanger</ref> has put down his name for 2 &#163;, &amp; his sons<note n="2" place="foot" resp="editors">James Stanger (1796&#8211;1866) and Joshua Stanger (1801&#8211;1854), both of whom had gone into their father&#8217;s old business in London.</note> there for 1 &#163; each. &amp; this is all I know. M<hi rend="sup">r</hi> Dentons<note n="3" place="foot" resp="editors">Isaac Denton (c. 1758&#8211;1820), Vicar of Crosthwaite, Keswick 1786&#8211;1820.</note> monument cost something about forty pounds. I do not suppose that the persons who manage the affair (whoever they are) will think of incurring any unnecessary expence, a public testimony to the worth of a man most exemplary in his station is what is wanted &amp; intended; &#8211; a matter of gratitude &amp; feeling, &#8211; not of ostentation, &#8211; something which may hold up an example to the living, by recording the merits of the dead.</p>
+        <p rend="indent1">I know something of M<hi rend="sup">r</hi> Arnold who was a fellow of Oriel,<note n="4" place="foot" resp="editors">Thomas Arnold (1795&#8211;1842; <title>DNB</title>), the educational reformer and Headmaster of Rugby School 1828&#8211;1842. He was a Fellow of Oriel College, Oxford 1815&#8211;1819, and had visited Southey in Keswick in 1818; see Southey to Herbert Hill, 2 October 1818, <title>The Collected Letters of Robert Southey. Part Five</title>, Letter 3199.</note> &amp; is associated with a brother of Professor Bucklands (your friend) in an institution at Laleham, nearly opposite Staines.<note n="5" place="foot" resp="editors">Thomas Arnold&#8217;s sister, Frances Arnold (1790&#8211;1863), had married in 1816 the clergyman John Buckland (1785&#8211;1859), officiating Minister at St Mary&#8217;s, Hampton, Middlesex. The brothers-in-law set up a school in Laleham, Middlesex 1819&#8211;1828. John Buckland was the brother of William Buckland (1784&#8211;1856; <title>DNB</title>), clergyman, Reader in Mineralogy 1813&#8211;1856 and Geology 1818&#8211;1856 at the University of Oxford, and Britain&#8217;s foremost geologist.</note> Buckland attends to the younger pupils in one house, &amp; Arnold to the elder in his own. What his terms are I do not know, except that they are high, &#8211; as may be expected from a man is a scholar of the very first order. Should you think seriously of placing Charles Edward<note n="6" place="foot" resp="editors">Charles Edward Henry (1807&#8211;1833), the younger of Peachy&#8217;s two stepsons.</note> there, it will be necessary to ascertain whether there be a vacancy for him, &amp; whether M<hi rend="sup">r</hi> Arnold would take him for so short a term.</p>
+        <p rend="indent1">I know nothing of the three clergymen<note n="7" place="foot" resp="editors">Unidentified.</note> whom you mention.</p>
+        <p rend="indent1">You will easily imagine in what a giddy whirl of occupations &amp; engagement I am involved. I shall not feel at rest till I get into the mail coach for my return, &#8211; I am now writing before breakfast &amp; expect Lady Malet &amp; the Miss Charters<note n="8" place="foot" resp="editors">
+            <ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>, and Elizabeth Charter (1782&#8211;1860), friend of the poet George Crabbe (1754&#8211;1832; <title>DNB</title>). They were the sisters of <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>, first wife of William Peachy, and nieces of Sir Charles Malet (1752&#8211;1815; <title>DNB</title>), 1st Baronet, a prominent diplomat with the East India Company. Peachy had lent the Charter sisters his home on Derwent Island. They were accompanied by Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868), widow of Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>), the maternal uncle of the Charter sisters.</note> to call at half past ten that we go together to the Central School,<note n="9" place="foot" resp="editors">The Central School in Baldwin&#8217;s Gardens, off Gray&#8217;s Inn Road, London, was a showpiece for Andrew Bell&#8217;s monitorial system of teaching.</note> where <ref type="m" target="people.html#BellAndrew">D<hi rend="sup">r</hi> Bell</ref> expects us. My table is covered with notes, &#8211; which must be answered, &#8211; my cloak-bag is full of papers tost in higgledy-piggledy by <ref type="m" target="people.html#DoyleCharlesWilliam">Sir Charles Doyle</ref>, which I must take out &amp; bundle up, &#8211; the said cloak bag being in requisition because <ref type="m" target="people.html#SoutheyEdithMay">my daughter</ref> &amp; I shift our quarters this afternoon from hence to Palace Yard, where we shall pass a week with <ref type="m" target="people.html#RickmanJohn">M<hi rend="sup">r</hi>
+          </ref> &amp; <ref type="m" target="people.html#RickmanSusannah">M<hi rend="sup">rs</hi> Rickman</ref>. I am to meet <ref type="m" target="people.html#DavyHumphry">Sir Humphry Davy</ref> &amp; Davies Gilbert<note n="10" place="foot" resp="editors">Davies Gilbert (1767&#8211;1839; <title>DNB</title>), the Cornish engineer, author, antiquarian, early patron of Humphry Davy and MP for Helston 1804&#8211;1806, and Bodmin 1806&#8211;1832. Southey may have met him before, at Bristol in 1799&#8211;1802, in connection with Davy and the Pneumatic Institution. </note> there at dinner, while <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> goes to the play with <ref type="m" target="people.html#WynnMary">M<hi rend="sup">rs</hi> Charles Wynn</ref> &amp; her daughters<note n="11" place="foot" resp="editors">Mary Williams Wynn had five daughters: Charlotte (1807&#8211;1869); Mary (1808&#8211;1869); Harriet (1812&#8211;1878); Emma (1814&#8211;1824) and Sidney (1818&#8211;1867). She also had two sons, Watkin (1816&#8211;1832) and Charles (1822&#8211;1896).</note>
+        </p>
+        <p rend="indent1">Our kindest remembrances to <ref type="m" target="people.html#PeachyMrs">M<hi rend="sup">rs</hi> Peachy</ref> &amp; Charles Edward. <ref type="m" target="people.html#SoutheyHenryHerbert">The Doctor</ref> would desire his; did he know how I am employed &#8211;</p>
+        <closer>
+          <salute rend="indent2">farewell my dear Sir</salute>
+          <salute rend="indent3">&amp; believe me</salute>
+          <salute rend="indent4">always most truly yours</salute>
+          <signed rend="indent3">Robert Southey.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

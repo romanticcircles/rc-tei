@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,141 +79,144 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4214Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4214Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4214" type="letter"><head>4214. Robert Southey to <ref type="a" target="people.html#LightfootNicholas">Nicholas Lightfoot</ref>, <date when="1824-07-16">16 July 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: To/ The Reverend Nicholas Lightfoot/ Crediton/ Devonshire<lb/>
-               Stamp: KESWICK/ 298<lb/>
-               Endorsement: July-24<lb/>
-               Seal: red wax; design illegible<lb/>
-               MS: MS: Bodleian Library, MS Eng. Lett. d. 110. ALS; 4p.<lb/>
-               Unpublished.</note></head>
-            
-            
-           <opener> <dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1824-07-16">16 July. 1824</date></dateline>
-            
-          <salute>  My dear Lightfoot</salute></opener>
-            <p rend="indent1">The same post which this day brought me your welcome letter, brought also one from my daughter <ref type="m" target="people.html#SoutheyEdithMay">Edith-May</ref>, announcing her arrival at Seaton. Had I not waited till I could tell you that she was actually in Devonshire, I should have written to assure you how heartily I rejoiced at seeing <ref type="m" target="people.html#LightfootJohnP">your sons</ref> name in the newspapers.<note n="1" place="foot" resp="editors">News of the award of the BA (Hons) degree of the University of Oxford to John Prideaux Lightfoot, <title>Bury and Norwich Post</title>, 16 June 1824.</note> One of the last letters which I received congratulated me upon it (- at which I was very much pleased) &#38; added there could be little doubt of his obtaining the fellowship – which you now tell me he has actually obtained.<note n="2" place="foot" resp="editors">John Prideaux Lightfoot had been awarded a Fellowship at Exeter College, Oxford.</note> So far he has gone on to your hearts content, &#38; there seems to be every probability of his continuing so to do. He has now to chuse his profession, unless indeed his intention of residing at Oxford implies that the choice is made, &#38; that he has determined upon the Church.<note n="3" place="foot" resp="editors">John Prideaux Lightfoot was ordained in 1832 and later returned to the University of Oxford as Rector of Exeter College 1854–1887; Charles Cuthbert Southey also became a clergyman.</note> It is the course which I should wish <ref type="m" target="people.html#SoutheyCharlesCuthbert">my own son</ref> to pursue, because I am persuaded that <del>xx</del> no other course could be so favorable to his moral &#38; intellectual improvement.</p>
-           <p rend="indent1"> <ref type="m" target="people.html#SoutheyEdithMay">My daughter</ref> left London on the second of this month, &#38; was nine days on the way to Seaton, – part of the time was past at Font-Hill,<note n="4" place="foot" resp="editors">Fonthill Abbey in Wiltshire, formerly the estate of William Beckford (1760–1844; <title>DNB</title>). He had sold it in 1823 to John Farquhar (1751–1826; <title>DNB</title>), who made his fortune as a gunpowder contractor in Bengal, and thus was possibly a connection of Lady Susanna Malet, née Wales (1779–1868), widow of Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>). Edith May Southey was travelling with Lady Malet.</note> which by her account, is of all fine places the finest, – tho I owe the place <del>xx</del> a grudge for she was put in a damp bed there. She has gone thro a full course of vanities in London, with no danger of being the worse for it, or contracting any hankering desire after such gayeties when they will be no longer within her reach; on the contrary I doubt not that she will return to <del>her parents x</del> her household <del>xxx</del>&#60;habits&#62; of life with a chearful contentment, &#38; a <del>the</del> livelier relish for the pleasures connected with, &#38; inseparable from them. What we have heard <hi rend="ital">from</hi> her, &#38; <hi rend="ital">of</hi> her, has been alike to our wish. She has been admired where only her appearance &#38; manners could be observed, – &#38; she has been liked wherever she has been better known. I have no ambitious views for her, but would much rather she were to marry an estimable clergyman<note n="5" place="foot" resp="editors">Edith May Southey did indeed marry a clergyman, John Wood Warter, in 1834.</note> than a man of 5000 £ a year. Were I to die soon – (&#38; my life is I am well aware, a very precarious one) – there would be from 10 to 12,000 £ forthcoming from my effects – divisible in equal shares. If I <del>be xxx</del> live three years, retaining my faculties &#38; the power of using them, <del>xxxxx</del>&#60;there&#62; will be added to this a considerable sum: for the remaining volumes of the Peninsular War<note n="6" place="foot" resp="editors">The second and third volumes of Southey’s <title>History of the Peninsular War</title> (1823–1832).</note> will give me 500 guineas each; my New England poem<note n="7" place="foot" resp="editors">Southey’s unfinished epic, ‘Oliver Newman’, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1–90.</note> will be compleated for which I have been offered 1500 £, – &#38; by that time I shall have finished my own Life &#38; Recollections<note n="8" place="foot" resp="editors">The series of seventeen autobiographical letters that Southey sent to John May 1820–1826, published in Charles Cuthbert Southey (ed.), <title>Life and Correspondence of Robert Southey</title>, 6 vols (London, 1849–1850), I, pp. 1–157.</note> – which as a Post-obit will be worth at least as much more. – About 3000 £ therefore is what each of my children may expect if I live two or three years longer: – at the worst something more than 2 – if my hand was stopt sooner.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SoutheyBertha">Bertha</ref> would be right glad to join <ref type="m" target="people.html#SoutheyEdithMay">her sister</ref> &#38; accept your kind invitation, – but she is far off, &#38; fixed for a time with her present friends.<note n="9" place="foot" resp="editors">Bertha was staying with <ref type="m" target="people.html#RickmanJohn">John Rickman</ref> and his family.</note></p>
-           <p rend="indent1"> I am taking daily exercise, – but cannot yet shake off my cold, nor the cough which it has brought with it, &#38; which tho neither violent nor troublesome has taken strong hold. Till it has left me I can neither take wine, nor venture upon tonics, – tho in other respects sensibly in want of both. But I live in hope, &#38; my spirits are such as you have always known them. I brought with me from London a long tin horn, such as the Mail Coach Guards use, only of greater length – &#38; proportionate capacity of sound: – it is such a musical instrument as I should have liked to serenade you with at Oxford, – &#38; now &#38; then I indulge myself with a tune here. But I must confess <ref type="m" target="people.html#SoutheyIsabel">Isabel</ref> plays upon it better than I can do. So much for my amusements, – for my business, I am printing the second volume of the War; preparing a paper upon the Jesuits for the QReview,<note n="10" place="foot" resp="editors">Southey did not complete this paper.</note> – getting on with the Tale of Paraguay<note n="11" place="foot" resp="editors"><title>A Tale of Paraguay</title> (1825).</note> – which you will certainly receive in the winter, &#38; making good progress with that <hi rend="ital">meipsead</hi><note n="12" place="foot" resp="editors">A writing about oneself, i.e. Southey’s autobiographical letters to John May.</note> of which you saw the commencement. This is a very interesting employment &#38; in its progress I must touch upon so many points of general interest, &#38; introduce so much of the literary history of my own times, that I am very well assured it will be esteemed a valuable record &#38; that when I am engaged upon it my time could not be more prudentially bestowed.</p>
-            <p rend="indent1">We expect M<hi rend="sup">rs</hi> Keenan<note n="13" place="foot" resp="editors">Frances Keenan (d. 1838), an artist and widow of the Irish portrait painter John Keenan (d. 1819). Southey had first met her in Exeter in 1799.</note> next week – I tell you this to shew you what ought to be thought of the distance between Devonshire &#38; <ref type="m" target="places.html#Keswick">Keswick</ref>. In fact when the expence ceases to be an object, the distance is nothing, &#38; you &#38; I must learn to consider it so. – I wished for you particularly some ten days ago when our Floating Island,<note n="14" place="foot" resp="editors">The Floating Island of Derwentwater is a mass of vegetation that rises to the surface every few years. It appeared from 21 June 1824 to the end of September, its first siting since 1819.</note> as it is called, made its appearance. Sedgewick<note n="15" place="foot" resp="editors">Adam Sedgwick (1785–1873; <title>DNB</title>), Fellow of Trinity College, Cambridge, and Woodwardian Professor of Geology 1818–1873.</note> the Geological Professor at Cambridge happened to be here by good fortune, &#38; examined it well. The bottom of the lake in that part consists first of vegetables growing on a thin layer of soft earth, – then a bed of peat six feet thick <del>fxx</del> &#38; this rests upon a stratum of remarkably fine white clay – to which it has little adhesion. The vegetable matter of which the peat is formed is still in a state of decomposition, &#38; produces gas in such abundance as from time to time to render <del>the pxx</del> large portions of the mass buoyant, seperate them from the clay, &#38; lift them to the surface of the water, – a very singular phenomenon which has not yet been observed elsewhere. The force with which this was now done was sufficient to make a rent in the bottom of the lake five or six feet deep &#38; fifty yards long. My best regards to M<hi rend="sup">rs</hi> L – <del>my godfather</del> god-daughter – Kate – Bridget &#38; Nico – not forgetting <ref type="m" target="people.html#LightfootJohnP">the new Fellow of Exeter</ref>.<note n="16" place="foot" resp="editors">Nicholas Lightfoot married Bridget Prideaux (1768–1856) on 13 July 1801. Their children were: John Prideaux Lightfoot; Frances Jane Lightfoot (1806–1882), Southey’s god-daughter; Catherine Anne Lightfoot (1808–1898); Bridget Mary Lightfoot (1810–1889); and Nicholas Francis Lightfoot (1811–1881), Vicar of Cadbury 1846–1855, Rector of Islip 1855–1881.</note> <del>Xxxx</del> Nico when he comes to stand in his turn will say &#957;&#953;&#954;&#951;&#963;&#969; <note n="17" place="foot" resp="editors">‘I conquer’.</note> I make no doubt, &#38; go thro the paradigm.<note n="17" place="foot" resp="editors">Nicholas Francis Lightfoot, like his brother, John Prideaux Lightfoot, matriculated at Exeter College, Oxford, in 1829. He graduated BA 1832, MA 1836, and became a clergyman.</note></p>
-           <closer> <salute rend="indent1">God bless you –</salute>
-           <signed rend="indent2"> RS.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4214" type="letter">
+        <head>4214. Robert Southey to <ref type="a" target="people.html#LightfootNicholas">Nicholas Lightfoot</ref>, <date when="1824-07-16">16 July 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ The Reverend Nicholas Lightfoot/ Crediton/ Devonshire<lb />
+               Stamp: KESWICK/ 298<lb />
+               Endorsement: July-24<lb />
+               Seal: red wax; design illegible<lb />
+               MS: MS: Bodleian Library, MS Eng. Lett. d. 110. ALS; 4p.<lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-07-16">16 July. 1824</date>
+          </dateline>
+          <salute>  My dear Lightfoot</salute>
+        </opener>
+        <p rend="indent1">The same post which this day brought me your welcome letter, brought also one from my daughter <ref type="m" target="people.html#SoutheyEdithMay">Edith-May</ref>, announcing her arrival at Seaton. Had I not waited till I could tell you that she was actually in Devonshire, I should have written to assure you how heartily I rejoiced at seeing <ref type="m" target="people.html#LightfootJohnP">your sons</ref> name in the newspapers.<note n="1" place="foot" resp="editors">News of the award of the BA (Hons) degree of the University of Oxford to John Prideaux Lightfoot, <title>Bury and Norwich Post</title>, 16 June 1824.</note> One of the last letters which I received congratulated me upon it (- at which I was very much pleased) &amp; added there could be little doubt of his obtaining the fellowship &#8211; which you now tell me he has actually obtained.<note n="2" place="foot" resp="editors">John Prideaux Lightfoot had been awarded a Fellowship at Exeter College, Oxford.</note> So far he has gone on to your hearts content, &amp; there seems to be every probability of his continuing so to do. He has now to chuse his profession, unless indeed his intention of residing at Oxford implies that the choice is made, &amp; that he has determined upon the Church.<note n="3" place="foot" resp="editors">John Prideaux Lightfoot was ordained in 1832 and later returned to the University of Oxford as Rector of Exeter College 1854&#8211;1887; Charles Cuthbert Southey also became a clergyman.</note> It is the course which I should wish <ref type="m" target="people.html#SoutheyCharlesCuthbert">my own son</ref> to pursue, because I am persuaded that <del>xx</del> no other course could be so favorable to his moral &amp; intellectual improvement.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#SoutheyEdithMay">My daughter</ref> left London on the second of this month, &amp; was nine days on the way to Seaton, &#8211; part of the time was past at Font-Hill,<note n="4" place="foot" resp="editors">Fonthill Abbey in Wiltshire, formerly the estate of William Beckford (1760&#8211;1844; <title>DNB</title>). He had sold it in 1823 to John Farquhar (1751&#8211;1826; <title>DNB</title>), who made his fortune as a gunpowder contractor in Bengal, and thus was possibly a connection of Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868), widow of Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>). Edith May Southey was travelling with Lady Malet.</note> which by her account, is of all fine places the finest, &#8211; tho I owe the place <del>xx</del> a grudge for she was put in a damp bed there. She has gone thro a full course of vanities in London, with no danger of being the worse for it, or contracting any hankering desire after such gayeties when they will be no longer within her reach; on the contrary I doubt not that she will return to <del>her parents x</del> her household <del>xxx</del>&lt;habits&gt; of life with a chearful contentment, &amp; a <del>the</del> livelier relish for the pleasures connected with, &amp; inseparable from them. What we have heard <hi rend="ital">from</hi> her, &amp; <hi rend="ital">of</hi> her, has been alike to our wish. She has been admired where only her appearance &amp; manners could be observed, &#8211; &amp; she has been liked wherever she has been better known. I have no ambitious views for her, but would much rather she were to marry an estimable clergyman<note n="5" place="foot" resp="editors">Edith May Southey did indeed marry a clergyman, John Wood Warter, in 1834.</note> than a man of 5000 &#163; a year. Were I to die soon &#8211; (&amp; my life is I am well aware, a very precarious one) &#8211; there would be from 10 to 12,000 &#163; forthcoming from my effects &#8211; divisible in equal shares. If I <del>be xxx</del> live three years, retaining my faculties &amp; the power of using them, <del>xxxxx</del>&lt;there&gt; will be added to this a considerable sum: for the remaining volumes of the Peninsular War<note n="6" place="foot" resp="editors">The second and third volumes of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note> will give me 500 guineas each; my New England poem<note n="7" place="foot" resp="editors">Southey&#8217;s unfinished epic, &#8216;Oliver Newman&#8217;, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1&#8211;90.</note> will be compleated for which I have been offered 1500 &#163;, &#8211; &amp; by that time I shall have finished my own Life &amp; Recollections<note n="8" place="foot" resp="editors">The series of seventeen autobiographical letters that Southey sent to John May 1820&#8211;1826, published in Charles Cuthbert Southey (ed.), <title>Life and Correspondence of Robert Southey</title>, 6 vols (London, 1849&#8211;1850), I, pp. 1&#8211;157.</note> &#8211; which as a Post-obit will be worth at least as much more. &#8211; About 3000 &#163; therefore is what each of my children may expect if I live two or three years longer: &#8211; at the worst something more than 2 &#8211; if my hand was stopt sooner.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#SoutheyBertha">Bertha</ref> would be right glad to join <ref type="m" target="people.html#SoutheyEdithMay">her sister</ref> &amp; accept your kind invitation, &#8211; but she is far off, &amp; fixed for a time with her present friends.<note n="9" place="foot" resp="editors">Bertha was staying with <ref type="m" target="people.html#RickmanJohn">John Rickman</ref> and his family.</note>
+        </p>
+        <p rend="indent1"> I am taking daily exercise, &#8211; but cannot yet shake off my cold, nor the cough which it has brought with it, &amp; which tho neither violent nor troublesome has taken strong hold. Till it has left me I can neither take wine, nor venture upon tonics, &#8211; tho in other respects sensibly in want of both. But I live in hope, &amp; my spirits are such as you have always known them. I brought with me from London a long tin horn, such as the Mail Coach Guards use, only of greater length &#8211; &amp; proportionate capacity of sound: &#8211; it is such a musical instrument as I should have liked to serenade you with at Oxford, &#8211; &amp; now &amp; then I indulge myself with a tune here. But I must confess <ref type="m" target="people.html#SoutheyIsabel">Isabel</ref> plays upon it better than I can do. So much for my amusements, &#8211; for my business, I am printing the second volume of the War; preparing a paper upon the Jesuits for the QReview,<note n="10" place="foot" resp="editors">Southey did not complete this paper.</note> &#8211; getting on with the Tale of Paraguay<note n="11" place="foot" resp="editors">
+            <title>A Tale of Paraguay</title> (1825).</note> &#8211; which you will certainly receive in the winter, &amp; making good progress with that <hi rend="ital">meipsead</hi>
+          <note n="12" place="foot" resp="editors">A writing about oneself, i.e. Southey&#8217;s autobiographical letters to John May.</note> of which you saw the commencement. This is a very interesting employment &amp; in its progress I must touch upon so many points of general interest, &amp; introduce so much of the literary history of my own times, that I am very well assured it will be esteemed a valuable record &amp; that when I am engaged upon it my time could not be more prudentially bestowed.</p>
+        <p rend="indent1">We expect M<hi rend="sup">rs</hi> Keenan<note n="13" place="foot" resp="editors">Frances Keenan (d. 1838), an artist and widow of the Irish portrait painter John Keenan (d. 1819). Southey had first met her in Exeter in 1799.</note> next week &#8211; I tell you this to shew you what ought to be thought of the distance between Devonshire &amp; <ref type="m" target="places.html#Keswick">Keswick</ref>. In fact when the expence ceases to be an object, the distance is nothing, &amp; you &amp; I must learn to consider it so. &#8211; I wished for you particularly some ten days ago when our Floating Island,<note n="14" place="foot" resp="editors">The Floating Island of Derwentwater is a mass of vegetation that rises to the surface every few years. It appeared from 21 June 1824 to the end of September, its first siting since 1819.</note> as it is called, made its appearance. Sedgewick<note n="15" place="foot" resp="editors">Adam Sedgwick (1785&#8211;1873; <title>DNB</title>), Fellow of Trinity College, Cambridge, and Woodwardian Professor of Geology 1818&#8211;1873.</note> the Geological Professor at Cambridge happened to be here by good fortune, &amp; examined it well. The bottom of the lake in that part consists first of vegetables growing on a thin layer of soft earth, &#8211; then a bed of peat six feet thick <del>fxx</del> &amp; this rests upon a stratum of remarkably fine white clay &#8211; to which it has little adhesion. The vegetable matter of which the peat is formed is still in a state of decomposition, &amp; produces gas in such abundance as from time to time to render <del>the pxx</del> large portions of the mass buoyant, seperate them from the clay, &amp; lift them to the surface of the water, &#8211; a very singular phenomenon which has not yet been observed elsewhere. The force with which this was now done was sufficient to make a rent in the bottom of the lake five or six feet deep &amp; fifty yards long. My best regards to M<hi rend="sup">rs</hi> L &#8211; <del>my godfather</del> god-daughter &#8211; Kate &#8211; Bridget &amp; Nico &#8211; not forgetting <ref type="m" target="people.html#LightfootJohnP">the new Fellow of Exeter</ref>.<note n="16" place="foot" resp="editors">Nicholas Lightfoot married Bridget Prideaux (1768&#8211;1856) on 13 July 1801. Their children were: John Prideaux Lightfoot; Frances Jane Lightfoot (1806&#8211;1882), Southey&#8217;s god-daughter; Catherine Anne Lightfoot (1808&#8211;1898); Bridget Mary Lightfoot (1810&#8211;1889); and Nicholas Francis Lightfoot (1811&#8211;1881), Vicar of Cadbury 1846&#8211;1855, Rector of Islip 1855&#8211;1881.</note>
+          <del>Xxxx</del> Nico when he comes to stand in his turn will say &#957;&#953;&#954;&#951;&#963;&#969; <note n="17" place="foot" resp="editors">&#8216;I conquer&#8217;.</note> I make no doubt, &amp; go thro the paradigm.<note n="17" place="foot" resp="editors">Nicholas Francis Lightfoot, like his brother, John Prideaux Lightfoot, matriculated at Exeter College, Oxford, in 1829. He graduated BA 1832, MA 1836, and became a clergyman.</note>
+        </p>
+        <closer>
+          <salute rend="indent1">God bless you &#8211;</salute>
+          <signed rend="indent2"> RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

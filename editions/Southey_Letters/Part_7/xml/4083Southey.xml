@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,141 +79,133 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4083Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4083Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4083" type="letter"><head>4083. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-11-04">4 November 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: [in another hand] To/ Miss Bowles/ Buckland/ Lymington/ CW Williams Wynn<lb/>
-Postmark: FREE/ 8 NO 8/ 1823<lb/>
-Endorsements: N<hi rend="sup">o</hi> 36 To Miss Caroline Bowles; Kirkby Lonsdale<lb/>
-MS: British Library, Add MS 47889. ALS; 3p. (A copy in Bowles’s hand is in the National Library of Scotland, MS 4081, where the letter forms part of the ‘Preface’ to <title>Robin Hood: A Fragment</title>.)<lb/>
-Previously published: Robert Southey and Caroline Southey, <title>Robin Hood: A Fragment. With Other Fragments and Poems</title> (Edinburgh, 1847), pp. [vii]–ix; Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 41–43.</note>
-</head>
-
-<opener><dateline><date when="1823-11-04">Nov. 4. 1823</date></dateline></opener>
-
-            <p rend="indent1">We left home yesterday, &#38; are now at Kirkby Lonsdale, waiting for weather that may allow us to see the Caves,<note n="1" place="foot" resp="editors">Yordas and Weathercote Caves – both of which were show caves and near Kirkby Lonsdale.</note> for from the time of our departure till this moment it has not ceased raining. The same ill fortune which persecuted you at Ambleside, seems fated to attend us, the females<note n="2" place="foot" resp="editors"><ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>, and Elizabeth Charter (1782–1860), friend of the poet George Crabbe (1754–1832; <title>DNB</title>). They were the sisters of <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>, first wife of William Peachy, and nieces of Sir Charles Malet (1752–1815; <title>DNB</title>), 1st Baronet, prominent diplomat with the East India Company. Peachy had lent the Charter sisters his home on Derwent Island. They were accompanied by Lady Susanna Malet, née Wales (1779–1868), widow of Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>), maternal uncle of the Charter sisters. Their other companion was one of Sir Charles Malet’s three children in India with Amber Kaur (b. 1772): Eliza (b. 1791); Henry Charles (1793–1844); and Louisa (b. 1795). They accompanied him to Britain in 1798 and were brought up with his children by Susanna Malet. Eliza Malet married, in 1812, Robert Ekins (1785–1874), Vicar of Godalming 1810–1833, Rector of Folke, Dorset 1833–1843, Perpetual Curate of North Wootton 1843–1854. Southey is probably referring here to Louisa Malet.</note> however are company for each other: – they have taken out their work, &#38; the opportunity is favourable for performing a part of mine. – which is to ask you whether one of those day dreams to which you have given birth, – (&#38; a very delightful one to me it is) shall come to pass.</p>
-            <p rend="indent1">I have put up among my papers the memoranda which were made many years ago for a poem upon Robin Hood.<note n="3" place="foot" resp="editors">‘Robin Hood’, Beinecke Rare Book and Manuscript Library, Yale University. These notes are dated ‘Oct 28. 1808’, ‘July 19. 1814’ and there is an undated, earlier, ‘Original Sketch’. The resulting unfinished work was published as ‘Robin Hood’ in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [1]–36. The publisher was William Blackwood, not John Murray.</note> They are easily <del>found</del> &#60;shaped&#62; into a regular plan, &#38; in my judgement a promising one. Will you <del>xxxxx xxx poetry xxxx xxxxxx xxxxxx xxxxxxxx xxx xxxxxx xxxxxxxx of xxxxxx for xxxxxx my death xxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxx xxxxxxx it</del> form an intellectual union with me, <del>xxxxxxx xxx execute it</del> that it may be executed? We will keep our own secret as well as <ref type="m" target="people.html#ScottWalter">Sir Walter Scott</ref> has done.<note n="4" place="foot" resp="editors">All Sir Walter Scott’s novels from <title>Waverley</title> (1814) onwards were published anonymously.</note> <ref type="m" target="people.html#MurrayJohn">Murray</ref> shall publish it &#38; not know the whole mystery, that he may make the more of it. – the result will be means in abundance for a summers abode at <ref type="m" target="places.html#Keswick">Keswick</ref>, &#38; an additional motive for it that we may form other schemes of the same nature. Am I dreaming when I think that we may derive from this much high enjoyment, &#38; that you may see in the prospect something which is worth living for? The secret itself would be delightful while we thought proper to keep it, still more so the spiritual union which death would not part.</p>
-            <p rend="indent1">Now on your side there must be no hesitation from diffidence. You can write as easily &#38; as well as I can plan. You are as well acquainted with forest scenery &#38; with whatever is required for the landscape part, as I am with the manners of the time. You will comprehend the characters as distinctly as I have conceived them; – <del>xxx</del> when we meet we will sort the parts so as <del>x</del> each to take the most suitable, &#38; I will add to yours, &#38; you to mine whatever may improve it. Beaumont &#38; Fletcher<note n="5" place="foot" resp="editors">Francis Beaumont (1584–1616; <title>DNB</title>) and John Fletcher (1579–1625; <title>DNB</title>), who wrote about 12–15 plays together.</note> composed plays together with such harmony of style thought &#38; feeling that no critic has ever been able to determine what parts were written by one &#38; what by the other, why should not RS &#38; CAB succeed as happily in the joint execution of a poem?</p>
-            <p rend="indent1">As there can be no just cause or impediment why these two persons should not be thus joined together, – <note n="6" place="foot" resp="editors">A quotation from the marriage banns in the Church of England.</note> tell me that you consent to the union, – &#38; I will send you the <del>xxx</del> rude outline of the story &#38; of the characters. Direct &#60;to me at&#62; <del>xxx</del> <ref type="m" target="people.html#BeaumontSirGeorge">Sir G. Beaumont’s – Bart.</ref> Cole Orton Hall, Ashby de la Zouch, where I expect to arrive on Monday next &#38; to remain till the Friday.</p>
-            <closer><salute rend="indent1">Dear friend – God bless you</salute>
-		<signed rend="indent2">RS.</signed></closer>
-
-
-
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4083" type="letter">
+        <head>4083. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-11-04">4 November 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: [in another hand] To/ Miss Bowles/ Buckland/ Lymington/ CW Williams Wynn<lb />
+Postmark: FREE/ 8 NO 8/ 1823<lb />
+Endorsements: N<hi rend="sup">o</hi> 36 To Miss Caroline Bowles; Kirkby Lonsdale<lb />
+MS: British Library, Add MS 47889. ALS; 3p. (A copy in Bowles&#8217;s hand is in the National Library of Scotland, MS 4081, where the letter forms part of the &#8216;Preface&#8217; to <title>Robin Hood: A Fragment</title>.)<lb />
+Previously published: Robert Southey and Caroline Southey, <title>Robin Hood: A Fragment. With Other Fragments and Poems</title> (Edinburgh, 1847), pp. [vii]&#8211;ix; Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 41&#8211;43.</note>
+        </head>
+        <opener>
+          <dateline>
+            <date when="1823-11-04">Nov. 4. 1823</date>
+          </dateline>
+        </opener>
+        <p rend="indent1">We left home yesterday, &amp; are now at Kirkby Lonsdale, waiting for weather that may allow us to see the Caves,<note n="1" place="foot" resp="editors">Yordas and Weathercote Caves &#8211; both of which were show caves and near Kirkby Lonsdale.</note> for from the time of our departure till this moment it has not ceased raining. The same ill fortune which persecuted you at Ambleside, seems fated to attend us, the females<note n="2" place="foot" resp="editors">
+            <ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>, and Elizabeth Charter (1782&#8211;1860), friend of the poet George Crabbe (1754&#8211;1832; <title>DNB</title>). They were the sisters of <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>, first wife of William Peachy, and nieces of Sir Charles Malet (1752&#8211;1815; <title>DNB</title>), 1st Baronet, prominent diplomat with the East India Company. Peachy had lent the Charter sisters his home on Derwent Island. They were accompanied by Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868), widow of Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>), maternal uncle of the Charter sisters. Their other companion was one of Sir Charles Malet&#8217;s three children in India with Amber Kaur (b. 1772): Eliza (b. 1791); Henry Charles (1793&#8211;1844); and Louisa (b. 1795). They accompanied him to Britain in 1798 and were brought up with his children by Susanna Malet. Eliza Malet married, in 1812, Robert Ekins (1785&#8211;1874), Vicar of Godalming 1810&#8211;1833, Rector of Folke, Dorset 1833&#8211;1843, Perpetual Curate of North Wootton 1843&#8211;1854. Southey is probably referring here to Louisa Malet.</note> however are company for each other: &#8211; they have taken out their work, &amp; the opportunity is favourable for performing a part of mine. &#8211; which is to ask you whether one of those day dreams to which you have given birth, &#8211; (&amp; a very delightful one to me it is) shall come to pass.</p>
+        <p rend="indent1">I have put up among my papers the memoranda which were made many years ago for a poem upon Robin Hood.<note n="3" place="foot" resp="editors">&#8216;Robin Hood&#8217;, Beinecke Rare Book and Manuscript Library, Yale University. These notes are dated &#8216;Oct 28. 1808&#8217;, &#8216;July 19. 1814&#8217; and there is an undated, earlier, &#8216;Original Sketch&#8217;. The resulting unfinished work was published as &#8216;Robin Hood&#8217; in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [1]&#8211;36. The publisher was William Blackwood, not John Murray.</note> They are easily <del>found</del> &lt;shaped&gt; into a regular plan, &amp; in my judgement a promising one. Will you <del>xxxxx xxx poetry xxxx xxxxxx xxxxxx xxxxxxxx xxx xxxxxx xxxxxxxx of xxxxxx for xxxxxx my death xxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxx xxxxxxx it</del> form an intellectual union with me, <del>xxxxxxx xxx execute it</del> that it may be executed? We will keep our own secret as well as <ref type="m" target="people.html#ScottWalter">Sir Walter Scott</ref> has done.<note n="4" place="foot" resp="editors">All Sir Walter Scott&#8217;s novels from <title>Waverley</title> (1814) onwards were published anonymously.</note>
+          <ref type="m" target="people.html#MurrayJohn">Murray</ref> shall publish it &amp; not know the whole mystery, that he may make the more of it. &#8211; the result will be means in abundance for a summers abode at <ref type="m" target="places.html#Keswick">Keswick</ref>, &amp; an additional motive for it that we may form other schemes of the same nature. Am I dreaming when I think that we may derive from this much high enjoyment, &amp; that you may see in the prospect something which is worth living for? The secret itself would be delightful while we thought proper to keep it, still more so the spiritual union which death would not part.</p>
+        <p rend="indent1">Now on your side there must be no hesitation from diffidence. You can write as easily &amp; as well as I can plan. You are as well acquainted with forest scenery &amp; with whatever is required for the landscape part, as I am with the manners of the time. You will comprehend the characters as distinctly as I have conceived them; &#8211; <del>xxx</del> when we meet we will sort the parts so as <del>x</del> each to take the most suitable, &amp; I will add to yours, &amp; you to mine whatever may improve it. Beaumont &amp; Fletcher<note n="5" place="foot" resp="editors">Francis Beaumont (1584&#8211;1616; <title>DNB</title>) and John Fletcher (1579&#8211;1625; <title>DNB</title>), who wrote about 12&#8211;15 plays together.</note> composed plays together with such harmony of style thought &amp; feeling that no critic has ever been able to determine what parts were written by one &amp; what by the other, why should not RS &amp; CAB succeed as happily in the joint execution of a poem?</p>
+        <p rend="indent1">As there can be no just cause or impediment why these two persons should not be thus joined together, &#8211; <note n="6" place="foot" resp="editors">A quotation from the marriage banns in the Church of England.</note> tell me that you consent to the union, &#8211; &amp; I will send you the <del>xxx</del> rude outline of the story &amp; of the characters. Direct &lt;to me at&gt; <del>xxx</del>
+          <ref type="m" target="people.html#BeaumontSirGeorge">Sir G. Beaumont&#8217;s &#8211; Bart.</ref> Cole Orton Hall, Ashby de la Zouch, where I expect to arrive on Monday next &amp; to remain till the Friday.</p>
+        <closer>
+          <salute rend="indent1">Dear friend &#8211; God bless you</salute>
+          <signed rend="indent2">RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

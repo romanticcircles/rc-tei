@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,140 +79,137 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3994Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3994Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3994" type="letter"><head>3994. Robert Southey to <ref type="a" target="people.html#KenyonJohn">John Kenyon</ref> [fragment], <date when="1823-04-03">3 April 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ John Kenyon Esq<hi rend="sup">re</hi> / Bath<lb/>
-Stamped: KESWICK/ 298<lb/>
-Endorsements: In return for a keg/ of Laver/ J.K.; No. 7; Southey <lb/>
-Seal: red wax; design illegible<lb/>
-MS: Keswick Museum and Art Gallery, 1996.5.237. AL; 4p.<lb/>
-Unpublished.</note></head>
-
-
-<opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1823-04-03">3 Apr. 1823</date></dateline>
-
-<salute>My dear Sir</salute></opener>
-            <p rend="indent1">It was with no little pleasure that I recognized your hand writing yesterday upon a casket (fit word for what contains a treasure) of that sea plant<note n="1" place="foot" resp="editors">Kenyon had sent a present of laver, an edible seaweed and a favourite of Southey’s.</note> which I conceive to have originally sprung from ambrosia seeds dropt by Jupiter when he took the water with Europa<note n="2" place="foot" resp="editors">Ambrosia was the food of the gods in Greek myth and Jupiter the Roman equivalent of Zeus, the king of the gods. Zeus took the form of a white bull to abduct Europa and swum with her on his back to the island of Crete.</note>, &#38; “evolved thro all the intestinal God”.<note n="3" place="foot" resp="editors">For Southey’s plan for a poem – ‘Laver; how it was ambrosia, which when Jupiter came for Europa was evolved through all the intestinal government’ – see <title>Common-Place Book</title>, ed. John Wood Warter, 4 series (London, 1849–1850), IV, p. 21. </note> Some five &#38; twenty years &#60;ago&#62; I thought of relating its history in verse, in honour of a preparation which in flavour bears witness to its Olympian derivation, &#38; in appearance to the theotaurine vehicle wherein it was committed to the sea-shore.<note n="4" place="foot" resp="editors">In Greek myth, Mount Olympus was the home of the gods; and Zeus was a god who had taken the form a bull (‘theotaurine’).</note> – I was very glad also to see where a letter would find you, – not having for a long time known in what part of this wide world you were to be found. The question was asked of me six or eight months ago by <ref type="m" target="people.html#TicknorGeorge">Ticknor</ref>, who was desirous of writing to you. Tell me where I may tell him to direct, – for at Bath I suppose you are only a bird of passage.</p>
-            <p rend="indent1">I am at this time employed more continuously upon one thing than is usual with me, that I may the sooner take wing for a longer flight &#38; longer absence than I like to think of, – to London first, – then Devonshire, &#38; to Norwich on my way back. Probably I shall [MS torn]t <del>town</del> &#60;London&#62; about the second week in May,<note n="5" place="foot" resp="editors">Southey did not leave home until 3 November 1823.</note> – <del>which</del> of all times in the year <del>xis</del> that which a lover of the country would with the most reluctance pass in town. <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> is there at present with <ref type="m" target="people.html#WordsworthMary">his wife</ref>, &#38; <ref type="m" target="people.html#HutchinsonSara">Miss Hutchinson</ref>. He has been placing <ref type="m" target="people.html#WordsworthJohn">his &#60;eldest&#62; son</ref> at Oxford.<note n="6" place="foot" resp="editors">John Wordsworth entered New College, Oxford, in 1823. </note> <ref type="m" target="people.html#WordsworthDora">His daughter</ref> left us this morning to return to <ref type="m" target="people.html#WordsworthDorothy">her Aunt</ref> at Rydal. – <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> &#60;&#38; <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref>&#62; have been making a round of visits since the beginning of November: they are now at Ottery with <ref type="m" target="people.html#ColeridgeSamuelTaylor">M<hi rend="sup">r</hi> C’s</ref> relations, – &#38; their last visit will be to <ref type="m" target="people.html#PooleThomas">Poole</ref> on their way home.</p>
-            <p rend="indent1">Since last I saw you my course of life has been <del>xxxx</del> very little varied, – thank Heaven it has been disturbed by no afflictions, which after a certain stage are almost the only variations we have to expect. <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> is now a young woman; – <ref type="m" target="people.html#SoutheyBertha">Bertha</ref> has almost shot up to <del>the</del> an equal stature; – the two other girls<note n="7" place="foot" resp="editors"><ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note> keeping their due proportion, &#38; so grown out of playthings; &#38; <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cuthbert</ref>, thank God, a fine &#38; thriving boy. For myself I am in better condition than I have been for several years, owing mainly to a course of exercise commenced last summer, &#38; steadily continued till this time. If you ask whether I am “a sadder &#38; a wiser man”,<note n="8" place="foot" resp="editors">Samuel Taylor Coleridge, ‘The Rime of the Ancyent Marinere’, Part 7, line 111, in William Wordsworth and Samuel Taylor Coleridge, <title>Lyrical Ballads, with a Few Other Poems</title> (Bristol, 1798), p. 51.</note> the children will answer no, without hesitation; – but I perhaps should hesitate before I replied to the first part of the question. With regard to the second – I hope I shall always be able to say, <hi rend="ital">Anch’ io imparo</hi>.<note n="9" place="foot" resp="editors">‘I too learn’.</note> Your brother<note n="10" place="foot" resp="editors">Edward Kenyon (d. 1856), who lived in Vienna. Like his brother John Kenyon, he was noted for giving away much of his wealth.</note> would think so if he saw me reading nursery-tales in German,<note n="11" place="foot" resp="editors">Jacob Ludwig Karl Grimm (1785–1863) and Wilhelm Karl Grimm (1786–1859), <title>Kinder-und Hausmärchen</title> (1812), translated as <title>German Popular Stories</title> (1823). </note> as a daily lesson, for myself, from which the young ones are not willing to grant me a holyday. I have learnt a little of the Danish during the winter, &#38; in due time shall get at the Teutonic sources of our language, – &#38; of our literature as far as these exist.</p>
-               <p rend="indent1">The book which I am now finishing is my long-meditated sketch of English Ecclesiastical History.<note n="12" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> It will provoke obloquy enough I dare say from bigots of every denomination: but I think it will have the effect not indeed of altering any persons opinions, – but of confirming those of many, – &#38; giving many a right bias when they begin their course. In the course of my reading it has been mortifying to observe, with what want of care, &#38; still more with what want of good faith &#38; good feeling this subject has been usually treated.</p>
-                  <p rend="indent1"><ref type="m" target="people.html#FrickerEdith">My wife</ref> &#38; <ref type="m" target="people.html#FrickerMary">M<hi rend="sup">rs</hi> Lovell</ref> desire me to present their <del>xxx</del> remembrances. Tell me something of yourself, – &#38; whether I may hope to meet you in London. – <ref type="m" target="people.html#PeachyWilliam">The General</ref>, you probably know, is at Clifton at this time.</p>
-                  <salute rend="indent2">God bless you [MS missing]</salute>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3994" type="letter">
+        <head>3994. Robert Southey to <ref type="a" target="people.html#KenyonJohn">John Kenyon</ref> [fragment], <date when="1823-04-03">3 April 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ John Kenyon Esq<hi rend="sup">re</hi> / Bath<lb />
+Stamped: KESWICK/ 298<lb />
+Endorsements: In return for a keg/ of Laver/ J.K.; No. 7; Southey <lb />
+Seal: red wax; design illegible<lb />
+MS: Keswick Museum and Art Gallery, 1996.5.237. AL; 4p.<lb />
+Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1823-04-03">3 Apr. 1823</date>
+          </dateline>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1">It was with no little pleasure that I recognized your hand writing yesterday upon a casket (fit word for what contains a treasure) of that sea plant<note n="1" place="foot" resp="editors">Kenyon had sent a present of laver, an edible seaweed and a favourite of Southey&#8217;s.</note> which I conceive to have originally sprung from ambrosia seeds dropt by Jupiter when he took the water with Europa<note n="2" place="foot" resp="editors">Ambrosia was the food of the gods in Greek myth and Jupiter the Roman equivalent of Zeus, the king of the gods. Zeus took the form of a white bull to abduct Europa and swum with her on his back to the island of Crete.</note>, &amp; &#8220;evolved thro all the intestinal God&#8221;.<note n="3" place="foot" resp="editors">For Southey&#8217;s plan for a poem &#8211; &#8216;Laver; how it was ambrosia, which when Jupiter came for Europa was evolved through all the intestinal government&#8217; &#8211; see <title>Common-Place Book</title>, ed. John Wood Warter, 4 series (London, 1849&#8211;1850), IV, p. 21. </note> Some five &amp; twenty years &lt;ago&gt; I thought of relating its history in verse, in honour of a preparation which in flavour bears witness to its Olympian derivation, &amp; in appearance to the theotaurine vehicle wherein it was committed to the sea-shore.<note n="4" place="foot" resp="editors">In Greek myth, Mount Olympus was the home of the gods; and Zeus was a god who had taken the form a bull (&#8216;theotaurine&#8217;).</note> &#8211; I was very glad also to see where a letter would find you, &#8211; not having for a long time known in what part of this wide world you were to be found. The question was asked of me six or eight months ago by <ref type="m" target="people.html#TicknorGeorge">Ticknor</ref>, who was desirous of writing to you. Tell me where I may tell him to direct, &#8211; for at Bath I suppose you are only a bird of passage.</p>
+        <p rend="indent1">I am at this time employed more continuously upon one thing than is usual with me, that I may the sooner take wing for a longer flight &amp; longer absence than I like to think of, &#8211; to London first, &#8211; then Devonshire, &amp; to Norwich on my way back. Probably I shall [MS torn]t <del>town</del> &lt;London&gt; about the second week in May,<note n="5" place="foot" resp="editors">Southey did not leave home until 3 November 1823.</note> &#8211; <del>which</del> of all times in the year <del>xis</del> that which a lover of the country would with the most reluctance pass in town. <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> is there at present with <ref type="m" target="people.html#WordsworthMary">his wife</ref>, &amp; <ref type="m" target="people.html#HutchinsonSara">Miss Hutchinson</ref>. He has been placing <ref type="m" target="people.html#WordsworthJohn">his &lt;eldest&gt; son</ref> at Oxford.<note n="6" place="foot" resp="editors">John Wordsworth entered New College, Oxford, in 1823. </note>
+          <ref type="m" target="people.html#WordsworthDora">His daughter</ref> left us this morning to return to <ref type="m" target="people.html#WordsworthDorothy">her Aunt</ref> at Rydal. &#8211; <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> &lt;&amp; <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref>&gt; have been making a round of visits since the beginning of November: they are now at Ottery with <ref type="m" target="people.html#ColeridgeSamuelTaylor">M<hi rend="sup">r</hi> C&#8217;s</ref> relations, &#8211; &amp; their last visit will be to <ref type="m" target="people.html#PooleThomas">Poole</ref> on their way home.</p>
+        <p rend="indent1">Since last I saw you my course of life has been <del>xxxx</del> very little varied, &#8211; thank Heaven it has been disturbed by no afflictions, which after a certain stage are almost the only variations we have to expect. <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> is now a young woman; &#8211; <ref type="m" target="people.html#SoutheyBertha">Bertha</ref> has almost shot up to <del>the</del> an equal stature; &#8211; the two other girls<note n="7" place="foot" resp="editors">
+            <ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note> keeping their due proportion, &amp; so grown out of playthings; &amp; <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cuthbert</ref>, thank God, a fine &amp; thriving boy. For myself I am in better condition than I have been for several years, owing mainly to a course of exercise commenced last summer, &amp; steadily continued till this time. If you ask whether I am &#8220;a sadder &amp; a wiser man&#8221;,<note n="8" place="foot" resp="editors">Samuel Taylor Coleridge, &#8216;The Rime of the Ancyent Marinere&#8217;, Part 7, line 111, in William Wordsworth and Samuel Taylor Coleridge, <title>Lyrical Ballads, with a Few Other Poems</title> (Bristol, 1798), p. 51.</note> the children will answer no, without hesitation; &#8211; but I perhaps should hesitate before I replied to the first part of the question. With regard to the second &#8211; I hope I shall always be able to say, <hi rend="ital">Anch&#8217; io imparo</hi>.<note n="9" place="foot" resp="editors">&#8216;I too learn&#8217;.</note> Your brother<note n="10" place="foot" resp="editors">Edward Kenyon (d. 1856), who lived in Vienna. Like his brother John Kenyon, he was noted for giving away much of his wealth.</note> would think so if he saw me reading nursery-tales in German,<note n="11" place="foot" resp="editors">Jacob Ludwig Karl Grimm (1785&#8211;1863) and Wilhelm Karl Grimm (1786&#8211;1859), <title>Kinder-und Hausm&#228;rchen</title> (1812), translated as <title>German Popular Stories</title> (1823). </note> as a daily lesson, for myself, from which the young ones are not willing to grant me a holyday. I have learnt a little of the Danish during the winter, &amp; in due time shall get at the Teutonic sources of our language, &#8211; &amp; of our literature as far as these exist.</p>
+        <p rend="indent1">The book which I am now finishing is my long-meditated sketch of English Ecclesiastical History.<note n="12" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> It will provoke obloquy enough I dare say from bigots of every denomination: but I think it will have the effect not indeed of altering any persons opinions, &#8211; but of confirming those of many, &#8211; &amp; giving many a right bias when they begin their course. In the course of my reading it has been mortifying to observe, with what want of care, &amp; still more with what want of good faith &amp; good feeling this subject has been usually treated.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#FrickerEdith">My wife</ref> &amp; <ref type="m" target="people.html#FrickerMary">M<hi rend="sup">rs</hi> Lovell</ref> desire me to present their <del>xxx</del> remembrances. Tell me something of yourself, &#8211; &amp; whether I may hope to meet you in London. &#8211; <ref type="m" target="people.html#PeachyWilliam">The General</ref>, you probably know, is at Clifton at this time.</p>
+        <salute rend="indent2">God bless you [MS missing]</salute>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,138 +79,136 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4204Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4204Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4202" type="letter"><head>4204. Robert Southey to <ref type="a" target="people.html#WhiteNeville">Neville White</ref>,<date when="1824-06-24"> 24 June 1824</date>
-            <note type="headnote" place="foot" resp="editors">MS: Cambridge University Library, Add 8462. TR; 2p.<lb/>
-               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 427–428.<lb/>
-               Note on MS: The manuscript survives only as a partial transcript in an unknown hand. The text below is taken from the transcript, with the closing salutation and signature, omitted in the transcript, supplied from Warter’s text.</note></head>
-            
-            
-          <opener>  <dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address> <date when="1824-06-24">24 June 1824</date></dateline>
-            
-          <salute>  My dear Neville</salute></opener>
-            <p rend="indent1"> You see I judged rightly concerning the encouragement which <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkin</ref>, was likely to find from the London Book-sellers.<note n="1" place="foot" resp="editors">Wilkin had proposed a new edition of the works of Sir Thomas Browne (1605–1682; <title>DNB</title>), the Norwich resident, doctor and writer on a huge range of subjects. ‘The Whole Works and Correspondence of Sir Thomas Browne, Knt. M. D. of Norwich’ was soon advertised as forthcoming with Longmans, for example in the <title>London Courier and Evening Gazette</title>, 2 October 1824. This was an early indication of Simon Wilkin’s edition, which did not appear until 1835–1836. Southey did not edit or review this work, though he obtained a copy, no. 376 in the sale catalogue of his library.</note> This is a subject on which they are necessarily the best judges. A second edition is not to be hoped for in a case like this, nor do I think there is any reasonable expectation, that so large an edition as 1000 will sell. I advise him not to print more than 750, &#38; tell him further, that highly desirable as such a collection is of this authors works, it would be prudent not to venture more than 500 –</p>
-            <p rend="indent1">The best service I can render him will be to review the book which of course is incompatible with editing it. Edite it I ought not to do unless I could allow to it the time &#38; care necessary for doing it in a manner creditable to myself. This I cannot give, &#38; the speculative cannot afford to purchase – <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkins</ref> had better take Johnsons Life, to which Kippis’s Account (if it contain much additional information) may be annexed.<note n="2" place="foot" resp="editors"><title>Christian Morals: by Sir Thomas Browne, of Norwich, M.D. and Author of Religio Medici. the Second Edition. with a Life of the Author, by Samuel Johnson; and Explanatory Notes</title> (London, 1756), pp. i–lxi. The first edition was published posthumously in 1716; the second edition was edited by Samuel Johnson (1709–1784; <title>DNB</title>). Andrew Kippis (1725–1795; <title>DNB</title>), <title>Biographia Britannica</title>, 2nd edn, 5 vols (London, 1778–1793), II, pp. 627–637. Wilkins opened his edition of 1835–1836 by reprinting Johnson’s ‘Life’.</note> Let him then arrange the Works chronologically with brief notes affixed to each, when it was first published – thro how many editions it has past, &#38; what Edition has been followed in the reprint. And if he is desirous of reducing the bulk of the work throw away all the annotations of other writers, except Sir Cor&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<note n="3" place="foot" resp="editors">The transcriber has left a space. Warter supplies ‘Kenelm’. Sir Kenelm Digby (1603–1665; <title>DNB</title>), <title>Observations upon Religio Medici, Occasionally Written by Sir Kenelme Digby, Knight</title> (1643).</note> Digbys remarks. All that remains will be to take especial care that it be correctly printed, &#38; state in a brief &#38; modest preface the motives for forming the Collection the pains which have been taken in obtaining unpublished papers &#38; the success with which that search has been attended.</p>
-           <p rend="indent1"> The Correspondence should either follow the Life, if it be at all upon domestic &#38; familiar character, but if it relates wholly (as is most likely) to discursive subjects such as were the object of his studies, it had better then be placed at the end of the collection<note n="4" place="foot" resp="editors">Wilkin placed Browne’s correspondence at the end of his edition.</note> –</p>
-            <p rend="indent1"> A review in the Q will be of much greater advantage to <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkin</ref> than my name as Editor could be &#38; what I should have written as a Life, Preface, or Introduction, may just as well be cast into that form –</p>
-            <p rend="indent1">I lose no time in replying to your letter that he may lose none in making his arrangement &#38; beginning to print.<note n="5" place="foot" resp="editors">MS transcript ends here. The closing address and signature are supplied from John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, p. 428.</note> God bless you my dear friend,</p>
-          <closer>  <salute rend="indent2">Yours affectionately,</salute>
-           <signed rend="indent4"> R.S.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4202" type="letter">
+        <head>4204. Robert Southey to <ref type="a" target="people.html#WhiteNeville">Neville White</ref>,<date when="1824-06-24"> 24 June 1824</date>
+          <note type="headnote" place="foot" resp="editors">MS: Cambridge University Library, Add 8462. TR; 2p.<lb />
+               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 427&#8211;428.<lb />
+               Note on MS: The manuscript survives only as a partial transcript in an unknown hand. The text below is taken from the transcript, with the closing salutation and signature, omitted in the transcript, supplied from Warter&#8217;s text.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>
+              </placeName>
+            </address>
+            <date when="1824-06-24">24 June 1824</date>
+          </dateline>
+          <salute>  My dear Neville</salute>
+        </opener>
+        <p rend="indent1"> You see I judged rightly concerning the encouragement which <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkin</ref>, was likely to find from the London Book-sellers.<note n="1" place="foot" resp="editors">Wilkin had proposed a new edition of the works of Sir Thomas Browne (1605&#8211;1682; <title>DNB</title>), the Norwich resident, doctor and writer on a huge range of subjects. &#8216;The Whole Works and Correspondence of Sir Thomas Browne, Knt. M. D. of Norwich&#8217; was soon advertised as forthcoming with Longmans, for example in the <title>London Courier and Evening Gazette</title>, 2 October 1824. This was an early indication of Simon Wilkin&#8217;s edition, which did not appear until 1835&#8211;1836. Southey did not edit or review this work, though he obtained a copy, no. 376 in the sale catalogue of his library.</note> This is a subject on which they are necessarily the best judges. A second edition is not to be hoped for in a case like this, nor do I think there is any reasonable expectation, that so large an edition as 1000 will sell. I advise him not to print more than 750, &amp; tell him further, that highly desirable as such a collection is of this authors works, it would be prudent not to venture more than 500 &#8211;</p>
+        <p rend="indent1">The best service I can render him will be to review the book which of course is incompatible with editing it. Edite it I ought not to do unless I could allow to it the time &amp; care necessary for doing it in a manner creditable to myself. This I cannot give, &amp; the speculative cannot afford to purchase &#8211; <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkins</ref> had better take Johnsons Life, to which Kippis&#8217;s Account (if it contain much additional information) may be annexed.<note n="2" place="foot" resp="editors">
+            <title>Christian Morals: by Sir Thomas Browne, of Norwich, M.D. and Author of Religio Medici. the Second Edition. with a Life of the Author, by Samuel Johnson; and Explanatory Notes</title> (London, 1756), pp. i&#8211;lxi. The first edition was published posthumously in 1716; the second edition was edited by Samuel Johnson (1709&#8211;1784; <title>DNB</title>). Andrew Kippis (1725&#8211;1795; <title>DNB</title>), <title>Biographia Britannica</title>, 2nd edn, 5 vols (London, 1778&#8211;1793), II, pp. 627&#8211;637. Wilkins opened his edition of 1835&#8211;1836 by reprinting Johnson&#8217;s &#8216;Life&#8217;.</note> Let him then arrange the Works chronologically with brief notes affixed to each, when it was first published &#8211; thro how many editions it has past, &amp; what Edition has been followed in the reprint. And if he is desirous of reducing the bulk of the work throw away all the annotations of other writers, except Sir Cor&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<note n="3" place="foot" resp="editors">The transcriber has left a space. Warter supplies &#8216;Kenelm&#8217;. Sir Kenelm Digby (1603&#8211;1665; <title>DNB</title>), <title>Observations upon Religio Medici, Occasionally Written by Sir Kenelme Digby, Knight</title> (1643).</note> Digbys remarks. All that remains will be to take especial care that it be correctly printed, &amp; state in a brief &amp; modest preface the motives for forming the Collection the pains which have been taken in obtaining unpublished papers &amp; the success with which that search has been attended.</p>
+        <p rend="indent1"> The Correspondence should either follow the Life, if it be at all upon domestic &amp; familiar character, but if it relates wholly (as is most likely) to discursive subjects such as were the object of his studies, it had better then be placed at the end of the collection<note n="4" place="foot" resp="editors">Wilkin placed Browne&#8217;s correspondence at the end of his edition.</note> &#8211;</p>
+        <p rend="indent1"> A review in the Q will be of much greater advantage to <ref type="m" target="people.html#WilkinSimon">M<hi rend="sup">r</hi> Wilkin</ref> than my name as Editor could be &amp; what I should have written as a Life, Preface, or Introduction, may just as well be cast into that form &#8211;</p>
+        <p rend="indent1">I lose no time in replying to your letter that he may lose none in making his arrangement &amp; beginning to print.<note n="5" place="foot" resp="editors">MS transcript ends here. The closing address and signature are supplied from John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, p. 428.</note> God bless you my dear friend,</p>
+        <closer>
+          <salute rend="indent2">Yours affectionately,</salute>
+          <signed rend="indent4"> R.S.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

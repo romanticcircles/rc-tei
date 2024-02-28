@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,353 +79,332 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3951Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3951Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3951" type="letter">
-            <head>3951. Robert Southey to <ref type="a" target="people.html#MayJohn">John May</ref>, <date when="1823-01-10">10–19 January 1823</date>
-               <note type="headnote" place="foot" resp="editors">MS: Department of Rare Books, Special Collections and Preservation, River Campus
-                  Libraries, University of Rochester, Robert Southey Papers A.S727. AL; 5p.<lb/> Previously edited or published: Michael Neill
-                  Stanton, ‘An Edition of the Autobiographical Letters of Robert Southey’ (unpublished PhD, University of Rochester, 1972), pp.
-                  106–118; <lb/> Charles Cuthbert Southey (ed.), <title>Life and Correspondence of Robert Southey</title>, 6 vols (London, 1849–1850),
-                  I, pp. 68–80 [with variants; the text draws on a fair copy of the letter and not on the original version sent to May, which we
-                  publish here].</note></head>
-
-
-            <opener><dateline><date when="1823-01-10">Jan<hi rend="sup">y</hi>. 10. 1823.</date></dateline></opener>
-            <lb/>
-            <p rend="indent1">I was now placed as a day boarder at a school in that part of Bristol called the Fort, on the hill above S<hi rend="sup"
-                  >t</hi> Michaels Church.<note n="1" place="foot" resp="editors">The church of St Michael on the Mount Without, Bristol.</note>
-               William Williams<note n="2" place="foot" resp="editors">William Williams (d. 1811), Southey’s schoolmaster at Merchants’ Hall School,
-                  Bristol, 1782–1786.</note> the Master, was as his name denotes a Welshman, I find him satirized, – or to use a more
-                  <del>appropriat</del> accurate word, – vilified in the Miscellanies of <ref type="m" target="people.html#HillHerbertUncle">my
-                  Uncles</ref> old master, Collins,<note n="3" place="foot" resp="editors">Emmanuel Collins (fl. 1732–1762), <title>Miscellanies in
-                     Prose and Verse</title> (Bristol, 1762), pp. 137–142, including ‘The Quack School-Master’, no. 663 in the sale catalogue of
-                  Southey’s library.</note> as an impudent pretender. This he certainly was not, – for what he professed to teach, he taught well. The
-               Latin he left wholly to an Usher, – Bevan<note n="4" place="foot" resp="editors">Possibly Henry Bevan (c. 1761–1824), a BA of Pembroke
-                  College, Oxford (1783), later Stipendiary Curate of Congresbury, Somerset 1797–1818, Vicar of Congresbury 1818–1824 and Preacher
-                  throughout the Diocese of Bath and Wells 1818–1824. </note> by name, who was also Curate of the parish. The writing, cyphering &#38;
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3951" type="letter">
+        <head>3951. Robert Southey to <ref type="a" target="people.html#MayJohn">John May</ref>, <date when="1823-01-10">10&#8211;19 January 1823</date>
+          <note type="headnote" place="foot" resp="editors">MS: Department of Rare Books, Special Collections and Preservation, River Campus
+                  Libraries, University of Rochester, Robert Southey Papers A.S727. AL; 5p.<lb /> Previously edited or published: Michael Neill
+                  Stanton, &#8216;An Edition of the Autobiographical Letters of Robert Southey&#8217; (unpublished PhD, University of Rochester, 1972), pp.
+                  106&#8211;118; <lb /> Charles Cuthbert Southey (ed.), <title>Life and Correspondence of Robert Southey</title>, 6 vols (London, 1849&#8211;1850),
+                  I, pp. 68&#8211;80 [with variants; the text draws on a fair copy of the letter and not on the original version sent to May, which we
+                  publish here].</note>
+        </head>
+        <opener>
+          <dateline>
+            <date when="1823-01-10">Jan<hi rend="sup">y</hi>. 10. 1823.</date>
+          </dateline>
+        </opener>
+        <lb />
+        <p rend="indent1">I was now placed as a day boarder at a school in that part of Bristol called the Fort, on the hill above S<hi rend="sup">t</hi> Michaels Church.<note n="1" place="foot" resp="editors">The church of St Michael on the Mount Without, Bristol.</note>
+               William Williams<note n="2" place="foot" resp="editors">William Williams (d. 1811), Southey&#8217;s schoolmaster at Merchants&#8217; Hall School,
+                  Bristol, 1782&#8211;1786.</note> the Master, was as his name denotes a Welshman, I find him satirized, &#8211; or to use a more
+                  <del>appropriat</del> accurate word, &#8211; vilified in the Miscellanies of <ref type="m" target="people.html#HillHerbertUncle">my
+                  Uncles</ref> old master, Collins,<note n="3" place="foot" resp="editors">Emmanuel Collins (fl. 1732&#8211;1762), <title>Miscellanies in
+                     Prose and Verse</title> (Bristol, 1762), pp. 137&#8211;142, including &#8216;The Quack School-Master&#8217;, no. 663 in the sale catalogue of
+                  Southey&#8217;s library.</note> as an impudent pretender. This he certainly was not, &#8211; for what he professed to teach, he taught well. The
+               Latin he left wholly to an Usher, &#8211; Bevan<note n="4" place="foot" resp="editors">Possibly Henry Bevan (c. 1761&#8211;1824), a BA of Pembroke
+                  College, Oxford (1783), later Stipendiary Curate of Congresbury, Somerset 1797&#8211;1818, Vicar of Congresbury 1818&#8211;1824 and Preacher
+                  throughout the Diocese of Bath and Wells 1818&#8211;1824. </note> by name, who was also Curate of the parish. The writing, cyphering &amp;
                merchants-accounts he superintended himself, tho there was a writing master: He had composed a spelling book, which for a schoolmaster
-               is &#60;a&#62; profitable kind of authorship, &#38; for love of this spelling book exercised the boys in it so much that &#60;the&#62;
-               thumbing &#38; dog-leaving turned to good account. But he was, I verily believe, conscientiously earnest in making them perfect in the
-               catechism, – examination in which was always dreaded as the most formidable duty of the school, such was the accuracy which he exacted,
-               &#38; the severity of his manner on that occasion.</p>
-            <p rend="indent1">My Grandmother died in 1782,<note n="5" place="foot" resp="editors">Margaret Hill, née Bradford (1710–1782).</note>
-               &#38; either in the latter end of that year, or the ensuing January I was placed at poor old Williams’s. I had commenced poet before
-               this: – at how early an age I cannot call to mind; but I can very well remember that my first composition both in manner &#38;
-               sentiment might have been deemed <del>an unsuccessful</del> &#60;<del>humble</del> a very <del>promising</del> hopefull&#62; imitation
+               is &lt;a&gt; profitable kind of authorship, &amp; for love of this spelling book exercised the boys in it so much that &lt;the&gt;
+               thumbing &amp; dog-leaving turned to good account. But he was, I verily believe, conscientiously earnest in making them perfect in the
+               catechism, &#8211; examination in which was always dreaded as the most formidable duty of the school, such was the accuracy which he exacted,
+               &amp; the severity of his manner on that occasion.</p>
+        <p rend="indent1">My Grandmother died in 1782,<note n="5" place="foot" resp="editors">Margaret Hill, n&#233;e Bradford (1710&#8211;1782).</note>
+               &amp; either in the latter end of that year, or the ensuing January I was placed at poor old Williams&#8217;s. I had commenced poet before
+               this: &#8211; at how early an age I cannot call to mind; but I can very well remember that my first composition both in manner &amp;
+               sentiment might have been deemed <del>an unsuccessful</del> &lt;<del>humble</del> a very <del>promising</del> hopefull&gt; imitation
                of the Bellmans verses.<note n="6" place="foot" resp="editors">Bellmen were minor parish officials; traditionally, they presented
                   doggerel verses conveying seasonal good wishes to parishioners at Christmas in return for donations.</note> The discovery, however
-               that I could write rhymes gave me great pleasure, &#38; <del>yet not so much as</del> that was in no slight degree heightened when I
+               that I could write rhymes gave me great pleasure, &amp; <del>yet not so much as</del> that was in no slight degree heightened when I
                perceived that <ref type="m" target="people.html#SoutheyMargaret">my mother</ref> was not only pleased with what I had produced, but
                proud of it. <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref> had intended, as far as she was concerned, to give me a
-               systematic education, &#38; for this purpose (as she afterwards told me) purchased a translation of Rousseaus Emilius.<note n="7"
-                  place="foot" resp="editors">Jean-Jacques Rousseau (1712–1778), <title>Émile, ou De l’éducation</title> (1762), which emphasised
-                  learning by interacting with the world rather than from books.</note> That system being happily even more impracticable than M<hi
-                  rend="sup">r</hi> Edgeworths,<note n="8" place="foot" resp="editors">Richard Lovell Edgeworth (1744–1817; <title>DNB</title>) and
-                  Maria Edgeworth (1768–1849; <title>DNB</title>), <title>Practical Education</title> (1798). The book’s controversial ideas included
+               systematic education, &amp; for this purpose (as she afterwards told me) purchased a translation of Rousseaus Emilius.<note n="7" place="foot" resp="editors">Jean-Jacques Rousseau (1712&#8211;1778), <title>&#201;mile, ou De l&#8217;&#233;ducation</title> (1762), which emphasised
+                  learning by interacting with the world rather than from books.</note> That system being happily even more impracticable than M<hi rend="sup">r</hi> Edgeworths,<note n="8" place="foot" resp="editors">Richard Lovell Edgeworth (1744&#8211;1817; <title>DNB</title>) and
+                  Maria Edgeworth (1768&#8211;1849; <title>DNB</title>), <title>Practical Education</title> (1798). The book&#8217;s controversial ideas included
                   condemning reading fairy tales to children or discussing religion with them.</note> I was lucky enough to escape from any
-               experiments of this kind, &#38; then good fortune provided better for me that any method could have done. Nothing could be more
-               propitious to me, considering my aptitude, &#38; tendency of mind, than <ref type="m" target="people.html#TylerElizabeth">Miss
-                  Tylers</ref> predilection, – I might almost call it passion for the theatre. Owing to this Shakespere was in my hands as soon as I
-               could read, &#38; it was actually long before I had any other knowledge of the history of England than what I gathered from his plays.
-               Indeed when first I read the plain matter of fact the difference which appeared there, puzzled &#38; did not please me; &#38; for
+               experiments of this kind, &amp; then good fortune provided better for me that any method could have done. Nothing could be more
+               propitious to me, considering my aptitude, &amp; tendency of mind, than <ref type="m" target="people.html#TylerElizabeth">Miss
+                  Tylers</ref> predilection, &#8211; I might almost call it passion for the theatre. Owing to this Shakespere was in my hands as soon as I
+               could read, &amp; it was actually long before I had any other knowledge of the history of England than what I gathered from his plays.
+               Indeed when first I read the plain matter of fact the difference which appeared there, puzzled &amp; did not please me; &amp; for
                   <del>ten</del> some time I preferred Shakesperes authority to the historians</p>
-            <p rend="indent1">It is curious that Titus Andronicus<note n="9" place="foot" resp="editors">William Shakespeare, <title>Titus
-                     Andronicus</title> (c. 1588–1593), a particularly gruesome play that involves murder, rape, dismemberment and (inadvertent)
-                  cannibalism.</note> was at first my favourite play: – partly I suppose because there was nothing in the characters above my
+        <p rend="indent1">It is curious that Titus Andronicus<note n="9" place="foot" resp="editors">William Shakespeare, <title>Titus
+                     Andronicus</title> (c. 1588&#8211;1593), a particularly gruesome play that involves murder, rape, dismemberment and (inadvertent)
+                  cannibalism.</note> was at first my favourite play: &#8211; partly I suppose because there was nothing in the characters above my
                comprehension, but the chief reason must have been that tales of horror make a deep impression upon children as they do upon the
-               vulgar, for whom as their ballads prove, no tragedy can be too bloody: – they excite astonishment rather than pity. – I went thro
-               Beaumont &#38; Fletcher<note n="10" place="foot" resp="editors">Francis Beaumont (1584–1616; <title>DNB</title>) and John Fletcher
-                  (1579–1625; <title>DNB</title>), who wrote about 12–15 plays together.</note> also before I was eight years old (circumstances
-               enable me to recollect the time accurately.) – They were great theatrical names, &#38; therefore there was no scruple about letting me
-               peruse their works. What harm indeed could they do me at that age? I read them merely for the interest which the stories excited, &#38;
+               vulgar, for whom as their ballads prove, no tragedy can be too bloody: &#8211; they excite astonishment rather than pity. &#8211; I went thro
+               Beaumont &amp; Fletcher<note n="10" place="foot" resp="editors">Francis Beaumont (1584&#8211;1616; <title>DNB</title>) and John Fletcher
+                  (1579&#8211;1625; <title>DNB</title>), who wrote about 12&#8211;15 plays together.</note> also before I was eight years old (circumstances
+               enable me to recollect the time accurately.) &#8211; They were great theatrical names, &amp; therefore there was no scruple about letting me
+               peruse their works. What harm indeed could they do me at that age? I read them merely for the interest which the stories excited, &amp;
                understood the worse parts, as little as I did the better. But I acquired imperceptibly from such reading a familiarity with the
-               diction <del>of that last age</del> &#38; <del>an</del> ear for <del>metre</del> the blank verse of our great masters. In general I
-               gave myself no trouble with what I did not understand, – the story was intelligible, &#38; that was enough. But the Knight of the
+               diction <del>of that last age</del> &amp; <del>an</del> ear for <del>metre</del> the blank verse of our great masters. In general I
+               gave myself no trouble with what I did not understand, &#8211; the story was intelligible, &amp; that was enough. But the Knight of the
                Burning Pestle<note n="11" place="foot" resp="editors">Francis Beaumont, <title>The Knight of the Burning Pestle</title> (1607), a
-                  satire on chivalric romances.</note> perplexed me terribly: – burlesque of this kind is the last thing that a child can comprehend.
-               It set me longing however for Palmerin of England, – &#38; that longing was never gratified till I read it in the original
-                  Portugueze.<note n="12" place="foot" resp="editors"><title>Palmerin d’Angleterre</title> (1547) was one of a number of books of
-                  romance about the exploits and descendants of Palmerin d’Oliva, Emperor of Constantinople. Its author was Francisco de Moraes Cabral
-                  (c. 1500–1572), a Portuguese writer and diplomat. Southey had produced his own version of <title>Palmerin of England; by Francisco
+                  satire on chivalric romances.</note> perplexed me terribly: &#8211; burlesque of this kind is the last thing that a child can comprehend.
+               It set me longing however for Palmerin of England, &#8211; &amp; that longing was never gratified till I read it in the original
+                  Portugueze.<note n="12" place="foot" resp="editors">
+            <title>Palmerin d&#8217;Angleterre</title> (1547) was one of a number of books of
+                  romance about the exploits and descendants of Palmerin d&#8217;Oliva, Emperor of Constantinople. Its author was Francisco de Moraes Cabral
+                  (c. 1500&#8211;1572), a Portuguese writer and diplomat. Southey had produced his own version of <title>Palmerin of England; by Francisco
                      de Moraes. Corrected by Robert Southey from the Original Portugueze</title> (1807). The book was one of many satirised in
-                     <title>The Knight of the Burning Pestle</title>.</note> – My favourite play upon the stage was Cymberline, – &#38; next to that,
+                     <title>The Knight of the Burning Pestle</title>.</note> &#8211; My favourite play upon the stage was Cymberline, &#8211; &amp; next to that,
                As you like it.<note n="13" place="foot" resp="editors">William Shakespeare, <title>Cymbeline</title> (1611) and <title>As You Like
-                     It</title> (1599).</note> They are both romantic dramas; – &#38; no one had ever a more decided turn for music, or for numbers,
+                     It</title> (1599).</note> They are both romantic dramas; &#8211; &amp; no one had ever a more decided turn for music, or for numbers,
                than I had for romance.</p>
-            <p rend="indent1">You will wonder that with this education I did not become a dramatic writer. I had seen more plays before I was seven
-               years old that I have seen since I was twenty; &#38; heard more conversation about the theatre than any other subject. <ref type="m"
-                  target="people.html#TylerElizabeth">Miss Tyler</ref> had given up her house before I went to Corston, &#38; when I visited her from
-               school she was herself a guest with <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref> &#38; her sister M<hi rend="sup"
-                  >rs</hi> Bartlett,<note n="14" place="foot" resp="editors">Elizabeth Bartlett (1748–1830).</note> whose property was vested in the
-               Bath &#38; Bristol theatres:<note n="15" place="foot" resp="editors">Miss Palmer and Mrs Bartlett were the daughters of John Palmer
-                  (1703–1788), a businessman who had acquired the Theatres Royal at Bristol and Bath.</note> Their house was in Galloways Buildings,
-               from whence a covered passage led to the playhouse, &#38; they very rarely missed a nights performance. I was too old to be put to bed
-               before the performance began, &#38; it was better to take me than to leave me with the servants, – therefore I was always taken; &#38;
-               it is impossible to describe the thorough delight which I received from this habitual indulgence. No after enjoyment could equal it, –
-               or approach it. I was sensible of no defects either in the dramas, or in the representation &#38; indeed better acting could not have
-               been seen any where, – for M<hi rend="sup">rs</hi> Siddons<note n="16" place="foot" resp="editors">Sarah Siddons (1755–1831;
-                     <title>DNB</title>), the leading tragic actress of her day, based in Bath 1778–1782.</note> was the heroine, – Dimond<note n="17"
-                  place="foot" resp="editors">William Wyatt Dimond (c. 1750–1812; <title>DNB</title>), an actor and manager in Bath 1774–1801.</note>
-               &#38; Murray<note n="18" place="foot" resp="editors">Charles Murray (1754–1821; <title>DNB</title>), a Scottish actor and dramatist,
-                  based in Bath 1785–1796.</note> would have done credit to any stage, – &#38; among the comic actors <del>xx</del> were Edwin<note
-                  n="19" place="foot" resp="editors">John Edwin (1749–1790; <title>DNB</title>), a comic actor and writer.</note> &#38;
-                  Blanchard,<note n="20" place="foot" resp="editors">Either Thomas Blanchard, the elder (fl. 1766–1787), or his son, Thomas Blanchard,
-                  the younger (1760–1837; <title>DNB</title>). Both were based in Bath and Bristol 1778–1787.</note> – &#38; Blisset,<note n="21"
-                  place="foot" resp="editors">Francis Blissett (c. 1742–1824), the most popular comic actor on the Bath stage 1779–1798. He did appear
-                  at the Haymarket, London, in 1776–1781 and returned in 1803.</note> who tho never known to a London audience was of all comic actors
-               whom I have ever seen, the most perfect. But I was happily insensible to that difference between good &#38; bad acting, which in riper
+        <p rend="indent1">You will wonder that with this education I did not become a dramatic writer. I had seen more plays before I was seven
+               years old that I have seen since I was twenty; &amp; heard more conversation about the theatre than any other subject. <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref> had given up her house before I went to Corston, &amp; when I visited her from
+               school she was herself a guest with <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref> &amp; her sister M<hi rend="sup">rs</hi> Bartlett,<note n="14" place="foot" resp="editors">Elizabeth Bartlett (1748&#8211;1830).</note> whose property was vested in the
+               Bath &amp; Bristol theatres:<note n="15" place="foot" resp="editors">Miss Palmer and Mrs Bartlett were the daughters of John Palmer
+                  (1703&#8211;1788), a businessman who had acquired the Theatres Royal at Bristol and Bath.</note> Their house was in Galloways Buildings,
+               from whence a covered passage led to the playhouse, &amp; they very rarely missed a nights performance. I was too old to be put to bed
+               before the performance began, &amp; it was better to take me than to leave me with the servants, &#8211; therefore I was always taken; &amp;
+               it is impossible to describe the thorough delight which I received from this habitual indulgence. No after enjoyment could equal it, &#8211;
+               or approach it. I was sensible of no defects either in the dramas, or in the representation &amp; indeed better acting could not have
+               been seen any where, &#8211; for M<hi rend="sup">rs</hi> Siddons<note n="16" place="foot" resp="editors">Sarah Siddons (1755&#8211;1831;
+                     <title>DNB</title>), the leading tragic actress of her day, based in Bath 1778&#8211;1782.</note> was the heroine, &#8211; Dimond<note n="17" place="foot" resp="editors">William Wyatt Dimond (c. 1750&#8211;1812; <title>DNB</title>), an actor and manager in Bath 1774&#8211;1801.</note>
+               &amp; Murray<note n="18" place="foot" resp="editors">Charles Murray (1754&#8211;1821; <title>DNB</title>), a Scottish actor and dramatist,
+                  based in Bath 1785&#8211;1796.</note> would have done credit to any stage, &#8211; &amp; among the comic actors <del>xx</del> were Edwin<note n="19" place="foot" resp="editors">John Edwin (1749&#8211;1790; <title>DNB</title>), a comic actor and writer.</note> &amp;
+                  Blanchard,<note n="20" place="foot" resp="editors">Either Thomas Blanchard, the elder (fl. 1766&#8211;1787), or his son, Thomas Blanchard,
+                  the younger (1760&#8211;1837; <title>DNB</title>). Both were based in Bath and Bristol 1778&#8211;1787.</note> &#8211; &amp; Blisset,<note n="21" place="foot" resp="editors">Francis Blissett (c. 1742&#8211;1824), the most popular comic actor on the Bath stage 1779&#8211;1798. He did appear
+                  at the Haymarket, London, in 1776&#8211;1781 and returned in 1803.</note> who tho never known to a London audience was of all comic actors
+               whom I have ever seen, the most perfect. But I was happily insensible to that difference between good &amp; bad acting, which in riper
                years takes off so much from the pleasure of dramatic representation. Every thing answered the height of my expectations or desires.
-               And I saw it in perfect comfort, – from the front row of a <del>side</del> box, not too far from the centre, of a small theatre, – in
-               which no expence of scenery &#38; decorations was spared.</p>
-            <p rend="indent1"><ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref> was considered as an amateur &#38; patroness of the
-               drama. She was well acquainted with Henderson<note n="22" place="foot" resp="editors">John Henderson (1747–1785), a leading actor based
-                  in Bath 1772–1778 and dubbed ‘The Bath Roscius’.</note> – but of him I have no recollection. Edwin I remember gave me an ivory
-               windmill when I was about <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cupn’s</ref> age, &#38; there was no family with
+               And I saw it in perfect comfort, &#8211; from the front row of a <del>side</del> box, not too far from the centre, of a small theatre, &#8211; in
+               which no expence of scenery &amp; decorations was spared.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref> was considered as an amateur &amp; patroness of the
+               drama. She was well acquainted with Henderson<note n="22" place="foot" resp="editors">John Henderson (1747&#8211;1785), a leading actor based
+                  in Bath 1772&#8211;1778 and dubbed &#8216;The Bath Roscius&#8217;.</note> &#8211; but of him I have no recollection. Edwin I remember gave me an ivory
+               windmill when I was about <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cupn&#8217;s</ref> age, &amp; there was no family with
                which she was more intimate than Dimonds. She was thrown too into the company of dramatic authors, at M<hi rend="sup">r</hi>
-                  Palmers<note n="23" place="foot" resp="editors">John Palmer (1742–1818; <title>DNB</title>), the brother of Miss Palmer and Mrs
-                  Bartlett, the main proprietor of the Bath and Bristol Theatres Royal, and a postal reformer. MP for Bath 1801–1808.</note> who
-               resided then about a mile from Bath, – on the upper Bristol road, at a house called West Hall. Here she became acquainted with Coleman
-               &#38; Cumberland, &#38; Holcroft.<note n="24" place="foot" resp="editors">George Colman, the Elder (1732–1794; <title>DNB</title>);
-                  Richard Cumberland (1731/2–1811; <title>DNB</title>); and Thomas Holcroft (1745–1809; <title>DNB</title>).</note> The latter was
-                  <del>con</del> thought a disagreable person, &#38; dreaded as an irreligious one. Neither of them did I see in those years, &#38;
-               Coleman indeed never. Sophia Lee,<note n="25" place="foot" resp="editors">Sophia Lee (1750–1824; <title>DNB</title>), author of
+                  Palmers<note n="23" place="foot" resp="editors">John Palmer (1742&#8211;1818; <title>DNB</title>), the brother of Miss Palmer and Mrs
+                  Bartlett, the main proprietor of the Bath and Bristol Theatres Royal, and a postal reformer. MP for Bath 1801&#8211;1808.</note> who
+               resided then about a mile from Bath, &#8211; on the upper Bristol road, at a house called West Hall. Here she became acquainted with Coleman
+               &amp; Cumberland, &amp; Holcroft.<note n="24" place="foot" resp="editors">George Colman, the Elder (1732&#8211;1794; <title>DNB</title>);
+                  Richard Cumberland (1731/2&#8211;1811; <title>DNB</title>); and Thomas Holcroft (1745&#8211;1809; <title>DNB</title>).</note> The latter was
+                  <del>con</del> thought a disagreable person, &amp; dreaded as an irreligious one. Neither of them did I see in those years, &amp;
+               Coleman indeed never. Sophia Lee,<note n="25" place="foot" resp="editors">Sophia Lee (1750&#8211;1824; <title>DNB</title>), author of
                      <title>The Chapter of Accidents</title> (1780), a very successful play, and <title>The Recess, or a Tale of Other Times</title>
-                  (1785), a historical romance. She also ran a school in Bath with her sisters, Ann Lee (dates unknown) and Harriet Lee (1757–1851;
-                     <title>DNB</title>), also an author.</note> the eldest of the sisters, was M<hi rend="sup">rs</hi> Palmers<note n="26"
-                  place="foot" resp="editors">John Palmer married Sarah Mason (dates unknown), a widow, in 1769. The couple had six children.</note>
-               most intimate friend, – she was then in high reputation for the first volume of the Recess, &#38; for her Chapter of Accidents. You
-               will not wonder that hearing as I continually did of living authors, &#38; seeing in what estimation they were held, I formed a great
+                  (1785), a historical romance. She also ran a school in Bath with her sisters, Ann Lee (dates unknown) and Harriet Lee (1757&#8211;1851;
+                     <title>DNB</title>), also an author.</note> the eldest of the sisters, was M<hi rend="sup">rs</hi> Palmers<note n="26" place="foot" resp="editors">John Palmer married Sarah Mason (dates unknown), a widow, in 1769. The couple had six children.</note>
+               most intimate friend, &#8211; she was then in high reputation for the first volume of the Recess, &amp; for her Chapter of Accidents. You
+               will not wonder that hearing as I continually did of living authors, &amp; seeing in what estimation they were held, I formed a great
                notion of the dignity <del>which</del> attached to their profession. Perhaps in no other circle could this <del>have</del> effect have
-               so surely been produced as in a dramatic one, – where ephemeral productions <del>produce</del> &#60;excite&#62; an intense interest
+               so surely been produced as in a dramatic one, &#8211; where ephemeral productions <del>produce</del> &lt;excite&gt; an intense interest
                while they last. Superior as I thought actors to other men, it was not long before I perceived that authors were still a higher
                class.</p>
-            <p rend="indent1">My earliest dreams of authorship were, as you might anticipate from such circumstances, of a dramatic form, &#38; the
-               notion which I formed of dramatic composition was not inaccurate. It is the easiest thing in the world to write a play! said I to <ref
-                  type="m" target="people.html#PalmerMiss">Miss Palmer</ref>, as we were in a carriage on Redclift Hill, one day, returning from
+        <p rend="indent1">My earliest dreams of authorship were, as you might anticipate from such circumstances, of a dramatic form, &amp; the
+               notion which I formed of dramatic composition was not inaccurate. It is the easiest thing in the world to write a play! said I to <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref>, as we were in a carriage on Redclift Hill, one day, returning from
                Bristol to Bedminster. Is it my dear? was her reply. Yes, I pursued, for you know you have only to think what you would say if you were
-               in the place of the characters, &#38; to make them say it. This brings to mind some unlucky illustrations which I made use of about the
-               same time, to the same Lady, with the view of enforcing what I thought good &#38; considerate advice. <ref type="m"
-                  target="people.html#PalmerMiss">Miss Palmer</ref> was visiting <ref type="m" target="people.html#TylerElizabeth">my Aunt</ref> at
-               Bedminster: they had fallen out, as they sometimes would do, &#38; these bickerings produced a fit of sullenness in the former, which
-               lasted some days, &#38; while it lasted she usually sate with her apron over her face. I really thought she would hurt her eyes by
-               this, &#38; told her so, in great kindness – for you know <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref> said I, that
-               everything gets out of order if it is not used. A book which is never opened will become damp &#38; mouldy, – &#38; a key if it is
-               never turned in the lock gets rusty, just when <ref type="m" target="people.html#TylerElizabeth">my Aunt</ref> entered the room, –
+               in the place of the characters, &amp; to make them say it. This brings to mind some unlucky illustrations which I made use of about the
+               same time, to the same Lady, with the view of enforcing what I thought good &amp; considerate advice. <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref> was visiting <ref type="m" target="people.html#TylerElizabeth">my Aunt</ref> at
+               Bedminster: they had fallen out, as they sometimes would do, &amp; these bickerings produced a fit of sullenness in the former, which
+               lasted some days, &amp; while it lasted she usually sate with her apron over her face. I really thought she would hurt her eyes by
+               this, &amp; told her so, in great kindness &#8211; for you know <ref type="m" target="people.html#PalmerMiss">Miss Palmer</ref> said I, that
+               everything gets out of order if it is not used. A book which is never opened will become damp &amp; mouldy, &#8211; &amp; a key if it is
+               never turned in the lock gets rusty, just when <ref type="m" target="people.html#TylerElizabeth">my Aunt</ref> entered the room, &#8211;
                Lord, <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>, said the offended Lady, what do you think this child has been
-               saying? he has been comparing my eyes to a rusty key &#38; a mouldy book! – The speech however was not without some good effect, for it
-               restored good humour. Miss Palmer was an odd woman with a kind heart, – one of those persons who are not respected so much as they
-               deserve, because their dispositions are better than their understanding. She had a most generous &#38; devoted attachment to <ref
-                  type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>, which was not always requited as it ought to have been. The earliest
-               dream which I can remember related to her, &#38; it was singular enough to impress itself indelibly in my memory. I thought I was
-               sitting with her in her drawing room (- chairs, carpet &#38; every thing are now vividly present to my minds eye) when the Devil was
-               introduced as a morning visitor Such an appearance, – for he was in his full costume of horns, black-bat-wings, tail &#38; cloven feet,
-               – put me in ghostly &#38; bodily fear; – but she received him with perfect politeness, called him Dear M<hi rend="sup">r</hi> Devil,
-               desired the servant to put him a chair, &#38; expressed her delight at being favoured with a call.</p>
-            <p rend="indent1">There was much more promise implied in my notion of how a play ought to be written, than would have been found in any of
+               saying? he has been comparing my eyes to a rusty key &amp; a mouldy book! &#8211; The speech however was not without some good effect, for it
+               restored good humour. Miss Palmer was an odd woman with a kind heart, &#8211; one of those persons who are not respected so much as they
+               deserve, because their dispositions are better than their understanding. She had a most generous &amp; devoted attachment to <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>, which was not always requited as it ought to have been. The earliest
+               dream which I can remember related to her, &amp; it was singular enough to impress itself indelibly in my memory. I thought I was
+               sitting with her in her drawing room (- chairs, carpet &amp; every thing are now vividly present to my minds eye) when the Devil was
+               introduced as a morning visitor Such an appearance, &#8211; for he was in his full costume of horns, black-bat-wings, tail &amp; cloven feet,
+               &#8211; put me in ghostly &amp; bodily fear; &#8211; but she received him with perfect politeness, called him Dear M<hi rend="sup">r</hi> Devil,
+               desired the servant to put him a chair, &amp; expressed her delight at being favoured with a call.</p>
+        <p rend="indent1">There was much more promise implied in my notion of how a play ought to be written, than would have been found in any of
                my attempts. The first subject which I tried was the Continence of Scipio<note n="27" place="foot" resp="editors">Probably a play about
-                  Scipio Africanus the Younger (185–129 BC), who destroyed the Spanish settlement of Numantia in 134–133 BC.</note> – suggested by a
-               print in a Pocket Book. Battles were introduced in abundance, – because the battle in Cymberline was one of my favourite scenes. And
+                  Scipio Africanus the Younger (185&#8211;129 BC), who destroyed the Spanish settlement of Numantia in 134&#8211;133 BC.</note> &#8211; suggested by a
+               print in a Pocket Book. Battles were introduced in abundance, &#8211; because the battle in Cymberline was one of my favourite scenes. And
                because Congreves hero in the Mourning Bride finds the writing of his father in prison,<note n="27" place="foot" resp="editors">William
-                  Congreve (1670–1729; <title>DNB</title>), <title>The Mourning Bride</title> (1697), Act 3, scene 1, lines 1–35 in which Osmyn, when
+                  Congreve (1670&#8211;1729; <title>DNB</title>), <title>The Mourning Bride</title> (1697), Act 3, scene 1, lines 1&#8211;35 in which Osmyn, when
                   imprisoned, finds a letter written by his own father when he, too, was imprisoned.</note> I made my Prince of Numantia find pen ink
-               &#38; paper that he might write to his mistress. An act &#38; half of this nonsense exhausted my perseverance. Another story ran for a
-               long time in my head, &#38; I had planned the characters to suit the actors on the Bath stage. The fable was taken from a collection of
-               Tales every circumstance of which has compleated faded from my recollection, – except that I think the book must have been thirty or
-               forty years old at least at that time, – &#38; I should recognize it if it ever fell in my way. While this dramatic passion continued,
-               I wished my friends to partake it, &#38; soon after I went to Williams’s school, persuaded one of my schoolfellows to write a tragedy.
-               – Ballard<note n="29" place="foot" resp="editors">John Ballard (c. 1775–1828), surgeon in the Royal Navy.</note> was his name, – the
-               son of a surgeon at Portbury,<note n="30" place="foot" resp="editors">John Ballard (1734–1787), surgeon at Portbury, Somerset.</note> a
-               good-natured good fellow – with a round face which I have not seen for seven or eight &#38; thirty years, – &#38; yet fancy that I
-               could recognize it now, &#38; should be right glad to see it. He liked the suggestion &#38; agreed to it very readily, – but he could
-               not tell what to write about. I gave him a story. – But then another difficulty was discovered, he could not devise names for the
-               personages of the drama. I gave him a most heroic assortment of Propria quae maribus &#38; foeminis.<note n="31" place="foot"
-                  resp="editors">Appropriate names of male and female characters; a joke based on ‘Propria quae maribus’, the opening line on the
-                  gender of nouns in the Latin grammar, <title>Brevissima Institutio</title>, attributed to William Lily (c. 1468–1522;
-                     <title>DNB</title>).</note> He had now got <del>his story &#38;</del> his Dramatis Personae, – but <del>xxx</del> he could not
-               tell what to make them say, &#38; then I gave up the business. I made the same attempt with another schoolfellow, &#38; with no better
-               success, – it seemed to me very odd that they should not be able to write plays as well as to do their lessons. The subject of this
-               second experiment was a boy<note n="32" place="foot" resp="editors">Unidentified.</note> whose appearance prepossessed every body, –
-               (it is heedless to say that both these friends were of my own age, – that is always the case with school intimacies) – <ref type="m"
-                  target="people.html#SoutheyMargaret">my Mother</ref> was so taken with the gentleness of his manners, &#38; the regularity &#38;
-               mildness of his features that she was very desirous I should become intimate with him. He grew up to be a puppy, – sported a tail when
-               he was fifteen, &#38; at <del>thirty</del> &#60;five &#38; twenty&#62; was an insignificant withered homunculus, with a white face
+               &amp; paper that he might write to his mistress. An act &amp; half of this nonsense exhausted my perseverance. Another story ran for a
+               long time in my head, &amp; I had planned the characters to suit the actors on the Bath stage. The fable was taken from a collection of
+               Tales every circumstance of which has compleated faded from my recollection, &#8211; except that I think the book must have been thirty or
+               forty years old at least at that time, &#8211; &amp; I should recognize it if it ever fell in my way. While this dramatic passion continued,
+               I wished my friends to partake it, &amp; soon after I went to Williams&#8217;s school, persuaded one of my schoolfellows to write a tragedy.
+               &#8211; Ballard<note n="29" place="foot" resp="editors">John Ballard (c. 1775&#8211;1828), surgeon in the Royal Navy.</note> was his name, &#8211; the
+               son of a surgeon at Portbury,<note n="30" place="foot" resp="editors">John Ballard (1734&#8211;1787), surgeon at Portbury, Somerset.</note> a
+               good-natured good fellow &#8211; with a round face which I have not seen for seven or eight &amp; thirty years, &#8211; &amp; yet fancy that I
+               could recognize it now, &amp; should be right glad to see it. He liked the suggestion &amp; agreed to it very readily, &#8211; but he could
+               not tell what to write about. I gave him a story. &#8211; But then another difficulty was discovered, he could not devise names for the
+               personages of the drama. I gave him a most heroic assortment of Propria quae maribus &amp; foeminis.<note n="31" place="foot" resp="editors">Appropriate names of male and female characters; a joke based on &#8216;Propria quae maribus&#8217;, the opening line on the
+                  gender of nouns in the Latin grammar, <title>Brevissima Institutio</title>, attributed to William Lily (c. 1468&#8211;1522;
+                     <title>DNB</title>).</note> He had now got <del>his story &amp;</del> his Dramatis Personae, &#8211; but <del>xxx</del> he could not
+               tell what to make them say, &amp; then I gave up the business. I made the same attempt with another schoolfellow, &amp; with no better
+               success, &#8211; it seemed to me very odd that they should not be able to write plays as well as to do their lessons. The subject of this
+               second experiment was a boy<note n="32" place="foot" resp="editors">Unidentified.</note> whose appearance prepossessed every body, &#8211;
+               (it is heedless to say that both these friends were of my own age, &#8211; that is always the case with school intimacies) &#8211; <ref type="m" target="people.html#SoutheyMargaret">my Mother</ref> was so taken with the gentleness of his manners, &amp; the regularity &amp;
+               mildness of his features that she was very desirous I should become intimate with him. He grew up to be a puppy, &#8211; sported a tail when
+               he was fifteen, &amp; at <del>thirty</del> &lt;five &amp; twenty&gt; was an insignificant withered homunculus, with a white face
                shrivelled into an expression of effeminate peevishness. <del>It was the most striking instance</del> I have seen many instances
                wherein the promises of the boy has not been fulfilled in the man, but never so striking a case of <hi rend="ital">blight</hi> as
                this.</p>
-            <p rend="indent1">The school was better than Flowers<note n="33" place="foot" resp="editors">The school at Corston that Southey attended
-                  1781–1782, run by Thomas Flower (d. 1799).</note> inasmuch as I had a Latin lesson every day, instead of thrice a week. But my
-               lessons were solitary ones, so few boys were there in my station, &#38; indeed in the station above me who received a classical
-               education in those days, compared with what is the case now. Writing &#38; arithmetic – with, at most a little French, was thought
+        <p rend="indent1">The school was better than Flowers<note n="33" place="foot" resp="editors">The school at Corston that Southey attended
+                  1781&#8211;1782, run by Thomas Flower (d. 1799).</note> inasmuch as I had a Latin lesson every day, instead of thrice a week. But my
+               lessons were solitary ones, so few boys were there in my station, &amp; indeed in the station above me who received a classical
+               education in those days, compared with what is the case now. Writing &amp; arithmetic &#8211; with, at most a little French, was thought
                sufficient for the sons of opulent merchants at Bristol. I was in Phaedrus<note n="34" place="foot" resp="editors">Phaedrus (fl. 1st
-                  century), <title>Fabulae Aesopiae</title>, a Latin collection of fables.</note> when I went there, &#38; proceeded thro Cornelius
-               Nepos, Justin, &#38; the Metamorphoses.<note n="35" place="foot" resp="editors">Cornelius Nepos (c. 110–25 BC), the biographer, whose
+                  century), <title>Fabulae Aesopiae</title>, a Latin collection of fables.</note> when I went there, &amp; proceeded thro Cornelius
+               Nepos, Justin, &amp; the Metamorphoses.<note n="35" place="foot" resp="editors">Cornelius Nepos (c. 110&#8211;25 BC), the biographer, whose
                   works survive in fragments and have been much admired for their plain style; Justin (c. 2nd century AD), the Latin historian and
-                  author of <title>Historia Philippicae et Totius Mundi Origines et Terrae Situs</title>; Publius Ovidius Naso (43 BC–AD 17/18),
+                  author of <title>Historia Philippicae et Totius Mundi Origines et Terrae Situs</title>; Publius Ovidius Naso (43 BC&#8211;AD 17/18),
                      <title>Metamorphoses</title> (c. 8 AD).</note> One lesson in the morning was all, the rest of the time was given to what was
-               deemed there of more importance. Writing was taught here very differently from what it was at Corston, &#38; much less agreably to my
-               inclinations. We did copies of capital letters there, &#38; were encouraged to aspire to the ornamental parts of penmanship. But
-                  Williams<note n="36" place="foot" resp="editors">William Williams (d. 1811), Southey’s schoolmaster at Merchants’ Hall School,
-                  Bristol, 1782–1786.</note> who wrote a slow strong hand himself, put me back &#60;to the rudiments&#62; at once <del>into
-                  strokes</del>, &#38; kept me at &#60;strokes, posthooks, &#38; hangers, <hi rend="ital">ys</hi>, <hi rend="ital">ns</hi>, &#38; ms,
-               &#38; such words as <hi rend="ital">tulip</hi> &#38; <hi rend="ital">pupil</hi> &#62; <del>xxxx</del> heaven knows how long, with
-               absurd &#38; wearisome perseverance. Writing was the only thing in which any pains were ever taken to ground me thoroughly, &#38; I was
-               generally thought a most unpromising pupil. No instruction ever could teach me to hold the pen properly, – of course therefore I could
-                  <del>not</del> make none of those full free strokes which were deemed essential to good writing, &#38; this drew upon me a great
-               deal of unavailing reproof, – tho not severity, – for old Williams liked me on the whole, – &#38; Mr Foote<note n="37" place="foot"
-                  resp="editors">William Foot (d. 1781), Bristol Baptist Minister, who ran a school at the top of St Michael’s Hill.</note> was the
-               only master (except a dancing master)<note n="38" place="foot" resp="editors">Possibly Thomas[?] Walker (fl. 1750–1790) who on 2
+               deemed there of more importance. Writing was taught here very differently from what it was at Corston, &amp; much less agreably to my
+               inclinations. We did copies of capital letters there, &amp; were encouraged to aspire to the ornamental parts of penmanship. But
+                  Williams<note n="36" place="foot" resp="editors">William Williams (d. 1811), Southey&#8217;s schoolmaster at Merchants&#8217; Hall School,
+                  Bristol, 1782&#8211;1786.</note> who wrote a slow strong hand himself, put me back &lt;to the rudiments&gt; at once <del>into
+                  strokes</del>, &amp; kept me at &lt;strokes, posthooks, &amp; hangers, <hi rend="ital">ys</hi>, <hi rend="ital">ns</hi>, &amp; ms,
+               &amp; such words as <hi rend="ital">tulip</hi> &amp; <hi rend="ital">pupil</hi> &gt; <del>xxxx</del> heaven knows how long, with
+               absurd &amp; wearisome perseverance. Writing was the only thing in which any pains were ever taken to ground me thoroughly, &amp; I was
+               generally thought a most unpromising pupil. No instruction ever could teach me to hold the pen properly, &#8211; of course therefore I could
+                  <del>not</del> make none of those full free strokes which were deemed essential to good writing, &amp; this drew upon me a great
+               deal of unavailing reproof, &#8211; tho not severity, &#8211; for old Williams liked me on the whole, &#8211; &amp; Mr Foote<note n="37" place="foot" resp="editors">William Foot (d. 1781), Bristol Baptist Minister, who ran a school at the top of St Michael&#8217;s Hill.</note> was the
+               only master (except a dancing master)<note n="38" place="foot" resp="editors">Possibly Thomas[?] Walker (fl. 1750&#8211;1790) who on 2
                   January 1779 advertised his plan to open a dancing school in Bristol in the <title>British Journal</title>. He had previously worked
-                  as a teacher and performer in London, including at the Drury Lane Theatre; see Southey to John May, 27 May–26 June 1824, Letter
-                  4191.</note> – who ever laid hand on me in anger. At home too <ref type="m" target="people.html#SoutheyRobertSnr">my Father</ref>
-               &#38; <ref type="m" target="people.html#SoutheyThomasUncle">my Uncle Thomas</ref> used to shake their heads at me, &#38; pronounce that
-               I never should write a decent hand. The cyphering book however made some amends in my masters eyes. It was in this that his pains &#38;
-               the proficiency of his pupils were to be shown. The books he used to sew himself, – half a dozen sheets in the common quarto size,
-               &#38; they were ruled with double red lines, &#38; the lines which were required in the sums were also double, in red ink. When the
-               book was filled, <del>x</del> pencil-lines were carefully rubbed out, &#38; Williams tearing off the covers deposited it in an envelope
+                  as a teacher and performer in London, including at the Drury Lane Theatre; see Southey to John May, 27 May&#8211;26 June 1824, Letter
+                  4191.</note> &#8211; who ever laid hand on me in anger. At home too <ref type="m" target="people.html#SoutheyRobertSnr">my Father</ref>
+               &amp; <ref type="m" target="people.html#SoutheyThomasUncle">my Uncle Thomas</ref> used to shake their heads at me, &amp; pronounce that
+               I never should write a decent hand. The cyphering book however made some amends in my masters eyes. It was in this that his pains &amp;
+               the proficiency of his pupils were to be shown. The books he used to sew himself, &#8211; half a dozen sheets in the common quarto size,
+               &amp; they were ruled with double red lines, &amp; the lines which were required in the sums were also double, in red ink. When the
+               book was filled, <del>x</del> pencil-lines were carefully rubbed out, &amp; Williams tearing off the covers deposited it in an envelope
                of fine cartridge paper, on which he had written in his best hand, the boys name to whom it belonged <del>And</del> When there were
-               enough of these to make a volume, – they were consigned to a poor old man, the inhabitant of an alms-house, who obtained a few comforts
+               enough of these to make a volume, &#8211; they were consigned to a poor old man, the inhabitant of an alms-house, who obtained a few comforts
                beyond what the establishment allowed him, by binding them. Now tho I wrote what was called a stiff cramp hand, there was a neatness
-               &#38; regularity about my books, which were peculiar to them. I had as quick a sense of symmetry as of metre: My lines were always
-               drawn according to some standard of <del>regularity &#38;</del> proportion, so that the page had an appearance of order at first sight.
+               &amp; regularity about my books, which were peculiar to them. I had as quick a sense of symmetry as of metre: My lines were always
+               drawn according to some standard of <del>regularity &amp;</del> proportion, so that the page had an appearance of order at first sight.
                I found the advantage of this when I came to have business with the press. The method which I used in my cyphering book led me to teach
-               the printers how to print verses of irregular length upon a regular principle.<note n="39" place="foot" resp="editors">As in Southey’s
+               the printers how to print verses of irregular length upon a regular principle.<note n="39" place="foot" resp="editors">As in Southey&#8217;s
                      <title>Thalaba the Destroyer</title> (1801) and <title>The Curse of Kehama</title> (1810).</note>
-               <del>I set the fashion for black letter in poetical works which prevailed for twenty years &#38;</del>
-               <ref type="m" target="people.html#BallantyneJames">Ballantyne</ref>
-               <del>once</del> told me that I was the only person he had ever met with who knew how a page would look before it was set up, I may add
-               that I it was who set the fashion for black letter in title pages &#38; half titles,<note n="40" place="foot" resp="editors">Southey is
-                  probably referring here to his <title>Poems</title> (1797) and <title>Joan of Arc</title> (1798).</note> &#38; that this arose from
+          <del>I set the fashion for black letter in poetical works which prevailed for twenty years &amp;</del>
+          <ref type="m" target="people.html#BallantyneJames">Ballantyne</ref>
+          <del>once</del> told me that I was the only person he had ever met with who knew how a page would look before it was set up, I may add
+               that I it was who set the fashion for black letter in title pages &amp; half titles,<note n="40" place="foot" resp="editors">Southey is
+                  probably referring here to his <title>Poems</title> (1797) and <title>Joan of Arc</title> (1798).</note> &amp; that this arose from
                my admiration of German text at school.</p>
-            <p rend="indent1">I remained at this school between four &#38; five years, which if not profitably, were at least not unhappily spent. And
-               here let me state the deliberate opinion <del>wh</del> upon the contested subject of &#60;public or private&#62; education which I have
-               formed from what I have experienced &#38; heard &#38; observed. A juster estimate of ones-self is acquired at school than can be formed
-               in the course of domestic <del>education</del> &#60;instruction&#62;; &#38; what is of much more consequence, a better intuition into
+        <p rend="indent1">I remained at this school between four &amp; five years, which if not profitably, were at least not unhappily spent. And
+               here let me state the deliberate opinion <del>wh</del> upon the contested subject of &lt;public or private&gt; education which I have
+               formed from what I have experienced &amp; heard &amp; observed. A juster estimate of ones-self is acquired at school than can be formed
+               in the course of domestic <del>education</del> &lt;instruction&gt;; &amp; what is of much more consequence, a better intuition into
                the characters of others than there is any chance of learning in after life. I have said that this is of more consequence than ones
-               self-estimate, because the error upon that score <del>x</del> which domestic education tends to produce is in the right side – that of
-               diffidence &#38; humility. These advantages a day-scholar obtains, <del>&#38; he escapes more much of the pollution &#38; all the
-                  unhappiness</del> &#38; he avoids great part of the evils which are to be set against them. He cannot indeed wholly escape
-               pollution, – but he is far less exposed to it than a boarder. He suffers nothing <del>from</del> &#60;from&#62; tyranny, – which is
-               carried to excess in schools, – nor has he much opportunity of acquiring or indulging malicious &#38; tyrannical propensities himself.
-               Above all his religious habits, which it is almost impossible to retain at school, are safe. – I would gladly send a son to a good
+               self-estimate, because the error upon that score <del>x</del> which domestic education tends to produce is in the right side &#8211; that of
+               diffidence &amp; humility. These advantages a day-scholar obtains, <del>&amp; he escapes more much of the pollution &amp; all the
+                  unhappiness</del> &amp; he avoids great part of the evils which are to be set against them. He cannot indeed wholly escape
+               pollution, &#8211; but he is far less exposed to it than a boarder. He suffers nothing <del>from</del> &lt;from&gt; tyranny, &#8211; which is
+               carried to excess in schools, &#8211; nor has he much opportunity of acquiring or indulging malicious &amp; tyrannical propensities himself.
+               Above all his religious habits, which it is almost impossible to retain at school, are safe. &#8211; I would gladly send a son to a good
                   <del>day</del> school by day, but rather than board him at the best I would educate him myself. What I have said, applies to public
                schools as well as private; of the advantages which the former possess I shall have occasion to speak hereafter.</p>
-            <lb/>
-            <p rend="indent0"><date when="1823-01-19">Jan<hi rend="sup">y</hi>. 19. 1823</date></p>
-         </div>
-      </body>
-   </text>
+        <lb />
+        <p rend="indent0">
+          <date when="1823-01-19">Jan<hi rend="sup">y</hi>. 19. 1823</date>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

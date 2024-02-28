@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,142 +79,138 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4021Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4021Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4021" type="letter"><head>4021. Robert Southey to <ref type="a" target="people.html#SenhouseHumphrey">Humphrey Senhouse</ref>, <date when="1823-05-17">17 May 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ Humphrey Senhouse Esq<hi rend="sup">re</hi>/ Netherhall./ Maryport<lb/>
-Stamped: KESWICK/ 298<lb/>
-Seal: red wax<lb/>
-Watermark: F/ 1821<lb/>
-MS: Department of Rare Books, Special Collections and Preservation, River Campus Libraries, University of Rochester, Robert Southey Papers A.S727. ALS; 3p.<lb/>
-Unpublished.</note></head>
-
-
-<opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1823-05-17">17 May. 1823</date></dateline>
-
-<salute>My dear Senhouse</salute></opener>
-   <p rend="indent1">In the hope &#38; expectation of seeing you soon, (&#38; the sooner the better) I will ask you to pay <ref type="m" target="people.html#MorrisonJohn">Morrison</ref> for me the sum of six pounds, seventeen shillings, – being the balance of my half years rent, – after deducting 13 shillings for roof repair, – &#38; 30£ expended at this time by an agreement with the Landlord,<note n="1" place="foot" resp="editors">Samuel Tolson, Jnr (1756–1842), a commission agent in Liverpool and the owner since 1815 of Greta Hall.</note> of which he (<ref type="m" target="people.html#MorrisonJohn">Morrison</ref>) has been apprized. – The balance is less than I like to draw for, – &#38; an awkward sum to send, – where there is no direct carrier to whom it may be entrusted.</p>
-      <p rend="indent1">The packet which you brought for me, containing some interesting communications concerning the campaigns of 1809 &#38; 1810 in Portugal, – from Sir Nicolas Trant,<note n="2" place="foot" resp="editors">Brigadier-General Nicholas Trant (1769–1839; <title>DNB</title>), an Irish army officer who was assigned to command Portuguese forces. He served with distinction in many actions in the Peninsular War 1808–1813.</note> who performed the good service of occupying Coimbra after the battle of Busaco,<note n="3" place="foot" resp="editors">After the Battle of Bussaco (27 September 1810), French forces continued to advance on the defensive Lines of Torres Vedras, leaving their sick and wounded at Coimbra. Trant re-occupied the city on 6 October and acted as its governor throughout the winter, while the French retreated to wait out the bad weather. He then played a major role in forcing the French Army to abandon its plans to occupy central Portugal and instead leave for Spain in March 1811.</note> &#38; thereby securing the most fertile provinces from the French.</p>
-         <p rend="indent1">The change of weather commenced just on your return. We had the finest month of April that I ever remember in this country, – they had rain on seventeen days out of the thirty, at Kendal, – &#38; certainly we had it not on seven at <ref type="m" target="places.html#Keswick">Keswick</ref>. But this week has been almost one continued storm, – the waters are out &#38; many acres have just been sown in time to lose the seed.</p>
-         <p rend="indent1">You will come I hope as soon as the weather becomes good – I shall enjoy a little laking &#38; mountaineering with you. – We expect <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> &#38; <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> in a few days. They have made a long progress, &#38; I shall not begin mine till July, – the book<note n="4" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> which was to have been one volume, having grown into two. This sort of work is something like building a house, – the cost is very apt to <del>double</del> &#60;exceed&#62; the estimate twofold.</p>
-         <p rend="indent1">The aspects on the continent are not favourable for your plans.<note n="5" place="foot" resp="editors">France had invaded Spain on 7 April 1823.</note> – When armies are in motion, or even on foot, there is no knowing how far the inconvenience which they occasion extends. I had once after a long &#38; fatiguing days journey in the mountains, to ride about the streets of a popular city (Tavira) from house to house, begging a nights lodging <hi rend="ital">por amor de Dios e Maria Santissima</hi>,<note n="6" place="foot" resp="editors">‘for the love of God and Most Holy Mary’.</note> – because the place was full of soldiers.<note n="7" place="foot" resp="editors">This incident occurred on 15 April 1801, while Southey was travelling in Portugal, at a time of tension on the border between Spain and Portugal (<title>Robert Southey: Journals of a Residence in Portugal 1800–1801 and a Visit to France 1838</title> (Oxford, 1960), ed. Adolfo Cabral, pp. 42–43).</note> And we were literally in danger of passing the night in the streets. Our kindest remembrances to all your friends -</p>
-         <closer><salute rend="indent1">God bless you – </salute>
-            <salute rend="indent2">yrs affectionately</salute>
-			<signed rend="indent3">Robert Southey.</signed></closer>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4021" type="letter">
+        <head>4021. Robert Southey to <ref type="a" target="people.html#SenhouseHumphrey">Humphrey Senhouse</ref>, <date when="1823-05-17">17 May 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ Humphrey Senhouse Esq<hi rend="sup">re</hi>/ Netherhall./ Maryport<lb />
+Stamped: KESWICK/ 298<lb />
+Seal: red wax<lb />
+Watermark: F/ 1821<lb />
+MS: Department of Rare Books, Special Collections and Preservation, River Campus Libraries, University of Rochester, Robert Southey Papers A.S727. ALS; 3p.<lb />
+Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1823-05-17">17 May. 1823</date>
+          </dateline>
+          <salute>My dear Senhouse</salute>
+        </opener>
+        <p rend="indent1">In the hope &amp; expectation of seeing you soon, (&amp; the sooner the better) I will ask you to pay <ref type="m" target="people.html#MorrisonJohn">Morrison</ref> for me the sum of six pounds, seventeen shillings, &#8211; being the balance of my half years rent, &#8211; after deducting 13 shillings for roof repair, &#8211; &amp; 30&#163; expended at this time by an agreement with the Landlord,<note n="1" place="foot" resp="editors">Samuel Tolson, Jnr (1756&#8211;1842), a commission agent in Liverpool and the owner since 1815 of Greta Hall.</note> of which he (<ref type="m" target="people.html#MorrisonJohn">Morrison</ref>) has been apprized. &#8211; The balance is less than I like to draw for, &#8211; &amp; an awkward sum to send, &#8211; where there is no direct carrier to whom it may be entrusted.</p>
+        <p rend="indent1">The packet which you brought for me, containing some interesting communications concerning the campaigns of 1809 &amp; 1810 in Portugal, &#8211; from Sir Nicolas Trant,<note n="2" place="foot" resp="editors">Brigadier-General Nicholas Trant (1769&#8211;1839; <title>DNB</title>), an Irish army officer who was assigned to command Portuguese forces. He served with distinction in many actions in the Peninsular War 1808&#8211;1813.</note> who performed the good service of occupying Coimbra after the battle of Busaco,<note n="3" place="foot" resp="editors">After the Battle of Bussaco (27 September 1810), French forces continued to advance on the defensive Lines of Torres Vedras, leaving their sick and wounded at Coimbra. Trant re-occupied the city on 6 October and acted as its governor throughout the winter, while the French retreated to wait out the bad weather. He then played a major role in forcing the French Army to abandon its plans to occupy central Portugal and instead leave for Spain in March 1811.</note> &amp; thereby securing the most fertile provinces from the French.</p>
+        <p rend="indent1">The change of weather commenced just on your return. We had the finest month of April that I ever remember in this country, &#8211; they had rain on seventeen days out of the thirty, at Kendal, &#8211; &amp; certainly we had it not on seven at <ref type="m" target="places.html#Keswick">Keswick</ref>. But this week has been almost one continued storm, &#8211; the waters are out &amp; many acres have just been sown in time to lose the seed.</p>
+        <p rend="indent1">You will come I hope as soon as the weather becomes good &#8211; I shall enjoy a little laking &amp; mountaineering with you. &#8211; We expect <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> &amp; <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> in a few days. They have made a long progress, &amp; I shall not begin mine till July, &#8211; the book<note n="4" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> which was to have been one volume, having grown into two. This sort of work is something like building a house, &#8211; the cost is very apt to <del>double</del> &lt;exceed&gt; the estimate twofold.</p>
+        <p rend="indent1">The aspects on the continent are not favourable for your plans.<note n="5" place="foot" resp="editors">France had invaded Spain on 7 April 1823.</note> &#8211; When armies are in motion, or even on foot, there is no knowing how far the inconvenience which they occasion extends. I had once after a long &amp; fatiguing days journey in the mountains, to ride about the streets of a popular city (Tavira) from house to house, begging a nights lodging <hi rend="ital">por amor de Dios e Maria Santissima</hi>,<note n="6" place="foot" resp="editors">&#8216;for the love of God and Most Holy Mary&#8217;.</note> &#8211; because the place was full of soldiers.<note n="7" place="foot" resp="editors">This incident occurred on 15 April 1801, while Southey was travelling in Portugal, at a time of tension on the border between Spain and Portugal (<title>Robert Southey: Journals of a Residence in Portugal 1800&#8211;1801 and a Visit to France 1838</title> (Oxford, 1960), ed. Adolfo Cabral, pp. 42&#8211;43).</note> And we were literally in danger of passing the night in the streets. Our kindest remembrances to all your friends -</p>
+        <closer>
+          <salute rend="indent1">God bless you &#8211; </salute>
+          <salute rend="indent2">yrs affectionately</salute>
+          <signed rend="indent3">Robert Southey.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

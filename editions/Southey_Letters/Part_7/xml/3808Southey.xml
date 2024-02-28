@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,140 +79,138 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3808Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3808Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3808" type="letter"><head>3808. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1822-02-27">27 February 1822</date>
-            <note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 3p.<lb/>
-               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 299–301.</note></head>
-            
-            
-            <opener><salute>My dear Wynn</salute></opener>
-            <p rend="indent1">You are now fairly on your <hi rend="ital">bed of roses</hi>,<note n="1" place="foot" resp="editors">Christopher Marlowe (1564–1593; <title>DNB</title>), ‘The Passionate Shepherd to his Love’ (1599), line 9. Wynn had joined the Cabinet as President of the Board of Control. This post gave him ultimate responsibility for overseeing the affairs of the East India Company and the government of its possessions in India.</note> &#38; Welshmen will look to India as their promised land, even as Scotchmen did in the days of Dundas.<note n="2" place="foot" resp="editors">Henry Dundas, 1st Viscount Melville (1742–1811; <title>DNB</title>), Scottish lawyer and politician who served as Home Secretary 1791–1794, Secretary of State for War 1794–1801 and First Lord of the Admiralty 1804–1805. In conjunction with the first two offices he was also President of the Board of Control 1793–1801, in which office he became notorious for using its powers of patronage to reward his and the government’s supporters in Scotland. Melville’s career ended after he was accused of corruption in his administration of the Royal Navy, and he was impeached in 1806. However, he was eventually acquitted and died a very rich man after some years of retirement.</note> May Wales be as largely benefitted by the wealth of the East as Scotland has been, – &#38; may you live as long as Lord Melville, remain in power longer, – leave it upon better terms, &#38; go out of the world as easily at last.</p>
-               <p rend="indent1">  I was glad to see that <ref type="m" target="people.html#PhillimoreJoseph">Phillimore</ref><note n="3" place="foot" resp="editors">Phillimore had been appointed to the Board of Control on 8 February 1822, serving until 1828.</note> “partakes the gale”,<note n="4" place="foot" resp="editors">Alexander Pope (1688–1744; <title>DNB</title>), <title>An Essay on Man</title> (1733–1734), Epistle 4, line 386.</note> – &#38; should have been glad if <ref type="m" target="people.html#StracheyGeorge">Strachey</ref> also had been included, if he has any inclination for public life. But probably he has not. It was not fortunate for him that his interests lay in India. He might have acquired an independence in his own country by more congenial pursuits in less time, &#38; have obtained that happiness which is only to be found in domestic life.</p>
-            <p rend="indent1">You were not in the House when M<hi rend="sup">r</hi> Hume made one of his rascally attacks upon you.<note n="5" place="foot" resp="editors">Joseph Hume (1777–1855; <title>DNB</title>), radical MP whom Southey greatly disliked. In the course of a long and complicated speech on 5 February 1822 in favour of the reduction of government expenditure, Hume had attacked the appointment of Wynn’s younger brother, Henry Watkin Williams Wynn (1783–1856; <title>DNB</title>), as Envoy Extraordinary to Switzerland (1822–1823) as ‘a most profuse waste of public money.’</note> There is something ominous as well as disgraceful to the nation in the sort of hostility with which opposition is now carried on. Honourable warfare is at <del>xxx</del> an end. The difference is no longer upon fair political questions. <del>The</del> A few members aim at the worst end by the worst <del>xxx</del> means; &#38; others assist in those means, some in error, some in malice &#38; some to curry popular favour. Concessions to such enemies are most unwise; they are imputed always to weakness, &#38; provoke insults from those whom it is wished to conciliate. It is equally unwise to let them have the credit of bringing forward measures which are in accord with public <del>fo</del> opinion when that opinion happens to be right. Government should look for opportunities when to lead, – &#38; never suffer itself to be forced.</p>
-               <p rend="indent1"> But I am getting into a strain not altogether decorous, to a Cabinet Minister. Let me therefore speak of my own affairs: – <ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> will ask you for <del>thre</del> two or three potential franks to transmit the <hi rend="ital">clean sheets</hi> of the Peninsular War, as far as they are printed.<note n="6" place="foot" resp="editors">The first volume of Southey’s <title>History of the Peninsular War</title> (1823–1832).</note> The first volume is very far advanced in the press. I shall have occasion to rewrite some pages upon fuller information which reached me too late, – <del>they</del> &#60;it&#62; relates to the first operations in the South of Spain, &#38; the first communications between Castaños <note n="7" place="foot" resp="editors">Francisco Javier Castaños, 1st Duke of Bailén (1758–1852), Spanish general and commander of the Army of Andalusia.</note> &#38; the Gov. of Gibralter, <ref type="m" target="people.html#DalrympleHew">Sir Hew Dalrymple</ref>.<note n="8" place="foot" resp="editors"><title>History of the Peninsular War</title>, 3 vols (London, 1823–1832), I, pp. 283–284. These late corrections produced some errors in the volume’s pagination.</note> – There is a besetting sin in our Government of which I have proof among the papers in my possession. – a habit of leaving its foreign agents without instructions, for the sake of shifting off the responsibility. -</p>
-            <p rend="indent1">You will perhaps think that I have entered too much into minute details in this volume; inclination I know leads me to this; – this however will be thought a merit or a fault according to the humour of the reader. I am sure you will find a good deal which has not been made known in this country before.</p>
-               <p rend="indent1"> It will not be long before I shall send you a farther portion of Oliver Newman,<note n="9" place="foot" resp="editors">Southey’s unfinished epic, ‘Oliver Newman’, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1–90.</note> &#38; when a little more progress is made, it will become an object of some interest to proceed with it to the end, – for the sake of realizing a larger sum than I have ever been master of, &#38; thereby lessening a little (tho but little) the continued necessity of periodical labour.<note n="10" place="foot" resp="editors">Longman had offered Southey £1,500 for ‘Oliver Newman’.</note> <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> wished me to have written a political article at this time. I declined, not <del>for the sake</del> as shrinking from abuse (which some of my acquaintances think me more disposed to provoke than to shun) – but because the agricultural question is one which I do not understand, &#38; what I have to say upon the prospect of the country may better be said in another form – where I can speak with perfect freedom.<note n="11" place="foot" resp="editors">Probably a reference to Southey’s <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title> (1829).</note> – The next number will contain a review of Dobrizhoffer, – the translation of which is the work of my niece <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara Coleridge</ref>.<note n="12" place="foot" resp="editors">Southey reviewed Sara Coleridge’s <title>An Account of the Abipones, an Equestrian People of Paraguay</title> (1822) in <title>Quarterly Review</title>, 26 (January 1822), 277–323, published 30 March 1822. The book was a translation of Martin Dobrizhoffer (1717–1791), <title>Historia de Abiponibus Equestri, Bellicosaque Paraquariae Natione</title> (1784).</note> It was undertaken by <ref type="m" target="people.html#ColeridgeDerwent">her younger brother</ref> before he went to Cambridge, to facilitate his ways &#38; means there, &#38; she offered to assist him; – this assistance ended in her doing the whole, except a very few sheets.</p>
-               <p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> is in great trouble about his brother <ref type="m" target="people.html#BedfordHenry">Henry</ref> who seems to have been very hardly used at the Admiralty. Promotion by merit in public offices is, of course, promotion by favour; – &#38; therefore much more objectionable than the old law of seniority: <del>upon</del> &#60;under&#62; that law no man is discontented, no man aggrieved, – &#38; all are in hope.</p>
-            <closer><salute rend="indent1">God bless you</salute>
-               <salute rend="indent2">Yrs affectionately</salute>
-               <signed rend="indent3"> RS.</signed></closer>
-            
-           <postscript> <p rend="indent0"><date when="1822-02-27">27 Feb<hi rend="sup">y</hi> 1822.</date></p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3808" type="letter">
+        <head>3808. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1822-02-27">27 February 1822</date>
+          <note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 3p.<lb />
+               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 299&#8211;301.</note>
+        </head>
+        <opener>
+          <salute>My dear Wynn</salute>
+        </opener>
+        <p rend="indent1">You are now fairly on your <hi rend="ital">bed of roses</hi>,<note n="1" place="foot" resp="editors">Christopher Marlowe (1564&#8211;1593; <title>DNB</title>), &#8216;The Passionate Shepherd to his Love&#8217; (1599), line 9. Wynn had joined the Cabinet as President of the Board of Control. This post gave him ultimate responsibility for overseeing the affairs of the East India Company and the government of its possessions in India.</note> &amp; Welshmen will look to India as their promised land, even as Scotchmen did in the days of Dundas.<note n="2" place="foot" resp="editors">Henry Dundas, 1st Viscount Melville (1742&#8211;1811; <title>DNB</title>), Scottish lawyer and politician who served as Home Secretary 1791&#8211;1794, Secretary of State for War 1794&#8211;1801 and First Lord of the Admiralty 1804&#8211;1805. In conjunction with the first two offices he was also President of the Board of Control 1793&#8211;1801, in which office he became notorious for using its powers of patronage to reward his and the government&#8217;s supporters in Scotland. Melville&#8217;s career ended after he was accused of corruption in his administration of the Royal Navy, and he was impeached in 1806. However, he was eventually acquitted and died a very rich man after some years of retirement.</note> May Wales be as largely benefitted by the wealth of the East as Scotland has been, &#8211; &amp; may you live as long as Lord Melville, remain in power longer, &#8211; leave it upon better terms, &amp; go out of the world as easily at last.</p>
+        <p rend="indent1">  I was glad to see that <ref type="m" target="people.html#PhillimoreJoseph">Phillimore</ref>
+          <note n="3" place="foot" resp="editors">Phillimore had been appointed to the Board of Control on 8 February 1822, serving until 1828.</note> &#8220;partakes the gale&#8221;,<note n="4" place="foot" resp="editors">Alexander Pope (1688&#8211;1744; <title>DNB</title>), <title>An Essay on Man</title> (1733&#8211;1734), Epistle 4, line 386.</note> &#8211; &amp; should have been glad if <ref type="m" target="people.html#StracheyGeorge">Strachey</ref> also had been included, if he has any inclination for public life. But probably he has not. It was not fortunate for him that his interests lay in India. He might have acquired an independence in his own country by more congenial pursuits in less time, &amp; have obtained that happiness which is only to be found in domestic life.</p>
+        <p rend="indent1">You were not in the House when M<hi rend="sup">r</hi> Hume made one of his rascally attacks upon you.<note n="5" place="foot" resp="editors">Joseph Hume (1777&#8211;1855; <title>DNB</title>), radical MP whom Southey greatly disliked. In the course of a long and complicated speech on 5 February 1822 in favour of the reduction of government expenditure, Hume had attacked the appointment of Wynn&#8217;s younger brother, Henry Watkin Williams Wynn (1783&#8211;1856; <title>DNB</title>), as Envoy Extraordinary to Switzerland (1822&#8211;1823) as &#8216;a most profuse waste of public money.&#8217;</note> There is something ominous as well as disgraceful to the nation in the sort of hostility with which opposition is now carried on. Honourable warfare is at <del>xxx</del> an end. The difference is no longer upon fair political questions. <del>The</del> A few members aim at the worst end by the worst <del>xxx</del> means; &amp; others assist in those means, some in error, some in malice &amp; some to curry popular favour. Concessions to such enemies are most unwise; they are imputed always to weakness, &amp; provoke insults from those whom it is wished to conciliate. It is equally unwise to let them have the credit of bringing forward measures which are in accord with public <del>fo</del> opinion when that opinion happens to be right. Government should look for opportunities when to lead, &#8211; &amp; never suffer itself to be forced.</p>
+        <p rend="indent1"> But I am getting into a strain not altogether decorous, to a Cabinet Minister. Let me therefore speak of my own affairs: &#8211; <ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> will ask you for <del>thre</del> two or three potential franks to transmit the <hi rend="ital">clean sheets</hi> of the Peninsular War, as far as they are printed.<note n="6" place="foot" resp="editors">The first volume of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note> The first volume is very far advanced in the press. I shall have occasion to rewrite some pages upon fuller information which reached me too late, &#8211; <del>they</del> &lt;it&gt; relates to the first operations in the South of Spain, &amp; the first communications between Casta&#241;os <note n="7" place="foot" resp="editors">Francisco Javier Casta&#241;os, 1st Duke of Bail&#233;n (1758&#8211;1852), Spanish general and commander of the Army of Andalusia.</note> &amp; the Gov. of Gibralter, <ref type="m" target="people.html#DalrympleHew">Sir Hew Dalrymple</ref>.<note n="8" place="foot" resp="editors">
+            <title>History of the Peninsular War</title>, 3 vols (London, 1823&#8211;1832), I, pp. 283&#8211;284. These late corrections produced some errors in the volume&#8217;s pagination.</note> &#8211; There is a besetting sin in our Government of which I have proof among the papers in my possession. &#8211; a habit of leaving its foreign agents without instructions, for the sake of shifting off the responsibility. -</p>
+        <p rend="indent1">You will perhaps think that I have entered too much into minute details in this volume; inclination I know leads me to this; &#8211; this however will be thought a merit or a fault according to the humour of the reader. I am sure you will find a good deal which has not been made known in this country before.</p>
+        <p rend="indent1"> It will not be long before I shall send you a farther portion of Oliver Newman,<note n="9" place="foot" resp="editors">Southey&#8217;s unfinished epic, &#8216;Oliver Newman&#8217;, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1&#8211;90.</note> &amp; when a little more progress is made, it will become an object of some interest to proceed with it to the end, &#8211; for the sake of realizing a larger sum than I have ever been master of, &amp; thereby lessening a little (tho but little) the continued necessity of periodical labour.<note n="10" place="foot" resp="editors">Longman had offered Southey &#163;1,500 for &#8216;Oliver Newman&#8217;.</note>
+          <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> wished me to have written a political article at this time. I declined, not <del>for the sake</del> as shrinking from abuse (which some of my acquaintances think me more disposed to provoke than to shun) &#8211; but because the agricultural question is one which I do not understand, &amp; what I have to say upon the prospect of the country may better be said in another form &#8211; where I can speak with perfect freedom.<note n="11" place="foot" resp="editors">Probably a reference to Southey&#8217;s <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title> (1829).</note> &#8211; The next number will contain a review of Dobrizhoffer, &#8211; the translation of which is the work of my niece <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara Coleridge</ref>.<note n="12" place="foot" resp="editors">Southey reviewed Sara Coleridge&#8217;s <title>An Account of the Abipones, an Equestrian People of Paraguay</title> (1822) in <title>Quarterly Review</title>, 26 (January 1822), 277&#8211;323, published 30 March 1822. The book was a translation of Martin Dobrizhoffer (1717&#8211;1791), <title>Historia de Abiponibus Equestri, Bellicosaque Paraquariae Natione</title> (1784).</note> It was undertaken by <ref type="m" target="people.html#ColeridgeDerwent">her younger brother</ref> before he went to Cambridge, to facilitate his ways &amp; means there, &amp; she offered to assist him; &#8211; this assistance ended in her doing the whole, except a very few sheets.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> is in great trouble about his brother <ref type="m" target="people.html#BedfordHenry">Henry</ref> who seems to have been very hardly used at the Admiralty. Promotion by merit in public offices is, of course, promotion by favour; &#8211; &amp; therefore much more objectionable than the old law of seniority: <del>upon</del> &lt;under&gt; that law no man is discontented, no man aggrieved, &#8211; &amp; all are in hope.</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <salute rend="indent2">Yrs affectionately</salute>
+          <signed rend="indent3"> RS.</signed>
+        </closer>
+        <postscript>
+          <p rend="indent0">
+            <date when="1822-02-27">27 Feb<hi rend="sup">y</hi> 1822.</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

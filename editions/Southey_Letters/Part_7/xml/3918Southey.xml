@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,220 +79,228 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3918Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3918Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3918" type="letter"><head>3918. Robert Southey to [<ref type="a" target="people.html#BaillieJoanna">Joanna Baillie</ref>], <date when="1822-11-16">16 November 1822</date>
-            <note type="headnote" place="foot" resp="editors">MS: Royal College of Surgeons, London, Hunter-Baillie Collection, Vol. 4.2, no. 165. ALS; 6p.<lb/>
-               Previously published: The letter text is previously unpublished; the text of the poem appeared in Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 280–283.</note></head>
-            
-            
-            <opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1822-11-16">16 Nov. 1822.</date></dateline>
-            
-           <salute> My Dear Madam</salute></opener>
-            <p rend="indent1">As you are well supplied with graver &#38; better matter for your benevolent volume,<note n="1" place="foot" resp="editors">‘The Cataract of Lodore’, sent to Baillie in this letter, was included in Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 280–283, no. 99 in the sale catalogue of Southey’s library. This volume was produced to benefit Baillie’s old schoolfriend, Margaret Stirling, née Murdoch (b. 1763), widow of the Glasgow textile merchant, James Stirling (1760–1822). Mrs Stirling had been left in distressed circumstances by her husband’s business failures and death.</note> I send you something which is sure to be unlike any other of its contents. You will at once perceive that it was at first produced in sport, &#38; afterwards amplified as a whimsical exhibition of the richness of our language. – As such it is likely to be copied into newspapers, &#38; “Guides to the Lakes.”</p>
-            <p rend="indent1">I am much gratified that the Lines upon <ref type="m" target="places.html#Lowtherestate">Lowther Castle</ref><note n="2" place="foot" resp="editors">‘Lines. Written in Lady Lonsdale’s Album, at Lowther Castle, Oct. 13. 1821’, Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 50–51.</note> should have pleased you. The stanza is good, &#38; I could have wished the verses better. But the truth is that I have almost ceased to be a poet; that I am so, has for many years been rather a matter of remembrance than of feeling; time has produced this sensible change, &#38; has kindly withdrawn from me the inclination before it bereaves me of the power. When I shall have compleated two poems, each of some length, which were begun long ago, I shall write no more in verse.<note n="3" place="foot" resp="editors"><title>A Tale of Paraguay</title> (1825) and Southey’s unfinished epic, ‘Oliver Newman’, set in New England. A fragment of the latter was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey </title>(London, 1845), pp. 1–90.</note></p>
-            <p rend="indent1">Should you be in town in the spring, I may perhaps have the pleasure of meeting you there. It would be a great pleasure.</p>
-            <p rend="indent1"><ref type="m" target="people.html#FrickerEdith">Mrs Southey</ref> joins with me in respects to your sister<note n="4" place="foot" resp="editors">Agnes Baillie (1760–1861), with whom Joanna Baillie shared a house in Hampstead.</note> &#38; yourself. The evening which you did us the favour of passing here is fresh in our remembrance.<note n="5" place="foot" resp="editors">Probably a reference to Joanna Baillie’s visit to Keswick in 1808, Southey to Herbert Hill, 9 July 1808, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1476.</note></p>
-            <closer><salute rend="indent1">Believe me Dear Madam</salute>
-               <salute rend="indent2">with sincere respect &#38; regard</salute>
-               <salute rend="indent3">yr obedient servant</salute>
-            <signed rend="indent4">Robert Southey.</signed></closer>
- <lb/>           
-            <postscript><p rend="center">The Cataract of <ref type="m" target="places.html#Lodore">Lodore</ref></p>
-            <p rend="center">described in rhymes for the Nursery</p>
-            <p rend="center">by</p>
-            <p rend="center">One of the Lake Poets</p>
-             <p rend="center">————</p>
- <lb/>           
-               <lg type="stanza"><l rend="center">How does the Water come down at <ref type="m" target="places.html#Lodore">Lodore</ref>?</l></lg>
-            <lb/>
-            <lg type="stanza"><l rend="center">Here it comes sparkling,</l>
-               <l rend="center">And there it lies darkling;</l>
-               <l rend="center">Here smoking &#38; frothing</l>
-               <l rend="center">Its tumult &#38; wrath in,</l>
-               <l rend="center">It hastens along, conflicting strong;</l>
-               <l rend="center">Now striking &#38; raging</l>
-               <l rend="center">As if a war waging</l>
-               <l rend="center">Its caverns &#38; rocks among:</l>
-               <l rend="center">Rising &#38; leaping,</l>
-               <l rend="center">Sinking &#38; creeping,</l>
-               <l rend="center">Swelling &#38; flinging,</l>
-               <l rend="center">Showering &#38; springing,</l>
-               <l rend="center">Eddying &#38; whisking,</l>
-               <l rend="center">Spouting &#38; frisking,</l>
-               <l rend="center">Turning &#38; twisting</l>
-               <l rend="center">Around &#38; around;</l>
-               <l rend="center">Collecting, disjecting,</l>
-               <l rend="center">With endless rebound;</l>
-               <l rend="center">Smiting &#38; fighting,</l>
-               <l rend="center">A sight to delight in,</l>
-               <l rend="center">Confounding, astounding,</l>
-               <l rend="center">Dizzying &#38; deafening the ear with its sound.</l>
-               <lb/>
-               <l rend="center">Receding &#38; speeding,</l>
-               <l rend="center">And shocking &#38; rocking,</l>
-               <l rend="center">And darting &#38; parting.</l>
-               <l rend="center">And threading &#38; spreading,</l>
-               <l rend="center">And whizzing &#38; hissing,</l>
-               <l rend="center">And dripping &#38; skipping,</l>
-               <l rend="center">And whitening &#38; brightening,</l>
-               <l rend="center">And quivering &#38; shivering,</l>
-               <l rend="center">And hitting &#38; splitting,</l>
-               <l rend="center">And shining &#38; twining,</l>
-               <l rend="center">And rattling &#38; battling,</l>
-               <l rend="center">And shaking &#38; quaking,</l>
-               <l rend="center">And pouring &#38; roaring,</l>
-               <l rend="center">And waving &#38; raving,</l>
-               <l rend="center">And tossing &#38; crossing,</l>
-               <l rend="center">And flowing &#38; going,</l>
-               <l rend="center">And running &#38; stunning,</l>
-               <l rend="center">And hurrying &#38; skurrying,</l>
-               <l rend="center">And glittering &#38; frittering,</l>
-               <l rend="center">And gathering &#38; feathering,</l>
-               <l rend="center">And dinning &#38; spinning,</l>
-               <l rend="center">And foaming &#38; roaming,</l>
-               <l rend="center">And dropping &#38; hopping,</l>
-               <l rend="center">And working &#38; jerking,</l>
-               <l rend="center">And guggling &#38; struggling,</l>
-               <l rend="center">And heaving &#38; cleaving,</l>
-               <l rend="center">And thundering &#38; floundering,</l>
-               <l rend="center">And falling &#38; brawling &#38; sprawling,</l>
-               <l rend="center">And driving &#38; riving &#38; striving,</l>
-               <l rend="center">And sprinkling &#38; twinkling &#38; wrinkling,</l>
-               <l rend="center">And sounding &#38; bounding &#38; rounding,</l>
-               <l rend="center">And bubbling &#38; troubling &#38; doubling,</l>
-               <l rend="center">Dividing &#38; gliding &#38; sliding,</l>
-               <l rend="center">And grumbling &#38; rumbling &#38; tumbling,</l>
-               <l rend="center">And clattering &#38; battering &#38; shattering,</l>
-               <l rend="center">And gleaming &#38; streaming, &#38; steaming &#38; beaming,</l>
-               <l rend="center">And rushing &#38; flushing &#38; brushing &#38; gushing,</l>
-               <l rend="center">And flapping &#38; rapping &#38; clapping &#38; slapping,</l>
-               <l rend="center">And curling &#38; whirling &#38; purling &#38; twirling,</l>
-               <l rend="center">Retreating &#38; beating &#38; meeting &#38; sheeting,</l>
-               <l rend="center">Delaying &#38; straying, &#38; playing &#38; spraying,</l>
-               <l rend="center">Advancing &#38; prancing &#38; glancing &#38; dancing,</l>
-               <l rend="center">Recoiling, turmoiling &#38; toiling &#38; boiling,</l>
-               <l rend="center">And thumping &#38; flumping &#38; bumping &#38; jumping,</l>
-               <l rend="center">And dashing &#38; flashing &#38; splashing &#38; clashing:</l>
-               <l rend="center">And so never ending, but alway descending,</l>
-               <l rend="center">Sounds &#38; motions for ever &#38; ever are blending,</l>
-               <l rend="center">All at once &#38; all oer, with a mighty uproar,</l>
-               <l rend="center">And this way the Water comes down at Lodore.</l></lg>
-            <p rend="center">————</p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3918" type="letter">
+        <head>3918. Robert Southey to [<ref type="a" target="people.html#BaillieJoanna">Joanna Baillie</ref>], <date when="1822-11-16">16 November 1822</date>
+          <note type="headnote" place="foot" resp="editors">MS: Royal College of Surgeons, London, Hunter-Baillie Collection, Vol. 4.2, no. 165. ALS; 6p.<lb />
+               Previously published: The letter text is previously unpublished; the text of the poem appeared in Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 280&#8211;283.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1822-11-16">16 Nov. 1822.</date>
+          </dateline>
+          <salute> My Dear Madam</salute>
+        </opener>
+        <p rend="indent1">As you are well supplied with graver &amp; better matter for your benevolent volume,<note n="1" place="foot" resp="editors">&#8216;The Cataract of Lodore&#8217;, sent to Baillie in this letter, was included in Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 280&#8211;283, no. 99 in the sale catalogue of Southey&#8217;s library. This volume was produced to benefit Baillie&#8217;s old schoolfriend, Margaret Stirling, n&#233;e Murdoch (b. 1763), widow of the Glasgow textile merchant, James Stirling (1760&#8211;1822). Mrs Stirling had been left in distressed circumstances by her husband&#8217;s business failures and death.</note> I send you something which is sure to be unlike any other of its contents. You will at once perceive that it was at first produced in sport, &amp; afterwards amplified as a whimsical exhibition of the richness of our language. &#8211; As such it is likely to be copied into newspapers, &amp; &#8220;Guides to the Lakes.&#8221;</p>
+        <p rend="indent1">I am much gratified that the Lines upon <ref type="m" target="places.html#Lowtherestate">Lowther Castle</ref>
+          <note n="2" place="foot" resp="editors">&#8216;Lines. Written in Lady Lonsdale&#8217;s Album, at Lowther Castle, Oct. 13. 1821&#8217;, Joanna Baillie (ed.), <title>A Collection of Poems, Chiefly Manuscript, And From Living Authors</title> (London, 1823), pp. 50&#8211;51.</note> should have pleased you. The stanza is good, &amp; I could have wished the verses better. But the truth is that I have almost ceased to be a poet; that I am so, has for many years been rather a matter of remembrance than of feeling; time has produced this sensible change, &amp; has kindly withdrawn from me the inclination before it bereaves me of the power. When I shall have compleated two poems, each of some length, which were begun long ago, I shall write no more in verse.<note n="3" place="foot" resp="editors">
+            <title>A Tale of Paraguay</title> (1825) and Southey&#8217;s unfinished epic, &#8216;Oliver Newman&#8217;, set in New England. A fragment of the latter was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey </title>(London, 1845), pp. 1&#8211;90.</note>
+        </p>
+        <p rend="indent1">Should you be in town in the spring, I may perhaps have the pleasure of meeting you there. It would be a great pleasure.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#FrickerEdith">Mrs Southey</ref> joins with me in respects to your sister<note n="4" place="foot" resp="editors">Agnes Baillie (1760&#8211;1861), with whom Joanna Baillie shared a house in Hampstead.</note> &amp; yourself. The evening which you did us the favour of passing here is fresh in our remembrance.<note n="5" place="foot" resp="editors">Probably a reference to Joanna Baillie&#8217;s visit to Keswick in 1808, Southey to Herbert Hill, 9 July 1808, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1476.</note>
+        </p>
+        <closer>
+          <salute rend="indent1">Believe me Dear Madam</salute>
+          <salute rend="indent2">with sincere respect &amp; regard</salute>
+          <salute rend="indent3">yr obedient servant</salute>
+          <signed rend="indent4">Robert Southey.</signed>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="center">The Cataract of <ref type="m" target="places.html#Lodore">Lodore</ref>
+          </p>
+          <p rend="center">described in rhymes for the Nursery</p>
+          <p rend="center">by</p>
+          <p rend="center">One of the Lake Poets</p>
+          <p rend="center">&#8212;&#8212;&#8212;&#8212;</p>
+          <lb />
+          <lg type="stanza">
+            <l rend="center">How does the Water come down at <ref type="m" target="places.html#Lodore">Lodore</ref>?</l>
+          </lg>
+          <lb />
+          <lg type="stanza">
+            <l rend="center">Here it comes sparkling,</l>
+            <l rend="center">And there it lies darkling;</l>
+            <l rend="center">Here smoking &amp; frothing</l>
+            <l rend="center">Its tumult &amp; wrath in,</l>
+            <l rend="center">It hastens along, conflicting strong;</l>
+            <l rend="center">Now striking &amp; raging</l>
+            <l rend="center">As if a war waging</l>
+            <l rend="center">Its caverns &amp; rocks among:</l>
+            <l rend="center">Rising &amp; leaping,</l>
+            <l rend="center">Sinking &amp; creeping,</l>
+            <l rend="center">Swelling &amp; flinging,</l>
+            <l rend="center">Showering &amp; springing,</l>
+            <l rend="center">Eddying &amp; whisking,</l>
+            <l rend="center">Spouting &amp; frisking,</l>
+            <l rend="center">Turning &amp; twisting</l>
+            <l rend="center">Around &amp; around;</l>
+            <l rend="center">Collecting, disjecting,</l>
+            <l rend="center">With endless rebound;</l>
+            <l rend="center">Smiting &amp; fighting,</l>
+            <l rend="center">A sight to delight in,</l>
+            <l rend="center">Confounding, astounding,</l>
+            <l rend="center">Dizzying &amp; deafening the ear with its sound.</l>
+            <lb />
+            <l rend="center">Receding &amp; speeding,</l>
+            <l rend="center">And shocking &amp; rocking,</l>
+            <l rend="center">And darting &amp; parting.</l>
+            <l rend="center">And threading &amp; spreading,</l>
+            <l rend="center">And whizzing &amp; hissing,</l>
+            <l rend="center">And dripping &amp; skipping,</l>
+            <l rend="center">And whitening &amp; brightening,</l>
+            <l rend="center">And quivering &amp; shivering,</l>
+            <l rend="center">And hitting &amp; splitting,</l>
+            <l rend="center">And shining &amp; twining,</l>
+            <l rend="center">And rattling &amp; battling,</l>
+            <l rend="center">And shaking &amp; quaking,</l>
+            <l rend="center">And pouring &amp; roaring,</l>
+            <l rend="center">And waving &amp; raving,</l>
+            <l rend="center">And tossing &amp; crossing,</l>
+            <l rend="center">And flowing &amp; going,</l>
+            <l rend="center">And running &amp; stunning,</l>
+            <l rend="center">And hurrying &amp; skurrying,</l>
+            <l rend="center">And glittering &amp; frittering,</l>
+            <l rend="center">And gathering &amp; feathering,</l>
+            <l rend="center">And dinning &amp; spinning,</l>
+            <l rend="center">And foaming &amp; roaming,</l>
+            <l rend="center">And dropping &amp; hopping,</l>
+            <l rend="center">And working &amp; jerking,</l>
+            <l rend="center">And guggling &amp; struggling,</l>
+            <l rend="center">And heaving &amp; cleaving,</l>
+            <l rend="center">And thundering &amp; floundering,</l>
+            <l rend="center">And falling &amp; brawling &amp; sprawling,</l>
+            <l rend="center">And driving &amp; riving &amp; striving,</l>
+            <l rend="center">And sprinkling &amp; twinkling &amp; wrinkling,</l>
+            <l rend="center">And sounding &amp; bounding &amp; rounding,</l>
+            <l rend="center">And bubbling &amp; troubling &amp; doubling,</l>
+            <l rend="center">Dividing &amp; gliding &amp; sliding,</l>
+            <l rend="center">And grumbling &amp; rumbling &amp; tumbling,</l>
+            <l rend="center">And clattering &amp; battering &amp; shattering,</l>
+            <l rend="center">And gleaming &amp; streaming, &amp; steaming &amp; beaming,</l>
+            <l rend="center">And rushing &amp; flushing &amp; brushing &amp; gushing,</l>
+            <l rend="center">And flapping &amp; rapping &amp; clapping &amp; slapping,</l>
+            <l rend="center">And curling &amp; whirling &amp; purling &amp; twirling,</l>
+            <l rend="center">Retreating &amp; beating &amp; meeting &amp; sheeting,</l>
+            <l rend="center">Delaying &amp; straying, &amp; playing &amp; spraying,</l>
+            <l rend="center">Advancing &amp; prancing &amp; glancing &amp; dancing,</l>
+            <l rend="center">Recoiling, turmoiling &amp; toiling &amp; boiling,</l>
+            <l rend="center">And thumping &amp; flumping &amp; bumping &amp; jumping,</l>
+            <l rend="center">And dashing &amp; flashing &amp; splashing &amp; clashing:</l>
+            <l rend="center">And so never ending, but alway descending,</l>
+            <l rend="center">Sounds &amp; motions for ever &amp; ever are blending,</l>
+            <l rend="center">All at once &amp; all oer, with a mighty uproar,</l>
+            <l rend="center">And this way the Water comes down at Lodore.</l>
+          </lg>
+          <p rend="center">&#8212;&#8212;&#8212;&#8212;</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

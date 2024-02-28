@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,136 +79,133 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3981Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3981Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3981" type="letter"><head>3981. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John Rickman</ref>, <date when="1823-03-18">18 March 1823</date>
-<note type="headnote" place="foot" resp="editors">Endorsement: RS to JR 18 March/1823<lb/>
-MS: Huntington Library, RS 431. ALS; 3p.<lb/>
-Unpublished.</note></head>
-
-
-<opener><salute>My dear R.</salute></opener>
-	<p rend="indent1">The inclosure which accompanies this is to return thanks for a new a tail to my name.<note n="1" place="foot" resp="editors">Southey had been made an Honorary Member of the Royal Irish Academy.</note></p>
-            <p rend="indent1">I need not tell you that I do not partake the Spanish fever which is at this time raging, not however with so much violence in the country, as in town.<note n="2" place="foot" resp="editors">French forces were preparing to invade Spain to restore absolute monarchy; they crossed the Spanish border on 7 April 1823 and had totally defeated the Spanish liberals by November 1823. Whigs and radicals in Britain urged to government to pressurise France not to intervene in Spain</note> I am not apprehensive of any evil consequences to this country, – &#38; should have thought any surmise of our being involved in war altogether groundless, if <ref type="m" target="people.html#LittletonEdwardJohn">M<hi rend="sup">r</hi> Littleton</ref> had not made himself conspicuous at the dinner given to the Ambassadors.<note n="3" place="foot" resp="editors">A public dinner was held at the City of London Tavern on 7 March 1823 to support the Spanish liberal regime. The guests of honour were Juan Jabat Aztal (1772–1825), the Spanish Ambassador 1822–1823, João Francisco de Oliveira (dates unknown), the Portuguese chargé d’affaires 1821–1822, and Lorenzo Fernandez de Villavicencio y Canas, 3rd Duke of San Lorenzo and Valhermoso (1778–1859), formerly Spanish Ambassador to France. Littleton was one of a number of eminent speakers and proposed a toast to ‘Civil and Religious Liberty all over the World’. Littleton was a supporter of Canning, but might be expected to know Wellington’s thoughts on Spain as he was married to Wellington’s niece, Hyacinthe Mary (d. 1849).</note> He I think must know what <ref type="m" target="people.html#WellesleyArthurWellington">the Duke of W.s</ref> opinion is, &#38; would not act in opposition to it. But notwithstanding this I have little doubt that we shall remain at peace. – Whether the French act wisely in their interference is another question. <del>X</del> It is not so certain that they can interfere with effect, as it is that they might have looked on safely. The difficulty is not in establishing a better Government, but in supporting one when it is established, in a country whose resources are ruined.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SoutheyTom">My brother the Cap<hi rend="sup">t</hi>.</ref> is thinking seriously of removing with his family to Canada. – Eight children,<note n="4" place="foot" resp="editors">Margaret Hill Southey (b. 1811); Mary Hill Southey (b. 1812); Robert Castle Southey (1813–1828); Herbert Castle Southey (1815–1864); Eleanor Thomasina Southey (1816–1835); Sarah Louise Southey (1818–1850); Nelson Castle Southey (1820–1834); and Sophia Jane Southey (1822–1859). Thomas Castle Southey (1824–1896) completed the family.</note> &#38; the probability of as many more, make this the wisest measure he could adopt. The Colonial Office has promised, – thro <ref type="m" target="people.html#WynnCharlesWW">Wynn</ref> – all the civilities &#38; facilities in their power, –</p>
-	<p rend="indent1">I am hard at work upon my Book of the Church<note n="5" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> which must be finished before I begin my journey. It is growing into a volume of respectable size, &#38; will comprehend a connected view of our Ecc. History, – in which some forgotten facts will be usefully revived, &#38; some views taken which have hitherto been overlooked –</p>
-			<closer><salute rend="indent3">God bless you</salute>
-					<signed rend="indent5">RS.</signed></closer>
-<postscript><p rend="indent0"><date when="1823-03-18">18 March. 1823.</date></p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3981" type="letter">
+        <head>3981. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John Rickman</ref>, <date when="1823-03-18">18 March 1823</date>
+          <note type="headnote" place="foot" resp="editors">Endorsement: RS to JR 18 March/1823<lb />
+MS: Huntington Library, RS 431. ALS; 3p.<lb />
+Unpublished.</note>
+        </head>
+        <opener>
+          <salute>My dear R.</salute>
+        </opener>
+        <p rend="indent1">The inclosure which accompanies this is to return thanks for a new a tail to my name.<note n="1" place="foot" resp="editors">Southey had been made an Honorary Member of the Royal Irish Academy.</note>
+        </p>
+        <p rend="indent1">I need not tell you that I do not partake the Spanish fever which is at this time raging, not however with so much violence in the country, as in town.<note n="2" place="foot" resp="editors">French forces were preparing to invade Spain to restore absolute monarchy; they crossed the Spanish border on 7 April 1823 and had totally defeated the Spanish liberals by November 1823. Whigs and radicals in Britain urged to government to pressurise France not to intervene in Spain</note> I am not apprehensive of any evil consequences to this country, &#8211; &amp; should have thought any surmise of our being involved in war altogether groundless, if <ref type="m" target="people.html#LittletonEdwardJohn">M<hi rend="sup">r</hi> Littleton</ref> had not made himself conspicuous at the dinner given to the Ambassadors.<note n="3" place="foot" resp="editors">A public dinner was held at the City of London Tavern on 7 March 1823 to support the Spanish liberal regime. The guests of honour were Juan Jabat Aztal (1772&#8211;1825), the Spanish Ambassador 1822&#8211;1823, Jo&#227;o Francisco de Oliveira (dates unknown), the Portuguese charg&#233; d&#8217;affaires 1821&#8211;1822, and Lorenzo Fernandez de Villavicencio y Canas, 3rd Duke of San Lorenzo and Valhermoso (1778&#8211;1859), formerly Spanish Ambassador to France. Littleton was one of a number of eminent speakers and proposed a toast to &#8216;Civil and Religious Liberty all over the World&#8217;. Littleton was a supporter of Canning, but might be expected to know Wellington&#8217;s thoughts on Spain as he was married to Wellington&#8217;s niece, Hyacinthe Mary (d. 1849).</note> He I think must know what <ref type="m" target="people.html#WellesleyArthurWellington">the Duke of W.s</ref> opinion is, &amp; would not act in opposition to it. But notwithstanding this I have little doubt that we shall remain at peace. &#8211; Whether the French act wisely in their interference is another question. <del>X</del> It is not so certain that they can interfere with effect, as it is that they might have looked on safely. The difficulty is not in establishing a better Government, but in supporting one when it is established, in a country whose resources are ruined.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#SoutheyTom">My brother the Cap<hi rend="sup">t</hi>.</ref> is thinking seriously of removing with his family to Canada. &#8211; Eight children,<note n="4" place="foot" resp="editors">Margaret Hill Southey (b. 1811); Mary Hill Southey (b. 1812); Robert Castle Southey (1813&#8211;1828); Herbert Castle Southey (1815&#8211;1864); Eleanor Thomasina Southey (1816&#8211;1835); Sarah Louise Southey (1818&#8211;1850); Nelson Castle Southey (1820&#8211;1834); and Sophia Jane Southey (1822&#8211;1859). Thomas Castle Southey (1824&#8211;1896) completed the family.</note> &amp; the probability of as many more, make this the wisest measure he could adopt. The Colonial Office has promised, &#8211; thro <ref type="m" target="people.html#WynnCharlesWW">Wynn</ref> &#8211; all the civilities &amp; facilities in their power, &#8211;</p>
+        <p rend="indent1">I am hard at work upon my Book of the Church<note n="5" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> which must be finished before I begin my journey. It is growing into a volume of respectable size, &amp; will comprehend a connected view of our Ecc. History, &#8211; in which some forgotten facts will be usefully revived, &amp; some views taken which have hitherto been overlooked &#8211;</p>
+        <closer>
+          <salute rend="indent3">God bless you</salute>
+          <signed rend="indent5">RS.</signed>
+        </closer>
+        <postscript>
+          <p rend="indent0">
+            <date when="1823-03-18">18 March. 1823.</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

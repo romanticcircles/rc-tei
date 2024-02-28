@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,143 +79,142 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3900Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3900Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3900" type="letter"><head>3900. Robert Southey to <ref type="a" target="people.html#ColeridgeJohnTaylor">John Taylor Coleridge</ref>, <date when="1822-10-02">2 October 1822</date>
-            <note type="headnote" place="foot" resp="editors">Address: To/ John Taylor Coleridge Esq<hi rend="sup">re</hi> / 2. Pump Court / Temple / London<lb/>
-               Stamped: KESWICK/ 298<lb/>
-               Postmark: E/ 5 OC 5/ 1822<lb/>
-               Endorsement: 1822/ Oct<hi rend="sup">r</hi> 5<hi rend="sup">th</hi>/ R. Southey. Keswick<lb/>
-               MS: British Library, Add MS 47553. ALS; 4p.<lb/>
-               Previously published: W. Braekman, ‘Letters by Robert Southey to Sir John Taylor Coleridge’, <title>Studia Germanica Gandensia</title>, 6 (1964), 123–125.</note></head>
-            
-            
-            <opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> 2<hi rend="sup">d</hi> <date when="1822-10-02">Oct. 1822</date></dateline>
-            
-            <salute>My dear Sir</salute></opener>
-            <p rend="indent1">I have heard from <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> upon the subject on which our good friend <ref type="m" target="people.html#MayJohn">John May</ref> communicated with you.<note n="1" place="foot" resp="editors">Gifford was considering retiring from the editorship of the <title>Quarterly Review</title>. When he finally did so in 1824, John Taylor Coleridge briefly succeeded him as editor, 1824–1825.</note> He says <ref type="m" target="people.html#HeberRichard">Heber</ref> is the only person except myself to whom he had mentioned his thought of retiring: <ref type="m" target="people.html#HeberRichard">Heber</ref> spoke of it to <ref type="m" target="people.html#CoplestonEdward">Copleston</ref>, &#38; <ref type="m" target="people.html#CoplestonEdward">Copleston</ref> mentioned Whately,<note n="2" place="foot" resp="editors">Richard Whately (1787–1863; <title>DNB</title>), Fellow of Oriel College, Oxford, 1811–1821, clergyman and later Archbishop of Dublin 1831–1863. He was also at this time a private tutor and a writer on a wide variety of subjects, including for the <title>Quarterly Review</title>.</note> a man whom he (<ref type="m" target="people.html#GiffordWilliam">Gifford</ref>) considers as totally out of the question. – I will transcribe what he says in reply to my suggestion – “Your young friend had not occurred to me; – indeed I thought that he was fully given up to law, – the young men of his standing have often mentioned him to me as one in whom they saw the future Judge. I know him to be all that you say &#38; more. I wish I dared to hint to him, that latterly I have remarked, or fancied I remarked a slight tendency in his writings to what we call the <hi rend="ital">Saints</hi>, – the language as it were of the Christian Observer,<note n="3" place="foot" resp="editors"><title>Christian Observer</title> (1802–1874), evangelical periodical with a wide readership in the Church of England.</note> – but <hi rend="ital">basta</hi>!”<note n="4" place="foot" resp="editors">Spanish for ‘enough’.</note> – He goes on to state what the chief difficulty will be for whoever may chance to succeed him; you will easily divine where it lies. Then he proceeds thus – “I do not meditate an immediate retirement; but my life, &#38; the possession of the faculties which are yet spared me, seem to partake so much of the nature of a miracle, that I doubt their existence from day to day. Hence a good deal of my anxiety. I cannot describe to you my weakness, nor the scantiness of my breath; &#38; yet, such is the goodness of the Almighty, my spirits do not seem to flag, nor my love of reading of abate.”</p>
-            <p rend="indent1"> From this it seems likely, as <ref type="m" target="people.html#HeberRichard">Heber</ref> &#38; <ref type="m" target="people.html#CanningGeorge">Canning</ref> had said to me, that <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> will probably continue to keep the journal in his own hands, as long as he is able to conduct it. It is plain that he has no successor in his eye; – &#38; when he is compelled to think of one, it is my opinion that you will be uppermost in his thoughts, as a person possessing “all the moral &#38; intellectual qualifications required for such an office”. – these were the words <del>dxx</del> which I had used to him.</p>
-            <p rend="indent1">It would give me the greatest satisfaction to see the Review under your direction. At present it has no fixed principles upon points of taste, &#38; upon many other points it is as often wrong as right, saying &#38; unsaying with pitiable inconsistency. Many articles are in a vile spirit; those which relate to America are very mischievous; &#38; it has also heavy sins of omission. I know that you see these things in the same light as I do; &#38; I am sure that if it were steadily carried on in the tone which you would give it, its influence would be increased tenfold, for there would be nothing to subtract from it. I hope &#38; think that this may come to pass but the contingency on which it depends, is of such a nature that it cannot influence your arrangements in any other way, than in inducing you, perhaps, rather to strengthen what hold you have in the journal, than to relax it.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SoutheyHenryHerbert">My brother Henry</ref> left me this morning, – &#38; such separations however they make act upon the heart are but bad cordials for the spirits. We have &#60;had&#62; a fortnights thorough enjoyment, within doors &#38; without, &#38; have gone over some of the ground which we first explored together some eighteen years ago with no sensible diminution of strength, &#38; with a pleasure higher perhaps in degree &#38; in kind. One magnificent day we had upon Saddleback, where I would have given much to have had <ref type="m" target="people.html#MayJohn">John May</ref> with us. <ref type="m" target="people.html#KennawayCharlesE">Charles Kennaway</ref> was of the party, – this is the third season that he has past at <ref type="m" target="places.html#Keswick">Keswick</ref>, &#38; I took to him from the first the more readily perhaps because he reminds me very strongly of what <ref type="m" target="people.html#BedfordGrosvenorCharles">my old friend Bedford</ref> was at his age. My guests have done me essential service by leading me into a course of brisk exercise, which has put me in excellent condition. <ref type="m" target="people.html#SoutheyHenryHerbert">Henry</ref> orders me to keep it up thro the winter, as much as is compatible with my necessary pursuits at the desk: &#38; this I shall endeavour to do – for my tenement was more out of repair this summer than I ever remember it to have been.</p>
-            <p rend="indent1"> I intend to visit London in the latter end of February, or the beginning of March, so as to make some promised visits in points as widely distant as Crediton, &#38; Norwich, &#38; return to <ref type="m" target="places.html#Keswick">Keswick</ref> by the time the leaves are beginning to open.<note n="5" place="foot" resp="editors">This journey was delayed until November 1823–February 1824. Southey spent most of his time in London, but did visit Nicholas Lightfoot at Crediton and Neville White in Norwich.</note> Meantime I have to make up for three months of idleness &#38; the first fruits of this renewed application will be the completion of the Book of the Church,<note n="6" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> – six sheets of which are printed.</p>
-            <p rend="indent1"> <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> &#38; <ref type="m" target="people.html#FrickerSarah">her mother</ref> are well, &#38; would desire to be remembered if they knew to whom I was writing. My own family, thank God, are as I could wish them to be, &#38; I am urged to take <ref type="m" target="people.html#SoutheyEdithMay">my eldest daughter</ref> to town with me in the spring, but I rather apprehend that this will not suit with our domestic arrangements. – I am glad to hear good accounts of your young household, &#38; should be more so to learn that M<hi rend="sup">rs</hi> C.s state of health were improved<note n="7" place="foot" resp="editors">Mary Coleridge, née Buchanan (1788–1874), and her children, John Duke Coleridge, 1st Baron Coleridge (1820–1894; <title>DNB</title>), later a judge and Liberal politician, and Henry James Coleridge (1822–1893; <title>DNB</title>), later a Jesuit priest and theologian; the latter had been born on 20 September 1822.</note> -</p>
-            <closer> <salute rend="indent1">God bless you</salute>
-               <salute rend="indent2"> Yrs truly</salute>
-           <signed rend="indent3"> Robert Southey</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3900" type="letter">
+        <head>3900. Robert Southey to <ref type="a" target="people.html#ColeridgeJohnTaylor">John Taylor Coleridge</ref>, <date when="1822-10-02">2 October 1822</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ John Taylor Coleridge Esq<hi rend="sup">re</hi> / 2. Pump Court / Temple / London<lb />
+               Stamped: KESWICK/ 298<lb />
+               Postmark: E/ 5 OC 5/ 1822<lb />
+               Endorsement: 1822/ Oct<hi rend="sup">r</hi> 5<hi rend="sup">th</hi>/ R. Southey. Keswick<lb />
+               MS: British Library, Add MS 47553. ALS; 4p.<lb />
+               Previously published: W. Braekman, &#8216;Letters by Robert Southey to Sir John Taylor Coleridge&#8217;, <title>Studia Germanica Gandensia</title>, 6 (1964), 123&#8211;125.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address> 2<hi rend="sup">d</hi>
+            <date when="1822-10-02">Oct. 1822</date>
+          </dateline>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1">I have heard from <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> upon the subject on which our good friend <ref type="m" target="people.html#MayJohn">John May</ref> communicated with you.<note n="1" place="foot" resp="editors">Gifford was considering retiring from the editorship of the <title>Quarterly Review</title>. When he finally did so in 1824, John Taylor Coleridge briefly succeeded him as editor, 1824&#8211;1825.</note> He says <ref type="m" target="people.html#HeberRichard">Heber</ref> is the only person except myself to whom he had mentioned his thought of retiring: <ref type="m" target="people.html#HeberRichard">Heber</ref> spoke of it to <ref type="m" target="people.html#CoplestonEdward">Copleston</ref>, &amp; <ref type="m" target="people.html#CoplestonEdward">Copleston</ref> mentioned Whately,<note n="2" place="foot" resp="editors">Richard Whately (1787&#8211;1863; <title>DNB</title>), Fellow of Oriel College, Oxford, 1811&#8211;1821, clergyman and later Archbishop of Dublin 1831&#8211;1863. He was also at this time a private tutor and a writer on a wide variety of subjects, including for the <title>Quarterly Review</title>.</note> a man whom he (<ref type="m" target="people.html#GiffordWilliam">Gifford</ref>) considers as totally out of the question. &#8211; I will transcribe what he says in reply to my suggestion &#8211; &#8220;Your young friend had not occurred to me; &#8211; indeed I thought that he was fully given up to law, &#8211; the young men of his standing have often mentioned him to me as one in whom they saw the future Judge. I know him to be all that you say &amp; more. I wish I dared to hint to him, that latterly I have remarked, or fancied I remarked a slight tendency in his writings to what we call the <hi rend="ital">Saints</hi>, &#8211; the language as it were of the Christian Observer,<note n="3" place="foot" resp="editors">
+            <title>Christian Observer</title> (1802&#8211;1874), evangelical periodical with a wide readership in the Church of England.</note> &#8211; but <hi rend="ital">basta</hi>!&#8221;<note n="4" place="foot" resp="editors">Spanish for &#8216;enough&#8217;.</note> &#8211; He goes on to state what the chief difficulty will be for whoever may chance to succeed him; you will easily divine where it lies. Then he proceeds thus &#8211; &#8220;I do not meditate an immediate retirement; but my life, &amp; the possession of the faculties which are yet spared me, seem to partake so much of the nature of a miracle, that I doubt their existence from day to day. Hence a good deal of my anxiety. I cannot describe to you my weakness, nor the scantiness of my breath; &amp; yet, such is the goodness of the Almighty, my spirits do not seem to flag, nor my love of reading of abate.&#8221;</p>
+        <p rend="indent1"> From this it seems likely, as <ref type="m" target="people.html#HeberRichard">Heber</ref> &amp; <ref type="m" target="people.html#CanningGeorge">Canning</ref> had said to me, that <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> will probably continue to keep the journal in his own hands, as long as he is able to conduct it. It is plain that he has no successor in his eye; &#8211; &amp; when he is compelled to think of one, it is my opinion that you will be uppermost in his thoughts, as a person possessing &#8220;all the moral &amp; intellectual qualifications required for such an office&#8221;. &#8211; these were the words <del>dxx</del> which I had used to him.</p>
+        <p rend="indent1">It would give me the greatest satisfaction to see the Review under your direction. At present it has no fixed principles upon points of taste, &amp; upon many other points it is as often wrong as right, saying &amp; unsaying with pitiable inconsistency. Many articles are in a vile spirit; those which relate to America are very mischievous; &amp; it has also heavy sins of omission. I know that you see these things in the same light as I do; &amp; I am sure that if it were steadily carried on in the tone which you would give it, its influence would be increased tenfold, for there would be nothing to subtract from it. I hope &amp; think that this may come to pass but the contingency on which it depends, is of such a nature that it cannot influence your arrangements in any other way, than in inducing you, perhaps, rather to strengthen what hold you have in the journal, than to relax it.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#SoutheyHenryHerbert">My brother Henry</ref> left me this morning, &#8211; &amp; such separations however they make act upon the heart are but bad cordials for the spirits. We have &lt;had&gt; a fortnights thorough enjoyment, within doors &amp; without, &amp; have gone over some of the ground which we first explored together some eighteen years ago with no sensible diminution of strength, &amp; with a pleasure higher perhaps in degree &amp; in kind. One magnificent day we had upon Saddleback, where I would have given much to have had <ref type="m" target="people.html#MayJohn">John May</ref> with us. <ref type="m" target="people.html#KennawayCharlesE">Charles Kennaway</ref> was of the party, &#8211; this is the third season that he has past at <ref type="m" target="places.html#Keswick">Keswick</ref>, &amp; I took to him from the first the more readily perhaps because he reminds me very strongly of what <ref type="m" target="people.html#BedfordGrosvenorCharles">my old friend Bedford</ref> was at his age. My guests have done me essential service by leading me into a course of brisk exercise, which has put me in excellent condition. <ref type="m" target="people.html#SoutheyHenryHerbert">Henry</ref> orders me to keep it up thro the winter, as much as is compatible with my necessary pursuits at the desk: &amp; this I shall endeavour to do &#8211; for my tenement was more out of repair this summer than I ever remember it to have been.</p>
+        <p rend="indent1"> I intend to visit London in the latter end of February, or the beginning of March, so as to make some promised visits in points as widely distant as Crediton, &amp; Norwich, &amp; return to <ref type="m" target="places.html#Keswick">Keswick</ref> by the time the leaves are beginning to open.<note n="5" place="foot" resp="editors">This journey was delayed until November 1823&#8211;February 1824. Southey spent most of his time in London, but did visit Nicholas Lightfoot at Crediton and Neville White in Norwich.</note> Meantime I have to make up for three months of idleness &amp; the first fruits of this renewed application will be the completion of the Book of the Church,<note n="6" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> &#8211; six sheets of which are printed.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> &amp; <ref type="m" target="people.html#FrickerSarah">her mother</ref> are well, &amp; would desire to be remembered if they knew to whom I was writing. My own family, thank God, are as I could wish them to be, &amp; I am urged to take <ref type="m" target="people.html#SoutheyEdithMay">my eldest daughter</ref> to town with me in the spring, but I rather apprehend that this will not suit with our domestic arrangements. &#8211; I am glad to hear good accounts of your young household, &amp; should be more so to learn that M<hi rend="sup">rs</hi> C.s state of health were improved<note n="7" place="foot" resp="editors">Mary Coleridge, n&#233;e Buchanan (1788&#8211;1874), and her children, John Duke Coleridge, 1st Baron Coleridge (1820&#8211;1894; <title>DNB</title>), later a judge and Liberal politician, and Henry James Coleridge (1822&#8211;1893; <title>DNB</title>), later a Jesuit priest and theologian; the latter had been born on 20 September 1822.</note> -</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <salute rend="indent2"> Yrs truly</salute>
+          <signed rend="indent3"> Robert Southey</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

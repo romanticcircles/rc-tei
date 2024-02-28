@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,142 +79,141 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4203Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4203Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4203" type="letter"><head>4203. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle">Herbert Hill</ref>, <date when="1824-06-23">23 June 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: to/ The Rev<hi rend="sup">d</hi>. Herbert Hill/ Streatham/ Surry<lb/>
-               Stamped: KESWICK/ 298<lb/>
-               Postmark: E/ 2x JU 26/ 1824; 10.F.NOON.10/ JU.26/ 1824<lb/>
-               Seal: red wax; design illegible<lb/>
-               MS: Keswick Museum and Art Gallery, WC 245. ALS; 4p.<lb/>
-               Unpublished.</note></head>
-            
-            
-            <opener> <dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1824-06-23">23 June. 1824</date></dateline></opener>
-            
-           <p rend="indent0"> I am sorry to hear from <ref type="m" target="people.html#SoutheyBertha">Bertha</ref>, that the hooping cough is in your house. I have one myself which, without hooping, is sufficiently troublesome. It is come in the suite of my annual catarrh, which has attacked me with its usual violence; a long time I fear will elapse before it leaves me, &#38; still longer before the system can recover the thorough relaxation which is thus brought on.</p>
-            <p rend="indent1"> My search for the Catalan history has ended in the compleat conviction that no such book is in existence, &#38; consequently that the account of the work &#38; the author in <ref type="m" target="people.html#ColburnHenry">Colburne’s</ref> Magazine is a mere fiction;<note n="1" place="foot" resp="editors">Southey had read John Mitford’s ‘On Spanish Literature, with some Account of Francisco de Olivarez’, <title>New Monthly Magazine</title>, 10 (October 1818), 221–223. It mentioned Olivarez’s <title>Account of the War in Catalonia</title>, published in four volumes at Seville in 1815; <title>Anecdotes of Chiefs Employed in the Catalan War</title> (1816); and <title>Memoirs of the Spanish Monarchy to the Abdication of Charles 4 &#38; the Usurpation of Joseph Bonaparte</title> (1816). However, none of these works seem to exist. Southey had already asked Murray to try and acquire them; see Southey to John Murray: 10 July 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3509; 27 February 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3641; 11 June 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3693; and 27 July 1822, Letter 3877 and 1 November [1822], Letter 3911. Murray had then written to Spain to try and obtain these books for Southey’s <title>History of the Peninsular War</title> (1823–1832), and Herbert Hill had also offered to help. Southey had then sought the help of George Canning and, finally, John Mitford.</note> – unaccountable as it is that any man should invent such a fiction, &#38; publish it as authentic biography, with his name affixed. The books were said to be printed at Seville, &#38; a letter from Seville has been transmitted me thro the foreign office, saying that none of the booksellers there have ever heard of any such works. My second volume is gone to press,<note n="2" place="foot" resp="editors">The second volume of Southey’s <title>History of the Peninsular War</title> (1823–1832).</note> &#38; I am expecting the first proofs every day. I have got of scent of some German publications by men who were in the French service,<note n="3" place="foot" resp="editors">Southey’s letter to Murray does not seem to survive. However, the bibliography of his <title>History of the Peninsular War</title>, 3 vols (London, 1823–1832), III, p. 936, suggests that Southey had probably asked Murray to provide: Hermann von Staff (1790–1867), <title>Der Befreiungs-Krieg der Katalonier, in den Jahren 1808 bis 1814</title> (1821–1827); and Franz Xaver Rigel (1783–1852), <title>Die Siebenjahrige Kampf auf der Pyrenaischen Halbinsel vom Jahre 1807 bis 1814; besonders miene eigenen Erfahrungen in disem Kriege; nebst Bemerkungen uber das Spanische Volk und Land</title> (1819–1821), no. 2442 in the sale catalogue of Southey’s library.</note> &#38; have desired <ref type="m" target="people.html#MurrayJohn">Murray</ref> to procure them.</p>
-           <p rend="indent1"> Your lot of Spanish newspapers<note n="4" place="foot" resp="editors">Southey eventually acquired a collection of 24 volumes of Spanish <title>Gazetas</title>, 1808–1813, no. 3472 in the sale catalogue of his library. These included <title>Gazetas</title> ‘de Gobierno’ (‘of the Government’) and from the Juntas of Seville and Valencia.</note> was a lucky acquisition, – as it fills up my series for the only year in which it was defective. A series of Lisbon papers for the same time would be signally usefully if it were possible to obtain it, but of this I have neither prospect nor hope.</p>
-          <p rend="indent1">  I have just lost my bookbinder here,<note n="5" place="foot" resp="editors">William Crampton (c. 1785–1843), a Keswick bookseller, had obtained a copper plate to forge one-guinea banknotes of the Whitehaven Bank of Johnston, Adamson, Hope &#38; Co. He was condemned to death at Carlisle Assizes on 26 August 1824, but recommended to mercy and received three years’ imprisonment.</note> &#38; “could have better spared a better man”.<note n="6" place="foot" resp="editors"><title>The First Part of Henry the Fourth</title>, Act 5, scene 4, line 103.</note> He did common work as well as was required, &#38; I was employing him in vamping &#38; lettering some of my ragged regiments, with the intention of putting all that deserved it, in good repair. When lo, the fellow who might have <del>x</del> made an honest livelihood, chose to embark in the forgery line, &#38; of all banks to meddle with that whose bills are almost exclusively current in <ref type="m" target="places.html#Keswick">Keswick</ref>. The matter was very soon discovered, &#38; he is now in limbo with the fear of the gallows before his eyes. There is a knot of them concerned, &#38; the inquiry is still going on. I miss him greatly, &#38; there is not much likelihood that his place will be supplied. There is a very good binder whom I employ at Ulverstone,<note n="7" place="foot" resp="editors">Possibly John Soulby (b. 1795), who succeeded his father, John Soulby (1771–1817) in his business.</note> – but vamping in which I have most to do, requires a man upon the spot.</p>
-           <p rend="indent1"> <ref type="m" target="people.html#LongmanThomas">Longman</ref> has sent me the two first volumes of Spix &#38; Martius, – the Bavarian travellers in Brazil.<note n="8" place="foot" resp="editors">Johann Baptist von Spix (1781–1826) and Carl Friedrich Philipp von Martius (1794–1868). <title>Reise in Brasilien auf Befehl Sr. Majestät Maximilian Joseph I. Königs von Baiern, in den Jahren 1817 bis 1820</title> (1823) was translated by Hannibal Evans Lloyd (1771–1847; <title>DNB</title>) and published by Longmans in two volumes as <title>Travels in Brazil in the years 1817–1820, Undertaken by Command of His Majesty the King of Bavaria</title> (1824), no. 2722 in the sale catalogue of Southey’s library.</note> They imitate Humboldt,<note n="9" place="foot" resp="editors">Alexander von Humboldt (1769–1859), the German polymath and traveller in the Americas.</note> but are far from possessing his powers of mind, tho they are able men. The part which is published relates chiefly to Minas Geraes, – what remains will take them into a region almost unexplored up the Japura – to the Spanish frontier. If they made their way thither from the Mato Grosso their book would have been more interesting to me, but they went by sea from Bahia to Para, &#38; so up the Orellana.<note n="10" place="foot" resp="editors">The Amazon river was once known by the name Rio de Orellana after Francisco de Orellana (1511–1546), the Spanish explorer who first navigated its length.</note> This is the only new book worth mentioning which has reached me since my return, – except <ref type="m" target="people.html#LandorWalterSavage">Landor’s</ref> Dialogues.<note n="11" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> But if the public did but know as well as you &#38; I do, that every book is new to him who reads it for the first time, the booksellers trade would be greatly injured by the discovery.</p>
-          <p rend="indent1">  We have been parched with drought while you have been deluged. A few days ago there fell just rain enough to save the garden, – but cold ungenial winds continue to prevail, &#38; I am writing by the fireside</p>
-            <p rend="indent1"> Let me hear of yourself, – of <ref type="m" target="people.html#HillCatherine">my Aunt</ref>, &#38; of the children. <ref type="m" target="people.html#HillEdwardJnr">Edward</ref> I hope will feel a great improvement in his condition now that he has ascended a step.<note n="12" place="foot" resp="editors">Edward Hill was a pupil at Westminster School and had passed ‘The Challenge’ to become a King’s Scholar and member of ‘College’, a group of forty boys with their own accommodation, special dress and privileges, including the right to proceed to a Closed Scholarship at Trinity College, Cambridge, or Christ Church, Oxford. However, he had encountered bullying in his first year in College.</note> His Welsh nieces<note n="13" place="foot" resp="editors">Southey’s younger daughters, <ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel</ref>.</note> often talk of what we are to do when he comes. I miss the two elder girls<note n="14" place="foot" resp="editors"><ref type="m" target="people.html#SoutheyEdithMay">Edith May</ref> and <ref type="m" target="people.html#SoutheyBertha">Bertha Southey</ref>.</note> much: they are very good however in sending home frequent accounts of themselves.</p>
-           <closer><salute rend="indent2"> God bless you</salute>
-           <signed rend="indent3"> RS.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4203" type="letter">
+        <head>4203. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle">Herbert Hill</ref>, <date when="1824-06-23">23 June 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: to/ The Rev<hi rend="sup">d</hi>. Herbert Hill/ Streatham/ Surry<lb />
+               Stamped: KESWICK/ 298<lb />
+               Postmark: E/ 2x JU 26/ 1824; 10.F.NOON.10/ JU.26/ 1824<lb />
+               Seal: red wax; design illegible<lb />
+               MS: Keswick Museum and Art Gallery, WC 245. ALS; 4p.<lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-06-23">23 June. 1824</date>
+          </dateline>
+        </opener>
+        <p rend="indent0"> I am sorry to hear from <ref type="m" target="people.html#SoutheyBertha">Bertha</ref>, that the hooping cough is in your house. I have one myself which, without hooping, is sufficiently troublesome. It is come in the suite of my annual catarrh, which has attacked me with its usual violence; a long time I fear will elapse before it leaves me, &amp; still longer before the system can recover the thorough relaxation which is thus brought on.</p>
+        <p rend="indent1"> My search for the Catalan history has ended in the compleat conviction that no such book is in existence, &amp; consequently that the account of the work &amp; the author in <ref type="m" target="people.html#ColburnHenry">Colburne&#8217;s</ref> Magazine is a mere fiction;<note n="1" place="foot" resp="editors">Southey had read John Mitford&#8217;s &#8216;On Spanish Literature, with some Account of Francisco de Olivarez&#8217;, <title>New Monthly Magazine</title>, 10 (October 1818), 221&#8211;223. It mentioned Olivarez&#8217;s <title>Account of the War in Catalonia</title>, published in four volumes at Seville in 1815; <title>Anecdotes of Chiefs Employed in the Catalan War</title> (1816); and <title>Memoirs of the Spanish Monarchy to the Abdication of Charles 4 &amp; the Usurpation of Joseph Bonaparte</title> (1816). However, none of these works seem to exist. Southey had already asked Murray to try and acquire them; see Southey to John Murray: 10 July 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3509; 27 February 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3641; 11 June 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3693; and 27 July 1822, Letter 3877 and 1 November [1822], Letter 3911. Murray had then written to Spain to try and obtain these books for Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832), and Herbert Hill had also offered to help. Southey had then sought the help of George Canning and, finally, John Mitford.</note> &#8211; unaccountable as it is that any man should invent such a fiction, &amp; publish it as authentic biography, with his name affixed. The books were said to be printed at Seville, &amp; a letter from Seville has been transmitted me thro the foreign office, saying that none of the booksellers there have ever heard of any such works. My second volume is gone to press,<note n="2" place="foot" resp="editors">The second volume of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note> &amp; I am expecting the first proofs every day. I have got of scent of some German publications by men who were in the French service,<note n="3" place="foot" resp="editors">Southey&#8217;s letter to Murray does not seem to survive. However, the bibliography of his <title>History of the Peninsular War</title>, 3 vols (London, 1823&#8211;1832), III, p. 936, suggests that Southey had probably asked Murray to provide: Hermann von Staff (1790&#8211;1867), <title>Der Befreiungs-Krieg der Katalonier, in den Jahren 1808 bis 1814</title> (1821&#8211;1827); and Franz Xaver Rigel (1783&#8211;1852), <title>Die Siebenjahrige Kampf auf der Pyrenaischen Halbinsel vom Jahre 1807 bis 1814; besonders miene eigenen Erfahrungen in disem Kriege; nebst Bemerkungen uber das Spanische Volk und Land</title> (1819&#8211;1821), no. 2442 in the sale catalogue of Southey&#8217;s library.</note> &amp; have desired <ref type="m" target="people.html#MurrayJohn">Murray</ref> to procure them.</p>
+        <p rend="indent1"> Your lot of Spanish newspapers<note n="4" place="foot" resp="editors">Southey eventually acquired a collection of 24 volumes of Spanish <title>Gazetas</title>, 1808&#8211;1813, no. 3472 in the sale catalogue of his library. These included <title>Gazetas</title> &#8216;de Gobierno&#8217; (&#8216;of the Government&#8217;) and from the Juntas of Seville and Valencia.</note> was a lucky acquisition, &#8211; as it fills up my series for the only year in which it was defective. A series of Lisbon papers for the same time would be signally usefully if it were possible to obtain it, but of this I have neither prospect nor hope.</p>
+        <p rend="indent1">  I have just lost my bookbinder here,<note n="5" place="foot" resp="editors">William Crampton (c. 1785&#8211;1843), a Keswick bookseller, had obtained a copper plate to forge one-guinea banknotes of the Whitehaven Bank of Johnston, Adamson, Hope &amp; Co. He was condemned to death at Carlisle Assizes on 26 August 1824, but recommended to mercy and received three years&#8217; imprisonment.</note> &amp; &#8220;could have better spared a better man&#8221;.<note n="6" place="foot" resp="editors">
+            <title>The First Part of Henry the Fourth</title>, Act 5, scene 4, line 103.</note> He did common work as well as was required, &amp; I was employing him in vamping &amp; lettering some of my ragged regiments, with the intention of putting all that deserved it, in good repair. When lo, the fellow who might have <del>x</del> made an honest livelihood, chose to embark in the forgery line, &amp; of all banks to meddle with that whose bills are almost exclusively current in <ref type="m" target="places.html#Keswick">Keswick</ref>. The matter was very soon discovered, &amp; he is now in limbo with the fear of the gallows before his eyes. There is a knot of them concerned, &amp; the inquiry is still going on. I miss him greatly, &amp; there is not much likelihood that his place will be supplied. There is a very good binder whom I employ at Ulverstone,<note n="7" place="foot" resp="editors">Possibly John Soulby (b. 1795), who succeeded his father, John Soulby (1771&#8211;1817) in his business.</note> &#8211; but vamping in which I have most to do, requires a man upon the spot.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#LongmanThomas">Longman</ref> has sent me the two first volumes of Spix &amp; Martius, &#8211; the Bavarian travellers in Brazil.<note n="8" place="foot" resp="editors">Johann Baptist von Spix (1781&#8211;1826) and Carl Friedrich Philipp von Martius (1794&#8211;1868). <title>Reise in Brasilien auf Befehl Sr. Majest&#228;t Maximilian Joseph I. K&#246;nigs von Baiern, in den Jahren 1817 bis 1820</title> (1823) was translated by Hannibal Evans Lloyd (1771&#8211;1847; <title>DNB</title>) and published by Longmans in two volumes as <title>Travels in Brazil in the years 1817&#8211;1820, Undertaken by Command of His Majesty the King of Bavaria</title> (1824), no. 2722 in the sale catalogue of Southey&#8217;s library.</note> They imitate Humboldt,<note n="9" place="foot" resp="editors">Alexander von Humboldt (1769&#8211;1859), the German polymath and traveller in the Americas.</note> but are far from possessing his powers of mind, tho they are able men. The part which is published relates chiefly to Minas Geraes, &#8211; what remains will take them into a region almost unexplored up the Japura &#8211; to the Spanish frontier. If they made their way thither from the Mato Grosso their book would have been more interesting to me, but they went by sea from Bahia to Para, &amp; so up the Orellana.<note n="10" place="foot" resp="editors">The Amazon river was once known by the name Rio de Orellana after Francisco de Orellana (1511&#8211;1546), the Spanish explorer who first navigated its length.</note> This is the only new book worth mentioning which has reached me since my return, &#8211; except <ref type="m" target="people.html#LandorWalterSavage">Landor&#8217;s</ref> Dialogues.<note n="11" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> But if the public did but know as well as you &amp; I do, that every book is new to him who reads it for the first time, the booksellers trade would be greatly injured by the discovery.</p>
+        <p rend="indent1">  We have been parched with drought while you have been deluged. A few days ago there fell just rain enough to save the garden, &#8211; but cold ungenial winds continue to prevail, &amp; I am writing by the fireside</p>
+        <p rend="indent1"> Let me hear of yourself, &#8211; of <ref type="m" target="people.html#HillCatherine">my Aunt</ref>, &amp; of the children. <ref type="m" target="people.html#HillEdwardJnr">Edward</ref> I hope will feel a great improvement in his condition now that he has ascended a step.<note n="12" place="foot" resp="editors">Edward Hill was a pupil at Westminster School and had passed &#8216;The Challenge&#8217; to become a King&#8217;s Scholar and member of &#8216;College&#8217;, a group of forty boys with their own accommodation, special dress and privileges, including the right to proceed to a Closed Scholarship at Trinity College, Cambridge, or Christ Church, Oxford. However, he had encountered bullying in his first year in College.</note> His Welsh nieces<note n="13" place="foot" resp="editors">Southey&#8217;s younger daughters, <ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel</ref>.</note> often talk of what we are to do when he comes. I miss the two elder girls<note n="14" place="foot" resp="editors">
+            <ref type="m" target="people.html#SoutheyEdithMay">Edith May</ref> and <ref type="m" target="people.html#SoutheyBertha">Bertha Southey</ref>.</note> much: they are very good however in sending home frequent accounts of themselves.</p>
+        <closer>
+          <salute rend="indent2"> God bless you</salute>
+          <signed rend="indent3"> RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,144 +79,142 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3946Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3946Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3946" type="letter"><head>3946. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1823-01-03">3 January 1823</date>
-<note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 4p.<lb/>
-Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 371–373.</note>
-         </head>
-            
-<opener><salute>My dear Wynn</salute></opener>
-	<p rend="indent1">Thank you for the Cambro-Briton<note n="1" place="foot" resp="editors"><title>The Cambro-Briton</title> (1819–1822), a journal on Welsh history, no. 527 in the sale catalogue of Southey’s library.</note> – &#38; for your note.</p>
-	<p rend="indent1">The Mill is in good order, &#38; the horse willing to go on in his daily rounds. I am as willing as old Siward to die in harness;<note n="2" place="foot" resp="editors">Siward, Earl of Northumbria (d. 1055; <title>DNB</title>). Fatally ill with dysentery, he insisted on being clad in armour and given his weapons so that he could die like a soldier. </note> &#38; should wear it as a volunteer if I were not compelled to serve in the ranks.</p>
-	<p rend="indent1">Poor Daniel says of himself in old age</p>
-	<p rend="indent1">– Time hath done to me this wrong</p>
-		<p rend="indent2">To make me write too much, &#38; live too long.<note n="3" place="foot" resp="editors">Samuel Daniel (1562–1619; <title>DNB</title>). Southey slightly misquotes from Daniel’s poem, ‘To the Prince’, lines 107–108, which was prefixed to his play, <title>Philotas</title> (1604). The original text reads ‘But yeeres hath done this wrong,/ To make me write too much, and liue to long.’</note></p>
-<lb/>
-            <p rend="indent1">My disposition is too chearful a one to admit of a fear that I may ever have occasion to apply these melancholy lines to myself. The main thing, without which I should have had anxious thoughts to keep me waking, – is secured; – a respectable provision for my family. And if I should live a few years longer, in possession of my health &#38; faculties, there is a reasonable prospect of accumulating enough to make me independent of all periodical employment. The Peninsular War (which I trust you have received) is to be the beginning of this.<note n="4" place="foot" resp="editors">The first volume of Southey’s <title>History of the Peninsular War</title> (1823–1832).</note> I made a most improvident bargain nine years ago,<note n="5" place="foot" resp="editors">See Southey to Grosvenor Charles Bedford, 23 July 1813, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 2284.</note> instead of calculating upon the rise of my own reputation, – &#38; accepted <ref type="m" target="people.html#MurrayJohn">Murrays</ref> offer of 1000 guineas, for <hi rend="ital">two</hi> volumes. Had we been to make terms now he would have given me that sum for each. I shall expect to be paid 1500 for the three, – &#38; that <del>sum</del> I shall lay by.</p>
-	<p rend="indent1">Application has been made to me to continue Wartons History of Poetry.<note n="6" place="foot" resp="editors">Thomas Warton (1728–1790; <title>DNB</title>), <title>The History of English Poetry from the Close of the Eleventh to the Commencement of the Eighteenth Century</title> (1774–1781). A new edition appeared in 1824, edited by Richard Price (1790–1833; <title>DNB</title>), no. 2986 in the sale catalogue of Southey’s library. The offer to continue this work came through Thomas Frognall Dibdin.</note> I should have accepted the offer if it would have enabled me to dispense with reviewing, – that being the only work to which I go with reluctance, – for it withdraws me from worthier pursuits.</p>
-            <p rend="indent1">I have had a gracious message from <ref type="m" target="people.html#GeorgePrinceRegent">the King</ref> – thro <ref type="m" target="people.html#KnightonSirWilliam">Sir W<hi rend="sup">m</hi> Knighton</ref>, – with the special favour of having it approved in <ref type="m" target="people.html#GeorgePrinceRegent">the Kings</ref> own hand.<note n="7" place="foot" resp="editors">Knighton had conveyed George IV’s commendation of the first volume of Southey’s <title>History of the Peninsular War</title> (1823–1832).</note></p>
-	<p rend="indent1">What you tell me of the Indian College<note n="8" place="foot" resp="editors">Thomas Fanshaw Middleton (1769–1822; <title>DNB</title>), first Bishop of Calcutta 1814–1822, had founded Bishop’s College, Calcutta, in 1820 to train Indians for the Anglican ministry.</note> I am very glad to hear. – If you were minister for our new Colonies<note n="9" place="foot" resp="editors">As President of the Board of Control, Wynn had overall responsibility for the territories governed by the East India Company. All other colonies were the remit of the Secretary of State for War and the Colonies, Henry Bathurst, 3rd Earl Bathurst (1762–1834; <title>DNB</title>).</note> that subject interests me so much that I should almost ask to be your Secretary. We must have recourse to colonization. <del>&#38; that too</del> extensively &#38; upon system, – or it will be impossible to save our fabric of society from destruction. And if provision is not made for a proper religious establishment at first, it will be very difficult to introduce it afterwards. In New Holland &#38; V Diemens land<note n="10" place="foot" resp="editors">Australia and Tasmania.</note> we settle by occupancy – not by conquest. – &#38; if we go wrong there it must be from inexperience &#38; error, not from any extraneous causes</p>
-            <p rend="indent1">You would be well pleased with <ref type="m" target="people.html#SoutheyCharlesCuthbert">your godson</ref>, who has as many promising qualities as I could desire to see.</p>
-            <p rend="indent1">	I am very incredulous concerning what is said of the Welsh Paradise Lost.<note n="11" place="foot" resp="editors">William Owen Pughe had published <title>Coll Gwynfa</title> (1819), a Welsh translation of John Milton (1608–1674; <title>DNB</title>), <title>Paradise Lost</title> (1667).</note> My old acquaintance <ref type="m" target="people.html#PugheWilliamOwen">William Owen</ref> was one of <ref type="m" target="people.html#SouthcottJoanna">Joanna Southcotts</ref> four &#38; twenty elders, – full of Welsh information certainly he was, but a muddier minded man I never met with. <del>And</del> There is abundant proof in his dictionary<note n="12" place="foot" resp="editors">William Owen Pughe, <title>A Dictionary of the Welsh Language, Explained in English: with Numerous Illustrations, from the Literary Remains and from the Living Speech of the Cymry</title> (1803).</note> how loose &#38; inaccurate his knowledge of his own language is, – &#38; I could almost as soon believe in <ref type="m" target="people.html#SouthcottJoanna">Joanna Southcott</ref> myself, as be persuaded that he has well translated a book which I am very sure he does not understand.</p>
-            <closer><salute rend="indent1">God bless you</salute>
-	  <signed rend="indent2"> RS.</signed></closer>
-<lb/>       
-<postscript><p rend="indent0"><date when="1823-01-03">Jan<hi rend="sup">y</hi> 3. 1823.</date></p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3946" type="letter">
+        <head>3946. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1823-01-03">3 January 1823</date>
+          <note type="headnote" place="foot" resp="editors">MS: National Library of Wales, MS 4813D. ALS; 4p.<lb />
+Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 371&#8211;373.</note>
+        </head>
+        <opener>
+          <salute>My dear Wynn</salute>
+        </opener>
+        <p rend="indent1">Thank you for the Cambro-Briton<note n="1" place="foot" resp="editors">
+            <title>The Cambro-Briton</title> (1819&#8211;1822), a journal on Welsh history, no. 527 in the sale catalogue of Southey&#8217;s library.</note> &#8211; &amp; for your note.</p>
+        <p rend="indent1">The Mill is in good order, &amp; the horse willing to go on in his daily rounds. I am as willing as old Siward to die in harness;<note n="2" place="foot" resp="editors">Siward, Earl of Northumbria (d. 1055; <title>DNB</title>). Fatally ill with dysentery, he insisted on being clad in armour and given his weapons so that he could die like a soldier. </note> &amp; should wear it as a volunteer if I were not compelled to serve in the ranks.</p>
+        <p rend="indent1">Poor Daniel says of himself in old age</p>
+        <p rend="indent1">&#8211; Time hath done to me this wrong</p>
+        <p rend="indent2">To make me write too much, &amp; live too long.<note n="3" place="foot" resp="editors">Samuel Daniel (1562&#8211;1619; <title>DNB</title>). Southey slightly misquotes from Daniel&#8217;s poem, &#8216;To the Prince&#8217;, lines 107&#8211;108, which was prefixed to his play, <title>Philotas</title> (1604). The original text reads &#8216;But yeeres hath done this wrong,/ To make me write too much, and liue to long.&#8217;</note>
+        </p>
+        <lb />
+        <p rend="indent1">My disposition is too chearful a one to admit of a fear that I may ever have occasion to apply these melancholy lines to myself. The main thing, without which I should have had anxious thoughts to keep me waking, &#8211; is secured; &#8211; a respectable provision for my family. And if I should live a few years longer, in possession of my health &amp; faculties, there is a reasonable prospect of accumulating enough to make me independent of all periodical employment. The Peninsular War (which I trust you have received) is to be the beginning of this.<note n="4" place="foot" resp="editors">The first volume of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note> I made a most improvident bargain nine years ago,<note n="5" place="foot" resp="editors">See Southey to Grosvenor Charles Bedford, 23 July 1813, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 2284.</note> instead of calculating upon the rise of my own reputation, &#8211; &amp; accepted <ref type="m" target="people.html#MurrayJohn">Murrays</ref> offer of 1000 guineas, for <hi rend="ital">two</hi> volumes. Had we been to make terms now he would have given me that sum for each. I shall expect to be paid 1500 for the three, &#8211; &amp; that <del>sum</del> I shall lay by.</p>
+        <p rend="indent1">Application has been made to me to continue Wartons History of Poetry.<note n="6" place="foot" resp="editors">Thomas Warton (1728&#8211;1790; <title>DNB</title>), <title>The History of English Poetry from the Close of the Eleventh to the Commencement of the Eighteenth Century</title> (1774&#8211;1781). A new edition appeared in 1824, edited by Richard Price (1790&#8211;1833; <title>DNB</title>), no. 2986 in the sale catalogue of Southey&#8217;s library. The offer to continue this work came through Thomas Frognall Dibdin.</note> I should have accepted the offer if it would have enabled me to dispense with reviewing, &#8211; that being the only work to which I go with reluctance, &#8211; for it withdraws me from worthier pursuits.</p>
+        <p rend="indent1">I have had a gracious message from <ref type="m" target="people.html#GeorgePrinceRegent">the King</ref> &#8211; thro <ref type="m" target="people.html#KnightonSirWilliam">Sir W<hi rend="sup">m</hi> Knighton</ref>, &#8211; with the special favour of having it approved in <ref type="m" target="people.html#GeorgePrinceRegent">the Kings</ref> own hand.<note n="7" place="foot" resp="editors">Knighton had conveyed George IV&#8217;s commendation of the first volume of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note>
+        </p>
+        <p rend="indent1">What you tell me of the Indian College<note n="8" place="foot" resp="editors">Thomas Fanshaw Middleton (1769&#8211;1822; <title>DNB</title>), first Bishop of Calcutta 1814&#8211;1822, had founded Bishop&#8217;s College, Calcutta, in 1820 to train Indians for the Anglican ministry.</note> I am very glad to hear. &#8211; If you were minister for our new Colonies<note n="9" place="foot" resp="editors">As President of the Board of Control, Wynn had overall responsibility for the territories governed by the East India Company. All other colonies were the remit of the Secretary of State for War and the Colonies, Henry Bathurst, 3rd Earl Bathurst (1762&#8211;1834; <title>DNB</title>).</note> that subject interests me so much that I should almost ask to be your Secretary. We must have recourse to colonization. <del>&amp; that too</del> extensively &amp; upon system, &#8211; or it will be impossible to save our fabric of society from destruction. And if provision is not made for a proper religious establishment at first, it will be very difficult to introduce it afterwards. In New Holland &amp; V Diemens land<note n="10" place="foot" resp="editors">Australia and Tasmania.</note> we settle by occupancy &#8211; not by conquest. &#8211; &amp; if we go wrong there it must be from inexperience &amp; error, not from any extraneous causes</p>
+        <p rend="indent1">You would be well pleased with <ref type="m" target="people.html#SoutheyCharlesCuthbert">your godson</ref>, who has as many promising qualities as I could desire to see.</p>
+        <p rend="indent1">	I am very incredulous concerning what is said of the Welsh Paradise Lost.<note n="11" place="foot" resp="editors">William Owen Pughe had published <title>Coll Gwynfa</title> (1819), a Welsh translation of John Milton (1608&#8211;1674; <title>DNB</title>), <title>Paradise Lost</title> (1667).</note> My old acquaintance <ref type="m" target="people.html#PugheWilliamOwen">William Owen</ref> was one of <ref type="m" target="people.html#SouthcottJoanna">Joanna Southcotts</ref> four &amp; twenty elders, &#8211; full of Welsh information certainly he was, but a muddier minded man I never met with. <del>And</del> There is abundant proof in his dictionary<note n="12" place="foot" resp="editors">William Owen Pughe, <title>A Dictionary of the Welsh Language, Explained in English: with Numerous Illustrations, from the Literary Remains and from the Living Speech of the Cymry</title> (1803).</note> how loose &amp; inaccurate his knowledge of his own language is, &#8211; &amp; I could almost as soon believe in <ref type="m" target="people.html#SouthcottJoanna">Joanna Southcott</ref> myself, as be persuaded that he has well translated a book which I am very sure he does not understand.</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <signed rend="indent2"> RS.</signed>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="indent0">
+            <date when="1823-01-03">Jan<hi rend="sup">y</hi> 3. 1823.</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

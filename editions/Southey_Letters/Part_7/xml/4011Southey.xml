@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,142 +79,141 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4011Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4011Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4011" type="letter"><head>4011. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-05-03">3 May 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ Miss Bowles/ Buckland/ near Lymington/ Hampshire<lb/>
-Endorsement: N<hi rend="sup">o</hi> 26 To Miss Caroline Bowles<lb/>
-MS: British Library, Add MS 47889. ALS; 4p. <lb/>
-Unpublished.</note></head>
-
-
-<opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> 3<hi rend="sup">d</hi> <date when="1823-05-03">May. 1823.</date></dateline></opener>
-
-            <p rend="indent1">I heartily wish the newspaper account of me were true where it is false, &#38; false where it is true, – for I am going to London &#38; have no poem to take in my pocket.<note n="1" place="foot" resp="editors">‘Southey is expected very shortly in London, with a new poem, the hero of which is a Quaker’ (<title>Morning Chronicle</title>, 24 April 1823). This was a reference to Southey’s unfinished epic, ‘Oliver Newman’, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1–90. </note> My departure will not be as soon as I wish, because a book must first be compleated which I had hoped &#38; expected ere this to have sent you, but which has grown under my hands into to a second volume.<note n="2" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> – I have to visit at wide intervals of place, – Devonshire &#38; <ref type="m" target="places.html#Norwich">Norwich</ref>, but they must be flying visits. My whole absence must not exceed two months, – &#38; if you come in August instead of July, I will be home by the middle of that month.</p>
-               <p rend="indent1">You have not been well informed concerning this climate. The best season for our Lakes &#38; Mountains is that which is now beginning, or rather which has just begun. May &#38; June are to be preferred to all the other months. July &#38; August are more likely to be wet, in September the weather generally becomes fine again, &#38; would be as delightful as the spring, if the days were not shortening, &#38; did not sometimes bring with them premature indications of winter, – which I have known here to begin before Michaelmas<note n="3" place="foot" resp="editors">29 September.</note> &#38; at other times nor to begin till after Christmas. But for the most part autumn lingers with us &#38; is drier than the summer.</p>
-            <p rend="indent1">The best thing <del>that</del> I can say of the lodgings is that they are when farthest from this house within ten minutes walk of it, &#38; some not half the distance. Let me know when you can fix the time, &#38; I will take care they shall be provided. A letter to <ref type="m" target="places.html#QueenAnneSt">15 Q Anne Street, Cavendish Square</ref> will find me wherever I may be on my circuit. Indeed you must tell me your direction when you reach Leamington, that I may send my Book of the Church thither. It ought to be an impressive book, for nothing can exceed the interest of the subject, in many parts. </p>
-            <p rend="indent1">You will enjoy this country, &#38; I trust it may materially contribute to reestablish your health. <ref type="m" target="people.html#BedfordGrosvenorCharles">One of my most intimate friends</ref> had an affection of the liver some ten years ago, which baffled the best medical aid in London, &#38; his physician afterwards confessed that he ordered him here, in the belief that he would never return.<note n="4" place="foot" resp="editors">See Southey to Grosvenor Charles Bedford, 8 July 1810, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 1791.</note> His looks when he arrived gave me the greatest shock of that kind I ever experienced. In six weeks however he returned home perfectly well, &#38; has ever since continued a sound man. And this can be attributed to no other cause than the mountain air which he delighted in, &#38; enjoyed heartily during his stay.</p>
-            <p rend="indent1"><ref type="m" target="people.html#FrickerEdith">My wife</ref> &#38; <ref type="m" target="people.html#SoutheyEdithMay">eldest daughter</ref> are delighted with the thought of seeing you. There is nothing tremendous in the journey – when it is once begun. I shall have some things to shew you, &#38; a great deal to say. You will go home with a <del>xxxxxxxxx</del> book full of sketches, – a mind full of imagery drawn from these waters &#38; mountains, &#38; a heart full of poetry.</p>
-            <closer><salute rend="indent1">God bless you</salute>
-	   <salute rend="indent2">Yours must truly</salute>
-			<signed rend="indent3">Robert Southey.</signed></closer>
-
-<postscript><p rend="indent1"><label>P. S. </label>
-   You shall see my correspondence with <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> when you are here.<note n="5" place="foot" resp="editors">In a letter of 26 June 1820, Shelley had accused Southey of writing a hostile review of <title>Laon and Cythna, or the Revolution of the Golden City</title> (1817; published late 1818) and <title>The Revolt of Islam. A Poem, in Twelve Cantos</title> (1818); see Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 358–359. Southey responded with his letter to Percy Bysshe Shelley, [c. 29 July 1820], <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3517. Shelley replied in a letter to Southey, 17 August 1820, Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 361–363. A letter from Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3538, closed the correspondence.</note> – When I spoke of him in a former letter it was as having been here ten years ago, not two.<note n="6" place="foot" resp="editors">Robert Southey to Caroline Bowles, 7 July 1822, Letter 3866. Shelley had stayed in Keswick from November 1811 to February 1812, shortly after his marriage to Harriet Westbrook.</note> It was in 1812 that he came to <ref type="m" target="places.html#Keswick">Keswick</ref>, just after his first marriage.</p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4011" type="letter">
+        <head>4011. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-05-03">3 May 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ Miss Bowles/ Buckland/ near Lymington/ Hampshire<lb />
+Endorsement: N<hi rend="sup">o</hi> 26 To Miss Caroline Bowles<lb />
+MS: British Library, Add MS 47889. ALS; 4p. <lb />
+Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address> 3<hi rend="sup">d</hi>
+            <date when="1823-05-03">May. 1823.</date>
+          </dateline>
+        </opener>
+        <p rend="indent1">I heartily wish the newspaper account of me were true where it is false, &amp; false where it is true, &#8211; for I am going to London &amp; have no poem to take in my pocket.<note n="1" place="foot" resp="editors">&#8216;Southey is expected very shortly in London, with a new poem, the hero of which is a Quaker&#8217; (<title>Morning Chronicle</title>, 24 April 1823). This was a reference to Southey&#8217;s unfinished epic, &#8216;Oliver Newman&#8217;, set in New England. A fragment was published posthumously in <title>Oliver Newman: a New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1&#8211;90. </note> My departure will not be as soon as I wish, because a book must first be compleated which I had hoped &amp; expected ere this to have sent you, but which has grown under my hands into to a second volume.<note n="2" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> &#8211; I have to visit at wide intervals of place, &#8211; Devonshire &amp; <ref type="m" target="places.html#Norwich">Norwich</ref>, but they must be flying visits. My whole absence must not exceed two months, &#8211; &amp; if you come in August instead of July, I will be home by the middle of that month.</p>
+        <p rend="indent1">You have not been well informed concerning this climate. The best season for our Lakes &amp; Mountains is that which is now beginning, or rather which has just begun. May &amp; June are to be preferred to all the other months. July &amp; August are more likely to be wet, in September the weather generally becomes fine again, &amp; would be as delightful as the spring, if the days were not shortening, &amp; did not sometimes bring with them premature indications of winter, &#8211; which I have known here to begin before Michaelmas<note n="3" place="foot" resp="editors">29 September.</note> &amp; at other times nor to begin till after Christmas. But for the most part autumn lingers with us &amp; is drier than the summer.</p>
+        <p rend="indent1">The best thing <del>that</del> I can say of the lodgings is that they are when farthest from this house within ten minutes walk of it, &amp; some not half the distance. Let me know when you can fix the time, &amp; I will take care they shall be provided. A letter to <ref type="m" target="places.html#QueenAnneSt">15 Q Anne Street, Cavendish Square</ref> will find me wherever I may be on my circuit. Indeed you must tell me your direction when you reach Leamington, that I may send my Book of the Church thither. It ought to be an impressive book, for nothing can exceed the interest of the subject, in many parts. </p>
+        <p rend="indent1">You will enjoy this country, &amp; I trust it may materially contribute to reestablish your health. <ref type="m" target="people.html#BedfordGrosvenorCharles">One of my most intimate friends</ref> had an affection of the liver some ten years ago, which baffled the best medical aid in London, &amp; his physician afterwards confessed that he ordered him here, in the belief that he would never return.<note n="4" place="foot" resp="editors">See Southey to Grosvenor Charles Bedford, 8 July 1810, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 1791.</note> His looks when he arrived gave me the greatest shock of that kind I ever experienced. In six weeks however he returned home perfectly well, &amp; has ever since continued a sound man. And this can be attributed to no other cause than the mountain air which he delighted in, &amp; enjoyed heartily during his stay.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#FrickerEdith">My wife</ref> &amp; <ref type="m" target="people.html#SoutheyEdithMay">eldest daughter</ref> are delighted with the thought of seeing you. There is nothing tremendous in the journey &#8211; when it is once begun. I shall have some things to shew you, &amp; a great deal to say. You will go home with a <del>xxxxxxxxx</del> book full of sketches, &#8211; a mind full of imagery drawn from these waters &amp; mountains, &amp; a heart full of poetry.</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <salute rend="indent2">Yours must truly</salute>
+          <signed rend="indent3">Robert Southey.</signed>
+        </closer>
+        <postscript>
+          <p rend="indent1">
+            <label>P. S. </label>
+   You shall see my correspondence with <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> when you are here.<note n="5" place="foot" resp="editors">In a letter of 26 June 1820, Shelley had accused Southey of writing a hostile review of <title>Laon and Cythna, or the Revolution of the Golden City</title> (1817; published late 1818) and <title>The Revolt of Islam. A Poem, in Twelve Cantos</title> (1818); see Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 358&#8211;359. Southey responded with his letter to Percy Bysshe Shelley, [c. 29 July 1820], <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3517. Shelley replied in a letter to Southey, 17 August 1820, Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 361&#8211;363. A letter from Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3538, closed the correspondence.</note> &#8211; When I spoke of him in a former letter it was as having been here ten years ago, not two.<note n="6" place="foot" resp="editors">Robert Southey to Caroline Bowles, 7 July 1822, Letter 3866. Shelley had stayed in Keswick from November 1811 to February 1812, shortly after his marriage to Harriet Westbrook.</note> It was in 1812 that he came to <ref type="m" target="places.html#Keswick">Keswick</ref>, just after his first marriage.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

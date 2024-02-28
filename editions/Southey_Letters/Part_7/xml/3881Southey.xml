@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,138 +79,134 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3881Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3881Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3881" type="letter"><head>3881. Robert Southey to [<ref type="a" target="people.html#BartonBernard">Bernard Barton</ref>], <date when="1822-08-08">8 August 1822</date>
-            <note type="headnote" place="foot" resp="editors">MS: Bodleian Library, MS Autogr. b. 7. ALS; 2p.<lb/>
-               Unpublished.</note></head>
-            
-            
-            <opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1822-08-08">8 Aug. 1822</date></dateline>
-            
-            <salute>My dear Sir</salute></opener>
-            <p rend="indent1">You would have suffered no disappointment on the present occasion, if your friends had known – I will not say as much of what is called the World as I do (for they may easily know more) but as much of natural causes &#38; probable effects.<note n="1" place="foot" resp="editors">Bernard Barton, <title>Napoleon, and Other Poems</title> (London, 1822), p. [v], was dedicated to George IV. Barton may have been offended not to receive any acknowledgement of his dedication.</note> My advice to you had I been on the spot to have given it, would have been, after writing as you have written, to dedicate as you intended &#38; have done – to <del>sen</del> present the book tho the regular channel of the Librarian,<note n="2" place="foot" resp="editors">Charles Sumner (1790–1874; <title>DNB</title>) was domestic chaplain and librarian to George IV 1821–1826, Bishop of Llandaff 1826–1827, Bishop of Winchester 1827–1869. Barton wished to place a copy of his book in the Royal Library at Windsor.</note> &#38; then to leave it to its fate, hoping nothing &#38; expecting nothing. Nothing was to be gained by showing any solicitude concerning the event, – but something might be lost.</p>
-          <p rend="indent1">  I am not acquainted with the Librarian, &#38; could be of no use to you in that quarter. – Your views should be directed to this Literary Academy,<note n="3" place="foot" resp="editors">The Royal Society of Literature, founded in 1820.</note> – of which I know nothing more than what the newspapers tell me, – but which proposes (if I understand its meaning) to grant honorary annuities, as well as to offer premiums.</p>
-            <p rend="indent1">The first opportunity which I shall have of noticing your writings, will be in an account of <del>the Xxxx</del> Gregoires Histoire des Sectes Religieuses, which will be my next article in the QR.<note n="4" place="foot" resp="editors">Southey’s review of Henri Grégoire (1750–1831), <title>Histoire des Sectes Religieuse, qui, Depuis de Commencement du Siecle Dernier Jusqu’a l’Epoque Actuelle, sont Nées, se sont Modifiées, se sont Éteintes dans le Quatre Parties du Monde</title> (1814), <title>Quarterly Review</title>, 28 (October 1822), 1–46, published 15 February 1823. (The book was no. 2838 in the sale catalogue of Southey’s library.) On pp. 4–5 of his review, Southey included a lengthy recommendation of Barton’s poetry for its ‘pure and religious spirit’ and quoted Barton’s poem ‘The Pool of Bethesda’, from <title>Napoleon, and Other Poems</title> (London, 1822), pp. [182]–185 in its entirety.</note> – Be assured that I shall not omit any opportunity which I can find</p>
-            <p rend="indent1"> When you sent a copy to <ref type="m" target="people.html#MurrayJohn">Murray</ref>, for himself, – you did not call to mind the old proverb about sending coals to Newcastle. In all likelihood he looked <del>at</del> upon it as intended for the QR.<note n="5" place="foot" resp="editors">i.e. that Murray supposed Barton wished his poem to be reviewed in the <title>Quarterly Review</title>.</note> &#38; did not suppose that it required an acknowledgement.</p>
-            <p rend="indent1">I have been very unwell, but am now thank God recovered. At this season I am more occupied by friends, &#38; chance visitors, than even by my own arduous pursuits during the rest of the year. And the busiest man in England cannot have less time to himself.</p>
-            <closer><salute rend="indent1"> farewell – &#38; believe me</salute>
-               <salute rend="indent2"> Yours truly</salute>
-            <signed rend="indent3">R Southey.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3881" type="letter">
+        <head>3881. Robert Southey to [<ref type="a" target="people.html#BartonBernard">Bernard Barton</ref>], <date when="1822-08-08">8 August 1822</date>
+          <note type="headnote" place="foot" resp="editors">MS: Bodleian Library, MS Autogr. b. 7. ALS; 2p.<lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1822-08-08">8 Aug. 1822</date>
+          </dateline>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1">You would have suffered no disappointment on the present occasion, if your friends had known &#8211; I will not say as much of what is called the World as I do (for they may easily know more) but as much of natural causes &amp; probable effects.<note n="1" place="foot" resp="editors">Bernard Barton, <title>Napoleon, and Other Poems</title> (London, 1822), p. [v], was dedicated to George IV. Barton may have been offended not to receive any acknowledgement of his dedication.</note> My advice to you had I been on the spot to have given it, would have been, after writing as you have written, to dedicate as you intended &amp; have done &#8211; to <del>sen</del> present the book tho the regular channel of the Librarian,<note n="2" place="foot" resp="editors">Charles Sumner (1790&#8211;1874; <title>DNB</title>) was domestic chaplain and librarian to George IV 1821&#8211;1826, Bishop of Llandaff 1826&#8211;1827, Bishop of Winchester 1827&#8211;1869. Barton wished to place a copy of his book in the Royal Library at Windsor.</note> &amp; then to leave it to its fate, hoping nothing &amp; expecting nothing. Nothing was to be gained by showing any solicitude concerning the event, &#8211; but something might be lost.</p>
+        <p rend="indent1">  I am not acquainted with the Librarian, &amp; could be of no use to you in that quarter. &#8211; Your views should be directed to this Literary Academy,<note n="3" place="foot" resp="editors">The Royal Society of Literature, founded in 1820.</note> &#8211; of which I know nothing more than what the newspapers tell me, &#8211; but which proposes (if I understand its meaning) to grant honorary annuities, as well as to offer premiums.</p>
+        <p rend="indent1">The first opportunity which I shall have of noticing your writings, will be in an account of <del>the Xxxx</del> Gregoires Histoire des Sectes Religieuses, which will be my next article in the QR.<note n="4" place="foot" resp="editors">Southey&#8217;s review of Henri Gr&#233;goire (1750&#8211;1831), <title>Histoire des Sectes Religieuse, qui, Depuis de Commencement du Siecle Dernier Jusqu&#8217;a l&#8217;Epoque Actuelle, sont N&#233;es, se sont Modifi&#233;es, se sont &#201;teintes dans le Quatre Parties du Monde</title> (1814), <title>Quarterly Review</title>, 28 (October 1822), 1&#8211;46, published 15 February 1823. (The book was no. 2838 in the sale catalogue of Southey&#8217;s library.) On pp. 4&#8211;5 of his review, Southey included a lengthy recommendation of Barton&#8217;s poetry for its &#8216;pure and religious spirit&#8217; and quoted Barton&#8217;s poem &#8216;The Pool of Bethesda&#8217;, from <title>Napoleon, and Other Poems</title> (London, 1822), pp. [182]&#8211;185 in its entirety.</note> &#8211; Be assured that I shall not omit any opportunity which I can find</p>
+        <p rend="indent1"> When you sent a copy to <ref type="m" target="people.html#MurrayJohn">Murray</ref>, for himself, &#8211; you did not call to mind the old proverb about sending coals to Newcastle. In all likelihood he looked <del>at</del> upon it as intended for the QR.<note n="5" place="foot" resp="editors">i.e. that Murray supposed Barton wished his poem to be reviewed in the <title>Quarterly Review</title>.</note> &amp; did not suppose that it required an acknowledgement.</p>
+        <p rend="indent1">I have been very unwell, but am now thank God recovered. At this season I am more occupied by friends, &amp; chance visitors, than even by my own arduous pursuits during the rest of the year. And the busiest man in England cannot have less time to himself.</p>
+        <closer>
+          <salute rend="indent1"> farewell &#8211; &amp; believe me</salute>
+          <salute rend="indent2"> Yours truly</salute>
+          <signed rend="indent3">R Southey.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,145 +79,143 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4266Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4266Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4266" type="letter"><head>4266. Robert Southey to <ref type="a" target="people.html#SoutheyEdithMay">Edith May Southey</ref>, <date when="1824-10-20">20 October 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: To/ Miss Southey/ with M<hi rend="sup">rs</hi> Wade Browne/ 5. Paris Street/ Exeter.<lb/>
-               Stamped: KESWICK/ 298<lb/>
-               Seal: [illegible]<lb/>
-               MS: British Library, Add MS 47888. ALS; 4p. <lb/>
-               Unpublished.</note></head>
-            
-            
-            <opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>. </placeName></address><date when="1824-10-20">20 Oct. 1824</date></dateline>
-            
-           <salute> My dear Edith May</salute></opener>
-            <p rend="indent1"> Your letter to <ref type="m" target="people.html#FrickerEdith">your mother</ref> has relieved our anxiety concerning poor Octo.<note n="1" place="foot" resp="editors">Octavius Warre Malet (1811–1891), eighth son of Lady Susanna Malet, née Wales (1779–1868) and Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>). Octavius Warre Malet served in the East India Company before retiring to Somerset in 1864, where he played a leading role in the restoration of Taunton Castle.</note> All this distress &#38; inconvenience may be traced to the <ref type="m" target="places.html#Streatham">Streatham</ref> hooping cough: – in fear of that cough, the two Winchester boys<note n="2" place="foot" resp="editors">Octavius Warre Malet and his younger brother, Alfred Augustus Malet (1814–1898), later a Captain in the 8th Regiment of Foot, were pupils at Winchester School.</note> past their last holydays at Worting<note n="3" place="foot" resp="editors">A village in Hampshire near to Manydown Park, the home of Catherine Hill and her family, the Bigg-Withers.</note> instead of at home, – &#38; there the elder must have taken the measles, which appeared after his return to school. – It is a fearful disorder, &#38; one which sometimes leaves long evils behind it.<note n="4" place="foot" resp="editors">Southey particularly feared measles as he had early memories of his sister Eliza’s death from the disease in 1779.</note></p>
-            <p rend="indent1">   I can give you no counsel concerning your movements, at this distance. Had Lady M. continued longer at Winchester, &#38; it had been desirable for you to have joined her, this might have been accomplished. I had it in charge from <ref type="m" target="people.html#BowlesCaroline">Miss Bowles</ref> to say that if you could be persuaded to take that direction, it would give her great pleasure to receive you both. There is a coach from Exeter which passes her door: – &#38; another which might have taken you up there &#38; conveyed you to Winchester, with only the inconvenience of getting from one coach into another at Southampton. – But Lady M’s movements set this aside, even if it should have fallen in with your wishes. – There is no certainty in getting from Taunton to London, only the daily chance of room in the North Devon Mail. – Yet if you knew <hi rend="ital">when</hi> you could find convoy from Exeter, the distance between that place &#38; Taunton is so easy, &#38; the conveyance so regular that the trouble of going &#38; returning would not be much, if you had set your heart upon seeing <ref type="m" target="people.html#SoutheyMary">Aunt Mary</ref>.
-            You will probably by this time know something of <ref type="m" target="people.html#GonneMrs">M<hi rend="sup">rs</hi> Gonne’s</ref> movements &#38; of <ref type="m" target="people.html#SoutheyLouisa">Louisa’s</ref> I have an enquiry for you from Amen Corner where <ref type="m" target="people.html#HughesMaryAnne">M<hi rend="sup">rs</hi> Hughes</ref> hopes to hear of you as soon as you return to town, – &#38; to see you.<note n="5" place="foot" resp="editors">When in London the Hughes family lived at the residentiary canon’s house, Amen Corner, sited to the west of St Paul’s Cathedral. Thomas Hughes had been a canon of St Paul’s since 1807. </note> They will only be there two months, – but if it suited your convenience, it might be arranged for you to land there on your arrival in town. – However I doubt not you will find your way thro all these petty difficulties. – <ref type="m" target="people.html#FrickerEdith">Your Mother</ref> desires you will take care of yourself, &#38; get rid if you can of colds &#38; rheumatism.</p>
-            <p rend="indent1"> This is a very grave, matter of fact sort of letter, but unluckily of no use or purport whatever, for it will not in any degree lessen your perplexity. – The probable end will be that you will be received in <ref type="m" target="places.html#QueenAnneSt">QAnne Street</ref>.</p>
-           <p rend="indent1"> Our weather has been as severe as yours, tho we read of snow in Devonshire before we saw it on the mountains. I never remember so cold an October. The first snow was on Sep<hi rend="sup">t</hi> 26 – three days earlier than it has been for two &#38; twenty years. It has been very stormy also, – &#38; is now as mild as could be wished, more so than, with so sudden a change can be wholesome. However thank God we are all well, nor has the season as yet been unhealthy here.</p>
-            <p rend="indent1">  I begin to wish for you &#38; <ref type="m" target="people.html#SoutheyBertha">Bertha</ref> a little impatiently, as if feeling that when one is past half a hundred years old, life is not long enough to afford such long absences. After supper every night I go dutifully to work upon those popular Danish traditions,<note n="6" place="foot" resp="editors">Possibly Just Mathias Thiele (1795–1874), <title>Danske Folkesagn</title> (1819–1823), though this work does not appear in the sale catalogue of Southey’s library.</note> &#38; as regularly cry out for <ref type="m" target="people.html#SoutheyEdithMay">Thrym</ref>.<note n="7" place="foot" resp="editors">A family nickname for Edith May Southey.</note> I am very much afraid <ref type="m" target="people.html#FeldborgAndreas">poor Hamlet</ref> is dead.<note n="8" place="foot" resp="editors">‘Hamlet’ was Southey’s name for Andreas Feldborg, as both he and the eponymous character in Shakespeare’s play were Danes. Feldborg was not dead. He had left Edinburgh for an extended Continental journey, before settling in Göttingen in 1828.</note> For the last letter which I wrote to him was returned from the Edinburgh Post Office many months after its date, – &#38; certain books which he was to have procured for me have never arrived</p>
-            <p rend="indent1"> M<hi rend="sup">r</hi> Marriott most likely <hi rend="ital">is</hi> the Cat-Poet.<note n="9" place="foot" resp="editors">John Marriott (1780–1825; <title>DNB</title>), clergyman, poet and friend of Walter Scott. He was Curate of St James, Exeter, St Lawrence, Exeter, and St John, Broadclyst. The patron of the latter church was Sir Thomas Acland, who was also a friend of Marriott. Southey had stayed with him on 6 January 1824 on his visit to the West Country. While he was on this trip, Southey received an anonymous poem, ‘The Poetic Epistle to Southey from his Cats’, which he liked and kept; it was later printed in <title>The Doctor</title>, 7 vols (London, 1834–1847), VII, pp. 580–582. Marriott is indeed the most likely author.</note> He was at the Kennaways<note n="10" place="foot" resp="editors">Sir John Kennaway, 1st Baronet (1758–1836), who made a fortune in the East India Company and became a landowner in Devonshire. Southey knew him through his son, Charles Edward Kennaway, who had visited Southey in the Lake District in 1819–1820. The Kennaway home, Escot House, is close to Ottery St Mary.</note> when I was introduced to <ref type="m" target="people.html#Gutch ">Gutch</ref>, – &#38; I believe he deals in that sort of sportive composition. Remember me to him if you fall in with him again, – &#38; pray enquire for his pupil M<hi rend="sup">r</hi> Caldicott<note n="11" place="foot" resp="editors">John Marriott’s sister, Elizabeth Marriott (c. 1776–1853), married Abraham Caldecott (1763–1829), who made a fortune in the East India Company and settled near Rugby. ‘M<hi rend="sup">r</hi> Caldicott’ was probably one of their six sons. The most likely candidate is William Marriott Caldecott (1801–1840), who obtained his BA from Oriel College, Oxford, in 1826 and was Stipendiary Curate of Claybrooke with Wibtoft 1826–1840.</note> – a very interesting young man who was upon crutches when I saw him, &#38; of whose recovery I should be truly glad to hear.</p>
-          <p rend="indent1">  Concerning the triangle I say nothing; – whether like the parrot <hi rend="ital">I think the more</hi>,<note n="12" place="foot" resp="editors">Robert Dodsley (1704–1764; <title>DNB</title>), <title>Select Fables of Esop and other Fabulists</title> (London, 1764), pp. 120–121, Fable XLV, ‘The Parrot’. This was a ‘modern fable’ about a man who bought a parrot on the grounds that it appeared wise, since it looked thoughtful and replied to the question about why it was uncommunicative by saying ‘I think the more’. Subsequently the man discovered that ‘I think the more’ was the full extent of the parrot’s vocabulary.</note> you may be left to imagine. Pap-paah! You will say at this. But when a young lady declares &#60;that&#62; her deliberate intention is to live single, suspicion will arise that it is the very farthest thing in the world from her meaning. And when speaking of two Horrors, she prays Heaven to defend her from both, – one <del>xxxx</del> naturally thinks of the song beginning How happy could I be with either, Were t’other dear charmer away.<note n="13" place="foot" resp="editors">John Gay (1685–1732; <title>DNB</title>), <title>The Beggar’s Opera</title> (1728), Act 2, scene 13, Air 35 (between lines 161–162).</note> – Pap-paah!</p>
-            <p rend="indent1">Our kindest remembrances to <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Browne</ref> &#38; Mary.<note n="14" place="foot" resp="editors">Mary Browne (1810–1892), daughter of Elizabeth Browne. She later married William Farwell (1806–1876), Rector of St Martin’s, Liskeard 1830–1876.</note> If I had the Boots<note n="15" place="foot" resp="editors">Peter Schlemihl, the main character in Adelbert von Chamisso (1781–1838), <title>Peter Schlemihls Wundersame Geschichte</title> (1814), had boots that allowed him to take strides of seven leagues.</note> I would be with you in eighteen steps, but what can I do in clogs which are the only wear for this dirty weather? <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> asks if you have received a long letter which was directed to Taunton – to meet you there.</p>
-            <p rend="indent1">  I am glad to hear of your drawing, – you have <del>x</del> the least apprehension that you will find home a dull place, with the employment which you can find for yourself, &#38; that which will be found for you. – Remember me to the Lightfoots<note n="16" place="foot" resp="editors"><ref type="m" target="people.html#LightfootNicholas">Nicolas Lightfoot</ref>, his wife Bridget nee Prideaux (b. 1778), and their children, <ref type="m" target="people.html#LightfootJohnP">John Prideaux Lightfoot</ref>; Frances Jane Lightfoot (1806–1882), Southey’s goddaughter; Catherine Anne Lightfoot (1808–1898); Bridget Mary Lightfoot (1810–1889); and Nicholas Francis Lightfoot (1811–1881), Vicar of Cadbury 1846–1855, Rector of Islip 1855–1881.</note> if you see any of them – I shall write to <ref type="m" target="people.html#LightfootNicholas">my good old friend</ref> in a few days. – I am very sorry to hear of <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Brownes</ref> anxiety concerning her friends whom the fever has attacked.<note n="17" place="foot" resp="editors">Unidentified.</note> The cold will probably prevent its spreading farther, tho it will not cut short its progress where the infection has been taken – I am very busy – tho you would not suppose so from this letter</p>
-           <closer><salute rend="salute1"> God bless you my dear child</salute>
-           <signed rend="indent2"> RS</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4266" type="letter">
+        <head>4266. Robert Southey to <ref type="a" target="people.html#SoutheyEdithMay">Edith May Southey</ref>, <date when="1824-10-20">20 October 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ Miss Southey/ with M<hi rend="sup">rs</hi> Wade Browne/ 5. Paris Street/ Exeter.<lb />
+               Stamped: KESWICK/ 298<lb />
+               Seal: [illegible]<lb />
+               MS: British Library, Add MS 47888. ALS; 4p. <lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>. </placeName>
+            </address>
+            <date when="1824-10-20">20 Oct. 1824</date>
+          </dateline>
+          <salute> My dear Edith May</salute>
+        </opener>
+        <p rend="indent1"> Your letter to <ref type="m" target="people.html#FrickerEdith">your mother</ref> has relieved our anxiety concerning poor Octo.<note n="1" place="foot" resp="editors">Octavius Warre Malet (1811&#8211;1891), eighth son of Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868) and Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>). Octavius Warre Malet served in the East India Company before retiring to Somerset in 1864, where he played a leading role in the restoration of Taunton Castle.</note> All this distress &amp; inconvenience may be traced to the <ref type="m" target="places.html#Streatham">Streatham</ref> hooping cough: &#8211; in fear of that cough, the two Winchester boys<note n="2" place="foot" resp="editors">Octavius Warre Malet and his younger brother, Alfred Augustus Malet (1814&#8211;1898), later a Captain in the 8th Regiment of Foot, were pupils at Winchester School.</note> past their last holydays at Worting<note n="3" place="foot" resp="editors">A village in Hampshire near to Manydown Park, the home of Catherine Hill and her family, the Bigg-Withers.</note> instead of at home, &#8211; &amp; there the elder must have taken the measles, which appeared after his return to school. &#8211; It is a fearful disorder, &amp; one which sometimes leaves long evils behind it.<note n="4" place="foot" resp="editors">Southey particularly feared measles as he had early memories of his sister Eliza&#8217;s death from the disease in 1779.</note>
+        </p>
+        <p rend="indent1">   I can give you no counsel concerning your movements, at this distance. Had Lady M. continued longer at Winchester, &amp; it had been desirable for you to have joined her, this might have been accomplished. I had it in charge from <ref type="m" target="people.html#BowlesCaroline">Miss Bowles</ref> to say that if you could be persuaded to take that direction, it would give her great pleasure to receive you both. There is a coach from Exeter which passes her door: &#8211; &amp; another which might have taken you up there &amp; conveyed you to Winchester, with only the inconvenience of getting from one coach into another at Southampton. &#8211; But Lady M&#8217;s movements set this aside, even if it should have fallen in with your wishes. &#8211; There is no certainty in getting from Taunton to London, only the daily chance of room in the North Devon Mail. &#8211; Yet if you knew <hi rend="ital">when</hi> you could find convoy from Exeter, the distance between that place &amp; Taunton is so easy, &amp; the conveyance so regular that the trouble of going &amp; returning would not be much, if you had set your heart upon seeing <ref type="m" target="people.html#SoutheyMary">Aunt Mary</ref>.
+            You will probably by this time know something of <ref type="m" target="people.html#GonneMrs">M<hi rend="sup">rs</hi> Gonne&#8217;s</ref> movements &amp; of <ref type="m" target="people.html#SoutheyLouisa">Louisa&#8217;s</ref> I have an enquiry for you from Amen Corner where <ref type="m" target="people.html#HughesMaryAnne">M<hi rend="sup">rs</hi> Hughes</ref> hopes to hear of you as soon as you return to town, &#8211; &amp; to see you.<note n="5" place="foot" resp="editors">When in London the Hughes family lived at the residentiary canon&#8217;s house, Amen Corner, sited to the west of St Paul&#8217;s Cathedral. Thomas Hughes had been a canon of St Paul&#8217;s since 1807. </note> They will only be there two months, &#8211; but if it suited your convenience, it might be arranged for you to land there on your arrival in town. &#8211; However I doubt not you will find your way thro all these petty difficulties. &#8211; <ref type="m" target="people.html#FrickerEdith">Your Mother</ref> desires you will take care of yourself, &amp; get rid if you can of colds &amp; rheumatism.</p>
+        <p rend="indent1"> This is a very grave, matter of fact sort of letter, but unluckily of no use or purport whatever, for it will not in any degree lessen your perplexity. &#8211; The probable end will be that you will be received in <ref type="m" target="places.html#QueenAnneSt">QAnne Street</ref>.</p>
+        <p rend="indent1"> Our weather has been as severe as yours, tho we read of snow in Devonshire before we saw it on the mountains. I never remember so cold an October. The first snow was on Sep<hi rend="sup">t</hi> 26 &#8211; three days earlier than it has been for two &amp; twenty years. It has been very stormy also, &#8211; &amp; is now as mild as could be wished, more so than, with so sudden a change can be wholesome. However thank God we are all well, nor has the season as yet been unhealthy here.</p>
+        <p rend="indent1">  I begin to wish for you &amp; <ref type="m" target="people.html#SoutheyBertha">Bertha</ref> a little impatiently, as if feeling that when one is past half a hundred years old, life is not long enough to afford such long absences. After supper every night I go dutifully to work upon those popular Danish traditions,<note n="6" place="foot" resp="editors">Possibly Just Mathias Thiele (1795&#8211;1874), <title>Danske Folkesagn</title> (1819&#8211;1823), though this work does not appear in the sale catalogue of Southey&#8217;s library.</note> &amp; as regularly cry out for <ref type="m" target="people.html#SoutheyEdithMay">Thrym</ref>.<note n="7" place="foot" resp="editors">A family nickname for Edith May Southey.</note> I am very much afraid <ref type="m" target="people.html#FeldborgAndreas">poor Hamlet</ref> is dead.<note n="8" place="foot" resp="editors">&#8216;Hamlet&#8217; was Southey&#8217;s name for Andreas Feldborg, as both he and the eponymous character in Shakespeare&#8217;s play were Danes. Feldborg was not dead. He had left Edinburgh for an extended Continental journey, before settling in G&#246;ttingen in 1828.</note> For the last letter which I wrote to him was returned from the Edinburgh Post Office many months after its date, &#8211; &amp; certain books which he was to have procured for me have never arrived</p>
+        <p rend="indent1"> M<hi rend="sup">r</hi> Marriott most likely <hi rend="ital">is</hi> the Cat-Poet.<note n="9" place="foot" resp="editors">John Marriott (1780&#8211;1825; <title>DNB</title>), clergyman, poet and friend of Walter Scott. He was Curate of St James, Exeter, St Lawrence, Exeter, and St John, Broadclyst. The patron of the latter church was Sir Thomas Acland, who was also a friend of Marriott. Southey had stayed with him on 6 January 1824 on his visit to the West Country. While he was on this trip, Southey received an anonymous poem, &#8216;The Poetic Epistle to Southey from his Cats&#8217;, which he liked and kept; it was later printed in <title>The Doctor</title>, 7 vols (London, 1834&#8211;1847), VII, pp. 580&#8211;582. Marriott is indeed the most likely author.</note> He was at the Kennaways<note n="10" place="foot" resp="editors">Sir John Kennaway, 1st Baronet (1758&#8211;1836), who made a fortune in the East India Company and became a landowner in Devonshire. Southey knew him through his son, Charles Edward Kennaway, who had visited Southey in the Lake District in 1819&#8211;1820. The Kennaway home, Escot House, is close to Ottery St Mary.</note> when I was introduced to <ref type="m" target="people.html#Gutch ">Gutch</ref>, &#8211; &amp; I believe he deals in that sort of sportive composition. Remember me to him if you fall in with him again, &#8211; &amp; pray enquire for his pupil M<hi rend="sup">r</hi> Caldicott<note n="11" place="foot" resp="editors">John Marriott&#8217;s sister, Elizabeth Marriott (c. 1776&#8211;1853), married Abraham Caldecott (1763&#8211;1829), who made a fortune in the East India Company and settled near Rugby. &#8216;M<hi rend="sup">r</hi> Caldicott&#8217; was probably one of their six sons. The most likely candidate is William Marriott Caldecott (1801&#8211;1840), who obtained his BA from Oriel College, Oxford, in 1826 and was Stipendiary Curate of Claybrooke with Wibtoft 1826&#8211;1840.</note> &#8211; a very interesting young man who was upon crutches when I saw him, &amp; of whose recovery I should be truly glad to hear.</p>
+        <p rend="indent1">  Concerning the triangle I say nothing; &#8211; whether like the parrot <hi rend="ital">I think the more</hi>,<note n="12" place="foot" resp="editors">Robert Dodsley (1704&#8211;1764; <title>DNB</title>), <title>Select Fables of Esop and other Fabulists</title> (London, 1764), pp. 120&#8211;121, Fable XLV, &#8216;The Parrot&#8217;. This was a &#8216;modern fable&#8217; about a man who bought a parrot on the grounds that it appeared wise, since it looked thoughtful and replied to the question about why it was uncommunicative by saying &#8216;I think the more&#8217;. Subsequently the man discovered that &#8216;I think the more&#8217; was the full extent of the parrot&#8217;s vocabulary.</note> you may be left to imagine. Pap-paah! You will say at this. But when a young lady declares &lt;that&gt; her deliberate intention is to live single, suspicion will arise that it is the very farthest thing in the world from her meaning. And when speaking of two Horrors, she prays Heaven to defend her from both, &#8211; one <del>xxxx</del> naturally thinks of the song beginning How happy could I be with either, Were t&#8217;other dear charmer away.<note n="13" place="foot" resp="editors">John Gay (1685&#8211;1732; <title>DNB</title>), <title>The Beggar&#8217;s Opera</title> (1728), Act 2, scene 13, Air 35 (between lines 161&#8211;162).</note> &#8211; Pap-paah!</p>
+        <p rend="indent1">Our kindest remembrances to <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Browne</ref> &amp; Mary.<note n="14" place="foot" resp="editors">Mary Browne (1810&#8211;1892), daughter of Elizabeth Browne. She later married William Farwell (1806&#8211;1876), Rector of St Martin&#8217;s, Liskeard 1830&#8211;1876.</note> If I had the Boots<note n="15" place="foot" resp="editors">Peter Schlemihl, the main character in Adelbert von Chamisso (1781&#8211;1838), <title>Peter Schlemihls Wundersame Geschichte</title> (1814), had boots that allowed him to take strides of seven leagues.</note> I would be with you in eighteen steps, but what can I do in clogs which are the only wear for this dirty weather? <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> asks if you have received a long letter which was directed to Taunton &#8211; to meet you there.</p>
+        <p rend="indent1">  I am glad to hear of your drawing, &#8211; you have <del>x</del> the least apprehension that you will find home a dull place, with the employment which you can find for yourself, &amp; that which will be found for you. &#8211; Remember me to the Lightfoots<note n="16" place="foot" resp="editors">
+            <ref type="m" target="people.html#LightfootNicholas">Nicolas Lightfoot</ref>, his wife Bridget nee Prideaux (b. 1778), and their children, <ref type="m" target="people.html#LightfootJohnP">John Prideaux Lightfoot</ref>; Frances Jane Lightfoot (1806&#8211;1882), Southey&#8217;s goddaughter; Catherine Anne Lightfoot (1808&#8211;1898); Bridget Mary Lightfoot (1810&#8211;1889); and Nicholas Francis Lightfoot (1811&#8211;1881), Vicar of Cadbury 1846&#8211;1855, Rector of Islip 1855&#8211;1881.</note> if you see any of them &#8211; I shall write to <ref type="m" target="people.html#LightfootNicholas">my good old friend</ref> in a few days. &#8211; I am very sorry to hear of <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Brownes</ref> anxiety concerning her friends whom the fever has attacked.<note n="17" place="foot" resp="editors">Unidentified.</note> The cold will probably prevent its spreading farther, tho it will not cut short its progress where the infection has been taken &#8211; I am very busy &#8211; tho you would not suppose so from this letter</p>
+        <closer>
+          <salute rend="salute1"> God bless you my dear child</salute>
+          <signed rend="indent2"> RS</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,137 +79,134 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4285Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4285Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4285" type="letter"><head>4285. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1824-11-26">26 November 1824 </date>
-            <note type="headnote" place="foot" resp="editors">Address: [in another hand] London Twenty Ninth Nov 1824/ Miss Bowles/ Buckland/ Lymington/ Hants/ Fm/ JRickman<lb/>
-               Postmark: FREE/ 29 NO 29/ 1824<lb/>
-               Endorsement: N<hi rend="sup">o</hi> 71 To Miss Caroline Bowles<lb/>
-               MS: British Library, Add MS 47889. ALS; 3p. <lb/>
-               Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 75–76.</note></head>
-            
-            
-            <opener><dateline> <address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1824-11-26"> 26 Nov. 1824</date></dateline></opener>
-            
-           <p rend="indent1"> The inclosure<note n="1" place="foot" resp="editors">The enclosure, an autograph of Southey’s in exchange for one of Alexander Pope’s (1688–1744; <title>DNB</title>), is no longer with the letter.</note> – as you will have guessed, – is for M<hi rend="sup">r</hi> S<hi rend="sup">t</hi> Barbe,<note n="2" place="foot" resp="editors">Charles St Barbe (1750–1826), a banker and salt manufacturer of Lymington, Hampshire, or his son, Charles St Barbe (1776–1849), a banker and antiquary.</note> – to whom you will give it with as civil an expression of thanks on my part as his civility deserves. – Pope’s handwriting I, literally speaking, should not have known from that of my Aunt, <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>.</p>
-           <p rend="indent1"> I reply thus immediately to your letter, that I may thank you, while the impression is fresh, <del>from</del> for the extract from Cap<hi rend="sup">t</hi> Medwin,<note n="3" place="foot" resp="editors">Thomas Medwin’s (1788–1869; <title>DNB</title>), <title>Journal of the Conversations of Lord Byron: Noted During a Residence with his Lordship at Pisa, in the Years 1821 and 1822</title> (1824).</note> of which otherwise I might long have remained in ignorance. Undoubtedly I shall notice it, – &#38; most probably as I did <ref type="m" target="people.html#Byron">his Lordships</ref> former attack, – by a letter in the newspapers;<note n="4" place="foot" resp="editors">Southey to the Editor of the Courier, 8 December 1824, Letter 4289, published 13 December 1824. The earlier letter was Southey to the Editor of the <title>Courier</title>, 5 January 1822, Letter 3776, published 11 January 1822, sent in response to the ‘Appendix’ to ‘The Two Foscari’, <title>Sardanapulus, A Tragedy. The Two Foscari, A Tragedy. Cain, A Mystery</title> (London, 1821), p. 328, in which Byron had cautioned: ‘I am not ignorant of Mr. Southey’s calumnies on a different occasion, knowing them to be such, which he scattered abroad on his return from Switzerland against me and others.’ Southey had visited Switzerland in his continental tour of May–August 1817. Byron believed that Southey had subsequently spread rumours that Byron and Shelley engaged in a ‘League of Incest’ during their residence in Switzerland in 1816.</note> – being the most summary method, &#38; that also whereby the most extensive circulation may be obtained. – Should you happen to have the book at <del>and</del> hand, tell me if there be in it any thing else which may seem to you to require any observation on my part. There will be plenty of time for this, – for it is of no importance whether my letter appear a week hence, or a fortnight, – or a month. – It is not for the sake of repelling an accusation that I notice these impudent lies, but for the sake of showing that those who have advanced them are impudent liars. – To what an extent they are so, you who have seen my correspondence with <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref>,<note n="5" place="foot" resp="editors">In a letter of 26 June 1820, Shelley had accused Southey of writing a hostile review of <title>Laon and Cythna, or the Revolution of the Golden City</title> (1818; published late 1817) and <title>The Revolt of Islam. A Poem, in Twelve Cantos</title> (1818); see Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 358–359. Southey responded with his letter to Percy Bysshe Shelley, [c. 29 July 1820], <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3517. Shelley replied in a letter to Southey, 17 August 1820, Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 361–363. Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3538 closed the correspondence.</note> know. – I am only sorry you have not a copy of it, – which you shall have one of these days. – It would not become me to publish it while there are any persons living who would be wounded by it: – as for such <hi rend="ital">dead</hi> as those to whom it refers, – I know of no respect or tenderness to which they are entitled. A dead dog is entitled to no more than a living one. It will come to light in due season. You remember Latimers saying “Well; there is nothing hid but it shall be opened.<note n="6" place="foot" resp="editors">John Watkins (d. c. 1831; <title>DNB</title>), <title>The Sermons of the Right Reverend Father in God, and Constant Martyr of Jesus Christ, Hugh Latimer, Some Time Bishop of Worcester</title>, 2 vols (London, 1824), I, p. cliv. Hugh Latimer (c. 1487–1555; <title>DNB</title>), Bishop of Worcester 1535–1539 and Protestant martyr was a favourite writer of Southey’s.</note></p>
-           <p rend="indent1"> Have you heard that Hobhouse printed a pamphlett in contradiction of some of Medwin’s statements,<note n="7" place="foot" resp="editors">John Cam Hobhouse (1786–1869; <title>DNB</title>), <title>Exposure of the Mis-statements Contained in Captain Medwin’s Pretended ‘Conversations of Lord Byron’</title> (1824). The pamphlet was suppressed, but its contents were widely known.</note> which he has been prevailed upon by his friends to suppress, because it would certainly bring in a duel. It seems he had given Medwin the lie there in plain terms. But it is <ref type="m" target="people.html#Byron">Lord B.</ref> &#38; not his Blunderbuss<note n="8" place="foot" resp="editors">Speaking of David Mallet’s (c. 1705–1765; <title>DNB</title>) edition of the <title>Works</title> (1754) of Henry St John, 1st Viscount Bolingbroke (1678–1751; <title>DNB</title>), Samuel Johnson (1709–1784; <title>DNB</title>) declared of Bolingbroke that ‘he was a scoundrel, and a coward: a scoundrel for charging a blunderbuss against religion and morality; a coward because he had not the resolution to fire it off himself, but left half a crown to a beggarly Scotchman, to draw the trigger after his death!’ (James Boswell (1740–1795; <title>DNB</title>), <title>Life of Samuel Johnson</title>, 3rd edn (London, 1799), p. 312). Southey used this precedent to describe Thomas Medwin (1788–1869; <title>DNB</title>), author of <title>Journal of the Conversations of Lord Byron: Noted During a Residence with his Lordship at Pisa, in the Years 1821 and 1822</title> (1824), as Byron’s ‘Blunderbuss’.</note> who is the liar. The Blunderbuss has only let off what it was charged with. – And this I should take care to say in my newspaper epistle.</p>
-           <p rend="indent1"> “Sick &#38; alone’ – are sad words in themselves, &#38; more so when they are so coupled. – If wishes would avail, you should be well &#38; here. – God bless you – </p>
-          <closer><signed rend="indent2">  RS.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4285" type="letter">
+        <head>4285. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1824-11-26">26 November 1824 </date>
+          <note type="headnote" place="foot" resp="editors">Address: [in another hand] London Twenty Ninth Nov 1824/ Miss Bowles/ Buckland/ Lymington/ Hants/ Fm/ JRickman<lb />
+               Postmark: FREE/ 29 NO 29/ 1824<lb />
+               Endorsement: N<hi rend="sup">o</hi> 71 To Miss Caroline Bowles<lb />
+               MS: British Library, Add MS 47889. ALS; 3p. <lb />
+               Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 75&#8211;76.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-11-26"> 26 Nov. 1824</date>
+          </dateline>
+        </opener>
+        <p rend="indent1"> The inclosure<note n="1" place="foot" resp="editors">The enclosure, an autograph of Southey&#8217;s in exchange for one of Alexander Pope&#8217;s (1688&#8211;1744; <title>DNB</title>), is no longer with the letter.</note> &#8211; as you will have guessed, &#8211; is for M<hi rend="sup">r</hi> S<hi rend="sup">t</hi> Barbe,<note n="2" place="foot" resp="editors">Charles St Barbe (1750&#8211;1826), a banker and salt manufacturer of Lymington, Hampshire, or his son, Charles St Barbe (1776&#8211;1849), a banker and antiquary.</note> &#8211; to whom you will give it with as civil an expression of thanks on my part as his civility deserves. &#8211; Pope&#8217;s handwriting I, literally speaking, should not have known from that of my Aunt, <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>.</p>
+        <p rend="indent1"> I reply thus immediately to your letter, that I may thank you, while the impression is fresh, <del>from</del> for the extract from Cap<hi rend="sup">t</hi> Medwin,<note n="3" place="foot" resp="editors">Thomas Medwin&#8217;s (1788&#8211;1869; <title>DNB</title>), <title>Journal of the Conversations of Lord Byron: Noted During a Residence with his Lordship at Pisa, in the Years 1821 and 1822</title> (1824).</note> of which otherwise I might long have remained in ignorance. Undoubtedly I shall notice it, &#8211; &amp; most probably as I did <ref type="m" target="people.html#Byron">his Lordships</ref> former attack, &#8211; by a letter in the newspapers;<note n="4" place="foot" resp="editors">Southey to the Editor of the Courier, 8 December 1824, Letter 4289, published 13 December 1824. The earlier letter was Southey to the Editor of the <title>Courier</title>, 5 January 1822, Letter 3776, published 11 January 1822, sent in response to the &#8216;Appendix&#8217; to &#8216;The Two Foscari&#8217;, <title>Sardanapulus, A Tragedy. The Two Foscari, A Tragedy. Cain, A Mystery</title> (London, 1821), p. 328, in which Byron had cautioned: &#8216;I am not ignorant of Mr. Southey&#8217;s calumnies on a different occasion, knowing them to be such, which he scattered abroad on his return from Switzerland against me and others.&#8217; Southey had visited Switzerland in his continental tour of May&#8211;August 1817. Byron believed that Southey had subsequently spread rumours that Byron and Shelley engaged in a &#8216;League of Incest&#8217; during their residence in Switzerland in 1816.</note> &#8211; being the most summary method, &amp; that also whereby the most extensive circulation may be obtained. &#8211; Should you happen to have the book at <del>and</del> hand, tell me if there be in it any thing else which may seem to you to require any observation on my part. There will be plenty of time for this, &#8211; for it is of no importance whether my letter appear a week hence, or a fortnight, &#8211; or a month. &#8211; It is not for the sake of repelling an accusation that I notice these impudent lies, but for the sake of showing that those who have advanced them are impudent liars. &#8211; To what an extent they are so, you who have seen my correspondence with <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref>,<note n="5" place="foot" resp="editors">In a letter of 26 June 1820, Shelley had accused Southey of writing a hostile review of <title>Laon and Cythna, or the Revolution of the Golden City</title> (1818; published late 1817) and <title>The Revolt of Islam. A Poem, in Twelve Cantos</title> (1818); see Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 358&#8211;359. Southey responded with his letter to Percy Bysshe Shelley, [c. 29 July 1820], <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3517. Shelley replied in a letter to Southey, 17 August 1820, Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 361&#8211;363. Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3538 closed the correspondence.</note> know. &#8211; I am only sorry you have not a copy of it, &#8211; which you shall have one of these days. &#8211; It would not become me to publish it while there are any persons living who would be wounded by it: &#8211; as for such <hi rend="ital">dead</hi> as those to whom it refers, &#8211; I know of no respect or tenderness to which they are entitled. A dead dog is entitled to no more than a living one. It will come to light in due season. You remember Latimers saying &#8220;Well; there is nothing hid but it shall be opened.<note n="6" place="foot" resp="editors">John Watkins (d. c. 1831; <title>DNB</title>), <title>The Sermons of the Right Reverend Father in God, and Constant Martyr of Jesus Christ, Hugh Latimer, Some Time Bishop of Worcester</title>, 2 vols (London, 1824), I, p. cliv. Hugh Latimer (c. 1487&#8211;1555; <title>DNB</title>), Bishop of Worcester 1535&#8211;1539 and Protestant martyr was a favourite writer of Southey&#8217;s.</note>
+        </p>
+        <p rend="indent1"> Have you heard that Hobhouse printed a pamphlett in contradiction of some of Medwin&#8217;s statements,<note n="7" place="foot" resp="editors">John Cam Hobhouse (1786&#8211;1869; <title>DNB</title>), <title>Exposure of the Mis-statements Contained in Captain Medwin&#8217;s Pretended &#8216;Conversations of Lord Byron&#8217;</title> (1824). The pamphlet was suppressed, but its contents were widely known.</note> which he has been prevailed upon by his friends to suppress, because it would certainly bring in a duel. It seems he had given Medwin the lie there in plain terms. But it is <ref type="m" target="people.html#Byron">Lord B.</ref> &amp; not his Blunderbuss<note n="8" place="foot" resp="editors">Speaking of David Mallet&#8217;s (c. 1705&#8211;1765; <title>DNB</title>) edition of the <title>Works</title> (1754) of Henry St John, 1st Viscount Bolingbroke (1678&#8211;1751; <title>DNB</title>), Samuel Johnson (1709&#8211;1784; <title>DNB</title>) declared of Bolingbroke that &#8216;he was a scoundrel, and a coward: a scoundrel for charging a blunderbuss against religion and morality; a coward because he had not the resolution to fire it off himself, but left half a crown to a beggarly Scotchman, to draw the trigger after his death!&#8217; (James Boswell (1740&#8211;1795; <title>DNB</title>), <title>Life of Samuel Johnson</title>, 3rd edn (London, 1799), p. 312). Southey used this precedent to describe Thomas Medwin (1788&#8211;1869; <title>DNB</title>), author of <title>Journal of the Conversations of Lord Byron: Noted During a Residence with his Lordship at Pisa, in the Years 1821 and 1822</title> (1824), as Byron&#8217;s &#8216;Blunderbuss&#8217;.</note> who is the liar. The Blunderbuss has only let off what it was charged with. &#8211; And this I should take care to say in my newspaper epistle.</p>
+        <p rend="indent1"> &#8220;Sick &amp; alone&#8217; &#8211; are sad words in themselves, &amp; more so when they are so coupled. &#8211; If wishes would avail, you should be well &amp; here. &#8211; God bless you &#8211; </p>
+        <closer>
+          <signed rend="indent2">  RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

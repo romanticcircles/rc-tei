@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,138 +79,136 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4080Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4080Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4080" type="letter"><head>4080. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-11-02">2 November 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: [in another hand] London Fifth Nov 1823/ Miss Bowles/ Buckland/ Lymington/ Hants/ Fm Rickman<lb/>
-Postmark: FREE/ 5 NO 5/ 1823<lb/>
-Endorsement: N<hi rend="sup">o</hi> 35 To Miss Caroline Bowles/ Keswick 2 Nov<hi rend="sup">r</hi> 1823<lb/>
-MS: British Library, Add MS 47889. ALS; 3p. <lb/>
-Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 40–41 [in part].</note></head>
-
-
-            <p rend="indent1">I once declared in a poem that I never put out the eye of a Cyclops;<note n="1" place="foot" resp="editors">Southey’s unpublished ‘Ode’, line 15; see Southey to Daniel Stuart, 19 December 1799, <title>The Collected Letters of Robert Southey. Part Two</title>, Letter 464. In Greek mythology the Cyclops were a race of one-eyed giants.</note> &#38; I now declare with equal sincerity that I never offered any outrage to the nose of Sir Cloudesly Shovel.<note n="2" place="foot" resp="editors">In the south aisle of Westminster Abbey there is a huge marble monument to Admiral Sir Cloudesley Shovell (1650–1707; <title>DNB</title>). Its nose is intact. However, in ‘Letter of Elia to Robert Southey, Esquire’, <title>London Magazine</title>, 8 (October 1823), 406–407, Lamb had mischievously asked Southey whether he knew anything about the mutilation of the monument, in the nave of Westminster Abbey, of Major John André (1751–1780; <title>DNB</title>), a British officer hanged as a spy by the American revolutionaries. Lamb alleged that the nose was broken off a figure on the monument at the time that Southey was at Westminster School (1788–1792).</note></p>
-            <p rend="indent1">You have a good heart, &#38; it stands you in good stead. Would that some of my family had a portion of your courage. But the truth is that your Job’s comforters<note n="3" place="foot" resp="editors">From the <title>Book of Job</title>, where Job is afflicted by God, but the comfort provided by his friends only makes him feel worse.</note> are as unwise in entertaining their fears as they are in communicating them.<note n="4" place="foot" resp="editors">Caroline Bowles’s outhouses had been robbed and she was worried about the prospect of prosecuting the offenders at Winchester Assizes.</note> There is danger in acting against smugglers &#38; poachers, because smugglers &#38; poachers think they have natural justice on their side, &#38; have some show of reason for thinking so: they therefore think themselves aggrieved when they are prosecuted for their illicit practises, &#38; feel as if they had a right to revenge themselves upon any one who has taken part against them. But this is not the case with those who have committed a breach of the moral law: they are self-convicted of a known sin, &#38; here in England not even a Bow Street Officer<note n="5" place="foot" resp="editors">Professional police officers based at Bow Street magistrates court since 1753.</note> has ever suffered the slightest injury from after-revenge, – tho some times very serious ones in the discharge of their duty. – You may therefore sleep in peace. – Perhaps it <del>may</del> &#60;would&#62; lessen in some little degree the unpleasantness of your appearance at Winchester, if you had any acquaintance there; – &#38; I can very well introduce you to <ref type="m" target="people.html#HillCatherine">M<hi rend="sup">rs</hi> Hill’s</ref> sisters<note n="6" place="foot" resp="editors">Elizabeth Heathcote (1773–1855) and Alethea Bigg (1777–1847), two sisters of Catherine Hill, who shared a house at 12 Cathedral Close, Winchester.</note> who reside in that city. But I shall see you before that time; &#38; persuade you, I hope, not only <hi rend="ital">almost</hi>, but wholly, that there are yet hopes &#38; enjoyments in store for you in this world.</p>
-            <p rend="indent1">Before this reaches you I shall be far on my journey. I am now in all the disquiet &#38; discomfort of preparing for it. We depart on Monday, &#38; if the weather permit us to see all we purpose seeing on the way, it will be just a week before we arrive at Cole Orton. Direct to me at <ref type="m" target="people.html#SoutheyHenryHerbert">my brothers</ref> in <ref type="m" target="places.html#QueenAnneSt">Q Anne Street</ref>, &#38; remember that a letter from you will always be a pleasure to me. Tell me what stages pass thro Lymington by which I can find my way from the West: I shall be coming from Exeter, most likely just after Xmas, – but of course you shall be acquainted with my movements. My time <hi rend="ital">must</hi> be short, – &#38; yet I am sure you will believe me when I say that were inclination alone to be consulted I know not how long it might prove. The work which I carry with me in an unfinished state,<note n="7" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> – or rather which I have to do must be done at <ref type="m" target="places.html#Streatham">Streatham</ref> before my departure <del>xxx</del> for the West, because it will be wanted for the press. And if this were not the case what inclination should I have to spend <del>my</del> &#60;that&#62; time in composition, which is to be past with you? To be put in the call of silence then would be to endure penance indeed.</p>
-            <p rend="indent1">This has remained unfinished till the last minute. It is now Sunday night, – my table sadly disfurnished, every thing packed, &#38; my last dispatches on the wing. God bless you</p>
-            <closer><salute rend="indent1">yrs affectionately</salute>
-		<signed rend="indent2">RS.</signed></closer>
-<lb/>
-<postscript><p rend="indent0"><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName> </address><date when="1823-11-02">2 Nov. 1823</date></p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4080" type="letter">
+        <head>4080. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1823-11-02">2 November 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: [in another hand] London Fifth Nov 1823/ Miss Bowles/ Buckland/ Lymington/ Hants/ Fm Rickman<lb />
+Postmark: FREE/ 5 NO 5/ 1823<lb />
+Endorsement: N<hi rend="sup">o</hi> 35 To Miss Caroline Bowles/ Keswick 2 Nov<hi rend="sup">r</hi> 1823<lb />
+MS: British Library, Add MS 47889. ALS; 3p. <lb />
+Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 40&#8211;41 [in part].</note>
+        </head>
+        <p rend="indent1">I once declared in a poem that I never put out the eye of a Cyclops;<note n="1" place="foot" resp="editors">Southey&#8217;s unpublished &#8216;Ode&#8217;, line 15; see Southey to Daniel Stuart, 19 December 1799, <title>The Collected Letters of Robert Southey. Part Two</title>, Letter 464. In Greek mythology the Cyclops were a race of one-eyed giants.</note> &amp; I now declare with equal sincerity that I never offered any outrage to the nose of Sir Cloudesly Shovel.<note n="2" place="foot" resp="editors">In the south aisle of Westminster Abbey there is a huge marble monument to Admiral Sir Cloudesley Shovell (1650&#8211;1707; <title>DNB</title>). Its nose is intact. However, in &#8216;Letter of Elia to Robert Southey, Esquire&#8217;, <title>London Magazine</title>, 8 (October 1823), 406&#8211;407, Lamb had mischievously asked Southey whether he knew anything about the mutilation of the monument, in the nave of Westminster Abbey, of Major John Andr&#233; (1751&#8211;1780; <title>DNB</title>), a British officer hanged as a spy by the American revolutionaries. Lamb alleged that the nose was broken off a figure on the monument at the time that Southey was at Westminster School (1788&#8211;1792).</note>
+        </p>
+        <p rend="indent1">You have a good heart, &amp; it stands you in good stead. Would that some of my family had a portion of your courage. But the truth is that your Job&#8217;s comforters<note n="3" place="foot" resp="editors">From the <title>Book of Job</title>, where Job is afflicted by God, but the comfort provided by his friends only makes him feel worse.</note> are as unwise in entertaining their fears as they are in communicating them.<note n="4" place="foot" resp="editors">Caroline Bowles&#8217;s outhouses had been robbed and she was worried about the prospect of prosecuting the offenders at Winchester Assizes.</note> There is danger in acting against smugglers &amp; poachers, because smugglers &amp; poachers think they have natural justice on their side, &amp; have some show of reason for thinking so: they therefore think themselves aggrieved when they are prosecuted for their illicit practises, &amp; feel as if they had a right to revenge themselves upon any one who has taken part against them. But this is not the case with those who have committed a breach of the moral law: they are self-convicted of a known sin, &amp; here in England not even a Bow Street Officer<note n="5" place="foot" resp="editors">Professional police officers based at Bow Street magistrates court since 1753.</note> has ever suffered the slightest injury from after-revenge, &#8211; tho some times very serious ones in the discharge of their duty. &#8211; You may therefore sleep in peace. &#8211; Perhaps it <del>may</del> &lt;would&gt; lessen in some little degree the unpleasantness of your appearance at Winchester, if you had any acquaintance there; &#8211; &amp; I can very well introduce you to <ref type="m" target="people.html#HillCatherine">M<hi rend="sup">rs</hi> Hill&#8217;s</ref> sisters<note n="6" place="foot" resp="editors">Elizabeth Heathcote (1773&#8211;1855) and Alethea Bigg (1777&#8211;1847), two sisters of Catherine Hill, who shared a house at 12 Cathedral Close, Winchester.</note> who reside in that city. But I shall see you before that time; &amp; persuade you, I hope, not only <hi rend="ital">almost</hi>, but wholly, that there are yet hopes &amp; enjoyments in store for you in this world.</p>
+        <p rend="indent1">Before this reaches you I shall be far on my journey. I am now in all the disquiet &amp; discomfort of preparing for it. We depart on Monday, &amp; if the weather permit us to see all we purpose seeing on the way, it will be just a week before we arrive at Cole Orton. Direct to me at <ref type="m" target="people.html#SoutheyHenryHerbert">my brothers</ref> in <ref type="m" target="places.html#QueenAnneSt">Q Anne Street</ref>, &amp; remember that a letter from you will always be a pleasure to me. Tell me what stages pass thro Lymington by which I can find my way from the West: I shall be coming from Exeter, most likely just after Xmas, &#8211; but of course you shall be acquainted with my movements. My time <hi rend="ital">must</hi> be short, &#8211; &amp; yet I am sure you will believe me when I say that were inclination alone to be consulted I know not how long it might prove. The work which I carry with me in an unfinished state,<note n="7" place="foot" resp="editors">Southey&#8217;s <title>The Book of the Church</title> (1824).</note> &#8211; or rather which I have to do must be done at <ref type="m" target="places.html#Streatham">Streatham</ref> before my departure <del>xxx</del> for the West, because it will be wanted for the press. And if this were not the case what inclination should I have to spend <del>my</del> &lt;that&gt; time in composition, which is to be past with you? To be put in the call of silence then would be to endure penance indeed.</p>
+        <p rend="indent1">This has remained unfinished till the last minute. It is now Sunday night, &#8211; my table sadly disfurnished, every thing packed, &amp; my last dispatches on the wing. God bless you</p>
+        <closer>
+          <salute rend="indent1">yrs affectionately</salute>
+          <signed rend="indent2">RS.</signed>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="indent0">
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1823-11-02">2 Nov. 1823</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

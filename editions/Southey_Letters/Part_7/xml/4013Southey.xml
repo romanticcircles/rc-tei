@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,141 +79,139 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4013Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4013Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4013" type="letter"><head>4013. Robert Southey to <ref type="a" target="people.html#LandorWalterSavage">Walter Savage Landor</ref>, <date when="1823-05-08">8 May 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ Walter Savage Landor Esq<hi rend="sup">re_</hi>/ Florence/ Italy<lb/>
-Stamped: KESWICK/ 298; ANGLETERRE; CHAMBERY; CORRISP<hi rend="sup">ZA</hi> ESTERA DA GENOA<lb/>
-Postmarks: [partial] F/ 23; 28/ MAGGIA<lb/>
-MS: National Art Library, London, MS Forster 48 D.32 MS 40. ALS; 4p.<lb/>
-Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 388–390.</note></head>
-
-
-<opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1823-05-08">8 May. 1823</date></dateline></opener>
-
-            <p rend="indent1">Your letter arrived this day, &#38; yesterday I received &#38; answered one from <ref type="m" target="people.html#HareJulius ">Julius Hare</ref> concerning your Dialogues.<note n="1" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> The purport of his was to say that <ref type="m" target="people.html#TaylorJohn">Taylor</ref> (a man I believe very superior to most of his trade) demurred upon grounds of principle to certain passages, &#38; had, after some previous correspondence with him proposed that either I or <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> should see the proofs, &#38; if we approved of what he condemnd he would be bound by our decision. – <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> is gone to the Netherlands, &#38; I replied without hesitation that I would most willingly take upon myself this responsibility, &#38; <del>expunge whatever</del> act for you in this matter as you would act by me, – taking care that wherever there was an omission the place should be marked.</p>
-            <p rend="indent1"><ref type="m" target="people.html#LongmanThomas">Longman</ref> was desired in December to send you my own<note n="2" place="foot" resp="editors">Southey’s <title>A Vision of Judgement</title> (1821); <title>History of the Peninsular War</title> (1823–1832); <title>The Expedition of Orsua; and the Crimes of Aguirre</title> (1821), originally intended to be part of the <title>History of Brazil</title> and first printed in <title>Edinburgh Annual Register, for 1810</title>, 3.2 (1812), i–l; and a combined second edition of <title>Carmen Triumphale</title> (1814) and <title>Congratulatory Odes. Odes to His Royal Highness the Prince Regent, His Imperial Majesty the Emperor of Russia, and His Majesty the King of Prussia</title> (1814), published as <title>Carmen Triumphale, for the Commencement of the Year 1814: Carmen Aulica, Written in 1814, on the Arrival of the Allied Sovereigns in England</title> (1821).</note> &#38; <ref type="m" target="people.html#WordsworthWilliam">Wordsworths</ref> books,<note n="3" place="foot" resp="editors">William Wordsworth, <title>Ecclesiastical Sketches</title> (1822) and <title>Memorials of a Tour on the Continent, 1820</title> (1822).</note> &#38; Humboldts Travels,<note n="4" place="foot" resp="editors">Alexander von Humboldt (1769–1859), <title>Personal Narrative of Travels to the Equinoctial Regions of the New Continent During the Years 1799–1804</title> (1814–1826), no. 1463 in the sale catalogue of Southey’s library; and <title>Researches Concerning the Institutions and Monuments of the Ancient Inhabitants of America, with Descriptions and Views of Some of the Most Striking Scenes in the Cordilleras</title> (1814).</note> – he has never told me by what vessel they are sent, which he ought to have done, – but they should have reached you long ere this.</p>
-            <p rend="indent1">I long to see these Dialogues. Upon the question of Catholicism we shall entirely agree. There is a chapter upon the subject in my forth coming view of our Ecclesiastical History,<note n="5" place="foot" resp="editors">Chapter 10 of <title>The Book of the Church</title>, 2 vols (London, 1824), I, pp. 292–330.</note> – &#38; whatever effect we may produce upon those who are more than moderately inclined to this base &#38; grovelling superstition (as you say <ref type="m" target="people.html#HareJulius ">M<hi rend="sup">r</hi> Hare</ref> is) I think we shall produce some upon those who at present are less than moderately acquainted with its real character. Yet I regret some of its parts.</p>
-            <p rend="indent1">Your specimen is delightful. <ref type="m" target="people.html#HareJulius ">Julius Hare</ref> indeed speaks of the whole just in such terms as I should expect it to deserve. Upon one great question, that of the improvement of nations thro their governments, I <del>believe</del> think that were I in Italy I should approach nearer to you, &#38; were you in England, or in America you would draw nearer to me. The struggle at present <del>if</del> is between two extremes, both so bad, that if a wish of mine could incline the beam, I should not know in which scale to <del>x</del> cast it.</p>
-            <p rend="indent1">My first volume is wormwood to the Foxites, &#38; not more palatable to the worshippers of M<hi rend="sup">r</hi> Pitt.<note n="6" place="foot" resp="editors">The first volume of Southey’s <title>History of the Peninsular War</title> (1823–1832). It contained much criticism of the Whigs, whose leader had been Charles James Fox (1749–1806; <title>DNB</title>), for opposing British intervention to help repel the Spanish invaders; but it also did not support every decision made by the government, whose supporters had been led by William Pitt (1759–1806; <title>DNB</title>), Prime Minister 1783–1801, 1804–1806.</note> I think there is not one feeling expressed in it with which you will not concur. The <del>op</del> single opinion in which you are likely to dissent from me is one which is derived from observation, – in opposition to my wishes, – that old despotisms can better be modified by a single will than by a popular assembly; &#38; that in such countries as Spain &#38; Portugal, a despotic minister (like Pombal)<note n="7" place="foot" resp="editors">Sebastião José de Carvalho e Melo, 1st Marquis of Pombal (1699–1782), Prime Minister of Portugal 1750–1777.</note> acting in conformity to the spirit of the age, is the reformer to be wished for. I would have governments reformed, as Cranmer<note n="8" place="foot" resp="editors">Thomas Cranmer (1489–1556; <title>DNB</title>), Archbishop of Canterbury 1533–1555 and architect of the English Reformation.</note> would in all points, &#38; did in most, reform the Church of England. But let individuals &#38; communities err as they may, it is apparent that upon the great scale mankind are improving. But this too may appear differently in Italy from what it does in England.</p>
-            <p rend="indent1">I am glad to hear of your <del>England</del> children.<note n="9" place="foot" resp="editors">Arnold Savage Landor (1818–1871); Julia Elisabeth Savage Landor (1820–1884); and Walter Savage Landor (1822–1899). They were followed by Charles Savage Landor (1825–1917).</note> Till we become parents we know not the treasures of our own nature, – &#38; what we then discover may make us believe that there yet latent affections &#38; faculties which another state of existence may develope. <ref type="m" target="people.html#SoutheyCharlesCuthbert">My boy</ref> is now beginning his fifth year, &#38; is thank God, flourishing &#38; promising as I could wish. <ref type="m" target="people.html#SoutheyEdithMay">My eldest daughter</ref> is a young woman, taller than <ref type="m" target="people.html#FrickerEdith">her mother</ref>. Time has set his mark upon me, but lays his hand gently, – as yet he has taken nothing from me but the inclination for writing poetry, &#38; threatens nothing at present but my grinders, which he is attacking by regular [MS torn]proaches, sapping &#38; mining. Last summer I was severely shaken by an annual catarrh which for many years has taken up its quarters with me for the whole summer, &#38; last year effected a lodgement in my chest. Since it departed I have used more exercise &#38; a more generous diet, &#38; have kept in better condition during the winter than for the last seven years.</p>
-            <p rend="indent1">My Colloquies<note n="10" place="foot" resp="editors"><title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title> (1829).</note> have long been stationary. Yours will give them a fillip, – as far as they have proceeded I am well pleased with them. My Book of the Church will be published in about ten weeks, – perhaps in time to be forwarded to you with your own book.</p>
-            <closer><salute rend="indent3">God bless you</salute>
-					<signed rend="indent5">RS.</signed></closer>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4013" type="letter">
+        <head>4013. Robert Southey to <ref type="a" target="people.html#LandorWalterSavage">Walter Savage Landor</ref>, <date when="1823-05-08">8 May 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ Walter Savage Landor Esq<hi rend="sup">re_</hi>/ Florence/ Italy<lb />
+Stamped: KESWICK/ 298; ANGLETERRE; CHAMBERY; CORRISP<hi rend="sup">ZA</hi> ESTERA DA GENOA<lb />
+Postmarks: [partial] F/ 23; 28/ MAGGIA<lb />
+MS: National Art Library, London, MS Forster 48 D.32 MS 40. ALS; 4p.<lb />
+Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 388&#8211;390.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1823-05-08">8 May. 1823</date>
+          </dateline>
+        </opener>
+        <p rend="indent1">Your letter arrived this day, &amp; yesterday I received &amp; answered one from <ref type="m" target="people.html#HareJulius ">Julius Hare</ref> concerning your Dialogues.<note n="1" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> The purport of his was to say that <ref type="m" target="people.html#TaylorJohn">Taylor</ref> (a man I believe very superior to most of his trade) demurred upon grounds of principle to certain passages, &amp; had, after some previous correspondence with him proposed that either I or <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> should see the proofs, &amp; if we approved of what he condemnd he would be bound by our decision. &#8211; <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> is gone to the Netherlands, &amp; I replied without hesitation that I would most willingly take upon myself this responsibility, &amp; <del>expunge whatever</del> act for you in this matter as you would act by me, &#8211; taking care that wherever there was an omission the place should be marked.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#LongmanThomas">Longman</ref> was desired in December to send you my own<note n="2" place="foot" resp="editors">Southey&#8217;s <title>A Vision of Judgement</title> (1821); <title>History of the Peninsular War</title> (1823&#8211;1832); <title>The Expedition of Orsua; and the Crimes of Aguirre</title> (1821), originally intended to be part of the <title>History of Brazil</title> and first printed in <title>Edinburgh Annual Register, for 1810</title>, 3.2 (1812), i&#8211;l; and a combined second edition of <title>Carmen Triumphale</title> (1814) and <title>Congratulatory Odes. Odes to His Royal Highness the Prince Regent, His Imperial Majesty the Emperor of Russia, and His Majesty the King of Prussia</title> (1814), published as <title>Carmen Triumphale, for the Commencement of the Year 1814: Carmen Aulica, Written in 1814, on the Arrival of the Allied Sovereigns in England</title> (1821).</note> &amp; <ref type="m" target="people.html#WordsworthWilliam">Wordsworths</ref> books,<note n="3" place="foot" resp="editors">William Wordsworth, <title>Ecclesiastical Sketches</title> (1822) and <title>Memorials of a Tour on the Continent, 1820</title> (1822).</note> &amp; Humboldts Travels,<note n="4" place="foot" resp="editors">Alexander von Humboldt (1769&#8211;1859), <title>Personal Narrative of Travels to the Equinoctial Regions of the New Continent During the Years 1799&#8211;1804</title> (1814&#8211;1826), no. 1463 in the sale catalogue of Southey&#8217;s library; and <title>Researches Concerning the Institutions and Monuments of the Ancient Inhabitants of America, with Descriptions and Views of Some of the Most Striking Scenes in the Cordilleras</title> (1814).</note> &#8211; he has never told me by what vessel they are sent, which he ought to have done, &#8211; but they should have reached you long ere this.</p>
+        <p rend="indent1">I long to see these Dialogues. Upon the question of Catholicism we shall entirely agree. There is a chapter upon the subject in my forth coming view of our Ecclesiastical History,<note n="5" place="foot" resp="editors">Chapter 10 of <title>The Book of the Church</title>, 2 vols (London, 1824), I, pp. 292&#8211;330.</note> &#8211; &amp; whatever effect we may produce upon those who are more than moderately inclined to this base &amp; grovelling superstition (as you say <ref type="m" target="people.html#HareJulius ">M<hi rend="sup">r</hi> Hare</ref> is) I think we shall produce some upon those who at present are less than moderately acquainted with its real character. Yet I regret some of its parts.</p>
+        <p rend="indent1">Your specimen is delightful. <ref type="m" target="people.html#HareJulius ">Julius Hare</ref> indeed speaks of the whole just in such terms as I should expect it to deserve. Upon one great question, that of the improvement of nations thro their governments, I <del>believe</del> think that were I in Italy I should approach nearer to you, &amp; were you in England, or in America you would draw nearer to me. The struggle at present <del>if</del> is between two extremes, both so bad, that if a wish of mine could incline the beam, I should not know in which scale to <del>x</del> cast it.</p>
+        <p rend="indent1">My first volume is wormwood to the Foxites, &amp; not more palatable to the worshippers of M<hi rend="sup">r</hi> Pitt.<note n="6" place="foot" resp="editors">The first volume of Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832). It contained much criticism of the Whigs, whose leader had been Charles James Fox (1749&#8211;1806; <title>DNB</title>), for opposing British intervention to help repel the Spanish invaders; but it also did not support every decision made by the government, whose supporters had been led by William Pitt (1759&#8211;1806; <title>DNB</title>), Prime Minister 1783&#8211;1801, 1804&#8211;1806.</note> I think there is not one feeling expressed in it with which you will not concur. The <del>op</del> single opinion in which you are likely to dissent from me is one which is derived from observation, &#8211; in opposition to my wishes, &#8211; that old despotisms can better be modified by a single will than by a popular assembly; &amp; that in such countries as Spain &amp; Portugal, a despotic minister (like Pombal)<note n="7" place="foot" resp="editors">Sebasti&#227;o Jos&#233; de Carvalho e Melo, 1st Marquis of Pombal (1699&#8211;1782), Prime Minister of Portugal 1750&#8211;1777.</note> acting in conformity to the spirit of the age, is the reformer to be wished for. I would have governments reformed, as Cranmer<note n="8" place="foot" resp="editors">Thomas Cranmer (1489&#8211;1556; <title>DNB</title>), Archbishop of Canterbury 1533&#8211;1555 and architect of the English Reformation.</note> would in all points, &amp; did in most, reform the Church of England. But let individuals &amp; communities err as they may, it is apparent that upon the great scale mankind are improving. But this too may appear differently in Italy from what it does in England.</p>
+        <p rend="indent1">I am glad to hear of your <del>England</del> children.<note n="9" place="foot" resp="editors">Arnold Savage Landor (1818&#8211;1871); Julia Elisabeth Savage Landor (1820&#8211;1884); and Walter Savage Landor (1822&#8211;1899). They were followed by Charles Savage Landor (1825&#8211;1917).</note> Till we become parents we know not the treasures of our own nature, &#8211; &amp; what we then discover may make us believe that there yet latent affections &amp; faculties which another state of existence may develope. <ref type="m" target="people.html#SoutheyCharlesCuthbert">My boy</ref> is now beginning his fifth year, &amp; is thank God, flourishing &amp; promising as I could wish. <ref type="m" target="people.html#SoutheyEdithMay">My eldest daughter</ref> is a young woman, taller than <ref type="m" target="people.html#FrickerEdith">her mother</ref>. Time has set his mark upon me, but lays his hand gently, &#8211; as yet he has taken nothing from me but the inclination for writing poetry, &amp; threatens nothing at present but my grinders, which he is attacking by regular [MS torn]proaches, sapping &amp; mining. Last summer I was severely shaken by an annual catarrh which for many years has taken up its quarters with me for the whole summer, &amp; last year effected a lodgement in my chest. Since it departed I have used more exercise &amp; a more generous diet, &amp; have kept in better condition during the winter than for the last seven years.</p>
+        <p rend="indent1">My Colloquies<note n="10" place="foot" resp="editors">
+            <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title> (1829).</note> have long been stationary. Yours will give them a fillip, &#8211; as far as they have proceeded I am well pleased with them. My Book of the Church will be published in about ten weeks, &#8211; perhaps in time to be forwarded to you with your own book.</p>
+        <closer>
+          <salute rend="indent3">God bless you</salute>
+          <signed rend="indent5">RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

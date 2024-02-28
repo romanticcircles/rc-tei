@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,144 +79,147 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4166Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4166Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4166" type="letter"><head>4166. Robert Southey to <ref type="a" target="people.html#ElmsleyPeter">Peter Elmsley</ref>, <date when="1824-04-03">3 April 1824</date>
-            <note type="headnote" place="foot" resp="editors">MS: Westminster School. ALS; 4p.<lb/>
-               Previously published: Nicholas Horsfall, ‘Four Unpublished Letters of Robert Southey’, <title>Notes and Queries</title>, 22.9 (September 1975), 402–403.</note></head>
-            
-            
-            <opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address> <date when="1824-04-03">3<hi rend="sup">d</hi> April. 1824</date></dateline>
-            
-          <salute>  My dear Elmsley</salute></opener>
-          <p rend="indent1">  Unluckily for me there prevails an opinion that I am a person of great interest, &#38; can assist any body in any line of life. And what is more to be regretted is, that among many troublesome <del>interxx</del> applications, &#38; not a few impertinent ones, others occasionally occur which make me really wish it were in my power to befriend the applicant.</p>
-            <p rend="indent1">Some years ago a youth for whom I was much interested (<ref type="m" target="people.html#DusautoyJames">Dusautoy</ref> was his name) was cut off by the fever at Cambridge. Both his genius &#38; his attainments were very great, &#38; beyond all doubt if he had lived he would have been a most distinguished person. He was one of a large family, the parents of which (the father is a half pay officer)<note n="1" place="foot" resp="editors">James Du Sautoy (1761–1859) had retired as a Lieutenant in the Royal Marines in 1798 and was barrack-master of the cavalry at Totnes 1803–1822; his wife was Mary Du Sautoy, née Hinton (d. 1851).</note> have endeavoured by the strictest economy to give their sons those advantages which would be well disposed upon such subjects. One of the sons<note n="2" place="foot" resp="editors">Frederick Dusautoy (c. 1802–1891), younger brother of James Dusautoy. He was admitted as a sizar (i.e. a student receiving financial assistance in return for set duties) at Queen’s College, Cambridge, on 5 July 1824. He graduated BA 1828 and MA 1831, was a Fellow of his College 1830–1835 and became a clergyman. After a long series of curacies, he became Vicar of Mark, near Bridgwater, 1860–1891. Dusautoy also published on a wide range of subjects, including geology.</note> applied to me lately to get him entered as a sizer at Cambridge. I tried without success,<note n="3" place="foot" resp="editors">Robert Southey to [Samuel Tillbrook], [c. March 1824], Letter 4147.</note> – there is no vacancy for two years at the College where <del>my interes</del> application was made,<note n="4" place="foot" resp="editors">Emmanuel College, Cambridge, where James Dusautoy was a student 1813–1815.</note> – &#38; the two tutors of that College who knew &#38; esteemd his poor brother – (Blomfield<note n="5" place="foot" resp="editors">Edward Valentine Blomfield (1788–1816; <title>DNB</title>), a classical scholar and Fellow of Emmanuel College, Cambridge. The other tutor was probably William Augustus Pemberton (1773–1816), a clergyman and Registrar of Cambridge University 1809–1816, who is the only other Fellow of the College who died in the period 1813–1824 and has a monument in the College’s cloister.</note> was one) – are buried in the same cloysters with him. – He is nearly 26, &#38; of course cannot wait.</p>
-           <p rend="indent1"> Can you procure a Bible-Clerkship<note n="6" place="foot" resp="editors">Bible Clerks were students at Oxford University who received benefits such as reduced fees or free meals in return for set duties, such as reading aloud chapters from the Bible at meals or in chapel.</note> for him, – or any thing which might contribute to his support? – Devonshire is his county.</p>
-          <p rend="indent1">  I think it is <ref type="m" target="people.html#HeberReginald">Reginald Heber</ref> who has in one of his writings vindicated the Oxford system of servitorship.<note n="7" place="foot" resp="editors">Reginald Heber, <title>The Whole Works of the Right Rev. Jeremy Taylor, D.D. Lord Bishop of Down, Connor and Dromore: with A Life of the Author, and A Critical Examination of his Writings</title>, 15 vols (London, 1822), I, p. vii–ix, no. 2782 in the sale catalogue of Southey’s library. The term ‘Bible Clerk’ had come into use in preference to that of ‘servitor’, as the duties attached to this role had, in the past, included acting as a servant to other students, and wearing a distinctive plain black gown and round hat.</note> His arguments seem to me just – if the same state of feeling existed now upon that subject, as prevailed two or three centuries ago. In this respect the system at Cambridge is very much better</p>
-          <p rend="indent1">  Can you tell me whether Francis Bugg<note n="8" place="foot" resp="editors">Francis Bugg (1640–1727; <title>DNB</title>). His collection of over 400 Quaker tracts and books was acquired by Henry Aldrich (1647–1710), Dean of Christ Church, and presented to the College in 1700.</note> (of unhappy name) left his collection of Quaker books to the Library at Ch. Ch. as he said he intended to do? – My designs upon George Fox<note n="9" place="foot" resp="editors">George Fox (1624–1691; <title>DNB</title>), the founder of Quakerism. Southey intended to write an account of his life but did not do so.</note> have, as you may suppose, excited a stir throughout all Quakerdom.</p>
-          <p rend="indent1">  You should have given a portrait of South with your edition of his Sermons.<note n="10" place="foot" resp="editors">A new edition by the Clarendon Press, Oxford, of <title>Sermons Preached upon Several Occasions, by Robert South, D.D., Prebendary of Westminster, and Canon of Christ Church, Oxford</title> (1823), no. 2574 in the sale catalogue of Southey’s library.</note> To withhold it, looks as if Oxford were ashamed of his ugly physiognomy, which he was not himself, for he prefixed it to each of the six volumes published in his life time.<note n="11" place="foot" resp="editors">Robert South (1634–1716; <title>DNB</title>), the Anglican theologian and preacher. His <title>Sermons</title> were first published in six volumes in 1692.</note> There is a poem to his memory by Sam. Wesley, who praises him as having been</p>
-            <lb/>
-            <lg type="stanza"><l rend="indent3">Against the best of temper, strongly good.<note n="12" place="foot" resp="editors">Samuel Wesley (1690/91–1739; <title>DNB</title>), ‘To the Memory of the Reverend Dr. South’, line 12, <title>Poems on Several Occasions</title> (London, 1736), p. 227.</note></l></lg>
-            <lb/>
-            <p rend="indent0"><ref type="m" target="people.html#MilmanHenryHart">Milman</ref> I think could not have read his sermons when he wrote that paper in the last Quarterly.<note n="13" place="foot" resp="editors">A review of Cardinal Jean-Sifrein Maury (1746–1817), <title>Essai sur l’Eloquence de la Chaire</title> (1810) and Edward Irving (1792–1834; <title>DNB</title>), <title>For the Oracles of God, Four Orations; For Judgement to Come, an Argument in Nine Parts</title> (1823) by Henry Hart Milman, <title>Quarterly Review</title>, 29 (July 1823), 283–313, published c. 27 January 1824.</note> The name of South does not appear there, &#38; there are some remarks of S. upon the different styles of preaching in his days to which he would certainly <del>xxxx</del> have referred if he had seen them.</p>
-          <closer>  <salute rend="indent2">Yrs very truly</salute>
-           <signed rend="indent3"> R Southey.</signed></closer>
-            <postscript><lb/>
-            <p rend="indent1">Have you seen <ref type="m" target="people.html#LandorWalterSavage">Landor’s</ref> book?<note n="14" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> – There were many passages in it, which if they had not been cut out, would have insured him the stiletto, or the sand-bag – if that pleasant mode of murder is still in use with the Italians</p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4166" type="letter">
+        <head>4166. Robert Southey to <ref type="a" target="people.html#ElmsleyPeter">Peter Elmsley</ref>, <date when="1824-04-03">3 April 1824</date>
+          <note type="headnote" place="foot" resp="editors">MS: Westminster School. ALS; 4p.<lb />
+               Previously published: Nicholas Horsfall, &#8216;Four Unpublished Letters of Robert Southey&#8217;, <title>Notes and Queries</title>, 22.9 (September 1975), 402&#8211;403.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>
+              </placeName>
+            </address>
+            <date when="1824-04-03">3<hi rend="sup">d</hi> April. 1824</date>
+          </dateline>
+          <salute>  My dear Elmsley</salute>
+        </opener>
+        <p rend="indent1">  Unluckily for me there prevails an opinion that I am a person of great interest, &amp; can assist any body in any line of life. And what is more to be regretted is, that among many troublesome <del>interxx</del> applications, &amp; not a few impertinent ones, others occasionally occur which make me really wish it were in my power to befriend the applicant.</p>
+        <p rend="indent1">Some years ago a youth for whom I was much interested (<ref type="m" target="people.html#DusautoyJames">Dusautoy</ref> was his name) was cut off by the fever at Cambridge. Both his genius &amp; his attainments were very great, &amp; beyond all doubt if he had lived he would have been a most distinguished person. He was one of a large family, the parents of which (the father is a half pay officer)<note n="1" place="foot" resp="editors">James Du Sautoy (1761&#8211;1859) had retired as a Lieutenant in the Royal Marines in 1798 and was barrack-master of the cavalry at Totnes 1803&#8211;1822; his wife was Mary Du Sautoy, n&#233;e Hinton (d. 1851).</note> have endeavoured by the strictest economy to give their sons those advantages which would be well disposed upon such subjects. One of the sons<note n="2" place="foot" resp="editors">Frederick Dusautoy (c. 1802&#8211;1891), younger brother of James Dusautoy. He was admitted as a sizar (i.e. a student receiving financial assistance in return for set duties) at Queen&#8217;s College, Cambridge, on 5 July 1824. He graduated BA 1828 and MA 1831, was a Fellow of his College 1830&#8211;1835 and became a clergyman. After a long series of curacies, he became Vicar of Mark, near Bridgwater, 1860&#8211;1891. Dusautoy also published on a wide range of subjects, including geology.</note> applied to me lately to get him entered as a sizer at Cambridge. I tried without success,<note n="3" place="foot" resp="editors">Robert Southey to [Samuel Tillbrook], [c. March 1824], Letter 4147.</note> &#8211; there is no vacancy for two years at the College where <del>my interes</del> application was made,<note n="4" place="foot" resp="editors">Emmanuel College, Cambridge, where James Dusautoy was a student 1813&#8211;1815.</note> &#8211; &amp; the two tutors of that College who knew &amp; esteemd his poor brother &#8211; (Blomfield<note n="5" place="foot" resp="editors">Edward Valentine Blomfield (1788&#8211;1816; <title>DNB</title>), a classical scholar and Fellow of Emmanuel College, Cambridge. The other tutor was probably William Augustus Pemberton (1773&#8211;1816), a clergyman and Registrar of Cambridge University 1809&#8211;1816, who is the only other Fellow of the College who died in the period 1813&#8211;1824 and has a monument in the College&#8217;s cloister.</note> was one) &#8211; are buried in the same cloysters with him. &#8211; He is nearly 26, &amp; of course cannot wait.</p>
+        <p rend="indent1"> Can you procure a Bible-Clerkship<note n="6" place="foot" resp="editors">Bible Clerks were students at Oxford University who received benefits such as reduced fees or free meals in return for set duties, such as reading aloud chapters from the Bible at meals or in chapel.</note> for him, &#8211; or any thing which might contribute to his support? &#8211; Devonshire is his county.</p>
+        <p rend="indent1">  I think it is <ref type="m" target="people.html#HeberReginald">Reginald Heber</ref> who has in one of his writings vindicated the Oxford system of servitorship.<note n="7" place="foot" resp="editors">Reginald Heber, <title>The Whole Works of the Right Rev. Jeremy Taylor, D.D. Lord Bishop of Down, Connor and Dromore: with A Life of the Author, and A Critical Examination of his Writings</title>, 15 vols (London, 1822), I, p. vii&#8211;ix, no. 2782 in the sale catalogue of Southey&#8217;s library. The term &#8216;Bible Clerk&#8217; had come into use in preference to that of &#8216;servitor&#8217;, as the duties attached to this role had, in the past, included acting as a servant to other students, and wearing a distinctive plain black gown and round hat.</note> His arguments seem to me just &#8211; if the same state of feeling existed now upon that subject, as prevailed two or three centuries ago. In this respect the system at Cambridge is very much better</p>
+        <p rend="indent1">  Can you tell me whether Francis Bugg<note n="8" place="foot" resp="editors">Francis Bugg (1640&#8211;1727; <title>DNB</title>). His collection of over 400 Quaker tracts and books was acquired by Henry Aldrich (1647&#8211;1710), Dean of Christ Church, and presented to the College in 1700.</note> (of unhappy name) left his collection of Quaker books to the Library at Ch. Ch. as he said he intended to do? &#8211; My designs upon George Fox<note n="9" place="foot" resp="editors">George Fox (1624&#8211;1691; <title>DNB</title>), the founder of Quakerism. Southey intended to write an account of his life but did not do so.</note> have, as you may suppose, excited a stir throughout all Quakerdom.</p>
+        <p rend="indent1">  You should have given a portrait of South with your edition of his Sermons.<note n="10" place="foot" resp="editors">A new edition by the Clarendon Press, Oxford, of <title>Sermons Preached upon Several Occasions, by Robert South, D.D., Prebendary of Westminster, and Canon of Christ Church, Oxford</title> (1823), no. 2574 in the sale catalogue of Southey&#8217;s library.</note> To withhold it, looks as if Oxford were ashamed of his ugly physiognomy, which he was not himself, for he prefixed it to each of the six volumes published in his life time.<note n="11" place="foot" resp="editors">Robert South (1634&#8211;1716; <title>DNB</title>), the Anglican theologian and preacher. His <title>Sermons</title> were first published in six volumes in 1692.</note> There is a poem to his memory by Sam. Wesley, who praises him as having been</p>
+        <lb />
+        <lg type="stanza">
+          <l rend="indent3">Against the best of temper, strongly good.<note n="12" place="foot" resp="editors">Samuel Wesley (1690/91&#8211;1739; <title>DNB</title>), &#8216;To the Memory of the Reverend Dr. South&#8217;, line 12, <title>Poems on Several Occasions</title> (London, 1736), p. 227.</note>
+          </l>
+        </lg>
+        <lb />
+        <p rend="indent0">
+          <ref type="m" target="people.html#MilmanHenryHart">Milman</ref> I think could not have read his sermons when he wrote that paper in the last Quarterly.<note n="13" place="foot" resp="editors">A review of Cardinal Jean-Sifrein Maury (1746&#8211;1817), <title>Essai sur l&#8217;Eloquence de la Chaire</title> (1810) and Edward Irving (1792&#8211;1834; <title>DNB</title>), <title>For the Oracles of God, Four Orations; For Judgement to Come, an Argument in Nine Parts</title> (1823) by Henry Hart Milman, <title>Quarterly Review</title>, 29 (July 1823), 283&#8211;313, published c. 27 January 1824.</note> The name of South does not appear there, &amp; there are some remarks of S. upon the different styles of preaching in his days to which he would certainly <del>xxxx</del> have referred if he had seen them.</p>
+        <closer>
+          <salute rend="indent2">Yrs very truly</salute>
+          <signed rend="indent3"> R Southey.</signed>
+        </closer>
+        <postscript>
+          <lb />
+          <p rend="indent1">Have you seen <ref type="m" target="people.html#LandorWalterSavage">Landor&#8217;s</ref> book?<note n="14" place="foot" resp="editors">Walter Savage Landor, <title>Imaginary Conversations of Literary Men and Statesmen</title> (1824).</note> &#8211; There were many passages in it, which if they had not been cut out, would have insured him the stiletto, or the sand-bag &#8211; if that pleasant mode of murder is still in use with the Italians</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

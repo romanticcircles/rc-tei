@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,166 +79,203 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4268Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4268Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4268" type="letter"><head>4268. Robert Southey to [<ref type="a" target="people.html#MurrayJohn">John Murray</ref>], <date when="1824-10-25">25 October [1824]</date>
-            <note type="headnote" place="foot" resp="editors">Endorsement: 1824– Octr– 23–/ Southey R Esq <lb/>
-               MS: National Library of Scotland, MS 42552. ALS; 8p. <lb/>
-               Previously published: Kenneth Curry (ed.), <title>New Letters of Robert Southey</title>, 2 vols (London and New York, 1965), II, pp. 269–273; Samuel Smiles, <title>A Publisher and His Friends. Memoir and Correspondence of the Late John Murray, with an Account of the Origin and Progress of the House, 1768–1843</title>, 2 vols (London, 1891), II, pp. 160–161 [in part].</note></head>
-            
-            
-         <opener>   <salute>My dear Sir</salute></opener>
-            <p rend="indent1"> <del>The</del> So far as a few sentences of decided censure may tend to obviate the objections which <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> may feel to this account of Hayleys life &#38; writings,<note n="1" place="foot" resp="editors">Southey’s review of John Johnson (1769–1833; <title>DNB</title>), <title>Memoirs of the Life and Writings of William Hayley, Esq. the Friend and Biographer of Cowper, Written by Himself; with Extracts from his Private Correspondence, and Unpublished Poetry; and Memoirs of his Son Thomas Alphonso Hayley, the Young Sculptor</title> (1823), no. 1179 in the sale catalogue of Southey’s library. This appeared in <title>Quarterly Review</title>, 31 (March 1825), 263–311. Gifford had objected to what he perceived to be Southey’s unduly favourable attitude to Hayley’s poetry and requested numerous corrections to the article before it could be published. </note> – the article will not be injured by introducing them. But I am utterly at a loss to conceive how any person can have read the paper &#38; supposed that it contains <hi rend="ital">very great praise of him</hi><note n="2" place="foot" resp="editors">William Hayley (1745–1820; <title>DNB</title>), poet, dramatist and biographer. </note> <hi rend="ital">&#38; <ref type="m" target="people.html#SewardAnna">Miss Seward</ref></hi>. There is not a word in commendation of the latter, – unless it can be deemed praising her to say she was right in thinking Hayley would soon be consoled for the loss of his son.<note n="3" place="foot" resp="editors">Thomas Alphonso Hayley (1780–1800; <title>DNB</title>), the illegitimate son of William Hayley who became a sculptor. Southey dealt with Seward’s views on Hayley’s grief at his son’s death in <title>Quarterly Review</title>, 31 (March 1825), 307.</note> And for Hayley himself, let me set before your eyes what <hi rend="ital">is</hi> said of him, as an author:</p>
-		   <lb/>
-            
-          <p rend="indent0">  P. 1.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; That he was during many years confessedly the most popular &#38; the most fashionable of living poets.<note n="4" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 263: ‘one who, during many years, was the most fashionable of living poets.’</note></p>
-            <p rend="indent0">D<hi rend="sup">o</hi>. –	&#160; &#160; &#160; &#160; &#160; &#160; &#160; that there are in all his writings marks of a constitutional feebleness<note n="5" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 263: ‘the constitutional feebleness which appears in all his writings.’</note></p>
-           <p rend="indent0"> 8 –	&#160; &#160; &#160; &#160; &#160; &#160; &#160; there can be little doubt that Garrick was <hi rend="ital">right</hi> in rejecting his tragedy.<note n="6" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 274: ‘there can be little doubt that Garrick was right in his second opinion.’ David Garrick (1717–1779; <title>DNB</title>), the leading actor-manager, refused, on reflection, to produce Hayley’s play ‘The Afflicted Father’ (1771).</note></p>
-         <p rend="indent0">   10 – 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he chose a good subject for an epic poem “but it is one thing to fix upon a fine situation for building, &#38; another to erect an edifice there which shall not disfigure instead of ornamenting the scene.<note n="7" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 277; Hayley had planned to write an epic poem on the subject of Magna Carta (1215).</note></p>
-           <p rend="indent0"> 11 – 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he was no more like Virgil that M<hi rend="sup">r</hi> Pitt was like Mæcenas.<note n="8" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 278. Hayley met William Pitt (1759–1806; <title>DNB</title>), Prime Minister 1783–1801, 1804–1806, when the politician was only fourteen. Hayley later regretted he had not mentioned his projected poem on Magna Carta to the future premier. Gaius Maecenas (68–8 BC) was the patron of the Roman poet, Publius Vergilus Maro (70–19 BC).</note></p>
-        <p rend="indent0">    D<hi rend="sup">o</hi>. –	&#160; &#160; &#160; &#160; &#160; &#160; &#160; a love of the country was the <hi rend="ital">most poetical part</hi> of his character.<note n="9" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 278.</note></p>
-           <p rend="indent0"> D<hi rend="sup">o</hi> –	&#160; &#160; &#160; &#160; &#160; &#160; &#160; if the lines on his mother have not the stamp of genuine poetry, they have that of genuine feeling<note n="10" place="foot" resp="editors">Hayley’s ‘An Essay on Painting, Epistle IV’ (1781), lines 435–483, on Hayley’s mother, Mary Hayley, née Yates (1718–1774). Southey referred to these in <title>Quarterly Review</title>, 31 (March 1825), 279: ‘The lines which he addressed to her memory in one of his poems delighted Gibbon [Edward Gibbon (1737–1794; <title>DNB</title>)]. If they have not the stamp of genuine poetry throughout, they have at least that of genuine feeling, without which poetry is good for nothing.’</note></p>
-          <p rend="indent0">  13.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; his Epistles succeeded because <hi rend="ital">the verse was just upon a level with the taste of the age</hi>, &#38; the notes contained what was then an extraordinary display of reading.<note n="11" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 282, on Hayley’s <title>An Essay on Painting: in Two Epistles to Mr Romney</title> (1781), <title>An Essay on History: in Three Epistles to Edward Gibbon Esq., with Notes</title> (1780) and <title>An Essay on Epic Poetry; in Five Epistles to the Revd Mr Mason, with Notes</title> (1782), no. 1294 in the sale catalogue of Southey’s library.</note></p>
-            <p rend="indent0">15.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; few poems have been more successful than the Triumphs of Temper.<note n="12" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 284, on William Hayley, <title>The Triumphs of Temper: a Poem, in Six Cantos</title> (1781), no. 1294 in the sale catalogue of Southey’s library.</note></p>
-           <p rend="indent0"> 19 – 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he was by grace of the public King of the Bards of Britain<note n="13" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 289.</note></p>
-           <p rend="indent1"> D<hi rend="sup">o</hi>. 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; perhaps he felt himself unwilling because unworthy to succeed Warton in the Laureateship.<note n="14" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 289. Thomas Warton (1728–1790; <title>DNB</title>) was Poet Laureate 1785–1790.</note></p>
-           <p rend="indent0"> 19.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; If he had been asked his own opinion of his own verses he would have said with the Gracioso that they were not very good, – but passable.<note n="15" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 290. Southey quoted the ‘gracioso’(fool), Pasquin’s words from Pedro Calderón de la Barca (1600–1681), <title>La Cisma de Inglaterra</title> (1627): ‘<hi rend="ital">Buenos versos</hi>?/ Pasquin. <hi rend="ital">No muy buenos,/ Razonablejos les basta</hi>;’.</note></p>
-          <p rend="indent0">  20	&#160; &#160; &#160; &#160; &#160; &#160; &#160; both the wit &#38; the erudition of his Essay on Old Maids were estimated too highly, but it has finer touches of feeling than any of his other writings<note n="16" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 293, referring to Hayley’s <title>A Philosophical, Historical and Moral Essay on Old Maids. By a Friend to the Sisterhood</title> (1785), no. 1294 in the sale catalogue of Southey’s library.</note></p>
-           <p rend="indent0"> 33	&#160; &#160; &#160; &#160; &#160; &#160; &#160; His latter works very inferior to his former productions, &#38; compleatly unsuccessful.<note n="17" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 309.</note></p>
-          <p rend="indent0">  D<hi rend="sup">o</hi> – 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; his poetry has had its day, – but in his latter devotional pieces (the only ones which are praised) there is a strain of thought &#38; feeling which will find sympathy &#38; may afford consolation.<note n="18" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 311.</note></p>
-            
-           <p rend="indent0"> And this is <hi rend="ital">all</hi> the praise bestowed upon him as an author, except where I have <del>ha</del> said that in following Dantes metre he was led into a diction which approached the manner of a better age:<note n="19" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 284. On William Hayley’s translation of the first three cantos of Dante Alighieri (1265–1321), <title>Inferno</title> (1320) in his <title>An Essay on Epic Poetry; in Five Epistles to the Revd Mr Mason, with Notes</title> (London, 1782), pp. 156–176, no. 1294 in the sale catalogue of Southey’s library.</note> – it having just before been observd that he wrote couplets <hi rend="ital">neither with skill nor vigour</hi>, tho always with ease &#38; sometimes gracefully.<note n="20" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 283.</note></p>
-           <p rend="indent1"> I have thus patiently set before you all that is said of his literary character. Where is the praise? No person who reads the paper can possibly suppose &#60;that&#62; the writer of it considers the <hi rend="ital">success</hi> &#38; the <hi rend="ital">popularity</hi> of an <del>writer</del> &#60;author&#62; <hi rend="ital">in his own age</hi> to be any proof of merit. – The truth is that I <del>had</del> &#60;thought&#62; as little <del>thought</del> of <del>attempting to</del> reviving the dead, as of slaying the slain. But Hayley was so decidedly the most popular Poet of his day, that &#60;as such&#62; the Laureateship was offered to him, as it was when it last fell vacant to <ref type="m" target="people.html#ScottWalter">Walter Scott</ref><note n="21" place="foot" resp="editors">William Hayley was offered the role of Poet Laureate in 1790 and Walter Scott was offered the same position in 1813; both declined.</note> – upon the principle of <hi rend="ital">detur digniori</hi>:<note n="22" place="foot" resp="editors">‘let it be given to the most worthy’.</note> &#38; as such he must hold a place in the history of English literature: And by taking out of his volumes what was worth repeating, <del>&#38;</del> telling it in a better manner than his own, &#38; intermingling it with remarks upon English poetry, – I considered myself as contributing something like a chapter to that history.</p>
-          <p rend="indent1">  As a man, I have praised him, deservedly &#38; honestly. Hayley is no more to me than Hecuba,<note n="23" place="foot" resp="editors">‘What’s Hecuba to him, or he to Hecuba’ (<title>Hamlet</title>, Act 2, scene 2, line 530). Hecuba was the Queen of Troy in Homer’s <title>Iliad</title>.</note> I had never the slightest intercourse with him, or with any one belonging to him. His faults I have not dissembled, but I have praised the general tenor of a life devoted to better pursuits than those of gain, – or of the turf or the field; – &#38; treated him as a gentleman &#38; a scholar ought always to be treated.</p>
-         <p rend="indent1">   With regard to the article in your fourth number,<note n="24" place="foot" resp="editors">The review by John Hoppner (1758–1810) and William Gifford of William Hayley’s <title>The Life of George Romney, Esq.</title> (1809) in <title>Quarterly Review</title>, 2 (November 1809), 433–444, published 30 December 1809.</note> if my paper were more in opposition to it than it is (for I join with it in condemning his life of Romney<note n="25" place="foot" resp="editors"><title>Quarterly Review</title>, 31 (March 1825), 309: ‘The Life of Romney could not be rated lower than its demerits deserve’, referring to William Hayley’s <title>The Life of George Romney, Esq.</title> (1809), no. 1177 in the sale catalogue of Southey’s library.</note>) I should think it of no consequence, – that article being as compleatly dead &#38; buried as Hayley himself. Beyond all doubt consistency is most desirable in a Review; but that &#60;can&#62; only be maintained when the Journal is conducted upon settled principles of faith, politics, philosophy &#38; taste. The Q R. is orthodox &#38; loyal; farther than this it has no pretension to consistency. I believe that I have never advanced a single <hi rend="ital">principle</hi> in it, which has not at some time or other (sometimes in the same number) &#38; sometimes certainly with marked design, received a point blank contradiction in its pages.</p>
-           <p rend="indent1"> I send you herewith a few passages of censure which may be inserted in perfect consistency with the intent &#38; tenour of the paper. As for <hi rend="ital">sobering down</hi> the praise, I am a loss to discover where the praise is, &#38; so will you when you <del>xxxx</del> reconsider it. For I take it for granted there can be no wish that the approbation bestowed upon him for his love of literature &#38; the fine arts, &#38; the generous terms upon which he lived with <del>the most eminent</del> &#60;some&#62; of his contemporaries should be either withdrawn or abated.</p>
-           <p rend="indent1"> You are afraid that the paper might do a great disservice to literature &#38; morals. I should think my character a sufficient guarantee &#60;against&#62; any such danger. But I pray you put it into <ref type="m" target="people.html#TurnerSharon">Turners</ref> hands, – &#38; if he <del>points out</del> &#60;finds&#62; any thing in it which could in his judgement possibly be injurious to morals, – let him strike &#60;it&#62; out.</p>
-            <p rend="indent1"> You ask as a favour to yourself that I would make alterations. I shall make all the alteration of which the paper will admit; &#60;That is, against the scruples of commendation in one scale, I will throw a few grains of censure into the other.&#62; But if <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> is no longer capable of conducting the Review (which I hear from <ref type="m" target="people.html#ScottWalter">Sir Walter Scott</ref> is his own account) I think you should acquaint me who those friends are by whose advice it is conducted. No future Editor, be he who he may, must expect to exercise the same discretion over my papers which <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> has done. I will at any time curtail what may be deemed too long, &#38; consider any objections that may be made with a disposition <del>always</del> to defer to them where it can be done without sacrificing my own judgement upon <del>a</del> points which may seem to me important. But my age, &#38; (I may add without <del>xxxxx</del> arrogance) the rank which I hold in literature entitle me to say, that I will never again write under the correction of any one.</p>
-          <p rend="indent1">  I have never spared time, research or pains of any kind, in any thing that I have written for you. This I am sure you know. And nothing of mine has ever brought disgrace upon the Review, or involved you in any difficulty as the Publisher. On the contrary the &#60;QR&#62; would sometimes have been saved from merited obloquy, if it had taken the bias which I would have given it. The events of life are uncertain, – life itself still more so. How much or how little I may contribute to that Journal in future depends upon circumstances which no one can foresee. But whenever such of my papers as are worthy of preservation shall be collected (– whether you permit <del>to xxx</del> it to be done while am able to do it, &#60;to restore them where they have been mutilated,&#62; &#38; to incorporate other matter with them, – or whether it be done after my decease) I shall be well content that posterity should judge of my &#60;opinions&#62; by what will there be found.<note n="26" place="foot" resp="editors">Southey’s <title>Essays, Moral and Political</title> (1832).</note> And I am quite certain that such a republication would be creditable &#38; advantageous both to you &#38; to myself.</p>
-           <p rend="indent1"> Before I conclude I will say a few words concerning the Q R. without any apprehension of offending you by a freedom which proceeds from good will, &#38; has your interest in view. Nothing could be so injurious to that Journal as an opinion that you were endeavouring to get it conducted upon cheap terms, &#38; that you wished to keep it virtually under your own management. Such an opinion is getting abroad, &#38; you must be aware that your enemies &#38; the enemies of the Review will be very desirous of spreading it.</p>
-          <p rend="indent1">  I <del>am at a loss to</del> &#60;cannot&#62; conjecture what the objections can be which have prevented you from closing with <ref type="m" target="people.html#ColeridgeJohnTaylor">John Coleridge</ref>; – for objections in some quarter or other it is plain there are. He is a person in character, habits &#38; attainments <hi rend="ital">omni exceptione major</hi>,<note n="27" place="foot" resp="editors">‘beyond all exception’, a phrase often used to describe witnesses in legal cases who were of good character.</note> a thorough scholar, thoroughly bred, with a high University character, &#38; good connections; a man of business, punctual, honourable well-principled &#38; high-principled, independent &#38; discreet, &#38; in addition to the security arising from his temper, judgement &#38; discretion, there is that of his professional knowledge. It is absolutely impossible to find a man better qualified for such a responsibility as the editorship of the Q R requires.</p>
-         <p rend="indent1">   What I have said upon this subject is not more serious than friendly, if it be taken as it is meant, &#38; so I am persuaded you will take it. The only difference which any arrangement concerning it can make to myself is, that for an Editor who had confidence in me, &#38; whose way of thinking coincided with my own, I should sometimes put my shoulders to the wheel, when otherwise I might rather be disposed to employ them in a different manner. But it is of consequence to you that the Review should go on regularly, that there should not prevail an opinion of its being loosely &#38; uncertainly conducted, &#38; that it should be in <del>com</del> sufficient hands. </p>
-           <p rend="indent1"> My Dialogues<note n="28" place="foot" resp="editors">Southey’s <title>Sir Thomas More: or Colloquies on the Progress and Prospects of Society</title> (1829).</note> are so far advanced that I shall soon send them to press.</p>
-           <p rend="indent1"> If you will send me a set of the Missionary Register, beginning with the second volume (the first you sent me long ago) I will prepare for you a paper upon what has been done by the Church Missionary Society.<note n="29" place="foot" resp="editors"><title>Quarterly Review</title>, 32 (June 1825), 1–42. This was (ostensibly) a review of <title>An Abstract of the Annual Reports and Correspondence of the Society for Promoting Christian Knowledge, from the Commencement of its Connexion with the East India Missions, A. D. 1709, to the Present Day</title> (1814); and of the Church Missionary Society’s <title>Missionary Register</title> (1813–1824), no. 1962 in the sale catalogue of Southey’s library. The Church Missionary Society is an evangelical Anglican missionary society, founded in 1799.</note></p>
-          <closer>  <salute rend="indent1">farewell my dear Sir</salute>
-            <salute rend="indent2">&#38; believe me yours very truly</salute>
-           <salute rend="indent3"> Robert Southey.</salute></closer>
-            <lb/>
-          <postscript>  <p rend="indent1"><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1824-10-25">25. Oct.</date></p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4268" type="letter">
+        <head>4268. Robert Southey to [<ref type="a" target="people.html#MurrayJohn">John Murray</ref>], <date when="1824-10-25">25 October [1824]</date>
+          <note type="headnote" place="foot" resp="editors">Endorsement: 1824&#8211; Octr&#8211; 23&#8211;/ Southey R Esq <lb />
+               MS: National Library of Scotland, MS 42552. ALS; 8p. <lb />
+               Previously published: Kenneth Curry (ed.), <title>New Letters of Robert Southey</title>, 2 vols (London and New York, 1965), II, pp. 269&#8211;273; Samuel Smiles, <title>A Publisher and His Friends. Memoir and Correspondence of the Late John Murray, with an Account of the Origin and Progress of the House, 1768&#8211;1843</title>, 2 vols (London, 1891), II, pp. 160&#8211;161 [in part].</note>
+        </head>
+        <opener>
+          <salute>My dear Sir</salute>
+        </opener>
+        <p rend="indent1">
+          <del>The</del> So far as a few sentences of decided censure may tend to obviate the objections which <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> may feel to this account of Hayleys life &amp; writings,<note n="1" place="foot" resp="editors">Southey&#8217;s review of John Johnson (1769&#8211;1833; <title>DNB</title>), <title>Memoirs of the Life and Writings of William Hayley, Esq. the Friend and Biographer of Cowper, Written by Himself; with Extracts from his Private Correspondence, and Unpublished Poetry; and Memoirs of his Son Thomas Alphonso Hayley, the Young Sculptor</title> (1823), no. 1179 in the sale catalogue of Southey&#8217;s library. This appeared in <title>Quarterly Review</title>, 31 (March 1825), 263&#8211;311. Gifford had objected to what he perceived to be Southey&#8217;s unduly favourable attitude to Hayley&#8217;s poetry and requested numerous corrections to the article before it could be published. </note> &#8211; the article will not be injured by introducing them. But I am utterly at a loss to conceive how any person can have read the paper &amp; supposed that it contains <hi rend="ital">very great praise of him</hi>
+          <note n="2" place="foot" resp="editors">William Hayley (1745&#8211;1820; <title>DNB</title>), poet, dramatist and biographer. </note>
+          <hi rend="ital">&amp; <ref type="m" target="people.html#SewardAnna">Miss Seward</ref>
+          </hi>. There is not a word in commendation of the latter, &#8211; unless it can be deemed praising her to say she was right in thinking Hayley would soon be consoled for the loss of his son.<note n="3" place="foot" resp="editors">Thomas Alphonso Hayley (1780&#8211;1800; <title>DNB</title>), the illegitimate son of William Hayley who became a sculptor. Southey dealt with Seward&#8217;s views on Hayley&#8217;s grief at his son&#8217;s death in <title>Quarterly Review</title>, 31 (March 1825), 307.</note> And for Hayley himself, let me set before your eyes what <hi rend="ital">is</hi> said of him, as an author:</p>
+        <lb />
+        <p rend="indent0">  P. 1.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; That he was during many years confessedly the most popular &amp; the most fashionable of living poets.<note n="4" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 263: &#8216;one who, during many years, was the most fashionable of living poets.&#8217;</note>
+        </p>
+        <p rend="indent0">D<hi rend="sup">o</hi>. &#8211;	&#160; &#160; &#160; &#160; &#160; &#160; &#160; that there are in all his writings marks of a constitutional feebleness<note n="5" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 263: &#8216;the constitutional feebleness which appears in all his writings.&#8217;</note>
+        </p>
+        <p rend="indent0"> 8 &#8211;	&#160; &#160; &#160; &#160; &#160; &#160; &#160; there can be little doubt that Garrick was <hi rend="ital">right</hi> in rejecting his tragedy.<note n="6" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 274: &#8216;there can be little doubt that Garrick was right in his second opinion.&#8217; David Garrick (1717&#8211;1779; <title>DNB</title>), the leading actor-manager, refused, on reflection, to produce Hayley&#8217;s play &#8216;The Afflicted Father&#8217; (1771).</note>
+        </p>
+        <p rend="indent0">   10 &#8211; 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he chose a good subject for an epic poem &#8220;but it is one thing to fix upon a fine situation for building, &amp; another to erect an edifice there which shall not disfigure instead of ornamenting the scene.<note n="7" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 277; Hayley had planned to write an epic poem on the subject of Magna Carta (1215).</note>
+        </p>
+        <p rend="indent0"> 11 &#8211; 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he was no more like Virgil that M<hi rend="sup">r</hi> Pitt was like M&#230;cenas.<note n="8" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 278. Hayley met William Pitt (1759&#8211;1806; <title>DNB</title>), Prime Minister 1783&#8211;1801, 1804&#8211;1806, when the politician was only fourteen. Hayley later regretted he had not mentioned his projected poem on Magna Carta to the future premier. Gaius Maecenas (68&#8211;8 BC) was the patron of the Roman poet, Publius Vergilus Maro (70&#8211;19 BC).</note>
+        </p>
+        <p rend="indent0">    D<hi rend="sup">o</hi>. &#8211;	&#160; &#160; &#160; &#160; &#160; &#160; &#160; a love of the country was the <hi rend="ital">most poetical part</hi> of his character.<note n="9" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 278.</note>
+        </p>
+        <p rend="indent0"> D<hi rend="sup">o</hi> &#8211;	&#160; &#160; &#160; &#160; &#160; &#160; &#160; if the lines on his mother have not the stamp of genuine poetry, they have that of genuine feeling<note n="10" place="foot" resp="editors">Hayley&#8217;s &#8216;An Essay on Painting, Epistle IV&#8217; (1781), lines 435&#8211;483, on Hayley&#8217;s mother, Mary Hayley, n&#233;e Yates (1718&#8211;1774). Southey referred to these in <title>Quarterly Review</title>, 31 (March 1825), 279: &#8216;The lines which he addressed to her memory in one of his poems delighted Gibbon [Edward Gibbon (1737&#8211;1794; <title>DNB</title>)]. If they have not the stamp of genuine poetry throughout, they have at least that of genuine feeling, without which poetry is good for nothing.&#8217;</note>
+        </p>
+        <p rend="indent0">  13.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; his Epistles succeeded because <hi rend="ital">the verse was just upon a level with the taste of the age</hi>, &amp; the notes contained what was then an extraordinary display of reading.<note n="11" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 282, on Hayley&#8217;s <title>An Essay on Painting: in Two Epistles to Mr Romney</title> (1781), <title>An Essay on History: in Three Epistles to Edward Gibbon Esq., with Notes</title> (1780) and <title>An Essay on Epic Poetry; in Five Epistles to the Revd Mr Mason, with Notes</title> (1782), no. 1294 in the sale catalogue of Southey&#8217;s library.</note>
+        </p>
+        <p rend="indent0">15.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; few poems have been more successful than the Triumphs of Temper.<note n="12" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 284, on William Hayley, <title>The Triumphs of Temper: a Poem, in Six Cantos</title> (1781), no. 1294 in the sale catalogue of Southey&#8217;s library.</note>
+        </p>
+        <p rend="indent0"> 19 &#8211; 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; he was by grace of the public King of the Bards of Britain<note n="13" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 289.</note>
+        </p>
+        <p rend="indent1"> D<hi rend="sup">o</hi>. 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; perhaps he felt himself unwilling because unworthy to succeed Warton in the Laureateship.<note n="14" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 289. Thomas Warton (1728&#8211;1790; <title>DNB</title>) was Poet Laureate 1785&#8211;1790.</note>
+        </p>
+        <p rend="indent0"> 19.	&#160; &#160; &#160; &#160; &#160; &#160; &#160; If he had been asked his own opinion of his own verses he would have said with the Gracioso that they were not very good, &#8211; but passable.<note n="15" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 290. Southey quoted the &#8216;gracioso&#8217;(fool), Pasquin&#8217;s words from Pedro Calder&#243;n de la Barca (1600&#8211;1681), <title>La Cisma de Inglaterra</title> (1627): &#8216;<hi rend="ital">Buenos versos</hi>?/ Pasquin. <hi rend="ital">No muy buenos,/ Razonablejos les basta</hi>;&#8217;.</note>
+        </p>
+        <p rend="indent0">  20	&#160; &#160; &#160; &#160; &#160; &#160; &#160; both the wit &amp; the erudition of his Essay on Old Maids were estimated too highly, but it has finer touches of feeling than any of his other writings<note n="16" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 293, referring to Hayley&#8217;s <title>A Philosophical, Historical and Moral Essay on Old Maids. By a Friend to the Sisterhood</title> (1785), no. 1294 in the sale catalogue of Southey&#8217;s library.</note>
+        </p>
+        <p rend="indent0"> 33	&#160; &#160; &#160; &#160; &#160; &#160; &#160; His latter works very inferior to his former productions, &amp; compleatly unsuccessful.<note n="17" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 309.</note>
+        </p>
+        <p rend="indent0">  D<hi rend="sup">o</hi> &#8211; 	&#160; &#160; &#160; &#160; &#160; &#160; &#160; his poetry has had its day, &#8211; but in his latter devotional pieces (the only ones which are praised) there is a strain of thought &amp; feeling which will find sympathy &amp; may afford consolation.<note n="18" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 311.</note>
+        </p>
+        <p rend="indent0"> And this is <hi rend="ital">all</hi> the praise bestowed upon him as an author, except where I have <del>ha</del> said that in following Dantes metre he was led into a diction which approached the manner of a better age:<note n="19" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 284. On William Hayley&#8217;s translation of the first three cantos of Dante Alighieri (1265&#8211;1321), <title>Inferno</title> (1320) in his <title>An Essay on Epic Poetry; in Five Epistles to the Revd Mr Mason, with Notes</title> (London, 1782), pp. 156&#8211;176, no. 1294 in the sale catalogue of Southey&#8217;s library.</note> &#8211; it having just before been observd that he wrote couplets <hi rend="ital">neither with skill nor vigour</hi>, tho always with ease &amp; sometimes gracefully.<note n="20" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 283.</note>
+        </p>
+        <p rend="indent1"> I have thus patiently set before you all that is said of his literary character. Where is the praise? No person who reads the paper can possibly suppose &lt;that&gt; the writer of it considers the <hi rend="ital">success</hi> &amp; the <hi rend="ital">popularity</hi> of an <del>writer</del> &lt;author&gt; <hi rend="ital">in his own age</hi> to be any proof of merit. &#8211; The truth is that I <del>had</del> &lt;thought&gt; as little <del>thought</del> of <del>attempting to</del> reviving the dead, as of slaying the slain. But Hayley was so decidedly the most popular Poet of his day, that &lt;as such&gt; the Laureateship was offered to him, as it was when it last fell vacant to <ref type="m" target="people.html#ScottWalter">Walter Scott</ref>
+          <note n="21" place="foot" resp="editors">William Hayley was offered the role of Poet Laureate in 1790 and Walter Scott was offered the same position in 1813; both declined.</note> &#8211; upon the principle of <hi rend="ital">detur digniori</hi>:<note n="22" place="foot" resp="editors">&#8216;let it be given to the most worthy&#8217;.</note> &amp; as such he must hold a place in the history of English literature: And by taking out of his volumes what was worth repeating, <del>&amp;</del> telling it in a better manner than his own, &amp; intermingling it with remarks upon English poetry, &#8211; I considered myself as contributing something like a chapter to that history.</p>
+        <p rend="indent1">  As a man, I have praised him, deservedly &amp; honestly. Hayley is no more to me than Hecuba,<note n="23" place="foot" resp="editors">&#8216;What&#8217;s Hecuba to him, or he to Hecuba&#8217; (<title>Hamlet</title>, Act 2, scene 2, line 530). Hecuba was the Queen of Troy in Homer&#8217;s <title>Iliad</title>.</note> I had never the slightest intercourse with him, or with any one belonging to him. His faults I have not dissembled, but I have praised the general tenor of a life devoted to better pursuits than those of gain, &#8211; or of the turf or the field; &#8211; &amp; treated him as a gentleman &amp; a scholar ought always to be treated.</p>
+        <p rend="indent1">   With regard to the article in your fourth number,<note n="24" place="foot" resp="editors">The review by John Hoppner (1758&#8211;1810) and William Gifford of William Hayley&#8217;s <title>The Life of George Romney, Esq.</title> (1809) in <title>Quarterly Review</title>, 2 (November 1809), 433&#8211;444, published 30 December 1809.</note> if my paper were more in opposition to it than it is (for I join with it in condemning his life of Romney<note n="25" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 31 (March 1825), 309: &#8216;The Life of Romney could not be rated lower than its demerits deserve&#8217;, referring to William Hayley&#8217;s <title>The Life of George Romney, Esq.</title> (1809), no. 1177 in the sale catalogue of Southey&#8217;s library.</note>) I should think it of no consequence, &#8211; that article being as compleatly dead &amp; buried as Hayley himself. Beyond all doubt consistency is most desirable in a Review; but that &lt;can&gt; only be maintained when the Journal is conducted upon settled principles of faith, politics, philosophy &amp; taste. The Q R. is orthodox &amp; loyal; farther than this it has no pretension to consistency. I believe that I have never advanced a single <hi rend="ital">principle</hi> in it, which has not at some time or other (sometimes in the same number) &amp; sometimes certainly with marked design, received a point blank contradiction in its pages.</p>
+        <p rend="indent1"> I send you herewith a few passages of censure which may be inserted in perfect consistency with the intent &amp; tenour of the paper. As for <hi rend="ital">sobering down</hi> the praise, I am a loss to discover where the praise is, &amp; so will you when you <del>xxxx</del> reconsider it. For I take it for granted there can be no wish that the approbation bestowed upon him for his love of literature &amp; the fine arts, &amp; the generous terms upon which he lived with <del>the most eminent</del> &lt;some&gt; of his contemporaries should be either withdrawn or abated.</p>
+        <p rend="indent1"> You are afraid that the paper might do a great disservice to literature &amp; morals. I should think my character a sufficient guarantee &lt;against&gt; any such danger. But I pray you put it into <ref type="m" target="people.html#TurnerSharon">Turners</ref> hands, &#8211; &amp; if he <del>points out</del> &lt;finds&gt; any thing in it which could in his judgement possibly be injurious to morals, &#8211; let him strike &lt;it&gt; out.</p>
+        <p rend="indent1"> You ask as a favour to yourself that I would make alterations. I shall make all the alteration of which the paper will admit; &lt;That is, against the scruples of commendation in one scale, I will throw a few grains of censure into the other.&gt; But if <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> is no longer capable of conducting the Review (which I hear from <ref type="m" target="people.html#ScottWalter">Sir Walter Scott</ref> is his own account) I think you should acquaint me who those friends are by whose advice it is conducted. No future Editor, be he who he may, must expect to exercise the same discretion over my papers which <ref type="m" target="people.html#GiffordWilliam">M<hi rend="sup">r</hi> Gifford</ref> has done. I will at any time curtail what may be deemed too long, &amp; consider any objections that may be made with a disposition <del>always</del> to defer to them where it can be done without sacrificing my own judgement upon <del>a</del> points which may seem to me important. But my age, &amp; (I may add without <del>xxxxx</del> arrogance) the rank which I hold in literature entitle me to say, that I will never again write under the correction of any one.</p>
+        <p rend="indent1">  I have never spared time, research or pains of any kind, in any thing that I have written for you. This I am sure you know. And nothing of mine has ever brought disgrace upon the Review, or involved you in any difficulty as the Publisher. On the contrary the &lt;QR&gt; would sometimes have been saved from merited obloquy, if it had taken the bias which I would have given it. The events of life are uncertain, &#8211; life itself still more so. How much or how little I may contribute to that Journal in future depends upon circumstances which no one can foresee. But whenever such of my papers as are worthy of preservation shall be collected (&#8211; whether you permit <del>to xxx</del> it to be done while am able to do it, &lt;to restore them where they have been mutilated,&gt; &amp; to incorporate other matter with them, &#8211; or whether it be done after my decease) I shall be well content that posterity should judge of my &lt;opinions&gt; by what will there be found.<note n="26" place="foot" resp="editors">Southey&#8217;s <title>Essays, Moral and Political</title> (1832).</note> And I am quite certain that such a republication would be creditable &amp; advantageous both to you &amp; to myself.</p>
+        <p rend="indent1"> Before I conclude I will say a few words concerning the Q R. without any apprehension of offending you by a freedom which proceeds from good will, &amp; has your interest in view. Nothing could be so injurious to that Journal as an opinion that you were endeavouring to get it conducted upon cheap terms, &amp; that you wished to keep it virtually under your own management. Such an opinion is getting abroad, &amp; you must be aware that your enemies &amp; the enemies of the Review will be very desirous of spreading it.</p>
+        <p rend="indent1">  I <del>am at a loss to</del> &lt;cannot&gt; conjecture what the objections can be which have prevented you from closing with <ref type="m" target="people.html#ColeridgeJohnTaylor">John Coleridge</ref>; &#8211; for objections in some quarter or other it is plain there are. He is a person in character, habits &amp; attainments <hi rend="ital">omni exceptione major</hi>,<note n="27" place="foot" resp="editors">&#8216;beyond all exception&#8217;, a phrase often used to describe witnesses in legal cases who were of good character.</note> a thorough scholar, thoroughly bred, with a high University character, &amp; good connections; a man of business, punctual, honourable well-principled &amp; high-principled, independent &amp; discreet, &amp; in addition to the security arising from his temper, judgement &amp; discretion, there is that of his professional knowledge. It is absolutely impossible to find a man better qualified for such a responsibility as the editorship of the Q R requires.</p>
+        <p rend="indent1">   What I have said upon this subject is not more serious than friendly, if it be taken as it is meant, &amp; so I am persuaded you will take it. The only difference which any arrangement concerning it can make to myself is, that for an Editor who had confidence in me, &amp; whose way of thinking coincided with my own, I should sometimes put my shoulders to the wheel, when otherwise I might rather be disposed to employ them in a different manner. But it is of consequence to you that the Review should go on regularly, that there should not prevail an opinion of its being loosely &amp; uncertainly conducted, &amp; that it should be in <del>com</del> sufficient hands. </p>
+        <p rend="indent1"> My Dialogues<note n="28" place="foot" resp="editors">Southey&#8217;s <title>Sir Thomas More: or Colloquies on the Progress and Prospects of Society</title> (1829).</note> are so far advanced that I shall soon send them to press.</p>
+        <p rend="indent1"> If you will send me a set of the Missionary Register, beginning with the second volume (the first you sent me long ago) I will prepare for you a paper upon what has been done by the Church Missionary Society.<note n="29" place="foot" resp="editors">
+            <title>Quarterly Review</title>, 32 (June 1825), 1&#8211;42. This was (ostensibly) a review of <title>An Abstract of the Annual Reports and Correspondence of the Society for Promoting Christian Knowledge, from the Commencement of its Connexion with the East India Missions, A. D. 1709, to the Present Day</title> (1814); and of the Church Missionary Society&#8217;s <title>Missionary Register</title> (1813&#8211;1824), no. 1962 in the sale catalogue of Southey&#8217;s library. The Church Missionary Society is an evangelical Anglican missionary society, founded in 1799.</note>
+        </p>
+        <closer>
+          <salute rend="indent1">farewell my dear Sir</salute>
+          <salute rend="indent2">&amp; believe me yours very truly</salute>
+          <salute rend="indent3"> Robert Southey.</salute>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="indent1">
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-10-25">25. Oct.</date>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

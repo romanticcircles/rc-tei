@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,140 +79,137 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4128Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4128Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4128" type="letter"><head>4128. Robert Southey to <ref type="a" target="people.html#LightfootNicholas">Nicholas Lightfoot</ref> [fragment], <date when="1824-01-27">27 January 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: [in another hand] London Twenty Eighth Jany/ 1824/ Rev<hi rend="sup">d</hi> N. Lightfoot/ Crediton/ Devon/ [MS missing] JRickman<lb/>
-               Postmark: FREE/ 28 JA 28/ 1824<lb/>
-               MS: Bodleian Library, MS Eng. Lett. d. 110. AL; 4p.<lb/>
-               Unpublished.</note></head>
-            
-            
-            <opener> <dateline><address> <placeName><ref type="m" target="places.html#Norwich">Norwich</ref>.</placeName></address> <date when="1824-01-27">Tuesday 27 Jan<hi rend="sup">y</hi>. 1824</date></dateline>
-            
-               <salute>My dear Lightfoot</salute></opener>
-           <p rend="indent1"> A fortnight has this day elapsed since I shook hands with you on my departure from Devonshire; &#38; not five minutes have I had from that hour till this in which I could sit quietly down to thank you &#38; M<hi rend="sup">rs</hi> Lightfoot for all your kindness, to send my love to Fanny Jane, &#38; Kate, &#38; Bridget &#38; Nico,<note n="1" place="foot" resp="editors">Nicholas Lightfoot married Bridget Prideaux (1768–1856) on 13 July 1801. Their children were: John Prideaux Lightfoot; Frances Jane Lightfoot (1806–1882), Southey’s god-daughter; Catherine Anne Lightfoot (1808–1898); Bridget Mary Lightfoot (1810–1889); and Nicholas Francis Lightfoot (1811–1881), Vicar of Cadbury 1846–1855, Rector of Islip 1855–1881.</note> – &#38; to tell you with what pleasure I look back upon my visit to Crediton, &#38; think of you &#38; your happy family.</p>
-            <p rend="indent1"> My movements since have been as punctual as they were designed to be, &#38; as prosperous as could be desired. Where I had to wait the chance of room in a stage coach, the chance always proved favourable. I made my visits at Taunton, at Earnshill, <ref type="m" target="places.html#Buckland">Buckland</ref>, &#38; Winchester,<note n="2" place="foot" resp="editors">Southey had visited: his aunt, Mary Southey; his Westminster schoolfriend, Edward Combe; Caroline Bowles; and Elizabeth Heathcote (1773–1855) and Alethea Bigg (1777–1847), two sisters of Catherine Hill who shared a house at 12 Cathedral Close, Winchester.</note> reached London about ten o clock on the Wednesday night, took places the next morning in the Norwich mail for Friday, &#38; am now this day about to fulfil a promise made some years ago of standing Godfather to my friend <ref type="m" target="people.html#WhiteNeville">Neville White’s</ref> eldest son;<note n="3" place="foot" resp="editors">Family histories, including <title>The Homes and Haunts of Henry Kirke White; with some account of the family of White, of Nottingham and Norfolk</title> (London and Nottingham, 1908), p. 260, suggest that Neville White’s first son, christened Henry Kirke White (d. 1849), was born in 1821, but this information may be inaccurate, as Southey stood as godfather to him in January 1824.</note> the said son having most conveniently made his entrance into this world about four weeks ago.</p>
-            <p rend="indent1">I <del>have</del> will trouble you with an easy commission respecting my forthcoming book: it is to forward the copies<note n="4" place="foot" resp="editors">Copies of Southey’s <title>The Book of the Church</title> (1824).</note> intended for M<hi rend="sup">rs</hi> Keenan,<note n="5" place="foot" resp="editors">Frances Keenan (d. 1838), an artist and widow of the Irish portrait painter John Keenan (d. 1819). Southey had first met her in Exeter in 1799.</note> &#38; for <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Wade Browne</ref>, whose direction is with the Rev<hi rend="sup">d</hi> F. Belfield, Primly Hill near Newton.<note n="6" place="foot" resp="editors">Finney Belfield (1758–1845), a landowner and clergyman, lived at Primley Hill, Paignton, Devon.</note> They will come with yours, an arrangement whereby without increasing your <del>carr</del> cost of carriage, theirs will be lessened. – You will see that the book is dated from Crediton<note n="7" place="foot" resp="editors">‘<hi rend="ital">Crediton, Jan. 10, 1824</hi>’, <title>The Book of the Church,</title> 2 vols (London, 1824), I, p. [vii].</note> – a memorial of my visit which I was glad to have an opportunity of making. – The concluding proofs I found at <ref type="m" target="places.html#Buckland">Buckland</ref>; – the title-page &#38;c on my arrival in town. I suppose you will receive it in the course of a few days.</p>
-            <p rend="indent1"> Our places are taken for Ipswich – for Saturday afternoon next. We shall reach <ref type="m" target="people.html#ClarksonThomas">Clarksons</ref> that night, go to Cambridge on Tuesday the 3<hi rend="sup">d</hi>. to London on the 5<hi rend="sup">th</hi> – to Richmond on the 7<hi rend="sup">th</hi>. On the 10<hi rend="sup">th</hi> I return to London, &#38; on the 13<hi rend="sup">th</hi> intend to set out in the mail coach for <ref type="m" target="places.html#Keswick">Keswick</ref>, when I hope to feel myself at rest, after having led for fifteen weeks a life which might almost entitle me to the appellation of the Wandering Christian.<note n="8" place="foot" resp="editors">An adaptation of the legend of the ‘Wandering Jew’, an immortal man, cursed to walk the earth forever. The legend seems to date to the thirteenth century.</note></p>
-            <p rend="indent1"> I am charged to present <ref type="m" target="people.html#SoutheyEdithMay">my daughters</ref> best thanks to M<hi rend="sup">rs</hi> Lightfoot for her beautiful ring. It is not impossible that you may see her in the summer, for she seems more than half inclined to accompany her friend Lady Malet<note n="9" place="foot" resp="editors">Lady Susanna Malet, née Wales (1779–1868), the widow of Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>).</note> to the Devonshire Coast about the end of May, – a scheme which I am willing to encourage, in the hope that sea air &#38; sea bathing may give her some of that bracing which she wants.</p>
-           <p rend="indent1"> My best &#38; kindest regards to all. Tell M<hi rend="sup">rs</hi> Lightfoot that I should be afraid of being killed with kindness where I now am, if I had not gained confidence by escaping from that fate at Crediton: – after which I may venture to believe no kindness ever will kill me.</p>
- <lb/>           
-           <postscript><p> [remainder of MS missing]</p></postscript>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4128" type="letter">
+        <head>4128. Robert Southey to <ref type="a" target="people.html#LightfootNicholas">Nicholas Lightfoot</ref> [fragment], <date when="1824-01-27">27 January 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: [in another hand] London Twenty Eighth Jany/ 1824/ Rev<hi rend="sup">d</hi> N. Lightfoot/ Crediton/ Devon/ [MS missing] JRickman<lb />
+               Postmark: FREE/ 28 JA 28/ 1824<lb />
+               MS: Bodleian Library, MS Eng. Lett. d. 110. AL; 4p.<lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Norwich">Norwich</ref>.</placeName>
+            </address>
+            <date when="1824-01-27">Tuesday 27 Jan<hi rend="sup">y</hi>. 1824</date>
+          </dateline>
+          <salute>My dear Lightfoot</salute>
+        </opener>
+        <p rend="indent1"> A fortnight has this day elapsed since I shook hands with you on my departure from Devonshire; &amp; not five minutes have I had from that hour till this in which I could sit quietly down to thank you &amp; M<hi rend="sup">rs</hi> Lightfoot for all your kindness, to send my love to Fanny Jane, &amp; Kate, &amp; Bridget &amp; Nico,<note n="1" place="foot" resp="editors">Nicholas Lightfoot married Bridget Prideaux (1768&#8211;1856) on 13 July 1801. Their children were: John Prideaux Lightfoot; Frances Jane Lightfoot (1806&#8211;1882), Southey&#8217;s god-daughter; Catherine Anne Lightfoot (1808&#8211;1898); Bridget Mary Lightfoot (1810&#8211;1889); and Nicholas Francis Lightfoot (1811&#8211;1881), Vicar of Cadbury 1846&#8211;1855, Rector of Islip 1855&#8211;1881.</note> &#8211; &amp; to tell you with what pleasure I look back upon my visit to Crediton, &amp; think of you &amp; your happy family.</p>
+        <p rend="indent1"> My movements since have been as punctual as they were designed to be, &amp; as prosperous as could be desired. Where I had to wait the chance of room in a stage coach, the chance always proved favourable. I made my visits at Taunton, at Earnshill, <ref type="m" target="places.html#Buckland">Buckland</ref>, &amp; Winchester,<note n="2" place="foot" resp="editors">Southey had visited: his aunt, Mary Southey; his Westminster schoolfriend, Edward Combe; Caroline Bowles; and Elizabeth Heathcote (1773&#8211;1855) and Alethea Bigg (1777&#8211;1847), two sisters of Catherine Hill who shared a house at 12 Cathedral Close, Winchester.</note> reached London about ten o clock on the Wednesday night, took places the next morning in the Norwich mail for Friday, &amp; am now this day about to fulfil a promise made some years ago of standing Godfather to my friend <ref type="m" target="people.html#WhiteNeville">Neville White&#8217;s</ref> eldest son;<note n="3" place="foot" resp="editors">Family histories, including <title>The Homes and Haunts of Henry Kirke White; with some account of the family of White, of Nottingham and Norfolk</title> (London and Nottingham, 1908), p. 260, suggest that Neville White&#8217;s first son, christened Henry Kirke White (d. 1849), was born in 1821, but this information may be inaccurate, as Southey stood as godfather to him in January 1824.</note> the said son having most conveniently made his entrance into this world about four weeks ago.</p>
+        <p rend="indent1">I <del>have</del> will trouble you with an easy commission respecting my forthcoming book: it is to forward the copies<note n="4" place="foot" resp="editors">Copies of Southey&#8217;s <title>The Book of the Church</title> (1824).</note> intended for M<hi rend="sup">rs</hi> Keenan,<note n="5" place="foot" resp="editors">Frances Keenan (d. 1838), an artist and widow of the Irish portrait painter John Keenan (d. 1819). Southey had first met her in Exeter in 1799.</note> &amp; for <ref type="m" target="people.html#BrowneMrs">M<hi rend="sup">rs</hi> Wade Browne</ref>, whose direction is with the Rev<hi rend="sup">d</hi> F. Belfield, Primly Hill near Newton.<note n="6" place="foot" resp="editors">Finney Belfield (1758&#8211;1845), a landowner and clergyman, lived at Primley Hill, Paignton, Devon.</note> They will come with yours, an arrangement whereby without increasing your <del>carr</del> cost of carriage, theirs will be lessened. &#8211; You will see that the book is dated from Crediton<note n="7" place="foot" resp="editors">&#8216;<hi rend="ital">Crediton, Jan. 10, 1824</hi>&#8217;, <title>The Book of the Church,</title> 2 vols (London, 1824), I, p. [vii].</note> &#8211; a memorial of my visit which I was glad to have an opportunity of making. &#8211; The concluding proofs I found at <ref type="m" target="places.html#Buckland">Buckland</ref>; &#8211; the title-page &amp;c on my arrival in town. I suppose you will receive it in the course of a few days.</p>
+        <p rend="indent1"> Our places are taken for Ipswich &#8211; for Saturday afternoon next. We shall reach <ref type="m" target="people.html#ClarksonThomas">Clarksons</ref> that night, go to Cambridge on Tuesday the 3<hi rend="sup">d</hi>. to London on the 5<hi rend="sup">th</hi> &#8211; to Richmond on the 7<hi rend="sup">th</hi>. On the 10<hi rend="sup">th</hi> I return to London, &amp; on the 13<hi rend="sup">th</hi> intend to set out in the mail coach for <ref type="m" target="places.html#Keswick">Keswick</ref>, when I hope to feel myself at rest, after having led for fifteen weeks a life which might almost entitle me to the appellation of the Wandering Christian.<note n="8" place="foot" resp="editors">An adaptation of the legend of the &#8216;Wandering Jew&#8217;, an immortal man, cursed to walk the earth forever. The legend seems to date to the thirteenth century.</note>
+        </p>
+        <p rend="indent1"> I am charged to present <ref type="m" target="people.html#SoutheyEdithMay">my daughters</ref> best thanks to M<hi rend="sup">rs</hi> Lightfoot for her beautiful ring. It is not impossible that you may see her in the summer, for she seems more than half inclined to accompany her friend Lady Malet<note n="9" place="foot" resp="editors">Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868), the widow of Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>).</note> to the Devonshire Coast about the end of May, &#8211; a scheme which I am willing to encourage, in the hope that sea air &amp; sea bathing may give her some of that bracing which she wants.</p>
+        <p rend="indent1"> My best &amp; kindest regards to all. Tell M<hi rend="sup">rs</hi> Lightfoot that I should be afraid of being killed with kindness where I now am, if I had not gained confidence by escaping from that fate at Crediton: &#8211; after which I may venture to believe no kindness ever will kill me.</p>
+        <lb />
+        <postscript>
+          <p> [remainder of MS missing]</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

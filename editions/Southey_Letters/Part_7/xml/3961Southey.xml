@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,139 +79,143 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">3961Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">3961Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="3961" type="letter"><head>3961. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John Rickman</ref>, <date when="1822-02-01">1 February 1823</date>
-<note type="headnote" place="foot" resp="editors">Address: To/ J Rickman Esq<hi rend="sup">re</hi><lb/>
-Endorsement: RS to JR Feby 1/ 1823<lb/>
-MS: Huntington Library, RS 428. ALS; 4p.<lb/>
-Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 377–379.</note></head>
-
-
-<opener><salute>My dear R.</salute></opener>
-            <p rend="indent1">Thank you your letter, – &#38; for <ref type="m" target="people.html#AbbotCharles">Lord C.s</ref>, which is as complimentary as the vainest author could desire.<note n="1" place="foot" resp="editors">Rickman and Colchester had congratulated Southey on the appearance of the first volume of his <title>History of the Peninsular War</title> (1823–1832).</note> It does not appear to me that I have incorporated more of the State papers than is necessary for carrying on the narration, &#38; laying the whole iniquity fairly before the world; – but I am aware that a love of detail is my besetting sin, &#38; that I should have been suited to the age had I lived when men wrote folios.</p>
-            <p rend="indent1">The second volume will not be long in passing thro the press when I can get it in.<note n="2" place="foot" resp="editors">The second volume of the <title>History of the Peninsular War</title> was not published until 1827.</note> But the first chapter waits for some Spanish books relating to the war in Catalonia which <ref type="m" target="people.html#MurrayJohn">Murray</ref> has been more than twelvemonths getting for me.<note n="3" place="foot" resp="editors">Southey had read John Mitford’s ‘On Spanish Literature, with some Account of Francisco de Olivarez’, <title>New Monthly Magazine</title>, 10 (October 1818), 221–223. It mentioned Olivarez’s <title>Account of the War in Catalonia</title> (1815) in four volumes, published at Seville, 1815; <title>Anecdotes of Chiefs Employed in the Catalan War</title> (1816); and <title>Memoirs of the Spanish Monarchy to the Abdication of Charles 4 &#38; the Usurpation of Joseph Bonaparte</title> (1816). However, none of these works seem to exist. Southey had already asked Murray to try and acquire them; see Southey to John Murray: 10 July 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3509; 27 February 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3641; 11 June 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3693; and 27 July 1822, Letter 3877; and 1 November [1822], Letter 3911.</note> – I am very rich in materials for it.</p>
-            <p rend="indent1">You told me that the Caledonian Canal<note n="4" place="foot" resp="editors">Rickman was Secretary to the Commissioners for the Caledonian Canal. He and Southey had inspected progress on it on their visit to Scotland in August–September 1819. The canal finally opened in October 1822, twelve years later than planned, even though it was only two-thirds finished. In a letter of 30 April 1822, though, Rickman told Southey that the canal was a ‘tender subject’, because he feared it would never be opened throughout its whole length. By 1822 many steam-powered, iron-hulled ships were too large to use the canal and the Royal Navy had no use for it after the final defeat of France in 1815. Though a magnificent feat of engineering, the canal was, therefore, perceived by many to be obsolete by the time it formally opened.</note> was a sore subject, – &#38; something to that purport I heard from <ref type="m" target="people.html#LowtherWilliam">Lord Lowther</ref>. This has prevented me from sending some communications thro you to <ref type="m" target="people.html#TelfordThomas">M<hi rend="sup">r</hi> Telford</ref><note n="5" place="foot" resp="editors">Telford oversaw the construction of the Caledonian Canal and had accompanied Rickman and Southey for much of their tour of Scotland in 1819.</note> lest they should be ill-timed. There are two Inscriptions for the Canal,<note n="6" place="foot" resp="editors">Southey wrote three ‘Inscriptions for the Caledonian Canal’: ‘Inscription for a Tablet at Banavie, on the Caledonian Canal’, <title>Friendship’s Offering. A Literary Album</title> (London, 1826), pp. [167]–168; and ‘At Clachnacharry’ and ‘At Fort Augustus’, <title>The Anniversary; or, Poetry and Prose for MDCCCXXIX</title> (London, 1829), pp. 194–197. Southey had at this time only written the first two of these poems.</note> – &#38; my annual ode,<note n="7" place="foot" resp="editors">‘Scotland, an Ode, Written after the King’s Visit to that Country. By Robert Southey, Esq. Poet Laureat’, <title>The Bijou: Or Annual of Literature and the Arts</title> (London, 1828), pp. 81–88. The poem was Southey’s annual New Year’s ode for 1823, fulfilling his obligations as Poet Laureate. </note> which being to the praise &#38; glory of Scotland, contains becoming mention of him &#38; Rennie.<note n="8" place="foot" resp="editors">John Rennie (1761–1821; <title>DNB</title>), the Scottish civil engineer and architect. He and Telford were praised in ‘Scotland, an Ode’, lines 48–77.</note> – I have several of these odes now, which will do me no discredit when they see the light.<note n="9" place="foot" resp="editors">As Poet Laureate, Southey had written an annual New Year’s ode since 1814. By early 1823 only <title>Carmen Triumphale</title> (1814) had been published, though ‘Ode, Written in December, 1814’, which Southey had intended to be his New Year’s ode for 1815 until Croker objected to its contents, had appeared in <title>Minor Poems</title>, 3 vols (London, 1815), II, pp. [215]–224. From 1823, Southey’s New Year’s odes were published in piecemeal fashion as follows: January 1816, ‘Glory to Thee in thine omnipotence’, <title>The Doctor</title>, 2 vols (London, 1834), p. 207; January 1817, ‘Ode on the Battle of Algiers’, <title>The Plain Englishman</title>, 3 (1823), pp. 427–428; January 1818, ‘Funeral Song for the Princess Charlotte’, <title>Friendship’s Offering: A Literary Album and Christmas and New Year’s Present, for 1828</title> (London, 1828), pp. 1–6; January 1819, ‘Ode on the Death of Queen Charlotte’, <title>Friendship’s Offering and Winter’s Wreath: A Literary Album, and Christmas and New Year’s Present for MDCCCXXIX</title> (London, 1829), pp. 106–108; January 1820 and January 1821, ‘The Warning Voice: Ode I and Ode II’, <title>The Englishman’s Library: Comprising a Series of Historical, Biographical and National Information</title> (London, 1824), pp. 381–389; January 1822, ‘Ireland’, <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title>, 2 vols (London, 1829), I, pp. [295]–302.</note></p>
-            <p rend="indent1">I am glad of the alterations at the Treasury<note n="10" place="foot" resp="editors">Nicholas Vansittart, 1st Baron Bexley (1766–1851; <title>DNB</title>), Chancellor of the Exchequer 1812–1823, had been replaced by Frederick John Robinson, 1st Earl of Ripon (1782–1859; <title>DNB</title>), Chancellor of the Exchequer 1823–1827.</note> – but not so glad that you have exchanged a quiet steady Ch. of the Exchequer for one who can be talked out of any purpose, &#38; is then ready to hang himself for his folly, – for this is what I hear of him. <ref type="m" target="people.html#HerriesJohnCharles">Herries</ref><note n="11" place="foot" resp="editors">Herries had been appointed Joint Secretary to the Treasury 1823–1827. He was briefly Chancellor of the Exchequer 1827–1828.</note> is a man of business, with proper views &#38; with no want of resolution. I think he is likely to make his way to that situation in time. At present he could not be better than where he is.</p>
-            <p rend="indent1">We killed a polecat last week, – &#38; it is now matter of doubt whether he ought to have been considered as friend or enemy, his service against the rats being set off against the poultry score. So, considering the Whigs as rats, &#38; Hunt,<note n="12" place="foot" resp="editors">Henry ‘Orator’ Hunt (1773–1835; <title>DNB</title>), the radical politician.</note> <ref type="m" target="people.html#CobbettWilliam">Cobbett</ref> &#38;c as polecats, I am rather disposed to be pleased with what the Radicals are doing at this time.<note n="13" place="foot" resp="editors">Some Whigs were attempting to combine with radicals in a campaign for parliamentary reform. While the Whigs were able to produce a moderate petition for reform from a Yorkshire county meeting on 22 January 1823, the radicals dominated the Middlesex county meeting on 6 February 1823. These disagreements contributed to the campaign slowly withering away during 1823.</note> –</p>
-            <closer><salute rend="indent1">God bless you</salute>
-               <salute rend="indent2">RS.</salute></closer>
- <lb/>           
-<postscript>	<p rend="indent1"><date when="1823-02-01">Feb<hi rend="sup">y</hi> 1. 1823.</date> <address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address></p></postscript>
-</div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="3961" type="letter">
+        <head>3961. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John Rickman</ref>, <date when="1822-02-01">1 February 1823</date>
+          <note type="headnote" place="foot" resp="editors">Address: To/ J Rickman Esq<hi rend="sup">re</hi>
+            <lb />
+Endorsement: RS to JR Feby 1/ 1823<lb />
+MS: Huntington Library, RS 428. ALS; 4p.<lb />
+Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 377&#8211;379.</note>
+        </head>
+        <opener>
+          <salute>My dear R.</salute>
+        </opener>
+        <p rend="indent1">Thank you your letter, &#8211; &amp; for <ref type="m" target="people.html#AbbotCharles">Lord C.s</ref>, which is as complimentary as the vainest author could desire.<note n="1" place="foot" resp="editors">Rickman and Colchester had congratulated Southey on the appearance of the first volume of his <title>History of the Peninsular War</title> (1823&#8211;1832).</note> It does not appear to me that I have incorporated more of the State papers than is necessary for carrying on the narration, &amp; laying the whole iniquity fairly before the world; &#8211; but I am aware that a love of detail is my besetting sin, &amp; that I should have been suited to the age had I lived when men wrote folios.</p>
+        <p rend="indent1">The second volume will not be long in passing thro the press when I can get it in.<note n="2" place="foot" resp="editors">The second volume of the <title>History of the Peninsular War</title> was not published until 1827.</note> But the first chapter waits for some Spanish books relating to the war in Catalonia which <ref type="m" target="people.html#MurrayJohn">Murray</ref> has been more than twelvemonths getting for me.<note n="3" place="foot" resp="editors">Southey had read John Mitford&#8217;s &#8216;On Spanish Literature, with some Account of Francisco de Olivarez&#8217;, <title>New Monthly Magazine</title>, 10 (October 1818), 221&#8211;223. It mentioned Olivarez&#8217;s <title>Account of the War in Catalonia</title> (1815) in four volumes, published at Seville, 1815; <title>Anecdotes of Chiefs Employed in the Catalan War</title> (1816); and <title>Memoirs of the Spanish Monarchy to the Abdication of Charles 4 &amp; the Usurpation of Joseph Bonaparte</title> (1816). However, none of these works seem to exist. Southey had already asked Murray to try and acquire them; see Southey to John Murray: 10 July 1820, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3509; 27 February 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3641; 11 June 1821, <title>The Collected Letters of Robert Southey. Part Six</title>, Letter 3693; and 27 July 1822, Letter 3877; and 1 November [1822], Letter 3911.</note> &#8211; I am very rich in materials for it.</p>
+        <p rend="indent1">You told me that the Caledonian Canal<note n="4" place="foot" resp="editors">Rickman was Secretary to the Commissioners for the Caledonian Canal. He and Southey had inspected progress on it on their visit to Scotland in August&#8211;September 1819. The canal finally opened in October 1822, twelve years later than planned, even though it was only two-thirds finished. In a letter of 30 April 1822, though, Rickman told Southey that the canal was a &#8216;tender subject&#8217;, because he feared it would never be opened throughout its whole length. By 1822 many steam-powered, iron-hulled ships were too large to use the canal and the Royal Navy had no use for it after the final defeat of France in 1815. Though a magnificent feat of engineering, the canal was, therefore, perceived by many to be obsolete by the time it formally opened.</note> was a sore subject, &#8211; &amp; something to that purport I heard from <ref type="m" target="people.html#LowtherWilliam">Lord Lowther</ref>. This has prevented me from sending some communications thro you to <ref type="m" target="people.html#TelfordThomas">M<hi rend="sup">r</hi> Telford</ref>
+          <note n="5" place="foot" resp="editors">Telford oversaw the construction of the Caledonian Canal and had accompanied Rickman and Southey for much of their tour of Scotland in 1819.</note> lest they should be ill-timed. There are two Inscriptions for the Canal,<note n="6" place="foot" resp="editors">Southey wrote three &#8216;Inscriptions for the Caledonian Canal&#8217;: &#8216;Inscription for a Tablet at Banavie, on the Caledonian Canal&#8217;, <title>Friendship&#8217;s Offering. A Literary Album</title> (London, 1826), pp. [167]&#8211;168; and &#8216;At Clachnacharry&#8217; and &#8216;At Fort Augustus&#8217;, <title>The Anniversary; or, Poetry and Prose for MDCCCXXIX</title> (London, 1829), pp. 194&#8211;197. Southey had at this time only written the first two of these poems.</note> &#8211; &amp; my annual ode,<note n="7" place="foot" resp="editors">&#8216;Scotland, an Ode, Written after the King&#8217;s Visit to that Country. By Robert Southey, Esq. Poet Laureat&#8217;, <title>The Bijou: Or Annual of Literature and the Arts</title> (London, 1828), pp. 81&#8211;88. The poem was Southey&#8217;s annual New Year&#8217;s ode for 1823, fulfilling his obligations as Poet Laureate. </note> which being to the praise &amp; glory of Scotland, contains becoming mention of him &amp; Rennie.<note n="8" place="foot" resp="editors">John Rennie (1761&#8211;1821; <title>DNB</title>), the Scottish civil engineer and architect. He and Telford were praised in &#8216;Scotland, an Ode&#8217;, lines 48&#8211;77.</note> &#8211; I have several of these odes now, which will do me no discredit when they see the light.<note n="9" place="foot" resp="editors">As Poet Laureate, Southey had written an annual New Year&#8217;s ode since 1814. By early 1823 only <title>Carmen Triumphale</title> (1814) had been published, though &#8216;Ode, Written in December, 1814&#8217;, which Southey had intended to be his New Year&#8217;s ode for 1815 until Croker objected to its contents, had appeared in <title>Minor Poems</title>, 3 vols (London, 1815), II, pp. [215]&#8211;224. From 1823, Southey&#8217;s New Year&#8217;s odes were published in piecemeal fashion as follows: January 1816, &#8216;Glory to Thee in thine omnipotence&#8217;, <title>The Doctor</title>, 2 vols (London, 1834), p. 207; January 1817, &#8216;Ode on the Battle of Algiers&#8217;, <title>The Plain Englishman</title>, 3 (1823), pp. 427&#8211;428; January 1818, &#8216;Funeral Song for the Princess Charlotte&#8217;, <title>Friendship&#8217;s Offering: A Literary Album and Christmas and New Year&#8217;s Present, for 1828</title> (London, 1828), pp. 1&#8211;6; January 1819, &#8216;Ode on the Death of Queen Charlotte&#8217;, <title>Friendship&#8217;s Offering and Winter&#8217;s Wreath: A Literary Album, and Christmas and New Year&#8217;s Present for MDCCCXXIX</title> (London, 1829), pp. 106&#8211;108; January 1820 and January 1821, &#8216;The Warning Voice: Ode I and Ode II&#8217;, <title>The Englishman&#8217;s Library: Comprising a Series of Historical, Biographical and National Information</title> (London, 1824), pp. 381&#8211;389; January 1822, &#8216;Ireland&#8217;, <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title>, 2 vols (London, 1829), I, pp. [295]&#8211;302.</note>
+        </p>
+        <p rend="indent1">I am glad of the alterations at the Treasury<note n="10" place="foot" resp="editors">Nicholas Vansittart, 1st Baron Bexley (1766&#8211;1851; <title>DNB</title>), Chancellor of the Exchequer 1812&#8211;1823, had been replaced by Frederick John Robinson, 1st Earl of Ripon (1782&#8211;1859; <title>DNB</title>), Chancellor of the Exchequer 1823&#8211;1827.</note> &#8211; but not so glad that you have exchanged a quiet steady Ch. of the Exchequer for one who can be talked out of any purpose, &amp; is then ready to hang himself for his folly, &#8211; for this is what I hear of him. <ref type="m" target="people.html#HerriesJohnCharles">Herries</ref>
+          <note n="11" place="foot" resp="editors">Herries had been appointed Joint Secretary to the Treasury 1823&#8211;1827. He was briefly Chancellor of the Exchequer 1827&#8211;1828.</note> is a man of business, with proper views &amp; with no want of resolution. I think he is likely to make his way to that situation in time. At present he could not be better than where he is.</p>
+        <p rend="indent1">We killed a polecat last week, &#8211; &amp; it is now matter of doubt whether he ought to have been considered as friend or enemy, his service against the rats being set off against the poultry score. So, considering the Whigs as rats, &amp; Hunt,<note n="12" place="foot" resp="editors">Henry &#8216;Orator&#8217; Hunt (1773&#8211;1835; <title>DNB</title>), the radical politician.</note>
+          <ref type="m" target="people.html#CobbettWilliam">Cobbett</ref> &amp;c as polecats, I am rather disposed to be pleased with what the Radicals are doing at this time.<note n="13" place="foot" resp="editors">Some Whigs were attempting to combine with radicals in a campaign for parliamentary reform. While the Whigs were able to produce a moderate petition for reform from a Yorkshire county meeting on 22 January 1823, the radicals dominated the Middlesex county meeting on 6 February 1823. These disagreements contributed to the campaign slowly withering away during 1823.</note> &#8211;</p>
+        <closer>
+          <salute rend="indent1">God bless you</salute>
+          <salute rend="indent2">RS.</salute>
+        </closer>
+        <lb />
+        <postscript>
+          <p rend="indent1">
+            <date when="1823-02-01">Feb<hi rend="sup">y</hi> 1. 1823.</date>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,139 +79,141 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4133Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4133Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4133" type="letter"><head>4133. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1824-02-13">13 February 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: [deletion and readdress in another hand] To/ Miss Bowles/ &#60;Honble Mrs Rose’s&#62;’/ <del>Buckland</del>/ &#60;Polygon&#62;/ <del>Lymington</del>/ Southton/ Hants<lb/>
-               Endorsement: N<hi rend="sup">o</hi> 45 To Miss Caroline Bowles<lb/>
-               MS: British Library, Add MS 47889. ALS; 4p. <lb/>
-               Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 51–52.</note></head>
-            
-            
-           <opener> <dateline><del>Friday: 1 o clock</del> <address><placeName>&#60;London&#62;</placeName></address><note n="1" place="foot" resp="editors">Deletion and insertion in another hand.</note><date when="1824-02-13">13 Feb<hi rend="sup">y</hi>. 1824.</date></dateline></opener>
-            
-            <p rend="indent1"> A few hurried lines in the midst of all the joy, &#60;dirt&#62;, &#38; discomfort of packing, hammering, cording &#38;c – . Thank you for the purse, – tho it was a dangerous inclosure, &#38; might have been (perhaps <hi rend="ital">ought</hi> to have been) stabbed at the Post Office, as coming from a part of the coast noted for smuggling. Remember that <ref type="m" target="people.html#RickmanJohn">Rickmans</ref> frank will not cover more than two ounces.</p>
-            <p rend="indent1"> Thank you also for both your little poems; – the sea one I think will suit <ref type="m" target="people.html#PettetAlfred">the poor petitioners</ref> purpose well.<note n="2" place="foot" resp="editors">Caroline Bowles had offered to contribute ‘The Mariner’s Hymn’ from <title>Solitary Hours</title> (London, 1826), pp. 22–24, to Alfred Pettet’s <title>Original Sacred Music</title> (London, n.d., c. 1825–1827), though it was eventually rejected and replaced by ‘I weep, but not rebellious tears’, later published in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [227]–228.</note> The other<note n="3" place="foot" resp="editors">Bowles’s ‘It is not Death’, <title>Solitary Hours</title> (London, 1826), pp. 58–60. </note> is one of the most striking &#38; original I ever met with in any language &#38; so it has been felt to be by the few persons to whom I have shewn it. There is a single line which needs alteration – <del>that</del> “ – oer him he loved – that livid clay – “.<note n="4" place="foot" resp="editors">‘It is not Death’, <title>Solitary Hours</title> (London, 1826), p. 60, changed this line to ‘O’er him he loved – corrupting clay! –’</note> I wish I <del>xxx</del> could see how to alter it. But I will examine the whole &#38; see whether in any word it can be improved, – for be assured that little piece will take its place with Grays Elegy &#38; <ref type="m" target="people.html#KnowlesHerbert">Herbert Knowles’s</ref><note n="5" place="foot" resp="editors">Thomas Gray (1716–1771; <title>DNB</title>), <title>Elegy Written in a Country Churchyard</title> (1751) and <ref type="m" target="people.html#KnowlesHerbert">Herbert Knowles</ref>, ‘Stanzas Written in the Churchyard of Richmond, Yorkshire’, published by Southey in <title>Quarterly Review</title>, 21 (April 1819), 396–398.</note></p>
-           <p rend="indent1"> So little rest have I had since I left you that my portfolio goes home full of unanswered letters. I will write with my first leisure to you about the irregular blank verse.<note n="6" place="foot" resp="editors">The metre to be used in Bowles and Southey’s ‘Robin Hood’ and based on that in Southey’s <title>Thalaba the Destroyer</title> (1801). The resulting incomplete work was published in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [1]–36.</note> You have only to unlearn the common tune, – &#38; then follow your ear, taking mere convenience for your guide, except where the subject brings with it, as it often will do, its own measure. Break yourself of the common tune by practising in six syllable lines, &#38; in eight syllable ones.</p>
-            <p rend="indent1"><ref type="m" target="people.html#WollstonecraftMary">Mary Wollstonecraft</ref> I had never seen when those lines to her were written.<note n="7" place="foot" resp="editors">‘To Mary Wollstonecraft’ from <title>Poems</title> (Bristol, 1797), p. [3].</note> I saw her afterwards twice or thrice, &#38; dined once at her house.<note n="8" place="foot" resp="editors">Southey dined with Wollstonecraft on 3 May 1797; see Southey to Joseph Cottle, 2 May [1797], <title>The Collected Letters of Robert Southey, Part One</title>, Letter 214.</note> She was a delightful woman, &#38; in better times, or in better hands would have been an excellent one. But her lot had fallen in evil days, &#38; the men to whom she attached herself<note n="9" place="foot" resp="editors">Gilbert Imlay (1754–1828), American businessman and author, and father of Wollstonecraft’s first child, Frances Imlay (1794–1816); Wollstonecraft’s husband, William Godwin; and, probably, Henry Fuseli (1745–1821; <title>DNB</title>), a Swiss-born painter with whom Wollstonecraft had been in love. </note> were utterly unworthy of her. You shall see one of these days what I say of that tempestuous age, – few persons but those who have lived in it can conceive or comprehend what the morning of the French Revolution was, nor <del>xxx</del> what a visionary world seemed to open upon those who were just entering it. Old things seemed passing away, &#38; nothing was dreamt of but the regeneration of the human race. </p>
-           <p rend="indent1"> You asked about my bust. Smith in Upper Norton Street has the mould, &#38; casts may always be had there.<note n="10" place="foot" resp="editors">A bust of Southey had been sculpted in 1813 by James Smith (1775–1815). Smith’s business was carried on by his sons, Charles Raymond Smith (c. 1798–1888) and Thomas Smith (b. 1800) at 57 Upper Norton Street.</note></p>
-            <p rend="indent1"> I have no time for more. Sunday, thank God, I shall be at home, – &#38; if I find all well, shall be truly happy. Yet I depart with a heavier feeling than I ever took from London before, for it is not likely that I shall ever seen <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref> again. He is very infirm, – more so than might even be expected at 74. Last night I went to assist him into his carriage, &#38; before he had driven off, or I had re entered the door, some men past between us, bearing a coffin. Mere accident as it was I wish it had not occurred for it must have effected him as it did me.</p>
-            <closer> <salute rend="indent1"><ref type="m" target="people.html#SoutheyEdithMay">Ediths</ref> love. God bless you – dear friend.</salute></closer>
-            <signed rend="indent2">RS.</signed>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4133" type="letter">
+        <head>4133. Robert Southey to <ref type="a" target="people.html#BowlesCaroline">Caroline Bowles</ref>, <date when="1824-02-13">13 February 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: [deletion and readdress in another hand] To/ Miss Bowles/ &lt;Honble Mrs Rose&#8217;s&gt;&#8217;/ <del>Buckland</del>/ &lt;Polygon&gt;/ <del>Lymington</del>/ Southton/ Hants<lb />
+               Endorsement: N<hi rend="sup">o</hi> 45 To Miss Caroline Bowles<lb />
+               MS: British Library, Add MS 47889. ALS; 4p. <lb />
+               Previously published: Edward Dowden (ed.), <title>The Correspondence of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), pp. 51&#8211;52.</note>
+        </head>
+        <opener>
+          <dateline>
+            <del>Friday: 1 o clock</del>
+            <address>
+              <placeName>&lt;London&gt;</placeName>
+            </address>
+            <note n="1" place="foot" resp="editors">Deletion and insertion in another hand.</note>
+            <date when="1824-02-13">13 Feb<hi rend="sup">y</hi>. 1824.</date>
+          </dateline>
+        </opener>
+        <p rend="indent1"> A few hurried lines in the midst of all the joy, &lt;dirt&gt;, &amp; discomfort of packing, hammering, cording &amp;c &#8211; . Thank you for the purse, &#8211; tho it was a dangerous inclosure, &amp; might have been (perhaps <hi rend="ital">ought</hi> to have been) stabbed at the Post Office, as coming from a part of the coast noted for smuggling. Remember that <ref type="m" target="people.html#RickmanJohn">Rickmans</ref> frank will not cover more than two ounces.</p>
+        <p rend="indent1"> Thank you also for both your little poems; &#8211; the sea one I think will suit <ref type="m" target="people.html#PettetAlfred">the poor petitioners</ref> purpose well.<note n="2" place="foot" resp="editors">Caroline Bowles had offered to contribute &#8216;The Mariner&#8217;s Hymn&#8217; from <title>Solitary Hours</title> (London, 1826), pp. 22&#8211;24, to Alfred Pettet&#8217;s <title>Original Sacred Music</title> (London, n.d., c. 1825&#8211;1827), though it was eventually rejected and replaced by &#8216;I weep, but not rebellious tears&#8217;, later published in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [227]&#8211;228.</note> The other<note n="3" place="foot" resp="editors">Bowles&#8217;s &#8216;It is not Death&#8217;, <title>Solitary Hours</title> (London, 1826), pp. 58&#8211;60. </note> is one of the most striking &amp; original I ever met with in any language &amp; so it has been felt to be by the few persons to whom I have shewn it. There is a single line which needs alteration &#8211; <del>that</del> &#8220; &#8211; oer him he loved &#8211; that livid clay &#8211; &#8220;.<note n="4" place="foot" resp="editors">&#8216;It is not Death&#8217;, <title>Solitary Hours</title> (London, 1826), p. 60, changed this line to &#8216;O&#8217;er him he loved &#8211; corrupting clay! &#8211;&#8217;</note> I wish I <del>xxx</del> could see how to alter it. But I will examine the whole &amp; see whether in any word it can be improved, &#8211; for be assured that little piece will take its place with Grays Elegy &amp; <ref type="m" target="people.html#KnowlesHerbert">Herbert Knowles&#8217;s</ref>
+          <note n="5" place="foot" resp="editors">Thomas Gray (1716&#8211;1771; <title>DNB</title>), <title>Elegy Written in a Country Churchyard</title> (1751) and <ref type="m" target="people.html#KnowlesHerbert">Herbert Knowles</ref>, &#8216;Stanzas Written in the Churchyard of Richmond, Yorkshire&#8217;, published by Southey in <title>Quarterly Review</title>, 21 (April 1819), 396&#8211;398.</note>
+        </p>
+        <p rend="indent1"> So little rest have I had since I left you that my portfolio goes home full of unanswered letters. I will write with my first leisure to you about the irregular blank verse.<note n="6" place="foot" resp="editors">The metre to be used in Bowles and Southey&#8217;s &#8216;Robin Hood&#8217; and based on that in Southey&#8217;s <title>Thalaba the Destroyer</title> (1801). The resulting incomplete work was published in <title>Robin Hood: a Fragment. By the Late Robert Southey, and Caroline Southey. With Other Fragments and Poems By R.S. and C.S.</title> (London, 1847), pp. [1]&#8211;36.</note> You have only to unlearn the common tune, &#8211; &amp; then follow your ear, taking mere convenience for your guide, except where the subject brings with it, as it often will do, its own measure. Break yourself of the common tune by practising in six syllable lines, &amp; in eight syllable ones.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#WollstonecraftMary">Mary Wollstonecraft</ref> I had never seen when those lines to her were written.<note n="7" place="foot" resp="editors">&#8216;To Mary Wollstonecraft&#8217; from <title>Poems</title> (Bristol, 1797), p. [3].</note> I saw her afterwards twice or thrice, &amp; dined once at her house.<note n="8" place="foot" resp="editors">Southey dined with Wollstonecraft on 3 May 1797; see Southey to Joseph Cottle, 2 May [1797], <title>The Collected Letters of Robert Southey, Part One</title>, Letter 214.</note> She was a delightful woman, &amp; in better times, or in better hands would have been an excellent one. But her lot had fallen in evil days, &amp; the men to whom she attached herself<note n="9" place="foot" resp="editors">Gilbert Imlay (1754&#8211;1828), American businessman and author, and father of Wollstonecraft&#8217;s first child, Frances Imlay (1794&#8211;1816); Wollstonecraft&#8217;s husband, William Godwin; and, probably, Henry Fuseli (1745&#8211;1821; <title>DNB</title>), a Swiss-born painter with whom Wollstonecraft had been in love. </note> were utterly unworthy of her. You shall see one of these days what I say of that tempestuous age, &#8211; few persons but those who have lived in it can conceive or comprehend what the morning of the French Revolution was, nor <del>xxx</del> what a visionary world seemed to open upon those who were just entering it. Old things seemed passing away, &amp; nothing was dreamt of but the regeneration of the human race. </p>
+        <p rend="indent1"> You asked about my bust. Smith in Upper Norton Street has the mould, &amp; casts may always be had there.<note n="10" place="foot" resp="editors">A bust of Southey had been sculpted in 1813 by James Smith (1775&#8211;1815). Smith&#8217;s business was carried on by his sons, Charles Raymond Smith (c. 1798&#8211;1888) and Thomas Smith (b. 1800) at 57 Upper Norton Street.</note>
+        </p>
+        <p rend="indent1"> I have no time for more. Sunday, thank God, I shall be at home, &#8211; &amp; if I find all well, shall be truly happy. Yet I depart with a heavier feeling than I ever took from London before, for it is not likely that I shall ever seen <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref> again. He is very infirm, &#8211; more so than might even be expected at 74. Last night I went to assist him into his carriage, &amp; before he had driven off, or I had re entered the door, some men past between us, bearing a coffin. Mere accident as it was I wish it had not occurred for it must have effected him as it did me.</p>
+        <closer>
+          <salute rend="indent1">
+            <ref type="m" target="people.html#SoutheyEdithMay">Ediths</ref> love. God bless you &#8211; dear friend.</salute>
+        </closer>
+        <signed rend="indent2">RS.</signed>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,138 +79,136 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4297Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4297Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4297" type="letter"><head>4297. Robert Southey to [<ref type="a" target="people.html#CrokerJohnWilson">John Wilson Croker</ref>], <date when="1824-12-18">18 December 1824</date>
-            <note type="headnote" place="foot" resp="editors">MS: Morgan Library, MA 1005. ALS; 3p.<lb/>
-               Previously published: Kenneth Curry (ed.), <title>New Letters of Robert Southey</title>, 2 vols (London and New York, 1965), II, pp. 275–277; Myron F. Brightfield, <title>John Wilson Croker</title> (London, 1940), p. 182 [in part].</note></head>
-            
-            
-           <opener> <dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1824-12-18">18 Dec. 1824</date></dateline>
-            
-           <salute> My dear Sir</salute></opener>
-          <p rend="indent1">  I am glad to find that the management of the Quarterly Review is not to remain much longer in abeyance, &#38; that it is likely to be placed in very competent hands. Looking at all the requisites which are necessary for such a task, I should think it impossible to find a person better qualified for it than <ref type="m" target="people.html#ColeridgeJohnTaylor">John Coleridge</ref>. As a scholar he has been thoroughly bred, at Eton &#38; at Oxford; he has a high University reputation,<note n="1" place="foot" resp="editors">John Taylor Coleridge had been elected into a Vinerian Scholarship, the most important honour awarded to aspiring lawyers, and was a Fellow of Exeter College.</note> – which tho but a feather in a scale, is a feather in a cap also. His principles are in every respect what they ought to be; I know no man who is more sincerely attached to the institutions of his country, nor who understands them better. He has all the attainments that the office requires, all the discretion &#38; all the firmness. His connections are good; &#38; his professional prospects such that it is deemed by some of his friends an act of imprudence in him to engage in any thing which may seem to interrupt them, – for that it is possible to be a man of business &#38; of letters at the same time is far from being generally understood, tho few ages have afforded better examples of this union than our own.</p>
-          <p rend="indent1">  Our own is indeed a marvellous age in whatever light it be regarded; &#38; a pleasanter one there never can have been to have lived in for one, who like myself, has nothing to do in the world but to learn what has been done in former times, to observe what is going on, &#38; to speculate upon what is to come. I am glad to see that your Conway papers are soon to see the light.<note n="2" place="foot" resp="editors">The papers of Edward Conway, 1st Viscount Conway (1564–1631; <title>DNB</title>), Secretary of State 1623–1628, his son Edward Conway, 2nd Viscount Conway (1594–1655; <title>DNB</title>), bibliophile and military commander, and his grandson, Edward Conway, 1st Earl Conway (1623–1683; <title>DNB</title>), Secretary of State 1681–1683. They were discovered at Ragley Hall, the Conways’ seat in Warwickshire, in 1751, and most of them were given by Francis Charles Seymour-Conway, 3rd Marquess of Hertford (1777–1842) to Croker. Croker never published them and on his death some were bequeathed to the Public Record Office, some to the British Museum and some were sold at auction. They contain much material of inestimable value on seventeenth-century politics and literature. At around this time they were being advertised as ‘about to be published, in five large volumes’ (<title>New Monthly Magazine</title>, 15 (February 1825), 61).</note> You were busy with them when I saw you last, &#38; hardly then knew what treasures you might find there. A compleat body of such papers would be of as much importance to our history, as the publication of the Records, &#38; of the original historians: &#38; if the Royal Society of Literature<note n="3" place="foot" resp="editors">The Royal Society of Literature, founded in 1820 to promote British writing and scholarship.</note> had had any thing to recommend it, except its good intent, it might have been made available to this, &#38; other such purposes.</p>
-            <p rend="indent1"> I have just now had a pressing application to undertake a continuation of Smolletts History.<note n="4" place="foot" resp="editors">Tobias Smollett (1721–1771; <title>DNB</title>), <title>A Complete History of England Deduced from the Descent of Julius Caesar to the Treaty of Aix-la-Chapelle</title> (1757–1758) and <title>Continuation of the Complete History of England</title> (1760–1765). Southey owned an edition from 1789–1790, no. 1465 in the sale catalogue of his library. It is not clear who offered Southey the opportunity to continue this project, but he did not take it up.</note> But whatever I do must be done at my own time, &#38; in my own way. Something in English history I have long thought of doing. It will be <ref type="m" target="people.html#MurrayJohn">Murray’s</ref> fault if I do not produce a summary view of our political progress down to the accession of the present family, – under the title of the Book of the State, &#38; follow it by the Age of George 3<hi rend="sup">d</hi> – with a brief view of the two intermediate reigns.<note n="5" place="foot" resp="editors">Southey did not write any of the following: a ‘Book of the State’ on British history down to the accession of the Hanoverian dynasty in 1714; a history of the reign of George III (1738–1820; King of Great Britain 1760–1820; <title>DNB</title>); or a history of the reigns of George I (1660–1727; King of Great Britain 1714–1727; <title>DNB</title>) and George II (1683–1760; King of Great Britain 1727–1760; <title>DNB</title>).</note> I think I know how this ought to be done. At present I am chearfully employed in proceeding with the Peninsular War,<note n="6" place="foot" resp="editors">Southey’s <title>History of the Peninsular War</title> (1823–1832).</note> &#38; finishing a poem in the Spenserian stanza,<note n="7" place="foot" resp="editors">Southey’s <title>A Tale of Paraguay</title> (1825), written in the stanza of eight lines of iambic pentameter and a concluding hexameter, made famous by Edmund Spenser (1552/1553–1599; <title>DNB</title>).</note> which tho of no great length has been a work of time.</p>
-          <p rend="indent1">  <ref type="m" target="people.html#JebbJohn">The Bishop of Limerick</ref> induced me to make a half promise of visiting him in the ensuing spring. I told him I should prefer waiting till the next rebellion were over, – which I fear will not be by that time. The <hi rend="ital">bed of roses</hi><note n="8" place="foot" resp="editors">Christopher Marlowe (1564–1593; <title>DNB</title>), ‘The Passionate Shepherd to his Love’ (1599), line 9. This phrase was often used to describe a comfortable situation – and Southey implies it was far from comfortable to be an Anglican bishop in Ireland.</note> is not without its thorns at present. It is well that when the crisis <del>th</del> comes the struggle should assume its true character, of a war for separation &#38; for Catholic ascendancy. I wrote an Ode upon the Kings Visit to Ireland,<note n="9" place="foot" resp="editors">Southey’s New Year’s ode for January 1822, ‘Ireland’, published in <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title>, 2 vols (London, 1829), I, pp. [295]–302. The poem was occasioned by George IV’s visit to Dublin, 12 August–3 September 1821, and composed in fulfilment of Southey’s duties as Poet Laureate.</note> which would naturally have concluded with a compliment to <ref type="m" target="people.html#WellesleyMarquis">Marquis Wellesley</ref>;<note n="10" place="foot" resp="editors">Wellesley had just been appointed Lord Lieutenant of Ireland on 8 December 1821 when Southey began composing his poem.</note> – but I saw so little to hope &#38; so much to fear that I had not heart to finish it as it should have finished, – otherwise I should have been glad to publish it.</p>
-           <closer> <salute rend="indent1">farewell my dear Sir &#38; believe me</salute>
-         <salute rend="indent2">   with much regard</salute>
-           <salute rend="indent3"> Yrs faithfully</salute>
-          <signed rend="indent4">  Robert Southey.</signed> </closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4297" type="letter">
+        <head>4297. Robert Southey to [<ref type="a" target="people.html#CrokerJohnWilson">John Wilson Croker</ref>], <date when="1824-12-18">18 December 1824</date>
+          <note type="headnote" place="foot" resp="editors">MS: Morgan Library, MA 1005. ALS; 3p.<lb />
+               Previously published: Kenneth Curry (ed.), <title>New Letters of Robert Southey</title>, 2 vols (London and New York, 1965), II, pp. 275&#8211;277; Myron F. Brightfield, <title>John Wilson Croker</title> (London, 1940), p. 182 [in part].</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-12-18">18 Dec. 1824</date>
+          </dateline>
+          <salute> My dear Sir</salute>
+        </opener>
+        <p rend="indent1">  I am glad to find that the management of the Quarterly Review is not to remain much longer in abeyance, &amp; that it is likely to be placed in very competent hands. Looking at all the requisites which are necessary for such a task, I should think it impossible to find a person better qualified for it than <ref type="m" target="people.html#ColeridgeJohnTaylor">John Coleridge</ref>. As a scholar he has been thoroughly bred, at Eton &amp; at Oxford; he has a high University reputation,<note n="1" place="foot" resp="editors">John Taylor Coleridge had been elected into a Vinerian Scholarship, the most important honour awarded to aspiring lawyers, and was a Fellow of Exeter College.</note> &#8211; which tho but a feather in a scale, is a feather in a cap also. His principles are in every respect what they ought to be; I know no man who is more sincerely attached to the institutions of his country, nor who understands them better. He has all the attainments that the office requires, all the discretion &amp; all the firmness. His connections are good; &amp; his professional prospects such that it is deemed by some of his friends an act of imprudence in him to engage in any thing which may seem to interrupt them, &#8211; for that it is possible to be a man of business &amp; of letters at the same time is far from being generally understood, tho few ages have afforded better examples of this union than our own.</p>
+        <p rend="indent1">  Our own is indeed a marvellous age in whatever light it be regarded; &amp; a pleasanter one there never can have been to have lived in for one, who like myself, has nothing to do in the world but to learn what has been done in former times, to observe what is going on, &amp; to speculate upon what is to come. I am glad to see that your Conway papers are soon to see the light.<note n="2" place="foot" resp="editors">The papers of Edward Conway, 1st Viscount Conway (1564&#8211;1631; <title>DNB</title>), Secretary of State 1623&#8211;1628, his son Edward Conway, 2nd Viscount Conway (1594&#8211;1655; <title>DNB</title>), bibliophile and military commander, and his grandson, Edward Conway, 1st Earl Conway (1623&#8211;1683; <title>DNB</title>), Secretary of State 1681&#8211;1683. They were discovered at Ragley Hall, the Conways&#8217; seat in Warwickshire, in 1751, and most of them were given by Francis Charles Seymour-Conway, 3rd Marquess of Hertford (1777&#8211;1842) to Croker. Croker never published them and on his death some were bequeathed to the Public Record Office, some to the British Museum and some were sold at auction. They contain much material of inestimable value on seventeenth-century politics and literature. At around this time they were being advertised as &#8216;about to be published, in five large volumes&#8217; (<title>New Monthly Magazine</title>, 15 (February 1825), 61).</note> You were busy with them when I saw you last, &amp; hardly then knew what treasures you might find there. A compleat body of such papers would be of as much importance to our history, as the publication of the Records, &amp; of the original historians: &amp; if the Royal Society of Literature<note n="3" place="foot" resp="editors">The Royal Society of Literature, founded in 1820 to promote British writing and scholarship.</note> had had any thing to recommend it, except its good intent, it might have been made available to this, &amp; other such purposes.</p>
+        <p rend="indent1"> I have just now had a pressing application to undertake a continuation of Smolletts History.<note n="4" place="foot" resp="editors">Tobias Smollett (1721&#8211;1771; <title>DNB</title>), <title>A Complete History of England Deduced from the Descent of Julius Caesar to the Treaty of Aix-la-Chapelle</title> (1757&#8211;1758) and <title>Continuation of the Complete History of England</title> (1760&#8211;1765). Southey owned an edition from 1789&#8211;1790, no. 1465 in the sale catalogue of his library. It is not clear who offered Southey the opportunity to continue this project, but he did not take it up.</note> But whatever I do must be done at my own time, &amp; in my own way. Something in English history I have long thought of doing. It will be <ref type="m" target="people.html#MurrayJohn">Murray&#8217;s</ref> fault if I do not produce a summary view of our political progress down to the accession of the present family, &#8211; under the title of the Book of the State, &amp; follow it by the Age of George 3<hi rend="sup">d</hi> &#8211; with a brief view of the two intermediate reigns.<note n="5" place="foot" resp="editors">Southey did not write any of the following: a &#8216;Book of the State&#8217; on British history down to the accession of the Hanoverian dynasty in 1714; a history of the reign of George III (1738&#8211;1820; King of Great Britain 1760&#8211;1820; <title>DNB</title>); or a history of the reigns of George I (1660&#8211;1727; King of Great Britain 1714&#8211;1727; <title>DNB</title>) and George II (1683&#8211;1760; King of Great Britain 1727&#8211;1760; <title>DNB</title>).</note> I think I know how this ought to be done. At present I am chearfully employed in proceeding with the Peninsular War,<note n="6" place="foot" resp="editors">Southey&#8217;s <title>History of the Peninsular War</title> (1823&#8211;1832).</note> &amp; finishing a poem in the Spenserian stanza,<note n="7" place="foot" resp="editors">Southey&#8217;s <title>A Tale of Paraguay</title> (1825), written in the stanza of eight lines of iambic pentameter and a concluding hexameter, made famous by Edmund Spenser (1552/1553&#8211;1599; <title>DNB</title>).</note> which tho of no great length has been a work of time.</p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#JebbJohn">The Bishop of Limerick</ref> induced me to make a half promise of visiting him in the ensuing spring. I told him I should prefer waiting till the next rebellion were over, &#8211; which I fear will not be by that time. The <hi rend="ital">bed of roses</hi>
+          <note n="8" place="foot" resp="editors">Christopher Marlowe (1564&#8211;1593; <title>DNB</title>), &#8216;The Passionate Shepherd to his Love&#8217; (1599), line 9. This phrase was often used to describe a comfortable situation &#8211; and Southey implies it was far from comfortable to be an Anglican bishop in Ireland.</note> is not without its thorns at present. It is well that when the crisis <del>th</del> comes the struggle should assume its true character, of a war for separation &amp; for Catholic ascendancy. I wrote an Ode upon the Kings Visit to Ireland,<note n="9" place="foot" resp="editors">Southey&#8217;s New Year&#8217;s ode for January 1822, &#8216;Ireland&#8217;, published in <title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title>, 2 vols (London, 1829), I, pp. [295]&#8211;302. The poem was occasioned by George IV&#8217;s visit to Dublin, 12 August&#8211;3 September 1821, and composed in fulfilment of Southey&#8217;s duties as Poet Laureate.</note> which would naturally have concluded with a compliment to <ref type="m" target="people.html#WellesleyMarquis">Marquis Wellesley</ref>;<note n="10" place="foot" resp="editors">Wellesley had just been appointed Lord Lieutenant of Ireland on 8 December 1821 when Southey began composing his poem.</note> &#8211; but I saw so little to hope &amp; so much to fear that I had not heart to finish it as it should have finished, &#8211; otherwise I should have been glad to publish it.</p>
+        <closer>
+          <salute rend="indent1">farewell my dear Sir &amp; believe me</salute>
+          <salute rend="indent2">   with much regard</salute>
+          <salute rend="indent3"> Yrs faithfully</salute>
+          <signed rend="indent4">  Robert Southey.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

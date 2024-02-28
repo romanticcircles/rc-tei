@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,141 +79,138 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition">4245Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4245Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4245" type="letter"><head>4245. Robert Southey to <ref type="a" target="people.html#SoutheyEdithMay">Edith May Southey</ref>,<date when="1824-09-10"> 10 September 1824</date>
-            <note type="headnote" place="foot" resp="editors">Address: [in another hand] Portsmouth Fourteenth Sep<hi rend="sup">t</hi>./ 1824/ Miss Southey/ Rev<hi rend="sup">d</hi>. N. Lightfoots/ Crediton/ Devon/ If Miss S. gone,/ Alter the Address/ &#38; forward by Post./ Free/ JRickman<lb/>
-               Stamped: PORTSMOUTH/ SE 14/ 182x/ 73<lb/>
-               MS: British Library, Add MS 47888. ALS; 4p. <lb/>
-               Unpublished.</note></head>
-            
-            
-          <opener>  <dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address> <date when="1824-09-10">Friday 10 Sep<hi rend="sup">t</hi>. 1824</date></dateline>
-            
-            <salute>My dear EMay</salute></opener>
-            <p rend="indent1"> Your last letter required an answer to some particulars, &#38; would have had it sooner if I had been less engaged. Imprimis<note n="1" place="foot" resp="editors">‘in the first place’.</note> you will assure Lady Malet – what I hope she needs not be assured – that we shall be heartily glad to see her son,<note n="2" place="foot" resp="editors">Lady Susanna Malet, née Wales (1779–1868), the widow of Sir Charles Malet, 1st Baronet (1752–1815; <title>DNB</title>) had eight sons; it is not clear which of them intended to visit Keswick.</note> – &#38; to make his visit as agreable to him as we can. In the second place go you to <ref type="m" target="people.html#LongmanThomas">Longmans</ref> some day when you are in town &#38; look out, or order, for the Miss Charters,<note n="3" place="foot" resp="editors"><ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>; and Elizabeth Charter (1782–1860), sisters of William Peachy’s first wife, <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>. Peachy had lent them his house on Derwent Isle, and Lady Malet and the Charters had accompanied Southey and Edith May Southey to London from Keswick in November 1823.</note> &#38; for any one else whom you wish to remember in this way, any books of mine that you may think will be most acceptable. – One thing more while it is in my mind, – ask Dame Elizabeth if she knows where I can direct to <ref type="m" target="people.html#SenhouseHumphrey">Senhouse</ref>.</p>
-            <p rend="indent1">   We have heard of you this day by a very welcome letter from <ref type="m" target="people.html#LightfootNicholas">my old friend your kind host</ref>. If I had Peter Schlemils boots,<note n="4" place="foot" resp="editors">Peter Schlemihl, the main character in Adelbert von Chamisso (1781–1838), <title>Peter Schlemihls Wundersame Geschichte</title> (1814), had boots that allowed him to take strides of seven leagues.</note> of if wishes were wings, I would be with you when I take the air</p>
-            <p rend="indent1"> I have lectured <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> upon the imprudence of sending off such large packets at once, instead of dispatching them sheet by sheet as they are finished. By which means you would &#60;have&#62; as much pleasure in receiving every one, as you have had in getting the whole. One of the great arts of life is to multiply our enjoyment by husbanding them. For example two balls beginning at the hour of eight &#38; lasting till eleven would be better than one beginning at ten &#38; lasting till four.</p>
-           <p rend="indent1"> We expect <ref type="m" target="people.html#ClarksonThomas">Clarkson</ref> tomorrow. All other news I shall leave to <ref type="m" target="people.html#FrickerEdith">my Lady</ref>, who seems to have the art of making a little news go a great way. Only I must tell you that I have with great propriety conferred distinct names upon the two Catbells, – of which the one is henceforth to be called Hurleybell &#38; the other Bellrumple.<note n="5" place="foot" resp="editors">An in-joke about renaming the two summits of Cat Bells, a fell near Keswick, after two of the Southey family cats (Rumpelstilzchen and Hurlyburlybuss).</note> I mean to write a poem upon the subject in the manner of <ref type="m" target="people.html#WordsworthWilliam">Mr Wordsworth</ref> ‘on the naming of places”<note n="6" place="foot" resp="editors">William Wordsworth, ‘Poems on the Naming of Places’, <title>Lyrical Ballads, with a few Other Poems</title>, 2 vols (London, 1800), II, pp. 175–196. Southey did not write an equivalent poem, naming fells after cats, in the manner of Wordsworth naming features of Grasmere after family members, though he had addressed to Edith May Southey his ‘Memoirs of the Cats of Greta Hall’, <title>The Doctor</title>, 7 vols (London, 1834–1847), VII, pp. 582–596; see Southey to Edith May Southey, 18 June 1824, Letter 4202.</note> – &#38; you shall receive it whenever that intention is fulfilled.</p>
-            <p rend="indent1"> No more at present – for I have other dispatches to make ready for this nights post. Axx <del>xxxx xxx xxx xxxxx xxxx</del> My kindest remembrances to <ref type="m" target="people.html#LightfootNicholas">Mr</ref> &#38; M<hi rend="sup">rs</hi> L.<note n="7" place="foot" resp="editors">Nicholas Lightfoot had married Bridget Prideaux (1768–1856) on 13 July 1801.</note> my goddaughter Kate, Bridget &#38; Nico,<note n="8" place="foot" resp="editors">Frances Jane Lightfoot (1806–1882), Southey’s goddaughter; Catherine Anne Lightfoot (1808–1898); Bridget Mary Lightfoot (1810–1889); and Nicholas Francis Lightfoot (1811–1881), Vicar of Cadbury 1846–1855, Rector of Islip 1855–1881.</note> not forgetting <ref type="m" target="people.html#LightfootJohnP">the Fellow of Exeter</ref>, whom I shall be heartily glad to see next year, &#38; still more so if he will bring his father with him. I am under a half promise of going to <ref type="m" target="people.html#JebbJohn">the Bp of Limerick</ref> early in May – when I mean if possible to run away from my summer catarrh.<note n="9" place="foot" resp="editors">Southey visited the Low Countries rather than Ireland in 1825.</note> But I shall return by the vacation &#38; be ready for a campaign among the mountains</p>
-          <p rend="indent1">  All well. The Cattle<note n="10" place="foot" resp="editors">Southey’s younger children, <ref type="m" target="people.html#SoutheyKate">Kate Southey</ref>, <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref> and <ref type="m" target="people.html#SoutheyCharlesCuthbert">Charles Cuthbert Southey</ref>.</note> are gone to Miss Bristows<note n="11" place="foot" resp="editors">Possibly Miss Ann Bristow (1765–1842) of Portinscale.</note> this evening -</p>
-           <closer> <salute rend="indent1">God bless you my dear child</salute>
-           <salute rend="indent2"> Yrs affectionately</salute>
-           <signed rend="indent3"> RS.</signed></closer>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4245" type="letter">
+        <head>4245. Robert Southey to <ref type="a" target="people.html#SoutheyEdithMay">Edith May Southey</ref>,<date when="1824-09-10"> 10 September 1824</date>
+          <note type="headnote" place="foot" resp="editors">Address: [in another hand] Portsmouth Fourteenth Sep<hi rend="sup">t</hi>./ 1824/ Miss Southey/ Rev<hi rend="sup">d</hi>. N. Lightfoots/ Crediton/ Devon/ If Miss S. gone,/ Alter the Address/ &amp; forward by Post./ Free/ JRickman<lb />
+               Stamped: PORTSMOUTH/ SE 14/ 182x/ 73<lb />
+               MS: British Library, Add MS 47888. ALS; 4p. <lb />
+               Unpublished.</note>
+        </head>
+        <opener>
+          <dateline>
+            <address>
+              <placeName>
+                <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+            </address>
+            <date when="1824-09-10">Friday 10 Sep<hi rend="sup">t</hi>. 1824</date>
+          </dateline>
+          <salute>My dear EMay</salute>
+        </opener>
+        <p rend="indent1"> Your last letter required an answer to some particulars, &amp; would have had it sooner if I had been less engaged. Imprimis<note n="1" place="foot" resp="editors">&#8216;in the first place&#8217;.</note> you will assure Lady Malet &#8211; what I hope she needs not be assured &#8211; that we shall be heartily glad to see her son,<note n="2" place="foot" resp="editors">Lady Susanna Malet, n&#233;e Wales (1779&#8211;1868), the widow of Sir Charles Malet, 1st Baronet (1752&#8211;1815; <title>DNB</title>) had eight sons; it is not clear which of them intended to visit Keswick.</note> &#8211; &amp; to make his visit as agreable to him as we can. In the second place go you to <ref type="m" target="people.html#LongmanThomas">Longmans</ref> some day when you are in town &amp; look out, or order, for the Miss Charters,<note n="3" place="foot" resp="editors">
+            <ref type="m" target="people.html#CharterLouisa">Louisa Charter</ref>; and Elizabeth Charter (1782&#8211;1860), sisters of William Peachy&#8217;s first wife, <ref type="m" target="people.html#PeachyEmma">Emma Peachy</ref>. Peachy had lent them his house on Derwent Isle, and Lady Malet and the Charters had accompanied Southey and Edith May Southey to London from Keswick in November 1823.</note> &amp; for any one else whom you wish to remember in this way, any books of mine that you may think will be most acceptable. &#8211; One thing more while it is in my mind, &#8211; ask Dame Elizabeth if she knows where I can direct to <ref type="m" target="people.html#SenhouseHumphrey">Senhouse</ref>.</p>
+        <p rend="indent1">   We have heard of you this day by a very welcome letter from <ref type="m" target="people.html#LightfootNicholas">my old friend your kind host</ref>. If I had Peter Schlemils boots,<note n="4" place="foot" resp="editors">Peter Schlemihl, the main character in Adelbert von Chamisso (1781&#8211;1838), <title>Peter Schlemihls Wundersame Geschichte</title> (1814), had boots that allowed him to take strides of seven leagues.</note> of if wishes were wings, I would be with you when I take the air</p>
+        <p rend="indent1"> I have lectured <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> upon the imprudence of sending off such large packets at once, instead of dispatching them sheet by sheet as they are finished. By which means you would &lt;have&gt; as much pleasure in receiving every one, as you have had in getting the whole. One of the great arts of life is to multiply our enjoyment by husbanding them. For example two balls beginning at the hour of eight &amp; lasting till eleven would be better than one beginning at ten &amp; lasting till four.</p>
+        <p rend="indent1"> We expect <ref type="m" target="people.html#ClarksonThomas">Clarkson</ref> tomorrow. All other news I shall leave to <ref type="m" target="people.html#FrickerEdith">my Lady</ref>, who seems to have the art of making a little news go a great way. Only I must tell you that I have with great propriety conferred distinct names upon the two Catbells, &#8211; of which the one is henceforth to be called Hurleybell &amp; the other Bellrumple.<note n="5" place="foot" resp="editors">An in-joke about renaming the two summits of Cat Bells, a fell near Keswick, after two of the Southey family cats (Rumpelstilzchen and Hurlyburlybuss).</note> I mean to write a poem upon the subject in the manner of <ref type="m" target="people.html#WordsworthWilliam">Mr Wordsworth</ref> &#8216;on the naming of places&#8221;<note n="6" place="foot" resp="editors">William Wordsworth, &#8216;Poems on the Naming of Places&#8217;, <title>Lyrical Ballads, with a few Other Poems</title>, 2 vols (London, 1800), II, pp. 175&#8211;196. Southey did not write an equivalent poem, naming fells after cats, in the manner of Wordsworth naming features of Grasmere after family members, though he had addressed to Edith May Southey his &#8216;Memoirs of the Cats of Greta Hall&#8217;, <title>The Doctor</title>, 7 vols (London, 1834&#8211;1847), VII, pp. 582&#8211;596; see Southey to Edith May Southey, 18 June 1824, Letter 4202.</note> &#8211; &amp; you shall receive it whenever that intention is fulfilled.</p>
+        <p rend="indent1"> No more at present &#8211; for I have other dispatches to make ready for this nights post. Axx <del>xxxx xxx xxx xxxxx xxxx</del> My kindest remembrances to <ref type="m" target="people.html#LightfootNicholas">Mr</ref> &amp; M<hi rend="sup">rs</hi> L.<note n="7" place="foot" resp="editors">Nicholas Lightfoot had married Bridget Prideaux (1768&#8211;1856) on 13 July 1801.</note> my goddaughter Kate, Bridget &amp; Nico,<note n="8" place="foot" resp="editors">Frances Jane Lightfoot (1806&#8211;1882), Southey&#8217;s goddaughter; Catherine Anne Lightfoot (1808&#8211;1898); Bridget Mary Lightfoot (1810&#8211;1889); and Nicholas Francis Lightfoot (1811&#8211;1881), Vicar of Cadbury 1846&#8211;1855, Rector of Islip 1855&#8211;1881.</note> not forgetting <ref type="m" target="people.html#LightfootJohnP">the Fellow of Exeter</ref>, whom I shall be heartily glad to see next year, &amp; still more so if he will bring his father with him. I am under a half promise of going to <ref type="m" target="people.html#JebbJohn">the Bp of Limerick</ref> early in May &#8211; when I mean if possible to run away from my summer catarrh.<note n="9" place="foot" resp="editors">Southey visited the Low Countries rather than Ireland in 1825.</note> But I shall return by the vacation &amp; be ready for a campaign among the mountains</p>
+        <p rend="indent1">  All well. The Cattle<note n="10" place="foot" resp="editors">Southey&#8217;s younger children, <ref type="m" target="people.html#SoutheyKate">Kate Southey</ref>, <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref> and <ref type="m" target="people.html#SoutheyCharlesCuthbert">Charles Cuthbert Southey</ref>.</note> are gone to Miss Bristows<note n="11" place="foot" resp="editors">Possibly Miss Ann Bristow (1765&#8211;1842) of Portinscale.</note> this evening -</p>
+        <closer>
+          <salute rend="indent1">God bless you my dear child</salute>
+          <salute rend="indent2"> Yrs affectionately</salute>
+          <signed rend="indent3"> RS.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

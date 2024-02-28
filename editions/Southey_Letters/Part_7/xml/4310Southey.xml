@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
-        <fileDesc>
-            <titleStmt>
-                
-                <title type="main"><!-- Name of Parent Resource --></title>
-                <title type="subordinate"><!--A Romantic Circles Praxis Volume or A Romantic Circles Electronic Edition  --></title> 
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay --></title>
-                
-                <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
-                </author>
-                
-                <editor role="editor"><!-- Name of volume/edition editor. For multiple editors copy and paste in the appropriate number of nested <author><name> tags --></editor> 
-                
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>EXTERNAL CODER</name>
-                </respStmt>            
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-               
-                <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Jessica Tebo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition><date>YYYY-MM-DD</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" />
+        <title type="subordinate" />
+        <title level="a" />
+        <author role="primary">
+          <name />
+        </author>
+        <editor role="editor" />
+        <respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>
+        <sponsor>Romantic Circles</sponsor>
+        <respStmt>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
+        </respStmt>
+        <respStmt>
+          <resp> Editor</resp>
+          <name />
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>YYYY-MM-DD</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
                     University of Colorado Boulder</publisher>
-                <pubPlace>Boulder, CO</pubPlace>
-                <availability status="free">
-                    <p>Material from the Romantic Circles Website may not be downloaded, 
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
                         reproduced or disseminated in any manner without authorization unless 
                         it is for purposes of criticism, comment, news reporting, teaching, 
                         and/or classroom use as provided by the Copyright Act of 1976, as 
                         amended.</p>
-                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
                         Circles are copyrighted by the author/editor and may be shared only in 
                         accordance with the Fair Use provisions of U.S. copyright law. Except 
                         as expressly permitted by this statement, redistribution or republication 
@@ -61,22 +54,24 @@
                         editor(s) and advance notification of Romantic Circles. Any requests 
                         for authorization should be forwarded to Romantic Circles:
                         <address>
-                            <addrLine>Romantic Circles</addrLine>
-                            <addrLine>c/o Professor Thora Brylowe</addrLine>
-                            <addrLine>Department of English</addrLine>
-                            <addrLine>University of Colorado Boulder</addrLine>
-                            <addrLine>Boulder, CO 80309</addrLine>
-                            <addrLine>thora.brylowe@colorado.edu</addrLine>
-                        </address></p>
-                    <p>By their use of these texts and images, users agree to the following 
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address>
+          </p>
+          <p>By their use of these texts and images, users agree to the following 
                         conditions: 
                         <list>
-                            <item>These texts and images may not be used for any commercial 
+              <item>These texts and images may not be used for any commercial 
                                 purpose without prior written permission from Romantic Circles.</item>
-                            <item>These texts and images may not be re-distributed in any 
+              <item>These texts and images may not be re-distributed in any 
                                 forms other than their current ones.</item>
-                        </list></p>
-                    <p>Users are not permitted to download these texts and images in order 
+            </list>
+          </p>
+          <p>Users are not permitted to download these texts and images in order 
                         to mount them on their own servers. It is not in our interest or that 
                         of our users to have uncontrolled subsets of our holdings available 
                         elsewhere on the Internet. We make corrections and additions to our 
@@ -84,148 +79,153 @@
                         to be the only one generally available to all Internet users. Institutions 
                         can, of course, make a link to the copies at Romantic Circles, subject 
                         to our conditions of use.</p>
-                </availability>
-                <!-- Be sure that the name below matches the file name-->
-                 <idno type="edition">4310Southey<!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno> 
-                 <idno type="resource"><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+        </availability>
+        <idno type="edition">4310Southey</idno>
+        <idno type="resource" />
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a" type="main">
                         </title>
-                        <!-- Referenece the above > tag but only change the final part-->
-                        <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/> 
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
-                    </analytic>
-                    
-                    <monogr>
-                        <title level="m"><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
-                        <imprint>
-                            <publisher>Romantic Circles, https://romantic-circles.org, 
+            <ptr target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio" />
+          </analytic>
+          <monogr>
+            <title level="m" />
+            <title level="s" />
+            <imprint>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
                                 University of Colorado Boulder</publisher>
-                            <pubPlace>Boulder, CO</pubPlace>
-                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: 
+              <pubPlace>Boulder, CO</pubPlace>
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <quotation>
+          <p>All quotation marks and apostrophes have been changed: 
                         " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed 
+        </quotation>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed 
                         except in the case of diplomatic transcriptions.</p>
-                    <p>Because of web browser variability, all hyphens 
+          <p>Because of web browser variability, all hyphens 
                         have been typed on the U.S. keyboard</p>
-                    <p>Em dashes have been rendered as &#8212;</p>
-                    <p>En dashes have been rendered as &#8211;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts 
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
+        </hyphenation>
+        <normalization method="markup">
+          <p>Spelling has not been regularized.</p>
+          <p>Writing in other hands appearing on these manuscripts 
                         has been indicated as such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#35; has been used for #, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, 
+        </normalization>
+        <normalization>
+          <p>&amp; has been used for the ampersand sign.</p>
+          <p># has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
                         etc., have been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
-                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
-                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
-                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
-                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
-                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
-                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
-                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
-                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
-                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
-                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
-                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
-                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css">text-align: center; 
+        </normalization>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+        <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+        <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+        <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+        <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+        <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+        <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+        <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+        <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+        <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
                     font-size: 12pt;</rendition>
-                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
-                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef scheme="#genre" target="#Paratext"/>
-                <catRef scheme="#dcType" target="#Typescript"/>
-                <catRef scheme="#discipline" target="#Literature"/>
-                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
-                <keywords scheme="http://www.romantic-circles.org/#tags">
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    <term subtype="tags"></term>
-                    
-                </keywords>
-                
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
-                <!--  Coder Name and Date Coded  -->
-                <name><!-- coder --></name>
-                <date></date>
-                <list>
-                    <item>TEI encoding the text</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <!--END OF HEADER-->
-
-   <text>
-      <body>
-         <div n="4310" type="letter"><head>4310. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Edith May Southey</ref>,<date when="1824"> [1824]</date>
-            <note type="headnote" place="foot" resp="editors">MS: Bodleian Library, Oxford, MS Autogr. b.7. AL; 5p. <lb/>
-               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 456–460.<lb/>
-               Dating note: This letter was written in 1824 at an unknown point after Southey returned to Keswick on 15 February. It possibly belongs to later in the year, after the departure of the annual crop of visitors provided Southey with more time to devote to his writing for money and for pleasure. We have therefore placed it at the end of the year. </note></head>
-            
-            
-         <opener>  <salute> My dear EMay</salute></opener>
-            <p rend="indent1"> <del>When</del> It <del>consider</del> &#60;has often occurred to me&#62; of how much present interest &#38; future advantage it would be <del>to every respectable family</del> if a domestic chronicle <del>of every thing which concerns it</del> were duly kept in every respectable family, comprizing not only such events as are usually registered in a blank leaf of the family bible, but every thing which concerns the interests of any of its members, &#38; also all &#60;those&#62; great little <del>event</del> affairs which are in private life, what wars &#38; changes of ministry <del>xxxxx xxxxx</del> are to a nation. In the course of a few generations such a record would be invaluable, &#38; would justly be considered as the most precious of all heir–looms. Now tho it is far too late in life for <del>th</del> me to commence a register of this kind, <del>I am disposed for</del> there is one portion of it which may be supplied by recollection, imperfectly indeed, but sufficiently to preserve from entire forgetfulness things in themselves as worthy of remembrance as nine tenths of the battles, intrigues &#60;broils &#38;&#62; mutations <del>of which</del> whereof history is composed. And therefore I sit down to compose as faithfully as my memory enables me a chronicle of the great little events which have occurred at <ref type="m" target="places.html#GretaHall">Greta Hall</ref> since the birth of <ref type="m" target="people.html#SoutheyHenryHerbert">that daughter</ref> who was declared to be as ugly as a Dodo.<note n="1" place="foot" resp="editors">i.e. since 1804. Southey took up residence in Greta Hall the previous year. For Southey’s description of his newborn daughter as ‘ugly as a young dodo’, see Southey to John Rickman, [1] May 1804, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 933.</note> </p>
-           <p rend="indent1"> The top of the house at that time was flat, &#38; covered with pitched cloths &#38; a slight sprinkling of fine gravel. One morning about half an hour before our usual time of rising, <del>my</del> &#60;our&#62; bed room door was opened &#38; <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> C.</ref> said dont be frightened but get up as fast as you can, the house is on fire! – For the purpose of stopping a flaw in the roof a pitch kettle had been put on the fire in the back kitchen, – &#38; had boiled over. Luckily help was at hand, there was nothing very combustible near, &#38; the flames were presently extinguished. </p>
-          <p rend="indent1">  One of the Maids had a misfortune.<note n="2" place="foot" resp="editors">Probably a reference to the maid becoming pregnant.</note> </p>
-            <p rend="indent1"><ref type="m" target="people.html#ColeridgeDerwent">Derwent C.</ref>, being then between three &#38; four years of age swallowed seventeen shillings &#38; sixpence for his amusement.<note n="3" place="foot" resp="editors">See Southey to Samuel Taylor Coleridge, [early–c. 22 October 1804], <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 979.</note> It was discovered by his telling his mother that he had eaten her two yellow shillings. <ref type="m" target="people.html#FrickerSarah">Mrs C.</ref> came in great <del>xxxx</del> alarm to communicate it to me &#38; <ref type="m" target="people.html#SoutheyHenryHerbert">my brother Henry</ref> then a student of medicine &#38; Doctor–in–rus.<note n="4" place="foot" resp="editors">‘Doctor in the countryside’.</note> I remarked that this was <del>xxxx</del> work for a gold finder, – &#38; the Student in medicine offered to farm the patient at half a crown a day, or sixpence a time, till the money should be recovered, – &#38; moreover to be at all the expence of recovering it. Her fears were considerably relieved by this <del>xxxx</del> proposal, which however was not accepted. The money after making the grand tour of <ref type="m" target="people.html#ColeridgeDerwent">Derwents</ref> interior came into the world again next day </p>
-           <p rend="indent1"> All the maids eloped <del>xxx</del> because I had turned a man out of the kitchen at eleven o clock on the preceding night. One of them was readmitted on the petition of her brother &#38; her own acknowledgment of her fault. The wages of the other two up to that day were calculated, &#38; distributed to the poor as forfeited by their misconduct<note n="5" place="foot" resp="editors">This incident probably occurred in 1808: see the reference to the engagement of three new maids in Southey to Thomas Southey, 11 July 1808, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1478.</note> </p>
-            <p rend="indent1"> I bought a Donkey &#38; named him John.<note n="6" place="foot" resp="editors">Southey bought his donkey in 1804; see Southey to Charles Watkin Williams Wynn, 5 October [1804], <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 980.</note> The garden had not then been made, &#38; when John was called he would come galloping from the end of the field, braying for joy, &#38; put his head in at the parlour window for a piece of bread at breakfast. Sometimes he walked into the room for it. As it was not possible to prevent the boys of this disorderly little town from abusing this poor Donkey we were obliged to part with it. <ref type="m" target="people.html#SpeddingJohn">M<hi rend="sup">r</hi> Spedding</ref> bought it; – &#38; a few years afterward it died a natural death in the church yard; – but I apprehend of disease, &#38; not of old age. </p>
-            <p rend="indent1"><ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> fell into the mill race from a wooden bridge which stood then on this side the forge. Young Richardson<note n="7" place="foot" resp="editors">Possibly Thomas Richardson (dates unknown), who succeeded his father, Robert Richardson (dates unknown), in the manufacturing businesses using water-powered machinery that they had built up next to the Greta Hall estate.</note> took her out of the water, just <del>xx</del> as the race had carried her into the river </p>
-           <p rend="indent1"> The Great Itch<note n="8" place="foot" resp="editors">Scabies.</note> broke out in the family, being brought by <ref type="m" target="people.html#LovellRobert">R. L.</ref> from school. </p>
-           <p rend="indent1"> Sad news arrived that Dapper had been hanged for sheepstealing<note n="9" place="foot" resp="editors">Dapper was a dog that Southey acquired in 1804. The sheep-stealing incident may have occurred in 1807; see Southey to Charles Danvers, 11 September 1807, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1357.</note> </p>
-            <p rend="indent1">  A tremendous wind forced open the front door in the middle of the night, – &#38; the scene at shutting it would have made a good subject for <ref type="m" target="people.html#BunburyHenryWilliam">Bunbury</ref>. </p>
-           <p rend="indent1"> Another misfortune among the Maids. </p>
-           <p rend="indent1"> A frost of four days accompanied with fog &#38; a dead calm, produced the most beautiful rime I ever beheld. Every branch, bough &#38; twig of every tree was fringed with it, &#38; it stood upon the boughs inch-long. No orchard in full blossom <del>was ever</del> could be more beautiful, – but it was like a scene of enchantment, – like a grove of silver trees in a subterranean world, which had a light of its own, – for neither sun nor sky were visible. On the fifth day the sun prevailed, the fog brightened &#38; drew up, &#38; in the course of two or three minutes the whole magical beauty of the scene had melted away. But the sight while it lasted, &#38; the sudden transformation (more sudden than any natural change I ever before witnessed, being indeed as compleat as any scenic change in a pantomime), were things never to be forgotten. </p>
-           <p rend="indent1"> The flat roof being found very inconvenient because it let the rain in, a slate one was put on. The large timbers necessary for supporting it were carried up by <del>xx</del> William Bowness<note n="10" place="foot" resp="editors">William Bowness (dates unknown), a builder, based in Keswick.</note> on his back, – the most surprizing &#38; most fearful feat of strength I ever witnessed, – for the weight seemed enough to have broken the ladder under him. I hardly need add that this Bowness was the strongest man in <address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address></p>
-           <p rend="indent1"> In the dead of the night we were awakened by hearing the kitchen window which is under our bedroom smashed in, – &#38; this was followed by a similar crash in <ref type="m" target="people.html#WilsonMrs">M<hi rend="sup">rs</hi> Wilsons</ref> bedroom. This was the greatest little event that ever befel us. In one minute all the household were in the long passage, – each running to the other to know what was the matter. I fired out of the window, – but in time only to let the culprits know that fire arms were kept ready. The next morning it was ascertained that a salted leg of mutton had been used as the instrument of mischief, – a piece of the fat adhering to the broken glass – the frames as well as windows were broken. We ascertained from which public house the drunken rioters had sallied, but nothing more. The Magistrates however met, &#38; the Public houses were threatened unless they kept better hours. I sent the cryer round to give notice that if any persons were found late at night about these premises they must <hi rend="ital">take the consequences</hi>.<note n="11" place="foot" resp="editors">An autograph version of the note Southey gave to the town crier is preserved in Victoria University Library, Toronto, Coleridge Collection. It reads as follows: ‘Whereas a gate on M<hi rend="sup">r</hi> Southey’s premises has been repeatedly broken down, &#38; was broken on Sunday last at noon day; &#38; whereas his larder was robbed on &#60;Saturday or Sunday night, of a piece of salted beef, &#38; other provisions&#62;; this is to give notice that twenty shillings reward will be given to any person giving information upon which the offenders may be apprehended. And all persons are warned from trespassing upon those premises. If found there by day they will be prosecuted; &#38; if by night, they must take the consequences.’</note> Upon this it was debated at the Public Houses whether or not M<hi rend="sup">r</hi> S. had a right to shoot any body for coming about his house in the dark. I heard of this notable discussion &#38; desired it might be made known, that if any body chose under such circumstances to stand fire, I would stand the law.<note n="12" place="foot" resp="editors">This incident probably occurred in 1811–1812; see Southey to [John Spedding], 27 March 1811, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 1889.1, and Southey to Grosvenor Charles Bedford, 17 January 1812, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 2018.</note> </p>
-          <p rend="indent1">  I deterred <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> from winning a sure <hi rend="ital">sans prendre vole</hi> at Quadrille,<note n="13" place="foot" resp="editors">Quadrille was a popular card game in English society. Southey had prevented Sara Coleridge from bidding to win all ten tricks in a game.</note> by laying my finger upon one of my own cards, &#38; cautioning her against rashness. </p>
-          <p rend="indent1">  <ref type="m" target="people.html#SoutheyHenryHerbert">The Doctor-in-rus</ref> &#38; I meaning to cross the Stake,<note n="14" place="foot" resp="editors">A pass leading from Borrowdale, south of Keswick, to Langdale, which in turn led to Charles Lloyd’s home at Low Brathay, at the mouth of Langdale.</note> on our way to <ref type="m" target="people.html#LloydCharles">Charles Lloyds</ref>, missed the pass, being the first time either of us had attempted it, – we got upon Bow Fell, agreed that he was a greater Bow than Beau Nash,<note n="15" place="foot" resp="editors">Richard ‘Beau’ Nash (1674–1761; <title>DNB</title>), the dandy and leader of fashion.</note> all-to-nothing, – or even Beau Brumhill; –<note n="16" place="foot" resp="editors">A pun on the name of George Bryan ‘Beau’ Brummell (1778–1840; <title>DNB</title>), arbiter of men’s fashion.</note> dined there with Duke Humphrey,<note n="17" place="foot" resp="editors">To go without dinner. The phrase was common in Elizabethan literature and may refer to those who could not afford a meal whiling away the dinner hour by the tomb of Humphrey, Duke of Gloucester (1390–1447; <title>DNB</title>) in Old St Pauls Cathedral. </note> &#38; got down into Langdale by a chimney much worse &#38; ten times as long as that on Cawsey Pike.<note n="18" place="foot" resp="editors">A fell in Newlands, near Keswick, that Southey was fond of climbing.</note> </p>
-           <p rend="indent1"> On another occasion descending one of the Borrodale mountains we came to a place, where we were fain to slide over a holly bush into a beck. N.B. we were in thin summer pantaloons.<note n="19" place="foot" resp="editors">Southey may be referring to this incident in Southey to Grosvenor Charles Bedford, 13 November 1805, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1118.</note> </p>
-          <p rend="indent1">  An Owl one Sunday flew up &#38; down the body of the Church during the greater part of the service </p>
-           <p rend="indent1"> The Barn at Monk hall was burnt down.<note n="20" place="foot" resp="editors">A ‘barn and several outhouses … together with a quantity of timber’ and ‘700 bushels of corn’ were destroyed by fire at Monks’ Hall, a farmhouse near Keswick in March 1811 (<title>The Gentleman’s Magazine</title>, 109 (March 1811), 283).</note> </p>
-         </div>
-      </body>
-   </text>
+        <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+        <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef scheme="#genre" target="#Paratext" />
+        <catRef scheme="#dcType" target="#Typescript" />
+        <catRef scheme="#discipline" target="#Literature" />
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+          <term subtype="tags" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <name />
+        <date />
+        <list>
+          <item>TEI encoding the text</item>
+        </list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="4310" type="letter">
+        <head>4310. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Edith May Southey</ref>,<date when="1824"> [1824]</date>
+          <note type="headnote" place="foot" resp="editors">MS: Bodleian Library, Oxford, MS Autogr. b.7. AL; 5p. <lb />
+               Previously published: John Wood Warter (ed.), <title>Selections from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 456&#8211;460.<lb />
+               Dating note: This letter was written in 1824 at an unknown point after Southey returned to Keswick on 15 February. It possibly belongs to later in the year, after the departure of the annual crop of visitors provided Southey with more time to devote to his writing for money and for pleasure. We have therefore placed it at the end of the year. </note>
+        </head>
+        <opener>
+          <salute> My dear EMay</salute>
+        </opener>
+        <p rend="indent1">
+          <del>When</del> It <del>consider</del> &lt;has often occurred to me&gt; of how much present interest &amp; future advantage it would be <del>to every respectable family</del> if a domestic chronicle <del>of every thing which concerns it</del> were duly kept in every respectable family, comprizing not only such events as are usually registered in a blank leaf of the family bible, but every thing which concerns the interests of any of its members, &amp; also all &lt;those&gt; great little <del>event</del> affairs which are in private life, what wars &amp; changes of ministry <del>xxxxx xxxxx</del> are to a nation. In the course of a few generations such a record would be invaluable, &amp; would justly be considered as the most precious of all heir&#8211;looms. Now tho it is far too late in life for <del>th</del> me to commence a register of this kind, <del>I am disposed for</del> there is one portion of it which may be supplied by recollection, imperfectly indeed, but sufficiently to preserve from entire forgetfulness things in themselves as worthy of remembrance as nine tenths of the battles, intrigues &lt;broils &amp;&gt; mutations <del>of which</del> whereof history is composed. And therefore I sit down to compose as faithfully as my memory enables me a chronicle of the great little events which have occurred at <ref type="m" target="places.html#GretaHall">Greta Hall</ref> since the birth of <ref type="m" target="people.html#SoutheyHenryHerbert">that daughter</ref> who was declared to be as ugly as a Dodo.<note n="1" place="foot" resp="editors">i.e. since 1804. Southey took up residence in Greta Hall the previous year. For Southey&#8217;s description of his newborn daughter as &#8216;ugly as a young dodo&#8217;, see Southey to John Rickman, [1] May 1804, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 933.</note>
+        </p>
+        <p rend="indent1"> The top of the house at that time was flat, &amp; covered with pitched cloths &amp; a slight sprinkling of fine gravel. One morning about half an hour before our usual time of rising, <del>my</del> &lt;our&gt; bed room door was opened &amp; <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> C.</ref> said dont be frightened but get up as fast as you can, the house is on fire! &#8211; For the purpose of stopping a flaw in the roof a pitch kettle had been put on the fire in the back kitchen, &#8211; &amp; had boiled over. Luckily help was at hand, there was nothing very combustible near, &amp; the flames were presently extinguished. </p>
+        <p rend="indent1">  One of the Maids had a misfortune.<note n="2" place="foot" resp="editors">Probably a reference to the maid becoming pregnant.</note>
+        </p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#ColeridgeDerwent">Derwent C.</ref>, being then between three &amp; four years of age swallowed seventeen shillings &amp; sixpence for his amusement.<note n="3" place="foot" resp="editors">See Southey to Samuel Taylor Coleridge, [early&#8211;c. 22 October 1804], <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 979.</note> It was discovered by his telling his mother that he had eaten her two yellow shillings. <ref type="m" target="people.html#FrickerSarah">Mrs C.</ref> came in great <del>xxxx</del> alarm to communicate it to me &amp; <ref type="m" target="people.html#SoutheyHenryHerbert">my brother Henry</ref> then a student of medicine &amp; Doctor&#8211;in&#8211;rus.<note n="4" place="foot" resp="editors">&#8216;Doctor in the countryside&#8217;.</note> I remarked that this was <del>xxxx</del> work for a gold finder, &#8211; &amp; the Student in medicine offered to farm the patient at half a crown a day, or sixpence a time, till the money should be recovered, &#8211; &amp; moreover to be at all the expence of recovering it. Her fears were considerably relieved by this <del>xxxx</del> proposal, which however was not accepted. The money after making the grand tour of <ref type="m" target="people.html#ColeridgeDerwent">Derwents</ref> interior came into the world again next day </p>
+        <p rend="indent1"> All the maids eloped <del>xxx</del> because I had turned a man out of the kitchen at eleven o clock on the preceding night. One of them was readmitted on the petition of her brother &amp; her own acknowledgment of her fault. The wages of the other two up to that day were calculated, &amp; distributed to the poor as forfeited by their misconduct<note n="5" place="foot" resp="editors">This incident probably occurred in 1808: see the reference to the engagement of three new maids in Southey to Thomas Southey, 11 July 1808, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1478.</note>
+        </p>
+        <p rend="indent1"> I bought a Donkey &amp; named him John.<note n="6" place="foot" resp="editors">Southey bought his donkey in 1804; see Southey to Charles Watkin Williams Wynn, 5 October [1804], <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 980.</note> The garden had not then been made, &amp; when John was called he would come galloping from the end of the field, braying for joy, &amp; put his head in at the parlour window for a piece of bread at breakfast. Sometimes he walked into the room for it. As it was not possible to prevent the boys of this disorderly little town from abusing this poor Donkey we were obliged to part with it. <ref type="m" target="people.html#SpeddingJohn">M<hi rend="sup">r</hi> Spedding</ref> bought it; &#8211; &amp; a few years afterward it died a natural death in the church yard; &#8211; but I apprehend of disease, &amp; not of old age. </p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara</ref> fell into the mill race from a wooden bridge which stood then on this side the forge. Young Richardson<note n="7" place="foot" resp="editors">Possibly Thomas Richardson (dates unknown), who succeeded his father, Robert Richardson (dates unknown), in the manufacturing businesses using water-powered machinery that they had built up next to the Greta Hall estate.</note> took her out of the water, just <del>xx</del> as the race had carried her into the river </p>
+        <p rend="indent1"> The Great Itch<note n="8" place="foot" resp="editors">Scabies.</note> broke out in the family, being brought by <ref type="m" target="people.html#LovellRobert">R. L.</ref> from school. </p>
+        <p rend="indent1"> Sad news arrived that Dapper had been hanged for sheepstealing<note n="9" place="foot" resp="editors">Dapper was a dog that Southey acquired in 1804. The sheep-stealing incident may have occurred in 1807; see Southey to Charles Danvers, 11 September 1807, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1357.</note>
+        </p>
+        <p rend="indent1">  A tremendous wind forced open the front door in the middle of the night, &#8211; &amp; the scene at shutting it would have made a good subject for <ref type="m" target="people.html#BunburyHenryWilliam">Bunbury</ref>. </p>
+        <p rend="indent1"> Another misfortune among the Maids. </p>
+        <p rend="indent1"> A frost of four days accompanied with fog &amp; a dead calm, produced the most beautiful rime I ever beheld. Every branch, bough &amp; twig of every tree was fringed with it, &amp; it stood upon the boughs inch-long. No orchard in full blossom <del>was ever</del> could be more beautiful, &#8211; but it was like a scene of enchantment, &#8211; like a grove of silver trees in a subterranean world, which had a light of its own, &#8211; for neither sun nor sky were visible. On the fifth day the sun prevailed, the fog brightened &amp; drew up, &amp; in the course of two or three minutes the whole magical beauty of the scene had melted away. But the sight while it lasted, &amp; the sudden transformation (more sudden than any natural change I ever before witnessed, being indeed as compleat as any scenic change in a pantomime), were things never to be forgotten. </p>
+        <p rend="indent1"> The flat roof being found very inconvenient because it let the rain in, a slate one was put on. The large timbers necessary for supporting it were carried up by <del>xx</del> William Bowness<note n="10" place="foot" resp="editors">William Bowness (dates unknown), a builder, based in Keswick.</note> on his back, &#8211; the most surprizing &amp; most fearful feat of strength I ever witnessed, &#8211; for the weight seemed enough to have broken the ladder under him. I hardly need add that this Bowness was the strongest man in <address>
+            <placeName>
+              <ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName>
+          </address>
+        </p>
+        <p rend="indent1"> In the dead of the night we were awakened by hearing the kitchen window which is under our bedroom smashed in, &#8211; &amp; this was followed by a similar crash in <ref type="m" target="people.html#WilsonMrs">M<hi rend="sup">rs</hi> Wilsons</ref> bedroom. This was the greatest little event that ever befel us. In one minute all the household were in the long passage, &#8211; each running to the other to know what was the matter. I fired out of the window, &#8211; but in time only to let the culprits know that fire arms were kept ready. The next morning it was ascertained that a salted leg of mutton had been used as the instrument of mischief, &#8211; a piece of the fat adhering to the broken glass &#8211; the frames as well as windows were broken. We ascertained from which public house the drunken rioters had sallied, but nothing more. The Magistrates however met, &amp; the Public houses were threatened unless they kept better hours. I sent the cryer round to give notice that if any persons were found late at night about these premises they must <hi rend="ital">take the consequences</hi>.<note n="11" place="foot" resp="editors">An autograph version of the note Southey gave to the town crier is preserved in Victoria University Library, Toronto, Coleridge Collection. It reads as follows: &#8216;Whereas a gate on M<hi rend="sup">r</hi> Southey&#8217;s premises has been repeatedly broken down, &amp; was broken on Sunday last at noon day; &amp; whereas his larder was robbed on &lt;Saturday or Sunday night, of a piece of salted beef, &amp; other provisions&gt;; this is to give notice that twenty shillings reward will be given to any person giving information upon which the offenders may be apprehended. And all persons are warned from trespassing upon those premises. If found there by day they will be prosecuted; &amp; if by night, they must take the consequences.&#8217;</note> Upon this it was debated at the Public Houses whether or not M<hi rend="sup">r</hi> S. had a right to shoot any body for coming about his house in the dark. I heard of this notable discussion &amp; desired it might be made known, that if any body chose under such circumstances to stand fire, I would stand the law.<note n="12" place="foot" resp="editors">This incident probably occurred in 1811&#8211;1812; see Southey to [John Spedding], 27 March 1811, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 1889.1, and Southey to Grosvenor Charles Bedford, 17 January 1812, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 2018.</note>
+        </p>
+        <p rend="indent1">  I deterred <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> from winning a sure <hi rend="ital">sans prendre vole</hi> at Quadrille,<note n="13" place="foot" resp="editors">Quadrille was a popular card game in English society. Southey had prevented Sara Coleridge from bidding to win all ten tricks in a game.</note> by laying my finger upon one of my own cards, &amp; cautioning her against rashness. </p>
+        <p rend="indent1">
+          <ref type="m" target="people.html#SoutheyHenryHerbert">The Doctor-in-rus</ref> &amp; I meaning to cross the Stake,<note n="14" place="foot" resp="editors">A pass leading from Borrowdale, south of Keswick, to Langdale, which in turn led to Charles Lloyd&#8217;s home at Low Brathay, at the mouth of Langdale.</note> on our way to <ref type="m" target="people.html#LloydCharles">Charles Lloyds</ref>, missed the pass, being the first time either of us had attempted it, &#8211; we got upon Bow Fell, agreed that he was a greater Bow than Beau Nash,<note n="15" place="foot" resp="editors">Richard &#8216;Beau&#8217; Nash (1674&#8211;1761; <title>DNB</title>), the dandy and leader of fashion.</note> all-to-nothing, &#8211; or even Beau Brumhill; &#8211;<note n="16" place="foot" resp="editors">A pun on the name of George Bryan &#8216;Beau&#8217; Brummell (1778&#8211;1840; <title>DNB</title>), arbiter of men&#8217;s fashion.</note> dined there with Duke Humphrey,<note n="17" place="foot" resp="editors">To go without dinner. The phrase was common in Elizabethan literature and may refer to those who could not afford a meal whiling away the dinner hour by the tomb of Humphrey, Duke of Gloucester (1390&#8211;1447; <title>DNB</title>) in Old St Pauls Cathedral. </note> &amp; got down into Langdale by a chimney much worse &amp; ten times as long as that on Cawsey Pike.<note n="18" place="foot" resp="editors">A fell in Newlands, near Keswick, that Southey was fond of climbing.</note>
+        </p>
+        <p rend="indent1"> On another occasion descending one of the Borrodale mountains we came to a place, where we were fain to slide over a holly bush into a beck. N.B. we were in thin summer pantaloons.<note n="19" place="foot" resp="editors">Southey may be referring to this incident in Southey to Grosvenor Charles Bedford, 13 November 1805, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1118.</note>
+        </p>
+        <p rend="indent1">  An Owl one Sunday flew up &amp; down the body of the Church during the greater part of the service </p>
+        <p rend="indent1"> The Barn at Monk hall was burnt down.<note n="20" place="foot" resp="editors">A &#8216;barn and several outhouses &#8230; together with a quantity of timber&#8217; and &#8216;700 bushels of corn&#8217; were destroyed by fire at Monks&#8217; Hall, a farmhouse near Keswick in March 1811 (<title>The Gentleman&#8217;s Magazine</title>, 109 (March 1811), 283).</note>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
