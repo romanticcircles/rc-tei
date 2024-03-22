@@ -1,0 +1,1372 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <title level="m">Diplomatic Transcription of the Greens Narrative (DCMS 64)</title>
+                
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <author role="secondary">
+                    <name>Michelle Levy</name>
+                </author>
+                
+                <editor role="editor">Michelle Levy</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <idno type="edition">editions.2022.DW.Greens-reading</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="m" type="main">Diplomatic Transcription of the Greens Narrative (DCMS 64)
+                        </title>
+                        <ptr target="editions/DW/editions.2022.DW.Greens-reading"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">charity</term>
+                    <term subtype="tags">childhood</term>
+                    <term subtype="tags">community</term>
+                    <term subtype="tags">death</term>
+                    <term subtype="tags">poverty</term>
+                    <term subtype="tags">rural</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Lavender Earnest</name>
+                <date>2022-10-25</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+
+
+    <text>
+        <body>
+            <div type="essay">
+                <div type="paratext">
+                <head>Diplomatic Transcription of the Greens Narrative (DCMS 64)<lb/>
+                <hi rend="small">Michelle Levy</hi></head>
+                <byline>
+                    <docAuthor>Michelle Levy</docAuthor>
+                    <affiliation>Simon Fraser University</affiliation>
+                </byline>
+                
+                <lb/><milestone unit="paratext"/><lb/>
+                
+                <figure>
+                    <graphic url="PLACEHOLDER" width="400px" rend="inline"/>
+                    <figDesc><hi rend="bold">Figure 4.3:</hi> Inscription by William Wordsworth, signed &#8220;Town End, Grasmere, May 11<hi rend="sup">th</hi> 
+                            1808&#8221;&#8212;his preface to DCMS 64.
+                        (Courtesy: The Wordsworth Trust)</figDesc>  
+                </figure>
+          
+            <p>The following Narrative was drawn up by<lb/>
+            Dorothy Wordsworth at the request of her Brother,<lb/>
+            William Wordsworth: he entreated that she would<lb/>
+            give a <hi rend="underline">minute</hi> <hi rend="underline">detail</hi> of all the particulars<lb/>
+            which had come within her notice; thinking that<lb/>
+            the end for which the account was written would<lb/>
+            be thereby better answered, viz. that of leaving<lb/>
+            behind a record of human sympathies, and<lb/>
+            moral sentiments, either as they were called forth<lb/>
+            or brought to remembrance, by a distressful<lb/>
+            event, which took place, in the course of the month<lb/>
+            of March, 1808, at Grasmere in the County of<lb/>
+            Westmoreland. __.</p>
+                
+            <p rend="right">W<hi rend="sup">m</hi> Wordsworth<lb/>
+            Town End, Grasmere<lb/>
+            May 11<hi rend="sup">th</hi>, 1808.</p><pb/>
+                
+            <p rend="right">1</p>
+                
+            <p rend="center">A Narrative concerning George &amp; Sarah<lb/>
+            Green of the Parish of Grasmere<lb/>
+            addressed to a Friend.</p>
+                
+            <p>You remember a single Cottage at the foot of Blentern Gill_ it is the only dwelling
+                on the western side ^<hi rend="sup">of the upper reaches of the Vale</hi> of Easedale,
+                and close under the mountain; a little stream runs over rocks and stones beside the garden
+                        <note place="foot" resp="editors">[BL garden = orchard]</note>
+                wall, after tumbling down the crags <del rend="strike">above</del>:
+                        <note place="foot" resp="editors">[BL <del rend="strike">above</del> = not canceled]</note>
+                I am sure you recollect the spot: if not, you remember George and Sarah Green who
+                dwelt there. They left their home to go to
+                        <note place="foot" resp="editors">[BL to = into]</note>
+                Langdale on the after noon of ^<hi rend="sup">Saturday</hi> the 19<hi rend="sup">th</hi>
+                of March last: it was a very cold day with snow showers. They fixed upon that time for going
+                because there was to be a Sale <del rend="strike">there</del>;
+                        <note place="foot" resp="editors">[BL <del rend="strike">there</del>= not canceled]</note>
+                <hi rend="sup">in Langdale,</hi>
+                        <note place="foot" resp="editors">[BL <hi rend="sup">in Langdale</hi>= does not appear]</note>
+                not that they wanted to make <add rend="strike">any</add>
+                        <note place="foot" resp="editors">[BL <del rend="strike">any</del> = not canceled]</note>
+                purchases; but <hi rend="sup">to mingle</hi> <del rend="strike">for the sake of mingling</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">for the sake of mingling</del> = not canceled]</note>
+                a little amusement with the main object of the <hi rend="underline">Woman&#8217;s</hi>
+                journey, at least,
+                        <note place="foot" resp="editors">[BL at least = does not appear]</note>
+                which was to see her Daughter who was in service there, and to settle with her
+                Mistress about her continuing in her place. Accordingly, after having spent a few
+                hours at the Sale, they went to the house where the young Woman lived, drank tea,
+                and set off homewards
+            </p><pb/>
+                
+            <p>2<lb/>
+                at about five o&#8217;clock, intending to cross <del rend="strike">right</del> over
+                the Fells, and drop down just upon their own Cottage; and they were seen, nearly at
+                the top of the hill in their direct course, by some Persons in Langdale ^.
+                        <note place="foot" resp="editors">DCMS 64: DW adds &#8220;but&#8221; in pencil above the caret and appears to cancel the &#8220;and.&#8221;
+                        The sentence would thus end &#8220;but were never more seen alive.&#8221;</note>
+               <hi rend="sup">and were never more seen alive.</hi> It is supposed that soon
+               afterwards they must have been bewildered by a mist, otherwise they might almost
+               have reached their own Cottage at the bottom of the hill on the opposite side before
+               daylight was entirely gone. They had left a Daughter at home, eleven years of age, with the
+                care of five other Children younger than herself, the youngest an Infant at the
+                breast; and they, poor Things! sate up till eleven o&#8217;clock expecting their Parents:
+                they then went to bed, thinking <del rend="strike">that</del>
+                        <note place="foot" resp="editors">[BL that = not canceled]</note>
+                they stayed all night in Langdale because of the weather. All next day they
+                continued to expect them, and again went to bed as before; and at noon on Monday,
+                one of the Boys went to the nearest house to borrow a Cloak, and, on being asked for
+                what purpose, he replied that his Sister was going to Langdale, as he expressed it,
+                &#8220;to <hi rend="underline">lait</hi> <hi rend="underline">their</hi> <hi rend="underline">Folk</hi>,&#8221; meaning to seek their Father and
+                Mother, who had not come home again, as they had
+                        <note place="foot" resp="editors">[BL had = does not appear]</note>
+                expected them, on Saturday. The Man of the house started up immediately, staying
+                that &#8220;they were lost!&#8221;_ he spread the alarm through the
+                neighbor<hi rendition="#sub"><hi rendition="#smallest">hood,</hi></hi>
+            </p><pb/>
+                
+            <p rend="right">3</p>
+                <p>and many Men went out upon the hills to search; but in vain: no traces of them could
+                be found; nor any tidings heard, except what I have mentioned, and that a Shepherd
+                who had been upon the Mountains on Sunday morning had observed indistinct foot-marks
+                of two Persons who had walked close together. Those foot-marks were now covered with
+                fresh snow: the spot where they had been seen was at the top of Blea Crag above
+                Easedale Tarn, that very spot where I myself had sate down <hi rend="sup">&lt;three&gt;</hi>
+                        <note place="foot" resp="editor">DCMS 64: &#8220;three&#8221; is penciled in; does not appear in BL</note>
+                six years ago, unable to see a yard before me, or to go a step further over the
+                Crags. I had left W.<del rend="strike">illiam</del>
+                        <note place="foot" resp="editors">[BL W<del rend="strike">.illiam</del> = my Brother]</note>
+                at Stickell Tarn. A mist came on after I had parted with him, and I wandered long,
+                not knowing whither. When, at last, the mist cleared away I found myself at the edge
+                of the Precipice, and trembled at the Gulph below, which appeared immeasurable.
+                Happily I had some hours of daylight before me, and after a laborious walk, <del 
+                rend="strike">I</del> arrived at home in the evening. The neighbourhood of
+                this Precipice had been
+                        <note place="foot" resp="editors">[BL had been = had now been]</note>
+                searched above and below, wherever foot could come; yet, recollecting my own
+                dreadful situation, I could not help believing that George and Sarah Green were
+                lying somewhere thereabouts. On Tuesday
+            </p><pb/>
+                
+            <p>4<lb/>
+                as long as daylight lasted the search was continued. It was like a sabbath in the
+                Vale: for all the Men who were able to climb the heights had left their usual work,
+                nor returned to it till the Bodies of the unfortunate Pair were found, which was on
+                Wednesday afternoon. The Woman was first discovered upon some rough ground just
+                above the mountain enclosures beside Mill Beck, in Langdale, which is the next
+                stream or torrent to that which forms Dungeon Gill Waterfall. Several Persons, the
+                day before had been within a few yards of the spot where she lay; but her body had
+                then been covered with snow, which was now melted. Her Husband was found at no great
+                distance: he had fallen down a Precipice; and must have perished instantly, for his
+                Skull was much fractured. It is supposed that his Wife had been by his side when he
+                fell, as one of her shoes was left midway on the Bank above the precipice;
+                afterwards (probably having stumbled over a crag) she had rolled many yards down the
+                breast of the hill. Her body was terribly bruised. It is believed that they <del
+                rend="strike">must have</del> perished before midnight, their cries
+            </p><pb/>
+                
+            <p rend="right">5</p>
+                <p>or shrieks having been distinctly heard by two Persons in Langdale at about ten
+                o&#8217;clock; but they paid
+                        <note place="foot" resp="editors">[BL they paid = they had paid]</note>         
+                little attention to the ^<hi rend="sup">sounds,</hi>
+                        <note place="foot" resp="editors">[BL to the sounds = to them]</note>
+                thinking <del rend="strike">that</del> they came from some drunken People who had been
+                at the Sale. At that time the wretched Pair ^<hi rend="sup">had no doubt</hi> resigned
+                all hope of reaching their own home, and were attempting to find a shelter any
+                where; and, [two illegible deleted words] at the spot where they perished they might
+                have seen <del rend="strike">the</del> lights ^<hi rend="sup">from the windows</hi>
+                of that same house where their cries were actually heard. Soon after the alarm had been
+                spread on Monday afternoon (and from that moment all were convinced of the truth; for it
+                was well known that if the Mother had been <hi rend="underline">alive</hi> she would have
+                returned to her sucking Babe) two or three ^<hi rend="sup">Women,</hi> Friends of the
+                Family (<hi rend="underline">Neighbours</hi> they called themselves; but they live
+                at the opposite side of the dale) went to take care of the poor Children, and they
+                found them in a wretched state &#8220;all crying together.&#8221; They had passed two whole days
+                (from Saturday noon till Monday noon) without seeing any body, waiting patiently and
+                without fear; and when the word came that their Father and Mother must have died
+                upon the hills it was like a thunder- <hi rendition="#sub"><hi rendition="#smallest">-stroke.</hi></hi>
+            </p><pb/>
+                
+            <p>6<lb/>
+            In a little time, however, they were somewhat pacified; and food was brought into the
+                house; for their stock was almost exhausted, their Parents being the poorest People
+                in the Vale, though they had a small estate of their own, and a Cow. This morsel of
+                Land, now deeply mortgaged, had been in the
+                        <note place="foot" resp="editors">DCMS 64: &#8220;the&#8221; is crossed out with pencil.</note>
+                possession of the Family for many generations, and they were loth to part with it:
+                consequently they had never had any assistance from the Parish. George Green had been
+                twice married. By his former Wife he has left one Son and three Daughters; 
+                and by her who died with him four Sons and four Daughters, all
+                under sixteen years of age. They must very soon have parted with their Land if they
+                had lived: for their means were reduced by little and little till scarcely anything
+                <hi rend="underline">but</hi> the <hi rend="underline">Land</hi> was left. The
+                Cow was grown old; and they had not money to buy another; they had sold their horse;
+                and were in the habit of carrying any trifles <del rend="strike">that</del>
+                they could spare out of house or stable to barter for potatoes or meal
+                        <note place="foot" resp="editors">[BL meal = oat-meal]</note>.
+                Luxuries they had none they never made tea, and when the Neighbours went to look
+                after the Children they found nothing in the house but two boilings of potatoes, a
+                very little meal, little bread, and three or four legs of lean dried mutton.
+                </p><pb/>
+                
+            <p rend="right">7</p>
+                <p>The Cow, at that time, did not give a quart of milk in the day. You will wonder how
+                they lived at all; and indeed I can scarcely tell you. They used to sell a few peats
+                in the summer, which they dug out of their own hearts&#8217; heart, their Land; and the
+                old Man (he was sixty five years of age) might earn a little <hi rend="sup">^ money</hi>
+                by doing <del rend="strike">odd</del> jobs for his neighbours; but it was not known till
+                now (at least by <hi rend="underline">us</hi>) how much distressed they must have been:
+                for they were never heard to murmur or complain. See them when you would, both were
+                chearful; and when they went to visit a Friend, or to a Sale they were decently
+                dressed. Alas! a love of Sales had always been their failing, being perhaps the only 
+                publick meetings in this neighbourhood where social pleasure is to be had without the necessity
+                of expending money, except, indeed, our annual Fair, and on that day I can recollect having more
+                than once seen Sarah Green among the rest with her chearful countenance_ two or
+                three little-ones about her; and their youngest Brother or Sister, an Infant, in her
+                arms. These things are now remembered; and the awful event checks all disposition to
+                harsh comments; perhaps formerly it might be said,
+            </p><pb/>
+                
+            <p>8<lb/>
+                and with truth, the Woman had better been at home: but who shall assert that this
+                same spirit which led her to come at times among her Neighbours as an equal, like
+                them seeking society and pleasure, that this spirit did not assist greatly in
+                preserving her <hi rend="sup">^ in</hi> chearful independence of mind through the
+                many hardships and privations of extreme poverty? &#8212; Her Children, though very
+                ragged, were always cleanly, and are as pure and innocent, and in every respect as
+                promising Children as any I ever saw. The three or four latest born, it is true,
+                look as if they had been checked in their grown for want of full nourishment; but none 
+                appear unhealthy except the youngest, a fair and beautiful Infant. It looks sickly, but
+                not suffering: there is a heavenly patience in its countenance; and, while it lay asleep
+                in its cradle three days after its Mother&#8217;s death, one could not look upon it
+                without fanciful thoughts that <del rend="strike">it</del> <hi rend="sup">the Babe</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">it</del> = not canceled; the Babe = does not appear]</note>              
+                had been sent into this life but to be her Companion, and was ready to follow her in
+                tranquil peace. It would not be easy to give you an idea of the suspense and trouble
+                in every face before the bodies were found: it seemed as if nothing could be
+             </p><pb/>
+                
+            <p rend="right">9</p>
+               <p>done, nothing else thought of, till the <del rend="strike">unhappy</del><hi rend="sup">unfortunate</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">unhappy</del>= not canceled; unfortunate = does not appear]</note>
+                Pair were brought again to their own house: - the first question was &#8220;have you heard
+                anything from the Fells?&#8221; On the second evening I asked a young Man, a next-door
+                Neighbour of ours, what he should do tomorrow? &#8220;Why, to be sure, go out again,&#8221; he
+                replied, and I believe that, though he left a profitable employment (he is by trade
+                a Shoe-maker) he would have persevered daily if
+                        <note place="foot" resp="editors">[BL if = though]</note>
+                the search had continued many days longer, even weeks. <hi rend="sup">My Sister</hi>
+                        <note place="foot" resp="editors">[BL My Sister = does not appear]</note>
+                Mary and I went to visit the Orphans on the Wednesday morning
+                        <note place="foot" resp="editors">[BL morning = does not appear]</note>:
+                we found all calm and quiet_ two little Boys were playing <del rend="strike">about</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">about</del> = not canceled]</note>
+                on the floor_ the Infant was asleep; and two of the old Man&#8217;s up-grown Daughters
+                wept silently while they pursued the business of the house: but several times one of
+                them went out to listen at the door_ &#8220;Oh!&#8221; said they, &#8220;the worst for us is yet to
+                come! we shall never be at rest till they are brought home; and that will be a
+                dreadful moment.&#8221; _ Their grief then broke out afresh; and they spoke of a miserable
+                time, above twenty years ago, when their own Mother and Brother died of a malignant
+                fever_ nobody would come near them, and their Father was forced himself to lay his
+                Wife in her coffin. &#8220;<hi rend="italic">Surely</hi>,&#8221; they often repeated, &#8220;this is
+                an <hi rend="underline">afflicted</hi>
+            </p><pb/>
+                
+            <p>10<lb/>
+                House! and indeed in like manner have I since frequently heard it spoken of by
+                Persons less nearly concerned; but who still retain a vivid remembrance of the
+                former affliction. It is, when any unusual event happens, affecting to listen to the
+                fireside talk in our Cottages; you then find how faithfully the inner histories of      
+                Families, their lesser and greater cares, their peculiar habits, and ways of life
+                are recorded in the breasts of their Fellow-inhabitants of the Vale; much more
+                faithfully than it is possible that the lives of those who have moved in higher
+                stations, and had numerous Friends in the busy world can be preserved in
+                remembrance, even when their doings and sufferings have been watched for the express
+                purpose of recording them in written narratives. I heard a Woman, a week ago,
+                describe in as lively a manner the sufferings of George Green&#8217;s Family, when the
+                former two Funerals went out of the house as if <hi rend="underline">that</hi> trouble had been the
+                <hi rend="underline">present</hi> trouble. Among other things she related how
+                Friends and Acquaintances, as is the custom here, when any one is sick, used to
+                carry presents; but, instead of going to comfort the Family with their company and
+                conversation, laid their gifts upon a Wall near the house, and watched till they
+                were taken away.
+            </p><pb/>
+                
+            <p rend="right">11</p>
+               <p>It was, as I have said, on the Wednesday that we went to visit the Orphans. A few
+                hours after we had left them John Fisher came to tell us that the men were come home
+                with the ^<hi rend="sup">dead</hi>
+                        <note place="foot" resp="editors">[BL dead = does not appear]</note>
+                Bodies. A great shout had been uttered when they were found; but we could not hear
+                it, as it was on the Langdale side of the Mountains. The Pair were buried in one
+                Grave on the Friday afternoon. My Sister and I attended the Funeral. 
+                <del rend="strike">on the Friday afternoon.</del> A great number of people of
+                decent and respectable appearance were <del rend="strike">gathered together</del>
+                <hi rend="sup">assembled</hi>
+                        <note place="foot" resp="editors">[BL <add rend="strike">gathered together</add> = not canceled; assembled = does not appear]</note>
+                at the House. I went into the parlour where the two Coffins were placed with the
+                elder of the Mourners sitting beside them: the younger Girls gathered about the
+                kitchen fire, partly amused, perhaps, by the unusual sight of so many persons in
+                <hi rend="underline">their</hi> house: the Baby and its Sister Jane (she
+                who had been left by the Mother with the care of the Family) sate on a little stool
+                in the chimney-corner, and, as our Molly
+                        <note place="foot" resp="editors">[BL our Molly = our servant, Molly]</note>
+                said, after having seen them on the Tuesday, &#8220;they looked such an innocent Pair!&#8221;
+                The young Nurse appeared to have touches of pride in her important office; for every
+                one praised her for her notable management of the Infant, while they cast tender
+                looks of sorrow
+            </p><pb/>
+                
+            <p>12<lb/>
+                on
+                        <note place="foot" resp="editors">[BL on = at]</note>
+                them both. The Child would go to none but her; and while on her knee its countenance
+                was perfectly calm_ More than that: <hi rend="sup">I could have fancied it to</hi>
+                        <note place="foot" resp="editors">[BL I could have fancied it to = does not appear]</note>
+                <hi rendition="#sub"><hi rend="#smallest">it seemed to express even</hi></hi> thoughtful resignation.
+                <del rend="strike">Mary and I</del> <hi rend="sup">We</hi>
+                        <note place="foot" resp="editors">[BL Mary and I = not canceled; We = does not appear]</note>           <!--LEFT OFF HERE-->
+                went out of doors, and were much moved by the rude and simple objects before us_ the
+                noisy stream, the craggy mountain down which the old Man and his Wife had hoped to
+                make their way on that unhappy night_ the little garden, untilled,_ with its
+                box-tree and a few
+                        <note place="foot" resp="editors">[BL a few = does not appear]</note>
+                peeping flowers! _ _ The furniture of the house was decayed and scanty; but there
+                was one oaken Cupboard that was so bright with rubbing that it was plain it had been
+                prized as an ornament and a treasure by the poor Woman then lying in her Coffin.
+                Before the Bodies were taken up a threepenny loaf of bread was dealt out to each of
+                the Guests: Mary
+                        <note place="foot" resp="editors">[BL Mary = my sister]</note>
+                was unwilling to take hers, thinking that the Orphans were in no condition to give
+                away any thing; she immediately, however, perceived that she ought to accept of it,
+                and a Woman, who was near us, observed that it was an ancient custom now much disused;
+                but probably, as the Family had lived long in the Vale, and had done the
+            </p><pb/>
+                
+            <p rend="right">13</p>  
+               <p>like at funerals formerly, they thought it proper not to drop the custom on this
+                occasion. <del rend="strike">There was something very solemn in t</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">There was something very solemn in t</del> = not canceled]</note>
+                The funeral procession ^<hi rend="sup">was very solemn</hi>
+                        <note place="foot" resp="editors">[BL was very solemn = does not appear]</note>    
+                &#8211; passing through the solitary valley of Easedale, and, altogether, I never
+                witnessed a more moving scene. As is customary here, there was a pause, before the
+                Bodies were borne through the Church-yard Gate, while part
+                        <note place="foot" resp="editors">[BL part = a portion]</note>
+                of a psalm was sung, the men standing with their <del rend="strike">hats off</del>
+                <hi rend="sup">heads uncovered</hi>
+                        <note place="foot" resp="editors">[BL <add rend="strike">hats off</add> = not canceled; heads uncovered = does not appear]</note>.
+                In the Church the two Coffins were placed near the Altar, and the whole Family knelt
+                on the g<del rend="strike">round</del> <hi rend="sup">floor</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">ground</del> = not canceled; floor = does not appear]</note>
+                on each side of the Father&#8217;s Coffin, leaning over it. The eldest Daughter had been
+                unable to follow with the rest of the Mourners, and we had led her back to the house
+                before she got through the first field; the second fainted by the Grave side; and
+                their Brother stood like a Statue of Despair, silent and motionless; the younger
+                Girls sobbed aloud. Many tears were shed by persons who had known little of the
+                Deceased; and all the people who were gathered together appeared to be united in one
+                general feeling of sympathy for the helpless condition of the Orphans. After the
+                Funeral the Family returned to their melancholy home. There was a Sale of the
+                furniture on the Thursday following; and the next day the house was left empty and silent.
+                A Lady from Ambleside had fetched the four little Boys on the day of the Funeral, to keep
+                </p><pb/>
+                
+            <p>14<lb/>
+               them till it should be settled how they were to be disposed of. I saw them go past
+                our door; they walked up the hill beside the Car in which they had been riding, and
+                were chattering to their new Friend, no doubt well pleased with the fine        
+                        <note place="foot" resp="editors">[BL fine = does not appear]</note>
+                Carriage. We had been told that she was going to take them and bring them up
+                entirely herself; and my Sister came down stairs with tears of joy in her eyes.
+                &#8220;Aye,&#8221; said our Neighbour, Peggy Ashburner &#8220;that Woman 
+                <hi rend="underline">will</hi> win Heaven for protecting the Fatherless and 
+                Motherless;&#8221; and she, too, wept. Afterwards, however, we were undeceived,
+                and were afraid that the Lady&#8217;s kindness was ill-judged, that it might
+                unsettle them when they should be taken away from the grand house to a more humble
+                dwelling. There are eight Children left under sixteen years of age. The eldest,
+                a Girl, is in service, the second has lived with us more than half a year, and we
+                had intended parting with her at Whitsuntide; but <del rend="strike">as soon as</del>
+                <hi rend="sup">when</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">as soon as</del> = not canceled; when = does not appear]</note>
+                we heard of the loss of her Parents, we determined to keep her till she also is fit
+                for service. The eldest, and only remaining Son of George Green by his first Wife
+                will maintain one of the Boys and bring him up to his own trade; so that there
+                remain five to be provided
+            </p><pb/>
+                
+            <p rend="right">15</p>
+                <p>for by the Parish; for, after the Father&#8217;s estate is sold and the Mortgage paid off,
+                little or nothing will remain for his Family. It is the custom at Grasmere, and I
+                believe in many other places, to <hi rend="underline">let</hi>, as they call it,
+                those Children who depend wholly upon the Parish, to the lowest Bidder, that is, to
+                board them out <del rend="strike">to</del> <hi rend="sup">with</hi> Persons who will
+                take them at the cheapest rate; and such as are the least able to provide for them
+                properly are often the readiest Bidders, for the sake of having a little money coming in,
+                though, in fact, the profit can be but very small: but they feel that they get something
+                when the money comes, and do not feel exactly what they expend for the Children because 
+                they are fed out of the common stock. At ten years of age they are removed from their
+                boarding-houses, and generally put out as Parish Apprentices, at best a slavish
+                condition; but sometimes they are hardly used, and sometimes
+                        <note place="foot" resp="editors">[BL sometimes = does not appear]</note>
+                all moral and religious instruction is utterly neglected. I speak from observation:
+                for (I am sorry to say <hi rend="sup">it)</hi>
+                        <note place="foot" resp="editors">[BL no parentheses around &#8220;I am sorry to say it&#8221;]</note>
+                <del rend="strike">that</del> we have daily before our eyes an example of such
+                neglect in the Apprentice of one of our near
+                        <note place="foot" resp="editors">[BL near = does not appear]</note>
+                Neighbours. From the age of seven or eight till he was eleven or twelve years old
+                the poor Boy was employed in nursing his Mistress&#8217;s
+            </p><pb/>
+                
+            <p>16<lb/>
+                numerous Children, and following them up and down the lanes. Sunday was no holiday
+                for him; he was not, like others, dressed clean
+                        <note place="foot" resp="editors">[BL clean = does not appear]</note>
+                on that day; and he never went to Church. I recollect, when I first came to live in
+                this Country, a little more than eight years ago, observing his vacant way of
+                roaming about. I remarked that there was an appearance of natural quickness with
+                much good temper
+                        <note place="foot" resp="editors">[BL temper = nature]</note>
+                in his countenance; but he looked wild and untutored: it was the face of a Child who
+                had none to love him, and knew not in his heart what love was. He is now sixteen
+                years old, and a strong, handsome-featured Boy; but though still the same traces of
+                natural sense and good-temper appear, his countenance expresses almost savage
+                ignorance, with bold vice. To this day he does not know a letter in a book; nor can
+                ^<hi rend="sup">he</hi> say his prayers, (as Peggy Ashburner expressed it strongly
+                in speaking of him to Sara) &#8220;That poor Lad, if aught were to happen to him cannot
+                bid God bless him!&#8221; _ His Master has a couple of crazy horses, and he now employs
+                him in <hi rend="sup">driving</hi> carrying slates to the next market_town, and, young 
+                as he is, he has often come home intoxicated. Sometimes, no doubt, the liquor is given
+                to him; but he has more than once been detected in dishonest practices, probably
+            </p><pb/>
+                
+            <p rend="right">17</p>
+               <p>having been tempted to them by his
+                        <note place="foot" resp="editors">[BL his = the]</note>
+                desire of obtaining liquor. I hope and believe that it does not often happen in this
+                neighbourhood that Parish Apprentices are so grossly neglected as this Boy has been;
+                and I need not give you my reasons for thinking that there is not another Family in
+                Grasmere who would have done the like: nor <del rend="strike">even</del> could
+                it have been so bad even in this instance if the Boy had not come from a distant
+                place, and consequently the Parish Officers are not in the way of seeing how he goes
+                on; and I am afraid that, in such cases, they seldom take the trouble of making
+                inquiries. You will not wonder, after what I have said, that we have been anxious to
+                preserve these Orphans whom we saw so uncorrupted from the possibility of being
+                brought up in such a manner, especially as there is
+                        <note place="foot" resp="editors">DCMS 64: &#8220;is&#8221; is crossed out in pencil and above is written &#8220;was.&#8221;</note>
+                <del rend="strike">little possibility</del> <hi rend="sup">no likelihood</hi> that
+                they would all have been quartered in their native Vale. From the moment we heard that
+                their Parents were lost we anxiously framed plans for raising a <del rend="strike">little</del>
+                sum of money for the purpose of assisting the Parish in placing them with respectable
+                Families; and to give them a little school-learning; and I am happy to tell you that
+                others, at the same time,
+            </p><pb/>
+                
+            <p>18<lb/>
+               were employing their thoughts in like manner; and our united efforts have been even
+                more successful than we had dared to hope. It was a month yesterday since the sad 
+                event happened, and the Children are all settled in their several homes,
+                ^<del rend="strike"> in</del> <hi rend="sup">and all are in</hi> the Vale of Grasmere,
+                except the eldest Boy, George, who is with his Brother at Ambleside. A Subscription has
+                been made for the purpose of adding a little to the weekly allowance of the Parish, and
+                to send them to School to apprentice the Boys, and to fit the Girls out for service; and,
+                if there be any overplus, it is to be dealt out among them as they shall prove deserving,
+                ^<hi rend="sup"> or according to their several needs</hi>
+                        <note place="foot" resp="editors">[BL or according to their several needs = does not appear]</note>
+                to set them forward in Life. It was
+                        <note place="foot" resp="editors">[BL was = has been]</note>
+                very pleasing to observe how much all, both rich and poor, from the very first
+                appeared to be interested for the Orphans; and the Subscription_book, which we have
+                seen this evening, is equally creditable to all ranks. With five guineas, ten
+                guineas, three guineas, is intermingled a long list of shillings and sixpences, and
+                even one threepence_ many of these ^<hi rend="sup">smaller contributions</hi>
+                        <note place="foot" resp="editors">[BL smaller contributions = does not appear]</note>
+                from labouring people and Servants. A committee of six of the neighbouring Ladies
+                has been appointed to overlook
+            </p><pb/>
+                
+            <p rend="right">19</p>
+               <p>the Children and manage the funds. They had a meeting; and it was agreed that M<hi
+               rend="sup"><hi rend="underline">rs</hi></hi> Wordsworth and M<hi rend="sup">rs</hi>
+               King should engage with two Families who were willing to take three of the Orphans, 
+                <del rend="strike">much</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">much</del> = not canceled]</note>
+                less for the sake of profit than from the liking to Children in general, and from a
+                wish to see these Children well taken care of, who had been left in circumstances of
+                such peculiar distress. Another Lady had commission to conclude an engagement with a
+                third Person who was willing to have the charge of the Infant and her Sister Jane. This
+                        <note place="foot" resp="editors">[BL this = that]</note>
+                Lady, <del rend="strike">who</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">who</del> = not canceled]</note>,
+                I am sorry to say, <del rend="strike">cannot do a charitable action without
+                the pleasure of being busy</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">cannot do a charitable action without the pleasure of being busy</del> = not canceled]</note>,
+                was galled that the whole concern had not been entrusted
+                        <note place="foot" resp="editors">[BL entrusted = trusted]</note>
+                to her guidance, and had before (without any authority) herself (though only
+                recently come into the Country and having no connection with Grasmere) engaged to
+                place all the children with an old Woman <del rend="strike">of</del> in indigent circumstances, who
+                was totally incapable of the charge. I will not blemish a narrative of events so
+                moving, which have brought forward
+                        <note place="foot" resp="editors">[BL forward = forth]</note>
+                so many kind and good feelings, by entering into the cabals and heart-burnings of
+                M<hi rend="sup"><hi rend="underline">rs</hi></hi> <del rend="strike">North</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">North</del> = not canceled]</note>.
+                It is enough to say that Miss Knott, the Lady who has had the four Boys under her
+                protection since
+            </p><pb/>
+                
+            <p>20<lb/>
+                the day of their Parents&#8217; Funeral, came to conduct the three youngest and their two
+                Sisters to their new homes, attended by <del rend="strike">Mrs North</del>
+                <hi rend="sup">Mrs -----</hi>
+                        <note place="foot" resp="foot">[BL <del rend="strike">Mrs North</del> = not canceled; Mrs ----- = does not appear]</note>.
+                George, the eldest, had been left at his Brother&#8217;s house
+                        <note place="foot" resp="editors">[BL Brother&#8217;s house = Brother&#8217;s house at Ambleside]</note>,
+                where he is to remain. The Ladies called at our door in their way; and I was deputed
+                to attend them in my Sister&#8217;s place
+                        <note place="foot" resp="editors">[BL in my Sister&#8217;s place = does not appear]</note>,
+                John being very ill
+                        <note place="foot" resp="editors">[BL ill = poorly]</note>,
+                and his Mother <del rend="strike">could not</del> <hi rend="sup">unable to</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">could not</del> = not canceled; unable to = does not appear]</note>
+                leave him. I had the satisfaction of seeing all the five Children hospitably
+                welcomed. It had been declared with one voice by the people of the Parish, men and
+                women, that the Infant and her Sister Jane should not be parted. The Woman, who was
+                to have the care of these two, was from home, and had requested a Neighbour to be in
+                the way to receive them when they should come. She has engaged to instruct Jane in
+                sewing and reading, being, according to the phrase in this Country &#8220;a fine Scholar&#8221;.
+                Her Husband is living; but she has never had any Children of her own. They are in
+                good circumstances, ^<hi rend="sup">having a small estate of their own</hi>
+                        <note place="foot" resp="editors">[BL having a small estate of their own = does not appear]</note>,
+                and her husband ^<hi rendition="#sub"><hi rendition="#smallest">a Blacksmith by trade</hi></hi><note place="foot" resp="editors">[BL by trade = does not appear]</note>
+                <hi rendition="#sub"><hi rendition="#smallest">,</hi></hi> is a remarkably ingenious and clever Man; and she
+                appears to be a kind-hearted Woman, which is shewn by her motives for taking these
+                poor Children. She said to my Sister with great simplicity and earnestness &#8220;I should
+                not have done it if we had not been such
+            </p><pb/>
+                
+            <p rend="right">21</p>
+                <p>near relations, for my Uncle George&#8217;s (namely the late George Green&#8217;s) first Wife and
+                my Husband&#8217;s Mother were own Sisters,&#8221; from which odd instance of
+                        <note place="foot" resp="editors">[BL of = of near]</note>
+                relationship you may judge how closely the bonds of family connection are held
+                together in these retired vallies. Jane and her Sister took possession of their new
+                abode with the most perfect composure: Jane went directly to the fireside, and
+                seated herself with the Babe on her knee: it continues to call out &#8220;Dad&#8221; and &#8220;Mam!&#8221;
+                but seems not to fret for the loss of either: she has transferred all her affections
+                to her Sister, and will not leave her for a moment to go to anyone else. This same
+                little Girl, Jane, had been noticed by <del rend="strike">William and Mary</del>
+                ^ <hi rend="sup">my Brother and Sister</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">William and Mary</del> = not canceled; my Brother and Sister = does not appear]</note>
+                some months ago, when they chanced to meet her in Easedale; at first not knowing who
+                she was. They were struck, at a distance, with her beautiful figure and her dress,
+                as she was tripping over the wooden bridge at the entrance of the Valley; and, when
+                she drew nearer, the sweetness of her countenance, her blooming cheeks, her modest,
+                wild and artless appearance quite enchanted them. <del rend="strike">William</del>
+                ^ <hi rend="sup">My Brother</hi> could talk of nothing else <del rend="strike">for
+                a long time after</del> ^<hi rend="sup">when</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">for a long time after</del> = not canceled; when = does not appear]</note>
+                he came home, and he
+            </p><pb/>
+                
+            <p>22<lb/>
+               minutely described her dress, a pink petticoat peeping under a long dark blue Cloak,
+                which was on one side gracefully elbowed out, or distended as with a blast of wind
+                by her carrying a basket on her arm
+                        <note place="foot" resp="editors">[BL parentheses around &#8220;which was on one side gracefully elbowed out, or distended as with a
+                                blast of wind by her carrying a basket on her arm&#8221;]</note>;
+                and a pink bonnet tyed with a blue ribband, the lively colours harmonizing most
+                happily with her blooming complexion. Part of this dress had probably been made up
+                of her elder Sister&#8217;s cast-off cloaths: for they were accustomed to give to their
+                Father&#8217;s Family whatever they could spare; often, I believe, more than they could
+                well afford. Little did <del rend="strike">William</del> ^ <hi rend="sup">my Brother</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">William</del> = not canceled; my brother = does not appear]</note>
+                at that time think that she was so soon to be called to such important duties; and
+                as little that such a creature was capable of so much: for this was the Child who
+                was left by her Parents at the head of the helpless Family, and was as a Mother to
+                her Brothers and Sister when they were fatherless and motherless, not knowing of
+                their loss. Her conduct at that time has been
+                        <note place="foot" resp="editors">[BL has been = was]</note>
+                the admiration of every body. She had nursed the Baby; and, without confusion or
+                trouble, provided for the other Children who could run about: all were
+            </p><pb/>
+                
+            <p rend="right">23</p>
+                <p>kept quiet_ even the Infant that was robbed of its Mother&#8217;s breast. She had conducted
+                other matters with perfect regularity, had milked the Cow at night and morning,
+                wound up the clock, and taken care that the fire should not go out, a <del
+                rend="strike">thing</del><hi rend="sup">matter</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">thing</del> = not canceled; matter = does not appear]</note>
+                of importance in that house so far from any other, a tinder-box being a convenience
+                which they did not possess. This little Girl I saw, as I have told you, take her
+                place in her new home with entire composure: I know not indeed how to find a word
+                sufficiently strong to express what I mean: it was a calmness amounting to dignity,
+                which gave to every motion a perfect grace. We next went with two Boys in petticoats
+                to a neat Farm_house: the Man and his Wife came down the lane a hundred yards to
+                meet us, and would have taken the Children by the hand with almost parental
+                kindness; but they clung to Miss Knott, the Lady who had fetched them from their
+                Father&#8217;s Cottage on the day of the Funeral, &amp; had treated them tenderly ever
+                since. The younger sate
+            </p><pb/>
+                
+            <p>24<lb/>
+                upon her lap while we remained in the house, and his Brother leaned against me: they
+                continued silent; but I felt, some minutes before our departure, by the workings of
+                his breast, that the elder Boy was struggling with grief, at the thought of parting
+                with his old Friend. I looked at him, and perceived that his eyes were full of
+                        <note place="foot" resp="editors">DCMS 64: Above &#8220;full of,&#8221; DW appears to have written &#8220;filled with&#8221; in pencil.</note>
+                tears: the younger Child, with less foresight, continued
+                calm till the last moment, when both burst into an agony of grief. We have since
+                heard that a slice of break and butter <del rend="strike">soon</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">soon</del> = not canceled]</note>
+                quieted their distress: no doubt, the good Woman&#8217;s kind looks, though she gave to
+                the bread and butter the <del rend="strike">whole</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">whole</del> = not canceled]</note>
+                merit of consoling them, <del rend="strike">had</del> had far more effect. She
+                is by nature loving to Children, mild and tender_ inclining to melancholy, which has
+                grown upon her since the sudden
+                        <note place="foot" resp="editors">[BL sudden = does not appear]</note>
+                Death of a Son, twenty years of age, who was not only the pride of his Father&#8217;s
+                House, but of the whole Vale. She has other Children; but they are scattered abroad,
+                except one Daughter, who is occasionally
+                        <note place="foot" resp="editors">[BL occasionally = only occasionally]</note>
+                with her, so that she has
+            </p><pb/>
+                
+            <p rend="right">25</p>
+                <p>of late spent many hours of the day in solitude; and her Husband yielded to her
+                desire of taking these poor Orphans, thinking <del rend="strike">that</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">that</del> = not canceled]</note>
+                they might divert
+                        <note place="foot" resp="editors">[BL might divert = might help to divert]</note>
+                her brooding thoughts. She has begun to teach them to read; and they have already
+                won the hearts of the rest of the Family by their docility, and quite affectionate dispositions;
+                and my Sister thought when she was at the house <del rend="strike">the other</del>
+                <del rend="sup">a few</del> days ^ <hi rend="sup">ago</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">the other</del> = not canceled; a few = does not appear; days = day; ago = does not appear. BL reads: &#8220;the other day&#8221;]</note>,
+                that she perceived <del rend="strike">a</del> <hi rend="sup">more</hi>
+                <del rend="strike">greater</del> <hi rend="sup">of</hi> chearfulness
+                        <note place="foot" resp="editors">[BL a = not canceled; more = does not appear; greater = not canceled; of = does not appear. BL reads: &#8220;a greater chearfulness&#8221;]</note>
+                in the kind Woman&#8217;s manners than she had observed in her for a long time. They, poor
+                Things! are perfectly contented; one of them was overheard saying to the other,
+                while they were at play together, &#8220;My Daddy and Mammy&#8217;s dead
+                        <note place="foot" resp="editors">[BL Daddy and Mammy&#8217;s dead = Daddy and Mammy are dead]</note>,
+                but we will never go away frae this House.&#8221; We next went with the last remaining one
+                of our charge, a Boy seven years old: his sorrow gathered while we were in the
+                Chaise at the apprehension of parting from his Friend: he repeated more than once,
+                however, that he was glad to go ^ <hi rend="sup">to</hi> the house whither we were taking him; and Miss Knott,
+                turning to me, said <del rend="strike">that</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">that</del> = not canceled]</note>
+                he had told her <del rend="strike">that</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">that</del> = not canceled]</note>
+                he should like to live with John Fleming (that was
+                        <note place="foot" resp="editors">[BL was = is]</note>
+                the Man’s name) for he
+            </p><pb/>
+                
+            <p>26<lb/>
+                had been kind to his Father and Mother, and had given them two sheep last year. She
+                also related what seemed to me a remarkable proof of the Child&#8217;s sensibility. There
+                had been some intention of fixing them
+                        <note place="foot" resp="editors">[BL them = him]</note>
+                at another place, and he was <del rend="strike">very</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">very</del> = not canceled]</note>
+                uneasy at the thought of going thither, because, as he said, the Master of the House
+                had had a quarrel with his Father. It appears that George Green and John Fleming
+                        <note place="foot" resp="editors">[BL John Fleming and George Green = George Green and John Fleming]</note>
+                had had
+                        <note place="foot" resp="editors">[BL had = does not appear]</note>
+                a particular regard for each other; he was the Godfather of his Friend&#8217;s Daughter
+                Jane, to whom he says he will give a fleece of wool every year to spin for
+                ^ <hi rend="sup">her own</hi> stockings, [illegible deleted word] and, from
+                the day that the death of their Parents was known, he expressed a wish to have the
+                care of little John. The manner in which he greeted the Boy, who could not utter a
+                word for weeping, corresponded with this; he took hold of him, and patted his head
+                as lovingly as if he had been his Grandfather, saying, &#8220;Never fear mun! thou shalt
+                go upon the hills after the sheep; thou <hi rend="underline">kens my</hi> sheep!&#8221;
+                then (addressing himself to us) he went on_
+                        <note place="foot" resp="editors">[BL he went on = does not appear]</note>
+                &#8220;This little
+                        <note place="foot" resp="editors">[BL little = does not appear]</note>
+                Lad and his Brothers and Sisters used always to come to our <hi rend="underline">Clippings</hi>,
+                and they were the quietest Bairns that ever I saw, we
+                </p><pb/>
+                
+            <p rend="right">27</p>
+                <p>never had any disturbance among them.&#8221; Meanwhile poor John did not cease crying, and
+                continued to weep as long as we remained in the house; but we have since seen him as
+                happy and contented as plenty of food and kindness could make any Child. His Master
+                is feeble and paralytic; but he spends most of his time out of doors, looking about
+                        <note place="foot" resp="editors">[BL about = over]</note>
+                his own fields, or following the sheep. In these walks he had formerly no Companion
+                but his Dog and his Staff: now, at night and morning
+                        <note place="foot" resp="editors">[BL at night and morning = at morning and night]</note>;
+                before and after school hours, the Boy goes with him_ I saw them last night
+                        <note place="foot" resp="editors">[BL last night = yester-evening]</note>
+                on their return homewards; little John was running here and there, as sportive as a
+                mountain lamb; for the Child may wander at will after his own fancies, and yet be a
+                faithful attendant upon his Master&#8217;s course; for <hi rend="underline">he</hi> creeps
+                at a slow pace, with tottering steps. Much as the old Man delights in his new
+                charge, his Housekeeper appears to have
+                        <note place="foot" resp="editors">[BL have = take]</note>
+                little less pleasure in him: I found her last night knitting stockings for him out
+                of
+                        <note place="foot" resp="editors">[BL out of = with]</note>
+                yarn spun from the Master&#8217;s fleeces, which is a gratuitous kindness, their allowance
+                being half a crown weekly for
+            </p><pb/>
+                
+            <p>28<lb/>
+                board and lodging. I said to her that I hoped the Boy was dutiful to her; and she
+                replied that there was no need to give him <del rend="strike">any</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">any</del> = not canceled]</note>
+                correction, for he did nothing amiss, and was always peaceable, _ and
+                <hi rend="underline">happy</hi> too; and she mentioned
+                        <note place="foot" resp="editors">[BL mentioned = related]</note>
+                some little circumstances which proved
+                        <note place="foot" resp="editors">[BL which proved = which seemed to prove]</note>
+                that she had watched him feelingly; among the rest, that on Saturday, his weekly
+                holiday, he had gone with her and her Master to a mountain enclosure near Blentern
+                Gill, where they had some sheep; they passed by his Father&#8217;s door, and the Child
+                said to her (looking about, I suppose, in one of the Fields which had belonged to
+                his Parents) &#8220;My Mother&#8217;s Ewe has got a fine Lamb.&#8221; The Woman watched his
+                countenance, as she told us
+                        <note place="foot" resp="editors">[BL as she told us = does not appear]</note>,
+                and could not perceive that he had any painful thoughts; but was pleased to see the
+                new-dropped
+                        <note place="foot" resp="editors">[BL new-dropped = new-born]</note>    
+                Lamb and his Mother&#8217;s Ewe. The Ladies returned to Ambleside after we left John
+                Fleming&#8217;s house. Mrs <del rend="strike">North</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">North</del> = not canceled]</note>,
+                it hurts me to say it, in her way to our door where we parted, appeared sullen and
+                dissatisfied that she had not had the whole
+                        <note place="foot" resp="editors">[BL whole = sole]</note>
+                management of the concern; but Miss Knott, who had a true interest in the Children&#8217;s
+                well-doing</p><pb/>
+                
+            <p rend="right">29</p>
+                <p>expressed great pleasure in what she had observed of the people who had taken charge
+                of them, adding that she trusted the Family would prosper, for she had never seen or
+                even heard
+                        <note place="foot" resp="editors">[BL or even heard = nor even heard of]</note>
+                any set of Children that were so amiable as the four who had been under her roof:
+                they were playful but not quarrelsome; and, though with hundreds of objects around
+                them that were perfectly new and strange, they never had done any mischief, hardly
+                had <del rend="strike">had</del> need of a caution! The contentedness with
+                which they have taken to their new homes proves that no wayward desires had been
+                raised in them by the luxuries among which they had lived for the last three weeks;
+                and we have been truly happy to perceive that our fears that this might happen were
+                ill-grounded. Not only the Ladies of the Committee (except the one I have mentioned)
+                but all the Persons
+                        <note place="foot" resp="editors">[BL Persons = people]</note>
+                in Grasmere with whom I have conversed, approve entirely of the several situations
+                in which the Orphans have been placed. Perhaps the irregular interference of Mrs
+                        <note place="foot" resp="editors">[BL <del rend="strike">North</del> = not canceled]</note>
+                may have called forth a few unbecoming expressions of resentment from some of the
+                Inhabitants of
+            </p><pb/>
+                
+            <p>30<lb/>
+                of the Vale; but I must say that the general feelings have been purely kind and
+                benevolent, arising from compassion for the forlorn condition of the Orphans and
+                from a respectful regard for the memory of their Parents who <del rend="strike">with
+                unexampled chearfulness, patience and self-denial, had supported themselves and their
+                Family in extreme poverty; and</del> have left in them a living testimony of their
+                own virtuous conduct: <del rend="strike">for the Children&#8217;s manners (I again 
+                repeat it) are of one innocent,</del> [illegible deleted word] <del rend="strike">and
+                affectionate in a remarkable degree, so that each of them has already made Friends
+                of</del> [illegible deleted word]. I am almost afraid that you may have thought 
+                <del rend="strike">that</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">that</del> = not canceled]</note>
+                my account of the characters of the
+                        <note place="foot" resp="editors">[BL the = these]</note>
+                Children <del rend="strike">is</del> but a Romance, a dream of fanciful feeling
+                proceeding in great measure from pity, pity producing love; yet I hope that the few
+                facts which I have mentioned concerning them will partly illustrate what I have
+                said. You will conclude with me that if <del rend="strike">the conduct of</del>
+                the Parents had not shewn an example of honesty, good-temper, and good manners these
+                happy effects could not have followed: but I believe that the operation of their <del
+                rend="strike">good</del> example was greatly
+            </p><pb/>
+                
+            <p rend="right">31</p>
+                <p>aided by the peculiar situation of themselves and their Children. They lived in a
+                lonely house where they seldom saw any body
+                        <note place="foot" resp="editors">[BL any body = either strangers or neighbours]</note>.
+                These Children had no Playfellows but their own Brothers and Sisters; and wayward
+                inclinations or uneasy longings, where there was no choice of food or toys, no
+                luxuries to contend for, could scarcely exist, they seeing nothing of such feelings
+                in their Parents. There was no irregular variety in the earlier part of their
+                infancy and childhood, and when they were old enough to be trusted from home they
+                rarely went further than their own fields, except to go on errands; so that even
+                then they would be governed by the sense of having a duty to perform. No doubt many
+                Families are brought up in equal solitude and under the same privations; and we see
+                no such consequences; and I am well aware that these causes have often a baneful
+                effect if the Parents themselves be vicious; but such very poor People as in their
+                situation most resemble these are generally in a state of dependence; and the chain
+                which holds them back from dishonesty or any disgraceful conduct is by no means so
+                strong. While George and Sarah Green held possession of the little estate inherited
+                from their Forefathers they were in a superior station; and thus elevated in their
+                own esteem
+            </p><pb/>
+                
+            <p>32<lb/>
+                they were kept secure from <del rend="strike">any</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">any</del> = not canceled]</note>
+                temptation to unworthiness. The love of their few fields and their ancient home was
+                a salutary passion, and, no doubt something of this must have spread <del
+                rend="strike">itself</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">itself</del> = not canceled]</note>
+                to the Children. The Parents&#8217; cares and their chief employments were centred there;
+                and, as soon as the ^ <hi rend="sup">children</hi> could run about, even the youngest
+                could take part in them while the elder would do this with a depth of interest which
+                cannot be felt, even in rural life, where people are only transitory occupants of the soil on
+                which they live. I need not remind you how much more such a situation as I have
+                described as favourable to innocent and virtuous ^ <hi rend="sup">habits and</hi>
+                <note place="foot" resp="editors">[BL habits and = does not appear]</note>
+                feelings than that of those Cottagers who live in solitude and poverty without any
+                out-of-doors employment. It is pleasant to me here to recollect how I have seen
+                these very Children (with no Overlooker except when it was necessary for the elder
+                to overlook the younger) busied in turning the peats which their Father had dug out
+                of their
+                        <note place="foot" resp="editors">[BL their = the]</note>
+                field near their own house
+                        <note place="foot" resp="editors">[BL near their own house = does not appear]</note>,
+                and bearing away those which were dry (in burthens of three or four) upon their
+                shoulders. In this way the Family were bound together by the same cares and
+                exertions; and already one of them has proved that she maintained this spirit after
+                she had quitted her Father&#8217;s Roof. The eldest, Mary, when only fourteen years of
+                age, spared a portion of her year&#8217;s wages to assist them in paying for
+                        <note place="foot" resp="editors">[BL for = the expences of]</note>
+                the Funeral of
+            </p><pb/>
+                
+            <p rend="right">33</p>
+            <p>her Grandfather. She is a Girl of strong sense, and there is a thoughtfulness and
+                propriety in her manners which I have seldom seen in one so young; this with great
+                appearance of sensibility which shewed itself at the time of her Parents&#8217; death, and
+                since, in her [illegible deleted word]
+                        <note place="foot" resp="editors">[BL &#8220;love and&#8221;]</note>
+                anxiety for her Brothers and Sisters. Much, indeed, as I have said of the moral
+                causes tending to produce that submissive, gentle, affectionate, and I may add <hi
+                rend="underline">useful</hi> character in these children, I have omitted to
+                speak of the foundation of all, their own natural dispositions, or rather their
+                constitutional temperament of mind and body. I am convinced from observation that
+                there is in the whole Family a peculiar tenderness of Nature; perhaps inherited from
+                their Father, whom I have several times heard speak of his own Family in a manner
+                that shewed an uncommonly feeling heart; once especially: two or three years ago,
+                when his Boy George had scalded himself and was lying dangerously ill, we met him in
+                Easedale; and he detained us a full quarter of an hour while he talked of his
+                        <note place="foot" resp="editors">[BL his = the]</note>
+                Child’s sufferings and his surpassing patience. I well remember the poor Father&#8217;s
+                words &#8220;He never utters a groan_ never so much as says Oh Dear! but when he sees us
+                grieved for him encourages us and often says &#8220;Never fear, I warrant you I shall get
+                better again.&#8221; These circumstances and many more which
+            </p><pb/>
+                
+            <p>34<lb/>
+                I do not so distinctly recollect the old Man repeated with tears streaming down his
+                cheeks; yet we often saw a smile of pride in his face while he spoke of the Boy&#8217;s
+                fortitude and undaunted courage. I have said that George Green had been twice
+                married, and that his Son and Daughters by the first Wife are in a respectable
+                condition of life; but he had not only brought up thus far his own large Family; but
+                also two Children, a Son and a Daughter, whom his Wife had borne before marriage. He
+                received eighteen pence weekly towards the maintenance of each, and brought them up
+                as his own Children. I do not know what Sarah Green&#8217;s general conduct before
+                marriage may have been, further than that she was a <hi rend="underline">young</hi>
+                        <note place="foot" resp="editors">[BL young = very young]</note>
+                Woman when these Children were born. She had been a Parish Apprentice and therefore,
+                probably, a neglected Child, and, having had the merit of conquering her failings,
+                she for that cause may perhaps be entitled to a higher praise than would have been
+                her due if she had never fallen. Her conduct as a Wife and a Mother <del rend="strike">were</del>
+                <hi rend="sup">was</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">were</del> = not canceled; was = does not appear]</note>
+                irreproachable. Though she could not read herself, she had taught all her Children,
+                </p><pb/>
+                
+            <p rend="right">35</p>
+                <p>even to the youngest but one, to say their prayers, and had encouraged in them a love
+                and respect for learning; the elder could read a little though none of them had been
+                at school more than a single month in the course of the last summer
+                        <note place="foot" resp="editors">[BL more than a single month in the course of last summer = does not appear]</note>,
+                except Sally whose schooling was paid for by a Lady ^ <hi rend="sup">in whose house
+                she had been</hi> <del rend="strike">who had had her in her house</del> a short time.
+                Since their Parents&#8217; death two of the Boys have gone regularly to school; and George,
+                the eldest, takes particular delight his Book. The little Fellow used to lie down upon
+                the carpet in Miss Knott&#8217;s parlour poring over the
+                        <note place="foot" resp="editors">[BL the = his]</note>
+                &#8220;Reading-made-Easy&#8221; by firelight and would try to spell words out of his own head.
+                The Neighbours say that George and Sarah Green had but
+                        <note place="foot" resp="editors">[BL but = only]</note>
+                one fault; they were rather &#8220;too <hi rend="underline">Stiff</hi>,&#8221; unwilling to
+                receive favours; but the &#8220;<hi rend="underline">keenest Payers</hi>,&#8221; always in a
+                hurry to pay when they <hi rend="underline">had</hi> money, and for this reason
+                those who knew them best were willing to lend them a little money to help them out
+                of a difficulty; yet very lately they had sent to the shop for a loaf of bread, and
+                because the Child went without ready money the Shopkeeper refused to let them have
+                the bread. We, in our connection with them have had one opportunity of remarking
+                (alas! we gained our knowledge since their death) how chearfully they submitted
+                </p><pb/>
+                
+            <p>36<lb/>
+                to a hard
+                        <note place="foot" resp="editors">[BL hard = harsh]</note>
+                necessity, and how faithful they were to their word. Our little Sally wanted two
+                shifts: we sent to desire her Mother to procure them; the Father went the very next
+                day to Ambleside to buy the cloth, and promised to pay for it in three weeks. The
+                shifts were sent to Sally without a word of the difficulty of procuring them, or
+                anything like a complaint. After her Parent&#8217;s death we were very sorry (knowing now
+                so much of their extreme poverty) that we had required this of them, and on asking
+                whether the cloth was paid for (intending <del rend="strike">ourselves</del>
+                        <note place="foot" resp="editors">DCMS 64: Erasure in pencil; BL <del rend="strike">ourselves</del> = not canceled</note>
+                to discharge that debt) we were told by one of the Daughters that she had been to
+                the Shop purposely to make the enquiry, and found that, two or three days before the
+                time promised, her Father had himself gone to pay the money. Probably if they had
+                lived a<del rend="strike">nother</del> week longer they must have carried some
+                article of furniture out to barter for that week&#8217;s provisions. I have mentioned how
+                very little food there was in the house at that time_ there was no money,_not even a
+                single halfpenny!_ The pair had each threepence in their pockets when they were
+                found upon the mountains.
+                        <note place="foot" resp="editors">DCMS 64: This sentence is written in a darker ink, and a similar sentence, much faded and possibly erased as to be mostly illegible, appears interlinearly above.</note>
+                With this eagerness to discharge their debts <del rend="strike">they combined an
+                </del><hi rend="sup">their</hi> unwillingness to receive favours ^<hi rend="sup">was</hi>
+                    so great that the Neighbours called it <hi rend="underline">pride</hi>,
+            </p><pb/>
+                
+            <p rend="right">37</p>
+                <p><hi rend="sup">or as I have said &#8220;<hi rend="underline">stiffness</hi>&#8221;.</hi> Without
+                this pride (<del rend="strike">for we must call it so</del>) what could have supported
+                them? Their chearful hearts would probably have sunk, and even their honesty might
+                have slipped from them. The other day I was with Mary Cowperthwaite; the Widow of
+                one of our Statesmen; she began to talk of George and Sarah Green, who, she said,
+                &#8220;had made a hard struggle; but they might have done better if they had not had quite
+                so high a spirit.&#8221; She then told me <del rend="strike">that</del>
+                        <note place="foot" resp="editors">DCMS 64: Erasure in pencil; BL <hi rend="strike">that</hi> = not canceled</note>
+                she had called at their house last summer to look after some cattle that she had put
+                upon George Green&#8217;s Land. Sarah brought out a phial [illegible deleted word] 
+                <del rend="strike">with</del> ^ <hi rend="sup">containing</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">with</del> = not canceled; containing = does not appear]</note>
+                a little gin, ^ <del rend="strike">in it</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike"> in it</del> = not canceled]</note>,
+                poured out a glass <hi rend="sup">of it</hi>
+                        <note place="foot" resp="editors">[BL of it = does not appear]</note>
+                        <hi rend="sup">,</hi> and insisted that her visitor should drink, saying, &#8220;I
+                        should not have had it to offer you if it had not been for that little thing,&#8221;
+                pointing to the Cradle, &#8220;it has been badly <del rend="strike">in its bowels</del>,
+                        <note place="foot" resp="editors">[DCMS 64: Erasure in pencil; BL <del rend="strike">in its bowels</del> = not canceled]</note>
+                and they told me that a little common gin would mend it.&#8221; Mrs. Cowperthwaite took
+                the gin, much against her mind, on condition that Sarah Green should drink tea with
+                her the next Sunday, which she promised to do, and Mary Cowperthwaite told her that
+                that [sic] she would have a bundle of old
+                        <note place="foot" resp="editors">[BL old = does not appear]</note>
+                cloaths ready for
+            </p><pb/>
+                
+            <p>38<lb/>
+                her to take home with her
+                        <note place="foot" resp="editors">[BL with her = does not appear]</note>;
+                however she did not go on the Sunday afternoon; and Mrs. Cowperthwaite
+                        <note place="foot" resp="editors">[BL Mrs. Cowperthwaite = Mrs. C]</note>
+                says that she believes that the fear of receiving this gift had
+                        <note place="foot" resp="editors">[BL had = does not appear]</note>
+                prevented her: for she had never seen her at her house afterwards, though the
+                promise was made many
+                        <note place="foot" resp="editors">[BL many = several]</note>
+                months before her Death. It is plain that the poor Woman had <del rend="strike">had
+                </del> no secret cause of offence against <hi rend="underline">her</hi>
+                <del rend="strike">intended</del> ^ <hi rend="sup">who would have been</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">intended</del> = not canceled; who would have been = does not appear]</note>
+                benefactress; for on the day on which she died she <del rend="strike">had</del>
+                followed Mrs Cowperthwaite&#8217;s Son <del rend="strike">all up and down</del> at
+                the Sale <hi rend="sup">withersoever he turned</hi>
+                        <note place="foot" resp="editors">[BL withersoever he turned = does not appear]</note>
+                <hi rend="sup">,</hi> urging him to request his Mother to take her Daughter
+                Mary as a Servant, she being then in service at a publick House, a situation which
+                she did not altogether approve of. Within the last few days of <del rend="strikethrough">her</del>
+                <hi rend="sup">Sarah Green&#8217;s</hi>
+                        <note place="foot" resp="editors">[BL <del rend="strike">her</del> = not canceled; Sarah Green&#8217;s = does not appear]</note>
+                life her thoughts had been very much occupied with her Children. On the day before
+                she died she went to Ambleside with butter <hi rend="sup">X</hi> to sell,
+                and talked with our neighbour, John Fisher, about her Daughter Sally, <del
+                rend="strike">who is with us</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">who is with us</del> = not canceled]</note>,
+                    and said she should &#8220;<hi rend="underline">think</hi> of him,&#8221; that is, be grateful
+                to him as long as she lived for having been the means of placing Sally at our house,
+                regretted that we could not keep her longer
+                        <note place="foot" resp="editors">[BL longer = much longer]</note>;
+                but, in her chearful way, ended with &#8220;we must do as
+            </p><pb/>
+                
+            <p rend="right">39</p>
+                <p>well as we can.&#8221; On her road home
+                        <note place="foot" resp="editors">[BL home = homewards]</note>
+                she fell into company
+                        <note place="foot" resp="editors">[BL company = conversation]</note>
+                with another Person, and talked fondly of her Infant, who, she said, was &#8220;the
+                quietest creature in the world. You will remember that the object of her last fatal
+                journey was to look after her Daughter who was a Servant at a house in Langdale; and
+                that while she was at the Sale she took unwearied pains about another (namely her
+                eldest by her husband) &#8211; Poor Woman! she is now at rest: I have seen one of her Sons
+                playing beside her grave; and all her Children have taken to their new homes, and
+                are chearful and happy. In the night of her anguish <del rend="strike">could</del>
+                if she could but have had a foresight of the kindness that would be shewn to her
+                Children, what a consolation would it have been <del rend="strike">to her</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">to her</del> = not canceled]</note>!
+                With her many cares and fears for her helpless Family she must, at that time, have
+                mingled some bitter self-reproaches for her boldness in venturing over the
+                Mountains: for they had asked two of the Inhabitants of the Vale to accompany them,
+                who refused to go by that way on account of the bad weather, and she laughed at them
+                for being cowardly. It is now said that her Husband was always fond of doing things
+                that nobody else liked to venture upon, though
+            </p><pb/>
+                
+            <p>40<lb/>
+               he was not strong, and had lost one eye by an accident. <hi rend="underline">She</hi>
+                was healthy and active, one of the freshest Women of her years that I ever noticed,
+                and walked with an uncommonly vigorous step. She was forty-five years of age at her
+                Death. Her Husband&#8217;s Daughters speak of their Mother-in-law
+                        <note place="foot" resp="editors">The common term today is step-mother.</note>
+                with great respect: she always, whenever they went to their Father&#8217;s house, strove
+                to make it as comfortable to them as she could; and never suffered her own Children
+                to treat them unbecomingly. One of the young Women, who has long been a Servant in
+                respectable Families in the neighbourhood, told us with tears in her eyes, that once,
+                not very long ago, she went to Blentern Gill, not intending to stay all night, and 
+                when she took up her Cloak to go away her Mother said to her, &#8220;What you cannot stop
+                in such a poor House!&#8221; The Daughter after this had not the heart to go <del 
+                rend="strike">away</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">away</del> = not canceled]</note>, and
+                laid aside her Cloak. Another time when the chearful Creature was pressing her to
+                stay longer she said to her, &#8220;What Aggy, to be sure we have no tea; but we have very
+                good tea-leaves.&#8221; By the bye, those tea-<hi rend="underline">leaves</hi> came
+                </p><pb/>
+                
+            <p rend="right">41</p>
+                <p>from our house: one of the little Girls, our own Sally or another, used to come to
+                fetch them_ two long miles!_I well recollect (it is now five or six years ago) how
+                we then were struck with the pretty simple manners of these little-ones. I have
+                spoken much of the interest <del rend="strike">which</del> we take in the
+                younger Children of George Green, and I may add that the same constitutional
+                tenderness appears even in a much more marked degree in the elder part of the old
+                Man’s
+                    <note place="foot" resp="editors">[BL the old Man&#8217;s = his]</note>
+                Family: we have observed <del rend="sup"> in them</del> many proofs of tender and
+                even delicate sensibility as well as <del rend="sup"> of</del> strong and deep
+                feeling_ so much respect for every thing that had belonged to the Deceased_ the few
+                cloaths, the furniture, and the old Family Dwelling. In no situation of life did I
+                ever witness marks of more profound distress than appeared in them immediately after
+                the death of their Father and Mother; for they
+                        <note place="foot" resp="editors">[BL they = they always]</note>
+                called her <hi rend="underline">Mother</hi>
+                        <note place="foot" resp="editors">[BL parentheses around &#8220;for they always called her Mother&#8221;]</note>.
+                The eldest Son, on returning to his own house at Ambleside, after having been at
+                Grasmere on the day when it was first known that they were lost, was unable to lift
+                the latch of his own door, and fainted on the threshold, and might have perished
+                also if his Wife had not happened to hear</p><pb/>
+                
+            <p>42<lb/>
+                him; for it was a bitter cold
+                        <note place="foot" resp="editors">[BL cold = does not appear]</note>
+                night. I may say with the Pedlar in the <title level="a">Recluse</title>__ __&#8220;I feel The story linger in
+                my heart, my memory &#8220;Clings to th<del rend="strike">ese</del> is <del rend="strike">
+                poor people and I fear I</del> <hi rend="sup">poor woman and her family poor Woman
+                &amp; her Family</hi>
+                        <note place="foot" resp="editors">DCMS 64: In pencil.</note>
+                ^ <hi rend="sup"><del rend="strikethrough">and I fear I</del></hi>
+                        <note place="foot" resp="editors">DCMS 64: &#8220;and&#8221; is erased in pencil and &#8220;I fear I&#8221; overwritten in pencil; BL <del rend="strike">I fear I</del> = not canceled</note>
+                have spun out of my narrative to a tedious length. I cannot give <hi rend="underline">
+                you</hi> the same feelings that <hi rend="underline">I</hi> have of
+                        <note place="foot" resp="editors"> [BL of = for]</note>
+                them as neighbours and fellow-inhabitants of this Vale; therefore what is in my mind
+                a full and living picture will be to you but a feeble sketch. You cannot, however,
+                but take part in my earnest prayer that the Children may grow up, as they have
+                begun, in innocence, <del rend="strike">and virtue</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">and virtue</del> = not canceled]</note>,
+                and that the awful end of their Parent may hereafter be remembered by them in such a
+                manner as to implant in their hearts a reverence and sorrow for them that
+                        <note place="foot" resp="editors">[BL that = which]</note>
+                may purify their thoughts and make them wiser and better. There is, at least, this
+                consolation, that the Father and Mother have been preserved by their untimely end
+                from that dependence which they dreaded. The Children are likely to be better
+                </p><pb/>
+                
+            <p rend="right">43</p>
+                <p>instructed in reading and writing, and may acquire knowledge which their Parents&#8217;
+                poverty would have kept them out of the way of attaining: and perhaps, after the
+                land had been sold the happy chearfulness of George and Sarah Green might have
+                forsaken them, and their latter days have been tedious and melancholy.
+                </p>
+            </div>
+                
+                
+                <lb/><milestone unit="paratext"/><lb/>
+            
+                <div type="section">    
+            <p rend="right">Dorothy Wordsworth<lb/>
+            Grasmere May 4<hi rend="sup">th</hi> 1808.<lb/></p>
+                
+               
+                <pb/>   <!--I'm not exactly sure what to do here so I replicated what the Word doc said...-->
+           
+               <p>Page 1<hi rend="sup">st</hi>_&#8220;Blentern Gill&#8220; _Probably <hi rend="underline">Blind
+               Tarn</hi> Gill; as there is ^ <del rend="strike">a swamp</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">a swamp</del> = not canceled]</note>
+                upon the mountain <hi rend="sup">a swamp</hi>
+                        <note place="foot" resp="editors">[BL a swamp = does not appear]</note>
+                out of which the little stream runs. This swamp is shaped like a Tarn and might (if
+                it were worth while) with very little trouble be formed into a small Lake or
+                Tarn.
+            </p>
+                
+            <p>Page 38_ &#8220;She went to Ambleside with butter&#8221; I myself met her and desired <del rend="strike">
+                that</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">that</del> = not canceled]</note>
+                she would leave one pound (of the four which she had in her Basket)
+                        <note place="foot" resp="editors">[BL no parentheses around &#8220;of the four which she had in her Basket&#8221;]</note>
+                at our house. Those four Pounds of Butter must have been the produce of at least, a
+                fortnights&#8217; careful savings, as the cow gave very little milk at that time. She had
+                not left a morsel at home for their own use, a striking proof of her resolute
+                        <note place="foot" resp="editors">[BL resolute = does not appear]</note>
+                self-denial. I have said that they never had any luxuries. My account of the stock
+                of provisions in the house at the time of her Death is literally true. If I were to
+                enumerate all the things
+                        <note place="foot" resp="editors">[BL things = articles]</note>
+                that were wanting even to the ordinary supply of a <del rend="strike">very</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">very</del> = not canceled]</note>
+                <hi rend="underline">poor</hi> house what
+            </p><pb/>
+                
+            <p>a long list it would be! There was no sugar in the house_ no salt.</p>
+                <p>I ought to have mentioned that George Green&#8217;s debts, save the Mortgage on his Estate, were very small and few in
+                number. The household goods sold for their full worth, perhaps more_The Cupboard <del
+                rend="strike">of</del> which I have mentioned was bought for fourteen shillings and
+                sixpence_ an oaken Chest for twenty four shillings, and their only Feather Bed for
+                three pounds. The Cow sold for but twenty four shillings, and I believe that was its
+                full value. These articles which I have mentioned were the most valuable of their 
+                moveable possessions. <hi rend="underline">We</hi> purchased the poor Woman’s Churn
+                &amp; milking Can for which we gave eight shillings and sixpence.
+            </p><pb/>
+                
+            <p>An affecting circumstance is related of Sarah Green&#8217;s natural Daughter, with whom she
+                parted on the Saturday evening
+                        <note place="foot" resp="editors">[BL evening = afternoon]</note>,
+                after having drunk tea with her Mistress. The Girl did not hear of the melancholy
+                event till Monday Evening, and she was with difficulty kept from going herself over
+                the Mountains, though night was coming on. In her distraction she thought that <hi
+                rend="underline">she</hi> surely could find them. I do not speak of this as
+                denoting any <hi rend="underline">extraordinary</hi> sensibility; for I believe
+                        <note place="foot" resp="editors">[BL believe = believe that]</note>
+                most young persons in the like dreadful situation would have felt <del rend=
+                "strike">in</del>
+                        <note place="foot" resp="editors">[BL <del rend="strike">in</del> = not canceled]</note>
+                in the same manner_ and perhaps <hi rend="underline">old</hi> ones too_for the
+                circumstance reminds me of Mary Watson, then 73 years of age, who when her Son was
+                drowned in the lake six years ago, walked up and down upon the shore entreating that
+                she might be suffered to go in one of the Boats for though others could not find
+                him_ she said &#8220;Do let <hi rend="underline">me</hi> go I am sure I can spy him!&#8221; I
+                never
+            </p><pb/>
+                
+            <p>shall forget the agony on her face_ without a tear. She looked eagerly towards the
+                Island near the Shore of which her Son had been lost, and wringing her hands, said,
+                while I was standing close to her, &#8220;I was fifty years old when I bore him, &amp; he
+                never gave me <del rend="strike">any</del>
+                        <note place="foot" resp="editors">[BL <hi rend="strike">any</hi> = not canceled]</note>
+                sorrow till now.&#8221; The death of this young Man, William Watson, caused universal
+                regret in the Vale of Grasmere. He was drowned on a fine summer&#8217;s Sunday afternoon
+                having gone out in a Boat with some Companions to bathe. His Body was not found till
+                the following morning though the spot where he had sunk was exactly known. All
+                nightboats were on the water with lights, and it was a very
+                        <note place="foot" resp="editors">[BL very = does not appear]</note>
+                dismal sight from our windows. He could not swim &amp; had got into one of the
+                well-springs of the lake, which are always very deep.
+            </p><pb/>
+                
+           <p><note place="foot" resp="editors">DCMS 64: Here to the end in pencil.</note>
+               The end of <del rend="strike">poor</del> Mary Watson herself was more tragical than
+                that of <del rend="strike">the young</del> man. ^ <hi rendition="#sub"><hi rendition="#smallest">A few years ago</hi></hi>
+                She was murdered in her own cottage by a poor maniac, her own son, with whom 
+                she had lived fearlessly though every one in the vale had apprehensions for her_ 
+                The estate at her death fell to her grandson_ He had been sent to Liverpool to 
+                learn a trade, came home a dashing fellow, [illegible word] all his property 
+                took to dishonest practices, &amp; is now under sentence of transportation.
+           </p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

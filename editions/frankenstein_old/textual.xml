@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Frankenstein</title>
+				<title type="subordinate">A Romantic Circles Electronic Edition</title>
+				<author>
+					<name>Mary Shelley (1797-1851)</name>
+				</author>
+				<editor>Stuart Curran</editor>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Neil Fraistat</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Steven E. Jones</name>
+				</respStmt>
+				<respStmt>
+					<resp>General Editor, </resp>
+					<name>Carl Stahmer</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno type="edition">frank27.editions</idno>
+				<publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+				<pubPlace>College Park, MD</pubPlace>
+				<date when="2009-04-01">May 1, 2009</date>
+				<availability status="restricted">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in any manner without
+						authorization unless it is for purposes of criticism, comment, news reporting, teaching, and/or classroom use as provided by
+						the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by the author/editor and may be
+						shared only in accordance with the Fair Use provisions of U.S. copyright law. Except as expressly permitted by this statement,
+						redistribution or republication in any medium requires express prior written consent from the author/editors and advance
+						notification of Romantic Circles. Any requests for authorization should be forwarded to Romantic Circles:&gt;
+						<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+					</p>
+					<p>By their use of these texts and images, users agree to the following conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose without prior written permission from Romantic
+								Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms other than their current ones.</item>
+						</list>
+					</p>
+					<p>Users are not permitted to download these texts and images in order to mount them on their own servers. It is not in our
+						interest or that of our users to have uncontrolled subsets of our holdings available elsewhere on the Internet. We make
+						corrections and additions to our edited resources on a continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make a link to the copies at Romantic Circles, subject
+						to our conditions of use.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a">STUDY AIDS : EDITIONS</title>
+						<author>
+							<persName>Curran, Stuart</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title type="main">Frankenstein</title>
+						<title type="subordinate">A Romantic Circles Electronic Edition</title>
+						<editor>Curran, Stuart</editor>
+						<imprint>
+							<publisher>Romantic Circles</publisher>
+							<pubPlace>College Park, MD</pubPlace>
+							<date>2009-05-01</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for ’.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+					<p>Dashes have been rendered as —</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="g" corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E">
+					<bibl>NINES categories for Genre and Material Form at
+						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on 2009-02-26</bibl>
+					<category xml:id="g1">
+						<catDesc>Architecture</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Artifacts</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Letters</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Politics</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Folklore</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>History</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Leisure</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Humor</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Education</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>nonfiction</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Perodical</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Philosphy</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Family Life</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Visual Art</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Travel</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Book History</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Law</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef target="#g12 #g16" scheme="#genre"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change n="3" when="2009-05-01" who="#LM">
+				<label>Changed by</label>
+				<name xml:id="LM">Laura Mandell</name>
+				<list>
+					<item>XSLT Transforming into TEI, RDF</item>
+				</list>
+			</change>
+			<change n="2" when="2009-05-01" who="#DR">
+				<label>Changed by</label>
+				<name xml:id="DR">David Rettenmaier</name>
+				<list>
+					<item>XHTML Encoding</item>
+				</list>
+			</change>
+			<change n="1" when="2009-05-01" who="#MQ">
+				<label>Changed by</label>
+				<name xml:id="MQ">Mike Quilligan</name>
+				<list>
+					<item>XHTML Encoding</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>STUDY AIDS : EDITIONS of Mary Shelley's <title>Frankenstein</title>
+				</head>
+				<p>There are countless editions of Mary Shelley's novel, many ephemeral and even undated, so any catalogue is necessarily incomplete.
+					Below are most of the major editions, reprints, and translations through 1996 that can be found in libraries. All texts after the
+					first and second are based on the 1831 edition unless otherwise noted. Audio and video recordings are excluded, as are
+					adaptations. For any single year, texts are arranged alphabetically by place of publication, with those in English preceding
+					translations into foreign languages.</p>
+				<list type="simple">
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, 3 vols. (London: Printed for Lackington, Hughes, Harding, Mavor,
+						&amp; Jones, 1818). The first edition.</item>
+					<item>
+						<title>Frankenstein, ou le Prométhée moderne</title>, 3 vols., by Mme. Shelly [<title>sic</title>], trans. J[ules] S[aladin]
+						(Paris: Corréard, 1821). Translation into French.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title>, 2 vols. (London: Printed for G. and W. B. Whittaker, 1823). A
+						two-volume reprint of the 1818 edition, supervised by William Godwin.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (London: Henry Colburn and Richard Bentley, 1831). Issued as number 9
+						in the Bentley's Standard Novels series; the text is revised, and includes an introduction and an engraved title page.
+						Reprinted in 1832, 1836, 1839, 1849.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>. By Mary W. Shelly [<title>sic</title>]. (Philadelphia: Carey, Lea
+						&amp; Blanchard, 1833).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (New York: H. G. Daggers, 1845).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London: Hodgson, [1847]. The Parlour Library. A piracy reprinted in
+						1856.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (Halifax: Milner and Sowerby, 1865).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London: Milner, n.d. {ca. 1870]). The Cottage Library.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (Boston: Sever, Francis, &amp; Co., 1869).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London, Glasgow and New York: G. Routledge and Sons, 1882). Reprinted
+						in 1886, 1888.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (New York: J. W. Lovell, 1882).</item>
+					<item>
+						<title>Frankenstein; Or, The Modern Prometheus</title> (New York: George Munro, [1883]). Seaside Library, Vol. 76, No.
+						1538.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (London: Dicks, 1884). Dicks' English Library of Standard Works, vol.
+						3, nos. 18-23.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (New York: R. Worthington, 1884).</item>
+					<item>
+						<title>Frankenstein: or, The modern Prometheus</title> (Chicago, New York: Belford, Clarke, 1890).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London: G. Routledge &amp; Sons, Limited; New York E. P. Dutton,
+						1891). Reprinted in 1899.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (New York: Mershon Company, 1893).</item>
+					<item>
+						<title>Frankenstein, or The Modern Prometheus</title> (New York: Home Book Company: [1893]). The Premium Library. Reprinted in
+						1898(?).</item>
+					<item>
+						<title>Frankenstein, or The Modern Prometheus</title> (Chicago: Donohue, Henneberry, 1895).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London: Gibbings; Philadelphia: Lippincott, 1897).</item>
+					<item>
+						<title>Frankenstein; or, The modern Prometheus</title> (London: Lever Brothers, 1899).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (London: Review of reviews Office, 189?). Penny popular novels: No. 49
+						of The Masterpiece library.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (New York: James Pott, 1901). Reprinted in 1910.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (Chicago: Henneberry Co., 1909).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, ed. R. E. Dowse and D. J. Palmer (London &amp; Toronto: J. M. Dent
+						&amp; Sons; New York: E. P. Dutton &amp; Co., 1912). Everyman's Library. <p>
+							<title>Frankenstein oder der neue Prometheus</title>, trans. Heinz Widtmann (Leipzig: Altmann, 1912)&gt; Translation
+							into German.</p>
+					</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (Boston: Cornhill Publishing Co., 1922).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London, Toronto, New York: J. M. Dent &amp; Sons, Ltd.; E. P.
+						Dutton &amp; Co., 1922).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Random House, 1922).</item>
+					<item>
+						<title>Frankenstein ou le Prométhée Moderne</title>, trans. Germain d'Hangest (Paris: la Renaissance du livre, 1922).
+						Translation into French.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Brentano's, 1923).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (New York: Brentano's, 1927).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Grosset &amp; Dunlap, 1931).</item>
+					<item>
+						<title>Frankenstein: or. The modern Prometheus</title> (Cleveland: World Publishing Company, 1932).</item>
+					<item>
+						<title>Frankenstein</title> (London: Readers Library Publishing Co., [1932].</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Illustrated Editions Company, 1932). Illustrated by Nino
+						Carbe.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London and Toronto: J. M. Dent &amp; Sons; New York: E. P. Dutton
+						&amp; Co., 1933). Reprint of the 1912 Dent/Dutton edition.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title>, ed. Edmund Lester Pearson (New York: The Limited editions club, 1934).
+						A limited edition of fifteen hundred copies printed for the members of the Limited editions club at the Walpole printing
+						office in New Rochelle, N.Y. Illustrated by Everett Henry, with type design by F. W. Goudy. Reprinted in 1953.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (New York: Harrison Smith and Robert Haas; Toronto: George J. McLeod,
+						1934). Illustrated by Lynd Ward.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (Greenwich, Conn.: Appleby &amp; Co., 1939).</item>
+					<item>
+						<title>Horror Omnibus, containing two complete novels: Dracula, by Bram Stoker; Frankenstein, by Mary W. Shelley</title> (New
+						York: Grosset &amp; Dunlap, 1939).</item>
+					<item>
+						<title>Frankenstein; or, The modern Prometheus</title> (New York: Books, Inc., 1940).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Caxton House, 1943). Reprinted in 1948.</item>
+					<item>
+						<title>Frankenstein</title> (New York: New York Books, 1943).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Ranieri Cochetti (Rome: Donatello De Luigi, 1944). Translation into Italian.</item>
+					<item>
+						<title>Frankenstein (or, The Modern Prometheus)</title> (New York: Editions for the Armed Services, 1945).</item>
+					<item>
+						<title>Frankenstein, ou Le Prométhée moderne</title>, trans. Eugène Rocart and Georges Cuvelier (Brussels: Éditions "La
+						Boéie," 1945). Translation into French.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Rafael Giménez (Buenos Aires: Octrosa, 1945).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Henry Langon (Brussels: Le Scribe, 1946). Translation into French.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Laura Marazul (Buenos Aires: Lautaro, 1947). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein: roman</title>, trans. Hannah Betjeman (Monaco: Editions du Rocher, 1947). Translation into French</item>
+					<item>
+						<title>Frankenstein oder der neue Prometheus</title>, trans. Elisabette Lacroix (Hamburg: Johannes Angelus Keune, 1948).
+						Translation into German. Reprinted in 1994, 1995.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (Garden City, NY: Halcyon House, 1949).</item>
+					<item>
+						<title>Frankenstein</title> (London: J. M. Dent; New York: E. P. Dutton, 1949). Reprint of the 1912 Dent/Dutton
+						edition.</item>
+					<item>
+						<title>Frankenstein</title> (London, J. M. Dent &amp; Sons, Ltd.; New York: E. P. Dutton &amp; Co., 1951). Reprint of
+						the 1912 Dent/Dutton edition.</item>
+					<item>
+						<title>Frankenstein ovvero il prometeo moderno</title>, trans. B. Tasso (Milano: Rizzoli, 1952). Translation into Italian;
+						introduction by Mario Praz.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Lion Books, 1953).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Giichi Shihido (Tokyo: Nihon Shuppan Kyôdô Kabushiki-Gaisha, 1953). Translation into
+						Japanese.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Nripendra Krishna Chattopadhyay (Calcutta: Deva Sahitya Kutin, 1955). Translation into
+						Bengali.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Pyramid Books, 1957). The first commercial paperback. Reprinted in 1959, 1960,
+						etc..</item>
+					<item>
+						<title>Frankenstein</title>, trans. Caio Jardim (São Paulo: Ed. Universitária, 1957). Translation into Portuguese.</item>
+					<item>
+						<title>Frankenstein</title>, trans. H. Goldmann. (Poznan: Wydawnictwa Pozanskie, 1958). Translation into Polish.</item>
+					<item>
+						<title>Frankenstein</title> (London J. M. Dent; New York: E. P. Dutton, 1959). New format of Everyman edition. Reprinted as
+						paperback in 1960.</item>
+					<item>
+						<title>Frankenstein</title> (Cairo: al-Daral-Qawmiyyah lel-Tiba'ah wa al-Nashr, 1959). Translation into Arabic.</item>
+					<item>
+						<title>Pretamanushyan</title>, trans. M. R. Narayana Pilla (Kozhikode: P. K. Bros., 1959). Text in Malayalam.</item>
+					<item>
+						<title>El Doctor Frankenstein o El moderno Prometeo</title>, trans. Antonio Gobernado (Madrid: Aguilar, 1959). Translation
+						into Spanish. Reprinted in 1966.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Monica Stolpe (Stockholm: Christofer, 1959). Translation into Swedish. A Swedish edition
+						of the same number of pages was published (Bromma: Delta) in 1974.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Taro Shioya (Tokyo: Kodan-sha, 1959). Translation into Japanese.</item>
+					<item>
+						<title>Frankenstein (or, The Modern Prometheus)</title> (Garden City, NY: Doubleday, 1960): Dolphin Books; London: Mayflower
+						Books, 1960).</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (New York: Collier Books, 1960). Reprinted by New York: Collier Books;
+						London: Collier Macmillan Publishers, in 1961.</item>
+					<item>
+						<title>Frankenstajn ili moderni Prometej</title>, trans. Slavka Stevovic (Belgrade: Mlado pokolenje, 1960). Translation into
+						Serbian.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Mazharul Haq Alui (Lucknow: Nasim Book Depot, [1960?]. Translation into Urdu.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (Avon, Conn.: Heritage Press, 1962). Illustrated by Everett
+						Henry.</item>
+					<item>
+						<title>Frankenstein</title> (London: Dent; New York: Dutton, 1963). New format of the Everyman edition, with introduction by
+						Robert E. Dowse and D. J. Palmer. Reprinted in 1965, 1973.</item>
+					<item>
+						<title>Frankenstein or, the modern Prometheus</title> (New York: Airmont Books, 1963). In Braille.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: New American Library, 1963).</item>
+					<item>
+						<title>Frankenstein oder der neue Prometheus</title>, trans. Christian Barth (Munich: Heyne, 1963). Translation into German.
+						Reprinted in 1968, 1969, 1995.</item>
+					<item>
+						<title>Frankenstein</title> (London: Transworld Publishers, 1964).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Hannah Betjeman (Lausanne Rencontre; Paris: Union générale d'éditions, 1964).</item>
+					<item>
+						<title>Frankenstein: ou, Le Prométhée moderne</title>, trans. Joe Ceurvost (Verviers, BEL: 1964). Translation into
+						French.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Dell, 1965).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: New American Library, 1965). Signet Classic. Afterword by
+						Harold Bloom.</item>
+					<item>
+						<title>Frankenstein, ili Sovremenyi Promethei</title>, trans. Z. Aleksandrova (Moscow: Khudozhestvennaia literatura, 1965).
+						Foreword and notes by A[nna] A[rkad'evna] Elistratova.</item>
+					<item>
+						<title>Frankenstein</title> (Barcelona: Molino, 1966).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Kirsten Diemer (Copenhagen: Biilmann &amp; Eriksen, 1966). Translation into
+						Danish.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Elisabetta Bützeberger (Milano: Corno, 1966). Translation into Italian.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Tomás Korbar (Prague: Prace, 1966. Translation into Czech. Republished: Lidová
+						nakladatelství, 1969). Reprinted in 1991.</item>
+					<item>
+						<title>Frankenstein; or The Modern Prometheus</title> (New York: Bantam Books, 1967). Introduction by Robert Donald
+						Spector.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Scholastic Book Services, 1967).</item>
+					<item>
+						<title>Frankenstein o el Moderno Prometeo</title>, trans. Jorge Ferreiro (Mexico City: Novaro, 1967). Translation into
+						Spanish.</item>
+					<item>, trans. Eugène Rocart and Georges Cuvelier (see 1945) (Paris: Editions de la Renaissance, 1967). Translation into
+						French.</item>
+					<item>
+						<title>Frankenstein</title>, in <title>Three Gothic novels</title>, ed. Peter Fairclough (Harmondsworth and New York: Penguin,
+						1968). With an introduction by Mario Praz.</item>
+					<item>
+						<title>Frankenstein</title> (London: Minster Classics, 1968).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Lancer Books, 1968).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Raymonde de Gans ([Paris]: Editions de l'Erable; Geneva: Editions de la Hardiegrave;re,
+						1968). Translation into French. Reprinted (Geneva: Ferni) in 1978.</item>
+					<item>
+						<title>Frankenstein, ovvero il prometeo moderno</title> (Milan: Sugar, 1968). Translation into Italian.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Yamamoto Masaki (Tokyo: Kadokawa Shoten, 1968). Translation into Japanese.</item>
+					<item>
+						<title>Het monster van Frankenstein</title>, trans. Else Hoog (Utrecht: Bruna, 1968). Reprinted under this title in
+						1994.</item>
+					<item>
+						<title>Frankenstein: or The Modern Prometheus</title>, ed. M. K. Joseph (London and New York: Oxford University Press, 1969).
+						The standard edition of the 1831 text.</item>
+					<item>
+						<title>Frankenstein</title>, trans. E. Fariñas (Barcelona: Ferma, 1969). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein, cize moderný Prometeus</title>, trans. Pavel Vilkovský (Bratislava: Tatran, 1969). Translation into
+						Slovak.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Hannah Betjeman (see 1947, 1964) (Levallois-Perret: Cercle du bibliophile, 1969).
+						Translation into French</item>
+					<item>
+						<title>Frankenstein oder der moderne Prometheus</title>, trans. Karl Bruno Leder and Gert Leetz (Gütersloh: Bertelsmann;
+						Stuttgart: Europea Buch- u. Phonoklub; Vienna: Donauland, 1969). Reprinted (Frankfurt-am-Main: Insel Verlag) in 1988, 1993.
+						Translation into German.</item>
+					<item>
+						<title>Frankenstein: Roman</title>, trans. Friedrich Polakovics (Munich: Hanser, 1970). Reprinted in 1971, 1972, 1975, 1978,
+						1980, 1987, 1993, 1994, 1996).</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (London and New York: Oxford University Press, 1971).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Manuel Serrat Crespo (Barcelona: Bruguera, 1971). Translation into Spanish. Reprinted in
+						1972, 1974, 1975, 1980, 1983, 1984, 1985, 1989, 1991, 1994, 1995, 1997.</item>
+					<item>
+						<title>Frankenþtayn</title>, trans. Giovanni Scognamillo (Istanbul: Milliyet, 1971). Translation into Turkish.</item>
+					<item>
+						<title>Frankenstein</title> (Mexico: Juan Pablos, 1971). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title> (Barcelona: Editorial Mateu, 1971). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Márion Martins Carvalho (Lisbon: Estampa, 1972). Translation into Portuguese. Reprinted in
+						1992.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (London: Arrow Books, 1973).</item>
+					<item>
+						<title>Frankenstein</title> (London: Dent; New York: Dutton, 1973). Reprint of the 1912 Dent/Dutton edition.</item>
+					<item>
+						<title>Frankenstein sau Prometeul Modern</title>, trans. Adriana Calinescu (Bucharest: Editura Albatros, 1973). Translation
+						into Romanian.</item>
+					<item>
+						<title>Frankenstein: ussi Prometheus</title>, trans. Paavo Lehtonen (Jyvaskyla Helsinki: Gummerus, 1973). Translation into
+						Finnish. Reprinted in 1995.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Pedro Reis (Lisbon: Amigos do Livro, 1973). Translation into Portuguese.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Fernanda Pinto Rodrigues (Lisbon: Editorial Minerva, 1973). Translation into Portuguese.
+						Reprinted in 1984, 1994, 1995.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title>, ed. James Rieger (Indianapolis: Bobbs-Merrill, 1974). The first
+						reprinting of the 1818 edition, and long the standard edition of the novel.</item>
+					<item>
+						<title>Frankenstein ovvero il Prometeo moderno</title>, trans. Bruno Tasso; intro. Mario Praz (Milan: Biblioteca Universale
+						Rizzoli, 1975). Translation into Italian. Reprinted in 1994.</item>
+					<item>
+						<title>Frankenstein</title> (Cutchogue, NY: Buccaneer Books, 1976).</item>
+					<item>
+						<title>Frankenstein</title> (London: Sphere, 1976).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Grosset &amp; Dunlap, 1976).</item>
+					<item>
+						<title>Robert Andrew Parker's Illustrated Frankenstein</title> (New York: C. N. Potter, 1976).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Joao Alves da Costa (Lisbon: Círcolo de Leitores, 1976). Translation into Portuguese.
+						Reprinted in 1977, 1994.</item>
+					<item>
+						<title>Frankenstein</title>, trans. R. Zavaleta (Mexico: Editores mexicanos unidos, 1976). Translated into Spanish. Reprinted
+						in 1978, 1983, 1985.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Arne Moen (Oslo: Gyldendal, 1976). Translation into Norwegian. Reprinted in 1995.</item>
+					<item>
+						<title>The annotated Frankenstein</title>, ed. Leonard Wolf (New York: C. N. Potter; distributed by Crown Publishers,
+						1977).</item>
+					<item>
+						<title>Frankenstein vagy a modern Prométheusz</title>, trans. Göncz Arpád (Budapest: Kozmosz, 1977). Translation into
+						Hungarian. Reprinted in 1995.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Jannick Storm (Copenhagen: Lademann, 1977). Translation into Danish. Reprinted in 1986,
+						1994.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Anton Adiwiyoto (Jakarta: Gramedia, 1977). Translation into Bahasa Indonesia.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Adriano do Vale (Lisbon: Portugal Press, 1977). Translation into Portuguese.</item>
+					<item>
+						<title>Frankenstein</title> (New York and Scarborough, Ont.: New American Library, 1978).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Dale Books, 1978).</item>
+					<item>
+						<title>Frankenstein</title> (New York: New American Library, 1978). A Signet Classic, bound with <title>Dracula</title> by
+						Bram Stoker and <title>Dr. Jekyll and Mr. Hyde</title> by Robert Louis Stevenson.</item>
+					<item>
+						<title>Frankenstein</title> (Frankfurt-am-Main: Zweitausendeins, 1978). Translation into German.</item>
+					<item>
+						<title>K'o hsueh kuai jen</title> (Hsiang-kang: Pi hui t'u shu ch'u pan she, 1978). Translation into Chinese.</item>
+					<item>
+						<title>Frankenstein</title> (Mexico: Editores Epoca, 1978). Translation into Spanish. Reprinted in 1994.</item>
+					<item>
+						<title>Frankenstein</title> (Mexico: Editores Mexicanos Unidos, 1978). Translation into Spanish. Reprinted in 1981,
+						1985.</item>
+					<item>
+						<title>Frankenstein</title> (London: New York: Dent; Dutton, 1979). Reprint (with corrections) of the 1912 Dent/Dutton
+						edition.</item>
+					<item>
+						<title>Frankenstein</title> (West Haven, Conn.: Pendulum, 1979).</item>
+					<item>
+						<title>Frankenstein</title> (Havana: Arte y Literatura, 1979). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein: ou le Prométhée moderne</title>, trans. Germain d'Hangest (Paris: Garnier-Flammarion, 1979). Translation
+						into French.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Akira Usuda (Tokyo: Kokushokankokai, 1979). Translation into Japanese. Reprinted in
+						1981.</item>
+					<item>
+						<title>Frankenstein</title> (Mahwah, NJ: Watermill Press, 1980).</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title>, ed. M. K. Joseph (Oxford; New York: Oxford University Press,
+						1980).</item>
+					<item>
+						<title>Frankenstein: of, De moderne Prometheus,</title> trans. Else Hoog (Amsterdam: Loeb, 1980). Translation into Dutch.
+						Reprinted in 1989.</item>
+					<item>
+						<title>Frankenstein</title> (Toronto and New York: Bantam Books, 1981). Introduction by Diane Johnson</item>
+					<item>
+						<title>Frankenstein o el moderno Prometeo</title>, trans. Francisco Torres Oliver (Madrid: Alianza, 1981). Translation into
+						Spanish. Reprinted in 1993, 1994, 1995, 1996, 1998.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus, the 1818 Text</title>, ed. James Rieger (Chicago; London: University of
+						Chicago Press, 1982). Reprint of the 1974 Bobbs-Merrill edition, with a new preface.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (Morristown, NJ: Silver Burdett Co., 1982).</item>
+					<item>
+						<title>Frankenstein oder der neue Prometheus</title>, trans. Ralph Tegtmeier (Bergisch Gladbach: Bastei Lübbe, 1982).
+						Reprinted 1994, and (with Bram Stoker's <title>Dracula</title>) in 1997. Translation into German.</item>
+					<item>
+						<title>Frankenstein Chinese</title> (1982). Translation into Chinese.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Niels Søndergaard, 1982 (Copenhagen: Apostrof, 1982). Translation into Danish.</item>
+					<item>
+						<title>Frankenstein, ossia Il moderno Prometeo</title>, trans. Chiara Zanolli and Laura Caretti (Milan: Mondadori, 1982).
+						Translation into Italian. Reprinted in 1988, 1994.</item>
+					<item>
+						<title>Frankenstein</title> (Stuttgart: Ehapa Verlag, 1982). Translation into German.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Anna Pyk (Uddevalla: Niloe, 1982). Translation into Swedish. Reprinted in 1992,
+						1994.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Max Schuchart (Utrecht: Het Spectrum, 1982). Translation into Dutch.</item>
+					<item>
+						<title>Frankenstein</title> (Mattituck, N.Y.: Amereon House, 1983).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Dodd, Mead, 1983). Illustrated by Berni Wrightson.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (New York: Marvel Comics Group, 1983). Introduction by Stephen
+						King.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York; Scarborough, Ont.: New American Library, 1983). Signet
+						Classic, with a revised and updated bibliography.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, ed. Barry Moser (West Hatfield, Mass.: Pennyroyal, 1983). The 1818
+						text. Printed by Harold McGrath in a limited edition of 350 copies. Slipcased, with an extra set of the illustrations in a
+						portfolio.</item>
+					<item>
+						<title>Frankenstein o El Prometeu modern</title>, trans. Quim Monzó (Barcelona: La Magrana, 1983). Translation into Catalan.
+						Reprinted in 1984, 1985, 1986, 1987, 1994, 1995</item>
+					<item>
+						<title>Frankenshteyn, o. Promiteus ha-moderni</title> (Yerushalyim: Elisar, 1983). Translation into Hebrew.</item>
+					<item>
+						<title>Frankenstein oder der moderne Prometheus</title>, trans. Ursula von Wiese (Zürich: Manesse, 1983). Translation into
+						German. Reprint (Munich: Dt. Taschenbuch-Verlag) in 1993.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Modern Library, 1984).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Miquel Rodriquez Cerro (Madrid: Anaya, 1984). Translation into Spanish. Reprinted in
+						1987.</item>
+					<item>
+						<title>Frankenstein: ou, Le Prométhée des temps modernes</title> (Paris: Albin Michel, 1984). Translated into French.
+						Illustrated by Berni Wrightson.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus: The 1818 Text in Three Volumes</title>, ed. Barry Moser (Berkeley: University
+						of California Press, 1984). One-volume reprint of the 1983 Pennyroyal edition.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Yumiko Morishita (Tokyo: Tokyosogensha, 1984). Translation into Japanese. Reprinted in
+						1993.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, ed. Maurice Hindle (London and New York: Penguin Books, 1985).</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title>, ed. M. K. Joseph (Oxford and New York: Oxford University Press,
+						1985).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Fernanda Pinto Rodrigues (Mem Martins, Portugal: Publicacoes Europa-America, 1985).
+						Translated into Portuguese.</item>
+					<item>
+						<title>Frankenstein</title> (Porto Alegre, Rio Grande del Sul: L &amp; PM Editores, 1985). Translation into
+						Portuguese.</item>
+					<item>
+						<title>Frankenstein</title>, ed. T. Ernesto Bethancourt (Belmont, California: Fearon Education, 1986).</item>
+					<item>
+						<title>Frankenstein</title>, in <title>Three Gothic novels</title>, ed. Peter Fairclough (London and New York: Penguin Books,
+						1986). Reprint of the 1968 edition.</item>
+					<item>
+						<title>Frankenstein, or, the Modern Prometheus</title> (Oxford: Isis Large Print; Santa Barbara: Clio Press, 1986). Published
+						in large print.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: New Orchard Editions; Distributed in USA by Sterling Pub.
+						Co., 1986). Illustrated by Lynd Ward.</item>
+					<item>
+						<title>Frankenstein o el Prometeu modern</title>, trans. Quim Monzó (Barcelona: La Magrana, 1986). Translation into Catalan.
+						Reprinted in 1990, 1995.</item>
+					<item>
+						<title>Frankenstein, oder, Der moderne Prometheus</title>, trans. Christian and Ursula Grawe (Stuttgart: Reclam, 1986).
+						Translation into German. Reprinted (Rastatt: Pabel Moewig) 1990, (Düsseldorf: ECON-Taschenbuch) 1994, (Stuttgart: Reclam)
+						1995.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (Philadelphia: Running Press, 1987).</item>
+					<item>
+						<title>Frankenstein</title>, trans. Ana Maria Moix (Barcelona: Lumen, 1987). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein oder der neue Prometheus</title>, trans. Ana Maria Brock (Berlin: Verlag das neue Berlin, 1987).</item>
+					<item>
+						<title>Frankenstein, o, el moderno Prometeo</title>, trans. María Engracia Pujals (Madrid: Anaya, 1987). Translation into
+						Spanish. Reprinted in 1988, 1993, 1995, 1996.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Miquel Angel Gallo (Mexico: Ediciones Quinto Sol, 1987). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus: With Supplementary Essays and Poems from the Twentieth Century</title>
+						(Washington, D.C.: Orchises, 1988).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Bedrick/Blackie; London: Blackie, 1988). Illustrated by Charles Keeping</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Portland House Illustrated Classics: Distributed by Crown
+						Publishers, 1988). Illustrated by Lynd Ward and Aristides Ruiz.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Tom Doherty Associates, 1988).</item>
+					<item>
+						<title>Frankenstein</title>, ed. John Turvey and Per Dahlberg (Harlow, Essex, England: Longman, 1988).</item>
+					<item>
+						<title>Frankenstein</title>, ed. Larry Weinberg (New York: Random House, 1988). Illustrations by Ken Barr.</item>
+					<item>
+						<title>Frankenstein</title> (Aerie Books, 1988).</item>
+					<item>
+						<title>Frankinshtayin</title> (Beirut: Maktabat Lubnan, 1988). Translation into Arabic.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Paul Couturiau (Monaco: Éditions du Rocher, 1988). Translation into French. Reprinted
+						(Paris: Gallimard) 1997.</item>
+					<item>
+						<title>Frankenstein</title>, ed. Patrick Nobes (Oxford: Oxford University Press, 1989).</item>
+					<item>
+						<title>Frankenstein</title>, ed. Richard Sellwood (London: Macmillan, 1989).</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title> (London: Puffin, 1989).</item>
+					<item>
+						<title>Frankenstein: The Modern Prometheus</title>, ed. Wendy Hobson (New York: P. Bedrick Books, 1989). Illustrated by
+						Caroline Church.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Jørn E. Albert and Thorsten Villum Hansen (Copenhagen: Forum, 1989). Translation into
+						Danish.</item>
+					<item>
+						<title>Frankenshtein, ili, Sovremennyi Prometei: roman</title>, trans. Z. Aleksandrovoi (Moscow: "Khudozhestvennaia
+						literature," 1989). Translation into Russian.</item>
+					<item>
+						<title>Frankenstein</title> (Poznan: Wydawnictwo Poznanskie, 1989). Translation into Polish.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (Philadelphia: Courage Books, 1990).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: New American Library, 1990). Signet Classic.</item>
+					<item>
+						<title>Frankenstein</title>, in <title>The Mary Shelley Reader: Containing "Frankenstein," "Mathilda," Tales and Stories,
+							Essays and Reviews, and Letters</title>, ed. Betty T. Bennett and Charles E. Robinson (New York and Oxford: Oxford
+						University Press, 1990). The 1818 edition.</item>
+					<item>
+						<title>Frankenstein</title>, ed. J. H. Brennan, trans. Alessandra Dugan (Trieste: E. Elle, 1990). Illustrated by Tim Sell.
+						Translation into Italian.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Bantam Books, 1991).</item>
+					<item>
+						<title>Frankenstein; or The modern Prometheus</title> (New York: Quality Paperback Book Club, 1991). Reprinted in 1994.</item>
+					<item>
+						<title>Frankenstein cize moderný Prometeus</title>, trans. Pavel Vilikovský (Bratislava: Taran, 1991). Translation into
+						Czech.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Ma'arof Saad (Kuala Lumpur: Fajar Bakti, 1991). Translation into Malay.</item>
+					<item>
+						<title>Frankenstein, ovvero il moderno Prometeo</title>, trans. Maria Paola Saci and Fabio Troncarelli (Milan: Garzanti,
+						1991). Translation into Italian.</item>
+					<item>
+						<title>Frankenstein, ovvero Il Prometeo moderno</title>, ed. Malcolm Skey, trans. Stefania Censi (Rome: Theoria, 1991).
+						Translation into Italian. Reissued (Milan: Bompiani) in 1994.</item>
+					<item>
+						<title>Frankenstein; or, The Modern Prometheus</title> (Garden Grove, CA: World Library, Inc., 1991). Plain ASCII text on
+						CD-ROM.</item>
+					<item>
+						<title>Frankenstein</title> (London: J. M. Dent; Rutland, Vermont: C. E. Tuttle, 1992). Reprint of the 1912 Dent/Dutton
+						edition.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (London: D. Campbell Publishers Ltd.: Distributed by the Random Century
+						Group Ltd., 1992).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Knopf; distributed by Random House, 1992).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, ed. Maurice Hindle (London: Penguin, 1992).</item>
+					<item>
+						<title>Frankenstein</title>, ed. Paddy Lyons (London: Dent, 1992).</item>
+					<item>
+						<title>Frankenstein: Complete, Authoritative Text with Biographical and Historical Contexts, Critical History, and Essays from
+							Five Contemporary Critical Perspectives</title>, ed. Johanna M. Smith (Boston and New York: Bedford Books of St. Martin's
+						Press, 1992). Reprinted Basingstoke: Macmillan, 2000.</item>
+					<item>
+						<title>Frankenstein o el Prometeu modern</title>, trans. Maria-Amntènia Oliver (Barcelona: Edicions de l'Eixample, 1992).
+						Translation into Catalan. reprinted in 1993</item>
+					<item>
+						<title>Frankenstein</title>, trans. Carme Roig i Papiol (Barcelona: Barcanova, 1992). Translation into Catalan.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Barnes &amp; Noble, 1993).</item>
+					<item>
+						<title>Frankenstein</title>, in <title>Horror Classics</title> (London: Chancellor Press, 1993).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Modern Library, 1993).</item>
+					<item>
+						<title>Frankenstein: or the Modern Prometheus: The 1818 Text</title>, ed. Marilyn Butler (London: William Pickering; Oxford
+						and New York: Oxford University Press, 1993). Reprinted as Oxford World Classics, 1998.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Random House, 1993). Reprint of the 1922 edition.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title>, 2 vols. (Oxford; New York: Woodstock Books, 1993). Reprint of 1823 ed.
+						Page size reduced to 77% of original; pages grouped four original to one of this reprint.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (Ware: Wordsworth Classics, 1993). Cover title: Frankenstein.</item>
+					<item>
+						<title>Frankenstein, or The modern Prometheus</title> (Lisle, IL: Project Gutenberg, 1993). Electronic text.
+						ftp://uiarchive.cso.uiuc.edu/pub/etext/gutenberg/etext93/frank11.txt</item>
+					<item>
+						<title>Frankenstein o El moderno Prometeo</title>, [trans. Ignacio Salido Amoroso] (Madrid: Gaviota, 1993). Translation into
+						Spanish. Reprinted in 1994.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Chiara Belliti (Milan: Mondadori, 1993). Translation into Italian.</item>
+					<item>
+						<title>P'urangk'en syut'ain: ch'angjo ui sinbi rul yotpon han kwahakcha ui mollak</title>, trans. Hye-gyong Chong (Soul-si:
+						P'apirusu, 1993). Translation into Korean.</item>
+					<item>
+						<title>The Essential Frankenstein: Including the Complete Novel by Mary Shelley</title>, ed. Leonard Wolf (New York: Plume,
+						1993). Previously published as <title>The Annotated Frankenstein</title>.</item>
+					<item>
+						<title>Frankenstein, or, the Modern Prometheus</title>, ed. David Lorne Macdonald and Kathleen Dorothy Scherf (Peterborough,
+						Ontario: Broadview Press, 1994). The 1818 text.</item>
+					<item>
+						<title>Frankenstein</title> (London: J. M. Dent; Rutland, Vermont: C. E. Tuttle, 1994). Reprint of the 1912 Dent-Dutton
+						edition.</item>
+					<item>
+						<title>Frankenstein</title> (New York: Dover Publications, 1994).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus, the 1818 text</title>, ed. Marilyn Butler (Oxford; New York: Oxford University
+						Press, 1994).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (London: Pan, 1994). A reprint of the 1963 Signet Classic.</item>
+					<item>
+						<title>Frankenstein: or, The Modern Prometheus</title>, ed. Maurice Hindle (Harmondsworth and New York: Penguin Books,
+						1994).</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus: the 1818 text in three volumes</title>, ed. Barry Moser (Berkeley: University
+						of California Press, 1994). One-volume reprint of the 1983 Pennyroyal edition.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Avenel, N.J.: Gramercy Books; Distributed by Random House
+						Value Publishing, 1994). Illustrated by Lynd Ward.</item>
+					<item>
+						<title>The Mammoth Book of Frankenstein</title>, ed. Stephen Jones (New York: Carroll and Graf, 1994). With other
+						"electrifying tales of cursed creation."</item>
+					<item>
+						<title>The Essential Frankenstein</title>, ed. Leonard Wolf (New York: Byron Preiss Multimedia, 1994). CD-ROM.</item>
+					<item>
+						<title>Frankenstein</title>, [trans. Monserrat López] (Barcelona: Ediciones B, 1994). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Marta Pérez (Barcelona: Laertes, 1994). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title>, [trans. Miguel Giménez Sales] (Barcelona: Ultramar D. L., 1994). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Isabel Altés Yáñes (Madrid: Edicomunicación, 1994). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein ou le Prométhée moderne</title>, trans. Joe Cuervorst (Paris: J'ai lu, 1994). Translation into
+						French.</item>
+					<item>
+						<title>Frankenstein: roman</title> (Rastatt: Ullstein, 1994). Translation into German.</item>
+					<item>
+						<title>Frankenstein, ovvero il Prometeo moderno</title> (Rome: Biblioteca economica Newton, 1994). Translation into
+						Italian.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Gerd Karin Nordlund (Stockholm: 1994). Translation into Swedish.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Masaki Yamamoto (Tokyo: Kadokawashoten, 1994). Translation into Japanese.</item>
+					<item>
+						<title>Frankenstein; or, The modern Prometheus</title>, ed. Anne K. Mellor (New York: Pocket Books, 1995).</item>
+					<item>
+						<title>K'o hsueh kuai jen</title> (Hsiang-kang: Huang kuan ch'u pan she (Hsiang-kang) yu hsien kung ssu, 1995). Translation
+						into Chinese.</item>
+					<item>
+						<title>Frankenshtain o Prometeus ha-moderni</title>, trans. Iris Bar'am (Hod ha-Sharon: Astrolog, 1995). Translation into
+						Hebrew.</item>
+					<item>
+						<title>Frankenstein</title> (Barcelona: Plaza &amp; Janes, 1995). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title> (Köln: Könemann Verlag, 1995). In English.</item>
+					<item>
+						<title>Frankenstein, ovvero Il Prometeo moderno</title>, trans. Simona Fefe (Milan: Frassinelli, 1995). Translation into
+						Italian. Reissued (Rome: Vignola) in 1996.</item>
+					<item>
+						<title>Frankenstein: ovvero, Il moderno Prometeo</title> (Pordenone: Studio Tesi, 1995). Translation into Italian.</item>
+					<item>
+						<title>Frankenstein</title>, trans. Franz Schrapfeneder (Vienna: Tosa Verlag, 1995). Translation into German. Illustrated by
+						Christian Mogg.</item>
+					<item>
+						<title>Frankenstein, or, The Modern Prometheus</title> (New York: Grosset &amp; Dunlap, 1995). Illustrated by Larry
+						Schwinger.</item>
+					<item>
+						<title>Frankenstein</title>, ed. Nora Crook (London, Brookfield, VT: Pickering &amp; Chatto, 1996). The most thorough and
+						detailed edition to date.</item>
+					<item>
+						<title>Frankenstein: The 1818 Text, Contexts, Nineteenth-Century Responses, Modern Criticism</title>, ed. J. Paul Hunter (New
+						York: W.W. Norton, 1996).</item>
+					<item>
+						<title>Frankenstein yada, modern Prometheus</title>, trans. Elif OEzsayar (Istanbul: Arion Yayynevi, 1996). Translation into
+						Turkish.</item>
+					<item>
+						<title>Frankenstein yada modern prometheus</title>, trans. Yeþim Seber (Istanbul: Mitos Yayynlary, 1996). Translation into
+						Turkish.</item>
+					<item>
+						<title>Frankenshtain</title>, ed. Larry Weinberg; trans. Dalit Lev (Yerushalayim: Keter, 1996). Translation into
+						Hebrew.</item>
+					<item>
+						<title>Frankenstein</title>, [trans. J. M. Ortiz] (Donostia: Elkar, [1997]). Translation into Basque.</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title>,ed. David Stevens (Cambridge: Cambridge University Press, 1998).</item>
+					<item>
+						<title>Frankenstein</title>. Large print ed. ([Los Angeles]: Cyber Classics, 1998).</item>
+					<item>
+						<title>Frankenstein, or, the modern Prometheus</title>. New York Public Library collectors ed. (New York: Doubleday,
+						1998).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Viking, 1998).</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (Princeton: Xlibris, 1998).</item>
+					<item>
+						<title>Frankenstein</title> (Wickford, RI: North Books, 1998).</item>
+					<item>
+						<title>Frankenstein</title>, [trans. E. A. B.] (Barcelona: Andrés Bello, [1998]). Translation into Spanish.</item>
+					<item>
+						<title>Frankenstein</title> (Paris: Autrement, 1998). Translation into French.</item>
+					<item>
+						<title>Frankenstein, ou, O Prometeu moderno</title> (S&amp;aced;o Paulo: Editora Ática, 1998). Translation into
+						Portuguese.</item>
+					<item>
+						<title>K'o hsüeh kuai jen</title> (Taipei: Wan hsiang t'u . . ., 1998). 2 vols. Translation into Chinese.</item>
+					<item>
+						<title>Frankenstein</title>, tr. Pawla Kociolka (Warsaw: Muza Sa, 1998). Translation into Polish.</item>
+					<item>
+						<title>Frankenstein</title>, intro. Wendy Steiner (New York: Modern Library, 1999).</item>
+					<item>
+						<title>Frankenstein</title> (New York: Playmore, Inc. and Waldmann Publishing Corp., 1999).</item>
+					<item>
+						<title>Frankenstein, or, The modern Prometheus</title> (Washington, D.C.: Braille International, 1999). 3 vols. In
+						Braille.</item>
+					<item>
+						<title>Frankenstein</title>, ed. Antonio Ballestero and Silvia Caporale ([Salamanca]: Ediciones Almar, 1999). Translation into
+						Spanish.</item>
+					<item>
+						<title>Frankenstein: ou o moderno Prometeo</title>, trr. Fernando R. Tato Plaza ([Vigo]: Galaxia, 2000). Translation into
+						Spanish.</item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>

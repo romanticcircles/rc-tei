@@ -1,0 +1,4255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="m">Reading Text (diplomatic transcription)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="primary">
+                    <name>Dorothy Wordsworth</name>
+                </author>
+                
+                <editor role="editor">Michelle Levy</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.GJ-text</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Reading Text (diplomatic transcription)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.GJ-text"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Emily Stephens</name>
+                <date>2022-10-21 </date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    
+    
+    
+    <text>
+        <body>
+            <div type="section">
+                <head>First Notebook of the Grasmere Journal: Diplomatic Transcription<lb/>
+                    (DCMS 20, 14 May–22 December 1800)<lb/>
+                    <hi rend="small">Michelle Levy</hi></head>
+                
+            <byline>
+                <docAuthor>Michelle Levy</docAuthor>
+                <affiliation>Furman University</affiliation>
+            </byline>
+            
+            <p>May 14 1800 [Wednesday].<lb/>
+            W<hi rend="sup">m</hi> &amp; John
+                <note place="foot" resp="editors">DW&#8217;s younger brother, who worked as a
+                                merchant sailor for the East India Company and whom DW had not seen
+                                for eight years.
+                </note>
+                set off into York=<lb/>
+            =shire after dinner at ½ past<lb/>
+            2 o&#8217;clock &#8211; cold pork in their<lb/>
+            pockets. I left them at the<lb/>
+            turning of the Low-wood bay<lb/>
+            under the trees. My heart<lb/>
+            was so full that I could<lb/>
+            hardly speak to W when<lb/>
+            I gave him a farewell kiss.<lb/>
+            I sate a long time upon<lb/>
+            a stone at the <del rend="strike">foot of</del><lb/>
+            margin of the lake, &amp;<lb/>
+            after a flood of tears my<lb/>
+            heart was easier. The <pb/></p>
+                
+            <p>lake looked to me I knew<lb/>
+            not why dull and melancho-<lb/>
+            -ly, the weltering on the<lb/>
+            shores seemed a heavy<lb/>
+            sound. I walked as long<lb/>
+            as I could amongst the stones<lb/>
+            of the shore. The wood<lb/>
+            rich in flowers. A beau-<lb/>
+            -tiful yellow, palish yellow<lb/>
+            flower, that looked thick<lb/>
+            round &amp; double, &amp; smelt<lb/>
+            very sweet &#8211; I supposed<lb/>
+            it was a ranunculus &#8211;<lb/>
+            Crowfoot &#8211; the grassy<lb/>
+            leaved Rabbit toothed white<lb/>
+            flower, strawberries, Gerani-<lb/>
+            -um &#8211; scentless violet, <pb/></p>
+                
+            <p>anemones two kinds, orchises,<lb/>
+            primroses. The heckberry<lb/>
+            very beautiful ^<hi rend="sup">The crab coming out</hi> as a low
+                shrub.<lb/>
+            Met a blind man driving<lb/>
+            a very large beautiful<lb/>
+            Bull &amp; a cow &#8211; he walked<lb/>
+            with two sticks. Came home<lb/>
+            by Clappersgate. The valley<lb/>
+            very green &#8211; many sweet views<lb/>
+            up to Rydale head when<lb/>
+            I could juggle away the<lb/>
+            fine houses &#8211; but they<lb/>
+            disturbed me even more<lb/>
+            than when I have been<lb/>
+            happier &#8211; one beautiful<lb/>
+            view of the Bridge, without<lb/>
+            Sir Michaels.<pb/></p>
+                
+            <p>Sate down very often &#8211; tho&#8217;<lb/>
+            it was cold &#8211; I resolved to<lb/>
+            write a journal of the time<lb/>
+            till W &amp; J return &#8211; &amp; I<lb/>
+            set about keeping my re=<lb/>
+            =solve because I will not quar=<lb/>
+            =rel with <del rend="strike">my</del> myself &amp; because<lb/>
+            I shall give W<hi rend="sup">m</hi> Pleasure by<lb/>
+            it when he [illegible deleted word] comes home<lb/>
+            again. At Rydale a woman<lb/>
+            of the village, stout &amp; well<lb/>
+            =dressed, begged a halfpenny<lb/>
+            she had never she said done<lb/>
+            it before &#8211; but these &#8220;hard<lb/>
+            times!&#8221; &#8211; Arrived at home<lb/>
+            with a bad head-ach &#8211; set<lb/>
+            some slips of privett. The<lb/>
+            evening cold &#8211; had a fire &#8211;<lb/>
+            my face now flame-coloured <pb/></p>
+                
+            <p>It is nine o&#8217;clock, I shall soon<lb/>
+            go to bed. A young woman<lb/>
+            begged at the door &#8211; she had come<lb/>
+            from Manchester on Sunday morn<lb/>
+            with two shillings &amp; a slip of paper<lb/>
+            which she supposed a Bank<lb/>
+            note &#8211; it was a cheat. She<lb/>
+            had buried her husband &amp; three<lb/>
+            children within a year &amp; a<lb/>
+            half &#8211; All in one grave burying<lb/>
+            very dear &#8211; paupers all put<lb/>
+            in one place &#8211; 20 shillings<lb/>
+            paid for as much ground as<lb/>
+            will bury a man &#8211; a <hi rend="sup">grave</hi> stone<lb/>
+            to be put over it or it <hi rend="sup">the right</hi> will<lb/>
+            be lost: 11-6 each time the<lb/>
+            ground is opened. Oh! that I<lb/>
+            had a letter from William!<pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            
+            <p>May 15 Thursday<lb/>
+            A coldish dull morning &#8211; hoed<lb/>
+            the first row of peas, weeded &amp;c<lb/> 
+            &amp;c &#8211; sat hard to mending till<lb/> 
+            evening. When the rain which<lb/> 
+            had threatened all day came on<lb/> 
+            just when I was going to<lb/> 
+            walk &#8211;</p>
+            </div>
+                
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday morning [May 16<hi rend="sup">th</hi>]. Warm &amp; mild<lb/>
+            after a fine night of rain<lb/>
+            Transplanted raddishes after<lb/>
+            breakfast. Walked to Mr Gells<lb/>
+            with the Books &#8211; gathered, moss<lb/>
+            &amp; plants. The woods extremely<lb/>
+            beautiful with all autumnal<lb/>
+            variety &amp; softness &#8211; I carried<lb/>
+            a basket for mosses, &amp; gathered<lb/>
+            some wild plants &#8211; Oh! that we<lb/>
+            had a book of botany &#8211; all<lb/>
+            flowers now are gay &amp; deli<lb/>
+            =ciously sweet. The primrose<lb/>
+            still pre-eminent among<lb/>
+            the later flowers of the spring.<pb/></p>
+                
+            <p>Foxgloves very tall &#8211; with their heads<lb/>
+            budding. &#8211; I went forward round<lb/>
+            the lake at the foot of Lough<lb/>
+            =rigg fell &#8211; I was much amused<lb/>
+            with the business of a pair of<lb/>
+            stone chats. Their restless voices<lb/>
+            as they skimmed along the<lb/>
+            water following each other<lb/>
+            their shadows <del rend="strike">upon</del> under<lb/>
+            them, &amp; their returning back<lb/>
+            to the stones on the shore, chirping<lb/>
+            with the same unwearied voice<lb/>
+            could not cross the water so I<lb/>
+            went round by the stepping stones<lb/>
+            The morning clear but cloudy, that<lb/>
+            is the hills were not overhung by<lb/>
+            mists. After dinner Aggy
+                <note place="foot" resp="editors">Agnes (Aggy) Fisher, who with her husband,
+                            John, and sister Molly lived across the road from WW and DW. They
+                            are often described as helping DW with gardening and
+                            housework.
+                </note>
+                weeded<lb/>
+            onions &amp; carrots &#8211; I helped for a<lb/>
+            little &#8211; wrote to Mary Hutchinson<lb/>
+            washed my head &#8211; worked. After<lb/>
+            tea went to Ambleside. A pleasant<lb/>
+            cool but not cold evening. Rydale<lb/>
+            was very beautiful with spear-<lb/>
+            =shaped streaks of polished<lb/>
+            steel. No letters! &#8211; &#8211; only one<lb/>
+            newspaper. I retuned by Clappers<hi rendition="#smallest"><hi rendition="#sub">=gate</hi></hi>. <pb/></p>
+                
+            <p>Grasmere was very solemn in<lb/>
+            the last glimpse of twilight<lb/>
+            it calls home the heart to<lb/>
+            quietness. I had been very melan<lb/>
+            choly in my walk back. I had<lb/>
+            many of my saddest thoughts<lb/>
+            &amp; I could not keep the tears<lb/>
+            within me. But when I<lb/>
+            came to Grasmere I felt<lb/>
+            that it did me good.<lb/>
+            I finished my letter to M<lb/>
+            H. &#8211; ate hasty pudding, &amp;<lb/>
+            went to bed. As I was going<lb/>
+            <hi rend="underline">out in the morning I met</hi><lb/>
+            a half crazy old man. He shewed<lb/>
+            me a pincushion, &amp; begged<lb/>
+            a pin, afterwards a halfpenny.<lb/>
+            He began in a kind of indistinct<lb/>
+            voice in this manner &#8220;Matthew<lb/>
+            Jobson&#8217;s lost a cow. Tom Nichol<lb/>
+            has two good horses strained<lb/>
+            Jim Jones&#8217;s cow&#8217;s brokken her<lb/>
+            horn, &amp;c &amp;c &#8211; &#8211;&#8217; <pb/></p>
+                
+            <p>He went into Aggys &amp; persuaded<lb/>
+            her to give him some whey &amp; let<lb/>
+            him boil some porridge. She<lb/>
+            declares he ate two quarts.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            
+            <p>Saturday [May 17<hi rend="sup">th</hi>] Incessant rain from<lb/>
+            morning till night. T. Ashburner
+                <note place="foot" resp="editors">Thomas Ashburner was a neighbor, a resident
+                                of a cottage nearly opposite the Wordsworths&#8217;, who supplied them
+                                with coals to heat their home. He was a widower with five younger
+                                girls. Sara/Sally is mentioned in this journal.
+                </note><lb/>
+            brought us coals. Worked hard<lb/>
+            &amp; Read Midsummer nights&#8217; dream<lb/>
+            Ballads &#8211; sauntered a little<lb/>
+            in the garden. The Skobby sate<lb/>
+            quietly in its nest rocked by<lb/>
+            the winds &amp; beaten by the<lb/>
+            rain.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">    
+            
+            <p>Sunday 19<hi rend="sup">th</hi> <anchor xml:id="May18"/>[May 18<hi rend="sup">th</hi>] Went
+                to church<lb/>
+            slight showers, a cold air.<lb/>
+            The mountains from this<lb/>
+            window look much greener<lb/>
+            &amp; I think the valley is more<lb/>
+            green
+                <note place="foot" resp="editors">Here, &#8220;green&#8221; seems to be written over
+                                something else.
+                </note> 
+                than ever. The corn<lb/>
+            begins to shew itself. The ashes<lb/>
+            are still bare. Went part of<lb/>
+            the way home with Miss<lb/>
+            Simpson… &#8211; A little girl<lb/>
+            from Coniston came to beg. She <pb/></p>
+                
+            <p>had lain out all night &#8211; her<lb/>
+            step-mother had turn&#8217;d her out of<lb/>
+            doors. Her father could not stay<lb/>
+            at home &#8220;She flights so&#8221;. Walked<lb/>
+            to Ambleside in the evening round<lb/>
+            the lake. The prospect exceeding<lb/>
+            beautiful from loughrigg fell.<lb/>
+            It was so green, that no eye<lb/>
+            could be weary of reposing<lb/>
+            upon it. The most beautiful<lb/>
+            situation for a house in the<lb/>
+            field next to Mr Benson&#8217;s &#8211;<lb/>
+            It threatened rain all the<lb/>
+            evening but was mild &amp;<lb/>
+            pleasant. I was overtaken<lb/>
+            by 2 Cumberland people on<lb/>
+            the other side of Rydale who<lb/>
+            complimented me upon my<lb/>
+            walking. They were going to sell<lb/>
+            cloth, &amp; odd things which they<lb/>
+            make themselves in Hawkshead<lb/>
+            &amp; the neighbourhood. The post<lb/>
+            was not arrived so I walked<lb/>
+            thro the town, past Mrs Taylors<lb/>
+            &amp; met him. Letters from <pb/></p>
+                
+            <p>Coleridge &amp; Cottle &#8211; John Fisher<lb/>
+            overtook me on the other side<lb/>
+            of Rydale &#8211; he talked much<lb/>
+            about the alteration in the<lb/>
+            times, &amp; observed that in a<lb/>
+            short time there would be only<lb/>
+            two ranks of people, the<lb/>
+            very rich &amp; the very poor,<lb/>
+            for those who have small<lb/>
+            estates says he are forced<lb/>
+            to sell, &amp; all the land goes<lb/>
+            into one hand. Did not<lb/>
+            reach home till 10 o clock.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Monday [May 19<hi rend="sup">th</hi>] &#8211; Sauntered a good<lb/>
+            deal in the garden, bound car=<lb/>
+            =pets, mended old clothes. Read<lb/>
+            Timon of Athens. Dried linen &#8211;<lb/>
+            Molly weeded the turnips,<lb/>
+            John stuck the peas &#8211;<lb/>
+            We had not much sunshine<lb/>
+            or wind but no rain till<lb/>
+            about 7 o&#8217;clock when we<lb/>
+            had a slight shower just <pb/></p>
+                
+            <p>after I had set out upon<lb/>
+            my walk. I did not re-<lb/>
+            =turn but walked up into the<lb/>
+            Black quarter. I sauntered<lb/>
+            a long time among the rocks<lb/>
+            above the church. The most<lb/>
+            delightful situation possible<lb/>
+            for a cottage commanding<lb/>
+            two distinct views of the<lb/>
+            vale &amp; of the lake, is<lb/>
+            among those rocks &#8211; I strolled<lb/>
+            on, gathered mosses, &amp;c. The<lb/>
+            quietness &amp; still seclusion<lb/>
+            of the valley affected me<lb/>
+            even to producing the deepest<lb/>
+            melancholy &#8211; I forced myself<lb/>
+            from it.
+                <note place="foot" resp="editors">Illegible canceled word before
+                            &#8220;The.&#8221;
+                </note> 
+                The<lb/>
+            wind rose before I went<lb/>
+            to bed. No rain &#8211; Dowell<lb/>
+            &amp; Wilkinson called in my<lb/>
+            absence.<pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">    
+            
+            <p>Tuesday Morning [May 20<hi rend="sup">th</hi>] A fine mild<lb/>
+            rain &#8211; after Breakfast the<lb/>
+            sky cleared &amp; before the clouds<lb/>
+            passed from the hill, I went<lb/>
+            to Ambleside &#8211; It was<lb/>
+            a sweet morning &#8211; Every<lb/>
+            thing green &amp; overflowing<lb/>
+            with life, &amp; the streams<lb/>
+            making a perpetual song<lb/>
+            with the thrushes &amp; all<lb/>
+            little birds, not forgetting<lb/>
+            the Stone chats. The post<lb/>
+            was not come in &#8211; I walked<lb/>
+            as far as Windermere. I<lb/>
+            met him there. <hi rend="sup">No letters! No papers</hi> Came home<lb/>
+            by Clappersgate &#8211; I was sadly<lb/>
+            tired, ate a hasty dinner; &amp;<lb/>
+            had a bad head-ach. Went<lb/>
+            to bed &amp; slept at least 2<lb/>
+            hours &#8211; Rain came on in the<lb/>
+            Evening &#8211; Molly washing<pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Wednesday [May 21<hi rend="sup">st</hi>] Went often<lb/>
+            to spread the linen which<lb/>
+            was bleaching &#8211; a rainy<lb/>
+            day &#8211; &amp; very wet night</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+            
+            <p>Thursday [May 22<hi rend="sup">nd</hi>] A very fine day<lb/>
+            with showers &#8211; dried the<lb/>
+            linen &amp; starched. Drank<lb/>
+            tea at Mr Simpsons.<lb/>
+            Brought down Batchelors<lb/>
+            Buttons (Rock Ranunculus)<lb/>
+            &amp; other plants &#8211; went part<lb/>
+            of the way back. A show-<lb/>
+            =ery, mild evening all the peas <hi rendition="#smallest"><hi rendition="#sub">up.</hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Friday 23<hi rend="sup">rd</hi> [May] Ironing till tea<lb/>
+            time. So heavy a rain<lb/>
+            that I could not go <del rend="strike">for</del><lb/>
+            for letters &#8211; put by the linen<lb/>
+            mended stockings &amp;c</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Saturday May 24<hi rend="sup">th</hi> <pb/></p>
+                
+            <p>Walked in the morning to Ambleside<lb/>
+            I found a letter from W<hi rend="sup">m</hi> &amp; from<lb/>
+            Mary Hutchinson &amp; Douglass. Returned<lb/>
+            on the other side of the lakes &#8211;<lb/>
+            wrote to William after dinner &#8211;<lb/>
+            nailed up the beds worked in<lb/>
+            the garden &#8211; sate in the evening<lb/>
+            under the trees. I went to bed<lb/>
+            soon with bad head-ache &#8211;<lb/>
+            <hi rend="indent1"><hi rend="sup">a fine day</hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Sunday [May 25<hi rend="sup">th</hi>] A very fine warm day &#8211; had<lb/>
+            no fire. Read Macbeth in the<lb/>
+            morning &#8211; sate under the trees after<lb/>
+            dinner. Miss Simpson came<lb/>
+            just as I was going out &amp; she<lb/>
+            sate with me I wrote to my<lb/>
+            Brother Christopher
+                <note place="foot" resp="editors">Christopher Wordsworth (1774&#8211;1846), the
+                                youngest of the Wordsworth siblings and three years younger than DW,
+                                was then a Fellow at Trinity College, Cambridge. He married Charles
+                                Lloyd&#8217;s sister, Priscilla, in 1804.
+                </note>
+                &amp; sent John<lb/>
+            Fisher to Ambleside after tea.<lb/>
+            Miss Simpson &amp; I walked to the<lb/>
+            foot of the lake &#8211; her Brother met<lb/>
+            us. I went with them nearly<lb/>
+            home &amp; on my return found<lb/>
+            a letter from Coleridge &amp; from<lb/>
+            Charles Lloyd &amp; three papers &#8212; &#8212; <pb/></p>
+                
+            <p>Monday May 26 A very fine<lb/>
+            morning worked in the garden<lb/>
+            till after 10 when old Mr Simp=<lb/>
+            =son came &amp; [illegible deleted word] talked to me<lb/>
+            till after 12. Molly weeding<lb/>
+            wrote letters to J H Coleridge<lb/>
+            C Ll &amp; W.
+                <note place="foot" resp="editors">Initials referring to Joanna Hutchinson, S.
+                                T. Coleridge, Charles Lloyd, and William
+                    Wordsworth.
+                </note> 
+                I walked towards<lb/>
+            Rydale &amp; turned aside at my<lb/>
+            favourite field. The air &amp; the lake<lb/>
+            were still. One ∧<hi rend="sup">cottage</hi> light in the vale,<lb/>
+            had so much of day left that<lb/>
+            I [illegible deleted word] could distinguish objects<lb/>
+            the woods; trees &amp; houses. Two or<lb/>
+            three different kinds of Birds<lb/>
+            sang at intervals on the opposite<lb/>
+            shore I sate till I could hardly<lb/>
+            drag myself away I grew <hi rend="underline">so</hi><lb/>
+            sad. &#8220;When pleasant thoughts&#8221;<lb/>
+            &amp;c.</p>
+                
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+            <p>Tuesday [May] 27<hi rend="sup">th</hi> I walked to Am=<lb/>
+            =bleside with letters &#8211; met the post<lb/>
+            before I reached Mr Partridges<lb/>
+            one paper, only a letter for<lb/>
+            Coleridge &#8211; &#8211; I expected a lr<lb/>
+            from Wm. <pb/></p>
+                
+            <p>It was a sweet morning &#8211; the<lb/>
+            ashes in the valleys nearly in full<lb/>
+            leaf but still to be distinguished,<lb/>
+            quite bare on the higher grounds.<lb/>
+            I was warm in returning<lb/>
+            &amp; becoming cold with sitting<lb/>
+            in the house &#8211; I had a bad<lb/>
+            head-ach, went to bed after dinner<lb/>
+            &amp; lay till after 5 &#8211; not well<lb/>
+            after tea. I worked in the gar-<lb/>
+            =den but did not walk further.<lb/>
+            A delightful evening before the<lb/>
+            Sun set but afterwards it grew<lb/>
+            colder. Mended stockings &amp;c</p>  
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [May 28<hi rend="sup">th</hi>] In the morning walked<lb/>
+            up to the rocks above Jenny<lb/>
+            Dockeray&#8217;s sate a long time upon<lb/>
+            the grass the prospect divinely<lb/>
+            beautiful. If I had three hundred<lb/>
+            pounds &amp; could afford to have a bad<lb/>
+            interest for my money I would<lb/>
+            buy that estate &amp; we would<lb/>
+            build a cottage there to end our <pb/></p>
+                
+            <p>days in &#8211; I went into her garden<lb/>
+            &amp; got white &amp; yellow lilies <del rend="strike">&amp;c</del><lb/>
+            periwinkle &amp; which I planted.<lb/>
+            Sate under the trees with<lb/>
+            my work &#8211; no fire in the<lb/>
+            morning. Worked till between<lb/>
+            7 &amp; 8 &amp; then watered the<lb/>
+            garden, &amp; was about to go<lb/>
+            up to Mr Simpson&#8217;s when Miss<lb/>
+            S &amp; her visitors passed the door.<lb/>
+            I went home with them a<lb/>
+            beautiful evening the crescent<lb/>
+            moon hanging above helm crag.
+                <note place="foot" resp="editors">Helm Crag (1,328 ft., or 405 m) rises
+                                dramatically just north of the village of Grasmere.
+                </note></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Thursday [May 29<hi rend="sup">th</hi>]<lb/>
+            In the morning worked in<lb/>
+            the garden a little, read King<lb/>
+            John. Miss Simpson &amp; Miss Falcon<lb/>
+            &amp; Mr S came very early went<lb/>
+            to Mr Gells boat before tea<lb/>
+            we fished upon the lake &amp;<lb/>
+            amongst us caught 13 Bass.<lb/>
+            Miss Simpson brought gooseberries<lb/>
+            <hi rend="underline">&amp; cream</hi> left the water at near <pb/><lb/>
+            nine o&#8217;clock, very cold. Went<lb/>
+            part of the way home with<lb/>
+            the party.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+               
+            <p>Friday [May 30<hi rend="sup">th</hi>]. In the morning went<lb/>
+            to Ambleside, forgetting that<lb/>
+            the post does not come till<lb/>
+            the evening &#8211; how was I grieved<lb/>
+            when I was so informed &#8211;<lb/>
+            I walked back resolving to<lb/>
+            go again in the evening.<lb/>
+            It rained very mildly &amp; sweetly<lb/>
+            in the morning as I came<lb/>
+            home, but came on a wet<lb/>
+            afternoon &amp; evening &#8211; lucki-<lb/>
+            -ly I caught Mr Ollifs Lad<lb/>
+            as he was going for letters &#8211;<lb/>
+            he brought me one from<lb/>
+            Wm &amp; 12 papers. I planted<lb/>
+            London pride upon the<lb/>
+            wall &amp; many things on<lb/>
+            the Borders. John sodded<lb/>
+            the wall. As I came past <pb/></p>
+                
+            <p>Rydale in the morning I<lb/>
+            saw a Heron swimming with<lb/>
+            only its neck out of water &#8211;<lb/>
+            it beat &amp; struggled amongst<lb/>
+            the water when it flew away<lb/>
+            &amp; was long in getting loose.</p>
+            
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday [May 31<hi rend="sup">st</hi>] A sweet mild rainy<lb/>
+            morning. Grundy the<lb/>
+            carpet man called I<lb/>
+            paid him 1&#8211;10 &#8211; &#8211; &#8211;.<lb/>
+            Went to the Blind man&#8217;s<lb/>
+            for plants. I got such a load<lb/>
+            that I was obliged to leave<lb/>
+            my Basket in the Road &amp;<lb/>
+            send Molly for it &#8211; &#8211; Planted &amp;c.<lb/>
+            After dinner when I was<lb/>
+            putting up valances Miss<lb/>
+            Simpson &amp; her Visitors called<lb/>
+            I went with them to Brathay<lb/>
+            Bridge &#8211; We got Broom in<lb/>
+            returning, strawberries &amp;c.<lb/>
+            Came home by Ambleside<lb/>
+            Grasmere looked Divinely beaut<hi rendition="#smallest"><hi rendition="#sub">iful</hi></hi> <pb/></p>
+                
+            <p>M<hi rend="sup">r</hi>, Miss Simpson &amp; Tommy<lb/>
+            drank tea at 8 o&#8217;clock &#8211; I walked<lb/>
+            to the Potters with them</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+           <p>Sunday <hi rend="sup">June 1st</hi> Rain in the night &#8211;<lb/>
+            a sweet mild morning &#8211; Read Ballads<lb/>
+            went to church. Singers from<lb/>
+            Wytheburn. Went part of the<lb/>
+            way home with Miss Simpson.<lb/>
+            Walked upon the hill above<lb/>
+            the house till dinnertime &#8211;<lb/>
+            went again to church &#8211; a Christening<lb/>
+            &amp; singing which kept us very late.<lb/>
+            The pewside came down with<lb/>
+            me. Walked with Miss Simpson<lb/>
+            nearly home. After tea went<lb/>
+            to Ambleside &#8211; [three illegible deleted words]<lb/>
+            round the lakes &#8211; a very fine warm<lb/>
+            evening. I lay upon the steep of<lb/>
+            Loughrigg my heart dissolved in<lb/>
+            what I saw when I was not startled<lb/>
+            but recalled from my reverie by a<lb/>
+            noise as of a child paddling without<lb/>
+            shoes. I looked up and saw a [illegible deleted word] <pb/><lb/>
+            lamb close to me &#8211; it approached<lb/>
+            nearer &amp; nearer as if to examine<lb/>
+            me &amp; stood a long time. I did not<lb/>
+            move at last it ran past me<lb/>
+            &amp; went bleating along the pathway<lb/>
+            seeming to be seeking its mother.<lb/>
+            I saw a hare in the high road<lb/>
+            The post was not come in I<lb/>
+            waited in the Road till Johns<lb/>
+            apprentice came with a letter<lb/>
+            from Coleridge &amp; 3 papers. &#8211;<lb/>
+            The moon shone upon the<lb/>
+            water &#8211; reached home at<lb/>
+            10 o clock &#8211; went to bed imme=<lb/>
+            =diately Molly brought Daisies &amp;c<lb/>
+            which we planted.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Monday [June 2<hi rend="sup">nd</hi>]. A cold dry windy<lb/>
+            morning. I worked in the garden<lb/>
+            &amp; planted flowers &amp;c &#8211; sate under<lb/>
+            the trees after dinner till tea time<lb/>
+            John Fisher stuck the<lb/>
+            peas. Molly weeded &amp; washed. I went<lb/>
+            to Ambleside after tea, crossed<lb/>
+            the stepping-stones at [illegible deleted word] the <pb/><lb/>
+            foot of Grasmere &amp; pursued my<lb/>
+            way on the other side of Rydale<lb/>
+            &amp; by Clappersgate &#8211; &#8211; I sate a long<lb/>
+            time to watch the hurrying waves<lb/>
+            and to hear the regularly irregu<lb/>
+            -lar sound of the dashing waters &#8211;<lb/>
+            The waves round about the little<lb/>
+            seemed like a dance of spirits<lb/>
+            that rose out of the water,<lb/>
+            round its small circumfer-<lb/>
+            -ence of shore. Inquired about<lb/>
+            lodgings for Coleridge, &amp; was<lb/>
+            accompanied by Mrs Nicholson<lb/>
+            as far as Rydale. This<lb/>
+            was very kind, but God be<lb/>
+            thanked I want not society<lb/>
+            [three illegible deleted words] by a moonlight<lb/>
+            lake &#8211; &#8211; It was near 11<lb/>
+            when I reached home. I wrote<lb/>
+            to Coleridge &amp; went late to bed <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Tuesday [June 3<hi rend="sup">rd</hi>] Sent off my letter<lb/>
+            by the Butcher &#8211; a boisterous<lb/>
+            drying day &#8211; &#8211; [two illegible deleted words] &amp;<lb/>
+            worked in the garden before<lb/>
+            dinner. Read R<hi rend="sup">d.</hi> Second<lb/>
+            was not well after dinner &amp;<lb/>
+            lay down. Mrs Simpsons<lb/>
+            grandson brought me some<lb/>
+            gooseberries &#8211; I got up &amp; walked<lb/>
+            with him part of the way<lb/>
+            home, afterwards went down<lb/>
+            rambling by the lake side<lb/>
+            got Lockety goldings, strawberries<lb/>
+            &amp;c, &amp; planted. After tea<lb/>
+            the wind fell I walked towards<lb/>
+            Mr Simpsons. Gave the newspa-<lb/>
+            -pers to the Girl, reached home<lb/>
+            at 10. No letter, no William<lb/>
+            a letter from R<hi rend="sup">d</hi> to John. <pb/></p>
+                
+            <p>Wednesday [June 4<hi rend="sup">th</hi>] A very fine day<lb/>
+            I sate out of doors most of the<lb/>
+            day, wrote <del rend="strike">Coleridge</del> &#8211; Mr<lb/>
+            Jackson. … Ambleside fair.<lb/>
+            I walked to the lake side<lb/>
+            in the morning &#8211; took up plants<lb/>
+            &amp; sate upon a stone reading<lb/>
+            Ballads. In the Evening I was<lb/>
+            watering plants when Mr &amp;<lb/>
+            Miss Simpson called. I accom-<lb/>
+            =panied them home &#8211; &amp; we went<lb/>
+            to the waterfall at the head<lb/>
+            of the valley &#8211; it was very<lb/>
+            interesting in the Twilight.<lb/>
+            I brought home lemon thyme<lb/>
+            &amp; several other plants, &amp; planted<lb/>
+            them by moonlight. I lingered<lb/>
+            out of doors in the hope of hearing<lb/>
+            my Brothers tread. <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Thursday [June 5<hi rend="sup">th</hi>] I sate out of doors<lb/>
+            great part of the day &amp;<lb/>
+            worked in the Garden &#8211; had<lb/>
+            a letter from Mr Jackson<lb/>
+            &amp; wrote an answer to Cole=<lb/>
+            =ridge. The little birds<lb/>
+            busy making love &amp; pecking<lb/>
+            the blossoms &amp; bits of moss off<lb/>
+            the trees, they flutter about<lb/>
+            &amp; about &amp; thru the trees as<lb/>
+            I lie under them &#8211; Molly<lb/>
+            went out to tea &#8211; I would<lb/>
+            not go far from home ex=<lb/>
+            =pecting my Brothers &#8211; I rambled<lb/>
+            on the hill above the house<lb/>
+            gathered wild thyme &amp; took<lb/>
+            up roots of wild Columbine.<lb/>
+            Just as I was returning with<lb/>
+            my &#8220;load&#8221; Mr &amp; Miss Simpson <pb/></p>
+                
+            <p>called. We went again upon<lb/>
+            the hill, got more plants, set <lb/>
+            them, &amp; then went to the <lb/>
+            Blind Mans for London Pride <lb/>
+            for Miss Simpson. I went <lb/>
+            up with them as far as <lb/>
+            the Blacksmith&#8217;s. A fine <lb/>
+            lovely moonlight night. </p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday [June 6<hi rend="sup">th</hi>] Sate out of doors reading<lb/>
+            the Whole Afternoon, but<lb/>
+            in the morning I wrote to<lb/>
+            my aunt Cookson. In the<lb/>
+            Evening I went to Ambleside<lb/>
+            with Coleridge&#8217;s letter &#8211; it<lb/>
+            was a lovely night as the<lb/>
+            day had been. I went<lb/>
+            by Loughrigg &amp; Clappersgate<lb/>
+            &amp; just met the post at<lb/>
+            the turnpike he told me <pb/></p>
+                
+            <p>there were two letters but<lb/>
+            none for me. So I was in<lb/>
+            no hurry &amp; went round<lb/>
+            again by Clappersgate,<lb/>
+            crossed the stepping stones<lb/>
+            &amp; entered Ambleside at<lb/>
+            Matthew Harrisons &#8211; A<lb/>
+            letter from Jack Hutchinson<lb/>
+            &amp; one from Montagu en<lb/>
+            -closing a 3£ note &#8211;<lb/>        
+            No William! I slackened<lb/>
+            my pace as I came <del rend="strike">home</del><lb/>
+            near home fearing to<lb/>
+            hear that he was not<lb/>
+            come. I listened till<lb/>
+            after one o&#8217;clock to every<lb/>
+            barking dog cock fighting &amp; other<lb/>
+            sports: it was Mr Borricks<lb/>
+            opening. Foxgloves just<lb/>
+            coming into blossom <pb/></p>
+                
+            <p>Saturday [June 7<hi rend="sup">th</hi>] &#8211; A very warm<lb/>
+            cloudy morning, threatening to<lb/>
+            rain. I walked up to Mr Simpsons<lb/>
+            to gather gooseberries &#8211; it was<lb/>
+            a very fine afternoon &#8211; little<lb/>
+            Tommy came down with me,<lb/>
+            ate gooseberry pudding &amp; drank<lb/>
+            tea with me. We went up<lb/>
+            the hill to gather sods &amp; plants<lb/>
+            &amp; went down to the lake side<lb/>
+            &amp; took up orchises &amp;c &#8211; I<lb/>
+            watered the garden &amp; weeded<lb/>
+            I did not leave home in the<lb/>
+            expectation of Wm &amp; John<lb/>
+            &amp; sitting at work till after 11<lb/>
+            o clock. I heard a foot go<lb/>
+            to the front of the house,<lb/>
+            turn round, &amp; open the gate<lb/>
+            It was William &#8211; &#8211; after our<lb/>
+            first joy was over we got<lb/>
+            some tea. We did not go <pb/></p>
+                
+            <p>to bed till 4 o clock in the morning<lb/>
+            so he had an opportunity of<lb/>
+            seeing our improvements.<lb/>
+            The birds were singing,<lb/>
+            &amp; all looked fresh though not<lb/>
+            gay. There was a greyness<lb/>
+            on earth &amp; sky. We did not<lb/>
+            rise till near 10 in the morning.<lb/>
+            We were busy all day in writ<lb/>
+            =ing letters to Coleridge, Montagu,<lb/>
+            Douglass, Richard. Mr &amp;<lb/>
+            Miss Simpson called in the<lb/>
+            Evening the little Boy carried our<lb/>
+            letters to Ambleside. We<lb/>
+            walked with Mr &amp; Miss S<lb/>
+            home on their return the<lb/>
+            evening was cold &amp; I was<lb/>
+            afraid of the tooth-ach<lb/>
+            for William. We met John<lb/>
+            on our return home. <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Monday [June] 9<hi rend="sup">th</hi> In the morning W<lb/>
+            cut down the winter cherry tree<lb/>
+            I sowed French Beans &amp;<lb/>
+            weeded. A coronetted Landau<lb/>
+            went by when we were sitting<lb/>
+            upon the sodded wall. The ladies<lb/>
+            (evidently Tourists) turned an<lb/>
+            eye of interest upon our<lb/>
+            little garden &amp; cottage. We<lb/>
+            went to R Newtons for pikefloats<lb/>
+            &amp; went round to Mr Gell&#8217;s<lb/>
+            Boat and on to the Lake to<lb/>
+            fish we caught nothing &#8211; I<lb/>
+            was extremely cold. The Reeds<lb/>
+            &amp; Bulrushes or Bullpipes of<lb/>
+            a tender soft green making<lb/>
+            a plain whose surface<lb/>
+            moved with the wind. The<lb/>
+            reeds not yet tall. The<lb/>
+            lake clear to the Bottom, but<lb/>
+            saw no fish. In the evening<lb/>
+            I stuck peas, watered the garden<lb/>
+            &amp; planted Brocoli &#8211; <pb/></p>
+                
+            <p>Did not walk for it was very<lb/>
+            cold. A poor Girl called<lb/>
+            to beg who had no work at home<lb/>
+            was going in search of it to Kendal.<lb/>
+            She slept in Mr Bensons<lb/>
+            Lathe &#8211; &amp; went off after<lb/>
+            Breakfast in the morning with 7<hi rend="sup">d</hi><lb/>
+            &amp; a letter to the Mayor of Ken-<lb/>
+            -dal.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Tuesday [June] 10<hi rend="sup">th</hi> A cold<lb/>
+            yet sunshiny morning. John<lb/>
+            carried letters to Ambleside.<lb/>
+            I made tarts, pies &amp;c. &#8211; <del rend="strike">after</del><lb/>
+            Wm stuck peas. After<lb/>
+            dinner he lay down. John<lb/>
+            not at home &#8211; I stuck peas<lb/>
+            alone &#8211; Molly washing.<lb/>
+            Cold showers with hail &amp;<lb/>
+            rain but at half past<lb/>
+            five after a heavy rain <pb/><lb/>
+            the lake become calm - - &amp; very<lb/>
+            beautiful. Those parts of the<lb/>
+            water which were perfectly unruffled<lb/>
+            lay like green islands of various<lb/>
+            shapes &#8211; W &amp; I walked to Am<lb/>
+            bleside to seek lodgings for C.<lb/>
+            No letters &#8211; no papers &#8211; It was<lb/>
+            a very cold cheerless evening. John<lb/>
+            had been fishing in Langdale &amp; was<lb/>
+            gone to bed.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>On Tuesday May 27<hi rend="sup">th</hi> a very<lb/>
+            tall woman, tall much beyond<lb/>
+            the measure of tall women,<lb/>
+            <hi rend="sup">called at the door</hi><lb/>
+            She had on a very long brown<lb/>
+            cloak, &amp; a very white cap<lb/>
+            without Bonnet &#8211; her face<lb/>
+            was excessively brown, but it<lb/>
+            had plainly once been fair. She<lb/>
+            led a little bare footed child about<lb/>
+            2 years old by the hand &amp; said her<lb/>
+            husband who was a tinker was<lb/>
+            gone before with the other children.<lb/>
+            I gave her a piece of Bread &#8211;<lb/>
+            Afterwards on my road to Am<lb/>
+            -bleside, beside the Bridge at <pb/><lb/>
+            Rydale, I saw her husband sitting<lb/>
+            by the road-side his two asses<lb/>
+            feeding beside him &amp; the two young<lb/>
+            children at play upon the grass.<lb/>
+            The man did not beg &#8211; I<lb/>
+            passed on &amp; about ¼ of a mile<lb/>
+            further I saw two boys <hi rend="sup">before me</hi> one about<lb/>
+            10 the other about 8 years old<lb/>
+            at play chasing a butterfly.<lb/>
+            They were wild figures, not<lb/>
+            very ragged, but without<lb/>
+            shoes &amp; stockings, the hat of<lb/>
+            the elder was wreathed round<lb/>
+            with yellow flowers, the<lb/>
+            younger whose hat was only<lb/>
+            a rimless crown, had stuck<lb/>
+            it round with laurel leaves.<lb/>
+            They continued at play till<lb/>
+            I drew very near &amp; then they<lb/>
+            addressed me with the Begging <pb/><lb/>
+            cant &amp; the whining voice of<lb/>
+            sorrow &#8211; I said I served your<lb/>
+            Mother this morning. (The Boys<lb/>
+            were so like the<hi rend="sup"> woman who had called at the door</hi> that I could<lb/>
+            not be mistaken) &#8211; O! says the<lb/>
+            elder you could not serve<lb/>
+            my mother for she&#8217;s dead &amp;<lb/>
+            my father&#8217;s on at the next<lb/>
+            town &#8211; he&#8217;s a potter&#8221; &#8211; I per<lb/>
+            =sisted in my assertion &amp; that I<lb/>
+            would give them nothing. Says<lb/>
+            the elder Come let&#8217;s &#8220;away&#8221; &amp;<lb/>
+            away they flew like lightning<lb/>
+            They had however sauntered so<lb/>
+            long <del rend="strike">at Ambleside</del> in their<lb/>
+            road that they did not reach<lb/>
+            Ambleside before me, &amp; I saw them<lb/>
+            go up to Matthew Harrison&#8217;s<lb/>
+            house with their wallet upon the<lb/>
+            elder&#8217;s shoulder, &amp; creeping with<lb/>
+            a Beggars complaining foot <pb/></p>
+                
+            <p>On my return <hi rend="sup">through Ambleside</hi> I met <hi rend="sup">in the street</hi> the<lb/>
+            mother driving her asses; in the<lb/>
+            two Panniers of one of which was<lb/>
+            the two little children whom<lb/>
+            she was chiding &amp; threaten-<lb/>
+            =ing with a wand which<lb/>
+            she used to drive on her asses<lb/>
+            while the little things hung in<lb/>
+            wantonness over the Panni<lb/>
+            -ers edge. The woman had<lb/>
+            told me in the morning that<lb/>
+            she was of Scotland, which<lb/>
+            her accent fully proved<lb/>
+            but that she had lived (I think<lb/>
+            at Wigton) that they could not<lb/>
+            keep a house, &amp; so they travelled. <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday 13<hi rend="sup">th</hi> June [11<hi rend="sup">th</hi>]&#8211;<lb/>
+            A very cold morning &#8211; we went<lb/>
+            on the lake to set pike floats with John&#8217;s fish &#8211; [illegible deleted<lb/>
+            words] W &amp; J went first<lb/>
+            alone. Mr Simpson called &amp;<lb/>
+            I accompanied him to the Lake<lb/>
+            side. My Brothers &amp; I again went<lb/>
+            upon the water, &amp; returned to<lb/>
+            dinner we landed upon the<lb/>
+            Island where I saw the whitest<lb/>
+            Hawthorn I have seen this year,<lb/>
+            the generality of hawthorns<lb/>
+            are bloomless &#8211; I saw wild<lb/>
+            roses in the hedges &#8211; went<lb/>
+            to bed in the afternoon &amp; slept<lb/>
+            till after six &#8211; a threatening<lb/>
+            of the tooth-ach. Wm &amp; John<lb/>
+            went to the pikefloats &#8211; they<lb/>
+            brought in 2 pikes. I sowed<lb/>
+            Kidney-beans &amp; spinnach, a cold evening.<lb/>
+            Molly stuck the peas. I weeded<lb/>
+            a little &#8211; &#8211; Did not walk. <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Thursday 14<hi rend="sup">th</hi> June [12<hi rend="sup">th</hi>]&#8211;<lb/>
+            William &amp; I went upon the<lb/>
+            water to set pike floats.<lb/>
+            John fished under Loughrigg.<lb/>
+            We returned to dinner &#8211;<lb/>
+            2 pikes boiled &amp; roasted. A<lb/>
+            very cold air but warm sun.<lb/>
+            W &amp; I again went upon<lb/>
+            the water &#8211; [illegible deleted word] we<lb/>
+            walked to Rydale after tea, &amp;<lb/>
+            up to the potter&#8217;s &#8211; a cold night,<lb/>
+            but warmer</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>15 Friday [June 13<hi rend="sup">th</hi>] A rainy morning<lb/>
+            W &amp; J went upon the Lake<lb/>
+            very warm &amp; pleasant<lb/>
+            gleams of sunshine<lb/>
+            went upon the water<lb/>
+            after tea &#8211; caught a pike<lb/>
+            7½ [lbs] Mr Simpson trolling<lb/>
+            Mr Gell &amp; his party come <pb/></p>
+                
+            <p>Saturday [June 14<hi rend="sup">th</hi>] &#8211; A fine morning but clou=<lb/>
+            =dy … W &amp; John went upon the<lb/>
+            lake. I staid at home &#8211;<lb/>
+            We drank tea at Mr Simpsons<lb/>
+            Stayed till after 10 o clock</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [June 15<hi rend="sup">th</hi>] John walked to Coniston<lb/>
+            W &amp; I sauntered in the Garden<lb/>
+            Afterwards walked by the lake-<lb/>
+            side: a cold air &#8211; we pushed through<lb/>
+            the wood  &#8211;walked behind<lb/>
+            the fir grove and returned<lb/>
+            to dinner. We lay down after<lb/>
+            dinner. Parker, the Tanner<lb/>
+            &amp; the Blacksmith from Hawkshead<lb/>
+            called.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Monday [June 16<hi rend="sup">th</hi>] Wm &amp; I went to Brathay<lb/>
+            by Little Langdale &amp; Collath<lb/>
+            &amp; Skellth. It was a warm<lb/>
+            mild morning with threatening<lb/>
+            of rain. <pb/></p>
+                
+            <p>The [illegible deleted word] vale of <hi rend="sup">Little</hi> Langdale<lb/>
+            looked bare &amp; unlovely … Collath<lb/>
+            was wild &amp; interesting. From the<lb/>
+            Peat carts &amp; peat gatherers &#8211; the<lb/>
+            valley all perfumed with<lb/>
+            the Gale &amp; wild thyme.<lb/>
+            The woods about the waterfall<lb/>
+            [illegible deleted word] veined with rich yellow<lb/>
+            Broom. A succession of<lb/>
+            delicious views from Skelleth<lb/>
+            to Brathay &#8211; we met near<lb/>
+            Skelleth a pretty little<lb/>
+            Boy with a wallet over<lb/>
+            his shoulder he came from<lb/>
+            Hawkshead &amp; was going to<lb/>
+            &#8220;late&#8221; a lock of meal. He<lb/>
+            spoke gently &amp; without<lb/>
+            complaint. When I asked<lb/>
+            him if he got enough to<lb/>
+            eat he looked surprized &amp;<lb/>
+            said &#8220;Nay&#8221;. He was 7 <pb/></p>
+                
+            <p>years old but seemed not<lb/>
+            more than 5. We drank<lb/>
+            tea at Mr Ibbetsons &amp; returned<lb/>
+            by Ambleside. Sent 3-9-0 to<lb/>
+            the Potter at Kendal. Met<lb/>
+            John on our return home at<lb/>
+            about 10 o clock. Saw a primrose <hi rendition="#smallest"><hi rendition="#sub">in blossom</hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">     
+            
+            <p>Tuesday [June 17<hi rend="sup">th</hi>] We put the new<lb/>
+            window in. I ironed &amp; worked<lb/>
+            about a good deal in house &amp;<lb/>
+            garden. In the Evening<lb/>
+            we walked for letters. Found one<lb/>
+            for Coleridge at Rydale, &amp;<lb/>
+            I returned much tired</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Wednesday [June 18<hi rend="sup">th</hi>] we walked round<lb/>
+            the lake in the morning &amp;<lb/>
+            in the evening to the lower<lb/>
+            waterfall at Rydale &#8211; it was<lb/>
+            a warm, dark, lovely evening <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Thursday [June 19<hi rend="sup">th</hi>] A very hot morning.<lb/>
+            W &amp; I walked up to Mr Simpsons<lb/>
+            W &amp; old Mr S. went to fish in<lb/>
+            Wytheburn water. I dined with<lb/>
+            John, &amp; lay under the trees<lb/>
+            The afternoon changed from<lb/>
+            clear to cloudy &amp; to clear<lb/>
+            again &#8211; John &amp; I walked<lb/>
+            up to the waterfall &amp; to<lb/>
+            Mr Simpsons, &amp; with Miss<lb/>
+            Simpson met the fishers.<lb/>
+            W. caught a pike weigh=<lb/>
+            =ing 4¾ lb. There was<lb/>
+            a gloom almost terrible<lb/>
+            over [illegible deleted words]<hi rendition="#smallest"><hi rendition="#sub">Grasmere</hi></hi> water &amp; vale &#8211;<lb/>
+            a few drops fell but not<lb/>
+            much rain. No Coleridge whom<lb/>
+            <hi rend="indent2"><hi rendition="#smallest"><hi rendition="#sub"> we fully expected</hi></hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Friday [June 20<hi rend="sup">th</hi>] I worked in the garden<lb/>
+            in the morning. Wm prepared<lb/>
+            pea sticks. Threatening for rain <pb/></p>
+                
+            <p>but yet it comes not &#8211;<lb/>
+            On Wednesday evening a poor<lb/>
+            man called, a hatter &#8211; he had<lb/>
+            been long ill &#8211; but was now<lb/>
+            recovered &amp; his wife was lying in<lb/>
+            of her 4<hi rend="sup">th</hi> child. The parish<lb/>
+            would not help him because<lb/>
+            he had [illegible deleted words] imple=<lb/>
+            =ments of trade &amp;c. &amp;c.<lb/>
+            We gave him 6d.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Saturday [June 21<hi rend="sup">st</hi>] In the morning W.<lb/>
+            &amp; I went to Ambleside to get his<lb/>
+            tooth drawn, &amp; put in &#8211; a fine<lb/>
+            clear morning but cold. &#8211; Ws<lb/>
+            tooth drawn with very little pain<lb/>
+            he slept till 3 o&#8217;clock. <del rend="strike">Mr</del><lb/>
+            Young Mr. S drank tea &amp; supped<lb/>
+            with us they fished in Rydale<lb/>
+            water &amp; they caught 2 small fishes.<lb/>
+            W no bite. John 3. Miss Simp<lb/>
+            son &amp; 3 children called I walked<lb/>
+            with them to Rydale. The evening cold<lb/>
+            &amp; clear &amp; frosty, but the wind <pb/></p>
+                
+            <p>was falling as I returned. I staid<lb/>
+            at home about an hour &amp; then<lb/>
+            walked up the hill to Rydale lake.<lb/>
+            Grasmere looked so beautiful<lb/>
+            that my heart was almost<lb/>
+            melted away. It was quite calm<lb/>
+            only spotted with sparkles of light<lb/>
+            The church visible. On our return<lb/>
+            all distant objects had faded<lb/>
+            away &#8211; <del rend="strike">but</del> all but the hills.<lb/>
+            The reflection of the light<lb/>
+            bright sky above Black quarter<lb/>
+            was very solemn. Mr S did not<lb/>
+            go till 12 o&#8217;clock.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [June 22<hi rend="sup">nd</hi>] In the morning W &amp; I<lb/>
+            walked towards Rydale &amp; up into the<lb/>
+            wood but finding it not very pleas<lb/>
+            =ant we returned &#8211; sauntered in<lb/>
+            the garden &#8211; a showery day &#8211;<lb/>
+            In the evening I planted a<lb/>
+            honey suckle round the yew tree<lb/>
+            In the evening we walked for letters<lb/>
+            No letters, no news of Coleridge <pb/> </p>
+                
+            <p>Jimmy Benson came home<lb/>
+            drunk beside us</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday [June 23<hi rend="sup">rd</hi>] Mr Simpson called in<lb/>
+            the morning Tommys Father dead<lb/>
+            W &amp; I went into Langdale to<lb/>
+            fish. The morning was very<lb/>
+            cold. I sate at the foot<lb/>
+            of the lake till my head ached<lb/>
+            with cold&#8212; &#8212; The view exquisitely<lb/>
+            beautiful, through the gate &amp;<lb/>
+            under a sycamore tree beside<lb/>
+            the first house going into<lb/>
+            Loughrigg &#8211; Elter water looked<lb/>
+            <del rend="strike">barren</del> barren &amp; the view from the<lb/>
+            church less beautiful than<lb/>
+            in winter. When W went<lb/>
+            down to the water to fish I<lb/>
+            lay under the wind my head<lb/>
+            pillowed upon a mossy rock<lb/>
+            &amp; slept about 10 minutes which<lb/>
+            relieved my headach. [illegible deleted word]<lb/>
+            We ate our dinner together<lb/>
+            &amp; parted again. W<hi rend="sup">m</hi> was afraid <pb/></p>
+                
+            <p>he had lost his line &amp; sought<lb/>
+            me. An old Man saw me<lb/>
+            just after I had crossed the<lb/>
+            stepping stones &amp; was going<lb/>
+            thro&#8217; a copse &#8211; Ho, where were<lb/>
+            were you going? To Elterwater<lb/>
+            Bridge &#8211; Why says he its well<lb/>
+            I saw you, ye were gane<lb/>
+            to Little Langdale by Wrynose<lb/>
+            &amp; several other places, which<lb/>
+            he ran over, with a mixture<lb/>
+            of triumph, good-nature, &amp; wit.<lb/>
+            Its well I saw you or youd<lb/>
+            ha been lost. The evening<lb/>
+            grew very pleasant we sate<lb/>
+            on the side of the hill looking<lb/>
+            to Elterwater. I was much<lb/>
+            tired &amp; returned home to<lb/>
+            tea. W went to fish for<lb/>
+            pike in Rydale. John<lb/>
+            came in when I had done<lb/>
+            tea, &amp; he &amp; I carried a<lb/>
+            jug of tea to William. We<lb/>
+            met him in the old road<lb/>
+            from Rydale &#8211; he drank his<lb/>
+            tea upon the turf &#8211; the <pb/></p>
+                
+            <p>setting sun threw a red purple<lb/>
+            light upon the rocks &amp; stones<lb/>
+            walls of Rydale which gave<lb/>
+            them a most interesting &amp; beau-<lb/>
+            -tiful appearance</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [June 24<hi rend="sup">th</hi>] W went to Amble<lb/>
+            -side &#8211; John walked out &#8211; <lb/>
+            I made tarts &amp;c. Mr B Simpson <lb/>
+            called &amp; asked us to tea &#8211; <lb/>
+            I went to the view of Rydale <lb/>
+            to meet William. John went <lb/>
+            [blot] to him &#8211; I returned &#8211; <lb/>
+            W &amp; I drank tea at Mr <lb/>
+            Simpsons brought down <lb/>
+            Lemon Thyme, greens &amp;c &#8211; <lb/>
+            The old woman was very <lb/>
+            happy to see us &amp; we were <lb/>
+            so in the pleasure we gave. <lb/>
+            She was an affecting picture <lb/>
+            of Patient disappointment suffer<lb/>
+            -ing under <hi rendition="#smallest"><hi rendition="#sub">no</hi></hi> particular afflict<lb/>
+            =tion. <pb/></p>
+                
+            <p>Wednesday [June 25<hi rend="sup">th</hi>]. A very rainy<lb/>
+            day &#8211; I made a shoe &#8211; W<hi rend="sup">m</hi> &amp;<lb/>
+            John went to fish in Langdale<lb/>
+            In the evening &#8211; I went above<lb/>
+            the house, &amp; gathered flowers<lb/>
+            which I planted, fox-glove &amp;c.</p>
+                
+            <p>On Sunday Mr &amp; Mrs Coleridge<lb/>
+            &amp; Hartley came. The day was<lb/>
+            very warm we sailed to the<lb/>
+            foot of Loughrigg. They<lb/>
+            staid with us three weeks<lb/>
+            &amp; till the Thursday following,<lb/>
+            ie. till the 23 [24<hi rend="sup">th</hi>] of July. On<lb/>
+            the Friday preceding their de=<lb/>
+            =parture we drank tea at the<lb/>
+            island. The weather very delight<lb/>
+            -ful &#8211; &amp; on the Sunday<lb/>
+            we made a great fire, &amp; drank<lb/>
+            tea in Bainriggs with the<lb/>
+            Simpsons &#8211; I accompanied<lb/>
+            Mrs C to Wytheburne &amp; returned<lb/>
+            with W &#8211; to tea at Mr <pb/></p>
+                
+            <p>Simpsons. It was excessively hot.<lb/>
+            But the day after<lb/>
+            Friday July 24 [July 25<hi rend="sup">th</hi>] still hotter.<lb/>
+            All the morning I was engaged<lb/>
+            in unpacking our Somersetshire goods<lb/>
+            &amp; in making pies &#8211;The house<lb/>
+            was a hot oven but yet we<lb/>
+            could not bake the pies &#8211;<lb/>
+            I was so weary I could not<lb/>
+            walk so I went &amp; sate with<lb/>
+            W<hi rend="sup">m</hi> in the orchard &#8211; we had<lb/>
+            a delightful half hour &#8211; in the<lb/>
+            warm still evening &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday 25<hi rend="sup">th</hi> [July 26<hi rend="sup">th</hi>]. Still hotter<lb/>
+            I sate with W. in the<lb/>
+            orchard all the morning &amp;<lb/>
+            made my shoe.<lb/>
+            In the after noon from excessive<lb/>
+            heat I was ill in the headach<lb/>
+            &amp; toothache &amp; went to bed &#8211;<lb/>
+            I was refreshed with washing<lb/>
+            myself [illegible deleted words] after I got<lb/>
+            up &#8211; but it was too hot to <pb/></p>
+                
+            <p>walk till near dark, &amp; then<lb/>
+            I sate upon the wall finishing<lb/>
+            my shoes &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>Sunday Mor. 26<hi rend="sup">th</hi> [July 27<hi rend="sup">th</hi>] very warm<lb/>
+            Molly ill &#8211; John bathed in the lake<lb/>
+            I wrote out Ruth in the afternoon,<lb/>
+            in the morning I read<lb/>
+            Mr Knight&#8217;s Landscape. After tea<lb/>
+            we rowed down to Loughrigg<lb/>
+            Fell &#8211; visited the white fox=<lb/>
+            =glove, gathered wild strawberries<lb/>
+            &amp; walked up to view Rydale we<lb/>
+            lay a long time looking at the<lb/>
+            lake, the shores all embrowned<lb/>
+            with the scorching sun &#8211; The<lb/>
+            Ferns were burning yellow, that<lb/>
+            is here &amp; there one was quite<lb/>
+            turned. <del rend="strike">The lake of</del> [illegible deleted word]<lb/>
+            We walked round by Benson&#8217;s<lb/>
+            wood home. The lake was<lb/>
+            now most still &amp; reflected the<lb/>
+            beautiful yellow &amp; blue &amp;<lb/>
+            purple &amp; grey colours of the<lb/>
+            sky. We heard a strange sound<lb/>
+            in the Bainriggs wood as we <lb/>
+            were floating on the water it<lb/>
+            <hi rend="underline">seemed</hi> in the wood, but it <pb/></p>
+                
+            <p>must have been above it, for pre-<lb/>
+            -sently we saw a [illegible deleted word] raven very<lb/>
+            high above us &#8211; it called out<lb/>
+            &amp; the Dome of the sky seemed<lb/>
+            to echoe the sound &#8211; it called<lb/>
+            again &amp; again as it flew<lb/>
+            onwards, &amp; the mountains<lb/>
+            gave back the sound, seeming<lb/>
+            as if from their [illegible deleted word] center<lb/>
+            a musical bell-like answering<lb/>
+            to the birds hoarse voice. We<lb/>
+            heard both the [illegible deleted words]<lb/>
+            call of the bird &amp; the echoes<lb/>
+            [illegible deleted word] after we could see him no<lb/>
+            longer. We walked up to the<lb/>
+            top of the hill again in view<lb/>
+            of Rydale &#8211; met Mr &amp; Miss<lb/>
+            Simpson on horseback&#8211; The<lb/>
+            crescent moon which had shone<lb/>
+            upon the water was now gone<lb/>
+            down. Returned to supper at<lb/>
+            10 o clock</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday morning [July 28<hi rend="sup">th</hi>] received a letter from<lb/>
+            Coleridge enclosing one from Mr<lb/>
+            Davy about the Lyrical Ballads <pb/></p>
+                
+            <p>intensely hot I made pies in<lb/>
+            the morning. Wm went into the wood<lb/>
+            &amp; altered his poems. In the Evening<lb/>
+            it was so very warm that I<lb/>
+            was too much tired to walk</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [July 29<hi rend="sup">th</hi>] still very hot. We gathered<lb/>
+            peas for dinner.
+                <note place="foot" resp="editors">There is a large X across much of the material for July 29. 
+                    It stops at &#8220;We walked,&#8221; the beginning of the next entry. See n10 for
+                    an explanation of the cancel.
+                </note>
+            The evening excessively<lb/>
+            beautiful a rich reflection of<lb/>
+            the moon. The moonlight clouds &amp;<lb/>
+            the hills &amp; from the Rays gap<lb/>
+            a huge rainbow pillar. We sailed<lb/>
+            upon the lake till it was<lb/>
+            10 o clock</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section"> 
+                
+            <p>We walked up in the Evening<lb/>
+            to find out Hewetson&#8217;s cottage, but<lb/>
+            it was too dark. I was sick &amp;<lb/>
+            weary</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday <hi rend="sup">July 30th</hi> gathered peas for Mrs<lb/>
+            Simpson. John &amp; I walked<lb/>
+                up with them &#8211; very hot &#8211; W<hi rend="sup">m</hi><lb/>
+            had intended going to Keswick.<lb/>
+            I was obliged to lie down after<lb/>
+            dinner from excessive heat &amp; headach<lb/>
+            The Evening &amp;c see above
+                <note place="foot" resp="editors">&#8220;See above&#8221; refers to the cross-out described in n9. Apparently, 
+                    DW began an entry for 29 July but canceled it because in fact it described 30 July.
+                </note>
+                <pb/></p>
+                
+            <p>Thursday [July 31<hi rend="sup">st</hi>] All the morning I was busy<lb/>
+            copying poems &#8211; gathered peas, &amp; in<lb/>
+            the afternoon Coleridge came<lb/>
+            very hot, he brought the 2<hi rend="sup">nd</hi> volume<lb/>
+            of the Anthology &#8211; &#8211; [illegible deleted word]<lb/>
+            The men went to bathe &amp; we after<lb/>
+            =wards sailed down to Loughrigg<lb/>
+            read poems on the water &amp; let<lb/>
+            the boat take its own course &#8211; we<lb/>
+            walked a long time upon Loughrigg<lb/>
+            &amp; returned in the grey twilight.<lb/>
+            The moon just setting as we<lb/>
+            reached home</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday 1<hi rend="sup">st Aug</hi> In the morning I copied<lb/>
+            The Brothers. Coleridge &amp; Wm went<lb/>
+            down to the lake. They returned<lb/>
+            &amp; we all went together to Mary<lb/>
+            Point where we sate in the<lb/>
+            breeze &amp; the shade &amp; read<lb/>
+            W<hi rend="sup">ms</hi> poems altered ‘The Whirl-<lb/>
+            =blast &amp;c&#8217;&#8211;Mr Simpson came<lb/>
+            to tea &amp; Mr B Simpson afterwards<lb/>
+            we drank in the orchard <pb/></p>
+                
+            <p>Saturday [August] <hi rend="sup">2nd</hi> Morning W<hi rend="sup">m</hi> &amp; Coleridge<lb/>
+            went to Keswick. John went<lb/>
+            with them to Wytheburn &amp; staid all<lb/>
+            day fishing &amp; brought home 2<lb/>
+            small pikes at night. I accompanied<lb/>
+            them to Lewthwaite&#8217;s cottage &amp; on<lb/>
+            my return papered W<hi rend="sup">m&#8217;s</hi> room &#8211;<lb/>
+            I afterwards lay down till tea<lb/>
+            time &amp; after tea worked at my<lb/>
+            shifts in the orchard. A grey evening &#8211;<lb/>
+            about 8 o&#8217;clock it gathered for<lb/>
+            rain &amp; I had the scatterings of a<lb/>
+            shower, but afterwards the lake<lb/>
+            became of a glassy calmness<lb/>
+            &amp; all was still. I sate till I<lb/>
+            could see no longer &amp; then continued<lb/>
+            my work in the house</p>
+            </div>          
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [August] <hi rend="sup">3rd</hi> Morning. I made pies &amp;<lb/>
+            stuff&#8217;d the pike, baked a loaf<lb/>
+            Head ach after dinner. I lay<lb/>
+            down, a letter from W<hi rend="sup">m</hi> rouzed<lb/>
+            me, desiring us to go to Keswick<lb/>
+            After writing to W<hi rend="sup">m</hi> we walked as far <pb/></p>
+                
+            <p>as Mr Simpson&#8217;s &amp; ate black cherries <lb/>
+            A Heavenly warm evening with <lb/>
+            scattered clouds upon the hills<lb/>
+            There was a vernal greenness <lb/>
+            upon the grass from the rains of <lb/>
+            the morning &amp; afternoon &#8211; peas for<hi rendition="#smallest"><hi rendition="#sub"> dinner</hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday [August] <hi rend="sup">4th</hi> Rain in the night.<lb/>
+            I tied up Scarlet beans, nailed the<lb/>
+            honeysuckles &amp;c &amp;c. John was<lb/>
+            prepared to <del rend="strike">go</del> walk to Keswick all<lb/>
+            the morning &#8211; he seized a<lb/>
+            returned chaise &amp; went after<lb/>
+            dinner. I pulled a large<lb/>
+            basket of peas &amp; sent to Kes-<lb/>
+            =wick by a returned chaise a<lb/>
+            very cold evening &#8211; assisted<lb/>
+            to spread out linen in the morning &#8211; &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [August] <hi rend="sup">5th</hi> Dried the linen in<lb/>
+            the morning, the air still cold<lb/>
+            I pulled a bag full of peas for<lb/>
+            Mrs Simpson. Miss Simpson drank<lb/>
+            tea with me &amp; supped on <pb/></p>
+            
+            <p>her return from Ambleside. A<lb/>
+            very fine evening. I sate on<lb/>
+            the wall making my shifts till<lb/>
+            I could see no longer &#8211; walked<lb/>
+            half-way home with Miss Simpson</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday <hi rend="sup">6th August</hi> a rainy morning<lb/>
+            I ironed till dinner time &#8211; sewed<lb/>
+            till near dark, then pulled a<lb/>
+            basket of peas, &amp; afterwards<lb/>
+            boiled &amp; picked gooseberries. William<lb/>
+            came home from Keswick<lb/>
+            at 11 o clock a very fine night</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday morning. packed up <hi rend="sup">7th August</hi> the<lb/>
+            mattrass, &amp; sent to Keswick &#8211;<lb/>
+            boiled gooseberries &#8211; NB 2<lb/>
+            lbs of sugar in the first panfull<lb/>
+            3 quarts all good measure &#8211;<lb/>
+            3 lbs in the 2<hi rend="sup">nd</hi> 4 quarts 2 ½ lbs<lb/>
+            in the 3<hi rend="sup">rd</hi> &#8211; a very fine day.<lb/>
+            William composing in the wood in<lb/>
+            the morning in the evening<lb/>
+            we walked to Mary Point, a very<lb/>
+            <hi rend="underline">fine</hi> sun-set. <pb/></p>
+                
+            <p>Friday morning [August 8<hi rend="sup">th</hi>]. We intended<lb/>
+            going to Keswick &#8211; but were<lb/>
+            prevented by the excessive<lb/>
+            heat. Nailed up scarlet beans<lb/>
+            in the morning &#8211; Drank tea<lb/>
+            at Mr Simpsons; &amp; walked<lb/>
+            over the mountains by Wattenlath &#8211;<lb/>
+            very fine gooseberries at<lb/>
+            Mr S&#8217;s &#8211; a most enchanting<lb/>
+            walk &#8211; Wattenlath a heavenly<lb/>
+            scene. Reached Coleridge&#8217;s at 11 o clock.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday morning [August 9<hi rend="sup">th</hi>] I walked<lb/>
+            with Coleridge in the Windy<lb/>
+            Brow woods</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [August 10<hi rend="sup">th</hi>] very hot the Cs went<lb/>
+            to church. We sailed upon<lb/>
+            Derwent in the evening.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday afternoon [August 11<hi rend="sup">th</hi>] Walked with<lb/>
+            <del rend="strike">Mrs C to</del> Windy Brow.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [August 12<hi rend="sup">th</hi>] drank tea with the<lb/>
+            Cockins &#8211; Wm &amp; I walked <pb/><lb/>
+            along the Cockermouth road<lb/>
+            he was altering his poems</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday [August 13<hi rend="sup">th</hi>] Made the Windy Brow seat</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday morning [August 14<hi rend="sup">th</hi>] Called<lb/>
+            at the Speddings. In the<lb/>
+            evening walked in the woods<lb/>
+            with W &#8211; very very beautiful<lb/>
+            the moon</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday morning [August 15<hi rend="sup">th</hi>] W in the wood<lb/>
+            I went with Hartley to see<lb/>
+            the Cockins &amp; to buy Bacon<lb/>
+            in the evening we walked<lb/>
+            to Water End &#8211; feasted on<lb/>
+            gooseberries at Silver hill</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday morning [August 16<hi rend="sup">th</hi>]. Worked for<lb/>
+            Mrs C &amp; walked with Cole-<lb/>
+            -ridge intending to gather<lb/>
+            Raspberries &#8211; joined by Miss<lb/>
+            Spedding <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday 16<hi rend="sup">th</hi> August [17<hi rend="sup">th</hi>] Came<lb/>
+            home &#8211; Dined in Borrowdale<lb/>
+            A rainy morning but a<lb/>
+            fine evening &#8211; saw the Bristol<lb/>
+            prison &amp; Bassenthwaite at<lb/>
+            the same time &#8211; W<hi rend="sup">m</hi> read<lb/>
+            us &#8211; the 7 Sisters on a stone</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Monday [August 18<hi rend="sup">th</hi>]. Putting linen by &amp;<lb/>
+            mending. Walked with John<lb/>
+            to Mr Simpson&#8217;s &amp; met W<hi rend="sup">m</hi><lb/>
+            in returning a fine warm day</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Tuesday [August 19<hi rend="sup">th</hi>] Mr &amp; Mrs Simpson<lb/>
+            dined with us Miss S &amp; Brother<lb/>
+            drank tea in the orchard</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday [August 20<hi rend="sup">th</hi>] I worked in the<lb/>
+            morning. Cold in the evening<lb/>
+            &amp; rainy. Did not walk.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday [August 21<hi rend="sup">st</hi>] read Wallenstein<lb/>
+            &amp; sent it off &#8211; worked in the<lb/>
+            morning &#8211; walked with John<lb/>
+            round the two lakes <pb/></p>
+                
+            <p>gathered white fox glove seeds<lb/>
+            &amp; found W<hi rend="sup">m</hi> in Bain-riggs at<lb/>
+            our return</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Fri<del rend="strike">Satur</del>day 21<hi rend="sup">st</hi> [August 22<hi rend="sup">nd</hi>] very cold baking<lb/>
+            <hi rend="sup">gathered pea seeds &amp; took up</hi><lb/>
+            in the morning. &#8211;&#8211; lighted<lb/>
+            a fire up stairs. Walked<lb/>
+            as far as Rydale with John<lb/>
+            intending to have gone on<lb/>
+            to Ambleside but we found<lb/>
+            the papers at Rydale &#8211; W<hi rend="sup">m</hi><lb/>
+            walking in the wood all the<lb/>
+            time. John &amp; he went out<lb/>
+            after our return. I mended<lb/>
+            stockings. Wind very high<lb/>
+            shaking the corn</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday 22<hi rend="sup">nd</hi> [August 23<hi rend="sup">rd</hi>] &#8211;
+                A very fine morning.<lb/>
+            W<hi rend="sup">m</hi> was composing all the<lb/>
+            morning &#8211; I shelled peas<lb/>
+            gathered beans, &amp; walked in the<lb/>
+            garden till ½ past 12 then <pb/></p>
+                
+            <p>walked with William in the wood<lb/>
+            The Gleams of sunshine &amp; the<lb/>
+            stirring trees &amp; gleaming [illegible deleted word] bright<lb/>
+            cheerful lake &#8211; most delightful<lb/>
+            After dinner we walked to<lb/>
+            Ambleside &#8211; showery, went to<lb/>
+            see Mr Partridges house.<lb/>
+            Came home by Clappersgate<lb/>
+            we had intended going by Rydale<lb/>
+            woods, but it was cold &#8211;<lb/>
+            I was not well, &amp; tired got<lb/>
+            tea immediately, &amp; had a<lb/>
+            fire &#8211; did not reach home<lb/>
+            till 7 o clock &#8211; mended<lb/>
+            stockings &#8211; &amp; W read Peter<lb/>
+            Bell. He read us the<lb/>
+            Poem of Joanna beside<lb/>
+            the Rothay by the road<lb/>
+            side</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday 23<hi rend="sup">rd</hi> [August 24<hi rend="sup">th</hi>]. A fine cool pleasant<lb/>
+            breezy day walked in the wood in<lb/>
+            the morning. Mr Twining called<lb/>
+            [illegible deleted word] John walked up to Mr<lb/>
+            Simpsons in the evening I staid<lb/>
+            at home &amp; wrote to Mrs Raw<hi rendition="#smallest"><hi rendition="#sub">son</hi></hi> <pb/></p>
+                
+            <p>&amp; my aunt Cookson. I was ill in<lb/>
+            the afternoon and lay down &#8211; got<lb/>
+            up restored by a sound sleep</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Monday a <hi rend="sup">24</hi> [August 25<hi rend="sup">th</hi>] a
+            fine day &#8211; walked in<lb/>
+            the wood in the morning &amp; to<lb/>
+            the fir-grove &#8211; walked up to<lb/>
+            Mr Simpsons in the evening</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Tuesday<hi rend="sup">25 </hi>[August 26<hi rend="sup">th</hi>] we walked in the even=<lb/>
+            =ing to Ambleside W<hi rend="sup">m</hi> not quite<lb/>
+            well I bought sacking for<lb/>
+            the mattrass &#8211; a very fine<lb/>
+            solemn evening The wind blew<lb/>
+            very free from the island &amp; at<lb/>
+            Rydale &#8211; we went on the other<lb/>
+            side of Rydale, &amp; sate a<lb/>
+            long time looking at the mountains<lb/>
+            which were all black at<lb/>
+            Grasmere &amp; very bright in<lb/>
+            Rydale &#8211; Grasmere exceedingly<lb/>
+            dark &amp; Rydale of a light<lb/>
+            yellow green</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday [August 27] In the morning we walked<lb/>
+            <hi rend="sup">John Baty passed us</hi><lb/>
+            We walked along the<lb/>
+            shore of the lake in the Evening<lb/>
+            &amp; went over into Langdale &amp; down <pb/></p>
+                
+            <p>to Loughrigg tarn a very fine evening<lb/>
+            calm &amp; still.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday <hi rend="sup">27 August</hi> [28<hi rend="sup">th</hi>]
+            Still very fine weather I<lb/>
+            baked bread &amp; cakes. In the<lb/>
+            Evening we walked round the<lb/>
+            Lake by Rydale &amp; [illegible deleted words]<lb/>
+            [illegible deleted line]<lb/>
+            Mr Simpson came to fish.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday [August 29<hi rend="sup">th</hi>] evening We walked<lb/>
+            to Rydale to inquire for letters<lb/>
+            We walked over the hill<lb/>
+            by the Firgrove. I sate<lb/>
+            upon a rock &amp; observed a flight<lb/>
+            of swallows gathering toge<lb/>
+            =ther high above my head they<lb/>
+            flew towards Rydale. We<lb/>
+            walked through the wood over<lb/>
+            the stepping stones &#8211; The lake<lb/>
+            of Rydale very beautiful<lb/>
+            partly still. John &amp; I left<lb/>
+            W<hi rend="sup">m</hi> to compose an Inscrip<lb/>
+            tion &#8211; that about the path. We had<lb/>
+            a very fine walk by the<lb/>
+            gloomy lake. There was a curious <pb/></p>
+                
+            <p>yellow reflection in the water<lb/>
+            as of corn fields, there was no<lb/>
+            light in the clouds from which<lb/>
+            it appeared to come</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday morning <hi rend="sup">28th August</hi> [30<hi rend="sup">th</hi>] I was baking<lb/>
+            Bread pies &amp; dinner. It was<lb/>
+            very warm. <hi rend="sup">Wm</hi> finished<lb/>
+            his Inscription of the Pathway<lb/>
+            Then walked in the wood &amp;<lb/>
+            when John returned he sought<lb/>
+            him &amp; they bathed together<lb/>
+            I read a little of Boswells<lb/>
+            life of Johnson. I had a head=<lb/>
+            =ache &amp; went to lie down in<lb/>
+            the orchard. I was rouzed<lb/>
+            by a shout that Anthony<lb/>
+            Harrison was come. We<lb/>
+            sate in the orchard till<lb/>
+            tea time, drank tea early<lb/>
+            &amp; rowed down the lake which<lb/>
+            was stirred by Breezes. We<lb/>
+            looked at Rydale which <pb/> </p>
+                
+            <p>was soft, cheerful &amp; beautiful<lb/>
+            We then went to peep into<lb/>
+            Langdale. The Pikes were very<lb/>
+            grand. We walked back to<lb/>
+            the view of Rydale, which<lb/>
+            was now a dark mirror<lb/>
+            We rowed home over a<lb/>
+            lake still as glass &amp; then<lb/>
+            went to George Mackareth&#8217;s<lb/>
+            to hire a horse for John<lb/>
+            A fine moonlight night.<lb/>
+            The beauty of the moon<lb/>
+            was startling as it rose<lb/>
+            to us over Loughrigg Fell<lb/>
+            We returned to supper at 10<lb/>
+            o&#8217;clock Thomas Ashburner</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p><del rend="strike">Sunday morning</del><lb/>
+            brought us our 8<hi rend="sup">th</hi> cart<lb/>
+            of coals since May 17<hi rend="sup">th</hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday <hi rend="sup">29th </hi>[August 31<hi rend="sup">st</hi>] Anthony Harrison<lb/>
+            &amp; John left us at ½ past seven<lb/>
+            a very fine morning &#8211; <pb/></p>
+                
+            <p>a great deal of corn is<lb/>
+            cut in the vale, &amp; the<lb/>
+            whole prospect though not<lb/>
+            tinged with a general au=<lb/>
+            =tumnal yellow, yet softened<lb/>
+            down into a mellowness of<lb/>
+            colouring which seems to<lb/>
+            impart softness to the<lb/>
+            forms of hills &amp; mountains<lb/>
+            At 11 o&#8217;clock Coleridge came<lb/>
+            when I was walking in<lb/>
+            the still, clear moonshine<lb/>
+            in the garden &#8211; he came over<lb/>
+            Helvellyn &#8211; W<hi rend="sup">m</hi> was gone to<lb/>
+            bed &amp; John also, worn out with<lb/>
+            his ride round Coniston We<lb/>
+            sate and chattered till ½ past<lb/>
+            three W in his dressing gown<lb/>
+            Coleridge read us a part of<lb/>
+            Christabel. Talked much about<lb/>
+            the mountains &amp;c &amp;c Miss<lb/>
+            Thrale&#8217;s hatred &#8211; Losh&#8217;s opinion <pb/></p>
+                
+            <p>of Southey &#8211; the first of poets</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Monday <hi rend="sup"><del rend="strike">30</del></hi> morning <hi rend="sup">1st September</hi> We walked in<lb/>
+            the wood by the Lake &#8211; W read<lb/>
+            Joanna &amp; the Firgrove to<lb/>
+            Coleridge. They bathed. The morn<lb/>
+            =ing was delightful with<lb/>
+            somewhat of an autumnal<lb/>
+            freshness. After dinner Coleridge<lb/>
+            discovered a rock seat<lb/>
+            in the orchard, cleared away<lb/>
+            the brambles. Coleridge obliged<lb/>
+            to go to bed after tea. John<lb/>
+            &amp; I followed W<hi rend="sup">m</hi> up to the hill<lb/>
+            &amp; then returned to go to Mr<lb/>
+            Simpsons &#8211; we borrowed some<lb/>
+            bottles for bottling rum.<lb/>
+            The evening some what frosty<lb/>
+            &amp; grey but very pleasant<lb/>
+            [line struck through]<lb/>
+            I broiled Coleridge a mutton<lb/>
+            chop which he ate in bed <pb/></p>
+                
+            <p>Wm was gone to bed &#8211; I chatted<lb/>
+            with John &amp; Coleridge till<lb/>
+            near 12.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Tuesday <del rend="strike">3</del><hi rend="sup"><del rend="strike">rd</del></hi>
+                    2<hi rend="sup">nd</hi> [September] In the morning they<lb/>
+            all went to Stickel Tarn<lb/>
+            A very fine, warm sunny<lb/>
+            beautiful morning. I baked<lb/>
+            a pie &amp;c for dinner &#8211; little<lb/>
+            Sally was with me.
+                <note place="foot" resp="editors">Sara Ashburner, born 1790, seems to have
+                                helped DW around the house and garden.
+                </note> 
+            The fair<lb/>
+            day. Miss Simpson &amp; Mr<lb/>
+            came down to tea we<lb/>
+            walked to the fair. There<lb/>
+            seem&#8217;d very few people &amp;<lb/>
+            very few stalls yet I believe<lb/>
+            there were many cakes<lb/>
+            &amp; much beer sold. My<lb/>
+            Brothers came home to dinner<lb/>
+            at 6 o&#8217;clock &#8211; We drank<lb/>
+            Tea immediately after by Candle<lb/>
+            -light. It was a lovely <pb/> </p>
+                
+            <p>moonlight night. We talked<lb/>
+            much about a house on Hel-<lb/>
+            vellyn. The moonlight shone<lb/>
+            only upon the village it<lb/>
+            did not eclipse the village<lb/>
+            lights &amp; the sound of<lb/>
+            dancing &amp; merriment came<lb/>
+            along the still air &#8211; I<lb/>
+            walked with Coleridge &amp;<lb/>
+            W<hi rend="sup">m</hi> up the Lane &amp; by<lb/>
+            the Church I then lingered<lb/>
+            with Coleridge in the garden<lb/>
+            John &amp; W<hi rend="sup">m</hi> were both<lb/>
+            gone to bed &amp; all the lights<lb/>
+            out</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday <hi rend="sup">3rd September</hi> Coleridge W<hi rend="sup">m</hi> &amp;<lb/>
+            John went from home to<lb/>
+            go upon Helvellyn with<lb/> 
+            Mr Simpson. They set out<lb/>
+            after breakfast. I accompa=<lb/>
+            =nied them up near the <pb/></p>
+                
+            <p>Blacksmith&#8217;s. A fine coolish<lb/>
+            morning. I ironed till ½<lb/>
+            past three &#8211; now very hot.<lb/>
+            I then went to a funeral<lb/>
+            at John Dawsons. About<lb/>
+            10 men &amp; 4 women. Bread<lb/>
+            cheese &amp; ale &#8211; they talked<lb/>
+            sensibly &amp; cheerfully about<lb/>
+            common things. The dead<lb/>
+            person 56 years of age<lb/>
+            buried by the parish &#8211; the<lb/>
+            coffin was neatly lettered<lb/>
+            &amp; painted black &amp; covered<lb/>
+            with a decent cloth they<lb/>
+            set the corpse down at<lb/>
+            the door &amp; while we stood<lb/>
+            within the threshold the<lb/>
+            t<del rend="strike">hree</del> men with their hats<lb/>
+            off sang with decent &amp;<lb/>
+            solemn countenances a <pb/></p>
+                
+            <p>verse of a funeral psalm<lb/>
+            The corpse was then borne<lb/>
+            <del rend="strike">to church</del> down the hill<lb/>
+            &amp; they sang till they had got<lb/>
+            past the town end. I was<lb/>
+            affected to tears while we<lb/>
+            stood in the house, the<lb/>
+            coffin lying before me.<lb/>
+            There were no near kind<lb/>
+            -red, no children. When<lb/>
+            we got out of the dark<lb/>
+            house the sun was shining<lb/>
+            &amp; the prospect looked so<lb/>
+            divinely beautiful as I<lb/>
+            never saw it. It seemed<lb/>
+            more sacred then I had<lb/>
+            ever seen it, &amp; yet more<lb/>
+            allied to human life.<lb/>
+            The green fields, neighbours<lb/>
+            of the churchyard were<lb/> 
+            green [illegible deleted words] as possible <pb/></p>
+                
+            <p>and with the brightness of<lb/>
+            of the sunshine looked quite<lb/>
+            gay. I thought she was<lb/>
+            going to be a quiet spot &amp;<lb/>
+            I could not help weeping<lb/>
+            very much &#8211; When we<lb/>
+            came to the bridge they<lb/>
+            began to sing again &amp;<lb/>
+            stopped during 4 lines<lb/>
+            before they entered the<lb/>
+            church-yard &#8211; The priest<lb/>
+            met us &#8211; he did not<lb/>
+            look as a man ought<lb/>
+            to do on such an occasion<lb/>
+            I had seen him half drunk<lb/>
+            the day before in a pot-<lb/>
+            house. Before we came<lb/>
+            with the corpse one of<lb/>
+            the company observed <pb/></p>
+                
+            <p>he wondered what sort of<lb/>
+            cue &#8220;our Parson would be in.&#8221;<lb/>
+            N B it was the day after<lb/>
+            the Fair. I had not finished<lb/>
+            ironing till 7 o clock. The<lb/>
+            wind was now high &amp;<lb/>
+            I did not walk &#8211; writing<lb/>
+            my journal now at 8<lb/>
+            o clock. W &amp; John came home at <hi rendition="#smallest"><hi rendition="#sub">10 o clock</hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday 4<hi rend="sup">th September</hi> A fine warm day<lb/>
+            I was busy all the morning<lb/>
+            making a mattrass. Mr Simpson<lb/>
+            called in the afternoon. W<hi rend="sup">m</hi><lb/>
+            walked in the wood in the<lb/>
+            morning &amp; in the evening as<lb/>
+            we set forward to walk a<lb/>
+            letter from Mrs Clarkson.
+                <note place="foot" resp="editors"> DW first met Catherine Clarkson (1772&#8211;1856), 
+                    wife of Thomas Clarkson (1760&#8211;1846), later this week (see entry for 6 September). 
+                    They became close friends and regular correspondents. The Clarksons lived from 
+                    1794 to 1803 in the Lakes, at Eusemere, on Ullswater. Thomas Clarkson was a 
+                    well-known abolitionist who worked alongside William Wilberforce and others.
+                </note>
+            <lb/>
+            <del rend="strike">Wm &amp; John</del> [illegible deleted word] We walked<lb/>
+            into the black quarter. The<lb/>
+            patches of corn very interesting. <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday morning <add rend="strike">3<hi rend="sup">rd</hi></add> 4 [5<hi rend="sup">th </hi>September].
+                    Finished<hi rend="sup">5</hi><lb/>
+            the mattrass ironed the<lb/>
+            white bed in the afternoon<lb/>
+            When I was putting it up<lb/>
+            Mr &amp; Mrs Losh arrived while<lb/>
+            Wm &amp; John were walking</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday <hi rend="sup">6th September</hi> morning Break=<lb/>
+            =fasted with the Loshes &#8211; very<lb/>
+            warm &#8211; returned through<lb/>
+            Rydale woods. The Clarksons<lb/>
+            dined after tea we walked<lb/>
+            round Rydale, a little rain</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday morning 7<hi rend="sup">th </hi>[September] rainy&#8211;<lb/>
+            walked before dinner over<lb/>
+            the stepping stones to Lang-<lb/>
+            -dale &amp; home on the other<lb/>
+            side of the lake I<lb/>
+            lay down after dinner W<hi rend="sup">m</hi> <pb/></p> 
+                
+            <p>poorly &#8211; walked into the<lb/>
+            Black quarter.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Monday <hi rend="sup">8th September</hi> morning very
+                rainy<lb/>
+            The Clarksons left us after<lb/>
+            dinner &#8211; still rainy<lb/>
+            We walked towards Rydale<lb/>
+            &amp; then to Mr Olliff&#8217;s gate a<lb/>
+            fine evening</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Tuesday 9<hi rend="sup">th</hi> [September] morning Mr Mar-<lb/>
+                -shall came &#8211; he dined with<lb/>
+            us. My Brothers, walked<lb/>
+            with him round the lakes<lb/>
+            after dinner &#8211; windy we<lb/>
+            went to the island. W &amp; I<lb/>
+            after to tea. John &amp; I went<lb/>
+            to the B quarter, before<lb/>
+            supper went to seek a horse<lb/>
+            at Dawsons &#8211; fir grove &#8211; <pb/></p>
+                
+            <p>after supper talked of W<hi rend="sup">m</hi>s<lb/>
+            Poems.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday <hi rend="sup">Sept. <del rend="strike">10</del> 10th</hi> After Break=<lb/>
+            -fast Mr Marshall, Wm<lb/>
+            &amp; John went on horseback<lb/>
+            to Keswick &#8211; I wrote<lb/>
+            to Mrs Marshall &#8211; a fine<lb/>
+            autumnal day. I had a fire.<lb/>
+            Paid Mr. Bousfield 8.2.11.<lb/>
+            After tea walked with French<lb/>
+            Beans to Mr Simpsons.<lb/>
+            Went up to the Forestside<lb/>
+            above a deserted house sat<lb/>
+            till twilight came on<lb/>
+            Mr &amp; Miss S came down<lb/>
+            with me &amp; supped</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday <hi rend="sup"><del rend="strike">11</del></hi><hi rend="sup">11th</hi> [September] all the morning <pb/></p>
+                
+            <p>[illegible deleted word] mending white gown<lb/>
+            washed my head &#8211; Molly<lb/>
+            washing. Drank tea at Mr<lb/>
+            Simpsons &#8211; Found W<hi rend="sup">m</hi> at home<lb/>
+            at my return he was unable to go<lb/>
+            on with Mr Marshall &amp; parted from<lb/>
+            him in Borrowdale &#8211; Made tea<lb/>
+            after my return.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday 12th <hi rend="sup">Sept.</hi> I worked in the morning<lb/>
+            cut my thumb. Walked in the<lb/>
+            Fir-grove before dinner &#8211; after<lb/>
+            dinner sate under the trees<lb/>
+            in the orchard<lb/>
+            a rainy morning but very fine<lb/>
+            afternoon. Miss Simpson called<lb/>
+            for my packing needle. The<lb/>
+            Fern of the mountains now<lb/>
+            spread yellow veins among<lb/>
+            the trees. The coppice wood<lb/>
+            turns brown. William observed<lb/>
+            some affecting little things in<lb/>
+            Borrowdale &#8211; a decayed<lb/>
+            house with this inscription <pb/></p>
+                
+            <p>in the church-yard, the tall<lb/>
+            silent rocks seen thro&#8217; the<lb/>
+            broken windows &#8211; a kind<lb/>
+            of rough column put upon<lb/>
+            the gavel end of a house<lb/>
+            with a ball stone smooth from<lb/>
+            the river placed upon it<lb/>
+            for ornament near it one<lb/>
+            stone like it upon an old<lb/>
+            mansion carefully hewn</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday <hi rend="sup">13 September</hi> morning William<lb/>
+            writing his preface did not<lb/>
+            walk. Jones &amp; Mr Palmer<lb/>
+            came to tea &#8211; we walked<lb/>
+            with them to Borricks<lb/>
+            a lovely evening but the<lb/>
+            air frosty &#8211; worked when<lb/>
+            I returned home. W<hi rend="sup">m</hi> walked<lb/>
+            out &#8211; John came, horse <pb/></p>
+                
+            <p>from Mr Marshall sent<lb/>
+            backward to Mrs Clarkson</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday 14<hi rend="sup">th</hi> [September] morning &#8211; Made<lb/>
+            bread &#8211; a sore <del rend="strike">finger</del><lb/>
+            thumb from a cut &#8211;<lb/>
+            a lovely day &#8211; read Bos-<lb/>
+            -well in the house in the<lb/>
+            morning &amp; after dinner under<lb/>
+            the bright yellow leaves<lb/>
+            of the orchard &#8211; the pear<lb/>
+            trees a bright yellow<lb/>
+            the apple trees green still<lb/>
+            a sweet lovely afternoon</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Here I have long neglected my<lb/>
+            Journal. John came home<lb/>
+            in the evening after Jones left us<lb/>
+            Jones returned again on the<lb/>
+            Friday the 19<hi rend="sup">th</hi> September &#8211; Jones<lb/>
+            stayed with us till Friday 26<hi rend="sup">th</hi><lb/>
+            September. Coleridge came on <pb/></p>
+                
+            <p>Tuesday 23<hi rend="sup">rd</hi> [September] &amp; went home<lb/>
+            with Jones. Charles Lloyd<lb/>
+            called on Tuesday 23<hi rend="sup">rd</hi> &amp;<lb/>
+            on Sunday 27<hi rend="sup">th</hi> we drank tea<lb/>
+            &amp; supped with him, &amp; on that<lb/>
+            day heard of the Abergavennys<lb/>
+            arrival. While Jones was<lb/>
+            with us we had much rainy weather<lb/>
+            <del rend="strike">through the</del> [illegible deleted word] On<lb/>
+            Sunday the 21<hi rend="sup">st</hi> Tom Myers<lb/>
+            &amp; Father called, &amp; on the<lb/>
+            28<hi rend="sup">th</hi> Mr &amp; Miss Smith.<lb/>
+            On Monday 29<hi rend="sup">th</hi> John<lb/>
+            left us. W<hi rend="sup">m</hi> &amp; I parted with<lb/>
+            him in sight of Ulswater. It<lb/>
+            was a fine day, showery but<lb/>
+            with sunshine &amp; fine clouds<lb/>
+            &#8211; poor fellow my heart was<lb/>
+            right sad &#8211; I could not <pb/></p>
+                
+            <p>help thinking we should see him again<lb/>
+            because he was only going to Penrith<lb/>
+            On Tuesday 30<hi rend="sup">th</hi>
+                <del rend="strike">October</del> September Charles Lloyd<lb/>
+            dined with us. We walked home=<lb/>
+            =wards with him after dinner &#8211;<lb/>
+            it rained very hard. Rydale<lb/>
+            was extremely wild &amp; we<lb/>
+            had a fine walk. We sate<lb/>
+            quietly &amp; comfortably by the<lb/>
+            fire. I wrote &#8211; the last sheet<lb/>
+            of notes &amp; preface &#8211; Went<lb/>
+            to bed at 12 o&#8217;clock</p>
+                
+            <p>Wednesday 1<hi rend="sup">st</hi> October &#8211; A<lb/>
+            fine morning &#8211; a showery<lb/>
+            night the lake still in the<lb/>
+            morning &#8211; in the forenoon<lb/>
+            flashing light from the<lb/>
+            beams of the sun &#8211; as it<lb/>
+            was ruffled by the wind<lb/>
+            We corrected the last sheet <pb/></p>
+                
+            <p>Thursday 2<hi rend="sup">nd</hi> October &#8211;<lb/>
+            A very rainy morning &#8211; We<lb/>
+            walked after dinner to observe<lb/>
+            the torrents &#8211; I followed<lb/>
+            W<hi rend="sup">m</hi> to Rydale, he after-<lb/>
+            -wards went to Butterlip<lb/>
+            How. I came home to<lb/>
+            receive the Lloyds. They<lb/>
+            walked with us to see<lb/>
+            Churnmilk force &amp; the<lb/>
+            Black quarter. The black<lb/>
+            quarter looked marshy<lb/>
+            &amp; the general prospect<lb/>
+            was cold &#8211; but the Force<lb/>
+            was very grand. The<lb/>
+            Lychens are now coming<lb/>
+            out afresh. I carried home<lb/>
+            a collection in the afternoon <pb/> </p>
+                
+            <p>We had a pleasant conversa<lb/>
+            -tion about the manners of<lb/>
+            the rich &#8211; Avarice, [illegible deleted word]<lb/>
+            inordinate desires, &amp; the<lb/>
+            effeminacy unnaturalness<lb/>
+            &amp; the unworthy objects of<lb/>
+            education &#8211; After the<lb/>
+            Lloyds were gone we<lb/>
+            walked &#8211; a showery even<lb/>
+            =ing. The moonlight lay<lb/>
+            upon the hills, like snow</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Friday <hi rend="sup">3rd October</hi> Very rainy all<lb/>
+            the morning &#8211; little Sally<lb/>
+            learning to mark. W<hi rend="sup">m</hi> walked<lb/>
+            to Ambleside after dinner<lb/>
+            I went with him part of<lb/>
+            the way &#8211; he talked much<lb/>
+            about the object of his <pb/></p> 
+                
+            <p>Essay for the 2<hi rend="sup">nd</hi> volume<lb/>
+            of LB. I returned ex-<lb/>
+            =pecting the Simpsons &#8211;<lb/>
+            they did not come. I sh<hi rend="sup">d</hi><lb/>
+            have met W<hi rend="sup">m</hi> but my<lb/>
+            teeth ached &amp; it was<lb/>
+            showery &amp; late &#8211; he returned<lb/>
+            after 10 &#8211; Amos Cottle&#8217;s<lb/>
+            death in the Morning Post<lb/>
+            Wrote to S Lowthian</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>N.B When W<hi rend="sup">m</hi> &amp; I re=<lb/>
+            =turned from accompa=<lb/>
+            -nying Jones we met an<lb/>
+            old man almost double,<lb/>
+            he had on a coat thrown<lb/>
+            over his shoulders above his<lb/>
+            waistcoat &amp; coat. Under<lb/>
+            this he carried a bundle<lb/>
+            &amp; had an apron on &amp; a<lb/>
+            night cap. His face was <pb/></p>
+                
+            <p>interesting. He had Dark<lb/>
+            eyes &amp; a long nose &#8211; John<lb/>
+            who afterwards met him<lb/>
+            at Wythburn took him<lb/>
+            for a Jew. He was of Scotch<lb/>
+            parents but had been born in<lb/>
+            the army &#8211; He had had a<lb/>
+            wife &#8220;&amp; a good woman &amp;<lb/>
+            it pleased God to bless us<lb/>
+            with 10 children all these<lb/>
+            were dead but one of whom<lb/>
+            he had not heard for many<lb/>
+            years, a Sailor &#8211; his trade<lb/>
+            was to gather leeches but<lb/>
+            now leeches are scarce<lb/>
+            &amp; he had not strength for<lb/>
+            it &#8211; he lived by begging<lb/>
+            &amp; was making his way<lb/>
+            to Carlisle where he</p><pb/>
+                
+            <p>should buy a few god=<lb/>
+            =ly books to sell. He said<lb/>
+            leeches were very scarce<lb/>
+            partly owing to this dry<lb/>
+            season, but many years<lb/>
+            they have been scarce &#8211; he<lb/>
+            supposed it owing to their<lb/>
+            being much sought after,<lb/>
+            that they did not breed fast <lb/>
+            &amp; were of slow growth.<lb/>
+            Leeches were formerly 2/6<lb/>
+            100 &#8211; they are now 30/[illegible deleted figure]<lb/>
+            He had been hurt in driv-<lb/>
+            ing a cart, his leg broke<lb/>
+            his body driven over his<lb/>
+            skull fractured &#8211; he felt<lb/>
+            no pain till he recovered<lb/>
+            from his first insensibility.<lb/>
+            It was then &#8220;<hi rend="sup">late</hi> in the evening<lb/><pb/>
+            when the light was just<lb/>
+            going away&#8221;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday October 4<hi rend="sup">th</hi> 1800
+                <note place="foot" resp="editors"> 1800 added in pencil.
+                </note>
+            <lb/>
+            A very rainy &#8211; or rather<lb/>
+            showery &amp; gusty morning<lb/>
+            for often the sun shines<lb/>
+            Thomas Ashburner could<lb/>
+            not go to Keswick.<lb/>
+            Read a part of Lambs<lb/>
+            play. The language is<lb/>
+            often very beautiful, but<lb/>
+            too imitative in particular<lb/>
+            phrases, words &amp;c. The<lb/>
+            characters except Marga<lb/>
+            =ret unintelligible, &amp;<lb/>
+            except Margaret do<lb/>
+            not shew themselves in<lb/>
+            action. Coleridge came</p><pb/>
+                
+            <p>in while we were at dinner<lb/>
+            very wet … We talked till<lb/>
+            12 o clock. He had sate<lb/>
+            up all the night before<lb/>
+            writing Essays for the<lb/>
+            newspaper. His youngest<lb/>
+            child had been very ill in<lb/>
+            convulsion fits &#8211; Exceeding<del rend="strike">ly</del>
+            <lb/>
+            <del rend="strike">ngly delighted</del> with the<lb/>
+            2<hi rend="sup">nd</hi> part of Christabel</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday Morning. 5<hi rend="sup">th</hi> October.<lb/>
+            Coleridge read a 2<hi rend="sup">nd</hi> time<lb/>
+            Christabel &#8211; we had increasing<lb/>
+            pleasure. A delicious morning.<lb/>
+            W<hi rend="sup">m</hi>
+                <del rend="strike">was</del> &amp; I were employed<lb/>
+            all the morning in writing<lb/>
+            an addition to the preface<lb/>
+            W<hi rend="sup">m</hi> went to bed very i[ll?] [blot or deletion]<lb/><pb/>
+            after working after dinner &#8211;<lb/>
+            Coleridge &amp; I walked to<lb/>
+            Ambleside after dark with<lb/>
+            the letter &#8211; Returned to tea<lb/>
+            at 9 o&#8217;clock. W<hi rend="sup">m</hi> &#8211; still<lb/>
+            in bed &amp; very ill Silver How in both<lb/>
+            lakes</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Monday [October 6<hi rend="sup">th</hi>] a rainy day &#8211; Cole=<lb/>
+            =ridge intending to go but<lb/>
+            did not get off &#8211; We walk<lb/>
+            ed after dinner to Rydale<lb/>
+            After tea read The Pedlar.<lb/>
+            Determined not to print<lb/>
+            Christabel with the LB.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [October 7<hi rend="sup">th</hi>] Coleridge went off<lb/>
+            at 11 o clock &#8211; I went as far<lb/>
+            as Mr Simspon&#8217;s returned with<lb/>
+            Mary She drank tea<lb/>
+            here &#8211; I was very<lb/>
+            ill in the Evening at the <pb/></p>
+                
+            <p>Simpsons &#8211; went to bed<lb/>
+            supped there. Returned<lb/>
+            with Miss S &amp; Mrs J &#8211;<lb/> 
+            heavy showers &#8211; Found W<hi rend="sup">m</hi><lb/>
+            at home &#8211; I was still weak &amp;<lb/>
+            unwell &#8211; went to bed imme=<lb/>
+            =diately</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [October 8<hi rend="sup">th</hi>] &#8211; A threatening<lb/>
+            bad morning &#8211; we dried the<lb/>
+            Linen frequent threatening<lb/>
+            of showers &#8211; Received a<lb/>
+            5£ note from Montagu<lb/>
+            W<hi rend="sup">m</hi> walked to Rydale<lb/>
+            I copied a part of the<lb/>
+            Beggar in the morning<lb/>
+             &#8211; I was not quite well<lb/>
+            in the Evening therefore I did not<lb/>
+            walk. W<hi rend="sup">m</hi> walked a very<lb/>
+            mild moonlight night <pb/></p>
+                
+            <p>Glowworms everywhere!</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Thursday [October 9<hi rend="sup">th</hi>]. I was ironing all<lb/>
+            the day till tea-time. Very<lb/>
+            rainy &#8211; W<hi rend="sup">m</hi> &amp; I walked<lb/>
+            in the evening &#8211; intending to go<lb/>
+            to Lloyds but it came on<lb/>
+            so very rainy that we were<lb/>
+            obliged to shelter at Flemings<lb/>
+            A grand Ball at Rydale<lb/>
+            After sitting some time &#8211; we<lb/>
+            went homewards &amp; were again<lb/>
+            caught by a shower &amp; shel-<lb/>
+            -tered under the Sycamores<lb/>
+            at the boat house &#8211; a<lb/>
+            very cold snowlike rain<lb/>
+            A man called in a soldiers<lb/>
+            dress &#8211; he was thirty years<lb/>
+            old &#8211; of Cockermouth, had<lb/>
+            lost a leg &amp; thigh in<lb/>
+            battle was going to his<lb/>
+            home <pb/></p>
+                
+            <p>He could earn more money in<lb/>
+            travelling with his ass than at<lb/>
+            home.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday 10<hi rend="sup">th</hi> October &#8211; In the<lb/>
+            morning when I arose the mists<lb/>
+            were hanging over the oppo=<lb/>
+            =site hills &amp; the tops of the<lb/>
+            highest hills were covered with<lb/>
+            snow &#8211; There was a most lovely<lb/>
+            combination at the head<lb/>
+            of the vale &#8211; of the yellow<lb/>
+            autumnal hills wrapped in<lb/>
+            sunshine, &amp; overhung with par-<lb/>
+            =tial mists, the green &amp;<lb/>
+            yellow trees &amp; the distant snow<lb/>
+            -topped [illegible deleted word] mountains &#8211; It<lb/>
+            was a most heavenly<lb/>
+            morning. The Cockermouth<lb/>
+            Traveller came with thread <pb/></p>
+                
+            <p>hardware mustard, &amp;c. She is very<lb/>
+            healthy, has travelled over the<lb/>
+            mountains these thirty years.<lb/>
+            She does not mind the storms<lb/>
+            if she can keep her goods<lb/>
+            dry. Her husband will not<lb/>
+            travel with an ass &#8211; because<lb/>
+            it is the tramper&#8217;s badge<lb/>
+            She would have one to<lb/>
+            relieve her from the wea-<lb/>
+            -ry load. She was going<lb/>
+            to Ulverston &amp; was to<lb/>
+            return to Ambleside Fair.<lb/>
+            After I had finished baking<lb/>
+            I went out with W<hi rend="sup">m</hi> Mrs<lb/>
+            Jameson &amp; Miss Simpson to-<lb/>
+            =wards Rydale &#8211; the fern<lb/>
+            among the Rocks exquisitely<lb/>
+            beautiful &#8211; we turned home<lb/>
+            &amp; walked to Mr Gells <pb/></p>
+                
+            <p>After dinner W<hi rend="sup">m</hi> went<lb/>
+            to bed &#8211; I read Southey&#8217;s letters<lb/>
+            Miss Simpson &amp; Mrs Jameson<lb/>
+            came to tea &#8211; After tea we<lb/>
+            went to Lloyds &#8211; a fine<lb/>
+            Evening as we went but<lb/>
+            rained in returning &#8211; we<lb/>
+            were wet &#8211; found them not<lb/>
+            at home &#8211; I wrote to Mrs<lb/>
+            Clarkson &#8211; sent off The<lb/>
+            Beggar &amp;c by Thomas Ash-<lb/>
+            burner &#8211; who went to fetch<lb/>
+            our 9<hi rend="sup">th</hi> cart of coals<lb/>
+            W<hi rend="sup">m</hi> sat up after me writing<lb/>
+            Point Rash judgment.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday 11<hi rend="sup">th</hi> A fine October<lb/>
+            morning &#8211; sat in the house<lb/>
+            working all the morning<lb/>
+            W<hi rend="sup">m</hi> composing &#8211; Sally<lb/>
+            Ashburner learning to mark<lb/>
+            After Dinner we walked up Green<lb/>
+            head Gill in search of a Sheep-<lb/>
+            -fold. We went by Mr Ollifs &amp;<lb/>
+            through his woods &#8211; <del rend="strike">His</del> It was<lb/>
+            a delightful day &amp; the views looked<lb/>
+            excessively chearful &amp; beautiful<lb/>
+            chiefly that from Mr Ollif&#8217;s<lb/>
+            field where our house is<lb/>
+            to be built. The Colours of the<lb/>
+            mountains soft &amp; rich, with<lb/>
+            orange fern &#8211; The Cattle pastur<lb/>
+            ing upon the hill-tops Kites<lb/>
+            sailing as in the sky above<lb/>
+            our heads &#8211; Sheep bleating<lb/>
+            &amp; in lines &amp; chains &amp; patterns<lb/>
+            scattered over the mountains.<lb/>
+            They come down &amp; feed on<lb/>
+            the little green islands in<lb/>
+            the beds of the torrents &amp; <pb/></p>
+                
+            <p>so may be swept away. The<lb/>
+            Sheep fold is falling away it<lb/>
+            is built nearly in the form<lb/>
+            of a heart unequally divided<lb/>
+            Look down the brook &amp;<lb/>
+            see the drops rise upwards<lb/>
+            &amp; sparkle in the air, at<lb/>
+            the little falls, the higher<lb/>
+            sparkles the tallest. We walked<lb/>
+            along the turf of the moun-<lb/>
+            -tain till we came to a<lb/>
+            Cattle track &#8211; made by<lb/>
+            the cattle which come upon<lb/>
+            the hills &#8211; We drank<lb/>
+            tea at Mr Simpson&#8217;s returned<lb/>
+            at about nine &#8211; a fine<lb/>
+            mild night. Sunday <hi rend="sup">October</hi> 12<hi rend="sup">th</hi><lb/>
+            beautiful day &#8211; Sate in the<lb/>
+            house writing in the morning <pb/></p>
+                
+            <p>while W<hi rend="sup">m</hi> went into the<lb/>
+            wood to compose &#8211; wrote to<lb/>
+            John in the morning &#8211; copied<lb/>
+            poems for the LB. in the<lb/>
+            evening wrote to Mrs Rawson<lb/>
+            <del rend="strike">left</del> Mary Jameson &amp; Sally<lb/>
+            Ashburner dined &#8211; We pulled<lb/>
+            apples after dinner, a large<lb/>
+            basket full &#8211; We walked before<lb/>
+            tea by Bainriggs to observe<lb/>
+            the many coloured foliage<lb/>
+            the oaks dark green with<lb/>
+            yellow leaves &#8211; The birches<lb/>
+            generally still green, some<lb/>
+            near the water yellowish.<lb/>
+            The Sycamore crimson<lb/>
+            &amp; crimson-tufted &#8211; The mountain<lb/>
+            ash a deep orange &#8211; the<lb/>
+            common ash Lemon colour <pb/></p>
+                
+            <p>but many ashes still fresh<lb/>
+            in their summer green &#8211; Those<lb/>
+            that were discolouring chiefly<lb/>
+            near the water. William<lb/>
+            composing in the Evening<lb/>
+            went to bed at 12 o clock</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday October 13<hi rend="sup">th</hi> A grey<lb/>
+            [illegible deleted word(s)] day &#8211; Mists on<lb/>
+            the hills &#8211; We did not walk<lb/>
+            in the morning &#8211; I copied<lb/>
+            poems on the naming of<lb/>
+            places <hi rend="sup">walked in the black quarter at night</hi> a fair at
+                Ambleside</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p><hi rend="indent2">Tuesday [October] 14<hi rend="sup">th</hi></hi><lb/>
+            W<hi rend="sup">m</hi> lay down after dinner &#8211; I<lb/>
+            read Southeys Spain. <del rend="strike">W<hi rend="sup">m</hi></del> The<lb/>
+            wind rose very high at<lb/>
+            [illegible deleted word] Evening. W<hi rend="sup">m</hi> walked<lb/>
+            out just at bed time. I went<lb/>
+            to bed early &#8211; we walked before<lb/>
+            dinner to Rydale &#8211; <pb/></p>
+                
+            <p>Wednesday [October 15<hi rend="sup">th</hi>] a very fine clear<lb/>
+            morning &#8211; after Wm had com<lb/>
+            -posed a little &#8211; I persuaded<lb/>
+            him to go into the orchard &#8211;<lb/>
+            we walked backwards &amp; forwards<lb/>
+            the prospect most divinely bea<lb/>
+            -utiful from the <del rend="strike">sight</del> seat &#8211; all<lb/>
+            colours, all melting into each<lb/>
+            other. I went in to put<lb/>
+            bread in the oven &amp; we<lb/>
+            both walked within view<lb/>
+            of Rydale &#8211; W<hi rend="sup">m</hi> again<lb/>
+            composed at the sheep-fold<lb/>
+            after dinner &#8211; I walked with<lb/>
+            him to Wytheburn, &amp; he<lb/>
+            went on to Keswick. I<lb/>
+            drank tea &amp; supped at<lb/>
+            Mr Simpsons &#8211; a very<lb/>
+            cold frosty air, &amp; a spangled<lb/>
+            sky in returning. Mr &amp;<lb/>
+            Miss S came with me <pb/></p>
+                
+            <p>Wytheburn looked very<lb/>
+            wintry but yet there<lb/>
+            was a foxglove blossoming<lb/>
+            by the road-side &#8212; &#8212; &#8212;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p><del rend="strike">Wedne</del> Thursday 16<hi rend="sup">th</hi> October<lb/>
+            a very fine morning. Starch-<lb/>
+            -ed &amp; hung out linen a very<lb/>
+            fine day &#8211; John Fisher<lb/>
+            TA, SA, &amp; Molly<lb/>
+            working in the garden<lb/>
+            Wrote to Miss Nicholson<lb/>
+            I walked as far as Rydale between<lb/>
+            3 &amp; 4 &#8211; Ironed till six &#8211; got<lb/>
+            tea &amp; wrote to Mr Giffith.<lb/>
+            A letter from Mr Clarkson</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday [October] 17<hi rend="sup">th</hi> a very fine grey<lb/>
+            Morning &#8211; The swan hunt<lb/>
+            Sally working in the garden <pb/></p>
+                
+            <p>I walked round the lake between<lb/>
+            ¼ past 12 &amp; 1 ½ past one &#8211; wrote<lb/>
+            to M H. After dinner I walked<lb/>
+            to Lloyds &#8211; carried my letters to<lb/>
+            Miss N. &amp; M H. The Lloyds<lb/>
+            not in &#8211; I waited for them<lb/>
+            Charles not well &#8211; Letters<lb/>
+            from M H. Biggs, &amp; John<lb/>
+            In my walk in the morning<lb/>
+            I observed Benson&#8217;s Honey-suckles<lb/>
+            in flower, &amp; great beauty &#8211;<lb/>
+            It was a very fine mild [illegible deleted word]<lb/>
+            evening Lls servants came<lb/>
+            with me to Parkes. I found<lb/>
+            W<hi rend="sup">m</hi> at home where he had been <hi rend="sup">almost</hi><lb/>
+            ever since my departure &#8211; Coleridge<lb/>
+            had done nothing for the LB &#8211;<lb/>
+            Working hard for Stuart<lb/>
+            Glowworms in abundance</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday [18<hi rend="sup">th</hi>] a very fine October<lb/>
+            morning <pb/></p>
+                
+            <p>William worked all the<lb/>
+            morning at the sheep fold<lb/>
+            but in vain. He lay down<lb/>
+            in the afternoon, till 7 o clock<lb/>
+            but could not sleep &#8211; I slept<lb/>
+            My head better &#8211; he unable<lb/>
+            to work &#8211; we did not<lb/>
+            walk all day</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday [October 19<hi rend="sup">th</hi>] morning &#8211; we arose late<lb/>
+            &amp; walked directly after<lb/>
+            breakfast. The tops of Gmere<lb/>
+            mountains cut off &#8211; Rydale<lb/>
+            was very very beautiful the<lb/>
+            surface of the water quite<lb/>
+            still like a dim mirror. The<lb/>
+            colours of the large island exqui<lb/>
+            =sitely beautiful &amp; the trees <pb/></p>
+                
+            <p>still fresh &amp; green were magni<lb/>
+            =fied by the mists. The prospects<lb/>
+            on the west side of the Lake<lb/>
+            were very beautiful we sate<lb/>
+            at the two points looking up<lb/>
+            to Park&#8217;s The lowing of the<lb/>
+            Cattle &#8211; was echoed by a<lb/>
+            hollow voice in Knab Scar<lb/>
+            We went upon Loughrigg<lb/>
+            Fell &#8211; &amp; were disappointed<lb/>
+            with Gmere it did not<lb/>
+            look near so beautiful<lb/>
+            as Rydale. We returned home<lb/>
+            over the stepping-stone W<hi rend="sup">m</hi><lb/>
+            got to work &#8211; we are not to<lb/>
+            dine till 4 o&#8217; Clock &#8211;&#8211;&#8211;<lb/>
+            Dined at ½ past 5 &#8211; Mr<lb/>
+            Simpson dined &amp; drank tea<lb/>
+            with us. We went to bed<lb/>
+            immediately after he left <hi rendition="#smallest"><hi rendition="#sub">us</hi></hi> <pb/></p>
+                
+            <p>Monday [October] 20<hi rend="sup">th</hi><lb/>
+            William worked in the morning<lb/>
+            at the sheep-fold &#8211; After dinner<lb/>
+            we walked to Rydale crossed<lb/>
+            the stepping stones &amp; while<lb/>
+            we were walking under<lb/>
+            the tall oak trees the Lloyds<lb/>
+            called out to us &#8211; They went with<lb/>
+            us on the western side of<lb/>
+            Rydale. The lights were<lb/>
+            very grand upon the woody<lb/>
+            Rydale Hills &#8211; Those behind<lb/>
+            dark &amp; topp&#8217;d with clouds<lb/>
+            The two lakes were divinely<lb/>
+            beautiful &#8211; Grasmere excessively<lb/>
+            solemn &amp; the whole lake was<lb/>
+            calm &amp; dappled with soft grey<lb/>
+            dapple. The Lloyds stayed<lb/>
+            with us till 8 o clock. We <pb/></p>
+                
+            <p>then walked to the top of the<lb/>
+            hill at Rydale &#8211; very mild<lb/>
+            &amp; warm &#8211; about 6 glowworms<lb/>
+            shining faintly &#8211; We went up<lb/>
+            as far as the groove When<lb/>
+            we came home the fire<lb/>
+            was out &#8211; We ate our<lb/>
+            supper in the dark &amp; went<lb/>
+            to bed immediately &#8211; William<lb/>
+            was disturbed in the night<lb/>
+            by the rain coming into his<lb/>
+            room &#8211; for it was a very<lb/>
+            rainy night &#8211; The Ash leaves<lb/>
+            lay across the Road</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [October] 21<hi rend="sup">st</hi> &#8211; We walked in the<lb/>
+            morning past Mr Gells &#8211; a<lb/>
+            very fine clear &amp; sharp<lb/>
+            sunny morning We drank tea<lb/>
+            at the Lloyd &#8211; it was <pb/></p>
+                
+            <p>very cold in the evening<lb/>
+            quite frosty, &amp; starlight.<lb/> 
+            W<hi rend="sup">m</hi> had been unsuccessful<lb/>
+            in the morning at the sheep<lb/>
+            fold The reflection of the<lb/>
+            ash scattered, &amp; the tree stripped</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Wednesday Morning [October 22<hi rend="sup">nd</hi>] we walked to<lb/>
+            Mr Gells a very fine morning &#8211;<lb/>
+            W<hi rend="sup">m</hi> composed without much<lb/>
+            success at the sheep fold &#8211;<lb/>
+            Coleridge came in to dinner.<lb/>
+            He had done nothing. We<lb/>
+            were very merry &#8211; C.<lb/>
+            &amp; I went to look at the<lb/>
+            prospect from his seat.<lb/>
+            In the evening Stoddart<lb/>
+            came in when we were <pb/></p>
+                
+            <p>at tea &#8211; and after tea Mr<lb/>
+            &amp; Miss Simpson with large<lb/>
+            potatoes &amp; plumbs. We<lb/>
+            read after supper, Ruth<lb/>
+            &amp;c &#8211; Coleridge Christabel</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday [October] 23<hi rend="sup">rd</hi> &#8211; Coleridge<lb/>
+            &amp; Stoddart went to Keswick &#8211;<lb/>
+            we accompanied them to<lb/>
+            Wytheburne &#8211; A wintry<lb/>
+            grey morning from the<lb/>
+            top of the Rays Grasmere<lb/>
+            looked like winter &amp;<lb/>
+            Wytheburne still more<lb/>
+            so &#8211; we called upon<lb/>
+            Mrs Simpson &amp; sate 10<lb/>
+            minutes in returning <pb/><lb/>
+            W<hi rend="sup">m</hi> was not successful<lb/>
+            in composition in the Evening.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday [October] 24<hi rend="sup">th</hi> A very fine<lb/>
+            morning we walked before<lb/>
+            <del rend="strike">dinner</del> W<hi rend="sup">m</hi> began to work<lb/>
+            to the Top of the Rydale<lb/>
+            Hill. He was afterwards only<lb/>
+            partly successful in compo-<lb/>
+            -sition. After dinner we<lb/>
+            walked round Rydale Lake<lb/>
+            rich, calm, streaked<lb/>
+            very beautiful &#8211; We went<lb/>
+            to the top of Loughrigg<lb/>
+            Grasmere sadly inferior<lb/>
+            We were much tired Wm<lb/>
+            went to bed till ½ past <pb/><lb/>
+            seven The ash in our garden<lb/>
+            green &#8211; one close to it bare the<lb/>
+            next nearly so</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday [October 25<hi rend="sup">th</hi>] a very rainy<lb/>
+            day &#8211; Wm again unsuccess<lb/>
+            -ful &#8211; We could not<lb/>
+            walk it was so very rainy &#8211; We read Rogers Miss<lb/>
+            Seward, Cowper &amp;c</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [October 26<hi rend="sup">th</hi>] heavy rain all<lb/>
+            night. A fine morning after<lb/>
+            10 o clock &#8211; W<hi rend="sup">m</hi> composed<lb/>
+            a good deal &#8211; in the morning.<lb/>
+            The Lloyds came to dinner<lb/>
+            &amp; were [illegible deleted word] caught in<lb/>
+            a shower. W<hi rend="sup">m</hi> read some<lb/>
+            of his poems after dinner<lb/>
+            a terrible night I went<lb/>
+            with Mrs Lloyd to Newtons <pb/></p>
+                
+            <p>to see for Lodgings.<lb/>
+            Mr Simpson in coming from<lb/>
+            Ambleside called in for<lb/>
+            a glass of rum, just before<lb/>
+            we went to bed…</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>28<hi rend="sup">th</hi> October Monday [27<hi rend="sup">th</hi>]
+                Not<lb/>
+            <del rend="strike">fine</del> a rainy morning.<lb/>
+            The Hill tops covered with<lb/>
+            snow. Charles Lloyd came for<lb/>
+            his wife&#8217;s glass. I walked home <lb/>
+            with him past Rydale<lb/>
+            When he came I met<lb/>
+            him as I was carrying<lb/>
+            some cold meat to W<hi rend="sup">m</hi> in<lb/>
+            the Fir-grove <del rend="strike">He</del> I had<lb/>
+            before walked with him <pb/></p>
+                
+            <p>there for some time. It was<lb/>
+            a fine shelter from the<lb/>
+            wind. The Coppices now<lb/>
+            nearly of one brown. An<lb/>
+            oak tree in a sheltered<lb/>
+            place near John Fisher&#8217;s &#8211;<lb/>
+            not having lost any of<lb/>
+            its leaves was quite brown<lb/>
+            &amp; dry &#8211; We did not walk<lb/>
+            after dinner &#8211; it was a<lb/>
+            fine wild moonlight<lb/>
+            night. W<hi rend="sup">m</hi> could not<lb/>
+            compose much fatigued<lb/>
+            himself with altering.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday 29<hi rend="sup">th</hi> [October 28<hi rend="sup">th</hi>] a very rainy<lb/>
+            night I was baking bread<lb/>
+            in the morning &amp; made a<lb/>
+            giblet pie. We walked<lb/>
+            out before dinner to our <pb/><lb/>
+            favourite field &#8211; The mists<lb/>
+            sailed along the mountains<lb/>
+            &amp; rested upon them enclosing<lb/>
+            the whole vale. In the</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p><del rend="strike">Wednesday 30<hi rend="sup">th</hi></del><lb/>
+            <del rend="strike">A cold &amp; rainy</del> m<lb/>
+            Evening the Lloyds came<lb/>
+            We drank tea with them<lb/>
+            at Borricks &amp; played a<lb/>
+            rubber at Whist stayed<lb/>
+            supper &#8211; W<hi rend="sup">m</hi> looked very<lb/>
+            well. A fine moon<hi rend="sup">light</hi><lb/>
+            night [illegible deleted word] when we came<lb/>
+            home &#8211; &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [October 29<hi rend="sup">th</hi>] William working <pb/></p>
+                
+            <p>at his poem all the<lb/>
+            morning &#8211; After dinner Mr<lb/>
+            Clarkson called &#8211; We<lb/>
+            went down to Borrwicks<lb/>
+            &amp; he &amp; the Lloyds &amp; Pri=<lb/>
+            =scilla came back to<lb/>
+            drink tea with us.<lb/>
+            We met Stoddart upon the<lb/>
+            Bridge &#8211; Played at Cards<lb/>
+            The Lloyds &amp;c went<lb/>
+            home to supper. Mr<lb/>
+            Clarkson slept here.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p><hi rend="indent2">Thursday [October 30<hi rend="sup">th</hi>]</hi><lb/>
+            A rainy morning Mr<lb/>
+            C went over Kirkstone<lb/>
+            W<hi rend="sup">m</hi> talked all day &amp; almost<lb/>
+            all night with Stoddart <pb/></p>
+                
+            <p>Mrs &amp; Miss Ll called<lb/>
+            in the morning. I walked<lb/>
+            with them to Tail End<lb/>
+            a fine pleasant morning<lb/>
+            but a very rainy afternoon<lb/>
+            W &amp; S in the house<lb/>
+            all day</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday [October 31<hi rend="sup">st</hi>] W &amp; S did<lb/>
+            not rise till 1 o clock<lb/>
+            W very sick &amp; very<lb/>
+            ill. S &amp; I drank tea<lb/>
+            at Lloyds &amp; came<lb/>
+            home immediately after<lb/>
+            a very fine moonlight<lb/>
+            night &#8211; The moonshine <pb/></p>
+                
+            <p>with herrings in the water</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday [November 1<hi rend="sup">st</hi>] William better<lb/>
+            We met as we walked<lb/>
+            to Rydale a Boy from<lb/>
+            Lloyds &#8211; coming for<lb/>
+            Don Quixote &#8211; Talk<lb/>
+            in the evening Tom Ash=<lb/>
+            =burner brought our 10<hi rend="sup">th</hi> cart of<lb/>
+            coals</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday morning [November 2<hi rend="sup">nd</hi>] we walked<lb/>
+            into the Black Quarter<lb/>
+            a very fine morning<lb/>
+            a succession of beautiful<lb/>
+            views mists &amp;c, &amp;c<lb/>
+            Much rain in the night<lb/>
+            In the Evening drank <pb/></p>
+                
+            <p>tea at Lloyds found<lb/>
+            them all ill in colds<lb/>
+            came home to supper.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday Morning [November 3<hi rend="sup">rd</hi>] walked<lb/>
+            to Rydale a cold day<lb/>
+            W<hi rend="sup">m</hi> &amp; Stoddart still<lb/>
+            talking frequent showers<lb/>
+            in our walk &#8211; In<lb/>
+            the evening we talked<lb/>
+            merrily over the fire<lb/>
+            The Speddings stopped at the door</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [November 4<hi rend="sup">th</hi>] Stoddart left<lb/>
+            us -- I walked a little way<lb/>
+            with W &amp; him, W went<lb/>
+            to the Tarn afterwards<lb/>
+            to the top of Seat San-<hi rendition="#smallest"><hi rendition="#sub">-dal</hi></hi> <pb/></p>
+                
+            <p>he was obliged to lie<lb/>
+            down in the tremendous<lb/>
+            wind &#8211; the snow blew<lb/>
+            from Helvellyn horizon<lb/>
+            =tally like smoke &#8211;<lb/>
+            the Spray of the un-<lb/>
+            =seen Waterfall like<lb/>
+            smoke &#8211; &#8211; Miss Lloyd<lb/>
+            called upon me &#8211; I walked<lb/>
+            with her past Rydale<lb/>
+            W<hi rend="sup">m </hi>sadly tired, threa=<lb/>
+            =tening of the piles</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [November 5<hi rend="sup">th</hi>] Wm not well<lb/>
+            A very fine beautiful<lb/>
+            clear winter&#8217;s day &#8211; I walked<lb/>
+            after dinner to Lloyds <pb/><lb/>
+            drank tea &amp; Mrs &amp;<lb/>
+            Miss Lloyd came to<lb/>
+            Rydale with me &#8211; the<lb/>
+            moon was rising but<lb/>
+            the sky all over cloud<lb/>
+            I made tea for William Piles</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday <hi rend="sup">6th November</hi> A very rainy<lb/>
+            morning &amp; night &#8211;<lb/>
+            I was baking bread<lb/>
+            dinner &amp; parkins. Charles<lb/>
+            &amp; P Lloyd called &#8211; W<hi rend="sup">m</hi><lb/>
+            somewhat better read<lb/>
+            Point Rash Judgment<lb/>
+            The lake calm &amp; very<lb/>
+            beautiful a very<lb/>
+            rainy afternoon &amp;<lb/>
+            night. <pb/></p>
+                
+            <p>Friday 7<hi rend="sup">th</hi> November &#8211;<lb/>
+            a cold rainy morning Wm<lb/>
+            still unwell. I working &amp;<lb/>
+            reading Amelia. The<lb/>
+            Michaelmas daisy droops<lb/>
+            The pansies are full<lb/>
+            of flowers. The Ashes opposite<lb/>
+            are green, all but one<lb/>
+            but they have lost<lb/>
+            many of their leaves.<lb/>
+            The copses are quite<lb/>
+            brown. The poor woman &amp; child<lb/>
+            from Whitehaven drank tea <hi rend="sup">nothing warm</hi><lb/>
+            <hi rend="indent10"><hi rendition="#smallest"><hi rendition="#sub">that day</hi></hi></hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday [November] 7<hi rend="sup">th</hi> &#8211; a very rainy<lb/>
+            morning &#8211; it cleared<lb/>
+            up in the afternoon<lb/>
+            We expected the Lloyds <pb/></p>
+                
+            <p>but they did not come. <hi rend="sup">A rainy night</hi><lb/>
+            Wm still unwell [illegible deleted word]</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday 8<hi rend="sup">th</hi> November<lb/>
+            a rainy morning &#8211; a whirl-<lb/>
+            =wind came &#8211; that tossed<lb/>
+            about the leaves &amp; tore<lb/>
+            off the still green leaves<lb/>
+            of the Ashes. A fine after-<lb/>
+            -noon. W<hi rend="sup">m</hi> &amp; I walked<lb/>
+            out at 4 o clock &#8211; went<lb/>
+            as far as Rothay Bridge<lb/>
+            met the Butcher&#8217;s man<lb/>
+            with a Lr from Monk<lb/>
+            Lewis. The country very<lb/>
+            wintry &#8211; some oaks quite<lb/>
+            bare &#8211; others more sheltered<lb/>
+            with a few green leaves <pb/> </p>
+                
+            <p>others with brown leaves &#8211;<lb/>
+            but the whole face of the<lb/>
+            country in a winter covering.<lb/>
+            We went early to bed</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [November 9<hi rend="sup">th</hi>] W<hi rend="sup">m</hi>
+                slept tolerably<lb/>
+            better this morning. &#8211;<lb/>
+            It was a frosty night we<lb/>
+            walked to Rydale after<lb/>
+            dinner, partly expecting<lb/>
+            to meet the Lloyds<lb/>
+            [illegible deleted word] Mr Simpson<lb/>
+            brought newspapers<lb/>
+            but met Molly with<lb/>
+            them &#8211; <hi rend="sup">W burnt the sheep fold</hi> &#8211; a rainy night</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday [November 10<hi rend="sup">th</hi>] I baked bread<lb/>
+            a fine clear frosty<lb/>
+            morning. We walked <pb/> </p>
+                
+            <p>after dinner &#8211; to Rydale<lb/>
+            village<lb/>
+            Jupiter over the Hill-<lb/>
+            =tops &#8211; the only star<lb/>
+            like a sun flashed<lb/>
+            out at intervals from<lb/>
+            behind a black cloud.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday Morning [November 11<hi rend="sup">th</hi>] walked to<lb/>
+            Rydale before dinner for<lb/>
+            letters. William had been<lb/>
+            working at the sheep-fold.<lb/>
+            They were salving sheep<lb/>
+            a rainy morning. The<lb/>
+            Lloyds drank tea with<lb/>
+            us. Played at Cards &#8211;<lb/>
+            Priscilla not well. We<lb/>
+            walked after they left<lb/>
+            us to the Top of the Rydale <pb/></p>
+                
+            <p>Hill then towards Mr<lb/>
+            Ollifs &amp; towards the<lb/>
+            village &#8211; A mild night<lb/>
+            partly cloudy partly star-<lb/>
+            -light &#8211; The cottage lights<lb/>
+            the mountains not very<lb/>
+            distinct</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [November 12<hi rend="sup">th</hi>] &#8211; we sate in the<lb/>
+            house all the day &#8211; Mr<lb/>
+            Simpson called &amp; found<lb/>
+            us at dinner &#8211; a rainy evening<lb/>
+            he staid the evening &amp;<lb/>
+            supper &#8211; I lay down after<lb/>
+            dinner with a headach.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday [November 13<hi rend="sup">th</hi>] <hi rend="sup">A stormy
+                    night</hi> &#8211; We sate in<lb/>
+            the house all the morning<lb/>
+            rainy weather &#8212; <pb/></p>
+                
+            <p>Old Mr Simpson, Mrs J<lb/>
+            &amp; Miss S. drank tea<lb/>
+            &amp; supped played at cards,<lb/>
+            found us at dinner &#8211; a<lb/>
+            poor woman from Haw-<lb/>
+            kshead begged &#8211; a widow<lb/>
+            of Grasmere &#8211; a merry<lb/>
+            African from Longtown</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday [November 14<hi rend="sup">th</hi>]. I had a bad<lb/>
+            head-ach. Much wind but <hi rendition="#smallest"><hi rendition="#sub">a sweet mild</hi></hi><lb/>
+            morning. I nailed up<lb/>
+            trees. Sent Molly Ash-<lb/>
+            =burner to excuse us<lb/>
+            to Lloyds &#8211; 2 letters from<lb/>
+            Coleridge &#8211; very ill.<lb/>
+            One from Sara H.<lb/>
+            on from S Lothian. I <pb/><lb/>
+            wrote to S Hutchinson &amp; received<lb/>
+            3£ from her</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday morning [November 15<hi rend="sup">th</hi>] a terrible<lb/>
+            rain so W<hi rend="sup">m</hi> prevented from<lb/>
+            going to Coleridges &#8211; The after<lb/>
+            noon fine &amp; mild I walked<lb/>
+            to the top of the hill for<lb/>
+            a head-ach. We both set<lb/>
+            forward at 5 o clock after<lb/>
+            tea &#8211; a fine wild but<lb/>
+            not cold night &#8211; I walked<lb/>
+            with him over the Rays<lb/>
+            it was starlight. I parted<lb/>
+            with him very sad unwilling<lb/>
+            not to go on &#8211; The hills<lb/>
+            &amp; the stars &amp; the white<lb/>
+            waters with their ever va<lb/>
+            -rying yet ceaseless sound <pb/><lb/>
+            were very impressive &#8211;<lb/>
+            I supped at the Simpsons<lb/>
+            Mr S. walked home with<lb/>
+            me &#8211; &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday 16<hi rend="sup">th</hi> November<lb/>
+            a very fine warm sunny<lb/>
+            morning a Letter from<lb/>
+            Coleridge &amp; one from Stod-<lb/>
+            -dart &#8211; Coleridge better…<lb/>
+            my head aching very much<lb/>
+            I sent to excuse myself<lb/>
+            to Lloyds &#8211; then walked<lb/>
+            to the Cottage beyond Mr<lb/>
+            Gell&#8217;s. One beautiful ash<lb/>
+            tree sheltered with yellow<lb/>
+            leaves &#8211; one low one<lb/>
+            quite green &#8211; some low <pb/></p>
+                
+            <p>ashes green &#8211; a<lb/>
+            noise of boys in the<lb/>
+            rocks hunting some<lb/>
+            animal. Walked a little<lb/>
+            in the garden when I<lb/>
+            came home &#8211; very pleasant.<lb/>
+            Now rain came on<lb/>
+            Mr Jackson called in the<lb/>
+            evening when I was at tea<lb/>
+            brought me a letter from<lb/>
+            C &amp; W &#8211; C better &#8211;.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday morning [November 17<hi rend="sup">th</hi>] &#8211; a fine<lb/>
+            clear frosty morning with a<lb/>
+            sharp wind. I walked to Kes-<lb/>
+            =wick, set off at 5 minutes<lb/>
+            past 10, &amp; arrived at ½<lb/>
+            past 2. I found them all <pb/><lb/>
+            <pb/><lb/>
+            <pb/><lb/>
+            well.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>On Tuesday [November 18<hi rend="sup">th</hi>] morning W &amp; C<lb/>
+            set off towards Penrith<lb/>
+            W<hi rend="sup">m</hi> met Sara Hutchinson<lb/>
+            at Threlkeld &#8211; they arrived<lb/>
+            at Keswick at tea-time.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [November 19<hi rend="sup">th</hi>] We walked<lb/>
+            by the lake side,<lb/>
+            &amp; they went to Mr<lb/> 
+            Denton&#8217;s. I called upon<lb/>
+            the Miss Cockyns.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday [20<hi rend="sup">th</hi>] &#8211; We spent<lb/>
+            the morning in the Town<lb/>
+            Mr Jackson &amp; Mr<lb/>
+            Peach dined with us <pb/></p>
+                
+            <p>Friday [November 21<hi rend="sup">st</hi>] a very fine day<lb/>
+            went to Mrs Greaves<lb/>
+            Mrs C &amp; I called upon<lb/>
+            the Speddings a beautiful<lb/>
+            Crescent moon &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Saturday morning [November 22<hi rend="sup">nd</hi>] after<lb/>
+            visiting Mr Peaches<lb/>
+            Chinese pictures we<lb/>
+            set off <hi rend="sup">to Grasmere</hi> &#8211; a threatening<lb/>
+            &amp; rather rainy morning.<lb/>
+            Arrived at G &#8211; very<lb/>
+            dirty &amp; a little wet<lb/>
+            at the closing in of Even-<lb/>
+            -ing &#8211; Wm not quite<lb/>
+            well <pb/></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Sunday [November 23<hi rend="sup">rd</hi>] Wm not well <lb/>
+            I baked bread &amp; pie for <lb/>
+            dinner. Sarah &amp; I walk<lb/>
+            -ed after dinner &amp; met <lb/>
+            Mr Gawthorpe &#8211; paid <lb/>
+            his bill &amp; he drank tea <lb/>
+            with us paid 5£ for <lb/>
+            Mr Bousfield &#8211; &#8211; &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday [November 24<hi rend="sup">th</hi>] a fine morning.<lb/>
+            Sara &amp; I walked to<lb/>
+            Rydale. After dinner<lb/>
+            we went to Lloyds<lb/>
+            &amp; drank tea &amp; supped<lb/>
+            a sharp cold night<lb/>
+            with sleet &amp; snow <pb/></p>
+                
+            <p>I had the tooth-ach in the<lb/>
+            night &#8211; took Laudanum</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday [November 25<hi rend="sup">th</hi>] very ill &#8211; in bed<lb/>
+            all day &#8211; better in the Evening<lb/>
+            I read Tom Jones &#8211; very<lb/>
+            sleepy slept all night</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [November 26<hi rend="sup">th</hi>] Well in the<lb/>
+            morning. W<hi rend="sup">m</hi> very well<lb/>
+            We had a delightful<lb/>
+            walk up into Eastdale.<lb/>
+            The Tops of the mountains<lb/>
+            covered with snow &#8211; frosty<lb/>
+            &amp; sunny &#8211; the roads slippery<lb/>
+            a letter from Mary<lb/>
+            The Lloyds drank tea. <pb/></p>
+                
+            <p>we walked with them<lb/>
+            near to Ambleside &#8211;<lb/>
+            a beautiful moonlight<lb/>
+            night &#8211; Sara &amp; I walked<lb/>
+            before home &#8211; William very<lb/>
+            well &amp; highly poetical</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday <hi rend="sup">27th November</hi> wrote to Tom<lb/>
+            Hutchinson to desire him<lb/>
+            to bring Mary with him from<lb/>
+            Stockton &#8211; a thaw &amp; the<lb/>
+            ground covered with snow<lb/>
+            Sara &amp; I walked before<lb/>
+            dinner. <del rend="strike">Miss Simpson</del><lb/>
+            <del rend="strike">Drank tea</del></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p><hi rend="sup">Friday</hi> [November 28<hi rend="sup">th</hi>]
+                Coleridge walked over<lb/>
+            Miss Simpsons drank <pb/> </p>
+                
+            <p>tea with us &#8211; William walked<lb/>
+            home with her. Coleridge<lb/>
+            was very unwell &#8211; he<lb/>
+            went to bed before W<hi rend="sup">m</hi>&#8217;s<lb/>
+            return &#8211; Great Boils<lb/>
+            upon his neck.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday [November 29<hi rend="sup">th</hi>] a fine day</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday 29<hi rend="sup">th</hi> November [30<hi rend="sup">th</hi>]<lb/>
+            A very fine clear morning<lb/>
+            Snow upon the ground<lb/>
+            every where &#8211; Sara &amp; I<lb/>
+            walked towards Rydale by<lb/>
+            the upper road &amp; were<lb/>
+            obliged to return &#8211; because<lb/>
+            of the snow walked by<lb/>
+            moonlight &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday [December 1<hi rend="sup">st</hi>] A thaw in<lb/>
+            the night &amp; the snow<lb/>
+            was entirely gone Sara<lb/>
+            &amp; I had a delightful<lb/>
+            Baking day little loaves<lb/>
+            <pb/> </p>
+                
+            <p>walk <del rend="strike">round</del> by the<lb/>
+            upper Rydale road &amp;<lb/>
+            Mr King&#8217;s &#8211; Coleridge<lb/>
+            unable to go home for<lb/>
+            his health &#8212; we walked by<lb/>
+            moonlight &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Tuesday December 2<hi rend="sup">nd</hi> a<lb/>
+            Rainy morning &#8211; Coleridge<lb/>
+            was obliged to set off &#8211;<lb/>
+             Sara &amp; I met C Lloyd<lb/>
+            &amp; P &#8211; turned back with<lb/>
+            them. I walked round<lb/>
+            the 2 lakes with Charles<lb/>
+            very pleasant &#8211; passing<lb/>
+            lights &#8211; I was sadly<lb/>
+            wet when we came <pb/></p>
+                
+            <p>home &amp; very cold &#8211; Pris<lb/>
+            -cilla drank tea with<lb/>
+            us &#8211; we all walked to<lb/>
+            Ambleside &#8211; a pleasant<lb/>
+            moonlight evening but<lb/>
+            not clear &#8211; Supped<lb/>
+            upon a hare &#8211; it came<lb/>
+            on a terrible evening<lb/>
+            hail &amp; wind &amp; cold<lb/>
+            &amp; rain &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday December 3<hi rend="sup">rd</hi> &#8211;<lb/>
+            We lay in bed till 11 o clock<lb/>
+            Wrote to John &amp; MH.<lb/>
+            <del rend="strike">Pork from Mr Simpson</del><lb/>
+            William &amp; Sara &amp; I<lb/>
+            walked to Rydale after <pb/></p>
+                
+            <p>tea &#8211; a very fine frosty<lb/>
+            night Sara &amp; W walked<lb/>
+            round the other side<lb/>
+            I was tired &amp; returned<lb/>
+            home &#8211; We went to bed<lb/>
+            early.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Thursday [December 4<hi rend="sup">th</hi>] &#8211; Coleridge<lb/>
+            came in just as we<lb/>
+            finished dinner &#8211; Pork<lb/>
+            from the Simpsons<lb/>
+            Sara &amp; I walked round<lb/>
+            the 2 lakes &#8211; a very<lb/>
+            fine morning. C. ate<lb/>
+            nothing to cure his boils<lb/>
+            We walked after tea<lb/>
+            by moonlight to look <pb/></p>
+                
+            <p>at Langdale covered with<lb/>
+            snow &#8211; the pikes not grand<lb/>
+            but the old man very<lb/>
+            impressive &#8211; cold &amp;<lb/>
+            slippery, but exceeding<lb/>
+            ly pleasant. Sat up till<lb/>
+            ½ past one</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Friday morning [December 15<hi rend="sup">th</hi>] terribly<lb/>
+            cold &amp; rainy Coleridge<lb/>
+            &amp; Wm set forwards<lb/>
+            towards Keswick but<lb/>
+            the wind in Coleridge&#8217;s<lb/>
+            eyes made him turn back<lb/>
+            Sara &amp; I had a<lb/>
+            grand bread &amp; cake<lb/>
+            baking we were very<lb/>
+            merry in the evening<lb/>
+            but grew sleepy soon <pb/></p>
+                
+            <p>tho&#8217; we did not go <lb/>
+            to bed till 12 o clock.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Saturday [December 6<hi rend="sup">th</hi>] W<hi rend="sup">m</hi> accompan<lb/>
+            ied Coleridge to the foot<lb/>
+            of the Rays &#8211; a very<lb/>
+            pleasant morning &#8211; Sara<lb/>
+            &amp; I accompanied him<lb/>
+            half way to Keswick.<lb/>
+            Thirlemere [illegible deleted word] was<lb/>
+            very beautiful &#8211; even<lb/>
+            more so than in summer<lb/>
+            William was not well<lb/>
+            had labored unsuccessfully<lb/>
+            Charles Lloyd had called<lb/>
+            Sara &amp; I drank tea<lb/>
+            with Mrs Simpson. <pb/></p>
+                
+            <p>A sharp shower met<lb/>
+            us &#8211; it rained a little<lb/>
+            when we came home<lb/>
+            Mr B S accompanied<lb/>
+            us &#8211; Miss S at Ambleside<lb/>
+            William tired &amp; not<lb/>
+            well &#8211; A letter from<lb/>
+            MH &#8212; </p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Sunday [December 7<hi rend="sup">th</hi>] a fine morning<lb/>
+            I read &#8211; Sara wrote to Hartley<lb/>
+            W<hi rend="sup">m</hi> to Mary, I to Mrs C<lb/>
+            We walked just before dinner<lb/>
+            to the Lake-side &amp; found<lb/>
+            out a seat in a tree windy<lb/>
+            but pleasant. Sara<lb/>
+            &amp; W<hi rend="sup">m</hi> walked to the water-<lb/>
+            =falls at Rydale. I was<lb/>
+            unwell &amp; went to bed <pb/></p>
+                
+            <p>till 8 o clock &#8211; a pleasant<lb/>
+            mild evening &#8211; Went to bed<lb/>
+            at 12 &#8211; Miss Simpson<lb/>
+            called</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Monday 8<hi rend="sup">th</hi> December &#8211; A sweet<lb/>
+            mild morning … I wrote to Mrs<lb/>
+            Cookson &amp; Miss Griffith</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Tuesday [December] 9<hi rend="sup">th</hi> I
+                <note place="foot" resp="editors"> DW seems first to have first
+                            written &#8220;we,&#8221; then superimposed &#8220;I&#8221; on second thoughts.
+                </note>
+                dined at<lb/>
+            Lloyds &#8211; W<hi rend="sup">m</hi> drank tea<lb/>
+            walked home a pleasant<lb/>
+            starlight frosty evening &#8211; reached<lb/>
+            home at one o clock &#8211; W<hi rend="sup">m</hi><lb/>
+            finished his poem today &#8211;</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Wednesday [December] 10<hi rend="sup">th</hi> walked to Keswick<lb/>
+            Snow upon the ground . . .<lb/>
+            A very fine day ate bread<lb/>
+            &amp; ale at John Stanley&#8217;s <pb/></p>
+                
+            <p>Found Coleridge better<lb/>
+            Stayed at Keswick till<lb/>
+            Sunday 14<hi rend="sup">th</hi> December.<lb/>
+            Monday [December 15<hi rend="sup">th</hi>] &#8211; Baking &amp; starching<lb/>
+            Tuesday [December 16<hi rend="sup">th</hi>] Ironing &#8211; the Lloyds<lb/>
+            called &#8211; Wednesday [December 17<hi rend="sup">th</hi>] a very<lb/>
+            fine day &#8211; Writing all<lb/>
+            the morning for William<lb/>
+            Thursday [December 18<hi rend="sup">th</hi>] Mrs Coleridge<lb/>
+            &amp; Derwent came &#8211; sweeping<lb/>
+            chimneys. Friday [December 19<hi rend="sup">th</hi>] &#8211; baking<lb/>
+            Saturday [December 20<hi rend="sup">th</hi>] Coleridge came<lb/>
+            very ill rheumatic, feverish<lb/>
+            Rain &#8211; incessantly &#8211; Monday [December 22<hi rend="sup">nd</hi>]<lb/>
+            S &amp; W<hi rend="sup">m</hi> went to Lloyds W<hi rend="sup">m</hi><lb/>
+            dined it rained very hard<lb/>
+            when he came home at…</p>
+                
+            <p> [from the other end of the book after stubs]</p>
+                
+            <p><hi rend="indent1">Epitaphs</hi><lb/>
+            Taken from the life of D<hi rend="sup">r</hi><lb/>
+            Franklin</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Here lie<lb/>
+            Tobias Franklin and Abiah his <hi rendition="#smallest"><hi rendition="#sub">wife</hi></hi><lb/>
+            They lived together with recipro<lb/>
+            =cal affection for fifty nine years;<lb/>
+            And without private fortune,<lb/>
+            Without lucrative employment.<lb/>
+            By assiduous labour &amp; honest<lb/>
+            industry decently supported a<lb/>
+            numerous family, &amp; educated with<lb/>
+            success thirteen children and<lb/>
+            seven grandchildren. Let this<lb/>
+            example, reader, encourage thee<lb/>
+            diligently to discharge the <pb/></p>
+                
+            <p>duties of thy calling, and rely<lb/>
+            on the support of divine Pro-<lb/>
+            -idence.<lb/>
+            <hi rend="indent1"> He was pious and prudent</hi><lb/>
+            <hi rend="indent1">She discreet and virtuous</hi><lb/>
+            Their youngest Son* from a senti=<lb/>
+            =ment of filial duty consecrates<lb/>
+            this stone to their memory—<lb/>
+            <hi rend="indent1">*D<hi rend="sup">r</hi> Franklin</hi></p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Epitaph written by D<hi rend="sup">r</hi> Frank=<lb/>
+            =lin many years before his<lb/>
+            death&#8212;</p>
+                
+            <p>The Body<lb/>
+             <hi rend="indent1">of</hi><lb/>
+            Benjamin Franklin Printer<lb/>
+            (Like the cover of an old book)<lb/>
+            the contents torn out, <pb/></p>
+                
+            <p>And stript of its lettering &amp; gilding]<lb/>
+            Lies here food for worms<lb/>
+            Yet the work itself shall not be lost<lb/>
+            For it will (as he believed) appear once more<lb/>
+            In a new<lb/>
+            And more beautiful edition.<lb/>
+            Corrected, and amended<lb/>
+            by<lb/>
+            The Author</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+                
+            <p>Epitaph taken from the<lb/>
+            Parish church of Long Newton<lb/>
+            in the county of Durham<lb/>
+            See Hutchinson history of Durham<lb/>
+            p. 168 &#8211; 3<hi rend="sup">rd</hi> Volume.<lb/>
+            (a figure of brasswork on the<lb/>
+            marble) <pb/></p>
+                
+            <p>Epitaph taken from the Parish Church-Yard<lb/>
+            of Marsh in the County of York</p>
+            
+            <p>A virtuous woman I have been<lb/>
+            And many troubles I have seen<lb/>
+            When I was alive I did my best<lb/>
+            But now my bones are laid at rest.</p>
+            </div>
+            
+            <lb/><milestone unit="section"/><lb/>
+            
+            <div type="section">
+            <p>Here lieth the <pb/></p>
+                
+            <p>Here lieth the Body of Sir George Vane interred<lb/>
+            May the first 1679 Second Son of S<hi rend="sup">r.</hi>
+                <del rend="strike">Henry</del> Henery<lb/>
+            Vane, some time principal Secretary of State <lb/>
+            To King Charles the first. He married Elizabeth,<lb/>
+            The Heiress of Sir Lionell Maddison of New-<lb/>
+            Castle upon Tyne, by whom he had thirteen<lb/>
+            Hopeful children viz foure Sons and nine Daughters.</p>
+                
+            <p>His Honour wonne i&#8217;th field lies here in dust<lb/>
+            His honours got by grace shall never rust<lb/>
+            The former fades, the latter shall faile never<lb/>
+            For why, he was S<hi rend="sup">r</hi> George once, b&#8217;t St. George ever.
+                <pb/></p>
+                
+            <p>The snow-tracks of my friends I see
+                <note place="foot" resp="editors">The lines that follow, all ultimately discarded, are
+                        draft material for WW&#8217;s &#8220;The Complaint of a Forsaken Indian
+                        Woman.&#8221;</note><lb/>
+            Their foot marks do not trouble me<lb/>
+            For ever left alone am I<lb/>
+            Then wherefore should I fear to die<lb/>
+            Me to the last my friends did cherish<lb/>
+            And to the last were good and kind<lb/>
+            Methinks ‘tis strange I did not perish<lb/>
+            The Moment I was left behind</p>
+                
+            <p>Why do I watch those running deer<lb/>
+            And wherefore, wherefore come they here<lb/>
+            And wherefore do I seem to love<lb/>
+            The things that live the things that move<lb/>
+            Why do I look upon the sky<lb/>
+            I do not live for what I see<lb/>
+            Why open thus mine eyes? to die<lb/>
+            Is all that now is left for me<lb/>
+            If I could smother up my heart<lb/>
+            My life would then at once depart <pb/></p>
+                
+            <p>My Friends you live &amp; yet you seem<lb/>
+            To me the people of a dream<lb/>
+            A dream in which there is no love<lb/>
+            And yet my friends you live &amp; move<lb/>
+            With [three illegible words] to [stream?]<lb/>
+            And can one hour to me remain<lb/>
+            [Seven illegible words]<lb/>
+            One moment one to me arrive<lb/>
+            When I could live without a pain<lb/>
+            And feel no wish to be alive<lb/>
+            In quiet hopelessness I sleep<lb/>
+            Alas how quiet and how deep!</p>
+                
+            <p>Ah no I do not cannot rue<lb/>
+            I did not strive to follow you<lb/>
+            I might have dropp&#8217;d &amp; died alone<lb/>
+            On unknown snows, a spot unknown<lb/>
+            This spot to me must needs be dear<lb/>
+            Oh my dear Friends I see the trace<lb/>
+            You saw me friends you laid me here<lb/>
+            <del rend="strike">This spot must needs to me be dear</del><lb/>
+            You know where my poor bones shall lie<lb/>
+            Then wherefore should I fear to die <pb/></p>
+                
+            <p>Alas that one beloved, forlorn<lb/>
+            Should lie beneath the cold starlight<lb/>
+            With them I think I could have borne<lb/>
+            The journey of another night<lb/>
+            And with my friends now far away<lb/>
+            I could have lived another day.
+                <note place="foot" resp="editors"> The reader must invert the notebook to read these
+                            last six lines of verse.</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

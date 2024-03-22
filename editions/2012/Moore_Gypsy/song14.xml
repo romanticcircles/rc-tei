@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<!DOCTYPE TEI SYSTEM "../src/tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>                 <title type="main">Gipsy Prince, "Oh me was born to wander"</title>                 <author>                     <name>Thomas Moore</name>                 </author> <respStmt>                     <resp>Editor, </resp>                     <name>Frederick Burwick</name>                 </respStmt>                 <respStmt>                     <resp>Technical Editor, </resp>                     <name>Laura Mandell</name>                 </respStmt>                 <respStmt>                     <resp>Technical Editor, </resp>                     <name>Justin Tonra</name>                 </respStmt>                 <sponsor> <orgName>Romantic Circles</orgName> </sponsor>                 <respStmt>                     <resp>General Editor, </resp>                     <name>Neil Fraistat</name>                 </respStmt>                 <respStmt>                     <resp>General Editor, </resp>                     <name>Steven E. Jones</name>                 </respStmt>             </titleStmt>             <editionStmt>                 <edition>2012-10-12</edition>             </editionStmt>             <extent/>             <publicationStmt>                 <!--<idno>mooreGipsySong1</idno>-->                 <publisher>Romantic Circles, http://www.rc.umd.edu, University of                     Maryland</publisher>                 <pubPlace>College Park, MD</pubPlace>                 <date when="2012-10-12">October 12, 2012</date>
+
+                <availability status="restricted">
+                    <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                        or disseminated in any manner without authorization unless it is for
+                        purposes of criticism, comment, news reporting, teaching, and/or classroom
+                        use as provided by the Copyright Act of 1976, as amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                        are copyrighted by the author/editor and may be shared only in accordance
+                        with the Fair Use provisions of U.S. copyright law. Except as expressly
+                        permitted by this statement, redistribution or republication in any medium
+                        requires express prior written consent from the author/editors and advance
+                        notification of Romantic Circles. Any requests for authorization should be
+                        forwarded to Romantic Circles:
+                        <address>
+							<addrLine>Romantic Circles</addrLine>
+							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>Department of English</addrLine>
+							<addrLine>University of Maryland</addrLine>
+							<addrLine>College Park, MD 20742</addrLine>
+							<addrLine>fraistat@umd.edu</addrLine>
+						</address>
+                    </p>
+                    <p>By their use of these texts and images, users agree to the following
+                        conditions: <list>
+                            <item>These texts and images may not be used for any commercial purpose
+                                without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any forms
+                                other than their current ones.</item>
+                        </list>
+                    </p>
+                    <p>Users are not permitted to download these texts and images in order to mount
+                        them on their own servers. It is not in our interest or that of our users to
+                        have uncontrolled subsets of our holdings available elsewhere on the
+                        Internet. We make corrections and additions to our edited resources on a
+                        continual basis, and we want the most current text to be the only one
+                        generally available to all Internet users. Institutions can, of course, make
+                        a link to the copies at Romantic Circles, subject to our conditions of
+                        use.</p>
+                </availability>
+            </publicationStmt>
+            <!-- <notesStmt>
+                 will change, indicating versions of Moore's play 
+                <note>Additional information on Gipsy Prince texts?</note>
+                </notesStmt> -->
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m">The Gypsy Prince</title>
+                        <author>Thomas Moore</author>
+                        <editor>Frederick Burwick</editor>
+                        <respStmt>
+                            <resp>Technical Editor</resp>
+                            <name>Justin Tonra.</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Encoding and Proofreading</resp>
+                            <name>Deborah K. Wright</name>
+                        </respStmt>
+                        <imprint>
+                            <publisher>Romantic Circles at the University of Maryland</publisher>
+                            <pubPlace>College Park Maryland</pubPlace>
+                            <date when="2011-05-01">May 1, 2011</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p><gi>Speaker</gi> element names have been regularised across this file and the
+                        Manuscript file, according to the names reproduced in the Dramatis Personae
+                        printed in the Historical Narrative: Don Roderic; Don Dominic; Gipsy Prince;
+                        Rincon; Old Jew; Alcaide; Alguazil(s); Officer(s); Messenger; Gipsies;
+                        Diego; Antonia; Poppee; Lachimee; Blanch; Alguazils, Peasants, Gipsies, etc.
+                        Note: the regularisation takes place only within <gi>speaker</gi> elements;
+                        it does not occur in the stage directions, text of the play or Dramatis
+                        Personae.</p>
+                </normalization>
+                <hyphenation>
+                    <p>All dashes have been represented with an emdash: <gi>&#x2014;</gi>, and
+                        surrounding whitespace has been deleted (except where dash is preceded by a
+                        full stop).</p>
+                </hyphenation>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+                        ‘, and ' for ’.</p>
+                </quotation>
+                <normalization method="markup">
+                    <p>Incorrect and idiosyncratic spelling has not been regularised; instances are
+                        marked by a <gi>sic</gi> element.</p>
+                </normalization>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy
+                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                    xml:id="genre">
+                    <bibl>NINES categories for Genre and Material Form at
+                        http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
+                        on 2009-02-26</bibl>
+                    <category xml:id="g1">
+                        <catDesc>Architecture</catDesc>
+                    </category>
+                    <category xml:id="g2">
+                        <catDesc>Artifacts</catDesc>
+                    </category>
+                    <category xml:id="g3">
+                        <catDesc>Bibliography</catDesc>
+                    </category>
+                    <category xml:id="g4">
+                        <catDesc>Collection</catDesc>
+                    </category>
+                    <category xml:id="g5">
+                        <catDesc>Criticism</catDesc>
+                    </category>
+                    <category xml:id="g7">
+                        <catDesc>Letters</catDesc>
+                    </category>
+                    <category xml:id="g6">
+                        <catDesc>Drama</catDesc>
+                    </category>
+                    <category xml:id="g8">
+                        <catDesc>Life Writing</catDesc>
+                    </category>
+                    <category xml:id="g9">
+                        <catDesc>Politics</catDesc>
+                    </category>
+                    <category xml:id="g10">
+                        <catDesc>Folklore</catDesc>
+                    </category>
+                    <category xml:id="g11">
+                        <catDesc>Ephemera</catDesc>
+                    </category>
+                    <category xml:id="g12">
+                        <catDesc>Fiction</catDesc>
+                    </category>
+                    <category xml:id="g13">
+                        <catDesc>History</catDesc>
+                    </category>
+                    <category xml:id="g14">
+                        <catDesc>Leisure</catDesc>
+                    </category>
+                    <category xml:id="g15">
+                        <catDesc>Manuscript</catDesc>
+                    </category>
+                    <category xml:id="g16">
+                        <catDesc>Reference Works</catDesc>
+                    </category>
+                    <category xml:id="g17">
+                        <catDesc>Humor</catDesc>
+                    </category>
+                    <category xml:id="g18">
+                        <catDesc>Education</catDesc>
+                    </category>
+                    <category xml:id="g19">
+                        <catDesc>Music</catDesc>
+                    </category>
+                    <category xml:id="g20">
+                        <catDesc>nonfiction</catDesc>
+                    </category>
+                    <category xml:id="g21">
+                        <catDesc>Paratext</catDesc>
+                    </category>
+                    <category xml:id="g22">
+                        <catDesc>Perodical</catDesc>
+                    </category>
+                    <category xml:id="g23">
+                        <catDesc>Philosphy</catDesc>
+                    </category>
+                    <category xml:id="g24">
+                        <catDesc>Photograph</catDesc>
+                    </category>
+                    <category xml:id="g25">
+                        <catDesc>Citation</catDesc>
+                    </category>
+                    <category xml:id="g26">
+                        <catDesc>Family Life</catDesc>
+                    </category>
+                    <category xml:id="g27">
+                        <catDesc>Poetry</catDesc>
+                    </category>
+                    <category xml:id="g28">
+                        <catDesc>Religion</catDesc>
+                    </category>
+                    <category xml:id="g29">
+                        <catDesc>Review</catDesc>
+                    </category>
+                    <category xml:id="g30">
+                        <catDesc>Visual Art</catDesc>
+                    </category>
+                    <category xml:id="g31">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="g32">
+                        <catDesc>Travel</catDesc>
+                    </category>
+                    <category xml:id="g33">
+                        <catDesc>Book History</catDesc>
+                    </category>
+                    <category xml:id="g34">
+                        <catDesc>Law</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="g6"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#DKW" when="2011-02" n="1">
+                <label>Changed by the editor</label>
+                <name xml:id="MC">Deborah K. Wright</name>
+                <list>
+                    <item>TEI-encoded using P5</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-02-16" n="2">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>Minor changes and corrections of <name>Deborah K. Wright</name>'s initial
+                        encoding.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-02-21" n="3">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>Some further changes: matter omitted from performance; editorial notes for
+                        illegible text; changes to cast list.</item>
+                </list>
+            </change>
+            <change who="#DKW" when="2011-02-23" n="4">
+                <label>Changed by the editor/encoder</label>
+                <name>Deborah K. Wright</name>
+                <list>
+                    <item>Some further changes, including adding to the cast list to account for the
+                        Chorus, other changes/comments in response to Justin's
+                        questions/comments.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-02-25" n="5">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>One minor change - removing superfluous square brackets from
+                        transcription, and adding tags to deleted word.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-07-07" n="6">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>Several minor changes: I have inserted corrections to the transcript that
+                        were identified by <name>Deborah K. Wright</name> after comparison against
+                        manuscript images.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-07-12" n="7">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>Regularisation of <gi>speaker</gi> names, detailed above in
+                            <gi>normalization</gi>.</item>
+                    <item>Regularisation of dashes to em dashes. Detailed above in
+                            <gi>hyphenation</gi>.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2011-07-13" n="8">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>Incorrect and idiosyncratic spellings from ms encoded with
+                        <gi>sic</gi>.</item>
+                </list>
+            </change>
+            <change who="#JT" when="2012-07-12" n="9">
+                <label>Changed by the editor</label>
+                <name>Justin Tonra</name>
+                <list>
+                    <item>This file is a modification of the original 'gipsy_ms' file. The change
+                        consists of the removal of the dramatic text from the file, and the encoding
+                        of songs using parallel segmentation. The dramatic text is encoded in a
+                        separate file entitled 'gipsy_ms_drama,' which contains <gi>anchor</gi>
+                        elements for the songs.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+
+	<text>
+		<front>
+			<div>
+				<listWit>
+					
+					<witness xml:id="a">Thomas Moore, The Gipsy Prince, A Comic Opera in Two Acts,
+						Now Performing with Universal applause at the Theatre Royal, Haymarket,
+						Compos'd &amp; Selected by Michael Kelly (Printed for Michael Kelly, to be
+						had at his Music Warehouse, No. 9 New Lisle Street, Leicester Square, &amp;
+						at all Music Shops [1801]).</witness>
+					<witness xml:id="b">Thomas Moore, Songs, Duets, Trios, and Choruses, in the
+						Gipsy Prince, a Musical Entertainment in Two Acts, first performed at the
+						Theatre-Royal, Hay-Market, July 24, 1801. The Overture and Musick Composed
+						and Selected by Mr. Kelly (London: Printed by T. Woodfall, Little Russell
+						Street , Covent Garden, for Mssrs. Cadell and Davies in the Strand, 1801). </witness>
+					<witness xml:id="c">The Gipsy Prince; or, The Loves of Don Sebastian de Nurillo,
+						and the Fair Antonia, translated from the Spanish. By C. Moor, Esq. To which
+						is added, The Corsair; or The Italian Nuptials. (London: J. Roach. 1801).
+						64pp. -- Front. dated Sept. 7, 1801. [BL shelfmark:
+						12330.e.37.(2.)].</witness>
+				</listWit>
+			</div>
+
+		</front>
+
+		<body>
+		    <div type="song" xml:id="song14">
+		        <sp who="#pop">
+		            <!-- Again, appears in a, b, and c. Not just b, as transcript suggests. -->
+		            <speaker><app>
+		                <rdg wit="#a #b #c">Poppee</rdg>
+		            </app></speaker>
+		            <lg>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Oh me was born to wander,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">No money me have got –</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">When father stole de gander,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">The mother boil de pot;</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">While me sing fal lal lal lal la</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#b #c">Forma notta junga.</rdg>
+		                    <rdg wit="#a">Fooma molta junga.</rdg>
+		                </app></l>
+		            </lg>
+		            
+		            <lg>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Under a hedge, one summer,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Me sat&#x2014;Oh, great de heat;</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Dere come little drummer,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">And gay rub dub he beat,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Den me sing, &amp;c.</rdg>
+		                </app></l>
+		            </lg>
+		            
+		            <lg>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Den me leave hedge and daddy,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Wid drummer lad to go,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">But faithless drummer laddy,</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Have left me full of woe.</rdg>
+		                </app></l>
+		                <l><app>
+		                    <rdg wit="#a #b #c">Still me sing, &amp;c.</rdg>
+		                </app></l>
+		            </lg>
+		        </sp>
+		    </div>
+		</body>
+	</text>
+</TEI>

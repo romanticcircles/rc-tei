@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title type="main">Dorothy Wordsworth's Lake District</title>
+                <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Notebook 15 of the Rydal Journals
+                    (DCMS 118.5, 4 October 1834–19 April 1835; 4 November 1835)
+                </title>
+                
+                
+                <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+                <author role="secondary">
+                    <name>Nick Mason</name>
+                </author>
+                
+                <editor role="editor">Nick Mason</editor> 
+                
+                
+                <funder>Brigham Young University College of Humanities</funder>
+                <principal>Paul Westover</principal>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Paul Youngquist</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Orrin N. C. Wang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Electronic Editions Editor</resp>
+                    <name>Michelle Speitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>T. J. McLemore</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Paul Youngquist</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>paul.youngquist@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+                <idno type="edition">editions.2022.DW.RJ-15-reading</idno>
+                <idno type="resource">DW</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Introduction to Notebook 15 of the Rydal Journals
+                            (DCMS 118.5, 4 October 1834—19 April 1835, 4 November 1835)
+                        </title>
+                        <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                        <ptr target="editions/DW/editions.2022.DW.RJ-15-reading"/>
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Dorothy Wordworth's Lake District</title>
+                        <title level="s">Editions</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags">Lake District</term>
+                    <term subtype="tags">landscape</term>
+                    <term subtype="tags">mapping</term>
+                    <term subtype="tags">travel</term>
+                    <term subtype="tags">walking</term>
+                    <term subtype="tags">women writers</term>
+                </keywords>
+                
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+                <name>Lavender Earnest</name>
+                <date>2022-09-09</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="essay">
+                <div type="paratext">
+                    <head>Notebook 15 of the <title level="m">Rydal Journals</title></head>
+                    <head type="subhead">(DCMS 118.5, 4 October 1834&#8211;19 April 1835; 4 November 1835)</head>
+                </div>
+                
+                
+                    <lb/><milestone unit="paratext"></milestone>
+                
+                <div type="paratext">
+                <head>
+                   <hi rend="center">[Inscription in DW&#8217;s hand on front cover]</hi>
+                </head>
+                
+                <p>
+                    <hi rend="center">Rydal Mount</hi>
+                    <lb/>
+                    
+                    <hi rend="center">D Wordsworth &#8211; Octob<hi rend="superscript">r</hi> 6<hi rend="superscript">th</hi> 1824
+                    <note place="foot" resp="editors">Clearly a mistake, as DW received this notebook in 1834, not 1824.</note>
+                    </hi></p>
+                    
+                    <p><hi rend="center">This book stitched by Miss</hi><lb/>
+                    <hi rend="center">Diana Dixon.</hi>
+                        <note place="foot" resp="editors">This final <title level="m">RJ</title> notebook was a gift from a
+                        child whose birth DW had noticed nearly a decade earlier in Notebook 1, where she records visiting
+                        Betty Dixon (née Slee, 1800&#8211;65) on 18 January 1825 to deliver a &#8220;handsome present&#8221;
+                        for her newborn daughter, Dinah (or Diana, 1825&#8211;93). Betty and her stonemason husband, Edward
+                        Dixon (1789&#8211;1830), lived on the edge of Grasmere in Easedale, and she may have known DW from
+                        having once worked at RM. Parish and census records show Diana growing up to work as a housemaid in
+                        Loughrigg before marrying Frank Garnett of Grasmere in 1852.</note>
+                        </p>
+                </div>
+                <lb/><milestone unit="paratext"></milestone>
+                    
+          <div type="section">
+            <head type="center">[October 1824]</head>
+              
+            <p><hi rend="bold">Saturday October 4<hi rend="superscript">th</hi>1834</hi><lb/>
+                a charming day &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WW">W<hi rend="superscript">m</hi> &amp; M[ary]</ref> arrive at night;
+                    <note place="foot" resp="editors">WW and MW had just returned from a two-week trip to Workington to visit
+                    their son John (who had recently become interim rector there), daughter-in-law Isabella, and new
+                    grandson, Henry Curwen Wordsworth (1834&#8211;65), who had been born on 30 July
+                    (<title level="m">Letters</title>, 5:743).</note>
+                but before them comes Prof. Sedgewick
+                    <note place="foot" resp="editors">Dr. Adam Sedgwick (1785&#8211;1873, <ref target="https://doi.org/10.1093/ref:odnb/25011">DNB</ref>),
+                    a renowned Cambridge geologist and friend of the Wordsworths since the early 1820s. In 1842 his research on Lake District
+                    geology would appear alongside WW&#8217;s <title level="m">Guide to the Lakes</title> in <title level="m">The Complete Guide to
+                    the Lakes</title> (Kendal: Hudson and Nicolson).</note>
+                &#8211; The wedding day &amp; if <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">D[ora]</ref> recollected it she did not tell me, &amp; we
+                let it pass unnoticed
+                    <note place="foot" resp="editors">WW and MW&#8217;s 32<hi rend="superscript">nd</hi> wedding anniversary, an event the entire household apparently commemorated.
+                    DW also mentions celebrating it in her <title level="m">RJ</title> entry for 2 October 1829.</note>
+                &#8211; &#8211; I have again had the resolution not to go out, beautiful as
+                the weather was; yet <hi rend="underline">so</hi> beautiful at home I could not but
+                be pleased with walking from room to room &amp; feeling &amp; seeing the lovely
+                sunshine &#8211; all well at Workington &#8211; The Grandson a noble Boy &#8211;</p>
+            
+            <p><hi rend="bold">Sunday 5<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">a very bright morning &amp; a pleasant day &#8211; till afternoon when rain came on, I had</hi>
+                not ventured out &#8211; Read in Bible &amp; a Sermon of Horsleys on prophesy, &amp; the
+                foundation of the Xtian faith
+                    <note place="foot" resp="editors">Samuel Horsley (1733&#8211;1806, <ref target="https://doi.org/10.1093/ref:odnb/13820">DNB</ref>),
+                     the late Bishop of St. Asaph best remembered for arguing, contra Joseph Priestley, that doctrines concerning the Trinity and
+                     the divinity of Christ were understood by the earliest Christians. With &#8220;Xt&#8221; being a conventional abbreviation for
+                     Christ, &#8220;Xtian&#8221; is shorthand for Christian.</note>
+                &#8211; also Herauts (to me) unintelligible Oration on the death of poor Coleridge
+                    <note place="foot" resp="editors"> John A. Heraud&#8217;s (1799&#8211;1887, <ref target="https://doi.org/10.1093/ref:odnb/13012">DNB</ref>)
+                    highly philosophical <title level="m">Oration on the Death of Samuel Taylor Coleridge, Esq. Delivered at the Russell Institution on Friday
+                    August 8, 1834</title> (London: Fraser, 1834).</note>
+                &#8211; Saw P[rof.] Sedgewick a chearful creature whom it does one good to look upon
+                &#8211; went to bed tired &amp; slept deeply till near nine &#8211; &amp; had
+                very little pain &#8211;</p>
+              
+              
+            <p><hi rend="bold">Monday 6<hi rend="superscript">th</hi> Octr.</hi><lb/>
+                <hi rend="indent1">A very fine morning, &amp; W<hi rend="superscript">m</hi> &amp; M gone to dine with</hi>
+                 M<hi rend="superscript">rs</hi> Fletcher.
+                    <note place="foot" resp="editors"> Eliza Fletcher (1770&#8211;1858, <ref target="https://doi.org/10.1093/ref:odnb/9724">DNB</ref>), a Scottish
+                     philanthropist and admirer of WW who had rented Keen Ground near Hawkshead for the fall and winter of 1834&#8211;35
+                     (<hi rend="italic">Autobiography of Mrs. Fletcher</hi>, 78, 89, 221).</note>
+                They took D[ora] to Ambleside &amp; left her with M<hi rend="superscript">rs</hi> Hoare.
+                    <note place="foot" resp="editors">Hannah Hoare (née Sterry, 1769&#8211;1856), a Quaker friend
+                    of the Wordsworths from London, was spending six weeks at Fox Ghyll (in the absence of its
+                    present owner, Letitia Luff) with her step-daughter Sarah Hoare (1777&#8211;1856) 
+                    (<hi rend="italic">Letters,</hi> 5:726; WLL / Wordsworth, Dora / 1 / 59). Mrs. Hoare&#8217;s late
+                    husband, Samuel (1751&#8211;1825), had been a prominent banker, abolitionist, and poetry
+                    enthusiast, and during the 1820s and 1830s the Wordsworths regularly stayed at their Hampstead
+                    home.</note>
+                Diana Dixon
+                    <note place="foot" resp="editors">During this visit, the nine-year-old Grasmere girl presented DW with the notebook in which she was
+                        now writing.</note>
+                has been with me nearly 2 hours &#8211; a good-natured obliging Girl whom I always like to see &#8211;
+                She took home 2 Ruggs to fringe for me.
+                    <note place="foot" resp="editors"> Rug-making was apparently a new hobby for DW, as she only first
+                     mentioned it in her entry for 22 March 1834.</note>
+                Showers in afternoon &#8211; W<hi rend="superscript">m</hi> M &amp; D. arrive when I was
+                asleep &#8211; prayers up stairs
+                    <note place="foot" resp="editors">Possibly another new practice, as after first being
+                        mentioned in DW&#8217;s entry for 23 February 1834, family prayer is regularly
+                        noted thereafter.</note>
+            </p>
+              
+             <p><hi rend="bold">Tuesday 7<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Very rainy &#8211; a bad prospect for Penrith Races
+                    <note place="foot" resp="editors">A two-day horse race held in Penrith (23 miles northeast of Rydal) every October since 1824.
+                    The Wordsworths had a remote connection to this event, as WW and DW&#8217;s eldest brother, Richard, had owned the race-course
+                    until 1816 (co-owning it with MW&#8217;s cousin Tom Monkhouse until 1811). See Gordon Graham Wordsworth’s notes in WT MS WLMS 7
+                    / 66.</note>                            <!--Link for Willy and the Marshalls-->
+                &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Willy">Willy</ref> goes today to Hallsteads<hi rend="superscript">†</hi></hi>
+                    <note place="foot" resp="editors">En route to the races, Willy stayed at Hallsteads,
+                        <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Marshall">the Marshalls&#8217;</ref> Ullswater home seven miles from Penrith.</note>       <!--Add anchor here to Marshalls and Godwin-->
+                 &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Godwin">M<hi rend="superscript">r</hi> Godwin</ref> calls to take leave &#8211; I have been writing
+                two letters for W<hi rend="superscript">m</hi> &#8211; (to M<hi rend="superscript">r</hi> Twining
+                    <note place="foot" resp="editors">Robert Twining, the famous London tea merchant, whom WW would visit in 1836 (<hi rend="italic">Letters</hi>,
+                    6:270).</note>
+                &amp; M<hi rend="superscript">r</hi> Moxon
+                    <note place="foot" resp="editors">Edward Moxon (1801&#8211;58, <ref target="https://doi.org/10.1093/ref:odnb/19463">DNB</ref>),
+                     WW&#8217;s London publisher. Writing on her brother&#8217;s behalf, DW asked Moxon to consider publishing a new verse              <!--link to C Godwin-->
+                        collection by Catherine Godwin (<title level="m">Letters</title>, 5:743).</note>)
+                &#8211; Last night received Adam Clarke&#8217;s Life from S. H. &#8211; the beginning very
+                interesting &#8211; I read above 70 pages before closing the Book
+                    <note place="foot" resp="editors">A year after the popular Methodist preacher and theologian Adam Clarke (1762&#8211;1832, 
+                    <ref target="https://doi.org/10.1093/ref:odnb/5483">DNB</ref>) died from cholera amid the nationwide
+                    epidemic of 1832, his son Joseph published <title level="m">An Account of the Infancy, Religious and Literary Life of Adam Clarke</title>
+                    (London: T. S. Clarke, 1833). The opening 70 pages recount his Irish Protestant heritage, early love of books, and recurring brushes with
+                    death. SH presumably sent this copy from Robert Southey&#8217;s large library at Greta Hall, where she was staying.</note>
+                &#8211; no further accounts from York[.]                    
+                    <note place="foot" resp="editors">Concerning Edith Southey, who had been admitted to a mental asylum in York.</note>
+              Could not have the family to prayers.
+            </p>
+              
+            <p><hi rend="bold">Wednesday 8<hi rend="superscript">th</hi> Octr.</hi><lb/>
+                <hi rend="indent1">Again very rainy &#8211; after a painful &amp; disturbed night pretty well this morning.</hi>
+                Poor Willy, &amp; the Penrith races! This rain must make &amp; keep all persons
+                &amp; things dull &#8211; Still much interested with A[dam] C[larke] but could hardly read
+                last night &#8211; a great mortification for all the morning busy &#8211; W<hi rend="superscript">m</hi>
+                called at <hi rend="/editions.DW.editions.2023.DW.RJ-15-index.html#T_Paisley">Sir T Paisley&#8217;s</hi> / water closet
+                    <note place="foot" resp="editors"> WW appears to have reported that the Pasleys were
+                        planning to have a water closet&#8212;a novel enough amenity to warrant
+                        mentioning&#8212;at The Craig, the home they were building near Bowness.</note> &#8212;
+            </p>
+              
+            <p><hi rend="bold">Thursday 9<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Rain &amp; wind as before yet worse. M<hi rend="superscript">rs</hi> Hoare
+                    <note place="foot" resp="editors">Hannah Hoare, who was staying at Fox Ghyll (see note for 6 October).</note>
+                has not been able to come all this week</hi>
+                &#8211; but W. has called 2 or 3 times, &amp; Mary twice.
+            </p>
+              
+            <p><hi rend="bold">Friday 10<hi rend="superscript">th</hi> October</hi><lb/>
+                <hi rend="indent1">Very fine morning [&#8211;] all the party from Inn &amp; Miss Bland
+                    <note place="foot" resp="editors">Sarah Bland (1810&#8211;1905), a niece of the Elliotts visiting from Hastings (see <title level="m">RMVB</title>). 
+                        Her mother, Sophia Bland (née Maltby, 1774&#8211;1849), was Anna Maria Elliott&#8217;s younger sister.</note>
+                call except L Ll.</hi>
+                <note place="foot" resp="editors">Louisa Lloyd (1814&#8211;69), <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Lloyd">Owen&#8217;s</ref> 20-year-old
+                        sister.</note>
+                A shower about one but clears away &amp; not much more
+                rain, but bright gleams &#8211; &amp; very clear moonlight in Evening &#8211; First view I have
+                had of moon and alas! it is <hi rend="underline">half</hi>-size
+                    <note place="foot" resp="editors">The new moon of 2 October became full on 17 October.</note>
+                &#8211; I was weak &amp; poorly on rising &#8211; appeared below in new <hi rend="underline">yellow</hi>
+                shawl &amp; D. exclaimed &#8220;how dreadfully it makes you look![&#8221;] &#8211; much better in
+                Evening after sleep &#8211; indeed unusually well and lightsome
+                    <note place="foot" resp="editors"> Cheerful.</note>
+            </p>
+              
+            <p><hi rend="bold">Saturday 11<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Very fine morning, &amp; though in pain at 9 was soon well again, &amp; rose at 10.</hi>
+                Read of Sir Joseph Gilpin&#8217;s death at the age of 90. Much admired &amp; respected
+                &amp; beloved at Carlisle.
+                    <note place="foot" resp="editors">Sir Joseph Dacre Appleby Gilpin (17451&#8211;834), youngest
+                    brother of the renowned aesthetic theorist William Gilpin. After a quarter century as a military
+                    doctor, he had retired to his native Carlisle, where he served several terms as the city&#8217;s mayor
+                    (Jefferson, <title level="m">History and Antiquities</title>, 429&#8211;30).</note>
+                The Party preparing for Car to Ambleside &#8211; I dare not face the frosty, though
+                clear air, with warm sunshine. The Twiss&#8217;s farewell visit in Evening
+                    <note place="foot" resp="editors">The family of Horace Twiss (1787&#8211;1849, 
+                    <ref target="https://doi.org/10.1093/ref:odnb/27917">DNB</ref>), a London lawyer,
+                    conservative politician, and nephew of the legendary actress Sarah Siddons, had
+                    been vacationing nearby. An earlier <title level="m">RJ</title> entry records Lord
+                    Lowther introducing them to the Wordsworths on 31 August 1834.</note>
+                &#8211; Lovely moonlight.
+            </p>
+              
+            <p><hi rend="bold">Sunday 12<hi rend="superscript">th</hi> Oct<hi rend="superscript">r</hi>.</hi><lb/>
+                Damp &amp; cold &#8211; small rain &#8211; The Hoares at Church but did not come up &#8211; comfortable
+                afternoon, tho&#8217; much fatigued at bed-time (5 o&#8217;clock[)] &#8211; Prayers &#8211; &amp; a
+                beautiful Lecture from St Luke &#8211; on the duties &amp; offices of the Apostles &amp;
+                Disciples of Xt.
+                    <note place="foot" resp="editors">Chapter 10 of the Gospel of St. Luke.</note>
+                Read a sermon of Horsley &#8211; again on prophesy (St Peter)
+                    <note place="foot" resp="editors">See note for 5 October.</note>
+                &#8211; No company all day &#8211;
+            </p>
+                 
+            <p><hi rend="bold">Monday 12<hi rend="superscript">th</hi> [13<hi rend="superscript">th</hi>]</hi><lb/>
+                    <note place="foot" resp="editors">After identifying consecutive days as the 12th, DW&#8217;s dates would be off
+                    by one until 25 October.</note>
+                Cold clear air &#8211; &#8211; It has suited me, with great Cure &#8211; could not have prayers
+            </p>
+                 
+            <p><hi rend="bold">Tuesday 13<hi rend="superscript">th</hi> [14<hi rend="superscript">th</hi>]</hi><lb/>
+                After heavy rain in night an uncertain day &#8211; yet M<hi rend="superscript">rs</hi>
+                Hoare came on foot, with a bad cold &#8211; &amp; W<hi rend="superscript">m</hi> &amp; M
+                are gone to Calgarth
+                <note place="foot" resp="editors">Windermere estate of the widow and daughters of the late Richard Watson,
+                Bishop of Llandaff (1737&#8211;1816, <ref target="https://doi.org/10.1093/ref:odnb/28857">DNB</ref>).</note>
+                &#8211; Saw D<hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi> Jackson
+                    <note place="foot" resp="editors">William (1792&#8211;1878) and Julia Jackson (née Crump, 1793&#8211;1873), long-time
+                    sweethearts from Grasmere who had married in 1829. His father had been Grasmere&#8217;s long-time minister, and, following
+                    the same career path, William had earned a doctorate in divinity and become Rector of Lowther. Julia was the eldest daughter
+                    of John Gregory Crump (1768&#8211;1844), the Liverpool attorney who had built Allan Bank and leased the house to the Wordsworths
+                    from 1808&#8211;11.</note>
+                on the road &#8211; a sad account of our dear good Friend Eliz<hi rend="superscript">th</hi> Wardell.
+                    <note place="foot" resp="editors">Elizabeth Wardell (née Crump, 1806&#8211;35), a younger sister of Julia Jackson and close
+                    childhood friend of Dora. Earlier in the <title level="m">RJ</title>, DW records staying with her and her new husband, William
+                    Wardell, in Liverpool in 1826 (31 October 1826). The illness to which DW alludes would prove fatal in March 1835 
+                    (<title level="m">Letters</title>, 4:172, 5:75&#8211;76; <ref target="http://collections.wordsworth.org.uk/wtweb/home.asp?page=Letters%20item%20details&amp;mwsquery=%7bTopic%20id%7d=%7bperson-Crumpe-Elizabeth%7d&amp;id=164">
+                    WT MS WLMS A / Coleridge, Sara / 36</ref>).</note>
+                &#8211; I had very Easy evening &#8211; both worked &amp; read after sleep &#8211; still
+                much interested with D <hi rend="superscript">r</hi> A. Clarke
+                    <note place="foot" resp="editors">The religious biography DW had been attentively
+                    reading since 7 October.</note>
+                yet there is much matter of a kind uninteresting to the General Reader &#8211; i e &#8220;Records
+                Bible Societies[&#8221;] &amp;c &amp;c . . .
+            </p>
+                 
+            <p><hi rend="bold">Wednesday 14 [15<hi rend="superscript">th</hi>]</hi><lb/>
+                Uncertain weather &#8221; sunny gleams &amp; heavy showers &#8221; I think M<hi rend="superscript">rs</hi>
+                Hoare will not venture to Keswick, as fixed. Many letters from S H &#8221; not very
+                cheering (last night)
+                    <note place="foot" resp="editors">Likely discouraging reports from Keswick about
+                        Edith Southey&#8217;s condition in York.</note>
+                [&#8211;] This morning brings a very amiable &amp; pleasant letter from William
+                    <note place="foot" resp="editors">Presumably from her nephew Willy in Carlisle.</note>
+                &#8211; quite well today (for me) [&#8211;] Fine moonlight
+            </p>
+                 
+            <p><hi rend="bold">Thursday 15<hi rend="superscript">th</hi> [16<hi rend="bold superscript">th</hi>]</hi><lb/>
+                <hi rend="indent1">Charming Morning &#8211; M<hi rend="superscript">r</hi> Crumpe&#8217;s Sale</hi>
+                    <note place="foot" resp="editors">Having just sold Allan Bank to Thomas Dawson, John Crump was now selling its furnishings
+                    (<title level="m">Letters,</title> 5:731).</note>
+                &amp; the Jacksons dine here; but I was too unwell to see them till too late (when
+                M<hi rend="superscript">rs</hi> J. was going) &#8211; no prayers with the family &#8211;
+            </p>
+                 
+            <p><hi rend="bold">Friday 16<hi rend="superscript">th</hi> [17<hi rend="superscript">th</hi>]</hi> 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#T_Carr">M<hi rend="superscript">r</hi> Carr</ref> calls &amp; every one is out &#8211; W<hi rend="superscript">m</hi>
+                at Hawkshead with J. C.
+                    <note place="foot" resp="editors"> Likely either John Crump (in town for the sale) or WW&#8217;s
+                    secretary John Carter (1796&#8211;1863).</note>
+                D[ora] at Ambleside &#8211; Mary at Sale &#8211; &amp; dines with Miss Dixon
+                    <note place="foot" resp="editors">Possibly the Miss Dixon of Storrs Hall near Bowness with whom the Wordsworths
+                    occasionally socialized (<title level="m">Letters</title>, 4:576, 5:271).</note>
+                &#8211; Rainy evening comes on with high wind &amp; hail-showers &#8211;
+                dimming Moon now &amp; then &#8211; well this evening after fits of pain &amp;c
+                &amp;c [&#8211;] spasms [&#8211;] Great storm in night.
+            </p>
+                 
+            <p><hi rend="bold">Saturday 17<hi rend="superscript">th</hi> [18<hi rend="superscript">th</hi>]</hi><lb/>
+                <hi rend="indent1">Fine morning &#8211; frosty air [&#8211;] <ref target="indent1">Hannah Cookson</ref> putting leeches on
+                Dora&#8217;s Back
+                    <note place="foot" resp="editors"> A common method for blood-letting.</note></hi>
+                &#8211; God grant a perfect cure! So little we know what is for the best, I now 
+                see cause to rejoice that she did not leave home, as we entreated her to do.
+                    <note place="foot" resp="editors"> A month earlier, the family had considered sending Dora to the warmer and
+                    drier south of England for the winter (<title level="m">Letters</title>, 5:737; <title level="m">LSH</title>,
+                    435).</note>
+                This morning, I read of 3 persons in one house having died of Cholera in Furness
+                in the course of not many hours &#8211; all the furniture burnt except a clock.
+                    <note place="foot" resp="editors"> Details found in the <title level="m">WG&#8217;s</title> 18 October
+                        article on <title level="a">The Cholera in Low Furness.</title></note>
+            </p>
+                 
+            <p><hi rend="bold">Sunday 18<hi rend="superscript">th</hi> [19<hi rend="superscript">th</hi>] 
+                Octob<hi rend="superscript">r</hi></hi> &#8211; Damp &amp; comfortless Gloom &#8211; Poor D very
+                weakly &#8211; Great packets of letters &#8211; news a <hi rend="underline">little</hi> better
+                from York
+            </p>
+                 
+            <p><hi rend="bold">Monday 19<hi rend="superscript">th</hi> [20<hi rend="superscript">th</hi>]</hi><lb/>
+               <hi rend="indent1">I had not an easy day &amp; poor D. very languid. M<hi rend="superscript">rs</hi>
+                &amp; Miss Hoare came up to see me</hi> &#8211; On Sunday (i e yesterday[)] news of the burning
+                of Houses of Parliament reached us,
+                    <note place="foot" resp="editors">On 16 October, the ancient Palace of Westminster, where Parliament had met since the
+                    mid-sixteenth century, was largely destroyed by an accidental fire. The new neo-gothic house of parliament erected in
+                    its place would not open until 1847.</note>
+                thro&#8217; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#T_Hamilton">M<hi rend="superscript">r</hi> Hamilton</ref> whom Mary saw at Church &#8211;
+                Could not have the Reading up stairs [&#8211;] Dreadful storm in the night [&#8211;]
+                Ash tree torn &amp; mangled
+            </p>
+                 
+            <p><hi rend="bold">Tuesday 20<hi rend="bold">th</hi> [21<hi rend="superscript">st</hi>]</hi><lb/>
+                <hi rend="indent">A sad painful morning &amp; not up all day &#8211; M<hi rend="superscript">r</hi> Carr in
+                the Evening &#8211; Dora a little</hi> better
+            </p>
+                 
+            <p><hi rend="bold">Wednesday 21<hi rend="superscript">st</hi> [22<hi rend="superscript">nd</hi>]</hi>
+                a fair morning &#8211; Did not see M<hi rend="superscript">r</hi> Carr when he visited Dora &#8211;
+                after sitting up 2 hours forced to Bed again &#8211; Busy with Collingwood
+                    <note place="foot" resp="editors">Likely <title level="m">A Selection from the Public and Private Correspondence of 
+                     Vice-Admiral Lord Collingwood</title>, which had gone into several editions since its 1828 release. Baron Cuthbert
+                     Collingwood (1748&#8211;1810, <ref target="https://doi.org/10.1093/ref:odnb/5930">DNB</ref>)
+                     was a hero of Trafalgar who served thereafter as commander-in-chief of the Mediterranean fleet before
+                        dying of cancer in 1810.</note>
+                &amp; the Book of Genesis &#8211; B[ottle] at supper
+                    <note place="foot" resp="editors">The first of several discrete notes in this notebook logging DW&#8217;s having opened
+                    a new bottle of laudanum, the tincture of brandy and opium widely prescribed during this period for chronic pain. She
+                    had apparently been taking it for at least two years, as evidenced by WW&#8217;s 29 January 1833 report that Mr.
+                    Carr had &#8220;ordered her allowance of brandy and opium to be considerably increased&#8221; (<title level="m">Letters</title>, 5:583).</note>
+            </p>
+                 
+            <p><hi rend="bold">Thursday 22<hi rend="superscript">nd</hi> [23<hi rend="superscript">rd</hi>]</hi><lb/>
+                <hi rend="indent1">Not up all day &#8211; weak &amp; weary &#8211; wind &amp; storm but little Rain</hi>
+            </p>
+                 
+            <p><hi rend="bold">Friday 23<hi rend="superscript">rd</hi> [24<hi rend="superscript">th</hi>]</hi><lb/>
+                <hi rend="indent1">very blustery [&#8211;] fine Ash sadly mangled &#8211; Dora rather better &#8211; I improve; 
+                but still</hi> in bed &#8211; Calls from M<hi rend="superscript">rs</hi> &amp; Miss H[oare] &amp;
+                M<hi rend="superscript">rs</hi> Harrison &#8211; 5 o clock tired with Book &amp; work &#8211;
+                much sleep &#8211; Marys letter from M<hi rend="superscript">rs</hi> Marshall
+                    <note place="foot" resp="editors">Possibly indicates that Jane Pollard Marshall had sent her a message through MW,
+                     who had taken over much of DW&#8217;s correspondence with old friends (<hi rend="italic">LMW</hi>, 135&#8211;37).</note>
+            </p>
+                 
+            <p><hi rend="bold">Saturday 25</hi><hi rend="superscript">th</hi><lb/>
+               <hi rend="indent1">very bright with brisk wind &amp; frosty air, which suits not me. S[ara] H[utchinson] &amp;</hi>
+               Cuthbert Southey
+                    <note place="foot" resp="editors">SH wrote on 3 November that she and the Southeys&#8217;
+                        15-year-old son had taken a &#8220;poney chair&#8221; from Keswick to Workington, where
+                        they &#8220;spent 2 very pleasant days at the Rectory&#8221; with John and Isabella
+                        Wordsworth (<hi rend="italic">LSH</hi>, 435).</note>
+                have a fine day to go to Workington. Better news of M<hi rend="superscript">rs</hi> S[outhey] 
+                &#8211; prayers up stairs again.
+            </p>
+              
+            <p><hi rend="bold">Sunday 26<hi rend="superscript">th</hi></hi> Very fine &amp; bright, but too cold
+                for me &#8211; Plan from Miss Rickman of Palace Yard &amp;c, &amp; the fire
+                    <note place="foot" resp="editors">Anne Rickman (1809&#8211;98), whose home in Palace Yard had been destroyed in the
+                    conflagration of 16 October. This residence was part of the compensation her father, John Rickman (1771&#8211;1840, 
+                    <ref target="https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-23605?rskey=uwngvQ&amp;result=4">
+                    DNB</ref>), had received as secretary to the speaker of the house, a position he had held
+                    since 1801. The Wordsworths presumably knew the family through Robert Southey, who was among John
+                    Rickman&#8217;s closest friends.</note> 
+                [&#8211;] The Bell tol[le]d for poor M<hi rend="superscript">rs</hi> Irving this morning 
+                &#8211; a happy release from long painful sickness
+                    <note place="foot" resp="editors">Jane (née Mavity, 1789&#8211;1834), wife of Thomas Irving (1782&#8211;1847), a sheep
+                     farmer who leased Cote How at the foot of Rydal Hill from the 1810s through his death in 1847. The <title level="m">WG</title>
+                        for 1 November noted that Mrs. Irving had passed away on 25 October &#8220;after a
+                        tedious illness, borne with patience and resignation.&#8221;</note>
+                &#8211; Dora better, but far, very far from well &#8211; I hope the last week&#8217;s storm
+                is over, but the air too cold for me &#8211; With a large fire, Thermom<hi rend="superscript">r</hi>
+                at 60
+            </p>
+              
+            <p><hi rend="bold">Monday 27</hi> a Fine cold day &#8211; I sate up 3 hours; but am very weak in
+                Limbs &amp; body &#8211; W<hi rend="superscript">m</hi> &amp; M at Storrs
+                    <note place="foot" resp="editors">The expansive estate south of Bowness that John Bolton (1756&#8211;1837, 
+                    <ref target="https://doi.org/10.1093/ref:odnb/107413">DNB</ref>) bought in 1806
+                    with the immense fortune he made through the transatlantic slave trade.</note> &#8211; home with beautiful flowers
+            </p>
+              
+            <p><hi rend="bold" xml:space="preserve">Tuesday 28 </hi>&#8211; Wind high &#8211; &amp; always so &#8211;
+                frequent shipwrecks
+                    <note place="foot" resp="editors">The <hi rend="italic">Kendal Mercury</hi> reported on 8 November that, &#8220;in
+                    consequence of the severe gales during the last week, no less than 56 vessels have been totally wrecked or run ashore
+                    on the coasts of England and Holland&#8221; and that &#8220;the loss of life also has been considerable&#8221; (4).
+                    DW had been especially sensitive to such tragedies since her brother John&#8217;s death at sea in 1805.</note>
+                &#8211; I do not regain my strength &amp; Inside painful &#8211; Anne comes home
+                    <note place="foot" resp="editors">Ann Dawson (b. 1800?), the live-in cook and maid at RM from 1823&#8211;42.
+                    </note> &#8211;
+            </p>
+              
+            <p><hi rend="bold">Wednesday 29</hi><hi rend="superscript">th</hi> &#8211; Still blustery &#8211;
+                W<hi rend="superscript">m</hi> at Funeral with M<hi rend="superscript">r</hi> Carr
+                <note place="foot" resp="editors">For Jane Irving (see 26 October).</note>
+                &#8211; I do not get as well as before last Tuesday week.
+            </p>
+              
+            <p><hi rend="bold">Thursday [30 Oct.]</hi> &#8211; Just the same &#8211; blustery weather
+                &amp; Self weakly &#8211; Volumes of letters to read! (15 in number) [&#8211;] Better
+                news of M<hi rend="superscript">rs</hi> Southey &#8211; I hope Dora is doing well under
+                the painful &amp; weakening process of blisters &amp;c
+                    <note place="foot" resp="editors">WW reported on 21 November that Mr. Carr, &#8220;having no doubt that an
+                    inflammation on the spine exists, has put [Dora] under a course of treatment &#8211; bleeding, blistering,
+                    and an almost perpetual recumbent posture&#8221; (<title level="m">Letters</title>, 5:747). Blistering was
+                    considered an effective method for drawing internal inflammation out of the body.</note> &#8211;
+            </p>
+              
+            <p><hi rend="bold">Friday [31 Oct.]</hi> &#8211; very windy &#8211; Diana Dixon,
+                    <note place="foot" resp="editors">The Grasmere girl who had presented DW with this notebook earlier in the month.</note>
+                who came to see us blown on by the north wind &#8211; I rose at one &#8211;
+                now (at 4) have dined &amp; grow tired
+            </p>
+              
+          </div>
+                
+          <div type="section">
+            <head type="center">[November 1834]</head>
+              
+            <p><hi rend="bold">Saturday [1 Nov.]</hi> &#8211; a Fine day, till evening &#8211; but
+                cold &#8211; I feel the cold sadly &#8211;
+            </p>
+              
+            <p><hi rend="bold">Sunday [2 Nov.]</hi> &#8211; Dull &amp; wet &#8211; still
+                poorly but not much.
+            </p>
+              
+            <p><hi rend="bold">Monday, 3<hi rend="superscript">rd</hi> November</hi> &#8211; Dull morning, but
+                little wind &amp; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WW">W W</ref> sets off to Lowther in        <!--Is this internal link correct? Is there any way to get it to go directly to WW?-->
+                Sir <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Paisley">T[homas] P[asley]</ref>&#8217;'s carriage
+                    <note place="foot" resp="editors">A week-long visit to Lowther (22 miles northeast of Rydal) to meet with his friend,
+                        patron, and political ally William Lowther, 1st Earl of Lonsdale (1757&#8211;1844).</note>
+                &#8211; Heavy rain comes on, &amp; alas! strong wind; but from the South &#8211; 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#T_Carr">M<hi rend="superscript">r</hi> Carr</ref> calls
+                &#8211; pronounces <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">Dora</ref> better &amp; promises
+                himself to treat her with Leeches &amp; another blister in a few days &#8211;
+            </p>
+              
+            <p><hi rend="bold">Tuesday Nov<hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi></hi>
+                &#8211; very blustery &amp; wet (South wind) &#8211; Busy &amp; worn out finishing
+                M<hi rend="superscript">rs</hi> Hook&#8217;s
+                    <note place="foot" resp="editors">Ann Hook (née Farquhar, 1774&#8211;1844), widowed sister of <ref target="editions.2022.DW.RJ-15-index">Lady Farquhar&#8217;s</ref>
+                    first husband, Sir Robert Townsend Farquhar. In the autumn of 1832, Mrs. Hook had spent ten weeks at Fox Ghyll with Lady Farquhar and 
+                        <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Luff">Letitia Luff</ref> (<hi rend="italic">Letters</hi>, 5:566, 712&#8211;13).</note>
+                Rug &#8211; to be sent off tomorrow &#8211; Jane
+                    <note place="foot" resp="editors">Jane Winder (1801&#8211;43), the Wordsworths&#8217; maid from the late 1820s through her death in 1843 
+                        (<title level="m">Letters</title>, 7:481, 485).</note>
+                forced to finish my work at night &#8211; &#8211; The Dixons
+                    <note place="foot" resp="editors">Presumably Betty Dixon of Grasmere and her daughter
+                    Diana, who would instead come two days later.</note>
+                prevented by rain, from dining with us &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Lloyd">Owen Lloyd</ref>
+                came &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#C_Robinson">M<hi rend="superscript">r</hi> Robinson</ref> in afternoon
+            </p>
+              
+            <p><hi rend="bold">Wednesday 5</hi><hi rend="superscript">th</hi><lb/>
+                <hi rend="indent1">very stormy night &#8211; &amp; this morning a flood &#8211; &#8211; I hear M<hi rend="superscript">r</hi>
+                Carr below &#8211; Good news</hi> from Lowther of W&#8217;s journey &amp;c [&#8211;] Lord
+                L[onsdale] much pleased with the verses to his Lady
+                <note place="foot" resp="editors"><title level="a">Lines Written in the Album of the Countess of
+                    -------. November 5, 1834,</title> WW&#8217;s 82-line poetic tribute to Lord Lonsdale&#8217;s
+                    wife, Lady Augusta Lowther (née Fane, 1761&#8211;1838), Countess of Lonsdale
+                    (<title level="m">Last Poems,</title> 276&#8211;79).</note>
+                &#8211; very windy &#8211; very wet.
+            </p>
+              
+            <p><hi rend="bold">Thursday 6</hi><lb/>
+                <hi rend="indent1">a fine bright day &amp; bright moon &#8211; The Dixons, <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Cookson">M
+                <hi rend="superscript">rs</hi></ref> Cookson &amp; Misses Parry
+                    <note place="foot" resp="editors">Penelope (1818&#8211;96) and Ellen (1820&#8211;97), the teenaged daughters of William
+                    and Penelope Parry (née Woollam, 1781&#8211;1855), who had inherited Gell&#8217;s Cottage in Grasmere upon the 1832 death
+                    of Mrs. Parry&#8217;s half-brother, Samuel Barber.</note>
+                to</hi> dinner &#8211; Sadly tired [&#8211;] to bed soon after 4
+            </p>
+              
+            <p><hi rend="bold">Friday 7<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">After a dreadful stormy rainy night &#8211; morning as bad[.] Letters from W<hi rend="superscript">m</hi>
+                    &amp;</hi> <ref target="editions.2022.DW.RJ-15-index">S[ara] H[utchinson]</ref> &#8211; no bad news
+                &#8211; yet his eyes delicate &#8211; Joanna arrives from Penrith
+                <note place="foot" resp="editors">MW&#8217;s youngest sister, <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Joanna">Joanna Hutchinson</ref>.</note>
+            </p>
+              
+            <p><hi rend="bold">Saturday 8<hi rend="superscript">th</hi></hi> A fine day but blustery &#8211;
+            </p>
+              
+            <p><hi rend="bold">Sunday 9</hi> The same new clergyman as last Sunday. He is they say to marry
+                Miss Briggs &amp; now stays at A[mbleside] &#8211; M<hi rend="superscript">r</hi> F[leming]
+                not able to serve last Sunday, yet better &amp; one of the Hearers today
+                    <note place="foot" resp="editors">While in Ambleside courting Margaret Elizabeth Briggs (1813&#8211;45), whom he would wed on 1 July 1835,
+                    the young Staffordshire curate Bryan Sneyd Broughton (1807&#8211;48) apparently officiated at Rydal Chapel in place of the ailing Rev.
+                    Fletcher Fleming (1795&#8211;1876). Rev. Broughton&#8217;s future father-in-law, William Briggs (1770&#8211;1851), was a Kendal native who,
+                    after a career as a Liverpool physician, had purchased Cumpstone Lodge in Ambleside from his fellow medical man Thomas Carr.</note>
+            </p>
+              
+            <p><hi rend="bold">Monday 10<hi rend="superscript">th</hi></hi><lb/>
+                Clear day &#8211; I feel the cold &amp; am not well. Joanna &amp; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#MW">M[ary]</ref>
+                at Ambleside &amp;c
+            </p>
+              
+            <p><hi rend="bold">Tuesday 11<hi rend="superscript">th</hi></hi> Very fine &#8211; W<hi rend="superscript">m</hi>
+                arrives from Hallsteads
+                <note place="foot" resp="editors">Returning from Lowther, WW apparently stopped at <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Marshall">the Marshalls&#8217;</ref>
+                    home on the shore of Ullswater.</note>
+                &#8211; All well &amp; Ellen safe &amp; happy at Brighton
+                    <note place="foot" resp="editors">The Marshalls&#8217; chronically ill fifth daughter, Ellen (1807&#8211;54), was presumably
+                    spending the winter at this fashionable town on England&#8217;s southern coast (<hi rend="italic">Letters</hi>, 5:700).</note>
+                &#8211; Joanna &amp; M walked but I know not where &#8211; a long visit from 
+                <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Godwin">M<hi rend="superscript">rs</hi> Godwin</ref>
+                &#8211; Lady Pasley called &amp; sate some time &#8211; brought 3 flowers
+            </p>
+              
+            <p><hi rend="bold">Wednesday 12<hi rend="superscript">th</hi></hi><lb/>
+                Began a Rugg for <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Elliott">M<hi rend="superscript">rs</hi>
+                    Elliott</ref> &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Paisley">Jane Pasley</ref> dines here
+                [&#8211;] M<hi rend="superscript">r</hi> Carr expected for D&#8217;s back. Between 12 and one
+                &#8211; The Death-bell tells me that poor M<hi rend="superscript">rs</hi> Fleming&#8217;s
+                sufferings (of Spring Cottage) are finished
+                    <note place="foot" resp="editors">Dorothy Fleming (née Moser, 1774&#8211;1834), who with her husband, Thomas (1763&#8211;1840),
+                    had owned Spring Cottage in Loughrigg since ca. 1820.</note>
+                &#8211; M<hi rend="superscript">rs</hi> Godwin did not expect her to
+                live till Tuesday morning &#8211; Her sufferings from Cough &amp; weakness very great &#8211;
+                The cold air touches me &#8211; a painful evening &#8211; &amp; no meeting at Prayers
+            </p>
+              
+            <p><hi rend="bold">Thursday 13<hi rend="superscript">th</hi></hi><lb/>
+               <hi rend="indent1">Very cold &amp; clear &#8211; I am quite fearful of the air &#8211; M<hi rend="superscript">r</hi>
+                  Carr is putting Leeches on D. &#8211;</hi> Just risen at 12 o&#8217;clock &#8211; W<hi rend="superscript">m</hi>
+                  comes to put up C. Marshall&#8217;s lithographs &#8211; alas! in vain &#8211; he mistimes his visits
+                  every day
+                        <note place="foot" resp="editors">DW was apparently asleep or indisposed when WW came to hang the art prints which the 
+                        Marshalls&#8217; third daughter, Cordelia (1803&#8211;56), had sent with him from Hallsteads. On 27 December, MW would
+                        tell Jane Marshall that the pictures nearly covered the walls of DW&#8217;s room (<title level="m">LMW</title>, 136;
+                        <title level="m">Letters</title>, 6:262&#8211;63, 360).</note> 
+                  &#8211; I read very slowly &#8211; Have not finished Collingwood
+                        <note place="foot" resp="editors">The military memoir she mentions reading on 22 October.</note>
+                  &#8211; Going to write to M<hi rend="superscript">rs</hi> Ellwood with the worsteds,
+                <note place="foot" resp="editors">Worsted is thick wool yarn used in rug-making. After eight months in Rydal and Grasmere, the family&#8211;s friend Jane Ellwood
+                    (née Whelpdale, 1779&#8211;1855) had recently returned to her home in Penrith.</note>
+                   to be sent per next Carrier &#8211; James
+                        <note place="foot" resp="editors">James Dixon (1799&#8211;1878), the Wordsworths&#8217; beloved gardener and handyman from
+                        the mid-1820s through MW&#8217;s death in 1859.</note>
+                   gone with Sir Edw<hi rend="superscript">d</hi>
+                        <note place="foot" resp="editors">The Wordsworths&#8217; horse. On 24 July 1833, Dora described how, after an axle snapped on their carriage, the family remarkably
+                        escaped injury &#8220;thanks to Sir Edward[,] who stood still instantly &amp; behaved as well as horse could do&#8221; 
+                        (<ref target="http://collections.wordsworth.org.uk/wtweb/home.asp?page=Letters%20item%20details&amp;mwsquery=%7bTopic%20id%7d=%7bperson-Wordsworth-Isabella-1806-1848%7d&amp;id=1286">
+                        WT MS WLL / Wordsworth, Dora / 1 / 50</ref>).</note>
+                   to winter quarters
+               </p>
+                
+            <p><hi rend="bold">Friday [14 Nov.]</hi> I believe cold &amp; clear but now (Tuesday) have forgotten
+            </p>
+                
+            <p><hi rend="bold">Saturday [15 Nov.]</hi> Rain &amp; stormy. Inside not well
+            </p>
+                
+            <p><hi rend="bold">Sunday 16<hi rend="superscript">th</hi> Nov<hi rend="superscript">r</hi></hi> 
+                &#8211; Charming day &#8211; M<hi rend="superscript">r</hi> Fleming dined here and afterwards
+                went with our Folks to poor M<hi rend="superscript">rs</hi> Flemings funeral
+                    <note place="foot" resp="editors">Likely Fletcher Fleming, the Rydal curate who may have been a distant relation of
+                    deceased.</note>
+                &#8211;
+            </p>
+                
+            <p><hi rend="bold">Monday 17<hi rend="superscript">th</hi></hi>&#8211; Rain in the
+                morning &#8211; I was very poorly &#8211; This cold! this cold alas! alas! 
+                M<hi rend="superscript">r</hi> Carr charmed with Dora&#8217;s improvement
+            </p>
+                
+            <p><hi rend="bold">Tuesday 18<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">a superlative day [&#8211;] W<hi rend="superscript">m</hi> &amp; M gone with the Paisleys
+                to Bowness &#8211; Joanna has been</hi> at Ambleside [&#8211;] I am better
+            </p>
+                
+            <p><hi rend="bold">Wednesday Nov<hi rend="superscript">r</hi> 19</hi> Cold &amp; clear. Rain in the
+                Evening &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">M<hi rend="superscript">rs</hi> Harrison</ref> 
+                &amp; M<hi rend="superscript">rs</hi> Ireland
+                    <note place="foot" resp="editors">Nancy Ireland (née Wordsworth, 1771&#8211;1840), the twice-widowed older sister of
+                        &#8220;Cousin Dorothy&#8221; Harrison (<title level="m">Letters</title>, 3:161).</note>
+                call &#8211; &#8211; Tired myself with writing to M<hi rend="superscript">r</hi> Ferguson.
+                    <note place="foot" resp="editors">Edward Ferguson (1764&#8211;1843), a second cousin of DW with whom she had grown up in
+                     Halifax under the care of their common relative Elizabeth Threlkeld (later Rawson). In the final years before their
+                     &#8220;Aunt&#8221; Elizabeth&#8217;s passing in 1837, Mr. Ferguson was DW&#8217;s principal source of reports from
+                     Halifax (<title level="m">Letters</title>, 5:565, 701).</note>
+            </p>
+              
+            <p><hi rend="bold">Thursday 20</hi><hi rend="bold superscript">th</hi><lb/>
+                <hi rend="indent1">Very cold &#8211; It affects my inside &#8211; Sky dull &amp; dark &#8211; Letters from
+                M<hi rend="superscript">r</hi> Grave,
+                    <note place="foot" resp="editors">Robert Perceval Graves (1810&#8211;93), a young Trinity College, Dublin, graduate who, with an
+                     introduction from the poet Felicia Hemans, had called at RM earlier in 1834. With WW&#8217;s assistance, he would become Curate
+                     of Bowness in early 1835 (<title level="m">Letters</title>, 5:637n., 5:707, 6:12&#8211;13).</note>
+                M<hi rend="superscript">r</hi></hi> Robinson
+                    <note place="foot" resp="editors">Henry Crabb Robinson (1775&#8211;1867, <ref target="https://doi.org/10.1093/ref:odnb/23842">
+                    DNB</ref>), the London lawyer who had become a close family friend and one of DW&#8217;s most cherished
+                    correspondents.</note>
+                &amp; M<hi rend="superscript">r</hi> Courtenay
+                    <note place="foot" resp="editors">Philip Courtenay (1785&#8211;1842), a London barrister, Tory operative, and long-time friend and financial advisor
+                        of WW (<title level="m">Letters</title>, 4:748).</note>
+                &#8211; From [J[oh]n W[ordsworth] of L[ondon]
+                    <note place="foot">John Wordsworth (1815&#8211;46), the only child of D&#8217;s late brother Richard. To distinguish him from the two other John Wordsworths of his
+                        generation, the family typically called him &#8220;Keswick John&#8221; (in reference to his widowed mother&#8217;s having settled there). But now that he had begun
+                        a medical apprenticeship in the metropolis, DW apparently felt a need to update his nickname.</note>
+                yesterday &#8211;
+            </p>
+              
+            <p><hi rend="bold">Friday 21</hi><hi rend="superscript">st</hi> &#8211; I do not recollect</p>
+              
+            <p><hi rend="bold">Saturday 22<hi rend="superscript">nd</hi> Nov<hi rend="superscript">r</hi></hi><lb/>
+                <hi rend="indent1"><ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#SH">Sarah H</ref> arrives
+                     <note place="foot" resp="editors">Returning from Keswick, where she had been assisting the Southeys. This is a rare instance in the 
+                     <title level="m">RJ</title> where DW spells her name Sarah rather than Sara.</note>
+                &#8211; The day very fine &#8211; all pretty well at Keswick, &amp; news from York</hi> 
+                <hi rend="underline">rather</hi> better; but alas! I cannot help fearing that the
+                poor sufferer
+                    <note place="foot" resp="editors">Edith Southey, who remained at the asylum in York.</note>
+                will never be restored to much permanent comfort &#8211; nor her family to chearful confidence
+                that all is well &#8211; Poorly in the Evening, but afterwards enjoyed S[ara]&#8217;s company 
+                &#8211; Dora more at ease &#8211; came up to prayers
+              </p>
+              
+            <p><hi rend="bold">Sunday 23<hi rend="bold superscript">rd</hi></hi> a lovely day &#8211; dear
+                William even proposed bearing me in his arms to the Terrace to view his last improvement
+                    <note place="foot" resp="editors">Possibly a continuation of the landscaping projects Dora informed Rotha Quillinan
+                     of in March 1833, when she wrote, &#8220;My Father has planted a beautiful Cedar near to Miss Wordsworths rock &amp;
+                     another at the end of the Terrace - &amp; he has made quite a gay little garden (or rather what in time will be gay)
+                     among the rocks near to your pretty seat in the cherry tree &#8211; &amp; we call it &#8216;Rotha&#8217;s garden&#8217;&#8221; 
+                     (<ref target="https://collections.wordsworth.org.uk/wtweb/home.asp?page=Letters%20item%20details&amp;mwsquery=%20(%20(%20(%7bWords%7d%20=*%20%7bterrace%7d)%20)%20%20AND%20%20(%20(%7bTEI%20dates%7d%20%3E=%20%7b1833%7d)%20)%20%20AND%20%20(%20(%7bTEI%20dates%7d%20%3C=%20%7b1835%7d)%20)%20)%20&amp;id=1265">
+                         WLL / Wordsworth, Dora / 1 / 47</ref>).</note> 
+                &#8211; Rather well &amp; prayers up stairs &#8211;
+            </p>
+              
+            <p><hi rend="bold">Monday 24<hi rend="superscript">th</hi></hi><lb/>
+              <hi rend="indent1">[Hazy?] but bright &amp; cold hoar frost &#8211; I am reading Adam Clarke the third volume</hi>
+               with [undecaying?] interest.
+                    <note place="foot" resp="editors">The newly released biography mentioned above in her entries for 8 and 13 October.</note>
+                D[ora] came up to prayers &#8211; pretty well this evening though I had a woful night &#8211;</p>
+            
+              
+            <p><hi rend="bold">Tuesday 25<hi rend="bold superscript">th</hi> Novr.</hi> B[ottle] Dinner<lb/>
+                    <note place="foot" resp="editors">A belatedly inserted record of having begun a new bottle of laudanum (see note for 22 October).</note>
+                Dull &amp; cloudy &#8211; Poor D in bed with a blister put on this morning. Miss Watsons
+                    <note place="foot" resp="editors">Some combination of the four adult daughters of the late Bishop Richard
+                    Watson&#8212;Harriet (1779&#8211;1835), Elizabeth (1780&#8211;1859), Charlotte (1783&#8211;1859),
+                    and Mary (1785?&#8211;1847)&#8212;still living at Calgarth Hall, their family estate on Windermere
+                    (see note for 14 October).</note> 
+             have called
+            </p>
+              
+            <p><hi rend="bold">Wednesday 26<hi rend="superscript">th</hi></hi> &#8211; Showery &#8211; I am disordered within</p>
+              
+            <p><hi rend="bold">Thursday 27<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">This day very short &#8211; chiefly employed in sewing &#8211; Adam Clarke</hi>
+            </p>
+              
+            <p><hi rend="bold">Friday 28<hi rend="superscript">th</hi></hi><lb/>
+               <hi rend="indent1">Murray sends Q<hi rend="superscript">ly</hi> Review
+                    <note place="foot" resp="editors">The influential London publisher John Murray (1778&#8211;1843, <ref target="https://doi.org/10.1093/ref:odnb/64907">
+                     DNB</ref>) had sent the November 1834 number of his <title level="m">Quarterly Review</title>, which included an effusive
+                      41-page review of two new editions of WW&#8217;s poems that honored him for driving stodgy &#8220;poetic diction&#8221; out of fashion (319) and having 
+                      conveyed &#8220;a deeper sense of the dignity of his calling&#8221; than any previous poet ([Taylor], <title level="a">Wordsworth&#8217;s 
+                      <title level="m">Poetical Works</title>,</title> 319, 338). WW had already been informed of this review by its anonymous author, his friend and admirer Henry Taylor.</note>
+                [&#8211;] Joanna helps me all the morning mending Chair</hi> covers &amp;c &#8211; I was uneasy
+                &amp; weakly &#8211; Letters &amp; presents from Hampstead &#8211; John returned from Italy
+                &#8211; Charles&#8217;s Love is desperate
+                    <note place="foot" resp="editors">DW&#8217;s brother Christopher and at least two of his three sons, John (1805&#8211;39) and Charles (1806&#8211;92,
+                     <ref target="https://doi.org/10.1093/ref:odnb/29969">DNB</ref>), were apparently visiting the Hoares&#8217; home near Hampstead
+                      Heath (see note for 6 October; for their earlier stays with the Hoares, see WLMS 1 / 9 / 3 and 1 / 11 / 7). The eldest son, John, had just returned
+                      from a long trip in Florence, where he pursued his classical interests while trying to restore his fragile health. The middle son, Charles, had also
+                      spent much of 1833&#8211;34 on the Continent, and, while touring the Louvre, he had fallen in &#8220;Love at First Sight&#8221; with Charlotte
+                      Day, a clergyman&#8217;s daughter from Suffolk whom he would marry in December 1835 (Charles Wordsworth, <title level="m">Annals</title>, 158&#8211;60).</note>
+                &#8211; Poorly all the Evening, but much worse in the night. Heavy Rain &amp; Boisterous
+                wind &#8211; alas! the poor Sailors &amp; their Ships
+                    <note place="foot" resp="editors">See note on 28 October.</note>
+                [&#8211;] Present to D &amp; letter from [Sarah Courtenay?]
+                    <note place="foot" resp="editors">While this appears to read &#8220;Sarah,&#8221; the letter was more likely from Louisa Courtenay
+                        (1814&#8211;1904), the only daughter of the Wordsworths&#8217; friend Philip Courtenay (see note for 20 November). Writing
+                        home from London in 1836, WW would ask the family, &#8220;Pray send me for Miss
+                        Courtenay&#8217;s Album the 2<hi rend="superscript">nd</hi> Stanza of my little
+                        Poem to the Moon&#8221; (<hi rend="italic">Letters</hi>, 6:241).</note>
+            </p>
+              
+            <p><hi rend="bold">Saturday 29<hi rend="bold superscript">th</hi> No<hi rend="superscript">r</hi></hi><lb/>
+                Dark &#8211; dark &amp; wet &amp; windy [&#8211;] Smoke below stairs &#8211; Clear in my Room
+                &#8211; Feeble with exertion but pain relieved, though still it troubles me &#8211; Newspapers
+                filled with discussions on the dismissed Ministry &amp; conjectures about the new
+                    <note place="foot" resp="foot">In mid-November, William IV stunned the nation by sacking the Whig government of Lord Melbourne and offering
+                     the premiership to the Tory leader Sir Robert Peel. This sparked the chain of political developments that DW chronicles through the rest of this notebook.</note>
+            </p>
+              
+            <p><hi rend="bold">Sunday 30<hi rend="bold superscript">th</hi> Nov<hi rend="superscript">r</hi></hi>
+                    <note place="foot" resp="editor">This and the following entry are the only ones in this notebook written in pencil.</note><lb/>
+                Fine clear but cold day [&#8211;] Joanna visits M<hi rend="superscript">rs</hi> Godwin who
+                is ill &#8211; M<hi rend="superscript">r</hi> G[odwin] ill in London &#8211; Dora better &#8211; All
+                the Cooksons called &#8211; Poor William very ill &amp; sick &#8211; In bed most of day &#8211; Better
+                before night &#8211; I was very much pained in the evening
+            </p>
+              
+              <figure>
+                  <graphic url="PLACEHOLDER"/>
+                  <figDesc><hi rend="bold">Figure 1:</hi> Pages of Notebook 15 covering 25 November–1 December
+                      1834. Note the shift from ink to pencil on 30 November, DW’s pencilled
+                      corrections of the dates for 25–29 November, and the note about opening a new
+                      bottle of opium at dinner on 25 November (courtesy Wordsworth Trust).
+                  </figDesc>
+              </figure>
+          </div>
+           
+           <div type="section">
+            <head type="center">[December 1834]</head>
+            <p>
+               <hi rend="bold">Monday Dec<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi></hi>
+               &#8211; I am weak &amp; in pain &#8211; Rose not till past 2 o&#8217;clock &#8211; 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">M<hi rend="superscript">rs</hi> Cookson</ref> here
+                &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WW">W<hi rend="superscript">m</hi></ref> well,
+                but weak [&#8211;] <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">Dora</ref> tells me her Shoulder
+               hurts less today than ever since she began
+           </p>
+               
+           <p><hi rend="bold">Tuesday 2<hi rend="superscript">nd</hi> Dec<hi rend="superscript">r</hi></hi><lb/>
+               <hi rend="indent1">a lovely morning &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Joanna">Joanna</ref> gone
+               to Ambleside. The warm fire, though air is frosty</hi> raised thermom<hi rend="superscript">r</hi>
+               to 66 &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Carr">M<hi rend="superscript">r</hi>
+               Carr</ref> has been here, anxious about Dora&#8217;s bowels &#8211; will send me powder
+               for mine are sadly uneasy though I had a tolerable night [&#8211;] Rose but once
+           </p>
+               
+           <p><hi rend="bold">Wednesday [3 Dec.]</hi> &#8211; a tolerable day. M<hi rend="superscript">r</hi>
+               Pearson sends a beautiful white cat &#8211; My tears fall for Robin who had just treated me
+               with his best song &#8211; &amp; perched on my Sill while I scattered for it its food
+                    <note place="foot" resp="editors">This well-intentioned gift from William Pearson (1780&#8211;1856), a retired banker who kept a farm in
+                     Crosthwaite, left DW terrified that the cat would attack the robin who had taken to visiting her each day (<title level="m">Letters</title>,
+                     5:187, 6:480; <title level="m">LMW</title>, 136). In the Fenwick notes to his poem &#8220;The Redbreast,&#8221; WW would later describe how,
+                     after the family &#8220;banished&#8221; cats from RM, robins occasionally entered the home through open windows. One particular bird, he
+                     recalled, &#8220;took up its abode&#8221; in DW&#8217;s sickroom near the end of 1834 &#8220;and at night used to perch upon a nail from
+                     which a picture had hung&#8221; and &#8220;sing and fan her face with its wings in a manner that was very touching&#8221; 
+                     (<title level="m">Poetical Works</title>, 1:338).</note>
+               [&#8211;] Still disordered with constant uneasy pain &#8211; M<hi rend="superscript">r</hi>
+               Carr trying new medicine &#8211; Dora continues better &#8211;
+           </p>
+               
+           <p><hi rend="bold">Thursday [4 Dec.]</hi> &#8211; Dull &amp; wet &#8211; &amp; I weakly &#8211;
+               <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Paisley">Lady Paisley</ref> to tea [&#8211;] I could
+               not see her &#8211;
+           </p>
+               
+           <p><hi rend="bold">Friday [5 Dec.]</hi> &#8211; &#8211; Lady P[asley] &amp; Jane
+                    <note place="foot" resp="editors">The Pasleys&#8217; 7-year-old daughter.</note> called
+               &#8211; very weakly all day &#8211; Owen
+                    <note place="foot" resp="editors">Owen Lloyd.</note>
+               to dinner &#8211; Saw him a short while &#8211; Prayers up stairs
+           </p>
+               
+           <p><hi rend="bold">Saturday 6<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi></hi><lb/>
+               <hi rend="indent1">Dull cloudy &amp; dark as most of the week &#8211; Poor 
+                   <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Godwin">M<hi rend="superscript">rs</hi> Godwin</ref></hi>
+               continues ill. M<hi rend="superscript">r</hi> G[odwin] returned &amp; resolves to leave this country
+           </p>
+               
+           <p><hi rend="bold">Wednesday [24 Dec.] &#8211; Christmas Eve</hi><lb/>
+              I take the pen for the first time, having been confined to my Bed entirely since
+              Monday 7<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi>
+                    <note place="foot" resp="editors">The 8th rather than the 7th. On 27 December, MW reported that DW was &#8220;suffering from rather a
+                     severe bilious attack, which has kept her almost a prisoner to her bed for the last three weeks until yesterday, when she, for an hour,
+                     resumed her favourite chair &#8211; and though she is again thank God recovering, she has lost much strength &#8211; and it may be some
+                     time before it would be quite right for her to resume her correspondence&#8221; (<title level="m">LMW</title>, 135).</note>
+               &#8211; at the end of a week a Diarrhea was stopped, &amp; my appetite began slowly
+               to return but for many days my pain was as great as ever, &amp; constant. Saturday
+               [20 Dec.] I began to suffer less &amp; have gone on improving &#8211; pains less
+               violent &amp; less frequent &amp; strength returning, though Body weakness will not
+               let me stand on my legs, &amp; I yet fear I must lie some time &#8211; Inside aches
+               constantly but it is bearable. Now &amp; then comes what I call a &#8220;piping agony.&#8221;
+           </p>
+               
+           <p><hi rend="indent1">I hope dearest Dora is doing well but she has no appetite, &amp; often, very often,</hi>
+               severe sufferings from the stomach &#8211; The weather has been generally mild &amp;
+               delightful &#8211; Often dazzling in brightness &#8211; Shortest day
+                    <note place="foot" resp="editors">The 21st of December, or the winter solstice.</note>
+               light &amp; long &amp; a lovely Sunrise. D[itt]<hi rend="superscript">o</hi> yesterday &#8211;
+               and now the like (Xmas Eve), bright as summer, &amp; lovely peeping of the Sun first at the
+               edge of the Hill.
+           </p>
+               
+           <p><hi rend="indent1">A letter from Bertha with better news of her poor Mother
+               <note place="foot" resp="editors"><ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Southey">Bertha Southey</ref>. On 27 December, MW would
+                     mention &#8220;encouraging reports&#8221; of &#8220;poor Mrs. Southey&#8217;s state of mind&#8221; (<title level="m">LMW</title>, 136).</note>
+               [&#8211;] D[itt]<hi rend="superscript">o</hi> from L[or]d</hi> Lowther wishing W<hi rend="superscript">m</hi>
+               to meet him at Lowther. He seems heartless at the prospects of the Conservatives &#8211; 
+               &#8220;overpersuaded to take office&#8221;
+                    <note place="foot" resp="editors">Stung by a series of political defeats in the Age of Reform, Lord Lowther and his fellow conservatives had grown cynical
+                     about the new Peel government’s chances of staying in power (see note for 30 November; <title level="m">Letters</title>, 5:748).</note>
+               &#8211;
+           </p>
+               
+           <p>On <hi rend="bold">Saturday (20<hi rend="superscript">th</hi>)</hi>
+               <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Arnold">the Arnolds</ref> arrived &amp; called
+                in evening &#8211;
+           </p>
+               
+           <p><hi rend="bold">Monday [Tuesday, 23 Dec.?]</hi> (i e yesterday)
+                    <note place="foot" resp="editors">Since DW wrote this entry on Wednesday, 24 December, &#8220;yesterday&#8221; was actually a Tuesday.</note>
+               I saw <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Elliott">M<hi rend="superscript">rs</hi>
+               Elliott</ref>&amp; M<hi rend="superscript">rs</hi> Arnold &#8211; &amp; on Friday or
+               Saturday M<hi rend="superscript">rs</hi> Cookson who is now gone with H[annah]
+                    <note place="foot" resp="editors">Mrs. Cookson&#8217;s 22-year-old daughter, <ref target="editions.2022.DW.RJ-15-index">Hannah</ref>.</note>
+               to Liverpool. &#8211; We expect our dear <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Willy">Willy</ref>
+               today &#8211;
+           </p>
+               
+           <p><hi rend="bold">Sunday Dec<hi rend="superscript">r</hi> 27<hi rend="superscript">th</hi>
+               [28<hi rend="superscript">th</hi>]</hi><lb/>
+               <hi>Dear William arrived on New years eve
+                   <note place="foot" resp="editors">Willy Wordsworth, arriving from Carlisle on Christmas (not New Year&#8217;s) Eve.</note>
+                &#8211; quite well, but as usual had a cold next</hi> day [&#8211;] The pleasure of seeing
+                him &amp; talking with him produced a bad night with threatenings of a return; &amp;
+                on Xmas day
+                   <note place="foot" resp="editors">Also DW&#8217;s 63rd birthday.</note>
+                I was languid though pains less violent &amp; less frequent &#8211; and now this day
+                i.e. Sunday Dec<hi rend="superscript">r</hi> 27<hi rend="superscript">th</hi> [28<hi
+                rend="superscript">th</hi>] I am much better, &amp; now write on my chair after
+                ¾ of an hour&#8217;s sitting up – Dora has paid me a cheerful visit &#8211; She looks 
+                &amp; is considerably better, though eating <hi rend="underline">very little</hi> &#8211;
+                Her flesh seems to be returning &#8211; Back still very painful when standing for a
+                short time &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Paisley">Jane Pasley</ref> dines
+                with her, a sign of stronger feelings &#8211; This morning brought the best account
+                we have yet had of poor M<hi rend="superscript">rs</hi> Southey &#8211; &#8211; a
+                summons from L[or]d Lowther &#8211; W<hi rend="superscript">m</hi> will be at L[owther]
+                on Wednesday
+                   <note place="foot" resp="editors">WW had been &#8220;summoned&#8221; to help Lord Lonsdale strategize for the upcoming general election.</note> 
+                &#8211; William has long been threatened by a Bowel complaint &amp; last week was really
+                very much disordered &#8211; Four Doses of my medicine on Friday seem to have cured him &#8211;
+                for the present at least &#8211; yet I cannot help anxiety when he goes to Lowther
+           </p>
+               
+           <p>On <hi rend="bold">Tuesday Evening Dec<hi rend="superscript">r</hi> 30<hi rend="superscript">th</hi></hi>
+                W<hi rend="superscript">m</hi> came to me rejoiced to hear thickly pattering rain
+               after so long a pause &#8211; I could not but feel a touch of sympathy with
+                him in remembrance of many a moist tramp; but sh[oul]d have been better pleased with
+                bright moon &amp; stars, &amp; our late splendid evenings &amp; mornings &#8211; Wind very
+                high at night &#8211; D could not rest for it against her window &#8211;
+            </p>
+           </div>
+           
+           <div type="section">
+            <head type="center">[January 1835]</head>
+                
+           <p><hi rend="bold">&#8211; New-years-day</hi> &#8211; as delight as ever &#8211;
+               Twice as long as yesterday &#8211; Lovely sun-rise &amp; Set. &#8211; I much better
+               &#8211; no sharp pains, or languid misery, till after dinner &#8211; never surely in
+               the 63 years that I have lived can there have been such brilliant New-years &amp; 
+               Christmas days &#8211; Such Xmas days (two or 3) I recollect &#8211; One especially
+               when we sate on the side of Nab Hill
+                    <note place="foot" resp="editors">An elevation between Grasmere and Rydal that looks out upon Rydal Water.</note>
+               to sun &amp; rest ourselves, coming from Grasmere Church &#8211; &#8211; I
+               packed <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Arnold">J[ane] Arnold&#8217;s</ref> rug
+               &amp; sent it &#8211; Col. Lowther
+                    <note place="foot" resp="editors">Col. Henry Cecil Lowther (1790–1867), second son of Lord Lonsdale, who, after a distinguished army career,
+                     became MP for Westmorland at 22 and held the seat for the next 55 years.</note>
+               between 7 &amp; 8 to Tea &#8211;
+           </p>
+                
+           <p><hi rend="bold">Friday Jan<hi rend="superscript">y</hi> 2<hi rend="superscript">nd</hi> 1835 &#8211;</hi><lb/>
+               <hi rend="indent1">Another year begun! and what a brilliant sun-rise &#8211; Oh! that men&#8217;s hearts
+               could be</hi> <hi rend="underline">softened</hi>! &#8211; then elevated by the goodness
+               &amp; beauty of all that is done for &amp; spread before us! &#8211;
+               <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Willy">Willy</ref> is gone out with 
+               <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Minto">Sir M[into] F[arquhar]</ref>. 
+               <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">Dora</ref>&#8217;s last blister most efficacious
+               <note place="foot" resp="editors">See note for 30 October.</note> &#8211; Looks
+               infinitely improved &amp; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Carr">M<hi
+               rend="superscript">r</hi> Carr</ref> tells me his dear Wife is much better
+           </p>
+                
+           <p><hi rend="bold">Friday Jan<hi rend="superscript">y</hi> 9<hi rend="superscript">th</hi></hi><lb/>
+               <hi rend="indent1">Still in bed but thankful was I this morning to hear the rain pattering &#8211; fresh snow</hi>
+               on Hills but air much warmer &#8211; a visit from M<hi rend="superscript">r</hi> Carr
+                &amp; a Cap from Lady B Paisley
+                <note place="foot" resp="editors">With Lady Pasley&#8217;s given name being Maria and there being a line break between &#8220;Lady B&#8221;
+                   and &#8220;Paisley,&#8221; the B is possibly not a mistaken initial but an abbreviation for Bottle (i.e., a belatedly added marginal
+                   record of opening a new bottle of laudanum).</note>
+               &amp; a 4<hi rend="superscript">th</hi> Snipe from Sir Minto
+                    <note place="foot" resp="editors">Minto&#8217;s having bagged four of these notoriously elusive birds in since his arrival a few days earlier
+                    attests to both his skill and avidity as a hunter.</note> &#8211;
+               Willy left us for Lowther yesterday
+                    <note place="foot" resp="editors">Presumably stopping to visit his father and Lord
+                     Lonsdale while returning to Carlisle.</note>
+               &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WW">W<hi rend="superscript">m</hi></ref>
+               (the Father) writes in good spirits but it is 3 days since &#8211; no contest! This
+               is excellent news
+                    <note place="foot" resp="editors">Allies of the powerful &#8220;Lowther interest&#8221; were celebrating Col. George Wilson&#8217;s decision
+                     not to challenge John Foster Barham, the Tory MP for Kendal, in the coming election (<title level="m">Letters</title>, 6:8n.).</note>
+               &#8211; &#8211; M<hi rend="superscript">r</hi> Fleming of R[ayrigg] takes ill at Bootle &amp; all his
+               Children sent for.
+                    <note place="foot" resp="editors">WW&#8217;s schoolfriend Rev. John Fleming (1768&#8211;1835) lived at Rayrigg, his
+                     ancestral estate south of Ambleside, and was Curate of Bowness and Rector of Bootle, the village near the Cumberland
+                     coast where he would pass away on 11 January. His son oldest son, Fletcher, had been minister at Rydal Chapel since
+                     its opening in 1824.</note>
+               How recent the deaths of poor Coleridge &amp; Chas Lamb!
+                    <note place="foot" resp="editors"> The Wordsworths&#8217; long-time friends Samuel Taylor Coleridge and Charles Lamb had died, respectively,
+                     on 25 July and 27 December 1834.</note>
+               &amp; should M<hi rend="superscript">r</hi> F[leming] go W<hi rend="superscript">m</hi>
+               will have to mourn over one who was his dearest Friend in Youth!! &#8211; Dora betters slowly
+               &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#M_Fisher">Mary Fisher</ref> here yesterday. I was
+               sick &amp; very poorly after Tea &#8211; Better today
+           </p>
+                
+           <p><hi rend="bold">Thursday Jan<hi rend="superscript">y</hi> 22<hi rend="superscript">nd</hi>, 1835</hi><lb/>
+              On Thursday the 22<hi rend="superscript">nd</hi> I write after a pause from the 
+               9<hi rend="superscript">th</hi> &#8211; I cannot recal particulars but many events have
+               happened &#8211; The Elections
+                    <note place="foot" resp="editors">Polling had begun for the general election sparked by
+                    Peel&#8217;s dissolution of Parliament in December. While the Tories would gain 98
+                    seats in this contest, a progressive coalition led by Lord Melbourne would retain
+                    its majority.</note>
+               &amp; the Death of poor M<hi rend="superscript">r</hi> Fleming among the most prominent&#8211;
+               &#8211; W<hi rend="superscript">m</hi> is recovered &#8211; I wish I could say so of Dora; but she
+               is better certainly &#8211; The weather has been very trying &#8211; Frost, snow[,] Hail &#8211; wind
+               &#8211; Monday night was dreadful, &amp; Miss E Dowling expected to be crossing the Sea
+                from Dublin
+               <note place="foot" resp="editors"><ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Dowling">Eliza Dowling,</ref> who, with her sister Jane, still ran the
+                     girls&#8217; school in Ambleside that they had overseen since their sister Ann&#8217;s marriage to Thomas Carr. She presumably
+                     had been visiting relatives in Ireland from her father&#8217;s side of the family.</note>
+               &#8211; My weak body has yielded to all changes, &amp; some times suffered severely, but
+               though Frost Continues I am today pretty well &#8211; but had two bad afternoons &#8211;
+               yesterday &amp; Tuesday. Jane Arnold &amp; Tom here today [&#8211;] I have seen many of
+               my Friends &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">M<hi rend="superscript">rs</hi>
+                   Cookson</ref> yesterday after a bad Cold &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">Hannah
+               C[ookson]</ref> much benefitted by her journey to Liverpool
+                    <note place="foot" resp="editors">DW records their departure in her entry for 23 December.</note>
+               [&#8211;] M. W. has had one of her worst colds, yet, as usual, recovered speedily &#8211;
+               James
+                    <note place="foot" resp="editors">James Dixon, the Wordsworths&#8217; handyman and servant (see note for 13 November).</note>
+               has the rheumatism. The frosty air has taken up all characters &amp; hues &#8211; Dazzling
+               sunshine, dark haze, &amp; a blackness over all that was not white.
+           </p>
+                
+            <p><hi rend="bold">Friday Jan<hi rend="superscript">y</hi> 23 <hi rend="superscript">rd</hi></hi><lb/>
+                <hi rend="indent1">A mild thaw &amp; the Sick may be thankful &#8211; (10 o&#8217;clock) I have been
+                suffering much</hi> tho&#8217; with little pain after a better night than usual. Only
+                once out of Bed &#8211; My daily recurring fits of uneasiness very oppressive; but
+                shorter-lived &amp; much less severe than latterly &#8211;
+            </p>
+                
+            <p>Willy arrived yester evening from the Election &#8211; very gay for the good Cause triumphs
+                &#8211; Stanley &amp; Irton
+                    <note place="foot" resp="editors">After traveling to Keswick for the election, Willy detoured through Rydal on his way back to Carlisle
+                        to share news of the Conservatives&#8217; victories in local contests (<title level="m">Letters</title>, 6:14). Both Lowther-backed
+                        candidates for western Cumberland, Edward Stanley (1790&#8211;1863) and Samuel Irton (1796&#8211;1866), had survived significant
+                        challenges (<title level="m">Letters</title>, 5:477&#8211;78n, 5:529, 6:14).</note>
+                [&#8211;] W<hi rend="superscript">m</hi> walked from Keswick without
+                fatigue though to Wytheburne
+                     <note place="foot" resp="editors">Hamlet 5.5 miles northwest of Rydal at the foot of Thirlmere. Like Willy, WW presumably had been in Keswick for the
+                      election.</note>
+                roads very slippery &#8211; &amp; afterwards rough &amp; uneasy with snow &#8211; a
+                pleasing proof of present strength &#8211; God grant it may last! &#8211; Last
+                evening I overheard him very lively telling over election feats &amp; stories &#8211;
+                Could not see him for 2 hours; &amp; then not strong.
+            </p>
+            </div>
+              
+         <div type="section">
+            <head type="center">[February 1835]</head>
+            <p><hi rend="bold">Tuesday 3<hi rend="superscript">rd</hi> Feby</hi> &#8211; So long have
+             I been idle &#8211; &amp; now I seem to have little or nothing to record[.] The weather
+             in general unusually mild &#8211; Sometimes oppressive with chillness &amp; dark; but very
+             often as bright as in May. The Birds sing in concert &#8211;&amp; here I will record that
+             not a day of last year, or of the beginning of this, has passed without the song of Birds 
+             &#8211; one or more &#8211; except perhaps in the few days of keen frost at the beginning
+             of last month &amp; in the time of Elections &#8211; &amp; even then my own companion Robin
+             cheared my bed-room with its slender subdued piping.
+                    <note place="foot" resp="editors">See note for 3 December.</note>
+             Nothing remarkable has occurred &#8211; I do not gather strength
+             &#8211; Of late have been well &amp; ill
+            </p>
+             
+            <p><hi rend="bold">4<hi rend="superscript">th</hi> Feb<hi rend="superscript">y</hi></hi><lb/>
+                Again an April or May day &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Joanna">Joanna</ref>
+                &amp; Eliz
+                       <note place="foot" resp="editors">Ebba Hutchinson.</note>
+                walked to Ambleside, &amp; she has been reading to me this Evening instead of morning
+                &#8211; Began <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Paisley">Lady P[asley]</ref>&#8217;s rug
+                on Monday &#8211; I get slowly on both with work &amp; Books &#8211; can do little at
+                night &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Arnold">The Arnolds</ref> gone today
+                <note place="foot" resp="editors">Returning to Rugby after the Christmas break.</note>
+                &#8211; Miss Penroses
+                    <note place="foot" resp="editors">Jane (1783&#8211;1871) and Lydia Penrose (1787&#8211;1842), unmarried sisters of Mary Arnold who had been visiting Fox How.</note>
+                called yesterday &#8211; I could not see them &#8211; Lent me an interesting letter
+                from good old M<hi rend="superscript">rs</hi> Empson.
+                        <note place="foot" resp="editors">Presumably Ann Empson (née Kelk, 1761&#8211;1835) of Yokefleet Hall in eastern Yorkshire. A distant relative
+                        of DW&#8217;s &#8220;Aunt&#8221; Elizabeth Rawson (see note for 19 November) through marriage, Mrs. Empson had raised five boys on her own after
+                        being widowed young. As detailed in Notebook 10, DW socialized regularly with Mrs. Empson while staying near Yokefleet in August 1829.</note>
+                Fletcher Fleming gone to M<hi rend="superscript">rs</hi> Taylor&#8217;s funeral &amp; our
+                John expected here to do Sunday&#8217;s duty while he attends his Sisters to Church
+                        <note place="foot" resp="editors">John Wordsworth (1803&#8211;75), WW and MW&#8217;s oldest son, officiated at Rydal Chapel in the stead of Rev.
+                         Fletcher Fleming (1795&#8211;1876), who was accompanying his sisters&#8212;Agnes Dorothy (1804&#8211;66), Barbara (1807&#8211;97), and Jane
+                         Isabella (1809&#8211;1902)&#8212;to the funeral of their aunt Margaret Taylor (née Lewthwaite, 1783&#8211;1835) (obit. in 
+                         <title level="m">WG</title>, 31 January 1835).</note>
+                &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WW">W<hi rend="superscript">m</hi></ref>
+                &amp; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#MW">M[ary]</ref> wishing to go to Keswick,
+                but a letter from  M<hi rend="superscript">r</hi> Courtenay keeps him at home, anxious
+                respecting Money with Bankers
+                        <note place="foot" resp="editors">Philip Courtenay, WW&#8217;s London-based financial advisor (see note for 20 November).</note>
+                &#8211; Have seen various people during last week, but <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Godwin">M<hi rend="superscript">rs</hi>
+                    Godwyn</ref> remains almost a prisoner [&#8211;] News from Keswick
+                &amp; York not good
+                <note place="foot" resp="editors">Regarding <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Southey">Edith Southey&#8217;s</ref> recovery
+                        in York.</note> 
+                &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">Dora</ref> certainly gains ground &#8211;
+             3 of the inflamed parts now well &#8211; two are yet untouched by remedies applied above
+             &#8211; &#8211; My pains much diminished; but I do not gain strength
+             </p>
+             
+            <p><hi rend="bold">5<hi rend="superscript">th</hi> Feb<hi rend="superscript">ry</hi>
+                Friday</hi> &#8211; a very wet night &amp; a day the opposite of yesterday &#8211;
+                wind &amp; Rain with two or three startling flashes of sunshine &#8211; then again
+                the black cloud. <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">M<hi
+                rend="superscript">rs</hi> Cookson</ref> expected but cannot come &#8211; Interesting
+                letters from S<hi rend="superscript">r</hi> R Peel, L<hi rend="superscript">d</hi>
+                Lonsdale, &amp; M<hi rend="superscript">r</hi> Thornton, calculated to set 
+                W<hi rend="superscript">m</hi>&#8217;s anxieties at rest.
+                        <note place="foot" resp="editors">Following the advice of Lord Lonsdale, WW had informed the new prime minister, Sir Robert
+                         Peel (1788&#8211;1850, <ref target="https://doi.org/10.1093/ref:odnb/21764">DNB</ref>), and the 
+                         nation&#8217;s stamps commissioner, John Thornton (1783&#8211;1861), of his &#8220;wish to give up my office of Distributor
+                         of Stamps which I have held nearly 22 years, in case his Lordship through the present prime minister could procure a 
+                         transfer of it to my son [Willy]&#8221; (<title level="m">Letters</title>, 6:11, 20&#8211;21). The hope was to push
+                         through such an arrangement before the Tories lost their tenuous grip on power.</note>
+                Friday at Supper time began fresh Bottle
+                        <note place="foot" resp="editors">A new bottle of laudanum (see note for 22 October).</note>
+            </p>
+             
+            <p><hi rend="bold">Saturday 6<hi rend="superscript">th</hi> Feb<hi rend="superscript">ry</hi></hi><lb/>
+                <hi rend="indent1">a tolerable day, but coldish &#8211; &amp; I have had a bad night which, with cold,
+                brought on</hi> hoarseness &amp;c
+            </p>
+             
+            <p><hi rend="bold">Sunday 7<hi rend="superscript">th</hi></hi> Fine morning &#8211; but
+                wind &amp; cold came on &#8211; Weak &amp; kept close in bed.
+            </p>
+             
+            <p><hi rend="bold">Monday 8<hi rend="superscript">th</hi></hi> a bright lovely morning; but
+                very sharp &#8211; so that W<hi rend="superscript">m</hi> is afraid to go to Keswick
+                &#8211; This is very unlucky for <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Southey">S[outhey]</ref>
+                is going to York this week &#8211; I have turned to the 1<hi rend="superscript">st</hi>
+                page of this Book &amp; find these words &#8220;The Grandson a noble Boy!&#8221;
+                    <note place="foot" resp="editors">See entry for 4 October.</note>
+                &#8211; and now he is reduced to a skeleton, though supposed to be
+                recovering &#8211; I have many fears &#8211; Dora mends <hi rend="underline">very</hi>
+                slowly &#8211; Letter from M<hi rend="superscript">r</hi> Jones,
+                        <note place="foot" resp="editors">Robert Jones (1769&#8211;1835), WW&#8217;s close friend
+                         from Cambridge who had accompanied him on two journeys&#8212;their tour of Revolutionary
+                         France and ascent of Mount Snowdon&#8212;immortalized in <title level="m">The Prelude</title>.
+                         Consumed by political business and his pending trip to London, WW would not respond to this
+                         letter until 30 March, just four days before Jones&#8217;s passing (<title level="m">Letters</title>,
+                         6:34&#8211;37; obit. in <title level="m">Liverpool Mercury</title>, 10 April 1835).</note>
+                &amp; from <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Willy">Willy</ref> in great
+                spirits &#8211; My hoarseness &amp;c passing away. The air improves &#8211; &amp; much
+                I wish that W<hi rend="superscript">m</hi> had felt himself able to go to Keswick. 
+                Cayenne Beef
+                        <note place="foot" resp="editors">Cayenne pepper from the West Indies had been introduced to British cooking in the
+                        mid-18th century.</note>
+                made me so sick [&#8211;] bilious, heart burn
+            </p>
+             
+            <p><hi rend="bold">Tuesday [9 Feb.]</hi> Still cold &amp; changeable. 
+                W<hi rend="superscript">m</hi> afraid to go to K[eswick]. The Sun often
+                shines [&#8211;] Dora&#8217;s leeches on &#8211; Sick &amp; weak &amp;
+                cannot eat &#8211; I weakly but seldom in much pain, tho&#8217; once
+                very bad [&#8211;] <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">M<hi rend="superscript">rs
+                </hi>Cookson</ref> poorly[.] All at Ambleside &#8211; Eliz<hi rend="superscript">th</hi>
+                <note place="foot" resp="editors"> Ebba Hutchinson.</note>
+                at M<hi rend="superscript">rs</hi> Godwin&#8217;s &#8211; Tableaux sports [&#8211;]
+                I had a visit from M<hi rend="superscript">r</hi> F[letcher]&#8217;s bust of 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Hamilton">M<hi rend="superscript">r</hi>Hamilton</ref>
+                &#8211; here past 12
+                        <note place="foot" resp="editors">DW&#8217;s obscure description is elucidated by the letter SH sent her nephew Tom
+                            Hutchinson Jr. on 16 February, which relates how Tom&#8217;s sister Ebba recently attended &#8220;three Parties
+                            &#8211; one at the Ivy Cot &#8211; one at Sr Thos&#8217; [the Pasleys&#8217;] &amp; another at Mrs Godwins &#8211;
+                            at all which they amused themselves with <hi rend="italic">Tableaux</hi> i.e. a representation of the paintings of
+                            celebrated Masters, by living subjects dressed up in character &amp; placed within a frame &#8211; Mr Fletcher the
+                            Statuary (who has been making a Bust of <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Hamilton">Mr Hamilton</ref>) &amp;
+                            <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Minto">Sir Minto Farquhar</ref> (Lady F&#8217;s Son) introduced this amusement
+                            into the Vale to the great delight of the party-going inhabitants&#8221; (<hi rend="italic">LSH</hi>, 440). In ensuing
+                            years, the visiting sculptor, Angus Fletcher (1799&#8211;1862), would execute a bust of WW and carvings for Dora’s headstone.
+                            DW&#8217;s wording seems to suggest that one of the revelers &#8211; perhaps Minto Farquhar or Captain Hamilton
+                            himself &#8211; paid her a visit while still made up to resemble the captain&#8217;s bust.</note>
+            </p>
+            <p><hi rend="bold">Wednesday [10 Feb.]</hi><lb/>
+                Very dull[,] dark &amp; cold &#8211; a visit from poor Dora at past 4 o&#8217;clock
+                to light a candle &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Minto">Sir Minto</ref>
+                bade me Farewell &#8211; The latter part of the day pleasant &amp; chearful &#8211;
+                My limbs unusually weak &#8211; With difficulty I went to window &amp; back.
+             </p>
+             
+             <p><hi rend="bold">Thursday [11 Feb.] &#8211;</hi><lb/>
+                 <hi rend="indent1">I am able to read but little, therefore Eliz[abe]th&#8217;s readings are a great
+                     comfort to</hi> me &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">The Harrisons</ref>
+                 called
+             </p>
+             
+            <p><hi rend="bold">Tuesday 17<hi rend="superscript">th</hi> Feb<hi rend="superscript">ry</hi></hi>
+                This day W<hi rend="superscript">m</hi> &amp; Mary W left us in car to go to London.
+                        <note place="foot" resp="editors">With DW&#8217;s and Dora&#8217;s conditions having stabilized, WW and MW went to London to lobby for
+                        the transfer of his stamps distributorship to Willy (see note for 5 February). The would arrive back in Rydal on 24 April.</note>
+                The morning beautiful [&#8211;] warm as in May &#8211; Both in good spirits till 
+                W&#8217;s last parting came, when I was overcome
+                        <note place="foot" resp="editors">Although DW could not have known that this would be her brother&#8217;s final appearance in the
+                        <hi rend="italic">RJ</hi>, her wording is eerily reminiscent of her opening <title level="m">GJ</title> entry from 35 years earlier,
+                        where, in relating her anguished parting from WW on 14 May 1800, she writes that &#8220;My heart was so full that I could hardly
+                        speak to W when I gave him a farewell kiss&#8221; (1).</note>
+                &#8211; My Spirits much depressed since Saturday by Kitchen disturbances &#8211; Wages
+                &amp;c. &#8211; More than I have done I cannot do; therefore shall only state my sorrow
+                that our Friendship is so little prized &amp; that they can so easily part from the
+                helpless invalids &#8211; but that still, if disposed to repent, I would endeavour to
+                make all right again.
+                        <note place="foot" resp="editors">The Wordsworths&#8217; maids Anne Dawson and Jane Winder (see notes for 28 October and 4 November) apparently
+                         leveraged WW and MW&#8217;s pending departure, and their employers&#8217; understandable concerns about leaving two &#8220;helpless invalids&#8221;
+                         behind, to petition for higher wages. When citing this entry in their biography of DW, Gittings and Manton seem to intentionally omit the phrase
+                         &#8220;Kitchen disturbances &#8211; Wages &amp;c.&#8221; in order to misleadingly suggest that DW&#8217;s &#8220;uncharacteristic, almost childish&#8221;
+                        distress emanated not from a sense of betrayal by their long-time domestics but from WW and MW&#8217;s perceived &#8220;desertion of herself and Dora&#8221;
+                        (Gittings, 269).</note>
+                Good news from Sir Minto of M<hi rend="superscript">rs</hi> Luff
+                <note place="foot" resp="editors">Presumably concerning <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Luff">Letitia Luff&#8217;s</ref> pending
+                        return to Fox Ghyll after an extended absence.</note>
+                &#8211; Joanna has had good news from the Isle of M[an] &#8211; Morrison&#8217;s
+                pills have cured Henry for the present &amp; Joanna consents to stay with us.
+                        <note place="foot" resp="editors">Joanna extended her visit after learning that her ailing brother, Henry Hutchinson (1769&#8211;1839)&#8212;who
+                        remained back home on the Isle of Man while she was in Rydal caring for DW and Dora&#8212;had begun feeling significantly better since he had
+                        started taking Morrison&#8217;s pills, a widely advertised cure-all consisting mainly of aloe and cream of tartar.</note>
+                Southey &amp; <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Southey">Cuthbert</ref> going southward tomorrow
+                        <note place="foot" resp="editors">With his family still in crisis, Robert Southey decided to take his youngest child, Cuthbert, to Tarring, Sussex,
+                        to live with his eldest daughter, Edith May Warter (née Southey, 1804&#8211;71), and her husband, John (1806&#8211;78). Southey then headed to York,
+                        where he discharged his wife from the mental hospital where she had been committed (Speck, <title level="m">Robert</title> Southey, 224&#8211;25, 231).
+                        </note>
+            </p>
+             
+            <p><hi rend="bold">Wednesday 18<hi rend="superscript">th</hi></hi><lb/>
+                Southey passed through Rydal this morning[.] Fine morning &#8211; but rain comes on in
+                Evening &#8211; M<hi rend="superscript">rs</hi> Cookson at Tea &#8211; &amp; with me &#8211;
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Fisher">Mary Fisher</ref> &amp; flowers &#8211; my
+                mind much relieved &amp; the whole house pleased that I have again settled with
+                A[nn] &amp; J[ane] = No change! &amp; this a comfort
+                        <note place="foot" resp="editors">A resolution of the previous day&#8217;s conflict with the maids at RM.</note>
+                &#8211; We hope W<hi rend="superscript">m</hi> &amp; M are safe at their Inn close to
+                London at 11 o&#8217;clock this night &#8211; dark &amp; wet.
+            </p>
+             
+            <p><hi rend="bold">Thursday 19</hi> Snow &amp; Sunshine &amp; cold [&#8211;] Eliz. gone
+                to school for the first time
+                        <note place="foot" resp="editors">Too busy caring for DW and Dora to properly tutor Ebba at home, SH enrolled her as a day-student at the Dowlings&#8217;
+                         school in Ambleside (<title level="m">LSH</title>, 440).</note>
+                [&#8211;] Hopeful letter from Willy [&#8211;] Now, at 4 very dark &amp; cold &#8211;
+                My nights are much better &#8211; the trouble of hunger gone &#8211; but cough still
+                bad &amp; phlegm choking &#8211;
+            </p>
+             
+            <p><hi rend="bold">Friday 20<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Had a painful time last night &#8211; starved to marble &#8211; Eliz. kept all night by
+                snow-</hi>storm
+                <note place="foot" resp="editors">The snow having prevented her return home after the school day in Ambleside.</note>
+                &#8211; &#8211; Better today than I expected &#8211; indeed the air is warmer &#8211;
+                showery
+            </p>
+             
+            <p><hi rend="bold">Saturday 21<hi rend="superscript">st</hi></hi><lb/>
+                a better night &#8211; Jane Garside
+                        <note place="foot" resp="editors">Jane Garside (née Ashburner, 1786&#8211;1857), a daughter of the Wordsworths&#8217; former Town End neighbor
+                        Thomas Ashburner, who had been a teenager when DW and WW arrived at Dove Cottage in late 1799. Since marrying the warehouseman John Garside in
+                        1808, she had lived in Kendal, but she was apparently back in the area visiting family.
+                        </note>
+                sate an hour [&#8211;] Much company below &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Robinson">
+                M<hi rend="superscript">r</hi> R[obinson]</ref> 3 hours &#8211; Children in kitchen
+                        <note place="foot" resp="editors">Presumably several of Charles Robinson&#8217;s children.</note>
+                &#8211; No letter from W<hi rend="superscript">m</hi> &amp; M [&#8211;]
+                To me a great disappointment
+            </p>
+             
+            <p><hi rend="bold">Sunday 22<hi rend="superscript">nd</hi></hi><lb/>
+                <hi rend="underline">Rain &amp; blackness [&#8211;] letter from Travellers with good News &#8211; all well 
+                &#8211; The change</hi> of Speaker a sad damper on the day of their arrival
+                        <note place="foot" resp="editors">In the 19 February election for speaker of the House of Commons, the Tory incumbent Charles Manners-Sutton,
+                        1st Viscount Canterbury (1780&#8211;1845, <ref target="https://doi.org/10.1093/ref:odnb/17965">DNB</ref>), had lost
+                        by ten votes to the Whig candidate, James Abercromby, 1st Baron Dunfermline (1776&#8211;1858, <ref target="https://doi.org/10.1093/ref:odnb/41">
+                        DNB</ref>). While attending Cambridge at the start of the century, Manners-Sutton had been tutored by DW&#8217;s brother
+                        Christopher Wordsworth, and thereafter his powerful father, who served as Archbishop of Canterbury from 1805 until his death in 1828, had promoted
+                        Christopher&#8217;s rise in the Church and university.</note>
+            </p>
+             
+            <p><hi rend="bold">Monday 23<hi rend="superscript">rd</hi></hi><lb/>
+                <hi rend="indent1">a Cold day &#8211; I felt it inwardly &#8211; again good news &#8211; but W &amp;
+                M. too full of bustle &#8211;</hi> careless of strength, &amp; too careful of money &#8211;
+                M<hi rend="superscript">rs</hi> Cookson for some time
+            </p>
+             
+            <p><hi rend="bold">Tuesday 24<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">A dreadful storm in the night &#8211; very weak this morning &#8211; 12 o&#8217;clock
+                strikes &amp; I</hi> have neither read nor worked &#8211; hardly thought &#8211; a sad letter
+                from M<hi rend="superscript">rs</hi> Hook &#8211; Her Son ill
+                        <note place="foot" resp="editors">Despite this scare, both of Ann Hook&#8217;s sons,
+                         Walter (1798&#8211;1875, <ref target="https://doi-org.byu.idm.oclc.org/10.1093/ref:odnb/13687">
+                         DNB</ref>) and Robert (1799&#8211;1873), survived into
+                         the 1870s.</note>
+                [&#8211;] Letters from Willy &#8211; Newbiggin
+                        <note place="foot" resp="editors">Newbiggin Hall, the family home near Penrith of DW&#8217;s aunt Charlotte Crackanthorpe (née Cust, 1752&#8211;1843) and
+                        this relative&#8217;s three unmarried children, William (1790&#8211;1888), Charlotte (1791&#8211;1865), and Sarah (1794&#8211;1845).</note>
+                [&#8211;] [Hendingham?]
+                    <note place="foot" resp="editors">Possibly a misspelling of Hensingham, the hamlet near Whitehaven that was home to DW&#8217;s
+                        cousin and <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">Dorothy Harrison&#8217;s</ref> sister Catharine
+                        Doughty (née Wordsworth, 1795&#8211;1853).</note>
+                &#8211; Miss Honeyman
+                        <note place="foot" resp="editors">Mary Honeyman (1775&#8211;1851), a Penrith spinster whose extended stay at RM in the autumn of
+                        1825 is chronicled in Notebook 1.</note>
+            </p>
+             
+            <p><hi rend="bold">Wednesday 25<hi rend="superscript">th</hi></hi> Snow fallen
+                &amp; air cold but Sun gets out [&#8211;] Eliz at school after dinner yesterday &amp;
+                this morning off again &#8211; brisk &amp; eager &#8211; M<hi rend="superscript">rs</hi>
+                Hook&#8217;s letter came today &#8211; &amp; today it is that my work begins at past 12.
+                These winds will keep dear Joanna among us
+                        <note place="foot" resp="editors">The weather made sailing home to the Isle of Man too dangerous.</note>
+                &#8211; On Monday began a new Rugg for Lady P[asley] or M<hi rend="superscript">rs</hi> Cookson
+            </p>
+          </div>
+          
+          <div type="section">
+              <head type="center">[March 1835]</head>
+              
+            <p><hi rend="bold">Monday 9<hi rend="superscript">th</hi> March 9</hi>
+            </p>
+            
+            <p>Have not looked at my Book since Wed[nes]day (25<hi rend="superscript">th</hi>) &amp;
+                hardly know how the time has gone &#8211; not profitably alas! for my reading has been
+                small &#8211; &amp; how to lie easiest and quietest has been my chief care. The cold has
+                affected my bowels &#8211; Today I am much better after an unusually good night &#8211;
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#MW">W<hi rend="superscript">m</hi></ref> &amp; 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#MW">M[ary]</ref> write chearfully &#8211; lodgings
+                quitted &#8211; now at M<hi rend="superscript">rs</hi> Gee&#8217;s
+                        <note place="foot" resp="editors">Fanny Gee (1772&#8211;1846), a close friend of the Wordsworths since the four years (1817&#8211;21) she and her late husband, Capt.
+                        George Gee, spent at Ivy Cottage in Rydal. WW and MW were visiting her in the northwestern London suburb of Hendon, where she had run a school since
+                        her husband&#8217;s 1827 passing left her in dire need (<title level="m">Letters</title>, 5:699n.).</note>
+                &#8211; will go to Miss Fenwick&#8217;s today.
+                        <note place="foot" resp="editors">Isabella Fenwick (1783&#8211;1856), an admirer of WW&#8217;s poetry who in May 1830 and again in June 1831 had visited
+                         RM with her quasi-relation, the aspiring critic and playwright Henry Taylor (1800&#8211;86, <ref target="https://doi.org/10.1093/ref:odnb/27030">
+                         DNB</ref>) (see <title level="m">RMVB</title>). Although Fenwick&#8217;s permanent home was in Bath, Taylor had persuaded her
+                         spend winters in London, where they typically shared a rented home (Taylor, <hi rend="italic">Autobiography</hi>, 104&#8211;05).</note>
+                Continual changes.
+                    <note place="foot" resp="editors">Presumably commenting on WW and MW&#8217;s crowded itinerary (cf. DW&#8217;s entry for 23 February).</note>
+                Miss Wilson dead [&#8211;] has soon followed her Sister in Ireland whom she was
+                to see.
+                        <note place="foot" resp="editors">Jane Wilson (1783&#8211;1835) died in Cork on 7 February while visiting her sister Grace Cashel (née Wilson,
+                         1782&#8211;1835), who would herself pass away thirteen days later (<hi rend="italic">Cumberland Pacquet</hi>, 10 March 1835; Gordon, 
+                         <hi rend="italic">&#8220;Christopher North&#8221;</hi>, 1:3). Both women were older sisters of Professor John Wilson (1785&#8211;1854,
+                         <ref target="https://doi.org/10.1093/ref:odnb/29668">DNB</ref>), the eminent Scottish man of letters
+                         who had once been a close friend of the Wordsworths.</note>
+                M<hi rend="superscript">r</hi> Papendick is dead.
+                        <note place="foot" resp="editors">George Ernest Papendick (1788&#8211;1835), the royal
+                        consul to Hanover with whom Willy Wordsworth had lived and studied in
+                        1829&#8211;1831, died in Bremen on 5 February 1835 (<hi rend="italic">London
+                            Packet and New Lloyd&#8217;s Evening Post</hi>, 27 February 1835).</note>
+               M<hi rend="superscript">r</hi> Sharpe very ill
+                        <note place="foot" resp="editors">Richard Sharp (1759&#8211;1835, <ref target="https://doi.org/10.1093/ref:odnb/25217">
+                        DNB</ref>), a legendary wit, dissenting Whig, and friend to many of the age&#8217;s leading
+                        poets (including WW). His charisma and conviviality had earned him the nickname &#8220;Conversation Sharp.&#8221;
+                        He would die on 30 March (<title level="m">Letters</title>, 6:41).</note>
+                [&#8211;] <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Southey">Bertha &amp; Kate</ref> here since last
+                Thursday. Better news from York &amp; from Tarring this morning very good.
+                        <note place="foot" resp="editors">See note for 17 February concerning Robert Southey&#8217;s trip to Tarring and York.</note>
+            </p>
+                
+                <p>&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</p>
+                
+            <p><ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">Mrs Harrison</ref> just gone &#8211; Alas,
+                tho&#8217; well when she came I am tired &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-1-index.html#Godwin">Godwin</ref>
+                comes to see me (Tuesday at dinner B[ottle]
+                    <note place="foot" resp="editors">A new bottle of laudanum (see note for 22 October).</note>)
+            </p>
+                
+            <p><hi rend="bold">Friday March 13<hi rend="superscript">th</hi></hi><lb/>
+                Since Monday idle &amp; good-for-nothing &#8211; Sickness every day [&#8211;]
+                yesterday eat no meat &amp; stomach better, though unsettled &amp; cannot bear
+                solid food &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Carr">M<hi rend="superscript">r</hi>
+                Carr</ref> [busied?] &amp; new medicines &#8211; Good news today &#8211; all at ease
+                &#8211; carriages at W[hiteh]all &amp;c &amp;c. M<hi rend="superscript">r</hi> Rogers
+                absent a week &#8211; Leaves use of Car[ria]ge &amp; servants
+                        <note place="foot" resp="editors">An update from London, where WW had met with government ministers in Whitehall
+                        concerning the potential transfer of his distributorship and was now staying (with MW) in the St. James home of 
+                        his friend and fellow poet Samuel Rogers (1763&#8211;1855, <ref target="https://doi.org/10.1093/ref:odnb/23997">
+                        DNB</ref>).</note>
+                &#8211; This day fine &amp; very bright &#8211; Snow much melted &#8211; The whole
+                of the week (till now) very bad &#8211; deep snow &#8211; wind &#8211; hail &#8211;
+                cold &#8211; many trees blown down &#8211; Fir tree, &amp; old elder above 
+                M<hi rend="superscript">rs</hi> Jobson&#8217;s wall
+                        <note place="foot" resp="editors">Jane Jopson (née Watson) of Wythburn, the small village between Grasmere and Keswick. She and her husband, Matthew
+                        (1753&#8211;1837)&#8212;who appears in the <title level="m">GJ</title> (3)&#8212;were the long-time proprietors of the Horse&#8217;s Head Inn in 
+                        Wythburn.</note> 
+                &#8211; Better public news than expected
+                        <note place="foot" resp="editors">Possibly concerning Peel&#8217;s continued hold on the premiership.</note>
+            </p>
+                
+            <p><hi rend="bold">Saturday March 14<hi rend="superscript">th</hi></hi><lb/>
+                Snow goes fast &#8211; Still poorly; but M<hi rend="superscript">r</hi> Carr&#8217;s
+                prescription very good &#8211; Yet today (the 4<hi rend="superscript">th</hi> time)
+                my stomach has repelled my dinner &#8211; very rainy night.
+            </p>
+                
+            <p><hi rend="bold">Sunday 15<hi rend="bold superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Fine day. Squeamish but no Rejection of food &#8211; Eliz<hi rend="superscript">th</hi>
+                        <note place="foot" resp="editors">Ebba Hutchinson.</note>
+                read B[isho]p Middleton at</hi> night[.]
+                        <note place="foot" resp="editors">Likely the <title level="m">Life of the Right Reverend Thomas Fanshaw Middleton, D. D., Late Bishop
+                        of Calcutta</title> (London: Rivington, 1831) by Charles Webb Le Bas. A schoolmate of Coleridge and Lamb, Middleton (1769&#8211;1822,
+                        <ref target="https://doi.org/10.1093/ref:odnb/18683">DNB</ref>) became the inaugural Bishop of Calcutta in 1814 and
+                        remained in that office until his death in 1822.</note>
+                The greatest evil attending my present disordered state is that I can read or work
+                little or none, but I have kind Friends to read when leisure allows. 
+                <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#SH">S H</ref> &amp; B[ertha] &amp; Kate binding
+                Books most of the day all last week
+                        <note place="foot" resp="editors">The Southey girls were applying skills they had acquired in helping to care for their father&#8217;s vast library
+                         at Greta Hall to the considerably smaller book collection at RM. Their brother Cuthbert later chronicled how their father tasked &#8220;his daughters,
+                         aided by any female friends who might be staying with them,&#8221; with binding his more &#8220;ragged and dirty&#8221; books in colored cotton
+                         fabric. He then explains that &#8220;the ladies would often suit the pattern to the contents, clothing a Quaker work or a book of sermons in sober drab,
+                         poetry in some flowery design, and sometimes contriving a sly piece of satire at the contents of some well-known author by their choice of covering.&#8221;
+                         Over time, some &#8220;1200 to 1400 volumes were so bound, . . .filling completely one room&#8221; that they dubbed &#8220;the Cottonian library&#8221;
+                         (<title level="m">Life and Correspondence</title>, 6:17).</note>
+                &#8211;
+            </p>
+                
+            <p><hi rend="bold">Monday 16<hi rend="superscript">th</hi> March</hi><lb/>
+                This has been a bright fine day &#8211; yet not showerless &#8211; M<hi rend="superscript">r</hi>
+                Carr &amp; <ref target="editions.2022.DW.RJ-15-index">M<hi rend="superscript">r</hi> Robinson</ref>
+                &#8211; very pleasant news from London public &amp; private &#8211; I now hope we shall conquer the
+                Radicals[.]
+                        <note place="foot" resp="editors">As reported in a letter MW and WW sent from London.</note>
+                SH &amp; Girls at <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Minto">Lady Farquahars</ref> to tea
+            </p>
+                
+            <p><hi rend="bold">Tuesday, March 17<hi rend="superscript">th</hi></hi><lb/>
+               Grey dark &amp; dull &amp; I am weakly after a night with fits of sharp pain, &amp;
+               [pained?] sleep. Three days ago I heard that good <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Elliott">M
+               <hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi>
+               Elliott</ref> were stopped at Chester by M<hi rend="superscript">r</hi> E&#8217;s illness
+               &#8211; Their poor Sister dying &amp; they on their way to attend her deathbed.
+                        <note place="foot" resp="editors">Thomasine Anne Elliott (1758–1835), an older sister of John Elliott and close friend of the writer Joanna Baillie, would
+                        die in Awliscombe, Devon, on 1 April (Slagle, <title level="m">Collected Letters</title>, 1:445&#8211;46). John Elliott himself would pass away in
+                        Ambleside on 11 October.</note>
+               This morning another heavy shock M<hi rend="superscript">r</hi> Grave
+                        <note place="foot" resp="editors">Robert Perceval Graves, the young Irishman who had recently become Curate of Bowness (see note for 20
+                        November).</note>
+               called from Bowness by tidings of his Brother&#8217;s dangerous illness.
+                <ref target="editions.2022.DW.RJ-15-index">Owen Lloyd</ref> brought this sad news
+                on Sunday night
+            </p>
+                
+            <p><hi rend="bold">Friday March 20<hi rend="superscript">th</hi></hi><lb/>
+                <hi rend="indent1">Days &amp; nights disturbed by sickness &amp; pain &#8211; After two doses of medicine I hope</hi>
+                the bile is overcome &#8211; yesterday my pains were very severe. Now I am in comparative
+                ease but very weak Except in Legs &#8211; The left is much stronger &#8211; heat gone &amp;
+                circulation improved. M<hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi>
+                Elliott returned &#8211; M<hi rend="superscript">rs</hi> Anne E[lliott] bet[t]er.
+                    <note place="foot" resp="editors">Mr. Elliott&#8217;s sister in Devon (&#8220;Mrs.&#8221; signifying seniority rather than marital status).</note>
+                Poor M<hi rend="superscript" xml:space="preserve">r</hi> E! he says his illness at
+                Chester has taken 10 years from his life &#8211; Owen Lloyd below
+                stairs. <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Joanna">Joanna</ref> kniting in easy
+                chair, &amp; Eliz<hi rend="superscript">th</hi> writing on window-seat [ ]
+                her. The weather is now mild &amp; dry. Birds warble all day long &#8211; very busy
+                when I awoke after my early sleep &#8211; to me a second day-light [&#8211;] the first I 
+                have had after 5 o&#8217;clock &#8211; I can neither read nor work, &amp; two days
+                has a letter to M<hi rend="superscript">rs</hi> de Q.
+                <note place="foot" resp="editors">Likely a letter of condolences to Margaret De Quincey&#8212;whose family had moved from Rydal to Edinburgh in December 
+                    1831&#8212;over the November 1834 passing of her eldest son, William. This would have been an act of considerable charity on DW&#8217;s part, not only 
+                    because of how exhausting it had become to write anything longer than brief journal entries but because of how irate the Wordsworths remained
+                    over a series of less-than-hagiographic articles Thomas De Quincey had published about Coleridge after the writer&#8217;s death. WW had deemed the 
+                    first of these essays &#8220;highly offensive, and utterly unworthy of a Person holding the rank of a Gentleman in English society,&#8221; and Dora described
+                    how her &#8220;Aunt Sarah burn[ed] with indignation against the little Monster&#8221; and how Hartley Coleridge had vowed to &#8220;give it&#8221; to De Quincey if they 
+                    ever met (<title level="m">Letters</title>, 5:740; WLL / Wordsworth, Dora / 60).</note>
+                lain halting at the 2<hi rend="superscript">nd</hi> sentence &#8211; I hope
+                better things tomorrow[.] B[ottle] at dinner
+                        <note place="foot" resp="editors">Another new bottle of laudanum (see note for 22 October).</note>
+            </p>
+              
+            <p><hi rend="bold">Saturday 21<hi rend="superscript">st</hi></hi><lb/>
+               Weather dry clear &amp; chearing, but a sharp wind brushes away all greenness.
+            </p>
+              
+            <p><hi rend="bold">Monday, 30<hi rend="superscript">th</hi>March</hi> &#8211; Thus far
+                &amp; nothing very cheary to record only I hope poor Dora is essentially [better?]
+                    <note place="foot">Obscured by the same ink spill as part of her 20 March entry.</note>
+                tho&#8217; at a slow pace &#8211; She gains some strength &amp; is less averse
+                from food, yet appetite very small. I have been better &amp; worse. Often very sick 
+                &#8211; Yesterday not much &#8211; sickness but no appetite &amp; dislike to almost
+                all food except Arrow Root Bread &amp; Biscuit.
+                        <note place="foot" resp="editors">Arrowroot starch from the West Indies was often added to baked goods as a palliative for digestive complaints.</note>
+                Today I have begun to knit, &amp; can read a little. We lost Joanna &amp; the Southeys
+                on Wednesday
+                        <note place="foot" resp="editors">Joanna Hutchinson was returning to the Isle of Man and Bertha and Kate Southey to Keswick.</note>
+                &#8211; a sad loss [&#8211;] Sara still busy with Book binding begun by them. 
+                Poor things! They send us better tidings of their dear Mother who is expected
+                at K[eswick] on Wednesday night &#8211; M<hi rend="superscript">rs</hi> Lovel going with
+                J[oanna] to the Isle of Man.
+                        <note place="foot" resp="editors">Mary Lovell (née Fricker, 1771&#8211;1862), a widowed sister of Edith Southey and Sarah Coleridge
+                        who had been at Greta Hall helping with the family crisis, was preparing to return to the Isle of Man, where she shared a home with
+                        her sisters Martha and Eliza (<title level="m">LSH</title>, 442; Speck, <title level="m">Robert Southey</title>, 232).</note>
+                Our Folks were to dine at Cambridge on Friday.
+                        <note place="foot" resp="editors">After their stay in London, MW and WW went to Cambridge to visit his brother Christopher and attend a dinner that WW&#8217;s
+                        former college, St. John&#8217;s, had organized in his honor (Barker, 666).</note>
+                An affecting letter of advice from a young woman, cured of a Spine complaint by a Woman
+                at Milnthorp, who had received instruction from the blind Doctor who visited &amp;
+                tortured poor Miles Huddleston.
+                <note place="foot" resp="editors">Likely a handbill or newspaper advertisement rather than an unsolicited private letter from this resident of Milnthorpe 
+                    (a village in south-eastern Westmorland) who had purportedly been healed by the late Thomas Huddart (1788?&#8211;1833) of Preston, better known as the &#8220;Blind Doctor.&#8221;
+                    Since his passing, Huddart&#8217;s widow had taken over his business, regularly advertising in newspapers across the North-west of England about her ability to &#8220;cure 
+                    Paralytic Affections, Spinal Complaints, Pains in the Limbs, Lumbago, Rheumatism, &amp;c. by means of the Shampouing or Rubbing System, and the application of a fluid,
+                    which [her late husband] practised successfully upwards of twenty years in the Indies&#8221; (Liverpool Mercury, 3 January 1834; his obit. in WG, 21 December 1833). DW&#8217;s
+                    growing desperation for a cure is suggested by her deeming this testimonial &#8220;affecting&#8221; despite the misery Huddart had inflicted upon her late neighbor Miles Huddleston
+                    prior to his 1829 death.</note>
+                Letter from <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Arnold">M<hi rend="superscript">rs</hi> Arnold</ref> &#8211; The active
+                zealous Doctor talks of a visit to Fox How at Easter &#8211; a week&#8217;s visit! &#8211; Better
+                excused however than his last to vote for a Destructive Member. Happily not successful.
+                    <note place="foot" resp="editors">An uncharacteristic burst of animus toward this generally beloved neighbor, who, during his family&#8217;s winter holiday at Fox How,
+                    had supported the (ultimately unsuccessful) reformist candidate in the Westmorland election.</note>
+            </p>
+              
+            <p>S. H. &amp; Eliza<hi rend="superscript">th</hi> at Grasmere Church &#8211; the whole parish
+               in trouble at the threatened Loss of M<hi rend="superscript">r</hi> Kingsley, &amp; the Bishop
+                cannot exclude Sir Richard unless a fresh appeal is made by the Parish.
+                        <note place="foot" resp="editors">By 1832 the chronic alcoholism of Sir Richard le Fleming (1791&#8211;1857), Rector of Windemere and Grasmere
+                        since the early 1820s, became such an impediment that he was placed on indefinite leave and replaced by the young Irish curate
+                        James Kingsley (1809&#8211;39). Three years on, Fleming was using his family&#8217;s influence to have himself reinstated and his popular 
+                        replacement evicted from the rectory attached to the living. This struck many, including the Wordsworths, as an unusually egregious case of
+                        church politics trumping the spiritual well-being of local parishioners (<title level="m">Letters</title>, 4:370, 5:648, 6:19, 6:60).</note>
+            </p>
+              
+            <p>Old James Fleming is on his death-bed,
+                        <note place="foot" resp="editors">James Fleming (1769&#8211;1835) of Town End, Grasmere, who, at the urging of the Wordsworths, had rented a
+                        cottage to Hartley Coleridge since 1831 (<hi rend="italic">Letters</hi>, 3:15, 5: 209, 5:369). He would pass away on 27 June at the age of 65
+                        (obit. in <title level="m">WG</title>, 4 July 1835).</note>
+              &amp; Tommy Black is dead. Two days before, I heard of his extreme feebleness from
+              <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Fisher">Mary Fisher</ref>. His Widow has now no
+              encumbrance &amp; doubtless will go on adding by hard labour to her little heap of
+              Cash &#8211; her own purse &#8211; but perhaps a stop may soon be put to this, as
+              she may find it easy enough to get a young Husband to spend for her
+                        <note place="foot" resp="editors">Thomas Black (1758&#8211;1835), an elderly working man of Grasmere, died on 29 March 1835
+                        (obit. in <title level="m">WG</title>, 11 April 1835). The uncharacteristic animus DW displays here toward his widow, Agnes
+                        (née Partridge, 1771&#8211;1841), is all the more surprising given the consistently positive mentions of the Blacks in family
+                        letters, including ones documenting how the Wordsworths repeatedly hired either Agnes or her namesake daughter (1793&#8211;1871)
+                        to help with gardening and laundry between 1810 and 1812 (<title level="m">Letters</title>, 2:452, 3:5, 3:11, 3:226).</note>
+            </p>
+              
+            <p>The weather has been dry all the week</p>
+              
+            <p><hi rend="bold">Tuesday April 1<hi rend="superscript">st</hi> [31 Mar.]</hi><lb/>
+                Cold &amp; dark &amp; calm &#8211; no green yet &#8211; no budding trees[.] Biscuits arrived from
+                Liverpool on Friday &#8211; Breads ordered today
+                        <note place="foot" resp="editors">Likely Abernethy&#8217;s Food for Invalids and Infants, which the Liverpool medicine dealer Charles Mawhood
+                         marketed as &#8220;a delicate and invaluable preparation of arrow-root&#8221; that was &#8220;peculiarly suited . . .for the debilitated stomachs
+                         of invalids and infants&#8221; (<title level="m">Liverpool Mercury</title>, 6 February 1835).</note>
+                &#8211; Languid &amp; sickness[.] Letters from Miss Honeyman,
+                        <note place="foot" resp="editors">Her friend Mary Honeyman of Penrith (see note for 24 February).</note>
+                who cannot come till the end of April, &amp; from S Crackanthorpe
+                        <note place="foot" resp="editors">DW&#8217;s cousin Sarah Crackanthorpe of Newbiggin Hall (see note for 24 February).</note>
+                &amp; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Willy">Willy</ref>, very desponding
+                for the Tories
+                        <note place="foot" resp="editors">With Lord John Russell having arranged a coalition of Whig, radical, and Irish MPs, Sir Robert Peel&#8217;s
+                            prospects for retaining the premiership were increasingly dim.</note> [&#8211;] Sickness all day &#8211;
+            </p>
+          </div>
+                
+          <div type="section">
+            <head type="center">[April 1835]</head>
+              
+              <p><hi rend="bold">Wednesday 2<hi rend="superscript">nd</hi> [1<hi rend="superscript">st</hi>] April </hi>
+                Dark[,] wet &amp; a piping wind. Poor <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Southey">Southey</ref> ran
+                up in streaming rain leaving his unhappy Wife &amp; good Betty at the hill foot.
+                        <note place="foot" resp="editors">Having discharged his wife from the asylum in York, Robert Southey called at RM on the way home to Keswick, leaving Edith
+                        at the foot of the hill in the care of their long-time maid Betty Thompson (1777?&#8211;1862). Of this same visit, SH wrote that Southey &#8220;ran up
+                        the hill to see us at their coming home on Wed. last &#8211; [Edith] had been very rambling on their journey, &amp; he looked wretchedly poor man&#8221;
+                        (<title level="m">LSH</title>, 442).</note>
+                &#8211; Constantly sick all day &#8211; Job &amp;c
+                        <note place="foot" resp="editors">Possibly suggests either that DW was reading the Biblical account of this famously tormented Israelite or was beginning
+                         to feel like a Job figure herself.</note>
+                [&#8211;]
+                Very dark melancholy night &#8211; Whistling wind &amp; black sky[.] The poor Isle of Manners
+                <note place="foot" resp="editors"><ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Joanna">Joanna Hutchinson</ref> and Mary Lovell, whom DW feared were
+                    caught in the storm while returning to the Isle of Man (see 30 March entry).</note>
+            </p>
+              
+            <p><hi rend="bold">Thursday April 2<hi rend="superscript">nd</hi></hi><lb/>
+                Damp, close &amp; dark &#8211; sick all day. Begin B[ottle]
+                <note place="foot" resp="editors">Of laudanum (see note for 22 October).</note>
+            </p>
+              
+            <p><hi rend="bold">Friday 3<hi rend="superscript">rd</hi></hi> &#8211; Still soft
+                &amp; [muddy?]
+                    <note place="foot" resp="editors">Another word obscured by an ink spill.</note>
+                &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Carr">M<hi rend="superscript">r</hi></ref>
+                Carr calls &#8211; will give me more medicine
+            </p>
+              
+            <p><hi rend="bold">Thursday 9<hi rend="superscript">th</hi> April</hi> &#8211; Began 
+               B[ottle] at supper
+                    <note place="foot" resp="editors">Likely an indication of the increased severity of her pain, as this is the first time DW records opening
+                     a second bottle of laudanum in the space of a week.</note>
+               &#8211; &amp; M<hi rend="superscript">r</hi> Newton.
+                        <note place="foot" resp="editors">Presumably either the Ambleside solicitor James Newton (1774&#8211;1838) or the venerable Grasmere farmer Robert
+                        Newton (1751&#8211;1836), both of whom appear earlier in the <title level="m">RJ.</title></note>
+           </p>
+              
+           <p><hi rend="bold">Friday April 10</hi><hi rend="bold superscript">th</hi><lb/>
+           <hi rend="indent1">Another Friday &amp; till now no pen used!! In truth I have been so often sick,
+              &amp;, when</hi> not sick so helpless that I have had no pleasure in doing any thing &#8211;
+              &amp; too often only one hand to spare for work [&#8211;] I have seen no Company till
+              yesterday when <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Cookson">M<hi rend="superscript">rs</hi>
+              Cookson</ref> came, &amp; after a little while, a violent Belching came on with heat
+              &amp; water[.] All public affairs cheerless! This morning we hear that &#8220;Peel is 
+              out of office![&#8221;] Alas alas!
+                        <note place="foot" resp="editors">Having failed to establish a coalition government, Peel resigned as prime minister
+                        on 8 April, opening the door for Lord Melbourne’s return to the office.</note>
+              Poor old Anne Benson was buried last Saturday
+                        <note place="foot" resp="editors">Ann Benson (née Holme, 1746&#8211;1835), a native of Grasmere who died in Ambleside on 3 April at
+                        the age of 89 (obit. in <hi rend="italic">WG</hi>, 11 April 1835). The Wordsworths had known her since at least 1814, when MW complained
+                        about how &#8220;Ann Benson cram[med]&#8221; her son Willy &#8220;with apples and plumbs daily&#8221; on his way home from school in
+                        Ambleside (<title level="m">LMW</title>, 15). DW records offering monetary assistance to this old neighbor in the ledger below.
+                        </note>
+               &#8211; Her sufferings from a Cancer in the Mouth were very great &#8211;
+           </p>
+               
+           <p><hi rend="indent1">Dora&#8217;s Back is much better; but stomach sadly weak &#8211; I have had
+               little pain today &#8211;</hi> but weakness oppresses me
+           </p>
+               
+            <p><hi rend="bold">Saturday 11<hi rend="superscript">th</hi> April</hi><lb/>
+                Lovely morning, yet air frosty [&#8211;] This week however the weather has been very fine.
+                I have not been sick today, except &#8211;&#8211;&#8211;!
+                    <note place="foot" resp="editors">The first use of this device in the RJ, likely suggesting some delicate physical complaint.</note>
+                Tho&#8217; I am always sick
+            </p>
+               
+            <p><hi rend="bold">Sunday April 9<hi rend="superscript">th</hi> [19<hi rend="superscript">th</hi>]</hi>
+                <note place="foot" resp="editors">Details given below suggest eight days had elapsed since her previous entry. Alongside a gradual increase in such
+                    basic mistakes, the final pages of the RJ are written in an unusually shaky hand.</note>
+                <lb/>
+               <hi rend="indent1">Another week &amp; nothing set down. My Sickness has been better &#8211; almost
+               gone &#8211;</hi> but very cold weather brought back burning pain &amp; I was very
+                poorly all day &#8211; Now better [&#8211;] <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Luff">Sara</ref>
+               &amp; M<hi rend="superscript">rs</hi> Luff
+               <note place="foot" resp="editors">The Wordsworths&#8217; long-time neighbor and friend <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Luff">Letitia
+                        Luff</ref>, who had just returned to Fox Ghyll after an extended absence.</note>
+               at Tea at <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Minto">Lady F[arquhar]&#8217;s</ref>
+               [&#8211;] Bessy 
+                    <note place="foot" resp="editors">Possibly a variant nickname for Elizabeth &#8220;Ebba&#8221; Hutchinson.*</note>
+               came to see me &#8211; J[ame]s still poorly
+               &#8211; Old M<hi rend="superscript">r</hi> Hudson dead
+                    <note place="foot" resp="editors">Rev. Richard Hudson (1745&#8211;1835), Vicar of Cockerham, Lancashire, and the new headmaster at Hipperholme School
+                    when DW boarded there as a child (obit. in WG, 18 April 1835).
+                        </note>
+               [&#8211;] The last but one of M<hi rend="superscript">r</hi> [R&#8217;s?]
+                    <note place="foot" resp="editors">Possibly William Rawson of Halifax, the late husband of DW&#8217;s &#8220;Aunt&#8221; Elizabeth Threlkeld Rawson.</note>
+                [Cousins&#8217;?] Coevals
+               [&#8211;] Weather milder today &#8211; Frosty night over &#8211; Snow gone
+           </p>
+              
+              <p rend="center"><hi rend="bold">[Blank page]</hi></p>
+          </div>
+          
+          <div type="section">
+            
+            <head type="center">[November 1835]</head>
+              
+           <p><hi rend="bold">Nov<hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi> 1815 [1835] &#8211;</hi>
+               <note place="foot" resp="editors">While noticeably misdated by twenty years, this short-lived attempt to revive the diary following a seven-month hiatus is written in
+                   a much stronger hand than the last several pages of entries from the spring. In the intervening months, Dora had gradually strengthened, DW had often experienced
+                   acute pain and memory loss, and the family had been shaken by SH&#8217;s sudden passing on 23 June (Letters, 6:78, 83, 89). On 26 Sep., WW reported to his brother 
+                   Christopher, &#8220;Our dear Sister is in bodily health undoubtedly much better&#8221; but &#8220;her mind received a shock upon the death of Miss Hutchinson from which is has 
+                   never recovered.&#8221; He proceeded to explain that &#8220;her memory of passing events has greatly failed, and her judgements also in all that respects her disease, though
+                   not at all in other things. Indeed I think upon points of morals, character, literature, etc., she expresses herself as well or better than ever she did&#8221; (Letters, 6:96).
+                   In a letter he sent Robert Southey two days later, however, he was considerably less optimistic, fearing that DW&#8217;s faltering memory and &#8220;impaired judgement&#8221; were 
+                   side-effects of &#8220;the great quantity of opium which it has been thought proper to give her&#8221; (<title level="m">Letters</title>, 6:100).</note>
+            </p>
+              
+     
+           <p>I take up the pen once again. After a trying illness I have risen to dinner &#8211;
+               without pain at present [&#8211;] <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#WM">W<hi
+              rend="superscript">m</hi></ref> is at Workington
+                    <note place="foot" resp="editors">WW wrote on 7 November of his plan to &#8220;stay 3 or 4 days&#8221; with his son John in Workington (<title level="m">Letters</title>,
+                     6:112).</note>
+              &#8211; John has been in Radnorshire
+               <note place="foot" resp="editors">DW was possibly mistaken on this detail, as, while John Wordsworth had spent part of Oct. in Dublin (<title level="m">Letters</title>, 6:103), he is not known to have made a 
+                   recent trip to Radnorshire, the Welsh county where DW had enjoyed memorable holidays at Hindwell and Gwerndyfnant, most recently in 1826 (see Part 2).</note>
+               &#8211; <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Dora">Dora</ref> not unwell
+           </p>
+          </div>  
+                
+          <div type="section">  
+            <head type="center">[Draft revisions to <title level="a">Lines to Dora H.</title> [link to Poems section]</head>
+                    <note place="foot" resp="editors">Writing sideways and often in an unusually unsteady hand, DW used several pages in the back of Notebook 15 to revise
+                        portions of <title level="a">Lines to Dora H.,</title> a new poem for Dorothy Harrison (1825&#8211;73), the eldest daughter of her 
+                        <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">&#8220;Cousin Dorothy&#8221; Harrison</ref> of Ambleside. Levin&#8217;s Longman edition includes a full
+                        version of this poem that is based on a fair copy that Elizabeth (&#8220;Ebba&#8221;) Hutchinson made in DW&#8217;s commonplace book (DCMS 120) in June 1835
+                        (Levin, 215&#8211;17). Levin tentatively identifies the poem&#8217;s recipient as a daughter of George Hutchinson, MW&#8217;s youngest brother,
+                        but this is confuted by the fact that his Dora was not born until late 1835 (or several months after Ebba&#8217;s dated transcription of this poem)
+                        and survived for less than six months. Elsewhere in the Longman edition, Levin misidentifies DW&#8217;s initial pages of revisions to this poem in
+                        Notebook 15 as &#8220;a final [journal] entry of disconnected words scrawled irregularly on the page&#8221; (175).</note>
+         
+           <lg type="stanza">
+            <l>No damp thick walls enwrap it round</l>
+            <l>No iron hinges groan grating sound
+                <note place="foot" resp="editors">Cf. lines 29&#8211;30 in Levin (all subsequent line references are to this published version).</note></l>
+            <lb/>
+            <l>Torments this private room</l>
+            <lb/>
+            <l>And neither wind nor night is here</l>
+            <l>To tell me of dismal doom
+                <note place="foot" resp="editors">No equivalent lines in Levin.</note></l>
+            <lb/>   
+            <l>Free entrance finds the summer breeze</l>
+            <l>My eyes behold her leafy trees
+                <note place="foot" resp="editors">Cf. lines 33&#8211;34.</note></l>
+            <lb/>
+            <l>No thick damp walls enclose it round</l>
+            <l>No damp cold walls enwrap it round</l>
+            <l>No iron hinges warning sound
+                <note place="foot" resp="editors">Further reworkings of lines 29&#8211;30.</note></l>
+            <lb/>
+            <l>No fairy pen wherewith to write</l>
+            <l>No fairy prompter to indite</l>
+            <l>Is ready at my call</l>
+            <l>Dora, on thy <hi rend="strikethrough">Mother&#8217;s</hi> spotless Book</l>
+            <l>Yet on thy <hi rend="strikethrough">pure</hi> unspotted Book</l>
+            <l>With playful <hi rend="strikethrough">sportive</hi> Fancy I can look</l>
+            <l>And now with gleams of timid hope
+                <note place="foot" resp="editors">Several largely illegible words in faint pencil appear
+                        above and beside this line.</note></l>
+            <lb/>
+            <l>Something of a Chearful childlike joy</l>
+            <l>My <hi rend="strikethrough">feeble</hi> tremulous fingers feeble hands</l>
+            <l>Refuse to labour with the mind</l>
+            <l>And <hi rend="underline">that</hi> too oft is misty dark &amp; blind
+                <note place="foot" resp="editors">Cf. lines 1&#8211;9.</note></l>
+            <lb/>
+            <l>No iron Bars no
+                <note place="foot" resp="editors">A further reworking of line 29.</note></l>
+            <lb/>   
+            <l>Yet is it not a chearless place</l>
+            <l>a cell of sorrow
+                <note place="foot" resp="editors">Cf. lines 27&#8211;28.</note></l>
+            <lb/>
+            <l>My failing strength my tottering limbs,</l>
+            <l>Into a prison change this room</l>
+            <l>Yet is it not a cheerless place</l>
+            <l>A Cell of sorrow or of gloom.
+                <note place="foot" resp="editors">Cf. lines 25&#8211;28.</note></l>
+            <lb/>
+            <l>Our heavenly Father, <hi rend="strikethrough">sheds his</hi> precious gifts</l>
+            <l><hi rend="strikethrough">Of</hi> The sunshine &amp; the [ ] air</l>
+            <l><hi rend="strikethrough">And when my eyes are cast above</hi>
+                <note place="foot" resp="editors">No equivalent lines in Levin.</note></l>
+            <lb/>
+            <l>But <hi rend="strikethrough">And</hi> shall I dare to draw a line</l>
+            <l>How shall I dare [venture then] to imprint impress a line</l>
+            <l>[Over] Upon this delicate Book of thine</l>
+            <l>The gorgeous insects gauzy wing</l>
+            <l>The Butterflys resplendent ring</l>
+            <l>Would fitly deck <hi rend="strikethrough">these</hi> its spotless leaves</l>
+            <l>The violet [visible?] [nursed in] fresh with morning dew</l>
+            <l>Or half-blown rose of vermeil hue</l>
+            <l>Or <hi rend="strikethrough">humming that</hi> humming small Bird from India&#8217;s land</l>
+            <l>Mimicked by youthful lady&#8217;s hand
+                <note place="foot" resp="editors">Cf. lines 10&#8211;18.</note></l>
+           </lg>
+               
+               <figure>
+                   <graphic url="PLACEHOLDER"/>
+                   <figDesc> <hi rend="bold">Figure 2:</hi> Manuscript page from Notebook 15 showing DW&#8217;s revisions
+                       of lines 1&#8211;9 of <title level="a">Lines to Dora H.</title> The three sets of handwriting (two in
+                       different shades of ink and one in pencil) suggest these revisions were made in
+                       at least three separate sittings (courtesy Wordsworth Trust).
+                   </figDesc>
+               </figure>   
+           </div>
+                
+          <div type="section">   
+            <head type="center">[Expenditures List]</head>
+                <note place="foot" resp="editors">DW used the final page and the inside back cover of Notebook 15 to log expenses from late 1834 and early 1835. For
+                    clarity and readability, her ledger entries are regularized here and presented in table form. Prior to decimalization, 12 pence equaled a shilling
+                    and 20 shillings a pound.</note>
+              
+              <!--HOW DO I DO THIS CHART??-->
+            <table rend="rules">
+                <row>
+                    <cell style="text-align: left;"/>
+                    <cell style="text-align: center;"><hi rend="bold" style="font-size:11pt"
+                        >£</hi></cell>
+                    <cell style="text-align: center;"><hi rend="bold" style="font-size:11pt"
+                        >s.</hi></cell>
+                    <cell style="text-align: center;"><hi rend="bold" style="font-size:11pt"
+                        >d.</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Rugg-making M</hi><hi
+                            rend="superscript" style="font-size:11pt"
+                            >rs</hi><hi style="font-size:11pt" xml:space="preserve"> Hook</hi>
+                        <note place="foot" resp="editors">See DW&#8217;s entry for 6 October 1834, which describes being &#8220;Busy &amp; worn out
+                            finishing M<hi rend="superscript">rs</hi> Hook&#8217;s Rug.&#8221;</note>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">7</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Picture
+                            frames</hi>
+                        <note place="foot" resp="editors">Presumably for the pictures DW received from Cordelia Marshall on 13 November 1834. The cost of this and
+                            the next two expenditures are presumably included in the £1 she records paying for &#8220;Peggy&#8217;s Daughters&#8221; below.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt"
+                            >Barley-sugar</hi>
+                        <note place="foot" resp="editors">A type of hard candy.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Children</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Peggy&#8217;s Daughters
+                            [last?] Xmas</hi>
+                        <note place="foot" resp="editors">Unidentified, as numerous Peggys appear in the <title level="m">RJ</title>.</note></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Brother&#8217;s
+                            Church</hi>
+                        <note place="foot" resp="editors">Obscure, but most likely connected to some initiative of DW&#8217;s clergyman brother, Christopher.</note>
+                    </cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">5</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Anne Benson</hi>
+                        <note place="foot" resp="editors">An elderly Ambleside resident whose death is recorded in DW&#8217;s entry for 10 April 1835.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">4</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Sacrament</hi>
+                        <note place="foot" resp="editors"> Alms for the poor collected during the administration of the sacrament.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Anne&#8217;s &amp; J[ane]&#8217;s
+                            Gowns</hi>
+                        <note place="foot" resp="editors">The Wordsworths&#8217; servants Anne Dawson and Jane Winder (see notes for 28 October and 4 November
+                        1834).</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">15</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">&#8211;</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Ribbands</hi>
+                        <note place="foot" resp="editors">Archaic form of ribbons, which DW would have used to trim gowns and rugs.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">5</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Doll
+                        &amp;c</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">10</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Making
+                            shifts</hi>
+                        <note place="foot" resp="editors">Smocks.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Sara H for
+                            Gloves</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">4</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Worsteds</hi>
+                        <note place="foot" resp="editors">Thick yarn for making rugs (see entry for 13 November).</note></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">13</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Books Mary
+                            R</hi>
+                        <note place="foot" resp="editors">Mary Robinson, 11-year-old daughter of <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Robinson">Charles and Charlotte 
+                            Robinson</ref>.</note></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">15</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Poor
+                        Women</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">4</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Children</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Jane, Anne &amp;
+                            J[ames]</hi>
+                        <note place="foot" resp="editors">The Wordsworths&#8217; two maids and James Dixon, their gardener and handyman (see note for 13 November 1834). This
+                           and the identical expenditure three lines below were presumably gifts, possibly for Christmas 1834.</note></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">10</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Sacrament</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"
+                        ><hi style="font-size:11pt" xml:space="preserve">Jane&#8217;s Father &amp;c </hi>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">8</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">&#8211;</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">James, Anne, &amp;
+                            Jane</hi>
+                    </cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">10</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">&#8211;</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Mary Robinsons
+                            Books</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Benson Harrison
+                            D[itt]o</hi>
+                        <note place="foot" resp="editors">The 6-year-old son of <ref target="/editions.DW.editions.2023.DW.RJ-15-index.html#Harrison">Benson and Dorothy Harrison</ref> of
+                            Ambleside. This and the entry above appear in faint pencil along the page&#8217;s right-hand margin.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Mrs Sproat</hi>
+                        <note place="foot" resp="editors">Likely Anne Sproat (née Benson, 1809&#8211;66), a Rydal-born milliner who in 1832
+                         had married John Sproat (1807&#8211;65), another area native who taught school in Ambleside through the mid-1830s
+                         and worked as an accountant thereafter. Princeton University&#8217;s copy of WW&#8217;s <title level="m">The Waggoner</title>
+                         (1819) includes an author&#8217;s inscription to John Sproat (Heyl, &#8220;<title level="m">Peter Bell</title>,&#8221; 29).
+                         Above this ledger entry, DW wrote and later crossed out records of having lent MW 9s. 6d. for &#8220;E. S.&#8221;
+                         (Edith Southey) and £8 for &#8220;Mrs. Coleridge.&#8221;</note>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">4</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Ribb[an]ds (Mrs
+                            Ellwood)</hi>
+                        <note place="foot" resp="editors">The Wordsworths&#8217; longtime friend Jane Ellwood of Penrith (see entry for 13 November 1834).</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"
+                        ><hi style="font-size:11pt" xml:space="preserve">Bed quilt &amp;c </hi>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Poor Man
+                        Keswick</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">&#8211;</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Anne Benson</hi>
+                        <note place="foot" resp="editors">The elderly Ambleside resident (see above expenditure and journal entry for 10 April
+                        1835).</note><hi style="font-size:11pt" xml:space="preserve"> by M W &#8211;</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">&#8211;</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">James
+                            Dawson</hi>
+                        <note place="foot" resp="editors">Likely a relative of the many Dawsons who at some point worked for the Wordsworths.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Children</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Large
+                        Parcel</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Children &amp;
+                            Poor</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">The
+                        Robinsons</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Irish Books
+                            &amp;c</hi>
+                        <note place="foot" resp="editors"> Possibly brought back from Dublin by DW&#8217;s
+                                friend Eliza Dowling, whose return to Ambleside is recorded on 22
+                                January 1835.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">8</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Feb</hi><hi
+                            rend="superscript" style="font-size:11pt"
+                            >ry</hi><hi style="font-size:11pt" xml:space="preserve"> 10</hi><hi
+                            rend="superscript" style="font-size:11pt"
+                            >th</hi><hi style="font-size:11pt" xml:space="preserve"> Snuff</hi>
+                        <note place="foot" resp="editors">Inhalable tobacco commonly taken for cough and phlegm (the symptoms DW
+                             describes having on 19 February 1835). This expense was belatedly recorded in the right margin.</note>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Peggy
+                            Benson</hi>
+                        <note place="foot" resp="editors">Margaret &#8220;Peggy&#8221; Benson (1770&#8211;1838), daughter
+                                of the lately deceased Ann (see above ledger entries). When this old
+                                acquaintance passed away in 1838, DW lamented, &#8220;Poor Peggy Benson
+                                lies in Grasmere Church-yard beside her once beautiful Mother&#8221; (<title level="m">Letters</title>, 6:528).</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Mrs Hunt</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Peggy
+                        Benson</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Fanny W.</hi>
+                        <note place="foot" resp="editors">Likely Fanny Wilson, to whom DW paid several charitable visits over the course of Notebook 1.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">1</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Bedgowns &amp;c
+                            Cloak</hi></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"/>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Picture
+                            frame</hi>
+                        <note place="foot" resp="editors">This and the three ensuing entries appear sideways in the bottom right corner of the rear
+                        cover.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">6</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Reading stand</hi>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">14</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">J Benson</hi>
+                        <note place="foot" resp="editors">Presumably a relative of the Peggy and Ann Benson listed above.</note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Baskets
+                            (presents)</hi>
+                    </cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">7</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">3</hi></cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;"><hi style="font-size:11pt">Poor Woman&#8217;s Cloak
+                            Making Fringe</hi>
+                        <note place="foot" resp="editors">This final entry appears sideways at the edge
+                            of the final page containing DW&#8217;s revisions to <title level="m">Lines to Dora H.</title></note></cell>
+                    <cell style="text-align: center;"/>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">2</hi></cell>
+                    <cell style="text-align: center;"><hi style="font-size:11pt">–</hi></cell>
+                </row>
+            </table>
+             </div> 
+            </div>
+        </body>
+    </text>
+</TEI>
