@@ -1,33 +1,237 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                <title>Untitled Document</title>
-                <author>Rebecca May</author>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">"When the dreadful streel was plunged into the breast": Teaching Romantic
+                Surgeons, Anatomists, and Bodysnatchers to Students in Health Sciences</title>
+                
+                <author role="primary">
+                    <name>Rebecca E. Maatta</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2024-04-17T18:27:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-04-17</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.wellbeing.maatta</idno> 
+                <idno type="resource">wellbeing</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">"When the dreadful streel was plunged into the breast": Teaching Romantic
+                            Surgeons, Anatomists, and Bodysnatchers to Students in Health Sciences
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Rebecca E.</forename>
+                                <surname>Maatta</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/wellbeing/praxis.2024.wellbeing.maatta"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism, Teaching, and Wellbeing</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-04-10">April 17, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Anna Wingfield</name><date>2024-04-17T18:27:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>04.17.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     <text>
         <body>
-            <p rend="center">“When the dreadful steel was plunged into the breast”: Teaching
-                Romantic Surgeons, Anatomists, and Bodysnatchers to Students in Health Sciences</p>
-            <p rend="center">Rebecca E. Maatta</p>
-            <div type="div1" rend="P12">
-                <head><hi rend="bold">Context, Demographics, and Structure</hi></head>
+            <div type="essay">
+                <head>"When the dreadful streel was plunged into the breast": Teaching Romantic
+                    Surgeons, Anatomists, and Bodysnatchers to Students in Health Sciences</head>
+                <byline>
+                    <docAuthor>Rebecca E. Maatta</docAuthor>
+                    <affiliation>Duquesne University</affiliation>
+                </byline>
+                
+            <div type="section">
+                <head>>Context, Demographics, and Structure</head>
+                
                 <p>At Duquesne University, I regularly teach a 300-level writing-intensive
                     “Healthcare and Literature” class populated almost exclusively by sophomores and
                     juniors enrolled in a Doctorate in Physical Therapy (DPT) program, which awards
@@ -46,6 +250,7 @@
                     uplifting? How did the healthcare provider affect that experience? How can the
                     healthcare provider manage their own wellbeing to subsequently increase patient
                     wellbeing?” These things are interconnected. </p>
+                
                 <p>My “Healthcare and Literature” class is part of a trend in higher education:
                     students majoring in health sciences are increasingly offered liberal arts
                     courses designed to address humanistic issues that arise in their fields. Though
@@ -69,6 +274,7 @@
                     education to patients, clients, families, peers, and society, using culturally
                     appropriate teaching methods,” and “demonstrate[ing] social responsibility and
                     altruism” (“Outcomes”). </p>
+                
                 <p>Clearly, the program stresses empathy and reflection. It also links textual
                     literacy to interpersonal literacy. Professional acumen flows from the ability
                     to interpret patients’ individual needs. Students are expected to understand
@@ -85,6 +291,7 @@
                     context. I emphasize that skills in textual analysis are a personal-professional
                     asset that will help students to hear patients and, by meeting them where they
                     are, ensure that they are administering effective care.</p>
+                
                 <p>In “Healthcare and Literature,” the classroom becomes a space of conceptualizing
                     wellbeing. Our medical humanities approach invites students to imagine
                     themselves as future practitioners, but more importantly, it requires students
@@ -95,7 +302,7 @@
                     class—capped at 18—is discussion driven and thematically organized, and
                     transhistorical. Focusing on North American and Western European medicine and
                     culture, students complete reading, in-class writing, and process-writing with
-                    individual guidance.<note xml:id="ftn1" place="foot" n="1"> Process writing
+                    individual guidance.<note place="foot" resp="author"> Process writing
                         involves assisting students with planning, drafting, and revising. I
                         dedicate class time to each stage of the process, including workshopping
                         student drafts. During workshop we discuss how the student might revise
@@ -106,6 +313,7 @@
                     analysis and close reading skills across genres; enable them to articulate their
                     professional goals and values; and finally, set them up to write informal and
                     formal essays. </p>
+                
                 <p>Although I teach texts from many historical periods, there is good reason in
                     “Healthcare and Literature” to discuss Romantic texts as a foundation and
                     starting point because the Romantic era is an especially rich moment in medical
@@ -120,6 +328,7 @@
                     art. We end the semester with contemporary nonfiction written by medical
                     professionals and a visit to the campus cadaver lab where students will perform
                     a dissection during their fourth year.</p>
+                
                 <p>Romantic texts that address medical topics are diverse, but I have found two
                     texts especially useful for helping my students develop compassion and cultural
                     awareness: Frances Burney’s journal letter, “Account from Paris of a Terrible
@@ -133,6 +342,7 @@
                     or anger and to openly criticize the practitioners as well as the “barbarism” of
                     medicine. Students begin to probe their assumptions about professionalism,
                     patients’ rights, and even the construction of the body in medical study. </p>
+                
                 <p>As I will demonstrate, when taught using principles of narrative medicine,
                     including the concepts of logotherapy and pathography, Burney’s letter and “The
                     Victim” provide an opportunity to connect literary study to the physical therapy
@@ -148,14 +358,16 @@
                     balance clinical distance with empathy. Burney’s letter invites students to
                     explain how they might communicate with their own patients differently from
                     Burney’s surgical team in order to better support patient quality of life.</p>
+                
             </div>
-            <div type="div1" rend="P12">
-                <head><hi rend="bold">Narrative Medicine, Logotherapy, and Pathography</hi></head>
+            <div type="section">
+                <head>Narrative Medicine, Logotherapy, and Pathography</head>
+                
                 <p>Narrative medicine emphasizes the transportability of close reading skills and
                     the importance of language to the medical practitioner (Charon et al, “Close
                     Reading” np). Narrative medicine also considers forms and effects through two
                     concepts, pathography and logotherapy, which are a key focus of my “Healthcare
-                    and Literature” course.<note xml:id="ftn6" place="foot" n="2"> Anne Hunsaker
+                    and Literature” course.<note place="foot" resp="author"> Anne Hunsaker
                         Hawkins coined the term “pathography” in <hi rend="italic">Reconstructing
                             Illness: Studies in Pathography. </hi>Purdue UP, 1993. </note>
                     Pathographies, or patient-produced narratives, provide audiences with the deeply
@@ -163,12 +375,13 @@
                     build empathetic connections. As a philosophy, logotherapy affirms that
                     narratives have the power to validate experiences of illness and can promote
                     recovery.</p>
+                
                 <p>Narrative medicine uses literary texts to increase provider effectiveness by
                     fostering skills in listening, critical thinking, and interpretation. Together,
                     these skills are known as “narrative competence, that is, the competence that
                     human beings use to absorb, interpret, and respond to stories … it enables the
                     physician to practice medicine with empathy, reflection, professionalism, and
-                        trustworthiness”<hi rend="bold"> </hi>(Charon, “Narrative Medicine” 1897).
+                        trustworthiness” (Charon, “Narrative Medicine” 1897).
                     Working with diverse kinds of texts ultimately equips the practitioner to avoid
                     any one-size-fits-all assumptions, because “[e]valuating patients requires the
                     skills that are exercised by the careful reader” (Charon et al ,“Literature and
@@ -180,6 +393,7 @@
                     practitioner meets the patient where they are (Charon, “Narrative Medicine”
                     1898). Patients can feel compelled to narrate their histories into coherence
                     (Torney 37), and they know when they are being heard. </p>
+                
                 <p>Broadly speaking, writing about traumatic illness or treatment can promote
                     wellbeing. Trauma-focused therapy frequently requires patients to write, read,
                     and re-read narratives of their trauma because repeated exposures decrease
@@ -193,6 +407,7 @@
                     keeps them unbiased while emotions distract from caregiving can benefit from
                     using pathography to discuss how emotions can be appropriately leveraged into
                     caregiving. </p>
+                
                 <p>Clinical detachment, though at times necessary, can become dangerous when
                     practitioners are burned out. Yet suffering and illness cannot be ignored, nor
                     can narratives in which medical professionals fail to practice effective care.
@@ -205,9 +420,11 @@
                     such discussions, students can therefore begin to see emotions as a meaningful
                     guide to patient care and to self care. When students can trust their emotions
                     in this way, their wellbeing is preserved. </p>
+                
             </div>
-            <div type="div1" rend="P12">
-                <head><hi rend="bold">Burney’s Mastectomy Letter</hi></head>
+            <div type="section">
+                <head>Burney’s Mastectomy Letter</head>
+                
                 <p> I use Burney’s letter early in the semester to foreground the value of
                     transhistorical analysis and reading medicine “across history.” Students usually
                     expect that surgeons will explain to patients what kind of operation they need
@@ -230,6 +447,7 @@
                     or comments, but most of my time is spent reading passages aloud, moderating
                     discussion, and synthesizing students’ comments. They then submit a two-page
                     reflection in which they may respond to a single text or the triad overall. </p>
+                
                 <p>The thematic focus on cancer allows us to confront a troubling topic head-on
                     while also inviting us to consider what kinds of things are said about cancer at
                     different moments in history. What kinds of assumptions surround the symptoms,
@@ -241,6 +459,7 @@
                     emotions or coming across as failures. Only when doctors manage their own
                     negative emotions can they venture into conversations that, though painful, can
                     spare a patient long-term suffering.</p>
+                
                 <p>While students have not yet read secondary materials on logotherapy or
                     pathography, I introduce these terms to them during our discussion on Burney’s
                     writing. Given the letter’s vivid and sometimes gruesome details, it is perfect
@@ -255,6 +474,7 @@
                     Burney’s experience before the surgery. What results is a discussion about the
                     meandering process of illness and treatment, and what students expect doctors
                     will do when a patient needs help. </p>
+                
                 <p>Students react especially strongly to the way that Burney’s surgical team treats
                     her, and they empathize with her. We linger over passages where Burney describes
                     her shock and terror. When I ask why Burney feels so terrified, students blame
@@ -272,6 +492,7 @@
                     clearly. In this respect, students see Burney’s doctors as incompetent because
                     they cannot balance appropriate empathy with confidence. The surgeons’ poor
                     communication compounds Burney’s helplessness and disempowerment. </p>
+                
                 <p>The disempowerment escalates as Burney must fully submit to the surgeons. While
                     Burney does not mention embarrassment at baring her breast to a male doctor, she
                     comes close to expressing humiliation: “I was compelled, however, to submit to
@@ -291,6 +512,7 @@
                     practitioner. By powerfully empathizing with Burney she could ask herself what
                     responsibilities the surgeons abdicated andappreciate Burney’s fortitude.
                     Difficult emotions thus become a gateway to assessing patient care. </p>
+                
                 <p>Taken together, Burney’s letter and Gawande’s “Being Mortal” bring students to
                     recognize that communication issues have long plagued medical interactions and
                     that a fear of emotions is at the root of the problem. But while Gawande
@@ -307,14 +529,9 @@
                     experience help them to think about what they should take into consideration
                     when talking to patients. </p>
             </div>
-            <div type="div1" rend="P9">
-                <head/>
-            </div>
-            <div type="div1" rend="P12">
-                <head><hi rend="bold">“The Victim”</hi></head>
-            </div>
-            <div type="div1" rend="P9">
-                <head/>
+            <div type="section">
+                <head>“The Victim”</head>
+            
                 <p>After discussing Burney and Gawande, I transition students into texts on anatomy
                     and surgical education during the Romantic period, focusing on Ruth Richardson’s
                     historical analysis of the 1832 Anatomy Act called <hi rend="italic">Death,
@@ -326,12 +543,13 @@
                     could be taken to such an extreme that patients were treated as objects. She
                     argues that during the nineteenth century, the emotional distance that medical
                     professionals adopted in order to dissect human beings took on new stakes.<note
-                        xml:id="ftn6" place="foot" n="3"> Britain’s 1832 Anatomy Act dictated that
+                        place="foot" resp="author"> Britain’s 1832 Anatomy Act dictated that
                         “people too poor to pay for their own funerals” could be used for dissection
                         (Richardson 50). This abuse of the dependent poor showed how Romantic
                         surgeons’ clinical detachment could encourage a callous attitude towards
                         patients. </note>
                 </p>
+                
                 <p>The dark fictional landscape of “The Victim” presents the dangers of clinical
                     detachment when medical study overshadows the main characters’ social awareness.
                     Dudley, the narrator, is a medical student. He and his roommate St. Clare order
@@ -351,6 +569,7 @@
                     murdered because resurrectionists found it more convenient than digging up a
                     dead body. Once Dudley realizes his complicity in the trafficking of the dead he
                     “renounc[es] the scalpel for ever” (193). </p>
+                
                 <p>Students invariably discuss the irreplaceable importance of hands-on dissection.
                     Students in the DPT program have the privilege of completing a yearlong cadaver
                     lab on campus during their undergraduate curriculum. They know that dissection
@@ -358,6 +577,7 @@
                     to it for years, but most have not thought about it critically. “The Victim”
                     provides us with an opportunity to talk about students’ emotional experiences by
                     using the characters in the story as our case study. </p>
+                
                 <p>Before we begin discussing the story, we analyze images from John Bell’s and
                     Govard Bidloo’s Romantic-era anatomical atlases so that they can get a sense of
                     what anatomical study looked like before the historical development of the
@@ -369,7 +589,7 @@
                         Muscles, and Joints</hi>, for example, do not meet their criteria for a
                     didactic anatomy textbook. They marvel that students learned anything at all
                     when textbooks were so encumbered with emotional valences and chaotic
-                        excesses.<note xml:id="ftn6" place="foot" n="4"> Janis McLarren Caldwell’s
+                        excesses.<note place="foot" resp="author"> Janis McLarren Caldwell’s
                         essay “The Strange Death of the Animated Cadaver” could be taught in tandem
                         with J. Bell and “The Victim.” To extend discussion into the Victorian
                         period, Ruth Richardson’s <hi rend="italic">The Making of Mr. Gray’s
@@ -383,28 +603,31 @@
                     revolting, part of the profession” (189). Most importantly, “The Victim” gives a
                     sexual torque to dissection’s insult. The sight of Emily’s cadaver stirs up
                     erotic feelings in Dudley. He feels dissection will dishonor her, but he cannot
-                    resist her beauty. He experiences a warping of his ethical and erotic drives: </p>
-                <p>never till that instant had I seen aught that came so near to my most ideal
+                    resist her beauty. He experiences a warping of his ethical and erotic drives:
+                    
+                <quote>never till that instant had I seen aught that came so near to my most ideal
                     picture of female loveliness; even though the last touches had been painted by
                     the hand of Death … I had almost brought myself to meet with indifference the
                     objects which are found on the dissecting table, [but] I could not gaze on one
                     so young, so very fair, without feeling the springs of pity dissolve within me.
-                    (189) </p>
-                <p>Dudley is stirred away from clinical distance toward more altruistic thinking.
+                    (189) </quote>
+                    
+                Dudley is stirred away from clinical distance toward more altruistic thinking.
                     But his activated emotions lead him to a series of activities that starkly
                     emphasizes his masculinity, agency, and dominance in contrast to her feminine
                     and unresisting vulnerability. Receiving Emily’s body, unwrapping it, examining
                     it, opening her eye, kissing her, sketching her, cutting off her hair, then
                     finally dissecting her: these acts show Emily’s sexual undoing as a drawn-out
                     process culminating in dissection. </p>
+                
                 <p>While students do not interpret this as a rape scene, I read out loud Dudley’s
                     description of Emily’s body and his behaviors to push them to see the eroticized
                     power dynamics at play in “The Victim.” I also show them anatomist Robert Knox’s
-                    1828 nude sketch of Mary Paterson’s cadaver.<note xml:id="ftn6" place="foot"
-                        n="5"><p> Richardson details Knox’s treatment of Paterson’s body: “men had
+                    1828 nude sketch of Mary Paterson’s cadaver.<note place="foot" resp="author"> 
+                        Richardson details Knox’s treatment of Paterson’s body: “men had
                             come to draw her body, comments had been made upon her physical
                             attributes and Knox had even had her body preserved in spirits so that
-                            he could continue to indulge in necrophiliac voyeurism” (96).</p></note>
+                            he could continue to indulge in necrophiliac voyeurism” (96).</note>
                     This allows them to imagine that Dudley’s sketch of Emily may have looked to
                     them more like an eroticized image of a nude, consenting, living woman than like
                     a dead body. I also remind them that in the early nineteenth century, anatomists
@@ -416,6 +639,7 @@
                     as a misdirection of socially appropriate chivalrous emotion. We take time to
                     identify the thoughts Dudley has, the emotions he feels, and the behaviors that
                     follow from these.</p>
+                
                 <p> While students cannot imagine admiring the beauty of a cadaver, they<hi
                         rend="italic">can</hi> imagine feeling exhilarated to see anatomical
                     structures. They can also imagine being unable to “turn off” their feelings to
@@ -433,6 +657,7 @@
                     and exploring these emotions can make my students more compassionate and more
                     effective medical professionals. I often share my own thoughts and feelings
                     about the cadaver lab and how I have coped.</p>
+                
                 <p>We come back to the dissecting experience twice more in the last three weeks of
                     class. First, we read Pauline Chen’s 2012 work of creative nonfiction,
                     “Resurrectionist,” in which Chen describes her first dissection as a med
@@ -468,9 +693,10 @@
                     students that I care about their wellbeing, and I am able to welcome and
                     withstand their feelings. I am, in other words, modeling how I accept emotions
                     as part of my profession. </p>
+                
             </div>
-            <div type="div1" rend="P12">
-                <head><hi rend="bold">Student Reactions</hi></head>
+            <div type="section">
+                <head>Student Reactions</head>
                 <p>The medical worlds of literary texts like Burney’s letter and “The Victim” are
                     unimaginable to students pursuing degrees in health science—a world in which a
                     mastectomy is performed on an inadequately informed, fully conscious woman by a
@@ -495,6 +721,7 @@
                     appreciated. Narrative medicine makes it clear that this leads to better
                     outcomes for patients and can prevent other negative effects for medical
                     professionals.</p>
+                
                 <p>My “Healthcare and Literature” students connect to the texts in three significant
                     ways: as learners with professional aspirations, as erstwhile and future
                     patients, and as individuals who want to change lives. Official Student
@@ -513,61 +740,73 @@
                     persist in the midst of those feelings. By normalizing difficult conversations,
                     they can, I hope, take comfort, feel prepared, and know they are not alone. </p>
             </div>
-            <div type="div1" rend="P11">
+            <div type="citation">
                 <head>Works Cited</head>
-                <p>Anonymous. “The Victim.” (1831) <hi rend="italic">Gothic Evolutions: Poetry,
+                
+                <bibl>Anonymous. “The Victim.” (1831) <hi rend="italic">Gothic Evolutions: Poetry,
                         Tales, Context, Theory</hi>. Ed. Corinna Wagner. Peterborough, Ontario:
-                    Broadview, 2014. 186-193. </p>
-                <p>Bell, John. <hi rend="italic">Engraving of the Bones, Muscles, and Joints,
+                    Broadview, 2014. 186-193. </bibl>
+                
+                <bibl>Bell, John. <hi rend="italic">Engraving of the Bones, Muscles, and Joints,
                         Illustrating the first volume of the anatomy of the human body. </hi>3<hi
                         rend="sup">rd</hi> ed. London: Longman, Hurst, Reese, and Orme, 1810. <hi
-                        rend="italic">HathiTrust. </hi>Accessed 28 July 2011.</p>
-                <p>Burney, Frances. <hi rend="italic">Journals and Letters.</hi> Introduction by
-                    Peter Sabor and Lars E. Troide. New York: Penguin, 2001. </p>
-                <p>Caldwell, Janis McLarren. “The Strange Death of the Animated Cadaver: Changing
+                        rend="italic">HathiTrust. </hi>Accessed 28 July 2011.</bibl>
+                
+                <bibl>Burney, Frances. <hi rend="italic">Journals and Letters.</hi> Introduction by
+                    Peter Sabor and Lars E. Troide. New York: Penguin, 2001. </bibl>
+                
+                <bibl>Caldwell, Janis McLarren. “The Strange Death of the Animated Cadaver: Changing
                     Conventions in Nineteenth-Century British Anatomical Illustration.” <hi
                         rend="italic">Literature and Medicine</hi> 25.2 (2006): 325-357. <hi
-                        rend="italic">Project Muse</hi>. Accessed 30 November 2016.</p>
-                <p>Charon, Rita. “Narrative Medicine: A Model for Empathy, Reflection, Profession,
-                    and Trust.”<lb/>
-                    <hi rend="italic">Journal of the American Medical Association</hi> 286.15
-                    (2001): 1897-1902. Web. 30 August 2016.</p>
-                <p>Charon, Rita, Joanne Trautmann Banks, Julia E. Connelly, Anne Hunsaker Hawkins,
+                        rend="italic">Project Muse</hi>. Accessed 30 November 2016.</bibl>
+                    
+                <bibl>Charon, Rita. “Narrative Medicine: A Model for Empathy, Reflection, Profession,
+                    and Trust.”<hi rend="italic">Journal of the American Medical Association</hi> 286.15
+                    (2001): 1897-1902. Web. 30 August 2016.</bibl>
+                
+                <bibl>Charon, Rita, Joanne Trautmann Banks, Julia E. Connelly, Anne Hunsaker Hawkins,
                     Kathryn Montgomery Hunter, Anne Hudson Jones, Martha Montello, Suzanne Poirer.
                     “Literature and Medicine: Contributions to Clinical Practice.” <hi rend="italic"
-                        >Annals of Internal Medicine </hi>122 (1995): 599-606.</p>
-                <p>Charon, Rita, Nellie Hermann, and Michael J. Devlin. “Close Reading and Creative
+                        >Annals of Internal Medicine </hi>122 (1995): 599-606.</bibl>
+                
+                <bibl>Charon, Rita, Nellie Hermann, and Michael J. Devlin. “Close Reading and Creative
                     Writing in Clinical Education: Teaching Attention, Representation, and
                     Affiliation.” <hi rend="italic">Academic Medicine </hi>91.3 (2016): 345-350. <hi
-                        rend="italic">Ovid</hi>. Web. 1 September 2016. </p>
-                <p>Epstein, Julia L. “Writing the Unspeakable: Fanny Burney’s Mastectomy and the
+                        rend="italic">Ovid</hi>. Web. 1 September 2016. </bibl>
+                
+                <bibl>Epstein, Julia L. “Writing the Unspeakable: Fanny Burney’s Mastectomy and the
                     Fictive Body.” <hi rend="italic">Representations </hi>16 (1986): 131-166. <hi
-                        rend="italic">JSTOR. </hi>Accessed 1December 2016.</p>
-                <p>Gurak, Kayla K., Blanche Freund, and Gail Ironson. “The Use of Both Prolonged
+                        rend="italic">JSTOR. </hi>Accessed 1December 2016.</bibl>
+                
+                <bibl>Gurak, Kayla K., Blanche Freund, and Gail Ironson. “The Use of Both Prolonged
                     Exposure and Cognitive Processing Therapy in the Treatment of a Person With
                     PTSD, Multiple Traumas, Depression, and Suicidality.” <hi rend="italic">Clinical
                         Case Studies</hi> 15.4 (2016): 295-312. <hi rend="italic">SAGE</hi>.
-                    Accessed 29 November 2016.</p>
-                <p>“Outcomes.” <hi rend="italic">Physical Therapy</hi>. John G. Rangos, Sr. School
-                    of Health Sciences. Duquesne U. </p>
-                <p>duq.edu/academics/schools/health-sciences/academic-programs/physical-therapy/outcomes.
-                    Accessed 29 November 2016.</p>
-                <p>Richardson, Ruth. <hi rend="italic">Death, Dissection, and the Destitute</hi>.
-                        2<hi rend="sup">nd</hi> ed. U Chicago P, 2000.</p>
-                <p>---. <hi rend="italic">The Making of Mr. Gray’s Anatomy. </hi>Oxford UP,
-                    2008.</p>
-                <p>Roach, Joseph and Shelby Richardson. “Writing the Breast, Performing the Trace:
+                    Accessed 29 November 2016.</bibl>
+                
+                <bibl>“Outcomes.” <hi rend="italic">Physical Therapy</hi>. John G. Rangos, Sr. School
+                    of Health Sciences. Duquesne U. </bibl>
+                
+                <bibl>duq.edu/academics/schools/health-sciences/academic-programs/physical-therapy/outcomes.
+                    Accessed 29 November 2016.</bibl>
+                
+                <bibl>Richardson, Ruth. <hi rend="italic">Death, Dissection, and the Destitute</hi>.
+                        2<hi rend="sup">nd</hi> ed. U Chicago P, 2000.</bibl>
+                <bibl>---. <hi rend="italic">The Making of Mr. Gray’s Anatomy. </hi>Oxford UP,
+                    2008.</bibl>
+                <bibl>Roach, Joseph and Shelby Richardson. “Writing the Breast, Performing the Trace:
                     Madame d’Arblay’s Radical Prosthesis.” <hi rend="italic">Acting on the Past:
                         Historical Performances Across Disciplines</hi>. Ed. Mark Franko and Annette
-                    Richards. Wesleyan UP, 2000. 52-66.</p>
-                <p>Souter, Kay Torney. “Narrating the Body: Disease as Interpersonal Event.” <hi
+                    Richards. Wesleyan UP, 2000. 52-66.</bibl>
+                <bibl>Souter, Kay Torney. “Narrating the Body: Disease as Interpersonal Event.” <hi
                         rend="italic">Health and History</hi> 1.1 (1998): 35-42. <hi rend="italic"
-                        >JSTOR</hi>. Accessed 29 November 2016.<hi rend="color(#1a1a1a)"> </hi></p>
-                <p><hi rend="color(#1a1a1a)">“Strategic Statements.” </hi><hi
-                        rend="color(#1a1a1a)italic">Physical Therapy. </hi><hi rend="color(#1a1a1a)"
-                        >John G. Rangos, Sr. School of Health Sciences. Duquesne U.
-                        duq.edu/academics/schools/health-sciences/academic-programs/physical-therapy/strategic-statements.
-                        Accessed 29 November 2016.</hi></p>
+                        >JSTOR</hi>. Accessed 29 November 2016.</bibl>
+                    
+                <bibl>“Strategic Statements.” <hi
+                        rend="italic">Physical Therapy. </hi> John G. Rangos, Sr. School of Health Sciences. Duquesne U.
+                        <ref target="duq.edu/academics/schools/health-sciences/academic-programs/physical-therapy/strategic-statements.">Strategic Statements</ref>
+                        Accessed 29 November 2016.</bibl>
+            </div>
             </div>
         </body>
     </text>
