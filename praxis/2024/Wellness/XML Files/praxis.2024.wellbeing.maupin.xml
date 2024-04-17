@@ -1,29 +1,232 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                <title>Untitled Document</title>
-                <author/>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Improvisational Accessibility and Romanticism </title>
+                
+                
+                <author role="primary">
+                    <name>Giffen Mare Maupin</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2024-04-17T18:28:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-04-17</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.wellbeing.maupin</idno> 
+                <idno type="resource">wellbeing</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">On Tending, Movement, and Making
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Giffen Mare</forename>
+                                <surname>Maupin</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/wellbeing/praxis.2024.wellbeing.maupin"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism, Teaching, and Wellbeing</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-04-10">April 17, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Anna Wingfield</name><date>2024-04-17T18:28:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>04.17.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     <text>
         <body>
-            <p rend="center"><hi rend="bold">On Tending, Movement, and Making</hi></p>
+            <div type="essay">
+                <head>On Tending, Movement, and Making</head>
+                <byline>
+                    <docAuthor>Giffen Mare Maupin</docAuthor>
+                    <affiliation>Hendrix College</affiliation>
+                </byline>
+            
             <p>To what extent can we as educators conceptualize teaching as a practice of care? In
                 what ways can or should we tend to the embodied lives of our students? My teaching
                 life is anchored in Hendrix College, located in Conway, AR; we enroll approximately
@@ -41,6 +244,7 @@
                 our bodies can help us learn.” How, I wondered, could I use British Romantic
                 literature to anchor a capacious model of writing in which we both choose to move
                 and choose to be still?</p>
+                
             <p> Two ideas about care guided me as I reimagined this course. First, I wanted to care
                 for my students indirectly, introducing texts and assignments that promote
                 questioning, experimentation, and attentiveness. Yet I also wanted to care in a way
@@ -64,6 +268,7 @@
                 state, one that settles only to shift. English 325’s texts, conversations, and
                 writing ultimately suggested to me how the bodies of learners who share the same
                 room keep our own separate time.</p>
+                
             <p>In this fourteen-week course, we read varied accounts of walking in British Romantic
                 poetry and prose. Walking also functioned for us as a mode of reading, and, more
                 specifically, a mode of listening. The early weeks of the course prepared students
@@ -84,6 +289,7 @@
                 walks into conversation with our course texts by choosing a single idea and
                 describing the place that this idea occupied in their walks and in one or more of
                 our readings.</p>
+                
             <p> My approach to close reading, in this course and elsewhere, locates reading in the
                 body. If poems require close listening, we can hear them withour ears as well as our
                 feet. Particularly when we encounter the syntactic intricacies of poems like
@@ -101,6 +307,7 @@
                 in conjunction with other elements of the poem: the syntax of the sentences, the
                 rhythm of stressed and unstressed syllables, and the resonance of similar sounds”
                 (43). </p>
+                
             <p> I was curious about how walking with our course texts might help students to feel
                 the line’s dynamic force.<hi rend="bold"> </hi>During the second and third weeks of
                 the semester, we began to walk around the track near our classroom as we read aloud.
@@ -120,6 +327,7 @@
                 compiled a list of verbs to which students returned in their close reading essays.
                 As they brainstormed for these essays, I asked them to translate the work we did in
                 the classroom to the lines on which they chose to focus.</p>
+                
             <p> Although students approached our first poem-walks with some skepticism, these
                 exercises became more meaningful to them as we used them to sharpen the attention we
                 gave to emotion in the poems at hand. As these thirteen students dipped their toes
@@ -137,6 +345,7 @@
                 texts <hi rend="italic">do</hi>: invite, engage, unsettle, propel, question, and
                 more. As a result, students’syntaxshifts: verbs, rather than nouns, ground their
                 sentences.</p>
+                
             <p> The first essay in the course, then, asked students to understand close reading as a
                 practice in which a writer attends to a text’s liveliness, its capacity to make
                 something happen in the reader’s ear. By practicing this deep attentiveness in their
@@ -154,6 +363,7 @@
                 each walk. Following the same route resembles rereading; I hoped that the distinct
                 paths students chose to follow would become continually new, would claim their
                 attention in different ways. </p>
+                
             <p> Students began their walking journals by describing how they chose where to walk.
                 Their second journals, inspired by our discussionsabout <hi rend="italic">The
                     Grasmere and Alfoxden Journals</hi>, encouraged students to use the
@@ -169,6 +379,7 @@
                 they walked. This last entry led into their final essay for the course, in which
                 they traced a single topic or question through their walking path and through one or
                 more of our course texts. </p>
+                
             <p> The final essay in the course asked students to use their own walks as a framework
                 for their textual engagement. They experimented with anessay form appropriate to the
                 digressions and errancies of both walking and thinking. Rebecca Solnit, whose <hi
@@ -191,6 +402,7 @@
                 encourage class members to refine their topics as they continued to read, write, and
                 walk. Final essays addressed topics that included home, a memorable peach orchard,
                 disorientation, and holiness. </p>
+                
             <p> As I read these final essays, I felt an acute sense of loss.“I want to keep us
                 together,” I thought after the class met for the last time. My impulse to continue a
                 course after its ending arises, in part, from an awareness of work left undone. New
@@ -219,6 +431,7 @@
                 course will incorporate more writing workshops in which we both discuss and refine
                 our textual analyses and descriptions of our walks, drawing inspiration from models
                 of both kinds of work.</p>
+                
             <p> During the next iteration of this course, wewill also study more experimental essays
                 on which students can rely as they compose their final essays. My commitment to
                 assigning essays like the final essay in this course comes from two places. Because
@@ -237,6 +450,7 @@
                 type I am describing feel to me insufficient in their slowness; I want my students
                 to encounter writing, in other words, whose mode of attending to texts is as
                 particular as Dorothy Wordsworth’s prolonged involvement with a nest of swallows. </p>
+                
             <p> Yet my wish to keep the class together was also anchored in my wish to care for
                 them, to walk beside them in their writing lives, to keep watch over the
                 vulnerabilities they shared with me when we spoke one-on-one. These thirteen
@@ -255,12 +469,14 @@
                 to the Hendrix community contract, “all Hendrix students are expected to attend
                 class in accordance with the catalog and individual course syllabi.” The contract
                 also holds students responsible for their own mental and physical health: </p>
-            <p>Hendrixstudents are expected to tend to their own mental and physical health. Campus
+                
+            <p>Hendrix students are expected to tend to their own mental and physical health. Campus
                 resources are available for short-term conditions. Persistent or chronic health
                 problems may require care beyond the campus resources. Students should discuss
                 academic options with their advisor, professors, or Academic Success office if
                 persistent health problems impact a student’s ability to complete educational
                 tasks.</p>
+                
             <p>These general guidelines offer little clarity for instructors about how to support
                 students who are experiencing prolonged or chronic illnesses, and even less clarity
                 about how to work alongside students whose depression, anxiety, or other mental
@@ -269,6 +485,7 @@
                 to support our students. Such guidelines also fail to consider how access to
                 off-campus physicians, therapists, emergency rooms, and urgent care centers depends
                 on students’ ability to pay for these resources.</p>
+                
             <p> To approach care in terms of ongoing vigilance, however, risks devaluing the
                 necessary solitude, even loneliness, of both learning and embodied life. If I had
                 semi-regular contact with students over the course of fourteen weeks, they remained,
@@ -300,6 +517,7 @@
                 and are variously alone and together, new every minute. Our sentences emerged at
                 different paces; our realizations and distractions occurred at different times. Our
                 bodies shifted in crucial and imperceptible ways.</p>
+                
             <p> When I imagined that I could care for my students by asking them to walk, I assumed
                 that I would be able to read the effects that our walks would have on us. When I
                 anticipated that walking would lead to wellbeing, I thought of wellbeing in terms
@@ -315,12 +533,14 @@
                 with the world differ from our own, particularly because the normative mythology of
                 wellness suggests that we reveal wellness through our quietude, restraint, and
                 self-composure. Georges Canguillhem, in fact, recalls Henri Michaux’s description of
-                health in terms of “the silence of the organs”: </p>
-            <p>As Henri Michaux has put it, “the body (its organs and its functions) has become
+                health in terms of “the silence of the organs”: 
+                
+            <quote>As Henri Michaux has put it, “the body (its organs and its functions) has become
                 known not through the prowess of the strong, but through the troubles of the weak,
                 the ill, the infirm, the wounded (for health is silent, the source of that
-                enormously mistaken impression that <hi rend="italic">tout va de soi</hi>”). (20) </p>
-            <p>Particularly if we adhere to a narrower sense of wellness that excludes more varied
+                enormously mistaken impression that <hi rend="italic">tout va de soi</hi>”). (20) </quote>
+                
+            Particularly if we adhere to a narrower sense of wellness that excludes more varied
                 possibilities for wellbeing, as I admit that I did when I first envisioned this
                 course, we sense that we and others are well when our bodyminds are as inconspicuous
                 as possible, when they fail to attract notice, when they are appropriately
@@ -339,6 +559,7 @@
                 to educate me in its possibilities and its needs. How can I know, then, what any one
                 of my students knows of his, her, or their physical self, or how best to go about
                 caring for the bodyminds none of us can place?</p>
+                
             <p> I began this essay with a question about care, a curiosity about how we as educators
                 might tend to the embodied lives of our students. I continue to pose this question
                 as a liberal arts college professor whose charged awareness of individual students
@@ -366,6 +587,7 @@
                 students to write associatively, to allow their thinking to proceed slowly, and to
                 achieve coherence through alternatives to traditional argumentation. Any one of
                 these tasks could easily occupy a full fourteen weeks. </p>
+                
             <p> As the spring 2018 semester concluded, I wondered whether the sheer multiplicity of
                 English 325 had fragmented our common time. When I thought about the course, I felt
                 disoriented and uncentered, aware of the divergent paths we had walked and
@@ -385,6 +607,7 @@
                 their bodies into their written work. At the same time, these walks, both in our
                 class conversations and on the pages of students’ final essays, seemed to occupy
                 their own time, adjacent to the course without being part of it. </p>
+                
             <p> Yet the more time I spend in the classroom, the more I orient myself towards the
                 writing lives students will shape beyond their college years. We as writers work in
                 the charged space made by tending to our own bodyminds, and engaging with the
@@ -413,6 +636,7 @@
                 writing and walking are situated within the rhythms of our days, and introduce the
                 possibility that both essays and walks might continue in our individual and
                 collective bodyminds beyond the times in which they take place. </p>
+                
             <p> For all the restlessness I feel in response to this fledgling course, one particular
                 class period allowed me to feel temporarily still, convinced that we were continuing
                 to make something, together. The fourteen of us facilitated a public conversation on
@@ -436,39 +660,48 @@
                 continue to make of English 325 a place at once palpable and precarious, a location
                 made by solitary walks and collaborative conversations, a nexus of bodyminds in a
                 room and in the world beyond the room, reading together, writing alone, walking on. </p>
-            <pb/>
-            <p rend="center"><hi rend="bold">Works Cited</hi></p>
-            <p>Brownstein, Rachel Mayer. “The Private Life: Dorothy Wordsworth’s Journals.” <hi
-                    rend="italic">Modern </hi></p>
-            <p><hi rend="italic"> Language Quarterly</hi>34 (1973): 48-63. Print. </p>
-            <p>Canguillhem, Georges. “La sante: concept vulgar et question philosophique.” <hi
-                    rend="italic">Ecrits sur la </hi></p>
-            <p><hi rend="italic"> m</hi><hi rend="italic">édecine. </hi>Paris: Editions du Seuill,
+            </div>
+            
+            <div type="citation">
+                <head>Works Cited</head>
+            
+            <bibl>Brownstein, Rachel Mayer. “The Private Life: Dorothy Wordsworth’s Journals.” <hi
+                    rend="italic">Modern Language Quarterly</hi>34 (1973): 48-63.</bibl>
+                
+            <bibl>Canguillhem, Georges. “La sante: concept vulgar et question philosophique.” <hi
+                    rend="italic">Ecrits sur la médecine. </hi>Paris: Editions du Seuill,
                 2002. <hi rend="italic">The Body: A Reader</hi>. Eds. Mariam Fraser and Monica
-                Greco, New York: Routledge, 2005. Print.</p>
-            <p>Community Contract for Hendrix College Students. </p>
-            <p><ptr target="https://www.hendrix.edu/studentlife/handbook.aspx?id=80379"/>. Web. 1
-                Jan. 2019. </p>
-            <p>Doty, Mark. <hi rend="italic">The Art of Description: World into Word.
-                </hi>Minneapolis: Graywolf, 2010. Print. </p>
-            <p>Grosz, Elizabeth. <hi rend="italic">Volatile Bodies</hi>. Bloomington: Indiana
-                University Press, 1994. Print. </p>
-            <p>Longenbach, James. <hi rend="italic">The Art of the Poetic Line. </hi>Minneapolis:
-                Graywolf, 2007. Print. </p>
-            <p>Merleau-Ponty, Maurice. <hi rend="italic">Phenomenology of Perception</hi>. Trans.
-                Colin Smith. New York: </p>
-            <p> Routledge Classics, 2002. Print.</p>
-            <p>Newlyn, Lucy. “Dorothy Wordsworth’s Experimental Style.” <hi rend="italic">Essays in
-                    Criticism. </hi>57:4 (2007): </p>
-            <p> 325-348. Print.</p>
-            <p>Solnit, Rebecca. <hi rend="italic">Wanderlust: A History of Walking. </hi>New York:
-                Penguin, 2001. Print. </p>
-            <p>Wordsworth, Dorothy. <hi rend="italic">The Grasmere and Alfoxden Journals.
-                </hi>1798-1802. Ed. Pamela Woof. New </p>
-            <p> York: Oxford World’s Classics, 2002. Print. </p>
-            <p>Zimmerman, Sarah M. <hi rend="italic">Romanticism, Lyricism, and History.
-                </hi>Albany: State University of New </p>
-            <p> York Press, 1999. Print.</p>
+                Greco, New York: Routledge, 2005.</bibl>
+                
+            <bibl>Community Contract for Hendrix College Students.<ref target="https://www.hendrix.edu/studentlife/handbook.aspx?id=80379">Student Life Handbook</ref>. Web. 1
+                Jan. 2019. </bibl>
+                
+            <bibl>Doty, Mark. <hi rend="italic">The Art of Description: World into Word.
+                </hi>Minneapolis: Graywolf, 2010. </bibl>
+                
+            <bibl>Grosz, Elizabeth. <hi rend="italic">Volatile Bodies</hi>. Bloomington: Indiana
+                University Press, 1994. </bibl>
+                
+            <bibl>Longenbach, James. <hi rend="italic">The Art of the Poetic Line. </hi>Minneapolis:
+                Graywolf, 2007.</bibl>
+                
+            <bibl>Merleau-Ponty, Maurice. <hi rend="italic">Phenomenology of Perception</hi>. Trans.
+                Colin Smith. New York: Routledge Classics, 2002.</bibl>
+                
+            <bibl>Newlyn, Lucy. “Dorothy Wordsworth’s Experimental Style.” <hi rend="italic">Essays in
+                    Criticism. </hi>57:4 (2007): 325-348. </bibl>
+                
+            <bibl>Solnit, Rebecca. <hi rend="italic">Wanderlust: A History of Walking. </hi>New York:
+                Penguin, 2001. Print. </bibl>
+                
+            <bibl>Wordsworth, Dorothy. <hi rend="italic">The Grasmere and Alfoxden Journals.
+                </hi>1798-1802. Ed. Pamela Woof. New </bibl>
+                
+            <bibl> York: Oxford World’s Classics, 2002.</bibl>
+                
+            <bibl>Zimmerman, Sarah M. <hi rend="italic">Romanticism, Lyricism, and History.
+                </hi>Albany: State University of New York Press, 1999. </bibl>
+            </div>
         </body>
     </text>
 </TEI>
