@@ -1,0 +1,1659 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Lyric Listening </title>
+                
+                
+                <author role="primary">
+                    <name>Mina Gorji</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-04-18</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2023.soundstudies.gorji</idno> 
+                <idno type="resource">soundstudies</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Lyric Listening
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Mina</forename>
+                                <surname>Gorji</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/soundstudies/praxis.2023.soundstudies.gorji"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Sound Studies: Recording Romantic Relationality</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-04-10">April 18, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>04.18.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    <text>
+        <body>
+            <p><anchor type="commentRangeStart" n="0"/><anchor type="commentRangeStart" n="1"/><hi
+                    rend="bold">Lyric Listening</hi>
+                <anchor type="commentRangeEnd" n="0"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="0"><date when="2021-05-12T13:16:00Z"/>Given the
+                    powerful reading of the Lyric in this essay, I wonder if you’d consider a title
+                    that might garner a larger readership, one that’s not so Coleridge
+                    specific—“Hearing Lyric” or “Lyric Listening” perhaps? </note><anchor
+                    type="commentRangeEnd" n="1"/><note place="comment" resp="#Mina_Gorji" n="1"
+                        ><date when="2021-05-26T11:49:00Z"/>Yes that’s a great idea!
+                Thanks!</note></p>
+            <p><hi rend="italic">This essay examines representations of quiet in Coleridge’s “Frost
+                    at Midnight” to ask broader questions about the ways Romantic lyric can register
+                    and express volume and sound dynamics. It offers historical contexts for
+                    understanding the poem including the development of musical and rhetorical
+                    notation for volume as well as accounts of shifting reading practices in the
+                    period. It demonstrates how “Frost at Midnight” offers a rich nexus for thinking
+                    about the experience and the representation of volume, and of silence, in
+                    Romantic lyric. The poem invites further thinking about the semiotics of sound
+                    and silence through a playful interplay between eye and ear. Coleridge was
+                    fascinated by visual codes for sound and the ways in which patterns of sound can
+                    be seen as well as heard, and his poems are full of accounts of different kinds
+                    of sound, which complicate the distinction between silent and vocalised
+                    reading</hi>. <hi rend="italic">Coleridge provides an especially interesting
+                    case study not only because he was writing on what has been described as the
+                    cusp between reading aloud and silent reading, and during an era of scientific
+                    discovery and innovation in the realm of acoustics, but also because he was
+                    deeply interested in musical forms and in the science and semiotics of
+                    acoustics. The essay demonstrates how shifts in volume can be expressed and
+                    experienced in a poem’s own acoustic, rhythmic and verbal textures and suggests
+                    that the representation of sound and quiet in “Frost at Midnight” challenges and
+                    extends what is understood by ‘silent’ reading. More broadly, it proposes that
+                    volume, a term which acquired its current acoustic sense in the Romantic period,
+                    is a significant figure in Lyric studies which has gone unacknowledged. It
+                    proposes that volume was not only important to Romantic poets such as Coleridge,
+                    who, as this essay shows, found subtle ways of modulating and expressing shifts
+                    in volume in his poetry, but also that, more broadly, volume should be
+                    understood as part of a critical discourse about genre. The essay explores the
+                    ways in which volume is figured and expressed in Coleridge’s writing, and
+                    especially in “Frost at Midnight,” and considers the critical language we might
+                    use to describe volume and dynamics more generally. Arguing that Coleridge’s
+                    lyric poetry has its own playful modes and codes for communicating degrees of
+                    sound, the essay proposes that volume is a neglected but significant figure in
+                    Lyric studies.</hi></p>
+            <list rend="numbered">
+                <item>Unheard melodies.</item>
+            </list>
+            <p>“When I put my ear to the page, I hear nothing but the sound of my hair against the
+                surface. If I erase the letters, no “sound” remains. Sound is not <hi rend="italic"
+                    >on</hi> the page, even if a graphic transmission allows for its properties to
+                be noted for reproduction’” (Johanna Drucker, in Marjorie Perloff and Craig Dworkin,
+                eds.
+                <hi rend="italic" xml:space="preserve">The Sound of Poetry/The Poetry of Sound, </hi>2009,
+                239) [my emphasis]</p>
+            <p>“Sound is what happens <hi rend="italic">in</hi> Lyric” (Jonathan Culler, <hi
+                    rend="italic">Theory of the Lyric</hi>, Harvard, 2015) [my emphasis]</p>
+            <p>What does it mean for sound to happen in Lyric? Culler’s claim invites questions
+                about how we define Lyric, but also about the phenomenology of sound, its medium,
+                and the relation between sound, print and poem. How is sound experienced by the
+                reader – by the eye, the ear, the mind’s ear, when it is read aloud and read in
+                silence, <hi rend="italic" xml:space="preserve">in </hi>Lyric? The preposition “in”
+                suggests that Lyric is a container for sound, a vessel, perhaps, an urn: </p>
+            <p>Heard melodies are sweet, but those unheard</p>
+            <p>       Are sweeter; therefore, ye soft pipes, play on;</p>
+            <p>Not to the sensual ear, but, more endear’d,</p>
+            <p>       Pipe to the spirit ditties of no tone: </p>
+            <p>(John Keats, “Ode on a Grecian Urn”)</p>
+            <p>Where is sound happening in Keats’ lines? On the page? In our ears? “through the
+                air”? in our mind’s ears? Is there a difference between the way it “happens” in our
+                ears, when read out loud, and in the mind’s ear, during silent reading? And what of
+                the sounds that are seen but not heard? Like the playful eye-rhyme suggested by
+                “unheard” and “endear’d:” both words contain the word “ear,” but we only hear it
+                sounded in “endear’d.”<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"> As Susan Wolfson notes, in <hi rend="italic"
+                                >Cambridge Companion to Keats,</hi> Glossary, xx. For a detailed
+                            discussion of Keats’ “unheard melodies,” see Garrett Stewart, <hi
+                                rend="italic">Reading Voices: Literature and the Phonotext</hi>
+                            (Berkeley, U. of California Press, 1996), 155-160. See also Marshall
+                            Brown, “Unheard Melodies: The Force of Form”,
+                            <hi rend="italic" xml:space="preserve">PMLA. Publications of the Modern Language Association of America; </hi>May
+                            1992; 465-481. </p></note></hi> And what of the poem’s other silences?
+                The gaps and pauses? The moments of no sound and “no tone”? the quiet? The silence
+                at the end of a line after “unheard,” the white space, the line break? or, somewhere
+                else, as a boy “hangs/ waiting for the owls to answer”? What of these silences? Are
+                they heard or “unheard”? What of the many silences contained in and articulated by
+                Lyric? The silence of the urn, this “silent form”? Are they ‘happening’ in the same
+                way as sound ‘happens’? And what of those eye rhymes we see and don’t hear, between
+                “heard” and “endear’d”? Both contain the word “ear,” but it is not sounded in
+                “heard,” seen not heard, silent. And what is <hi rend="italic">soft</hi> sound? In
+                these lines, <hi rend="italic">soft</hi>, in the phrase “soft pipes”, suggests a
+                quality of sound - timbre and volume. But do we experience different qualities of
+                sound, and degrees of softness and loudness, when we read these lines silently? How
+                does quietness “happen” in a poem? </p>
+            <p> The word “volume” acquired an acoustic register in the late eighteenth-century,
+                according to <hi rend="italic">OED</hi>, a musical sense first recorded in Busby’s
+                    <hi rend="italic">Complete dictionary of music</hi> (1786) referring to the tone
+                and power of a human voice: “<hi rend="Emphasis">Volume</hi>, a word applied to the
+                compass of a voice from grave to acute: also to its tone, or power: as when we say,
+                ‘such a performer possesses an extensive or rich <hi rend="quotationkeyword"
+                    >volume</hi> of voice’.” (<hi rend="italic">OED</hi>, 9a).
+                    <hi rend="noindent" xml:space="preserve"> The first recorded usage of the word volume as </hi>“<hi
+                    rend="color(333333)">Quantity, strength or power, combined mass, of sound”
+                    (</hi><hi rend="italic color(333333)"
+                    >OED</hi><hi rend="color(333333)" xml:space="preserve">, 9b) occurs a little later, in 1822, and is attributed to Lord Byron in </hi><hi rend="italic color(333333)" xml:space="preserve">Werner, </hi><hi
+                    rend="color(333333)">(v. </hi><hi rend="noindent"><seg rend="color(333333)"
+                        >i</seg><seg rend="color(333333)">. 134</seg></hi><hi rend="color(333333)"
+                    >   I heard…, Distinct and keener far upon my ear Than the late
+                    cannon's </hi><hi rend="quotationkeyword"><seg rend="color(333333)"
+                    >volume</seg></hi><hi rend="color(333333)" xml:space="preserve">, this word—‘Werner!’). This new sense of the word registers a larger cultural and scientific curiosity about the nature and experience of sound in the period, a curiosity which also finds shape in poetry of the period.  </hi></p>
+            <p>The contemporary poet Alice Oswald is also interested in the expression of volume,
+                and plays with different ways of suggesting quiet and silence through and around
+                words, using space, measuring lines and fading ink to create a graphic code for
+                calibrating sound and silence. In the last lines of her poem ‘Tithonus’
+                (<hi rend="italic" xml:space="preserve">Falling Awake, </hi>2016, 45-81), for
+                example, there’s a moment of graphic quietening. The final letters of the poem fade
+                into whiteness, so that the poem’s concluding word, “appearing” is almost invisible,
+                printed in the very lightest shade of type, as dawn, and light, appear.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"> For a
+                            discussion of Oswald’ playfulness in this passage, see Angela Leighton,
+                            <hi rend="italic" xml:space="preserve">Hearing Things.  The Work of Sound in Literature </hi>(Harvard,
+                            Harvard University Press, 2018), 249.</p></note></hi> The fading font
+                produces an aural effect, the suggestion of diminuendo, in the way that <hi
+                    rend="bold">bold</hi> or CAPITAL LETTERS, larger font size or <hi rend="italic"
+                    >italics</hi> can suggest a louder volume. But, as we shall see, a poem can
+                sound or produce the effect of quiet in other ways. </p>
+            <p>Coleridge, too, was intensely curious about the nature and experience of sound in the
+                ear and in print. “Frost at Midnight”, written in Somerset in the winter of 1798,
+                does not use the word “volume”, but records a playful exploration of dynamics and of
+                the various ways (graphic, rhythmic, linguistic and as an effect of tempo) in which
+                sound and quiet could be represented to both eye and ear in a poem. Like other
+                Romantic poets, Coleridge was fascinated by visual codes and patterns for sound and
+                marking emphasis. Julia S. Carlson has shown how Wordsworth drew on developments in
+                cartography and rhetoric in his own shapings in and of sound on the page (Julia S.
+                Carlson, <hi rend="italic">Romantic Marks and Measures: Wordsworth’s Poetry in
+                    Fields of Print</hi>, 2016). Taking this yet further, I suggest that Coleridge
+                was also preoccupied with how to represent sounds and especially volume, and that
+                his imaginative interest in acoustics and in musical forms and notation informed the
+                way he shaped sound into both aural patterns and visual language in his poetry.</p>
+            <list rend="numbered">
+                <item><hi rend="italic">pp</hi></item>
+            </list>
+            <p>Many of our critical terms for discussing lyric poetry are, of course, borrowed from
+                music; for example, as Susan Stewart has explained: “we speak of such features as
+                counterpoint, harmony, syncopation, stress, duration, and timbre” as some of the
+                “ways in which sound is measured as if music and lyric were analogous” (<hi
+                    rend="italic">Stewart</hi>, 2002: 68). In music, however, there is a system of
+                notation for marking dynamics on a musical score, differences in volume and also in
+                the quality of the sound, <hi rend="italic">pp, f, piu p, poco a poco dim., molto
+                    piano</hi> and <hi rend="italic">quasi niente</hi>, for example. The Romantic
+                period witnessed the expansion of the range of musical notation marks for dynamics;
+                for example, it was during the last decade of the eighteenth century, “that the
+                convention of indicating a gradual increase or decrease of volume by terms such as
+                ‘cresc’ or ‘dim.’, or by ‘hairpins’, became commonplace” (Clive
+                Brown<hi rend="italic" xml:space="preserve">, </hi> 1999: 62). </p>
+            <p> The expressive possibilities of volume became increasingly important to composers
+                and performers in this period. In part, this was enabled by developments and
+                innovations in musical instruments themselves: the <hi rend="italic"
+                >pianoforte</hi>, invented in the eighteenth-century, allowed a much wider dynamic
+                range than had been available to the harpsichord, for instance, and it was during
+                the period 1750-1850 that various adjustments were made to stringed instruments
+                which increased the range of volume they could express. Changes in the way sheet
+                music was produced in the period may also have contributed to this interest in
+                dynamics and its expression on the page as well as in performance: there was an
+                increase in the publication of sheet music in the later eighteenth-century which
+                meant, Brown argues, that the performance of music was no longer always in the
+                direct acoustic control of the composer, since in the later period composers were no
+                longer physically present to instruct performers how to alter dynamics. This is
+                perhaps one reason why composers increasingly marked their scores to indicate these
+                dynamic shifts. Moreover, “Many composers … came increasingly to regard accentuation
+                and dynamic nuance as integral to the individuality of their conceptions and were
+                unwilling to entrust this merely to the performer’s instinct” (Clive Brown, 1999,
+                62). For this reason, he suggests, during the nineteenth century there was “a
+                proliferation of markings, designed to show finer grades or types of accents and
+                dynamic effects, and performance instructions of all kinds were used ever more
+                freely” (Clive Brown, 1999, 62). It is likely that it was a combination of factors
+                to do with the production and performance of music as well as technological
+                innovation in the dynamic range of instruments that led to the development and
+                proliferation of dynamic notation in the period, and that this also registered a
+                wider cultural interest in sound and its expression.</p>
+            <p>iii. Voicing and Volume.</p>
+            <p>A range of new terms emerged for indicating the dynamics of performance in music but
+                also in the fields of literary performance and rhetoric. It was not only on musical
+                scores that dynamic markers appeared: a number of eighteenth-century literary
+                critics also annotated reading texts to indicate volume and dynamics, the levels or
+                the qualities of quiet or loudness for performance; some adopted musical notation,
+                others used different terms. Discussing reading aloud, late eighteenth-century
+                critics of rhetoric such as James Beattie associated different volumes with
+                different emotional states and intensities of feeling and indicated in their
+                annotations how readers might vary the volume and intensity of their voices to best
+                express the affective range and qualities of a piece of writing. Varying the
+                dynamics of reading, reciting or speaking, he explains, could also engage the
+                listener and be more persuasive. In <hi rend="italic">Dissertations Moral and
+                    Critical</hi> (1783), Beattie argues that:</p>
+            <p>In describing what is great, poets often employ sonorous language. This is suitable
+                to the nature of human speech: for while we give utterance to that which elevates
+                our imagination, we are apt to speak louder, and with greater solemnity, than at
+                other times.” (Beattie, 1783: I, 629) </p>
+            <p>The word “sonorous” here conveys a sense of volume as well as suggesting a particular
+                style, meaning, “Of spoken or written style: using imposing language; having a full,
+                rich sound; imposing, grand; harmonious” (<hi rend="italic">OED</hi>, 3a). The first
+                recorded instance of the word to describe language is recorded in 1650, and derives
+                from an earlier usage of the word to mean, more generally, “That makes a loud or
+                resonant sound; capable of producing a loud sound, esp. of a deep or ringing
+                character” (<hi rend="italic">OED</hi>, 1a). The concept of linguistic volume
+                Beattie’s comment suggests invites further investigation: certain words might be
+                considered “sonorous”, others quiet depending, perhaps, on semantic associations,
+                others because of onomatopoeia. The possibility that writers of the period <anchor
+                    type="commentRangeStart" n="5"/><anchor type="commentRangeStart" n="6"
+                />considered the <hi rend="italic">volume</hi> of words when selecting and composing
+                a poem, for example, and that readers were attuned to the possibility of linguistic
+                dynamics opens up another dimension for literary critics. <anchor
+                    type="commentRangeEnd" n="5"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="5"><date when="2021-05-12T12:01:00Z"/>Nicely
+                    done.</note><anchor type="commentRangeEnd" n="6"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="6"><date when="2021-07-29T10:47:00Z"
+                />Thanks!</note></p>
+            <p>The concept of volume also shaped how Beattie understood the rhythm of a poem or
+                piece of dramatic writing. Readers should, he points out, attend closely to the
+                rhythm of the writing, and this, he explains, could be understood in terms of
+                loudness as well as duration, “The rhythm of sounds may be marked by the distinction
+                of loud and soft, as well as that of long and short” (Beattie<hi rend="italic"
+                    >,</hi> 1783: I, 283). It’s clear from Beattie’s account that volume was part of
+                a critical vocabulary for understanding rhythm and conversely, as we shall see, in
+                poetry, rhythm can express sound dynamics and volume.<hi rend="endnote_reference">
+                    <note place="end"><p rend="endnote text"> Beattie’s account of “loud and soft”
+                            is contributing to a longer rhetorical tradition for describing vocal
+                            performance, and especially the linguistic (and metrical) roles of
+                            syllabic length and accent; but when Beattie uses the terms “loud and
+                            soft” to describe rhythm, he is doing something slightly different,
+                            referring to affective as well as rhythmical expression.
+                    </p></note></hi>
+            </p>
+            <p>Beattie was also concerned with the dynamics of performance, that is to say with how
+                passages should best be read aloud to convey their mood and affective dynamics, and
+                volume was an important aspect of this. He explains, for instance, that “Words of
+                indignation pronounced with a soft voice and a smile… would be ridiculous”
+                    (Beattie<hi rend="italic">,</hi>1783: I, 241). When reading aloud, choosing the
+                appropriate volume and modulating between degrees of loud and soft was considered
+                essential to the successful performance of a poem<anchor type="commentRangeStart"
+                    n="7"/><anchor type="commentRangeStart" n="8"/><anchor type="commentRangeStart"
+                    n="9"/>.<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            It’s interesting to note that whereas Cicero discusses the importance of
+                            tone in his <hi rend="italic">Institutio Oratoria</hi>, he does not
+                            discuss volume at any length or often, in the way that 18<hi
+                                rend="superscript">th</hi> century rhetoricians do. This invites
+                            further investigation. </p></note></hi>
+                <anchor type="commentRangeEnd" n="7"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="7"><date when="2021-05-12T12:16:00Z"/>Need to
+                    amend all notes as the superscript is much smaller than usual both for the note
+                    numbers in the essay and each corresponding note’s number.</note><anchor
+                    type="commentRangeEnd" n="8"/><note place="comment" resp="#Mina_Gorji_[2]" n="8"
+                        ><date when="2021-07-27T16:08:00Z"/>I am not sure how to do this- have tried
+                    and failed I think ? or is it now ok?</note><anchor type="commentRangeEnd" n="9"
+                    /><note place="comment" resp="#Mina_Gorji_[2]" n="9"><date
+                        when="2021-07-27T16:09:00Z"/></note> In his <hi rend="italic">Art of
+                    Speaking</hi>, for instance, James Burgh explained how a speaker’s “<anchor
+                    type="commentRangeStart" n="10"
+                /><hi rend="italic" xml:space="preserve">success </hi>with his audience” depends
+                much upon his “<hi rend="italic">setting out</hi> in a proper key, and at a due
+                pitch of <hi rend="italic">loudness</hi>., If he begins in too <hi rend="italic"
+                    >high</hi> a tone, or sets out too
+                <hi rend="italic" xml:space="preserve">loud, </hi>how is he afterwards to rise to a
+                    <hi rend="italic">higher note</hi>, or swell his voice <hi rend="italic"
+                    >louder</hi>, as the more
+                    <hi rend="italic" xml:space="preserve">pathetic </hi><anchor
+                    type="commentRangeEnd" n="10"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="10"><date when="2021-05-12T12:21:00Z"/>Note if
+                    emphasis is original or added.</note>strains may require?” (emphasis original
+                (Burgh, 1761: 12)). Burgh turns to terms such as “proper key,” “due pitch,” “tone”
+                and “note” here; these terms are firmly part of musical as well as rhetorical
+                discourse. He draws on them again when describing how the different emotional states
+                require different modes of expression in both facial features and gestures, but also
+                in terms of the dynamics of voice. “Despair” for instance requires the <anchor
+                    type="commentRangeStart" n="13"/>“tone of the voice” to be
+                “<hi rend="italic" xml:space="preserve">loud </hi>and <hi rend="italic"
+                >furious</hi>” (<anchor type="commentRangeEnd" n="13"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="13"><date when="2021-05-12T12:22:00Z"
+                    />Something’s at issue here with the quotation marks. </note>Burgh, 1761: 17).
+                Whereas “Shame” requires a voice that is “<hi rend="italic">weak</hi> and <hi
+                    rend="italic">trembling</hi>” as well as short sentences and drawn down eyebrows
+                to convey its full expression (Burgh, 1761: 17). He marks a number of speeches and
+                texts with symbols to indicate the quality of delivery, which includes volume, for
+                example in a speech on “Horrors of War,” an extract from Pope’s <hi rend="italic"
+                    >Homer</hi>. Certain lines, he indicates, are “to be spoken quick and loud,”
+                others “to be spoken faintly, and with pity” or “to be spoken with a quivering
+                voice” (Burgh<hi rend="italic" xml:space="preserve">, </hi>1761<hi rend="italic"
+                    >:</hi> 16, 17). Recognising and performing the appropriate volume for
+                particular literary passages when reading them aloud was key to their rhetorical
+                expressiveness, and Burgh offered readers help in doing this by using descriptive
+                language to indicate the appropriate dynamics. Other kinds of notation were also
+                available. </p>
+            <p>In his <hi rend="italic">Lectures on Elocution</hi> (1762), Thomas Sheridan uses
+                musical terms to distinguish between loud and soft, and high and low: “Loud and soft
+                in speaking, is like the <hi rend="italic">forte</hi> and <hi rend="italic"
+                    >piano</hi> in music, it only refers to the different degrees of force used in
+                the same key whereas high and low imply a change of key” (Sheridan, 1762: 83).
+                Joshua Steele’s <hi rend="italic">Prosodia rationalis: or, An essay towards
+                    establishing the melody and measure of speech, to be expressed and perpetuated
+                    by peculiar symbols</hi> (1779) stresses the importance of modulating the voice,
+                and sets out symbols for accent and emphasis, loud and soft (Steele, 1782: 24),
+                which he applies to a number of literary examples, including a speech from <hi
+                    rend="italic">Hamlet</hi> (Steele, 1762: 40).</p>
+            <p> Gilbert Austin, writing in <hi rend="italic">Chiromania, or a Treatise on Rhetorical
+                    Delivery</hi> (1806), also uses symbols, including some musical notation such as
+                the hairpin to indicate shifts in loudness as well as a number of other symbols,
+                such as the zigzag line to indicate uniform loudness or forte, <anchor
+                    type="commentRangeStart" n="14"/>explained in “Symbols for Noting the Force and
+                Rapidity or Interruption of the Voice in Delivery” (Austin, 1806: 367). He advises
+                readers and performers that these symbols were “to be marked in the margin near the
+                commencement of the passage which they are to influence” (Austin, 1806: 367).
+                    <anchor type="commentRangeEnd" n="14"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="14"><date when="2021-05-12T12:24:00Z"
+                    />Citations needed.</note></p>
+            <figure>
+                <p><hi style="color:red; font-size: 14pt; font-weight:bold;" rend="ERROR"
+                        >�</hi><note place="margin" type="conversion" resp="#docxtotei"><hi
+                            rend="docxError">unable to handle picture of Windows format
+                            media/image1.emf</hi></note></p>
+            </figure>
+            <p><hi rend="italic bold"
+                    >Fig.</hi><hi rend="bold" xml:space="preserve"> 1 Symbols for Noting the Force and Rapidity or Interruption of the Voice, Austin, </hi><hi
+                    rend="italic bold">Chiromania</hi>
+                <hi rend="bold">(1806).</hi></p>
+            <p>It is important to note that this kind of notation was not usually deployed by poets
+                themselves; it was added later to mark up a text for performance, to encourage
+                emphasis for dramatic and rhetorical effect. There were perhaps stylistic cues in
+                the writing itself which these notations and marginal indications were responding to
+                and amplifying. It was not necessarily only the subject matter or emotional tone of
+                a piece of writing that suggested a particular volume; it could also be an effect
+                suggested in the rhythmic and linguistic texture of the poem itself. <anchor
+                    type="commentRangeStart" n="15"/>Lyric poetry has its own language and codes for
+                communicating volume and dynamics, and these effects do not depend on performance or
+                vocalisation, on the timbre and grain and pitch of a reader’s voice, but can be
+                experienced even when we read a poem in silence<anchor type="commentRangeEnd" n="15"
+                    /><note place="comment" resp="#Microsoft_Office_User" n="15"><date
+                        when="2021-05-12T12:26:00Z"/>Rephrase for clarity and clean syntax.</note>.
+                There are other ways that a poem might register and express shifts in volume, not
+                just in performance, but also during silent reading. If onomatopoeia denotes a
+                shared code or language to represent certain sounds, like a cat purring or a dog
+                barking, what are the linguistic, formal and rhythmic codes and cues of quiet? <hi
+                    rend="italic">Shhhh</hi>,
+                    <hi rend="italic" xml:space="preserve">hush, </hi>ellipses<anchor
+                    type="commentRangeStart" n="16"
+                    /><hi rend="italic" xml:space="preserve">… </hi><anchor type="commentRangeEnd"
+                    n="16"/><note place="comment" resp="#Microsoft_Office_User" n="16"><date
+                        when="2021-05-12T12:28:00Z"/>Might want to write out the word “ellipses” as
+                    younger or hasty readers might miss that you mean to include them in your list.
+                </note> what else? </p>
+            <list rend="numbered">
+                <item>Silent reading.</item>
+            </list>
+            <p>Coleridge was well known for reading his own poems aloud, and of course when a poem
+                is voiced, the reader can vary the volume as well as the pitch and tone, but usually
+                there is no direct <hi rend="italic">verbal</hi> cue or instruction for this in the
+                poem itself (as there sometimes is, say, in a play script, which often gives the
+                actor or reader performance and stage directions). When he read his own poems aloud,
+                Coleridge could of course vary the volume as he thought fitting. But how could he
+                communicate the appropriate dynamics to his readers? And might they experience these
+                shifts in volume during silent reading? Although, as Lucy Newlyn has shown, “the
+                practice of ‘reading aloud’”<anchor type="commentRangeStart" n="17"/> was “a
+                thriving one at the end of the eighteenth century” (Newlyn, 2003: 355), so<anchor
+                    type="commentRangeEnd" n="17"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="17"><date when="2021-05-12T12:43:00Z"
+                    />Quotation mark issue to amend.</note> too was silent reading. Laura Mandell
+                points out that <anchor type="commentRangeStart" n="18"/>Romantic poets expected
+                their poems to be read in silence, and that despite Wordsworth’s “love of
+                reading-and-writing aloud and performing his poetry, nonetheless Wordsworth knew
+                that most would encounter it as silent and graphic. Blake, too, could not mistake
+                the essential noiselessness of his prints” (Mandell, 2007: 220). She goes on to
+                argue that “their poems thematised their own soundlessness while offering
+                compensatory images”(Mandell, 2007: 220). <anchor type="commentRangeEnd" n="18"
+                    /><note place="comment" resp="#Microsoft_Office_User" n="18"><date
+                        when="2021-05-12T12:45:00Z"/>In-text citations still needed for each
+                    quotation.</note>And yet the poems, read in silence, are not, perhaps, entirely
+                soundless.</p>
+            <p>Effects or impressions of sound and volume can be experienced when a poem is read in
+                silence. There is also the possibility of an imagined listening. Lyric poems can
+                have their own inscripted codes and cues for volume and dynamics, ways of suggesting
+                and registering shifts between loud and soft, sound effects which we experience even
+                when we read in silence. And these differences in volume are expressed or suggested
+                in various ways, in and through rhythm, vocabulary and lineation. The question of
+                what volume means in relation to a poem is worth exploring further. If, according to
+                the Anthony Ashley Cooper, third Earl of Shaftesbury, certain colours were
+                    “quiet<anchor type="commentRangeStart" n="19"/>”
+                (Shaftesbury<hi rend="italic" xml:space="preserve">, </hi>1711: vol. 3, 313),
+                    <anchor type="commentRangeEnd" n="19"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="19"><date when="2021-05-12T12:53:00Z"/>Page
+                    number needed.</note>perhaps a poet could also produce effects of quiet or
+                loudness in words, rhythms, and spatial patterns on the printed
+                    page.<hi rend="endnote_reference" xml:space="preserve"> . </hi><anchor
+                    type="commentRangeStart" n="20"/><anchor type="commentRangeStart" n="21"/>And
+                this experience of sound puts pressure on the very idea of ‘silent reading’ itself.
+                    <anchor type="commentRangeEnd" n="20"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="20"><date when="2021-05-12T12:54:00Z"
+                    />Lovely.</note><anchor type="commentRangeEnd" n="21"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="21"><date when="2021-07-28T12:04:00Z"
+                />Thanks!</note></p>
+            <p>The expansion of print, according to Walter Ong’s well-known thesis, produced a shift
+                from oral reading aloud to quiet and then silent reading. Print, he claimed, was one
+                factor in the creation of privacy in modern society, and, he argues, the production
+                of books that were “smaller and more portable than those common in manuscript
+                culture” set the stage “psychologically for solo reading in a quiet corner, and
+                eventually for completely silent reading” (Walter Ong, 1982:131). It should be noted
+                that silent reading in the West long precedes the invention of print, and is
+                recorded by 400 CE, in Augustine’s famous comments on Ambrose, archbishop of Milan,
+                in <hi rend="italic">Confessions</hi> 6.3.3. And that Ong’s description of print as
+                a kind of silencing medium does not account for the various kinds of sound which
+                print can embody. Perhaps, as Steven Connor suggests, “the move from sounded to
+                silent reading” was not:</p>
+            <p>simply a move from noise to quiet. Rather, perhaps, it is a move from one kind of
+                sound to another … The increasing commonness of silent reading is to be regarded
+                therefore, not as the simple turning down of sound, but as the creation of a more
+                complex space of inner resounding. (Steven Connor, 2014: 106, 109) </p>
+            <p>To push this further we might ask whether these “spaces of inner resounding” might
+                vary according to genre. Perhaps Lyric enables and produces distinct kinds of aural
+                and acoustic “spaces”, distinct possibilities for inner resounding. We might ask
+                whether Romantic lyric is quieter than other genres or sub-genres, than declamatory
+                neoclassical lyric, say, or than epic or satire. Perhaps the intimate occasion of
+                certain lyric poems itself implies a dynamic of performance, that it be read in a
+                quieter voice than a poem in another genre. Lyric, I want to argue, invites a
+                particular kind of listening, and in the Romantic period this listening was
+                inflected by historical contingencies in musical notation, book publication, and
+                reading practices. The way volume was heard, and indeed the volume of poetry was
+                recognised and interpreted, changed in the Romantic period. And perhaps one reason
+                for this was that during this period a historical juncture between oral and silent
+                reading was especially significant and pronounced. </p>
+            <p>In <hi rend="italic">Discourse Networks 1800/</hi>1900 (1990), Friedrich Kittler
+                famously suggested that reading after 1800 was shaped, Steven Connor explains, by
+                the “principle of what might be called oralized writing,” (Steven Connor, 2015: 128)
+                what Connor calls a “consensual hallucination, namely the capacity for a kind of
+                ‘earsight’ or ‘hearsight’ that allows one to mistake writing for voice, to imagine
+                that writing is everywhere suffused with the most intimate and expressive accents of
+                the voice” (Steven Connor, 2015: 129). But if print could express, silently, the
+                <hi rend="italic" xml:space="preserve">accents </hi>of voice, it could also register
+                the <hi rend="italic">dynamics</hi> of voice, and descriptions of sound in the poem
+                itself. Dynamics are a feature of accent, but accent is not the only way dynamics
+                are expressed. A printed poem can also convey shifts between loud and soft on the
+                page, for example, such as a gradual quietening. And such shifts are not only
+                descriptive but can also be mimetic of what is described. They can register effects
+                of intimacy and musical and rhetorical patterns of expression. The question of how a
+                poem might register these shifts and gradations in and of sound took particular
+                inflection and emphasis in the Romantic period not only because of shifting reading
+                practices but also because of a growing curiosity about the developing science and
+                technologies of sound transmission, such as the stethoscope and microphone, and,
+                later in the nineteenth century the phonograph, telephone and telegraph,<anchor
+                    type="commentRangeStart" n="22"/>
+                <anchor type="commentRangeEnd" n="22"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="22"><date when="2021-05-12T13:25:00Z"/>Another
+                    note to enlarge/amend.</note> as well as a fascination with the ways in which
+                sound was codified in music, writing and in other visual forms, such as Chladni
+                figures, the Phonautograph and the Eidophone, all part of what Coleridge was to call
+                the “embryo Science of Acoustics<anchor type="commentRangeStart" n="23"/>”
+                (Coleridge, 2003: 197).<hi rend="endnote_reference"><note place="end"><p> For a
+                            discussion of the scientific and technological developments in acoustics
+                            in the late 18<hi rend="superscript">th</hi> and early 19<hi
+                                rend="superscript">th</hi> centuries, see: Benjamin Walton and David
+                            Trippett, eds., <hi rend="italic">Nineteenth-Century Opera and the
+                                Scientific Imagination</hi> (Cambridge, Cambridge University Press,
+                            2019); James Q. Davies and Ellen Lockhart
+                            (eds.),<hi rend="italic" xml:space="preserve"> Sound Knowledge: Music and Science in London, 1789-1851,</hi>
+                            Chicago, University of Chicago Press, 2016; Richard Menke <hi
+                                rend="italic">Literature, Print Culture, and Media Technologies,
+                                1880–1900: Many Inventions,</hi> Cambridge, Cambridge University
+                            Press, 2019; Thomas Hankins &amp; Robert
+                            Silverman,<hi rend="italic" xml:space="preserve"> Instruments and the Imagination</hi>,
+                            (Princeton, Princeton University Press,1995).</p></note></hi>
+                <anchor type="commentRangeEnd" n="23"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="23"><date when="2021-05-12T13:25:00Z"/>Page
+                    number needed.</note></p>
+            <p>v. <hi rend="bold">Listening to Quiet</hi></p>
+            <p>Coleridge was a great talker, musical, oracular, entrancing, and his eloquence has
+                been rightly celebrated. At times, his talking could be challenging; he was not as
+                sensitive perhaps as he might have been to his own listeners: <anchor
+                    type="commentRangeStart" n="24"/>Wordsworth could not understand “one syllable”
+                of his friend’s oration despite listening attentively for two hours, according to
+                Samuel Rogers’ report (David Vallins, 2009: 308). <anchor type="commentRangeEnd"
+                    n="24"/><note place="comment" resp="#Microsoft_Office_User" n="24"><date
+                        when="2021-05-12T13:45:00Z"/><hi rend="bold">Source?</hi></note>There are
+                many accounts of people listening to Coleridge, fewer of Coleridge himself as
+                listener. And yet although he didn’t always attend enough to his listeners when he
+                spoke, he was himself an acute and sensitive listener: his poems, as well as his
+                notebooks, are full of great moments of listening. </p>
+            <p>Throughout Coleridge’s writing we find traces of this sensitivity in his “records of
+                attentive listening,” as John Hollander has termed them. And often the sounds which
+                drew his ear were quiet sounds. In these lines from a notebook entry, for
+                instance:</p>
+            <p>I hear only the Ticking of my Watch, in the Pen-place of my Writing Desk, &amp; the
+                far lower note of the noise of the Fire— perpetual, yet seeming uncertain/it is the
+                low voice of silent quiet change, of Destruction doing its work by little &amp;
+                    little.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"> To
+                            William Sotheby’, July 13, 1802, in L. Griggs (ed.), <hi rend="italic"
+                                >Collected Letters of Samuel Taylor Coleridge</hi>, vol ii, ed. Earl
+                            Leslie Griggs (Oxford, 1956), 808-813, 810.</p></note></hi></p>
+            <p>This is a subtle pitch of listening: to distinguish between the clock and the <hi
+                    rend="italic">lower note</hi> of the fire. ” Coleridge is drawing on a musical
+                language, “low note”, to describe and distinguish between the sounds he hears. And
+                he was curious about how these subtle variations of pitch and dynamics might be
+                expressed in the texture of a poem.</p>
+            <p>Coleridge was writing on the cusp between reading aloud and silent reading. This is
+                perhaps one reason that he was interested in the space between thought and address:
+                in “Frost at Midnight,” for instance, he is addressing his babe, but in silence.
+                This intimate occasion might also account for the poem’s interest in quiet sounds
+                and sounding quiet. The volume of a poem perhaps depends on occasion as well as on
+                genre, so that the intimate occasions of certain kinds of Romantic lyric poem might
+                be productive of quiet, or at least be quieter than more declamatory or public
+                modes. Like other Romantic poets Coleridge was thoughtful about the sound of poetry,
+                and about shaping sound and silences—especially because he was writing in an age
+                when poems were very often read in silence.</p>
+            <p>Writing in <hi rend="italic">Victorian Studies</hi>, Laura Mandell offers a specific
+                technological explanation for a shift in reading practices, arguing <anchor
+                    type="commentRangeStart" n="25"/>that “Eighteenth-century changes in printing
+                practices facilitated silent, rather than vocalized, reading of poetry.” (Mandell,
+                2007: 220)<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            Celeste Langan and N. McClane have shown that the material medium of
+                            transmission is crucially important to interpretation (“The medium of
+                            romantic poetry”, in James Chandler and Maureen N. McClane (Cambridge,
+                            2008), 239-262).</p></note></hi>. She suggests that the typographical
+                shift from the long "f"-like "s" to the “s”, for example, accompanied a shift from
+                reading aloud to silent reading (the “f”-like “s” being associated with reading
+                aloud). It’s interesting to note, as Mandell does, that in the 1798 edition of
+                Wordsworth and Coleridge’s <hi rend="italic">Lyrical Ballads</hi>, both forms of “s”
+                are used, and this, she suggests, “would have complicated silent reading”<anchor
+                    type="commentRangeEnd" n="25"/> (Mandell, 2007: 220)<note place="comment"
+                    resp="#Microsoft_Office_User" n="25"><date when="2021-05-12T13:48:00Z"/>In-text
+                    Citations Needed.</note> Coleridge’s <hi rend="italic">Rime of the Ancient
+                    Mariner</hi>, for instance, uses the “f” like “s,” and so calls for reading
+                aloud. Mandell explains that this is because of different processes of reading
+                associated with silent reading and reading aloud. You need to pronounce a word which
+                contains an “f” like “s” to know whether it is an “f” or an “s,” she explains. But
+                when an “s” form is used, you recognise it in a different way, which does not
+                require pronouncing it or sounding it out. And yet, I would argue, this account of
+                silent reading as a kind of visual decoding, a reading without sound, belies the
+                complexity of the way sound operates and exists in the medium of print and in a
+                poem.</p>
+            <p> Mandell’s notion of sound focusses on the idea of the voice and voicing; but poems
+                offer other kinds of sounding and other patterns and articulations of sound.
+                Coleridge understood poems to be musical forms, and his poems are full of accounts
+                of other kinds of sound, which further complicate this distinction between silent or
+                vocalised reading. Indeed, his poems seem to invite a play between eye and ear, not
+                just by varying the typographic forms of letters such as the “s.” They invite us to
+                think about the relation between seeing and hearing not only in terms of voice but
+                also in terms of music and pattern. </p>
+            <p>Notwithstanding the need for further exploration of Mandell’s claim about the
+                cognitive processes involved in reading aloud and reading silently, it is clear that
+                poets writing in this period were keenly aware that reading practices were shifting,
+                as Mandell and Newlyn have shown. It is also worth considering whether, and how,
+                these and other cultural, technological and scientific changes might have shaped and
+                influenced the representation of sound and dynamics in their poetry. Their poems
+                invite further thinking about the semiotics of sound and of volume through a playful
+                and dynamic interplay between eye and ear.</p>
+            <p>Writing elsewhere, Mandell examines Laurence Sterne’s play with visual and aural
+                codes registered in his use of a sequence of four asterisks (****) to denote words
+                which might offend readers in
+                    <hi rend="italic" xml:space="preserve">Tristram </hi><anchor
+                    type="commentRangeStart" n="26"
+                /><hi rend="italic" xml:space="preserve">Shandy </hi>(1759). <anchor
+                    type="commentRangeEnd" n="26"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="26"><date when="2021-05-12T13:51:00Z"/>Add
+                    date.</note>The **** are difficult to voice, she explains, but the words they
+                represent and obscure present a different challenge to those reading aloud to an
+                audience; his use of **** thus engages with a shift in reading practices in a
+                playful way, mindful that some would read the novel aloud, others in silence.<hi
+                    rend="endnote_reference"><note place="end"><p>
+                            <hi rend="italic">New Literary History</hi>, Vol. 38, No. 4, Autumn,
+                            2007, pp. 755-776</p></note></hi> Coleridge’s engagement with the
+                relation between sounds heard and seen or codified on a page, while not usually
+                overtly humorous in this way, was often, as we shall see, no less witty. </p>
+            <p>vi. O that I had the language of Music!” (Coleridge, <hi rend="italic">Notebooks</hi>
+                II: 2035)</p>
+            <p>Writing in his notebooks Coleridge expressed his frustration that he did not “have
+                the language of music” (Coleridge, <hi rend="italic">Notebooks</hi> II: 2035). This
+                could mean that he was unable to read a musical score, or that he did not feel he
+                fully understood musical language. And yet perhaps he was being overly modest; he
+                does, after all, analyse the prosody of <hi rend="italic">Paradise Lost</hi> in
+                terms of a pattern of “fifteen breves”, which suggests some knowledge of musical
+                terms (<hi rend="italic" xml:space="preserve">Marginalia, </hi>ed. Jackson, iv.
+                603-4). And although there are no musical scores to be found in his notebooks, they
+                do contain quite a few comments about his wide-ranging musical listening, to
+                instruments such as the Eolian harp and Glass Harmonica as well as to a range of
+                polite and popular musical forms; he notes, for instance, the superior song of the
+                Ramsgate Muffin Man but also talks about enjoying Beethoven, Weber, Mozart and
+                Cimarosa. In an essay in <hi rend="italic">The Friend</hi> he identifies a sense of
+                ‘recognition’ in listening to music: </p>
+            <p>If we listen to a Symphony of Cimarosa, the present strain still seems not only to
+                recall, but almost to renew, some past movement, another and yet the same! Each
+                present movement bringing back, as it were, and embodying the spirit of some melody
+                that had gone before, anticipates and seems trying to overtake something that is to
+                come (<hi rend="italic">The Notebooks of Samuel Taylor Coleridge</hi>, ed. Kathleen
+                Coburn (5 vols, London, 1957–2002), ii. 2356).</p>
+            <p>This sensitivity to the effects of musical repetition informs Coleridge’s own poetic
+                composition and points to the importance of musical thinking to his own
+                understanding of sound and its forms and effects in poetry.<hi
+                    rend="endnote_reference">
+                    <note place="end"><p rend="endnote text"> For a discussion of this passage and
+                            an account of Coleridge’s rhyme and musical thinking see Olivia Reilly,
+                            ‘[A]nother and yet the same’: Rhyme’s Music in <hi rend="italic">Kubla
+                                Khan</hi>’,
+                            <hi rend="italic" xml:space="preserve">Romanticism, </hi>23, 2, 2017,
+                            pp. 149-154.</p></note></hi>
+            </p>
+            <p> Coleridge was keenly aware that poets did not use the “language of music” itself,
+                and that included musical notation, to indicate the dynamics of a poem. And yet, as
+                he instinctively understood, somehow certain poems or lines in poems can suggest
+                different dynamic qualities, with some moments seeming louder or quieter than
+                others. Coleridge’s poems are especially rich in dynamic effects. It is striking how
+                many of his lyric ‘Conversation poems’ not only meditate on sounds heard, but
+                themselves describe and also communicate changes in volume. Consider the following
+                    shifts<anchor type="commentRangeStart" n="27"/>: from the owlet’s cry which
+                comes “loud” (l.3) to the quieter sound of the fluttering soot on the grate (l.15)
+                in “Frost at Midnight;” from the silence of the stream (l.6) to the happy song of
+                nightingales in “The Nightingale: A Conversation Poem;” from “green and silent spot”
+                (l.1) and “small and silent dell” (l.2) to the crescendo in Invasion’s “thunder and
+                the shout,/ And all the crash” (l.36-37) in “Fears in Solitude;” from “the stilly
+                murmur of the distant Sea,” that “Tells us of Silence” (ll.11-12), to the music of
+                the breeze as it plays over the lute strings in “The Eolian Harp” (l.15). <anchor
+                    type="commentRangeEnd" n="27"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="27"><date when="2021-05-12T13:55:00Z"/>In-text
+                    citations to line numbers needed.</note>Coleridge offers a descriptive
+                vocabulary to describe a range of dynamics, a shifting scale of volume from loud to
+                quiet to silence. But his poems not only name and describe these dynamics but also
+                perform these shifts in their verbal, acoustic and rhythmic textures. </p>
+            <p>The late critic Thomas Macfarland was attuned to dynamic shifts across Coleridge’s
+                poetry. The opening lines of “The Nightingale: A Conversation Poem,” he suggests,
+                have, “a quietness that is
+                <hi style="position:2" xml:space="preserve">in stark contrast </hi>to the frenetic
+                notes of the hysterical sublime” we hear in some of Coleridge’s earlier work
+                (Macfarland, 1981: 246). The word “quieter” suggests intimate, less declamatory; but
+                his choice of word also conveys a sense of volume. I want to push this yet further
+                and think about how this sound, this quiet is expressed:</p>
+            <p>No cloud, no relique of the sunken day </p>
+            <p>Distinguishes the West, no long thin slip</p>
+            <p>Of sullen light, no obscure trembling hues. </p>
+            <p>Come, we will rest on this old, mossy bridge! </p>
+            <p>You see the glimmer of the stream beneath, </p>
+            <p>But hear no murmuring: it flows silently</p>
+            <p>O’er its soft bed of verdure. All is still,</p>
+            <p>A balmy night! And tho’ the stars be dim,</p>
+            <p>Yet let us think upon the vernal showers</p>
+            <p>That gladden the green earth, and we shall find</p>
+            <p>A pleasure in the dimness of the stars. </p>
+            <p>(<hi rend="italic" xml:space="preserve">CW, Poetical Works I, </hi>ed. J.C.C. Mays,
+                Princeton University Press, 2001, ll.1ff)</p>
+            <p>How is a sense of quietness achieved in these lines? The language seems to be visual
+                rather than aural here; the description begins by calling up to the eye what is <hi
+                    rend="italic">not</hi> seen, clouds, a slip of light, trembling hues. The
+                repetition of “no” emphasises, by contrast, the solidity of the deictic “this” in
+                the phrase “this mossy bridge”, and the simple affirmation “You see” in the next
+                line, emphasising what the eye can see. This visual language is soundless in one
+                sense, anticipating the soundlessness described when we reach ‘no murmuring’ and
+                ‘silently’. But the language takes on a more complex sensory register when we reach
+                    <anchor type="commentRangeStart" n="28"/><anchor type="commentRangeStart" n="29"
+                />“dim”, a word used in these lines to describe a visual phenomena, faintness of
+                light (<hi rend="italic" xml:space="preserve">OED </hi>1 a), but which also had
+                currency as an acoustic term in this period, meaning “Of sound, and esp. of the
+                voice: Indistinct, faint” (<hi rend="italic">OED,</hi> 5; curiously, the last
+                citation in <hi rend="italic" xml:space="preserve">OED </hi>for this sense of the
+                word is in the Romantic period, in Shelley’s 1817 poem “Marianne’s dream”). <anchor
+                    type="commentRangeEnd" n="28"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="28"><date when="2021-05-12T13:59:00Z"/>Such a
+                    rich detail to include.</note><anchor type="commentRangeEnd" n="29"/><note
+                    place="comment" resp="#Mina_Gorji_[2]" n="29"><date when="2021-07-28T12:12:00Z"
+                    />Thanks!</note>The lines create an effect of <hi rend="italic">diminuendo</hi>
+                in terms of visual description and also in sound, so that effects of eye and ear
+                confirm and amplify one another. What else in the opening lines suggests quiet? That
+                word “still” is important; it offers one way in to thinking about how a sense of
+                quiet is expressed in these lines. The predominant meaning of “still” here is
+                “motionless” (<hi rend="italic">OED</hi>, 1). But for Coleridge’s first readers the
+                word also had a sense relating to volume, “Of a voice, sounds, utterances: Subdued,
+                soft, not loud (<hi rend="italic">OED,</hi> 2a). This sense of “Still”, according to
+                    <hi rend="italic">OED</hi> is no longer current. <anchor
+                    type="commentRangeStart" n="30"/><anchor type="commentRangeStart" n="31"
+                    /><anchor type="commentRangeStart" n="32"/>I think that this correspondence
+                between movement and volume offers one way to think about how poetry expresses sound
+                dynamics in and through shifts in movement, tempo or pace. <anchor
+                    type="commentRangeEnd" n="30"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="30"><date when="2021-05-12T14:01:00Z"
+                    />Excellent.</note><anchor type="commentRangeEnd" n="31"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="31"><date when="2021-07-28T12:12:00Z"
+                    />thanks</note><anchor type="commentRangeEnd" n="32"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="32"><date when="2021-07-28T12:13:00Z"/></note>It is,
+                after all, moving or vibration of matter, as Coleridge understood, that creates
+                sound in the first place as in the strings of a lute or an Eolian harp. That word
+                “trembling”, in the phrase “trembling hues”, amplifies the sense I’m referring to
+                here: overtly it’s referring to a visual phenomenon but it calls a sense of gentle
+                movement to mind, the gentle movement of a stringed instrument playing very quietly
+                (trembling suggests a faint movement).<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text"> Thinking about the lute string vibrating into
+                            sound as a metaphor for animated matter trembling into thought,
+                            Coleridge had used the word “tremble” in his poem “Eolian Harp”, first
+                            published 2 years
+                            (<hi rend="italic" xml:space="preserve">CW, Poetical Works I, </hi>ed.
+                            J. C.C. Mays, ll.46).</p></note></hi> There is something suggestive
+                about using Coleridge’s use of the word “trembling” to describe <hi rend="italic"
+                    >colour</hi>, something synaesthetic perhaps, which calls to mind a kind of
+                quiet sound by association. But which also alerts us to the sound texture of these
+                lines and the way in which they move: the repetition suggests a kind of trembling
+                and also a kind of quietening. In the opening of “The Nightingale. A Conversation
+                Poem, April 1798”, the thick texture of repetition of the word <anchor
+                    type="commentRangeStart" n="33"/>“no” (ll.1, 2, 3, 6) which is drawn out by the
+                <hi rend="italic" xml:space="preserve">o </hi>sound in “flows” (l.6) and “O’er”
+                (l.7) creates a slowing effect, so that the sound is not modulating as freely as we
+                might expect, not moving not progressing, and this slowing suggests a
+                    quietening.<anchor type="commentRangeEnd" n="33"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="33"><date when="2021-05-12T14:01:00Z"/>In-text
+                    line citations needed.</note></p>
+            <p> Coleridge was interested in how gradations of sound were experienced by the listener
+                and also by the reader, and he was thoughtful about how that might be represented on
+                the page and in a poem. His poems are often intensely musical and sensitive to
+                acoustic shiftings. Changes in linguistic register, tense, shifts in metre, pauses,
+                punctuation marks, and the sonic texture of a line, the distribution of phonemes,
+                all contribute to how a poem shifts dynamics between loud and soft. Pitch and tempo,
+                genre, pacing and tonal register can contribute to a poem’s dynamics and Coleridge
+                takes full and subtle advantage of all those means. Here in these lines from the
+                1796 version of “The Eolian Harp,” for instance Coleridge creates a quietening
+                effect rhythmically, by slowing the pace of the poem: </p>
+            <p> … How exquisite the scents </p>
+            <p>Snatched from yon bean-field! and the world <hi rend="italic">so</hi> hushed! </p>
+            <p>The stilly murmur of the distant Sea </p>
+            <p>Tells us of silence. (ll.9-12)</p>
+            <p> That italicized word <hi rend="italic">so</hi> stands out, typographically more
+                emphatic, but not, somehow, <hi rend="italic">louder</hi>, than surrounding words.
+                The word “so” (l.9) was italicized in the 1796 version of the poem (which appeared
+                with the title “EFFUSION XXXV. COMPOSED <hi rend="italic">AUGUST</hi> 20<hi
+                    rend="italic">th</hi>, 1795, AT CLEVEDON, SOMERSETSHIRE”) and the word was also
+                italicised in the version of the poem published in <hi rend="italic">Poems</hi>
+                (1803), entitled <anchor type="commentRangeStart" n="34"/>“Composed at Clevedon
+                Somersetshire. <anchor type="commentRangeEnd" n="34"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="34"><date when="2021-05-12T14:04:00Z"/>Clean up
+                    and complete citation.</note>We know that this emphasis was intended by
+                Coleridge because he underlined the word (“<hi rend="underline">so</hi>”) in the
+                manuscript version of the poem he sent to Cottle for publication in 1796 (Rugby MS).
+                However, the version of the poem published <hi rend="italic">Sibylline Leaves</hi>
+                in 1817 does not have the word “so”
+                italicised<hi rend="italic" xml:space="preserve">. </hi></p>
+            <p>The italicisation (or its omission) is significant in terms of how we hear the line,
+                and also in how the line represents volume. The use of <hi rend="italic"
+                    >italics</hi> can create shifts of vocal tone but it can also contribute to
+                shifts of pace and rhythm, which in turn suggests a dynamic effect, in this case, a
+                quietening. Here, the italicization alters the rhythm of the line so that instead of
+                the iambic pattern of “the WORLD so HUSHED,” that word “so” gains a stress, to the
+                WORLD SO HUSHED. These three stresses in a row slow us down and the change of pace
+                creates a feeling of intimacy—drawing us in, as it slows us down: together these
+                contribute to the effect of <hi rend="italic">diminuendo</hi>. There is a sense of
+                quieting as we reach the word “hushed,” a slowing down which puts emphasis on the
+                quiet it denotes, a quiet which fades to the silence of the white space at the end
+                of the end-stopped line. The word “hushed” conveys the sense, still current, of
+                “Reduced to silence; silenced, stilled, quieted” (<hi rend="italic">OED</hi>): in
+                slowing the pace of the line by emphasizing the word “<hi rend="italic">so,”</hi>
+                Coleridge creates a stilling effect rhythmically, and this contributes to the
+                quietening of volume described and enacted. </p>
+            <p>The rhythmic shift in the next line, sounded in the phrase “the stilly murmur,” with
+                its return to an iambic pattern, contributes to a steadying which suggests a
+                quietening effect. The rhythm of the line shifts in the phrase “of the distant sea,”
+                so that the word “distant” is emphasized after two unstressed syllables (“of the”);
+                this shift in perspective is also suggested semantically as we shift from the
+                proximity suggested by “murmur,” suggesting the “low continuous sound of water” (<hi
+                    rend="italic">OED</hi>, 2) but also a quiet speaking voice, “A word or sentence
+                spoken softly or indistinctly; faint or barely audible speech” (<hi rend="italic"
+                    >OED,</hi> 4).<hi rend="endnote_reference"><note place="end"><p
+                            rend="designation"> For a detailed exploration of sound and semiotics of
+                            the murmur in Wordsworth and Romantic poetry, see Michele Speitz, ‘The
+                            Wordsworthian Acoustic Imagination, Sonic Recursions, and ‘that dying
+                                murmur”<hi rend="italic">’, SEL,</hi>
+                        1500-1900, 55(3):621-646</p></note></hi> This “murmur” is a quiet voice we
+                can hear only if we are close to the sound; a shift from this suggestion of
+                proximity to “distant” produces a fading effect, a kind of diminuendo. Once again, a
+                shift in pace and rhythm contributes to a quietening effect. There is a slowing of
+                pace, suggested by the thickening acoustic texture of the lines with their
+                alliterative clustering of <hi rend="italic" xml:space="preserve">s </hi>sounds that
+                concentrate in, and emphasise, the final word of the sentence, “silence”: “the <hi
+                    rend="italic">s</hi>tilly murmur of the di<hi rend="italic">s</hi>tant <hi
+                    rend="italic">s</hi>ea/ Tells u<hi rend="italic" xml:space="preserve">s </hi>of
+                    <hi rend="italic">silence.</hi>” This is an example of the kind of interplay
+                between sound and semantic meaning which T.S. Eliot understood was key to the
+                auditory imagination, that “feeling for syllable and rhythm, penetrating far below
+                the conscious levels of thought and feeling, invigorating every word” (T.S. Eliot,
+                ‘Matthew Arnold’, in
+                <hi rend="italic" xml:space="preserve">T. S. Eliot, The Use of Poetry and the Use of Criticism </hi>(London
+                1933) p. 119). Coleridge creates acoustic shifts in and through rhythmic and verbal
+                textures and contextures in many different ways, including the use of emphatic
+                markings such as underlining or italicisation as well as through shifts of rhythm
+                and pace, as he does in these lines.<hi rend="endnote_reference"><note place="end"
+                            ><p> He returns to the idea of a sound telling of silence in a notebook
+                            entry for December 1803:</p><p rend="endnote text">“the waterfall at the
+                            head of the vale…. The noise of waters everywhere/ something distant,
+                            something near…Tis far off, &amp; yet very where/ and the pillar of
+                            smoke/ the smooth winter fields- the <hi rend="italic">indistinct</hi>
+                            <hi rend="underline">Shadows in the Lake</hi> [<hi rend="underline">are
+                                all] eloquent of Silence]”</hi></p></note></hi>
+            </p>
+            <p>The change in register in the line “the stilly murmur of the distant sea” also
+                contributes to a sense of historical distance, and to a related sense of acoustic
+                distancing or quietening, diminuendo. The line, “the stilly murmur of the distant
+                sea,” sounds archaic with its balanced pairs of adjective and noun- <hi
+                    rend="italic">stilly</hi> murmur, <hi rend="italic">distant</hi> sea- in which
+                the <hi rend="italic">st</hi> sounds chime with <hi rend="italic">stilly</hi> and
+                    <hi rend="italic">distant</hi>. The word
+                <hi rend="italic" xml:space="preserve">stilly, </hi>in itself archaic, denotes not
+                moving- and so the slowing down effect of the previous line,
+                <hi rend="italic" xml:space="preserve">the world so hushed, </hi>leads to this
+                articulation of stilly-ness. A still sea, is, of course, a silent sea, and, as we
+                might expect, another sense of the adverb “stilly”, recorded in <hi rend="italic"
+                    >OED,</hi> bears this out; “In a still manner; silently, quietly; in a low
+                voice; †secretly.” The sea is very quiet and therefore tells us of silence. It is an
+                odd thing to say, that it tells us <hi rend="italic">of</hi> silence. That
+                <hi rend="italic" xml:space="preserve">of </hi>is intriguing. It’s not that the sea
+                is silent, it tells us of – about - silence, a story of silence, perhaps. This is a
+                playfully indirect- and perhaps we could <anchor type="commentRangeStart" n="35"
+                    /><anchor type="commentRangeStart" n="36"/>say a <hi rend="italic">quieter</hi>
+                way of telling us that the sea is silent, a syntactic distance opens up into a
+                deeper silence. <anchor type="commentRangeEnd" n="35"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="35"><date when="2021-05-12T14:11:00Z"/>This
+                    line rounds out a series of richly valuable paragraphs.</note><anchor
+                    type="commentRangeEnd" n="36"/><note place="comment" resp="#Mina_Gorji_[2]"
+                    n="36"><date when="2021-07-28T12:15:00Z"/>Thanks very much!</note></p>
+            <p>In “The Nightingale: A Conversation Poem,” the play with sound and semiotics takes
+                another form: the invitation to listen at the heart of the poem is not voiced, but
+                silent, signed rather than said:</p>
+            <p>My dear babe,</p>
+            <p>Who, capable of no articulate sound,</p>
+            <p>Mars all things with his imitative lisp</p>
+            <p>How he would place his hand beside his ear,<lb/>His little hand, the small forefinger
+                up,<lb/>And bid us listen! (ll.91-6)</p>
+            <p>Here in these lines Coleridge is offering us the sign language of a pre-verbal baby,
+                and inviting us to think about the silence of signs on the page. It is interesting
+                to note that it was in the Romantic period that a new codified form of sign language
+                for the deaf was developed in France (Jacobus: 2012, 84-88). Coleridge’s baby’s
+                gesture can be better understood when placed in relation to some recent examples of
+                sign language in the work of deaf poets Raymond Antrobus and Ilya Kaminsky as part
+                of their own enquiries into the forms, dynamics and politics of signs and
+                    silence.<hi rend="endnote_reference"><note place="end"><p rend="endnote text">
+                            See Kaminsky’s <hi rend="italic">Deaf Republic</hi> (2019) and Antrobus’
+                                <hi rend="italic">The Perseverence</hi> (2018).</p></note>
+                </hi>Antrobus’ poem “Two Guns in the Sky for Daniel Harris”, for example,
+                commemorates the deaf man Daniel Harris killed after police officers, who had been
+                chasing him for speeding, misinterpreted his use of sign language and shot him. The
+                poem interrogates the difficulties of interpreting sign language; Antrobus was
+                trained in British Sign language, which is different from American Sign. But a
+                failure to understand sign can, as Antrobus points out in the poem, have tragic
+                consequences. He examines the cruel irony that the ASL sign for <hi rend="italic"
+                    >alive</hi> looks like two guns pointing up to the sky:</p>
+            <p><hi rend="color(1D1D1B)">Now what could we sign or say out loud</hi></p>
+            <p>when the last word I learned in ASL was <hi rend="Emphasis">alive</hi>?<lb/><hi
+                    rend="Emphasis">Alive</hi><hi rend="italic"> </hi>— both thumbs pointing at your
+                lower abdominal,</p>
+            <p>index fingers pointing up like two guns in the sky.<anchor type="commentRangeEnd"
+                    n="39"/><note place="comment" resp="#Microsoft_Office_User" n="39"><date
+                        when="2021-05-12T14:15:00Z"/>In text citation needed. </note></p>
+            <figure>
+                <graphic n="1002" width="15.920861111111112cm" height="6.840361111111111cm"
+                    url="media/image2.jpeg" rend="inline">
+                    <desc>A picture containing text, map, linedrawing Description automatically
+                        generated</desc>
+                </graphic>
+            </figure>
+            <p> (Antrobus, 2018: 23)</p>
+            <p>Coleridge’s hand sign is not ambiguous and its clarity is part of its own expressive
+                poignancy.</p>
+            <p> In “Frost at Midnight,” composed and published in the same year as “The Nightingale:
+                A Conversation”, this interest in signs and sounds and their correspondences is
+                richly played out, from the very opening lines:</p>
+            <p>The Frost performs its secret ministry, </p>
+            <p>Unhelped by any wind. The owlet’s cry </p>
+            <p>Came loud—and hark, again! loud as before. </p>
+            <p>The inmates of my cottage, all at rest, </p>
+            <p>Have left me to that solitude, which suits </p>
+            <p>Abstruser musings: save that at my side </p>
+            <p>My cradled infant slumbers peacefully. </p>
+            <p>'Tis calm indeed! so calm, that it disturbs </p>
+            <p>And vexes meditation with its strange </p>
+            <p>And extreme silentness. Sea, hill, and wood, </p>
+            <p>This populous village! Sea, and hill, and wood, </p>
+            <p>With all the numberless goings on of life, </p>
+            <p>Inaudible as dreams! the thin blue flame </p>
+            <p>Lies on my low burnt fire, and quivers not; </p>
+            <p>Only that film, which fluttered on the grate, </p>
+            <p>Still flutters there, the sole unquiet thing. </p>
+            <p>Methinks, its motion in this hush of nature </p>
+            <p>Gives it dim sympathies with me who live, </p>
+            <p>Making it a companionable form, </p>
+            <p>Whose puny flaps and freaks the idling Spirit </p>
+            <p>By its own moods interprets, every where </p>
+            <p>Echo or mirror seeking of itself, </p>
+            <p>And makes a toy of Thought.</p>
+            <p> (<hi rend="italic" xml:space="preserve">CW, Poetical Works I, </hi>ll. 1-23)</p>
+            <p>The poem’s very first lines signal an interest in the relation between eye and ear in
+                a visual rhyme, or ‘eye rhyme’ between “ministry” and “cry.” This silent eye rhyme
+                is part of the poem’s play with the way sound is codified or represented in visual
+                form, in the semiotics of sound in print. The sound of that “cry” is picked up later
+                in the half-rhyme with “side” and later “life.” Perhaps it’s too much of a stretch
+                to suggest that t the long <hi rend="italic">I</hi> sound, or “eye” rhyme, is
+                registered to the eye but not to the ear in “live.” Nonetheless, in these lines
+                Coleridge invites us, in different ways, to move in and out between eye and ear,
+                between rhyme seen and rhyme heard. Throughout the poem eye and ear work together
+                and askance in unexpected ways. </p>
+            <p>Another striking feature of these opening lines is the dramatic dynamic shift from
+                the “loud” cry of the owlet outdoors to the quiet of the indoor scene, a shift which
+                produces a sense of intimacy and interiority and the accompanying illusion of <hi
+                    rend="italic">diminuendo</hi>. That word “loud” primes our listening ears for a
+                certain pitch of sound—which emphasizes in contrast the subsequent lines’ account of
+                quiet. The poem’s shifts in dynamics depend on and produce shifts in intimacy as it
+                records a shift from outside to inside, from loud noise to quiet. The word “secret”
+                in the very first line suggests both quiet and intimacy, since “secret” carries the
+                suggestion, now obsolete, but current when Coleridge was writing, of reticence, or
+                quiet: “Of a person: †Reserved or reticent in conduct or conversation (obsolete);
+                not given to indiscreet talking or the revelation of secrets; silent as to any
+                matter, uncommunicative, close.” (<hi rend="italic">OED,</hi> 2 a). By giving the
+                frost a curious sense of human agency, it “performs a secret ministry,” Coleridge
+                draws out association of “secret” with <anchor type="commentRangeStart" n="40"
+                    /><anchor type="commentRangeStart" n="41"/>quiet and closeness<anchor
+                    type="commentRangeEnd" n="40"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="40"><date when="2021-05-12T14:32:00Z"/>Just
+                    fascinating!</note><anchor type="commentRangeEnd" n="41"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="41"><date when="2021-07-28T12:18:00Z"/>So glad you
+                    think so- thanks!</note>.</p>
+            <p>The poem creates this sense of closeness dramatically, too, so that the reader feels
+                as though we are standing with the poet, listening with him. That is expressed in
+                the shift from the past tense “came loud” to the present tense “hark again!,” from
+                the temporal distance of the past tense to the sense of immediacy suggested by HARK
+                which instructs the reader, <hi rend="italic">now</hi>, give ear, listen! The reader
+                imaginatively is listening but also aware of being a reader, something of which the
+                poem deliberately reminds us. </p>
+            <p> Since M.H. Abrams’s classic and influential account of the poem as one of the Great
+                Romantic Lyrics, it has been understood in terms of vocal utterance, a Conversation
+                poem (Abrams, 1965). Coleridge’s “Conversation Poems” play with the dynamics of
+                sound and its representation in curious ways. Much has been made of the vocal
+                quality of these poems<anchor type="commentRangeStart" n="42"/>; critics have
+                focussed on their various forms of address and the cadences of familiar
+                    conversation<anchor type="commentRangeEnd" n="42"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="42"><date when="2021-05-12T14:33:00Z"/>Can you
+                    include them in a footnote?</note><hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text"> See, for example, Fred Burwick, “Coleridge’s
+                            Conversation Poems: Thinking the Thinker”, <hi rend="italic"
+                                >Romanticism</hi>, 14.2 (2008), 168-182; Susan Eilenberg, <hi
+                                rend="italic">Strang Powers of Speech. Wordsworth, Coleridge and
+                                Literary Possession</hi> (Oxford, Oxford University Press, 1992),
+                            esp. pp. 22-23; Ann Matheson, “The Influence of Cowper’s <hi
+                                rend="italic">The Task</hi> on Coleridge’s Conversation Poems, in
+                                <hi rend="italic">New Approaches to Coleridge: Biographical and
+                                Critical Essays</hi> ed. Donald Sultana, London, Vision Press, 1981,
+                            137-50; Peter Larkin, “Coleridge Conversing: Between Soliloquy and
+                                Invocation<hi rend="italic">, The Wordsworth Circle</hi>, Summer,
+                            2007, vol. 38, 3, 2006 (Summer, 2007), 113-117; G.S. Morris, “Sound,
+                            Silence, and Voice in Meditation: Coleridge, Berkeley, and the
+                            Conversation Poems”, <hi rend="italic">Christianity and Literature</hi>,
+                            55.1, 2005, 51-57.</p></note></hi>. And yet the poem itself places much
+                emphasis on non-human sounds, sounds that are increasingly abstract and hard to
+                imagine. The owl, the crackling fire, the fluttering speck, the dream (inaudible to
+                another), the quiet shining of the quiet moon. Indeed, the model Coleridge chose to
+                describe the poem was musical rather than vocal or dramatic: he conceived of the
+                poem in musical terms, as a Rondo, a form which was extremely popular in the late
+                eighteenth century. In an earlier draft, the poem ended with six lines which
+                describe the baby’s response to the icicles. Explaining why he cut these lines,
+                Coleridge wrote: ‘The last six lines I omit because they destroy the rondo, and
+                return upon itself of the Poem. Poems of this kind &amp; length ought to lie coiled
+                with its ‘tail round its’ head.” (<hi rend="italic">CC</hi>, 16.1.1, p.456n.).
+                Coleridge had taken Charles Burney’s <hi rend="italic">General History of Mu</hi>sic
+                out of Bristol library a few months before he composed “Frost at Midnight” (in
+                November 1797), and may well have read the account of the rondo in its pages
+                (Burney: 1775, 155). His interest in Burney’s book around the time he wrote “Frost
+                at Midnight” suggests a rich and suggestive musical context for interpreting the
+                poem’s sounds and silences.</p>
+            <p> Understood as a musical form rather than overheard speech, the poem invites a
+                different kind of listening.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"> For a rich perspective on Romantic poetry and music
+                            see Adam Potkay’s essay on Wordsworth’s Poems on Music, <ref
+                                target="https://romantic-circles.org/praxis/soundings/potkay/potkay.html"
+                                >https://romantic-circles.org/praxis/soundings/potkay/potkay.html</ref>
+                            This essay is developed in Potkay’s 2012 JHUP book, <hi rend="italic"
+                                >Wordsworth’s Ethics</hi>, Chapter 6, “Captivation and Liberty in
+                            Poems on Music” (108-120); see also Chapter 5, “Music versus Conscience”
+                            (90-107).</p></note></hi> One which creates effects of volume and marks
+                its shifts between loud and soft in playful ways. New possibilities for
+                interpretation open up if we think of it not in terms of its orality, as a
+                Conversation poem, to use Abram’s term, but in <anchor type="commentRangeStart"
+                    n="63"/><anchor type="commentRangeStart" n="64"/>terms of aurality, as a
+                listening poem<anchor type="commentRangeEnd" n="63"/><note place="comment"
+                    resp="#Microsoft_Office_User" n="63"><date when="2021-05-12T14:35:00Z"
+                    />Wonderful.</note><anchor type="commentRangeEnd" n="64"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="64"><date when="2021-07-29T10:50:00Z"/>Thanks!</note>.
+                A poem which meditates on the experience of listening not just to the sound of a
+                voice, but to the sounds of the non-human, the owls, the fire, the quiet itself. And
+                it creates the effects of quiet through particular codes and patterns of sound and
+                meaning.</p>
+            <p>If we put pressure on the poem’s acoustic language, its imaginings and figurings of
+                sound, and think not only of the vocal cadences but also other forms and shapes of
+                sound, abstracted from a notion of voice, pattern takes on a new significance.
+                According to Marjorie Levinson, attending to visual pattern is a neglected key to
+                understanding the poem. In a recent study she “seeks to shift the sensory register
+                of criticism of the poem from its traditional emphasis on the acoustic to a new
+                appreciation of <anchor type="commentRangeStart" n="65"/><anchor
+                    type="commentRangeStart" n="66"/>the visible” (Levinson, 2018: Abstract,
+                “Parsing the Frost”, online version).<anchor type="commentRangeEnd" n="65"/><note
+                    place="comment" resp="#Microsoft_Office_User" n="65"><date
+                        when="2021-05-12T14:37:00Z"/>Convert to MLA in-text citation with page
+                    number and reserve full bibliographic reference for the Works Cited list.
+                    </note><anchor type="commentRangeEnd" n="66"/><note place="comment"
+                    resp="#Mina_Gorji_[2]" n="66"><date when="2021-07-28T12:19:00Z"/>It seems the
+                    phrase I quoted is only in the Abstract , which is only in the online version!
+                </note> She emphasizes the poems’ visuality, rather than the acoustic qualities and
+                expression. I would push this further and argue that Coleridge is deeply interested
+                in the <hi rend="italic">relation</hi> and the <hi rend="italic">dynamics</hi>
+                between the visual and the acoustic but also between the visual and the aural.
+                Patterns can be heard as well as seen. Throughout the poem, Coleridge plays with the
+                way visual and acoustic dimensions are intimately related. This is in part because
+                the poem is written with a sense of its own mode of reception in mind: that is to
+                say, Coleridge was keenly aware that it might be read in silence, and so was
+                especially thoughtful about how sound might be represented in print patterns, on the
+                page. </p>
+            <p>There is a curious play between eye and ear, for instance, in the poem’s concluding
+                lines:</p>
+            <p>[…] whether the eave-drops fall </p>
+            <p>Heard only in the trances of the blast, </p>
+            <p>Or if the secret ministry of frost </p>
+            <p>Shall hang them up in silent icicles, </p>
+            <p>Quietly shining to the quiet Moon. (ll. 70-74)</p>
+            <p>The beautiful and strange description of a moon shining quietly prompts a question,
+                an imagining, of what a loud shining might sound like. On the one hand, the idea of
+                a “quiet moon” is a folk idiom to describe a new moon, and indeed the poem was
+                written at the time of the new moon. And yet the image is so much more suggestive.
+                It is “quietly shining to the quiet moon”: that <hi rend="italic">quiet</hi>
+                repeated in <hi rend="italic">quietly</hi>, emphatically. An icicle can be silent by
+                imagined contrast: its silence remembers the sound of dripping water before it has
+                frozen into an icicle, or after it thaws. </p>
+            <p>Another example of Coleridge’s interests in the play between eye and ear is the
+                visual analogy to musical form described by Levinson: the fluttering soot on the
+                grate, she argues, and suggests visually (in her <hi rend="italic">fig</hi>. 7,
+                reproduced below), can be read as a visual representation of a stave with a musical
+                note. And to take this further, it is the semiotics of music, the semiotics of
+                sound, that interest Coleridge here. </p>
+            <figure>
+                <graphic n="1003" width="13.39616111111111cm" height="15.546730555555555cm"
+                    url="media/image3.jpg" rend="inline">
+                    <desc>Text Description automatically generated</desc>
+                </graphic>
+            </figure>
+            <p><hi rend="italic bold"
+                    >Fig</hi><hi rend="bold" xml:space="preserve">. 3, 18th-c fire grate, journal page, musical staff, window frost, Aeolian Harp. </hi><hi
+                    rend="italic bold">fig.
+                7</hi><hi rend="bold" xml:space="preserve"> in Levinson, 2018.</hi></p>
+            <p>vii. “the embryo science of acoustics”.</p>
+            <p>“Frost at Midnight” is a poem which explores the edges of silence. Coleridge has, as
+                Susan Wolfson notes, an “ear for such limits, of sound suspended” (Wolfson, 2008:
+                para. 3). There is an intriguing richness and, at times, an opacity to the poem’s
+                acoustic language which rewards attention, and which, in turn, invites new readings
+                and imaginings of the poem itself, and new possibilities for thinking about the
+                quietudes of Romantic Lyric<hi rend="italic">.</hi> The poem generates thinking
+                about what it might it mean to shine “quietly”. And about how we might listen to the
+                moon. And about the audibility and inaudibility of dreams. Setting the poem’s sonic
+                and aural language in the context of Coleridge’s wider thinking about sound dynamics
+                and acoustics and its imaginative possibilities, gives us some hints. </p>
+            <p>In 1827, Coleridge read Sir Charles Wheatstone’s “Experiments on Audition” and was
+                struck by his account of the microphone, an instrument which, he explained,
+                “rendered audible the weakest sounds” (Wheatstone, 1827: 70). Coleridge describes,
+                in <hi rend="italic">Marginalia</hi>, how it sparked a recognition of a “fond and
+                earnest dream project of mine own …with sundry other imaginations in what might be
+                effected in the only embryo Science of Acoustics” (Coleridge, 2003: 197). The
+                science of Acoustics, that “branch of physics concerned with the properties and
+                phenomena of sound, sometimes esp. in relation to hearing or speech.” (<hi
+                    rend="italic">OED</hi>,1), was just over 100 years old when Coleridge scribbled
+                these words. As his marginal gloss suggests, <hi rend="italic">Coleridge’s</hi>
+                fascination with acoustics was apparent years before he read of Wheatstone’s
+                invention: we find an interest in the properties and phenomena of sound registered
+                in numerous notebook entries and poems.</p>
+            <p>We know, for instance, that he was fascinated by the sound experiments of the
+                musician and scientist Ernst Chladni (who was to publish the first textbook on
+                acoustics in 1802), which seemed to show sound itself making shapes in iron
+                    filings.<hi rend="endnote_reference"><note place="end"><p> On Chladni’s
+                            contribution to acoustics see Viktoria Tkaczyk, “The Making of Acoustics
+                            around 1800, or How to Do Science with Words”, in <hi rend="italic"
+                                >Performing Knowledge, 1750-1850</hi> (2015) <ref
+                                target="https://doi.org/10.1515/9783110421064-003"
+                                >https://doi.org/10.1515/9783110421064-003</ref></p></note></hi>
+                Chladni drew a bow across the edge of a metal plate covered in sand before
+                exclaiming, as legend has it: ‘The sound is painting!’ (quoted in Cox, 2002, p. 14).
+                The significance of this experiment cannot be overstated: not only did it seem to
+                reveal the material form of sound, but doing so Chladni proved that sound could
+                travel through solid substances and could no longer “be subsumed under the ‘the
+                science of air’ and could be considered a branch of physics in its own right”
+                (Viktoria Tkaczyk, 2015: 27-56, 27). Chladni first published his acoustical figures
+                in German in 1787, and gave a copy to the Royal Society in November of the same
+                year. Coleridge may have read about the experiment in the
+                <hi rend="italic" xml:space="preserve">Philosophical Magazine </hi>(3, May 1799,
+                389-96) in which a translation of the Jena physics professor Johann Heinrich Voigt’s
+                1796 account of it (“Beytrag in den Versuchen über die Klangfiguren schwingender
+                Flächen”, <hi rend="italic">Neues Journal der Physik</hi> vol. 3, part 4 (1796),
+                391-399) was published as “Observations and experiments in regard to the figures
+                formed by sand &amp;c on vibrating surfaces” (<hi rend="italic">Philosophical
+                    Magazine</hi>, 3 (May 1799), 389-96, with illustrations). He may also have read
+                of the experiment in <hi rend="italic">The Analytic Review</hi>, volume 1 (July
+                1788, 371-2). Chladni toured Europe conducting performances of the experiment to
+                enraptured audiences (including Napoleon, in the Tuilerries Palace); Coleridge may
+                also have learned of the sound painting during his visit to Gottingen<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"> Kathleen
+                            Koburn, note in <hi rend="italic" xml:space="preserve">CW, </hi>14,
+                            2019, pp. 284-5.</p></note></hi>, where he studied in 1799, a few years
+                after Chladni had demonstrated the experiment (he had visited Gottingen between
+                December 1792 and early 1793, https://monoskop.org/Ernst Chladni ). The experiment
+                was to be popularised in London in 1800 when Thomas Young repeated the demonstration
+                to an enthralled audience at The Royal Society. The Chladni figures were part of a
+                wider culture of acoustic spectacle in the early nineteenth century. Edward Gillen
+                explains that in “London’s fashionable West End … sonorous displays, especially
+                those of a musical nature, combined with philosophical inquiry, provided mystifying
+                and wondrous entertainment” (Gillen: 2021, chapter 1, p. 1, forthcoming). He argues
+                that “Chladni’s acoustic plates provided a rich example of how specialist and
+                non-specialist audiences alike could engage with new scientific ideas from the
+                Continent” (ibid.). While I am not suggesting that Coleridge’s poems of the 1790s
+                were influenced directly by Chladni’s experiments, I want to propose that they too
+                register a curiosity about what he was to describe as “the Embryo science of
+                acoustics”, which was itself part of a culture of curiosity about sound in the
+                Romantic period.<hi rend="endnote_reference"><note place="end"><p> For discussions
+                            of the culture of scientific spectacle see, for instance, Melissa
+                            Dickson, “Charles Wheatstone’s Enchanted Lyre and the spectacle of
+                            sound”, in James Q. Davies and Ellen Lockhart (eds.), <hi rend="italic"
+                                >Sound Knowledge: music and science in London, 1789-1851</hi>,
+                            (University of Chicago Press: Chicago, 2016), pp. 125-44 and Edward J.
+                            Gillin (forthcoming), “<hi rend="Emphasis">Sound Authorities: Scientific
+                                and Musical Knowledge in Nineteenth-Century Britain,</hi><hi
+                                rend="italic"> </hi>(Chicago: Chicago University Press,
+                        2021).</p></note></hi></p>
+            <figure>
+                <graphic n="1004" width="15.920861111111112cm" height="10.31875cm"
+                    url="media/image4.jpeg" rend="inline">
+                    <desc>How to sculpt sound into Chladni figures : Makery</desc>
+                </graphic>
+            </figure>
+            <p><hi rend="italic bold"
+                    >Fig</hi><hi rend="bold" xml:space="preserve">. 4, Illustration of Chladni patterns in Ernst Chladni, </hi><hi
+                    rend="italic bold">Die
+                Akustik</hi><hi rend="bold" xml:space="preserve"> (1802)</hi></p>
+            <p> Coleridge’s own interest in the semiotics of sound and its representation is figured
+                in the Conversation poems and based on his wider interest in science during his stay
+                in Somerset the 1790s. As Tim Fulford has explained, the Conversation poems were
+                influenced by and part of a wider culture of scientific enquiry (Fulford, 2018).
+                Pushing Fulford’s argument yet further, we might understand Coleridge’s Conversation
+                poems as articulations of a growing interest in and curiosity not only about the
+                nature of air, but also about a relate field of enquiry, the science of acoustics,
+                and in particular, the movement and materiality of sound. In “Frost at Midnight”
+                this interest was perhaps modulated by his sense of the poems’ expected mode of
+                reception: he knew that it was likely to be read in silence, heard only in the
+                mind’s ear. But it is also framed by its occasion, spoken to a sleeping baby who
+                cannot hear him, at least not consciously. </p>
+            <p> The poem’s concluding lines meditate on the sounds and silences of water drops and
+                icicles in a way that puts pressure on the language of listening:</p>
+            <p>[…] whether the eve-drops fall </p>
+            <p>Heard only in the trances of the blast, </p>
+            <p>Or if the secret ministry of frost </p>
+            <p>Shall hang them up in silent icicles, </p>
+            <p>Quietly shining to the quiet Moon. (ll.70-74)</p>
+            <p>The word “silent” invites our listening. Here, in these lines, or perhaps I should
+                say through these lines, our ears become subtly tuned to the sounds of <hi
+                    rend="italic">silence</hi> which shifts gently into <hi rend="italic"
+                >quiet</hi>. The line “<hi rend="italic">quietly shining to the quiet moon,</hi>”
+                picks up and resounds the <hi rend="italic">i</hi> of
+                <hi rend="italic" xml:space="preserve">silent icicles, </hi>recalling the sound of
+                that <hi rend="italic">silence</hi> even as it suggests a different sound. It’s
+                worth noting here that the phrase is not, as it might have been,
+                <hi rend="italic" xml:space="preserve">silently </hi>shining to
+                the<hi rend="italic" xml:space="preserve"> silent </hi>moon – but <hi rend="italic"
+                    >quietly</hi> shining to the <hi rend="italic">quiet</hi> moon<hi rend="italic"
+                    >,</hi> and this difference suggests a thawing of <hi rend="italic"
+                    >silence,</hi> since <hi rend="italic">quiet</hi> can, but does not always or
+                only, mean silent. Quiet can suggest a low or subdued sound (<hi rend="italic"
+                    >OED</hi> 1A, a, <hi rend="italic">adj</hi>, “making little sound”; 2a, “making
+                little or no noise”). That repeated word <hi rend="italic">quietly</hi> dims into a
+                shorter <hi rend="italic">quiet</hi>, drawing the ear to listen in, to the
+                possibility of the moon’s quiet sound<hi rend="italic">.</hi> And the line has only
+                4 stresses instead of the 5 stress iambic baseline of the poem, so we are left both
+                with a sense of lack- and anticipation - listening out for the last stress. </p>
+            <p>There’s a sense of diminishing and <hi rend="italic">diminuendo</hi>, but also a
+                feeling of completion as “quietly” turns to “quiet,” and as we move from “icicles”
+                to the monosyllabic “moon”. This drawing in suggests both sonic diminuendo and
+                intimacy, despite the great distance of the moon. The icicles are quiet because,
+                unlike the water dropping from the eaves, they no longer splash and make a sound.
+                There is a strange shift of scale and of distance here – one which prompts us to
+                question how a moon might be quiet. That repeated word “quiet” suggests a kind of
+                proximity —even, that it might be possible to hear the moon, that its sound might be
+                quiet, even as are the nearby icicles. The quiet shining of the icicles <hi
+                    rend="italic">to</hi> the moon is imagined as a form of address, to the
+                listening moon. These icicles are silent but eloquent: and yet their silence is not
+                eloquent of the self in the way Salome Voegelin proposes. (Voegelin, 2010: 83).
+                Rather, it speaks of the presence of something greater. As Paul Magnuson puts it,
+                “at the quietest moments of the year when the icicles are frozen in silence, there
+                is a force in the world shining through the icicles.” <hi rend="endnote_reference"
+                        ><note place="end"><p> Coleridge may well have known that Robert Burns uses
+                            the term “silent moon” (“While the silent moon shine clearly”) in the
+                            last wooing and intimate verse of his Song <hi rend="italic">Westlin
+                                Winds.</hi>
+                        </p></note></hi> These silences speak of intimacy and also of something far
+                more greatly interfused- a force in the world.</p>
+            <p>viii. Conclusion</p>
+            <p>For Coleridge, the ability to listen was fundamental to being a poet. A great poet,
+                he suggests, writing in July 1802 to his friend William Sotheby, should be able to
+                listen with “the ear of a wild Arab list’ning in the silent Desart” (Coleridge, <hi
+                    rend="italic">Letters</hi>: ii, 810). We know that the Arab is listening, in
+                silence – but we do not know what it is he listens to or for. The state of
+                listening, hearkening, for something is the poetic state. But silence also seems
+                important: Coleridge’s test for the poet combines forms of privation – that
+                emptiness, which shares the root ‘desert’: the dryness of deserts, the solitude of
+                the deserted, and the soundlessness of silence. The wild Arab is alert for the
+                slightest sound- listening FOR sound in silence. Coleridge’s words invite the reader
+                too to listen - that word “listening” alerts us to the sound patterns instinct in
+                the lines that follow. The poet, Coleridge goes on, should also be possessed of “the
+                eye of a North American Indian tracing the footsteps of an Enemy upon the leaves
+                that strew the forest, the <hi rend="italic">Touch</hi> of a blind man feeling the
+                face of a darling Child” (ibid., 810) Primed to listen, the reader might pick up a
+                suggestion of sound in the word <hi rend="italic">footsteps</hi> (they are footsteps
+                he is tracing, rather than the <hi rend="italic">footprints</hi> we might have
+                expected) and the sound of these footsteps resounds in the <hi rend="italic">st</hi>
+                sounds of <hi rend="italic">strew</hi> and <hi rend="italic">forest</hi>. It alerts
+                us to the gentle pathos of that word
+                <hi rend="italic" xml:space="preserve">touch </hi>touching in <hi rend="italic"
+                    >sound</hi> the <hi rend="italic">child</hi> as the blind man touches its face. </p>
+            <p> Thinking about different kinds of listening in a notebook entry a few months later,
+                in September 1802, Coleridge returns to the blind man and the wild Arab as figures
+                for sensory acuity. His choice of an Arab and a North American Indian as examples
+                are striking and suggest, perhaps, a primitivist notion that such peoples had more
+                acute senses than Europeans. Choosing these geographically remote listeners
+                introduces a poignant distance between himself and the figure of the ideal listener,
+                which in turn intensifies the dynamics of listening described. Here, the blind man
+                and the Arab come together in the figure of “a <hi rend="italic">blind Arab</hi>
+                list’ning in the wilderness” (Coleridge, <hi rend="italic">Notebooks</hi>, i. 1244):
+                now the blindness of the listener intensifies his listening once again. And instead
+                of the blind man feeling the face of the darling child we have, more painful, a
+                different kind of listening, a listening which can never be satisfied, a “Mother
+                listening for the <hi rend="italic">sound</hi> of a still-born child” (ibid.)
+                Silence here comes to represent an extreme form of loss and absence – Coleridge’s
+                examples move through degrees of privation- from the blind Arab in the desart to the
+                poignant expectancy of the mother listening for a sound that she will never hear.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"><hi
+                                rend="endnote_reference">21</hi>
+                            <hi rend="italic">‘</hi>To William Sotheby’, July 13, 1802, in L. Griggs
+                            (ed.), <hi rend="italic">Collected Letters of Samuel Taylor
+                                Coleridge</hi>, vol ii, ed. Earl Leslie Griggs (Oxford, 1956),
+                            808-813, 810.</p></note></hi>
+            </p>
+            <p>To think about the representation and account of sound in these poems in relation to
+                contemporary scientific instruments and innovations in acoustics, and also, as I
+                have indicated, to a wider culture of curiosity about how sound could be represented
+                and embodied on the page in music and in print opens up fresh thinking about the
+                significance of silence and quiet in Coleridge’s poems, and in Romantic lyric more
+                widely. What is needed is a new kind of listening, which includes attention to the
+                dynamics of apostrophe, the cryptographic reading described by John Shoptaw, that,
+                “listening for what familiar words and phrases the line echoes or calls to mind,” as
+                well as the phonemic analysis described by James Lynch,<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"> John Shoptaw, “Lyric
+                            Cryptography,” <hi rend="italic">Poetics Today,</hi>
+                            &lt;https://muse.jhu.edu/article/27810/pdf&gt; Volume 21, Number 1,
+                            Spring 2000, pp. 221-262) ; James Lynch, “The Tonality of Lyric Poetry:
+                            An Experiment in Method,” 1953,
+                            &lt;https://www.tandfonline.com/doi/pdf/10.1080/00437956.1953.11659470&gt;WORD,
+                            9:3, 211-224, DOI: 10.1080/00437956.1953.11659470)</p></note></hi> a
+                composite kind of imaginative auditory attention, one which is attuned not only to
+                the ghosts and echoes of words, and their phonetic clustering, but also to the
+                shifting patterns and dynamics in and of sound, to the way a poem creates effects of
+                volume. It is time that Lyric Studies expanded the range and frequencies of its
+                listening.</p>
+            <p><hi rend="bold">Bibliography</hi></p>
+            <p>Abrams, M.H., “Studies and Style in the Greater Romantic Lyric”, <hi rend="italic"
+                    >From Sensibility to Romanticism: Essays Presented to Frederick A. Pottle</hi>.
+                Oxford and New York: Oxford University Press, 1965, 527-560.</p>
+            <p><hi rend="italic">The Analytic Review</hi>, volume 1, July 1788.</p>
+            <p rend="endnote text">Antrobus, Raymond, <hi rend="italic">The Perseverance</hi>.
+                London: Penned in the Margins, 2018.</p>
+            <p>Austin, Gilbert, <hi rend="italic">Chiromania, or a Treatise on Rhetorical
+                    Delivery</hi>. London, 1806.</p>
+            <p rend="endnote text">Barry, Kevin, <hi rend="italic">Language, Music, and the Sign: A
+                    Study in Aesthetics, Poetics and Poetic Practice.</hi> Cambridge: Cambridge
+                University Press, 1987. </p>
+            <p rend="endnote text">Beattie, James, <hi rend="italic">Dissertations Moral and
+                    Critical</hi>. London and Edinburgh, 1783.</p>
+            <p>Brown<hi rend="italic" xml:space="preserve">, </hi>Clive, <hi rend="italic">Classical
+                    and Romantic Performing Practice, 1750-1900</hi>. Oxford: Oxford University
+                Press, 1999. </p>
+            <p rend="endnote text">Brown, Marshall, “Unheard Melodies: The Force of Form”. <hi
+                    rend="italic">PMLA. Publications of the Modern Language Association of
+                    America,</hi> May 1992, 465-481.</p>
+            <p>Burgh, James,
+                <hi rend="italic" xml:space="preserve">The Art of Speaking. </hi>London, 1762.</p>
+            <p>Burney, Charles, <hi rend="italic">General History of Music,</hi> II. London,
+                1775.</p>
+            <p>Burwick, Fred, “Coleridge’s Conversation Poems: Thinking the Thinker”. <hi
+                    rend="italic">Romanticism</hi>, 14.2 (2008), 168-182.</p>
+            <p>Coleridge, Samuel Taylor, <hi rend="italic">Collected Letters of Samuel Taylor
+                    Coleridge,</hi> ed. Earl Leslie Griggs (6 vols). Oxford: Oxford University
+                Press, 1956-</p>
+            <p>Coleridge, Samuel Taylor,
+                <hi rend="italic" xml:space="preserve">The Notebooks of Samuel Taylor Coleridge, </hi>ed.
+                Kathleen Coburn. Princeton: Princeton University Press, 1957-</p>
+            <p>Coleridge, Samuel Taylor,
+                <hi rend="italic" xml:space="preserve">Poetical Works I, </hi>ed. J. C.C. Mays.
+                Princeton: Princeton University Press, 2002.</p>
+            <p>Coleridge, Samuel Taylor,
+                <hi rend="italic" xml:space="preserve">A Book I Value.  Selected </hi>Marginalia,
+                ed. H.J. Jackson. Princeton University Press: Princeton and Oxford, 2003.</p>
+            <p>Connor, Steven, “<hi rend="italic">Scilicet</hi>: Kittler, Media and Madness”, <hi
+                    rend="italic">Kittler Now. Current Perspectives in Kittler Studies</hi>, ed.
+                Stephen Sale and Laura Salisbury. Polity Press: Cambridge, 2015, 115-131. </p>
+            <p>Connor, Steven, <hi rend="italic">Beckett, Modernism and the Material
+                    Imagination</hi>. Cambridge: Cambridge University Press, 2014.</p>
+            <p rend="endnote text">Cooper, Anthony Ashley, Lord Shaftesbery,
+                <hi rend="italic" xml:space="preserve">Characteristics. Of Men, Manners, Opinions, Times.  </hi>London,
+                1711.</p>
+            <p>Cox, C., “From synapse to signal: Carsten Nicolai’s ‘Telefunken’”, <hi rend="italic"
+                    >Autopilot</hi>, ed. C Nicolai, Berlin: Die Gestalten Verlag (J. Gaines,
+                Transl.), 2002.</p>
+            <p>Culler, Jonathan, <hi rend="italic">Theory of the Lyric</hi>. Harvard: Harvard
+                University Press, 2015.</p>
+            <p>Davies, James Q. and Lockhart, Ellen (eds.), <hi rend="italic">Sound Knowledge: Music
+                    and Science in London, 1789-1851.</hi> Chicago: University of Chicago Press,
+                2016.</p>
+            <p>Dickson, Melissa, “Charles Wheatstone’s Enchanted Lyre and the spectacle of sound”,
+                in James Q. Davies and Ellen Lockhart (eds.), <hi rend="italic">Sound Knowledge:
+                    Music and Science in London, 1789-1851</hi>. University of Chicago Press:
+                Chicago, 2016, pp. 125-44. </p>
+            <p>Drucker, Johanna, “Not Sound”, in Perloff, Marjorie and Dworkin, Craig, eds.
+                <hi rend="italic" xml:space="preserve">The Sound of Poetry/The Poetry of Sound. </hi>Chicago:
+                University of Chicago Press, 2009, 237-48. </p>
+            <p>Eilenberg, Susan, <hi rend="italic">Strange Powers of Speech. Wordsworth, Coleridge
+                    and Literary Possession</hi>. Oxford: Oxford University Press, 1992.</p>
+            <p>Fulford, Tim, “Science and Poetry in 1790s Somerset: the Self-Experiment Narrative,
+                the Aeriform Effusion and the Greater Romantic Lyric”. <hi rend="italic">ELH</hi>,
+                Johns Hopkins University Press, Volume 85, Number 1, Spring 2018, pp. 85-117,
+                10.1353/elh.2018.0003</p>
+            <p>Gillin, Edward J. (forthcoming),
+                “<hi rend="Emphasis" xml:space="preserve">Sound Authorities: Scientific and Musical Knowledge in Nineteenth-Century Britain. </hi>Chicago:
+                Chicago University Press, 2021.</p>
+            <p rend="endnote text">Hankins, Thomas &amp; Silverman, Robert,
+                <hi rend="italic" xml:space="preserve">Instruments and the Imagination. Princeton: Princeton University Press, </hi>1995.</p>
+            <p><hi rend="bold" xml:space="preserve">Jacobus, Mary, </hi><hi rend="italic bold"
+                    >Romantic Things. A Tree, a Rock, a Cloud</hi><hi rend="bold">. University of
+                    Chicago Press: Chicago, 2012.</hi></p>
+            <p rend="endnote text">Kaminsky, Ilya, <hi rend="italic">Deaf Republic</hi>. London:
+                Faber and Faber, 2019.</p>
+            <p>Kittler, Friedrich, <hi rend="italic">Discourse Networks 1800/</hi>1900 (trans.
+                Michael Metteer and Chris Cullens). Stanford: Stanford University Press, 1990.</p>
+            <p rend="endnote text">Langan, Celeste and McClane, Maureen N., “The medium of Romantic
+                poetry”, in Chandler, James and McClane, Maureen N.
+                <hi rend="italic" xml:space="preserve">The Cambridge Companion to Romantic Poetry. </hi>
+                Cambridge: Cambridge University Press, 2008, 239-262.</p>
+            <p>Larkin, Peter, “Coleridge Conversing: Between Soliloquy and Invocation<hi
+                    rend="italic">, The Wordsworth Circle</hi>, Summer, 2007, vol. 38, 3, 2006
+                (Summer, 2007), 113-117.</p>
+            <p rend="endnote text">Leighton, Angela, <hi rend="italic">Hearing Things. The Work of
+                    Sound in Literature</hi>. Harvard: Harvard University Press, 2018.</p>
+            <p>Levinson, Marjorie, <hi rend="italic">Thinking Through Poetry: Field Reports on
+                    Romantic Lyric</hi>. Oxford: Oxford University Press, 2018.</p>
+            <p rend="endnote text"> Lynch, James, “The Tonality of Lyric Poetry: An Experiment in
+                Method,” 1953,
+                &lt;https://www.tandfonline.com/doi/pdf/10.1080/00437956.1953.11659470&gt;WORD, 9:3,
+                211-224, DOI: 10.1080/00437956.1953.11659470)</p>
+            <p>Macfarland, Thomas, <hi rend="italic">Romanticism and the Forms of Ruin: Wordsworth,
+                    Coleridge and the Modalities of Fragmentation</hi>. Princeton: Princeton
+                University Press, 1981.</p>
+            <p>Mandell, Laura, “Imaging Interiority: Photography, Psychology, and Lyric Poetry”. <hi
+                    rend="italic">Victorian Studies,</hi> Indiana University Press, Volume 49, no.
+                2, winter 2007, 218-227. . </p>
+            <p rend="endnote text">Mandell, Laura, “What Is the Matter? Or, What Literary Theory
+                Neither Hears nor Sees”, </p>
+            <p><hi rend="italic">New Literary History</hi>, Vol. 38, No. 4, Autumn, 2007, pp.
+                755-776.</p>
+            <p>Matheson, Ann, “The Influence of Cowper’s <hi rend="italic">The Task</hi> on
+                Coleridge’s Conversation Poems. <hi rend="italic">New Approaches to Coleridge:
+                    Biographical and Critical Essays,</hi> ed. Donald Sultana. London: Vision Press,
+                1981, 137-50.</p>
+            <p rend="endnote text">Menke, Richard,
+                <hi rend="italic" xml:space="preserve">Literature, Print Culture, and Media Technologies, 1880–1900: Many Inventions. </hi>Cambridge:
+                Cambridge University Press, 2019.</p>
+            <p>Morris, G.S., “Sound, Silence, and Voice in Meditation: Coleridge, Berkeley, and the
+                Conversation Poems”, <hi rend="italic">Christianity and Literature</hi>, 55.1, 2005,
+                51-57.</p>
+            <p rend="endnote text">Ong, Walter, <hi rend="italic">Orality and Literacy: The
+                    Technologizing of the Word</hi>. London: Methuen, 1982.</p>
+            <p>Oswald, Alice <hi rend="italic"
+                >Falling</hi>,<hi rend="italic" xml:space="preserve"> Awake</hi>. Jonathan Cape:
+                London, 2016.</p>
+            <p rend="endnote text">Potkay, Adam, “Captivation and Liberty in Wordsworth's Poems on
+                Music”, “‘Soundings of Things Done’: The Poetry and Poetics of Sound in the Romantic
+                Ear and Era”, A Romantic Circles Electronic Edition, ed. Wolfson, Susan. 2008, <ref
+                    target="https://romantic-circles.org/praxis/soundings/potkay/potkay.html"
+                    >https://romantic-circles.org/praxis/soundings/potkay/potkay.html</ref> This
+                essay is developed in Potkay’s 2012 JHUP book, <hi rend="italic">Wordsworth’s
+                    Ethics</hi>, Chapter 6, “Captivation and Liberty in Poems on Music” (108-120);
+                see also Chapter 5, “Music versus Conscience” (90-107).</p>
+            <p rend="endnote text">Reilly, Olivia, ‘[A]nother and yet the same’: Rhyme’s Music in
+                    <hi rend="italic">Kubla Khan</hi>’,
+                <hi rend="italic" xml:space="preserve">Romanticism, </hi>23, 2, 2017, pp.
+                149-154.</p>
+            <p rend="endnote text">Shoptaw, John, “Lyric Cryptography” <hi rend="italic"
+                    >PoeticsToday,</hi>&lt;https://muse.jhu.edu/article/27810/pdf&gt;Volume 21,
+                Number 1, Spring 2000, pp. 221-262) </p>
+            <p>Sheridan, Thomas, <hi rend="italic">Lectures on Elocution</hi>. London, 1762.</p>
+            <p rend="designation">Speitz, Michele, ‘The Wordsworthian Acoustic Imagination, Sonic
+                Recursions, and ‘that dying murmur”<hi rend="italic">’, SEL,</hi>
+                1500-1900, 55(3):621-646.</p>
+            <p rend="endnote text">Steele, Joshua,
+                <hi rend="italic" xml:space="preserve">Prosodia rationalis: or, An essay towards establishing the melody and measure of speech, to be expressed and perpetuated by peculiar symbols. </hi>London,
+                1779.</p>
+            <p rend="endnote text">Stewart, Garrett, <hi rend="italic">Reading Voices: Literature
+                    and the Phonotext</hi>. Berkeley: University of California Press, 1996. </p>
+            <p>Susan Stewart,
+                <hi rend="italic" xml:space="preserve">Poetry and the Fate of the Senses. </hi>Chicago
+                and London: Chicago University Press, 2002.</p>
+            <p>Vallins, David, “Coleridge as Talker: Sage of Highgate, <hi rend="italic">Table
+                    Talk</hi>”,
+                <hi rend="italic" xml:space="preserve">The Oxford Handbook of Samuel Taylor Coleridge, </hi>ed.
+                Burwick, Frederick. Oxford: Oxford University Press, 2009, 308-322. </p>
+            <p>Tkaczyk, Viktoria, “The Making of Acoustics around 1800, or How to Do Science with
+                Words”, in <hi rend="italic">Performing Knowledge. 1750-1850</hi>. Berlin: De
+                Gruyter, 2015, 27-56, <ref target="https://doi.org/10.1515/9783110421064-003"
+                    >https://doi.org/10.1515/9783110421064-003</ref></p>
+            <p>Voigt, Johann Heinrich, “Observations and experiments in regard to the figures formed
+                by sand &amp;c on vibrating surfaces”. <hi rend="italic">Philosophical
+                Magazine</hi>, 3, May 1799, 389-96.</p>
+            <p>Voegelin, Salome, <hi rend="italic">Listening to Noise and Silence: Towards a
+                    Philosophy of Sound Art</hi>. London: Bloomsbury, 2010.</p>
+            <p rend="endnote text">Walton, Benjamin and Trippett, David, eds., <hi rend="italic"
+                    >Nineteenth-Century Opera and the Scientific Imagination</hi>. Cambridge,
+                Cambridge University Press, 2019.</p>
+            <p>Wheatstone, Charles, “Experiments on Audition”,
+                <hi rend="italic" xml:space="preserve">The Quarterly Journal of Science, Literature and Art, </hi>24
+                (July-December, 1827), 67-72.</p>
+            <p>Wolfson, Susan, “Sounding Romantic: The Sound of Sound”, “‘Soundings of Things Done’:
+                The Poetry and Poetics of Sound in the Romantic Ear and Era”, A Romantic Circles
+                Electronic Edition, ed. Wolfson, Susan, 2008, <ref target="https://romantic"
+                    >https://romantic</ref>
+                    circles.org/praxis/soundings/wolfson/wolfson.html).<anchor
+                    type="commentRangeStart" n="78"/><anchor type="commentRangeEnd" n="78"/><note
+                    place="comment" resp="#Microsoft_Office_User" n="78"><date
+                        when="2021-05-12T14:50:00Z"/>Add in-text citation by paragraph number and
+                    provide link in bibliography.</note></p>
+            <p rend="endnote text">Wolfson, Susan, Glossary,
+                <hi rend="italic" xml:space="preserve">Cambridge Companion to Keats. </hi>Cambridge:
+                Cambridge University Press, 2001.</p>
+            <p><pb/></p>
+        </body>
+    </text>
+</TEI>
