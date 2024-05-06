@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Mary Robinson’s <title level="m">Nobody</title> (1794)</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title> 
+            <!--  The reading texts should all be encoded as level="m"  -->
+            <title level="m">About this Edition</title>
+            
+            
+            <!-- DW will be the author for the "reading texts" because she is a historical figure, change role to "primary" -->
+            <author role="primary">
+               <name>Terry F. Robinson</name>
+            </author>
+            
+            <editor role="editor">Michelle Levy</editor> 
+            
+            
+            
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
+            </respStmt>            
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>Electronic Editions Editor</resp>
+               <name>Michelle Speitz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Associate Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <!-- TJ AND JESSICA CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition><date>YYYY-MM-DD</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, 
+               University of Colorado Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, 
+                  reproduced or disseminated in any manner without authorization unless 
+                  it is for purposes of criticism, comment, news reporting, teaching, 
+                  and/or classroom use as provided by the Copyright Act of 1976, as 
+                  amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                  Circles are copyrighted by the author/editor and may be shared only in 
+                  accordance with the Fair Use provisions of U.S. copyright law. Except 
+                  as expressly permitted by this statement, redistribution or republication 
+                  in any medium requires express prior written consent from the author(s)/
+                  editor(s) and advance notification of Romantic Circles. Any requests 
+                  for authorization should be forwarded to Romantic Circles:
+                  <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Paul Youngquist</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>paul.youngquist@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following 
+                  conditions: 
+                  <list>
+                     <item>These texts and images may not be used for any commercial 
+                        purpose without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any 
+                        forms other than their current ones.</item>
+                  </list></p>
+               <p>Users are not permitted to download these texts and images in order 
+                  to mount them on their own servers. It is not in our interest or that 
+                  of our users to have uncontrolled subsets of our holdings available 
+                  elsewhere on the Internet. We make corrections and additions to our 
+                  edited resources on a continual basis, and we want the most current text 
+                  to be the only one generally available to all Internet users. Institutions 
+                  can, of course, make a link to the copies at Romantic Circles, subject 
+                  to our conditions of use.</p>
+            </availability>
+            <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE PAUL'S NAMING CONVENTIONS IN THE "toc_file_names_for_links" DOC THAT IS LINKED TO THE SLACK CHANNEL-->
+            <idno type="edition">editions.2013.nobody.about</idno>
+            <idno type="resource">nobody</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">About this Edition</title>
+                  <!-- ONLY CHANGE THE FINAL PART OF THE <IDNO> TAG. REFERENCE THE NAMING DOC -->
+                  <ptr target="editions/nobody/editions.2013.nobody.about"/>
+               </analytic>
+               
+               <monogr>
+                  <title level="m">Mary Robinson's Nobody</title>
+                  <title level="s">Editions</title>
+                  <imprint>
+                     <publisher>Romantic Circles, https://romantic-circles.org, 
+                        University of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- JESS AND TJ CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: 
+                  " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed 
+                  except in the case of diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens 
+                  have been typed on the U.S. keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts 
+                  has been indicated as such, the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, 
+                  etc., have been encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+            <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+            <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+            <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+            <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+            <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+            <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+            <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+            <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+            <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+            <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+            <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+            <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+            <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+            <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+            <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; 
+               font-size: 12pt;</rendition>
+            <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+            <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"></term>
+               
+            </keywords>
+            
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <!--  PUT YOUR NAME HERE. AND ADD THE CODING DATE  -->
+            <name>Jessica Tebo</name>
+            <date>2024-05-06 </date>
+            <list>
+               <item>TEI encoding the text</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <!--END OF HEADER-->
+   
+   <text>
+      <body>
+         <div type="essay">
+            <div type="section">
+         <head>About this Edition</head>
+               <p>This electronic edition of Mary Robinson’s <title level="m">Nobody</title> (Drury Lane, 1794) is the first to present a widely available and searchable transcript of the play along with a comprehensive introduction, extensive notes by the editor, and contexts of the drama. The open-access format and the accompanying contextual materials make this edition ideal for teaching and research.</p>
+         <p>Based on the only surviving manuscript of the play (LA 1046) housed in the Larpent collection at the Henry E. Huntington Library in San Marino, CA, this edition reproduces the clean copy made by the theater and submitted to the Licensor of Plays. It is an edition that presents few difficulties for transcription. I have made only the following minor alterations:
+            <quote>
+         <list type="unordered">
+            <item>In the manuscript, the epilogue immediately follows the prologue. I have moved the epilogue to the end of the play in keeping with the order in which it would be performed.</item>
+            <item>I have not reproduced page numbers and have not maintained the line breaks as they appear in the manuscript. Accordingly, I have also removed hyphens when they appear in words across line breaks.</item>
+            <item>In the manuscript, end punctuation is sometimes omitted in sentences that conclude at the right margin of the page. I have inserted appropriate punctuation in brackets to mark these instances, but only when a sentence of this sort is followed by another complete sentence, spoken by the same character.</item>
+            <item>I have deleted repetitions of text when they provide no further information. For instance, in the manuscript, two subsequent pages indicate the beginning of “Act 2.” I have therefore omitted one of these instances.</item>
+            <item>In the manuscript, periods or colons appear at the end of characters’ names, though not always, and this punctuation is sometimes underlined. For consistency, I have inserted a period at the end of all character names but do not underline the period.</item>
+         </list></quote>
+I have otherwise maintained the characteristic features of the manuscript, including format, spelling, capitalization, punctuation, act and scene headings, and stage directions. My aim has been to present, as closely as possible, the state of the play in 1794, when it was submitted for production.</p>
+               <p>The contexts section of this edition—comprised of a collection of newspaper puffs and reviews, visual satire, and poetry and prose extracts—provides a snapshot of the build up and intense reaction to the staging of <title level="m">Nobody</title>.  Contemporary texts, images, and commentary uncover the historical and cultural framework within which Robinson produced her drama and, as such, offer insight into how <title level="m">Nobody</title> engages some of the most pressing socio-political issues of the day.
+               </p></div>
+            
+            <div type="section">
+               <head>About The Editor</head>
+               <p><hi>Terry F. Robinson</hi> is an Assistant Professor at the University of Toronto. Her current book project examines how eighteenth-century histrionic theory and practice influenced literary, artistic, and cultural innovation in the Romantic period. She is co-editor of the essay collection <title level="m">Transnational England: Home and Abroad, 1780-1860</title> (Cambridge Scholars, 2009), and her articles have appeared in <title level="j">Nineteenth-Century Literature</title>, the <title level="j">European Romantic Review</title>, and <title level="j">Studies in Romanticism</title>, among others.  In 2010, she was awarded the Nineteenth-Century Studies Association best essay prize for <title level="a">Mary Robinson and the Dramatic Art of the Comeback.</title></p></div>
+               <div type="section">
+                  <head>About The Design</head>
+                  <p>This edition was designed and TEI-encoded at the University of Maryland by Michael Quilligan, Site Manager at <title level="m">Romantic Circles</title>. Laura Mandell developed the modified versions of the transforms provided by the TEI that were used to convert the TEI files into HTML. TEI renders text archival quality for better preservation and future access. The image associated with this edition includes elements from Thomas Rowlandson's <title level="m">The Gaming Table at Devonshire House</title> (1791).</p></div>
+            <div type="section">
+               <head>Acknowledgments</head>
+         <p>
+            I would like to thank the Henry E. Huntington Library, namely Sue Hodson, for granting permission to reproduce <title level="m">Nobody</title> online and Meredith Berbée and Catherine Wehrey for their helpful assistance with the manuscript. I am also indebted to Jeffrey N. Cox, Taryn Hakala, Daniel Robinson, and Dana Van Kooy for reading various portions of this edition and for providing constructive and insightful feedback. Many thanks are due as well to <title level="m">Romantic Circles</title>, particularly to Tilar Mazzeo for her fast and friendly responses and to my blind reader for valuable recommendations concerning formatting and notations. This edition has also benefited from the publication of <title level="m">The Works of Mary Robinson</title> (London: Pickering &amp; Chatto, 2010), particularly with regard to William D. Brewer’s insights into Robinson’s drama.</p></div>
+         </div>
+      </body>
+   </text>
+</TEI>
