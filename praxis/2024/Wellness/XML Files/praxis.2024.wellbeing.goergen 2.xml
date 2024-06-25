@@ -1,0 +1,664 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Teaching Romanticism and Feminist Disability Studies with Dorothy Wordsworth</title>
+                
+                
+                <author role="primary">
+                    <name>Corey Goergen</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-04-17</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.wellbeing.goergen</idno> 
+                <idno type="resource">wellbeing</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Teaching Romanticism and Feminist Disability Studies with Dorothy Wordsworth
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Corey</forename>
+                                <surname>Goergen</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/wellbeing/praxis.2024.wellbeing.goergen"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism, Teaching, and Wellbeing</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-04-10">April 17, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>04.17.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    
+    <text>
+        <body>
+            <div type="essay">
+                <head>Teaching Romanticism and Feminist Disability Studies with Dorothy
+                    Wordsworth</head>
+                <byline>
+                    <docAuthor>Corey</docAuthor>
+                    <affiliation>Goergen</affiliation>
+                </byline>
+                
+            <p>A copy of a page from the journal Dorothy Wordsworth kept from February 12,
+                1831-September 7, 1833 serves as the frontispiece to Susan Levin’s 1987 book
+                   <hi rend="italic">Dorothy Wordsworth &amp;
+                    Romanticism</hi>. In the reproduction, Dorothy’s script is illegible, but the
+                page is an evocative aesthetic object: the text is cross-written, with a larger,
+                vertical script covering over the smaller text that runs from left to right. The
+                image implicitly demonstrates one of what Levin calls the “special problems for the
+                editor” posed by Wordsworth’s writing: her non-linear, recursive style (175). These
+                late journals resist the form of the printed book and the values that shape the
+                academy, both through their idiosyncratic structure and through their content.
+                Wordsworth during this period was experiencing a range of physical and cognitive
+                impairments, possibly deriving from complications from an inflamed gall bladder and
+                a progressive mental disability that some have likened to or identified as
+                Alzheimer’s or pre-senile dementia.<note place="foot" resp="author"> Medical
+                    doctor Iris Gibson wrote an appendix for Robert Gittings and Jo Manton’s
+                    biography (1985). He offers a retrospective diagnosis that identifies Dorothy’s
+                    mental illness as “pre-senile dementia” (282).</note> Levin connects
+                Wordsworth’s difficult manuscripts directly to her cognitive decline, noting that
+                her late journals and poetry “[provide] a fascinating record of her mind’s
+                wanderings/deterioration/development” (175). These unpublished journal entries
+                demonstrate that the state of Wordsworth’s mind and body—or, perhaps more precisely,
+                critics’ understanding of the state of her mind and body—shapes our understanding of her work. These interrelations
+                between Wordsworth’s body and corpus make these “special problems” for the editor
+                into unique opportunities for students in courses dedicated to studying disability
+                and Romanticism. </p>
+                
+            <p>In this essay I describe an extended unit and major assignment centered on Dorothy
+                Wordsworth’s published and unpublished journals in an upper-level English course I
+                have designed, titled “Romanticism and Feminist Disability Studies.” The course will
+                demonstrate, among other things, how disability studies-based interventions reveal
+                the ways in which notions of normal and able bodies shape not only our ideas about
+                health and wellness but also the Romantic canon and, in turn, how the traditional
+                Romantic canon contributes to normative ideas about health and wellness. In this, I
+                am influenced by Allison Kafer’s concept of the “curative imaginary” (27). Kafer
+                distinguishes the “curative imaginary,” as an idea, from medical cure as a practice
+                by highlighting the social forces that compel people with noncompliant bodies and
+                minds towards rehabilitation. The curative imaginary derives from “an understanding
+                of disability that not only expects and assumes intervention but also cannot imagine
+                or comprehend anything other than intervention” (27). “Romanticism and Feminist
+                Disability Studies” asks students to consider how these notions of health rooted in
+                normalcy have shaped and continue to shape both the literary canon and access to
+                that canon. Students will imagine Dorothy Wordsworth as part of a larger, more
+                disabled Romanticism and will develop strategies for making her work more accessible
+                to disabled readers and scholars today. In this way, “Romanticism and Feminist
+                Disability Studies” brings together two important strands of my teaching that are
+                both informed by disability studies. First, it asks students to consider how
+                thinking through disability changes our understanding of literature and the cultures
+                that read it; and second, it asks students to engage in rhetorical strategies to
+                make their work—in the classroom and in writing assignments—more accessible to an
+                audience that can include disabled people. </p>
+                
+            <p>“Romanticism and Feminist Disability Studies” is in many ways the product of several
+                years of teaching courses about disability, Romanticism, and their intersections at
+                Emory University and later at Spelman College and The Georgia Institute of
+                Technology, where I am currently a Brittain fellow and instructor in English. As a
+                graduate student at Emory, I taught composition and literature courses aimed at
+                attracting the school’s many undergraduates with plans to go on to medical school,
+                nursing, or public health. In those courses, I found that teaching disability
+                studies and Romanticism together proved valuable in a number of ways. The
+                theoretical approach allows students not typically interested in English literature
+                or close reading to find the stakes in the subject matter. My background in
+                disability studies always informs my teaching, and I find that bringing disability
+                into the conversation enhances it at all levels. My students at Emory who read
+                William Hay’s 1754 essay <hi rend="italic">Deformity: An Essay </hi>in part or in
+                whole used Hay’s insights to better make sense of more canonical readings from
+                Alexander Pope and Samuel Johnson. That same spirit informed our conversations about
+                the Wordsworths, Coleridge, and Mary Shelley. At the same time, I rarely teach
+                disability without Romanticism. My first-year writing course at Emory, “Disability and the Gothic,” used Mary Shelley’s
+                    <hi rend="italic">Frankenstein</hi> and some of its cinematic and digital
+                adaptations and intertexts to trace a shifting, complicated history of the
+                relationships between literary and medical notions of disability from the early
+                nineteenth century to today. Similarly, I taught a second-year English course at
+                Emory titled “Fictions of Addiction” that traced continuities and shifts in
+                attitudes about drug users from the eighteenth century to the present. Students
+                considered, among other things, how Lady Delacour, the dissipated opium-user whose
+                rehabilitation shapes much of the first two volumes of Maria Edgeworth’s <hi
+                    rend="italic">Belinda </hi>(1801), and Billie Holliday, who describes
+                discriminatory police practices that kept her from getting medical treatment for
+                addiction in her memoir <hi rend="italic">Lady Sings the Blues </hi>(1956), were
+                subjected to medical authority ultimately undergirded less by medical knowledge than
+                by gender and racial scripts. </p>
+                
+            <p> Another course that I taught at Emory, “Disability and the Gothic,” also highlighted
+                continuities between standard practices for successful writers—awareness of audience
+                or rhetorical situation, strategic use of multimodality—and strategies for making
+                communication accessible. I builton those experiences in an ENGL 1101 course I
+                developed and currently teach at Georgia Institute of Technology, “Composing
+                Access.” In that class, accessibility becomes both the subject and goal of the
+                student’s reading and writing. Students produce digital maps of barriers to access
+                on their campus, audio description guides to on-campus art instillations for blind
+                and low-vision users, and podcasts that assess the accessibility of educational
+                practices and research opportunities at the school. These writing assignments draw
+                explicitly and implicitly on Jay Dolmage’s call for principles of universal design
+                to reshape our pedagogy and Georgina Kleege and Scott Wallin’s claim that multimodal
+                accessibility documents like audio description can be used to produce interesting
+                and valuable writing assignments. At the same time, these assignments force students
+                to consider audience and the ways in which multimodal communication can either
+                create or address barriers to access, depending on how they are deployed. </p>
+                
+            <p>Drawing on those experiences has allowed me to envision a unit on Dorothy
+                Wordsworth’s <hi rend="italic">Grasmere Journals </hi>and her poetry. The journals
+                and poems are short enough that this project could be adapted with slight revisions
+                for a range of period courses, including a Romanticism survey, but I will be
+                describing here how it would operate in the upper-level English course I’ve named
+                “Romanticism and Feminist Disability Studies.” The course is framed by two key
+                critical insights: first, Anne Mellor’s observation that what Romantic scholars have
+                long termed “Romanticism” is, in fact, a “masculine Romanticism” that is shadowed by
+                an unrecognized “feminine Romanticism”; and second, Rosemarie Garland-Thomson’s call
+                to “transform” feminist theory by “integrating disability” (333). Students in this
+                course will use Romantic texts to test Garland-Thomson’s claim that “integrating
+                disability as a category of analysis and a system of representation deepens,
+                expands, and challenges feminist theory” (335). In addition to addressing these
+                important critical questions, approaching Romanticism from the intersection of
+                gender and ability also addresses two key concerns raised by David Higgins and
+                Sharon Ruston’s recent volume, <hi rend="italic">Teaching Romanticism</hi>:
+                Romanticism’s increasingly marginal position in the academy and the difficulty of
+                bringing new works and authors recovered by Romantic scholars into the classroom.
+                Each unit in “Romanticism and Feminist Disability Studies” pairs Romantic women
+                authors with both contextual readings from their contemporaries and twentieth- and
+                twenty-first century texts on related issues. Reading Mary Wollstonecraft alongside
+                Carole Pateman’s work on what she calls “Wollstonecraft’s dilemma” in the modern
+                social safety net, or the cancer plot in Edgeworth’s <hi rend="italic">Belinda
+                </hi>alongside Susan Sontag’s <hi rend="italic">Illness as Metaphor</hi>,<hi
+                    rend="italic"> </hi>encourages a fuller understanding of both historical
+                moments. In so doing, it reveals the value of the study of Romanticism for students
+                with a range of academic and professional goals and interests.</p>
+                
+            <p>Bringing disability studies into the Romanticism classroom also helps to close what
+                Higgins and Ruston call the “gap between teaching and research” in the field (2).
+                Disability studies has only recently begun to make its mark on the period, with
+                first book-length project on Romanticism and disability, Michael Bradshaw’s <hi
+                    rend="italic">Disabling Romanticism</hi>, appearing in 2016. Taking up these
+                authors in both their own and our historical moments allows “Romanticism and
+                Feminist Disability Studies” to engage in practices that Bradshaw and Essaka Joshua
+                call for in their volume. Reading Romantic authors as part of a canon of disability
+                literature works to disable Romantic texts, which Joshua and Bradshaw describe as,
+                in part, an effort to both produce “new reading[s]” of texts and “un-reading[s]” of
+                traditional accounts of the canon (1-2). By tracing the echoes and anticipations of
+                contemporary conversations about health and disability in Romantic-era texts,
+                “Romanticism and Feminist Disability Studies” also counters the critical tendency
+                towards “symbolic appropriation,” that is, the tendency of critics to read
+                representations of disability as symbols meant to describe other, supposedly more
+                foundational or elemental experiences. </p>
+                
+            <p>The course will come to Dorothy Wordsworth after units on Wollstonecraft, Edgeworth,
+                and Romantic and twentieth-century notions of independence and health. Students will
+                read Wordsworth’s <hi rend="italic">Grasmere Journals </hi>alongside relevant poems
+                by William Wordsworth and Samuel Taylor Coleridge. For example, students of course
+                will read William’s “Resolution and Independence” alongside Wordsworth’s journal
+                entry on the leech gatherer. But in an in-class exercise I have used in the past, I
+                will break students into small groups to discuss the poem in the context of
+                different entries from the journal. Some will examine her account of the encounter
+                with the leech gatherer. Other groups will look at later diary entries that account
+                for the composition of the poem. On May 4, 1802, Wordsworth tucks an account of
+                transcribing part of the poem into a longer description of William’s physical and
+                mental dis-ease: "William had slept pretty well &amp; though he went to bed nervous &amp; jaded in the
+                extreme he rose refreshed. I wrote the Leech Gatherer for him which he had begun the
+                night before &amp; of which he wrote several stanzas in bed this Monday morning"
+                (94). At the end of the entry, Wordsworth describes herself “repeat[ing] verses to William
+                while he was in bed” until “he was soothed &amp; I left him” (96). A third group
+                will take up an entry from three days later, wherein Wordsworth notes that William
+                takes advantage of his improved state to finish the poem: "William had slept uncommonly well so, feeling himself strong, he fell to work at the
+                Leech gatherer—he wrote hard at it till dinner time, then he gave over tired to
+                death—he had finished the poem. I was making Derwents frocks" (97). In the past, students who have read the more well-known entry have discussed
+                Wordsworth’s role in cataloging their walks and raised the question of the value of
+                that work to William’s poetry. Groups reading the other entries considered a broader
+                conception of Romantic collaboration that accounted for not only labor of composing
+                and recording but also how that labor is at times complicated by and at others
+                enabled by the day-to-day encroachment of bodily needs, illness, and mental
+                distress. After I brought the class back together to share their journal entries and
+                their insights, I asked them to speculate about which journal entry is most often
+                published with William’s poem. When students had a guess—and most of them guessed
+                correctly—we talked about how our understanding of authorship and literary labor is
+                still shaped by particular notions of gender and bodily ability. In isolation, the
+                exercise was useful for asking students to think about William’s poetry beyond the
+                text as both the output of labor from a range of historical figures and as a
+                document that we, as a class, do not receive in a vacuum. </p>
+                
+            <p>In “Romanticism and Feminist Disability Studies,” this conversation will connect to
+                the larger questions of how notions of gender and bodily ability have shaped
+                critical understandings of Romantic literature. Putting this conversation in the
+                context of a sustained reading of the entire <hi rend="italic">Grasmere Journals
+                </hi>also will provide students with an opportunity to further consider William’s
+                poetry as, in part, an editorial project. In the traditional Romanticism classroom,
+                the poem and Wordsworth’s account of the leech gatherer enjoy a mutually supporting
+                relationship in that his poem justifies the presence of her journal entry on the
+                syllabus. But absent William’s poem, the “old man almost double” described in
+                Wordsworth’s journal bears no immediately apparent difference or distinction from
+                the many other itinerate, often disabled figures that appear throughout her journals
+                (23). In class, students are prompted to consider why this figure struck William, in
+                particular. In discussion boards, I will ask students to produce poetic or prose
+                works that build from any of the other arguably equally striking figures that
+                populate Wordsworth’s journal. Such exercises raise another important question for
+                this class: how does the tendency to anthologize Wordsworth’s journal entry and
+                “Resolution and Independence” in tandem shape our understanding of both Wordsworth’s
+                and her brother’s intellectual work?</p>
+                
+            <p>Students reading the full <hi rend="italic">Grasmere Journals</hi> can also consider
+                the journals as an account of what critics have identified as a particularly
+                feminine Romantic subjectivity and as a disabled Romantic subjectivity. After we
+                read and discussed the journals together, I would assign different groups within the
+                class different secondary essays about the journals. In class, we would
+                pair/square/share to discuss how these critical accounts of Wordsworth’s journals
+                reveal what Joshua and Bradshaw call the “symbolic appropriation” of disability to
+                serve other critical purposes (1). Chief among those is what Mellor identifies as
+                feminist readings of Wordsworth’s late-life cognitive disability as an “unconscious
+                rebellion” against the domestic demands placed upon her (166). But even for Mellor,
+                Wordsworth’s dementia becomes “a triumph of the relational self” in that it was
+                supported by Mary Hutchinson Wordsworth’s thoughtful care in ways that reciprocated
+                Wordsworth’s earlier commitment to caring for others (167). In “Romanticism and
+                Feminist Disability Studies,” students will consider in individual writing and in
+                group discussion whether these critics, in figuring gender as the primary source for
+                Wordsworth’s fluid conception of identity and dementia as its symbolically resonant
+                end point, implicitly ignore her experiences of
+                disease and disability as disease and disability. </p>
+                
+            <p> But while some students will read and respond to critical works that understand
+                Wordsworth’s late-life cognitive impairments as an expression of her more elemental
+                experience of gender, others will be assigned secondary readings that interpret
+                disability as lack or as an absence of the self.<note place="foot" resp="author"> Examples of this sort of reading include Robert Gittings and Jo Manton’s
+                    biography, which describes Wordsworth’s late poem “Thoughts on my Sickbed” as
+                    “the ghost voice of her true self, speaking from the ruins” (276). For Gittings
+                    and Manton, the act of recognizing that true self becomes “almost unbearably
+                    sad” (276). Their reaction to Wordsworth’s late-life mental health is emblematic
+                    of scholars’ general tendency to enforce a boundary between Dorothy’s more
+                    neurotypical mind from her mentally impaired mind. Gibson suggests that
+                    Dorothy’s habitual repetition of lines of poetry are “islets” into her previous
+                    mind (282). That binary distinction between the real Dorothy and the mentally
+                    impaired Dorothy echoes a similar divide that appears in Carl H. Ketcham’s 1978
+                    summary of Dorothy’s late journals. Citing a bit of verse that appears late in
+                    her writing, Ketcham calls it the “appalling end of the more than thirty-five
+                    years of close intellectual and imaginative companionship recorded in Dorothy’s
+                    journals” (10). Pamela Woof’s more recent assessment of Wordsworth’s late-life
+                    journal pays explicit attention to her writing on illness and death, but
+                    nonetheless justifies her interest in that late writing in opposition to
+                    disability when she asserts that “[t]he reader knows that even in these final
+                    years there was more than imbecility to Dorothy Wordsworth” (175).</note> 
+                These accounts of disability as lack do not map perfectly onto Wordsworth’s actual
+                collected writings. While she does, at times, express frustration, hopelessness, and
+                even something like depression in response to her physical and mental impairments,
+                and some of her friends and family, in their own writing, connect those expressions
+                with a fundamental change or loss of self, those moments are interspersed with other
+                moments of enjoyment both in and out of her sickbed. This tension between
+                Wordsworth’s own experience of impairment within her familial community and the
+                critical accounting of it provides a coherent account of the ways that
+                discriminatory and exclusionary narratives about disability, which were coming into
+                being in the Romantic era, came to dominate the discourse in the succeeding decades. </p>
+            <p>In untangling Wordsworth’s journals from this critical accounting of them, students
+                see how these critical accounts can unwittingly reinforce notions of health and
+                wellness that Wordsworth’s journals actually challenge and complicate. Through this
+                work, students participate in Bradshaw and Joshua’s
+                project of “disabling” Romantic texts, which requires, in their view, both “new
+                reading[s]” of texts and “un-reading[s]” of traditional accounts of the canon (1-2).
+                But the fact that much of Wordsworth’s late writing is available only as mediated
+                through these secondary sources in academic journals or perhaps as pdfs available to
+                those with institutional access to JStor speaks to two other issues of interest to
+                scholars and students of Romanticism and disability: what is available to be read?
+                And for whom is it available? These questions will allow the course’s major
+                editorial assignment, with which the Wordsworth unit culminates, to arise naturally
+                from our conversations about Wordsworth and her critics. </p>
+                
+            <p>The class readings of both Wordsworth and her critics ultimately inform a final
+                project in which students will propose—and make a prototype for—an online,
+                accessible collection of Wordsworth’s work. Such a project, thoughtfully considered
+                and executed, can foreground the ways that Wordsworth challenges our notions of
+                health and wellbeing. This work requires students to develop a strong understanding
+                of not only Wordsworth’s writing and its history of reception and dissemination, but
+                also of important practices in digital publishing and web accessibility. Through
+                this project, students will engage with disability studies not only as a set of
+                analytical tools but also as a set of ethical concerns and practices that bridges
+                the gap between scholars and students and breaks down barriers that can keep
+                disabled people from entering our conversations. This assignment draws on Stephen C.
+                Behrendt’s useful template for doing recovery work with students. Behrendt provides
+                “hands-on opportunities to do some of the things we do as scholars” through
+                assignments in which students participate in the work of recovery and publication
+                (123). His students transcribe microfiche or pdf copies of unpublished
+                eighteenth-century work to prepare them for online publication. Although he does not
+                frame them as such, these assignments are in effect access labor. Microfiche in
+                academic libraries present physical barriers to able-bodied and disabled scholars
+                alike. PDFs remove many of the physical barriers incurred through geographical
+                distance and the built environment, but they remain difficult to access for blind
+                and low-vision scholars. By transcribing them, Behrendt’s students potentially make
+                these texts more accessible not only to the data mining programs of digital
+                humanities scholars and readers geographically separated from the library’s physical
+                collections, but also toreaders, students, and scholars who rely on screen readers
+                or other accessibility technology to interact with digital materials. Behrendt’s
+                assignments, then, offer a useful template for assignments that explore the
+                potential access gains born from online publishing.<note place="foot" resp="author"> 
+                    In this way, these assignments participate in a recent move in disability
+                    studies pedagogy, in which access labor become formal classroom assignments.
+                    Georgina Kleege and Scott Wallin describe a series of writing assignments that
+                    ask students to participate in the production of audio description of images and
+                    video for blind and low-vision users. Such assignments require students to
+                    engage with debates about best practices and intent and then publish their
+                    resulting work online. The assignments, then, ask students to not only engage
+                    with but participate in the ongoing conversation around online access.</note></p>
+                
+            <p>In undertaking such a project, students must not only recognize but also interrogate
+                the critical and scholarly practices that shape our field. To prepare for such a
+                project, students will assess the usability and accessibility of existing online
+                publications. The <ref target="http://www.blakearchive.org/">William Blake
+                    Archive</ref>enables comparisons across multiple extant versions of Blake’s
+                illuminated works. The <ref target="http://shelleygodwinarchive.org/">Shelley/Godwin
+                    Archive</ref>offers a distinct approach that highlights different authors’
+                additions and edits to manuscript materials. Dickinson College’s <ref
+                    target="https://michaelfield.dickinson.edu/">online edition of Michael Field’s
+                    poetry</ref>uses the web to address a different challenge: how to offer
+                twenty-first-century readers the context they need to make sense of Field’s
+                ekphrastic poetry while maintaining something like the simple, unadorned white pages
+                on which Katherine Bradley and Edith Cooper chose to publish their work as “Michael
+                Field.” Each of these online publications—and there are of course numerous
+                others—offers students examples of web design choices that variously increase and
+                limit access to information. Students—very much a key target market for these
+                repositories—should be empowered to draw on their reactions to these texts to build
+                a set of guiding design principles to shape a strategy for effectively publishing
+                some piece of Wordsworth’s writing online. </p>
+                
+            <p>After analyzing their own experience with these web-based publications, students will
+                test them using WebAIM’s free <ref target="https://wave.webaim.org/">Web
+                    Accessibility Evaluation Tool</ref>(WAVE), which tests any website for common
+                accessibility failures. The program does not, of course, replace full usability
+                testing with disabled users, but it does expose and display the many ways in which
+                common web design decisions can create barriers to access (and proposes solutions to
+                those problems). In the past, when my students have used WAVE to examine the
+                accessibility of websites, they have found that much of what they consider to be
+                generally bad web design is also inaccessible for disabled users.<note place="foot" resp="author"> 
+                    In addition to highlighting unconsidered issues with
+                    accessibility, WAVE aids students in proofreading their web writing and design
+                    by catching basic issues like mis-used headline formatting or missing
+                    alternative text for images. Addressing these access issues also offers practice
+                    in writing, more generally. Proper use of headlines in web texts is better for
+                    both screen readers and visual design. In crafting effective alternative text
+                    for their images, students must both interpret the image and reflect on its
+                    purpose in their text.</note> But they also find unexpected (and
+                counter-intuitive) barriers in seemingly benign design choices. For example, a
+                student once discovered that the “Buy Now” button on a major retailer’s website was
+                hidden for screen readers, essentially making it impossible for the website to sell
+                products to blind or low-vision visitors. I also often require students in my
+                composition courses to use WAVE to assess the web design and digital writing they
+                have done in the class; in this context, accessibility testing becomes an
+                opportunity to consider audience, revision, and strategies for multimodal
+                (re)composition. In “Romanticism and Feminist Disability Studies,” it would serve a
+                similar purpose, but instead of only revising their own work, students will revise
+                the scholarly practices of a wider field and use their findings to produce plans for
+                new modes of publishing primary documents that would enable scholars to understand
+                more fully the intersections of disability and gender in the Romantic period.</p>
+                
+            <p>After comparing the strategies and outcomes at work in a range of online
+                publications, students will work individually or collaboratively in small groups to
+                produce a guiding ethic and rationale for e-publishing some of Wordsworth’s work in
+                ways that increase accessibility for all readers. While students who code may use
+                those skills on this project, groups without aspiring computer scientists can use
+                tools like Wordpress or Omeka to create functional, accessible prototypes without
+                digging into the code. This work would be informed by their research on previous
+                approaches to publishing Wordsworth’s writing, from their initial appearance in
+                biographies of William through the abridged versions of Wordsworth’s writing in the
+                early twentieth century to Levin and Woof’s distinct approaches to scholarly
+                editions in recent years. In order to engage critically with that history, students
+                must connect their proposed editorial work to conversations about how gender and
+                disability have shaped both the archive and its readers. Conversations about
+                physical and institutional access allow students to derive an ethic of or rationale
+                for new online editions of Wordsworth’s work. In addition to a traditional proposal,
+                which includes both a rationale and an annotated bibliography of critical and
+                editorial publications their project draws on and/or responds to, students produce a
+                proof-of-concept page for a piece of Wordsworth’s writing—perhaps a set of poems and
+                their various revisions or a series of journal entries. </p>
+                
+            <p>Such an assignment could serve as a step on the path towards something like what
+                Behrendt describes, in which students produce materials ready for online publishing,
+                while also showing how such projects increase the accessibility of those materials.
+                The project will ask students to address the lack of unmediated access to texts
+                important to the literary history of disability. In so doing, it will reinforce many
+                of the key ideas and questions raised by taking up Wordsworth as a figure of
+                interest to the field. Scholars in disability studies and Romantic studies have done
+                much work to recover marginalized authors and to reconsider history and literary
+                production accordingly, but much work remains to be done. Attuning students to the
+                limits of Wordsworth’s current archive serves as useful spur for students who now
+                more than ever can be empowered to participate in that recovery work.</p></div>
+                
+            <div type="citation">
+                <head>Works Cited</head>
+            
+            <bibl>Behrendt, Stephen C. “Teaching Romanticism with ICT.” <hi rend="italic">Teaching
+                    Romanticism</hi>, edited by David Higgins and Sharon Ruston, Palgrave Macmillan,
+                2010.</bibl>
+                
+            <bibl>Bradshaw, Michael, and Essaka Joshua. “Introduction.” <hi rend="italic">Disabling
+                    Romanticism</hi>, edited by Michael Bradshaw, Palgrave Macmillan, 2016.</bibl>
+                
+            <bibl>Couser, G. Thomas. <hi rend="italic">Signifying Bodies: Disability in Contemporary
+                    Life Writing</hi>. The University of Michigan Press, 2009.</bibl>
+            <bibl>Dolmage, Jay. “Universal Design: Places to Start.” <hi rend="italic">Disability
+                    Studies Quarterly</hi>, vol. 35, no. 2, 2015,
+                dsq-sds.org/article/view/4632/3946.</bibl>
+                
+            <bibl>Garland-Thomson, Rosemarie. “Integrating Disability, Transforming Feminist Theory.”
+                    <hi rend="italic">Disability Studies Reader</hi>, edited by Lennard Davis. 4<hi
+                    rend="sup">th</hi> edition, Routledge, 2013.</bibl>
+                
+            <bibl>Gibson, Iris. Appendix Two, “Dorothy Wordsworth’s Medical Condition.” <hi
+                    rend="italic">Dorothy Wordsworth</hi>, by Robert Gittings and Jo Manton,
+                Clarendon Press, 1985.</bibl>
+                
+            <bibl>Gittings, Robert, and Jo Manton. <hi rend="italic">Dorothy Wordsworth</hi>, Clarendon
+                Press, 1985. </bibl>
+                
+            <bibl>Higgins, David, and Sharon Ruston. “Introduction.” <hi rend="italic">Teaching
+                    Romanticism</hi>. Palgrave Macmillan, 2010.</bibl>
+            <bibl>Ketcham, Carl H. “Dorothy Wordsworth's Journals, 1824-1835.” <hi rend="italic"
+                    >Wordsworth Circle</hi>, vol. 9, no. 1, 1978, pp. 3-16.</bibl>
+            <bibl>Kafer, Alison. <hi rend="italic">Feminist, Queer, Crip</hi>. Indiana University
+                Press, 2013.</bibl>
+            <bibl>Kittay, Eva Feder. <hi rend="italic">Love's Labor: Essays on Women, Equality and
+                    Dependency</hi>, Routledge, 2013.</bibl>
+            <bibl>Kleege, Georgina, and Scott Wallin. “Audio Description as a Pedagogical Tool.” <hi
+                    rend="italic">Disability Studies Quarterly</hi>, vol. 35, no. 2, 2015,
+                dsq-sds.org/article/view/4632/3946.</bibl>
+            <bibl>Levin, Susan. <hi rend="italic">Dorothy Wordsworth and Romanticism</hi>, Rutgers
+                State University Press, 1987.</bibl>
+            <bibl>Mellor, Anne K. <hi rend="italic">Romanticism and Gender</hi>, Routledge, 1993.</bibl>
+            <bibl>Woof, Pamela. “Dorothy Wordsworth and Old Age.” <hi rend="italic">The Wordsworth
+                    Circle</hi>, Vol. 46, No. 3, 2015, pp. 156-176.</bibl>
+            <bibl>Wordsworth, Dorothy. <hi rend="italic">The Grasmere Journals</hi>, Edited by Pamela
+                Woof, Oxford University Press, 1991.</bibl>
+            <bibl>---. “Thoughts on my Sickbed,” <hi rend="italic">Dorothy Wordsworth</hi>, edited by
+                Susan M. Levin, Longman, 2009, 208-211.</bibl>
+            <bibl>---. “Floating Island at Hawkshead, an Incident in the Schemes of Nature,” <hi
+                    rend="italic">Dorothy Wordsworth</hi>, edited by Susan M. Levin, Longman, 2009,
+                199-200.</bibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1247 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Hölderlin: From the “Death of Nature” to “the Earth”</title>
+                
+                
+                <author role="primary">
+                    <name>Kir Kuiken</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-21</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                   <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                   <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                   <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                   <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2023.ecology.kuiken</idno> 
+                <idno type="resource">praxis</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Hölderlin: From the “Death of Nature” to “the Earth”
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Kir</forename>
+                                <surname>Kuiken</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/ecology/praxis.2023.ecology.kuiken"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Political Ecology</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-21">February 21, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                   <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                   <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                   <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                   <p>Em dashes have been rendered as &#8212;</p>
+                   <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                   <p>Spelling has not been regularized.</p>
+                   <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                   <p>&amp; has been used for the ampersand sign.</p>
+                   <p>&#35; has been used for #, the pound sign</p>
+                   <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>02.21.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    <text>
+        <front>
+            <div type="abstract">
+               <p>This paper examines recent attempts (by Latour and others) to rethink the political around 
+                    the notion of the “death” of the nature/culture division by turning to Friedrich Hölderlin’s development 
+                    of the motif of the Earth in his poetic theory. While this motif has largely been read in terms of his poetry’s 
+                    focus on the withdrawal of the divine, I argue that it instead articulates a strange form of “political ecology,” 
+                    one that yokes poetry and nature together around a shared indeterminacy. Hölderlin’s poetics, I claim, attempts to 
+                    witness the “death” of one conception of nature and the birth of another. In doing so, it gestures toward the possibility 
+                    of a common world between humans and non-humans, grounded in what Jean-Luc Nancy has called a “communism of non-equivalence.”  
+                </p>
+            </div>
+        </front>
+        
+        <body>
+            <div type="essay">
+                <head>Hölderlin: From the “Death of Nature” to “the Earth”</head>
+                <byline>
+                    <docAuthor>Kir Kuiken</docAuthor>
+                    <affiliation>University of Albany</affiliation>
+                </byline>
+                <div type="section">
+           <p> Once various scientific societies and associations began to debate the use of the
+                term “Anthropocene” as a geological time period on the same scale as the Holocene,
+                what seemed to register was the paradox of a “shock of the new” that had been long
+                prepared. However one dates the start of this period, it was as if an event had
+                overtaken the “Anthropos” from behind, as if what was “new” in the “Anthropo”- cene
+                (the “cene” deriving from the Greek “kainos” for “new”) had emerged suddenly in the
+                present as a forgotten archaism, making it difficult to say exactly when the
+                catastrophe began or to anticipate how it might end. This shock has launched a
+                further set of reactions, from “new materialisms” to renewed attention to
+                alternative cosmologies, in an attempt to have thought measure up to the seemingly
+                unprecedented nature of the event we call the Anthropocene, and to mark the ways in
+                which our current coordinates, concepts and concerns are no longer adequate to think
+                it, much less to respond to its exigency. This in turn has proliferated a kind of
+                post-mortem on a whole series of philosophemes or concepts deemed too complicit with
+                the crisis. Bruno Latour’s <hi rend="italic">Politics of Nature</hi>, for
+                instance, argues for a final liquidation of the main concept in its title — Nature —
+                since it has authorized a whole set of power relations grounded on a constitutive
+                exclusion. The notion of a “nature” separate from the “social,” for Latour,
+                underpins a politics without due process for those elements of the collective
+                (non-humans of various kinds, including non-human homo sapiens) whose externality to
+                the <hi rend="italic">polis</hi> withdraws them from the domain of the political
+                itself. </p>
+            
+           <p> From Timothy Morton’s notion of the “mesh”<note place="foot" resp="author"> For a full development of this term, see
+                            Timothy Morton, “Thinking Big” in <hi rend="italic">The Ecological
+                                Thought</hi>, Cambridge: Harvard University Press, 2010,
+                        20-–58.</note> to Latour’s conception of “multi-naturalism” or the
+                    “pluriverse,”<note place="foot" resp="author"> Though this term is used in various places in
+                            Latour, he develops it in the most detail in the first chapter of <hi
+                                rend="italic">Philosophy Politics of Nature</hi>, (titled “Why
+                            Political Ecology Has to Let Go of Nature”), 9-–52.</note> the concept of the Anthropocene opens up a
+                world of inextricable relation and intertwinement. Just as there is no “human”
+                independent of the various forms of life on which it depends (bacterial or
+                otherwise), so there is no “pure nature” devoid of humanity’s intervention. A new
+                political ecology comes to replace, or at least supercede, political economy.
+                However, it is precisely the question of the nature of the “collectivity” that lies
+                on the hither side of this “death of nature” that this paper will interrogate. The
+                “common world,” of which Latour speaks in <hi rend="italic">Politics of
+                Nature</hi>, (drawing on his conception of actor-network theory) has as its
+                explicit focus the notion that “humans and non-humans are engaged in a history that
+                should render their separation impossible” (“Promise” 39). The result, for Latour,
+                is a new form of collectivity, one predicated not on the model of the “one,”
+                necessarily, but certainly on the absence of the two, the absence of a unitary
+                border between nature and culture, human and non-human, etc. </p>
+            
+           <p> What must be questioned, however, is exactly how one interprets the “death of nature”
+                upon which Latour’s work is predicated. What exactly one means by it seems to
+                alter the kind and nature of the intertwinements, and therefore the contours of the
+                political ecology, that are grounded on it. What if the “death of nature” called
+                for by Latour, Phillipe Descola, and others were an insufficient starting point for
+                articulating the kind of collectivity capable of responding to the event or crisis
+                of the Anthropocene? What if the “mesh,” the “pluriverse,” and all the other various
+                names for this collectivity were threatened by something akin to what Jean-Luc
+                Nancy, referencing Marx, calls the “equivalence of catastrophes,” where so-called
+                “natural” disasters such as hurricanes and floods can no longer rigorously be
+                distinguished from man-made disasters such as Fukushima. As Nancy insists, that very
+                equivalence, and the totality of interdependences that constitute it, <hi
+                    rend="italic">is</hi> the catastrophe itself, which acts as the limit condition
+                against which any rethinking of collectivity or, to use Nancy’s term, any “communism
+                of nonequivalence” (41) would have to be measured. As Frédéric Neyrat
+                argues in <hi rend="italic">La Part Inconstructible de la Terre</hi> (The
+                Inconstructible Part of the Earth),<note place="foot" resp="author"> Frédéric Neyrat,
+                            <hi rend="italic">La Part Inconstructible de la Terre, </hi>Paris:
+                            Seuil, 2016. This text was recently translated by Drew S. Burk as
+                            Frédéric Neyrat, <hi rend="italic">The Unconstructible Earth</hi>
+                            (trans. Drew S. Burk) New York: Fordham University Press, 2019.
+                            Henceforth cited in text as (N) and, followed by French and then
+                            English pagination.</note> the “death” of nature is far from a
+                recent event; it has in fact occurred repeatedly in the history of the West. Neyrat
+                names at least four deaths of nature (there are likely more), including the
+                pre-Socratics’ transformation of nature into substance, monotheism’s conversion of
+                nature into the medium through which God expresses his commandments, the
+                    seventeenth century’s mechanization,
+                quantification, and mathematization of nature, and our own current global
+                financialization of nature into a tradeable resource (197–204; 108–12). If “Nature”
+                has been dying for some time now, then its most recent entombment is perhaps more
+                ambiguous than Latour admits, and correlatively, so is the new collectivity that
+                emerges as a result.</p>
+            
+           <p> One particular form that “death of nature” takes is in the increasing interest in
+                the motif of the “Earth” in the late eighteenth and early nineteenth centuries as
+                both irreducible to the natural world opened up by science, and to the world
+                conceived either as the secular realm distinct from God’s kingdom, or as the arena
+                of Man’s (or humanity’s) self-production. This motif emerges in several different
+                contexts in the period in response to both the development of natural science and
+                to the progressive reliance on natural right as the cornerstone for a reinvention of
+                the political. It tends to enact a disorganization of the coordinates that define
+                both the natural world “out there” as well as the politics of nature that underwrite
+                social contract theory and other modern conceptions of political sovereignty. The
+                Earth comes to signify something — a basic ground of the political — that remains
+                irreducible to nature but also to any political theology or cosmology that would
+                reduce it either to a particular place within the human “world” or to a sublunary
+                natural “human habitat.” “The Earth,” rather, comes to stand in for an exteriority
+                to the nature/culture divide that cannot be appropriated by any politics dependent
+                on that distinction, and it begins to call into question the models of sovereignty,
+                of the <hi rend="italic">polis</hi>, and of nature that depend on it. Of the many
+                Romantic-era writers that explicitly treat “the Earth” as a fundamental theme, it is
+                arguably Friedrich Hölderlin who most explicitly places this motif at the heart of
+                his poetics and thought. The motif of “the Earth” materializes in his work at nearly
+                every juncture: when he articulates the structure and aim of poetry itself, when he
+                articulates the specificity of modernity in relation to classical Greece, and when
+                he attempts to articulate the specificity of the “world” that modernity enacts in
+                contrast to the one it purports to leave behind. In each case, as I will argue, what
+                is at stake is the development of a (poetic) political ecology, one that treats the
+                Earth as the in-appropriable ground of poetry and politics and thus as an <hi
+                    rend="italic">event</hi> that undermines traditional forms of sovereignty,
+                whether these take the form of the unified lyric voice or the form of the
+                privileging of the human as the political actor par excellence. </p>
+            
+           <p> Focus on the question of the role of the Earth in Hölderlin has tended by and large
+                to be filtered through Heidegger’s appropriation of the concept for his own
+                conception of the “fourfold.”<note place="foot" resp="author"> One of the first articulations of this distinction
+                            is to be found in Martin Heidegger, “The Origin of the Work of Art” in
+                                <hi rend="italic">Off the Beaten Track</hi>, (ed. Julian Young and
+                            Kenneth Haynes) Cambridge: Cambridge University Press, 2002: 1-–56.
+                            Henceforth cited in text as (WA) followed by the English translation).
+                            This initially bipartite division is then later developed by Heidegger
+                            into the notion of the “fourfold,” the play of revealing/concealing
+                            between Earth, world, divinities, and mortals. For a close and detailed
+                            reading of this development in Heidegger, see Andrew Mitchell’s, <hi
+                                rend="italic">The Fourfold</hi>, Evanston: Northwestern University
+                            Press, 2015. </note> Whereas Heidegger positions the Earth in
+                terms of the interplay between revealing and concealing, Hölderlin’s own interest in
+                the motif of the Earth is centered instead on its
+                <hi rend="italic">irreducibility </hi>to a given world or a
+                given conception of nature. Heidegger effectively dismisses the notion that
+                Hölderlin’s poetry is concerned with nature. When the word does occur in Hölderlin’s
+                writings, Heidegger almost always emphasizes the extent to which it must be
+                understood in its “original” Greek sense as <hi rend="italic">physis</hi>: the
+                appearing of what is. Lacoue-Labarthe, by contrast, interprets the motif of the
+                Earth in Hölderlin according to its opposition to (political) theology, suggesting
+                that its significance has to do with Hölderlin’s renunciation of the divine and
+                with what Lacoue-Labarthe calls the “caesura of the speculative” (208). Yet what
+                both of these interpretations never quite arrive at is the question of how
+                Hölderlin’s poetry specifically addresses what it means that “poetically, man dwells on this
+                Earth” (Poems, 789) since this “dwelling” is not an origin or birthplace but a series of
+                different interactions with something that remains irreducible either to “nature” or
+                to phenomenality itself. Heidegger gives this Hölderlinian phrase a
+                specific interpretation that emphasizes the way poetry makes the Earth a “dwelling”
+                and the way language is the “house of Being”; poetry, in his interpretation, is what
+                makes the dwelling a “home.” Hölderlin’s emphasis, however, is on the way “dwelling
+                on this Earth” impacts the relation between poetry and the Earth. In other words,
+                Heidegger’s emphasis on the poetic as the site of dwelling is reversed in Hölderlin;
+                it is “dwelling on the Earth”—exposure to an irreducible, unappropriable
+                externality— that produces the poetics. It is precisely because man
+                “dwells” on the Earth that the variety of different representations of nature and of
+                the Earth itself becomes possible. Hölderlin’s poetics, in short, does not
+                presume a return to a native land. Instead, his poems articulate a <hi rend="italic"
+                    >dürftiger-zeit</hi> or “between time” that marks a transition between two
+                different forms of dwelling in, on, or with the Earth, developing what Carl Schmitt
+                might call a new “nomos” of the Earth, provided that term does not mean a
+                form of law created by the appropriation of land. Hölderlin develops a poetics that
+                is itself “appropriated” by the Earth, that is, exposed to its irreducibility to
+                representation or its being encapsulated within a schema in which it becomes an
+                object or a foundation. We move from the Earth conceived as the realm
+                of “nature” to something far stranger: Hölderlin’s Earth articulates a
+                quasi-Latourian “death of nature” but only by assuming this death as a <hi
+                    rend="italic">fait accompli</hi> rather than as something that must be enacted.
+                One can only call this a “political ecology” on the condition that the “<hi
+                    rend="italic">eco</hi>” derived from “<hi rend="italic">oikos</hi>” and
+                designating a “home,” “habitat,” or “dwelling” is understood in relation to what
+                Frédéric Neyrat calls an “ecology of separation,” (N 237-320; 133-177), which
+                designates, among other things, the <hi rend="italic">withdrawal</hi> of the Earth
+                from the status of an object into something more akin to an event or a trajectory.
+                That withdrawal in turn not only destabilizes any sense of “dwelling” predicated on
+                a shared belonging (to Being, say) but also invokes a poetics of the Earth no
+                longer grounded on the nature/culture divide.</p>
+            
+           <p> Hölderlin develops the motif of the Earth throughout his oeuvre, but the clearest
+                tie between this motif and his conception of poetry is to be found in his difficult
+                prose texts. These texts at once lay out the structures implicit in his poetics as
+                well as define how the specificity of those structures relate to key thematics
+                within his poetry, including the motif of the Earth. In “On the Difference of Poetic Modes,” for instance, the notion of the Earth is
+                coupled with Hölderlin’s development of the idea of “alternating poetic tones,”
+                which he claims characterizes not just his own but all forms of 
+                poetic expression (<hi rend="italic">Essays and Letters</hi>).
+                For Hölderlin, what distinguishes different genres are not their external forms but
+                the relationship between what he calls their “underlying tone” (<hi rend="italic"
+                    >Grundton</hi> or <hi rend="italic">Bedeutung</hi>, a work’s significance or
+                meaning) and its mode of presentation or <hi rend="italic">Darstellung</hi>. This
+                relation varies from work to work, but it also varies <hi rend="italic">within</hi>
+                each work through an internal oscillation of tone and presentation that never
+                arrives at what one might call their “alignment.” In fact, as anyone reading
+                Hölderlin’s prose can attest, this alternation appears to take the form of an
+                interminable oscillation between two poles of an opposition, in what Lacoue-Labarthe
+                has identified as the quasi-Heideggerian logic of <hi rend="italic">Ent-Fernung</hi>
+                (231), a kind of hyperbolic logic of excess that takes the form of “the more x it
+                is, the more y it is,” the closer it is, the more distant, the more interior it is,
+                the more exterior and so on. </p>
+            
+           <p> This logic comes into play, among other places, in his description of the interplay
+                of tone and presentation in poetry, which oscillates between an underlying “tone”
+                or mood and a form of presentation that in the end transforms that mood into its
+                opposite. Regarding lyric poetry, for instance, Hölderlin writes: 
+                
+            <quote> In its basic mood (<hi rend="italic">Grundstimmung</hi>) the lyric poem is <hi rend="italic">more
+                    sensuous</hi>, in that this
+                [basic mood] contains a unity which lends itself most easily; precisely for that
+                reason does it not strive in the outer appearance for reality, serenity and
+                gracefulness; it evades the sensuous connection and presentation so much (because
+                the pure basic tone (<hi rend="italic">Grundton</hi>) inclines precisely toward it)
+                that it is rather miraculous in its formations and assembly of these. (<hi
+                    rend="italic">Essays and Letters</hi> 83)<note place="foot" resp="author"> Friedrich Hölderlin,
+                            <hi rend="italic">Essays and Letter on Theory </hi>(trans.
+                            Thomas Pfau) Albany: State University of New York Press, 1988: 83. See
+                            also Friedrich Hölderlin, <hi rend="italic">Sämtliche Werke und Briefe
+                                Volume 1-2</hi>, Munich: Carl Hanser Verlag, 1970, 889. Prose texts
+                            by Hölderlin will henceforth be cited in text from this edition as (PW)
+                            with English pagination, followed by German volume number and
+                            pagination.</note></quote>
+            
+            The sentence continues, and as it does so, it passes through a series of further
+                oscillations between tone and presentation. Yet the basic principle remains the same
+                throughout its various permutations — the work’s very tendency toward one or another
+                presentation or signification is the very means by which that tendency is refracted
+                or displaced. The crucial aspect of this process is that the “basic mood” or <hi
+                    rend="italic">Grundton</hi> of a given poem is not refracted simply through the
+                medium of its expression, as if tone and presentation were of different orders.
+                Instead, the very “nature” of the “basic mood” overcomes itself, one might say, in a
+                ceaseless oscillation, a continuous departure from itself.</p> </div>
+            
+            <div type="section">
+                <head>The Earth, The Organic, The Aorgic</head>
+            
+           <p> What then, does this oscillation of poetic tones have to do with the Earth? Among
+                the many forms of representation or “art character” that Hölderlin lists as
+                characterizing a poem, one in particular is most pointedly associated with the
+                tragic: what he calls the “idealistic image” (<hi rend="italic">idealischen Bilde</hi>) (PW 889; 1:83).
+                In fact, it is not the content of a work that determines its genre but the
+                oscillating interplay of a poem’s tone and presentation. “On the Difference of
+                Poetic Modes” starts by providing a set of definitions: 
+                
+                <quote>"The lyric, in appearance idealistic poem, is naïve in its significance. It is a
+                continuous metaphor of feeling. The epic, in appearance naïve poem, is heroic in its
+                significance. It is the metaphor of great aspirations. The tragic, in appearance
+                heroic poem, is idealistic in its significance. It is the metaphor of an
+                intellectual intuition” (PW 889; 1:83). </quote>
+                
+                In each case, a poem’s presentation remains in a certain tension with its “basic
+                mood,” yet the fact that the tragic form <hi rend="italic">appears</hi> (<hi rend="italic">Schein</hi>)
+                heroic, but is in fact “idealistic” in its significance (<hi rend="italic">Bedeutung</hi>), could be said
+                to characterize a fundamental tension in much of Hölderlin’s poetics. That is, what
+                first appears as a lament for the old gods, for a divine that has absconded, and as
+                a reinvigorated desire for the invention of new god(s),<note place="foot" resp="author"> Martin Heidegger, “Only a God Can
+                            Save Us,” in <hi rend="italic">Heidegger: The Man and the Thinker</hi>
+                            (ed. Thomas Sheehan) London: Routledge University Press, 2017,
+                            45-–68.</note> in fact turns into something else entirely. This
+                heroic representation instantiates a tragic return to an “Earth” that has begun to
+                slip away from its moorings, its determination by a particular theological or
+                ontological regime. In this moment, the opposition between the Earth and the divine
+                ceases to operate, and a different understanding of the Earth comes to the fore, one
+                predicated on its irreducibility to a given “world.” </p>
+            
+           <p> Something of this irreducibility is in fact legible in the central tension between
+                Earth and world found in Heidegger’s “Origin of the Work of Art” yet, as we will
+                see, there remains an important divergence between Heidegger and Hölderin’s
+                understanding of the relation between Earth and world. If, for Heidegger, the work
+                of art is the “setting up of a world” (WA 170), this setting up occurs only against
+                the backdrop of an Earth “sheltered” from this formation. Since neither animal nor
+                plant “have” a world and are therefore deprived of a relation to beings <hi
+                    rend="italic">as such</hi>,<note place="foot" resp="author"> For a discussion of this dynamic, see Heidegger’s
+                            broader discussion of the different relations to world between Dasein,
+                            animal, and plant in <hi rend="italic">The Four Fundamental Concepts of
+                                Metaphysics</hi> (trans. William McNeill and Nicholas Walker)
+                            Bloomington: Indiana University Press, 1995, 176-–200.</note>
+                Heidegger is compelled to describe the specific “worldlessness” of stone, for
+                example, in manifestly different terms, casting the Earth in the role of “that which
+                comes forth and shelters”: “That into which the work sets itself back and which it
+                causes to come forth in this setting back of itself we call the earth. Earth is that
+                which comes forth and shelters . . . Upon the Earth and in it, historical man
+                grounds his dwelling in the world” (WA 171-72). Heidegger here makes the Earth
+                that which withdraws itself from the world. If animals are “poor in world,” the
+                stone by contrast remains connected to a world only by its refusal of and by it. The
+                stone’s “worldlessness” therefore pertains to its status as the “unconcealed,” as
+                that which cannot be rendered by any form of measurement or calculation: “If we try
+                to lay hold of the stone’s heaviness in another way, by placing the stone on a
+                balance, we merely bring the heaviness into the form of a calculated weight. This
+                perhaps very precise determination of the stone remains a number, but the weight’s
+                burden has escaped us” (WA 172). The Earth, therefore, “shows itself only when it
+                remains undisclosed and unexplained. Earth thus shatters every attempt to penetrate
+                it” (WA 172). The setting forth of the Earth by the world is thus figured in
+                Heidegger as a “strife” rather than an outright opposition; a strife that, moreover,
+                functions as a metaphor for the movement of truth itself, the disclosure of the
+                undisclosable in the movement of <hi rend="italic">aletheia</hi>, the simultaneous
+                revealing and concealing that characterizes the “world” itself.</p>
+            
+           <p> While Hölderlin’s conception of the relation of Earth and world clearly influenced
+                Heidegger, his own interpretation of this relation nevertheless entails some crucial
+                differences that do not allow the tension between Earth and world to unfold as “the
+                intimacy of a simple belonging to one another” (WA 174). The main aspect of this
+                difference pertains to the way Hölderlin weds the motif of the Earth to the
+                unfolding oscillation of poetic tones. In other words, unlike for Heidegger, for
+                whom poetics is more generally the “founding” of a world in the poetic word, which
+                in turn “sets forth” what remains irreducible to that world (i.e. the Earth), for
+                Hölderlin poetry remains caught in the continuous and irresolvable jointure of an
+                oscillation between presentation and signification. This oscillation proves
+                incapable of presenting the Earth as its hidden ground, as a single signification
+                that presents itself through its absence, or as that which remains undisclosed
+                “within” a given world, since any underlying signification is eventually overcome by
+                yet another disjunction between presentation and signification without any single,
+                unified sense emerging. In other words, the Earth’s non-disclosure, in Hölderlin, is
+                no longer linked to a given “world” as its constitutive abandonment. Its emergence
+                occurs as a result of an excessive striving for precisely its opposite: for the
+                unearthly or for the divine. And the Earth “appears” in Hölderlin only as a result
+                of that excess re-emerging as the irreducibility of the Earth to the “founding word”
+                of the poet in a way neither the poet nor his poetry can fully account for.</p>
+            
+           <p> These reflections are necessarily grounded in Hölderlin’s understanding of the
+                relation between the productive capacities of poetry, and those of “nature,” since
+                the latter provides the former with its most acute example of what it means to
+                constitute a “world.” In one of Hölderlin’s earliest treatises, “The Ground for
+                Empedocles” (in PW), he expressly takes up the question of the relation between art
+                and nature in order to explain why his early play (<hi rend="italic">The Death of
+                    Empedocles</hi>) is an attempt to overcome the opposition between art and nature
+                as the mark of a genuinely modern form of tragedy. The opening of the treatise
+                prefigures in many ways the “alternation of tones” theory that will become
+                Hölderlin’s more explicit focus in “On the Difference of Poetic Modes,” since he
+                describes his tragedy as proceeding through a variety of “tones” each of which is in
+                tension with the “reflection” or “sensation” meant to depict it. What Hölderlin
+                makes explicit, however, is that even though the “subject matter” of the tragedy is
+                “foreign” to the world of the poet, the poet’s selection of this world as a “vessel”
+                for his own is strictly “analogical.” That is, the poet’s world can only be
+                reflected back to him and to others through the medium of the foreign (in this case,
+                ancient Greek tragedy) because that world is precisely the converse of his own. A
+                “modern” tragedy is possible only insofar as it engages Greek forms to articulate an
+                entirely different content. In other words, something like the opposition between the Greeks and the Hesperians
+                that Hölderlin describes in the December 4, 1801 letter to Böhlendorff appears to be
+                operative here. To generate a form of art that is "the free use of one’s
+                own" as Hölderlin insists in the letter, requires a relation to the foreign that
+                refuses simple imitation (PW 150; 2:926). It must repeat the inimitable disjunction
+                between tone and expression that characterizes all artforms and that leads the work
+                of art to overcome its own conditions of possibility. Hölderlin insists: “We learn
+                nothing with more difficulty than to freely use the national. And, I believe that it
+                is precisely the clarity of the presentation that is so natural to us as is for the
+                Greek the fire from heaven” (PW 149; 2:927). In other words, what is “natural”
+                for the Greeks is “fire from heaven,” a sacred or ideal pathos that arises in
+                connection with the divine. For us, we modern “Hesperians” it is the reverse; what
+                is “inborn” for us is “clarity of presentation” (<hi rend="italic">die Klahrheit der Darstellung</hi>). And
+                    <hi rend="italic">because</hi> each is “inborn,” it is precisely the opposite
+                that ends up being “mastered.” The Greeks mastered sobriety or the “clarity of
+                presentation” because what defined their world is “sacred pathos,” whereas for we
+                Hesperians what comes most naturally is precisely that pathos, whereas what is most
+                “their own” (the sobriety or the “clarity of presentation”) remains elusive for us. </p>
+            
+           <p> In short, to return to the problematic central to “Ground for Empedocles,” the world
+                of the modern poet, though heterogeneous to the “outward presentations”
+                that define ancient tragedy, must nonetheless be located and seized hold of through
+                an imitation of ancient tragedy. This takes place only by reproducing the inimitable
+                disjunction between presentation and tone, between the “clarity of presentation” and
+                “fire from heaven” that defined the Greeks. This must be done, in other words,
+                without strict imitation, without the reproduction of the precise relationship
+                between the two that defined the Greeks. Hence the reason why Hölderlin must turn to
+                that most ancient of questions concerning the relation of art to nature: he’s not
+                simply describing the imitation of nature by art but a more complicated
+                process—demonstrating the way nature and art are already intertwined to the extent
+                that they are both modes of presentation and, as a result, define the contours of a
+                given “world” by the specific way in which those modes of presentation interact. For
+                Hölderlin, there is no nature “over there” (to paraphrase Latour) that must be
+                “represented” by art in order to accomplish itself in a kind of Aristotelian
+                mimesis. Rather, art and nature form a unity governed by an internal tension similar
+                to the tension inherent in the opposition between representation and tone in poetry.
+                What constitutes a “world” for Hölderlin is not a “decision” about beings that
+                allows them to appear as beings of a certain kind. There is only an attempt to
+                encounter (poetically) a set of modes of presentation in tension with each other
+                that make a given world possible, even if the exacerbation of those tensions
+                demonstrates that the world they have formed is in a state of collapse.</p>
+            
+           <p> Thus, while Hölderlin’s approach appears at first to mirror Aristotle’s conception of
+                the imitation and completion of nature by art, this dialectic is in fact supplanted
+                by something close to the internal oscillation described later in “On the Difference
+                of Poetic Modes.” If, as Hölderlin puts in in “Ground for Empedocles”: “art is the
+                blossom, the perfection of nature” (<hi rend="italic">Die Kunst ist die Blüte, die Vollendung der
+                Natur</hi>) (PW 53; 2:116), this is so only because two different forms of production
+                and organization come to vie with each other rather than reproduce one another.
+                They form a “world” in and through their disjunction, a differentiation that both
+                constitutes the relative unity of that “world” and its conditions of
+                dissolution. To grasp this process poetically entails, for Hölderlin, the
+                introduction of an important distinction found throughout his oeuvre: the
+                distinction between “organic” (<hi rend="italic">organisch</hi>e) and “aorgic” (<hi
+                    rend="italic">aorgischen</hi>) principles. This opposition has given
+                commentators some difficulty, especially since “aorgic” appears to be a Hölderlinian
+                neologism. Veronique Foti asserts that the organic/aorgic opposition is
+                simply another name for the <hi rend="italic">physis/techne</hi> distinction, which in turn becomes translated into the
+                nature/culture divide. Yet, this doesn’t always seem to be the case. Though
+                Hölderlin draws on Schelling’s opposition between <hi rend="italic">organisch </hi> and <hi rend="italic">anorganisch</hi>
+                    principles, <note place="foot" resp="author"> This distinction is found throughout Schelling’s works on nature. For
+                            a particularly focused discussion of it, see F. W. J. Schelling,
+                            “Introduction” in <hi rend="italic">Idea for a Philosophy of Nature</hi>
+                            (trans. Errol E. Harris and Peter Heath) Cambridge: Cambridge
+                            University Press, 1995, 9-–42.</note> his organic/aorgic
+                distinction implies something more than a divergence between a purely natural and a
+                purely non-natural organism or structure. </p>
+            
+           <p> In fact, Hölderlin’s organic represents a tendency — in works of art as much as in
+                “nature” — towards a more or less stable but regulated order. The aorgic, by
+                contrast, marks a tendency toward dissolution and disorganization; the coming undone
+                of a particular temporary equilibrium. Hölderlin first introduces these terms in
+                “Ground for Empedocles” when he is attempting to describe the specificity of the
+                “world” the titular character of his play — Empedocles — inhabits, claiming that, as
+                with the particular relationship between art and nature that characterizes the
+                Greeks, Empedocles’s world is defined by a precise dynamic between “organic” and
+                “aorgic” principles: “The more organic, artistic man is the blossom of nature, the
+                more aorgic nature, when it is sensed purely, by the purely organized, purely and
+                uniquely formed man, affords him the feeling of perfection” (PW 53; 2:116–17).
+                The dynamic between these two tendencies characterizes Empedocles’s world but also
+                signals the overcoming of that world in their mutual antagonism—Hölderlin calls it
+                the “highest hostility” (<hi rend="italic">der höchsten Feindseligkeit</hi>), which
+                is also their “highest reconciliation” (<hi rend="italic">die höchste
+                    Versöhnung</hi>) (PW 54; 2:118) — of their relation. He conceives of his own
+                play, in a sense, as nothing but the unfolding of this tension, exemplified by the
+                death of Empedocles. </p>
+            
+           <p> As with other oppositions in Hölderlin, however, the organic/aorgic opposition that
+                defines Empedocles’s world exists only to produce a form of “becoming in
+                dissolution” (<hi rend="italic">Weden im Vergehen</hi>),<note place="foot" resp="author">  This is also the title of an important essay by
+                            Hölderlin, “Becoming in Dissolution” (PW 96-–100;
+                        1:900-–905).</note> a form of self-overcoming where each side of
+                the opposition transcends into its opposite. To avoid being abstract, in order for
+                the opposition to become real, or “known” according to Hölderlin,
+                
+                <quote>it must present itself by separating itself in the excess of inwardness where the
+                opposed principles interchange so that the organic, which surrendered itself too
+                much to nature, and which forgot its essence, transcends into the extreme of
+                autonomous activity, whereas nature, at least in its effects on reflective man,
+                transcends into the extreme of the aorgic, the incomprehensible, the non-sensuous,
+                the unformed, the unlimited. (PW 53; 2:117)</quote>
+                
+                In other words, what initially appeared on one side—defined organization and the
+                regulated order of the world known as the organic — precisely in its desire for
+                organization, “interchanges” with the aorgic (Hölderlin is careful not to use terms
+                such as “sublation” that might treat this exchange as a dialectic) and thereby
+                undoes itself and the opposition that defines it at the same time. There is no
+                reconciliation between the organic and the aorgic, only a “uniting moment that
+                dissolves more and more, like a phantasm” and which “reacts against the organic in
+                aorgic manner, distances itself from it” (PW 43; 2:118). This moment
+                fundamentally characterizes Empedocles’s belonging to his world which is in the
+                process of dissolution. As Hölderlin insists, as a character, Empedocles embodies
+                the contretemps between the organic and the aorgic and so “is a son of his heaven
+                and his time, of his fatherland, a son of tremendous oppositions of nature and art
+                in which the world appeared before his eyes” (PW 54; 2:118–19). As a result, he
+                becomes a “victim of his time” (<hi rend="italic">ein Opfer seiner Zeit</hi>) (PW
+                57; 2:121). Unable to reconcile the opposition between nature and art that
+                governs the totality of the world to which he belongs, he becomes a necessary
+                “sacrifice” that reveals, in his death, the death of his world: “[the destiny of his
+                epoch] demanded a sacrifice where man in his entirety becomes real and visible as
+                that wherein the destiny of his epoch seems to dissolve, where the extremes seem to
+                unite truly and visibly in one but therefore are united too closely” (PW 56;
+                2:121).</p>
+            
+           <p> The oscillation between the organic and the aorgic functions both as that which
+                defines the plot of <hi rend="italic">The Death of Empedocles</hi> and as that
+                which forms Empedocles as a character by making him its archetype or figure. This
+                oscillation also defines Empedocles’s “destiny.” But this form of destiny must be
+                read in a thoroughly modern sense since it is not predicated on a particular
+                cosmology—as it might be said to be in Sophocles, for example, in the relation
+                between gods and mortals. Rather, Hölderlin imitates Greek tragedy in order to
+                witness its self-overcoming, to pass through the foreign (the Greeks) and the
+                collapse of “their” world, to the dissolution of our own. Perhaps this is why, once
+                Hölderlin finally abandoned his play after three failed attempts to write it, the
+                ending of the third and final attempt breaks off fragmentarily with the chorus
+                proclaiming a “new world” that is simultaneously contrasted with the Earth:
+               
+               New World
+            <lg type="stanza"> 
+             <l>and it looms, a brazen vault</l>
+            <l> the sky above us, curse lames</l>
+            <l> the limbs of humankind, and the nourishing, gladdening</l>
+            <l> gifts of the earth are like chaff, she</l>
+            <l> mocks us with her presents, our mother</l>
+            <l> and all is semblance—<note place="foot" resp="author"> Friedrich Hölderlin, <hi rend="italic">The Death of
+                                Empedocles</hi> (trans. David Farell Krell) Albany, State University
+                            of New York Press, 2008, 188. All citations to this work will henceforth
+                            be cited in text as (DE) followed by English pagination, then German
+                            volume and pagination.</note></l></lg>
+                
+                Neue Welt
+                <lg type="stanza">
+            <l> und es hängt, ein ehern Gewölbe</l>
+            <l> der Himmel über uns, es lähmt Fluch</l>
+            <l> die Glieder den Menschen, und die stärkenden, die</l>
+            <l> erfreuenden</l>
+            <l> Gaben der Erde sind wie Spreu, es</l>
+            <l> spottet unser, mit ihren Geschenken, die Mutter</l>
+            <l> und alles ist Schein— (DE 188; 2:152)</l></lg>
+                    
+            At the end of the play, in the concluding non-reconciliation between organic and
+                aorgic that defines Empedocles’s “sacrifice,” we are left only with a heaven that
+                has become an empty “brazen vault” and a world that has become nothing but
+                “semblance” (<hi rend="italic">Schein</hi>). Far from a sacrifice that reconciles
+                mortals with gods, Empedocles’s death merely gestures toward a newly reconfigured
+                Earth, whose gifts “mock” those who remain, along with a world that has
+                fundamentally been dissolved. In fact, Hölderlin’s notes for the continuation of the
+                third version of the play describe Empedocles as “one in and through whom a world
+                dissolves and in the same instant renews itself” (<hi rend="italic">in dem und durch den eine Welt
+                sich zugleich auflöse und erneue </hi>) (DE 194; 2:154). In other words, <hi
+                    rend="italic">The Death of Empedocles</hi> ends at the moment of the dissolution
+                of a given world (and its concomitant configuration of the Earth), without
+                necessarily gesturing at what follows out of it. This is perhaps why “Ground for
+                Empedocles” makes of the play’s final sacrifice a figure not of the “reconciliation”
+                between opposing forces but of a fundamental separation — a separation figured
+                by Empedocles himself: “He is destiny itself, only with the exception that the
+                contending forces inside him are tied to a consciousness, to a point of separation
+                (Scheidpunkt) which keeps them facing one another in a clear and controlled manner”
+                (PW 61; 2:127).</p></div>
+            
+            <div type="section">
+                <head>Earth and the
+                    “Original Separation”</head>
+            
+           <p> By the time Hölderlin had abandoned his own attempts to write a tragedy, and had
+                begun the task of attempting to “translate” Sophocles’s <hi rend="italic">Oedipus
+                    Rex</hi> and <hi rend="italic">Antigone</hi>, writing his enigmatic prose
+                “notes” to both plays, that “separation” had a more distinctive
+                significance. It is removed, first of all, from the context of individual
+                “consciousness” and transformed into a question not of the “world-forming”
+                capacities of poetry but of its encounter with a reality for which it has no
+                coordinates, no presentational or performative capacities. This pushes the “point of
+                separation” (<hi rend="italic">Scheidpunkt</hi>) attested to in <hi rend="italic"
+                    >Death of Empedocles</hi> toward an entirely different conception of the
+                relation between world and Earth, this time one that is no longer structured by its
+                association with the divine. The “real separation” (wirkliche Trennung) (PW 86;
+                1:893) that emerges as a result is still due to the irreconcilable dynamic of the
+                oscillation between order and dissolution, the organic and the aorgic. Yet, when
+                Hölderlin presents this oscillation again in his description of the “alternation of
+                tones” in “On the Difference of Poetic Modes,” a different conception of the Earth
+                begins to emerge at the juncture of the “separation” or “caesura” that Hölderlin
+                makes central to his reading of Sophocles. It becomes clear that his thinking about
+                classic tragedy is intertwined with his own articulation of the purpose and
+                structure of poetry more generally, insofar as it repeats the hyperbolic logic of
+                inversion found in the organic/ aorgic dynamic. This time, however, the overall
+                problematic concerns not just the conditions for a properly modern tragedy but the
+                incongruities at work in poetry itself, specifically the way tone and expression are
+                repeatedly differentiated and placed into tension. The basic organic/ aorgic
+                distinction is, in a sense, built in to the opposition between tone and expression
+                as well. An epic poem, for example, is initially characterized by a “naïve”
+                expression, whereas its underlying tone is aorgic/heroic:
+                
+            <quote> The epic, in its outer appearance <hi rend="italic">naïve poem</hi>, in its <hi
+                    rend="italic">basic tone</hi> (<hi rend="italic">Grundton</hi>) the <hi
+                    rend="italic">more pathetic</hi>, heroic, aorgic one; hence it strives in its
+                art-character not for energy, movement and life, but for precision, calmness and
+                pictorial quality. The opposition between its basic tone and its art-character,
+                between its proper and its improper, metaphorical tone is resolved in the idealistic
+                where it neither loses so much life as in its narrowly delimiting art-character nor
+                as much moderation as in the immediate expression of its basic tone. (PW 83–84;
+                1:890).</quote>
+                
+            For Hölderlin, then, every poem progresses through a series of oppositions between
+                tone and expression, by which it strives to define its “unity.” Again, the
+                hyperbolic logic Hölderlin articulates in “Ground for Empedocles” is at work, except
+                that it is not so clear that a “resolution” of that tension is possible, as it
+                appears to be in the <hi rend="italic">death</hi> of Empedocles. In fact, this
+                striving after some kind of unity between tone and expression leads only to what
+                Hölderlin calls a “real separation” (<hi rend="italic">wiklichen Trennung</hi>): the
+                poem’s turning away from any attempt to ultimately reconcile its internal
+                oppositions. </p>
+            
+           <p> It is precisely in this “real separation” that a second, more enigmatic, conception
+                of the Earth materializes. “On the Difference of Poetic Modes” at first connects the
+                “real separation” within the poem with a turning away of the gods: 
+                
+            <quote>And here, in the excess of spirit within unity, in its striving for materiality, in
+                the striving of the divisible, more infinite aorgic which must contain all that is
+                more organic . . . in this striving for separation of the divisible infinite, which
+                in the state of highest unity of everything organic imparts itself to all parts
+                contained by this unity, in this necessary arbitrariness of Zeus there actually lies
+                the ideal beginning of the real separation. (PW 85-86; 1:892-93) </quote>
+                
+            As in the <hi rend="italic">Death of Empedocles</hi>, the final “reconciliation” of
+                the organic with the aorgic gives way to something irreducible to either. By calling
+                this the “arbitrariness of Zeus,” Hölderlin is already invoking his difficult and
+                enigmatic reading of Sophocles, in particular <hi rend="italic">Oedipus Rex</hi>,
+                which focuses on the way that the play stages the “caesura” or turning away from the
+                gods (i.e. a particular conception of the divine) and the concomitant notion of
+                tragic fate that constitutes that “world.” In the context of his meditation on
+                poetry, what matters is how the “real separation” manifests itself in the poem as
+                the internal tension of the opposed tendencies toward form and dissolution, until
+                that very tension culminates in a return to the “real” or as Hölderlin will later
+                assert, the “original” separation between the organic and the aorgic. The “new
+                unity” that the internal oppositions engender in poetry is merely the “ideal”
+                version of the “real separation.” Yet it prefigures what Hölderlin calls the
+                “striving of the divisible,” by which he means that the initially “ideal” separation
+                between organic and aorgic continues to develop in the poem “until the primordially
+                separating has arrived at its total expression” (<hi rend="italic">bis das ursprünglich Trennende zu
+                seiner völligen Äußerung gekommen ist </hi>) (PW 88; 1:896).</p>
+            
+           <p> That “total expression” of the “primordially separating” Hölderlin goes on to name,
+                simply, “the Earth.” Hölderlin’s “Notes to Antigone” elaborates the emergence of
+                this motif by framing the “real separation” in terms of a “reversal” that occurs
+                when Kreon and Antigone both simultaneously appeal to Zeus as a principle of divine
+                order lying beyond the world of the living. Beginning with a meditation on the
+                “calculable law” of “Antigone,” which once again entails the “successive modes
+                through which representation, sensation and reason develop according to poetic
+                logic” (PW 109; 2:452), Hölderlin focuses on the moment in the play that
+                “interrupts” this logic and introduces something irreducible to the succession of
+                representations. This interruption happens at the moment both characters appeal to
+                the same authority to justify their actions, which effectively makes it the crux of
+                the play for Hölderlin. The appeals by Kreon and Antigone do not involve the same
+                principle, however. In each case, Zeus represents something different to each of
+                them, even if structurally the appeal takes the same form insofar as the same
+                “sacred name” (Zeus) is used to designate a “highest,” an ultimate authority or <hi
+                    rend="italic">arche</hi>. For Kreon, Zeus represents the traditional form of
+                divine authority. In the case of Antigone, however, Zeus’s divine status is
+                immediately inverted into its opposite and given an earthward turn. Zeus is
+                presented as the “father of time or: father of earth, for it is his character,
+                opposing the eternal tendency, to reverse the striving from this world to the other
+                into a striving from another world to this one” (<hi rend="italic">“Vater der Zeit oder: Vater der
+                Erde, weil sein Charakter ist, der ewigen Tendenz entgegen, das Streben aus dieser
+                Welt in die andre zu kehren zu einem Streben au seiner andern Welt in diese</hi>) (PW
+                112; 2:454). In other words, Antigone’s appeal is initially understood in
+                classical terms as a reversal of the striving for transcendence and for a stable
+                organic law (in Hölderlin’s sense) to a reversal that grounds that law in a
+                strictly temporal order, the “golden stream of becoming” (<hi rend="italic">das goldenströmende
+                Werden</hi>) to cite Hölderlin’s somewhat odd translation of Sophocles
+                (PW 112; 2:454). Zeus, as with the fatal discordance between the organic and the
+                aorgic found in “On the Difference of Poetic Modes,” constitutes here another
+                example of the inversion of extremes at work in Hölderlin generally: the more divine he is,
+                the more terrestrial, and this inversion organizes both the structure of the play
+                and its denouement: 
+                
+                <quote>“Once, that which characterizes the Antitheos, where someone, in the sense of god,
+                acts as if against god and recognizes the spirit of the highest as lawless. Then the
+                pious fear of destiny, thus the praise of god as something preordained. This is the
+                spirit of the two impartially contrasted opposites in the chorus. Antigone acting
+                more in the first sense. Kreon in the second” (PW 112; 2:455). </quote>
+                
+                Whereas Kreon relates to Zeus as the representative of the divine and of tragic
+                destiny, Antigone’s appeal to Zeus as an “Antitheos” is in opposition to his
+                divinity, emphasizing instead his “lawlessness.” This presents a stark
+                contrast between Kreon, for whom Zeus is the organizing principle of the world, and
+                Antigone, for whom Zeus represents an aorgic disorder, a divine that has
+                fundamentally absconded and which, as a result, “reverses” the desire for a
+                transcendent order, turning a striving for the beyond into a return to the “Earth.”
+                This “Earth,” in the context of this tragic agon of the play, emerges in opposition
+                to the divine as the return to a world deprived of its center, deprived of the
+                “heavenly” opposition that defines it. One could say that Hölderlin’s reading of
+                Sophocles aligns itself here with Jean-Pierre Vernant and Pierre Vidal-Naquet’s
+                suggestion that “the tragic universe lies between two worlds,” a past age of myth
+                that was still present and the values of the new political order that emerge in and
+                through the collapse of the world of myth (7). “The Earth” would thus appear to be a
+                name for a political order no longer founded on theological structures. </p>
+            
+           <p> However, in a further development of the motif of the Earth, Hölderlin makes clear
+                that this reversal is not “ours”; it is not <hi rend="italic">we</hi> who are in the
+                midst of this radical reversal that undoes an entire configuration of the world. The
+                reversal from the divine to the Earth belongs essentially to the Greeks — it is what
+                brings about the tragic end of <hi rend="italic">their</hi> world. For us, by
+                contrast, we “Hesperians” or moderns for whom a “lack of destiny” is our essential
+                attribute, the earthward turn must be understood differently; according to
+                Hölderlin, our “Zeus” is anything but divine, and anything but a higher principle of
+                order or justice: 
+                
+            <quote>For us, existing under the more real Zeus who not only stays between this earth and
+                the ferocious world of the dead, but who also forces the eternally anti-human course
+                of nature on its way to another world <hi rend="italic">more decidedly down onto
+                    earth</hi>, and since this greatly changes the essential and patriotic
+                representations, and since our poetry must be patriotic so that its themes are
+                selected according to our world-view and their representations, for us, then, the
+                Greek representations change insofar as it is their chief tendency to comprehend
+                themselves. (PW 113; 2:456) </quote>
+                
+            Ripped from the opposition between the terrestrial and the heavenly, “our Zeus”
+                abandons any reference to transcendence, to “another world”—even one that has been
+                withdrawn. </p>
+            
+           <p> This abandonment has a concomitant effect: the “Earth” to which it returns has become
+                decidedly alien since it can no longer be defined in opposition to the divine. Our
+                Zeus is a “god” in name only, who “forces the eternally anti-human course of nature
+                on its way to another world <hi rend="italic">more decidedly down to Earth</hi>.”
+                Here something other than the ever-present oscillating opposition between the
+                organic and the aorgic comes into view. Having passed through the “foreign” that is
+                ancient Greek tragedy, we arrive at something even more foreign: an Earthward turn
+                that cannot be reduced either to the return to a mundane world separated from the
+                divine nor to a conception of “nature” still dependent on that opposition. As
+                Hölderlin makes clear, “our” Zeus forces nature toward a world even more “Earthly”
+                than this other Earth whose significance still derives from the absence of the gods,
+                and thus remains a withdrawal internal to that world. The “world” toward which our
+                Zeus compels nature is a world no longer governed either by any relation to the
+                divine or by the culture/nature division. While the translator, Thomas Pfau, uses
+                the term “anti-human” here for <hi rend="italic">menschenfeindlichen</hi>, this word
+                suggests something that is not just “anti-human” but also “inhuman,” a landscape
+                without Man.<note place="foot" resp="author">
+                            Jacques Derrida, in the “Ends of Man” describes this problematic as a
+                            “change of terrain.” See Jacques Derrida, “The Ends of Man” in <hi
+                                rend="italic">Margins of Philosophy</hi> (trans Alan Bass) Chicago:
+                            University of Chicago Press, 1982, 135.</note> Whatever this
+                “world” might be (if it is even still a world), its terrestrial status is certainly
+                not yet a “dwelling,” since the natural world of the Greeks has been fundamentally
+                overturned. </p>
+            
+           <p> Hölderlin’s use of the term “patriotic” (<hi rend="italic">vaterländisch</hi>) to
+                characterize the representations that follow from this transformation only heightens
+                the sense of a complete disorientation brought about by his second reference to the
+                Earth, since the <hi rend="italic">patria</hi>, the sense of home, belonging, or
+                propriety suggested both by the word “patriotic” and the phrase “the more real Zeus”
+                is left fundamentally without an object. Hölderlin simply insists that the second
+                earthward turn of this Zeus necessitates a radical change in “the essential and
+                patriotic representations” and that “our poetry must be patriotic so that its themes
+                are selected according to our world-view and their representations,”
+                without detailing how this actually takes place (PW 113; 2:456). His insistence on
+                the possessive “our” serves only to reinforce the fact that “Zeus” and “our
+                world-view” (<hi rend="italic">unserer Weltansicht</hi>) are themselves taken hold
+                of, appropriated, by this other return to an Earth that leaves us without our
+                bearings, without any sense of a “world” or cosmology through which to make sense of
+                it. Hölderlin’s term “patriotic,” (<hi rend="italic">vaterlandische</hi>) then, does
+                not refer to a “fatherland” or “native land” in the traditional sense of a
+                geographic or spiritual space in which some collective sense of belonging, an “our”
+                or “we,” might materialize. Rather, it refers to what remains after the “death” of
+                nature and the extinction of the “world” specific to the Greeks — that is, it is
+                what characterizes “we Hesperians” only on the condition that the “we” is not
+                understood according to a shared belonging to a given world.</p>
+            
+           <p> Hölderlin, however, goes on to claim that the “patriotic representations” that follow
+                out of the forcing of “the eternally anti-human course of nature on its way to
+                another world <hi rend="italic">more
+                    decidedly down to Earth</hi>”
+                results in a further development that, in fact, fundamentally unsettles poetry’s
+                ability to “represent” or express “our world." Whereas the “nature” of the Greeks undergoes
+                a “death” insofar as it is separated from the divine and therefore nature’s
+                animation by otherworldy forces, “our” nature is figured as a complete reversal of
+                    <hi rend="italic">all</hi> forms of representation in what Hölderlin calls a
+                “patriotic reversal” (<hi rend="italic">ein vaterlandische Umkehr</hi>):
+                
+            <quote>For patriotic reversal is the reversal of all modes and forms of representation.
+                However, an absolute reversal of these, as indeed a complete reversal altogether
+                without any point of rest is forbidden for man as a knowing being. And in patriotic
+                reversal where the entire form of things changes, and where nature and necessity,
+                which always remain, incline toward another form—be it that they transcend into
+                chaos or into a new form—in such a change everything that is necessary favors the
+                change. (PW 114-1–15; 2:457)</quote>
+                
+            This “patriotic reversal” does not entail another “representation” of the Earth, but
+                the “reversal of all modes and forms of representation” tout court. What we witness,
+                according to Hölderlin, is not just a “death” of nature but its fundamental
+                transformation into either “chaos” (which the translator offers for <hi
+                    rend="italic">Wildnis</hi> which implies not just formlessness but rather
+                something not-yet formed)—or simply “another form” (<hi rend="italic">andern
+                    Gestalt</hi>). What this other Earthward turn therefore invokes is not simply a
+                nature already bereft of any relation to the divine or to Man but one that begins
+                to escape the space of representation altogether, of any pre-given Gestalt. The fact
+                that this <hi rend="italic">other</hi> nature, which “inclines toward another form”
+                even as it threatens to undo every form and representation that attempts to
+                configure it, is at once inhuman and a process (it is a <hi rend="italic"
+                    >course</hi> of nature—a <hi rend="italic">Naturgang</hi>), a tendency rather
+                than an object or totality of objects, is not immaterial. It suggests that what characterizes “eternally
+                inhuman nature” for Hölderlin are processes that outstrip each other, where
+                tendencies toward order (the organic) are immediately generative of a disorder (the
+                aorgic) or an entropy that is hardly in any dialectical relation to the stable
+                system it disrupts. To put this in more contemporary terms, one could say that
+                Nature consists of an excess to the various systems — technological, agricultural,
+                scientific, moral, political, and so on — that attempt to delimit it and that by doing
+                so unwittingly generate the very “aorgic” disorder found within it. Hölderlin’s
+                Earth is, put simply, without any exteriority, while simultaneously an excess of
+                potentialities that no system, technical or living, artificial or organic, can
+                contain.</p></div>
+            
+            <div type="section">
+                <head>Hölderlinian
+                    “Homelessness,” World and Earth</head>
+            
+           <p> Examining the extent to which Hölderlin’s conceptualization of the Earth shapes his
+                poetics would require a longer discussion of the way his late hymns and river poems
+                    (<hi rend="italic">Der Rhine</hi>, <hi rend="italic">Germania</hi> and <hi
+                    rend="italic">Der Ister</hi> in particular) take up the organic/aorgic divide
+                and the “patriotic reversal” that his prose works describe. Hölderlin’s assertion
+                that a “complete reversal altogether without any point of rest is forbidden for man
+                as a knowing being” suggests that, despite its complete reversal of “all modes and
+                forms of representation,” poetry does in fact bear witness to the “real separation”
+                between Earth and world. The question, of course, is how. Heidegger’s seminars on
+                Hölderlin’s hymns<note place="foot" resp="author"> Heidegger taught several seminars on Hölderlin,
+                            each one focused on a reading of a river poem. See Martin Heidegger, <hi
+                                rend="italic">Hölderlin’s Hymn “Germania” and
+                                “The Rhine”</hi> (trans. William McNeill and Julia Ireland)
+                            Bloomington: Indiana University Press, 2014; Martin Heidegger, <hi
+                                rend="italic">Hölderlin’s Hymn
+                                “Remembrance”</hi> (trans. William McNeill and Julia Ireland)
+                            Bloomington: Indiana University Press, 2019; and Martin Heidegger, <hi
+                                rend="italic">Hölderlin’s Hymn “The
+                                Ister.”</hi> (trans. William McNeill and Julia Davis) Bloomington:
+                            Indiana University Press, 1996.</note> tend to foreground
+                claims that these poems are not only about poetic production but also historicity,
+                the “becoming historical” of a people and the way in which the “fatherland” comes
+                to be interpreted as “Being itself,” out of which the “fundamental orientation
+                towards beings as a whole arises and attains its configuration.” (Hölderlin’s <hi rend="italic"
+                    > Hymn “Germania” </hi>109).
+                In other words, Heidegger repeatedly insists on the extent to which Hölderlin’s
+                “patriotic reversal” entails a reconfiguration of world and Earth, between the
+                “orientation towards beings as a whole” that defines the world and the Earth’s
+                self-concealment. While it is certainly the case that Hölderlin’s late hymns
+                articulate, as Heidegger insists, a form of “poetic dwelling,”<note place="foot" resp="author"> See
+                            Heidegger, “Poetically Man Dwells” in <hi rend="italic">Poetry,
+                                Language, Thought</hi> 215.</note> it is not clear that anything like
+                    <hi rend="italic">Dasein</hi> or its “world-forming” capacities are involved.
+                The river poems treat the earthward turn described in Hölderlin’s prose works by
+                following his theory of the alternation of tones, identifying that alternation with
+                the movement of the river itself. The fact that his poems repeat something like the
+                “real separation” Hölderlin discusses in his prose works should problematize any
+                claims that his poetry concerns itself primarily with the withdrawal of the divine.
+                Put another way, whereas Heidegger identifies the rivers with the poet as a
+                “demi-god” situated in the time between the absence of the old gods and the arrival
+                of the new, Hölderlin’s poetics actually articulates instead a fundamental break
+                between the poet and the river, marking each as subject to a completely different
+                temporality. Whereas Hölderlin identifies his poetry initially with a backward
+                glance toward a conception of the Earth in mourning for a world that no longer
+                exists, the river’s silence and forward movement in fact denote a disjunction
+                between that conception and its own itinerary, which constitutes a reversal of the
+                “forms and representations” that make up that world. And yet, since a “complete
+                reversal” of those “modes and forms of representation” is impossible, the poem
+                nonetheless bears witness to this break in and through the language of that
+                    world.</p>
+            
+           <p> While a full analysis of the relation between Hölderlin’s longer hymns and his
+                conception of the Earth is not possible here, a quick perusal of one of his early
+                odes — <hi rend="italic">Der Main</hi> — provides a sense of what is stake. Like his
+                later hymns, <hi rend="italic">Der Main</hi> invokes a historical and geographical
+                “journeying” on the Earth. It opens in what Hölderlin calls the “naïve” mood, where
+                the speaker identifies his “song” with a longing for immediacy, in this case for an
+                encounter with “other lands” that remain explicitly idealized: 
+                
+                <lg type="stanza">
+            <l>True, on this living earth there are many lands</l>
+            <l>I long to see, and over the hills at times</l>
+            <l>My heart runs off, my wishes wander </l>
+            <l>Seaward, and on to those shores which more than</l>
+            <l>All others that I know have been glorified</l>
+                    
+            <l>Wohl manches Land der lebenden Erde möcht</l>
+            <l>Ich sehn, und öfters über die Berg' entheilt</l>
+            <l>Das Herz mir, und die Wünsche wandern</l>
+            <l>Über das Meer, zu den Ufern, die mir</l>
+            <l>Vor andern, so ich kenne, gepriesen sind; (“Der Main/The River Main” 1–5)<note place="foot" resp="author">
+                            See<hi rend="italic"> Poems and Fragments</hi>,
+                            137; Hölderlin,
+                            <hi rend="italic">Sämtliche Werke und Briefe Volume </hi>1,
+                            239–40. The poem will henceforth be cited in text as (M) followed by
+                            line numbers.</note></l></lg>
+                
+           By the third stanza, this longing has singled out a specific locale — ancient Greece — as
+                its focus:
+                
+                <lg type="stanza">
+            <l> O once I long to land there, on Sunium’s coast,</l>
+            <l> Once ask my way to your columns, Olympion, </l>
+                    
+            <l>Ach! Einmal dort an Suniums Küste möcht</l>
+            <l>Ich landen, deine Säulen, Olympion! (M 9-10)</l></lg>
+                    
+            Yet the poem thereby immediately shifts into the heroic tone once it recognizes the
+                bygone status of this ancient world. Desiring to “land” at Sunium, which features
+                several ruined temples including the temple of Zeus (the “Olympion”), the speaker
+                wishes to witness its “columns” before it too is consigned to oblivion: 
+                
+                <lg type="stanza">
+            <l>And soon, before the northern gale can</l>
+            <l>Bury you too in the scattered rubble</l>
+            <l>Of temples Athens raised, and their imaged gods</l>
+            <l>For long now desolate you have you stood, O pride</l>
+            <l>Of worlds that are no more!</l>
+                    
+            <l>Erfragen, dort, noch eh der Nordsturm</l>
+            <l>Hin in den Schutt der Athenertempel</l>
+            <l>Und ihrer Götterbilder auch dich begräbt;</l>
+            <l>Denn lang schon einsam stehst du, o Stolz der Welt</l>
+            <l>Die nicht mer ist!— (M 11–15)</l></lg>
+                    
+            As the poem goes on to intimate, this very destruction of the “world” represented by
+                the Greek temple is the condition for the emergence of the Earth, an even more
+                radical “stranger” (<hi rend="italic">Fremden</hi>) in relation to the poet than the
+                Greeks. The encounter with the “unbounded” Earth in the rubble of the divine leads
+                the speaker to declare his own “homelessness”:
+                
+                <lg type="stanza">
+            <l>To you, perhaps, you islands, yet one day shall</l>
+            <l> A homeless singer come; for he’s driven on</l>
+            <l>From stranger still to stranger, and the</l>
+            <l>Earth, the unbounded, alas, must serve him</l>
+            <l>In place of home and nation his whole life long</l>
+                    
+            <l>Zu euch vieleicht, ihr Inseln! geräth noch einst</l>
+            <l>Ein heimathloser Sänger; denn wander muß</l>
+            <l>Von Fremden er zu Fremden, und die</l>
+            <l>Erde, die freie, sie muß ja leider!</l>
+            <l>Statt Vaterlands ihm dienen, so lang er lebt (M 25–29).</l></lg>
+                    
+            The oscillation of tones, and the abrupt shift away from the poet’s focus on the gods
+                as the object and source of his song, gradually destabilizes the ground beneath the
+                speaker, disrupting any clear opposition between <hi rend="italic">Heim</hi> and <hi
+                    rend="italic">Fremde</hi>, home and the strange (or foreign). Faced with the
+                destruction of the temple of Zeus and the collapse of the world to which it
+                belonged, the speaker is instead “driven on” from stranger to stranger toward an
+                Earth freed from its determination by that
+                world, prior to its constitution in relation to another.</p>
+            
+           <p> This “unbounded Earth,” however is in no way another world or “homeland,” since, as
+                the passage makes clear, it “serves” the speaker in place of home and nation.
+                Instead, the ode ends by addressing itself to the river, but only once there is
+                another tonal shift after the caesura in the eighth
+                stanza separating the death of the homeless singer from the river:
+                
+                <lg type="stanza">
+            <l>And when he dies—but never, delightful Main,</l>
+            <l>Shall I forget you or your banks, the</l>
+            <l>Variously blessed, on my farthest travels.</l>
+            <l>Hospitably, though proud, you admitted me,</l>
+            <l>And, smoothly flowing, brightened the stranger’s eye</l>
+            <l>And, taught me gently gliding songs, and</l>
+            <l>Taught me the strength that’s alive in silence.</l></lg>
+                
+                <lg type="stanza">     
+            <l>Und wenn er stirbt—doch nimmer vergeßt ich dich,</l>
+            <l>So fern ich wandre, schöner Main! und</l>
+            <l>Deine Gestade, die vielbeglükten</l>
+            <l>Gastfreundlich nahmst du Stolzer! bei dir mich auf</l>
+            <l>Und heitertest das Auge dem Fremdlinge,</l>
+            <l>Und still hingleitende Gesänge</l>
+            <l>Lehrtest du mich und geräuschlos Leben. (M 31–36)</l></lg>
+                    
+            The river, as intermediary between the “boundless” Earth and the poet, is both the
+                condition of possibility for his song (it teaches “gently gliding songs”) and that
+                which remains unspoken, unpresentable, irreducible to the song it makes possible,
+                since the river also teaches “the strength that’s alive in silence.” If the
+                “unbounded” Earth has overturned or eluded every “form and representation,” the
+                alternation of tones, the oscillation between the death of one nature, and the
+                promise or birth of another testifies in Hölderlin to an “Earth” that figures
+                something other than a region of beings or an objectivity and that remains wholly
+                other to human representation, as alien as another planet. What remains, in
+                Hölderlin, is a relation of non-equivalence, and a collectivity predicated not simply on
+                intertwinement but on differentiations that allow for no common foundation or
+                starting point. Hölderlin’s poetic ecology is, to use Frédéric Neyrat’s formulation,
+                “an ecology of separation” that does not attempt to revive the old gods of nature,
+                who in fact died some time ago. Instead, it encounters something far
+                more strange and disorienting in and through what might be called its “geopoetics”:
+                the bringing-to-language of an Earth that has twisted free from any concept of
+                nature, from any “world” of Man or humans. Hölderlin’s Earth: a fully
+                    deterritorialized<note place="foot" resp="author"> I borrow this term from Gilles Deleuze and Felix
+                            Guattari. While it is found at work throughout their corpus, a
+                            particularly focused description of it can be found in the introduction
+                            to <hi rend="italic">A Thousand Plateaus</hi>; see Gilles Deleuze &amp;
+                            Felix Guattari, “Introduction- The Rhizome” in <hi rend="italic">A
+                                Thousand Plateaus</hi> (trans. Brian Massumi) Minneapolis:
+                            University of Minnesota Press, 1987, 9-–10.</note> landscape
+                without Man that is at the same time the very ground we walk on.</p></div>
+            
+            <div type="citation">
+                <head>Works Cited</head>
+           
+            <bibl>Deleuze, Gilles, and Felix Guattari. <hi rend="italic">A Thousand Plateaus.</hi>Translated by Brian Massumi, U of Minnesota P, 1987.</bibl>
+                
+            <bibl>Derrida, Jacques. <hi rend="italic">Margins of Philosophy.</hi> Translated by Alan Bass, U of Chicago P, 1982.</bibl>
+                
+            <bibl>Descola, Phillipe. <hi rend="italic">Beyond Nature and Culture.</hi> Translated by Janet Lloyd, U of Chicago P, 2013.</bibl>
+            
+                <bibl>Foti, Veronique. <hi rend="italic">Epochal Discordance: Hölderlin's Philosophy of Tragedy</hi>. State U of New York P, 2006.</bibl>
+                
+                
+            <bibl>Heidegger, Martin. <hi rend="italic">The Four Fundamental Concepts of Metaphysics.</hi> Translated by William McNeill and Nicholas Walker, Indiana UP, 1995.</bibl>
+                
+                <bibl>———. "Origin of the Work of Art" in <hi rend="italic">Basic Writings.</hi> Ed. David Farell Krell, Harper Collins Publishing, 1971.</bibl>
+                
+            <bibl>———. <hi rend="italic">Hölderlin’s Hymn “Germania” and “The Rhine.”</hi> Translated by William McNeill and Julia Ireland, Indiana UP, 2014.</bibl>
+                
+            <bibl>———. <hi rend="italic">Hölderlin’s Hymn “Remembrance.” </hi>Translated by William McNeill and Julia Ireland, Indiana UP, 2019.</bibl>
+                
+            <bibl>———. <hi rend="italic">H</hi>ö<hi rend="italic">lderlin’s Hymn “The Ister.”</hi> Translated William McNeill and Julia Davis, Indiana UP, 1996.</bibl>
+                
+            
+                
+            <bibl>———. “Only a God Can Save Us.” <hi rend="italic">Heidegger: The Man and the Thinker,</hi> edited by Thomas Sheehan, Routledge, 2017.</bibl>
+                
+            <bibl>———. <hi rend="italic">Poetry, Language, Thought.</hi> Translated by Albert Hofstadter, Harper and Row, 1971.</bibl>
+                
+            <bibl>Hölderlin, Friedrich. <hi rend="italic">The Death of Empedocles.</hi> Translated by David Farrell Krell, State U of New York P, 2008.</bibl>
+                
+            <bibl>———. <hi rend="italic">Essays and Letter on Theory.</hi> Translated Thomas Pfau, State U of New York P, 1988.</bibl>
+                
+            <bibl>———. <hi rend="italic">Poems and Fragments.</hi> Translated by Michael Hamburger, Anvil Press, 2005.</bibl>
+                
+            <bibl>———. <hi rend="italic">Sämtliche Werke und Briefe Volume 1–2</hi>. Carl Hanser Verlag, 1970.</bibl>
+                
+            <bibl>Lacoue-Labarthe, Phillipe. <hi rend="italic">Typography.</hi> Translated by Christopher Fynsk, Stanford UP, 1998.</bibl>
+                
+            <bibl>Latour, Bruno. <hi rend="italic">Politics of Nature.</hi> Translated by Catherine Porter, Harvard UP, 2004.</bibl>
+                
+            <bibl>———. “The Promise of Constructivism.” <hi rend="italic">Chasing Technoscience: Matrix for Materiality.</hi> Edited by Don Ihde and Evan Selinger, Indiana UP, 2003.</bibl>
+                
+            <bibl>Mitchell, Andrew. <hi rend="italic">The Fourfold: Reading the Late Heidegger.</hi> Northwestern UP, 2015.</bibl>
+                
+            <bibl>Morton, Timothy. <hi rend="italic">The Ecological Thought</hi>. Harvard UP, 2010.</bibl>
+                
+            <bibl>Nancy, Jean-Luc. <hi rend="italic">After Fukushima.</hi> Translated by Charlotte Mandell, Fordham UP, 2015.</bibl>
+                
+            <bibl>Neyrat, Frédéric. <hi rend="italic">La Part Inconstructible de la Terre.</hi> Paris: Seuil, 2016. </bibl>
+                
+            <bibl>———. <hi rend="italic">The Unconstructible Earth.</hi> Translated by Drew S. Burk, Fordham UP, 2019.</bibl>
+                
+            <bibl>Schelling, F. W. J. <hi rend="italic">Idea for a Philosophy of Nature.</hi> Translated by Errol E. Harris and Peter Heath, Cambridge UP, 1995.</bibl>
+                
+            <bibl>Schmitt, Carl. <hi rend="italic">The Nomos of the Earth.</hi> Translated by G. L. Ulmen, Telos Press, 2006.</bibl>
+                
+            <bibl>Vernant, Jean-Pierre, and Pierre Vidal-Naquet. <hi rend="italic">Myth and Tragedy in Ancient Greece, Vol 1.</hi> Translated by Janet Lloyd, Zone Books, 1990.</bibl>
+           </div>     
+        </div>
+        </body>
+    </text>
+</TEI>
