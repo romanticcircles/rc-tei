@@ -1,0 +1,728 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">After Word</title>
+                
+                
+                <author role="primary">
+                    <name>Julie Carlson</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-02-13</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.psychosis.carlson.</idno> 
+                <idno type="resource">psychosis</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">After Word
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Julie</forename>
+                                <surname>Carlson</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/psychosis/praxis.2023.psychosis.carlson"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romantic Psychosis</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-02-13">MONTH DAY, YEAR</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>February 13, 2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    <text>
+        <front>
+            <div type="abstract">
+   
+            <p>My response to these essays speculates on two motivations for their revisiting the
+                topic of Romantic psychosis now. One is the manifest derangement of top male
+                leadership in the United States as it showcases the bankruptcy of phallic regimes
+                and the need for more expansive, fluid alternatives. A second is how recent
+                theorizations of mind/brain and body/mind/world entanglements reinstate the value of
+                poetry in mobilizing a neurodiversified array of sensemaking processes. At the same
+                time, neuroanalytic accounts of schizophrenia identify malfunctions in mechanisms
+                that demarcate inner from outer, self-experience from world experience, suggesting
+                that (post)humanist desires to intensify the porosity of boundaries must continue to
+                reckon with the terror and arrest that accompany thought experienced as decoupled
+                from the thinker. It looks for guidance on how to live on this edge.</p>
+            </div>
+        </front>
+        <body>
+            <div type="essay">
+            <head>"After Word"</head>
+            <byline>
+                <docAuthor>Julie Carlson</docAuthor>
+                <affiliation>University of California, Santa Barbara</affiliation>
+            </byline>
+                
+            <p>This triad of essays invites us to think again about Romantic psychosis. What’s to
+                think? There’s a well-established tradition of linking genius to madness and Romantic poetic
+                genius to psychopathology. The linkage propels revolutionary thought in the Romantic
+                era bent on destroying established habits of mind and their solidification into
+                societal institutions and cognitive mechanisms. It prizes the perception of
+                before-unapprehended connections between persons and things, and it honors the
+                vitally metaphorical vocabulary of poets for exercising the capacity in less
+                visionary persons. It wants to blow things up, de-link, vacate. This desire
+                endangers the mind-brain-bodies that it inhabits. Neuropsychological studies of
+                extraordinary creativity emphasize the salience of affective disorders, especially
+                bipolar disorder, in creative writers, a connection that Kay Redfield Jamison
+                amplifies in her analysis of Lord Byron where she lists some 14 British Romantic-era
+                writers with “probable cyclothymia, major depression, or manic-depressive illness”
+                (267). Subsequent studies such as those by Doina Cosman and Daniel Nettle foreground
+                schizotypic traits. Some scholars characterize the distinction in
+                literary-historical terms, with Romantic poetics aligned with affective disorders
+                and Modernism with psychosis, as does Louis Sass. </p>
+                
+            <p> The “creative personality” is not the focus or concern of these reflections on
+                psychotic manifestations in Mary Wollstonecraft, Beau Brummell and the Prince
+                Regent, and Elizabeth Barrett Browning nor is individual psychopathology, even if
+                the personages on which they focus are often considered deranged by words and poetic
+                wording. Each essayist leaves that domain to clinical experts and instead treats
+                psychosis as a cultural-political diagnostic whose registering symptoms are
+                linguistic and occasionally poetic. Moreover, their joint expertise in Lacanian
+                psychoanalysis results in shared understandings and estimations of the cultural
+                “benefits” of psychotic approaches to reality: apprehending the phallus as
+                fictional, the unconscious as structured like a language, the Symbolic as vitally
+                nonsensical, jouissance as the domain of the feminine. These impulses guide what the
+                psychotic manifestations in their chosen texts are said to portend: ontological
+                collapse of the subject (Singer-Wollstonecraft); pissing on walls as the jouissance
+                of political writing (Fay-Brummell); women writers as keeping asynchronous time
+                (Sigler-Barrett Browning). In this regard, the essays are “properly” schizoanalytic
+                in Deleuze and Guattari’s sense. Their featured breakthroughs break through various
+                Oedipal and capitalist strictures, unleashing particulates of the Real in subjects
+                en route to becoming other. </p>
+                
+            <p> Fay’s essay is the most direct in suggesting why we are being asked to think again
+                about Romantic psychosis now. All signs indicate that our recent male leaders are
+                psycho and that U.S. women in power are still being screwed. Fay argues that
+                analyzing the breakdown in the friendship between Beau Brummell and the Prince
+                Regent in 1811 illuminates one of the “zanier” episodes of Regency leadership
+                culture and its exposure of lack in the lack thereof. But that situation, she
+                suggests, is nothing compared to the “nearly incomprehensible psychotic” aspects of
+                today’s bully pulpiteers and the fates of their closest associates, cut down and cut
+                off at the first hint of betrayal. To the near-proverbial assertion on the Left that
+                Trump is psycho, Fay adds a mind-blowing twist.<note place="foot" resp="author">See Dean A. Haycock's <hi rend="italic">Tyrannical Minds </hi> for more along this line.</note>
+                Trump is a dandy. At the least, he sports the dandy’s constitutive split- “both phallic power and its empty shell, both manliness
+                and its emasculated formality”—and shameless delight in “pissing on the world.”
+                Fay’s Regency dandies, whose extravagant performativity and bankrupting extravagance
+                forge the tight connection between Brummel and the Prince, are further useful in
+                unmasking their own fictionality. The feigned equality among bro-players is always
+                at risk of erosion when one player’s enjoyment is sovereign. Put a different way,
+                even as “the trump card in the social register,” the dandy at his height takes
+                countering culture only so far—that is, back to oedipalized routings. Brummel,
+                through outlays and witticisms, “dewigs the signifier rather than unseats it,”
+                reestablishing the order that such flows claim to flout. True dethroning comes from
+                elsewhere. According to Fay, the schizoanalytic component of this breakup between
+                dandified friends is expressed by the body of this pairing’s third party, the
+                Regent’s legal wife and future queen, Caroline. Her significance as “fake” and
+                “mythic” is right on the surface, a bodily surface that in its outflows—refusal of
+                confinement and indifference to the gaze—“evinces a jouissance of her own.”
+                Registering in the flesh the “ravages of the Regency’s play with Oedipal myths,”
+                Caroline expresses a “clear rebuke to the status of the impossible woman under
+                Regency psychosis.” </p>
+                
+            <p> Fay leaves hanging, where her analysis takes us, a patently dewigged Trump: “If
+                there are no lessons here for us to learn, there are at least warning signs we might
+                do well to register.” Singer’s opening sentence registers the specter in
+                characterizing <hi rend="italic">The Vindication of the Rights of Woman</hi> as one
+                of Wollstonecraft’s “most energetic rebukes” to “her own Trumpish king” but then
+                moves on by moving back in time. What both Singer’s and Sigler’s essays share with
+                Fay’s assessment is a “clear rebuke” to those who render the “impossibility”
+                signified by Lacan’s “W/oman” into social policy by deriding women’s perspectives as
+                lacking, demented, paranoid, insane. Thus, they concentrate on feminist textual
+                poetics that they read as mobilizing this or that vector of nonphallic jouissance.
+                For Singer, who reads <hi rend="italic">The Wrongs of Woman; or Maria</hi> in the
+                meandering, self-disseminating context of <hi rend="italic">Letters Written during a
+                    Short Residence in Norway, Sweden, and Denmark</hi>, nonphallic jouissance is
+                envisaged as ecstatic “smorging” between a female narrator and her environs. If the
+                initial setting of Maria in an asylum literalizes patriarchy’s license to categorize
+                her delusional and intertextual desires as psychotic, the I of
+                <hi rend="italic">Letters Written </hi> pens an explosive
+                missive: “a love letter to a jouissance freed from” a “human object, the symbolic
+                law of (Fanny’s) father, any single object, and the notion of a discrete,
+                self-enclosed object that would try but fail to substitute for the lack at the heart
+                of the phallus.” Developed scenes of “intense mutual masturbation” of a periodically
+                gushing I in a sinuous, vaporous landscape reveal Wollstonecraft “at her most
+                psychotic” and psychosis as harbinger of an ontologically-different subject—at once
+                human and nonhuman because so fully entangled with her environs or “something other
+                than human altogether.” By contrast, Maria’s means of liberation take up the
+                nonsymbolic but writerly dimensions of jouissance. Desirous exchanges between Maria
+                and Darnford in the asylum, conveyed via marginal comments circulated in and through
+                Rousseau’s <hi rend="italic">Nouvelle Heloise</hi>, materialize an erotics of
+                paratextuality that exceeds heteronormative paradigms and protocols: “Such paratext
+                is not a supplement to the proper symbolic but rather an instance of Real
+                materiality of affect that alters the text and its symbolic function.” The
+                cut-off-ness by death of <hi rend="italic">Wrongs of Woman</hi> renders inconclusive
+                how other Maria becomes through this instance of paratextual-sexuality (it hardly
+                penetrates Darnford). But it places books into the natural environment so salient in
+                shaping the self as a human-nonhuman amalgam, especially for an “<hi rend="italic"
+                    >être écrivain</hi>.” </p>
+                
+            <p>Sigler’s reading of Book One of Barrett Browning’s <hi rend="italic">Aurora
+                    Leigh</hi> extends Singer’s tribute to Wollstonecraft’s “power of positive,
+                delusional thinking” to a set of Romantic-era women writers who inform the nature
+                and temporality depicted in this novel in verse. Barrett Browning’s repurposing of
+                Coleridge’s lime tree from “This Lime-Tree Bower My Prison” reveals a “psychotic
+                poetics” that builds on a “tradition of counter-temporal women’s writing inherited
+                from Catherine Macaulay, Mary Wollstonecraft, Charlotte Smith, and Mary Shelley” in
+                order to counter the phallus-pleasuring (aka compensatory) gains of male romantic
+                figural transport. In contrast to Coleridge’s lime tree bower that reminds a
+                conversant male I of the hierarchical functioning and supremacy of consciousness,
+                Barrett Browning’s isolated lime tree provokes major anxiety in the female
+                protagonist. Perceived by Aurora through a window from within Leigh Hall, this tree
+                “seemed to have come on purpose from the woods / To bring the house a message” (bk.
+                1, lines 484–85)—not simply that domesticity is imprisoning but, in Sigler’s
+                estimation, that “the lime tree, and perhaps the English poetic tradition, may want
+                something from her” beyond silence, subordination, or the promise of futurity via
+                reproduction and procreation. In a word, it brings, by manifesting, foreclosure. The
+                arrival of this message is “menacing” because it uproots the grounds of Aurora’s
+                sanity and feminism: her conviction that the “life, thrust on me,” can be kept “on
+                the outside / Of the inner life” (1.477–78). At the same time, it flattens her sense
+                of perspective—whether she is looking at the tree or it is beholding her. Sigler
+                reads this collapsed exchange as indicating “two asynchronous temporalities” within
+                the poem: Aurora’s, whose present time is the aspirational future envisioned by the
+                speaker and author of “This Lime-Tree Bower,” and the tree’s, whose arrival “on
+                purpose” and past-perfectly tensed (“seemed to have come”) is, according to Sigler,
+                the “externalized embodiment of the father’s signifier,” here a “love” permanently
+                in absentia. This split time supported by the poem’s leveling of subject-object
+                hierarchies, in turn, highlights what distinguishes Barrett Browning’s psychotic
+                poetics from those of her female forebears. The material workings of their
+                signifiers expose gaps in temporality but generally without employing psychotic
+                content. Also, through Aurora’s collapse of the “I” into the category “woman,” she
+                is “becoming-woman in Schreber’s sense and finding new arrangements for enjoyment
+                that do not depend upon the cut of castration.” </p>
+                
+            <p>Read as a unit, then, these accounts of Romantic psychosis, in the linkages they
+                forge between Lacanian/post-Lacanian theory and Romantic women writers and queens,
+                continue unmasking the fiction that dicks are mandated to reign or that those ruling
+                us now ever try to rein themselves in. The essays clearly also want more than
+                impasse for those assigned to the feminine. What more they seek and where it is
+                heading is suggested by tracking verbal echoes among them. A “thing beyond” that is
+                “coming” in “the air” or seeming “to come from” message-bearing trees, or from piss
+                defacing not just walls but their ongoing erection, signals a more fluid realm of
+                cogito-secretions. This emergence is accentuated in Singer’s exploration of vaporous
+                pleasure undeferred but also prophetic. Prophecy cum jouissance, this spells the end
+                to humankind as humans thus far have known it. Barrett Browning’s uptake and slap
+                down of masculinist Romantic poetry “leaves Romanticism vulnerable to its future,
+                which here never stops being written,” and is itself a harbinger of the “ontological
+                change” that Queen Caroline embodies and Wollstonecraft envisions as “a matter of
+                time.” </p>
+                
+            <p>Landing us in a landscape of vibrant materialities and ontic-becomings is in some
+                senses a logical outcome of using Romantic texts to think about psychosis. By
+                linking the fields of literary-cultural studies and mind studies, Romantic psychosis
+                highlights not only their convergence in poetics but also their joint program of
+                rethinking thought as the way to a nonphallic or other-becoming futurity. From
+                within the field, those like Kate Rigsby now read Romantic nature poems as
+                exemplifying embodied and extended cognition. Psychosis shares with transcorporeal,
+                biosemiotic, and neurodiverse forms of processing an emphasis on unconscious,
+                nonconscious, thingified, and nonanthropocentric qualities of mentation. To an
+                extent, it shares their ethos—that there are many ways to be a mind and such
+                diversity does, and should, supersede enlightened, and exceptionalist, conceptions
+                of reason. This is the apparent logic behind Sigler’s claim that “ordinary
+                psychosis,” as theorized by Lacanian Jacques-Alain Miller, is particularly germane
+                to “this historical moment of ours” because it posits a “fundamental kinship”
+                between the “purportedly normal subject and the psychotic.” A subject’s status
+                before the onset of a triggered psychosis, ordinary psychosis evinces “disturbance
+                in the way you feel the surrounding world, in the way you feel your own body, and in
+                the way you relate to your own ideas”; that is, disturbances at the “inmost juncture
+                of a subject’s sense of life” (Miller 41). </p>
+                
+            <p>A similar logic of nonconsciousness underlies the linkage between psychosis and
+                poetics. De-emphasis on cognitive sense as what poetry is making, even as poems
+                envelop listeners in the sensuous qualities of sound, is why poetry both appeals and
+                is seen as speaking to the most nonlinear and nonconformist of minds. This argument
+                is exemplified in Ralph Savarese’s concept of “neurocosmopolitanism,” whereby the
+                aspiration it signifies, of moving beyond mere tolerance of neurodiversity toward an
+                actual dethroning of neurotypicality, is best effected through poetry, the
+                “linguistic meeting ground” between autists and neurotypicals (400). Because autists
+                are primarily “sensing” creatures and neurotypicals are “interpretive” creatures,
+                autists are less apt to filter out input from the environment in contrast to
+                neurotypicals who quickly learn to attend to what is “self-significant.” Nor do
+                autists privilege “human speech over all other sounds in the environment” but
+                instead concentrate on patterning, rhythms, sounds, in other words, on
+                paralinguistic and “precategorical auditory information” (397). </p>
+                
+            <p>Without intending to conflate autism with psychosis, Savarese’s argument is useful
+                for highlighting how recent discourses on schizophrenia converge with and diverge
+                from a neurocosmopolitan ethos. Jonathan Metzl’s <hi rend="italic">The Protest
+                    Psychosis: How Schizophrenia Became a Black Disease</hi> is one of many sobering
+                illustrations of how psychological diagnoses can become discriminatory acts of
+                racial profiling. Reviewing clinical records in the United States from the 1960s to
+                the 1990s, Metzl found that African-American men were diagnosed as having the
+                paranoid subtype of schizophrenia five to seven times more often than white men (and
+                more frequently than other ethnic minority groups). Not coincidentally, this
+                “finding” only began to emerge at the start of the Civil Rights era in the United
+                States. Up until then, schizophrenia primarily was associated with nonviolent,
+                white, petty criminals, a considerable proportion being women. As relates to
+                poetics, autobiographical as well as clinical accounts of schizophrenia have long
+                highlighted resonances. Sometimes called “word salad,” psychotic speech can be
+                radically agentive (speaking that occurs without the felt experience of an I as
+                speaker) and thingified (words perceived as objects, as things in themselves) (Saks
+                124). Marguerite Sechehaye’s <hi rend="italic">Autobiography of a Schizophrenic
+                    Girl</hi> describes how the “recurring syllables, ‘icthiou, gao, itivare’” and
+                their like, “came of themselves and by themselves meant nothing. Only the sound, the
+                rhythm of the pronunciation had sense” (120–21). Word-as-thing relates to the
+                con/fusion between internal and external worlds so characteristic of schizophrenia.
+                “Renee” experiences “the wind as bearing a message for me to divine” (32). “Denis”
+                describes “his semen self” communing with “mountains, streams, or the wind” and
+                “possessed of an intelligence that could inseminate relations with others” (Bollas,
+                    <hi rend="italic">When the Sun Bursts</hi> 87). Schreber is inseminated by God’s
+                rays—an experience, as Sigler notes, remarkably anticipated in
+                <hi rend="italic">Aurora Leigh </hi>when the sun comes into
+                Aurora’s chamber “saying, ‘Shall I lift this light / Against the lime-tree, and you
+                will not look?’” </p>
+                
+            <p>These con/fusions of inner and outer—evident in phenomenological accounts of
+                schizophrenia, poetics, and new materialism—are now being registered in
+                neurobiological studies of first-episode schizophrenic patients. One could say that
+                Vittorio Gallese’s team of researchers at the University of Parma are acquiring
+                material evidence for why the life “thrust on me” is impossible to keep “on the
+                outside / of the inner life” as a general condition of subjectivity but with a
+                particular bearing on schizophrenic persons. Their work draws on neuropsychological
+                and neuroimaging studies that have identified “candidate brain regions” responsible
+                for self-experience and self-regulating processes in healthy subjects.
+                Self-experience refers to regions responsible for the emergence of a minimal notion
+                of the bodily or “core” self that establishes the “mineness” of the phenomenal
+                field, embodiment of point of view, and issues of agency and bodily ownership. The
+                basic finding is that the motor system plays a crucial role in how persons
+                distinguish themselves, as bodily selves, from other human bodies and that
+                self-related stimuli are processed faster and more accurately compared to
+                other-related body stimuli. Evidence suggests “a tight relationship” between the
+                “bodily self-related multimodal integration” carried out by the cortical motor areas
+                (especially the ventral premotor cortex or vPMC) that guide one’s motor behavior and
+                the “implicit awareness one entertains of one’s body as one’s own body and of one’s
+                behavior as one’s own behavior” (especially in the posterior insular cortex or pIC)
+                (Gallese and Ferri 1–2). </p>
+                
+            <p>This interconnection is shown to be variously disturbed in their several studies
+                comparing first-episode schizophrenics (FES) to healthy controls. One study
+                assessing implicit and explicit knowledge about the bodily self in the two groups
+                showed that FES patients did not display the self-advantage effect in the implicit
+                task and also tended to misattribute other people’s body parts to themselves (Ferri
+                et al., “Bodily Self and Schizophrenia” 1370). Another, focusing on the social
+                perception of touch, showed that activation patterns in the posterior insular
+                cortex, a central node in the neural representation of “the material me,” did not
+                differ for FES patients when they experienced being touched themselves versus when
+                they observed someone else being touched. At the same time, it found significant
+                differences in the left hemisphere pIC, as compared to healthy controls, in their
+                processing of observed touch with a positive valence (caress) versus a negative
+                valence (hit) (Ebisch et al., “Out of Touch with Reality?” 295). A third study,
+                exploring the interoceptive accuracy of schizophrenic patients by administering a
+                heartbeat perception task, indicated marked reduction in their ability to perceive
+                physiological stimuli originating inside the body and thus to discern a “self” to
+                which inner sensations could be attributed. A fourth posits an interrelation between
+                two different perspectives on self-disturbance in FES, those relating them to
+                “dysfunction of brain lateral cortices” (i.e., vPMC and pIC) and those to
+                “alterations of midline brain structures” (i.e., the posterior cingulate cortex or
+                PCC) (Ebisch et al., “Altered Brain Long-Range Functional Interactions” 1075).</p>
+                
+            <p>These studies, in other words, represent preliminary evidence of the neural
+                mechanisms underpinning the “impossibility” for schizophrenic patients to ground the
+                “enigmatic nature of the world, particularly of the world of others,” into their
+                “defective” bodily presence (Gallese and Ferri 6). In so doing, they pinpoint a
+                major limit to the desirability of the ontological plasticity currently theorized as
+                vibrant materialism—what
+                <hi rend="italic">Aurora Leigh </hi>calls its “menacing”
+                nature. The import of Gallese et al.’s findings is not only that the “extremely
+                flexible sense of body ownership” as well as the alternately heightened and
+                flattened sense of agency characteristic of schizophrenia has a neurobiological
+                dimension, comprehension of which could benefit clinical treatment (2). (They
+                mention grandiosity but other positive symptoms relate to defective forms of bodily
+                presence [5-7]). The findings also attribute a neural level to the already several
+                levels (psychic, affective, cognitive) on which persons experiencing a psychotic
+                break are rendered defenseless. The nonrhetorical aspect of my opening “what’s to
+                think?” in rethinking Romantic psychosis is that psychosis exposes the full terror
+                of thought without a discernible thinker, a “self-experience” characterizable as the
+                state in which a “no-thing thinks” (Bollas, <hi rend="italic">When the Sun
+                    Bursts</hi> 143). From an immediately postbreak perspective, any attempt to
+                examine the inner world is to “invite the catastrophe of the arrival of thoughts,”
+                the only “protective measure” against which is further self-mechanization or
+                “dehumanization,” since the “self cannot be damaged if it is not there to begin
+                with” (Bollas 172, 93). Who would have thought that the outer world, in its
+                otherness, separateness, and objecthood, would provide more options for avoiding or
+                lessening danger than the human psyche in a delusional and/or paranoid state? Having
+                an “out there,” however porously in place, offers at least the possibility of
+                walking away from enemy forces seeking or seeming to destroy or to close one in. New
+                biologists specify both porosity and the existence of a “sac” as necessary if not
+                sufficient to life.</p>
+                
+            <p>I do not mean to exaggerate the isolation that psychotics experience or deny
+                altogether its “romantic,” pantheistic features. Schizophrenics are capable of
+                extended periods of lucidity, just as “purportedly normal persons” have processing
+                mechanisms similar to those that characterize “ordinary psychosis.” Still, the world
+                as the language horizon of the psychotic is radically private, even if some basic
+                qualities of delusional states can be identified and are shared. Of the many
+                accounts written by schizophrenics, Bollas writes, “no two are even remotely alike”
+                    (<hi rend="italic">When the Sun Bursts</hi> 123). What interests me is how the
+                privacy of psychotic signifiers affects the neurocosmopolitan efficacy that Savarese
+                grants to poetry. As relates to this version of neurodiversity, poetry is at once
+                the closest simulation of psychotic speech <hi rend="italic">and</hi> the least
+                accurate representation or exemplification of a psychotic speech horizon. As
+                simulator, we might identify as “candidate [poetic] regions” pronoun shifters, lack
+                of any obvious subject or object, and use of direct quotation within a poem.
+                Sechehaye discusses how addressing “Renee” in the third person aided the restoration
+                of communication by acknowledging “Renee’s” self-conception as a “personage” more
+                than a person (147; also 52–53). Bollas describes poetry’s efficacy, and its
+                distinctiveness from prose, as its ability to be “composed without any obvious
+                subject or object; indeed, it can be free of pronouns altogether” (<hi rend="italic"
+                    >When the Sun Bursts</hi> 119). Use of direct quotation within a poem is
+                arguably the closest of these simulations because it stages the from-elsewhere-ness
+                of speech. Such marked passages (“Beauty is truth, truth beauty”) disturb the
+                conscious and unconscious flow of any poem by inquiring after their sources. Who is
+                speaking? From where do these words come? What are they to me? What do they want,
+                assume, or require from me? They thus parallel the estrangement from language and
+                from the “I” that organizes the mental representations of speech often experienced
+                by psychotics. The difference, of course, is that these staged disturbances are
+                enfolded within an entity that otherwise presumes and embodies the opposite: poetic
+                flow in its most multilayered, allusive, and transmodal dimensions; expressivity as
+                outreach. Neither the messages nor affects evoked in poems fully settle the
+                questions that these simulated disturbances raise about the sources and boundaries
+                of existence. But neither do they abandon individuals to this arrest. By contrast,
+                dialogic exchange for psychotics is severely impeded by the sense of enclosure that
+                ensues from their <hi rend="italic">lacking</hi> a basic sense of self. </p>
+                
+            <p>Perceiving poetry as the medium closest to psychotic
+                speech but also farthest from its constricted horizons clarifies the ethos of its
+                neurodiversity. Poetic modes of breaking through, however unanticipated and
+                incomprehensible, are outward-reaching and, as such, desirous of contact, of making
+                sense. Their alterity appeals to otherness; it is part of art’s avant garde
+                aesthetic politics as well as literature’s more debatable evocation of empathy.
+                Capacity, yes; history, no. Whether, or how, perceiving poetry in this light helps
+                to address our recent onto-political situation is less clear, especially given the
+                extremity of the vacuum at the top. Certainly, it identifies refusal to communicate
+                as the essence of Trumpian speech. We also could construe his psychotic behavior as
+                not only enacting the Lacanian Father-of-Enjoyment but also underscoring the
+                relevance of distinguishing him from the 
+                Father-of-the-Law. The former is psychoticizing because he uses everyone purely as
+                objects for his own enjoyment, whereas the latter, by enacting acceptance of
+                limitation, owns up to mortality, creaturely vulnerability, and necessity of aid—a
+                model that all developing subjects, including citizen-subjects, sorely need. </p>
+                
+            <p>Still, I need guidance on where Romantic psychosis takes us now that we recognize it
+                as anticipating schizoanalysis, ordinary psychosis, and vibrant materiality. What is
+                becoming in these borderless states, and what will become through them? Two somewhat
+                dispiriting thoughts occur in this context. One is that, as a group, psychoanalysts
+                currently know differently what they and “romanticists” have long known about
+                artists and their troubling of mind. Socially conscious psychoanalysts—itself a
+                neologism though hardly a new attribute—are increasingly choosing to practice group
+                therapy as a method more suited to the porosity between inner and outer, self and
+                community, psyche and culture, individual and group trauma (Nitsun 3). Likewise,
+                approaches to phobia have widened to better handle group-targeting phobias (i.e.,
+                Islamophobia, xenophobia, homophobia). Interpretation of dreams, once deemed the
+                royal road to the unconscious, now circuits through a social dreaming matrix, a
+                process involving a group of participants who share dreams and associations thereto
+                on the theory that the dreams shared “reflect a collective cultural product, a
+                social unconscious comprised of dissociated social, political, and cultural
+                experience,” often bespeaking collective trauma or group-isolating realities
+                (Bermudez and Kramer). Drawing on but also departing from Wilfred Bion’s largely
+                negative assessment of the group as repressive and destructive, Tavistock
+                practitioners orchestrate the therapeutic group so that it enacts a democratic body
+                that better befits living together. Whatever any member of the group says, no matter
+                how aggressive or offensive, is acknowledged by every member as in some way
+                representative of all members, thereby annulling the recourse to scapegoating or
+                demonizing (Bollas, <hi rend="italic">Meaning and Melancholia</hi> 82–88). Further,
+                Morris Nitsun conceptualizes the “anti-group” in order to work with the destructive
+                processes that threaten the functioning of the group so as to evoke and evolve
+                creative responses. Akin to D. W. Winnicott’s “creative destruction,” Nitsun’s
+                “anti-group” works to link the aggression within the group and toward the
+                group-as-object to its creative roots and potential transformation. His aspiration
+                is to bring group analysis “closer to the political sphere” by defusing the
+                “psychology of scarcity” at the root of personal and cultural disintegration,
+                placing greater emphasis on differentiation and otherness in relationships between
+                people (16, 269, 276).</p>
+            <p>These encouraging developments in boundary-reconceptualization are dispiriting,
+                however, in bringing to consciousness the largely unacknowledged phobia suffusing
+                the contemporary scene: psychophobia, what Bollas describes as “hatred of looking
+                into the mind for fear of what we shall find” (<hi rend="italic">Meaning and
+                    Melancholia</hi> xiii). Shared by psychotics but
+                hardly exclusive to them, this phobia is terrifying because treatment thereof is
+                foreclosed by the problem and the problem is so widespread. Put another way, the
+                psychotic’s “hatred of looking into the mind” is
+                “excusable” on several scores: neural wirings, maternal deficiencies, a hole—not
+                simply a lack—in the symbolic order; in short, never having had a remotely secure
+                base from which to look out upon or into anything. Current psychophobic rulers and
+                followers have fewer excuses. Plus, psychotics often
+                seek help and, contrary to classical distinctions, prove capable of analysis and
+                symbolization. This distinction helps to recharacterize the kinship between
+                psychoanalysts and artists as residing in a nonpsychophobic alliance with
+                psychotics. They too confront the deepest darkness of the mind/brain as terrifyingly
+                electrifying and vice versa, the better to spark creativity. In this respect, they
+                render and bring into the public what Freud glimpsed in the delusions of psychotics,
+                fledgling attempts to mend a collapsed world as well as ego. These essays share that
+                glimpse and its validity. </p>
+           
+            <div type="citation">
+                <head>Works Cited:</head>
+            
+            <bibl>Bermudez, George. “The Vulnerable Self and the Vulnerable Community: A Challenge/Problem for Psychoanalysis.” <hi rend="italic">Other/Wise</hi>, 2016.</bibl>
+                    
+            <bibl>Bollas, Christopher. <hi rend="italic">Meaning and Melancholia: Life in the Age of Bewilderment</hi>. Routledge, 2018.</bibl>
+                
+            <bibl>———. <hi rend="italic">When the Sun Bursts: The Enigma of Schizophrenia</hi>. Yale
+                UP, 2015.</bibl>
+                
+            <bibl>Cosman, Doina, et al. “The (Pre-/Post-) Romantic Bedlam.” <hi rend="italic">Romanian
+                    Journal of Artistic Creativity,</hi> 2014, pp. 134–52.</bibl>
+                
+            <bibl>Deleuze, Gilles, and Felix Guattari. <hi rend="italic">Anti-Oedpius: Capitalism and
+                    Schizophrenia</hi>. Translated by Robert Hurley, Mark Seem, and Helen R. Lane, U
+                Minnesota P, 1983.</bibl>
+                
+            <bibl>Ebisch S. J., et al. “Altered Brain Long-Range Functional Interactions Underlying the
+                Link Between Aberrant Self-Experience and Self-Other Relationship in First-Episode
+                Schizophrenia.” <hi rend="italic">Schizophrenia Bulletin,</hi> vol. 40, 2014, pp.
+                1072–82. </bibl>
+                
+            <bibl>Ebisch S. J., et al. “Out of Touch with Reality?: Social Perception in First-Episode
+                Schizophrenia.” <hi rend="italic">Social Cognitive and Affective Neuroscience,</hi>
+                vol. 8, 2013, pp. 394–403. </bibl>
+                
+            <bibl>Ferri F., et al. “Bodily Self and Schizophrenia: The Loss of Implicit Self-Body
+                Knowledge.” <hi rend="italic">Conscious Cognition,</hi> vol. 21, 2012, pp. 1365–74. </bibl>
+                
+            <bibl>Gallese, Vittorio, et. al. “Interoception and Positive Symptoms in
+                Schizophrenia.” <hi rend="italic">Frontiers in Human Neuroscience,</hi> vol. 10,
+                2016, https://doi.org/10.3389/fnhum.2016.00379.</bibl>
+                
+            <bibl>Gallese, Vittorio, and Francesca Ferri. “Psychopathology of the Bodily Self and the
+                Brain: The Case of Schizophrenia.”
+                <hi rend="italic" xml:space="preserve">Psychopathology, </hi>2014, pp. 1–8. </bibl>
+                
+            <bibl>Haycock, Dean A. <hi rend="italic">Tyrannical Minds: Psychological Profiling,
+                    Narcissism, and Dictatorship</hi>. Pegasus, 2019.</bibl>
+                
+            <bibl>Jamison, Kay Redfield. <hi rend="italic">Touched with Fire: Manic-Depressive Illness
+                    and the Artistic Temperament</hi>. Free Press, 1996.</bibl>
+                
+            <bibl>Lacan, Jacques. <hi rend="italic">The Seminar of Jacques Lacan Book III: The
+                    Psychoses</hi>. Edited by Jacques-Alain Miller, translated by Russell Grigg,
+                Norton, 1993.</bibl>
+                
+            <bibl>Metzl, Jonathan. <hi rend="italic">The Protest Psychosis: How Schizophrenia Became a
+                    Black Disease</hi>. Beacon Press, 2010.</bibl>
+                
+            <bibl>Miller, Jacques-Alain. “Ordinary Psychosis Revisited.” <hi rend="italic"
+                    >Psychoanalytical Notebooks</hi>, vol. 26, 2013, pp. 33–48.</bibl>
+                
+            <bibl>Nettle, Daniel. “Schizotypy and Mental Health Among Poets, Visual Artists, and
+                Mathematicians.” <hi rend="italic">Journal of Research in Personality,</hi> vol. 40,
+                no. 6, pp. 876–90.</bibl>
+                
+            <bibl>Nitsun, Morris. <hi rend="italic">Beyond the Anti-Group: Survival and
+                    Transformation</hi>. Routledge, 2014.</bibl>
+                
+            <bibl>Rigsby, Kate. “Earth’s Poesy: Romantic Poetics, Natural Philosophy, and
+                Biosemiotics.” <hi rend="italic">Handbook of Ecocriticism and Cultural Ecology</hi>,
+                edited by Hubert Zapf, De Gruyter, 2016, pp. 45–58.</bibl>
+                
+            <bibl>Saks, Elyn R. <hi rend="italic">The Center Cannot Hold: My Journey Through
+                    Madness</hi>. Hachette, 2008.</bibl>
+                
+            <bibl>Sass, L. A. “Schizophrenia, Modernism, and the ‘Creative Imagination’: On Creativity
+                and Psychopathology.” <hi rend="italic">Creative Research Journal,</hi> vol. 13,
+                2001, pp. 55–74. </bibl>
+                
+            <bibl>Savarese, Ralph James. “What Some Autistics Can Teach Us About Poetry: A
+                Neurocosmopolitan Approach.” <hi rend="italic">The Oxford Handbook of Cognitive
+                    Literary Studies</hi>, edited by Lisa Zunshine, Oxford UP, 2015, pp.
+                393–420.</bibl>
+                
+            <bibl>Sechehaye, Marguerite. <hi rend="italic">Autobiography of a Schizophrenic Girl</hi>.
+                Translated by Grace Rubin-Rabson, Meridian, 1951.</bibl>
+                
+            <bibl>Winnicott, D. W. “The Use of an Object.” <hi rend="italic">International Journal of
+                    Psychoanalysis</hi>, vol. 50, 1969, pp. 711-16.</bibl>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
