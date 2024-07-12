@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Spatial Contingency: Digital Networks, James Hogg, and the Religious Politics of Space</title>
+                
+                
+                <author role="primary">
+                    <name>Winter Jade Werner</name>
+                </author>
+                
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-07-9</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.contingent.werner</idno> 
+                <idno type="resource">contingent</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND ref // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Romantic Contingency
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Winter Jade</forename>
+                                <surname>Werner</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ref target="praxis/contingent/praxis.2024.contingent.werner"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romantic Contingency</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-07-09">July 9, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>07.09.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    <text>
+        <body>
+            <div type="abstract">
+                <p>Written in the first months of the Covid-19 pandemic, this essay probes the enthusiasm for virtual communication in higher education to consider the political ramifications of virtual versus physical spaces. Reading James Hogg’s The Private Memoirs and Confessions of a Justified Sinner in light of a resonant spatial politics, it argues that absent what the novel proposes are the moderating effects of shared space, religious fundamentalism becomes radically individualistic fanaticism. In demonstrating Hogg’s attention to the ways new technologies enabled new forms of “virtual” religious affiliation, the essay suggests that the novel proves a rumination on our current orderings of space, offering a prescient view of the problems that might accompany uncritical acceptance of a supposedly inevitable digitally networked future. 
+                </p>
+                </div>
+            
+            <div type="essay">
+                <head>Spatial Contingency: Digital Networks, James Hogg, and the Religious Politics of Space</head>
+                <byline>
+                    <docAuthor>Winter Jade Wener</docAuthor>
+                    <affiliation>Wheaton College</affiliation>
+                </byline>
+                
+            <p>In the first months of the pandemic, a smattering of voices across higher education
+                tried to find the situation’s silver lining. Seeing economic, logistical, and social
+                hardships facing colleges as an opportunity to disrupt what they took to be an
+                unsustainable business model, these optimists suggested that the transition to
+                remote learning and Zoom conferencing represented a chance to “innovate” and
+                “unbundle” the college experience. <note place="foot" resp="author" > Michael D. Smith, “Are
+                    Universities Going the Way of CDs and Cable TV?,”<hi rend="italic">The
+                        Atlantic</hi>, June 22, 2020, <ref
+                        target="https://www.theatlantic.com/ideas/archive/2020/06/university-like-cd-streaming-age/613291/"
+                    >The Atlantic</ref></note>Thanks to improved digital technologies, so went this line of thinking,
+                financially imperiled institutions could deliver education to more students without
+                the inconveniences and costs that attend maintaining a physical infrastructure.
+                What’s more, students, faculty and staff who otherwise might not possess the
+                economic means to attend in-person courses and conferences could participate in
+                digital alternatives at little to no expense to themselves (or their institutions). </p>
+                
+            <p>This movement toward higher education’s despatialization—defined by John B. Thompson
+                in light of tele-communication as “detach[ment] from the spatial condition of common
+                    locality”<note place="foot" resp="author" > John B. Thompson,<hi
+                        rend="italic">The Media and Modernity: A Social Theory of the
+                    Media</hi>(Stanford: Stanford University Press, 1995), 32.</note>—preceded the
+                pandemic, of course. But the pandemic hastened what some called the inevitable trend
+                toward networked models of assembling. Hence the spring and summer of 2020 witnessed
+                calls to “embrace this moment strategically,” to use the words of Hans Taparia, a
+                professor of business at New York University, as “online education could expand
+                access exponentially and drop its costs by magnitudes.”<note 
+                    place="foot" resp="author" > Hans Taparia, “The Future of College is Online, and It’s
+                        Cheaper,”<hi rend="italic">The New York Times</hi>, May 25, 2020, <ref
+                        target="https://www.nytimes.com/2020/05/25/opinion/online-college-coronavirus.html"
+                    >New York Times</ref></note>
+            </p>
+                
+            <p>On the one hand, it was easy to sympathize with these arguments. Before the pandemic,
+                the privilege of possessing and accessing physical space was mostly relegated to
+                academia’s elite. Adjuncts, for instance, were often denied physical offices on
+                campus, let alone institutional “homes,” and contingent faculty (like my spouse)
+                were overwhelmingly employed to teach online courses, while teaching in-person
+                generally was the default position of tenured or tenure-track faculty. Moreover,
+                because contingent faculty are granted little to no research funding, they had
+                little ability to physically attend academic conferences. As Jessie Daniels and
+                Polly Thistlethwaite note, “What happens inside a conference meeting room rarely
+                exists for anyone except those few who can afford to be physically present.”<note
+                     place="foot" > Jessie Daniels and Polly Thistlethwaite,<hi
+                        rend="italic">Being a Scholar in the Digital Era: Transforming Scholarly
+                        Practice for the Public Good </hi>(Policy Press, 2016), 13.</note> A similar
+                dynamic applied to the student experience, as idyllic, residential campuses tend to
+                attract a wealthier student body relative to online schools or commuter campuses. In
+                these ways, physical space in higher education often has functioned as the<hi
+                    rend="italic"> </hi>dividing line separating the haves and have-nots, the
+                privileged and everyone else. No wonder the push among some to diminish the
+                centrality of academia’s physical spaces, to make them more contingent rather than
+                central to the college experience.</p>
+                
+            <p>But despatialization also exacerbates the very divides that its proponents argue it
+                would overcome. Taparia’s op-ed in the <hi rend="italic">New York Times </hi>is an
+                interesting case in point. Even as he acknowledges that “no one doubts that the
+                [online] student experience would not be as holistic” as the in-person one, he
+                nevertheless reaches this ultimate takeaway: “But universities don’t need to abandon
+                in-person teaching for students who see the value in it. They simply need to create
+                ‘parallel’ online degrees for all their core degree programs.”<note 
+                    place="foot" > Taparia, “The Future of College is Online.”</note> In short,
+                Taparia inadvertently ends up advocating for the further entrenchment of the
+                two-tiered system in academia, one that offers affluent students a more “holistic”
+                face-to-face, campus-based education while providing less affluent students a
+                supposedly “parallel” but, by his own admission, less “holistic” online
+                education.</p>
+                
+            <p>Taparia’s argument illustrates one of the main claims of this essay: the role of
+                higher education as an aspirationally-democratic enterprise partly hinges on its
+                ability to maintain the existence, robustness, and accessibility of its <hi
+                    rend="italic">physical</hi> shared spaces. No doubt the maintenance of such
+                spaces with the threat of a pandemic resurgence is unprecedentedly complicated,
+                expensive, and even, in some cases, impossible. Nevertheless, even as we improve
+                digital communication, we must also keep front and center the importance of
+                cultivating, investing in, and ensuring widespread access to academia’s shared
+                physical spaces. </p>
+                
+            <p>Somewhat understandably, there is a presentism that attends descriptions of remote
+                learning, online conferencing, or “unbundled” education: these are “unprecedented”
+                endeavors in “uncharted waters” only recently opened by recent strides in computing
+                technologies (see, for instance, Russell). But while it’s true Zoom has only been
+                around since 2011, nevertheless there are past resources for thinking through the
+                political ramifications of this shift. Thinkers ranging from Manuel Castells to
+                Wendy Brown, for example, have considered the politics that arise from shared,
+                concrete spaces versus technologically-enabled networks, bringing into focus how
+                “network society” might come at the expense of the social weal. </p>
+                
+            <p>Romanticism, I believe, is also well poised to contribute to contemporary defenses of
+                the political value of bounded, shared space. As Siobhan Carroll observes, “Scholars
+                historicizing spatial concepts have, from Henri Lefebvre onward, tended to single
+                out the Romantic era as a time in which urbanization, new technologies of
+                measurement, and dramatic political revolutions collided to crystallize the modern
+                construction of space.”<note place="foot" resp="author" > Siobhan Carroll,<hi
+                        rend="italic">An Empire of Air and Water: Uncolonizable Space in the British
+                        Imagination, 1750-1850</hi>(Philadelphia: University of Pennsylvania Press,
+                    2015), 11.</note> As such, the early nineteenth century was forced to grapple
+                with “imagined” versus concrete spaces in community formation.<note 
+                    place="foot" resp="author"> See Benedict Anderson,<hi rend="italic">Imagined
+                        Communities: Reflections on the Origin and Spread of Nationalism</hi>(New
+                    York: Verso Books, 1983); Zeynep Tufecki, <hi rend="italic">Twitter and Tear
+                        Gas: The Power and Fragility of Networked Protest</hi>(New Haven: Yale
+                    University Press, 2017), 5.</note> For instance, it witnessed the attempt to
+                establish alternatives to face-to-face community via the medium of new print
+                technologies, and confronted multiple efforts to develop “non-unified formulations
+                of nationness” that strove to make coherent the idea of “Britain” and the British
+                    Empire.<note place="foot" resp="author"> Esther Wohlgemut,<hi
+                        rend="italic">Romantic Cosmopolitanism </hi>(New York: Palgrave MacMillan,
+                    2009), 1. On establishing “imagined” communities via print culture, see Michael
+                    Warner, <hi rend="italic">Publics and Counterpublics </hi>(Princeton: Zone
+                    Books, 2005) and Joshua King, <hi rend="italic">Imagined Spiritual Communities
+                        in Britain’s Age of Print </hi>(Columbus, OH: The Ohio State University
+                    Press, 2015). For more on creating the imagined community of the nation at the
+                    turn of the century, see Linda Colley, <hi rend="italic">Britons: Forging the
+                        Nation 1707-1837</hi>(New Haven: Yale University Press, 1992).</note>
+            </p>
+                
+            <p>Examining these historical developments, critics often have noted the enduringness
+                and relative success of Romantic projects in substituting “imaginary” spaces and
+                communities for more geographically bounded ones. Some of these scholars, influenced
+                by the work of historians such as Marcus Rediker, have celebrated the relative
+                boundlessness of the Romantic era as one that opened new opportunities for subject
+                and community formation unhindered by national boundaries. But several critics also
+                observe that the flipside of this success was an apprehension of the potential ill
+                effects of such “unbounded” projects. As they point out, an acute sense of
+                anomie often accompanied nineteenth-century endeavors to create imagined
+                communities—an anomie that fed Romantic texts’ preoccupation with the perils of
+                social atomization.<note place="foot" resp="author" >
+                    <hi rend="italic">Frankenstein</hi>, for instance, is often read as a modern
+                    parable on unchecked, dangerous individualism without the moderating effects of
+                    society. For more on nineteenth-century anomie, see Christopher Herbert, <hi
+                        rend="italic">Culture and Anomie: Ethnographic Imagination in the Nineteenth
+                        Century</hi>(Chicago: Chicago University Press, 1991) and James Buzard, <hi
+                        rend="italic">Disorienting Fiction: The Autoethnographic Work of
+                        Nineteenth-Century British Novels </hi>(Princeton: Princeton University
+                    Press, 2005).</note>
+            </p>
+            <p>To chart the relationship between such Romantic socio-political projects and
+                contemporary discussions of higher education, I want to take these projects a step
+                further than their authors perhaps wanted or imagined. As I understand it, part of
+                the “purchase” of Romanticism “inside and outside academe” (in the words of this
+                CFP) flows from one vein of thought in the period that interrogated the supposed
+                social benefits of precisely what Brown terms “deterritorialized societies.” This
+                channel of Romantic thinking questioned the supposed social good of such
+                deterritorialized societies, as well as the “frenzied affirmation of individual
+                freedom” that usually accompanied them.<note place="foot" resp="author">
+                    Wendy Brown,<hi rend="italic">In the Ruins of Neoliberalism: The Rise of
+                        Antidemocratic Politics in the West</hi>(New York: Columbia University
+                    Press, 2019), 168.</note> Furthermore, it dwelled on the potential political and
+                social fallout that came of “imagined communities,” which were built on and
+                valorized an ideal of imagined shared values, rather than norms of “reciprocity and
+                accommodation” developed by repeated interaction and proximity. </p>
+                
+            <p>James Hogg—who was pushed out of the <hi rend="italic">Blackwood’s Magazine
+                </hi>print community he had helped to establish in large part due to his
+                working-class background and lack of formal education—was particularly attuned to
+                the politics of “imagined communities.” As much as he subscribed to the promises of
+                finding like-minded individuals via the networks of mass print culture (which had
+                freed him from shepherding and put him on the path to literary success), he remained
+                throughout his career fixated on the social, cultural, and political values
+                generated by shared land and bounded space. His outsider status at <hi rend="italic"
+                    >Blackwood’s</hi>, perhaps, made him attuned as much to what was lost, as well
+                as gained, by the replacement of physical space by “imagined communities.” </p>
+                
+            <p>Hogg explored the politics of despatialization most prominently in his famous work,
+                    <hi rend="italic">The Private Memoirs and Confessions of a Justified Sinner
+                </hi>(1824). Robert Wringhim, of course, is a religious fanatic. But Wringhim’s
+                religious fanaticism, I argue, must be understood in the context of space. Wringhim
+                recognizes that the politics arising from a “common locality” threaten the exercise
+                of his “boundless” individualism:<note place="foot" resp="author" > James
+                        Hogg,<hi rend="italic">The Private Memoirs and Confessions of a Justified
+                        Sinner, </hi>edited by Adrian Hunter<hi rend="italic"> </hi>(Toronto:
+                    Broadview Press, 2001), 111.</note> he never recounts attending (the bounded
+                community of) church, and he pledges fealty to (who he takes to be) a foreign
+                monarch openly hostile to traditional boundaries. Absent what the novel proposes are
+                the moderating effects of shared space, Wringhim’s religious fundamentalism becomes
+                fanaticism. </p>
+                
+            <p>Hogg’s concern over despatialization, as represented by Wringhim, provides an
+                unexpected resource as to why we should interrogate the rush to adopt permanently
+                “digital” alternatives to academe’s lost spaces. In the modern academy, space is
+                evermore at a premium, and it is tempting to view digital technologies as a means of
+                providing virtual (and cheaper) replacements for the office, the classroom, the
+                conference, or, even, the institution. Yet to heed Hogg is to see the very different
+                politics that arise from bounded versus boundaryless spaces, to see the ways that
+                concrete spaces perhaps are the irreplaceable foundation of an equitable,
+                representative, and healthily pluralistic society. In the admittedly idiosyncratic
+                way I bring together Hogg and today’s digitized society, then, I want to demonstrate
+                that the novel is not simply about some distant, strife-ridden religious past. I
+                suggest instead the novel explores the potential ill-effects of virtual “networks”
+                on political subjectivity, perhaps cautioning us today to continue in the systematic
+                investment and maintenance of our accessible, shared physical spaces. </p>
+                
+                <div type="section">
+            <head>A Politics of Space in the Digital Era</head>
+                    
+            <p>Political theorists from John Dewey to Wendy Brown have long noted that although
+                xenophobes and tribalists exhibit an obsession with policing the boundaries of their
+                spaces, bounded, shared space is nevertheless the precondition of those values
+                necessary to free society. Put differently, what such political theorists recognize
+                is that even if boundaries promote radical forms of exclusion, this doesn’t<hi
+                    rend="italic"> </hi>necessarily mean that the condition of “boundarylessness”
+                does the opposite. We might equate boundarylessness (such as that which commonly
+                attends conceptions of digital spaces) with ultimate individual freedom, but this
+                ideal of unhindered individual freedom is also at odds with the values necessary to
+                free society.</p>
+                    
+            <p>Brown offers a compelling explanation as to why the politics arising from the
+                precondition of concrete, shared space are anathema to neoliberal understandings of
+                freedom. According to Brown, neoliberalism is a “moral-political project” aimed at
+                “dismantling and disparaging the social state in the name of free, responsibilized
+                    individuals.”<note place="foot" resp="author" > Brown, <hi rend="italic"
+                        >In the Ruins</hi>, 13, 29.</note> Pursuing an ideal of boundless individual
+                freedom (supposedly) unfettered by “<hi rend="italic">any kind</hi> of deliberate
+                and state-administered social policy, planning, and justice,” neoliberalism promotes
+                ideologies, technologies, and economic systems that atomize individuals.<note
+                     place="foot" resp="author"> Brown,<hi rend="italic">In the Ruins</hi>,
+                    11.</note> This atomization, Brown continues, bolsters neoliberal logic as it
+                erodes social consciousness of and support for conditions of “political equality”
+                upon which the capacity for democratic power-sharing and self-rule depend.<note
+                     place="foot" resp="author"> Brown,<hi rend="italic">In the
+                        Ruins</hi>,<hi rend="italic"> </hi>11, 28.</note> Hence why the freedoms
+                engendered by “digital space” has not been able to save us from profound feelings of
+                isolation and alienation:<note place="foot" resp="author" > See, also,
+                    Katherine Hobson, “Feeling Lonely? Too Much Time On Social Media May Be Why.”<hi
+                        rend="italic">National Public Radio</hi>, March 6, 2017. <ref
+                        target="https://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why"
+                    >National Public Radio</ref>and Jason Linkins, “The Death of the Good Internet Was an Inside Job.” <hi
+                        rend="italic">The New Republic</hi>, December 31, 2019. <ref
+                        target="https://newrepublic.com/article/156096/death-good-internet-inside-job-decade-hell"
+                    >New Republic</ref></note> “The rise of the digital,” Brown argues, “generates a novel, radically
+                deterritorialized and dedemocratized sociality. This sociality features no clear
+                protocols of power sharing, enfranchisement, or commitment to negotiating diverse
+                views and needs, inclusion, or plurality. Whatever their merits, digitized
+                ‘societies’ are detached from the challenge of sharing power equally in order to
+                rule ourselves.”<note place="foot" resp="author" > Brown,<hi rend="italic">In
+                        the Ruins, </hi>183-84.</note> Such sentiments are differently expressed by
+                political theorist Jennifer Forestal, who—drawing on John Dewey’s meditations on the
+                “the role of space in facilitating democratic politics”—calls for the imposition of
+                tangible “boundaries” on Internet communities “to foster reciprocity and
+                accommodation through repeated interactions.”<note place="foot" resp="author"
+                    > Jennifer Forestal, “The Architecture of Political Spaces: Trolls,
+                    Digital Media, and Deweyan Democracy,”<hi rend="italic">American Political
+                        Science Review</hi>111, no. 1 (2017), 151,154.</note>
+            </p>
+                    
+            <p>Brown draws on Carl Schmitt in particular to illustrate how boundarylessness produces
+                a certain type of subjectivity antagonistic to the social weal. Pondering the
+                differences between “land” and “seafaring” peoples, Schmitt notes that the
+                “boundarylessness” of seafaring populations oriented them toward “use and
+                consumption, rather than ownership and cultivation.”<note 
+                    place="foot" resp="author"> Qtd. in Brown,<hi rend="italic">In the Ruins</hi>,
+                    185-66.</note> A key difference, then, between the move from an imaginary based
+                on concrete, geographically-bounded space to one based on deterritorialized space
+                was that the latter promoted a rapacious appetite to “extend sovereignty” without
+                the moderating responsibilities that attend actual land—that is, the responsibility
+                to make land more productive, to defend that land, or, most of all, to negotiate
+                conditions of cohabitation. Applying such contexts to online discussion boards,
+                Forestal looks to Dewey to argue that flexible but distinct “boundaries” on Internet
+                communities foster “an openness to respond and adapt to new ideas and information”
+                while discouraging trolls.<note place="foot" resp="author" > Forestal,
+                    “Architecture,” 155.</note> What Dewey knew, she argues, is that “spaces are not
+                value-neutral” but rather provide “cues as to how to behave … focus[ing] our
+                attention on certain kinds of activities and organiz[ing] our relationships in
+                certain ways.”<note place="foot" resp="author" > Forestal, “Architecture,”
+                    154.</note> For both thinkers, “boundarylessness” is linked to undemocratic
+                tendencies. And for Brown in particular, concrete, shared space is the precondition
+                of developing a social consciousness committed to “negotiating diverse views and
+                needs, inclusion, or plurality.”</p>
+                    
+            <p>Yet because commonly conceived as the alternative to “hierarchical, vertically
+                integrated structures located in fixed positions,” the rise of the modern “network
+                society” has often been cast as flexible and horizontal in comparison.<note
+                     place="foot" resp="author" > Yoon Sun Lee, “Charlotte Smith’s Network
+                    Story,” in<hi rend="italic">Global Romanticism: Origins, Orientations, and
+                        Engagements, 1760-1920</hi>, edited by Evan Gottlieb (Lewisburg, PA:
+                    Bucknell University Press, 2015), 39.</note> Granting actors more “relative
+                autonomy,” it yields a “more flexible and decentered [form] of organization,” as
+                Yoon Sun Lee observes.<note place="foot" resp="author" > Lee, “Charlotte
+                    Smith’s Network Story,” 39, 40.</note> But Castells reminds us that network
+                society also reproduces—even ossifies—distinctions between privileged and
+                unprivileged rather than “decentering” power. Networks depend on nodes, and the
+                gatekeepers of such nodes are the new privileged class. And these gatekeepers gather
+                in <hi rend="italic">geographic </hi>spaces, even as they look to <hi rend="italic"
+                    >un</hi>space space and <hi rend="italic">un</hi>time time. Such spaces are
+                exclusionary: Castells gives luxury hotels and airport VIP lounges as examples, but
+                Silicon Valley, Ivy League colleges, and prohibitively-expensive “cosmopolitan”
+                cities also come to mind.<note place="foot" resp="author" > Manuel
+                        Castells,<hi rend="italic">The Rise of the Network Society</hi>(Cambridge,
+                    MA: Blackwell Press, 1995), 415-17.</note> In this sense, Castells suggests that
+                geographic space becomes all the more rarefied in the modern network society. As the
+                rest of society is increasingly atomized—the centrality of the school, office, shop,
+                and other public places rendered disposable thanks to the expansion of the digital
+                domain—physical space increasingly is transmuted into a luxury conferred on the
+                privileged. One can consider how access to or ownership of bounded (or gate-kept)
+                geographic “nodes” have become an expected part of the “benefits” granted to
+                academic, economic, and political elites—a benefit whose desirability increases in
+                direct proportion to its increased <hi rend="italic">in</hi>accessibility to
+                everyone else.<note place="foot" resp="author" > Covid-19 in some ways has
+                    accelerated these trends. In a March 2020 blog post for the “The Philosophical
+                    Salon,” Slavoj Žižek argues, “Who, today, will be able to afford shaking hands
+                    and embracing? The privileged. … The financial elite will withdraw into secluded
+                    zones and amuse themselves there telling stories in the<hi rend="italic"
+                        >Decameron </hi>style. (The ultra-rich are already flocking with private
+                    planes to exclusive small islands in the Caribbean).” See Slavoj Žižek, “Monitor
+                    and Punish? Yes, Please!” <hi rend="italic">Los Angeles Review of Books</hi>,
+                    March 16. 2020, <ref
+                        target="https://thephilosophicalsalon.com/monitor-and-punish-yes-please/"
+                    >The Philosophical Salon</ref></note></p>
+                    
+            <p>Luckily, the rest of us are told, there are alternatives. Consider the academic
+                conference, for example. Because they are expensive and time-consuming, students,
+                faculty, and independent scholars with limited funds and time often can’t attend
+                them. Technology, however, renders geographic distance moot, and anyone with access
+                to the Internet and a computer can (supposedly) take part in the lively exchange of
+                ideas. In this vein, Daniels and Thistlethwaite note that “as an alternative to the
+                expense (and environmental impact) of travel to conferences, some scholars are
+                creating virtual conferences through digital video and web conferencing or following
+                conferences from afar via Twitter hashtags.”<note place="foot" resp="author" 
+                    > Daniels and Thistlethwaite,<hi rend="italic">Being a Scholar, </hi>13.</note>
+                They continue, “Scholars present at conferences can also share their work with the
+                public, those attending the meetings, through open access repositories at their
+                institutions or on commercial platforms like SlideShare.”<note 
+                    place="foot" resp="author"> Daniels and Thistlethwaite,<hi rend="italic">Being a
+                        Scholar</hi>,<hi rend="italic"> </hi>13.</note> More relative autonomy is
+                granted to each scholar thanks to digital technologies—those who can’t make it can
+                participate anyway, and in-person attendees can share their work with those
+                off-site. Obviated is the need to advocate for time off or dedicated funds in order
+                physically to attend what is implied to be the perhaps obsolete academic
+                conference.</p>
+                    
+            <p>There are clear environmental benefits that come with online and hybrid conferencing
+                (though, as a recent study in <hi rend="italic">Nature Communications </hi>noted,
+                the hub placement of the hybrid conference is critical to realize these benefits).
+                    <note place="foot" resp="author" > Specifically, it cautions that without
+                    proper attention to hub placement, hybrid conferences risked having “higher
+                    carbon footprints than … even in-person scenarios.” Yanqiu Tao, Debbie Steckel,
+                    Jiří Jaromír Klemeš, and Fengqi You, “Trend towards virtual and hybrid
+                    conferences may be an effective climate change mitigation strategy,” <hi
+                        rend="italic">Nature Communications</hi>, December 16, 2021, <ref
+                        target="https://www.nature.com/articles/s41467-021-27251-2">Nature</ref></note> But it
+                is precisely because the environmental considerations are so urgent that the
+                political ramifications of online conferencing perhaps receive less attention. For
+                instance, there is rarely discussion about academe’s reliance on questionably
+                democratic technological platforms. In December 2020, Zoom came under fire for
+                “work[ing] with the Chinese government to terminate Americans’ accounts and disrupt
+                video calls aboutthe 1989 massacre of pro-democracy activists in Tiananmen Square,”
+                and its past failures to protect users’ data from governments and law enforcement
+                attracted the criticism of the human rights group Access Now (Zoom has since updated
+                its privacy practices).<note place="foot" resp="author" > Drew Harwell and
+                    Ellen Nakashima, “Federal Prosecutors accuse Zoom executive of working with
+                    Chinese government to surveil users and suppress video calls,”<hi rend="italic"
+                        >The Washington Post</hi>, December 18, 2020, <ref
+                        target="https://www.washingtonpost.com/technology/2020/12/18/zoom-helped-china-surveillance"
+                    >Washington Post</ref>(accessed March 1, 2022). See, also, Micah Lee and Yael Grauer, “Zoom Meetings
+                    Aren’t End-to-End Encrypted, Despite Misleading Marketing,” <hi rend="italic"
+                        >The Intercept</hi>, March 31, 2020, <ref
+                        target="https://theintercept.com/2020/03/31/zoom-meeting-encryption/"
+                    >The Intercept</ref></note> Twitter has a history of silencing political dissent, failing to stem
+                online harassment, and relative to traditional media outlets, disproportionately
+                promoting state-sponsored propaganda and disseminating “fake news.” SlideShare is
+                owned by LinkedIn, which in turn is owned by Microsoft—one of the “big five” tech
+                companies that currently exercise a monopoly on Internet traffic. And, needless to
+                say, Meta is facing a reckoning for its role in facilitating the spread of
+                misinformation and toxic speech (an audit of the company warned that “its tools and
+                algorithms” could drive “people toward self-reinforcing echo chambers of
+                    extremism.”<note place="foot" resp="author" > Greg Bensinger, “Does
+                    Zuckerberg Understand How the Right to Free Speech Works?”<hi rend="italic">The
+                        New York Times</hi>, July 8, 2020, <ref
+                        target="https://www.nytimes.com/2020/07/08/opinion/facebook-civil-rights-audit.html"
+                    >New York Times</ref></note> Even setting aside the troubling political ramifications of big tech’s
+                rise, a larger problem exists: arguments in favor of moving conferences online (or
+                ending institutional support for physical participation in them) tend to
+                instrumentalize the conveyance of information insofar as they assume “information
+                sharing” for the sake of individual career and institutional development to be the
+                fundamental purpose of these conferences.<note place="foot" resp="author" 
+                        > An op-ed in<hi rend="italic">Inside Higher Ed </hi>rehearsed this line
+                        of thinking in the context of Covid-19. Acknowledging the precarious state
+                        of higher education and faculty jobs, Interfolio CEO Andrew Rosen and
+                        professor Jaime Lester offer this recommendation: 
+                        <quote>In addition to
+                        innovating around faculty’s access to data, colleges and universities need
+                        to provide professional development for faculty that is focused on
+                        individual career success and, as a result, their students’ successes. <hi
+                            rend="italic">The common use of professional development funds to attend
+                            disciplinary conferences does little to support individual career
+                            success</hi>. Instead, opportunities for career counseling in the form
+                        of individualized development plans, mentoring, learning communities and
+                        grants to pursue research and teaching innovations are important to keep all
+                        faculty motivated, progressing and supporting institutional strategic goals.
+                        (emphasis mine)</quote>
+                    
+                     Never mind the vagueness of what is being suggested to
+                        take the place of disciplinary conferences (who is administering these
+                        “opportunities for career counseling”? What are the components of an
+                        “individualized development plan,” and how does this “plan” meaningfully
+                        differ from the self- and departmental assessments?). It’s enough to notice
+                        that the authors recommend the cessation of funding for disciplinary
+                        conferences to hire instead specialists to guide faculty toward advancing
+                        “institutionalstrategic goals.” I’m grateful to Mimi Winick for discussing
+                        with me the instrumentalization of knowledge that attends such conceptions
+                        of academic conferencing. See Andrew Rosen and Jaime Lester, “Supporting
+                        Faculty Careers Amid Uncertainty,” <hi rend="italic">Inside Higher Ed</hi>,
+                        July 2, 2020, <ref
+                            target="https://www.insidehighered.com/views/2020/07/02/supporting-faculty-careers-amid-season-uncertainty-opinion"
+                        >Inside Higher Education</ref>
+                  </note>
+            </p>
+                    
+            <p>This isn’t to criticize digital conversations or interactions, nor is it to say that
+                digital platforms aren’t able to provide meaningful and more inclusive forms of
+                horizontal community. It is only to reemphasize what the pandemic years have made
+                obvious. Digital alternativesdo not inherently resolve the problems that attend
+                in-person meetings. Without proper attention paid to the underlying inequalities of
+                higher education, such technologies in fact stand to deepen its existing two-tiered
+                system, in which access to in-person communication is increasingly the domain of the
+                privileged few while the rest ought to be satisfied with “virtual” forms of
+                community or instruction. Some cash-strapped institutions, for instance, are
+                considering not reimbursing faculty for in-person conferencing if a digital
+                alternative is available.</p>
+                    
+            <p>This separation is reason for special concern at a moment when higher education is in
+                crisis. For not only does fully online communication have a tendency to “fortify and confirm” people
+                in their own opinions, creating a more polarized society (“Danger in the internet
+                echo chamber”); the absence of the “rest” also creates an echo chamber at the <hi
+                    rend="italic">actual</hi>academic conference, as attendees are less likely to
+                engage with or feel beholden to digital participants than they are with fellow
+                in-person participants. If we are to extrapolate Brown’s reasoning, the academic
+                conference by virtue of being bounded is<hi rend="italic"> a </hi>place where we better recognize who “cohabitates” disciplinary spaces and
+                wherein the need for “protocols of power sharing, enfranchisement, or commitment to
+                negotiating diverse views and needs, inclusion, or plurality” may come into sharper
+                focus relative to digital “deterritorialized” spaces. Hence why digital platforms
+                perhaps haven’t emerged as full-fledged “alternatives” to physical attendance at
+                conferences. Digital participation might be cheaper for struggling institutions, but
+                the long-term political costs for scholars and professional organizations could
+                prove steeper. When (hopefully) we find ourselves fully on the other side of the
+                global pandemic, we might do well to assess whether a new normal of “networked”
+                conferencing has created the sorts of communities we wish to inhabit. </p>
+                    
+            <p>This is a necessarily reductive argument, I realize, one that oversimplifies complex
+                debates regarding social media, academic conferences, and online education, as well
+                as a robust critical literature on the politics of space in the fields of literary
+                studies, geography, sociology, gender studies, and more. It also neglects
+                finer-grained developments in Zoom and Google Meet technologies to create boundaries
+                on virtual classroom and conference attendance and participation. But I focus on the
+                contributions of Brown and Forestal (in conjunction with Castells), because they
+                take such a comprehensive view of the potential political consequences of digital
+                spaces precisely at a moment when technologies for virtual gathering are imagined to
+                redress the inequalities and inconveniences associated with physical, bounded space.
+                Their ultimate concern strikes me as fairly uncontroversial: rather than making
+                people feel less alienated, digital gatherings can accelerate alienation. </p>
+                    
+            <p>Hogg’s novel probes the extent of this danger.<note place="foot" resp="author"
+                    > I risk anachronism, but I take my cue in part from Lee, who notes that
+                    while “the network that Castells describes is historically dependent on
+                    late-twentieth-century developments in information processing, communication,
+                    production, and transportation … the bourgeois public sphere and the emergence
+                    of the novel can be seen as contributing to [this] story of social
+                    reorganization,” in which “network” and individual autonomy takes precedence
+                    over “place” and “hierarchy.” Lee, “Charlotte Smith’s Network Story,” 40.
+                </note> Admittedly, it’s a stretch to link historical instances of “imagined
+                communities” to the rise of digital networks of affiliation today. But I’m not the
+                first to suggest connections of this kind. Social media, for instance, is often
+                compared to Americana’s old town square, and the Internet is regularly likened to
+                the nineteenth-century Western frontier. And these historical analogues are meant to
+                do more than merely describe digital interactions. As law professor Alfred C. Yen
+                notes in an essay arguing against the use of the “Western frontier metaphor” in
+                relation to the legal regulation of cyberspace, such metaphors also determine the
+                character of the Internet interactions: “The Western frontier metaphor operates as
+                propaganda supporting the minimal regulation of the Internet,” he argues.<note
+                     place="foot" resp="author"> Alfred C. Yen, “Western Frontier or Feudal
+                    Society: Metaphors and Perceptions of Cyberspace,”<hi rend="italic">Berkeley
+                        Technology Law Journal, </hi>17, no. 4 (Fall 2002), 1225. </note>
+                Ultimately, he suggests that the “continued application of the unreformed metaphor
+                creates an incomplete and misleading influence on policy and crowds out other
+                metaphors that offer alternate perspectives on the Internet.”<note 
+                    place="foot" resp="author" > Yen, 1232.</note> I take Yen’s call for “other metaphors”
+                by which to speak of our contemporary era as inspiration to look to seventeenth- and
+                eighteenth-century Protestantism for new language to address the problem of
+                deterritorialized academic space today. </p>
+                </div>
+                
+                <div type="section">
+            <head>The Politics of Religious Space</head>
+                    
+            <p>One significant development in the history of Protestantism was the
+                reconceptualization of how it might expand in light of new technological
+                advancements. From an older ideal of a formal, united, and trans-territorial
+                Christendom (a concept “essentially linked to territory”<note 
+                    place="foot" resp="author"> Andrew F. Walls,<hi rend="italic">The Cross-Cultural
+                        Process in Christian History </hi>(Maryknoll, NY: Orbis Books, 2002),
+                    34.</note>), the evangelical revival of Protestantism instead “developed
+                consciously international structures” that were conceived as deliberately separate
+                from (increasingly secular) national governments and which eventually resulted in an
+                    “<hi rend="italic">informal</hi> spiritual empire, a <hi rend="italic"
+                    >network</hi> of federated believers across increasingly distinct national
+                    boundaries.”<note place="foot" resp="author" > Christopher Clark and
+                    Michael Ledger-Lomas, “The Protestant International,” in<hi rend="italic"
+                        >Religious Internationals in the Modern World: Globalization and Faith
+                        Communities since 1750</hi>, edited by Abigail Green and Vincent Viaene (New
+                    York: Palgrave MacMillan, 2012), 23, 23-24. Emphasis mine.</note> Though the
+                idea of “networked” Protestantism can be traced back to the Reformation, the
+                structure and ramifications of this “network” became more pronounced in the
+                eighteenth and nineteenth centuries.<note place="foot" resp="author" > Clark
+                    and Ledger-Lomas, “Protestant International,” 24.</note> By the early nineteenth
+                century, international Protestantism—that is, “networked” rather than
+                territorially-defined Protestantism—dominated.<note place="foot" resp="author"
+                    > Katherine Carté Engel, “The SPCK and the American Revolution: The Limits
+                    of International Protestantism,”<hi rend="italic">Church History</hi>81, no. 1
+                    (2012), 88.</note> Fascinatingly, the arguments in favor of this “networked”
+                international Protestantism resemble those often given for the desirability of
+                “network society” today, as both are assumed better to guarantee individual autonomy
+                and more horizontal, decentered forms of social organization. </p>
+            <p>Though Christendom’s formal end often is dated to the start of World War I,<note
+                     place="foot" resp="author"> See Walls,<hi rend="italic">Cross-Cultural
+                        Process</hi>.</note> Philip Jenkins argues that the beginning of the end of
+                Christendom probably can be traced to an earlier event: the rise of secular
+                nationalism in the seventeenth and eighteenth centuries.<note 
+                    place="foot" > Philip Jenkins,<hi rend="italic">The Next Christendom: The
+                        Coming of Global Christianity</hi>(New York: Oxford University Press, 2011),
+                    14.</note> According to perhaps the most prominent account of this historical
+                development, the religious wars of the seventeenth century led to the growing
+                conviction that peace could only be achieved if religious power were ceded to the
+                secular nation-state. Religious belief would be divorced from government and instead
+                relegated to the private domain. </p>
+                    
+            <p>Sometimes overlooked is the fact that several Protestant institutions and actors <hi
+                    rend="italic">also </hi>enthusiastically participated in and contributed to the
+                rise of secular nationalism. For one thing, a number of Dissenting denominations saw
+                themselves existentially threatened by a close<hi rend="italic"> </hi>union between
+                church and state. In the view of these Dissenters, any<hi rend="italic"> </hi>form
+                of state-enforced religious belief imposed from above was anathema, as it checked
+                the exercise of one’s individual freedom of conscience, which, they felt, was one of
+                the cornerstones of the Christian faith. Thus the Particular Baptist Robert Robinson
+                declared in 1779 that “religious uniformity [was] an illegitimate brat of the mother
+                of harlots,” and compared the various Protestant denominations to be properly akin
+                to “little states, each governed by its own laws, and all independent [of] one
+                another. Like confederate states they assembled by deputies in one large
+                ecclesiastical body, and deliberated about the common interests of the whole.”<note
+                     place="foot" resp="author"> Qtd. in Daniel E. White,<hi rend="italic"
+                        >Early Romanticism and Religious Dissent</hi>(Cambridge: Cambridge
+                    University Press, 2006), 7.</note> Instead of unity built on force, confederacy
+                would be facilitated by the “industrialization of communications;” thus “the
+                international message [of Protestantism] grew in symbiosis with the technologies
+                required to broadcast and receive it.”<note place="foot" resp="author" >
+                    Clark and Ledger-Lomas, “Protestant International,” 23.</note> In this sense,
+                the Enlightenment discourse of individual freedom, inalienable rights, and global
+                federation ended up informing prominent eighteenth-century Protestant conceptions of
+                how to establish cooperation across denominational differences. International
+                Protestantism, in other words, was partly driven by an optimism and set of moral
+                values that bears some resemblance to the values and beliefs propounded by
+                early-2000s cyber-utopianism. By “network[ing] human beings,” new technology would
+                “foster communication, collaboration, sharing, helpfulness, and community” and
+                eventually help in establishing more “free” societies.<note 
+                    place="foot" resp="author" > Douglas Rushkoff,<hi rend="italic">Team Human</hi>(New
+                    York; London: W. W. Norton &amp; Co., 2019), 26. See, also, Evgeny Morozov, <hi
+                        rend="italic">The Net Delusion: The Dark Side of Internet Freedom</hi>(New
+                    York: Perseus Books, 2012). </note></p>
+                    
+            <p>As the advent of the modern missionary movement in the 1790s demonstrates, by no
+                means was this Protestant idealization of “freedom of conscience” at odds with
+                Christian expansion. But the key difference between “modern” and past schemes of
+                Christian expansion, at least in the minds of this subset of British evangelicals,
+                was that <hi rend="italic">this</hi> new international Protestantism would be
+                emancipatory rather than oppressive, creating self-sufficient, self-governing
+                Christian communities rather than grinding foreign peoples under the heels of an
+                authoritarian political-religious power. That is, they saw and defined <hi
+                    rend="italic">their </hi>Christian expansion as the antithesis of a crusading
+                (and thus often Catholic) Christianity, whose <hi rend="italic">modus operandi</hi>,
+                as they perceived it, was to invade, conquer, and impose spiritual change by force.
+                In the minds of these Protestants, missionaries wouldn’t invade or conquer—rather
+                they would live “alongside” people in small communities, “touching” individual
+                hearts, and thus provoking change from the ground up rather than the top down.<note
+                     place="foot" resp="author"> Winter Jade Werner,<hi rend="italic"
+                        >Missionary Cosmopolitanism in Nineteenth-Century British
+                    Literature</hi>(Columbus, OH: The Ohio State University Press, 2020), 55-56,
+                    89-91.</note> Links between missionary stations and newly Christian communities
+                would spring up organically as each realized the extent to which their values and
+                interests coincided. As a result, individual and national sovereignty would be
+                preserved, even as Christianity brought more people into its fold. Katherine Engel
+                characterizes this idealized conception of Protestant unity as an international
+                “network” that was both “expansive and intentionally vague,” one which valorized a
+                vaguely-conceived “fellowship” by which “geographic and theological differences”
+                would be surmounted.<note place="foot" resp="author" > Engel, “SPCK,”
+                    88.</note> As Walls puts it, “The expansion of Christendom involved laying down
+                terms for other people; its development in the missionary movement involved
+                preparedness to live on terms set by other people.”<note place="foot" resp="author"
+                    > Walls,<hi rend="italic">Cross-Cultural Process</hi>, 34.</note>
+            </p>
+                    
+            <p>But if western Protestantism abandoned Christendom partly due to its associations
+                with authoritarianism and failure to represent pluralities in thought and belief, it
+                seems clear that international Protestantism—in the form of the nineteenth-century
+                missionary movement and its collusion with European imperialism—didn’t necessarily
+                supply a remedy. As Clark and Ledger-Lomas observe of international Protestantism’s
+                progress over the long nineteenth century, “Hierarchy and enmity soon entered into
+                the Protestant family.”<note place="foot" resp="author" > Clark and Ledger
+                    Lomas, “Protestant International,” 24.</note> Obviously, the fundamentalism
+                underwriting evangelicalism is a reason why international Protestantism could never
+                to live up to the emancipatory expectations placed upon it; whatever their
+                differences regarding the secular state, the late eighteenth-century wave of
+                international Protestants shared with Christendom’s adherents core beliefs in the
+                authority of the Bible and the absolute truth of Christianity. </p>
+                    
+            <p>That said, I want to suggest that the moral and democratic failure of international
+                Protestantism in the nineteenth century can also be pegged to its one of its key
+                    differences<hi rend="italic"> </hi>from Christendom. Attention to the spatial
+                imagination of Protestant internationalism—its ideal of boundary-less “networks,”
+                its valorization of individual freedom, and its accompanying suspicion of tradition
+                and established hierarchies—could contribute to producing a certain type of <hi
+                    rend="italic">anti</hi>-social personality, who viewed civil society as
+                fundamentally at odds with the exercise of individual
+                freedom. We see this anxiety in nineteenth-century British evangelicalism. Within
+                the movement, there was an emphasis on “self-interest and individualism” (as
+                prominent evangelicals declared themselves able to read and interpret the Bible free
+                of an “elite priesthood” or larger hermeneutical community).<note 
+                    place="foot" resp="author"> Mark Knight,<hi rend="italic">Good Words: Evangelicalism
+                        and the Victorian Novel</hi>(Columbus, OH: The Ohio State University Press,
+                    2019), 135, 118.</note> Tempering the most radical manifestations of this
+                individualism was an adherence among some evangelicals to a Pietist-influenced
+                “communal tradition of applied interpretation that valued contribution from those
+                who were not educated and encouraged modes of thought that were not purely isolated
+                attempts at theoretical reconstruction.”<note place="foot" resp="author" >
+                        Knight,<hi rend="italic">Good Words</hi>,<hi rend="italic"> </hi>135.</note>
+                In other words, these evangelicals believed the in-person interactions of “sermons,
+                group bible studies, family prayers, and other day-to-day activities”—communal
+                interactions that necessarily took place within shared physical spaces—moderated and
+                unchecked, pathological individualism.<note place="foot" resp="author" >
+                        Knight,<hi rend="italic">Good Words</hi>, 135.</note></p>
+            <p>It's tempting to think of digital space and its affordances as wholly unprecedented.
+                But what the discussion above might demonstrate is that there are antecedents for
+                considering the types of political subjectivities produced by “networked societies”
+                versus face-to-face communities. What’s more, we may discover such past experiments
+                in networked thinking to be less a testament to technological or social “progress”
+                over the course of recent history, or, even, interesting analogues of our own times.
+                Instead, they might alert us to blind spots in our current thinking in assessing the
+                desirability and feasibility of substituting virtual for physical space.</p>
+                </div>
+                
+                <div type="section">
+            <head>What Hogg Knew</head>
+                    
+            <p>Ian Duncan’s important essay on <hi rend="italic">Confessions of a Justified Sinner
+                </hi>sees Robert Wringhim as the natural result and antagonist of civil society.
+                Writing that the novel “allows us to … read fanaticism as the dialectical product of
+                objective historical processes of modernization,” he concludes that Hogg ultimately
+                “insists on the modernity of the Wringhim’s antinomian sect, cut off from a
+                traditional society of customary or naturalized belief and founded on ‘abstract
+                speculative principle’.”<note place="foot" resp="author" > Ian Duncan,
+                    “Fanaticism and Civil Society: Hogg’s<hi rend="italic">Justified Sinner</hi>,”
+                        <hi rend="italic">Novel</hi>42, no. 2 (2009), 344.</note> Importantly,
+                Wringhim’s “modern” religion, which he models on the beliefs and commitments of the
+                Scottish Covenanters, also resonates with the religiosity of the early
+                nineteenth-century radical Scottish evangelicals. As Adrian Hunter reminds us, Hogg
+                witnessed the growing power of “secessionist churches,” which “by 1820 … had
+                consolidated in the form of the Evangelical movement.”<note 
+                    place="foot" resp="author"> Adrian Hunter, Introduction to<hi rend="italic">The Private
+                        Memoirs and Confessions of a Justified Sinner</hi>, by James Hogg (Toronto:
+                    Broadview Press, 2001), 26.</note> Rejecting political quietism, the most
+                radical Scottish evangelicals instead drew inspiration from the historical example
+                of the Covenanters, whom they praised for their fierce defense of Scotland’s
+                religious and political freedoms during the bloody “Killing Times” of 1679 to 1688.
+                Thus “to many in the establishment, the [evangelical] movement represented a
+                dangerous assault on the Presbyterian tradition by a potentially revolutionary
+                    constituency.”<note place="foot" resp="author" > Hunter, Introduction,
+                    26.</note></p>
+                    
+            <p>Ironically, the radical evangelicals who admired the Convenanters’ fight for freedom
+                “hastened the drift towards [Scotland’s] assimilation to England.”<note
+                     place="foot" resp="author"> Hunter, Introduction, 27.</note> “The
+                weakening of the established Presbyterian Church” by evangelical secessionists,
+                Hunter observes, “further undermined the concerted institutional resistance in
+                Scotland to English domination.”<note place="foot" resp="author" > Hunter,
+                    Introduction, 26.</note> One imagines that it was to critique these developments
+                that Hogg set his novel in the immediate wake of the “Killing Times” and made his
+                homicidal “justified sinner” a Covenanter. A defender of Scottish nationalism, Hogg
+                wished to draw attention to the ways that the attenuation of “traditional society”
+                and its institutions in the pursuit of an “abstract” ideal of freedom (to use
+                Duncan’s words) not only fostered dangerous forms of religious individualism; more
+                forebodingly, the collapse of traditional institutions could also inadvertently lead
+                to dangerous forms of political domination. Where radical evangelicalism tended to
+                see in the Covenanters a straightforward morality tale of freedom fighters resisting
+                an illegitimate foreign power, Hogg drew from the same historical archive to sound a
+                more cautious note.</p>
+                    
+            <p>Specifically, Hogg’s apprehension of the threat “modern” religion posed to
+                “traditional society” must be understood within the larger context of
+                Protestantism’s shift toward more “networked” forms of organization. In other words,
+                Hogg associates Wringhim’s distinctly modern antagonism toward society to an
+                abstract speculative notion of <hi rend="italic">religious space</hi>—one tied to
+                the seventeenth- and eighteenth-century decline of the older idea of Christendom
+                and, in its place, the rise of an “expansive and intentionally vague,”
+                “network”-based model of international Protestantism.<note 
+                    place="foot" resp="author"> Engel, “SPCK,” 88.</note>
+            </p>
+                    
+            <p>Robert Wringhim, Hogg’s “justified sinner,” possesses a spatial imaginary strikingly
+                akin to that yielded by the “decentered and flexible” network society of Yoon Sun
+                Lee’s description insofar as he prizes the “relative autonomy” yielded by a “more
+                flexible and decentered [form] of organization.” One could say that he is an adopter
+                of what digital media scholar Heidi Campbell calls “pic-n-mix” religiosity: so sure
+                is Wringhim in his own rectitude that he “mov[es] away from strict adherence to
+                traditional forms of religiosity and institution to more fluid affiliations with
+                religious beliefs and values.”<note place="foot" resp="author" > Heidi
+                    Campbell, “Understanding the Relationship between Religion Online and Offline in
+                    a Networked Society,”<hi rend="italic">Journal of the American Academy of
+                        Religion </hi>80, no. 4 (March 2012), 79.</note> Indeed, he is weirdly
+                independent of the institution of the church—nowherein the novel is he described as
+                regularly attending church or taking part in church activities—and seems to
+                anticipate the sort of religious subjectivity Campbell sees the Internet producing:
+                one invested in “connecting to like-minded people” even as it loosens itself of
+                “traditional boundaries and affiliations.”<note place="foot" resp="author">
+                    Campbell, “Religion Online and Offline,” 73, 66.</note> Campbell’s
+                characterization of online religion, in fact, helps us understand how Wringhim’s
+                independence of the bounded church and its attendant practices (“sermons, group
+                bible studies, family prayers, and other day-to-day activities”) is linked to his
+                friendship with the “like-minded” Gil-Martin (whom the reader knows is Satan
+                probably, but whom Wringhim believes is Peter the Great in disguise). </p>
+                    
+            <p>Here, it’s important to understand how Peter the Great was regarded by
+                eighteenth-century Britons. Duncan notes that Peter, “an archetype of sublime
+                despotism haunting modern politics, foreshadows a post-Enlightenment,
+                post-Napoleonic fantasy of totalitarian power and abjection.”<note 
+                    place="foot" resp="author"> Ian Duncan, “Fanaticism and Enlightenment in<hi
+                        rend="italic">Confessions of a Justified Sinner</hi>,” in <hi rend="italic"
+                        >James Hogg and the Literary Marketplace: Scottish Romanticism and the
+                        Working-Class Author</hi>, edited by Sharon Alker and Holly Faith Nelson
+                    (New York: Routledge, 2009), Kindle.</note> Thus Peter/Gil-Martin is comparable
+                to a “potentate of Christendom,” in his own words.<note place="foot" resp="author"
+                    > Hogg,<hi rend="italic">Private Memoirs</hi>,<hi rend="italic"
+                    > </hi>152.</note> But as the historian Anthony Cross observes, this was far
+                from being the only—or even dominant—view of Czar Peter in the eighteenth
+                    century.<note place="foot" resp="author" > Anthony Cross,<hi
+                        rend="italic">Peter the Great Through British Eyes: Perceptions and
+                        Representation of the Tsar Since 1698 </hi>(Cambridge: Cambridge University
+                    Press, 2000).</note> By the time of Peter’s death in 1725, British views of
+                Peter were fairly positive. In fact, many saw him as the embodiment of ideal
+                Enlightenment rule. When James Thomson credits Peter with uniting disparate Russian
+                communities not only with each other but Europe as a whole in his renowned poem <hi
+                    rend="italic">The Seasons</hi>—writing, “far-distant Flood to Flood is social
+                join’d”—he echoes a view popularized by Voltaire, which saw the czar less a despot
+                and more the face of Enlightenment modernization, who sought to construct a civil
+                society protected by fair governance and united in federation with the other states
+                of Europe.<note place="foot" resp="author" > James Thomson, “The Seasons,”<hi
+                        rend="italic">The Works of James Thomson </hi>(London: A. Millar, 1750),
+                    222. In fact, Thomson amended <hi rend="italic">The Seasons</hi>“to add
+                    thirty-eight lines in praise of the ‘matchless Prince,’” which reinforced the
+                    hagiographic perception of Peter as a border-crossing monarch “who left his
+                    native throne” for the sake of a more cosmopolitan knowledge. Cross, <hi
+                        rend="italic">Peter the Great, </hi>171. See, also, chapter four.</note>
+                Further boosting the Czar’s popularity was the belief that Peter harbored Protestant
+                sympathies, which he was forced to conceal due to the pressures he faced from
+                traditionalists at home.</p>
+                    
+            <p>Hogg was likely intimate with the bifurcated narratives regarding Peter—an
+                authoritarian, aggressively-expansionist, religiously-intolerant despot on the one
+                hand, and an exemplification of the new internationalist sensibilities of the
+                Protestant Enlightenment on the other. Hence the repeated allusions to Peter in his
+                story. Hogg suggests that the vogueish, modern, and<hi rend="italic"> </hi>seemingly
+                relatively emancipatory internationalism embodied by Czar Peter is Janus-faced:
+                Peter is an object-lesson in how the authoritarianism, militarism, and intolerance
+                associated with the older ideal of Christendom can look something like
+                Enlightenment-influenced international Protestantism.<note 
+                    place="foot" resp="author"> Duncan says Peter was considered both “brutal tyrant and
+                    modernizing reformer,” and he views Peter as embodying the tension between a
+                    pluralistic civil society and fanaticism’s “pure” politics. In other words,
+                    Duncan reads the novel in terms of secular versus religious tensions rather than
+                    in terms of intra-religious shifts. See Duncan, “Fanaticism and
+                    Enlightenment.”</note>
+            </p>
+                    
+            <p>Imagining Gil-Martin to be Peter appeals to Wringhim, then, because Peter seems to
+                embody what Wringhim takes to be one of the primary aims of modern Protestantism:
+                religious unification that is simultaneously individualistic. After all, his view of
+                Peter/Gil-Martin is that he has sought knowledge not from institutions of learning
+                or communities of people, but from Wringhim <hi rend="italic">individually</hi>.
+                Gil-Martin claims, “I have no parents save one, whom I do not acknowledge,” and
+                continues, “though I have servants and subjects more than I can number, yet, … I
+                have left them, and retired to this city, and for all the society it contains, you
+                see I have attached myself only to you.”<note place="foot" resp="author" >
+                        Hogg,<hi rend="italic">Private Memoirs</hi>, 141.</note> Turning away from
+                “society” to befriend someone who (he says) he values because he is like a “second
+                    self,”<note place="foot" resp="author" > Hogg,<hi rend="italic">Private
+                        Memoirs</hi>,<hi rend="italic"> </hi>132.</note> Gil-Martin develops what
+                network studies scholars call a homophilic friendship with Wringhim—a type of
+                relationship strongly associated with and facilitated by social media.<note
+                     place="foot" > See, for instance, Miller McPherson, Lynn
+                    Smith-Lovin, and James M. Cook, “Birds of a Feather: Homophily in Social
+                        Networks,”<hi rend="italic">Annual Review of Sociology</hi>27, no. 1 (2001),
+                    415-44.</note> Casting themselves as out-of-step with their respective
+                communities, they bond over their (fringe) antinomian beliefs and create a two-man
+                ideological echo chamber that pushes these beliefs into fanaticism.<note
+                     place="foot" resp="author" > Brown points to a similar dynamic within
+                    today’s anti-democratic right-wing. What had been a “potpourri of previously
+                    isolated movements—white nationalist, libertarian, antigovernment, and
+                    fascist—connected with each othervia the internet.” Brown, <hi rend="italic">In
+                        the Ruins</hi>, 4.</note></p>
+                    
+            <p>This individualistic, homophilic approach to friendship would<hi rend="italic"
+                > </hi>appeal to someone like Wringhim, who is oddly uninvested in the in-person
+                communities and physical space of the church. His disinterest is even stranger in
+                light of the beginning of Robert’s memoir, in which he remarks that his “reverend
+                father” “designed me for his assistant and successor in the holy office.”<note
+                     place="foot" > Hogg,<hi rend="italic">Private
+                        Memoirs</hi>,<hi rend="italic"> </hi>117.</note> Despite his supposed
+                preparation for the ministry, Robert never recounts worshipping at church. Indeed,
+                the only scene in which Robert enters a church is when he goes to spy on Mr.
+                Blanchard, the reverend who warns him to dissociate himself from Gil-Martin.<note
+                     place="foot" resp="author"> Hogg,<hi rend="italic">Private Memoirs</hi>,
+                    142.</note> Antagonistic to Mr. Blanchard’s preaching and ultimately the agent
+                of his downfall, Wringhim attends church but as an<hi rend="italic"> </hi>outsider
+                rather than an established member of the community. The space of church and the
+                sociality of a congregation are entirely absent in Robert’s religion.</p>
+            <p>This absence helps explain why Mr. Blanchard becomes a target of Robert’s enmity. In
+                his recent<hi rend="italic"> </hi>reading of the novel<hi rend="italic">,
+                </hi>Christopher Herbert focuses on Blanchard, noting that Hogg “appears to
+                recommend that spirit of temperate religious moderation” identified with the
+                    reverend.<note place="foot" resp="author" > Christopher Herbert,<hi
+                        rend="italic">Evangelical Gothic: The English Novel and the Religious War on
+                        Virtue from Wesley to Dracula</hi>(Charlottesville: University of Virginia
+                    Press, 2019), 117.</note> But Herbert also wonders where exactly the line is
+                drawn between Blanchard’s “moderation” and Wringhim’s “zeal.” “Mr. Blanchard,” he
+                continues, “does not exactly specify the point at which zealous belief in the
+                doctrines of reformed Christianity … passes into ‘dangerous extremity.’”<note
+                     place="foot" > Herbert,<hi rend="italic">Evangelical
+                        Gothic</hi>, 117.</note></p>
+                    
+            <p>The answer to Herbert’s query surely lies in the <hi rend="italic">spatial
+                </hi>metaphors by which Blanchard communicates the dangers of taking God’s decrees
+                to their extreme. Blanchard, notably, subscribes to the notion of religion rooted in
+                the idea of definite, human community. His doctrine is exemplified in his
+                understanding of religion as “the bond of society on earth, and the connector of
+                humanity with the Divine nature<hi rend="italic">.</hi>”<note 
+                    place="foot" resp="author"> Hogg,<hi rend="italic">Private Memoirs</hi>,<hi
+                        rend="italic"> </hi>142.</note> Moreover, there is “nothing so dangerous to
+                man as the wresting of any of its principles, or forcing them beyond their due
+                    bounds.”<note place="foot" resp="author"> Hogg,<hi rend="italic">Private
+                        Memoirs</hi>,<hi rend="italic"> </hi>142.</note> In other words, he argues
+                that true religion inheres as much in “the bond of society<hi rend="italic"> on
+                    earth</hi>” as it does between the individual and the divine, and “damnable”
+                religion is the result of forcing religious principles “<hi rend="italic"
+                    >beyond</hi> due bounds.” Thus Blanchard ties his religious practice to a
+                “shared earth,” a delimited<hi rend="italic"> </hi>shared space. This commitment to
+                the bond of society born of necessarily cohabited space, Hogg seems to suggest, is
+                what makes his religion social<hi rend="italic">, </hi>moral, and moderate. </p>
+                    
+            <p>No wonder, then, that of the various “divines” in the story, Blanchard is the only
+                one who is ever depicted as preaching in a church. No wonder, too, why Wringhim and
+                Gil-Martin dislike Blanchard. Where Blanchard sees true religion as proceeding in
+                significant part from the social bonds that come of humanity sharing a common,
+                finite earth, Wringhim and Gil-Martin both argue for the “boundlessness of the true
+                Christian’s freedom,” a conviction they act on by disregarding spatial<hi
+                    rend="italic"> </hi>and moral<hi rend="italic"> </hi>bounds.<note 
+                    place="foot" > Hogg,<hi rend="italic">Private Memoirs</hi>,<hi
+                        rend="italic"> </hi>111.</note> Thus Wringhim neglects his physical church,
+                as well as, increasingly, his immediate family and community in favor of an imagined
+                “society of the just made perfect”—a society whose contours become somewhat more
+                concrete to Wringhim when Gil-Martin describes how his “views of society” are
+                carried out and enforced by “agents in every city, and every land, exerting their
+                    powers.”<note place="foot" resp="author" > Hogg,<hi rend="italic">Private
+                        Memoirs</hi>,<hi rend="italic"> </hi>130.</note> By becoming one of
+                Gil-Martin’s/Peter’s “agents,” Wringhim effectively rejects the bounded ties of
+                congregation and immediate family for this diffuse, imagined Christian society of
+                the “just,” a decision exemplified when Gil-Martin urges him to reject the familial
+                “bonds of carnal nature” in favor of the “the bond, and the vows of the Lord.”<note
+                     place="foot" resp="author"> Hogg,<hi rend="italic">Private
+                        Memoirs</hi>,<hi rend="italic"> </hi>152.</note> Never mind that Wringhim
+                doesn’t know nor does he ever meet one of Gil-Martin’s other “agents” in-person or
+                otherwise. He becomes part of this imagined “network” anyway, because he believes
+                its members share his views. And, as Wringhim becomes more radical, he increasingly
+                adopts a stratified way of thinking of society: there is the imagined “society of
+                the just” whose views (he supposes) exactly accord with his own, and there is
+                everyone else, whose differing opinions and practices make them “mildew,” “enemies,”
+                “reprobates, cast-aways.”<note place="foot" resp="author"> Hogg,<hi
+                        rend="italic">Private Memoirs</hi>,<hi rend="italic"> </hi>146, 151,
+                    152.</note> In these ways, Wringhim’s antisocial tendencies, as well as his
+                belief in a two-tiered society composed of the deserving and the reprobate, are
+                linked to a deterritorialized Protestantism—a Protestantism that doesn’t conceive
+                itself as delimited by any definite space, a religious individualism unmoderated by
+                “communal traditions” or practices.<note place="foot" resp="author" >
+                        Knight,<hi rend="italic">Good Words, </hi>135.</note>
+            </p>
+                    
+            <p>For these reasons, Wringhim tries to effect change not from <hi rend="italic"
+                    >within</hi> but from <hi rend="italic">without</hi> social structures. Despite
+                occupying a leadership role within the church wherein he could consolidate and
+                exercise his institutional authority, he instead focuses his efforts on exploding
+                existing communities that he sees as inconsistent with his values. Strikingly, the
+                modern internet troll helps illuminate Wringhim’s logic. According to Whitney
+                Phillips, these trolls create and disseminate exaggerated or fake news stories,
+                coopt online conversations, and harass and explode online communities, trying to
+                stoke mob outrage, seemingly for no reason other than exposure<hi rend="italic"
+                > </hi>and “owning the libs.”<note place="foot" resp="author" > See the
+                    introduction of Whitney Phillips,<hi rend="italic">This is Why We Can’t Have
+                        Nice Things: Mapping the Relationship Between Online Trolling and Mainstream
+                        Culture</hi>(Cambridge: MIT University Press, 2015).</note> She may as well
+                be creating laundry list of the tactics employed by Wringhim in the harassment of
+                his brother and his brother’s friends. He disrupts their tennis game by intruding on
+                the space of the court, mimicking and mocking their conversation and movements. And,
+                the more he is met by “rude shocks and pushes, accompanied sometimes with hasty
+                curses” in response to his interference, the more he “cling[s]” to his brother,
+                keeping him from playing.<note place="foot" resp="author" > Hogg,<hi
+                        rend="italic">Private Memoirs, </hi>64.</note> Finally, when he is asked<hi
+                    rend="italic"> </hi>to “keep without the range of the ball” so the game can
+                continue without him being harmed, Wringhim responds, “Is there any law or enactment
+                that can compel me to do so?”<note place="foot" resp="author" > Hogg,<hi
+                        rend="italic">Private Memoirs</hi>,<hi rend="italic"> </hi>65.</note>
+                Asserting his right to stay and say what he wants regardless of established
+                boundaries and societal norms, he predictably ends up hurt—a turn of events that he
+                interprets as violent suppression of his speech and beliefs. In Wringhim’s mind, of
+                course, he has been victimized simply for exercising his individual freedoms, a
+                narrative he disseminates publicly so as to fuel mob violence. And, for Wringhim and
+                the modern troll alike, unleashing an extralegal mob on one’s targets has one
+                significant benefit over using one’s institutional authority to effect change: the
+                latter requires conversation and compromise, while the former, by design, bypasses
+                both.</p>
+                    
+            <p>Thus Hogg establishes via Wringhim that religious “freedom” divorced from regard of
+                shared space<hi rend="italic"> </hi>is individuating in the worst way possible.
+                First, it valorizes a conception of individual freedom necessarily antagonistic to
+                the moderating tendencies that come of one’s realization that human beings
+                cohabitate a finite space. Second, it exacerbates societal divides, as the “more
+                flexible and decentered” network promotes dangerous homophilic forms of association.
+                Perhaps, then, it is unsurprising that in the digital, “networked” age, political
+                theorists are reassessing the value of in-person spaces precisely in their capacity
+                to “foster reciprocity and accommodation, through repeated interactions,” to use
+                Forestal’s phrase. For, so long as the digital realm is associated with
+                “boundlessness” it also harbors a dangerous, individuating conception of “freedom
+                without society,” freedom wielded <hi rend="italic">only</hi> as <hi rend="italic"
+                    >“</hi>a pure instrument of power, shorn of concern for others, the world, or
+                the future.”<note place="foot" resp="author"> Brown,<hi rend="italic">In the
+                        Ruins, </hi>45.</note>
+            </p>
+                    
+            <p>Reading the narratives like Hogg’s reminds us that space is neither value-neutral nor
+                mere staging grounds for the more significant work of conversation and
+                information-sharing. Rather, “human orderings of space and the meanings attributed
+                to those orderings shape our conceptualizations of who and what we are, especially
+                in life with others.”<note place="foot" resp="author" > Brown,<hi
+                        rend="italic">In the Ruins, </hi>51.</note> Here is where Hogg is
+                particularly insightful. While Wringhim’s religiosity leads him to antisociality,
+                Hogg—as Herbert notes—never reflexively equates <hi rend="italic">all </hi>religious
+                belief with antisocial intolerance. Rather, Wringhim’s fervent religiosity is
+                channeled into extremism by an assemblage of forces that today tend to be associated
+                with “the rise of the digital”: his sense of belonging to a “radically
+                deterritorialized and dedemocratized sociality” (to return to Brown’s words), as
+                well as his conviction that the exercise of true individual “freedom” is <hi
+                    rend="italic">inherently</hi> constrained by conditions of cohabitation or what
+                Blanchard calls the “bond of society on earth.”<note place="foot" resp="author"
+                    > Brown,<hi rend="italic">In the Ruins, </hi>183; Hogg, <hi rend="italic"
+                        >Private Memoirs,</hi>142.</note> For Hogg, a particular ordering of space
+                yields a particularly dangerous form of religious individualism.</p>
+                </div>
+                
+                <div type="section">
+            <head>Strange Times and Strange Essays</head>
+                    
+            <p>In this essay, I’ve tried to elucidate the ways that my personal experiences in
+                higher education—the financial precariousness of my institution, the uncertain
+                conditions of my spouse’s job, the alarmingly optimistic predictions about the
+                long-term leveling properties of digital scholarly and pedagogic “networks”—are
+                filtered through my research interests. My own published work has focused almost
+                entirely on nineteenth-century literature and religion, but, as this essay
+                demonstrates, I find resonances between this content and my more casual interests in
+                digital communities and modern networked society. Inescapably, these resonances
+                inflect how I see current issues.</p>
+                    
+            <p>There is some saying, I think, about how breadth comes at the expense of depth.
+                Certainly in the eclecticism of this essay, the truth of this adage is self-evident.
+                In the effort to be timely, as well as to move across centuries, different types of
+                media, and vastly different topics to think through this moment, I’ve left issues
+                unaddressed and oversimplified much of the historical material I study. This is an
+                experimental piece for me, but my hope is that this approach might yield new
+                constellations of thought that otherwise would have been missed. </p>
+                    
+            <p>After all, in an essay partly about the forces that engender ideological echo
+                chambers, it perhaps is apt that this piece resists another type of “echo chamber,”
+                specifically the insistently presentist orientation of most popular writings about
+                higher education and the Internet. As mentioned above, there is so much emphasis on
+                the <hi rend="italic">unprecedentedness </hi>of digital technologies and
+                communities, as though history and the narratives of the past (particularly
+                fictional narratives) offer little to guide us forward in such “unprecedented”
+                times. But such presentist rhetoric reinforces a certain myopia in how we conceive
+                of higher education and the “disruptions” of digital technologies, for, whether we
+                like it or not, we <hi rend="italic">already,</hi>reflexively, rely on historical
+                precedents to conceive of and justify the “virtual” networks of the present. </p>
+                    
+            <p>And these metaphors are not merely descriptive. Often, historical spaces—the Wild
+                West, the town square, even the “super highway”—are invoked in relation to the
+                Internet only insofar as they are assumed to mirror the present. But it is no new
+                insight that the historical metaphors by which we conceive of the present shape what
+                might come in the future. Indeed, as evinced in his criticism of the Covenanters
+                despite his sympathy with the cause of Scottish nationalism, Hogg himself perceived
+                that more savvy deployments of the past were needed to yield better futures (at
+                least, better than those being brought to fruition by Scottish radical
+                evangelicals). That is, he saw that the political dangers of past “network
+                societies” demonstrated how “networks” were never <hi rend="italic"
+                    >intrinsically</hi> emancipatory, nor individual freedom ever an <hi
+                    rend="italic">inherent</hi> political good.</p>
+                    
+            <p>Historian Joanne Meyerowitz’s essay on the difficulties of contemporary categories of
+                sex and gender in capturing the “whole story” of “narratives of the past” gets at
+                what I’m trying to say: “Historical texts are useful in this way because they pry us
+                out of the familiar and thereby position us, in a sense, to anachronize the present
+                … The past can show us that our own ways of seeing the world are contingent,
+                curious, and changeable.”<note place="foot" resp="author" > Joanne
+                    Meyerowitz, “Thinking Sex with an Androgyne,”<hi rend="italic">GLQ</hi>17, no. 1
+                    (2011), 103.</note> Meyerowitz’s optimism that the past empowers us to see the
+                present as “contingent” returns me to the context of higher education. In higher
+                education, we think of “contingency” in relation to one of the term’s definitions,
+                as “conditional” or dependent for existence on something else (i.e., in using the
+                phrase “contingent faculty”). This sense of “contingency” places academic labor and
+                higher education institutions in a position of defensive responsiveness. Often—and
+                especially lately—it feels that we have little choice but to adapt as quickly as
+                possible to larger economic, political, and technological forces out of our control.
+                But Meyerowitz points to the past to remind us that “contingency” isn’t just the
+                passive acceptance of present circumstances. Rather, “contingency” also<hi
+                    rend="italic"> </hi>carries with it the recognition that our circumstances are
+                changeable, can be “touched” (to return to the word’s etymological association with
+                the Latin <hi rend="italic">tangere</hi>) precisely by how we decide to engage with
+                the past. Texts such as Hogg’s, then, maybe aren’t only artifacts of a distant time
+                and culture. Attentive to the ways new technologies enabled new forms of “imagined
+                communities,” the novel also proves a rumination on our current orderings of space,
+                offering a prescient view of the problems that might accompany uncritical acceptance
+                of a supposedly inevitable “digital” and networked future. </p>
+                </div>
+            
+            <div type="citation">
+            <head>Works Cited</head>
+                
+            <bibl>Anderson, Benedict. <hi rend="italic">Imagined Communities: Reflections on the Origin
+                    and Spread of Nationalism</hi>. New York: Verso Books, 1983. </bibl>
+            <bibl>Bensinger, Greg. “Does Zuckerberg Understand How the Right to Free Speech Works?” <hi
+                    rend="italic">The New York Times</hi>, July 8, 2020, <ref
+                    target="https://www.nytimes.com/2020/07/08/opinion/facebook-civil-rights-audit.html"
+                >New York Times</ref></bibl>
+            <bibl>Brown, Wendy. <hi rend="italic">In the Ruins of Neoliberalism: The Rise of
+                    Antidemocratic Politics in the West.</hi> New York: Columbia University Press,
+                2019.</bibl>
+            <bibl>Buzard, James.<hi rend="italic"> Disorienting Fiction: The Autoethnographic Work of
+                    Nineteenth-Century British Novels. </hi>Princeton: Princeton University Press,
+                2005.</bibl>
+            <bibl>Campbell, Heidi. “Understanding the Relationship between Religion Online and Offline
+                in a Networked Society.” <hi rend="italic">Journal of the American Academy of
+                    Religion </hi>80, no. 4 (March 2012): 64-93.</bibl>
+            <bibl>Carroll, Siobhan.<hi rend="italic"> An Empire of Air and Water: Uncolonizable Space
+                    in the British Imagination, 1750-1850</hi>. Philadelphia: University of
+                Pennsylvania Press, 2015.</bibl>
+            <bibl>Carté Engel, Katherine. “The SPCK and the American Revolution: The Limits of
+                International Protestantism.” <hi rend="italic">Church History</hi> 81, no. 1
+                (2012): 77-103.</bibl>
+            <bibl>Castells, Manuel. <hi rend="italic">The Rise of the Network Society</hi>. Cambridge,
+                MA: Blackwell Press, 1995.</bibl>
+            <bibl>Clark, Christopher and Michael Ledger-Lomas. “The Protestant International.” In <hi
+                    rend="italic">Religious Internationals in the Modern World: Globalization and
+                    Faith Communities since 1750</hi>, edited by Abigail Green and Vincent Viaene,
+                25-52. New York: Palgrave MacMillan, 2012.</bibl>
+            <bibl>Colley, Linda. <hi rend="italic">Britons: Forging the Nation 1707-1837</hi>. New
+                Haven: Yale University Press, 1992.</bibl>
+            <bibl>Cross, Anthony. <hi rend="italic">Peter the Great Through British Eyes: Perceptions
+                    and Representation of the Tsar Since 1698. </hi>Cambridge: Cambridge University
+                Press, 2000.</bibl>
+            <bibl>Daniels, Jessie and Polly Thistlethwaite. <hi rend="italic">Being a Scholar in the
+                    Digital Era: Transforming Scholarly Practice for the Public Good. </hi>Bristol,
+                UK: Policy Press, 2016.</bibl>
+            <bibl>Duncan, Ian. “Fanaticism and Civil Society: Hogg’s <hi rend="italic">Justified
+                    Sinner</hi>.” <hi rend="italic">Novel</hi> 42, no. 2 (2009): 343-48.</bibl>
+            <bibl>---. “Fanaticism and Enlightenment in <hi rend="italic">Confessions of a Justified
+                    Sinner</hi>.” In <hi rend="italic">James Hogg and the Literary Marketplace:
+                    Scottish Romanticism and the Working-Class Author</hi>, edited by Sharon Alker
+                and Holly Faith Nelson. New York: Routledge, 2009. Kindle.</bibl>
+            <bibl>Forestal, Jennifer. “The Architecture of Political Spaces: Trolls, Digital Media, and
+                Deweyan Democracy,” <hi rend="italic">American Political Science Review</hi> 111,
+                no. 1 (2017): 149-61.</bibl>
+            <bibl>Harwell, Drew and Ellen Nakashima. “Federal Prosecutors Accuse Zoom Executive of
+                Working with Chinese Government to Surveil Users and Suppress video calls.” <hi
+                    rend="italic">The Washington Post</hi>, December 18, 2020. <ref
+                    target="https://www.washingtonpost.com/technology/2020/12/18/zoom-helped-china-surveillance"
+                >Washington Post</ref></bibl>
+            <bibl>Herbert, Christopher.<hi rend="italic"> Culture and Anomie: Ethnographic Imagination
+                    in the Nineteenth Century</hi>. Chicago: Chicago University Press, 1991.</bibl>
+            <bibl>---. <hi rend="italic">Evangelical Gothic: The English Novel and the Religious War on
+                    Virtue from Wesley to Dracula</hi>. Charlottesville: University of Virginia
+                Press, 2019.</bibl>
+            <bibl>Hobson, Katherine “Feeling Lonely? Too Much Time On Social Media May Be Why.” <hi
+                    rend="italic">National Public Radio</hi>, March 6, 2017. <ref
+                    target="https://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why"
+                >National Public Radio</ref>
+            </bibl>
+            <bibl>Hogg, James. <hi rend="italic">The Private Memoirs and Confessions of a Justified
+                    Sinner. </hi>Edited by Adrian Hunter<hi rend="italic">. </hi>Toronto: Broadview
+                Press, 2001.</bibl>
+            <bibl>Hunter, Adrian. Introduction to <hi rend="italic">The Private Memoirs and Confessions
+                    of a Justified Sinner</hi>, by James Hogg, 7-39. Toronto: Broadview Press,
+                2001.</bibl>
+            <bibl>Jenkins, Philip.<hi rend="italic"> The Next Christendom: The Coming of Global
+                    Christianity</hi>. New York: Oxford University Press, 2011.</bibl>
+            <bibl>King, Joshua. <hi rend="italic">Imagined Spiritual Communities in Britain’s Age of
+                    Print. </hi>Columbus, OH: The Ohio State University Press, 2015.</bibl>
+            <bibl>Knight, Mark. <hi rend="italic">Good Words: Evangelicalism and the Victorian
+                    Novel</hi>. Columbus, OH: The Ohio State University Press, 2019.</bibl>
+            <bibl>Lee, Micah and Yael Grauer, “Zoom Meetings Aren’t End-to-End Encrypted, Despite
+                Misleading Marketing.” <hi rend="italic">The Intercept</hi>, March 31, 2020. <ref
+                    target="https://theintercept.com/2020/03/31/zoom-meeting-encryption/">The Intercept</ref></bibl>
+            <bibl>Lee, Yoon Sun. “Charlotte Smith’s Network Story.” In <hi rend="italic">Global
+                    Romanticism: Origins, Orientations, and Engagements, 1760-1920</hi>, edited by
+                Evan Gottlieb, 37-55. Lewisburg, PA: Bucknell University Press, 2015.</bibl>
+            <bibl>Linkins, Jason. “The Death of the Good Internet Was an Inside Job.” <hi rend="italic"
+                    >The New Republic</hi>, December 31, 2019. <ref
+                    target="https://newrepublic.com/article/156096/death-good-internet-inside-job-decade-hell"
+                >New Republic</ref>
+            </bibl>
+            <bibl>McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. “Birds of a Feather:
+                Homophily in Social Networks.” <hi rend="italic">Annual Review of Sociology</hi> 27,
+                no. 1 (2001): 415-44.</bibl>
+            <bibl>Meyerowitz, Joanne. “Thinking Sex with an Androgyne.” <hi rend="italic">GLQ</hi> 17,
+                no. 1 (2011): 97-105.</bibl>
+            <bibl>Morozov, Evgeny. <hi rend="italic">The Net Delusion: The Dark Side of Internet
+                    Freedom</hi>. New York: Perseus Books, 2012.</bibl>
+            <bibl>Phillips, Whitney. <hi rend="italic">This is Why We Can’t Have Nice Things: Mapping
+                    the Relationship Between Online Trolling and Mainstream Culture</hi>. Cambridge:
+                MIT University Press, 2015.</bibl>
+            <bibl>Rosen, Andrew and Jaime Lester. “Supporting Faculty Careers Amid Uncertainty.” <hi
+                    rend="italic">Inside Higher Ed</hi>, July 2, 2020. <ref
+                    target="https://www.insidehighered.com/views/2020/07/02/supporting-faculty-careers-amid-season-uncertainty-opinion"
+                >Inside Higher Ed</ref></bibl>
+            <bibl>Rushkoff, Douglas. <hi rend="italic">Team Human</hi>. New York; London: W. W. Norton
+                &amp; Co., 2019.</bibl>
+            <bibl>Smith, Michael D. “Are Universities Going the Way of CDs and Cable TV?” <hi
+                    rend="italic">The Atlantic</hi>, June 22, 2020. <ref
+                    target="https://www.theatlantic.com/ideas/archive/2020/06/university-like-cd-streaming-age/613291/"
+                >The Atlantic</ref></bibl>
+            <bibl>Tao, Yanqiu, Debbie Steckel, Jiří Jaromír Klemeš, and Fengqi You. “Trend Towards
+                Virtual and Hybrid Conferences May Be an Effective Climate Change Mitigation
+                Strategy.” <hi rend="italic">Nature Communications</hi>, December 16, 2021. <ref
+                    target="https://www.nature.com/articles/s41467-021-27251-2">Nature</ref></bibl>
+            <bibl>Taparia, Hans. “The Future of College is Online, and It’s Cheaper.” <hi rend="italic"
+                    >The New York Times</hi>, May 25, 2020. <ref
+                    target="https://www.nytimes.com/2020/05/25/opinion/online-college-coronavirus.html"
+                >New York Times</ref></bibl>
+            <bibl>Thompson, John B. <hi rend="italic">The Media and Modernity: A Social Theory of the
+                    Media.</hi> Stanford: Stanford University Press, 1995.</bibl>
+            <bibl>Thomson, James. “The Seasons.” Winter Werner2024-04-11T15:41:00WW<note>There is no
+                    editor listed; and, in fact, the preface says this collection of Thomson’s works
+                    was “designed” by Thomson himself</note>Anna
+                    Wingfield2024-03-15T10:50:00RAE<note>Is there an editor for this
+                    collection?</note>In <hi rend="italic">The Works of James Thomson</hi><hi
+                    rend="italic">. </hi>London: A. Millar, 1750.</bibl>
+            <bibl>Tufecki, Zeynep.<hi rend="italic"> Twitter and Tear Gas: The Power and Fragility of
+                    Networked Protest</hi>. New Haven: Yale University Press, 2017.</bibl>
+            <bibl>Walls, Andrew F. <hi rend="italic">The Cross-Cultural Process in Christian History.
+                </hi>Maryknoll: Orbis Books, 2002.</bibl>
+            <bibl>Warner, Michael.<hi rend="italic"> Publics and Counterpublics. </hi>Princeton: Zone
+                Books, 2005.</bibl>
+            <bibl>Werner, Winter Jade. <hi rend="italic">Missionary Cosmopolitanism in
+                    Nineteenth-Century British Literature</hi>. Columbus: The Ohio State University
+                Press, 2020.</bibl>
+            <bibl>White, Daniel E. <hi rend="italic">Early Romanticism and Religious Dissent</hi>.
+                Cambridge: Cambridge University Press, 2006.</bibl>
+            <bibl>Wohlgemut, Esther. <hi rend="italic">Romantic Cosmopolitanism. </hi>New York:
+                Palgrave MacMillan, 2009.</bibl>
+            <bibl>Yen, Alfred C. “Western Frontier or Feudal Society: Metaphors and Perceptions of
+                Cyberspace.” <hi rend="italic">Berkeley Technology Law Journal </hi>17, no. 4 (Fall
+                2002): 1207-1264. </bibl>
+            <bibl>Žižek, Slavoj. “Monitor and Punish? Yes, Please!” <hi rend="italic">Los Angeles
+                    Review of Books</hi>, March 16, 2020. <ref
+                    target="https://thephilosophicalsalon.com/monitor-and-punish-yes-please/">The Philosophical Salon</ref></bibl>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
