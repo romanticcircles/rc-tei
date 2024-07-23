@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">“Infrastructure and Environment as Archive: On Haitian Revolutionary Romanticism and Voicing Contingent Desolations”</title>
+                
+                
+                <author role="primary">
+                    <name>Michele Speitz</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-07-9</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.contingent.speitz</idno> 
+                <idno type="resource">contingent</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Romantic Contingency
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Michele</forename>
+                                <surname>Speitz</surname>
+                            </persName>
+                        </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.contingent.speitz"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romantic Contingency</title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-07-09">July 9, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>07.09.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--END OF HEADER-->
+    <text>
+        <body>
+            <div type="abstract">
+                <p>
+                    This essay studies national narratives at the heart of one of the best-known works of Haitian revolutionary Romanticism. At issue is how these national narratives participate within larger semiotic systems of national infrastructure and nationalized earth. More particularly, the essay foregrounds Haitian places and ruins that bear complicated realities and histories in need of telling. In signature Romantic style, Haitian grounds and built structures have their own stories to tell and speak volumes in Charles Hérard Dumesle’s <hi rend="italic">Voyage dans le nord d'Hayti</hi> (1824). But the voices they sound and the accounts they record are not homogenous, timeless, nor transcendent, as we find in more universalizing iterations of Romantic-era calls for new political orders. Instead these voices and histories are particular, personal, and contingent—proving especially provocative when read in light of key terminology from Haiti’s <hi rend="italic"> Acte de l’Indépendance</hi> (1804). Dumesle’s revolutionary Romantic poetics turn upon the politics of prosopopoeia, intoning counternarratives and correctives to nationally-chauvinistic French colonial politics and aesthetics in part by giving voice to Haitian locales, by giving rise to the human and nonhuman stories they might tell if these places too had tongues or pens. That is, Dumesle drives home the political edge of the aesthetics and poetics of prosopopoeia, a trope that uses the imaginative and metaphorical spaces of narrative to imbue voice to whatever typically is not able to speak, from other animals to the land itself, from built objects to dead subjects. In this sense, Dumesle activates an especially time-sensitive iteration of prosopopoeia in place of more lyric-driven instances of prosopopoeia that might be said to reach for timeless universality. Here Haiti’s natural and built environments speak tales of national heroics and chronicle compressed events of human dispossession and death that cannot be sundered from stories of long-term environmental degradation and desolation.  
+                </p>
+            </div>
+            
+            <div type="essay">
+                <head>“Infrastructure and Environment as Archive: On Haitian Revolutionary Romanticism and Voicing Contingent Desolations"</head><note place="foot" resp="author">I thank Dr. Cherie Maiden for her generous help with many of the translations featured in this essay.</note>
+                <byline>
+                    <docAuthor>Michele Speitz</docAuthor>
+                    <affiliation>Furman University</affiliation>
+                </byline>
+                
+           
+            <p>“Literature from the growing black geographies canon suggests that black
+                infrastructure is not statically ‘set in place,’ but instead a set of revolutionary
+                place-making practices with ‘unknowable’ and (im)possible contours.”<note place="foot" resp="author"> Symon James-Wilson, “Roads, Routes, And Roots: The (Im)Possible Spatial Mnemonics of Black
+                                Infrastructure,” <hi rend="italic">Society and
+                                    Space</hi>, 2018. </note></p>
+            
+            <p>This essay studies national narratives at the heart of one of the best-known works of
+                Haitian Revolutionary Romanticism. At issue is how these national narratives
+                participate within larger semiotic systems of national infrastructure and
+                nationalized earth. What follows is a study of Haitian places and ruins that bear
+                complicated realities and histories in need of telling. In signature Romantic style,
+                Haitian grounds and built structures have their own stories and speak volumes in
+                Charles Hérard Dumesle’s <hi rend="italic">Voyage dans le nord d'Hayti</hi>
+                    (1824).<note place="foot" resp="author"> Dumesle, Charles Hérard. <hi
+                                rend="italic">Voyage dans le nord
+                                d’Hayti.</hi> (Cayes, Haiti: Government Imprint, 1824).</note>
+                
+                But the voices they sound and the accounts they record are not homogenous, timeless,
+                nor transcendent, as we find in more universalizing iterations of Romantic-era calls
+                for new political orders. Instead, these cries and histories are particular,
+                personal, and contingent—proving especially provocative when read in light of key
+                terminology from Haiti’s <hi rend="italic">Acte de l’Indépendance</hi> (1804).<note place="foot"  resp="author"><hi rend="italic" >Acte de l’Indépendance,
+                                1804</hi>, “Digithèque de Matériaux
+                                Juridique et Politique,” ed by Jean-Pierre Maury,
+                            2004–2014.</note>
+            </p>
+                
+            <p>Dumesle’s poetics of revolution turn upon the politics of prosopopoeia. Dumesle
+                drives home the political edge of the aesthetics and poetics of prosopopoeia, a
+                trope that uses the imaginative and metaphorical spaces of narrative to imbue voice
+                to whatever typically is not able to speak—from other animals to the land itself,
+                from built objects to dead subjects. Giving voice to Haitian locales and by giving
+                rise to the human and nonhuman stories they might tell if these places too had
+                tongues or pens, Dumesle intones counternarratives and correctives to
+                nationally-chauvinistic French colonial politics and aesthetics. In keeping with
+                Paul de Man’s classic discussions of prosopopoeia, Dumesle relies on the figure of
+                prosopopoeia not merely to draft the “fiction of an apostrophe to an absent,
+                deceased, or voiceless entity.”<note place="foot" resp="author"><hi> Paul de Man, “Autobiography as De-Facement,” in </hi><hi rend="italic" >The Rhetoric of
+                                Romanticism</hi>, 67-81 (New York: Columbia University Press, 1984), 75.
+                        </note> In particular, Dumesle activates an especially
+                time-sensitive iteration of prosopopoeia in place of more lyric-driven instances of
+                prosopopoeia that might be said to reach for timeless universality. Here Haiti’s
+                natural and built environments speak tales of national heroics and chronicle
+                compressed events of human dispossession and death that cannot be sundered from
+                stories of long-term environmental degradation and desolation. Reading
+                infrastructure and environment as archive, Dumesle not only anticipates Michel-Rolph
+                Trouillot’s landmark work <hi rend="italic">Silencing the Past: Power and the
+                    Production of History</hi> (Beacon 1995) but also Rob Nixon’s celebrated text
+                <hi rend="italic">Slow Violence: the Environmentalism of the Poor </hi>(Harvard
+                    2011).<note place="foot" resp="author"> Michel-Rolph Trouillot, <hi rend="italic" >Silencing the Past: Power and the Production of History </hi>(Boston: Beacon, 1995); Rob Nixon, 
+                            <hi rend="italic" >Slow Violence and the
+                                Environmentalism of the
+                            Poor</hi> (Cambridge, MA. and London: Harvard University Press, 2011). </note> Dumesle’s national narrative foregrounds a refigured
+                revolutionary Romanticism, one routed through much more than some fleeting humanist
+                spirit of an age, one that is always anchored by deeply rooted contingencies of time
+                and place.</p>
+                
+            <p> Writing after the Haitian Revolution, which spanned a
+                bloody thirteen years (1791-1804), and writing in the wake of Haitian independence
+                from France (1804), Dumesle has been historicized as one of Haiti’s first epic
+                poets. He figures as an early example of an Haitian author participating in a
+                nationalized Romanticism specific to Haiti that remained active across the
+                nineteenth century and through the early-twentieth century until U.S. occupation in
+                    1915.<note place="foot" resp="author"> Jacquelin Dolcé, Gérard Dorval, and Jean Miotel Casthely. Le Romantisme en Haïti: La Vie Intellectuelle, 1804–1915. (Port-au Prince, Haiti: Éditions Fardin, 1983), 5-9.</note>
+                In the Francophone work entitled <hi rend="italic">Le Romantisme en Haïti: La Vie
+                    Intellectuelle, 1804–1915</hi> (translating to <hi rend="italic">The Romanticism
+                    in Haiti: The Intellectual Life, 1804-1915</hi>), Jacquelin Dolcé, Gérard
+                Dorval, and Jean Miotel Casthely identify Haitian art from this period as belonging
+                to a Haitian Romanticism where art and politics fed one another, and where art was
+                always a provocation to act.<note place="foot" resp="author">Dolcé, Dorval, and Casthely, 3-9.</note>
+                Caribbean Studies scholar Marlene L. Daut mounts a compelling case for understanding
+                Dumesle’s <hi rend="italic">Voyage </hi>as a pivotal example of
+                transnational iterations of revolutionary Romanticism built around tropes of
+                justifiable rebellion and rightful vengeance. Daut also distinguishes how <hi
+                    rend="italic">Voyage</hi> marks a singular iteration of revolutionary
+                Romanticism constitutive of Haiti and its more unique expressions of an
+                affect-driven Romanticism predicated upon a condition of becoming sorrowful. Daut
+                stresses how “by the mid-nineteenth century the verb <hi rend="italic">lugubrer</hi>
+                [to make sorrowful] had become associated with not only the crafting of Haiti’s
+                Declaration of Independence, but with the early Haitian literary tradition more
+                    broadly.”<note place="foot" resp="author"> Marlene L. Daut, “‘Nothing in Nature is Mute’: Reading Revolutionary Romanticism in L’Haïtiade and Hérard Dumesle’s Voyage dans le nord d'Hayti (1824),” <hi
+                                rend="italic" >New Literary
+                            History</hi> 49, no. 4 (2018): 495.</note>
+                Extending Daut’s historical materialist argument, I contend that a poststructuralist
+                analysis of <hi rend="italic">lugubrer</hi>, in particular one that takes stock of
+                the multiple meanings denoted and connoted by this word, reveals how the condition
+                of becoming sorrowful—rather than activating the escapist, accepting, or
+                ameliorative energies of elegy—functions with the agency of an aesthetic judgement
+                capable of inspiring political action and great change.<note place="foot" resp="author"> On the escapist energies of elegy, especially in relation to environmental political histories, see Greg Garrard, <hi
+                                rend="italic">Ecocriticism</hi> (London and New York: Routledge, 2011).</note></p>
+                
+            <p>As Daut observes, Dumesle “was accused by [the nineteenth-century French grammarian
+                Gustave] D’Alaux of having, in his 1824 <hi rend="italic">Voyage dans le nord
+                    d’Hayti</hi>, ‘gone into ecstasies’ over” the word <hi rend="italic"
+                    >lugubrer</hi>.<note place="foot" resp="author">
+                            Daut, 495.</note> Daut
+                foregrounds the term’s etymology, evolving meanings, and politicized reception in a
+                long passage:
+                
+            <quote>The <hi rend="italic">Acte de l’Indépendance</hi> famously contains a phrase that
+                allegedly caused the most ardent of French grammarians in the nineteenth century to
+                turn up their noses: ‘The name of the French <hi rend="italic">makes sorrowful</hi>
+                our land’ [Le nom français <hi rend="italic">lugubre</hi> encore nos contrées].
+                Disdain for this phrase derived not solely, it seems, from the uninhibited hatred of
+                the French it exhibits, but also from the fact that the adjective <hi rend="italic"
+                    >lugubre,</hi> which means “mournful” or “sorrowful,” had been turned into a
+                verb, “to make sorrowful.” Although the crassly termed “mulatto verb” [verbe
+                mulâtre] has—at least since the publication of Gustave D’Alaux’s 1852 article
+                “Yellow Literature” [La Littérature jaune]—been attributed to Dessalines’s most
+                prominent secretary, Louis-Félix Boisrond-Tonnerre, the verb <hi rend="italic"
+                    >lugubrer</hi> was actually defined a few years before Haitian independence in
+                Mercier’s <hi rend="italic">Neologisms: or Dictionary of New words, to Revive, or to
+                    Understand in New Ways</hi> [<hi rend="italic">Néologie: ou Vocabulaire de mots
+                    nouveaux, à renouveler, ou pris dans des acceptions Nouvelles</hi>] (1801). In
+                the dictionary, Mercier, who claimed in the work’s introduction to have “removed
+                (with very few exceptions) all words that relate to the [French] revolution,” the
+                entry for <hi rend="italic">lugubrer</hi> reads:
+                
+                to imprint with sadness. His imagination tends to make sorrowful everything around
+                him. To make sorrowful a theatre with dark and sad works, distressing; Make
+                sorrowful a group of people with frightening details of an atrocious crime; Make
+                children sorrowful with ghost stories.
+                
+            empreindre la tristesse. Son imagination sombre ne tend qu’à Lugubrer tout ce qui
+                l’environne. Lugubrer un théâtre par des pièces tristes et noires, affligeantes;
+                Lugubrer une assemblée par les épouvantables détails d’un crime atroce; Lugubrer
+                l’esprit des enfans par des contes de revenans.<note
+                        place="foot">Daut, 495.</note></quote>
+                
+            Daut does not linger over this term for much longer in her essay, yet since the
+                current purpose of this study is in part to pick up where she left off with <hi
+                    rend="italic">lugubrer</hi>, it is first necessary to highlight Daut’s larger
+                claim. The aforementioned discussion of <hi rend="italic">lugubrer</hi> serves as a
+                point of departure for Daut’s argument that Haiti’s national founding, replete with
+                its history and its literature, “ha[s] a relationship to global Romanticism that has
+                been obscured by the tendency of scholars in the US and Western Europe to examine
+                this field as primarily literary and aesthetic rather than historical and
+                    political.”<note place="foot" resp="author">
+                           Daut, 497.</note> For Daut,
+                “[i]t is precisely the fusion of enlightenment poetics and revolutionary politics
+                that we see in the <hi rend="italic">Acte de l’Indépendance</hi>, which allows us to
+                understand this document itself (rather than just the moment of independence) as
+                axiomatic rather than quixotic, and elemental rather than incidental, for the <hi
+                    rend="italic">longue durée</hi> of Romanticism in Haiti.”<note place="foot" resp="author">
+                            Daut, 497.</note> To underscore
+                her point Daut emphasizes “the direct influence of the <hi rend="italic">Acte de
+                    l’Indépendance</hi> on later works of Haitian literature and history,” including
+                Dumesle’s <hi rend="italic">Voyage.</hi><note
+                        place="foot" resp="author">
+                            Daut, 497.</note> Daut rightly
+                contends that to responsibly address Haiti’s national literature from this period
+                and its relationship to revolutionary Romanticism requires that we recognize the
+                contingency of the poetic and the political, the aesthetic and the historical within
+                this body of work. For Dumesle’s <hi rend="italic">Voyage</hi> in particular, then,
+                is it necessary to grasp the centrality of the <hi rend="italic">Acte de
+                    l’Indépendance</hi> as a key allusive, intertextual reference point. It is also
+                important to bear in mind what is at stake when Dumesle is characterized as having
+                “gone into ecstasies” over the neologism <hi rend="italic">lugubrer,</hi> a highly
+                politicized term itself central to the Haitian Declaration of Independence and its
+                literary and political legacies.</p>
+                
+            <p> While the nineteenth-century French grammarian D’Alaux meant to disparage Dumesle
+                for being in thrall to the term <hi rend="italic">lugubrer</hi>, when read from
+                another perspective, D’Alaux’s phrasing may well have signified a compliment
+                attesting to the political power of Dumesle’s words. D’Alaux’s negative aesthetic
+                judgement of the word suggests that Dumesle’s writing falls down a peg because of a
+                problematic mélange of an implied mindless devotion, hyper-embodiment, and
+                irrationality in his allegiance to <hi rend="italic">lugubrer</hi>. The reference to
+                his going into “ecstasies” does double duty in conjuring to mind a would-be
+                thoughtless state of religious zealousness as well as a sexually-charged state of
+                orgasmic release, neither of which suggest a steady hand nor a level head. Neither
+                conforms to normative, hyperrational parameters of so-called western enlightenment
+                subjects. But when read against the French colonial grain, to go into ecstasy over
+                the term <hi rend="italic">lugubrer</hi>, a verb referring to the process of
+                becoming sorrowful, suggests arriving at a motivated state of emotional whiplash: a
+                frenetic sadness, fevered grieving, heated distress. Here lies vengeance.<note place="foot" resp="author"> Literatures of Saint-Domingue’s formerly enslaved subjects framed vengeance as a mode of countering misrepresentative colonial accounts of the past. As Daut notes, in the case of Vastey’s <hi rend="italic">Le Cri de la conscience </hi>[The Cry of Conscience] (1815), “Vengeance
+                                here has become less evidence of African ‘savagery,’ as evoked
+                                sometimes even in the laudatory writings of Métral, and closer to
+                                what Daina Ramey Berry might call one of the ‘soul values’ of the
+                                formerly enslaved peoples of Saint-Domingue. The human soul that
+                                lives after death and tells its own story out of revenge for the
+                                intractable testimony of the colonists provides Vastey with an
+                                archive that not only intimately involves, but was created,
+                                contextualized, and preserved by nineteenth-century Haitians
+                                themselves” (503).</note> To have gone into ecstasies
+                over <hi rend="italic">lugubrer</hi> becomes the rhetorical equivalent of being half
+                in love with sorrow—primarily the half invigorating one to act in the spirit of the
+                Haitian Declaration of Independence, as I discuss below.</p>
+                
+            <p> The term’s reception history hints at how <hi rend="italic">lugubrer</hi> could
+                raise the specter of activating multiple levels of vengeance, applicable not just to
+                avenging trespasses against humanity but also against ruined Haitian grounds and
+                built structures—against the entire Haitian country in the broadest possible sense.
+                As we shall see and confirming anew how Haitian revolutionary literature takes as
+                axiomatic a blend of enlightenment aesthetics and revolutionary politics, Dumesle’s
+                capacious thinking about the Haitian country, as including not just people but wider
+                environs replete with built and natural environments, aligns with evolving meanings
+                of the word <hi rend="italic">country</hi> developing in Britain. Anne Janowitz’s
+                <hi rend="italic">England’s Ruins: Poetic Purpose and the National Landscape </hi>charts
+                this precise historical development. For Britain, 
+                
+            <quote>The physical situation of cultural ruins within the countryside linked the rhetoric
+                of ruin to that of land. This turned out to be fortunate in the creation of British
+                nationalism: as assimilated into the later eighteenth-century aesthetic of the
+                picturesque, ruins were admired as blending into the countryside, while the sense of
+                “country” as rural terrain and “country” as nation also began to melt one into the
+                    other.<note place="foot" resp="author">Anne Janowitz, <hi rend="italic">England’s Ruins: Poetic Purpose and the National Landscape </hi>(West Sussex, UK and Hoboken, NJ: Blackwell,
+                                1990), 3-4.</note></quote>
+            
+            To return now to the texts of the <hi rend="italic">Acte de l’Indépendance</hi> and
+                Mercier’s <hi rend="italic">Neologisms</hi>, we can see how contingent meanings
+                generated by the Francophone term’s usage helps to bring into focus a deep
+                relationship between this verb and what we would today call matters of social and
+                environmental justice, matters which link the politics of people and place. The use
+                of the adjective-turned-verb in the Haitian Declaration of Independence conveys the
+                idea of the region of Haiti becoming sorrowful as result of ongoing, still
+                continuing colonial processes: “‘The name of the French makes sorrowful our land’
+                [Le nom français lugubre encore nos contrées]”.<note
+                        place="foot" resp="author">
+                            Daut, 495.</note> The phrase
+                “lugubre encore nos contrées” [yet makes sorrowful
+                <hi rend="italic">our </hi>region], advances the nationalist
+                sentiment conveyed by a political document meant to declare Haitian sovereignty over
+                a specific population and location (my translation and emphasis). This region and
+                country, these Haitian lands, encircling the people residing within it, continue to
+                be made sorrowful by “Le nom français,” by trespasses executed there both now and in
+                the past and in the name of France and French colonial rule. </p>
+                
+            <p>The phrase’s possessive pronoun “nos” [our] applies metonymically to a coextensive
+                humanity and environment including Haitian people and Haitian ground. This human and
+                nonhuman inclusive sweep is likewise suggested by the diction, syntax, and grammar
+                adopted in the entry published the same year on the new verb form of the word in
+                Mercier’s <hi rend="italic">Neologisms</hi>. The entry’s opening (“empreindre la
+                tristesse. Son imagination sombre ne tend qu’à Lugubrer tout ce qui l’environne.”
+                [to imprint with sadness. His dark imagination tends to make sorrowful everything
+                around him.]) deploys as context a permutation of the French word <hi
+                    rend="italic">environner</hi>, a term bearing place-based word histories from the
+                    Middle French meaning “to arrange (people or things) in a circle, to travel
+                round, circumnavigate (a place)” and the Old French meaning “to wrap around (<hi
+                    rend="italic">c</hi>1200), to traverse, to wander about (<hi rend="italic"
+                    >c</hi>1230), to surround, encircle (my translation).<note place="foot" resp="author">
+                            “environ, v.” <hi
+                                rend="italic">OED.</hi></note> While
+                    the Anglophone term enivronment would later be derived
+                in part from the French <hi rend="italic">environner </hi>, with environment going on to
+                    signify the natural world and evoke concepts of nature often exclusive of
+                    humanity and its built structures, the same cannot be said for the Francophone
+                    future of this term.<note place="foot" resp="author">
+                            “environment, n.” <hi rend="italic">OED</hi>.</note> Generating meanings akin to those of the Anglophone term environs, today environner evokes a more wholesale and nonexclusive condition of being surrounded, encircled, enveloped—potentially including people or indeed anything and everything within a constitutive space.</p>  
+                
+                <p>These wider meanings and political implications are generated not
+                    by way of what Paul de Man would call the “paradigmatic structure based on
+                substitution, such as metaphor.”<note place="foot" resp="author"> Paul de Man, “Semiology and Rhetoric,” <hi rend="italic">Diacritics</hi> 3, no. 3 (1973): 32.</note>
+                Rather, language generates political meaning here in alignment with how de Man sees
+                metonyms operating in Proust. Instead of relying primarily on the exchange economy
+                of metaphor, here the constitutive relations of metonymy predominate. At play in
+                this case is “a syntagmatic structure based on contingent association such as
+                metonymy … [not] the substitutive totalization by metaphor which is said [by some
+                whom de Man would hold suspect] to be more effective than the mere contiguity of
+                metonymic association.”<note place="foot" resp="author"> de Man, “Semiology and Rhetoric,” 32,
+                                31.</note> Fittingly in this case, meaning is produced
+                by constitutive means in <hi >Mercier’s</hi> entry on <hi
+                    rend="italic">lugubrer</hi>. The
+                subject, for example, is capable of transforming “everything around him,” everything
+                connected to him.<note place="foot" resp="author">
+                            Mercier qtd. in Daut,
+                    495.</note>
+                At play in Mercier’s defining context is the logic of metonymy and moreover a metonymic “contingent
+                habit of proximity.”<note place="foot" resp="author">de Man, “Semiology and Rhetoric,”
+                            31.</note> The entry alludes to the way one’s mind
+                imagines metaphors (in this case a metaphorical sorrow) differently by way of
+                context-driven association. Sometimes, for example, a metaphor can signify all the
+                more darkly due to one’s constitutive environs or political context and vice versa.
+                The entry’s phrasing foregrounds the contingency of meaning and spotlights the role
+                proximity plays in generating associated meanings. That is, the entry’s language
+                evokes the way meanings of words such as sorrow or <hi>lugubrer</hi>
+                can change next to different words, the way one’s sorrow can be transformed by
+                another who closes in too close, seemingly encircling and touching with sorrow
+                everyone and everything imaginable; “Lugubrer tout ce qui l’environne” [To make
+                sorrowful all that surrounds him] (my
+                translation). The verbal power and politics of metonymy’s transformative dynamics of proximity are borne out again and again in Mercier’s entry on lugubrer, not least in light of Mercier’s contextualized definition, where the capitalized term “Lugubrer” suggests this particular sort of sorrow-making can be imagined and read as imprinting upon and therefore reformulating affectively and conceptually the entirety of one’s surrounding nature and culture. By extension, here a mind touched and remade by lugubrer is able to see this sorrowful condition and its attendant motivating affective states as legible throughout all reaches of Haitian lived experience.</p>
+                
+            <p>A stirring scene from Dumesle’s travel narrative, Voyage,
+                    captures the full affective arc of the aesthetic politics conveyed by the
+                    adjective-turned-verb lugubrer. Dumesle reads the then-ruinous northern port
+                    town of Cap-Haïtien as ripe for revolutionary reversal. For Dumesle, new futures
+                    can be scripted here precisely because these environs make legible important
+                    correctives to Haiti’s otherwise mistold past. <note place="foot" resp="author"> See, for example, Claude-Pierre-Joseph Le Borgne de Boigne, <hi rend="italic">Nouveau système de colonisation pour Saint-Domingue. </hi>Paris: Dondy Dupré, 1817.</note> For example, the work of French naturalist Michel Etienne Descourtilz, Histoire des désastres de Saint-Domingue, marks an early yet pivotal 1791 uprising of enslaved peoples living in Le Cap, as the northern port town was then commonly called by Francophone and Francophone-influenced speakers. As the work’s title suggests, the history of Haitian independence beginning to touch off in Cap-Haïtien ranks as the onset of a ruinous disaster.<note place="foot" resp="author"> Michel Étienne Descourtilz, <hi
+                                rend="italic">Histoire des Désastres de
+                                Saint-Domingue</hi> (Paris: Chez Garnery, 1795), 183-84.</note> In this document, to band together as enslaved and relatively-free subjects of color fighting for freedom and fighting against French-colonial subjugation both number as acts of barbaric terror perpetrated against unfortunate French enslavers qua victims. <note place="foot" resp="author"> Descourtilz,
+                                    183-84.</note> Working against written histories such as these, the environs of Cap-Haïtien have a different story to tell. Running counter to hegemonic histories proven primarily by page, print, and pen—narratives originating from Le Cap’s natural and built environment reframe Dumesle’s historical imagination:
+                
+            <quote>Before-long the city of Cap-Haitian seemed to appear from behind a curtain to present
+                before our eyes the panorama of its beautiful edifices and ruins that are spread
+                over her; the mountains that encircle her from the direction of the setting sun and
+                stretch their arid chain from north to south depict for us her extensive wall. The
+                aspect of this city preserves the thoughts of great memories, her ruins reveal the
+                events for which she was the stage.<note place="foot" resp="author">Dumesle, 73. All translations from Dumesle are by Cherie Maiden unless otherwise indicated.</note></quote>
+                
+           For Dumesle, the port town’s overriding affective agencies turn
+                    upon a sorrowful yet beautiful aesthetic politics of ruination, seeing as the
+                    ruins he surveys there once housed Henry I, King of Haiti, better known as Henri
+                    Christophe, who succeeded in throwing off French colonial rule. In this
+                    landscape, ruins bear a strain of beauty shared with other, assumedly unruined
+                    built structures. “The aspect of this city” holds especial semiotic purchase,
+                    “preserv[ing] the thoughts of great memories” of standing up to the French. Its
+                    ruins are revelatory, tantamount to a national iconography bearing stories of
+                    the Haitian Revolution and histories of its path to independence. Treating the
+                    port city’s environs more akin to central characters or narrators than static
+                    backdrop or mere setting, Dumesle’s travel narrative imagines an ecological,
+                    environmental, nonhuman agency that borders on artistic agency and license. The
+                    city “seemed to appear from behind a curtain … the mountains that encircle her
+                    from the direction of the setting sun and stretch their arid chain from north to
+                    south depict for us her extensive wall.” The city metaphorizes into stage actor.
+                    The mountain metaphorizes into the one who depicts. The city is not simply a
+                    passive storehouse of memory but also actively “reveal[s] the events for which
+                    she was the stage.” Dumesle’s use of active, non-finite verbs affords room for
+                    multiple histories and temporalities to appear in synchrony, alongside one
+                    another, as the city-as-stage metaphor links the ruins of another time with
+                    their stories from the past to Dumesle’s present where “Cap-Haitian seemed
+                to appear from behind a curtain to present before our eyes the panorama of its
+                beautiful edifices and ruins that are spread over her.” The city and its environs
+                surround Dumesle and his fellow travelers with the bounty of a rich infrastructural
+                historical archive capable at once of showcasing Haiti’s revolutionary past and
+                authorizing decolonized futures not least because the site is capable of carrying
+                into the present, and beyond, great memories of the Haitian past.</p>
+                
+            <p> The longstanding adjectival senses of <hi rend="italic">lugubre</hi> (meaning
+                mournful or sorrowful), as well as the reformulated verb form used in the Haitian
+                Declaration of Independence (signaling actions or activities rendering the subject
+                or object in question sorrowful), accommodate multiple temporalities: past, present,
+                future, ongoing processes of becoming. The temporal play afforded by these terms is
+                important to consider in relation to the complex temporality of ruins. The kinds of
+                time imagined in conjunction with ruins matter not least because temporal dimensions
+                signified by ruins underpin “the relation of ruins to history, and of history to
+                    ruins.”<note place="foot" resp="author">Sophie Thomas, “Assembling History: Fragments And Ruins.” <hi rend="italic">European Romantic Review</hi> 14, no. 2 (2003): 178.</note>
+                As Sophie Thomas observes, “[t]here are, clearly, a number of ways in which ruins,
+                and fragmentary ruins, speak to, or of, the past. In all cases, it seems ambivalent
+                effects are created by the way ruins float between the past and present (the same
+                way fragments are suspended between the part and the idea of the whole) but belong
+                fully to neither.”<note place="foot" resp="author">Thomas, 181.</note>
+            </p>
+                
+            <p>Further enlarging the scope of such temporal play, the ruin’s relationship to past
+                and present fosters contingent ideas of futurity. Ann Laura Stoler reminds us how
+                “[r]uins hold histories but are less than the sum of the sensibilities of people who
+                live in them. Instead we might turn to ruins as epicenters of renewed claims, as
+                history in a spirited voice, as sites that animate new possibilities, bids for
+                entitlement, and unexpected political projects.”<note
+                        place="foot">Ann Laura Stoler, “Imperial Debris: Reflections on Ruins and Ruination.” <hi
+                                rend="italic">Cultural Anthropology </hi>23, no. 2 (2008): 197.</note>
+                
+                How the temporalities of ruins are read produces telling results, not unlike a
+                Rorschach test: the temporal aesthetic judgements ruins arouse expose the historical
+                politics of their readers. “It is possible, for example, to view the anachronism of
+                the ruin as bearing a message from the past, rather than, as Michael Roth suggests
+                in <hi rend="italic">Irresistible Decay</hi>, operating as ‘an active site of life
+                in the present,’” and, I would add, it goes without saying that ruins could also
+                operate as both at once, with ruins bespeaking past and present simultaneously.<note place="foot" resp="author"> Thomas, 181.</note> Then, as Susan Buck-Morss is right to
+                suggest, ruins can refer “to the loosened building blocks (both semantic and
+                material) out of which a new order can be constructed.”<note place="foot" resp="author"> Susan Buck-Morss, <hi rend="italic" >The Dialectics of Seeing:
+                                Walter Benjamin and the Arcades
+                            Project</hi> Cambridge, MA and London: The MIT Press, 1989), 212.</note>
+                All at once, ruins can conjure past and present and augur possible futures. So too
+                ruins can activate non-finite and sometimes infinite senses like those at play in
+                    <hi rend="italic">lugubre</hi> and lugubrer, and thus can
+                    presage a spilling over into futurity in the active and ongoing sense that
+                    Dumesle depicts in reference to meanings produced and held by ruins of
+                    revolutionary Haiti.</p>
+                
+            <p> Immediately following the above account of the port town’s
+                    mountains, buildings, ruins, Dumesle deploys another signature trope of
+                    Romanticism by foregrounding the relationship between nature and
+                    imagination:
+            <quote>the imagination contemplates [the wider aspect of the city and its ruins] with
+                surprise, and occupies itself showing them again detachedly as if it was charged
+                with collecting them for history. While questioning the debris of these venerable
+                monuments about the great attributes of our revolution, it seeks to discover the
+                causes that prepared her and made her course so frightening. Informed by their
+                testimonies that injustice and oppression were the motifs for all the disasters
+                which have ravaged this land, it remains struck with astonishment and fear by the
+                idea of the reign of the usurper who dictated, not so long ago, his banishment
+                    decrees.<note place="foot" resp="author">
+                            Dumesle, 73.</note></quote>
+                
+            Whereas, in lines just previous to these, elements of the built and natural world
+                take the stage to assume agential powers of author and artist, the lines quoted here
+                foreground the power of an imagination in thrall to the aesthetic force and historic
+                significance of revolutionary ruins. The aesthetic force of this landscape first
+                sends Dumesle’s imagination reeling—cooling then for a moment in the face of
+                resolute purpose: the charge of (re)collecting the scene’s actors, its mountains,
+                its monuments, for history. The imagination joins these Haitian environs as central
+                players, with Dumesle’s ruins and debris staged here as the imagination’s direct
+                interlocuters, ripe as they are for “questioning” and bearing as they do answers
+                “about the great attributes of our revolution.” The records these environs disclose
+                to the imagination are “testimonies” of “injustice and oppression” that would pave
+                the way for “all [of] the disasters which … ravaged this land.” At this point
+                Dumesle’s imagination is once again thrown, taken aback, “struck with astonishment
+                and fear” not simply by encountering in these ruins the stories of human injustice,
+                “the reign of the usurper who dictated,” but also the dialectally enfolding unjust
+                desolation of “this land,” as the latter arrives hand-in-hand with human “injustices
+                and oppression.” Revealingly, the imagination resides at the center of Dumesle’s
+                sentence, with damaged, “ravaged” land on the one side and a damaging, “dictat[ing]”
+                humanity on the other. Dumesle’s syntax thematizes a core concept: it grammatically
+                yokes together in the space of one sentence the structural link between social
+                injustice and environmental injustice. </p>
+                
+            <p> Just as Dumesle’s narrative foregrounds the structural contingencies of
+                environmental and social justice, it also places contingent affective-aesthetic
+                forces at the heart of its Romantic revolutionary history. As Dumesle interacts with
+                the city, the landscape aesthetics at play in the previous paragraphs that kept the
+                Haitian country at arm’s length now give way to an aesthetic of moving engagement—of
+                conversant, affective exchange. Now moving within the city, his soul is moved all
+                the more, rendered increasingly sensitive to its historical and temporal
+                messaging:
+                
+            <quote>Upon arriving in this city, at one time so flourishing, I feel this movement of the
+                soul receptive to receiving the life-saving lessons given by the imposing aspect
+                from these precious ruins; I roam its path immediately the day after my arrival, and
+                the reflections that each object gives rise in me transport me to the different
+                epochs whose traces I rediscovered in all that was surrounding me. I remembered
+                [Vincent] Ogé and [Jean-Baptiste] Chavanne, and the time when they appeared on the
+                political scene to demand the rights that we hold by nature; the dawning of our
+                regeneration preoccupied me deeply.<note place="foot" resp="author">
+                            Dumesle, 73-4.</note></quote>
+                
+            Not only does he see or read “these precious ruins,” but by roaming “its path” he
+                becomes all the more “receptive to receiving the life-saving lessons” that this
+                place can impart to him. That is, his immersive multisensory engagement with the
+                city—not just gazing at it from a distance but standing upon it, feeling it beneath
+                him, being in it and with it—primes him to feel more deeply connected to it; it is
+                as if his surrounds or environs become more akin to communicative, speaking subjects
+                than mute or reified objects, more akin to historical agents than mere historical
+                background for Dumesle as he recounts engaging with the site via multiple sensory
+                registers. The ruins conjure experiential histories and lived memories of famed
+                Haitian revolutionaries (Vincent Ogé and Jean-Baptiste Chavanne), positioning them
+                as key representatives from just one of the “different epochs whose traces [he]
+                rediscovered in all that was surrounding [him].” The narrative has Dumesle enswathed
+                in Haitian history at the precise moment that he stands within the city’s environs
+                and its physical embrace. Feeling there and being there, he is primed to
+                conceptualize Haiti’s temporal and historical frameworks in distinctive ways. These
+                ruins now speak of lessons that will save lives in futurity as much as they locate
+                the lives of Haitian revolutionaries as seeding Haitian “regeneration,” and so
+                Dumesle reads Haiti’s revolution and hard-won independence from France as spurring a
+                renewed Haiti, cut from French colonial rule but still tethered to longer-standing
+                histories lived on and through Haitian grounds. The paragraph fittingly ends with
+                contingent figurations of a thoroughly nationalized earth and naturalized political
+                imaginary. The aesthetic of these ruins and these Haitian grounds all give rise to
+                historical reflections rife with political affect, to deeply preoccupying feelings
+                about Haiti as “political scene” and as political stage wherein anticolonial humans
+                actors and agents fought to “demand the rights [they] hold by nature.”</p>
+                
+            <p>Accounting for the multiple meanings generated by Dumesle’s narrative affords an
+                important opportunity to revisit revolutionary Romanticism’s figurations of
+                prosopopoeitic nature (i.e., representations of a natural environment that speaks)
+                and how the trope of a voice-bearing nature often couples with naturalized political
+                histories and teleologies. In the figurative sense, to state that revolutionaries
+                “appeared on the political scene to demand the rights [they] hold by nature” means
+                to suggest that the likes of Ogé and Chavanne fought to recover an inborn political
+                sovereignty they already and necessarily possessed. Read in this way any potential
+                radicality is all but evacuated as each revolutionary here simply asks with force
+                for rights inherently bestowed by way of a citizen-based, nation-granted version of
+                sovereignty that would more honestly go by the name of <hi rend="italic">national
+                    law</hi> but is naturalized here instead as <hi rend="italic">natural
+                law</hi>—granted by the undeniable fact of their existence in Haiti, a place always already
+                understood or imagined as “political scene.”</p>
+                
+            <p>Then when this phrase is read in the literal sense, Dumesle in essence becomes an
+                early advocate of environmental justice, an early arbiter of environmental law. In
+                this case historical figures such as the revolutionaries Ogé and Chavanne fighting
+                on Haitian grounds can be political only after and through nature. These Haitian
+                environs and all attendant human rights or political sovereignties can only ever be
+                granted or held first by the way of nature, through nature, with nature, never
+                without nature. Human beings in this case aren’t automatically or intrinsically
+                instilled with political rights at all nor granted any sort of inherent sovereignty.
+                Rather nature itself is the foundation. Nature makes politics possible just as Bruno
+                Latour will tell us many years later.<note place="foot" resp="author">See Bruno Latour, <hi
+                                rend="italic" >Politics of Nature</hi>, Trans. Catherine Porter. Harvard UP,
+                                2004.</note> Read literally and not figuratively, here
+                nature makes possible any and all human politics, rights, nations, revolutions. Only
+                because of the sheer existence not of humanity but of the natural world can Haitian
+                rights be possible—they, and by extension anyone and all of us, can only ever become
+                able to “demand” or “hold” rights because the natural world makes us and them
+                possible, makes possible most anything we think, feel, encounter, or hold to be
+                true. The tensions produced between these two readings allow Dumesle’s text to
+                simultaneously endorse a transcendental, Enlightenment humanist basis for Haiti’s
+                nation-based political sovereignty while also making the case not for transcendental
+                nature in the spirit of certain Romantic texts but a metaphysics of rights-based
+                politics wherein only the existence of nature could ever begin to serve as the basis
+                of politics and any imagined or constructed sovereign rights. This is not simply the
+                divine and righteous spirit of nature running throughout all things fueling the just
+                revolution, but the physical stuff of nature grounding the revolution, the stuff of
+                nature first setting any constructed political scene.</p>
+                
+            <p>Dumesle’s revolutionary history rehearses and reinvents signature features of
+                Romantic aesthetic politics. <hi rend="italic">Voyage</hi> tropes upon
+                representations of sublime nature and sublime historical temporalities long home to
+                teleological narratives of Romantic revolution. Dumesle writes of encounters with an
+                otherwise inscrutable nature that transports the narrator to new revelatory heights
+                by at last speaking to him only after foregrounding a sublimely rapid Haitian
+                national trajectory far outpacing European models of “the progress of civilization”: 
+                
+            <quote>My reflections embraced the space which separated the origin of our current
+                revolution, an immense age, if it is measured according to the progress of
+                civilization. What period haven’t the Haitian people traveled since the era of
+                independence! And, without having started from a long way, how many centuries
+                haven’t the old nations needed, now in existence, to arrive at the point that they
+                have reached? All the circumstances which marked the course of this interval
+                presented themselves confusedly in my memory; I sought to unravel this chaos, and
+                persuaded that nothing is silent in nature for those who know how to consult her, I
+                interrogated the places and sights. Then the inspiration from the memories, the
+                eloquence of the ruins, and this secret voice that speaks to the soul, spoke to my
+                mind, and thus explained to me the events that the imposing remains confirmed.<note place="foot" resp="author">Dumesle, 74.</note></quote>
+                
+            To unravel the chaos of Haitian national history is to grasp the sublime
+                accomplishments not just of revolution and independence but also to acknowledge
+                these national achievements as a sublime compression of historical time. While
+                accounts of sublime nature routinely recount stories of dizzied spectators whose
+                minds cannot approach nature’s profundity and complexity, here Dumesle flips the
+                script and then some. To begin to come to grips at all with “[a]ll the circumstances
+                which have marked the course of this [national, historical, teleological] interval …
+                to unravel this chaos” the narrator must look to sublime Haitian nature replete with
+                its speaking ruins. Thinking with nature, listening to nature, engaging with nature
+                are all prerequisites to making any sense of Haiti’s national memories, histories,
+                and temporalities. Only after accepting the premise that “nothing is silent in
+                nature” can the “eloquence of ruins” carry out its sublime work in “speak[ing] to
+                the soul … [and] mind” in its “secret voice” to thereby explain “the events that the
+                imposing remains confirmed.” In this case, prosopopoeia, as de Man is right to
+                observe, once again proves itself to be “the trope of autobiography, by which one’s
+                name … is made as intelligible and memorable as a face,” and what is given voice—and
+                in so doing granted “face” in this case—is in fact nothing short of the natural
+                    world.<note place="foot" resp="author">
+                            de Man, “Autobiography as De-Facement,”
+                                80-81.</note></p>
+                
+            <p>It is worth emphasizing here that across a short sequence of paragraphs Dumesle
+                suggestively advances and intertwines the core arguments of two influential
+                scholarly studies: Trouillot’s
+                <hi rend="italic">Silencing the Past</hi> and Rob Nixon’s <hi
+                    rend="italic">Slow Violence</hi>. Trouillot’s twentieth-century contention that
+                Haiti’s ruins and others “provide numerous vantage points from which to examine the
+                means and process of historical production” echoes implicit arguments in Dumesle
+                whenever his travel narrative stages Haitian monuments and debris as capable both of
+                being read and bearing testimony.<note place="foot" resp="author">
+                           Trouillot, 44.</note>Daut
+                likewise finds parallels between Dumesle’s <hi rend="italic">Voyage</hi> and
+                Trouillot’s <hi rend="italic">Silencing the Past</hi>, suggesting that “Dumesle was
+                one of the first Haitian writers to try not only to make [Haiti’s] walls speak, but
+                to help them tell their own story.”<note place="foot" resp="author">Daut, 499.</note> “In looking
+                to the ‘imposing debris’ of Haiti’s revolution to allow it to tell the story of
+                Haitian independence,” Daut sees “Dumesle anticipat[ing] Michel-Rolph Trouillot’s
+                groundbreaking exploration of the palace at Sans Souci as archive in <hi
+                    rend="italic">Silencing the Past</hi>. Trouillot had noted that the historical
+                resources for telling the history of Haiti could be found equally in the ‘buildings,
+                dead bodies, censuses, [and] monuments,’ as they could be located in ‘diaries [and]
+                political boundaries.’”<note place="foot" resp="author"> Daut, 499.</note> Dumesle’s
+                narrative already “claimed that stonework, bodies, and national monuments could
+                actually speak through him, as if these ‘ruins’ were in fact the primary and most
+                important informants and interlocutors of the Haitian past. In arguing that the
+                ruins spoke to him … Dumesle puts forward a theory of history based in large part on
+                lived memory.”<note place="foot" resp="author">
+                            Daut, 499.</note> Beyond this,
+                Trouillot follows Dumesle in espousing not just the historical import of lived
+                memories actualized through engaging ruins, cities, and larger landscapes that
+                figurately speak by way of prosopopoeia. Both Dumesle and Trouillot also model a
+                theory of multisensorial history from which lived memories arise. For Trouillot,
+                Haiti’s infrastructural and environmental archive “span[s] a material continuum”
+                (45). Multisensorial affective histories become legible through various sensory
+                modes not reducible to any one avenue of sense perception, be it touch, taste,
+                smell, sound, or sight. Instead and in harmony with Dumesle, Trouillot’s Haitian
+                ruins are “[c]oncrete reminders that the uneven power of historical production is
+                expressed [not simply through immaterial or ideational dimensions of concepts,
+                ideas, words, or narratives but] also through the power to touch, to see, and to
+                    feel.”<note place="foot" resp="author">
+                            Trouillot, 44-5.</note>
+            </p>
+            <p>In addition to anticipating Trouillot’s project in <hi rend="italic">Silencing the
+                    Past</hi> of reading of Haitian ruins to recover unacknowledged Haitian pasts,
+                    <hi rend="italic">Voyage</hi> presages Nixon’s twenty-first century project in
+                <hi rend="italic">Slow Violence and the Environmentalism of the Poor. </hi>There,
+                Nixon expands running definitions of violence to accommodate the long term and often
+                intergenerational damage done to places and peoples through unchecked and often
+                unacknowledged abuses of power. Nixon defines “slow violence” as a “violence that
+                occurs gradually and out of sight, a violence of delayed destruction that is
+                dispersed across time and space, an attritional violence that is not typically
+                viewed as violence at all.”<note place="foot" resp="author">
+                            Nixon, 2.</note> Thinking with
+                nonnormative temporalities proves crucial to this project. “Violence,” he writes,
+                “is customarily conceived as an event or action that is immediate in time, explosive
+                and spectacular in space, and as erupting into instant visibility. We need … to
+                engage a different kind of violence, a violence that is neither spectacular nor
+                instantaneous, but rather incremental and accretive, its calamitous repercussions
+                playing out across a range of temporal scales.”<note
+                        place="foot" resp="author"> Nixon, 2.</note> This change in
+                temporal imagination requires new narrative engagements, new narrative modes: “We
+                also need to engage the representational, narrative, and strategic challenges posed
+                by the relative invisibility of slow violence.”<note
+                        place="foot" resp="author">
+                            Nixon, 2.</note> Nixon’s call
+                to action—his grounding basis for any hope for change or optimism—hinges on framing,
+                writing, and thinking—on what he refers to as “rhetorical inventiveness.”<note place="foot" resp="author"> Nixon, 6.</note> He places a
+                premium on “giv[ing] figurative shape to formless threats,” dismantling silences,
+                producing counter histories, exposing misrepresented socioenvironmental
+                    catastrophes.<note place="foot" resp="author">
+                            Nixon, 10, 6, 31.</note>
+            </p>
+                
+            <p>When Dumesle surveys the more recent ruins of the Kingdom of Haiti on display at <hi
+                    >Cap-Haïtien</hi>, reading the earth and infrastructure there to
+                access the country’s decades-old revolutionary past, he grapples not only with the
+                more explosive events leading to and proceeding from Haitian independence, but
+                imagines also an even longer arc of Haiti’s difficult history. As if to allude to
+                and to expand the affective force and political resonances of the term <hi
+                    >lugubrer</hi> from the Haitian Declaration of Independence, the
+                ruins Dumesle consults bear “testimonies that injustice and oppression were the
+                motifs for all the disasters which have ravaged this land,” not just those more
+                spectacular forms of desolation wrought by “the usurper who dictated, not so long
+                    ago.”<note place="foot" resp="author">
+                            Dumesle, 73.</note> Already
+                working in the spirit of Nixon’s call for inventive narrative models able to mount
+                strategic challenges to narrow, normative accounts of epiphanic violence, Dumesle’s
+                    <hi rend="italic">Voyage</hi> contains sweeping retrospectives and imagines
+                broad futures to give “figurative form to [otherwise] formless threats.” Just as
+                Dumesle draws upon lived memory as well as environmental and infrastructural forms
+                of historical evidence to “discover the causes that prepared [Haiti] and made her
+                course so frightening,” he also leverages such historical recovery work to script
+                new contours for what follows as the “dawning of [Haiti’s] regeneration.” Indeed,
+                elsewhere in <hi rend="italic">Voyage </hi>dead soldiers buried
+                in the Haitian earth end up righting the historical record to forge new futures:
+                “Dumesle continues by suggesting that calling forth these names [of buried Haitian
+                soldiers] will make them ‘live until the most remote of ages,’ and thus that these
+                names alone “will stand as depositions against the fury of the tyrants who have
+                desolated this land.”<note place="foot" resp="author"> Daut, 502.</note></p>
+                
+            <p>At risk of romanticizing Dumesle’s <hi rend="italic">Voyage</hi> and its place in
+                understanding Haiti’s revolutionary past, Dumesle’s text must not ring more
+                universal than it is. Indeed it foregrounds the lived memories and felt histories of
+                a politically-motivated, vengeful sorrow borne out by giving voice to Haiti’s
+                twinned desolations of place and people during a time of revolution. These
+                contingent desolations arrive in light of both French colonial rule and
+                revolutionary war, and these contingent desolations continue to endure long after.
+                But Dumesle’s text does not and cannot recover a complete history of the Haitian
+                revolutionary past. After all, the travel narrative does wear on its sleeve its
+                relation to the genre of the epic, making overtly clear its nationalist leanings. As
+                Trouillot details, “some former [enslaved people] had refused to submit [not only]
+                to the French … some (often the same) contested the new revolutionary hierarchy.”<note place="foot" resp="author">Trouillot, 43.</note> They
+                neither wanted to bend to French rule nor that of any others, with many having been
+                killed in the process. The important matter to bear in mind is that “[n]ationalist
+                narratives … inevitably tell a heroic tale of a benevolent nation-state triumphing
+                despite hardship.”<note place="foot" resp="author"> Deborah Cowen, “Following the Infrastructures of Empire: Notes on Cities, Settler Colonialism, and Method.” <hi
+                                rend="italic" >Urban
+                            Geography</hi> 41, no. 4 (2020): 471.</note>
+                Deborah Cowen’s work on infrastructures of empire charts how nationalist accounts
+                often “enshrine the successes of elites as a common national heritage, even as those
+                successes are stories of genocide. These narratives inevitably sideline the violence
+                that all this was contingent upon—the dispossession, dehumanization, and
+                exploitation. This style of storytelling is high stakes.”<note place="foot" resp="author">
+                            Cowen, 471-72.</note> So while
+                Dumesle’s travel narrative, like the Haitian <hi rend="italic">Acte de
+                    l’Indépendance</hi>, gives voice to conjoined sorrows of a Haitian country
+                broadly conceived to account for distinct damages done to both place and people,
+                that is not to say that they account for all such damage, that is not to say that
+                they avoid scripting other desolations, violences, or silences in the process.</p>
+            </div>
+            <div type="citation">
+            <head>Works Cited </head>
+           
+            <bibl><hi rend="italic">Acte de l’Indépendance, 1804</hi>. “Digithèque de Matériaux
+                Juridique et Politique.” Edited by Jean-Pierre Maury, 2004–2014. <ref
+                    target="https://mjp.univ-perp.fr/constit/ht1804.htm"
+                    >https://mjp.univ-perp.fr/constit/ht1804.htm</ref>.</bibl>
+            <bibl>Buck-Morss, Susan. <hi rend="italic">The Dialectics of Seeing: Walter Benjamin and
+                    the Arcades Project.</hi> Cambridge, MA and London: The Massachusetts Institute
+                of Technology Press, 1989.</bibl>
+            <bibl>Cowen, Deborah. “Following the Infrastructures of Empire: Notes on Cities, Settler
+                Colonialism, and Method.” <hi rend="italic">Urban Geography</hi> 41, no. 4 (2020):
+                469-486. </bibl>
+            <bibl>D’Alaux, Gustave. “La Littérature Jaune,” <hi rend="italic">Revue des Deux
+                    Mondes</hi> Paris: Bureau de la Revue Deux Mondes, 1852.</bibl>
+            <bibl>Daut, Marlene L. “‘Nothing in Nature is Mute’: Reading Revolutionary Romanticism in
+                L’Haïtiade and Hérard Dumesle’s Voyage dans le nord d'Hayti (1824).” <hi
+                    rend="italic">New Literary History</hi> 49, no. 4 (2018): 493-520. </bibl>
+            <bibl>de Man, Paul. “Autobiography as De-Facement.” In <hi rend="italic">The Rhetoric of
+                    Romanticism</hi>, 67-81. New York: Columbia University Press, 1984.</bibl>
+            <bibl> ———. “Semiology and Rhetoric.” <hi rend="italic">Diacritics</hi> 3, no. 3 (1973):
+                27-33.</bibl>
+            <bibl>Descourtilz, Michel Étienne. <hi rend="italic">Histoire des Désastres de
+                    Saint-Domingue</hi>. Paris: Chez Garnery, 1795.</bibl>
+            <bibl>Dolcé, Jacquelin, Gérard Dorval, and Jean Miotel Casthely. <hi rend="italic">Le
+                    Romantisme en Haïti: La Vie Intellectuelle, 1804–1915.</hi> Port-au Prince,
+                Haiti: Éditions Fardin, 1983.</bibl>
+            <bibl>Dumesle, Charles Hérard. <hi rend="italic">Voyage dans le nord d’Hayti.</hi> Cayes,
+                Haiti: Government Imprint, 1824. </bibl>
+            <bibl>“environ, v.” <hi rend="italic">OED Online</hi>. Oxford University Press, December
+                2020. Web. 10 December 2020.</bibl>
+            <bibl>“environment, n.” <hi rend="italic">OED Online</hi>. Oxford University Press,
+                December 2020. Web. 11 December 2020.</bibl>
+            <bibl>Garrard, Greg. <hi rend="italic">Ecocriticism</hi>. London and New York: Routledge,
+                2011.</bibl>
+            <bibl>Janowitz, Anne.
+                <hi rend="italic">England’s Ruins: Poetic Purpose and the National Landscape. </hi>West
+                Sussex, UK and Hoboken, NJ: Blackwell, 1990.</bibl>
+            <bibl>James-Wilson, Symon. “Roads, Routes, And Roots: The (Im)Possible Spatial Mnemonics of
+                Black Infrastructure.” <hi rend="italic">Society and Space</hi>, 2018. <ref
+                    target="https://www.societyandspace.org/articles/roads-routes-and-roots-the-im-possible-spatial-mnemonics-of-black-infrastructure">Society and Space</ref>.</bibl>
+            <bibl>Latour, Bruno. <hi rend="italic">Politics of Nature</hi>. Translated by Catherine
+                Porter. Cambridge, MA. and London: Harvard University Press, 2004.</bibl>
+           <bibl>Le Borgne de Boigne, Claude-Pierre-Joseph, <hi
+                    rend="italic" >Nouveau Système de Solonisation pour
+                    Saint-Domingue</hi>. Paris: Dondy Dupré, 1817.</bibl>
+            <bibl>Mercier, Louis-Sébastien. <hi rend="italic">Néologie: ou Vocabulaire de Mots
+                    Nouveaux, à Renouveler, ou Pris dans des Acceptions Nouvelles.</hi> Paris:
+                Moussard, 1801.</bibl>
+            <bibl>Nixon, Rob. <hi rend="italic">Slow Violence and the Environmentalism of the
+                    Poor.</hi> Cambridge, MA. and London: Harvard University Press, 2011.</bibl>
+            <bibl>Stoler, Ann Laura. “Imperial Debris: Reflections on Ruins and Ruination.”
+                <hi rend="italic">Cultural Anthropology </hi>23, no. 2 (2008):
+                191–219. </bibl>
+            <bibl>Thomas, Sophie. “Assembling History: Fragments And Ruins.” <hi rend="italic">European
+                    Romantic Review</hi> 14, no. 2 (2003): 177-186.</bibl>
+            <bibl>Trouillot, Michel-Rolph. <hi rend="italic">Silencing the Past: Power and the
+                    Production of History.</hi> Boston: Beacon, 1995.</bibl>
+            <bibl>Vastey, Pompée-Valentin de, <hi rend="italic">Le Cri de la Conscience.</hi>
+                Cap-Henry, Haiti: P. Roux, 1815.</bibl>
+            </div>
+        </body>
+    </text>
+</TEI>
