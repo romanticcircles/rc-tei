@@ -1,124 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                <title type="main">Percy Shelley and the Delimitation of the Gothic</title>
-                <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
-                <title level="a"><title level="m">The Cenci</title>: Gothic Shelley</title>
-                <author>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Percy Shelley and the Delimitation of the Gothic</title>
+                
+                
+                <author role="primary">
                     <name>Robert Miles</name>
                 </author>
-                <editor role="editor">David Brookshire</editor>
+                
                 <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
-                </respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
                 </respStmt>
+                
                 <respStmt>
                     <resp>Praxis Editor</resp>
                     <name>Orrin N.C. Wang</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>YYYY-MM-DD</date></edition>
+            </editionStmt>
+            
             <publicationStmt>
-                <publisher> Romantic Circles, http://www.rc.umd.edu, University of Maryland </publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
-                    <p> Material from the Romantic Circles Website may not be downloaded, reproduced
-                        or disseminated in any manner without authorization unless it is for
-                        purposes of criticism, comment, news reporting, teaching, and/or classroom
-                        use as provided by the Copyright Act of 1976, as amended. </p>
-                    <p> Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
-                        are copyrighted by the author/editor and may be shared only in accordance
-                        with the Fair Use provisions of U.S. copyright law. Except as expressly
-                        permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
                         <address>
-<addrLine>Romantic Circles</addrLine>
-<addrLine>c/o Professor Neil Fraistat</addrLine>
-<addrLine>Department of English</addrLine>
-<addrLine>University of Maryland</addrLine>
-<addrLine>College Park, MD 20742</addrLine>
-<addrLine>fraistat@umd.edu</addrLine>
-</address>
-                    </p>
-                    <p> By their use of these texts and images, users agree to the following
-                        conditions: <list>
-                            <item> These texts and images may not be used for any commercial purpose
-                                without prior written permission from Romantic Circles. </item>
-                            <item> These texts and images may not be re-distributed in any forms
-                                other than their current ones. </item>
-                        </list>
-                    </p>
-                    <p> Users are not permitted to download these texts and images in order to mount
-                        them on their own servers. It is not in our interest or that of our users to
-                        have uncontrolled subsets of our holdings available elsewhere on the
-                        Internet. We make corrections and additions to our edited resources on a
-                        continual basis, and we want the most current text to be the only one
-                        generally available to all Internet users. Institutions can, of course, make
-                        a link to the copies at Romantic Circles, subject to our conditions of use.
-                    </p>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
                 </availability>
-                <idno type="edition">praxis.gothic_shelley.2015.miles</idno>
-                <idno type="resource">praxis</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2015.gothic_shelley.miles</idno> 
+                <idno type="resource">gothic_shelley</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a" type="main"><title level="m">The Cenci</title>: Gothic
-                            Shelley</title>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Percy Shelley and the Delimitation of the Gothic
+                        </title>
                         <author role="secondary">
                             <persName>
                                 <forename>Robert</forename>
                                 <surname>Miles</surname>
                             </persName>
                         </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/gothic_shelley/praxis.2015.gothic_shelley.miles"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+                    
                     <monogr>
                         <title level="m">Percy Shelley and the Delimitation of the Gothic</title>
-                        <title level="s">Praxis Series</title>
+                        <title level="s">Praxis</title>
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-04-28">April 28, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/praxis/gothic_shelley/praxis.2015.shelley_gothic.miles.html</biblScope>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p> All quotation marks and apostrophes have been changed: " for â€œ," for â€, '
-                        for ‘, and ' for '. </p>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p> Any dashes occurring in line breaks have been removed. </p>
-                    <p> Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard </p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
-                    <p> Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets. </p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>Â£ has been used for Â£, the pound sign</p>
-                    <p> All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals. </p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -139,281 +170,62 @@
                 <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
                 <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
                 <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-                <rendition xml:id="figure" scheme="css"> text-align: center; font-size: 12pt; </rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
             <classDecl>
-                <taxonomy
-                    corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
-                    xml:id="g">
-                    <bibl> NINES categories for Genre and Material Form at
-                        http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
-                        20014-02-27 </bibl>
-                    <!--
- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                
--->
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
                 </taxonomy>
-                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                    xml:id="dcType">
-                    <bibl> NINES categories for document type at
-                        http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27 </bibl>
-                    <!--
- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                
--->
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
                 </taxonomy>
-                <taxonomy
-                    corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
-                    xml:id="d">
-                    <bibl> NINES categories for discplines at
-                        http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
-                        2014-02-27 </bibl>
-                    <!--
- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                
--->
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <!-- <keywords scheme="http://www.rc.umd.edu/#tags"/>  -->
-
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
-                <name>David Rettenmaier</name>
-                <date>2015-04-07</date>
+                <!--  Coder Name and Date Coded  -->
+                <name>Jessica Tebo</name>
+                <date>August 28, 2024</date>
                 <list>
-                    <item>TEI encoding the issue</item>
-                </list>
-            </change>
-            <change>
-                <name>Kyle Bickoff</name>
-                <date>2015-09-30</date>
-                <list>
-                    <item>TEI encoding the issue</item>
+                    <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
     <text>
         <front>
             <div type="abstract">
-                <p rend="noCount">According to the period’s dominant imaginary conspiracy was ‘totalizing’; it explained
+                <p>According to the period’s dominant imaginary conspiracy was ‘totalizing’; it explained
                         everything. Against this was the urgent task of imaging a form of agency that could
                         effectively countermand the spirit of tyranny. Why was the Gothic necessary for Shelley?
                         Part of our answer lies in the fact that Gothic precedents addressed both these crucial
@@ -498,7 +310,7 @@
                         McGann in acknowledging the necessity of articulating the twin impulses of
                         the period, one towards a Romantic idealization that obscures history’s
                         ruined forms and a countervailing Gothic revelation of their gloomy
-                            persistence.<note place="foot" xml:id="ftn1" n="1" resp="editors">
+                            persistence.<note place="foot" resp="editors">
                             Jerome McGann, <title level="m">Romantic Ideology: A Critical
                                 Investigation</title> (Chicago: University of Chicago Press,
                             1983).</note> This is the point I understand Rajan to be making: that we
@@ -528,7 +340,7 @@
                             <title level="m">The Cenci</title> has been strangely resistant to the
                         Gothic strain that runs through the play. Outside the contributors to this
                         volume, examples of sustained discussion of Shelley’s Gothicism are hard to
-                        come by.<note place="foot" xml:id="ftn2" n="2" resp="editors"> The relative
+                        come by.<note place="foot" resp="editors"> The relative
                             scarcity of criticism on Shelley and the Gothic is explored by David
                             Brookshire in <title level="m">Percy Bysshe Shelley and the
                                 Gothic</title> (Unpublished PhD Thesis, U. of Maryland, 2009). John
@@ -557,8 +369,7 @@
                         those shadows were, fashionably, those represented, <emph>inter alia</emph>,
                         by Flosky and Cypress, Coleridge and Byron. As Peacock saw it, post-Waterloo
                         the dynasts were encouraging an esthetic that propped up church and state
-                        and all the old flim-flam of the “ontic logos,”<note place="foot"
-                            xml:id="ftn3" n="3" resp="editors"> I borrow the phrase “ontic logos”
+                        and all the old flim-flam of the “ontic logos,”<note place="foot" resp="editors"> I borrow the phrase “ontic logos”
                             from Charles Taylor, <title level="m">A Secular Age</title> (Cambridge,
                             MA: Harvard University Press, 2007). </note> a mummery sonorously
                         defended by the transcendental whisperings of the German school, a cultural
@@ -575,7 +386,7 @@
                         conspiracy of freemasons hell-bent on fomenting revolution—a conspiracy
                         master-minded by the Ingoldstat philosopher, free-thinker, and libertine,
                         Adam Weishaupt, ably supported by that betrayer of little platoons, Baron
-                            Knigge<note place="foot" xml:id="ftn4" n="4" resp="editors"> For the
+                            Knigge<note place="foot" resp="editors"> For the
                             basic background to Barruel, Robison, and the Illuminati, including Adam
                             Weishaupt and the Baron Knigge, see Markman Ellis, “Enlightenment or
                             Illumination: The Spectre of Conspiracy in Gothic Fictions of the
@@ -586,8 +397,7 @@
                                 Flourishes and Where it Comes From</title> (New York and London: the
                             Free Press, 1999).</note>—a plot so heinous and dangerous the House of
                         Commons conducted a special inquiry into the workings of secret societies,
-                        vindicating Barruel and Robison in the process<note place="foot"
-                            xml:id="ftn5" n="5" resp="editors"> See Ian Haywood, <title level="m"
+                        vindicating Barruel and Robison in the process<note place="foot" resp="editors"> See Ian Haywood, <title level="m"
                                 >Romanticism and Caricature</title> (Cambridge: Cambridge University
                             Press, 2013), 65-66.</note>—in this unprecedented plot against the peace
                         of Western nations, Kant and Weishaupt were presented as twin horns on the
@@ -643,7 +453,7 @@
                         it was here that he encountered a sublime conspiracy, where, with De
                         Quincey, his overwhelming response was a fervent prayer to the Deity begging
                         Him/Her to make Barruel’s phantasies come true.<note place="foot"
-                            xml:id="ftn6" n="6" resp="editors"> Walter Edwin Peck, Shelley and the
+                             resp="editors"> Walter Edwin Peck, Shelley and the
                             Abbe Barruel, <title level="j">PMLA</title>, Vol. 36, No. 3 (Sep.,
                             1921), pp. 347-53.</note> So devoted to conspiracy was the young
                         Shelley, that he started his own at school to extirpate the “Gothic”—that is
@@ -689,8 +499,7 @@
                         work as utter fantasy, on the grounds that he was there, and there wasn’t a
                         Freemason to be seen, no matter how many beds one might lift, let alone a
                         German member of the illuminati. In his review Jeffrey advances economic and
-                        social causes for the revolution.<note place="foot" xml:id="ftn7" n="7"
-                            resp="editors"> I discuss this point at length in “Transatlantic
+                        social causes for the revolution.<note place="foot" resp="editors"> I discuss this point at length in “Transatlantic
                             Gothic,” <title level="m">Transatlantic Literary Studies,
                                 1660-1830</title>, ed. E.T. Bannet and S. Manning (Cambridge:
                             University of Cambridge Press) 202-18.</note> The prominence given to
@@ -724,7 +533,7 @@
                         Cagliostro, magus, friend of mankind, and secret agent of the Illuminati
                         ever since he passed through Ingolstadt following his expulsion from St.
                         Petersburg for plotting revolution with the Swedish freemasons.<note
-                            place="foot" xml:id="ftn8" n="8" resp="editors"> For the details of
+                            place="foot" resp="editors"> For the details of
                             Cagliostro’s life, and death, see Francois Ribadeau Dumas, <title
                                 level="m">Cagliostro</title>, trans. Elisabeth Abbot (London: George
                             Allen and Unwin, 1966); Roberto Gervaso, <title level="m">Cagliostro: A
@@ -758,7 +567,7 @@
                         and legal traditions; for Thomas Christie the <title level="m"
                             >Reflections</title>’ “tuneful periods” entomb a “deformed Gothic idol”;
                         while for Thelwall Burke’s constitution is a Gothic customary, a mental
-                            Bastille.<note place="foot" xml:id="ftn9" n="9" resp="editors"> Mary
+                            Bastille.<note place="foot" resp="editors"> Mary
                             Wollstonecraft, <title level="m">A Vindication of the Rights of
                                 Men</title> (London: J. Johnson, 1793); Thomas Christie, <title
                                 level="m">Letters on the Revolution in France</title> (1791), in E.
@@ -796,8 +605,7 @@
                             level="m">The Cenci</title>. Firstly, it ironically underscores the
                         reason why conspiracy theories flourished during the period. Conspiracy
                         theories wax when the public sphere wanes. In the aftermath of the French
-                        Revolution the republic of letters was in serious trouble.<note place="foot"
-                            xml:id="ftn10" n="10" resp="editors"> The classic study in the
+                        Revolution the republic of letters was in serious trouble.<note place="foot" resp="editors"> The classic study in the
                             transformation of the public sphere during the Romantic period is to be
                             found in John P. Klancher, <title level="m">The Making of English
                                 Reading Audiences, 1790-1832</title> (Madison, Wisconsin: the
@@ -810,8 +618,7 @@
                             “Trouble in the Republic of Letters: the Reception of the Shakespeare
                             Forgeries,” <title level="j">Studies in Romanticism</title>, 44:3
                             (2006): 317-340.</note> The public sphere is a “metatopical” space for
-                        mediating power in a rational and inclusive manner.<note place="foot"
-                            xml:id="ftn11" n="11" resp="editors"> The classic work of theory on the
+                        mediating power in a rational and inclusive manner.<note place="foot" resp="editors"> The classic work of theory on the
                             public sphere is Jürgen Habermas, <title level="m">The Structural
                                 Transformation of the Public Sphere: An Inquiry into a Category of
                                 Bourgeois Society</title>, trans. Thomas Burger with the assistance
@@ -858,8 +665,7 @@
                         critics pass over the remark in silence, as if embarrassed by it as an
                         otiose reminder of Shelley’s predictable anti-Catholicism. In fact it is an
                         attempt to articulate one of Shelley’s key concerns. Just as Beatrice Cenci
-                        lived and thought amidst a set of “background”<note place="foot"
-                            xml:id="ftn12" n="12" resp="editors"> For my use of “background” here
+                        lived and thought amidst a set of “background”<note place="foot" resp="editors"> For my use of “background” here
                             see Charles Taylor, <title level="m">A Secular Age</title> (Cambridge,
                             MA: Harvard University Press, 2007), 13-14.</note> understandings that
                         formed the “whole fabric of life,” a fabric beyond her powers of
@@ -894,7 +700,7 @@
                             to make apparent some of the most dark and secret caverns of the human
                             heart (emphasis added). (para 1)</quote> As Ann McWhir notes in her
                         commentary on it, the passage turns on two applications of the word
-                            “conspiracy.”<note place="foot" xml:id="ftn13" n="13" resp="editors">
+                            “conspiracy.”<note place="foot" resp="editors">
                             See Anne McWhir, “The Light and the Knife: Ab/Using Language in <title
                                 level="m">The Cenci</title>,” <title level="j">Keats-Shelley
                                 Journal</title> 38 (1989): 145-161. </note> The characters in the
@@ -1095,8 +901,7 @@
                         disappointingly, with the simple truth of the vicious circle entrapping both
                         Cenci and the conspirators; that in conspiring against Cenci’s undoubted
                         evil, the conspirators, but especially Beatrice, replicate the evil
-                        incarnate in the paternal principle.<note place="foot" xml:id="ftn14" n="14"
-                            resp="editors"> For examples, see Stuart M. Sperry, “The Ethical
+                        incarnate in the paternal principle.<note place="foot" resp="editors"> For examples, see Stuart M. Sperry, “The Ethical
                             Politics of Shelley's <title level="m">The Cenci</title>,” <title
                                 level="j">Studies in Romanticism</title> 25.3, Homage to Carl
                             Woodring (Fall, 1986): 411-427.</note> Illuminating the nature of <title
@@ -1105,7 +910,7 @@
                     <p> The thread of his thought is to be found in the Jacobin Gothic carefully
                         unspooled in the play. The source for Jacobin Gothic was Burke’s project
                         (and this was how Archibald Alison understood matters in retrospect<note
-                            place="foot" xml:id="ftn15" n="15" resp="editors"> Archibald Alison,
+                            place="foot" resp="editors"> Archibald Alison,
                             “The Historical Romance,” <title level="j">Blackwood’s Magazine</title>
                             58 (1845): 341–56. </note>) of making the world once again safe for
                         feudalism. Like other Jacobin-Gothic writers, Shelley tilts at Burke. In the
@@ -1121,7 +926,7 @@
                         what it is because all such bases for consensus evaporated in the course of
                         the Enlightenment. As Taylor puts it, we live in a mental universe where
                         there are competing and incommensurable frameworks and “hypergoods.”<note
-                            place="foot" xml:id="ftn16" n="16" resp="editors"> See also Alasdair
+                            place="foot" resp="editors"> See also Alasdair
                             MacIntyre, <title level="m">After Virtue</title>, 3rd ed. (Notre Dame:
                             University of Notre Dame Press, 2007).</note> Moral antinomies are the
                         order of the day. To rely upon “case law” is simply to replicate the
@@ -1164,7 +969,7 @@
                         show. Imagining agency begins with the recognition of the need of impersonal
                         theory at the level of ethics. Self-knowledge is likely to be as effective
                         for us as it is for Orsino.</p>
-                </div>
+              
                 <div type="citations">
                     <head>Works Cited</head>
                     <bibl>Alison, Archibald. “The Historical Romance.” <title level="j">Blackwood’s
@@ -1236,6 +1041,7 @@
                                 Review</title></ref>.” <title level="m">Romanticism and
                             Conspiracy</title>. Ed. Orrin Wang. <title level="m">Romantic Circles
                             Praxis Series</title>. July 1997. Web.</bibl>
+                </div>
                 </div>
             </div>
         </body>

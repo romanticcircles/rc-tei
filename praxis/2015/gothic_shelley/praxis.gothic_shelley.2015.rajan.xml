@@ -1,120 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Percy Shelley and the Delimitation of the Gothic</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">The Gothic Matrix: Shelley Between the Symbolic and Romantic</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Tilottama Rajan</name>
             </author>
-            <editor role="editor">David Brookshire</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
-            </respStmt>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
+            </respStmt>            
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition><date>YYYY-MM-DD</date></edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
+            <publisher>Romantic Circles, https://romantic-circles.org, 
+               University of Colorado Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, 
+                  reproduced or disseminated in any manner without authorization unless 
+                  it is for purposes of criticism, comment, news reporting, teaching, 
+                  and/or classroom use as provided by the Copyright Act of 1976, as 
+                  amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                  Circles are copyrighted by the author/editor and may be shared only in 
+                  accordance with the Fair Use provisions of U.S. copyright law. Except 
+                  as expressly permitted by this statement, redistribution or republication 
+                  in any medium requires express prior written consent from the author(s)/
+                  editor(s) and advance notification of Romantic Circles. Any requests 
+                  for authorization should be forwarded to Romantic Circles:
                   <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following 
+                  conditions: 
+                  <list>
+                     <item>These texts and images may not be used for any commercial 
+                        purpose without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any 
+                        forms other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order 
+                  to mount them on their own servers. It is not in our interest or that 
+                  of our users to have uncontrolled subsets of our holdings available 
+                  elsewhere on the Internet. We make corrections and additions to our 
+                  edited resources on a continual basis, and we want the most current text 
+                  to be the only one generally available to all Internet users. Institutions 
+                  can, of course, make a link to the copies at Romantic Circles, subject 
+                  to our conditions of use.</p>
             </availability>
-            <idno type="edition">praxis.gothic_shelley.2015.rajan</idno>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2015.gothic_shelley.rajan</idno> 
             <idno type="resource">gothic_shelley</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">The Gothic Matrix: Shelley Between the Symbolic and
-                     Romantic</title>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">The Gothic Matrix: Shelley Between the Symbolic and Romantic
+                  </title>
                   <author role="secondary">
                      <persName>
                         <forename>Tilottama</forename>
                         <surname>Rajan</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/gothic_shelley/praxis.2015.gothic_shelley.rajan"/> 
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
                <monogr>
                   <title level="m">Percy Shelley and the Delimitation of the Gothic</title>
-                  <title level="s">Praxis Series</title>
+                  <title level="s">Praxis</title>
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2014-04-28">April 28, 2014</date>
-                     <biblScope type="URL"
-                        >http://www.rc.umd.edu/praxis/gothic_shelley/praxis.gothic_shelley.2015.rajan.html</biblScope>
+                     <publisher>Romantic Circles, https://romantic-circles.org, 
+                        University of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: 
+                  " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Any dashes occurring in line breaks have been removed 
+                  except in the case of diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens 
+                  have been typed on the U.S. keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts 
+                  has been indicated as such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, 
+                  etc., have been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -135,273 +170,60 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; 
+               font-size: 12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
-               xml:id="g">
-               <bibl>NINES categories for Genre and Material Form at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                   20014-02-27</bibl>
-               <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
             </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="dcType">
-               <bibl>NINES categories for document type at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
-               <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+               <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
             </taxonomy>
-            <taxonomy
-               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
-               xml:id="d">
-               <bibl>NINES categories for discplines at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
-                  2014-02-27</bibl>
-               <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+               <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
-
          <textClass>
-            <catRef scheme="#genre" target="#Criticism"/>
+            <catRef scheme="#genre" target="#Paratext"/>
             <catRef scheme="#dcType" target="#Typescript"/>
             <catRef scheme="#discipline" target="#Literature"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <term subtype="person">Percy Bysshe Shelley</term>
-               <term subtype="tags">Gothic</term>
-               <term subtype="title">Zastrozzi</term>
-               <term subtype="title">St. Irvyne</term>
-               <term subtype="title">Georg Wilhelm Friedrich Hegel</term>
-               <term subtype="tags">aesthetic ideology</term>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2015-04-07</date>
+            <!--  Coder Name and Date Coded  -->
+            <name>Jessica Tebo</name>
+            <date>August 28, 2024</date>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <front>
-         <div type="abstract"><p rend="noCount">This paper begins with the Gothic, exemplified in Shelley’s early Gothic novels
+         <div type="abstract"><p>This paper begins with the Gothic, exemplified in Shelley’s early Gothic novels
             <title level="m">Zastrozzi</title> and <title level="m">St. Irvyne</title>, as
             an overdetermined and unprocessed moment that interrupts aesthetic ideology, and
             that is problematically entwined with the Romantic in ways that help to illuminate
@@ -472,8 +294,8 @@
                remembering of Godwin’s <title level="m">St. Leon</title> (1799), where alchemy is
                also a metonymy for schemes of sociopolitical improvement, make Ginotti a shorthand
                figure for a still undigested future transformation of “the potable waters that flow
-               from death through life” (<title level="m">Defence</title> 533)? <note xml:id="ftn1"
-                  place="foot" resp="editors" n="1">References to <title level="m">A Defence of
+               from death through life” (<title level="m">Defence</title> 533)? <note
+                  place="foot" resp="editors">References to <title level="m">A Defence of
                      Poetry</title> are to <title level="m">Shelley’s Poetry and Prose</title>, ed.
                   Reiman and Fraistat.</note></p>
             <p> Indeed this unprocessed dimension of the characters and “figures” that “rise on the
@@ -516,12 +338,10 @@
                bright Nepenthe” (358-9). In Rousseau’s dream-vision, the Shape all light, the
                aestheticization of a revolutionary idealism that Ginotti pursues in more Sadeian and
                Nietzschean ways, becomes the deformed shape in the Car, returning us to the Gothic
-               scene that opens the character “Shelley’s” dream-vision of history.<note
-                  xml:id="ftn2" place="foot" resp="editors" n="2">I use “Shelley” in quotation marks
+               scene that opens the character “Shelley’s” dream-vision of history.<note place="foot" resp="editors">I use “Shelley” in quotation marks
                   to refer to the first-person speaker of the poem, the character Shelley, as
                   distinct from the author.</note> As in <title level="m">St Irvyne</title>, while
-               the figure constructed by Romantic idealism is disfigured,<note xml:id="ftn3"
-                  place="foot" resp="editors" n="3">My use of this term obviously evokes de Man’s
+               the figure constructed by Romantic idealism is disfigured,<note place="foot" resp="editors">My use of this term obviously evokes de Man’s
                   “Autobiography as De-Facement” and “Shelley Disfigured” (<title level="m">The
                      Rhetoric of Romanticism</title> 67-82, 93-124). However, disfiguration is not
                   the same kind of analytic operation that deconstruction is. My use of the term
@@ -541,7 +361,7 @@
                the nightmare of history, “Shelley” <emph>dreams</emph> this nightmare which folds
                inwards and backwards to a core of idealism at the heart of darkness.</p>
             <p> In connecting the passage from <title level="m">St. Irvyne</title>
-               <note xml:id="ftn4" place="foot" resp="editors" n="4">For a more extensive discussion
+               <note place="foot" resp="editors">For a more extensive discussion
                   of Shelley’s Gothic novels themselves, see Rajan, <title level="m">Romantic
                      Narrative</title> (46-74).</note> to Shelley’s last poem, I want therefore to
                suggest that it entwines the Gothic and Romantic in a way that is emblematic of the
@@ -592,8 +412,7 @@
                   (<title level="m">Defence</title> 518). In Hegel’s sequence, which historicizes
                Kant’s analyses of the beautiful and sublime, the Symbolic, Classical and Romantic
                involve different relations between "inwardness" and its "externalization," “theme”
-               and execution,” or the Idea and its "embodiment" (I.75, 79, 96, 422).<note
-                  xml:id="ftn5" place="foot" resp="editors" n="5">In Kant’s terms from the <title
+               and execution,” or the Idea and its "embodiment" (I.75, 79, 96, 422).<note place="foot" resp="editors">In Kant’s terms from the <title
                      level="m">Third Critique</title> the Classical is beautiful, whereas the
                   Symbolic and Romantic are different versions of the sublime. It should be noted
                   that Hegel does not use the term “Symbolic” in the way it was used by
@@ -707,8 +526,7 @@
                Zastrozzi’s defiant embrace of an atheism that rises “above the shackles of prejudice
                . . . and injurious superstition” (153). But on the other hand the Kantian sublime
                involves a missed encounter of these projects of Pure Reason with a core of darkness
-               that we necessarily confront in characters like Ginotti.<note xml:id="ftn6"
-                  place="foot" resp="editors" n="6">Comparing Godwin with Kant, David Collings
+               that we necessarily confront in characters like Ginotti.<note place="foot" resp="editors">Comparing Godwin with Kant, David Collings
                   explores this fanaticism of “Pure Reason” in <title level="m">Caleb
                      Williams</title> (“The Romance of the Impossible: William Godwin in the Empty
                   Place of Reason,” <title level="j">ELH</title> 70 (2003)), 850-4. </note> This is
@@ -717,8 +535,7 @@
                freedom.</p>
             <p> Yet the Symbolic artist, “toss[ing] about in a thousand forms” and adapting “to the
                meaning sought the shapes that ever remain alien,” does possess a freedom denied to
-               the Classical artist, even if this freedom is entwined with necessity (I.438-9).<note
-                  xml:id="ftn7" place="foot" resp="editors" n="7">For elaboration of this point see
+               the Classical artist, even if this freedom is entwined with necessity (I.438-9).<note place="foot" resp="editors">For elaboration of this point see
                   Rajan, “Difficult Freedom: Hegel’s Symbolic Art and Schelling’s Historiography in
                      <title level="m">Ages of the World</title> (1815).”</note> For in Symbolic art
                “the spirit . . . shapes itself out of its own resources” (I.362). Its “restless
@@ -737,8 +554,7 @@
                historical moment, or whether it represents a permanent kernel of error at the heart
                of all idealism. And the further question is whether “error,” the word with which
                   <title level="m">St. Irvyne</title> concludes (252), simply means “mistake” or
-               whether it is, in a pathological and twisted way, also creative.<note xml:id="ftn8"
-                  place="foot" resp="editors" n="8">Thus Stanley Corngold distinguishes between
+               whether it is, in a pathological and twisted way, also creative.<note place="foot" resp="editors">Thus Stanley Corngold distinguishes between
                   mistakes, which are simply wrong, and error: “the skew of error implies a truth”
                   (92).</note></p>
             <p> In Jerrold Hogle’s essay in this volume this question remains unanswered, or is
@@ -777,13 +593,11 @@
                diagnosing how the present continues to be haunted by the ghosts or residues of “old
                symbolic orders,” and in this way is part of the work of ideological progress. But on
                the other hand it is precisely this progress that is put in question when Shelley, as
-               described by Hogle, recognizes the claims of the old as well as the new:<note
-                  xml:id="ftn9" place="foot" resp="editors" n="9">Shelley’s interest in Charles I,
+               described by Hogle, recognizes the claims of the old as well as the new:<note place="foot" resp="editors">Shelley’s interest in Charles I,
                   on whom he wrote a fragmentary play, is also relevant here.</note> hence the
                functioning of these figures not just as “signs” but more archaically as “symbols.” I
                would go farther and suggest that the force of these symbols is not just critical—a
-               sense that the new must be mediated through the old if anarchy is not to result<note
-                  xml:id="ftn10" place="foot" resp="editors" n="10">I take this to be the gist of
+               sense that the new must be mediated through the old if anarchy is not to result<note place="foot" resp="editors">I take this to be the gist of
                   Hogle’s comment, in his essay here, that the “looking-backwards-and-forwards
                   simultaneously, like the ‘Janus-faced shadow’ that actually drives Life’s chariot
                   for Shelley, coincides with Walpole’s preference . . . for keeping at least a
@@ -1013,7 +827,7 @@
                threaten to engulf poetry (523). But since the manuscript of <title level="m">The
                   Triumph of Life</title> omits quotation marks, we cannot know if this segment
                marks Rousseau’s renunciation of his idealism, or is spoken by the Thel-like
-                  “Shelley.”<note xml:id="ftn11" place="foot" resp="editors" n="11">The manuscript
+                  “Shelley.”<note place="foot" resp="editors">The manuscript
                   does not contain quotation marks, which were added by Mary Shelley so as to create
                   a reading text, and retained by Donald H. Reiman with slight alterations that
                   often have unscrutinized consequences. Thus we do not always know whether to
