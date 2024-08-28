@@ -1,99 +1,161 @@
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+    
     <fileDesc>
+      
       <titleStmt>
-        <title type="main">Minimal Romanticism</title>
-        <title type="subordinate">A Romantic Circles Praxis Volume</title>
+        <!--  The reading texts should all be encoded as level="m"  -->
         <title level="a">Shelley and the Hermeneutics of Abbreviation</title>
-        <author>
+        
+        <author role="primary">
           <name>William Keach</name>
         </author>
-        <editor role="editor">David L. Clark</editor>
-        <editor role="editor">Jacques Khalip</editor>
+        
+        
+        
         <sponsor>Romantic Circles</sponsor>
+        
         <respStmt>
-          <resp>General Editor,</resp>
-          <name>Neil Fraistat</name>
-        </respStmt>
+          <resp>TEI Encoding</resp>
+          <name>EXTERNAL CODER</name>
+        </respStmt>            
+        
         <respStmt>
-          <resp>General Editor,</resp>
-          <name>Steven E. Jones</name>
+          <resp>Director</resp>
+          <name>Thora Brylowe</name>
         </respStmt>
+        
         <respStmt>
           <resp>Praxis Editor</resp>
           <name>Orrin N.C. Wang</name>
         </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Jessica Tebo</name>
+        </respStmt>
+        <respStmt>
+          <resp>Assistant Editor</resp>
+          <name>Anna Paige Wingfield</name>
+        </respStmt>
       </titleStmt>
+      
+      <editionStmt>
+        <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+        <edition><date>YYYY-MM-DD</date></edition>
+      </editionStmt>
+      
       <publicationStmt>
-        <publisher> Romantic Circles, http://www.rc.umd.edu, University of Maryland </publisher>
-        <pubPlace>College Park, MD</pubPlace>
-        <availability status="restricted">
-          <p> Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in any manner without authorization unless
-            it is for purposes of criticism, comment, news reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
-            amended. </p>
-          <p> Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by the author/editor and may be shared only
-            in accordance with the Fair Use provisions of U.S. copyright law. Except as expressly permitted by this statement, redistribution or
-            republication in any medium requires express prior written consent from the author/editors and advance notification of Romantic Circles.
-            Any requests for authorization should be forwarded to Romantic Circles:>
-            <address> <addrLine>Romantic Circles</addrLine> <addrLine>c/o Professor Neil Fraistat</addrLine> <addrLine>Department of English</addrLine> <addrLine>University of Maryland</addrLine> <addrLine>College Park, MD 20742</addrLine> <addrLine>fraistat@umd.edu</addrLine> </address>
-          </p>
-          <p> By their use of these texts and images, users agree to the following conditions: <list>
-              <item> These texts and images may not be used for any commercial purpose without prior written permission from Romantic Circles. </item>
-              <item> These texts and images may not be re-distributed in any forms other than their current ones. </item>
-            </list>
-          </p>
-          <p> Users are not permitted to download these texts and images in order to mount them on their own servers. It is not in our interest or
-            that of our users to have uncontrolled subsets of our holdings available elsewhere on the Internet. We make corrections and additions to
-            our edited resources on a continual basis, and we want the most current text to be the only one generally available to all Internet users.
-            Institutions can, of course, make a link to the copies at Romantic Circles, subject to our conditions of use. </p>
+        <publisher>Romantic Circles, https://romantic-circles.org, 
+          University of Colorado Boulder</publisher>
+        <pubPlace>Boulder, CO</pubPlace>
+        <availability status="free">
+          <p>Material from the Romantic Circles Website may not be downloaded, 
+            reproduced or disseminated in any manner without authorization unless 
+            it is for purposes of criticism, comment, news reporting, teaching, 
+            and/or classroom use as provided by the Copyright Act of 1976, as 
+            amended.</p>
+          <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+            Circles are copyrighted by the author/editor and may be shared only in 
+            accordance with the Fair Use provisions of U.S. copyright law. Except 
+            as expressly permitted by this statement, redistribution or republication 
+            in any medium requires express prior written consent from the author(s)/
+            editor(s) and advance notification of Romantic Circles. Any requests 
+            for authorization should be forwarded to Romantic Circles:
+            <address>
+              <addrLine>Romantic Circles</addrLine>
+              <addrLine>c/o Professor Thora Brylowe</addrLine>
+              <addrLine>Department of English</addrLine>
+              <addrLine>University of Colorado Boulder</addrLine>
+              <addrLine>Boulder, CO 80309</addrLine>
+              <addrLine>thora.brylowe@colorado.edu</addrLine>
+            </address></p>
+          <p>By their use of these texts and images, users agree to the following 
+            conditions: 
+            <list>
+              <item>These texts and images may not be used for any commercial 
+                purpose without prior written permission from Romantic Circles.</item>
+              <item>These texts and images may not be re-distributed in any 
+                forms other than their current ones.</item>
+            </list></p>
+          <p>Users are not permitted to download these texts and images in order 
+            to mount them on their own servers. It is not in our interest or that 
+            of our users to have uncontrolled subsets of our holdings available 
+            elsewhere on the Internet. We make corrections and additions to our 
+            edited resources on a continual basis, and we want the most current text 
+            to be the only one generally available to all Internet users. Institutions 
+            can, of course, make a link to the copies at Romantic Circles, subject 
+            to our conditions of use.</p>
         </availability>
-        <idno type="edition">praxis.2016.brevity.keach</idno>
-        <idno type="resource">praxis</idno>
+        <!-- Be sure that the name below matches the file name-->
+        <idno type="edition">praxis.2016.brevity.keach</idno> 
+        <idno type="resource">brevity</idno>
       </publicationStmt>
+      
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title level="a" type="main">Shelley and the Hermeneutics of Abbreviation</title>
+            <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+            <title level="a" type="main">Shelley and the Hermeneutics of Abbreviation
+            </title>
             <author role="secondary">
               <persName>
-                <forename>William</forename>
+                <forename> 
+                  <name>William </name>
+                </forename>
                 <surname>Keach</surname>
               </persName>
             </author>
+            
+          
+            <!-- Referenece the above <idno> tag but only change the final part-->
+            <ptr target="praxis/brevity/praxis.2016.brevity.keach"/> 
+            <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
           </analytic>
+          
           <monogr>
-            <title level="m">Minimal Romanticism</title>
-            <title level="s">Praxis Series</title>
+            <title level="m">Romantic Minimalism</title>
+            <title level="s">Praxis</title>
             <imprint>
-              <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-              <pubPlace>College Park, MD</pubPlace>
-              <date when="2016-09-11">September 11, 2016</date>
-              <biblScope type="URL">http://www.rc.umd.edu/praxis/brevity/praxis.2016.brevity.keach.html</biblScope>
+              <publisher>Romantic Circles, https://romantic-circles.org, 
+                University of Colorado Boulder</publisher>
+              <pubPlace>Boulder, CO</pubPlace>
+              <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+              <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
             </imprint>
           </monogr>
         </biblStruct>
       </sourceDesc>
     </fileDesc>
+    
     <encodingDesc>
       <editorialDecl>
         <quotation>
-          <p> All quotation marks and apostrophes have been changed: " for â€œ," for â€, ' for ‘, and ' for '. </p>
+          <p>All quotation marks and apostrophes have been changed: 
+            " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
         </quotation>
         <hyphenation eol="none">
-          <p> Any dashes occurring in line breaks have been removed. </p>
-          <p> Because of web browser variability, all hyphens have been typed on the U.S. keyboard </p>
-          <p>Em-dashes have been rendered as #8212</p>
+          <p>Any dashes occurring in line breaks have been removed 
+            except in the case of diplomatic transcriptions.</p>
+          <p>Because of web browser variability, all hyphens 
+            have been typed on the U.S. keyboard</p>
+          <p>Em dashes have been rendered as &#8212;</p>
+          <p>En dashes have been rendered as &#8211;</p>
         </hyphenation>
         <normalization method="markup">
           <p>Spelling has not been regularized.</p>
-          <p> Writing in other hands appearing on these manuscripts has been indicated as such, the content recorded in brackets. </p>
+          <p>Writing in other hands appearing on these manuscripts 
+            has been indicated as such, the content recorded in brackets.</p>
         </normalization>
         <normalization>
           <p>&amp; has been used for the ampersand sign.</p>
-          <p>Â£ has been used for Â£, the pound sign</p>
-          <p> All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML entity decimals. </p>
+          <p>&#35; has been used for #, the pound sign</p>
+          <p>All other characters, those with accents, non-breaking spaces, 
+            etc., have been encoded in HTML entity decimals.</p>
         </normalization>
       </editorialDecl>
+      
       <tagsDecl>
         <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
         <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -114,61 +176,59 @@
         <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
         <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
         <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-        <rendition xml:id="figure" scheme="css"> text-align: center; font-size: 12pt; </rendition>
+        <rendition xml:id="figure" scheme="css">text-align: center; 
+          font-size: 12pt;</rendition>
         <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
         <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
       </tagsDecl>
+      
       <classDecl>
         <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
-          <bibl> NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on 20014-02-27 </bibl>
-          <!-- <category xml:id="Bibliography"> <catDesc>Bibliography</catDesc> </category> <category xml:id="Catalog"> <catDesc>Catalog</catDesc> </category> <category xml:id="Citation"> <catDesc>Citation</catDesc> </category> <category xml:id="Collection"> <catDesc>Collection</catDesc> </category> <category xml:id="Correspondence"> <catDesc>Correspondence</catDesc> </category> <category xml:id="Criticism"> <catDesc>Criticism</catDesc> </category> <category xml:id="Drama"> <catDesc>Drama</catDesc> </category> <category xml:id="Ephemera"> <catDesc>Ephemera</catDesc> </category> <category xml:id="Fiction"> <catDesc>Fiction</catDesc> </category> <category xml:id="Historiography"> <catDesc>Historiography</catDesc> </category> <category xml:id="Law"> <catDesc>Law</catDesc> </category> <category xml:id="Life Writing"> <catDesc>Life Writing</catDesc> </category> <category xml:id="Liturgy"> <catDesc>Liturgy</catDesc> </category> <category xml:id="Liturgy"> <catDesc>Musical Analysis</catDesc> </category> <category xml:id="Music, Other"> <catDesc>Music, Other</catDesc> </category> <category xml:id="Musical Recording"> <catDesc>Musical Recording</catDesc> </category> <category xml:id="Musical Score"> <catDesc>Musical Score</catDesc> </category> <category xml:id="Nonfiction"> <catDesc>Nonfiction</catDesc> </category> <category xml:id="Paratext"> <catDesc>Paratext</catDesc> </category> <category xml:id="Philosophy"> <catDesc>Philosophy</catDesc> </category> <category xml:id="Photograph"> <catDesc>Photograph</catDesc> </category> <category xml:id="Poetry"> <catDesc>Poetry</catDesc> </category> <category xml:id="Religion"> <catDesc>Religion</catDesc> </category> <category xml:id="Religion, Other"> <catDesc>Religion, Other</catDesc> </category> <category xml:id="Reference Works"> <catDesc>Reference Works</catDesc> </category> <category xml:id="Review"> <catDesc>Review</catDesc> </category> <category xml:id="Scripture"> <catDesc>Scripture</catDesc> </category> <category xml:id="Sermon"> <catDesc>Sermon</catDesc> </category> <category xml:id="Translation"> <catDesc>Translation</catDesc> </category> <category xml:id="Travel Writing"> <catDesc>Travel Writing</catDesc> </category> <category xml:id="Unspecified"> <catDesc>Unspecified</catDesc> </category> <category xml:id="Visual Art"> <catDesc>Visual Art</catDesc> </category> <category xml:id="g33"> <catDesc>Book History</catDesc> </category> <category xml:id="g34"> <catDesc>Book History</catDesc> </category> -->
+          <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+            20014-02-27</bibl>
         </taxonomy>
         <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
-          <bibl> NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27 </bibl>
-          <!-- <category xml:id="Codex"> <catDesc>Codex</catDesc> </category> <category xml:id="Collection"> <catDesc>Collection</catDesc> </category> <category xml:id="Drawing"> <catDesc>Drawing</catDesc> </category> <category xml:id="Illustration"> <catDesc>Illustration</catDesc> </category> <category xml:id="Interactive Resource"> <catDesc>Interactive Resource</catDesc> </category> <category xml:id="Manuscript"> <catDesc>Manuscript</catDesc> </category> <category xml:id="Map"> <catDesc>Map</catDesc> </category> <category xml:id="Moving Image"> <catDesc>Moving Image</catDesc> </category> <category xml:id="Periodical"> <catDesc>Periodical</catDesc> </category> <category xml:id="Physical Object"> <catDesc>Physical Object</catDesc> </category> <category xml:id="Roll"> <catDesc>Roll</catDesc> </category> <category xml:id="Sheet"> <catDesc>Sheet</catDesc> </category> <category xml:id="Sound"> <catDesc>Sound</catDesc> </category> <category xml:id="Still Image"> <catDesc>Still Image</catDesc> </category> <category xml:id="Typescript"> <catDesc>Typescript</catDesc> </category> -->
+          <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
         </taxonomy>
         <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
-          <bibl> NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27 </bibl>
-          <!-- <category xml:id="Anthropology"> <catDesc>Anthropology</catDesc> </category> <category xml:id="Archaeology"> <catDesc>Archaeology</catDesc> </category> <category xml:id="Architecture"> <catDesc>Architecture</catDesc> </category> <category xml:id="Art History"> <catDesc>Art History</catDesc> </category> <category xml:id="Art History"> <catDesc>Book History</catDesc> </category> <category xml:id="Classics and Ancient History"> <catDesc>Classics and Ancient History</catDesc> </category> <category xml:id="Ethnic Studies"> <catDesc>Ethnic Studies</catDesc> </category> <category xml:id="Film Studies"> <catDesc>Film Studies</catDesc> </category> <category xml:id="Gender Studies"> <catDesc>Gender Studies</catDesc> </category> <category xml:id="Geography"> <catDesc>Geography</catDesc> </category> <category xml:id="History"> <catDesc>History</catDesc> </category> <category xml:id="Law"> <catDesc>Law</catDesc> </category> <category xml:id="Literature"> <catDesc>Literature</catDesc> </category> <category xml:id="Manuscript Studies"> <catDesc>Manuscript Studies</catDesc> </category> <category xml:id="Math"> <catDesc>Math</catDesc> </category> <category xml:id="Manuscript Studies"> <catDesc>Manuscript Studies</catDesc> </category> <category xml:id="Musicology"> <catDesc>Musicology</catDesc> </category> <category xml:id="Philosophy"> <catDesc>Philosophy</catDesc> </category> <category xml:id="Religious Studies"> <catDesc>Religious Studies</catDesc> </category> <category xml:id="Science"> <catDesc>Science</catDesc> </category> <category xml:id="Theater Studies"> <catDesc>Theater Studies</catDesc> </category> -->
+          <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
+    
     <profileDesc>
       <textClass>
-        <catRef scheme="#genre" target="#Criticism"/>
+        <catRef scheme="#genre" target="#Paratext"/>
         <catRef scheme="#dcType" target="#Typescript"/>
         <catRef scheme="#discipline" target="#Literature"/>
-        <keywords scheme="http://www.rc.umd.edu/#tags">
-          <term subtype="person">Horace</term>
-          <term subtype="person">John Horne Tooke</term>
-          <term subtype="tags">brevity</term>
-          <term subtype="tags">abbreviation</term>
-          <term subtype="tags">materiality of language</term>
-          <term subtype="tags">subaudition</term>
-          <term subtype="person">Hermes</term>
-          <term subtype="person">Mercury</term>
-          <term subtype="title">Ars Poetica</term>
-          <term subtype="title">Homeric Hymn to Hermes</term>
-          <term subtype="tags">traces</term>
-          <term subtype="tags">tracks</term>
-          <term subtype="tags">footprints</term>
+        <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+        <keywords scheme="http://www.romantic-circles.org/#tags">
+          <term subtype="tags"></term>
+          <term subtype="tags"></term>
+          <term subtype="tags"></term>
+          <term subtype="tags"></term>
+          <term subtype="tags"></term>
         </keywords>
       </textClass>
     </profileDesc>
+    
     <revisionDesc>
       <change>
-        <name>David Rettenmaier</name>
-        <date>2016-05-05</date>
+        <!--  Coder Name and Date Coded  -->
+        <name>Jessica Tebo</name>
+        <date>August 28, 2016</date>
         <list>
-          <item>TEI encoding the issue</item>
+          <item>TEI encoding the text</item>
         </list>
       </change>
     </revisionDesc>
   </teiHeader>
+
+
   <text>
     <front>
       <div type="abstract">
-        <p rend="noCount">This essay addresses Percy Shelley’s exploration of linguistic brevity as a temporal and spatial phenomenon. Beginning with
+        <p>This essay addresses Percy Shelley’s exploration of linguistic brevity as a temporal and spatial phenomenon. Beginning with
           Shelley’s rethinking of John Horne Tooke’s account of grammatical abbreviation and of the tropological and iconographic significance of the
           figure of the wingéd Hermes (Mercury), the essay also draws intertextual connections in Shelley’s poetry to Horace’s “Ars Poetica” and to
           the “Homeric Hymn to Hermes.”</p>
@@ -179,7 +239,7 @@
         <byline><docAuthor>William Keach</docAuthor>
           <affiliation>Brown University</affiliation></byline>
         <head>Shelley and the Hermeneutics of Abbreviation</head>
-        <figure n="1" rend="rightFloat">
+        <figure>
           <graphic url="/sites/default/files/imported/praxis/brevity/images/dum-brevisThumb.jpg"/>
           <figDesc>Frontispiece to John Horne Tooke's <title level="m">ÉPEA PTERÓENTA,<lb/> or the Diversions of Purley</title> (1798).</figDesc>
         </figure>
@@ -187,8 +247,8 @@
             <emph>brevis</emph> refer to shortness of “length in its different directions of breadth, height, or depth”—even to the length “of a
           circle, as merely a line, and without reference to the space enclosed” (Lewis and Short). The transfer of these spatial senses to temporal
           phenomena gives <emph>brevity</emph> an inherent spatiotemporal motility at issue in a long series of questions provoked by the topic of
-          this volume. Among these questions is this one: are all our representations of time dependent on vocabularies of space?<note xml:id="ftn1"
-            place="foot" resp="editors" n="1">For a useful overview of recent philosophical debate on this issue, see Robin Le Poidevin, “The
+          this volume. Among these questions is this one: are all our representations of time dependent on vocabularies of space?<note
+            place="foot" resp="editors">For a useful overview of recent philosophical debate on this issue, see Robin Le Poidevin, “The
             Experience and Perception of Time,” <title level="m">The Stanford Encyclopedia of Philosophy</title> (Fall 2011 Edition). Web.</note>
           Linked to this is the recognition that the Latin <foreign>brevis</foreign> and the English <emph>brief</emph> acquired, from very early in
           their histories, distinctly discursive and rhetorical significance. Thus the question of <emph>brevity</emph> carries important and
@@ -207,7 +267,7 @@
           [not of things or of ideas, but] of other words” (<title level="m">Diversions of Purley</title> 1: 14). The process of
             <emph>abbreviation</emph> involves the derivation of conjunctions, prepositions, adverbs, and the syntagmatic constructs they make
           possible from nouns and verbs. The cognitive act that supplies the etymological information <emph>abbreviation</emph> elides is what Tooke
-          calls <emph>subaudition</emph>.<note xml:id="ftn2" place="foot" resp="editors" n="2">For Tooke and <emph>subaudition</emph>, see Roy Harris
+          calls <emph>subaudition</emph>.<note place="foot" resp="editors">For Tooke and <emph>subaudition</emph>, see Roy Harris
             and Talbot Taylor, <title level="m">Landmarks in Linguistic Thought</title> (London: Routledge, 2013), vol. 1, 168-69.</note> He
           elaborates these principles playfully as well as ponderously—and here I want to turn directly to the frontispiece of <title level="m">The
             Diversions of Purley</title> and its connections to the dialogue in Chapter 1 between Tooke and his skeptical friend Richard Beadon. </p>
@@ -218,8 +278,8 @@
           nineteenth-century versions of the subject in the Louvre. Sharpe’s Hermes is younger, his body more relaxed, the expression on his face more
           enigmatic as he looks at one of his pairs of wings. The pyramids in the background must allude to the syncretic identification of Hermes
           with Thoth, the Egyptian god of writing, and thus to Hermes Trismegistus. The caption beneath the image is from Horace’s <title level="m"
-            >Ars Poetica</title> 25-6: “dum brevis esse laboro, obscurus fio” [while I labor to be brief, I become obscure].<note xml:id="ftn3"
-            place="foot" resp="editors" n="3">I have been unable to determine the textual basis for the conjunction “dum” at the beginning of this
+            >Ars Poetica</title> 25-6: “dum brevis esse laboro, obscurus fio” [while I labor to be brief, I become obscure].<note
+            place="foot" resp="editors">I have been unable to determine the textual basis for the conjunction “dum” at the beginning of this
             quotation. All eighteenth-century and present-day editions I have looked at begin the sentence in the middle of line 25 with “Brevis esse
             laboro.” This is in itself ironic—maybe ironically predictable—since conjunctions are among the parts of speech that Tooke is most
             concerned with.</note>The bearing of this quotation on Tooke’s analysis and on Shelley’s response to it is ironic. On the one hand, as
@@ -262,7 +322,7 @@
           conversation as might enable it, if possible, to keep pace in some measure with their minds. (<title level="m">Diversions of Purley</title>
           1: 28-9) </quote>
         Language retains an otherness to thought here that, by implication, must have to do with what Saussure refers to as “the linearity of the
-            signifer,”<note xml:id="ftn4" place="foot" resp="editors" n="4">The “linear character of the signal” is the second principle in Saussure’s
+            signifer,”<note place="foot" resp="editors">The “linear character of the signal” is the second principle in Saussure’s
             chapter on the “Nature of the linguistic sign” (<title level="m">Course in General Linguistics</title>, 69-71). Roy Harris’s
               discussion of this principle in <title level="m">Reading Saussure</title> (55 ff., 69 ff., 124 ff.) is particularly
             helpful.</note> which persists in differentiating language as discursive system from the mental life it makes possible and otherwise
@@ -278,8 +338,8 @@
           read, then, as a rhetorical rewriting of Tooke’s grammatical abbreviation-as-speed. Where Tooke in his way disfigures Hermes to isolate the
           function of his wings, Shelley may be said to refigure the ties of these “artificial” wings to Hermes’ mythographic body. </p>
         <p>Such refiguration is at work in Shelley’s translation of the Homeric “Hymn to Mercury” (1820), parts of which read as an allegorizing of
-            <foreign>poieisis</foreign>, including lyric temporality, in its Hermetic and Apollonian modes.<note xml:id="ftn5" place="foot"
-            resp="editors" n="5">See Kahan 147: “. . . through a turn away from the text, [Shelley’s] translation provides the formalization of a
+            <foreign>poieisis</foreign>, including lyric temporality, in its Hermetic and Apollonian modes.<note place="foot"
+            resp="editors">See Kahan 147: “. . . through a turn away from the text, [Shelley’s] translation provides the formalization of a
               historic moment in Greek history when <foreign>techne</foreign>, as work primarily productive of an object, becomes
                 <emph>praxis</emph>, work primarily defining a subject, and when the demiurge, not yet strictly artisan, is still thaumaturge as
               well.” </note> Rhetorically the poem capriciously (in some moments maliciously) narrates and dramatizes the first day of
@@ -317,7 +377,7 @@
         <p>Apollo is eventually undeceived by Mercury’s cryptic traces. But he has come to be indebted to Mercury’s artificial gift of lyric
             <foreign>energeia</foreign>—a quick, opportunistic performative brevity that exploits thought’s vexed interdependence with its material
           articulations. As Apollo launches into a concluding encomium of the “little contriving Wight” (l. 585), he is represented as doing so in
-          Mercury’s own terms: “His words were wingèd with his swift delight” (l. 581).<note xml:id="ftn6" place="foot" resp="editors" n="6">Near the
+          Mercury’s own terms: “His words were wingèd with his swift delight” (l. 581).<note place="foot" resp="editors">Near the
             end of her article Kahan argues that Mercury/Hermes, despite the appearance of compromise, ultimately wins: “. . . the kind of <foreign>to
               poiein</foreign> Shelley has in mind bears affinities to Hermes’ <foreign>poieisis</foreign> rather than to Apollo’s . . . Hermes, the
             Chthonian to Apollo’s Olympian, has . . . privileged access to magical powers and his utterance is accordingly marked by its transgressive
