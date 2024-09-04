@@ -1,121 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romantic Materialities</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Radcliffe's Materiality</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Yoon Sun Lee</name>
             </author>
-            <editor role="editor">Sara Guyer</editor>
-            <editor role="editor">Celeste Langan</editor>
+            
+            
+            
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
-            </respStmt>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
+            </respStmt>            
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
+           <publisher>Romantic Circles, https://romantic-circles.org, 
+               University of Colorado Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, 
+                  reproduced or disseminated in any manner without authorization unless 
+                  it is for purposes of criticism, comment, news reporting, teaching, 
+                  and/or classroom use as provided by the Copyright Act of 1976, as 
+                  amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                  Circles are copyrighted by the author/editor and may be shared only in 
+                  accordance with the Fair Use provisions of U.S. copyright law. Except 
+                  as expressly permitted by this statement, redistribution or republication 
+                  in any medium requires express prior written consent from the author(s)/
+                  editor(s) and advance notification of Romantic Circles. Any requests 
+                  for authorization should be forwarded to Romantic Circles:
                   <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following 
+                  conditions: 
+                  <list>
+                     <item>These texts and images may not be used for any commercial 
+                        purpose without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any 
+                        forms other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order 
+                  to mount them on their own servers. It is not in our interest or that 
+                  of our users to have uncontrolled subsets of our holdings available 
+                  elsewhere on the Internet. We make corrections and additions to our 
+                  edited resources on a continual basis, and we want the most current text 
+                  to be the only one generally available to all Internet users. Institutions 
+                  can, of course, make a link to the copies at Romantic Circles, subject 
+                  to our conditions of use.</p>
             </availability>
-            <idno type="edition">praxis.materialities.2015.lee</idno>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.materialities.2015.lee</idno> 
             <idno type="resource">materialities</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Radcliffe's Materiality</title>
+                  
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Radcliffe's Materiality
+                  </title>
                   <author role="secondary">
                      <persName>
-                        <forename>Yoon Sun</forename>
+                        <forename>Yoon Sun </forename>
                         <surname>Lee</surname>
                      </persName>
                   </author>
+                  
+                  
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/materialities/praxis.2015.materialities.lee"/> 
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
-               <monogr>
-                  <title level="m">Romantic Materialities</title>
-                  <title level="s">Praxis Series</title>
-                  <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2014-04-28">April 28, 2014</date>
-                     <biblScope type="URL"
-                        >http://www.rc.umd.edu/praxis/materialities/praxis.materialities.2015.lee.html</biblScope>
-                  </imprint>
-               </monogr>
+               
+               
+                  <monogr><title level="m">Romantic Materialities</title>
+                  <title level="s">Praxis</title>
+                  
+                    <imprint><publisher>Romantic Circles, https://romantic-circles.org, 
+                        University of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date></imprint></monogr>
+                  
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: 
+                  " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Any dashes occurring in line breaks have been removed 
+                  except in the case of diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens 
+                  have been typed on the U.S. keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts 
+                  has been indicated as such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, 
+                  etc., have been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -136,280 +176,69 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; 
+               font-size: 12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
-               xml:id="g">
-               <bibl>NINES categories for Genre and Material Form at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                   20014-02-27</bibl>
-               <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
             </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="dcType">
-               <bibl>NINES categories for document type at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
-               <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+               <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
             </taxonomy>
-            <taxonomy
-               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
-               xml:id="d">
-               <bibl>NINES categories for discplines at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
-                  2014-02-27</bibl>
-               <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+               <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
-
          <textClass>
-            <catRef scheme="#genre" target="#Criticism"/>
+            <catRef scheme="#genre" target="#Paratext"/>
             <catRef scheme="#dcType" target="#Typescript"/>
             <catRef scheme="#discipline" target="#Literature"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <term subtype="tags">materiality</term>
-               <term subtype="tags">new materialism</term>
-               <term subtype="tags">Gothic</term>
-               <term subtype="tags">network</term>
-               <term subtype="tags">assemblage</term>
-               <term subtype="tags">affect</term>
-               <term subtype="tags">identity</term>
-               <term subtype="tags">intensities</term>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Mike Quilligan</name>
-            <date>2014-04-28</date>
+            <!--  Coder Name and Date Coded  -->
+            <name>Jessica Tebo</name>
+            September 9, 2024
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
-      <!-- 
+     
          <front>
          <div type="abstract">
-         <p rend="noCount">Abstract goes here</p>
+         <p rend="noCount">This article examines Radcliffe's writing as a phenomenon of
+                  continuous material surfaces and folds. Radcliffe's Gothic narratives can be seen
+                  as assemblages that generate transpersonal affects and intensities. Their
+                  conservatism can be seen in how they conceive of agency as a force that arrests or
+                  works against the constant movement inherent in materiality.</p>
          </div>
          </front>
-      -->
+     
       <body>
          <div type="essay">
             <head>Radcliffe's Materiality</head>
@@ -948,280 +777,73 @@
                tracing the same assemblages again and again. </p>
             <div type="citation">
                <head>Works Cited</head>
-               <listBibl>
-                  <biblStruct>
-                     <monogr>
-                        <author>Armstrong, Nancy</author>
-                        <title level="m">How Novels Think: The Limits of British Individualism from
-                           1719-1900</title>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Columbia UP</publisher>
-                           <date>2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Austen, Jane</author>
-                        <title level="m">Northanger Abbey</title>
-                        <editor role="editor">Kinsley, James</editor>
-                        <editor role="editor">Davie, John</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Oxford UP</publisher>
-                           <date>2003</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Bennet, Jane</author>
-                        <title level="a">The Force of Things</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Political Theory</title>
-                        <imprint>
-                           <biblScope type="vol">32</biblScope>
-                           <biblScope type="issue">3</biblScope>
-                           <date>2004</date>
-                           <biblScope type="pp">347-72</biblScope>
-                        </imprint>
-                     </monogr>
-                     <relatedItem type="otherEdition">
-                        <ref target="http://www.jstor.org/">JSTOR</ref>
-                     </relatedItem>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Brown, Marshall</author>
-                        <title level="m">The Gothic Text</title>
-                        <imprint>
-                           <pubPlace>Stanford</pubPlace>
-                           <publisher>Stanford UP</publisher>
-                           <date>2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Castle, Terry</author>
-                        <title level="m">The Female Thermometer</title>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Oxford UP</publisher>
-                           <date>1995</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Clery, E. J.</author>
-                        <title level="m">The Rise of Supernatural Fiction, 1762-1800</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>1995</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <editor role="editor">Coole, Diana</editor>
-                        <editor role="editor">Frost, Samantha</editor>
-                        <title level="m">New Materialisms: Ontology, Agency, Politics</title>
-                        <imprint>
-                           <pubPlace>Durham</pubPlace>
-                           <publisher>Duke UP</publisher>
-                           <date>2010</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Deleuze, Gilles</author>
-                        <author>Guattari, Felix</author>
-                        <title level="m">A Thousand Plateaus</title>
-                        <editor role="translator">Massumi, Brian</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <publisher>U of Minnesota P</publisher>
-                           <date>1987</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Duncan, Ian</author>
-                        <title level="m">Modern Romance and Transformations of the Novel</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>1992</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Favret, Mary</author>
-                        <title level="m">War at a Distance: Romanticism and the Making of Modern
-                           War-time</title>
-                        <imprint>
-                           <pubPlace>Princeton</pubPlace>
-                           <publisher>Princeton UP</publisher>
-                           <date>2010</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Gallagher, Catherine</author>
-                        <title level="m">Nobody’s Story: The Vanishing Acts of Women Writers in the
-                           Marketplace</title>
-                        <imprint>
-                           <publisher>Berkeley</publisher>
-                           <pubPlace>U of California P</pubPlace>
-                           <date>1994</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Hawley, Katherine</author>
-                        <title level="m">How Things Persist</title>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Clarendon</publisher>
-                           <date>2001</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Jager, Colin</author>
-                        <title level="j"><ref
-                              target="http://www.rc.umd.edu/praxis/frictions/HTML/praxis.2011.jager.html"
-                              >Can We Talk About Consciousness Again? (Emergence, Natural Piety,
-                              Wordsworth)</ref>.</title>
-                     </analytic>
-                     <monogr>
-                        <editor role="editor">Kelley, Theresa M.</editor>
-                        <title level="m">Romantic Frictions</title>
-                        <title level="s">Romantic Circles Praxis. </title>
-                        <imprint>
-                           <pubPlace>College Park</pubPlace>
-                           <publisher>University of Maryland</publisher>
-                           <date>September 2011</date>
-                           <date type="access">2014-01-19</date>
-                        </imprint>
-                     </monogr>
-                     <series>
-                        <title level="m">Romanticism Circles Praxis</title>
-                     </series>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Keats, John</author>
-                        <editor role="editor">Rollins, Edward Hyder</editor>
-                        <title level="m">The Letters of John Keats, 1814-1821</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Harvard UP</publisher>
-                           <date>1958</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Latour, Bruno</author>
-                        <title level="m">We Have Never Been Modern</title>
-                        <editor role="translator">Porter, Catherine</editor>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Harvard UP</publisher>
-                           <date>1993</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Levinson, Majorie</author>
-                        <title level="a">On Being Numerous</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Studies in Romanticism</title>
-                        <imprint>
-                           <biblScope type="vol">49</biblScope>
-                           <date>2010</date>
-                           <biblScope type="pp">633-657</biblScope>
-                        </imprint>
-                     </monogr>
-                     <relatedItem type="otherEdition">
-                        <ref
-                           target="http://search.proquest.com.ezproxy.library.wisc.edu/docview/861492743?accountid=465"
-                           >ProQuest</ref>
-                     </relatedItem>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Napier, Elizabeth</author>
-                        <title level="m">The Failure of the Gothic: Problems of Disjunction in an
-                           Eighteenth-Century Literary Form</title>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Clarendon</publisher>
-                           <date>1987</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Radcliffe, Ann</author>
-                        <title level="m">Mysteries of Udolpho</title>
-                        <editor role="editor">Dobree, Bonamy</editor>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Oxford UP</publisher>
-                           <date>1998</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>---.</author>
-                        <title level="m">The Italian</title>
-                        <editor role="editor">Garber, Frederick</editor>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Oxford UP</publisher>
-                           <date>1981</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Sharp, Hasana</author>
-                        <title level="m">Spinoza and the Politics of Renaturalization</title>
-                        <imprint>
-                           <pubPlace>Chicago</pubPlace>
-                           <publisher>Chicago UP</publisher>
-                           <date>2011</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Watt, James</author>
-                        <title level="m">Contesting the Gothic: Fiction, Genre, and Cultural
-                           Conflict, 1764-1832</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>1999</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-               </listBibl>
+               
+               <bibl>Armstrong, Nancy. <title level="m">How Novels Think: The Limits of British Individualism from
+                  1719-1900</title>. New York, Columbia UP, 2005</bibl>
+                     
+                        
+               <bibl>Austen, Jane. <title level="m">Northanger Abbey</title>. Edited by James Kinsley and John Davie, New York, Oxford UP, 2003.</bibl>
+                     
+                        
+               <bibl>Bennet, Jane. <title level="a">The Force of Things</title>. <title level="j">Political Theory</title>, vol. 32, no. 3, 2004, pp. 347-72.</bibl>
+                     
+               <bibl>Brown, Marshall. <title level="m">The Gothic Text</title>. Stanford, Stanford UP, 2005</bibl> 
+                     
+                        
+               <bibl>Castle, Terry.<title level="m">The Female Thermometer</title>. New York, Oxford UP, 1995</bibl>
+                     
+                        
+               <bibl>Clery, E. J. <title level="m">The Rise of Supernatural Fiction, 1762-1800</title>. Cambridge, Cambridge UP, 1995.</bibl>
+                     
+                        
+               <bibl>Coole, Diana and Samantha Frost, editors. <title level="m">New Materialisms: Ontology, Agency, Politics</title>. Durham, Duke UP, 2010.</bibl> 
+                     
+                    
+               <bibl>Deleuze, Gilles and Felix Guattari. <title level="m">A Thousand Plateaus</title>. Translated by Brian Massumi, Minneapolis, U of Minnesota P, 1987.</bibl>
+                     
+                 
+               <bibl>Duncan, Ian. <title level="m">Modern Romance and Transformations of the Novel</title>. Cambridge, Cambridge UP, 1992.</bibl>
+                     
+                       
+               <bibl>Favret, Mary. <title level="m">War at a Distance: Romanticism and the Making of Modern
+                  War-time</title>. Princeton, Princeton UP, 2010.</bibl>
+                     
+                       
+               <bibl>Gallagher, Catherine. <title level="m">Nobody’s Story: The Vanishing Acts of Women Writers in the
+                  Marketplace</title>. Berkeley, U of California P, 1994.</bibl>
+                     
+                        
+               <bibl>Hawley, Katherine. <title level="m">How Things Persist</title>. Oxford, Clarendon, 2001.</bibl>
+                     
+                       
+               <bibl>Jager, Colin. <title level="j"><ref target="http://www.rc.umd.edu/praxis/frictions/HTML/praxis.2011.jager.html">Can We Talk About Consciousness Again? (Emergence, Natural Piety,
+                  Wordsworth)</ref>.</title>  <title level="m">Romantic Frictions</title>, <title level="s">Romantic Circles Praxis.</title>, edited by Theresa M. Kelley, College Park, University of Maryland, September 2011.</bibl> 
+                     
+               <bibl>Keats, John. <title level="m">The Letters of John Keats, 1814-1821</title>. Edited by Edward Hyder Rollins, Cambridge, Harvard UP, 1958.</bibl>
+                     
+                       
+               <bibl>Latour, Bruno. <title level="m">We Have Never Been Modern</title>. Edited by Catherine Porter, Cambridge, Harvard UP, 1993.</bibl>
+               
+                  
+               <bibl>Levinson, Majorie. <title level="a">On Being Numerous</title>.  <title level="j">Studies in Romanticism</title>, vol. 49, 2010, pp. 633-57.</bibl>
+                    
+               <bibl>Napier, Elizabeth. <title level="m">The Failure of the Gothic: Problems of Disjunction in an
+                  Eighteenth-Century Literary Form</title>. Oxford, Clarendon, 1987.</bibl>
+                     
+                       
+               <bibl>Radcliffe, Ann. <title level="m">Mysteries of Udolpho</title>. Edited by Bonamy Dobree, Oxford, Oxford UP, 1998</bibl>
+                     
+                       
+               <bibl>---. <title level="m">The Italian</title>. Edited by Frederick Garber, Oxford, Oxford UP, 1981.</bibl>
+                     
+                       
+               <bibl>Sharp, Hasana. <title level="m">Spinoza and the Politics of Renaturalization</title>. Chicago, Chicago UP, 2011.</bibl>
+                     
+                      
+               <bibl>Watt, James. <title level="m">Contesting the Gothic: Fiction, Genre, and Cultural
+                  Conflict, 1764-1832</title>. Cambridge,  Cambridge UP, 1999.</bibl>
+                     
+                 
             </div>
          </div>
       </body>

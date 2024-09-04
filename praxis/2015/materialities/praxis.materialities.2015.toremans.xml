@@ -1,123 +1,162 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romantic Materialities</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Killing What Is Already Dead: 'Original Materialism,' Translation, and
                Romanticism after de Man</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Tom Toremans</name>
             </author>
-            <editor role="editor">Sara Guyer</editor>
-            <editor role="editor">Celeste Langan</editor>
+            
+            
+            
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
-            </respStmt>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
+            </respStmt>            
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
+           <publisher>Romantic Circles, https://romantic-circles.org, 
+               University of Colorado Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, 
+                  reproduced or disseminated in any manner without authorization unless 
+                  it is for purposes of criticism, comment, news reporting, teaching, 
+                  and/or classroom use as provided by the Copyright Act of 1976, as 
+                  amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                  Circles are copyrighted by the author/editor and may be shared only in 
+                  accordance with the Fair Use provisions of U.S. copyright law. Except 
+                  as expressly permitted by this statement, redistribution or republication 
+                  in any medium requires express prior written consent from the author(s)/
+                  editor(s) and advance notification of Romantic Circles. Any requests 
+                  for authorization should be forwarded to Romantic Circles:
                   <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following 
+                  conditions: 
+                  <list>
+                     <item>These texts and images may not be used for any commercial 
+                        purpose without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any 
+                        forms other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order 
+                  to mount them on their own servers. It is not in our interest or that 
+                  of our users to have uncontrolled subsets of our holdings available 
+                  elsewhere on the Internet. We make corrections and additions to our 
+                  edited resources on a continual basis, and we want the most current text 
+                  to be the only one generally available to all Internet users. Institutions 
+                  can, of course, make a link to the copies at Romantic Circles, subject 
+                  to our conditions of use.</p>
             </availability>
-            <idno type="edition">praxis.materialities.2015.toremans</idno>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.materialities.2015.toremans</idno> 
             <idno type="resource">materialities</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Killing What Is Already Dead: 'Original Materialism,'
-                     Translation, and Romanticism after de Man</title>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Killing What Is Already Dead: 'Original Materialism,' Translation, and
+                     Romanticism after de Man
+                  </title>
                   <author role="secondary">
                      <persName>
                         <forename>Tom</forename>
                         <surname>Toremans</surname>
                      </persName>
                   </author>
+                  
+                  
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/materialities/praxis.2015.materialities.toremans"/> 
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
-               <monogr>
-                  <title level="m">Romantic Materialities</title>
-                  <title level="s">Praxis Series</title>
-                  <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2014-04-28">April 28, 2014</date>
-                     <biblScope type="URL"
-                        >http://www.rc.umd.edu/praxis/materialities/praxis.materialities.2015.toremans.html</biblScope>
-                  </imprint>
-               </monogr>
+               
+               
+                  <monogr><title level="m">Romantic Materialities</title>
+                  <title level="s">Praxis</title>
+                  
+                    <imprint><publisher>Romantic Circles, https://romantic-circles.org, 
+                        University of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date></imprint></monogr>
+                  
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: 
+                  " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Any dashes occurring in line breaks have been removed 
+                  except in the case of diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens 
+                  have been typed on the U.S. keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts 
+                  has been indicated as such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, 
+                  etc., have been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -138,280 +177,71 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; 
+               font-size: 12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
-               xml:id="g">
-               <bibl>NINES categories for Genre and Material Form at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                   20014-02-27</bibl>
-               <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
             </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="dcType">
-               <bibl>NINES categories for document type at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
-               <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+               <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
             </taxonomy>
-            <taxonomy
-               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
-               xml:id="d">
-               <bibl>NINES categories for discplines at
-                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
-                  2014-02-27</bibl>
-               <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+               <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
-
          <textClass>
-            <catRef scheme="#genre" target="#Criticism"/>
+            <catRef scheme="#genre" target="#Paratext"/>
             <catRef scheme="#dcType" target="#Typescript"/>
             <catRef scheme="#discipline" target="#Literature"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <term subtype="tags">materiality</term>
-               <term subtype="tags">Paul de Man</term>
-               <term subtype="tags">aesthetic ideology</term>
-               <term subtype="tags">translation</term>
-               <term subtype="tags">S.T Coleridge</term>
-               <term subtype="tags">Thomas Carlyle</term>
-               <term subtype="tags">Walter Benjamin</term>
-               <term subtype="tags">materiality</term>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
+               <term subtype="tags"></term>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Mike Quilligan</name>
-            <date>2014-04-28</date>
+            <!--  Coder Name and Date Coded  -->
+            <name>Jessica Tebo</name>
+            September 9, 2024
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
-      <!-- 
+    
          <front>
          <div type="abstract">
-         <p rend="noCount">Abstract goes here</p>
+         <p rend="noCount">This article adresses Paul de Man's critique of translation in the
+                  context of his later writings on aesthetic ideology and materiality. By
+                  restoring de Man's essay on Walter Benjamin to its original context of the
+                  1983 Messenger Lectures, it elicits from these later writings a concept of
+                  translation that might be of particular relevance for a closer investigation
+                  of the interplay between translation and aesthetic theory in the writings of
+                  Coleridge and Carlyle.</p>
          </div>
          </front>
-      -->
+   
       <body>
          <div type="essay">
             <head>Killing What Is Already Dead: "Original Materialism," Translation, and Romanticism
@@ -1068,362 +898,84 @@
                   us before the task of reading and translating the theoretical discourse of and on
                   Romanticism, so as to confront it with the material event that ruptures aesthetic
                   ideology and destabilizes the critical terms we use to address it.</p>
-            </div>
+         
             <div type="citation">
                <head>Works Cited</head>
-               <listBibl>
-                  <biblStruct>
-                     <analytic>
-                        <author>Attell, Kevin</author>
-                        <title level="a">The Muse of Translation: 'Pure Language' in de Man,
-                           Derrida, and Agamben</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">The New Centennial Review</title>
-                        <imprint>
-                           <biblScope type="vol">12</biblScope>
-                           <biblScope type="issue">2</biblScope>
-                           <date>2012</date>
-                           <biblScope type="pp">69-105</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Bannet, Eve Tavor</author>
-                        <title level="a">The Scene of Translation: After Jakobson, Benjamin, de Man,
-                           and Derrida</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">New Literary History</title>
-                        <imprint>
-                           <biblScope type="vol">24</biblScope>
-                           <biblScope type="issue">3</biblScope>
-                           <date>1993</date>
-                           <biblScope type="pp">577-595</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Chase, Cynthia</author>
-                        <title level="a">Translating Romanticism: Literary Theory as the Criticism
-                           of Aesthetics in the Works of Paul de Man</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Textual Practice</title>
-                        <imprint>
-                           <biblScope type="vol">4</biblScope>
-                           <date>1990</date>
-                           <biblScope type="pp">349-375</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <editor role="editor">Cohen, Tom</editor>
-                        <editor role="editor">Cohen, Barbara</editor>
-                        <editor role="editor">Miller, J. Hillis</editor>
-                        <editor role="editor">Warminski, Andrzej</editor>
-                        <title level="m">Material Events: Paul de Man and the Afterlife of
-                           Theory</title>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <publisher>U of Minnesota P</publisher>
-                           <date>2001</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <editor role="editor">Cohen, Tom</editor>
-                        <editor role="editor">Colebrook, Claire</editor>
-                        <editor role="editor">Miller, J. Hillis</editor>
-                        <title level="m">Theory and the Disappearing Future: On de Man, On
-                           Benjamin</title>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Routledge</publisher>
-                           <date>2011</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Coleridge, Samuel Taylor</author>
-                        <title level="m">Biographia Literaria</title>
-                        <editor role="editor">Engell, James</editor>
-                        <editor role="editor">Bate, W. Jackson</editor>
-                        <edition>Bollingen Series LXXV</edition>
-                        <imprint>
-                           <pubPlace>Princeton</pubPlace>
-                           <publisher>Princeton UP</publisher>
-                           <date>1983</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Dayre, Eric</author>
-                        <title level="m">L'absolu comparé. Littérature et traduction. Une séquence
-                           moderne: Coleridge, De Quincey, Baudelaire, Rimbaud</title>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Hermann</publisher>
-                           <date>2009</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>de Graef, Ortwin</author>
-                        <title level="m">Titanic Light: Paul De Man's Post-Romanticism,
-                           1960-1969</title>
-                        <imprint>
-                           <pubPlace>Lincoln</pubPlace>
-                           <pubPlace>London</pubPlace>
-                           <publisher>U of Nebraska P</publisher>
-                           <date>1995</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>de Groote, Brecht</author>
-                        <title level="m">A Frightful Co-Existence’: Thomas De Quincey, Translation,
-                           and the Prospect of Modernity</title>
-                        <imprint>
-                           <biblScope type="vol">Diss.</biblScope>
-                           <publisher>KU Leuven</publisher>
-                           <date>2014</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <!-- Is this alphabetization of de Graef and de Groote in the D's instead of the G's correct?? -->
-                  <!-- Yes [DR] -->
-                  <biblStruct>
-                     <monogr>
-                        <author>de Man, Paul</author>
-                        <title level="m">Aesthetic Ideology</title>
-                        <editor role="editor">Warminski, Andrzej</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <pubPlace>London</pubPlace>
-                           <publisher>U of Minnesota P</publisher>
-                           <date>1996</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>---.</author>
-                        <title level="m">The Resistance to Theory</title>
-                        <editor role="editor">Godzich, Wlad</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <pubPlace>London</pubPlace>
-                           <publisher>U of Minnesota P</publisher>
-                           <date>1986</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>---.</author>
-                        <title level="m">The Rhetoric of Romanticism</title>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Columbia UP</publisher>
-                           <date>1984</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Derrida, Jacques</author>
-                        <title level="m">Mémoires: for Paul de Man</title>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Columbia UP</publisher>
-                           <date>1986</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Ferris, David S.</author>
-                        <title level="a">Coleridge's Ventriloquy: The Abduction from the
-                              <emph>Biographia</emph></title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Studies in Romanticism</title>
-                        <imprint>
-                           <biblScope type="vol">24</biblScope>
-                           <biblScope type="issue">1</biblScope>
-                           <date>1985</date>
-                           <biblScope type="pp">41-84</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Gasché, Rodolphe</author>
-                        <title level="a">'Setzung' and 'Übersetzung': Notes on Paul de Man</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Diacritics</title>
-                        <imprint>
-                           <biblScope type="vol">11</biblScope>
-                           <biblScope type="issue">4</biblScope>
-                           <date>1981</date>
-                           <biblScope type="pp">36-57</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>McQuillan, Martin</author>
-                        <title level="m">Paul de Man</title>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Routledge</publisher>
-                           <date>2001</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Newmark, Kevin</author>
-                        <title level="a">Paul de Man’s History</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Reading de Man Reading</title>
-                        <editor role="editor">Waters, Lindsay</editor>
-                        <editor role="editor">Godzich, Wlad</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <publisher>U of Minnesota P</publisher>
-                           <date>1989</date>
-                           <biblScope type="pp">121-135</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <editor role="editor">Redfield, Marc</editor>
-                        <title level="m"><ref target="http://www.rc.umd.edu/praxis/deman">Legacies
-                              of Paul de Man</ref></title>
-                        <title level="j">Romanticism Circles Praxis.</title>
-                        <imprint>
-                           <publisher>University of Maryland</publisher>
-                           <date type="access">2013-08-02</date>
-                           <date type="update"/>
-                        </imprint>
-                     </monogr>
-
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>---.</author>
-                        <title level="m">The Politics of Aesthetics. Nationalism, Gender,
-                           Romanticism</title>
-                        <imprint>
-                           <pubPlace>Stanford</pubPlace>
-                           <publisher>Stanford UP</publisher>
-                           <date>2003</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Toremans, Tom</author>
-                        <title level="a">Disagreement as (Possible) Event: Derrida contre de
-                           Man</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Contre Derrida: Countering the Contemporary Critique of
-                           Deconstruction</title>
-                        <editor role="editor">Weiner, Allison</editor>
-                        <editor role="editor">Wortham, Simon Morgan</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Continuum</publisher>
-                           <date>2007</date>
-                           <biblScope type="pp">82–94</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>---.</author>
-                        <title level="a"><emph>Sartor Resartus</emph> and the Rhetoric of
-                           Translation</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Translation and Literature</title>
-                        <imprint>
-                           <biblScope type="vol">20</biblScope>
-                           <biblScope type="issue">1</biblScope>
-                           <date>2011</date>
-                           <biblScope type="pp">61-78</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>---.</author>
-                        <title level="a">Surfacing Materiality. Wordsworth, Kant and de Man's
-                           Epistemological Critique of Reading</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Oxford Literary Review</title>
-                        <imprint>
-                           <biblScope type="vol">33</biblScope>
-                           <biblScope type="issue">1</biblScope>
-                           <date>2011</date>
-                           <biblScope type="pp">65-82</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Trott, N.</author>
-                        <title level="a">Samuel Taylor Coleridge</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Literature of the Romantic Period. A Bibliographic
-                           Guide</title>
-                        <editor role="editor">O'Neill, M.</editor>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Clarendon Press</publisher>
-                           <date>1998</date>
-                           <biblScope type="pp">68–79</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Warminski, Andrzej</author>
-                        <title level="a">Ending Up/Taking Back (with Two Postscripts on Paul de
-                           Man's Historical Materialism)</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Critical Encounters. Reference and Responsibility in
-                           Deconstructive Writing</title>
-                        <editor role="editor">Caruth, Cathy</editor>
-                        <editor role="editor">Esch, Deborah</editor>
-                        <imprint>
-                           <pubPlace>New Brunswick and New Jersey</pubPlace>
-                           <publisher>Rutgers UP</publisher>
-                           <date>1995</date>
-                           <biblScope type="pp">11-41</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-               </listBibl>
+               
+               <bibl>Attell, Kevin. <title level="a">The Muse of Translation: 'Pure Language' in de Man, Derrida, and Agamben</title>. <title level="j">The New Centennial Review</title>, vol. 12, no. 2, pp. 69-105.</bibl>
+                     
+               <bibl>Bannet, Eve Tavor. <title level="a">The Scene of Translation: After Jakobson, Benjamin, de Man, and Derrida</title>. <title level="j">New Literary History</title>, vol. 24, no. 3, pp. 577-595</bibl>
+                
+               <bibl>Chase, Cynthia. <title level="a">Translating Romanticism: Literary Theory as the Criticism of Aesthetics
+                  in the Works of Paul de Man</title>. <title level="j">Textual Practice</title>, vol. 4, 1990, pp. 349-375</bibl>
+                    
+               <bibl>Cohen, Tom, et al.  <title level="m">Material Events: Paul de Man and the Afterlife of
+                  Theory</title>. Minneapolis, U of Minnesota P, 2001.</bibl>
+                     
+               <bibl>---. <title level="m">Theory and the Disappearing Future: On de Man, On
+                  Benjamin</title>. London and New York, Routledge, 2011</bibl>
+                     
+               <bibl>Coleridge, Samuel Taylor. <title level="m">Biographia Literaria</title>. <title level="m">Bollingen Series LXXV</title>, edited by James Engell and  W. Jackson Bate, Princeton, Princeton UP, 1983.</bibl>  
+                
+               <bibl>Dayre, Eric. <title level="m">L'absolu comparé. Littérature et traduction. Une séquence
+                  moderne: Coleridge, De Quincey, Baudelaire, Rimbaud</title>. Paris, Hermann, 2009.</bibl>
+                     
+                     
+               <bibl>de Graef, Ortwin. <title level="m">Titanic Light: Paul De Man's Post-Romanticism,
+                  1960-1969</title>. Lincoln and London, U of Nebraska P, 1995.</bibl>
+                     
+                       
+               <bibl>de Groote, Brecht. <title level="m">A Frightful Co-Existence’: Thomas De Quincey, Translation,
+                  and the Prospect of Modernity</title>. Diss., KU Leuven, 2014.</bibl>
+                     
+               <bibl>de Man, Paul. <title level="m">Aesthetic Ideology</title>. Edited by Andrzej Warminski, Minneapolis and London, U of Minnesota P, 1996.</bibl>
+                     
+               
+               <bibl>---. <title level="m">The Resistance to Theory</title>. Edited by Wlad Godzich, Minneapolis and London, U of Minnesota P, 1986.</bibl>
+                     
+                       
+               <bibl>---. <title level="m">The Rhetoric of Romanticism</title>. New York, Columbia UP, 1984</bibl>
+                     
+               <bibl>Derrida, Jacques. <title level="m">Mémoires: for Paul de Man</title>. New York, Columbia UP, 1986.</bibl>
+                     
+                  
+               <bibl>Ferris, David S. <title level="a">Coleridge's Ventriloquy: The Abduction from the
+                  <emph>Biographia</emph></title>. <title level="j">Studies in Romanticism</title>, vol. 24, no. 1, 1985, pp. 41-84</bibl>
+                     
+                       
+               <bibl>Gasché, Rodolphe. <title level="a">'Setzung' and 'Übersetzung': Notes on Paul de Man</title>. <title level="j">Diacritics</title>, vol. 11, no. 4, pp. 36-57.</bibl>
+                    
+               <bibl>McQuillan, Martin. <title level="m">Paul de Man</title>. London, Routledge, 2001.</bibl>
+                     
+                     
+               <bibl>Newmark, Kevin. <title level="a">Paul de Man’s History</title>. 
+                  <title level="m">Reading de Man Reading</title>, edited by Lindsay Waters and Wlad Godzich, Minneapolis, U of Minnesota P, 1989, pp. 121-135</bibl>
+                     
+               <bibl>Redfield, Marc, editor. <title level="m"><ref target="http://www.rc.umd.edu/praxis/deman">Legacies
+                  of Paul de Man</ref></title>. <title level="j">Romanticism Circles Praxis.</title>, U of Maryland, 2013.</bibl>
+                     
+                        
+               <bibl>---. <title level="m">The Politics of Aesthetics. Nationalism, Gender,
+                  Romanticism</title>. Stanford,  Stanford UP, 2003.</bibl>
+                     
+               <bibl>Toremans, Tom. <title level="a">Disagreement as (Possible) Event: Derrida contre de
+                  Man</title>. <title level="m">Contre Derrida: Countering the Contemporary Critique of
+                     Deconstruction</title>, edited by Allison Weiner and Simon Morgan Wortham, New York and London, Continuum, 2007, pp. 82–94.</bibl>
+                     
+               <bibl>---. <title level="a"><emph>Sartor Resartus</emph> and the Rhetoric of
+                  Translation</title>. <title level="j">Translation and Literature</title>, vol. 20, no. 1, 2011, pp. 61-78.</bibl>
+                     
+               <bibl>---. <title level="a">Surfacing Materiality. Wordsworth, Kant and de Man's
+                  Epistemological Critique of Reading</title>. <title level="j">Oxford Literary Review</title>, vol. 33, no. 1, pp. 65-82.</bibl>
+                     
+               <bibl>Trott, N. <title level="a">Samuel Taylor Coleridge</title>. <title level="m">Literature of the Romantic Period. A Bibliographic
+                  Guide</title>, edited by M. O'Neill, Oxford, Clarendon Press, 1998, pp. 68–79.</bibl>
+                     
+               <bibl>Warminski, Andrzej. <title level="a">Ending Up/Taking Back (with Two Postscripts on Paul de
+                  Man's Historical Materialism)</title>.  <title level="m">Critical Encounters. Reference and Responsibility in
+                     Deconstructive Writing</title>, edited by Cathy Caruth and Deborah Esch, New Brunswick and New Jersey, Rutgers UP, 1995, pp. 11-41.</bibl>
+                     
+            </div>
             </div>
          </div>
       </body>
