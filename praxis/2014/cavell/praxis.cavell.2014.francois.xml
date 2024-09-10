@@ -1,41 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+
       <fileDesc>
+
          <titleStmt>
-            <title type="main">Stanley Cavell and the Event of Romanticism</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
-            <title level="a">Passing Judgment, Conceding Perfection: Third-Person Narration and Versions of the Cavellian Secular</title>
-            <author>
+            <!--  The reading texts should all be encoded as level="m"  -->
+            <title level="a">Passing Judgment, Conceding Perfection: Third-Person Narration and
+               Versions of the Cavellian Secular</title>
+
+
+            <author role="primary">
                <name>Anne-Lise François</name>
             </author>
-            <editor role="editor">Eric Lindstrom</editor>
+
             <sponsor>Romantic Circles</sponsor>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+
          <publicationStmt>
-            <!-- This value must be unique and follow the convention section.year.resource.filename. This allows us to use this value as a unique id and to attach all of our xml files to a single folder -->
-            <idno type="edition">praxis.cavell.2014.francois</idno>
-            <!-- This id is present to distinguish items via a simple resource designator. For example, if we are importing people and places, we would concatenate this value with anchor value for a person to distinguish these from other imported people from other resources -->
-            <idno type="resource">cavell</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <availability status="restricted">
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
                <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
                   disseminated in any manner without authorization unless it is for purposes of
                   criticism, comment, news reporting, teaching, and/or classroom use as provided by
@@ -44,17 +57,15 @@
                   copyrighted by the author/editor and may be shared only in accordance with the
                   Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
                   statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
                      <item>These texts and images may not be used for any commercial purpose without
                         prior written permission from Romantic Circles.</item>
@@ -69,43 +80,61 @@
                   users. Institutions can, of course, make a link to the copies at Romantic Circles,
                   subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.cavell.2014.francois</idno>
+            <idno type="resource">cavell</idno>
          </publicationStmt>
+
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Passing Judgment, Conceding Perfection: Third-Person Narration and Versions of the Cavellian Secular</title>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Passing Judgment, Conceding Perfection: Third-Person
+                     Narration and Versions of the Cavellian Secular</title>
                   <author role="secondary">
                      <persName>
                         <forename>Anne-Lise</forename>
                         <surname>François</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/cavell/praxis.2014.cavell.francois"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+
+
                <monogr>
                   <title level="m">Stanley Cavell and the Event of Romanticism</title>
-                  <title level="s">Praxis Series</title>
+                  <title level="s">Praxis</title>
+
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2014-07-18">July 18, 2014</date>
-                     <biblScope type="URL">http://www.rc.umd.edu/praxis/cavell/praxis.cavell.2014.francois.html</biblScope>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+
+
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
@@ -114,11 +143,12 @@
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+               <p>&#35; has been used for #, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have been
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -130,8 +160,6 @@
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-            <rendition xml:id="indent11" scheme="css">margin-left: 6em;</rendition>
-            <rendition xml:id="indent12" scheme="css">margin-left: 6.5em;</rendition>
             <rendition xml:id="center" scheme="css">text-align: center;</rendition>
             <rendition xml:id="left" scheme="css">text-align: left;</rendition>
             <rendition xml:id="right" scheme="css">text-align: right;</rendition>
@@ -145,8 +173,8 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+
          <classDecl>
-            <!-- Visit the links in the corresp attribute to find all values for genre, type, and discipline -->
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
                xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
@@ -167,30 +195,36 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
+
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#Criticism"/>
+            <catRef scheme="#genre" target="#Paratext"/>
             <catRef scheme="#dcType" target="#Typescript"/>
             <catRef scheme="#discipline" target="#Literature"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <term subtype="tags">acknowledgment</term>
-               <term subtype="tags">last words</term>
-               <term subtype="tags">perlocutionary utterances</term>
-               <term subtype="tags">third-person narration</term>
-               <term subtype="tags">Stanley Cavell</term>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2014-01-20</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
    <text>
       <body>
          <div type="essay">
@@ -249,23 +283,22 @@
                further courtship.</p>
             <p>"The verb needs modifying," is the lesson of Austin's "excuses"—their tenor "is that
                I did it but only <emph>in a way</emph>, not just flatly like that" (“A Plea for
-               Excuses” 187).<note xml:id="ftn1" place="foot" resp="editors" n="1"> All further
-                  citations from Austin refer to <title level="m">How to Do Things with
-                     Words</title>.</note> Excuses do not deny or cancel a given action: they modify
-               it, and potentially endlessly, as one might glean both from Austin's own many
-               discriminations and from the multiple near synonyms—mitigate, extenuate, temper,
-               etc.—for "alter[ation] in the direction of mildness or moderation"
-               (<emph>OED</emph>). By contrast, third-person accounts of Austen's broken engagement
-               (such as Deirdre Le Faye's, cited by Lindstrom) perhaps necessarily tend to retain
-               something of the novelist's own flatness and model a different kind of tact:
-               explanation for why Cassandra and Jane had to be fetched from the Bigg household
-               sooner than expected may eventually be given, but none for the withdrawn consent.
-               Somewhere between the rich insufficiency of the interminably proliferating Austinian
-               excuse and the minimal sufficiency of unapologetic Austenian report lies the
-               dialectic that this essay hopes to explore: on the one hand, the strangely generative
-               powers of retraction-through-verbalizing modification; on the other, the even
-               stranger generosity of another mode of recession that declines even to assume the
-               work of articulation.</p>
+               Excuses” 187).<note place="foot" resp="editors"> All further citations from Austin
+                  refer to <title level="m">How to Do Things with Words</title>.</note> Excuses do
+               not deny or cancel a given action: they modify it, and potentially endlessly, as one
+               might glean both from Austin's own many discriminations and from the multiple near
+               synonyms—mitigate, extenuate, temper, etc.—for "alter[ation] in the direction of
+               mildness or moderation" (<emph>OED</emph>). By contrast, third-person accounts of
+               Austen's broken engagement (such as Deirdre Le Faye's, cited by Lindstrom) perhaps
+               necessarily tend to retain something of the novelist's own flatness and model a
+               different kind of tact: explanation for why Cassandra and Jane had to be fetched from
+               the Bigg household sooner than expected may eventually be given, but none for the
+               withdrawn consent. Somewhere between the rich insufficiency of the interminably
+               proliferating Austinian excuse and the minimal sufficiency of unapologetic Austenian
+               report lies the dialectic that this essay hopes to explore: on the one hand, the
+               strangely generative powers of retraction-through-verbalizing modification; on the
+               other, the even stranger generosity of another mode of recession that declines even
+               to assume the work of articulation.</p>
             <ab rend="center">****</ab>
             <p>My first engagement with Cavell’s work concerned his tendency to identify
                “romanticism” with what he calls the “process of secularization,” whereby finite
@@ -273,7 +306,11 @@
                to one another’s separate existences. In this early work Cavell’s originality lies in
                reconverting into the passive voice a crisis of knowledge commonly expressed in the
                active: skepticism about other minds turns out to be a drama not of insufficient or
-               unreliable or as yet imperfect levels of knowing but of too much being known—a tragedy that ensues when the skeptic refuses to allow himself to be found out by the other to be, like her, mortal and separate, and attempts to convert into a reparable “intellectual lack” the irreparable “metaphysical finitude” the other has already revealed in and for him.  From the start, then, Cavell implies that what seems the
+               unreliable or as yet imperfect levels of knowing but of too much being known—a
+               tragedy that ensues when the skeptic refuses to allow himself to be found out by the
+               other to be, like her, mortal and separate, and attempts to convert into a reparable
+               “intellectual lack” the irreparable “metaphysical finitude” the other has already
+               revealed in and for him. From the start, then, Cavell implies that what seems the
                harder role—the active <emph>task</emph> of making oneself known—may be an evasion of
                the passive <emph>role</emph> of allowing oneself to be known.</p>
             <p>In <title level="m">Open Secrets</title> I argued that “romanticism” so defined—as
@@ -283,13 +320,13 @@
                activeness” and “absolute passiveness”: the Protestant emphasis on a law of the heart
                means that it is now up to me to determine what is asked of me, while what
                constitutes the acknowledgment of this unsummoned gift remains in turn equally
-               unspecified (Cavell, <title level="m">Claim</title> 470).<note xml:id="ftn2"
-                  place="foot" resp="editors" n="2">See François 212-217. </note> Such schematic
+               unspecified (Cavell, <title level="m">Claim</title> 470).<note
+                  place="foot" resp="editors">See François 212-217. </note> Such schematic
                stagings of something called “romanticism” or “secularization”—as a drama of
                revelation and abandonment that could never (and indeed need never) have happened to
                particular individuals—betray Cavell’s own preference for dramatic genres, a
                preference itself readable in terms of a Romantic desire to give dramatic form to
-               human history.<note xml:id="ftn3" place="foot" resp="editors" n="3">For Cavell’s
+               human history.<note place="foot" resp="editors">For Cavell’s
                   indebtedness to Romanticism’s post-Kantian, necessarily failed project of giving
                   aesthetic form to what can have no form—the freedom that Kant had saved for humans
                   only by declaring impossible to intuit empirically—see the lecture “Unworking
@@ -308,7 +345,7 @@
                discovery of a new and decisive piece of evidence, rather in that of a change in
                attitude—an adjustment whereby the questioner may simply stop questioning and let go
                not so much of the possibility of certainty as of a fantasy about what achieving
-               certainty might mean.<note xml:id="ftn4" place="foot" resp="editors" n="4">See, for
+               certainty might mean.<note place="foot" resp="editors">See, for
                   example, Cavell’s summary of his previous arguments at the start of <title
                      level="m">In Quest of the Ordinary,</title> in which he addresses those who
                   have misread him as giving up on the philosophical project and advocating
@@ -327,17 +364,17 @@
                      possession (<title level="m">Claim</title> 428).</p>
                   <p rend="noCount">If my attitude towards him expresses my knowledge that he has a
                      soul, my attitude may nevertheless not be very definitely expressed, nor very
-                     readily. It may take ages; it may be expressed now in the way I live[. . .]. The
-                     word “attitude” can be misleading here. It is not, in the matters at hand, a
-                     disposition I can adopt at will. It will be helpful to take the English word in
-                     its physical sense, as an inflection of myself toward others, an orientation
+                     readily. It may take ages; it may be expressed now in the way I live[. . .].
+                     The word “attitude” can be misleading here. It is not, in the matters at hand,
+                     a disposition I can adopt at will. It will be helpful to take the English word
+                     in its physical sense, as an inflection of myself toward others, an orientation
                      which affects everything and which I may or may not be interested in
                      discovering about myself. (360)</p>
                </quote> Such divergent passages bear witness to the difficulty of reconciling
                Cavell’s heroic investment in “acknowledgment” as the duty and burden of secular
                individuals, with the figures of “decline,” “lapse,” and “concession” by which one
                signals one’s disappointed acceptance of the other’s finite and fallible knowledge of
-                  oneself.<note xml:id="ftn5" place="foot" resp="editors" n="5"> Underscoring the
+                  oneself.<note place="foot" resp="editors"> Underscoring the
                   redundancy of a phrase such as “mutual acknowledgment of separateness,” Eric
                   Walker indirectly points to this link between concession or retraction and
                   acknowledgment as an assertion or finding whose object is always
@@ -378,17 +415,17 @@
                   of Happiness</title> and <title level="m">Contesting Tears</title>, <quote>nothing
                   legitimizes or ratifies marriage—not state, or church, or sex, or gender, or
                   children—apart from the willingness for reaffirmation, which is to say, for
-                  remarriage [. . .] and what makes marriage worth reaffirming is a diurnal devotedness
-                  that involves friendship, play, surprise, and mutual education, all manifested in
-                  the pair’s mode of conversing with each other (not just in words). (<title
-                     level="m">Philosophy</title> 121-22) </quote> In an earlier chapter in <title
-                  level="m">Philosophy</title> he cites Benjamin’s enigmatic claim from the essay on
-                  <title level="m">Elective Affinities</title> that “marriage is never justified in
-               law (that is, as an institution) but is justified solely as an expression of
-               continuance in love, which by nature seeks this expression sooner in death than in
-               life” (qtd. in <title level="m">Philosophy</title> 86-87). Cavell offers the
-               following parenthetical gloss: “perhaps Benjamin means this as a smack at a Romantic
-               suggestion that it is easier to love eternally than diurnally” (87). </p>
+                  remarriage [. . .] and what makes marriage worth reaffirming is a diurnal
+                  devotedness that involves friendship, play, surprise, and mutual education, all
+                  manifested in the pair’s mode of conversing with each other (not just in words).
+                     (<title level="m">Philosophy</title> 121-22) </quote> In an earlier chapter in
+                  <title level="m">Philosophy</title> he cites Benjamin’s enigmatic claim from the
+               essay on <title level="m">Elective Affinities</title> that “marriage is never
+               justified in law (that is, as an institution) but is justified solely as an
+               expression of continuance in love, which by nature seeks this expression sooner in
+               death than in life” (qtd. in <title level="m">Philosophy</title> 86-87). Cavell
+               offers the following parenthetical gloss: “perhaps Benjamin means this as a smack at
+               a Romantic suggestion that it is easier to love eternally than diurnally” (87). </p>
             <p>Now, of course, marriage so conceived—as a never conclusively achieved diurnal
                continuance—works in tension with marriage as pronounced by law, whether civic or
                religious. Marriage in this latter sense constitutes perhaps the most famous example
@@ -408,8 +445,7 @@
                usually line up with the same first-person form: to take Cavell’s examples, to say “I
                seduce you” is no guarantee that I do, or an utterance may be extremely embarrassing
                or painful but not necessarily because its utterer says, “I now embarrass you, I now
-               injure you” (<title level="m">Philosophy</title> 178).<note xml:id="ftn6"
-                  place="foot" resp="editors" n="6"> Here as everywhere in Cavell communicativeness
+               injure you” (<title level="m">Philosophy</title> 178).<note place="foot" resp="editors"> Here as everywhere in Cavell communicativeness
                   is not a matter of imparting information but of exercising a capacity for
                   projecting and anticipating the expectable but never fully calculable response of
                   one’s listener, as the speaker “makes herself intelligible” only by imagining,
@@ -465,34 +501,35 @@
                be the interlocutor capable of assenting to the finality of Carmen’s constative.</p>
             <p>I will come to Austen myself momentarily, but for now by way of further exploring the
                impossibility of a statement such as “I persuade you,” I want to make a brief detour
-               through perhaps the most operatic writer of third-person fiction, Stendhal. Cavell's 
+               through perhaps the most operatic writer of third-person fiction, Stendhal. Cavell's
                “Performative and Passionate Utterance” begins as a critique of Austin’s relative
                neglect of perlocutionary effects as symptomatic of his unease before the messiness
                of human passions, but the idea that “perlocutionary acts make room for, and reward,
-               imagination and virtuosity, unequally distributed capacities among the species” (<title level="m">Philosophy</title> 173)
-               might be part of what gave pause to the advocate of “plain saying,” since it evokes
-               the familiar topos of the indeterminably elect—an aristocracy of the imagination
-               whose special powers would be differently called into play by passionate utterances
-               than by “illocutionary acts” where no such questions arise: “I do not, except in
-               special circumstances, wonder how I might make a promise or a gift, or apologize, or
-               render a verdict,” whereas persuading, consoling, confusing, and seducing you “may
-               take talent” (<title level="m">Philosophy</title> 173). Stendhal’s 1827 novel <title level="m">Armance </title>offers a
-               remarkable example not so much of the difficulty of persuasion per se as of the
-               non-relation, or the unpredictability of relation, between effort and success.
-               Stendhal’s young hero struggles to persuade his cousin of his indifference to the
-               wealth into which he has recently come and which will enable him to marry well; after
-               days of wondering how to defend himself against her accusation of his worldliness, an
-               accusation she has, of course, never expressly addressed to him, he finally settles on
-               this: <quote><p rend="noCount">J’ai longtemps cherché à me justifier auprès de vous,
-                     non par de vaines paroles, mais par des actions. Je n’en trouve aucune qui soit
-                     décisive; moi aussi, je ne puis avoir recours qu’à votre <emph>sens
-                        intime</emph>. Or voici ce qui m’est arrivé. Pendant que je parlerai, voyez
-                     dans mes yeux si je mens. (64)</p>
+               imagination and virtuosity, unequally distributed capacities among the species”
+                  (<title level="m">Philosophy</title> 173) might be part of what gave pause to the
+               advocate of “plain saying,” since it evokes the familiar topos of the indeterminably
+               elect—an aristocracy of the imagination whose special powers would be differently
+               called into play by passionate utterances than by “illocutionary acts” where no such
+               questions arise: “I do not, except in special circumstances, wonder how I might make
+               a promise or a gift, or apologize, or render a verdict,” whereas persuading,
+               consoling, confusing, and seducing you “may take talent” (<title level="m"
+                  >Philosophy</title> 173). Stendhal’s 1827 novel <title level="m">Armance
+               </title>offers a remarkable example not so much of the difficulty of persuasion per
+               se as of the non-relation, or the unpredictability of relation, between effort and
+               success. Stendhal’s young hero struggles to persuade his cousin of his indifference
+               to the wealth into which he has recently come and which will enable him to marry
+               well; after days of wondering how to defend himself against her accusation of his
+               worldliness, an accusation she has, of course, never expressly addressed to him, he
+               finally settles on this: <quote><p rend="noCount">J’ai longtemps cherché à me
+                     justifier auprès de vous, non par de vaines paroles, mais par des actions. Je
+                     n’en trouve aucune qui soit décisive; moi aussi, je ne puis avoir recours qu’à
+                     votre <emph>sens intime</emph>. Or voici ce qui m’est arrivé. Pendant que je
+                     parlerai, voyez dans mes yeux si je mens. (64)</p>
                   <p rend="noCount">I have long sought to justify myself to you, not by vain words
                      but by actions. I can find none that would be decisive; I, too, can have
                      recourse only to your <emph>intimate sense</emph>. Well, this is what has
                      happened [literally, come] to me. As I will speak, see in my eyes if I’m
-                        lying.<note xml:id="ftn7" place="foot" resp="editors" n="7">The following
+                        lying.<note place="foot" resp="editors">The following
                         translations are my own, although I have consulted C.K. Scott-Moncrieff’s
                            <title level="m">The Shorter Novels of Stendhal</title>.
                         Scott-Moncrieff’s more idiomatic translation of the last sentence reads:
@@ -511,7 +548,7 @@
                abandoning his attempt to persuade her, he gives in, with his impossible invitation
                that she “see in his eyes if he is lying,” not to a naive faith in the truth of
                physical presence, but to her powers to do something other than listen (while he
-               babbles on).<note xml:id="ftn8" place="foot" resp="editors" n="8">For Austin the line
+               babbles on).<note place="foot" resp="editors">For Austin the line
                   from Euripides’ <title level="m">Hippolytus</title> is emblematic of the hypocrisy
                   to which are inevitably led those who make the metaphysical mistake first of
                   thinking of words as outward pictures of inward mental acts and then of prizing
@@ -548,50 +585,52 @@
                      Octave was saying these empty words so great an impossibility of loving the
                      somewhat chancy graces of the pretty woman of whom he spoke, and so passionate
                      a devotion for the friend to whom he was confiding himself, that she did not
-                     have the courage to resist the happiness of seeing herself thus loved [. . .] All
-                     her prudence could obtain from her, was not to speak; the sound of her voice
-                     would have revealed to her cousin all the passion that he was inspiring.
+                     have the courage to resist the happiness of seeing herself thus loved [. . .]
+                     All her prudence could obtain from her, was not to speak; the sound of her
+                     voice would have revealed to her cousin all the passion that he was inspiring.
                   </p></quote> Nothing, in a sense, could be further from the renewed commitment to
                ordinary language with which Cavell ends his essay, citing again Austin’s caution,
                “Accuracy and morality alike are on the side of the plain saying that our word is our
-               bond” (<title level="m">Philosophy</title> 191), and for the remainder of this essay I will follow Cavell in turning to
-               the more familiar psychological realism of Jane Austen’s fiction, whose characters
-               (with the possible exception of the diffident Fanny Price) show a different
-               (although, I would argue, not greater) faith in the possibility of communication than
-               Stendhal’s histrionically hermetic heroes do. Yet, in the end, the directness with which point-blank
-               declaration occurs for Octave and Armance in and through, as well as after, so many
-               rounds of deferral, disguise, mutual deceit, and self-deception in the end does not so
-               much differ from Cavell’s own movement of return to the ordinary through the
-               passionate, charted in this essay and elsewhere in his work. The heady combination of
-               directness and indirection, of trenchant circumlocution and perfected error
-               characteristic of Stendhal’s prose, derives in large part, of course, from the flat
-               definitiveness with which his third-person narration reports his protagonists’
-               attempts to obfuscate and delay the crisis of mutual encounter and revelation such
-               that every sentence performs the conclusion the characters would postpone. It is
-               tempting in this context to cite again Cavell’s claim that the “book of philosophy”
-               that Thoreau would find “suitable” to students “would be written with next to no
-               forward motion” because it would “culminate in each sentence” (<title level="m">Quest</title> 18).<note xml:id="ftn9" place="foot" resp="editors"
-                  n="9">Cavell concludes this speculation by suggesting that such prose would know
-                  nothing of poetic enjambment or the continuance of thought from one line to the
-                  next, which may explain why when paraphrasing this passage Critchley adds or
-                  elaborates that we would “find no reason to continue reading from one sentence to
-                  the next” (124). According to Critchley, Cavell praises writing that “knows when
-                  to stop,” because such knowledge “opens a certain relation to finitude” (124). Yet
-                  the irony of these multiple rephrasings of a sentence that would need no other—an
-                  ideal supposed to be Thoreau’s even if it does not exist on his printed
-                  page—suggests that the thought of the thought that would require no further
-                  thought itself cannot come to term, whatever Critchley’s worries about Cavell’s
-                  temptation to short circuit “the vertiginous forward motion without destination”
-                  of Schlegelian irony. There is perhaps no sharper instantiation of the difficulty
-                  of telling the “inertia” of the finished sentence from this “vertigo” than the
-                  staccato of Stendhal’s prose. </note> How might third-person narration effect such
-               singular stopping points? With this question in mind, I now return to Carmen’s “last
-               word” and its possible equivalents in Austen’s prose.</p>
+               bond” (<title level="m">Philosophy</title> 191), and for the remainder of this essay
+               I will follow Cavell in turning to the more familiar psychological realism of Jane
+               Austen’s fiction, whose characters (with the possible exception of the diffident
+               Fanny Price) show a different (although, I would argue, not greater) faith in the
+               possibility of communication than Stendhal’s histrionically hermetic heroes do. Yet,
+               in the end, the directness with which point-blank declaration occurs for Octave and
+               Armance in and through, as well as after, so many rounds of deferral, disguise,
+               mutual deceit, and self-deception in the end does not so much differ from Cavell’s
+               own movement of return to the ordinary through the passionate, charted in this essay
+               and elsewhere in his work. The heady combination of directness and indirection, of
+               trenchant circumlocution and perfected error characteristic of Stendhal’s prose,
+               derives in large part, of course, from the flat definitiveness with which his
+               third-person narration reports his protagonists’ attempts to obfuscate and delay the
+               crisis of mutual encounter and revelation such that every sentence performs the
+               conclusion the characters would postpone. It is tempting in this context to cite
+               again Cavell’s claim that the “book of philosophy” that Thoreau would find “suitable”
+               to students “would be written with next to no forward motion” because it would
+               “culminate in each sentence” (<title level="m">Quest</title> 18).<note 
+                  place="foot" resp="editors">Cavell concludes this speculation by suggesting
+                  that such prose would know nothing of poetic enjambment or the continuance of
+                  thought from one line to the next, which may explain why when paraphrasing this
+                  passage Critchley adds or elaborates that we would “find no reason to continue
+                  reading from one sentence to the next” (124). According to Critchley, Cavell
+                  praises writing that “knows when to stop,” because such knowledge “opens a certain
+                  relation to finitude” (124). Yet the irony of these multiple rephrasings of a
+                  sentence that would need no other—an ideal supposed to be Thoreau’s even if it
+                  does not exist on his printed page—suggests that the thought of the thought that
+                  would require no further thought itself cannot come to term, whatever Critchley’s
+                  worries about Cavell’s temptation to short circuit “the vertiginous forward motion
+                  without destination” of Schlegelian irony. There is perhaps no sharper
+                  instantiation of the difficulty of telling the “inertia” of the finished sentence
+                  from this “vertigo” than the staccato of Stendhal’s prose. </note> How might
+               third-person narration effect such singular stopping points? With this question in
+               mind, I now return to Carmen’s “last word” and its possible equivalents in Austen’s
+               prose.</p>
             <p> Indeed what if, instead of awaiting rescue from a patient Mr. Knightley, we were to
                introduce into this conversational paradigm, premised as it is on a model of language
                as communication between a sender and a receiver, the innovation for which Austen is
                perhaps most well known in the history of the English novel: free indirect style in
-               which no one speaks?<note xml:id="ftn10" place="foot" resp="editors" n="10">For the
+               which no one speaks?<note place="foot" resp="editors">For the
                   argument that no one speaks, see Banfield; for the extensive literature on Austen
                   and free indirect style, see as well, among others, Cohn; Ferguson; Finch and
                   Bowen; Andrew Miller, “Perfectly Helpless”; and D.A. Miller, <title level="m">Jane
@@ -602,7 +641,7 @@
                Knightley—who is capable of bestowing acknowledgment and simultaneously forgiving the
                heroine for her double failure with respect to adequate expression: her inability not
                to express herself all the time and her failure to express herself as she would
-                  like.<note xml:id="ftn11" place="foot" resp="editors" n="11">Cavell gives the last
+                  like.<note place="foot" resp="editors">Cavell gives the last
                   word to Knightley’s exclamation to the woman he can now sincerely and truthfully
                   call “his” Emma: “My Emma, does not everything serve to prove more and more the
                   beauty of truth and sincerity in all our dealings with each other?” (<title
@@ -625,33 +664,35 @@
                existence. Yet this neglect seems all the stranger in light of his claims for the
                ordinariness of desires that may remain without expression, or rather his ambivalence
                toward the “Rousseauian” or “Romantic” myth that I am essentially unknowable,
-               incommunicable to others, and his wish <emph>not</emph> to exaggerate the gulf between the mystery
-               of inchoate private experience and the formal articulations required of public life.
-               If the double, contradictory injunction to invest the self with secret proprietary
-               value and make it publicly accountable ends up faulting thoughts for not “ris[ing] to
-               the level of the expressible” (Ferguson 167; François 14), no such negative judgments
-               attend the experiences rendered by free indirect style—mental states no less achieved
-               for not being said aloud by one speaker to another—because their realization is not
-               predicated on their being claimed, voiced, and communicated.</p>
+               incommunicable to others, and his wish <emph>not</emph> to exaggerate the gulf
+               between the mystery of inchoate private experience and the formal articulations
+               required of public life. If the double, contradictory injunction to invest the self
+               with secret proprietary value and make it publicly accountable ends up faulting
+               thoughts for not “ris[ing] to the level of the expressible” (Ferguson 167; François
+               14), no such negative judgments attend the experiences rendered by free indirect
+               style—mental states no less achieved for not being said aloud by one speaker to
+               another—because their realization is not predicated on their being claimed, voiced,
+               and communicated.</p>
             <p>In other words, the silent agency of narration may do for a character what the
-               musical notation “pianississimo” in Bizet’s opera does for Carmen, or
-               indeed what Cavell’s speculative interpretation of what is happening within her at
-               that moment does, which is not so much to supply the unspoken words as to explain the
-               sufficiency of what she does utter. Transpose his “She stares blankly at the truth
-               and is bewildered” to the past tense and it acquires the easy weight of a novelistic
-               truth we would not hesitate to credit—a “pure constative” in its own right. The
+               musical notation “pianississimo” in Bizet’s opera does for Carmen, or indeed what
+               Cavell’s speculative interpretation of what is happening within her at that moment
+               does, which is not so much to supply the unspoken words as to explain the sufficiency
+               of what she does utter. Transpose his “She stares blankly at the truth and is
+               bewildered” to the past tense and it acquires the easy weight of a novelistic truth
+               we would not hesitate to credit—a “pure constative” in its own right. The
                interchangeability of “pure” and “mere” and “simple” in such cases points to the
                sometimes but not always problematically unassuming character of the constative as a
                statement both beneath and beyond contestation. To take an example worlds apart from
-               <title level="m">Carmen</title>, Austen’s sentence describing the situation of Fanny Price abandoned if only
-               temporarily on her bench as the others wander Sotherton’s grounds together—“she
-               seemed to have the little wood all to herself” (<title level="m">Mansfield
-                  Park</title> 117)—repeats at the level of form the passing by or minimal notice of
-               which Fanny is the object; or rather it transposes the other characters’ potentially
-               ill-willed neglect into a kind of benign negligence. Fanny’s self-consciousness of
-               herself as abandoned is registered as the illusion of possessing the little wood;
-               something or someone in the sentence smiles wryly at this illusion, whether this
-               smile belongs to Austen or Fanny herself does not really matter. </p>
+                  <title level="m">Carmen</title>, Austen’s sentence describing the situation of
+               Fanny Price abandoned if only temporarily on her bench as the others wander
+               Sotherton’s grounds together—“she seemed to have the little wood all to herself”
+                  (<title level="m">Mansfield Park</title> 117)—repeats at the level of form the
+               passing by or minimal notice of which Fanny is the object; or rather it transposes
+               the other characters’ potentially ill-willed neglect into a kind of benign
+               negligence. Fanny’s self-consciousness of herself as abandoned is registered as the
+               illusion of possessing the little wood; something or someone in the sentence smiles
+               wryly at this illusion, whether this smile belongs to Austen or Fanny herself does
+               not really matter. </p>
             <p>Simultaneously unhesitating and unforthcoming, frankly assertive and closed to
                further elaboration, third-person psycho-narration promises to suspend the
                multiplying cascade-effect of perlocutionary utterances and bring to a term the
@@ -677,21 +718,21 @@
                remarkably little anger toward the double push and pull by which, he claims, Austen’s
                narration simultaneously goads and halts us, because he reads it through the lens of
                Cavellian perfectionism as an invitation for us both to wake up to the gap between
-               ideal and actual self and <emph>not</emph> to experience this gap as a cause for despair (80-82),
-               as if by helping us to a renewed sense of our helplessness Austen were rewriting in
-               less stark terms Kant’s famous formulation of the predicament of human
-               reason—solicited to attempt something it knows it cannot achieve.<note xml:id="ftn12"
-                  place="foot" resp="editors" n="12">Cf. the famous opening, also cited by Joshua
-                  Wilner in his “Afterword” to this collection, of Kant’s <title level="m">Critique
-                     of Pure Reason</title>: “Human reason, in one sphere of its cognition, is
-                  called upon to consider questions, which it cannot decline, as they are presented
-                  by its own nature, but which it cannot answer, as they transcend every faculty of
-                  mind” (xvii). </note> On this reading the erring human subject who reads and is
-               read by Austen’s perfectly finished sentences cannot avail herself of their
-               achievement, but where Miller assumes a subject who will always therefore try harder,
-               I take the appeal of a “prose [that] never needs help but is unfailingly up to its
-               aims” (71), as an invitation, in the other direction, to give up trying and happily
-               resign oneself to the ready help of more capable hands. </p>
+               ideal and actual self and <emph>not</emph> to experience this gap as a cause for
+               despair (80-82), as if by helping us to a renewed sense of our helplessness Austen
+               were rewriting in less stark terms Kant’s famous formulation of the predicament of
+               human reason—solicited to attempt something it knows it cannot achieve.<note
+                   place="foot" resp="editors">Cf. the famous opening, also
+                  cited by Joshua Wilner in his “Afterword” to this collection, of Kant’s <title
+                     level="m">Critique of Pure Reason</title>: “Human reason, in one sphere of its
+                  cognition, is called upon to consider questions, which it cannot decline, as they
+                  are presented by its own nature, but which it cannot answer, as they transcend
+                  every faculty of mind” (xvii). </note> On this reading the erring human subject
+               who reads and is read by Austen’s perfectly finished sentences cannot avail herself
+               of their achievement, but where Miller assumes a subject who will always therefore
+               try harder, I take the appeal of a “prose [that] never needs help but is unfailingly
+               up to its aims” (71), as an invitation, in the other direction, to give up trying and
+               happily resign oneself to the ready help of more capable hands. </p>
             <p>“Edmund, you do not know <title level="m">me</title>” (<title level="m">Mansfield
                   Park</title> 492)—Fanny exclaims to herself of her future husband, quickly
                dispensing of the illusion of marriage as an exercise in mutual knowability through
@@ -727,7 +768,7 @@
                deflationary “it was.” As it is, Fanny must accept to be happy, and to find her
                happiness where she does, at however tainted a source, exercising a kind of
                non-punitive self-knowledge in doing so without too loud a protest.<note
-                  xml:id="ftn13" place="foot" resp="editors" n="13">See François 226. This unwilling
+                   place="foot" resp="editors">See François 226. This unwilling
                   opportunism will also mark Fanny’s happiness at the novel’s end, for this too will
                   arise from a similarly tainted source: Henry’s re-seduction of and then entrapment
                   with Maria. </note>
@@ -742,11 +783,11 @@
                and leaving without comment the disjuncture between a character’s beliefs or meanings
                and the plot’s actual or imminent truth. So several chapters before the novel’s own
                dénouement, Chapter 11 of Volume III of <title level="m">Mansfield Park</title>
-               concludes by markedly <emph>not</emph> resuming narration, ending instead with a rendering of
-               Fanny’s growing excitement as she warms to what appears to her as the prospect of
-               Henry Crawford’s soon desisting from his suit: <quote>Not considering in how
-                  different a circle she had been just seeing him, nor how much might be owing to
-                  contrast, she was quite persuaded of his being astonishingly more gentle, and
+               concludes by markedly <emph>not</emph> resuming narration, ending instead with a
+               rendering of Fanny’s growing excitement as she warms to what appears to her as the
+               prospect of Henry Crawford’s soon desisting from his suit: <quote>Not considering in
+                  how different a circle she had been just seeing him, nor how much might be owing
+                  to contrast, she was quite persuaded of his being astonishingly more gentle, and
                   regardful of others, than formerly. And if in little things, must it not be so in
                   great? So anxious for her health and comfort, so very feeling as he now expressed
                   himself, and really seemed, might not it be fairly supposed, that he would not
@@ -815,8 +856,7 @@
                word reserved for Marianne in <title level="m">Sense and Sensibility</title> in the
                thoughts of her sister and mother, who with the maternal narrator thus conspire to
                sacrifice her to the double demands of fortune and virtue represented by Colonel
-               Brandon’s long-suffering deserts.<note xml:id="ftn14" place="foot" resp="editors"
-                  n="14">Thus Elinor “felt that to <emph>his</emph> sufferings and <title level="m"
+               Brandon’s long-suffering deserts.<note place="foot" resp="editors">Thus Elinor “felt that to <emph>his</emph> sufferings and <title level="m"
                      >his</title> constancy far more than to his rival’s, the reward of her sister
                   was due” (<title level="m">Sense and Sensibility</title> 379); “They each felt his
                   [Col. Brandon’s] sorrows, and their own obligations, and Marianne, by general
@@ -841,10 +881,10 @@
                   unused to make any sacrifice to right; he resolved to defer his Norfolk journey,
                   resolved that writing should answer the purpose of it, or that its purpose was
                   unimportant—and staid. (540-41)</quote> The repeated resolution (not to do x
-               today, not to do it directly/in person, not to do it at all) finally does not resolve,
-               and the last somewhat unsettling “or” amounts to a kind of shrug of the shoulders on
-               Austen’s part: she does not care to know which way out Henry finally took, as all or
-               any would have been sufficient.</p>
+               today, not to do it directly/in person, not to do it at all) finally does not
+               resolve, and the last somewhat unsettling “or” amounts to a kind of shrug of the
+               shoulders on Austen’s part: she does not care to know which way out Henry finally
+               took, as all or any would have been sufficient.</p>
             <p>“Men owe us what we imagine they will give us. Forgive them this debt” (Weil, <title
                   level="m">Gravity and Grace</title> 9). In one breath Simone Weil makes an
                outrageous claim—there is nothing we cannot legitimately ask of others, or to put it
@@ -885,64 +925,68 @@
                triumph—unassigned in Elizabeth’s mind because non-culpable, free of personal guilt,
                but in another sense unassigned because belonging to the immortal hand that writes
                the sentence and whose particular triumph is precisely to leave in doubt the reality
-               of a triumph its human protagonist so decisively asserts, on the basis of
-               finding her lover mortal.</p>
+               of a triumph its human protagonist so decisively asserts, on the basis of finding her
+               lover mortal.</p>
             <div type="citations">
                <head>Works Cited</head>
-               <p rend="noCount">Austen, Jane. <title level="m">Emma</title>. Ed. Richard Cronin and
-                  Dorothy McMillan. New York: Cambridge UP, 2005.  Print.</p>
-               <p rend="noCount">---. <title level="m">Mansfield Park</title>. Ed. John Wiltshire.
-                  New York: Cambridge UP, 2005. Print.</p>
-               <p rend="noCount">---. <title level="m">Pride and Prejudice</title>. Ed. Pat Rogers.
-                  New York: Cambridge UP, 2006.  Print.</p>
-               <p rend="noCount">---. <title level="m">Sense and Sensibility</title>. Ed. Edward
-                  Copeland. New York: Cambridge UP, 2006.  Print.</p>
-               <p rend="noCount">Austin, J.L. <title level="m">How to Do Things with Words</title>.
-                  Cambridge, MA: Harvard UP, 1975. Print.</p>
-               <p rend="noCount">---. “A Plea for Excuses.” <title level="m">Philosophical
-                     Papers</title>. 2<hi rend="sup">nd</hi> Edition. Ed. J.O. Urmson and G.J. Warnock. London:
-                  Oxford UP, 1970. 175-204. Print.</p>
-               <p rend="noCount">Banfield, Ann. <title level="m">Unspeakable Sentences: Narration
-                     and Representation in the Language of Fiction</title>.
-                  Boston: Routledge &amp; Kegan Paul, 1982. Print.</p>
-               <p rend="noCount">Cavell, Stanley. <title level="m">The Claim of Reason:
+               <bibl>Austen, Jane. <title level="m">Emma</title>. Ed. Richard Cronin and
+                  Dorothy McMillan. New York: Cambridge UP, 2005. Print.</bibl>
+               <bibl>---. <title level="m">Mansfield Park</title>. Ed. John Wiltshire.
+                  New York: Cambridge UP, 2005. Print.</bibl>
+               <bibl>---. <title level="m">Pride and Prejudice</title>. Ed. Pat Rogers.
+                  New York: Cambridge UP, 2006. Print.</bibl>
+               <bibl>---. <title level="m">Sense and Sensibility</title>. Ed. Edward
+                  Copeland. New York: Cambridge UP, 2006. Print.</bibl>
+               <bibl>Austin, J.L. <title level="m">How to Do Things with Words</title>.
+                  Cambridge, MA: Harvard UP, 1975. Print.</bibl>
+               <bibl>---. “A Plea for Excuses.” <title level="m">Philosophical
+                     Papers</title>. 2<hi rend="sup">nd</hi> Edition. Ed. J.O. Urmson and G.J.
+                  Warnock. London: Oxford UP, 1970. 175-204. Print.</bibl>
+               <bibl>Banfield, Ann. <title level="m">Unspeakable Sentences: Narration
+                     and Representation in the Language of Fiction</title>. Boston: Routledge &amp;
+                  Kegan Paul, 1982. Print.</bibl>
+               <bibl>Cavell, Stanley. <title level="m">The Claim of Reason:
                      Wittgenstein, Skepticism, Morality and Tragedy</title>. New York: Oxford UP,
-                  1979. Print.</p>
-               <p rend="noCount">---. <title level="m">In Quest of the Ordinary: Lines of Skepticism
-                     and Romanticism</title>. Chicago: U of Chicago P, 1988. Print.</p>
-               <p rend="noCount">---. <title level="m">Philosophy the Day After Tomorrow</title>.
-                  Cambridge, MA: Belknap Press of Harvard UP, 2005. Print.</p>
-               <p rend="noCount">Cohn, Dorrit. <title level="m">Transparent Minds: Narrative Modes
-                     for Presenting Consciousness in Fiction</title>. Princeton: Princeton UP, 1978.  Print.</p>
-               <p rend="noCount">Critchley, Simon. <title level="m">Very Little . . . Almost Nothing:
-                     Death, Philosophy, Literature</title>. New York: Routledge, 2004. Print.</p>
-               <p rend="noCount">Ferguson, Frances. “Jane Austen, <title level="m">Emma</title>, and
+                  1979. Print.</bibl>
+               <bibl>---. <title level="m">In Quest of the Ordinary: Lines of Skepticism
+                     and Romanticism</title>. Chicago: U of Chicago P, 1988. Print.</bibl>
+               <bibl>---. <title level="m">Philosophy the Day After Tomorrow</title>.
+                  Cambridge, MA: Belknap Press of Harvard UP, 2005. Print.</bibl>
+               <bibl>Cohn, Dorrit. <title level="m">Transparent Minds: Narrative Modes
+                     for Presenting Consciousness in Fiction</title>. Princeton: Princeton UP, 1978.
+                  Print.</bibl>
+               <bibl>Critchley, Simon. <title level="m">Very Little . . . Almost
+                     Nothing: Death, Philosophy, Literature</title>. New York: Routledge, 2004.
+                  Print.</bibl>
+               <bibl>Ferguson, Frances. “Jane Austen, <title level="m">Emma</title>, and
                   the Impact of Form.” <title level="j">Modern Language Quarterly</title> 61.1
-                  (2000): 160-180. Print.</p>
-               <p rend="noCount">Finch, Casey, and Peter Bowen. “‘The Tittle-Tattle of Highbury’:
+                  (2000): 160-180. Print.</bibl>
+               <bibl>Finch, Casey, and Peter Bowen. “‘The Tittle-Tattle of Highbury’:
                   Gossip and Free Indirect Style in <title level="m">Emma</title>.” <title level="j"
-                     >Representations</title> 31 (1990): 1-18.  Print.</p>
-               <p rend="noCount">François, Anne-Lise. <title level="m">Open Secrets: The Literature
-                     of Uncounted Experience</title>. Stanford, CA: Stanford UP, 2008. Print.</p>
-               <p rend="noCount">Lindstrom, Eric. “Austen and Austin.” <title level="j">European
-                     Romantic Review</title> 22.4 (2011): 501-520.  Print.</p>
-               <p rend="noCount">Miller, Andrew. “Perfectly Helpless.” <title level="j">MLQ</title>
-                  63.1 (March 2002): 65-88. Print.</p>
-               <p rend="noCount">Miller, D.A. <title level="m">Jane Austen, or the Secret of
-                     Style</title>. Princeton: Princeton UP, 2003. Print.</p>
-               <p rend="noCount"><title level="m">Oxford English Dictionary</title>. New York:
-                  Oxford UP, 2011. Web. 31 May 2014.</p>
-               <p rend="noCount">Stendhal. <title level="m">Armance ou quelques scènes d’un salon de
+                     >Representations</title> 31 (1990): 1-18. Print.</bibl>
+               <bibl>François, Anne-Lise. <title level="m">Open Secrets: The Literature
+                     of Uncounted Experience</title>. Stanford, CA: Stanford UP, 2008. Print.</bibl>
+               <bibl>Lindstrom, Eric. “Austen and Austin.” <title level="j">European
+                     Romantic Review</title> 22.4 (2011): 501-520. Print.</bibl>
+               <bibl>Miller, Andrew. “Perfectly Helpless.” <title level="j">MLQ</title>
+                  63.1 (March 2002): 65-88. Print.</bibl>
+               <bibl>Miller, D.A. <title level="m">Jane Austen, or the Secret of
+                     Style</title>. Princeton: Princeton UP, 2003. Print.</bibl>
+               <bibl><title level="m">Oxford English Dictionary</title>. New York:
+                  Oxford UP, 2011. Web. 31 May 2014.</bibl>
+               <bibl>Stendhal. <title level="m">Armance ou quelques scènes d’un salon de
                      Paris en 1827</title>. Ed. Henri-François Imbert. Paris: Garnier-Flammarion,
-                  1967. Print.</p>
-               <p rend="noCount">---.<title level="m">The Shorter Novels of Stendhal</title>. Trans.
-                  C. K. Scott-Moncrieff. New York: Liveright Publishing Corporation, 1946.  Print.</p>
-               <p rend="noCount">Walker, Eric. <title level="m">Marriage, Writing, and Romanticism:
-                     Wordsworth and Austen After War</title>. Stanford, CA: Stanford UP, 2009. Print.</p>
-               <p rend="noCount">Weil, Simone. <title level="m">Gravity and Grace</title>. Trans.
-                  Emma Craufurd. New York: Routledge, 1995. Print.</p>
-               <p rend="noCount">---. <title level="m">La pesanteur et la grâce</title>. Paris:
-                  Librairie Plon, 1988.  Print.</p>
+                  1967. Print.</bibl>
+               <bibl>---.<title level="m">The Shorter Novels of Stendhal</title>. Trans.
+                  C. K. Scott-Moncrieff. New York: Liveright Publishing Corporation, 1946.
+                  Print.</bibl>
+               <bibl>Walker, Eric. <title level="m">Marriage, Writing, and Romanticism:
+                     Wordsworth and Austen After War</title>. Stanford, CA: Stanford UP, 2009.
+                  Print.</bibl>
+               <bibl>Weil, Simone. <title level="m">Gravity and Grace</title>. Trans.
+                  Emma Craufurd. New York: Routledge, 1995. Print.</bibl>
+               <bibl>---. <title level="m">La pesanteur et la grâce</title>. Paris:
+                  Librairie Plon, 1988. Print.</bibl>
             </div>
          </div>
       </body>
