@@ -1,30 +1,30 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-
+      
       <fileDesc>
-
+         
          <titleStmt>
             <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Your Friends and Lovers: Perfectionism’s Recounting of
                Romanticism</title>
-
-
+            
+            
             <author role="primary">
                <name>Emily Sun</name>
             </author>
-
+            
             <sponsor>Romantic Circles</sponsor>
-
+            
             <respStmt>
                <resp>TEI Encoding</resp>
                <name>EXTERNAL CODER</name>
             </respStmt>
-
+            
             <respStmt>
                <resp>Director</resp>
                <name>Thora Brylowe</name>
             </respStmt>
-
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
@@ -38,12 +38,12 @@
                <name>Anna Paige Wingfield</name>
             </respStmt>
          </titleStmt>
-
+         
          <editionStmt>
             <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-            <edition>YYYY-MM-DD</edition>
+            <edition>2014-01-01</edition>
          </editionStmt>
-
+         
          <publicationStmt>
             <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
                Boulder</publisher>
@@ -67,11 +67,11 @@
                      <addrLine>thora.brylowe@colorado.edu</addrLine>
                   </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
-                  </list></p>
+                  <item>These texts and images may not be used for any commercial purpose without
+                     prior written permission from Romantic Circles.</item>
+                  <item>These texts and images may not be re-distributed in any forms other than
+                     their current ones.</item>
+               </list></p>
                <p>Users are not permitted to download these texts and images in order to mount them
                   on their own servers. It is not in our interest or that of our users to have
                   uncontrolled subsets of our holdings available elsewhere on the Internet. We make
@@ -84,13 +84,13 @@
             <idno type="edition">praxis.cavell.2014.sun</idno>
             <idno type="resource">cavell</idno>
          </publicationStmt>
-
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                  <title level="a" type="main">Your Friends and Lovers: Perfectionism’s Recounting
-                     of Romanticism</title>
+                  <title level="a" type="main">Your Friends and Lovers: Perfectionism’s Recounting of
+                     Romanticism</title>
                   <author role="secondary">
                      <persName>
                         <forename>Emily</forename>
@@ -102,12 +102,12 @@
                   <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
                         Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
-
-
+               
+               
                <monogr>
                   <title level="m">Stanley Cavell and the Event of Romanticism</title>
                   <title level="s">Praxis</title>
-
+                  
                   <imprint>
                      <publisher> Romantic Circles, https://romantic-circles.org, University of
                         Colorado Boulder</publisher>
@@ -116,12 +116,12 @@
                      <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
-
-
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
@@ -148,7 +148,7 @@
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
-
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -173,7 +173,7 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
-
+         
          <classDecl>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
                xml:id="g">
@@ -195,7 +195,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-
+      
       <profileDesc>
          <textClass>
             <catRef scheme="#genre" target="#Paratext"/>
@@ -211,7 +211,7 @@
             </keywords>
          </textClass>
       </profileDesc>
-
+      
       <revisionDesc>
          <change>
             <!--  Coder Name and Date Coded  -->
@@ -224,6 +224,13 @@
    </teiHeader>
    <!--END OF HEADER-->
    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
+
+
+
+
 
 
    <text>
@@ -366,7 +373,7 @@
                point “Thou Paradise of exiles!” (57). In reverse of the fall from Eden, he imagines
                Italy as the site of happy exile from a fallen world: while paradise may be regained
                for a few, the rest of the world remains unredeemed. In this paradise, Julian takes
-               pleasure in holding such free-ranging talk with Maddalo as <quote><lg>
+               pleasure in holding such free-ranging talk with Maddalo as <quote><lg type="stanza">
                      <l>The devils held within the dales of Hell</l>
                      <l>Concerning God, freewill and destiny:</l>
                      <l>Of all that earth has been or yet may be,</l>
@@ -374,8 +381,8 @@
                      <l>Or hope can paint or suffering may atchieve. (41-5)</l>
                   </lg></quote> Just as he celebrates the unrestrictedness of their talk, Julian
                celebrates aspects of the landscape that convey to him a sense of boundlessness.
-               Describing his ride on the Lido with Maddalo, Julian professes his love for <quote><lg>
-                     <l rendition="#indent2"> All waste</l>
+               Describing his ride on the Lido with Maddalo, Julian professes his love for <quote><lg type="stanza">
+                     <l> All waste</l>
                      <l>And solitary places; where we taste</l>
                      <l>The pleasure of believing what we see</l>
                      <l>Is boundless, as we wish our souls to be:</l>
@@ -430,8 +437,8 @@
                Julian responds the next morning by affirming his secularist faith in the
                perfectibility of mankind and the possibility of human beings’ liberation of
                themselves from “religions and old saws” and “chains [. . .] which our spirit bind”
-               (162, 181). An impassioned Julian argues, <quote><lg>
-                     <l rendition="indent10"> We are assured</l>
+               (162, 181). An impassioned Julian argues, <quote><lg type="stanza">
+                     <l> We are assured</l>
                      <l>Much may be conquered, much may be endured</l>
                      <l>Of what degrades and crushes us. We know</l>
                      <l>That we have power over ourselves to do</l>
@@ -497,7 +504,7 @@
                weighed / In friendship” and are, like him, followers of truth (344-45). His
                assurances to these imagined addressees are reminiscent of Julian’s earlier
                declarations of political meliorism to Maddalo:</p>
-            <quote><lg>
+            <quote><lg type="stanza">
                   <l>Believe that I am ever still the same</l>
                   <l>In creed as in resolve [. . .] (358-59)</l>
                </lg>
@@ -802,7 +809,7 @@
             <p> Sixteen years pass between the beginning and the ending of <title level="m">The
                   Winter’s Tale</title>. The passage of time is registered in its significance for
                Leontes only at the end, in his discovery of and participation in a theater of
-               multiplicity and change. In the last lines of the play, he bids Paulina: <quote><lg>
+               multiplicity and change. In the last lines of the play, he bids Paulina: <quote><lg type="stanza">
                      <l>Lead us from hence, where we may leisurely</l>
                      <l>Each one demand, and answer to his part</l>
                      <l>Perform’d in this wide gap of time, since first</l>
