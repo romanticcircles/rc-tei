@@ -1,40 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+
       <fileDesc>
+
          <titleStmt>
-            <title type="main">Romanticism, Forgery and the Credit Crunch</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Walter Scott and the Financial Crash of 1825: Fiction, Speculation, and
                the Standard of Value</title>
-            <author>
+
+
+            <author role="primary">
                <name>Alex J. Dick</name>
             </author>
-            <editor role="editor">Ian Haywood</editor>
+
             <sponsor>Romantic Circles</sponsor>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+
          <publicationStmt>
-            <idno>praxis.2011.dick</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2011-08-01">August 1, 2011</date>
-            <availability status="restricted">
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
                <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
                   disseminated in any manner without authorization unless it is for purposes of
                   criticism, comment, news reporting, teaching, and/or classroom use as provided by
@@ -43,17 +57,15 @@
                   copyrighted by the author/editor and may be shared only in accordance with the
                   Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
                   statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
                      <item>These texts and images may not be used for any commercial purpose without
                         prior written permission from Romantic Circles.</item>
@@ -68,43 +80,61 @@
                   users. Institutions can, of course, make a link to the copies at Romantic Circles,
                   subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2012.forgery.dick</idno>
+            <idno type="resource">forgery</idno>
          </publicationStmt>
+
          <sourceDesc>
             <biblStruct>
                <analytic>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                   <title level="a" type="main">Walter Scott and the Financial Crash of 1825:
                      Fiction, Speculation, and the Standard of Value</title>
-                  <author>
+                  <author role="secondary">
                      <persName>
                         <forename>Alex J.</forename>
                         <surname>Dick</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/forgery/praxis.2012.forgery.dick"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+
+
                <monogr>
-                  <title level="m">Romanticism, Forgery and the Credit Crunch</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Romanticism, Forgery, and the Credit Crunch</title>
+                  <title level="s">Praxis</title>
+
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-12-01">December 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+
+
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
@@ -113,11 +143,12 @@
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+               <p>&#35; has been used for #, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have been
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -142,150 +173,59 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>This essay reads Scott’s <title level="m">Letters of Malachi Malagrowther and The Chronicles
-                     of the Canongate</title> as responses to the financial crisis of 1825. In the letters,
-                     Scott attempts to revive the idea of “speculation”—which I define as both an
-                     act of imagination and an act of seeing—against the models of economic
-                     diversification that the financial and banking communities offered as s
-                     solutions to the crisis. <title level="m">Chronicles</title> documents the failure of this speculative
-                     economy and replaces it with a tenuous if critical mode of comparative
-                     standardization.</item>
-                  <item>Walter Scott</item> <item>Financial Crisis</item> 
-                  <item>Speculation</item>
-                  <item>Diversification</item>
-                  <item>Standardization</item>
-                  <item>Economics in Literature</item>
-               </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+
       <revisionDesc>
          <change>
-            <name>Michael Quilligan</name>
-            <date>2011-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
@@ -319,7 +259,7 @@
                   enliven historical accounts of eighteenth- and nineteenth-century bubbles and
                   booms, from John Law’s Missisippi Scheme of 1720 to the Railway Bubble satirized
                   in Trollope’s <title level="m">The Way We Live Now</title> (1875).<note
-                     place="foot" resp="editors" n="1">See Hasbrouk and Sinclair.</note> Recently,
+                     place="foot" resp="editors">See Hasbrouk and Sinclair.</note> Recently,
                   however, historians of the Latin American and Caribbean independence movements
                   have reassessed the relationship between military heroism, financial investment,
                   and print culture to suggest that figures like MacGregor embody a complex mixture
@@ -328,7 +268,7 @@
                   forgery and fraud in the Romantic period can hardly be understood simply in terms
                   of a stark difference between fiction and fact; rather they must be treated as
                   evidence of a new kind of subjective and, indeed, aesthetic consciousness in which
-                  truth and lies are always blurred.<note place="foot" resp="editors" n="2">On
+                  truth and lies are always blurred.<note place="foot" resp="editors">On
                      literary forgery in the Romantic period see studies by Baines, Ruthven, Groom,
                      Mazzeo, and Russett. On monetary forgery and Romantic aesthetics see Dick,
                         <title level="a">The Ghost of Gold.</title>
@@ -368,7 +308,7 @@
                   understands the doubts and hesitations of his people, and falls into the same
                   errors and doubts, make its ghostly presence the symbolic earmark of a lost but
                   eminently valued historical tradition, one both ironic and redemptive.<note
-                     place="foot" resp="editors" n="3">My brief account of the economic subtext of
+                     place="foot" resp="editors">My brief account of the economic subtext of
                      the Waverley Novels is drawn in part from several sources including (among
                      others) Burgess, Duncan, Gamer, Trumpener, Gottlieb, and Sutherland. </note>
                </p>
@@ -450,7 +390,7 @@
                      Grandfather</emph>, several essays and reviews, and, in a brazen act of
                   authorial truculence, the <emph>Letters of Malachi Malagrowther</emph>, an
                   impassioned defense of the Scottish credit and banking systems.<note place="foot"
-                     resp="editors" n="4">The letters were first published in <title level="j"
+                     resp="editors">The letters were first published in <title level="j"
                         >Blackwood’s Edinburgh Weekly Journal</title>, Feb 22, March 1, and March 8,
                      1826 and subsequently appeared in pamphlet form, published by Ballantyne as
                         <title level="m">Thoughts on the Proposed Change of Currency, and Other Late
@@ -490,7 +430,7 @@
                   companies. The 1825 panic was caused by neither delusory investment nor
                   imperialist autocracy but rather by a series of institutional adjustments that
                   helped turn Britain from a centralized war economy to a decentralized peace
-                     economy.<note place="foot" resp="editors" n="5">My account of the 1825
+                     economy.<note place="foot" resp="editors">My account of the 1825
                      financial panic is drawn largely from Neal with corrections from Bordo.</note>
                   What made these adjustments precarious was not speculation but diversification.
                   When the war against Napoleon ended, the decision was made in 1816 to adopt a
@@ -509,8 +449,7 @@
                   post-war recession. Not surprisingly, the Bank and the government received a good
                   deal of negative press. But they received more criticism, notably from radicals
                   like Cobbett, for delaying the return to cash payments than for trying, albeit for
-                  selfish motives, to slow its adverse effects.<note place="foot" resp="editors"
-                     n="6">On Cobbett’s attacks on the Bank of England see Poovey, Gilmartin and
+                  selfish motives, to slow its adverse effects.<note place="foot" resp="editors">On Cobbett’s attacks on the Bank of England see Poovey, Gilmartin and
                      Alex Benchimol’s essay in this volume.</note>
                </p>
                <p>Once convertibility was in place, the bank and the government had to maintain
@@ -520,7 +459,7 @@
                   funded that debt in the first place, issued a series of new 3% consols—bonds sold
                   to investors on the proceeds of indentured aristocratic estates and other
                   government owned property—in an attempt to stimulate investment without direct
-                  monetary controls.<note place="foot" resp="editors" n="7">For a brief but
+                  monetary controls.<note place="foot" resp="editors">For a brief but
                      sufficient description of consols as an early and successful form of government
                      bonds see Ferguson, 76-85.</note> Similarly, the Bank of England did its utmost
                   to maintain consistent price levels by issuing low-yield, low-risk stocks at
@@ -549,7 +488,7 @@
                   fictitious, that is, the investment actually produced tangible, material results.
                   Indeed, the leading cause of the boom was the rush to invest in precious metals,
                   the very “real” thing that was—and is—often assumed to be the only correct
-                  alternative to such fictitious schemes.<note place="foot" resp="editors" n="8">The
+                  alternative to such fictitious schemes.<note place="foot" resp="editors">The
                      question of the “reality” of paper credit is, of course, controversial, though
                      economic and finance historians largely agree now that it has always been
                      credit rather than coin that has acted as the real medium of capital production
@@ -608,7 +547,7 @@
                <p>Scott defended the Scottish banks on the essentially nationalist grounds that a
                   “diversity” of financial institutions will better serve the mixed British economy
                   than either an abstract principle of “uniformity” or “innovation.” <note
-                     place="foot" resp="editors" n="9">The historian N. T. Phillipson observed in
+                     place="foot" resp="editors">The historian N. T. Phillipson observed in
                      1968 that the <title level="m">Letters of Malachi Malagrowther</title>, which
                      Scott wrote to protest the incursion of centralizing English financial policy
                      on the Scottish “free banking system,” exemplify the general resentment
@@ -726,7 +665,7 @@
                <p>In response to these developments, conservative critics complained that economy
                   was loquacious, impenetrable, and ultimately self-serving on one hand and built on
                   little more than pure self-interest on the other. <note place="foot"
-                     resp="editors" n="10">As Peacock pithily remarked, it was “the real art of
+                     resp="editors">As Peacock pithily remarked, it was “the real art of
                      talking about the imaginary art of teaching every man his own business” (321).
                      Many of these conservative attacks came from Scotland. Writing in <title
                         level="j">Blackwood’s</title> in 1824, the conservative critic and
@@ -777,7 +716,7 @@
                   yes, but also dedicated to manifest symbolic values. </p>
                <p>Temperamentally, Scott sympathized with Sinclair, Lockhart, and other conservative
                   critics: the true standard of value lay in the symbolic order of the country
-                     estate.<note place="foot" resp="editors" n="11">Lockhart is performing a fairly
+                     estate.<note place="foot" resp="editors">Lockhart is performing a fairly
                      standard conservative turn on the stadial theory of history, extending it
                      toward redemption from the rather fraught present as described by Ferguson.
                      Scott recounted a similar scheme in a chapter entitled <title level="a">The
@@ -823,7 +762,7 @@
                      become antiquated and which late measure will tend much to destroy, will make
                      them, under a wrong direction, the most formidable revolutionists who ever took
                      the field of innovation. (qtd. in Croker 3: 318)</quote> Scott’s used of the
-                  term “antiquated” is critical here.<note place="foot" resp="editors" n="12"> The
+                  term “antiquated” is critical here.<note place="foot" resp="editors"> The
                      OED attributes this use of the term “antiquate” to two sources, an <title
                         level="j">Edinburgh Review</title> article of 1821 and a letter from Scott
                      to Lockhart, 1823.</note> As Susan Manning observes, late eighteenth-century
@@ -1034,508 +973,125 @@
                   foreshadow the kinds of formal and logical critiques of capitalism, both
                   conservative and radical, that would emerge in the nineteenth century and after.
                </p>
-            </div>
+            
             <div type="citation">
                <head>Works Cited</head>
-               <listBibl>
-                  <biblStruct>
-                     <monogr>
-                        <author>Baines, Paul</author>
-                        <title level="m">The House of Forgery in Eighteenth-Century Britain</title>
-                        <imprint>
-                           <pubPlace>Aldershot</pubPlace>
-                           <publisher>Ashgate</publisher>
-                           <date>1999</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Bordo, Michael D</author>
-                        <title level="a">Commentary</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Federal Reserve Bank of St. Louis Review</title>
-                        <imprint>
-                           <biblScope type="issue">81</biblScope>
-                           <date>1998</date>
-                           <biblScope type="pp">77-82</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Brown, Matthew</author>
-                        <title level="a">Inca, Sailor, Soldier, King: Gregor MacGregor and the Early
-                           Nineteenth-Century Caribbean</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Bulletin of Latin American Research</title>
-                        <imprint>
-                           <biblScope type="issue">24</biblScope>
-                           <date>2005</date>
-                           <biblScope type="pp">44-70</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Burgess, Miranda</author>
-                        <title level="m">British Fiction and the Production of Social Order,
-                           1740-1830</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2000</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Colella, Silvana</author>
-                        <title level="a">Monetary Patriotism: <emph>The Letters of Malachi
-                              Malagrowther</emph>, <emph>The Antiquary</emph>, and the Currency
-                           Question</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Nineteenth Century Studies</title>
-                        <imprint>
-                           <biblScope type="issue">17</biblScope>
-                           <date>2003</date>
-                           <biblScope type="pp">53-71</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Croker, John Wilson</author>
-                        <title level="m">The Croker Papers: The Writings and Correspondence of the
-                           Late John Wilson Croker</title>
-                        <editor role="editor">Jennings, Louis J</editor>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Murray</publisher>
-                           <date>1884</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Dick, Alexander</author>
-                        <title level="a">Scott and Political Economy</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Edinburgh Companion to Walter Scott</title>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Edinburgh UP</publisher>
-                           <date>2011 [forthcoming]</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Dick, Alexander</author>
-                        <title level="a">'The Ghost of Gold:' Forgery Trials and the Standard of
-                           Value in Shelley’s <emph>Mask of Anarchy</emph></title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">European Romantic Review</title>
-                        <imprint>
-                           <biblScope type="issue">18</biblScope>
-                           <date>2007</date>
-                           <biblScope type="pp">381-400</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Dreadnaught, Daniel</author>
-                        <title level="m">Familiar Epistles, Letter the First: Addressed to Malachi
-                           Malagrowther, Esq</title>
-                        <imprint>
-                           <publisher>Griffiths</publisher>
-                           <pubPlace>London</pubPlace>
-                           <date>1826</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Duncan, Ian</author>
-                        <title level="m">Modern Romance and Transformations of the Novel: the
-                           Gothic, Scott, Dickens</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Duncan, Ian</author>
-                        <title level="m">Scott's shadow: the novel in Romantic Edinburgh</title>
-                        <imprint>
-                           <pubPlace>Princeton</pubPlace>
-                           <publisher>Princeton UP</publisher>
-                           <date>2007</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Eliot, Simon</author>
-                        <title level="a">1825–1826: Years of Crisis?</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Edinburgh History of the Book in Scotland Vol. 3,
-                           Industry and Ambition 1800–1880</title>
-                        <editor role="editor">Bell, Bill</editor>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Edinburgh UP</publisher>
-                           <date>2007</date>
-                           <biblScope type="pp">91–95</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Finn, Margot C</author>
-                        <title level="m">The Character of Credit: Personal Debt in English Culture,
-                           1740-1914</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2003</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Ferguson, Niall</author>
-                        <title level="m">The Ascent of Money: A Financial History of the
-                           World</title>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Penguin</publisher>
-                           <date>2008</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Gottlieb, Evan</author>
-                        <title level="a">’To Be at Once Another and the Same’: Walter Scott and the
-                           End(s) of Sympathetic Britishness</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Studies in Romanticism</title>
-                        <imprint>
-                           <biblScope type="issue">43</biblScope>
-                           <date>2004</date>
-                           <biblScope type="pp">187–208</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Groom, Nick</author>
-                        <title level="m">The Forger’s Shadow: How Forgery Changed the Course of
-                           Literature</title>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Picador</publisher>
-                           <date>2002</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Hasbrouck, A</author>
-                        <title level="a">Gregor McGregor and the Colonization of Poyais, between
-                           1820 and 1824</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Hispanic American Historical Review</title>
-                        <imprint>
-                           <biblScope type="issue">7</biblScope>
-                           <date>1927</date>
-                           <biblScope type="pp">438–459</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Hutcheson, Frances</author>
-                        <title level="m">A System of Moral Philosophy</title>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>A. Millar</publisher>
-                           <date>1755</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>[Lockhart, John Gibson]</author>
-                        <title level="a">Ricardo and the Edinburgh Review</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Blackwood’s Edinburgh Magazine</title>
-                        <imprint>
-                           <biblScope type="issue">2</biblScope>
-                           <date>1818</date>
-                           <biblScope type="pp">58-62</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Manning, Susan</author>
-                        <title level="a">Antiquarianism, the Scottish Science and Man, and the
-                           Emergence of Modern Disciplinarity</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Scotland and the Borders of Romanticism</title>
-                        <editor role="editor">Davis, Leith</editor>
-                        <editor role="editor">Duncan, Ian</editor>
-                        <editor role="editor">Sorenson, Janet</editor>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2004</date>
-                           <biblScope type="pp">57-76</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Mazzeo, Tillar</author>
-                        <title level="m">Plagiarism and Literary Property in the Romantic
-                           Period</title>
-                        <imprint>
-                           <pubPlace>Philadelphia</pubPlace>
-                           <publisher>U of Pennsylvania P</publisher>
-                           <date>2007</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>McCracken-Flesher, Caroline</author>
-                        <title level="m">Possible Scotlands: Walter Scott and the Story of
-                           Tomorrow</title>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Oxford UP</publisher>
-                           <date>2005</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Miles, Robert</author>
-                        <title level="m">Romantic Misfits</title>
-                        <imprint>
-                           <pubPlace>Houdsmills</pubPlace>
-                           <publisher>Palgrave</publisher>
-                           <date>2008</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Mole, Tom</author>
-                        <title level="m">Byron’s Romantic Celebrity: Industrial Culture and the
-                           Hermeneutics of Intimacy</title>
-                        <imprint>
-                           <pubPlace>Houdsmills</pubPlace>
-                           <publisher>Palgrave</publisher>
-                           <date>2007</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Neal, Larry</author>
-                        <title level="a">The Financial Crisis of 1815 and the Restructuring of the
-                           British Financial System</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Federal Reserve Bank of St. Louis Review</title>
-                        <imprint>
-                           <biblScope type="issue">80</biblScope>
-                           <date>1997</date>
-                           <biblScope type="pp">53-76</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Peacock, Thomas Love</author>
-                        <title level="m">Gryll Grange</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Works of Thomas Love Peacock</title>
-                        <editor role="editor">Cole, Henry</editor>
-                        <imprint>
-                           <biblScope type="vol">Vol 2</biblScope>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Richard Bentley</publisher>
-                           <date>1875</date>
-                           <biblScope type="pp">285-476</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Phillipson, N. T</author>
-                        <title level="a">Nationalism and Ideology</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Government and Nationalism in Scotland. An Enquiry by
-                           Members of the University of Edinburgh</title>
-                        <editor role="editor">Wolfe, J. N.</editor>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Edinburgh UP</publisher>
-                           <date>1969</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Russett, Margaret</author>
-                        <title level="m">Fictions and Fakes: Forging Romantic Authenticity
-                           1760-1845</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2006</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Ruthven, K. K</author>
-                        <title level="m">Faking It</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge UP</publisher>
-                           <date>2001</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Scott, Walter</author>
-                        <title level="m">Chronicles of the Canongate</title>
-                        <editor role="editor">Lamont, Claire</editor>
-                        <imprint>
-                           <pubPlace>Edingburgh</pubPlace>
-                           <publisher>Edinburgh UP</publisher>
-                           <date>2000</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Scott, Walter</author>
-                        <title level="m">Letters of Malachi Malagrowther on the Currency</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Miscellaneous Prose Works of Sir Walter Scott</title>
-                        <editor role="editor">Cadell, Robert</editor>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Cadell</publisher>
-                           <date>1836</date>
-                           <biblScope type="pp">267-402</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>[Scott, Walter]</author>
-                        <title level="m">A Second Letter to the Editor of the Edinburgh Weekly
-                           Journal, from Malachi Malagrowther, Esq. on the Proposed Change of
-                           Currency, and Other Late Alterations, as they Affect, or Are Intended to
-                           Affect, the Kingdom of Scotland</title>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Ballantyne</publisher>
-                           <date>1826</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>[Scott, Walter]</author>
-                        <title level="m">A Third Letter to the Editor of the Edinburgh Weekly
-                           Journal, from Malachi Malagrowther, Esq. on the Proposed Change of
-                           Currency, and Other Late Alterations, as they Affect, or Are Intended to
-                           Affect, the Kingdom of Scotland</title>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Ballantyne</publisher>
-                           <date>1826</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>[Scott, Walter]</author>
-                        <title level="m">Thoughts on the Proposed Change of Currency, and Other Late
-                           Alterations, as they Affect, or Are Intended to Affect, the Kingdom of
-                           Scotland</title>
-                        <imprint>
-                           <pubPlace>Edinburgh</pubPlace>
-                           <publisher>Ballantyne</publisher>
-                           <date>1826</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Sinclair, D</author>
-                        <title level="m">The land that never was: Sir Gregor MacGregor and the Most
-                           Audacious Fraud in History</title>
-                        <imprint>
-                           <publisher>Da Capo</publisher>
-                           <date>2004</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <analytic>
-                        <author>Sutherland, Katherine</author>
-                        <title level="a">Fictional Economies: Adam Smith, Walter Scott and the
-                           Nineteenth-Century Novel</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">ELH</title>
-                        <imprint>
-                           <biblScope type="vol">54</biblScope>
-                           <date>1987</date>
-                           <biblScope type="pp">97–127</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Trumpener, Katie</author>
-                        <title level="m">Bardic Nationalism: The Romantic Novel and the British
-                           Empire</title>
-                        <imprint>
-                           <pubPlace>Princeton</pubPlace>
-                           <publisher>Princeton UP</publisher>
-                           <date>1997</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-               </listBibl>
+               
+               <bibl>Baines, Paul. <title level="m">The House of Forgery in Eighteenth-Century Britain</title>. Ashgate, 1999.</bibl>
+               
+               <bibl>Bordo, Michael D. <title level="a">Commentary</title>. <title level="j">Federal Reserve Bank of St. Louis Review</title>, vol. 81, 1998, pp. 77-82.</bibl>
+               
+               <bibl>Brown, Matthew. <title level="a">Inca, Sailor, Soldier, King: Gregor MacGregor and the Early
+                  Nineteenth-Century Caribbean</title>. <title level="j">Bulletin of Latin American Research</title>, vol. 24, 2005, pp. 44-70.</bibl>
+               
+               <bibl>Burgess, Miranda. <title level="m">British Fiction and the Production of Social Order,
+                  1740-1830</title>. Cambridge UP, 2000.</bibl>
+               
+               <bibl>Colella, Silvana. <title level="a">Monetary Patriotism: <emph>The Letters of Malachi
+                  Malagrowther</emph>, <emph>The Antiquary</emph>, and the Currency
+                  Question</title>. <title level="j">Nineteenth Century Studies</title>, vol. 17, 2003, pp. 53-71. </bibl>
+               
+               <bibl>Croker, John Wilson. <title level="m">The Croker Papers: The Writings and Correspondence of the
+                  Late John Wilson Croker</title>. Edited by Louis J. Jennings, Murray, 1884.</bibl>
+               
+               <bibl>Dick, Alexander. <title level="a">Scott and Political Economy</title>. <title level="m">The Edinburgh Companion to Walter Scott</title>, Edinburgh UP, 2011 [forthcoming].</bibl>
+               
+               <bibl>———. <title level="a">'The Ghost of Gold:' Forgery Trials and the Standard of
+                  Value in Shelley’s <emph>Mask of Anarchy</emph></title>. <title level="j">European Romantic Review</title>, vol. 18, 2007, pp. 381-400.</bibl>
+               
+               <bibl>Dreadnaught, Daniel. <title level="m">Familiar Epistles, Letter the First: Addressed to Malachi
+                  Malagrowther, Esq</title>. Griffiths, London, 1826. </bibl>
+               
+               <bibl>Duncan, Ian. <title level="m">Modern Romance and Transformations of the Novel: the
+                  Gothic, Scott, Dickens</title>. Cambridge UP, 2005.</bibl>
+               
+               <bibl>Duncan, Ian. <title level="m">Scott's shadow: the novel in Romantic Edinburgh</title>. Princeton UP, 2007.</bibl>
+               
+               <bibl>Eliot, Simon. <title level="a">1825–1826: Years of Crisis?</title>. <title level="m">The Edinburgh History of the Book in Scotland Vol. 3,
+                  Industry and Ambition 1800–1880</title>. Edinburgh UP, 2007, pp. 91–5. </bibl>
+               
+               <bibl>Finn, Margot C. <title level="m">The Character of Credit: Personal Debt in English Culture,
+                  1740-1914</title>. Cambridge UP, 2003.</bibl>
+               
+               <bibl>Ferguson, Niall. <title level="m">The Ascent of Money: A Financial History of the
+                  World</title>. Penguin, 2008.</bibl>
+               
+               <bibl>Gottlieb, Evan. <title level="a">’To Be at Once Another and the Same’: Walter Scott and the
+                  End(s) of Sympathetic Britishness</title>. <title level="j">Studies in Romanticism</title>, no. 43, 2004, pp. 187–208. </bibl>
+               
+               <bibl>Groom, Nick. <title level="m">The Forger’s Shadow: How Forgery Changed the Course of
+                  Literature</title>. Picador, 2002. </bibl>
+               
+               <bibl>Hasbrouck, A. <title level="a">Gregor McGregor and the Colonization of Poyais, between
+                  1820 and 1824</title>. <title level="j">Hispanic American Historical Review</title>, vol. 7, 1927, pp. 438–59. </bibl>
+               
+               <bibl>Hutcheson, Frances. <title level="m">A System of Moral Philosophy</title>. A. Millar, 1755.</bibl>
+               
+               <bibl>[Lockhart, John Gibson]. <title level="a">Ricardo and the Edinburgh Review</title>. 
+                  <title level="j">Blackwood’s Edinburgh Magazine</title>, vol. 2, 1818, pp. 58-62. </bibl>
+               
+               <bibl>Manning, Susan. <title level="a">Antiquarianism, the Scottish Science and Man, and the
+                  Emergence of Modern Disciplinarity</title>. 
+                  <title level="m">Scotland and the Borders of Romanticism</title>, edited by Leith Davis et al., Cambridge UP, 2004, pp. 57-76. </bibl>
+               
+               <bibl>Mazzeo, Tillar. <title level="m">Plagiarism and Literary Property in the Romantic
+                  Period</title>. U of Pennsylvania P, 2007. </bibl>
+               
+               <bibl>McCracken-Flesher, Caroline. <title level="m">Possible Scotlands: Walter Scott and the Story of
+                  Tomorrow</title>. Oxford UP, 2005.</bibl>
+               
+               <bibl>Miles, Robert. <title level="m">Romantic Misfits</title>. Palgrave, 2008. </bibl>
+               
+               <bibl>Mole, Tom. <title level="m">Byron’s Romantic Celebrity: Industrial Culture and the
+                  Hermeneutics of Intimacy</title>. Palgrave, 2007. </bibl>
+               
+               <bibl>Neal, Larry. <title level="a">The Financial Crisis of 1815 and the Restructuring of the
+                  British Financial System</title>. <title level="j">Federal Reserve Bank of St. Louis Review</title>, vol. 80, 1997, pp. 53-76.</bibl>
+               
+               <bibl>Peacock, Thomas Love. <title level="m">The Works of Thomas Love Peacock</title>. Edited by Henry Cole, vol. 2, Richard Bentley, 1875, pp. 285-476.</bibl>
+               
+               <bibl>Phillipson, N. T. <title level="a">Nationalism and Ideology</title>. <title level="m">Government and Nationalism in Scotland. An Enquiry by
+                  Members of the University of Edinburgh</title>, edited by J.N. Wolfe, Edinburgh UP, 1969.</bibl>
+               
+               <bibl>Russett, Margaret. <title level="m">Fictions and Fakes: Forging Romantic Authenticity
+                  1760-1845</title>. Cambridge UP, 2006. </bibl>
+               
+               <bibl>Ruthven, K. K. <title level="m">Faking It</title>. Cambridge UP, 2001. </bibl>
+               
+               <bibl>Scott, Walter. <title level="m">Chronicles of the Canongate</title>. Edited by Claire Lamont, Edinburgh UP, 2000.</bibl>
+               
+               <bibl>———. <title level="m">Letters of Malachi Malagrowther on the Currency</title>. 
+                  <title level="m">Miscellaneous Prose Works of Sir Walter Scott</title>, edited by Robert Cadell, Cadell, 1836, pp. 267-402.</bibl>
+               
+               <bibl>[Scott, Walter]. <title level="m">A Second Letter to the Editor of the Edinburgh Weekly
+                  Journal, from Malachi Malagrowther, Esq. on the Proposed Change of
+                  Currency, and Other Late Alterations, as they Affect, or Are Intended to
+                  Affect, the Kingdom of Scotland</title>. Edinburgh, Ballantyne, 1826.</bibl>
+               
+               <bibl>———. <title level="m">A Third Letter to the Editor of the Edinburgh Weekly
+                  Journal, from Malachi Malagrowther, Esq. on the Proposed Change of
+                  Currency, and Other Late Alterations, as they Affect, or Are Intended to
+                  Affect, the Kingdom of Scotland</title>. Edinburgh, Ballantyne, 1826. </bibl>
+               
+               <bibl>———. <title level="m">Thoughts on the Proposed Change of Currency, and Other Late
+                  Alterations, as they Affect, or Are Intended to Affect, the Kingdom of
+                  Scotland</title>. Edinburgh, Ballantyne, 1826.</bibl>
+               
+               <bibl>Sinclair, D. <title level="m">The land that never was: Sir Gregor MacGregor and the Most
+                  Audacious Fraud in History</title>. Da Capo, 2004.</bibl>
+               
+               <bibl>Sutherland, Katherine. <title level="a">Fictional Economies: Adam Smith, Walter Scott and the
+                  Nineteenth-Century Novel</title>. <title level="j">ELH</title>, vol. 54, 1987, pp. 97–127.</bibl>
+               
+               <bibl>Trumpener, Katie. <title level="m">Bardic Nationalism: The Romantic Novel and the British
+                  Empire</title>. Princeton UP, 1997. </bibl>
+               
+                       
+                 
+                      
+                      
+            </div>          
+                     
             </div>
          </div>
       </body>

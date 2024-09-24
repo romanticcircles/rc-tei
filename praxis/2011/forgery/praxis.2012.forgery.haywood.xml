@@ -1,40 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romanticism, Forgery and the Credit Crunch</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Paper Promises: Restriction, Caricature, and the Ghost of
                Gold</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Ian Haywood</name>
             </author>
-            <editor role="editor">Ian Haywood</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.haywood</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2011-08-01">August 1, 2011</date>
-            <availability status="restricted">
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
                <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
                   disseminated in any manner without authorization unless it is for purposes of
                   criticism, comment, news reporting, teaching, and/or classroom use as provided by
@@ -43,23 +57,21 @@
                   copyrighted by the author/editor and may be shared only in accordance with the
                   Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
                   statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
-                  </list></p>
+                  <item>These texts and images may not be used for any commercial purpose without
+                     prior written permission from Romantic Circles.</item>
+                  <item>These texts and images may not be re-distributed in any forms other than
+                     their current ones.</item>
+               </list></p>
                <p>Users are not permitted to download these texts and images in order to mount them
                   on their own servers. It is not in our interest or that of our users to have
                   uncontrolled subsets of our holdings available elsewhere on the Internet. We make
@@ -68,43 +80,61 @@
                   users. Institutions can, of course, make a link to the copies at Romantic Circles,
                   subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2012.forgery.haywood</idno>
+            <idno type="resource">forgery</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Paper Promises: Restriction,
-                     Caricature, and the Gghost of Gold</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Paper Promises: Restriction, Caricature, and the Ghost of
+                     Gold</title>
+                  <author role="secondary">
                      <persName>
                         <forename>Ian</forename>
                         <surname>Haywood</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/forgery/praxis.2012.forgery.haywood"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Romanticism, Forgery and the Credit Crunch</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Romanticism, Forgery, and the Credit Crunch</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-12-01">December 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
@@ -113,11 +143,12 @@
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+               <p>&#35; has been used for #, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have been
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -142,154 +173,59 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>This essay takes fresh look at the cultural and political impact of the Bank
-                     of England’s suspension of cash payments between 1797 and 1821. The policy was
-                     controversial for two main reasons: it led to a huge increase in executions for
-                     making or handling fake banknotes, and it exposed the fictional core of the
-                     capitalist faith in credit. I argue that of all Romantic cultural forms, it was
-                     caricature—a “phoney” symbolic economy of plundered identities - which made the
-                     most apposite, spectacular and intriguing response to this crisis of
-                     representation.</item>
-                  <item>Romanticism</item>
-                  <item>forgery</item>
-                  <item>caricature</item>
-                  <item>credit</item>
-                  <item>executions</item>
-                  <item>Bloody Code</item>
-                  <item>James Gillray</item>
-                  <item>George Cruikshank</item>
-                  <item>William Hone</item>
-               </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Michael Quilligan</name>
-            <date>2011-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
 
@@ -305,7 +241,7 @@
                <head> </head>
                <p>The topic of literary forgery in the eighteenth century and Romantic period has
                   become something of a boom industry in the last few decades.<note place="foot"
-                     resp="editors" n="1">From the list of studies in the Works Cited, see the
+                     resp="editors">From the list of studies in the Works Cited, see the
                      following: Haywood, <title level="m">The Making of History</title> and <title
                         level="m">Faking It</title>; Stafford; Gaskill; Baines; Ruthven; Groom,
                         <title level="m">Forger’s Shadow</title>; Groom, <title level="a"
@@ -442,8 +378,7 @@
                         <l rend="#indent2">So of Pitt and of England</l>
                         <l rend="#indent2">Men may say without vapour</l>
                         <l rend="#indent2">How he found it of gold</l>
-                        <l rend="#indent2">And left it of paper.<note place="foot" resp="editors"
-                              n="2">Cited Ehrman, 11.</note>
+                        <l rend="#indent2">And left it of paper.<note place="foot" resp="editors">Cited Ehrman, 11.</note>
                         </l>
                      </lg>
                   </quote>
@@ -452,7 +387,7 @@
                   Cobbett (149), Prime Minister William Pitt went to see the King for an emergency
                   meeting. The country was in a state of national alarm, as news had just arrived of
                   a French invasion at Fishguard. In fact this turned out to be easily repelled
-                     (<ref target="../images/figure1.jpg">Figure 1</ref>), but the incident forced
+                     (<ref target="/praxis/forgery/images/figure1.jpg">Figure 1</ref>), but the incident forced
                   Pitt to consider an option he had resisted for some time. Fearing that there would
                   be a run on the Bank of England which would in turn damage the financing of the
                   war against France, he persuaded the King to issue (what turned out to be) a
@@ -465,7 +400,7 @@
                   in its social consequences. The explosion of paper money was seized on immediately
                   by James Gillray, the period’s leading caricaturist. In his wonderful print <title
                      level="m">Midas</title>, published just a few weeks after Restriction came into
-                  force (<ref target="../images/figure2.jpg">Figure 2</ref>), Pitt is shown as a
+                  force (<ref target="/praxis/forgery/images/figure2.jpg">Figure 2</ref>), Pitt is shown as a
                   colossus squatting over the Rotunda of the Bank of England which serves him like a
                   toilet. From both his rear end and his mouth Pitt is showering the Bank with the
                   new low denomination notes which also make up his paper crown. We will return to
@@ -483,7 +418,7 @@
                   period), Restriction provoked a storm of controversy which is still under-valued
                   in Romantic studies. Though the topic is mentioned in a number of books on
                   forgery, the issue of forgery remains marginal in the seminal studies of the role
-                  of credit in British culture.<note place="foot" resp="editors" n="3">See:
+                  of credit in British culture.<note place="foot" resp="editors">See:
                      Brantlinger, chapters 2-3; Dick, “‘The Ghost of Gold’”; Malton, <title
                         level="m">Forgery, Fiscal Trauma, and the Fauntleroy Case</title>;
                      Gallagher, 17-19.</note> But in light of the fact that, as Margot Finn notes,
@@ -498,13 +433,12 @@
                   The second problem with Restriction was more visible and sensational: London (the
                   primary zone within which the new low denomination Bank of England notes
                   circulated) saw a massive increase in executions for forgery.<note place="foot"
-                     resp="editors" n="4">The problem was focused on London as this was the main
+                     resp="editors">The problem was focused on London as this was the main
                      zone within which Bank of England notes circulated. Outside of London most
                      people used the notes of private or “country” banks; these were still issuing
                      their own notes in the early twentieth century.</note> This catastrophe had
                   three main causes. First, the vulnerability and gullibility of the lower classes
-                  who were unused to dealing with banknotes.<note place="foot" resp="editors" n="5"
-                     >Even one of the Restriction Act’s most fervent admirers had to admit that the
+                  who were unused to dealing with banknotes.<note place="foot" resp="editors">Even one of the Restriction Act’s most fervent admirers had to admit that the
                      enforced introduction of banknotes into the “common class of people” could
                      cause “tumultuous proceedings” (Thornton, 114). According to Jerome
                      Christensen, a review of Thornton's book in the first issue of the <title
@@ -520,10 +454,10 @@
                   commercial country” (828). </p>
                <p>The second contributing factor to the rise in Restriction forgery was the poor
                   quality of the banknotes which made them easily counterfeited (<ref
-                     target="../images/figure3.jpg">Figure 3</ref>). The third factor was something
+                     target="/praxis/forgery/images/figure3.jpg">Figure 3</ref>). The third factor was something
                   which Gillray could not have foreseen: the ruthlessness of the Bank of England -
                   the “head of all circulation” - in prosecuting offenders.<note place="foot"
-                     resp="editors" n="6">The Bank was called the “head of all circulation” by the
+                     resp="editors">The Bank was called the “head of all circulation” by the
                      Secret Committee of the House of Lords, April 1797 (cited in Ehrman, 7).</note>
                   Indeed, the Bank employed a team of lawyers at great expense to ensure
                   prosecutions. The statistics are dramatic: the period 1783-97 saw only four
@@ -539,10 +473,10 @@
                   (which eventually came in 1815), public hostility to the growing body count of
                   convicted forgers and handlers (or “utterers”) became vitriolic. James Mackintosh
                   spoke in parliament of the “course of guilt and blood which had followed the
-                  stoppage of cash payments”<note place="foot" resp="editors" n="7">Cited in
+                  stoppage of cash payments”<note place="foot" resp="editors">Cited in
                      Handler, <title level="m">Forging the Agenda</title>, 256.</note> while Henry
                   Brougham railed at the “human sacrifices to the Moloch of Paper Credit.”<note
-                     place="foot" resp="editors" n="8">Henry Brougham, review of <title level="m"
+                     place="foot" resp="editors">Henry Brougham, review of <title level="m"
                         >Returns of Prosecutions and Convictions for Forging Notes of the Bank of
                         England from 1783 to 1813</title>, <title level="j">Edinburgh Review</title>
                      1818; cited in Dick, <title level="a">The Ghost of Gold,</title> 390.</note>
@@ -555,7 +489,7 @@
                   dignified with the name of <emph>currency</emph>” (2 [9 September 1818], 561). In
                   1818, when almost 30,000 fake banknotes were in circulation, public sympathy for
                   the hapless plebeian forger led to numerous acquittals.<note place="foot"
-                     resp="editors" n="9">See <title level="m">Black Dwarf</title>, 2 [23 September
+                     resp="editors">See <title level="m">Black Dwarf</title>, 2 [23 September
                      1818], 593-601, 2 [9 December 1818], 769- 775; <title level="j">Times</title>,
                      9 December 1818. For a fuller discussion of <title level="m">Black
                         Dwarf</title>’s campaigning zeal, see Alex Benchimol’s essay in this
@@ -583,20 +517,20 @@
                   Cruikshank to issue their own “inimitable” contribution to the Restriction
                   controversy. The <title level="m">Bank Restriction Note</title> and its companion
                   piece the <title level="m">Bank Restriction Barometer</title> (<ref
-                     target="../images/figure4.jpg">Figures 4</ref> and <ref
-                     target="../images/figure5.jpg">5</ref>) were published just days after the Bank
+                     target="/praxis/forgery/images/figure4.jpg">Figures 4</ref> and <ref
+                     target="/praxis/forgery/images/figure5.jpg">5</ref>) were published just days after the Bank
                   of England’s inquiry concluded that a forgery-proof design had to be robust enough
                   to withstand the “formidable power of imitation” of the engraver (<title level="j"
                      >Times</title>, 27 January 1819). Hone and Cruikshank undoubtedly appreciated
                   this ironic tribute to their joint production, as the <title level="m">Bank
                      Restriction Note</title> takes the form of a mock-submission to the
-                     inquiry.<note place="foot" resp="editors" n="10">See Patten 1: 146-7. Hone
+                     inquiry.<note place="foot" resp="editors">See Patten 1: 146-7. Hone
                      claimed that he composed the basic visual design for the <title level="m">Bank
                         Restriction Note</title> and though Patten is sceptical about this claim he
                      speculates that Hone may well have designed the companion print <title
                         level="m">Bank Restriction Barometer</title>. See also 1: 157-8, 186.</note>
                   Unlike earlier satirical banknotes which resembled actual counterfeits (<ref
-                     target="../images/figure6.jpg">Figure 6</ref>), the Hone-Cruikshank caricature
+                     target="/praxis/forgery/images/figure6.jpg">Figure 6</ref>), the Hone-Cruikshank caricature
                   is more than just a “formidable” imitation which exposes the flimsy authenticity
                   of the original. By using visceral and witty gallows symbolism, Hone and
                   Cruikshank inscribed into the banknote the catastrophic social consequences of its
@@ -630,7 +564,7 @@
                   itself.</p>
                <p>The Hone-Cruikshank prints were an instant success and undoubtedly contributed to
                   raising or inflaming public awareness about the evils of both paper money and
-                  capital punishment.<note place="foot" resp="editors" n="11">The British Museum has
+                  capital punishment.<note place="foot" resp="editors">The British Museum has
                      a copy of the Bank Restriction Note in its display of paper currency.</note>
                   Significantly, it was in 1819 that Peel’s Act finally promised the restoration of
                   specie payment by 1823 (though this was achieved by 1821, when Britain formally
@@ -638,8 +572,7 @@
                   capital punishment focused on forgery as one of the main reasons for reforming
                   Britain’s harsh penal code. In his old age Cruikshank claimed that his print had
                   single-handedly led to the abolition of the death penalty for forgery 13 years
-                  later, an exaggeration though a forgivable one.<note place="foot" resp="editors"
-                     n="12">See Handler, “Forgery and the End of the ‘Bloody Code’”; Hackwood, 199,
+                  later, an exaggeration though a forgivable one.<note place="foot" resp="editors">See Handler, “Forgery and the End of the ‘Bloody Code’”; Hackwood, 199,
                      201-3.</note>
                </p>
                <p>But the spectacular achievements of the <title level="m">Bank Restriction
@@ -651,7 +584,7 @@
                   to national ruin, but the satirical dynamic is more complex than this. Many
                   viewers in 1819 would have recognised that the print was a close parody of the
                   Evangelical spiritual barometer of the late eighteenth century (<ref
-                     target="../images/figure7.jpg">Figure 7</ref>). In the caricature, the salutary
+                     target="/praxis/forgery/images/figure7.jpg">Figure 7</ref>). In the caricature, the salutary
                   function of the vertical scale is inverted: the overheated economy replaces
                   sublime spiritual redemption and the gravitational security of gold replaces the
                   sins of the flesh (and note that novel reading is calibrated at minus 40!). This
@@ -660,7 +593,7 @@
                   shall see, both underpinned and troubled the “financial revolution” from its
                   Williamite origins. But the process of allusion does not end there, as the
                   spiritual barometer first appears in Hogarth’s anti-Methodist caricature <title
-                     level="m">Enthusiasm Delineated</title> (<ref target="../images/figure8.jpg"
+                     level="m">Enthusiasm Delineated</title> (<ref target="/praxis/forgery/images/figure8.jpg"
                      >Figure 8</ref>). The echo of Hogarth is, I believe, a self-authorizing
                   reference to the English caricature tradition which first accrued substantial
                   cultural authority by critiquing the new monied interest of the early eighteenth
@@ -672,7 +605,7 @@
                <p>The Restriction controversy was the breaking point of an ideological instability
                   which lay at the heart of the paper money system. If the Romantic period was
                   haunted by what Shelley in <title level="m">The Mask of Anarchy</title> called the
-                  “ghost of gold”,<note place="foot" resp="editors" n="13">As Ehrman shows, over
+                  “ghost of gold”,<note place="foot" resp="editors">As Ehrman shows, over
                      two thousand tons of copper coins were minted in the first three years of
                      Restriction (13), but low valuation copper coins did not carry the same
                      symbolic significance as the evanescent gold and silver. As John Clapham
@@ -690,7 +623,7 @@
                   bullion—as Roy Porter puts it succinctly, “Britannia”s wars were won on credit”
                   (132). The genius of the “financial revolution” was that it utilized the
                   foundational economic metaphor of circulation to naturalize and anthropomorphize
-                     convertibility:<note place="foot" resp="editors" n="14">According to David
+                     convertibility:<note place="foot" resp="editors">According to David
                      Trotter, the metaphor of circulation was the “vital principle” of the
                      eighteenth-century analysis of wealth (62). See also Klancher, 31-4.</note> In
                   this imaginary, paper money is the blood which periodically returns to the heart
@@ -700,7 +633,7 @@
                      <lg type="stanza">
                         <l rend="#indent2">The paper money goes about, by one, and two, and
                            five,</l>
-                        <l rend="#indent2">A circulation like the blood, that keeps the land alive.<note place="foot" resp="editors" n="15">“A Mood of My Own Mind”, in
+                        <l rend="#indent2">A circulation like the blood, that keeps the land alive.<note place="foot" resp="editors">“A Mood of My Own Mind”, in
                               Peacock, 16.</note>
                         </l>
                      </lg>
@@ -711,7 +644,7 @@
                   overproduction of worthless and wasteful currency. Another way to read Gillray’s
                      <title level="m">Midas</title> is as a scatological parody of the famous cover
                   illustration to Thomas Hobbes’ <title level="m">Leviathan</title> (<ref
-                     target="../images/figure9.jpg">Figure 9</ref>): instead of the monarch
+                     target="/praxis/forgery/images/figure9.jpg">Figure 9</ref>): instead of the monarch
                   comprised of his people, Pitt’s body is a sack of secreted and hoarded gold; the
                   literal and symbolic wealth of the nation becomes the tyrant’s booty, replacing
                   citizens with financial chicanery (Pitt’s incontinent largesse also, unavoidably,
@@ -719,7 +652,7 @@
                   behind Gillray’s scatological effects lies a more acute point: by evoking the
                   Midas legend, Gillray exposed the alchemical delusions and perils of the myth of
                   convertibility—indeed, the critique was anticipated in a print of 1796 (<ref
-                     target="../images/figure10.jpg">Figure 10</ref>) which shows Pitt as a
+                     target="/praxis/forgery/images/figure10.jpg">Figure 10</ref>) which shows Pitt as a
                   megalomaniac alchemist who is converting the national wealth into a throne for
                   himself. As Gillray understood, it was the magical properties of paper money which
                   mystified both economic and political power. Even political economists (whether
@@ -727,14 +660,14 @@
                   called “primitive economic superstition” (261): alchemy, allegory, magic, blind
                   allegiance. Debacles like the South Sea Bubble and the John Law Mississippi scheme
                   (both collapsed in 1720) fuelled the idea that paper credit was a powerful and
-                  potentially dangerous illusion.<note place="foot" resp="editors" n="16">In an
+                  potentially dangerous illusion.<note place="foot" resp="editors">In an
                      essay on Defoe, Srinivas Aravamudan notes of these debacles that “Paper was
                      chasing paper without proper collateral” (54).</note> Daniel Defoe referred to
                   paper money as a “chimera”; Thomas Mortimer called credit a “standing miracle in
                   politics, which at once astonishes and over-awes the states of Europe” while later
                   in the century Benjamin Franklin boasted that the “wonderful machine” of “paper
                   currency” (in this case the dollar) had enabled America to defeat Britain.<note
-                     place="foot" resp="editors" n="17">Defoe is cited in Shell, 68; Mortimer is
+                     place="foot" resp="editors">Defoe is cited in Shell, 68; Mortimer is
                      cited in Dickson, 154. Defoe also called credit “Air Money,” anticipating both
                      Adam Smith and Gillray: see Lynch, 96. Such anxieties can even be found at the
                      inception of western responses to paper money. When Marco Polo reported that
@@ -752,7 +685,7 @@
                   event.” By locating value in an endlessly receding future, credit changed the
                   whole basis of the individual’s relationship with the state, replacing civic
                   humanist duty with an “imagined” community of desiring individuals.<note
-                     place="foot" resp="editors" n="18">Pocock, 108 and chapter 6
+                     place="foot" resp="editors">Pocock, 108 and chapter 6
                         <foreign>passim</foreign>. See also Torre, 4-5, 48, 162.</note> As
                   Brantlinger has shown, this destabilization of what Marx called species being
                   (though perhaps “specie being” is a more appropriate coinage in the current
@@ -767,7 +700,7 @@
                   “momentous” transition to the credit economy was also undermined by the spectre of
                   forgery. This was both a literal and figurative threat. From its inception, paper
                   money was shadowed by forgery: the first fake banknotes appeared in 1695 within
-                  months of the genuine issue.<note place="foot" resp="editors" n="19">Mackenzie,
+                  months of the genuine issue.<note place="foot" resp="editors">Mackenzie,
                      chapter 1. Jack Lynch refers colourfully to “a strange arms race between the
                      legitimate issuers of banknotes and the counterfeiters” (139).</note> But the
                   greater damage was ideological, as forgery exposed the essentially imaginary or
@@ -849,7 +782,7 @@
                   published one year before Restriction in 1796, Paine predicted that gold and
                   silver were about to “revolt against depreciation and separate from the value of
                   paper”, in the process destroying the “popular delusion” of the credit system
-                  (Foner, 2: 661, 651-2).<note place="foot" resp="editors" n="20">In one of the many
+                  (Foner, 2: 661, 651-2).<note place="foot" resp="editors">In one of the many
                      ripostes to Paine’s tract, Ralph Broome admitted that “In trusting to private
                      paper money, we certainly do very often trust to a shadow” (37).</note> The
                   Restriction Act must have seemed to many a fulfilment of this prophecy and a major
@@ -871,7 +804,7 @@
                      <title level="m">Bank Notes</title> (1 March 1797), Gillray’s first response to
                   the Restriction Act, John Bull is a hapless yokel caught between the insidious
                   “bullionist” temptations of the Jacobin Foxites and the spectacular “paper”
-                  rip-off of Pitt and his ministers (<ref target="../images/figure11.jpg">Figure
+                  rip-off of Pitt and his ministers (<ref target="/praxis/forgery/images/figure11.jpg">Figure
                      11</ref>). Characteristically, Gillray mocks all three parties and leaves the
                   viewer uncertain about which is the greatest offence: Fox’s disloyalty, Pitt’s
                   tyranny, or Bull’s idiocy. Bull decides “a’ may as well let my Measter Billy hold
@@ -901,7 +834,7 @@
                   letters, and subsequently issued in book form in 1815. Cobbett argued that only
                   “real money” had “real value” (96), but in stating this he was only echoing the
                   Bullion Committee report of 1810 which called cash payments the “natural and true
-                  control” against paper inflation.<note place="foot" resp="editors" n="21"><title
+                  control” against paper inflation.<note place="foot" resp="editors"><title
                         level="m">Report from the Select Committee on the High Price of
                         Bullion</title> (8 June 1810), cited in Cannan, 66. Poovey argues that
                      Cobbett used the mode of direct address to his readers as a way to subvert the
@@ -912,7 +845,7 @@
                   Britannia staring at a beehive, a symbol of industriousness which replaced the
                   earlier pile of gold, the satirical Britannia is shown as an unnatural mother
                   eating her children, an apt illustration of the state’s dereliction of duty (<ref
-                     target="../images/figure12.jpg">Figure 12</ref>). Reminiscent of the
+                     target="/praxis/forgery/images/figure12.jpg">Figure 12</ref>). Reminiscent of the
                   liberticidal monsters of anti-Jacobin caricatures, this grotesque figure reveals
                   that such symbols of authority are now (in Cobbett’s words) a mere “paper promise”
                   of “real value” (98). As Gillray’s successor, Cruikshank was able to see the
@@ -923,7 +856,7 @@
                <p>A more optimistic note is struck in another caricature which Cruikshank issued in
                   January 1819. <title level="m">Johnny Bull and his Forged Notes!! or Rags and Ruin
                      in the Paper Currency</title> shows John Bull as a small tradesman rather than
-                  a plebeian or yokel (<ref target="../images/figure13.jpg">Figure 13</ref>). He is
+                  a plebeian or yokel (<ref target="/praxis/forgery/images/figure13.jpg">Figure 13</ref>). He is
                   about to be arrested in his impoverished home for hoarding forged banknotes, but
                   as he says to the foppish inspector, “I took all these notes in the way of Trade—I
                   can’t tell Bad Good ones from Good Bad ones. Even those who issue them are
@@ -942,8 +875,8 @@
                   exploitation of John Bullion are probably Richard Newton’s <title level="m">The
                      New Paper Mill</title> and <title level="m">The Inexhaustible Mine</title>,
                   both published in 1797 as a response to Restriction (<ref
-                     target="../images/figure14.jpg">Figures 14</ref> and <ref
-                     target="../images/figure15.jpg">15</ref>). In <title level="m">The New Paper
+                     target="/praxis/forgery/images/figure14.jpg">Figures 14</ref> and <ref
+                     target="/praxis/forgery/images/figure15.jpg">15</ref>). In <title level="m">The New Paper
                      Mill</title> Bull is being minced by Pitt into paper notes (presumably having
                   been stripped of his gold first, though allegorically Bull himself represents
                   “real” money); in the brutal Restriction age, Pitt’s mincer is the modern state’s
@@ -955,7 +888,7 @@
                   strip search. The image captures the repressive authoritarianism of
                   counter-revolutionary policy in the 1790s, a period in which “the spirit of
                   despotism” led to “invasions of privacy” (Barrell). With these images (and many
-                  others) in mind,<note place="foot" resp="editors" n="22">See for example <title
+                  others) in mind,<note place="foot" resp="editors">See for example <title
                         level="m">John Bull at His Studies</title> (1799), <title level="m">The
                         British Lion</title> (1797), and William Holland, <title level="m">Political
                         Hocus Pocus</title> (1802).</note> Restriction and the ensuing prosecutions
@@ -967,15 +900,15 @@
                   invasion and conquest. Unless John Bullion surrendered his specie and allowed more
                   paper money to circulate, Britain faced an unthinkable fate. If Britons found
                   cheap banknotes unpalatable, they should consider the Jacobin alternative: the
-                  rule of the revolutionary French assignat (<ref target="../images/figure16.jpg"
+                  rule of the revolutionary French assignat (<ref target="/praxis/forgery/images/figure16.jpg"
                      >Figure 16</ref>). The assignat was the paper currency which the French
                   Assembly introduced in 1790 out of the proceeds of confiscated Church
-                     property.<note place="foot" resp="editors" n="23">See Taws for a discussion of
+                     property.<note place="foot" resp="editors">See Taws for a discussion of
                      French counter-revolutionary caricatures of the assignat and the similarity
                      between these two forms of “authenticity and falsehood” (104).</note> The
                   policy quickly led to hyperinflation, and by the time the plates which printed the
                   assignat were publicly burned in February 1796, its value had depreciated by an
-                  astonishing 95% (compared to about 30% for the pound in the Restriction period).<note place="foot" resp="editors" n="24">Buchan, 159. See also Ferguson, <title
+                  astonishing 95% (compared to about 30% for the pound in the Restriction period).<note place="foot" resp="editors">Buchan, 159. See also Ferguson, <title
                         level="m">The Cash Nexus</title>, 151-3.</note> For Edmund Burke, the
                   assignat was the epitome of Jacobin mischief and the arch enemy of the gold
                   standard. In Pocock’s opinion, it was the introduction of the assignat, and not
@@ -993,7 +926,7 @@
                      of the two great recognized species [gold and silver] that represent the
                      lasting conventional credit of mankind, which disappeared and hid themselves in
                      the earth from whence they came, when the principle of property, whose
-                     creatures and representatives they are, was systematically subverted. (126)<note place="foot" resp="editors" n="25">Brantlinger argues that Burke
+                     creatures and representatives they are, was systematically subverted. (126)<note place="foot" resp="editors">Brantlinger argues that Burke
                         conceived the “financial mysteries” of the State in sublime terms as a
                         “towering phallic menace” which “could only dimly be apprehended through
                         imagination and a suitably terroristic rhetoric” (108)—a useful gloss on
@@ -1025,8 +958,7 @@
                   caricaturists, whose work was premised on converting political events into an
                   alternative, parallel and usually controversial fantasy. In this sense,
                   caricature’s generically maverick and ungovernable aesthetics were more in tune
-                  with a system of “fabricated pieces of paper”.<note place="foot" resp="editors"
-                     n="26">P. B. Shelley, <title level="a">A Philosophical View of Reform,</title>
+                  with a system of “fabricated pieces of paper”.<note place="foot" resp="editors">P. B. Shelley, <title level="a">A Philosophical View of Reform,</title>
                      in Leader and O’Neill, 651. </note></p>
                <p>The efflorescent character of Gillray’s <title level="m">Midas</title> seems to
                   register this new creative opportunity. Unlike the macabre <title level="m">Bank
@@ -1039,12 +971,12 @@
                   anatomy. The most immediate influence on his fantasy is the figure of the
                   political colossus. This was a well-honed satirical technique which became popular
                   with attacks on Britain’s first Prime Minister Robert Walpole (<ref
-                     target="../images/figure17.jpg">Figure 17</ref>) and quickly became a familiar
+                     target="/praxis/forgery/images/figure17.jpg">Figure 17</ref>) and quickly became a familiar
                   visual weapon with which to attack overweening ministerial ambitions such as those
-                  of the Earl of Bute (<ref target="../images/figure18.jpg">Figure 18</ref>). Just a
+                  of the Earl of Bute (<ref target="/praxis/forgery/images/figure18.jpg">Figure 18</ref>). Just a
                   few weeks before the introduction of Restriction, Gillray portrayed Pitt as a
                   colossus in <title level="m">The Giant Factotum Amusing Himself</title> (<ref
-                     target="../images/figure19.jpg">Figure 19</ref>), so the novelty of <title
+                     target="/praxis/forgery/images/figure19.jpg">Figure 19</ref>), so the novelty of <title
                      level="m">Midas</title> consisted of the change of venue (from parliament to
                   the Bank of England—a clear hint of the true source of the nation’s ills) and the
                   switch of satirical wit from bawdy pun (‘amusing himself’) to scatological
@@ -1056,11 +988,11 @@
                   the unique extra frisson of visuality. Good examples include anti-Walpolian prints
                   such as <title level="m">The Political Vomit for the Ease of Britain</title> and
                      <title level="m">Idol Worship; or the Way to Preferment</title> (<ref
-                     target="../images/figure20.jpg">Figures 20</ref> and <ref
-                     target="../images/figure21.jpg">21</ref>) and James Aitken’s <title level="m"
+                     target="/praxis/forgery/images/figure20.jpg">Figures 20</ref> and <ref
+                     target="/praxis/forgery/images/figure21.jpg">21</ref>) and James Aitken’s <title level="m"
                      >Public Credit, or the State Idol</title>—the latter shows Edmund Burke as the
                   arse-licker climbing the mired pole of preferment (<ref
-                     target="../images/figure22.jpg">Figure 22</ref>). Where Gillray innovates on
+                     target="/praxis/forgery/images/figure22.jpg">Figure 22</ref>). Where Gillray innovates on
                   such sources is his remarkable ability to show Pitt/Midas vacating and ingesting
                   at the same time; metaphorically, this strange physiology registers the credit
                   system’s simultaneous mystification and demystification of paper. As the
@@ -1077,7 +1009,7 @@
                   rear end ejecting coins into the same pit, a clear association of lucre and
                   damnation. By the eighteenth century the money devil had become a familiar figure
                   in European and Russian caricatures, some of which Gillray may have known (<ref
-                     target="../images/figure23.jpg">Figure 23</ref>). In <title level="m"
+                     target="/praxis/forgery/images/figure23.jpg">Figure 23</ref>). In <title level="m"
                      >Midas</title>, however, the cluster of coins which appear to be dropping from
                   Pitt’s posterior like the money devil are actually defying the laws of gravity;
                   they are being sucked up into Pitt/Midas’s torso while banknotes (the new
@@ -1108,7 +1040,7 @@
                   paper money as expropriated bee-honey), and <title level="m">The Mask of
                      Anarchy</title> (which memorably styles the credit economy the “ghost of
                   gold”), such incursions into popular culture were rare.<note place="foot"
-                     resp="editors" n="27">See Hogle, 236-9, Brantlinger 114-19. Significantly, none
+                     resp="editors">See Hogle, 236-9, Brantlinger 114-19. Significantly, none
                      of these texts was published in Shelley’s lifetime (<title level="m"
                         >Swellfoot</title> was published in 1820 but immediately suppressed), nor
                      was the “Philosophical View of Reform”, in which he expounded his critique of
@@ -1156,7 +1088,7 @@
                   earlier, the state both relied on and feared the “formidable power of imitation”
                   of the engraver. Ironically, the Bank of England subjected all submitted designs
                   for “inimitable” banknotes to a counterfeiting test by its own engravers: not one
-                  design passed the test.<note place="foot" resp="editors" n="28">The consensus was
+                  design passed the test.<note place="foot" resp="editors">The consensus was
                      that the new note should combine, in the words of the Society of Arts report
                      into Restriction forgery, the “highest perfection” of hand engraving with
                      “mathematical accuracy” of “engine engraving” (<title level="m">Report of the
@@ -1171,7 +1103,7 @@
                <p>This takes us the second aspect of caricature’s cultural power. Ackermann
                   undoubtedly knew that the single print caricature functioned like an alternative
                   currency, shadowing and transforming “official” history.<note place="foot"
-                     resp="editors" n="29">Gary Dyer confirms that Regency caricature had a much
+                     resp="editors">Gary Dyer confirms that Regency caricature had a much
                      greater impact on “public perceptions” than literary satires (93).</note>
                   Moreover, society seemed to be imitating art. For critics of the unreformed
                   political system, Regency England had become a caricature of itself, consuming
@@ -1184,7 +1116,7 @@
                   bestselling satire <title level="m">The Political House that Jack Built</title>
                   (1819) shows a pair of scales in which the pen of radicalism outweighs not just
                   Wellington’s sword but a bundle of unjust laws topped by “Bank Restriction” (<ref
-                     target="../images/figure24.jpg">Figure 24</ref>). The image implies that
+                     target="/praxis/forgery/images/figure24.jpg">Figure 24</ref>). The image implies that
                   radical critique is the antithesis of Old Corruption’s mystifications, but there
                   could also be an allusion to the <title level="m">Bank Restriction Note</title> of
                   earlier that year. In other words, Cruikshank could be complimenting his own
@@ -1219,7 +1151,7 @@
                   firmly embedded in reportage and print culture, the single print caricature
                   circulated like a shadow economy of symbolic representation, pumping out “phantom”
                   versions of political leaders, authority figures and celebrities.<note
-                     place="foot" resp="editors" n="30">If Julie Carlson is correct to state that
+                     place="foot" resp="editors">If Julie Carlson is correct to state that
                      Romantic celebrity was about “making a spectacle of one’s self” (503), then
                      caricature celebrity was about making a spectacle of a phantom other.</note>
                   Again, there is a useful parallel here with Marx’s theory of the quasi-divine,
@@ -1246,7 +1178,7 @@
                   ‘paper against gold’ alive. In Thomas Doubleday’s satire <title level="m">The
                      Political Pilgrim’s Progress</title> (1839), for example, the hero Radical’s
                   main adversary Political Apollyon is a demon composed of paper money (<ref
-                     target="../images/figure25.jpg">Figure 25</ref>). But given that forgery ceased
+                     target="/praxis/forgery/images/figure25.jpg">Figure 25</ref>). But given that forgery ceased
                   to be a capital offence in the early 1830s, the debunking of credit lost much of
                   its sensationalism.</p>
                <p>To conclude: if Niall Ferguson is correct to say that “Money is not metal. It is
@@ -1254,7 +1186,7 @@
                   then the key issue remains: who, or what do you put your trust in? If, to quote a
                   popular ditty, “One forgery makes a felon –Millions a statesman!” perhaps you
                   would be wise to invest in caricature. </p>
-            </div>
+            
 
             <div type="citation">
                <head>Works Cited</head>
@@ -2218,157 +2150,162 @@
 
             <div type="figures">
                <head>List of Figures</head>
-               <figure n="1">
-                  <graphic url="../images/figure1Thumb.jpg" width="375px"/>
-                  <figDesc> James Gillray, <title level="m">The Table’s Turn’d</title> Published by
+               
+               
+               
+               
+               <figure>
+                  <graphic url="praxis/forgery/images/figure1Thumb.jpg" width="375px"/>
+                  <p> James Gillray, <title level="m">The Table’s Turn’d</title> Published by
                      Hannah Humphrey, 4 March 1797. British Museum Satires 8992. Courtesy Trustees
-                     of the British Museum. </figDesc>
+                     of the British Museum. </p>
                </figure>
                <figure n="2">
-                  <graphic url="../images/figure2Thumb.jpg" width="375px"/>
-                  <figDesc> James Gillray, <title level="m">Midas. Transmuting all into [Gold]
+                  <graphic url="/praxis/forgery/images/figure2Thumb.jpg" width="375px"/>
+                  <p> James Gillray, <title level="m">Midas. Transmuting all into [Gold]
                         Paper</title> Published by Hannah Humphrey, 9 March 1797. British Museum
-                     Satires 8995. Courtesy Trustees of the British Museum. </figDesc>
+                     Satires 8995. Courtesy Trustees of the British Museum. </p>
                </figure>
                <figure n="3">
-                  <graphic url="../images/figure3Thumb.jpg" width="375px"/>
-                  <figDesc>Forged banknote from 1819. British Museum Eagleton 2011, 2012. Courtesy
-                     Trustees of the British Museum.</figDesc>
+                  <graphic url="/praxis/forgery/images/figure3Thumb.jpg" width="375px"/>
+                  <p>Forged banknote from 1819. British Museum Eagleton 2011, 2012. Courtesy
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="4">
-                  <graphic url="../images/figure4Thumb.jpg" width="375px"/>
-                  <figDesc>George Cruikshank, <title level="m">Bank Restriction Note</title>.
+                  <graphic url="/praxis/forgery/images/figure4Thumb.jpg" width="375px"/>
+                  <p>George Cruikshank, <title level="m">Bank Restriction Note</title>.
                      Published by William Hone, January 1819. British Museum Satires 13198. Courtesy
-                     Trustees of the British Museum.</figDesc>
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="5">
-                  <graphic url="../images/figure5Thumb.jpg" width="375px"/>
-                  <figDesc>George Cruikshank, <title level="m">Bank Restriction Barometer</title>
+                  <graphic url="/praxis/forgery/images/figure5Thumb.jpg" width="375px"/>
+                  <p>George Cruikshank, <title level="m">Bank Restriction Barometer</title>
                      Published by William Hone, January 1819. British Museum Satires 13199. Courtesy
-                     Trustees of the British Museum.</figDesc>
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="6">
-                  <graphic url="../images/figure6Thumb.jpg" width="375px"/>
-                  <figDesc>Satirical banknote, valued two pence, made payable to “William
+                  <graphic url="/praxis/forgery/images/figure6Thumb.jpg" width="375px"/>
+                  <p>Satirical banknote, valued two pence, made payable to “William
                      Pittachio”, one of Pitt’s many satirical titles. Published by S. W. Fores, 1
                      August 1807. British Museum Satires 10753.A. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="7">
-                  <graphic url="../images/figure7Thumb.jpg" width="375px"/>
-                  <figDesc>The Spiritual Barometer. Taken from the <title level="j">Evangelical
+                  <graphic url="/praxis/forgery/images/figure7Thumb.jpg" width="375px"/>
+                  <p>The Spiritual Barometer. Taken from the <title level="j">Evangelical
                         Magazine</title> 8 vols (London: T. Chapman, 1793-1800), 8 (1800): 526.
-                     Courtesy British Library.</figDesc>
+                     Courtesy British Library.</p>
                </figure>
                <figure n="8">
-                  <graphic url="../images/figure8Thumb.jpg" width="375px"/>
-                  <figDesc>John Ireland (after William Hogarth), <title level="m">Enthusiasm
+                  <graphic url="/praxis/forgery/images/figure8Thumb.jpg" width="375px"/>
+                  <p>John Ireland (after William Hogarth), <title level="m">Enthusiasm
                         Delineated</title> Published by Isaac Mills, 12 November 1795. British
-                     Museum Satires 2426. Courtesy Trustees of the British Museum.</figDesc>
+                     Museum Satires 2426. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="9">
-                  <graphic url="../images/figure9Thumb.jpg" width="375px"/>
-                  <figDesc>Abraham Bosse, title page of Thomas Hobbes, <title level="m"
+                  <graphic url="/praxis/forgery/images/figure9Thumb.jpg" width="375px"/>
+                  <p>Abraham Bosse, title page of Thomas Hobbes, <title level="m"
                         >Leviathan</title> (1653). British Museum Lothe 1307. Courtesy Trustees of
-                     the British Museum.</figDesc>
+                     the British Museum.</p>
                </figure>
                <figure n="10">
-                  <graphic url="../images/figure10Thumb.jpg" width="375px"/>
-                  <figDesc>James Gillray, <title level="m">The Dissolution, or The Alchymist
+                  <graphic url="/praxis/forgery/images/figure10Thumb.jpg" width="375px"/>
+                  <p>James Gillray, <title level="m">The Dissolution, or The Alchymist
                         Producing an Aetherial Representation</title> Published by Hannah Humphrey,
                      21 May 1796. British Museum Satires 8805. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="11">
-                  <graphic url="../images/figure11Thumb.jpg" width="375px"/>
-                  <figDesc>James Gillray, <title level="m">Bank Notes.
+                  <graphic url="/praxis/forgery/images/figure11Thumb.jpg" width="375px"/>
+                  <p>James Gillray, <title level="m">Bank Notes.
                         Paper-money,-French-alarmists,-O, the Devil, the Devil!-Ah! Poor
                         John-Bull!!!</title> Published by Hannah Humphrey, 1 March 1797. British
-                     Museum Satires 8990. Courtesy Trustees of the British Museum.</figDesc>
+                     Museum Satires 8990. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="12">
-                  <graphic url="../images/figure12Thumb.jpg" width="153px"/>
-                  <figDesc>George Cruikshank, <title level="m">Bank Restriction Note</title>
-                     (detail).</figDesc>
+                  <graphic url="/praxis/forgery/images/figure12Thumb.jpg" width="153px"/>
+                  <p>George Cruikshank, <title level="m">Bank Restriction Note</title>
+                     (detail).</p>
                </figure>
                <figure n="13">
-                  <graphic url="../images/figure13Thumb.jpg" width="375px"/>
-                  <figDesc>George Cruikshank, <title level="m">Johnny Bull and his Forged Notes!! or
+                  <graphic url="/praxis/forgery/images/figure13Thumb.jpg" width="375px"/>
+                  <p>George Cruikshank, <title level="m">Johnny Bull and his Forged Notes!! or
                         Rags and Ruin in the Paper Currency</title> Published by J. Sidebotham,
                      January 1819. British Museum Satires 13197. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="14">
-                  <graphic url="../images/figure14Thumb.jpg" width="375px"/>
-                  <figDesc>Richard Newton, <title level="m">The New Paper Mill or Mr Bull Ground
+                  <graphic url="/praxis/forgery/images/figure14Thumb.jpg" width="375px"/>
+                  <p>Richard Newton, <title level="m">The New Paper Mill or Mr Bull Ground
                         into 20 Shilling Notes</title> Published by Richard Newton 12 March 1797.
-                     British Museum Satires 8998. Courtesy Trustees of the British Museum.</figDesc>
+                     British Museum Satires 8998. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="15">
-                  <graphic url="../images/figure15Thumb.jpg" width="375px"/>
-                  <figDesc>Richard Newton, <title level="m">The Inexhaustible Mine</title> Published
+                  <graphic url="/praxis/forgery/images/figure15Thumb.jpg" width="375px"/>
+                  <p>Richard Newton, <title level="m">The Inexhaustible Mine</title> Published
                      by Richard Newton, 22 June 1797. British Museum Satires 9025. Courtesy Trustees
-                     of the British Museum.</figDesc>
+                     of the British Museum.</p>
                </figure>
                <figure n="16">
-                  <graphic url="../images/figure16Thumb.jpg" width="375px"/>
-                  <figDesc>Revolutionary French assignat, 1792. British Museum G68/17/3/5 Courtesy
-                     Trustees of the British Museum.</figDesc>
+                  <graphic url="/praxis/forgery/images/figure16Thumb.jpg" width="375px"/>
+                  <p>Revolutionary French assignat, 1792. British Museum G68/17/3/5 Courtesy
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="17">
-                  <graphic url="../images/figure17Thumb.jpg" width="375px"/>
-                  <figDesc>George Bickham the Younger, <title level="m">The Stature of a Great Man
+                  <graphic url="/praxis/forgery/images/figure17Thumb.jpg" width="375px"/>
+                  <p>George Bickham the Younger, <title level="m">The Stature of a Great Man
                         or the English Colossus</title> Published by George Bickham the Younger,
                      1740. British Museum Satires 2458. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="18">
-                  <graphic url="../images/figure18Thumb.jpg" width="375px"/>
-                  <figDesc>Anon. <title level="m">The Colossus</title> Published 1767. British
-                     Museum Satires 4178. Courtesy Trustees of the British Museum.</figDesc>
+                  <graphic url="/praxis/forgery/images/figure18Thumb.jpg" width="375px"/>
+                  <p>Anon. <title level="m">The Colossus</title> Published 1767. British
+                     Museum Satires 4178. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="19">
-                  <graphic url="../images/figure19Thumb.jpg" width="375px"/>
-                  <figDesc>James Gillray, <title level="m">The Giant Factotum Amusing
+                  <graphic url="/praxis/forgery/images/figure19Thumb.jpg" width="375px"/>
+                  <p>James Gillray, <title level="m">The Giant Factotum Amusing
                         Himself</title> Published by Hannah Humphrey, 21 January 1797. British
-                     Museum Satires 8980. Courtesy Trustees of the British Museum.</figDesc>
+                     Museum Satires 8980. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="20">
-                  <graphic url="../images/figure20Thumb.jpg" width="375px"/>
-                  <figDesc>Anon., <title level="m">The Political Vomit for the Ease of
+                  <graphic url="/praxis/forgery/images/figure20Thumb.jpg" width="375px"/>
+                  <p>Anon., <title level="m">The Political Vomit for the Ease of
                         Britain</title> Published in 1742. British Museum Satires 2531. Courtesy
-                     Trustees of the British Museum.</figDesc>
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="21">
-                  <graphic url="../images/figure21Thumb.jpg" width="375px"/>
-                  <figDesc>Anon. <title level="m">Idol Worship or the Way to Preferment</title>
+                  <graphic url="/praxis/forgery/images/figure21Thumb.jpg" width="375px"/>
+                  <p>Anon. <title level="m">Idol Worship or the Way to Preferment</title>
                      Published 1740. British Museum Satires 2447. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="22">
-                  <graphic url="../images/figure22Thumb.jpg" width="375px"/>
-                  <figDesc>James Aitken, <title level="m">Public Credit, or the State Idol</title>
+                  <graphic url="/praxis/forgery/images/figure22Thumb.jpg" width="375px"/>
+                  <p>James Aitken, <title level="m">Public Credit, or the State Idol</title>
                      Published by William Dent, 3 June 1791. British Museum Satires 7872. Courtesy
-                     Trustees of the British Museum.</figDesc>
+                     Trustees of the British Museum.</p>
                </figure>
                <figure n="23">
-                  <graphic url="../images/figure23Thumb.jpg" width="375px"/>
-                  <figDesc>Anon. A Russian print of a money devil, c. 1800-1850. British Museum
-                     Popular Prints Russian. Courtesy Trustees of the British Museum.</figDesc>
+                  <graphic url="/praxis/forgery/images/figure23Thumb.jpg" width="375px"/>
+                  <p>Anon. A Russian print of a money devil, c. 1800-1850. British Museum
+                     Popular Prints Russian. Courtesy Trustees of the British Museum.</p>
                </figure>
                <figure n="24">
-                  <graphic url="../images/figure24Thumb.jpg" width="375px"/>
-                  <figDesc>George Cruikshank and William Hone, title page of <title level="m">The
+                  <graphic url="/praxis/forgery/images/figure24Thumb.jpg" width="375px"/>
+                  <p>George Cruikshank and William Hone, title page of <title level="m">The
                         Political House that Jack Built </title> Published by William Hone, 1819.
                      British Museum Satires 13292. Courtesy Trustees of the British
-                     Museum.</figDesc>
+                     Museum.</p>
                </figure>
                <figure n="25">
-                  <graphic url="../images/figure25Thumb.jpg" width="375px"/>
-                  <figDesc>Illustration to Thomas Doubleday, <title level="m">The Political
+                  <graphic url="/praxis/forgery/images/figure25Thumb.jpg" width="375px"/>
+                  <p>Illustration to Thomas Doubleday, <title level="m">The Political
                         Pilgrim’s Progress</title>, published in <title level="j">The Northern
-                        Liberator</title> 1839. Author’s collection.</figDesc>
+                        Liberator</title> 1839. Author’s collection.</p>
                </figure>
+            </div>
             </div>
          </div>
       </body>
