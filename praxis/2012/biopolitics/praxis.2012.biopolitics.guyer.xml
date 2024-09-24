@@ -1,124 +1,152 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romanticism and Biopolitics</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Biopoetics, or Romanticism</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Sara Guyer</name>
             </author>
-            <editor role="editor">Alastair Hunt</editor>
+            
             <sponsor>Romantic Circles</sponsor>
-            <editor role="editor">Matthias Rudolf</editor>
-            <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2012.guyer</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2012-01-24">Jan 24, 2012</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded,
-                  reproduced or disseminated in any manner without authorization unless it is for
-                  purposes of criticism, comment, news reporting, teaching, and/or classroom use as
-                  provided by the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic
-                  Circles are copyrighted by the author/editor and may be shared only in accordance
-                  with the Fair Use provisions of U.S. copyright law. Except as expressly permitted
-                  by this statement, redistribution or republication in any medium requires express
-                  prior written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the
-                  following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
-                  </list></p>
-               <p>Users are not permitted to download these texts and images in order
-                  to mount them on their own servers. It is not in our interest or that of our users
-                  to have uncontrolled subsets of our holdings available elsewhere on the Internet.
-                  We make corrections and additions to our edited resources on a continual basis,
-                  and we want the most current text to be the only one generally available to all
-                  Internet users. Institutions can, of course, make a link to the copies at Romantic
-                  Circles, subject to our conditions of use.</p>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
+                  disseminated in any manner without authorization unless it is for purposes of
+                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
+                  the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
+                  copyrighted by the author/editor and may be shared only in accordance with the
+                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
+                  statement, redistribution or republication in any medium requires express prior
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                  <item>These texts and images may not be used for any commercial purpose without
+                     prior written permission from Romantic Circles.</item>
+                  <item>These texts and images may not be re-distributed in any forms other than
+                     their current ones.</item>
+               </list></p>
+               <p>Users are not permitted to download these texts and images in order to mount them
+                  on their own servers. It is not in our interest or that of our users to have
+                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
+                  corrections and additions to our edited resources on a continual basis, and we
+                  want the most current text to be the only one generally available to all Internet
+                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
+                  subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2012.biopolitics.guyer</idno>
+            <idno type="resource">biopolitics</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Romanticism and Biopolitics</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Biopoetics, or Romanticism</title>
+                  <author role="secondary">
                      <persName>
                         <forename>Sara</forename>
                         <surname>Guyer</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/biopolitics/praxis.2012.biopolitics.guyer"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Romanticism and Biopolitics:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Romanticism and Biopolitics</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2012-01-24">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for ","
-                  for ", ' for ', and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on
-                  the U.S. keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been
-                  indicated as such, the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces,
-                  etc., have been encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -143,133 +171,59 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Dave Rettenmaier</name>
-            <date>2010-03-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
@@ -317,7 +271,7 @@
                and literary power—or literature as a form of biopower. Yet, that what is at stake in
                this convergence is a monstrous formation whose full frontal force never can be
                grasped suggests, at least allegorically speaking, the sublime impact—on poetry and
-               politics both—of this new power over life.<note place="foot" resp="editors" n="1">For
+               politics both—of this new power over life.<note place="foot" resp="editors">For
                   further discussion of <title level="m">Frankenstein </title>and biopolitics, see
                   the chapter “Testimony and Trope in <title level="m">Frankenstein</title>” in my
                      <title level="m">Romanticism After Auschwitz</title>. While most examples of
@@ -343,7 +297,7 @@
                Berlant and Eric Santner, also have noted the flawed tendency to correlate the
                variety of conceptions of sovereignty (personal, political, and theological), a
                tendency that the correlation between romanticism and biopolitics could even be said
-               to repeat.<note place="foot" resp="editors" n="2"> See Berlant, “Slow Death” and
+               to repeat.<note place="foot" resp="editors"> See Berlant, “Slow Death” and
                   Santner, <title level="m">The People’s Two Bodies</title>. For an account of
                   romanticism attuned to the rhetoric of species and at odds with conventional
                   characterizations, see Alastair Hunt, <title level="m">The Rhetoric of Romantic
@@ -355,7 +309,7 @@
                ask whether this is strictly a nineteenth-century formation or rather, a
                late-twentieth-century one articulated in and through a return to the nineteenth
                century texts and contexts that have been called our contemporaries?<note place="foot"
-                  resp="editors" n="3"> See Cynthia Chase, Marc Redfield. </note> Does this new
+                  resp="editors"> See Cynthia Chase, Marc Redfield. </note> Does this new
                preoccupation with the power over life simply occur in the nineteenth century as an
                arbiter of modern poetry and politics or is it a retroactive formation framed by two
                competing theoretical gestures belonging to the 1970s and figured through a past that
@@ -376,14 +330,14 @@
                that there is a correspondence between biopolitics and romanticism that is captured
                in this shared preoccupation with life, and that it is a conception of poetry and
                politics that is uncontained by the nineteenth century.<note place="foot"
-                  resp="editors" n="4">“Uncontained” is Carol Jacobs’ term, see her <title level="m">Uncontainable Romanticism</title>. This point can be read to
+                  resp="editors">“Uncontained” is Carol Jacobs’ term, see her <title level="m">Uncontainable Romanticism</title>. This point can be read to
                   resonate with one of Agamben’s criticisms of Foucault, that what he identifies as
                   a modern emergence, in fact has an ancient origin. </note> I will also suggest
                that this conjunction becomes an occasion to recognize life as survival, and thus to
                consider something about life that the various demographers and managers who appear
                in Foucault’s texts (and in his only cursorily formulated and digressive account of
                biopower) may not be in a position to perceive or comprehend, but nevertheless
-               continue to expose.<note place="foot" resp="editors" n="5">See the lecture of 17 March
+               continue to expose.<note place="foot" resp="editors">See the lecture of 17 March
                   1976, where Foucault apologizes for “this long digression on biopower” (254).
                </note> In other words, far from exhausted by Foucault’s account of biopower and the
                theoretical accounts to which it has given rise, a lyric consideration of life, one
@@ -397,10 +351,9 @@
                contain it. These lyric examples show that life is always on the side of nonpower,
                and that its containment fails to sustain the newly formulated opposition between
                life and death that is at the heart of the shift that Foucault so compellingly
-                  describes.<note place="foot" resp="editors" n="6">Foucault is of course aware of
+                  describes.<note place="foot" resp="editors">Foucault is of course aware of
                   this uncontainment, and his example of Franco’s death “and the symbolic values it
-                  brings into play” in the lectures on 1975-76 offers one example. <title level="m"
-                     >Society Must be Defended</title>, 248. </note>
+                  brings into play” in the lectures on 1975-76 offers one example. <title level="m">Society Must be Defended</title>, 248. </note>
             </p>
             <p>In what follows, I will turn from Paul de Man’s formative rhetorical account of the
                lyric to Barbara Johnson’s feminist revision of de Man in order to develop my own
@@ -424,7 +377,7 @@
                living among others, I propose to develop Johnson’s reading of lyric apostrophe into
                a theory that further emphasizes the lyric rhetoric at work in the politics of life
                and making live. </p>
-            <div type="section" n="1">
+            <div type="section">
                <head>I. A Fetal Address</head>
             
             <p>Despite having written extensively on romantic lifewriting and on Percy Shelley’s <title level="m">The Triumph of Life</title>, Paul de Man seemed to have very little
@@ -530,7 +483,7 @@
                the core of political thinking in the late-twentieth-century; and, like Foucault,
                again, she is interested in re-reading and re-casting an earlier emergence (which we
                could in both cases call <emph>biopower</emph>) from the perspective of its
-               violent future.<note place="foot" resp="editors" n="7">Agamben suggests that Foucault
+               violent future.<note place="foot" resp="editors">Agamben suggests that Foucault
                   doesn’t do this sufficiently. Also, Penelope Deutscher persuasively considers the
                   reasons why Agamben never takes up the matter of abortion—in part the complexity
                   of analogizing abortion and the Holocaust, an analogy which is the
@@ -648,7 +601,7 @@
                representing himself as a failed abortion, as an originary survivor. Johnson’s
                insight, drawn from her reading of Baudelaire, is that something like fetal or
                embryonic life remains the life of the lyric subject—even in its most
-               quintessentially sovereign form.<note place="foot" resp="editors" n="8">This is a
+               quintessentially sovereign form.<note place="foot" resp="editors">This is a
                   prescient precursor to Agamben’s account of the indistinction between the two
                   figures of exception: the sovereign and so-called bare life. See <title level="m"
                      >Homo Sacer</title>. Also, it is worth noting that Johnson does not distinguish
@@ -660,7 +613,7 @@
                only in poetry like Brooks’ that takes abortion as its theme, but as the reference to
                Baudelaire and more generally to romantic and postromantic lyric poets reveals,
                “fetality,” rather than sovereignty, is the position of the romantic lyric
-                  subject.<note place="foot" resp="editors" n="9">See Agamben on <foreign
+                  subject.<note place="foot" resp="editors">See Agamben on <foreign
                      >infans</foreign> and infancy. </note> Thus, just as Agamben considers the paradox
                of political sovereignty as positioning the sovereign and the exile in the same
                position of exceptionality <foreign>vis-à-vis</foreign> the law, Johnson, reading Baudelaire and Shelley
@@ -702,7 +655,7 @@
                [198]), but rather of unsubstitutability, we might find a path outside that of
                childhood (or masculine subjectivity). This suggests that we might come to recognize
                that the relation of apostrophe to animation is a relation to motherhood itself.<note
-                  place="foot" resp="editors" n="10">For another account of the centrality of the
+                  place="foot" resp="editors">For another account of the centrality of the
                   mother to romantic subjectivity, see Cathy Caruth, “Past Recognition: Narrative
                   Origins in Wordsworth and Freud.” </note> The risk of unsubstitutability of the
                sort that Johnson describes is not simply the loss of lyric power and the shift from
@@ -710,7 +663,7 @@
                that the lyric subject figured is a fetus is indissociable from a maternal subject.
                It is also one that opens up a space for another subject position: that of the mother
                who does not “make live” or who makes live that which she also has let die, even if
-               she may nor have killed.<note place="foot" resp="editors" n="11">These formulations
+               she may nor have killed.<note place="foot" resp="editors">These formulations
                   evoke Agamben’s account of homo sacer as a life that can be killed but not
                   sacrificed. See Deutscher for a speculative discussion of Agamben’s avoidance of
                   abortion in the <foreign>Homo Sacer</foreign> volumes. </note>
@@ -721,7 +674,7 @@
                fetus-sovereign dyad by recognizing that what has not or cannot be said is that lyric
                animation is akin to motherhood, that we ought to begin to see the lyric subject not
                as a man or a child (which is to say a fetus), but as (or wanting to be) a
-                  mother.<note place="foot" resp="editors" n="12">Of course, Wordsworth had a strong
+                  mother.<note place="foot" resp="editors">Of course, Wordsworth had a strong
                   sense of the lyric subject as child. </note> It is as if our failure to recognize
                the lyric subject as mother has left us with a structure of animation that cannot but
                leave the subject a child whose viability and power is in question.</p>
@@ -739,7 +692,7 @@
                couples the poetics of life with the history of madness, a poem written by a subject
                who, like Baudelaire, often was figured as a child, and yet whose own lyric
                productions recover not a mother, but an asylum.</p></div>
-            <div type="section" n="2">
+            <div type="section">
                <head>II. Apostrophe’s Inmate</head>
             
             <p>I opened with the observation that the romantic lyric emerges alongside biopower as
@@ -763,7 +716,7 @@
                reveal another.</p>
             <p>On December 28, 1841, Clare became an inhabitant of the Northampton General Lunatic
                Asylum, one of the genre of institutions that Foucault identifies with the management
-               and restoration of the population.<note place="foot" resp="editors" n="13">See Joanna
+               and restoration of the population.<note place="foot" resp="editors">See Joanna
                   Ball’s discussion of the asylum and its commitment to a “gentle” system of care
                   and Jonathan Bate’s description of the asylum’s “liberal regime” (469). </note>
                Clare wrote extensively while in the asylum, where he went largely unmonitored. While
@@ -772,8 +725,7 @@
                poems that survive. “To Mary” conjoins apostrophe and “lunacy,” exposing an inherent
                failure to arbitrate between the living and the dead or the self and another, as both
                rhetorical effect and medical symptom. It is this disorder that the asylum is called
-               upon to manage, but like the lyric, instead sustains.<note place="foot" resp="editors"
-                  n="14">On the intake form at the lunatic asylum, Clare’s condition is understood
+               upon to manage, but like the lyric, instead sustains.<note place="foot" resp="editors">On the intake form at the lunatic asylum, Clare’s condition is understood
                   as associated with and preceded by “years addicted to poetical prosing” (qtd in
                   Bate, 466). </note> Thus, if the institutions of biopower are structured like
                apostrophe insofar as they are oriented towards animation or survival, it is
@@ -799,7 +751,7 @@
                the mother, but of the lover who (inextricably from his persistent love) is also an
                inmate. “To Mary” is addressed to a girl that Clare loved in childhood, but whose
                father prevented their marriage because of Clare’s low social standing and fate for
-                  poverty.<note place="foot" resp="editors" n="15">For a psychoanalytic and rare
+                  poverty.<note place="foot" resp="editors">For a psychoanalytic and rare
                   theoretical account of Clare’s love and poetry, see Sigi Jöttkandt, <title
                      level="m">First Love: A Phenomenology of the One</title>. Melbourne: Re-Press,
                   2010. Jöttkandt recalls that Clare believed he was confined in the asylum because
@@ -807,13 +759,13 @@
                another woman, Patty Joyce, he remained irremediably attached to Mary, as is evident
                in the journal that he wrote during his escape from his first asylum, which concludes
                with a letter to Mary Clare whom he addresses as “My dear wife.”<note place="foot"
-                  resp="editors" n="16">See the “Journey out of Essex” included in <title level="m"
+                  resp="editors">See the “Journey out of Essex” included in <title level="m"
                      >John Clare by Himself</title>, 265. </note> In the journal, Clare explains that
                he is told of Mary’s death, but that he simply does not believe it, complaining that
                “neither could I get any information about her further then the old story of her
                being dead six years ago which might be taken from a bran new old newspaper” (264).
                Clare remains convinced that Mary is alive and often acknowledges that he has two
-                  wives.<note place="foot" resp="editors" n="17">See the “Asylum Observations” from
+                  wives.<note place="foot" resp="editors">See the “Asylum Observations” from
                   Northampton, where he writes: “God almighty bless Mary Joyce Clare and her family
                   now and forever – Amen; God almighty bless Martha Turner Clare and her family now
                   and forever – Amen.” In <title level="m">John Clare by Himself</title>, 266.
@@ -872,7 +824,7 @@
                Roy Porter’s hesitations about diagnostic readings of Clare, and Porter’s suggestion
                that what we call madness in Clare might not be madness at all, just as it might
                suggest that there is a deeper link between madness and apostrophe than we have
-               hitherto suspected.<note place="foot" resp="editors" n="18">See the essay collected in
+               hitherto suspected.<note place="foot" resp="editors">See the essay collected in
                      <title level="m">John Clare in Context</title>. </note> This becomes a poem of
                madness (rather than passion and allegory) because of its history, because of
                indicators outside of the poem rather than internal to it. Or, put another way, it is
@@ -920,7 +872,7 @@
                also evokes some of the moments of strange concession that occur in Clare’s journals,
                the poem leaves its addressee in a position of utter non-responsiveness, or to recall
                the line I noted above, she becomes a <emph>thing</emph>, the matter of
-               this address, rather than its addressee.<note place="foot" resp="editors" n="19">For
+               this address, rather than its addressee.<note place="foot" resp="editors">For
                   example, in the Journey out of Essex, Clare’s account of his escape from the
                   asylum, he writes describes his entry into his village and a woman jumps out to
                   great him. He decides she’s drunk or mad, and writes: “But when I was told it was
@@ -934,7 +886,7 @@
             <p>In the poem, the solution is not to turn <emph>to</emph> the addressee.
                Recalling that other sense of apostrophe or trope as turning away, Clare turns <emph>away</emph> from her (“I think and speak of other things/To keep my
                mind at rest”), whether for his own sanity or out of fear of humiliation.<note
-                  place="foot" resp="editors" n="20">In this sense, the poem can be understood not
+                  place="foot" resp="editors">In this sense, the poem can be understood not
                   only to use apostrophe, but also to theorize it. </note> Still, the permanent
                presence of the absent lover archived in the first stanza is repeated in the second
                stanza where it is the poet’s memory that remains fixated, even despite the effort to
@@ -970,7 +922,7 @@
                the sky,/And whispers tales of Mary”), by the third stanza, the world has become
                animated once more in a speaking scene that occludes the beloved. Mary’s absence is
                replaced by the “whispering” and “sighing” of tales, what Sigi Jöttkandt calls
-               Clare’s “mary-ing” of the world.<note place="foot" resp="editors" n="21"> First Love
+               Clare’s “mary-ing” of the world.<note place="foot" resp="editors"> First Love
                   119.</note> While the poem initiates with a lyric address, by the end, the subject
                becomes the addressee, and the addressee, far from disappearing, has become an
                object. While this is the case in “Ode to the West Wind” and “The Mother,” here we
@@ -1030,7 +982,7 @@
                this case, independent of an originary fissure in the meaning of life we have instead
                the birth of biopoetics, not a literary biopolitics or a biopolitics of literature,
                but a lyric thinking life itself. </p></div>
-            <div type="section" n="3">
+            <div type="section">
                <head>Coda</head>
             
             <p>In 1999, Brett Cooke and Frederick Turner published a collection of essays entitled
@@ -1073,269 +1025,66 @@
                biopoetics of evolutionary arts, but of the conjunction of rhetorical and
                biopolitical reading. This biopoetics sets out, as this essay set out, by admitting
                two scenes of making live, and it concludes by exposing the impossibility of a
-               politics of life or a science of literature that would be free from poetics.</p></div>
+               politics of life or a science of literature that would be free from poetics.</p>
         
-         <div type="citations">
+         <div type="citation">
             <head>Works Cited</head>
-            <listBibl>
-               <biblStruct>
-                  <monogr>
-                     <author>Agamben, Giorgio</author>
-                     <title level="m">Means Without Ends: Notes on Politics</title>
-                     <editor role="translator">Binetti, Vincenzo</editor>
-                     <editor role="translator">Casarino, Cesare</editor>
-                     <imprint>
-                        <pubPlace>Minneapolis</pubPlace>
-                        <publisher>U of Minnesota P</publisher>
-                        <date>2000</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <analytic>
-                     <author>Ball, Joanna</author>
-                     <title level="a">'The Tear Drops on the Book I Read': John Clare's Reading in
-                        the Northampton General Lunatic Asylum, 1841-1864</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j">Wordsworth Circle</title>
-                     <imprint>
-                        <biblScope type="vol">34.3</biblScope>
-                        <date>Summer 2003</date>
-                        <biblScope type="pp">155-58</biblScope>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Bate, Jonathan</author>
-                     <title level="m">John Clare: A Biography</title>
-                     <imprint>
-                        <pubPlace>New York</pubPlace>
-                        <publisher>FSG</publisher>
-                        <date>2003</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Caruth, Cathy</author>
-                     <title level="m">Empirical Truths and Critical Fictions: Locke, Wordsworth,
-                        Kant, Freud</title>
-                     <imprint>
-                        <pubPlace>Baltimore</pubPlace>
-                        <publisher>Johns Hopkins UP</publisher>
-                        <date>1991</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Chase, Cynthia</author>
-                     <title level="m">Romanticism</title>
-                     <imprint>
-                        <pubPlace>Essex</pubPlace>
-                        <publisher>Longman</publisher>
-                        <date>1992</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Clare, John</author>
-                     <title level="m">John Clare by Himself.</title>
-                     <editor role="editor">Robinson, Eric</editor>
-                     <editor role="editor">Powell, David</editor>
-                     <imprint>
-                        <pubPlace>Manchester</pubPlace>
-                        <publisher>Carcanet</publisher>
-                        <date>1996</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Clare, John</author>
-                     <title level="m">The Later Poems of John Clare 1837-1864</title>
-                     <editor role="editor">Robinson, Eric</editor>
-                     <editor role="editor">Powell, David</editor>
-                     <imprint>
-                        <pubPlace>Oxford</pubPlace>
-                        <publisher>Clarendon Press</publisher>
-                        <date>1984</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Cooke, Brett</author>
-                     <author>Frederick Turner</author>
-                     <title level="m">Biopoetics: Evolutionary Explorations in the Arts</title>
-                     <imprint>
-                        <pubPlace>St Paul, MN</pubPlace>
-                        <publisher>Paragon House</publisher>
-                        <date>1999</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <analytic>
-                     <author>Culler, Jonathan</author>
-                     <title level="a">Apostrophe</title>
-                  </analytic>
-                  <monogr>
-                     <title level="m">The Pursuit of Signs: Semiotics, Literature,
-                        Deconstruction</title>
-                     <imprint>
-                        <pubPlace>Ithaca, NY</pubPlace>
-                        <publisher>Cornell UP</publisher>
-                        <date>2002</date>
-                        <date>135-54</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>De Man, Paul</author>
-                     <title level="m">The Rhetoric of Romanticism</title>
-                     <imprint>
-                        <pubPlace>New York</pubPlace>
-                        <publisher>Columbia UP</publisher>
-                        <date>1984</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Derrida, Jacques</author>
-                     <title level="m">The Beast and the Sovereign. </title>
-                     <editor>Lisse, Michel</editor>
-                     <editor role="editor">Mallet, Marie-Louise</editor>
-                     <editor role="editor">Michaud, Ginette</editor>
-                     <editor role="translator">Geoffrey Bennington</editor>
-                     <imprint>
-                        <pubPlace>Chicago</pubPlace>
-                        <publisher>U of Chicago P</publisher>
-                        <date>2009</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <analytic>
-                     <author>Deutscher, Penelope</author>
-                     <title level="a">The Inversion of Exceptionality: Foucault, Agamben, and
-                        'Reproductive Rights'</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j">South Atlantic Quarterly</title>
-                     <imprint>
-                        <biblScope type="vol">107.1</biblScope>
-                        <date>2008</date>
-                        <biblScope type="pp">55-70</biblScope>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Foucault, Michel</author>
-                     <title level="m">History of Sexuality</title>
-                     <editor role="translator">Robert Hurley</editor>
-                     <imprint>
-                        <pubPlace>New York</pubPlace>
-                        <publisher>Vintage</publisher>
-                        <date>1980</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Foucault, Michel</author>
-                     <title level="m">'Society Must be Defended': Lectures at the Collège de France:
-                        1975-1976</title>
-                     <editor role="editor">Bertani, Mauro</editor>
-                     <editor role="editor">Fontana, Alessandro</editor>
-                     <editor role="translator">David Macey</editor>
-                     <imprint>
-                        <pubPlace>New York</pubPlace>
-                        <publisher>Picador</publisher>
-                        <date>1997</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Gigante, Denise</author>
-                     <title level="m">Life: Organic Form and Romanticism</title>
-                     <imprint>
-                        <pubPlace>New Haven</pubPlace>
-                        <publisher>Yale UP</publisher>
-                        <date>2009</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Haughton, Hugh</author>
-                     <author>Phillips, Adam</author>
-                     <author>Summerfield, Geoffrey</author>
-                     <title level="m">John Clare in Context</title>
-                     <imprint>
-                        <pubPlace>Cambridge</pubPlace>
-                        <publisher>Cambridge UP</publisher>
-                        <date>1994</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Jacobs, Carol</author>
-                     <title level="m">Uncontainable Romanticism: Shelley, Brontë, Kleist</title>
-                     <imprint>
-                        <pubPlace>Baltimore</pubPlace>
-                        <publisher>Johns Hopkins UP</publisher>
-                        <date>1989</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <analytic>
-                     <author>Johnson, Barbara</author>
-                     <title level="a">Apostrophe, Animation, and Abortion</title>
-                  </analytic>
-                  <monogr>
-                     <title level="m">World of Difference</title>
-                     <imprint>
-                        <pubPlace>Baltimore</pubPlace>
-                        <publisher>Johns Hopkins UP</publisher>
-                        <date>1987</date>
-                        <biblScope type="pp">184-99</biblScope>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Jöttkandt, Sigi</author>
-                     <title level="m">First Love: A Phenomenology of the One</title>
-                     <imprint>
-                        <pubPlace>Melbourne</pubPlace>
-                        <publisher>Re-Press</publisher>
-                        <date>2010</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct>
-                  <monogr>
-                     <author>Redfield, Marc</author>
-                     <title level="m">The Politics of Aesthetics: Nationalism, Gender,
-                        Romanticism</title>
-                     <imprint>
-                        <pubPlace>Stanford</pubPlace>
-                        <publisher>Stanford UP</publisher>
-                        <date>2003</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
+            
+            
+            <bibl>Agamben, Giorgio. <title level="m">Means Without Ends: Notes on Politics</title>. 
+               Translated by Vincenzo Binetti and Cesare Casarino, U of Minnesota P, 2000.</bibl>
+            
+            <bibl>Ball, Joanna. <title level="a">'The Tear Drops on the Book I Read': John Clare's Reading in
+               the Northampton General Lunatic Asylum, 1841-1864</title>. <title level="j">Wordsworth Circle</title>, vol. 34.3, Summer 2003, pp. 155-58.</bibl>
+            
+            <bibl>Bate, Jonathan. <title level="m">John Clare: A Biography</title>. FSG, 2003.</bibl>
+            
+            <bibl>Caruth, Cathy. <title level="m">Empirical Truths and Critical Fictions: Locke, Wordsworth,
+               Kant, Freud</title>. Johns Hopkins UP, 1991.</bibl>
+            
+            <bibl>Chase, Cynthia. <title level="m">Romanticism</title>, Longman, 1992.</bibl>
+            
+            <bibl>Clare, John. <title level="m">John Clare by Himself.</title> Edited by Eric Robinson and David Powell, Carcanet, 1996.</bibl>
+            
+            <bibl>———. <title level="m">The Later Poems of John Clare 1837-1864</title>. Edited by Eric Robinson and David Powell, Clarendon Press, 1984.</bibl>
+            
+            <bibl>Cooke, Brett and Frederick Turner. <title level="m">Biopoetics: Evolutionary Explorations in the Arts</title>. Paragon House, 1999.</bibl>
+            
+            <bibl>Culler, Jonathan. <title level="a">Apostrophe</title>. <title level="m">The Pursuit of Signs: Semiotics, Literature,
+               Deconstruction</title>. Cornell UP, 2002, pp. 135-54.</bibl>
+            
+            <bibl>De Man, Paul. <title level="m">The Rhetoric of Romanticism</title>. Columbia UP, 1984.</bibl>
+            
+            <bibl>Derrida, Jacques. <title level="m">The Beast and the Sovereign. </title>. 
+               Edited by Michel Lisse et al., translated by Geoffrey Bennington, U of Chicago P, 2009.</bibl>
+            
+            <bibl>Deutscher, Penelope. <title level="a">The Inversion of Exceptionality: Foucault, Agamben, and
+               'Reproductive Rights'</title>. <title level="j">South Atlantic Quarterly</title>, vol. 107.1, 2008, pp. 55-70.</bibl>
+            
+            <bibl>Foucault, Michel. <title level="m">History of Sexuality</title>. Translated by Robert Hurley, Vintage, 1980.</bibl>
+            
+            <bibl>———. <title level="m">'Society Must be Defended': Lectures at the Collège de France:
+               1975-1976</title>. Edited by Mauro Bertani and Alessandro Fontana, translated by David Macey, Picador, 1997.</bibl>
+            
+            <bibl>Gigante, Denise. <title level="m">Life: Organic Form and Romanticism</title>. Yale UP, 2009.</bibl>
+            
+            <bibl>Haughton, Hugh, Adam Phillips, and Geoffrey Summerfield. <title level="m">John Clare in Context</title>. Cambridge UP, 1994.</bibl>
+            
+            <bibl>Jacobs, Carol. <title level="m">Uncontainable Romanticism: Shelley, Brontë, Kleist</title>. Johns Hopkins UP, 1989.</bibl>
+            
+            <bibl>Johnson, Barbara. <title level="a">Apostrophe, Animation, and Abortion</title>. <title level="m">World of Difference</title>, Johns Hopkins UP, 1987, pp. 184-99.</bibl>
+            
+            <bibl>Jöttkandt, Sigi. <title level="m">First Love: A Phenomenology of the One</title>. Re-Press, 2010.</bibl>
+            
+            <bibl>Redfield, Marc. <title level="m">The Politics of Aesthetics: Nationalism, Gender,
+               Romanticism</title>. Stanford UP, 2004.</bibl>
+            
+            
+            
+                    
+                    
+                    
+         </div>      
 
 
          </div>
