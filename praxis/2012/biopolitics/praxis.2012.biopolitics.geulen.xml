@@ -1,126 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+
       <fileDesc>
+
          <titleStmt>
-            <title type="main">Romanticism and Biopolitics</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Response and Commentary (Sara Guyer, Marc Redfield and Emily
                Sun)</title>
-            <author>
+
+
+            <author role="primary">
                <name>Eva Geulen</name>
             </author>
-            <editor role="editor">Alastair Hunt</editor>
+
             <sponsor>Romantic Circles</sponsor>
-            <editor role="editor">Matthias Rudolf</editor>
-            <sponsor>Romantic Circles</sponsor>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+
          <publicationStmt>
-            <idno>praxis.2012.geulen</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2012-01-24">Jan 24, 2012</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded,
-                  reproduced or disseminated in any manner without authorization unless it is for
-                  purposes of criticism, comment, news reporting, teaching, and/or classroom use as
-                  provided by the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic
-                  Circles are copyrighted by the author/editor and may be shared only in accordance
-                  with the Fair Use provisions of U.S. copyright law. Except as expressly permitted
-                  by this statement, redistribution or republication in any medium requires express
-                  prior written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the
-                  following conditions: <list>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
+                  disseminated in any manner without authorization unless it is for purposes of
+                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
+                  the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
+                  copyrighted by the author/editor and may be shared only in accordance with the
+                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
+                  statement, redistribution or republication in any medium requires express prior
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
                      <item>These texts and images may not be used for any commercial purpose without
                         prior written permission from Romantic Circles.</item>
                      <item>These texts and images may not be re-distributed in any forms other than
                         their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order
-                  to mount them on their own servers. It is not in our interest or that of our users
-                  to have uncontrolled subsets of our holdings available elsewhere on the Internet.
-                  We make corrections and additions to our edited resources on a continual basis,
-                  and we want the most current text to be the only one generally available to all
-                  Internet users. Institutions can, of course, make a link to the copies at Romantic
-                  Circles, subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount them
+                  on their own servers. It is not in our interest or that of our users to have
+                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
+                  corrections and additions to our edited resources on a continual basis, and we
+                  want the most current text to be the only one generally available to all Internet
+                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
+                  subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2012.biopolitics.geulen</idno>
+            <idno type="resource">biopolitics</idno>
          </publicationStmt>
+
          <sourceDesc>
             <biblStruct>
                <analytic>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                   <title level="a" type="main">Response and Commentary (Sara Guyer, Marc Redfield
-                     and Emily Sun)</title>
-                  <author>
+                     and Emily Sun) </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Eva</forename>
                         <surname>Geulen</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/biopolitics/praxis.2012.biopolitics.geulen"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+
+
                <monogr>
-                  <title level="m">Romanticism and Biopolitics:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Romanticism and Biopolitics</title>
+                  <title level="s">Praxis</title>
+
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2012-01-24">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+
+
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for ","
-                  for ", ' for ', and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on
-                  the U.S. keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been
-                  indicated as such, the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces,
-                  etc., have been encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -145,133 +173,58 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
          </textClass>
       </profileDesc>
+
       <revisionDesc>
          <change>
-            <name>Dave Rettenmaier</name>
-            <date>2012-03-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
    <text>
       <body>
          <div type="essay">
@@ -279,7 +232,7 @@
             <byline><docAuthor>Eva Geulen</docAuthor>
                <affiliation>Goethe University Frankfurt am Main</affiliation></byline>
 
-            <div type="section" n="1">
+            <div type="section">
                <head>I</head>
                <p>Were one to write a history of how late twentieth-century political concepts
                   emerged, and how they changed as they migrated across fields, disciplines and
@@ -301,7 +254,8 @@
                   antiquity. Her diagnosis in <title level="m">The Human Condition</title> (1958) is
                   tentatively, by association more than argument, tied to her earlier investigation
                   of in <title level="m">The Origins of Totalitarianism</title> (1951). The link
-                  between the decline of classical politics and the emergence of 20<hi rend="sup">th</hi>-century totalitarianisms is given in the concept of nature. As nature
+                  between the decline of classical politics and the emergence of 20<hi rend="sup"
+                     >th</hi>-century totalitarianisms is given in the concept of nature. As nature
                   and natural life moved to the center of politics, nature (as well as history
                   understood as a force of nature) became trans-legal authorities totalitarian
                   politics appealed to in order to justify their actions. At the same time, Arendt
@@ -309,15 +263,18 @@
                   were bound to produce right-less fugitives since the very declaration of those
                   rights (at least in France) was premised on citizenship and statehood. With her
                   critique of human rights, Arendt resumed a line of argument originally suggested
-                  by Karl Marx in his problematic essay <title level="a">On the Jewish Question</title> (1842), in which he
-                  argued that human rights refer to the rights of property owners. </p>
-               <p>In his series of books on the figure of the <emph>homo sacer</emph>, Agamben names Arendt as a predecessor for his own understanding of biopolitics (<title level="m">Homo Sacer </title>3ff). According to Agamben, Arendt had profound insights
+                  by Karl Marx in his problematic essay <title level="a">On the Jewish
+                     Question</title> (1842), in which he argued that human rights refer to the
+                  rights of property owners. </p>
+               <p>In his series of books on the figure of the <emph>homo sacer</emph>, Agamben names
+                  Arendt as a predecessor for his own understanding of biopolitics (<title level="m"
+                     >Homo Sacer </title>3ff). According to Agamben, Arendt had profound insights
                   into the biopolitical logic of modernity, but she failed to firmly connect her
                   critique of the ‘unnatural growth of the natural’ and the problematic parameters
                   of human rights to her investigation of modern totalitarianisms. Agamben believes
                   that Arendt was not up to the task because she lacked the concepts Michel Foucault
                   eventually provided with his notion of biopolitics some twenty years after Arendt
-                  and without reference to her.<note resp="editors" xml:id="ftn1" place="foot" n="1"
+                  and without reference to her.<note resp="editors" place="foot"
                      >Among the most relevant texts by Michel Foucault on this subject belong the
                      following: <title level="m">History of Sexuality, Vol. 1</title>; <title
                         level="m">Security, Territory, Population</title>; <title level="m">The
@@ -349,8 +306,7 @@
                   is further complicated by the fact that Foucault introduced the term biopolitics
                   relatively late in life. He is certainly better known for his analyses of
                   disciplinary power, subject of his most famous studies on the clinic, the
-                  penitentiary and the mental asylum.<note resp="editors" xml:id="ftn2" place="foot"
-                     n="2">See <title level="m">The Birth of the Clinic</title> and <title level="m"
+                  penitentiary and the mental asylum.<note resp="editors" place="foot">See <title level="m">The Birth of the Clinic</title> and <title level="m"
                         >Discipline and Punish.</title>
                   </note> While boundaries between disciplinary power and biopolitics are certainly
                   more difficult to draw than those between sovereign and biopower, it is safe to
@@ -384,11 +340,11 @@
                   respective positions of life and death in the sense of the definition referred to
                   above, but also extends to the respective spheres in which sovereignty and
                   biopolitics are situated. Sovereignty is, for all intents and purposes, a legal
-                  discourse contingent on jurisprudence (and theology), whereas both disciplinary power 
-                  and particularly biopower develop technologies based on the kind of knowledge
-                  produced by newly emergent sciences such as biology and statistics in the late
-                  eighteenth century (whose legal codification in racial laws, for example, is
-                  secondary). This marks the very juncture where Agamben’s notion of biopolitics
+                  discourse contingent on jurisprudence (and theology), whereas both disciplinary
+                  power and particularly biopower develop technologies based on the kind of
+                  knowledge produced by newly emergent sciences such as biology and statistics in
+                  the late eighteenth century (whose legal codification in racial laws, for example,
+                  is secondary). This marks the very juncture where Agamben’s notion of biopolitics
                   diverges most obviously from Foucault. Agamben refuses to accept this historical
                   distinction and argues instead for a constitutive nexus of biopolitics and
                   sovereign power. According to Agamben, sovereign power has been biopolitics all
@@ -459,7 +415,7 @@
                   margins. With those and additional pieces on Robert Walser, for example, and his
                   re-discovery of Max Kommerell in mind (<title level="m">Potentialities</title>),
                   positive assertions of aesthetics seem very much in line with Agamben’s own
-                     interests.<note resp="editors" xml:id="ftn3" place="foot" n="3">Yet it is worth
+                     interests.<note resp="editors" place="foot">Yet it is worth
                      mentioning that in his early works Agamben is very much a critic of aesthetics
                      in the tradition of Heidegger and others. Cf. <title level="m">The Man without
                         Content</title>. </note> Indeed, much of the attraction he currently exerts
@@ -480,7 +436,7 @@
                   understanding of aesthetics, even took on the question of biopolitics and
                   aesthetics directly, seeking to distinguish Foucault’s disciplinary power from
                   aesthetic practice in an essay aptly entitled ‘Two kinds of exercise’ (‘Zweierlei
-                     Übung’).<note resp="editors" xml:id="ftn4" place="foot" n="4">See also Menke
+                     Übung’).<note resp="editors" place="foot">See also Menke
                      and Rebentisch. </note> However, none of these authors figures here. But it is
                   rather obvious that biopolitics appears to have assumed the place occupied by
                   older ideology critiques of aesthetics. At issue in all articles is aesthetics by
@@ -500,7 +456,7 @@
                   the different contributions to this volume, I would like to examine each a bit
                   more closely on its own terms before considering Lukáçs in the last section. </p>
             </div>
-            <div type="section" n="2">
+            <div type="section">
                <head>II</head>
                <p>Of the three contributions, Sara Guyer’s article on ‘Biopoetics’ is most obviously
                   programmatic in nature. What she proposes as ‘biopoetics’ is sharply distinguished
@@ -587,8 +543,8 @@
                   sovereignty that fails to govern, a poetic power that fails to animate. This
                   failure exposes the co-existence, even dependency of sovereign rhetoric and a
                   rhetoric of abandonment, failure, and impotence. The reason why the biopoetic as
-                  presented in this article could, in fact, be identified as the biopolitical itself,
-                  has to do with one of Agamben’s more interesting but less cited arguments.
+                  presented in this article could, in fact, be identified as the biopolitical
+                  itself, has to do with one of Agamben’s more interesting but less cited arguments.
                   According to him, the constitutive nexus between sovereign power and biopower lies
                   in the fact that the ultimate power of the sovereign (or, for that matter: the
                   law) is its ability to withdraw and suspend itself. By surrendering its powerful
@@ -705,7 +661,7 @@
                   defined notion of biopolitics and in part because she confines herself to tracing
                   the noticeable shifts affected by Mill’s discovery of Wordsworth. </p>
             </div>
-            <div type="section" n="3">
+            <div type="section">
                <head>III</head>
                <p>At one point in her article, Sara Guyer refers to Agamben’s notion of
                      <emph>forma-di-vita</emph>. While Agamben has neglected to elaborate this term
@@ -732,7 +688,7 @@
                   of the most sophisticated readings of Bergson to date, might have influenced his
                   terminological choice. More obviously, <emph>forma-di-vita</emph> is also a
                   reformulation of Heidegger’s <emph>Dasein.</emph>
-                  <note resp="editors" xml:id="ftn5" place="foot" n="5">See Agamben’s essay “Form of
+                  <note resp="editors" place="foot">See Agamben’s essay “Form of
                      Life,” in <title level="m">Means without End</title>. Though Agamben does not
                      cite Heidegger directly, most of the essay’s diction and content, however, very
                      clearly point back to § 9 of Heidegger’s <title level="m">Being and
@@ -755,8 +711,8 @@
                   Kafka, the law in “Before the Law” is said to be “in force but without
                   significance” (51). In the state of exception the law is stripped of any content
                   and “the empty potentiality is so much in force as to become indistinguishable
-                  from life” (51). Against this background Agamben raises the question of  whether there
-                  might be a “form of life (…) that corresponds to the form of law” (52). The
+                  from life” (51). Against this background Agamben raises the question of whether
+                  there might be a “form of life (…) that corresponds to the form of law” (52). The
                   dissolution of the ban with its peculiarly extreme relationship of relating by
                   not-relating would require, Agamben argues, to acknowledge that life and law, just
                   like Heidegger’s being and Being, do not have “the form of a relation” (60). He
@@ -777,8 +733,7 @@
                   perhaps be considered as figures whose life has been transformed into law, whereas
                   the comatose patient like the <emph>Muselmann</emph> might represent a law that
                   has become life. Disturbing as this prospect is, Agamben appears to have his hopes
-                  staked on this inversion:<note resp="editors" xml:id="ftn6" place="foot" n="6"
-                     >Ambivalent formulations are part of Agamben’s provocations. An example of
+                  staked on this inversion:<note resp="editors" place="foot">Ambivalent formulations are part of Agamben’s provocations. An example of
                      deliberate ambivalence can be found in the beginning of the chapter on
                      “Sovereignty and Bare Life”: “The ‘enigmas’ that our century has proposed to
                      historical reason and that remain with us (Nazism is only the most disquieting
@@ -883,8 +838,7 @@
                      the affirmation of life that seems to emanate from it as a mood is nothing
                      other than the resolving of its form-conditioned [<emph>formgeforderten</emph>]
                      dissonances, the affirmation of its own, form-created
-                        [<emph>formgeschaffenen</emph>] substance.<note resp="editors" xml:id="ftn7"
-                        place="foot" n="7">In an earlier passage, Lukáçs had written: “Art always
+                        [<emph>formgeschaffenen</emph>] substance.<note resp="editors" place="foot">In an earlier passage, Lukáçs had written: “Art always
                         says ‘And yet!’ to art” (72).</note> (128) </quote> The emphasis should be
                   on “form-conditioned” and “form-created”. The dissonances and their dissolution
                   into a meaningful totality are equally functions of the internal law of forms,
@@ -904,8 +858,7 @@
                   that “the world at any given moment is an ultimate principle; they are empirical
                   at their deepest, most decisive, all-determining transcendental base“ (46). A few
                   pages later, Lukáçs adds that all epic’s empiricity is “form-demanded
-                     [<emph>formgewollt</emph>]” (49).<note resp="editors" xml:id="ftn8"
-                     place="foot" n="8">The translation has been modified, since, unfortunately, the
+                     [<emph>formgewollt</emph>]” (49).<note resp="editors" place="foot">The translation has been modified, since, unfortunately, the
                      English rendition misses the point. </note> The ‘f<emph>ormgewollte</emph>’ or
                      ‘<emph>formgeforderte</emph>’ empiricism of all epic forms resists its
                   assimilation into a meaningful whole. Whenever an epic form attempts to do so in
@@ -960,8 +913,7 @@
                   becoming“ (72). This is why Lukáçs likes to invoke the novel as “the form of
                   mature virility” (85). It is a reminder of the fact that a life’s story is the
                   usual form of the novel and biography one of its essential possibilities. In
-                  short: the form of the novel is formed life.<note resp="editors" xml:id="ftn9"
-                     place="foot" n="9">For Lukáçs the life of the novel has to be an individual
+                  short: the form of the novel is formed life.<note resp="editors" place="foot">For Lukáçs the life of the novel has to be an individual
                      life in accordance with his premises. Rüdiger Campe, taking his cue from
                      Lukáçs, has shown that there is another, older type of novel not concerned with
                      the individual’s life but with the life of institutions, which resurfaces in
@@ -969,25 +921,26 @@
                      course. Campe identified novels by Kafka and Robert Walser as institutional
                      novels, and perhaps Dostoyevsky—whom Lukáçs exempts from his discussion of the
                      novel as an altogether new form—could also be read along these lines. See
-                     Campe, <title level="a">Robert Walsers Institutionenroman</title>. On the problem of form and the
-                     novel and the emergence of life in those theories, see also Campe, <title level="a">Form und
-                     Leben in der Theorie des Romans</title>. </note> The novel’s solution is thus not even
-                  to try to find meaning in any particular contents; rather in adapting the
-                  life-worldly fact of time as its form, the sheer becoming can now appear as
-                  essential and meaningful. This is how the novel can be like life but “as form, the
-                  novel establishes a fluctuating yet form balance between becoming and being; as
-                  the idea of becoming, it becomes a state [<emph>Zustand</emph>]. Thus the novel,
-                  by transforming itself into a normative being of becoming, surmounts itself” (73).
-                  In life, time has no beginning and no end, but the novel achieves the
-                  transformation of time into a process that subsequently appears as the very
-                  essence of all life. This is the novel’s chance to be the old epic’s legitimate
-                  successor and, at the same time, an entirely new epic form. This chance is highly
-                  improbable and the ways in which Lukáçs underscores the contingency of that form
-                  as a form bound to the contingencies of life is nothing less than remarkable. </p>
+                     Campe, <title level="a">Robert Walsers Institutionenroman</title>. On the
+                     problem of form and the novel and the emergence of life in those theories, see
+                     also Campe, <title level="a">Form und Leben in der Theorie des Romans</title>.
+                  </note> The novel’s solution is thus not even to try to find meaning in any
+                  particular contents; rather in adapting the life-worldly fact of time as its form,
+                  the sheer becoming can now appear as essential and meaningful. This is how the
+                  novel can be like life but “as form, the novel establishes a fluctuating yet form
+                  balance between becoming and being; as the idea of becoming, it becomes a state
+                     [<emph>Zustand</emph>]. Thus the novel, by transforming itself into a normative
+                  being of becoming, surmounts itself” (73). In life, time has no beginning and no
+                  end, but the novel achieves the transformation of time into a process that
+                  subsequently appears as the very essence of all life. This is the novel’s chance
+                  to be the old epic’s legitimate successor and, at the same time, an entirely new
+                  epic form. This chance is highly improbable and the ways in which Lukáçs
+                  underscores the contingency of that form as a form bound to the contingencies of
+                  life is nothing less than remarkable. </p>
                <p>The highly critical form of the novel “prescribes still stricter, still more
                   violable artistic laws for itself than do ‘the closed forms,’ and those laws are
                   all the more binding because they cannot be defined or formulated” (73).<note
-                     resp="editors" xml:id="ftn10" place="foot" n="10">The translation has been
+                     resp="editors" place="foot">The translation has been
                      modified since the translator elided part of the sentence. </note> Just as
                   time, which also inheres in the “sphere of mere life,” becomes the idea of process
                   when the novel adopts it as its organizing principle, the indefinable but strictly
@@ -1532,7 +1485,8 @@
                   <biblStruct>
                      <analytic>
                         <author>Sun, Emily</author>
-                        <title level="a"><ref target="praxis.2012.sun.html">What is Poetry in the Theater of Biopolitics?</ref></title>
+                        <title level="a"><ref target="praxis.2012.sun.html">What is Poetry in the
+                              Theater of Biopolitics?</ref></title>
                      </analytic>
                      <monogr>
                         <title level="m">Romanticism and Biopolitics</title>
