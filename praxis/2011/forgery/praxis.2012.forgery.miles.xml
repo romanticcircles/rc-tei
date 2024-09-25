@@ -1,39 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+
       <fileDesc>
+
          <titleStmt>
-            <title type="main">Romanticism, Forgery and the Credit Crunch</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
-            <title level="a"><title level="m">Emma</title> and Bank Bills: Forgery and Romanticism</title>
-            <author>
+            <!--  The reading texts should all be encoded as level="m"  -->
+            <title level="a"><title level="m">Emma</title> and Bank Bills: Forgery and
+               Romanticism</title>
+
+
+            <author role="primary">
                <name>Robert Miles</name>
             </author>
-            <editor role="editor">Ian Haywood</editor>
+
             <sponsor>Romantic Circles</sponsor>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+
          <publicationStmt>
-            <idno>praxis.2011.miles</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2011-08-01">August 1, 2011</date>
-            <availability status="restricted">
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
                <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
                   disseminated in any manner without authorization unless it is for purposes of
                   criticism, comment, news reporting, teaching, and/or classroom use as provided by
@@ -42,23 +57,21 @@
                   copyrighted by the author/editor and may be shared only in accordance with the
                   Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
                   statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
-                  <item>These texts and images may not be used for any commercial purpose without
-                     prior written permission from Romantic Circles.</item>
-                  <item>These texts and images may not be re-distributed in any forms other than
-                     their current ones.</item>
-               </list></p>
+                     <item>These texts and images may not be used for any commercial purpose without
+                        prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than
+                        their current ones.</item>
+                  </list></p>
                <p>Users are not permitted to download these texts and images in order to mount them
                   on their own servers. It is not in our interest or that of our users to have
                   uncontrolled subsets of our holdings available elsewhere on the Internet. We make
@@ -67,42 +80,62 @@
                   users. Institutions can, of course, make a link to the copies at Romantic Circles,
                   subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2012.forgery.miles</idno>
+            <idno type="resource">forgery</idno>
          </publicationStmt>
+
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main"><title level="m">Emma</title> and Bank Bills: Forgery and Romanticism</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main"><title level="m">Emma</title> and Bank Bills: Forgery
+                     and Romanticism</title>
+                  <author role="secondary">
                      <persName>
                         <forename>Robert</forename>
                         <surname>Miles</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/forgery/praxis.2012.forgery.miles"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+
+
                <monogr>
-                  <title level="m">Romanticism, Forgery and the Credit Crunch</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Knowledge Against Paper: Forgery, State Violence and Radical
+                     Cultural Resistance in the Romantic Period</title>
+                  <title level="s">Praxis</title>
+
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-12-01">December 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+
+
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
@@ -111,11 +144,12 @@
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+               <p>&#35; has been used for #, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have been
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -140,161 +174,77 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>This essay argues that Jane Austen’s <title level="m">Emma</title> offers the reader a complex reflection on the
-                     interpenetration of economic and aesthetic systems of value that developed
-                     in the aftermath of the suspension of cash payments in 1797, an interpenetration that is itself constitutive of Romanticism.</item>
-                  <item>Austen</item> 
-                  <item>Emma</item> 
-                  <item>Romanticism</item>
-                  <item>political economy</item>
-               </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
             <head>
-               <title level="a"><title level="m">Emma</title> and Bank Bills: Forgery and Romanticism</title></head>
-            <byline><docAuthor>Robert Miles</docAuthor><affiliation>University of Victoria</affiliation></byline>
+               <title level="a"><title level="m">Emma</title> and Bank Bills: Forgery and
+                  Romanticism</title></head>
+            <byline><docAuthor>Robert Miles</docAuthor><affiliation>University of
+                  Victoria</affiliation></byline>
             <p>Reviewing Austen’s <title level="m">Emma</title> Walter Scott sums up the denouement
                like this: <quote>Mr. Woodhouse’s objections to the marriage of his daughter are
                   overpowered by the fears of housebreakers, and the comfort which he hopes to
                   derive from having a stout son-in-law resident in the family; and the facile
                   affections of Harriet Smith are transferred, like a bank bill by indorsation, to
                   her former suitor, the honest farmer, who had obtained a favourable opportunity of
-                  renewing his addresses.<note resp="editors" xml:id="ftn1" place="foot" n="1">Walter
-                     Scott, Review of <title level="m">Emma</title>, in Southam, 70. </note>
+                  renewing his addresses.<note resp="editors" place="foot">Walter Scott, Review of <title level="m">Emma</title>, in Southam, 70. </note>
                </quote> Scott’s financial metaphor is deeply apt. In Emma’s speculative imagination,
                Harriet Smith is the illegitimate offspring of aristocratic, Whig capital, of
-               “nobility or wealth,”<note resp="editors" xml:id="ftn2" place="foot" n="2">Austen,
+               “nobility or wealth,”<note resp="editors" place="foot">Austen,
                      <title level="m">Emma</title>, 404. Subsequent references are cited
                   parenthetically in the text. </note> rather than what she proves to be, the
                natural daughter of a modest “tradesman” (403). Harriet’s history is introduced
@@ -318,11 +268,11 @@
             <p>The term “social imaginary” derives from Charles Taylor’s <title level="m">Modern
                   Social Imaginaries</title>. Taylor’s ultimate aim in this book is to substantiate
                his thesis that we had best speak of multiple modernities rather than a single,
-               uniform one; that <emph>pace</emph> the World Bank, putting in place a modern economy is not
-               simply a matter of pulling on the usual policy levers. In each culture a unique
-               social imaginary is at work, producing inevitable difference. The social imaginary
-               refers to the way—analogous to Benedict Anderson and communities—we imagine a
-               moral order, including that which legitimates it. Taylor aims to reveal the
+               uniform one; that <emph>pace</emph> the World Bank, putting in place a modern economy
+               is not simply a matter of pulling on the usual policy levers. In each culture a
+               unique social imaginary is at work, producing inevitable difference. The social
+               imaginary refers to the way—analogous to Benedict Anderson and communities—we imagine
+               a moral order, including that which legitimates it. Taylor aims to reveal the
                historical uniqueness of the social imaginary of the West over the last four hundred
                years, to those of us who live within it, where our social imaginary has become
                second nature, and unless prodded into introspection, invisible. </p>
@@ -377,15 +327,14 @@
                “theory” (30). </p>
             <p> The Romantic era looms large in all of Taylor’s many accounts of the history of the
                instantiation of what is now a salient aspect of our social imaginary, something we
-               familiarly know as the “economy“.<note resp="editors" xml:id="ftn3" place="foot" n="3"
-                  >Besides <title level="m">Social Imaginaries</title>, see Taylor 1989 and 2007.
-               </note> For Taylor it is a period of late transition and early consolidation, and
-               therefore Janus faced. Thus <title level="m">Emma</title>, which contains at once
-               “hierarchical complementarity” and the new moral order of equal acquisitive agents, a
-               tension comically evident, as we shall discover, in Emma’s transparent snobbery. So
-               when I say that in <title level="m">Emma</title> suspicions attaching to
-               readily-endorsed bank bills ramify within a newly shaped “social imaginary”, I mean a
-               process that goes very deep.</p>
+               familiarly know as the “economy“.<note resp="editors" place="foot">Besides <title level="m">Social Imaginaries</title>, see Taylor 1989 and
+                  2007. </note> For Taylor it is a period of late transition and early
+               consolidation, and therefore Janus faced. Thus <title level="m">Emma</title>, which
+               contains at once “hierarchical complementarity” and the new moral order of equal
+               acquisitive agents, a tension comically evident, as we shall discover, in Emma’s
+               transparent snobbery. So when I say that in <title level="m">Emma</title> suspicions
+               attaching to readily-endorsed bank bills ramify within a newly shaped “social
+               imaginary”, I mean a process that goes very deep.</p>
             <p>The point can be illustrated through an argument Lynn Hunt makes about how, for the
                population at large, the French Revolution was mediated through the family romance
                (Hunt). Prior to the Revolution the king was commonly regarded as the father of the
@@ -442,7 +391,7 @@
                common and daily use could you anonymously slip them into circulation, and then
                disappear; hence, as Ian Haywood explains, the draconian practice of stringing up any
                unfortunate wretch insufficiently eagle-eyed to catch the minute signs of the
-               counterfeiter’s art.<note resp="editors" xml:id="ftn4" place="foot" n="4">See
+               counterfeiter’s art.<note resp="editors" place="foot">See
                   Haywood’s essay in this volume. </note> Before special paper, with unreproducible
                water-marks (let alone holograms) counterfeiters were on the whole even more skilled
                than their engraving counterparts in the treasury; and whatever the treasury could
@@ -477,8 +426,8 @@
             <p>The hinge, linking the two systems, is forgery. In recent years there has been a
                great deal of critical interest in the history of literary forgery, an interest K.K.
                Ruthven links to “two intellectual developments in the final decades of the twentieth
-               century”: “post-structuralist critical theory” and the “continuing anatomy of . . . 'the
-               postmodern condition'“. The first forced a rethinking of traditional assumptions
+               century”: “post-structuralist critical theory” and the “continuing anatomy of . . .
+               'the postmodern condition'“. The first forced a rethinking of traditional assumptions
                about “authorship, originality, authenticity and value” while the second
                fundamentally undermined commonsense apprehensions of the real and the simulated
                (Ruthven, 63). The eighteenth-century habit of positing the ideal of “original
@@ -494,7 +443,7 @@
                attributed to a long-dead poet), with the criminal act of counterfeiting bank bills?
                Blackstone in his <title level="m">Commentaries</title> (1769) appears to provide an
                answer: “the fraudulent making or alteration of a writing to the prejudice of another
-               man’s right.”<note resp="editors" xml:id="ftn5" place="foot" n="5">See the entry on
+               man’s right.”<note resp="editors" place="foot">See the entry on
                   forgery in the <title level="m">Oxford English Dictionary</title>. </note> Prior
                to the suspension of 1797, most forged bills were to the detriment of a named
                individual, fraudulently endorsed (rather than to a faceless bank). Blackstone’s
@@ -528,7 +477,7 @@
                   write those manuscripts but Shakespeare; that when Mr Ireland was discovered to be
                   the real author, the whole band of literary ruffians fell upon him, and would have
                   destroyed him, if they had been able, with as little remorse as men destroy a mad
-                     dog...<note resp="editors" xml:id="ftn6" place="foot" n="6">The article is W.H.
+                     dog...<note resp="editors" place="foot">The article is W.H.
                      Ireland’s obituary from Cobbett’s <title level="j">Register</title>, but is
                      pasted in, without date or page numbers, in British Library Manuscript BL 37,
                      831. </note>
@@ -560,10 +509,10 @@
             <p>And that is, that <title level="m">Emma</title> is a deeply meditated work on the
                same interpenetration of literary and economic systems of value that we found in
                Cobbett’s analysis of Ireland’s persecution. We can start with the fact that Highbury
-               is sixteen miles South of London, in Surrey—insofar as Austen had a location in
-               mind, it was Leatherhead, the epicentre of what is now the stockbroker belt. The
-               obvious point—for contemporary readers, screamingly so—is that the Woodhouses are
-                  rentiers.<note resp="editors" xml:id="ftn7" place="foot" n="7">Beth Tobin
+               is sixteen miles South of London, in Surrey—insofar as Austen had a location in mind,
+               it was Leatherhead, the epicentre of what is now the stockbroker belt. The obvious
+               point—for contemporary readers, screamingly so—is that the Woodhouses are
+                  rentiers.<note resp="editors" place="foot">Beth Tobin
                   speculates that the Woodhouse fortune “was most likely made by someone who retired
                   to Highbury, not far from London and its money market, where he could have bought
                   and sold stocks in corporations and colonialist ventures like the East India or
@@ -587,7 +536,7 @@
                out”. As Shinobu Minma observes, “we may assume that the progenitor of the Hartfield
                Woodhouses was a younger brother in a landed family, who entered trade, made his
                fortune, purchased the Hartfield estate (from the Knightleys no doubt) and settled in
-                  Highbury.”<note resp="editors" xml:id="ftn8" place="foot" n="8">Quoted in
+                  Highbury.”<note resp="editors" place="foot">Quoted in
                   Parrinder, 198. </note>
             </p>
             <p> Of course stock-jobbers and kindred scoundrels are always trying to cash-out: as the
@@ -595,8 +544,7 @@
                word for the phenomenon: “realise”. Here is the OED defining the word: <quote>To
                   convert (securities, paper money, etc.) into cash, or (property of any kind) into
                   money. After F. <emph>réaliser</emph>, first used <emph>c</emph> 1719 in connexion
-                  with the speculations over Law’s scheme,<note resp="editors" xml:id="ftn9"
-                     place="foot" n="9"> John Law’s Mississippi scheme in France was the inspiration
+                  with the speculations over Law’s scheme,<note resp="editors" place="foot"> John Law’s Mississippi scheme in France was the inspiration
                      for the South Sea bubble. </note> in the sense of converting securities into
                   cash or permanently valuable property. Hence Johnson, perhaps influenced by the
                   phrase “real property”, gives as one sense of the word “To convert money into
@@ -610,7 +558,7 @@
                best circles, to Emma’s chagrin. The obvious point, for a contemporary reader, is
                that Emma is drawing distinctions without a difference; or rather, the slight
                difference of the Woodhouses being superior to the Coles, by dint of cashing out a
-               generation or two earlier.<note resp="editors" xml:id="ftn10" place="foot" n="10">For
+               generation or two earlier.<note resp="editors" place="foot">For
                   a contemporary notice commenting on the middling nature of Highbury’s residents,
                   and the slight degree of social difference among them, see Anon (1816). </note>
                The irony is equally broad in this passage (Emma is explaining to Harriet why Robert
@@ -626,8 +574,7 @@
                speculation, his attempt at the “high farming” as it was called, that was then
                transforming British agriculture, as the speculative boom involved capital investment
                in land, in new farming methods that were reaping strong returns owing to the
-               unprecedented high prices in corn.<note resp="editors" xml:id="ftn11" place="foot"
-                  n="11">For instance, in 1815, Thomas Malthus observed that there had been "a great
+               unprecedented high prices in corn.<note resp="editors" place="foot">For instance, in 1815, Thomas Malthus observed that there had been "a great
                   consequent extension of cultivation and improvement," especially over the last
                   seven years: "the system of spirited improvement and high farming, as it is
                   technically called, has been principally encouraged by the progressive rise of
@@ -638,59 +585,60 @@
                are on their way down, while high farmers and capital speculators such as Robert
                Martin are on their way up. Emma notes this without quite taking it in (she predicts
                Robert Martin will be rich in time). </p>
-            <p>How broad is the irony? “. . .his share of the family property . . . is . . . all afloat, all employed in his
-               stock”. Note the pun on stock (obviously livestock, but also the financial variety).
-               The pun develops the double meaning of Robert Martin as a high farmer (a passion he
-               incidentally shares with Mr. Knightley), but it also brings out this latent irony:
-               Emma is talking as the very thing she is: a speculator, who is, herself, the daughter
-               of speculators (that is, business people), who have realised themselves, having
-               cashed out.</p>
-            <p>The novel has a word for this conjunction of the two senses of speculation: Emma,
-               we are told, is an “imaginist...on fire with speculation and foresight!” (295). The
+            <p>How broad is the irony? “. . .his share of the family property . . . is . . . all
+               afloat, all employed in his stock”. Note the pun on stock (obviously livestock, but
+               also the financial variety). The pun develops the double meaning of Robert Martin as
+               a high farmer (a passion he incidentally shares with Mr. Knightley), but it also
+               brings out this latent irony: Emma is talking as the very thing she is: a speculator,
+               who is, herself, the daughter of speculators (that is, business people), who have
+               realised themselves, having cashed out.</p>
+            <p>The novel has a word for this conjunction of the two senses of speculation: Emma, we
+               are told, is an “imaginist...on fire with speculation and foresight!” (295). The
                conjunction is also evident in the novel’s core plot device, where Emma speculates on
                Harriet Smith’s origin. Emma prefers romance (Harriet is the natural daughter of a
                Merchant Prince, or Whig Grandee, someone, ideally, combining both nobility and
                wealth, so “bleaching” the stain of her dodgy origin [404]), but has to learn
                novelistic realism (Harriet’s father is a tradesman decent enough to remain
-               anonymous). In its sly way, <title level="m">Emma</title> is also a novel about novel-writing. As someone who
-               speculates, and predicts marriage, Emma is linked—at least theoretically—with the
-               main business of the novel, of narrating marriage. When she takes on her protégé,
-               Harriet Smith, the theoretical point becomes practical: in developing Harriet, Emma
-               speculates through the medium of romance conventions, much as Catherine Morland does.
-               She views the world through the prism of the wrong kind of novels. At the same time,
-               the Harriet Smith romance encapsulates the main fear of Tory ideology: that feckless,
-               irresponsible, illegitimate capital (engendered in the City) will be set lose to
-               circulate freely, transforming the shires, by turning the social order upside down.
-               With this allegorical dimension in mind, the gypsy episode is ironically inverted:
-               the real menace, is not the raggedy offspring of a few tinkers, but Harriet Smith,
-               the ambulatory bank note, the daughter of God-knows-who, who promises capital
-               transformation (in Emma’s speculation), a threat further ironically intensified given
-               the hero’s association with the Churchills. Frank Churchill, who gallantly disperses
-               the gypsies, is the adopted son of the self-same class of Whig nabobs who are the
-               putative parents of illegitimate Harriet. Where legitimacy is defined by land, a form
-               of property where the social contract (of obligations and responsibilities, as well
-               as privilege) is legible to all, capital has the taint of illegitimacy, or
-               irresponsible pleasure. Frank himself generates the hugger-mugger Tory ideologues
-               typically associated with large city fortunes. In other words, <title level="m"
-                  >Emma</title> reprises the plot of <title level="m">Northanger Abbey</title> where
-               a romance-addled heroine is unable to recognize the very thing that obsesses her when
-               it’s in front of her face: in Emma’s case, the perils of new (City) money and
-               marriage across class lines. Even as she spurns the Coles, as socially illegitimate
-               new money, she promotes Harriet (its epitome). </p>
+               anonymous). In its sly way, <title level="m">Emma</title> is also a novel about
+               novel-writing. As someone who speculates, and predicts marriage, Emma is linked—at
+               least theoretically—with the main business of the novel, of narrating marriage. When
+               she takes on her protégé, Harriet Smith, the theoretical point becomes practical: in
+               developing Harriet, Emma speculates through the medium of romance conventions, much
+               as Catherine Morland does. She views the world through the prism of the wrong kind of
+               novels. At the same time, the Harriet Smith romance encapsulates the main fear of
+               Tory ideology: that feckless, irresponsible, illegitimate capital (engendered in the
+               City) will be set lose to circulate freely, transforming the shires, by turning the
+               social order upside down. With this allegorical dimension in mind, the gypsy episode
+               is ironically inverted: the real menace, is not the raggedy offspring of a few
+               tinkers, but Harriet Smith, the ambulatory bank note, the daughter of God-knows-who,
+               who promises capital transformation (in Emma’s speculation), a threat further
+               ironically intensified given the hero’s association with the Churchills. Frank
+               Churchill, who gallantly disperses the gypsies, is the adopted son of the self-same
+               class of Whig nabobs who are the putative parents of illegitimate Harriet. Where
+               legitimacy is defined by land, a form of property where the social contract (of
+               obligations and responsibilities, as well as privilege) is legible to all, capital
+               has the taint of illegitimacy, or irresponsible pleasure. Frank himself generates the
+               hugger-mugger Tory ideologues typically associated with large city fortunes. In other
+               words, <title level="m">Emma</title> reprises the plot of <title level="m">Northanger
+                  Abbey</title> where a romance-addled heroine is unable to recognize the very thing
+               that obsesses her when it’s in front of her face: in Emma’s case, the perils of new
+               (City) money and marriage across class lines. Even as she spurns the Coles, as
+               socially illegitimate new money, she promotes Harriet (its epitome). </p>
             <p>One could argue that Harriet is a counterfeit banknote, in that she is, from Emma’s
-               perspective, a “fake”, but that is taking the allegory too far. The point, rather, is that two competing discourses inhabit the same space in the novel, and through the punning
-               capacity of language, often the same words. You can try the experiment. Get an e-text
-               of the novel and plug in “resources”, “speculate”, “improve”, “stock”, “credit”,
-               “realize”: the terms recur, pointedly. The competing discourses are drawn from
-               aesthetics and economics, where the correction of one kind of speculation (the
+               perspective, a “fake”, but that is taking the allegory too far. The point, rather, is
+               that two competing discourses inhabit the same space in the novel, and through the
+               punning capacity of language, often the same words. You can try the experiment. Get
+               an e-text of the novel and plug in “resources”, “speculate”, “improve”, “stock”,
+               “credit”, “realize”: the terms recur, pointedly. The competing discourses are drawn
+               from aesthetics and economics, where the correction of one kind of speculation (the
                economic) is linked to the improvement of another (novel-writing). </p>
             <p>Austen’s fascination with the dismal science arguably pervades her work, but most
                notably <title level="m">Emma</title>, <title level="m">Mansfield Park</title>, and
                   <title level="m">Sanditon</title>. It is not a sign of her famed Enlightenment
                realism; rather, it is where she is at her most Romantic, for it is through her
                economic interests that she finds a language for exploring a world where value is
-               inescapably contingent. Contingent value is not thematized in her novels—rather it
-               is part of the web-and-woof of a social imaginary that in a manner of speaking thinks
+               inescapably contingent. Contingent value is not thematized in her novels—rather it is
+               part of the web-and-woof of a social imaginary that in a manner of speaking thinks
                itself out through the medium of her novels.</p>
             <p> I want to conclude by considering the aspect of the novel that most severely tries
                my interpretation: the idealization of Knightley and Donwell Abbey. The marriage
@@ -703,54 +651,53 @@
                draws the community together, transforming it (through self-regulation) into a living
                example of the Tory ideal. Emma’s epiphany, when she strolls around Knightley’s
                grounds, as she escapes the wretched Mrs. Elton and her inane mercantile chatter,
-               appears Austen’s own, ventriloquized by Edmund Burke: “It was a sweet view—sweet
-               to the eye and the mind. English verdure, English culture, English comfort, seen
-               under a sun bright, without being oppressive” (315). At the heart of this glorious,
-               organic, vital media is a crucial representation of social relation: “The considerable
-               slope, at nearly the foot of which the Abbey stood, gradually acquired a steeper form
-               beyond its grounds; and at half a mile distant was a bank of considerable abruptness
-               and grandeur, well clothed with wood; and at the bottom of this bank, favourably
-               placed and sheltered, rose the Abbey-Mill Farm, with meadows in front, and the river
-               making a close and handsome curve around it” (315). Knightley, and Robert Martin, the
-               Abbey and the Abbey-Mill farm, seem chthonically present, as if spontaneously grown
-               from the sinuous earth, as close as one can get, in a realist novel, to an
-               instantiation of the ontic force of “hierarchical complementarity”. On this reading,
-               the mysterious power that makes the English home counties the home counties of
-               England, and nowhere else—continuous across space and time, a unique identity
-               enduring through the aeons—is made manifest in the novel as the healing force that
-               repairs notches in ancient estates, excludes frightful sorts like the Eltons, while
-               lodging dangerous females (wild imaginists and ambulatory banknotes alike) snugly
-               within the confines of appropriate marriages. </p>
+               appears Austen’s own, ventriloquized by Edmund Burke: “It was a sweet view—sweet to
+               the eye and the mind. English verdure, English culture, English comfort, seen under a
+               sun bright, without being oppressive” (315). At the heart of this glorious, organic,
+               vital media is a crucial representation of social relation: “The considerable slope,
+               at nearly the foot of which the Abbey stood, gradually acquired a steeper form beyond
+               its grounds; and at half a mile distant was a bank of considerable abruptness and
+               grandeur, well clothed with wood; and at the bottom of this bank, favourably placed
+               and sheltered, rose the Abbey-Mill Farm, with meadows in front, and the river making
+               a close and handsome curve around it” (315). Knightley, and Robert Martin, the Abbey
+               and the Abbey-Mill farm, seem chthonically present, as if spontaneously grown from
+               the sinuous earth, as close as one can get, in a realist novel, to an instantiation
+               of the ontic force of “hierarchical complementarity”. On this reading, the mysterious
+               power that makes the English home counties the home counties of England, and nowhere
+               else—continuous across space and time, a unique identity enduring through the
+               aeons—is made manifest in the novel as the healing force that repairs notches in
+               ancient estates, excludes frightful sorts like the Eltons, while lodging dangerous
+               females (wild imaginists and ambulatory banknotes alike) snugly within the confines
+               of appropriate marriages. </p>
             <p> This “heritage” fantasy is indisputably at work in the novel, but it works as one
                pole in irresolvable tension with another reality, of independent, and equal,
                economic actors, engaged in a mutual-aid society, as they seek to prosper in giddy
-               financial times. For if <title level="m">Emma</title> was written at a time of faltering boom, it was quickly
-               followed by a spectacular bust.<note resp="editors" xml:id="ftn12" place="foot" n="12"
-                  >For the timing of the novel’s composition see Miles (2003-04). </note> Hence the
-               stress on what Robert Martin and George Knightley have in common: an insatiable
-               appetite for “information”, especially information relating to “improvement”—another of the novel’s key terms. “Improvement” resonates ironically in the text, as
-               the watch word of enclosures, engrossments, and the capital transformation of land at
-               a time of rising prices and rents: it’s what Robert Martin does with his sheep, and
-               other farmers with oxen, and what Emma does with Harriet, even as Mr. Knightley
-               wishes that Emma would exert more effort in her own reading, to improve herself. When
-               Mr. Knightley says he can as “ill spare Robert Martin” (397) as his canny steward,
-               William Larkins, he means, not the umbilical connection of master and tenant farmer,
-               but a collaborator in their joint project of improving their lands and profits. The
-               social imaginary in which <title level="m">Emma</title> ramifies, is a modern one of
-               equal, mutually dependent actors where the older moral outlook exists as an outdated
-               cast of mind satirized through Emma’s snobbery, and as an idealization ironically
-               presented as just that: the era of “gold standards” has passed, and ever-shifting
-               relation ushered in. As Alex Dick notes, the “gold standard” was first conceptualized
-               in the course of the bullion controversy, at which point it was retrospectively
-               projected onto the past, onto the era preceding the suspension of cash-payments in
-               1797, as a fantasy of origin.<note resp="editors" xml:id="ftn13" place="foot" n="13"
-                  >See the essay in this volume.</note>
+               financial times. For if <title level="m">Emma</title> was written at a time of
+               faltering boom, it was quickly followed by a spectacular bust.<note resp="editors" place="foot">For the timing of the novel’s composition see
+                  Miles (2003-04). </note> Hence the stress on what Robert Martin and George
+               Knightley have in common: an insatiable appetite for “information”, especially
+               information relating to “improvement”—another of the novel’s key terms. “Improvement”
+               resonates ironically in the text, as the watch word of enclosures, engrossments, and
+               the capital transformation of land at a time of rising prices and rents: it’s what
+               Robert Martin does with his sheep, and other farmers with oxen, and what Emma does
+               with Harriet, even as Mr. Knightley wishes that Emma would exert more effort in her
+               own reading, to improve herself. When Mr. Knightley says he can as “ill spare Robert
+               Martin” (397) as his canny steward, William Larkins, he means, not the umbilical
+               connection of master and tenant farmer, but a collaborator in their joint project of
+               improving their lands and profits. The social imaginary in which <title level="m"
+                  >Emma</title> ramifies, is a modern one of equal, mutually dependent actors where
+               the older moral outlook exists as an outdated cast of mind satirized through Emma’s
+               snobbery, and as an idealization ironically presented as just that: the era of “gold
+               standards” has passed, and ever-shifting relation ushered in. As Alex Dick notes, the
+               “gold standard” was first conceptualized in the course of the bullion controversy, at
+               which point it was retrospectively projected onto the past, onto the era preceding
+               the suspension of cash-payments in 1797, as a fantasy of origin.<note resp="editors" place="foot">See the essay in this volume.</note>
             </p>
             <p>J.G.A. Pocock influentially argued that the rise of a polite and commercial society
                in the eighteenth century eclipsed the mentality in which land was automatically
                assumed to be the proper source of wealth and the true foundation of political
-                  legitimacy.<note resp="editors" xml:id="ftn14" place="foot" n="14"> See Pocock, who
-                  makes it clear that the ideal of a settled landed interest was a later
+                  legitimacy.<note resp="editors" place="foot"> See Pocock,
+                  who makes it clear that the ideal of a settled landed interest was a later
                   retrospective simplification of the past.</note> But as Beth Tobin notes, although
                this ideal had waned, it began to wax after the post-Waterloo economic crash as an
                ideological defence of the corn laws that were used to prop up farming prices, thus
