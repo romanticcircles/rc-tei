@@ -1,124 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Robert Bloomfield: The Inestimable Blessing of Letters</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">The Talk of the Tap-Room: Bloomfield, Politics, and Popular
                Culture</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Peter Denney</name>
             </author>
-            <editor role="editor">John Goodridge</editor>
-            <editor role="editor">Bridget Keegan</editor>
+            
+           
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.denney</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">March 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2012.bloomfield.denney</idno>
+            <idno type="resource"
+               >bloomfield</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">The Talk of the Tap-Room: Bloomfield, Politics, and
-                     Popular Culture</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">The Talk of the Tap-Room: Bloomfield, Politics, and Popular
+                     Culture
+                  </title>
+                  
+                  <author role="secondary">
                      <persName>
                         <forename>Peter</forename>
                         <surname>Denney</surname>
                      </persName>
                   </author>
+                  
+                 
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/bloomfield/praxis.2012.bloomfield.denney"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Robert Bloomfield: The Inestimable Blessing of Letters</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >Robert Bloomfield: The Inestimable Blessing of Letters</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-03-01">March 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -127,7 +170,6 @@
             <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
             <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
             <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
@@ -140,163 +182,65 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>Robert Bloomfield's letters document one artist’s struggles (and sometimes
-                     his victories) to share his unique voice and vision; the online publication of
-                     his extant letters (a companion to this collection of essays) reveals new and
-                     exciting insights into Bloomfield the artist and the man. The essays included
-                     in this collection highlight and draw attention to aspects of Bloomfield's
-                     literary production that would likely not be possible without the full access
-                     to his letters that the edition provides, and make a strong case for why
-                     Bloomfield continues to be worthy of study. They suggest how much more remains
-                     to be said about this prolific poet. </item>
-                  <item>Robert Bloomfield</item>
-                  <item>pastoral</item>
-                  <item>labouring-class poetry</item>
-                  <item>rural labour</item>
-                  <item>psychopathology</item>
-                  <item>shoemaker</item>
-                  <item>London</item>
-                  <item>Honiton</item>
-                  <item>Capel Lofft</item>
-                  <item>James Thomson</item>
-                  <item>The Seasons</item>
-                  <item>Romantic poetry</item>
-                  <item>literary biography</item>
-               </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Michael Quilligan</name>
-            <date>2010-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+   
    <text>
       <body>
          <div type="essay">
@@ -319,7 +263,7 @@
                   the low burlesques of street literature (27). From Stephen Duck to John Clare, the
                   laboring-class poet was expected by the polite to conform to a model of exemplary
                   private virtue, diligent, dutiful, and suitably distanced from what were perceived
-                  to be the vulgar elements of collective plebeian life.<note n="1" place="foot"
+                  to be the vulgar elements of collective plebeian life.<note place="foot"
                      resp="author">For the polite reception of plebeian poetry in these terms, see
                      Christmas 48-49.</note> But this image acquired a new urgency with the growth
                   of popular radicalism in the late eighteenth century, and especially amidst the
@@ -424,7 +368,7 @@
                   natural genius flourished in polite society at the same time as the political
                   horizons of plebeians were broadening, a development initiated by the Wilkes
                   affair and then massively escalated by the British response to the French
-                     Revolution.<note n="2" place="foot" resp="author">For an unrivalled account of
+                     Revolution.<note place="foot" resp="author">For an unrivalled account of
                      this long view of the development of popular radicalism, see Clark
                      141-57.</note> The rehabilitation of Shakespeare and the cult of Ossian,
                   together with a new degree of emphasis on the primitivism of “peasant” poetry, all
@@ -446,7 +390,7 @@
                   upwardly aspiring artisans away from the expanding sphere of popular radicalism.
                   The significance of this is reinforced by the fact that not only did many plebeian
                   reformers have literary aspirations, but, besides politics, poetry was the primary
-                  means by which artisans could satisfy their intellectual ambitions.<note n="3"
+                  means by which artisans could satisfy their intellectual ambitions.<note
                      place="foot" resp="author">Perhaps the most intriguing example of the literary
                      aspirations of plebeian political activists is the case of the London
                      Corresponding Society member Richard “Citizen” Lee, as described by Mee
@@ -527,7 +471,7 @@
                   politics. This was particularly true for the prototypical plebeian poet, who was
                   routinely represented as a child of nature, a figure unassisted by civilization,
                   and therefore implicitly deficient in such mature, masculine attributes as reason,
-                  self-command, and foresight.<note n="4" place="foot" resp="author">For an
+                  self-command, and foresight.<note place="foot" resp="author">For an
                      excellent analysis of the way in which the “Child of Nature” trope restricted
                      the autonomy and authority of laboring-class poets, see Richardson
                      247-59.</note>
@@ -572,8 +516,7 @@
                   opposed to collective artisan activity (15 [1800]: 602). Yet, like most shoemaker
                   poets, Bloomfield remained proud of his artisan heritage, and he greatly admired
                   the socialized forms of knowledge generated in the workshop, an environment which
-                  played a formative role in nurturing his intellectual and poetic endeavors.<note
-                     n="5" place="foot" resp="author">The public orientation of much shoemaker
+                  played a formative role in nurturing his intellectual and poetic endeavors.<note place="foot" resp="author">The public orientation of much shoemaker
                      poetry, along with its expression of craft pride, often defied the model of
                      natural genius, as revealed by Keegan 195-217.</note> “In our trade,” he wrote,
                   “when any one reads the newspapers or a book, by the neighbourly custom of sitting
@@ -604,7 +547,7 @@
                <p>But the idea of natural genius could also serve a decidedly radical purpose, and
                   George Dyer, for one, claimed to delight in those very “questionable” reflections
                   on the harvest home, which did, indeed, highlight the injustice and degeneracy of
-                  contemporary society.<note n="6" place="foot" resp="author">This is not
+                  contemporary society.<note place="foot" resp="author">This is not
                      surprising, given that Dyer had recently written a pamphlet, frequently quoted
                      in the plebeian radical press, which listed many of the same developments that
                      Bloomfield identified in the harvest home passage as causes of the oppression
@@ -612,7 +555,7 @@
                      profits of farmers” and “the extravagancies and luxuries of individuals”
                      (103).</note> A friend of Wordsworth, Dyer combined the identities of poet and
                   political activist during the 1790s, publishing several radical pamphlets and
-                  actively participating in the democratic reform movement.<note n="7" place="foot"
+                  actively participating in the democratic reform movement.<note place="foot"
                      resp="author">For an account of Dyer’s literary and political activities and
                      preoccupations during the 1790s, see Roe 19-42.</note> Through Capel Lofft, he
                   met and became friends with Bloomfield, whom he introduced into his polite
@@ -650,7 +593,7 @@
                   magazine as an oppressed genius, whose neglect exemplified the prejudice of polite
                   culture and its associated refusal to encourage talent in and diffuse knowledge
                   among laboring people (<title level="j">Moral and Political Magazine</title> 2
-                  [1797]: 48).<note n="8" place="foot" resp="author">For the contradictory image of
+                  [1797]: 48).<note place="foot" resp="author">For the contradictory image of
                      Burns in radical culture, see Janowitz 67-69.</note> But such an argument was
                   even more fraught with ambivalence. For it focused on the talent of the
                   “untaught,” “primitive” poet in order to justify an enlightenment belief in the
@@ -661,7 +604,7 @@
                   the preface to <title level="m">The Farmer’s Boy</title>, it was noted that the
                   poet’s literary ambitions were fostered by a range of cultural institutions
                   available to artisan men in late eighteenth-century London, including newspapers,
-                  periodicals, dissenting meeting houses, and debating societies.<note n="9"
+                  periodicals, dissenting meeting houses, and debating societies.<note
                      place="foot" resp="author">For some reflections on the kind of ideas Bloomfield
                      encountered in these institutions, see Lucas 58-61.</note> But in a footnote,
                   Lofft glossed the present state of one of these institutions after the passing of
@@ -689,7 +632,7 @@
                   despised” he wrote to George, his most trusted correspondent during the early
                   stages of his career; and he then added “I should like to gossip with you face to
                   face . . . particularly on the subject of englands boast ‘the liberty of the
-                  press’” (letter 133, 10 June 1804).<note n="10" place="foot" resp="author">Of
+                  press’” (letter 133, 10 June 1804).<note place="foot" resp="author">Of
                      course, the notion of the freedom of the press as the “palladium of British
                      liberty” had a manifold range of political alignments and uses, as examined by
                      Keen 25-75.</note> But Bloomfield was a pragmatist rather than an ideologue,
@@ -753,7 +696,7 @@
                   of those writers who “profess to illuminate as well as to delight the public by
                   their poetical productions; and who think that questions of statistical and
                   political œconomy can be advantageously discussed in a series of descriptive
-                  couplets” (<title level="j">Monthly Review</title> 40 [1803]: 98).<note n="11"
+                  couplets” (<title level="j">Monthly Review</title> 40 [1803]: 98).<note
                      place="foot" resp="author">The reviewer ridiculed the basic premise of <title
                         level="m">The Peasants Fate</title>, as described in the poem’s preface:
                      “The drift of this little attempt is principally designed, (without adverting
@@ -792,7 +735,7 @@
                   “In his notes respecting Newspapers and Debating societies,” the poet later wrote
                   of his patron, “he had originally written and pertinaciously retained a downright
                   attack upon Government. . . . I still wish it was not there, for, I am not a
-                  politician, nor never shall be” (letter 198, 19 November 1806).<note n="12"
+                  politician, nor never shall be” (letter 198, 19 November 1806).<note
                      place="foot" resp="author">Bloomfield had also included a political gloss on
                      the harvest home passage in <title level="m">The Farmer’s Boy</title> in the
                      form of a paratextual quotation from the work of the naturalist on Cook’s
@@ -853,7 +796,7 @@
                   suggest that Bloomfield saw himself as a model of self-improvement, whose literary
                   talents and endeavors elevated him above his fellow artisans and laborers. Yet,
                   even though Bloomfield demonstrated an ambivalent attitude to popular
-                     culture,<note n="13" place="foot" resp="author">See, for example, letter 199:
+                     culture,<note place="foot" resp="author">See, for example, letter 199:
                      “I cannot help observing the great difference between an illdresst and a
                      well-dresst mob, and I must indeed be unfeeling and ungenerous to acknowledge
                      it. In our National Theatres I have often sided so far with the Patricians as
@@ -869,7 +812,7 @@
                   me would expect, or than the severe will be inclined to approve” (x-xi). For
                   Windham, of course, the promotion of robust, manly pastimes and festivities was an
                   unabashed mode of social control, aimed at securing the contentment of the
-                  laboring poor.<note n="14" place="foot" resp="author">To some extent, Windham’s
+                  laboring poor.<note place="foot" resp="author">To some extent, Windham’s
                      perception of laboring people as an army in reserve might well have added to
                      Bloomfield’s anger. For he expressed frequent opposition to war and, in 1803,
                      when an upsurge in chauvinism witnessed even radicals support the war with
@@ -890,7 +833,7 @@
                      level="m">May Day with the Muses</title>, this progressive commitment to
                   democratizing the republic of letters, to spreading the “<emph>Empire of the
                      Mind</emph>,” as he called it, could and did coexist with a belief in the
-                  dignity of the culture of laboring people.<note n="15" place="foot" resp="author"
+                  dignity of the culture of laboring people.<note place="foot" resp="author"
                      >For an illuminating analysis of <title level="m">May Day with the
                         Muses</title> in these terms, see White 121-46.</note>
                </p>
@@ -923,7 +866,7 @@
                   participate in any form of polite culture, particularly one such as poetry which
                   privileged imagination over fact, was inevitably to weaken the resolve, distort
                   the mind, and so endorse the progress of refinement, with all its attendant evils
-                  of luxury, corruption, and social inequality.<note n="16" place="foot"
+                  of luxury, corruption, and social inequality.<note place="foot"
                      resp="author">For Cobbett’s privileging of fact over imagination, along with
                      his associated skepticism of polite culture, see Whale 141-47.</note> For
                   Cobbett, then, any decision Bloomfield might have made not to include politics in
@@ -963,7 +906,7 @@
                   Tooke and the plebeian dissident Thomas Hardy, but he had the “misfortune to be
                   born only six miles from the birthplace of Tom Paine!” (letter 354, 31 May-1 June
                   1821).</p>
-            </div>
+          
             <div type="citation">
                <head>Works Cited</head>
                <listBibl>
@@ -1531,6 +1474,7 @@
                      </monogr>
                   </biblStruct>
                </listBibl>
+            </div>
             </div>
          </div>
       </body>

@@ -1,124 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Robert Bloomfield: The Inestimable Blessing of Letters</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Bloomfield in His Letters: The Social World of a London Shoemaker
                Turned Suffolk Poet</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Tim Fulford</name>
             </author>
-            <editor role="editor">John Goodridge</editor>
-            <editor role="editor">Bridget Keegan</editor>
+            
+            
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.fulford</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">March 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2012.bloomfield.fulford</idno>
+            <idno type="resource"
+               >bloomfield</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Introduction: The Inestimable Blessing of
-                     letters</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Bloomfield in His Letters: The Social World of a London Shoemaker
+                     Turned Suffolk Poet
+                  </title>
+                  
+                  <author role="secondary">
                      <persName>
                         <forename>Tim</forename>
                         <surname>Fulford</surname>
                      </persName>
                   </author>
+                  
+                  
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/bloomfield/praxis.2012.bloomfield.fulford"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Robert Bloomfield:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >Robert Bloomfield: The Inestimable Blessing of Letters</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-03-01">March 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -127,14 +170,9 @@
             <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
             <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
             <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
-            <rendition xml:id="indent11" scheme="css">margin-left: 6em;</rendition>
-            <rendition xml:id="indent12" scheme="css">margin-left: 6.5em;</rendition>
-            <rendition xml:id="indent13" scheme="css">margin-left: 7em;</rendition>
-            <rendition xml:id="indent14" scheme="css">margin-left: 7.5em;</rendition>
             <rendition xml:id="center" scheme="css">text-align: center;</rendition>
             <rendition xml:id="left" scheme="css">text-align: left;</rendition>
             <rendition xml:id="right" scheme="css">text-align: right;</rendition>
@@ -144,156 +182,64 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>Robert Bloomfield's letters document one artist’s struggles (and sometimes
-                     his victories) to share his unique voice and vision; the online publication of
-                     his extant letters (a companion to this collection of essays) reveals new and
-                     exciting insights into Bloomfield the artist and the man. The essays included
-                     in this collection highlight and draw attention to aspects of Bloomfield's
-                     literary production that would likely not be possible without the full access
-                     to his letters that the edition provides, and make a strong case for why
-                     Bloomfield continues to be worthy of study. They suggest how much more remains
-                     to be said about this prolific poet. </item>
-                  <item>Robert Bloomfield</item>
-                  <item>labouring-class writing</item>
-                  <item>landscape</item>
-                  <item>correspondence</item>
-                  <item>literary London</item>
-                  <item>letters</item>
-               </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2010-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+
+
    <text>
       <body>
          <div type="essay">
@@ -333,7 +279,7 @@
                immigrants that, in the late eighteenth century, flowed from the country to work in
                London’s burgeoning trades and industries, exchanging a boyhood spent herding animals
                and tending crops for an adolescence manufacturing items for the expanding consumer
-                  market.<note resp="editors" xml:id="ftn1" place="end" n="1">On this immigration,
+                  market.<note resp="editors" place="foot">On this immigration,
                   see Hitchcock. </note> The change in circumstances this move produced is revealed
                by his first surviving letter of 1788, in which he invites a Suffolk friend to visit
                him: <quote>[W]hen you are at my lodging you must expect such treatment as is in my
@@ -412,8 +358,7 @@
                      Grindstone!</ab><lb/>
                   <ab>Upon the whole I frankly own that I think I should have relish’d this show
                      much more if it had not happen’d that I had seen the preceeding, week the
-                        <emph>English</emph> Opera of “Love in a Village”<note resp="editors"
-                        xml:id="ftn2" place="end" n="2">
+                        <emph>English</emph> Opera of “Love in a Village”<note resp="editors" place="foot">
                         <title level="m">Love in a Village</title>: the comic opera in three acts
                         composed by Thomas Arne with libretto by Isaac Bickerstaff (1762). This
                         popular work sentimentalizing English rural life saw forty performances in
@@ -448,7 +393,7 @@
                of cheese such as she could not get at Honington if she had money” he wrote on 30
                November 1801 (letter 70), enclosing a Leicester cheese far superior to that of
                Suffolk (the best milk being sent out of Suffolk to supply London’s market).<note
-                  resp="editors" xml:id="ftn3" place="end" n="3">See the passage in <title level="m"
+                  resp="editors" place="foot">See the passage in <title level="m"
                      >The Farmer’s Boy</title>, “Spring” 231-68.</note>
             </p>
             <p>People went back and forth too: Bloomfield returned to Suffolk to visit; his
@@ -490,7 +435,7 @@
                Bloomfield was excited when she witnessed the harvest-home festival that was
                customary in the area and which he had celebrated in his poem “The Horkey,” even
                preserving Suffolk dialect in an effort “to tell the rising race of mankind” of the
-               customs “going fast out of use”<note resp="editors" xml:id="ftn4" place="end" n="4"
+               customs “going fast out of use”<note resp="editors" place="foot"
                   >From the “Advertisement” to “The Horkey. A Provincial Ballad” in <title level="m"
                      >Wild Flowers</title> 31-32.</note> that, in his boyhood, ritualized the
                communal interdependence of farmers, reapers and womenfolk: <quote><lg type="stanza">
@@ -565,7 +510,7 @@
                pretty, sentimental, bejeweled, representing the democratization of taste in a class
                that read magazines and novels rather than Latin and Greek poetry.</p>
             <p> Bloomfield was not Keats or Leigh Hunt, two poets whose early writing, Nicholas Roe
-                  shows,<note resp="editors" xml:id="ftn5" place="end" n="5">In his <title level="m"
+                  shows,<note resp="editors" place="foot">In his <title level="m"
                      >John Keats and the Culture of Dissent</title> 214-17.</note> was criticized as
                the suburban work of writers who had never known the real countryside. He avoided
                excessive ornamentation, garden settings, and tricked-out diction—all facets of Leigh
@@ -583,8 +528,7 @@
                wanted to know about the garden. I first tell you the beans are growing very high, a
                good deal of your sweet Williams is dead, and your nut tree is very well, we are
                going to have a crop of scarlet beans over the grass plat, my father’s thistle will
-               not thrive; Charlesis Cherry tree grows very well, shot<note resp="editors"
-                  xml:id="ftn6" place="end" n="6">The family nickname for Bloomfield’s youngest
+               not thrive; Charlesis Cherry tree grows very well, shot<note resp="editors" place="foot">The family nickname for Bloomfield’s youngest
                   daughter Charlotte.</note> has got a nut tree and some butter flowers” (letter
                166, 10 June 1805).</p>
             <p> Bloomfield’s position on the margin gave him a double knowledge that neither East
@@ -639,11 +583,10 @@
                   the Cook’s in Salsbury Court and eat heartily. by this time there was no time to
                   go home and then to Temple Bar again by 4; so I sulkd away the time in St George’s
                   Fields, and then took another 3 hours’ Mobbing at the Office, having seald during
-                  the day nearly 1100 Writs! by far the busiest day (if Mr A<note resp="editors"
-                     xml:id="ftn7" place="end" n="7">Mr. Allen, Bloomfield’s boss at the Seal
+                  the day nearly 1100 Writs! by far the busiest day (if Mr A<note resp="editors" place="foot">Mr. Allen, Bloomfield’s boss at the Seal
                      Office.</note> is to be credited) that have occurrd for eight years past.
                   Returnd to my sick house, tired and insufferably disgusted. At home I found a
-                  Letter from Troston,<note resp="editors" xml:id="ftn8" place="end" n="8">Troston,
+                  Letter from Troston,<note resp="editors" place="foot">Troston,
                      Suffolk, seat of Capel Lofft, Bloomfield’s disputatious patron.</note> not
                   quite the thing and your most melancholy tidings, and—to crown all, a young Man in
                   the neighbourhood fourced on me a M:S. book of poems for me to read and to give my
@@ -652,12 +595,11 @@
                   trifle had displeased me. I had found in the Morning Chronicle a bit of news put
                   there by some fool or other that “Bloomfield the poet has been recently appointed
                   to a <emph>handsome</emph> situation in the Seal Office in the Temple, thus he has
-                  not courted the Muses unsuccessfully!”<note resp="editors" xml:id="ftn9"
-                     place="end" n="9">Bloomfield quotes verbatim the notice of his appointment to
+                  not courted the Muses unsuccessfully!”<note resp="editors" place="foot">Bloomfield quotes verbatim the notice of his appointment to
                      the Seal Office printed in the <title level="j">Morning Chronicle</title> on 19
                      February 1803. </note> Your letter made it still worse by shewing me that Peter
                   had either <emph>originally</emph> printed this wonderfull piece of news,<note
-                     resp="editors" xml:id="ftn10" place="end" n="10">The notice also appeared in
+                     resp="editors" place="foot">The notice also appeared in
                      Peter Gedge’s <title level="j">Bury and Norwich Post</title> in early
                      1803.</note> or else had made it worse by adding to it what is as false as the
                   Chronicle’s “<emph>handsome</emph> appointment” is ridiculous. This story has
@@ -665,19 +607,19 @@
                   next to say I had resignd it!!—tis useless to be angry, but if the Asses that
                   meddle with another mans business before they know it were buried three times as
                   deep as your poor Wife, I would not were [i.e. wear] black for them.—What G<note
-                     resp="editors" xml:id="ftn11" place="end" n="11">I.e., George, Bloomfield’s
+                     resp="editors" place="foot">I.e., George, Bloomfield’s
                      elder brother.</note> says in his paper is false, thus, because
                      <emph>confinement</emph> is not my objection, and I hope and trust that it is
                   well known to the Duke. Extreem publicity begins to be more and more disgusting to
                   my feelings, and these boobys make it worse.—The Good Man at Euston<note
-                     resp="editors" xml:id="ftn12" place="end" n="12">I.e., the Duke of Grafton,
+                     resp="editors" place="foot">I.e., the Duke of Grafton,
                      whose country house was at Euston, Suffolk.</note> will be here soon, and then
                   I shall know how I am to proceed. His last letter said that “<emph>he was sorry I
                      was going to leave it at all</emph>.” circumstances made it absolutely
                   necessary to reply that I would not leave it, at least untill I see him—thus we
                   stand now—Dr Jenner is in Town, and has written to me. Dr Perkins plagued me by
                   publishing my name with his Tractors, till I wrote to him to forbid it.<note
-                     resp="editors" xml:id="ftn13" place="end" n="13">Edward Jenner, then a
+                     resp="editors" place="foot">Edward Jenner, then a
                      little-known young doctor avidly promoting his cowpox remedy against smallpox;
                      Benjamin Perkins, an American bookseller and quack healer, resident in London,
                      who profited from his father Elisha’s “tractors,” metal rods supposed to cure
@@ -686,8 +628,7 @@
                      tractorizing a wart on John Bull’s nose.</note> my cough plagues me, and I have
                   no time to write down my Rhimes, I have enough on my mind to craze a saint, but I
                   feel my soul soar above it all—I know that I shall triumph—and “that Spring will
-                  come and Nature smile again”.<note resp="editors" xml:id="ftn14" place="end"
-                     n="14">Bloomfield quotes the last line of “Autumn” from his own <title
+                  come and Nature smile again”.<note resp="editors" place="foot">Bloomfield quotes the last line of “Autumn” from his own <title
                         level="m">The Farmer’s Boy.</title>
                   </note> (letter 103)</quote> Charles Lamb wrote of his clerk’s work in Leadenhall
                Street as a form of slavery to the East India Company; for Bloomfield less than a
@@ -708,8 +649,7 @@
                pedestrian tour was the creation of a class of writers (Romantics, as they were later
                called) who, dissociating themselves from gentleman and women tourists for reasons of
                poverty and politics, eschewed the horse and carriage and asserted their liberty and
-               independence as solitary wanderers in nature.<note resp="editors" xml:id="ftn15"
-                  place="end" n="15">On the pedestrian tour and its social and political valency,
+               independence as solitary wanderers in nature.<note resp="editors" place="foot">On the pedestrian tour and its social and political valency,
                   see Jarvis.</note> Like Wordsworth, Bloomfield was an urbanite visiting
                countryside places he felt emotionally connected to by virtue of his rural upbringing
                but in which he had no present-day social or economic place. Like Coleridge, he was
@@ -737,8 +677,7 @@
                   <ab>Evening drew on as we approached the old town of Dorking, and the prospect to
                      me was delightful; but to prove that enjoyment is often dashd with a strange
                      and unexpected kind of naucia, we had behind us on the Coach two Lasses, the
-                     one going to join the Thunderer<note resp="editors" xml:id="ftn16" place="end"
-                        n="16">
+                     one going to join the Thunderer<note resp="editors" place="foot">
                         <emph>HMS Thunderer</emph>, a 74-gun ship of the line of the Royal Navy,
                         later took part in the Battle of Trafalgar.</note> on her arrival at
                      Portsmouth from Chatham, and the other to meet a party of Marines passing
@@ -788,8 +727,7 @@
                      black cloak. Behind him rode (riding backwards both on a Horse) a lad with a
                      pale Mask, and in the utmost trembling and destress, to represent the fallen
                      Emperor. Both these perform’d their parts extreemly well, and cause’d the
-                     utmost laughter, Inskip<note resp="editors" xml:id="ftn17" place="end" n="17"
-                        >Thomas Inskip (circa 1780-1849): watchmaker, Bloomfield’s Shefford neighbor
+                     utmost laughter, Inskip<note resp="editors" place="foot">Thomas Inskip (circa 1780-1849): watchmaker, Bloomfield’s Shefford neighbor
                         and friend. Inskip also befriended John Clare, whose poetry he printed in
                         the <title level="j">Bedfordshire Times</title> (1848).</note> was Devil,
                      and Jack sombody was Bounaparte. It was the best Devil I ever saw, and riding
@@ -797,7 +735,7 @@
                      appearance. A Bullock drest in Ribbons, followd likewise by music, had marchd
                      through the town two days before and was now on the Spit, and in the pot, as
                      dinner was to commence at 4. A long range of Tables were placed from
-                        Westons<note resp="editors" xml:id="ftn18" place="end" n="18">Joseph Weston:
+                        Westons<note resp="editors" place="foot">Joseph Weston:
                         Bloomfield’s friend in Shefford, a draper by trade, subject to depression.
                         He moved to Twickenham, where Hannah Bloomfield lived with him and his
                         family, acquiring experience in a trade. He edited <title level="j">The
@@ -806,7 +744,7 @@
                      that is, all who labour for bread, the whole was coverd with Canvass and form’d
                      a compleat tent, border’d throughout by garlands of flowers, and each table
                      having a flag inscribe’d, “Alexander”, “Blucher”, “Platoff” &amp;c.<note
-                        resp="editors" xml:id="ftn19" place="end" n="19">Tsar Alexander I; Marshall
+                        resp="editors" place="foot">Tsar Alexander I; Marshall
                         Gebhard von Blucher, leader of the Prussian forces against Napoleon; Count
                         Matvei Ivanovich Platoff, hetman of Cossacks, and Russian commander in the
                         Napoleonic wars.</note> At the end stood a kind of Maypole, bearing a gilded
@@ -828,7 +766,7 @@
                      which, as you have now seen Vauxhall, you can fully understand. I should here
                      tell you that in the evening Tea was serve’d on the platform to all the women
                      who choose it, and dancing commenced in the real country stile. Miss
-                        Weston<note resp="editors" xml:id="ftn20" place="end" n="20">Joseph Weston’s
+                        Weston<note resp="editors" place="foot">Joseph Weston’s
                         sister.</note> made more tea than she ever did in one day in her life.
                      Amongsts the flags Inskip had two very large, inscribed “The Strength of Kings
                      is the Affections of the people” and, “Freedom to Slaves, and peace to the
@@ -841,7 +779,7 @@
                      was not all, though the Town was not quiet till two in the morning.—</ab><lb/>
                   <ab>On Thursday—A Ball had been announced to be held at the White Hart, to which
                      were invited all the Respectable people round the neighbourhood, and
-                        Charles<note resp="editors" xml:id="ftn21" place="end" n="21">Bloomfield’s
+                        Charles<note resp="editors" place="foot">Bloomfield’s
                         son (1798-1863).</note> had been busily employd with other scholars to write
                      Notes of invitation. This whole day was spent in mirth. Amongst the rest a
                      large party, (in fact any who pleased) danced to two fidlers on the platform,
@@ -858,8 +796,7 @@
                      from Wednesday morning till Friday night. On the Ball night Mr Weston
                      ornamented his House with Hop-vines from his Garden, intersperse’d with Lamps;
                      with several transparencies of his own designing, Saturday—The Townsmen
-                     presented a Flag to Sir George Osborn<note resp="editors" xml:id="ftn22"
-                        place="end" n="22">Sir George Osborne, of Chicksands Priory, near Shefford,
+                     presented a Flag to Sir George Osborn<note resp="editors" place="foot">Sir George Osborne, of Chicksands Priory, near Shefford,
                         Bedfordshire: the 4th Baronet; served in the American War of Independence,
                         following which he became an MP.</note> in testimony of his bounty towards
                      this real and National holiday, which the good old man has promise’d to
@@ -867,13 +804,13 @@
                   <ab>And now Father how did you get through this bustle,? what did our house look
                      like? did not you want to help?</ab><lb/>
                   <ab>I saw on Monday that I should “be drag”d” and directly began to regret that
-                        Hannah<note resp="editors" xml:id="ftn23" place="end" n="23">Hannah
+                        Hannah<note resp="editors" place="foot">Hannah
                         Bloomfield (born 1791): Bloomfield’s eldest daughter and the child he
                         trusted to manage the household. After his death Hannah dealt with his
                         business affairs in conjunction with his friend Joseph Weston. </note> was
                      not at home to contrive and to help. “I wish Hannah was here” was repeated
                      oftener than I ever repeated it before, for Charles was busy at writing, and
-                        Charlotte<note resp="editors" xml:id="ftn24" place="end" n="24">Bloomfield’s
+                        Charlotte<note resp="editors" place="foot">Bloomfield’s
                         youngest daughter, born 1801.</note> my only housemaid,—However I naild up
                      lathes for the illuminatiion, sent for Candles, Cockades, &amp;c—Joe Saunders
                      procure’d a large bough of Oak, and Old Squires two tall branches of
@@ -881,11 +818,10 @@
                      and Cornflowers as they could carry, we set to work, made them with form, and
                      on Wednesday morning up at 6, I hung the outer circle of the parlour window
                      with a garland of flowers, naild a Rose-bush over the door, trimd up
-                        Roberts<note resp="editors" xml:id="ftn25" place="end" n="25">Robert Henry:
+                        Roberts<note resp="editors" place="foot">Robert Henry:
                         Bloomfield’s son, born 1807.</note> Hoop into a Garland and displayd it on a
                      pole from the Landing window.—In the evening lighted up about four score
-                     Candle, and remove’d your old Richard and Kate<note resp="editors"
-                        xml:id="ftn26" place="end" n="26">Presumably dolls named after the
+                     Candle, and remove’d your old Richard and Kate<note resp="editors" place="foot">Presumably dolls named after the
                         characters in Bloomfield’s poem of that name in <title level="m">Rural
                            Tales</title>. </note> from the Mill, and with a White flag inscribed
                         <emph>peace</emph> mounted them on one of Barber’s Gin Kegs on a string
@@ -912,8 +848,7 @@
                would organize traditional rural sports on the village green, seeking to renew
                traditional English customs in which all rural classes participated, as a
                counterweight to the increasing class hostility between landlords and farmers on the
-               one side and their laborers on the other.<note resp="editors" xml:id="ftn27"
-                  place="end" n="27">On Cobbett and rural sports see Dyck, Thompson. On Hogarth and
+               one side and their laborers on the other.<note resp="editors" place="foot">On Cobbett and rural sports see Dyck, Thompson. On Hogarth and
                   Englishness see Uglow, Gatrell. On Hone and the <title level="m">Every Day
                      Book</title> see Hackwood. On ale-drinking and Englishness see Marchant.
                </note> Bloomfield is delighted to discover what Cobbett tried to revive, common
@@ -929,7 +864,7 @@
                Uriah Heepish humility towards the gentlemen who gave him charity. His anger at the
                poverty he movingly describes is displaced instead onto other would-be laboring-class
                writers who come to visit him: <quote>I actualy became a corrispondant of Sir C
-                  Bunbury Esq<note resp="editors" xml:id="ftn28" place="end" n="28">Sir Thomas
+                  Bunbury Esq<note resp="editors" place="foot">Sir Thomas
                      Charles Bunbury, 6th Baronet, of Barton, Suffolk, MP for Suffolk 1790-1812.
                      Friend of George, Prince of Wales, keen patron of horseracing. Bunbury
                      recommended <title level="m">The Farmer’s Boy</title> to his friend the Duke of
@@ -957,7 +892,7 @@
                   Lofft &amp;c now alive old age would to me be disarmed of half its terrors here
                   are none to blame or to accuse, it is the lot of all the aged to out live their
                   friends and benefactors, I am truly grateful to kind providence, still Charles
-                  Bloomfield Esq<note resp="editors" xml:id="ftn29" place="end" n="29">Charles
+                  Bloomfield Esq<note resp="editors" place="foot">Charles
                      Bloomfield (1762-1831) of Bury St. Edmunds, the grandson of Isaac Bloomfield
                      (died 1770—Bloomfield’s great-grandfather) by Isaac’s second wife, Susan Clift.
                   </note> lives, a man who did not know there were such a man as me in the world,
@@ -972,7 +907,7 @@
                   poverty soon pall the beholder, and seldom do I have a second visit from any one
                   unless it is Brassy faced pretenders to poesy, such as <emph>David Service</emph>
                   <emph>Ned Preston</emph>
-                  <note resp="editors" xml:id="ftn30" place="end" n="30">David Service (?1776-?1828)
+                  <note resp="editors" place="foot">David Service (?1776-?1828)
                      of Yarmouth, a shoemaker turned poet, who published several volumes of poetry.
                      Edward Bailey (Ned) Preston was a “Calligraphist” based in Barnwell, Cambridge,
                      whose work also took him to other places including Thetford. According to an
@@ -1016,7 +951,7 @@
                      <l>O, keep a living conscience in your breast!— </l>
                      <l>Soon, soon, will this terrific storm blow o’er;— </l>
                      <l>Believe my words, though I am old and poor! (“Friendly Hints”)<note
-                           resp="editors" xml:id="ftn31" place="end" n="31">The text of the poem is
+                           resp="editors" place="foot">The text of the poem is
                            included in the Contextual Materials section of the Romantic Circles
                            edition <title level="m">The Letters of Robert Bloomfield and his
                               Circle.</title>
@@ -1080,13 +1015,12 @@
                      the ten pounds per ann for six years procured by Mrs Andrews Sharp. All the
                      rest has been casual as chance has directed it</ab><lb/>
                   <ab> When my subscription was going on many worthy hands assisted; the Earl of
-                        Lonsdale,<note resp="editors" xml:id="ftn32" place="end" n="32">The Earl of
+                        Lonsdale,<note resp="editors" place="foot">The Earl of
                         Lonsdale: Lord Lowther, Wordsworth’s and Southey’s patron, a powerful Tory
-                        landowner who controlled many MPs.</note> Mr Rogers,<note resp="editors"
-                        xml:id="ftn33" place="end" n="33">Samuel Rogers, poet, wealthy banker, Whig.
+                        landowner who controlled many MPs.</note> Mr Rogers,<note resp="editors" place="foot">Samuel Rogers, poet, wealthy banker, Whig.
                         He aided Bloomfield with advice, hospitality and by acting as banker for the
                         monies subscribed on Bloomfield’s behalf.</note> Lord Holland,<note
-                        resp="editors" xml:id="ftn34" place="end" n="34">Henry Richard Fox, 3<hi
+                        resp="editors" place="foot">Henry Richard Fox, 3<hi
                            rend="sup">rd</hi> Baron Holland, Whig magnate and patron of the arts.
                         Fox was a nephew of Charles James Fox, the Whig leader and admirer of
                         Bloomfield’s verse.</note> and people of the most opposite opinions.</ab><lb/>
@@ -1107,7 +1041,7 @@
                      government of your country” Fools, cannot they see that the <emph>form</emph>
                      of government of a country is rather different to the administration of it? . .
                      . </ab><lb/>
-                  <ab> Cobbett and Hunt<note resp="editors" xml:id="ftn35" place="end" n="35">Hunt:
+                  <ab> Cobbett and Hunt<note resp="editors" place="foot">Hunt:
                         Henry Hunt, radical campaigner for reform of parliament and of the
                         franchise. On 16 August 1819 Hunt had been arrested and many of the
                         supporters of reform whom he was addressing at a mass meeting in Manchester
@@ -1122,8 +1056,7 @@
                   <ab> It is the natural bent and practice of <emph>party</emph> to go to extreems.
                      Thus they could not let me rest even on the intermediate shelf of Scepticism
                      but made me a Deist at once!!—I have been in the presence of great and
-                        <emph>good</emph> men, the Bishops Watson and Porteous,<note resp="editors"
-                        xml:id="ftn36" place="end" n="36">Bishops Watson and Porteous: the Rt. Revd.
+                        <emph>good</emph> men, the Bishops Watson and Porteous,<note resp="editors" place="foot">Bishops Watson and Porteous: the Rt. Revd.
                         Richard Watson (1737-1816) was a clergyman and academic, who served as the
                         Bishop of Llandaff from 1782 to 1816. His 1796 <title level="m">An Apology
                            for the Bible</title>, a work written in response to the 1795 publication
@@ -1136,7 +1069,7 @@
                         opponent of Paine and revolutionary radicalism.</note> but then it is
                      equally true that I have taken snuff with Horne Tooke, and have held
                      conversation with Hardy the Boot maker, who was tried for high treason!<note
-                        resp="editors" xml:id="ftn37" place="end" n="37">John Horne Tooke
+                        resp="editors" place="foot">John Horne Tooke
                         (1736-1812) was, by 1800, already a veteran campaigner for parliamentary
                         reform. Initially radicalized by the establishment efforts to exclude
                         newly-elected John Wilkes from parliament, Horne Tooke became an organizer
@@ -1289,8 +1222,7 @@
                   my abilities go, and as far as it can be done in justice to my friends. Thus it
                   has happened that of the many letters which I have had from his Grace the Duke of
                   Grafton, Sir C Bunbury &amp;c, one from the Duke of York, and one from that most
-                  great, and most lamented man, Mr Fox,<note resp="editors" xml:id="ftn38"
-                     place="end" n="38">Charles James Fox (1749-1806), Whig leader and admirer of
+                  great, and most lamented man, Mr Fox,<note resp="editors" place="foot">Charles James Fox (1749-1806), Whig leader and admirer of
                      pastoral verse, both in the classical languages and in English. Like
                      Bloomfield, Wordsworth sent a presentation copy of his rural poems <title
                         level="m">Lyrical Ballads</title> to Fox.</note> that none of them have been
@@ -1308,7 +1240,7 @@
                   intended or not.) Were I to take it as a risible subject, there is abundance of
                   room for can anyone conceive a poor fellow more universally loaded with hangers
                   on! There is something in that same letter of yours respecting . . . which from
-                     Nats<note resp="editors" xml:id="ftn39" place="end" n="39">Nathaniel (Nat)
+                     Nats<note resp="editors" place="foot">Nathaniel (Nat)
                      Bloomfield (1759-1831): Bloomfield’s brother, a tailor by trade and a poet who
                      published <title level="m">An Essay on War; Honington Green, a Ballad . . . and
                         Other Poems</title> (1803).</note> and my own sentiments differ so horribly
@@ -1325,8 +1257,7 @@
                circle. The married sister, Mary Lloyd Baker, wrote to him admiringly of his poetry
                and soon he was invited to the family’s houses in Hertfordshire, Gloucestershire, and
                Northamptonshire. There he was delighted to find admiring female company that made no
-               demands upon him. The Sharp women<note resp="editors" xml:id="ftn40" place="end"
-                  n="40">Bloomfield’s principal friend was Mary Lloyd Baker, née Sharp (1778-1812),
+               demands upon him. The Sharp women<note resp="editors" place="foot">Bloomfield’s principal friend was Mary Lloyd Baker, née Sharp (1778-1812),
                   whom he met in the company of her cousin Catherine Sharp (1770-1843) at her aunt’s
                   (Elizabeth Prowse, née Sharp) of Wicken Park, Northamptonshire. Daughter of the
                   surgeon William Sharp and niece of Granville Sharp the abolitionist, Mary
@@ -1386,6 +1317,7 @@
                and successful negotiations of the consequences, for one in his marginal position on
                the edge of both, of the changing relationship between country and city, and masters
                and markets.</p>
+            
             <div type="citations">
                <head>Works Cited</head>
 
