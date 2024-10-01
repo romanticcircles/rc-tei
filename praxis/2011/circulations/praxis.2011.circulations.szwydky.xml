@@ -1,42 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Circulations: Romanticism and the Black Atlantic</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Rewriting the History of Black Resistance: The Haitian Revolution,
                Jamaican Maroons and the “History” of Three-Fingered Jack in English Popular Culture, 1799-1830</title>
-            <author>
-               <name>Lissette Lopez Szwydky</name>
+            
+            
+            <author role="primary">
+               <name>Michele Speitz</name>
             </author>
-            <editor role="editor">Paul Youngquist</editor>
+            
             <sponsor>Romantic Circles</sponsor>
-            <editor role="editor">Frances Botkin</editor>
-            <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.szwydky</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2011-08-01">August 1, 2011</date>
-            <availability status="restricted">
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
                <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
                   disseminated in any manner without authorization unless it is for purposes of
                   criticism, comment, news reporting, teaching, and/or classroom use as provided by
@@ -45,23 +57,21 @@
                   copyrighted by the author/editor and may be shared only in accordance with the
                   Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
                   statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                  written consent from the author(s)/ editor(s) and advance notification of Romantic
+                  Circles. Any requests for authorization should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
                <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
-                  </list></p>
+                  <item>These texts and images may not be used for any commercial purpose without
+                     prior written permission from Romantic Circles.</item>
+                  <item>These texts and images may not be re-distributed in any forms other than
+                     their current ones.</item>
+               </list></p>
                <p>Users are not permitted to download these texts and images in order to mount them
                   on their own servers. It is not in our interest or that of our users to have
                   uncontrolled subsets of our holdings available elsewhere on the Internet. We make
@@ -70,44 +80,61 @@
                   users. Institutions can, of course, make a link to the copies at Romantic Circles,
                   subject to our conditions of use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition">praxis.2011.circulations.szwydky</idno>
+            <idno type="resource">circulations</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Rewriting the History of Black Resistance: The
-                     Haitian Revolution, Jamaican Maroons and the “History” of Three-Fingered Jack
-                     in English Popular Culture, 1799-1830</title>
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Rewriting the History of Black Resistance: The Haitian Revolution,
+                     Jamaican Maroons and the “History” of Three-Fingered Jack in English Popular Culture, 1799-1830</title>
+                  <author role="secondary">
                      <persName>
-                        <forename>Lissette Lopez</forename>
-                        <surname>Szwydky</surname>
+                        <forename>Lissette</forename>
+                        <surname>Lopez Szwydky</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr target="praxis/circulations/praxis.2011.circulations.szwydky"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Circulations:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m">Circulations: Romanticism and the Black Atlantic</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-08-01">August 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University of
+                        Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or &#8221;,
+                  and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
@@ -116,11 +143,12 @@
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+               <p>&#35; has been used for #, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have been
                   encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -129,7 +157,6 @@
             <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
             <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
             <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
@@ -146,152 +173,59 @@
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textClass>
-            <catRef scheme="#genre" target="#g5"/>
-            <keywords scheme="http://www.rc.umd.edu/#tags">
-               <list>
-                  <item>The story of Three-Fingered Jack (the escaped slave who terrorized the British colonists in Jamaica from 1780 to 1781) appeared in England in at least five major versions between 1799 and 1830.  Although different in their respective politics and approaches, these five nineteenth-century version of the story deemphasized the collective threat that underlies Three-Fingered Jack’s exploits in 1780-81, during an time of several slave uprisings in the Caribbean, including the Haitian Revolution.</item>
-                  <item>Benjamin Moseley</item>
-                  <item>Treatise on Sugar (1799)</item>
-                  <item>William Earle</item>
-                  <item>William Burdett</item>
-                  <item>Life and Exploits of Mansong, Commonly Called Three-Finger’d Jack, the Terror of Jamaica (1800)</item>
-                  <item>William Murray</item>
-                  <item>Obi; or , Three-Fingered Jack, a Melodrama (1830)</item>
-                  <item>Three-Fingered Jack</item>
-                  <item>culture</item>
-                  <item>popular reception</item>
-                  <item>history</item>
-                  <item>Obi; or, The History of Three-Fingered Jack (1800)</item>
-                  <item>John Fawcett</item>
-                  <item>Obi; or, Three-Finger’d Jack (1800)</item>
-                  </list>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
             </keywords>
          </textClass>
       </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-03-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
@@ -342,7 +276,7 @@
                <p> Although the Haitian Revolution is the most successful slave revolt in the
                   Western hemisphere, it was preceded by many smaller uprisings, not only in Saint
                   Domingue, but also throughout the Caribbean and the Americas.<note place="foot"
-                     resp="editors" n="1">For a recent comprehensive history, see Alvin O. Thompson,
+                     resp="editors">For a recent comprehensive history, see Alvin O. Thompson,
                         <title level="m">Flight to Freedom: African Runaways and Maroons in the
                         Americas</title> (Kingston: U of the West Indies P, 2006).</note> Jamaica,
                   in fact, was home to the second most successful slave revolt in the Americas just
@@ -350,7 +284,7 @@
                   to several uprisings throughout the late-seventeenth and eighteenth centuries,
                   with resistance coming from both slaves and free blacks. There were at least five
                   organized slave insurrections in the central region of the island between 1673 and
-                     1725.<note place="foot" resp="editors" n="2">According to Thompson, there were
+                     1725.<note place="foot" resp="editors">According to Thompson, there were
                      outbreaks of violence in the following years 1673, 1678, 1685, 1690, and 1725.
                      See also Werner Zips, <title level="m">Black Rebels: African-Caribbean Freedom
                         Fighters in Jamaica </title>(Kingston: Ian Randle, 1999).</note> The most
@@ -360,7 +294,7 @@
                   of St. Mary) lists 56 individual cases of “rebellious” activities prosecuted
                   between 1746 and 1782, including not only violent offences, but also the harboring
                   of runaway slaves and possession of obeah materials.<note place="foot"
-                     resp="editors" n="3">See Diana Paton, “Punishment, Crime, and the Bodies of
+                     resp="editors">See Diana Paton, “Punishment, Crime, and the Bodies of
                      Slaves in Eighteenth-Century Jamaica,” <title level="j">Journal of Social
                         History</title> 34 (2001): 923-54. The record shows a total of 202 cases
                      tried during the period.</note>
@@ -464,7 +398,7 @@
                   history of Three-Fingered Jack in English popular culture.</p>
             </div>
 
-            <div type="section" n="2">
+            <div type="section">
                <head>“The Terror of Jamaica” in England</head>
                <p>The story of Three-Fingered Jack (the escaped slave who terrorized the British
                   colonists in Jamaica from 1780 to 1781) appeared in England in at least five major
@@ -489,14 +423,12 @@
                   aspects of the African tradition in an attempt to cover up the more unsettling
                   reality of black uprisings in the West Indies. Voodoo priests were partly
                   responsible for several organized revolts in Saint Domingue including the 1791
-                  rebellion that began the Haitian Revolution.<note place="foot" resp="editors"
-                     n="4">See Richardson for a more detailed account, as well as C. L. R. James,
+                  rebellion that began the Haitian Revolution.<note place="foot" resp="editors">See Richardson for a more detailed account, as well as C. L. R. James,
                         <title level="m">The Black Jacobins: Toussaint L'Ouverture and the San
                         Domingo Revolution </title>(New York: Vintage, 1989).</note> Similarly,
                   obeah men were responsible for several uprisings in Jamaica throughout the
                   eighteenth century, the most famous being Tacky’s Rebellion in 1760, which led to
-                  the outlawing of the practice on the island.<note place="foot" resp="editors"
-                     n="5">See Srinivas Aravamudan’s introduction to his edition of William Earle’s
+                  the outlawing of the practice on the island.<note place="foot" resp="editors">See Srinivas Aravamudan’s introduction to his edition of William Earle’s
                         <title level="m">Obi; or, The History of Three-Fingered Jack
                      </title>(Peterborough, Ontario: Broadview, 2005), 7-51.</note>
                </p>
@@ -581,7 +513,7 @@
                   development from the 1800 pantomime. He writes, “the 1830 <title level="m"
                      >Obi</title> is . . . in fact a Jacobin play, both in its legitimation of the
                   violence of the oppressed and underclass and in the repudiation of its inherited
-                  romantic plot” (O’Rourke 286).<note place="foot" resp="editors" n="6">While in
+                  romantic plot” (O’Rourke 286).<note place="foot" resp="editors">While in
                      some ways the melodrama might be seen as a more radical version than its
                      earlier dramatic predecessor because it humanizes Jack within a similar
                      domestic framework, the production as a whole depoliticizes the history of
@@ -601,12 +533,12 @@
                   possibilities in the performance of the melodrama that were absent from the 1800
                   pantomime. However, the 1830 melodrama hardly sounds radical when compared to
                   Earle’s abolitionist novella, which actually introduces Three-Fingered Jack as “a
-                  bold Defender of the Rights of Man.”<note place="foot" resp="editors" n="7">The
+                  bold Defender of the Rights of Man.”<note place="foot" resp="editors">The
                      quote is from the Advertisement to Earle’s novella.</note> (You really can’t
                   get more “Jacobin” than that.) O’Rourke’s reading is a convincing comparative
                   reading of the two plays, but is less convincing when one considers all of the
                   nineteenth-century adaptations in unison, and then compares them to the historical
-                     record.<note place="foot" resp="editors" n="8">One recent work that puts forth
+                     record.<note place="foot" resp="editors">One recent work that puts forth
                      a very different interpretation of Fawcett’s pantomime is Peter P. Reed,
                      “Conquer or Die: Staging Circum-Atlantic Revolt in <title level="m"
                         >Polly</title> and <title level="m">Three-Finger’d Jack,”</title>
@@ -631,7 +563,7 @@
             </div>
 
 
-            <div type="section" n="3">
+            <div type="section">
                <head>Three Fingered Jack in Fact and Fiction</head>
 
                <p>According to eighteenth-century sources including Moseley, Three-Fingered Jack was
@@ -738,7 +670,7 @@
                   would certainly raise the eyebrows of today’s readers, but was a typical
                   characterization of slaves in literary and theatrical productions that argued for
                   abolition of the slave trade, if not for full emancipation.<note place="foot"
-                     resp="editors" n="9">For more on this popular, sentimental representation of
+                     resp="editors">For more on this popular, sentimental representation of
                      slaves see George Boulukos, <title level="m">The Grateful Slave: The Emergence
                         of Race in Eighteenth-Century British and American Culture
                      </title>(Cambridge: Cambridge UP, 2008).</note> This characterization is taken
@@ -806,7 +738,7 @@
                   believe that a “many years overseer of a Jamaican plantation,” as Burdett claims
                   to be, would make such a critical error, especially in 1800, less than five years
                   after the Second Maroon War, which was widely reported in English
-                     publications.<note place="foot" resp="editors" n="10">A Royal Proclamation
+                     publications.<note place="foot" resp="editors">A Royal Proclamation
                      dated August 13, 1795 regarding the Trelawny Town insurrection was reprinted on
                      the front pages of the <title level="j">St. James's Chronicle or the British
                         Evening Post</title> on Tuesday, November 3, 1795 and the <title level="j"
@@ -834,7 +766,7 @@
                   is billed as a “Narrative of Facts” on which “the Public may depend” (iv).
                   However, as anyone acquainted with the history of Three-Fingered Jack would note,
                   Burdett’s history is largely a fiction, and Paton even describes it as a
-                     novel.<note resp="editors" place="foot" n="11">“History” is a loaded term.
+                     novel.<note resp="editors" place="foot">“History” is a loaded term.
                      While it is possible that Burdett was using the term loosely, he also plays up
                      his historical sources and includes references to many actual events as if he
                      is partly depending on his account to be taken as truth. First, the publication
@@ -905,16 +837,14 @@
                <p> Burdett’s account of the Crawford Town incident is also interesting because it is
                   the only appearance of Maroons in the text. Burdett uses the word “Maroon” exactly
                   four times in his account, but this is the only time that he uses the word to
-                  describe a group of residents on the island.<note place="foot" resp="editors"
-                     n="12">The second use in this edition is a quote from Moseley referring to the
+                  describe a group of residents on the island.<note place="foot" resp="editors">The second use in this edition is a quote from Moseley referring to the
                      “Maroon who killed” Three-Fingered Jack. Burdett insists that Quashee is a
                      slave despite quoting Moseley to the contrary. The other two references are
                      geographic, referring to Scots Hall, Maroon Town.</note> The term is never
                   defined. The Maroons’ cameo is misleading to say the least. They are depicted as
                   foot soldiers in the service of the colonial government when, in truth, their
                   relationship to the plantocracy (as well as with slaves) was much more complicated
-                  than Burdett would have his readers assume.<note place="foot" resp="editors"
-                     n="13">For example, Paton explains that slaves were often angry with the
+                  than Burdett would have his readers assume.<note place="foot" resp="editors">For example, Paton explains that slaves were often angry with the
                      Maroons for working with the plantocracy to keep them enslaved. However,
                      several sources report that many Maroon settlements often welcomed escaped
                      slaves, completely disregarding their official orders to turn in any slave
@@ -993,7 +923,7 @@
                   denied. The story had also proved to be quite popular and profitable in England,
                   and Burdett even includes a scene-by-scene description of Fawcett’s pantomime as
                   an appendix to his own publication in order to capitalize on its success.<note
-                     place="foot" resp="editors" n="14">A description of Fawcett’s pantomime was
+                     place="foot" resp="editors">A description of Fawcett’s pantomime was
                      included in at least the first five editions of Burdett’s text.</note> However,
                   although it did not make any sense to deny the story of Three-Fingered Jack from a
                   financial perspective, it also did not make much sense to give an accurate history
@@ -1035,7 +965,7 @@
                   that the story of Three-Fingered Jack, just like many stories of the West Indies,
                   allowed English audiences to imagine Jamaica as a colony in close proximity to
                   Saint Domingue, but closed from its revolutionary influence.</p>
-            </div>
+          
 
             <div type="citations">
                <head>Works Cited</head>
@@ -1052,7 +982,7 @@
                            <pubPlace>Peterborough, Ontario</pubPlace>
                            <publisher>Broadview</publisher>
                            <date>2005</date>
-                           <biblScope type="pp">7-52</biblScope>
+                           <biblScope>pp. 7-52</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1096,7 +1026,7 @@
                         <editor role="editor">Charles Rzepka</editor>
                         <imprint>
                            <date type="access">August 10, 2009</date>
-                           <biblScope type="issue"><title level="m">Obi</title></biblScope>
+                           <biblScope><title level="m">Obi</title></biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1136,9 +1066,9 @@
                      <monogr>
                         <title level="j">Jamaica Journal </title>
                         <imprint>
-                           <biblScope type="vol">7.2</biblScope>
+                           <biblScope>vol. 7.2</biblScope>
                            <date>(1973)</date>
-                           <biblScope type="pp">9-14</biblScope>
+                           <biblScope>pp. 9-14</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1152,9 +1082,9 @@
                      <monogr>
                         <title level="j">The William and Mary Quarterly</title>
                         <imprint>
-                           <biblScope type="vol">44.2</biblScope>
+                           <biblScope>vol. 44.2</biblScope>
                            <date>(April 1987)</date>
-                           <biblScope type="pp">274-299</biblScope>
+                           <biblScope>pp. 274-99</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1171,7 +1101,7 @@
                         <editor role="editor">Charles Rzepka</editor>
                         <imprint>
                            <date type="access">August 11, 2009</date>
-                           <biblScope type="issue"><title level="m">Obi</title></biblScope>
+                           <biblScope><title level="m">Obi</title></biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1186,9 +1116,9 @@
                      <monogr>
                         <title level="j">Nineteenth-Century Contexts</title>
                         <imprint>
-                           <biblScope type="vol">28.4</biblScope>
+                           <biblScope>vol. 28.4</biblScope>
                            <date>(2006)</date>
-                           <biblScope type="pp">285-303</biblScope>
+                           <biblScope>pp. 285-303</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1220,9 +1150,9 @@
                      <monogr>
                         <title level="j">Studies in Romanticism</title>
                         <imprint>
-                           <biblScope type="vol">32</biblScope>
+                           <biblScope>vol. 32</biblScope>
                            <date>(1993)</date>
-                           <biblScope type="pp">3-28</biblScope>
+                           <biblScope>pp. 3-28</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1248,14 +1178,15 @@
                      <monogr>
                         <title level="j">Journal of Caribbean History</title>
                         <imprint>
-                           <biblScope type="vol">25</biblScope>
+                           <biblScope>vol. 25</biblScope>
                            <date>(1991)</date>
-                           <biblScope type="pp">81-99</biblScope>
+                           <biblScope>pp. 81-99</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
                </listBibl>
             </div>
+         </div>
          </div>
       </body>
    </text>
