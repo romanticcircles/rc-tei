@@ -1,124 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">John Thelwall: Critical Reassessments</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">John Thelwall’s <title level="m">Panoramic Miscellany</title>: The
                Lecturer as Journalist</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Angela Esterhammer</name>
             </author>
-            <editor>Yasmin Solomonescu</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.esterhammer</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">September 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.thelwall.esterhammer</idno>
+            <idno type="resource"
+               >thelwall</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">John Thelwall’s <title level="m">Panoramic
-                        Miscellany</title>: The Lecturer as Journalist</title>
-
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">John Thelwall’s <title level="m">Panoramic Miscellany</title>: The
+                     Lecturer as Journalist
+                  </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Angela</forename>
                         <surname>Esterhammer</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/thelwall/praxis.2011.thelwall.esterhammer"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">John Thelwall: Critical Reassessments</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >John Thelwall: Critical Reassessments</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2010-10-15">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ',
-                  and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -139,135 +177,70 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-05-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
    <text>
       <body>
-         <div type="essay" n="2">
+         <div type="essay">
             <head>John Thelwall’s <title level="m">Panoramic Miscellany</title>: The Lecturer as
                Journalist</head>
             <byline>
@@ -313,7 +286,7 @@
                footnotes emphasizing that these articles should have appeared in “another
                publication”&#8212;i.e., in the <title level="j">Monthly Magazine</title>&#8212;in
                order to fulfill commitments Thelwall had made when he was editor of the <title
-                  level="j">Monthly</title>.<note resp="editors" place="foot" n="1"> See, for
+                  level="j">Monthly</title>.<note resp="editors" place="foot"> See, for
                   instance, Thelwall’s remarks on the medical article “Distortions of the Spine”
                      (<title level="m">PM</title> 50-54) and on his own extended review of “The
                   Poetry of Miss Landen [sic]” (<title level="m">PM</title> 74-82). Since the single
@@ -337,7 +310,7 @@
                the <title level="m">Monthly Magazine</title>’s “disgraceful” and “perverted” forgery
                with the “authentic article,” so that the author will not have to go to the expense
                of “republish[ing] the whole, in another form” (<title level="m">PM</title>
-                  297).<note resp="editors" place="foot" n="2"> Nevertheless, <title level="m">Hints
+                  297).<note resp="editors" place="foot"> Nevertheless, <title level="m">Hints
                      on the Impressment of Seamen, by a Commander of the Royal Navy</title>, did
                   appear in another form: as a two-shilling pamphlet published in 1827. </note> At
                the end of the first issue of the <title level="m">Panoramic</title> Thelwall
@@ -387,7 +360,7 @@
                and&#8212;significantly&#8212;the literary-critical articles. Foremost among his
                acknowledged contributions, however, are the leading articles that begin each issue,
                which are signed either with Thelwall’s name or with a coded symbol consisting of a
-               triangle followed by three dots in the shape of a second triangle (Δ <graphic url="../images/triangle_character.bmp"/>). As
+               triangle followed by three dots in the shape of a second triangle (Δ <graphic url="/sites/default/files/imported/praxis/thelwall/images/triangle_character.bmp"/>). As
                elucidated in Thelwall’s lecture on “Elements of Prosody” in the May issue, these two
                signs represent the “<emph>Thesis</emph> and <emph>Arsis</emph> of human speech”
                   (<title level="m">PM</title> 636): a long/stressed syllable followed by a
@@ -523,7 +496,7 @@
                by “Geo. B. Whittaker,” the title page of the <title level="m">Panoramic
                   Miscellany</title> lists a much wider geographical range of establishments where
                it can be obtained, not only in London but in Glasgow, Paris, Boulogne-sur-Mer, and
-               “all booksellers in town and country.”<note resp="editors" place="foot" n="3"> Judith
+               “all booksellers in town and country.”<note resp="editors" place="foot"> Judith
                   Thompson (in private e-mail correspondence) has identified Thelwall’s primary contacts in these locations as friends
                   who hosted him in Glasgow in 1804; Maury Duval, the proprietor of the <emph>Dépôt
                      Bibliographique</emph>, whom he visited more than once in Paris; and his wife
@@ -750,28 +723,28 @@
                centre of his commitment to rational communication, education, and public
                engagement.</p>
 
-            <div type="citations">
+            <div type="citation">
                <head>Works Cited</head>
-               <p rend="noCount">Carnall, Geoffrey. “The <title level="j">Monthly Magazine</title>.”
+               <bibl>Carnall, Geoffrey. “The <title level="j">Monthly Magazine</title>.”
                      <title level="j">Review of English Studies</title> ns 5 (1954): 158-64.
-                  Print.</p>
-               <p rend="noCount">Gibbs, Warren E. “John Thelwall and the <title level="m">Panoramic
+                  Print.</bibl>
+               <bibl>Gibbs, Warren E. “John Thelwall and the <title level="m">Panoramic
                      Miscellany</title>.” <title level="j">Notes &amp; Queries</title> 155 (1928):
-                  386. Print.</p>
-               <p rend="noCount">Klancher, Jon P. <title level="m">The Making of English Reading
-                     Audiences, 1790-1832</title>. Madison: U of Wisconsin P, 1987. Print.</p>
-               <p rend="noCount">
+                  386. Print.</bibl>
+               <bibl>Klancher, Jon P. <title level="m">The Making of English Reading
+                     Audiences, 1790-1832</title>. Madison: U of Wisconsin P, 1987. Print.</bibl>
+               <bibl>
                   <title level="m">The Panoramic Miscellany</title> 1 (January-June 1826).
-                  Print.</p>
-               <p rend="noCount">Parker, Mark. <title level="m">Literary Magazines and British
-                     Romanticism</title>. Cambridge: Cambridge UP, 2000. Print.</p>
-               <p rend="noCount">Thelwall, John. <title level="m">The Poetical Recreations of The
+                  Print.</bibl>
+               <bibl>Parker, Mark. <title level="m">Literary Magazines and British
+                     Romanticism</title>. Cambridge: Cambridge UP, 2000. Print.</bibl>
+               <bibl>Thelwall, John. <title level="m">The Poetical Recreations of The
                      Champion, and His Literary Correspondents; with a selection of essays, literary
                      &amp; critical, which have appeared in the Champion newspaper</title>. London,
-                  1822. Print.</p>
-               <p rend="noCount">---. <title level="m">Selected Political Writings of John
+                  1822. Print.</bibl>
+               <bibl>---. <title level="m">Selected Political Writings of John
                      Thelwall</title>. Ed. Robert Lamb and Corinna Wagner. 4 vols. London: Pickering
-                  &amp; Chatto, 2009. Print.</p>
+                  &amp; Chatto, 2009. Print.</bibl>
 
             </div>
          </div>

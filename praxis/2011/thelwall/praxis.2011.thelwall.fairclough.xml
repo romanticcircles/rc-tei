@@ -1,123 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">John Thelwall: Critical Reassessments</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">John Thelwall and the Politics of the Picturesque</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Mary Fairclough</name>
             </author>
-            <editor>Yasmin Solomonescu</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.fairclough</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">September 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.thelwall.fairclough</idno>
+            <idno type="resource"
+               >thelwall</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">John Thelwall and the Politics of the
-                     Picturesque</title>
-
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">John Thelwall and the Politics of the Picturesque
+                  </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Mary</forename>
                         <surname>Fairclough</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/thelwall/praxis.2011.thelwall.fairclough"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">John Thelwall: Critical Reassessments</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >John Thelwall: Critical Reassessments</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2010-10-15">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ',
-                  and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -138,135 +175,69 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-05-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
-         <div type="essay" n="4">
+         <div type="essay">
             <head>John Thelwall and the Politics of the Picturesque</head>
             <byline><docAuthor>Mary Fairclough</docAuthor>
                <affiliation>University of Huddersfield</affiliation>
@@ -303,7 +274,7 @@
                the aesthetic observer tends to mimic the position of a privileged landowner who
                disdains active intervention in the lives of the poor (Barrell, <title level="m"
                   >Dark</title> 70-76, <title level="m">Pandora</title> 96-98; Bermingham
-                  68-69).<note resp="editors" place="foot" n="1">This condemnation has been revised
+                  68-69).<note resp="editors" place="foot">This condemnation has been revised
                   by critics who argue for the indeterminate, playful quality of the picturesque
                   (Michasiw 76-100; Jarvis 54; de Bolla 119-20).</note> Elizabeth Bohls notes that
                such spectatorship produces a “powerful abstracting impulse” which reinforces a
@@ -348,7 +319,7 @@
                landscape by emphasising the material basis of both (“Citizen” 79). For Thelwall the
                ideal viewing consciousness is never a disembodied, abstracting entity, but rather
                one which maintains a material connection with the landscape of which it forms a
-                  part.<note resp="editors" place="foot" n="2">As Lamb and Wagner suggest, an
+                  part.<note resp="editors" place="foot">As Lamb and Wagner suggest, an
                   interesting comparison piece to Thelwall’s “Pedestrian Excursion” is Mary
                   Wollstonecraft’s <title level="m">A Short Residence in Sweden, Norway and
                      Denmark</title> (15). Bohls describes how Wollstonecraft unsettles standard
@@ -358,7 +329,7 @@
                contemplation and toward synthesising the representation of landscape with his
                political activism.</p>
 
-            <div type="section" n="1">
+            <div type="section">
                <head>I.</head>
                <p>In the preface to <title level="m">The Peripatetic</title>, Thelwall declares his
                   “design of uniting the different advantages of the novel, the sentimental journal,
@@ -500,7 +471,7 @@
                   social life. In a “Digression for the Anatomists,” which draws on Thelwall’s
                   physiological training, though enquiry is prompted by the splendours of nature,
                   “the scientific eye” reveals “wider fields of wisdom and delight” than those
-                  presented by the aesthetic gaze (146).<note resp="editors" place="foot" n="3"
+                  presented by the aesthetic gaze (146).<note resp="editors" place="foot"
                      >Several episodes in <title level="m">The Peripatetic</title> which begin with
                      the contemplation of the visual landscape end with Thelwall advocating an
                      alternative “scientific view” (226-27).</note>
@@ -517,7 +488,7 @@
                   as limited and potentially deceptive. The picturesque does not yet have a positive
                   political function in Thelwall’s work.</p>
             </div>
-            <div type="section" n="2">
+            <div type="section">
                <head>II.</head>
                <p>“A Pedestrian Excursion through Several Parts of England and Wales during the
                   Summer of 1797” describes a walking tour from London to the West Country, which
@@ -533,7 +504,7 @@
                   work, the “Pedestrian Excursion” develops a self-conscious response to the
                   strictures of the picturesque, making reference not only to Gilpin’s schema, but
                   also those of the picturesque’s arch-theorists, Richard Payne Knight and Uvedale
-                     Price.<note resp="editors" place="foot" n="4">Thelwall investigates the power
+                     Price.<note resp="editors" place="foot">Thelwall investigates the power
                      of the picturesque to elicit “curiosity,” an important term for Price and Payne
                      Knight.</note> Thelwall declares himself one of the “pedestrian hunters of the
                   picturesque and sentimental,” but the picturesque is no mere fashionable object of
@@ -582,7 +553,7 @@
                   demonstrates that this “prospect” is not only myopic but deliberately
                   exploitative. He demands that the observer instead adopt the perspective of “man,
                   aggregate man” and engage with the material particularities of social
-                     existence.<note resp="editors" place="foot" n="5">Several critics note the
+                     existence.<note resp="editors" place="foot">Several critics note the
                      political implications of detail in landscape description (Bohls 13, Labbe
                      38).</note> Thelwall’s call for the recognition of “aggregate man” enlists
                   aesthetic description for a democratic cause, echoing as it does the rhetoric of
@@ -640,7 +611,7 @@
                   political adversity, the “Pedestrian Excursion” struggles to articulate how it
                   might contribute to widespread political amelioration. </p>
             </div>
-            <div type="section" n="3">
+            <div type="section">
                <head>III.</head>
                <p>“The Phenomena of the Wye, During the Winter of 1797-8” continues and develops
                   Thelwall’s engagement with the picturesque. Thelwall wrote the essay after the
@@ -698,7 +669,7 @@
                   form of the landscape and that of the human figure. But the landscape changes from
                   a static object of contemplation to an active, co-responding companion. Thelwall
                   employs a vocabulary of reciprocal exchange of energy and emotions that echoes his
-                  most engaged political lecturing.<note resp="editors" place="foot" n="6">See for
+                  most engaged political lecturing.<note resp="editors" place="foot">See for
                      example Thelwall’s lecture of 6 November 1795 (<title level="j">Tribune</title>
                      327).</note> Vitally, it not only recalls Thelwall’s investigations of
                   alternate “ways of seeing” in <title level="m">The Peripatetic</title>, but also
@@ -715,7 +686,7 @@
                   formal appreciation of landscape is not separable from other kinds of material
                   analysis, of physiological, social, or political forms, and even suggests that the
                   aesthetic might encourage the conditions for political engagement rather than
-                  isolated abstraction.<note resp="editors" place="foot" n="7">I am sympathetic to
+                  isolated abstraction.<note resp="editors" place="foot">I am sympathetic to
                      Terry Eagleton’s assertion that the later eighteenth century is a moment at
                      which the material particularity of aesthetic forms enables a “dangerously
                      radical” “ideal of compassionate community” (60).</note>
@@ -743,82 +714,83 @@
                   postdoctoral research fellowship funded by the Government of Canada’s Department
                   of Foreign Affairs and International Trade, and I gratefully acknowledge DFAIT’s
                   support.</p>
-            </div>
+        
 
-            <div type="citations">
+            <div type="citation">
                <head>Works Cited</head>
-               <p rend="noCount">Barrell, John. <title level="m">The Dark Side of the Landscape: The
+               <bibl>Barrell, John. <title level="m">The Dark Side of the Landscape: The
                      Rural Poor in English Painting 1730-1840</title>. Cambridge: Cambridge UP,
-                  1980. Print.</p>
-               <p rend="noCount">---. <title level="m">The Birth of Pandora and the Division of
-                     Knowledge</title>. Philadelphia: U of Pennsylvania P, 1992. Print.</p>
-               <p rend="noCount">Bohls, Elizabeth. <title level="m">Women Travel Writers and the
-                     Language of Aesthetics</title>. Cambridge: Cambridge UP, 1995. Print.</p>
-               <p rend="noCount">Claeys, Gregory, ed. <title level="m">The Politics of English
+                  1980. Print.</bibl>
+               <bibl>---. <title level="m">The Birth of Pandora and the Division of
+                     Knowledge</title>. Philadelphia: U of Pennsylvania P, 1992. Print.</bibl>
+               <bibl>Bohls, Elizabeth. <title level="m">Women Travel Writers and the
+                     Language of Aesthetics</title>. Cambridge: Cambridge UP, 1995. Print.</bibl>
+               <bibl>Claeys, Gregory, ed. <title level="m">The Politics of English
                      Jacobinism: Writings of John Thelwall</title>. University Park: Pennsylvania
-                  State UP, 1995. Print.</p>
-               <p rend="noCount">de Bolla, Peter. <title level="m">The Education of the Eye:
+                  State UP, 1995. Print.</bibl>
+               <bibl>de Bolla, Peter. <title level="m">The Education of the Eye:
                      Painting, Landscape, and Architecture in Eighteenth-Century Britain</title>.
-                  Stanford: Stanford UP, 2003. Print.</p>
-               <p rend="noCount">Eagleton, Terry. <title level="m">The Ideology of the
-                     Aesthetic</title>. Oxford: Basil Blackwell, 1990. Print.</p>
-               <p rend="noCount">Gilpin, William. <title level="m">Observations, Relative Chiefly to
+                  Stanford: Stanford UP, 2003. Print.</bibl>
+               <bibl>Eagleton, Terry. <title level="m">The Ideology of the
+                     Aesthetic</title>. Oxford: Basil Blackwell, 1990. Print.</bibl>
+               <bibl>Gilpin, William. <title level="m">Observations, Relative Chiefly to
                      Picturesque Beauty, Made in the Year 1772, on Several Parts of England;
                      Particularly the Mountains, and Lakes of Cumberland, and Westmoreland</title>.
-                  London, 1786. Print.</p>
-               <p rend="noCount">---. <title level="m">Three Essays: On Picturesque Beauty; on
+                  London, 1786. Print.</bibl>
+               <bibl>---. <title level="m">Three Essays: On Picturesque Beauty; on
                      Picturesque Travel; and on Sketching Landscape: To Which Is Added a Poem on
-                     Landscape Painting</title>. London, 1792. Print.</p>
-               <p rend="noCount">Jarvis, Robin. <title level="m">Romantic Writing and Pedestrian
-                     Travel</title>. Basingstoke: Macmillan, 1997. Print.</p>
-               <p rend="noCount">Labbe, Jacqueline. <title level="m">Romantic Visualities:
+                     Landscape Painting</title>. London, 1792. Print.</bibl>
+               <bibl>Jarvis, Robin. <title level="m">Romantic Writing and Pedestrian
+                     Travel</title>. Basingstoke: Macmillan, 1997. Print.</bibl>
+               <bibl>Labbe, Jacqueline. <title level="m">Romantic Visualities:
                      Landscape, Gender and Romanticism</title>. Basingstoke: Macmillan, 1997.
-                  Print.</p>
-               <p rend="noCount">Michasiw, Kim Ian. "Nine Revisionist Theses on the Picturesque."
-                     <title level="m">Representations</title> 38 (1992): 76-100. Print.</p>
-               <p rend="noCount">Payne Knight, Richard. <title level="m">The Landscape, a Didactic
+                  Print.</bibl>
+               <bibl>Michasiw, Kim Ian. "Nine Revisionist Theses on the Picturesque."
+                     <title level="m">Representations</title> 38 (1992): 76-100. Print.</bibl>
+               <bibl>Payne Knight, Richard. <title level="m">The Landscape, a Didactic
                      Poem. In Three Books. Addressed to Uvedale Price, Esq.</title> London, 1794.
-                  Print.</p>
-               <p rend="noCount">Price, Uvedale. <title level="m">An Essay on the Picturesque, as
+                  Print.</bibl>
+               <bibl>Price, Uvedale. <title level="m">An Essay on the Picturesque, as
                      Compared with the Sublime and Beautiful; and on the Use of Studying Pictures,
-                     for the Purpose of Improving Real Landscape.</title> London, 1794. Print.</p>
-               <p rend="noCount">Scrivener, Michael. "Jacobin Romanticism: John Thelwall's 'Wye'
+                     for the Purpose of Improving Real Landscape.</title> London, 1794. Print.</bibl>
+               <bibl>Scrivener, Michael. "Jacobin Romanticism: John Thelwall's 'Wye'
                   Essay and 'Pedestrian Excursion'." <title level="m">Placing and Displacing
                      Romanticism.</title> Ed. Peter J. Kitson. Aldershot: Ashgate, 2001. 73-87.
-                  Print.</p>
-               <p rend="noCount">Thelwall, John. “A Pedestrian Excursion through Several Parts of
-                  England and Wales during the Summer of 1797.” Lamb and Wagner 15-55.</p>
-               <p rend="noCount">---. <title level="m">The Peripatetic.</title> Ed. Judith Thompson.
-                  Detroit: Wayne State UP, 2001. Print.</p>
-               <p rend="noCount">---. “The Phenomena of the Wye, During the Winter of 1797-8.” Lamb
-                  and Wagner 1-13.</p>
-               <p rend="noCount">---. <title level="m">Poems Chiefly Written in Retirement</title>.
-                  1801. Oxford: Woodstock, 1989.</p>
-               <p rend="noCount">---. <title level="m">Political Lecture (No. 1) on the Moral
+                  Print.</bibl>
+               <bibl>Thelwall, John. “A Pedestrian Excursion through Several Parts of
+                  England and Wales during the Summer of 1797.” Lamb and Wagner 15-55.</bibl>
+               <bibl>---. <title level="m">The Peripatetic.</title> Ed. Judith Thompson.
+                  Detroit: Wayne State UP, 2001. Print.</bibl>
+               <bibl>---. “The Phenomena of the Wye, During the Winter of 1797-8.” Lamb
+                  and Wagner 1-13.</bibl>
+               <bibl>---. <title level="m">Poems Chiefly Written in Retirement</title>.
+                  1801. Oxford: Woodstock, 1989.</bibl>
+               <bibl>---. <title level="m">Political Lecture (No. 1) on the Moral
                      Tendency of a System of Spies and Informers, and the Conduct to Be Observed by
                      the Friends of Liberty During the Continuance of Such a System</title>. London,
-                  1794. Print.</p>
-               <p rend="noCount">---. “The Rights of Nature, Against the Usurpations of
+                  1794. Print.</bibl>
+               <bibl>---. “The Rights of Nature, Against the Usurpations of
                   Establishments. A Series of Letters to the People, in Reply to the False
-                  Principles of Burke.” Claeys 389-500. </p>
-               <p rend="noCount">---. <title level="m">Selected Political Writings of John
+                  Principles of Burke.” Claeys 389-500. </bibl>
+               <bibl>---. <title level="m">Selected Political Writings of John
                      Thelwall</title>. Ed. Robert Lamb, and Corinna Wagner. Vol. 3. London:
-                  Pickering and Chatto, 2009. Print.</p>
-               <p rend="noCount">---. “The Tribune, a Periodical Publication, Consisting Chiefly of
-                  the Political Lectures of J. Thelwall.”<title level="m"> </title>Claeys 65-327. </p>
-               <p rend="noCount">---. <title level="m">The Trident of Albion . . . To Which Is
+                  Pickering and Chatto, 2009. Print.</bibl>
+               <bibl>---. “The Tribune, a Periodical Publication, Consisting Chiefly of
+                  the Political Lectures of J. Thelwall.”<title level="m"> </title>Claeys 65-327. </bibl>
+               <bibl>---. <title level="m">The Trident of Albion . . . To Which Is
                      Prefixed, an Introductory Discourse on the Nature and Objects of Elocutionary
-                     Science</title>. Liverpool, 1805. Print.</p>
-               <p rend="noCount">Thompson, E. P. "Hunting the Jacobin Fox." <title level="m">Past
-                     and Present</title> 142 (1994): 94-140. Print.</p>
-               <p rend="noCount">---. <title level="m">The Making of the English Working
-                     Class</title>. Harmondsworth: Penguin, 1968. Print.</p>
-               <p rend="noCount">Thompson, Judith. Introduction. <title level="m">The
+                     Science</title>. Liverpool, 1805. Print.</bibl>
+               <bibl>Thompson, E. P. "Hunting the Jacobin Fox." <title level="m">Past
+                     and Present</title> 142 (1994): 94-140. Print.</bibl>
+               <bibl>---. <title level="m">The Making of the English Working
+                     Class</title>. Harmondsworth: Penguin, 1968. Print.</bibl>
+               <bibl>Thompson, Judith. Introduction. <title level="m">The
                      Peripatetic</title>. By John Thelwall. Detroit: Wayne State UP, 2001.
-                  Print.</p>
-               <p rend="noCount">---. "Citizen Juan Thelwall: In the Footsteps of a Free-Range
+                  Print.</bibl>
+               <bibl>---. "Citizen Juan Thelwall: In the Footsteps of a Free-Range
                   Radical." <title level="j">Studies in Romanticism</title> 48 (2009): 67-100.
-                  Print.</p>
+                  Print.</bibl>
+            </div>
             </div>
          </div>
       </body>

@@ -1,124 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">John Thelwall: Critical Reassessments</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">“A Son of John Thelwall”: Weymouth Birkbeck Thelwall’s Romantic
                Inheritance</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Patty O'Boyle</name>
             </author>
-            <editor>Yasmin Solomonescu</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.oboyle</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">September 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.thelwall.oboyle</idno>
+            <idno type="resource"
+               >thelwall</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">“A Son of John Thelwall”: Weymouth Birkbeck
-                     Thelwall’s Romantic Inheritance</title>
-
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">“A Son of John Thelwall”: Weymouth Birkbeck Thelwall’s Romantic
+                     Inheritance
+                  </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Patty</forename>
                         <surname>O'Boyle</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/thelwall/praxis.2011.thelwall.oboyle"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">John Thelwall: Critical Reassessments</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >John Thelwall: Critical Reassessments</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2010-10-15">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ',
-                  and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -139,132 +177,66 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-05-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
@@ -283,7 +255,7 @@
             </epigraph>
             <p> Thus a delighted John Thelwall wrote to his daughter Sara, on August 4, 1831, on the
                birth of his son Weymouth Birkbeck, who seems almost to have attempted to catch up
-               with his father before he was an hour old.<note resp="editors" place="foot" n="1">I
+               with his father before he was an hour old.<note resp="editors" place="foot">I
                   would like to thank Judith Thompson for sending me a transcript of this letter and
                   for the invaluable help she has given me during the preparation of this article.
                </note> As if fated to live at the same breathless, belated pace, Weymouth went on to
@@ -296,7 +268,7 @@
                the Great Reform Bill of 1832. Forty-six years years later the new life so joyfully announced in 1831 was to end in an unmarked “white
                man’s grave,” archetypal symbol of the folly of imperialist ambitions that the elder
                Thelwall had rejected, along with the often bigoted religious institutions that
-               partly inspired them.<note resp="editors" place="foot" n="2">For a comprehensive
+               partly inspired them.<note resp="editors" place="foot">For a comprehensive
                   account of the role of missionaries in the formation of the Empire, see Cox. On
                   Thelwall’s anti-imperialism, see the chapter “Against Empire” in Scrivener
                   233-56.</note> Victim of his own romantic radical inheritance, Weymouth Thelwall
@@ -313,13 +285,13 @@
                supporters of the first Reform Bill from all the parishes in London who marched
                through the city in protest at its defeat by the House of Lords (Place sec. 23). One
                of the reforms Thelwall had supported as early as 1795, the religious and political
-               emancipation of Irish Catholics,<note resp="editors" place="foot" n="3">See, for
+               emancipation of Irish Catholics,<note resp="editors" place="foot">See, for
                   instance, Thelwall, “The Tribune. No. XXVIII” 240.</note> had just been achieved
                through the passing of the Catholic Emancipation Bill of 1829, though it was bitterly
                contested by other denominations and Irish protestants. Here the personal and the
                political were once more to meet in John Thelwall’s life and affect the lives of the
                son whose nativity he heralds and of his Catholic mother Cecil, whose father had been
-                  Irish.<note resp="editors" place="foot" n="4">Patrick Boyle, who died in 1808, was
+                  Irish.<note resp="editors" place="foot">Patrick Boyle, who died in 1808, was
                   the publisher of <title level="m">Boyle’s Court Guide and Fashionable
                      Register</title>, the long-running directory of addresses in London. His widow
                   Eliza ran it after his death.</note> It is almost as if the act itself had opened
@@ -331,7 +303,7 @@
                in the sense of liberal and broad-minded) would shape the lives of his sons in very
                different ways. Though there is little evidence that he ever converted, his marriage
                to Henrietta Cecil Boyle in 1817 indicates a softening in his earlier staunch
-                  atheism.<note resp="editors" place="foot" n="5">Two unattributed blank verse
+                  atheism.<note resp="editors" place="foot">Two unattributed blank verse
                   meditations reprinted in Algernon Sydney Thelwall’s 1831 <title level="m">Thoughts
                      in Affliction</title> offer the only slim evidence that John Thelwall (by whom
                   they were likely composed) experienced a “movement towards grace” as he grew
@@ -345,7 +317,7 @@
                militant evangelist who had recently returned from trying to convert the Jews of
                Amsterdam. While Hampden’s quiet social conscience found an outlet in supplying the
                poor lace-makers of his village with materials and markets, and teaching their
-               children to read (Kelly 181),<note resp="editors" place="foot" n="6">Hampden sought
+               children to read (Kelly 181),<note resp="editors" place="foot">Hampden sought
                   the support of his father’s old friend Birkbeck in this endeavour. </note>
                Algernon’s outspoken activism expressed itself in polemical tracts against Catholics
                and almost any dissenting Church that did not acknowledge the Trinity. As paid
@@ -357,7 +329,7 @@
                ghost of his own father by calling his well-known antagonist’s anonymity a
                “questionable shape”&#8212;a borrowing from <title level="m">Hamlet</title> that his
                father had used in his arguments against Burke (<title level="m">Statement
-                  </title>12).<note resp="editors" place="foot" n="7">John Thelwall quotes the same
+                  </title>12).<note resp="editors" place="foot">John Thelwall quotes the same
                   phrase several times in his published writing, most pertinently against Burke in
                   almost a mirror version of his son’s pamphlet war with Wilkes. See Thelwall,
                      <title level="m">Sober Reflections </title>345. For another occurrence see
@@ -366,7 +338,7 @@
                “oratorical vocabulary” to discredit the son by raising the same ghost (<title
                   level="m">Statement </title>29, 52); and by his lamenting the TBS’s lack of
                “fatherly authority” in not having bishops on its committee but having as its paid
-               secretary “a son of John Thelwall” (50, 16).<note resp="editors" place="foot" n="8"
+               secretary “a son of John Thelwall” (50, 16).<note resp="editors" place="foot"
                   >Samuel Charles Wilkes, the editor of the <title level="m">Christian</title>
                   <title level="m">Observer</title>, wrote the first edition of <title level="m">A
                      Statement Presented to Judge Erskine</title> anonymously but inserted a signed
@@ -376,7 +348,7 @@
                1794. One of the main charges against Algernon was that he spent more of the
                subscribers’ money on polemical pamphlets than on printing Bibles for the lost souls
                of Britain. The implied objection to him, however, was quite obviously that he was
-               simply “a son of John Thelwall.”<note resp="editors" place="foot" n="9">That “a son
+               simply “a son of John Thelwall.”<note resp="editors" place="foot">That “a son
                   of John Thelwall” could call another man’s respectability into question was deemed
                   outrageous. </note> He had inherited all his father’s pugnacious spirit, without
                any of his redeeming humour and toleration.</p>
@@ -384,7 +356,7 @@
                Thelwall’s nature combined Algernon’s restlessness and Hampden’s practicality with
                the many-minded creativity of their common sire. Only three years old when his father
                died, he and his mother were left almost destitute, dependent upon Hampden and other
-               relatives and friends.<note resp="editors" place="foot" n="10">The novelist Barbara
+               relatives and friends.<note resp="editors" place="foot">The novelist Barbara
                   Hofland, for instance, made an appeal for financial help for “the widow of a man
                   who for half a century was the unflinching advocate of those political principles
                   which at length obtained ascendancy” who “appears to me unaccountably neglected.”
@@ -410,19 +382,19 @@
             <p>Upon his departure from Stonyhurst in 1847-48, Weymouth Thelwall immediately joined
                the Foreign Office. In 1859, whilst working as a clerk in the War Office, he married
                Marian Wrather, firstly in a Catholic and then in an Anglican Church; and a daughter,
-               Edith Fanny Thelwall, was born in 1862.<note resp="editors" place="foot" n="11">Edith
+               Edith Fanny Thelwall, was born in 1862.<note resp="editors" place="foot">Edith
                   died unmarried in Kensington in 1942.</note> By October 1864, though, Weymouth had
                declared himself bankrupt in his own petition, with debts of between two and three
                thousand pounds owed mostly in bills. This was possibly through gambling, sign of a
                reckless streak that would contribute to Weymouth’s unfortunate fate.<note
-                  resp="editors" place="foot" n="12">
+                  resp="editors" place="foot">
                   <title level="m">The Coursing Calendar</title> for 1864 lists a Mr. Thelwall as
                   racing two dogs in March; one got through two rounds only to be beaten in the last
                   (131, 171).</note> After he promised he would pay his creditors whatever remained
                above £200 of his £375 salary, including his annual increase, the judge accepted this
                “very creditable” offer and made an order of discharge (“Court of Bankruptcy” 9). He
                is cited as living in Keppel Terrace, Windsor, at this time.<note resp="editors"
-                  place="foot" n="13">According to a report of bankruptcies in <title level="m">The
+                  place="foot">According to a report of bankruptcies in <title level="m">The
                      Law Journal</title>’s “Gazette” for Tuesday, Oct. 18, 1864. </note> As a
                bankrupt there was little possibility that he could remain in the civil service
                without the support of his superior officers, and it is likely that he had been
@@ -444,7 +416,7 @@
                to John Thelwall in later life, when the fruits of the reform movement’s early
                struggles were beginning to be enjoyed by those who had often resisted them,
                including those who had caused Weymouth to be dismissed.<note resp="editors"
-                  place="foot" n="14">I quote this from a certified copy of Cecil Thelwall’s entry
+                  place="foot">I quote this from a certified copy of Cecil Thelwall’s entry
                   of death, registered in Windsor in 1865.</note>
             </p>
             <p>Yet with the rakish resilience of Thelwall’s genius, Incubus, in his play <title
@@ -453,7 +425,7 @@
                war-office clerk reappeared in London as a landscape artist, aged forty, living in
                Westminster; and, according to the census record, his “wife” was a woman called
                Helena, birthplace not known, twenty-four years old and a dancer.<note resp="editors"
-                  place="foot" n="15">See the entry for “Weymouth B. Thelwall” in the Census Returns
+                  place="foot">See the entry for “Weymouth B. Thelwall” in the Census Returns
                   of England and Wales, 1871. </note> It is uncanny how Weymouth’s mid-life
                behaviour mirrored that of his father. At the age of forty-two, John Thelwall had
                returned to London after an eight-year exile, having transformed himself from a
@@ -521,7 +493,7 @@
                   money and therefore request that a telegram be sent to ask the Vice Consul to
                   ascertain her whereabouts and her safety and asking the assistance of the foreign
                   office in paying for her passage home and those of her troupe as may need it. (At
-                  my expense of course). <note resp="editors" place="foot" n="16">See the letter of
+                  my expense of course). <note resp="editors" place="foot">See the letter of
                      Sept. 21, 1875, in <title level="m">Case</title>.</note>
                </quote> In due course a telegram and letters flew between Moscow and Nizhniy
                Novgorod, between Lord Derby and his senior civil servants, and between the said
@@ -536,7 +508,7 @@
                the £61 by a bill drawn on the proprietor of the<title level="m"> Illustrated London
                   News </title>on the basis of commissions for drawings he was to send from Lake
                Nyassa in Central Africa, “should I survive the journey.” <note resp="editors"
-                  place="foot" n="17">See the letter of May 22, 1876, in <title level="m"
+                  place="foot">See the letter of May 22, 1876, in <title level="m"
                      >Case</title>.</note>
             </p>
             <p>In the “Helena Fielding” affair and its African aftermath, we see the complicated
@@ -563,7 +535,7 @@
                   results may be really valuable.</quote> He closes this letter by saying he has
                just received a letter from Captain Burton, <quote>by which I see I may meet him at
                   Zanzibar and have the advantage of his council and experience. <note
-                     resp="editors" place="foot" n="18">See W. B. Thelwall’s letter to Sir Harry
+                     resp="editors" place="foot">See W. B. Thelwall’s letter to Sir Harry
                      Rawlinson of Dec. 15, 1875. </note>
                </quote> To see a son of John Thelwall associating himself with Morton Stanley (the
                journalist who had done so much to create Livingstone’s heroic reputation) and
@@ -612,7 +584,7 @@
                it was equally the business of men like James Stevenson, the Glasgow industrialist
                who bankrolled much of it, and was seeking new sources of trade and the opening up of
                mineral resources to his company in a territory controlled by the Portuguese.<note
-                  resp="editors" place="foot" n="19">See McCracken 222. </note>
+                  resp="editors" place="foot">See McCracken 222. </note>
             </p>
             <p>Thelwall got the answer he was looking for from the Livingstonia Committee; urged to
                join a reinforcement party travelling to the Cape, he gladly agreed, eager to
@@ -637,7 +609,7 @@
                excitement of adventure and missionary zeal which the expedition aroused, and with
                the rapturous good wishes extended to the party in England and Scotland supplemented
                by press reports which were picked up by colonial newspapers from Sydney to Cape
-                  Town.<note resp="editors" place="foot" n="20">The progress of the expedition was
+                  Town.<note resp="editors" place="foot">The progress of the expedition was
                   regularly reported in the national and local press, as well as colonial papers
                   such as <title level="m">The Sydney Herald</title> and <title level="m">The Cape
                      Town Argos</title>. </note> But he had been in Africa for only six months when
@@ -671,7 +643,7 @@
                   rested he buried his face in his hands and generally kept muttering to himself.
                   His appetite seemed to fail him and he subsisted chiefly on native beer and wine.
                   He became less active than formerly seldom rising before ten o’clock. <note
-                     resp="editors" place="foot" n="21">See the <title level="m">Journal of the
+                     resp="editors" place="foot">See the <title level="m">Journal of the
                         Livingstonia Mission</title> for March 26, 1878.</note>
                </quote> According to the men, he had risen shortly before noon and, not delaying to
                dress (his blood-stained shirt was submitted as evidence), had armed himself and one
@@ -753,8 +725,7 @@
                John. “He too could declaim,” says Fitzgerald of his schoolmate at Stonyhurst. In the
                few writings that Weymouth left behind we too can “imagine” a voice, far removed as
                it may be from his father’s fiery oratory, already turned ashen by the belatedness of
-               textuality (at least if Hazlitt is to be believed).<note resp="editors" place="foot"
-                  n="22">Hazlitt contrasts Thelwall’s writing unfavourably with his oratory in “On
+               textuality (at least if Hazlitt is to be believed).<note resp="editors" place="foot">Hazlitt contrasts Thelwall’s writing unfavourably with his oratory in “On
                   the Difference Between Writing and Speaking.” </note> John Thelwall’s is always an
                imagined voice, a something missed, and it is this belatedness that Weymouth
                Thelwall, who never really knew his father, had to live with and through. It is this
@@ -785,7 +756,7 @@
                   </lg></quote> This is one of the passages highlighted in John Thelwall’s own copy
                of <title level="m">The Excursion</title>, part of the lifelong dialogue between
                himself and Wordsworth that had so strong an influence on both men’s work.<note
-                  resp="editors" place="foot" n="23">I am grateful to Judith Thompson for her
+                  resp="editors" place="foot">I am grateful to Judith Thompson for her
                   transcriptions of Thelwall’s heavily-annotated copy of Wordsworth’s <title
                      level="m">Excursion</title> (in the collection of Paul F. Betz) and for
                   discussion of the ongoing dialogue between Thelwall and Wordsworth.</note>
@@ -796,8 +767,7 @@
                Romanticism’s colonial legacies, we may discover that both Thelwall and Wordsworth
                had more influence than we have ever suspected upon the modernist novelist who draws
                us into to a deeper understanding of that heart of darkness that lurks in all
-               “civilized” beings, romantics and radicals alike.<note resp="editors" place="foot"
-                  n="24">See particularly Thorburn on the influence of Wordsworth<title level="m"
+               “civilized” beings, romantics and radicals alike.<note resp="editors" place="foot">See particularly Thorburn on the influence of Wordsworth<title level="m"
                   > </title>on Conrad’s work. Thorburn does not refer to <title level="m">The
                      Excursion </title>but details many of Conrad’s uses of Wordsworthian themes and
                   narrative techniques.</note>
@@ -824,131 +794,131 @@
 
             <div type="citations">
                <head>Works Cited</head>
-               <p rend="noCount">
+               <bibl>
                   <title level="m">Case of Mr Thelwall and Miss Fielding, alias Girofle</title>.
-                  1875-1876. MS FO65/959. National Archives, Kew.</p>
-               <p rend="noCount">Conrad, Joseph. <title level="m">Heart of Darkness</title>
+                  1875-1876. MS FO65/959. National Archives, Kew.</bibl>
+               <bibl>Conrad, Joseph. <title level="m">Heart of Darkness</title>
                   <title level="m">and Other Stories</title>. Ware: Wordsworth Classics, 1995.
-                  Print.</p>
-               <p rend="noCount">
+                  Print.</bibl>
+               <bibl>
                   <title level="m">Correspondence Relating to the Livingstonia Mission. </title>MS
                   7870/7871. Free Church of Scotland Missionary Archives. National Library of
-                  Scotland, Edinburgh.</p>
-               <p rend="noCount">
+                  Scotland, Edinburgh.</bibl>
+               <bibl>
                   <title level="m">The Coursing Calendar and Report of the Spring Season
                      1864.</title> London, 1864. <title level="m">Google Book Search</title>. Web.
-                  31 May 2010.</p>
-               <p rend="noCount">“Court of Bankruptcy, Basinghall-Street, Dec. 8.” <title level="m"
+                  31 May 2010.</bibl>
+               <bibl>“Court of Bankruptcy, Basinghall-Street, Dec. 8.” <title level="m"
                      >The Times </title>9 Dec 1864: 9. <title level="m">Times Digital Archive
-                     1785-1985. </title>Web. 20 Nov 2009.</p>
-               <p rend="noCount">“Court Circular.” <title level="m">The Times</title> 23 July 1873:
+                     1785-1985. </title>Web. 20 Nov 2009.</bibl>
+               <bibl>“Court Circular.” <title level="m">The Times</title> 23 July 1873:
                   5. <title level="m">Times Digital</title>
-                  <title level="m">Archive 1785-1985. </title>Web. 31 May 2010. </p>
-               <p rend="noCount">Cox, Jeffrey. <title level="m">The British Missionary Enterprise
+                  <title level="m">Archive 1785-1985. </title>Web. 31 May 2010. </bibl>
+               <bibl>Cox, Jeffrey. <title level="m">The British Missionary Enterprise
                      since 1700. </title>New York: Routledge, 2008. Print. Christianity and Society
-                  in the Modern World.</p>
-               <p rend="noCount">Dachs, Anthony J., and W. F. Rea. <title level="m">The Catholic
-                     Church and Zimbabwe: 1879-1979. </title>Gwelo: Mambo, 1979. Print.</p>
-               <p rend="noCount">“Deaths.” <title level="m">The Gentleman’s Magazine and Historical
+                  in the Modern World.</bibl>
+               <bibl>Dachs, Anthony J., and W. F. Rea. <title level="m">The Catholic
+                     Church and Zimbabwe: 1879-1979. </title>Gwelo: Mambo, 1979. Print.</bibl>
+               <bibl>“Deaths.” <title level="m">The Gentleman’s Magazine and Historical
                      Review</title> 218 (ns 18) (April 1865): 523-34. <title level="m">Google Book
-                     Search</title>. Web. 15 Sept. 2009.</p>
-               <p rend="noCount">“Expedition to Lake Nyassa.” <title level="m">Illustrated London
-                     News</title> 12 June 1875: 550-51. Web. 31 May 2010.</p>
-               <p rend="noCount">Fitzgerald, Percy Hetherington. <title level="m">Stonyhurst
-                     Memories; or, Six Years at School</title>. London, 1895. Print.</p>
-               <p rend="noCount">“Gazette, Tuesday, October 18.” <title level="m">The Law Journal
+                     Search</title>. Web. 15 Sept. 2009.</bibl>
+               <bibl>“Expedition to Lake Nyassa.” <title level="m">Illustrated London
+                     News</title> 12 June 1875: 550-51. Web. 31 May 2010.</bibl>
+               <bibl>Fitzgerald, Percy Hetherington. <title level="m">Stonyhurst
+                     Memories; or, Six Years at School</title>. London, 1895. Print.</bibl>
+               <bibl>“Gazette, Tuesday, October 18.” <title level="m">The Law Journal
                      Reports for the Year 1864</title> ns 33 (1864): 175-76. <title level="m">Google
-                     Book Search</title>. Web. 20 Oct. 2009.</p>
-               <p rend="noCount">Hazlitt, William. “On the Difference between Writing and Speaking.”
+                     Book Search</title>. Web. 20 Oct. 2009.</bibl>
+               <bibl>Hazlitt, William. “On the Difference between Writing and Speaking.”
                      <title level="m">The Complete Works of William Hazlitt</title>. Ed. P. P. Howe.
-                  Vol. 12. London: Dent, 1930-34. 262-79. Print.</p>
-               <p rend="noCount">Hofland, Barbara. Letter to Mr. Hale. 15 July [1834-35]. <title
+                  Vol. 12. London: Dent, 1930-34. 262-79. Print.</bibl>
+               <bibl>Hofland, Barbara. Letter to Mr. Hale. 15 July [1834-35]. <title
                      level="m">William Wordsworth and the Romantic Imagination: A Scholar’s
-                     Collection</title>. Comp. Paul F. Betz. Ithaca: Cornell U Lib., 2000. 12.</p>
-               <p rend="noCount">Johnstone, H. A. Munro Butler. <title level="m">A Trip up the Volga
-                     to the Fair of Nijni-Novgorod</title>. Oxford, 1875. Print.</p>
-               <p rend="noCount">
+                     Collection</title>. Comp. Paul F. Betz. Ithaca: Cornell U Lib., 2000. 12.</bibl>
+               <bibl>Johnstone, H. A. Munro Butler. <title level="m">A Trip up the Volga
+                     to the Fair of Nijni-Novgorod</title>. Oxford, 1875. Print.</bibl>
+               <bibl>
                   <title level="m">Journal of the Livingstonia Mission</title>. MS 7909. National
-                  Library of Scotland, Edinburgh.</p>
-               <p rend="noCount">Kelly, Thomas. <title level="m">George Birkbeck: Pioneer of Adult
-                     Education.</title> Liverpool: Liverpool UP, 1957. Print.</p>
-               <p rend="noCount">Livingstone, W. P. <title level="m">Laws of Livingstonia: A
+                  Library of Scotland, Edinburgh.</bibl>
+               <bibl>Kelly, Thomas. <title level="m">George Birkbeck: Pioneer of Adult
+                     Education.</title> Liverpool: Liverpool UP, 1957. Print.</bibl>
+               <bibl>Livingstone, W. P. <title level="m">Laws of Livingstonia: A
                      Narrative of Missionary Adventure and Achievement. </title>3rd ed. London:
-                  Hodder and Stoughton, 1923. Print.</p>
-               <p rend="noCount">Lugard, Frederick John Dealtry. <title level="m">The Rise of Our
+                  Hodder and Stoughton, 1923. Print.</bibl>
+               <bibl>Lugard, Frederick John Dealtry. <title level="m">The Rise of Our
                      East African Empire: Early Efforts in Nyasaland and Uganda</title>. Vol. 1.
-                  Edinburgh, 1893. Print.</p>
-               <p rend="noCount">McCracken, John. “Livingstone and the Aftermath: The Origins and
+                  Edinburgh, 1893. Print.</bibl>
+               <bibl>McCracken, John. “Livingstone and the Aftermath: The Origins and
                   Development of Livingstonia Mission.” <title level="m">Livingstone: Man of
-                     Africa.</title> Ed. Bridglal Pachai. London: Longman, 1973. 218-34. Print.</p>
-               <p rend="noCount">Place, Francis. <title level="m">London Radicalism 1830-1843: A
+                     Africa.</title> Ed. Bridglal Pachai. London: Longman, 1973. 218-34. Print.</bibl>
+               <bibl>Place, Francis. <title level="m">London Radicalism 1830-1843: A
                      Selection of the Papers of Francis Place</title>. Ed. D. J. Rowe. London:
-                  London Record Soc., 1970. British History Online. Web. 30 May 2010. </p>
-               <p rend="noCount">Rees, Terence, and David Wilmore, eds. <title level="m">British
+                  London Record Soc., 1970. British History Online. Web. 30 May 2010. </bibl>
+               <bibl>Rees, Terence, and David Wilmore, eds. <title level="m">British
                      Theatrical Patents, 1801-1900.</title> London: Soc. for Theatre Research, 1996.
-                  Print. </p>
-               <p rend="noCount">“Returning to the Fold.” <title level="m">New Zealand
+                  Print. </bibl>
+               <bibl>“Returning to the Fold.” <title level="m">New Zealand
                      Tablet</title> 28 May 1903: 3. <title level="m">Papers Past</title>. The
-                  National Library of New Zealand. Web. 12 Dec. 2009. </p>
-               <p rend="noCount">Ross, Andrew C. <title level="m">David Livingstone: Mission and
-                     Empire</title>. London: Hambledon &amp; London, 2002. Print.</p>
-               <p rend="noCount">“Sales by Auction.” <title level="j">The Times</title> 21 April
+                  National Library of New Zealand. Web. 12 Dec. 2009. </bibl>
+               <bibl>Ross, Andrew C. <title level="m">David Livingstone: Mission and
+                     Empire</title>. London: Hambledon &amp; London, 2002. Print.</bibl>
+               <bibl>“Sales by Auction.” <title level="j">The Times</title> 21 April
                   1820: 4. <title level="m">Times Digital Archive 1785-1985.</title> Web. 29 March
-                  2010. </p>
-               <p rend="noCount">Scrivener, Michael. <title level="m">Seditious Allegories: John
+                  2010. </bibl>
+               <bibl>Scrivener, Michael. <title level="m">Seditious Allegories: John
                      Thelwall and Jacobin Writing</title>. University Park: Pennsylvania State UP,
-                  2001. Print.</p>
-               <p rend="noCount">
+                  2001. Print.</bibl>
+               <bibl>
                   <title level="m">Statement Presented to Judge Erskine: A Statement Presented to
                      the Right Hon. Mr. Justice Erskine, President of the “Trinitarian Bible
                      Society,” Relative to Certain Most Extraordinary Circumstances Connected with a
                      Letter Addressed by the Rev. A. S. Thelwall, Secretary of that Society, to
                      Arthur Stanley, Esquire, President of the Bath Auxiliary Trinitarian Bible
                      Society</title>. 2<hi rend="sup">nd</hi> ed. with additions. London, 1840.
-                     <title level="m">Google Book Search</title>. Web. 29 May 2010. </p>
-               <p rend="noCount">Stewart, James. <title level="m">From Nyassa to Tanganyika: The
+                     <title level="m">Google Book Search</title>. Web. 29 May 2010. </bibl>
+               <bibl>Stewart, James. <title level="m">From Nyassa to Tanganyika: The
                      Journal of James Stewart CE in Central Africa, 1876-1879</title>. Ed. Jack
-                  Thompson. Blantyre: Central Africana, 1989. Print.</p>
-               <p rend="noCount">Stewart, James. Letter to Alexander Duff. 28 May 1877. MS
+                  Thompson. Blantyre: Central Africana, 1989. Print.</bibl>
+               <bibl>Stewart, James. Letter to Alexander Duff. 28 May 1877. MS
                   PPMS1/IBEA/1/2/1877. School of African and Oriental Studies Archives, University
-                  of London, London.</p>
-               <p rend="noCount">Thelwall, Algernon Sydney. <title level="m">Thoughts in Affliction.
-                  </title>London, 1831. Print.</p>
-               <p rend="noCount">Thelwall, John. Letter to Dr. Anderson. 9 Feb. 1804. MS
-                  Adv.MSS.22.4.14. National Lib. of Scotland, Edinburgh.</p>
-               <p rend="noCount">---. Letter to Sara Thelwall. 4 Aug. 1831. MS Coleridge. Berg
-                  Collection. New York Public Lib., New York. </p>
-               <p rend="noCount">---. <title level="m">The Politics of English Jacobinism: Writings
+                  of London, London.</bibl>
+               <bibl>Thelwall, Algernon Sydney. <title level="m">Thoughts in Affliction.
+                  </title>London, 1831. Print.</bibl>
+               <bibl>Thelwall, John. Letter to Dr. Anderson. 9 Feb. 1804. MS
+                  Adv.MSS.22.4.14. National Lib. of Scotland, Edinburgh.</bibl>
+               <bibl>---. Letter to Sara Thelwall. 4 Aug. 1831. MS Coleridge. Berg
+                  Collection. New York Public Lib., New York. </bibl>
+               <bibl>---. <title level="m">The Politics of English Jacobinism: Writings
                      of John Thelwall</title>. Ed. Gregory Claeys. University Park: Pennsylvania
-                  State UP, 1995. Print.</p>
-               <p rend="noCount">---. “The Rights of Nature, Against the Usurpations of
-                  Establishments.” 1796. Claeys 389-500.</p>
-               <p rend="noCount">---. “Sober Reflections on the Seditious and Inflammatory Letter of
-                  the Right Hon. Edmund Burke, to a Noble Lord.” 1796. Claeys 329-87.</p>
-               <p rend="noCount">---. “The Tribune. No. XXVIII. Report on the State of Popular
+                  State UP, 1995. Print.</bibl>
+               <bibl>---. “The Rights of Nature, Against the Usurpations of
+                  Establishments.” 1796. Claeys 389-500.</bibl>
+               <bibl>---. “Sober Reflections on the Seditious and Inflammatory Letter of
+                  the Right Hon. Edmund Burke, to a Noble Lord.” 1796. Claeys 329-87.</bibl>
+               <bibl>---. “The Tribune. No. XXVIII. Report on the State of Popular
                   Opinion, and Causes of the Increase of Democratic Principles. Part the Fifth.”
-                  1795. Claeys 232- 45.</p>
-               <p rend="noCount">Thelwall, W. B. Letter to the Foreign Secretary. 21 Sept. 1875. MS
-                  FO65/059. National Archives, Kew.</p>
-               <p rend="noCount">---. Letter to Sir Harry Rawlinson. 1 Nov. 1875. MS CB6/2160. Royal
-                  Geographical Soc. Archives, London.</p>
-               <p rend="noCount">---. Letter to Sir Harry Rawlinson. 15 Dec. 1875. MS CB6/2160.
-                  Royal Geographical Soc. Archives, London.</p>
-               <p rend="noCount">---. “Notes and Suggestions.” <title level="m">Den Norske
+                  1795. Claeys 232- 45.</bibl>
+               <bibl>Thelwall, W. B. Letter to the Foreign Secretary. 21 Sept. 1875. MS
+                  FO65/059. National Archives, Kew.</bibl>
+               <bibl>---. Letter to Sir Harry Rawlinson. 1 Nov. 1875. MS CB6/2160. Royal
+                  Geographical Soc. Archives, London.</bibl>
+               <bibl>---. Letter to Sir Harry Rawlinson. 15 Dec. 1875. MS CB6/2160.
+                  Royal Geographical Soc. Archives, London.</bibl>
+               <bibl>---. “Notes and Suggestions.” <title level="m">Den Norske
                      Turistforenings Årbog for 1871</title>. 104-08. Print. <title level="m">Årbok:
                      Norske Turistforenings, Oslo</title>. Kristiania, 1869-72. <title level="m"
-                     >Google Book Search</title>. Web. 16 Sept. 2009.</p>
-               <p rend="noCount">“Thelwall, Weymouth B.” Census Returns of England and Wales, 1871.
+                     >Google Book Search</title>. Web. 16 Sept. 2009.</bibl>
+               <bibl>“Thelwall, Weymouth B.” Census Returns of England and Wales, 1871.
                   The National Archives, Kew. <title level="m">Ancestry.com</title>. Web. 13 May
-                  2010.</p>
-               <p rend="noCount">Thorburn, David. <title level="m">Conrad’s Romanticism</title>.
-                  1974. New Haven: Yale UP, 1975. Print.</p>
-               <p rend="noCount">Wordsworth, William. <title level="m">Poetical Works</title>. Ed.
+                  2010.</bibl>
+               <bibl>Thorburn, David. <title level="m">Conrad’s Romanticism</title>.
+                  1974. New Haven: Yale UP, 1975. Print.</bibl>
+               <bibl>Wordsworth, William. <title level="m">Poetical Works</title>. Ed.
                   Thomas Hutchinson and Ernest de Selincourt<title level="m">. </title>London:
-                  Oxford UP, 1967. Print.</p>
-               <p rend="noCount">Young, E. D. <title level="m">Nyassa: A Journal of Adventures
+                  Oxford UP, 1967. Print.</bibl>
+               <bibl>Young, E. D. <title level="m">Nyassa: A Journal of Adventures
                      whilst Exploring Lake Nyassa, Central Africa, and Establishing the Settlement
-                     of “Livingstonia.”</title> Rev. Horace Waller. London, 1877. Print.</p>
+                     of “Livingstonia.”</title> Rev. Horace Waller. London, 1877. Print.</bibl>
             </div>
          </div>
       </body>

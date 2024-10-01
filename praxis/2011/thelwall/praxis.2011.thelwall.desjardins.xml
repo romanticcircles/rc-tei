@@ -1,122 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">John Thelwall: Critical Reassessments</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">John Thelwall and Association</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Molly Desjardins</name>
             </author>
-            <editor>Yasmin Solomonescu</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.desjardins</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">September 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.thelwall.desjardins</idno>
+            <idno type="resource"
+               >thelwall</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">John Thelwall and Association</title>
-
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">John Thelwall and Association
+                  </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Molly</forename>
                         <surname>Desjardins</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/thelwall/praxis.2011.thelwall.desjardins"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">John Thelwall: Critical Reassessments</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >John Thelwall: Critical Reassessments</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2010-10-15">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ',
-                  and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -137,135 +175,68 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-05-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+  
    <text>
       <body>
-         <div type="essay" n="3">
+         <div type="essay">
             <head>John Thelwall and Association</head>
             <byline><docAuthor>Molly Desjardins</docAuthor>
                <affiliation>University of Northern Colorado</affiliation></byline>
@@ -279,7 +250,7 @@
                captures the drastic turn in Thelwall’s career than George Crabbe’s caricature of
                Thelwall as the radical lecturer Hammond in the verse tale <title level="m">The Dumb
                   Orators; or, the Benefit of Society</title>
-              (1812).<note resp="editors" place="end" n="1">
+              (1812).<note resp="editors" place="foot">
                    In assuming that Thelwall is the model for Crabbe’s Hammond, I follow
                      Thompson, “Overlooking History,” Scrivener, and Edwards. 
                </note> In <title level="m">The Dumb Orators</title>, Hammond first stupefies a
@@ -296,7 +267,7 @@
                overcome a speech impediment of his own, lectured to thousands in the early 1790s,
                but by the end of the decade he had been made, effectively, dumb: first by the
                “Gagging Acts” of 1795 and then by “dwindling interest” in his public lectures
-               (Claeys xxvii).<note resp="editors" place="end" n="2"> Thelwall discloses in <title
+               (Claeys xxvii).<note resp="editors" place="foot"> Thelwall discloses in <title
                      level="m">A Letter to Henry Cline</title> that he once suffered from a lisp
                   (19). </note> Forcibly deprived of the freedom to express his political views,
                Thelwall changed careers to become an elocutionist who sought to cure speech
@@ -330,7 +301,7 @@
             <p> In a recent article, Judith Thompson compares Coleridge’s conversation poems to
                Thelwall’s and concludes that Thelwall is “more concerned with modulations of voice
                than associations of the mind, and with building a co-responding society than with
-               correspondent breezes” (“Why Kendal?” 18).<note resp="editors" place="end" n="3">
+               correspondent breezes” (“Why Kendal?” 18).<note resp="editors" place="foot">
                    For more on the poetic relationship between Thelwall and Coleridge, see
                      Thompson, “An Autumnal Blast.”
                </note> I agree with Thompson’s assessment that Thelwall, unlike Coleridge,
@@ -346,7 +317,7 @@
                Taste and Imagination” (1820), an essay first published in his newspaper<hi> </hi>
                <title level="m">The Champion</title>. Here, many years after Coleridge rejected
                Hartleian thought, Thelwall continues to appeal to associationist theory.<note
-                  resp="editors" place="end" n="4">
+                  resp="editors" place="foot">
                    In the 1790s Coleridge had praised Hartley’s work (and even named his son
                      Hartley). But on March 16, 1801, he exclaimed that he had “overthrown the
                      doctrine of associationism, as taught by Hartley, and with it all the
@@ -384,11 +355,10 @@
                simple principle of materialism,” would imagine the mind as a tangible object
                   and,<hi> </hi>moreover, as an object of commerce (<emph>Animal Vitality</emph>
                13). By taking the “necessary luxury” of tea as his image, Thelwall universalizes
-               what would normally be a private possession.<note resp="editors" place="end" n="5">
+               what would normally be a private possession.<note resp="editors" place="foot">
                   Here, I am referencing the title of Fromer’s book.</note> Thelwall suggests that
                though the mind, like tea, is a material object, it is not a commodity and does not
-               gain value when locked against external influence.<note resp="editors" place="end"
-                  n="6">
+               gain value when locked against external influence.<note resp="editors" place="foot">
                   In 1833, Thomas Wontner warned his readers that caddies should be locked to
                      protect tea from being stolen by servants (704). Caddies often had locks for
                      expressly this purpose.
@@ -418,7 +388,7 @@
                her from the misery of being in eternal solitude, even in the midst of society” (64).
                According to Thelwall, speech impediments were necessarily restrictive to sociality
                for two reasons. Not only did they keep a person from being able to speak, but they
-               also impaired a person’s willingness to speak.<note resp="editors" place="end" n="7">
+               also impaired a person’s willingness to speak.<note resp="editors" place="foot">
                    For another view on Thelwall’s theory of speech pathology, see Langan.
                </note> Both prevented individuals from developing bonds with society. Thelwall went
                so far as to call speech impediment a kind of idiocy, a term used in the period for a
@@ -503,7 +473,7 @@
                stimulus and identified the stimulus as the “electric fluid” (41). In suggesting that
                the electric fluid stimulated life, but was not itself living, Thelwall likely
                followed Erasmus Darwin, of whose work he was clearly aware.<note resp="editors"
-                  place="end" n="8"> In a 1795 political lecture, Thelwall praised “the sublime
+                  place="foot"> In a 1795 political lecture, Thelwall praised “the sublime
                   projects of Dr. Darwin” (<emph>Tribune</emph> 114). He also discussed Darwin’s
                   theory of life with Coleridge (<emph>Letters</emph> 1: 294). </note>
                <hi> </hi>In his medical treatise <emph>Zoonomia</emph>, Darwin claimed that “the
@@ -534,7 +504,7 @@
                with one another. As Nicholas Roe, Michael Scrivener, and others have noted, Thelwall
                used his medical knowledge to create particularly effective Jacobin analogies between
                a vital, organized human body and a vital, organized body politic.<note
-                  resp="editors" place="end" n="9">
+                  resp="editors" place="foot">
                    See Scrivener, Roe 173-81, Allard 63-86, and Jackson 44-58. 
                </note> To this I would add that it is the logic of associationist psychology that
                informs these analogies and makes them viable. In <emph>The Natural and
@@ -598,7 +568,8 @@
                throughout Britain and not allowed to gather in the same space (<emph>Natural
                   Right</emph> 46). Thelwall cautioned that without the ability to publicly
                associate and, as a group, determine a course of action, people would be driven to
-               form factions and exchange violent crime for peaceful protest. Without “<emph>public association,</emph>” Thelwall warned, there would be “<emph>private cabals</emph>” (<emph>Natural Right</emph> 46). Without the
+               form factions and exchange violent crime for peaceful protest. Without “<emph>public association,</emph>” Thelwall warned, 
+               there would be “<emph>private cabals</emph>” (<emph>Natural Right</emph> 46). Without the
                ability to speak with a collective voice, individuals would brood “over thoughts they
                dare not utter” (<emph>Natural Right</emph> 46). When Thelwall used his lectures to
                rouse “a sluggish and insensate people” from a “drowsy stupor, creeping over the
@@ -632,117 +603,118 @@
                see that ministering to the speech defects of others was a political act. As a
                teacher of elocution and as a political activist, Thelwall was pursuing a common end:
                strengthening the associations of the minds that inhabited, and created, the public
-               sphere. </p></div>
+               sphere. </p>
 
-            <div type="citations">
+            <div type="citation">
                <head>Works Cited</head>
-               <p rend="noCount">Allard, James Robert. <emph>Romanticism, Medicine, and the Poet’s
-                     Body</emph>. Aldershot: Ashgate, 2007. Print.</p>
-               <p rend="noCount">Burke, Edmund. <emph>Three Letters Addressed to a Member of the
+               <bibl>Allard, James Robert. <emph>Romanticism, Medicine, and the Poet’s
+                     Body</emph>. Aldershot: Ashgate, 2007. Print.</bibl>
+               <bibl>Burke, Edmund. <emph>Three Letters Addressed to a Member of the
                      Present Parliament, on the Proposals for Peace with the Regicide Directory of
                      France</emph>. 1796. <emph>The Works of the Right Honorable Edmund
                   Burke</emph>. Vol. 8. London, 1801. 1-377. <emph>Google Book Search</emph>. Web.
-                  23 April 2010.</p>
-               <p rend="noCount">Claeys, Gregory. Introduction. <emph>The Politics of English
+                  23 April 2010.</bibl>
+               <bibl>Claeys, Gregory. Introduction. <emph>The Politics of English
                      Jacobinism: Writings of John Thelwall</emph>. Ed. Claeys. University Park:
-                  Pennsylvania State UP, 1995. xiii-lviii. Print.</p>
-               <p rend="noCount">Coleridge, Samuel Taylor. <emph>Collected Letters of Samuel Taylor
+                  Pennsylvania State UP, 1995. xiii-lviii. Print.</bibl>
+               <bibl>Coleridge, Samuel Taylor. <emph>Collected Letters of Samuel Taylor
                      Coleridge</emph>. Ed. Earl Leslie Griggs. 6 vols. 1956. Oxford: Oxford UP,
-                  2002. Print.</p>
-               <p rend="noCount">Crabbe, George. “The Dumb Orators.” <emph>The Works of The Rev.
+                  2002. Print.</bibl>
+               <bibl>Crabbe, George. “The Dumb Orators.” <emph>The Works of The Rev.
                      George Crabbe</emph>. Vol. 3. London, 1820. <emph>Google Book Search</emph>.
-                  Web. 31 Dec. 2009.</p>
-               <p rend="noCount">Darwin, Erasmus. <emph>Zoonomia; or, the Laws of Organic
+                  Web. 31 Dec. 2009.</bibl>
+               <bibl>Darwin, Erasmus. <emph>Zoonomia; or, the Laws of Organic
                      Life</emph>. 3rd ed. 4 vols. London, 1801. <emph>Google
-                     Book Search</emph>. Web. 23 April 2010.</p>
-               <p rend="noCount">Edwards, Gavin. “George Crabbe.” <emph>An Oxford Companion to the
+                     Book Search</emph>. Web. 23 April 2010.</bibl>
+               <bibl>Edwards, Gavin. “George Crabbe.” <emph>An Oxford Companion to the
                      Romantic Age: British Culture 1776-1832</emph>. Ed. Iain McCalman. Oxford:
-                  Oxford UP, 1999. 471. Print. </p>
-               <p rend="noCount">Ford, Jennifer. <emph>Coleridge on Dreaming: Romanticism, Dreams,
-                     and the Medical Imagination</emph>. Cambridge: Cambridge UP, 1998. Print.</p>
-               <p rend="noCount">Fromer, Julie E. <emph>A Necessary Luxury: Tea in Victorian
-                     England</emph>. Athens: Ohio UP, 2008. Print.</p>
-               <p rend="noCount">Green, Georgina. “John Thelwall’s Radical Vision of Democracy.”
+                  Oxford UP, 1999. 471. Print. </bibl>
+               <bibl>Ford, Jennifer. <emph>Coleridge on Dreaming: Romanticism, Dreams,
+                     and the Medical Imagination</emph>. Cambridge: Cambridge UP, 1998. Print.</bibl>
+               <bibl>Fromer, Julie E. <emph>A Necessary Luxury: Tea in Victorian
+                     England</emph>. Athens: Ohio UP, 2008. Print.</bibl>
+               <bibl>Green, Georgina. “John Thelwall’s Radical Vision of Democracy.”
                      <emph>John Thelwall: Radical Romantic and Acquitted Felon</emph>. Ed. Steve
-                  Poole. London: Pickering &amp; Chatto, 2009. 71-81. Print.</p>
-               <p rend="noCount">Jackson, Noel. <emph>Sense and Sensation in Romantic Poetry.</emph>
-                  Cambridge: Cambridge UP, 2008. Print.</p>
-               <p rend="noCount">Langan, Celeste. “Pathologies of Communication from Coleridge to
+                  Poole. London: Pickering &amp; Chatto, 2009. 71-81. Print.</bibl>
+               <bibl>Jackson, Noel. <emph>Sense and Sensation in Romantic Poetry.</emph>
+                  Cambridge: Cambridge UP, 2008. Print.</bibl>
+               <bibl>Langan, Celeste. “Pathologies of Communication from Coleridge to
                   Schreber.” <title level="m">South Atlantic Quarterly</title> 102.1 (2003):
-                  117‑152. Print.</p>
-               <p rend="noCount">“Organization.” Def. 4a. <emph>The Oxford English
-                  Dictionary</emph>. 2010. Web.</p>
-               <p rend="noCount">Richardson, Alan. <emph>British Romanticism and the Science of the
-                     Mind</emph>. Cambridge: Cambridge UP, 2001. Print.</p>
-               <p rend="noCount">Roe, Nicholas. <emph>John Keats and the Culture of Dissent.
-                  </emph>Oxford: Oxford UP, 1999. Print.</p>
-               <p rend="noCount">Ronell, Avital. <emph>Stupidity</emph>. Urbana: U of Illinois P,
-                  2002. Print. </p>
-               <p rend="noCount">Scrivener, Michael. <emph>Seditious Allegories: John Thelwall and
+                  117‑152. Print.</bibl>
+               <bibl>“Organization.” Def. 4a. <emph>The Oxford English
+                  Dictionary</emph>. 2010. Web.</bibl>
+               <bibl>Richardson, Alan. <emph>British Romanticism and the Science of the
+                     Mind</emph>. Cambridge: Cambridge UP, 2001. Print.</bibl>
+               <bibl>Roe, Nicholas. <emph>John Keats and the Culture of Dissent.
+                  </emph>Oxford: Oxford UP, 1999. Print.</bibl>
+               <bibl>Ronell, Avital. <emph>Stupidity</emph>. Urbana: U of Illinois P,
+                  2002. Print. </bibl>
+               <bibl>Scrivener, Michael. <emph>Seditious Allegories: John Thelwall and
                      Jacobin Writing</emph>. University Park: Pennsylvania State UP, 2001.
-                  Print.</p>
-               <p rend="noCount">Thelwall, Mrs. Cecil (Boyle). <emph>The Life of John
-                     Thelwall</emph>. London, 1837. Print.</p>
-               <p rend="noCount">Thelwall, John. <emph>An Essay Towards a Definition of Animal
+                  Print.</bibl>
+               <bibl>Thelwall, Mrs. Cecil (Boyle). <emph>The Life of John
+                     Thelwall</emph>. London, 1837. Print.</bibl>
+               <bibl>Thelwall, John. <emph>An Essay Towards a Definition of Animal
                      Vitality; Read at the Theatre, Guy’s Hospital, January 26, 1793; In Which
                      Several of the Opinions of the Celebrated John Hunter are Examined and
                      Controverted</emph>. London, 1793. <emph>Google Book Search</emph>. Web. 31
-                  Dec. 2009.</p>
-               <p rend="noCount">---. <emph>A Letter to Henry Cline, Esq., On Imperfect Development
+                  Dec. 2009.</bibl>
+               <bibl>---. <emph>A Letter to Henry Cline, Esq., On Imperfect Development
                      of the Faculties, Mental and Moral, as well as Constitutional and Organic; and
-                     on the Treatment of Impediments of Speech</emph>. London, 1810. Print. </p>
-               <p rend="noCount">---. “Mr. Thelwall’s Plans and Terms of Tuition &amp;c.:
+                     on the Treatment of Impediments of Speech</emph>. London, 1810. Print. </bibl>
+               <bibl>---. “Mr. Thelwall’s Plans and Terms of Tuition &amp;c.:
                   Instructions for the Cure of Impediments of Speech, Instruction of Foreigners,
                   Cultivation of Oratory, English Composition and Polite Literature, and the
                   Preparation of Youth for the more Liberal Departments of Active Life.” 1808.
                      <emph>The Vestibule of Eloquence</emph>.<emph> </emph>London, 1810. 5-32.
-                     <emph>Google Book Search</emph>. Web. 31 December 2009.</p>
-               <p rend="noCount">---. <emph>The Natural and Constitutional Right of Britons to
+                     <emph>Google Book Search</emph>. Web. 31 December 2009.</bibl>
+               <bibl>---. <emph>The Natural and Constitutional Right of Britons to
                      Annual Parliaments, Universal Suffrage, and Freedom of Association</emph>.
                   1795. <emph>The Politics of English Jacobinism: Writings of John Thelwall</emph>.
-                  Ed. Gregory Claeys. University Park: Pennsylvania State UP, 1995. 3-63. Print.</p>
-               <p rend="noCount">---. “On the Influence of the Scenery of Nature on the Intellectual
+                  Ed. Gregory Claeys. University Park: Pennsylvania State UP, 1995. 3-63. Print.</bibl>
+               <bibl>---. “On the Influence of the Scenery of Nature on the Intellectual
                   and Moral Character, as well as the Taste and Imagination.” <emph>The Poetical
                      Recreations of the Champion</emph>. 1822. New York: Garland, 1978. 73-77.
-                  Print.</p>
-               <p rend="noCount">---. “Peaceful Discussion, and Not Tumultuary Violence the Means of
+                  Print.</bibl>
+               <bibl>---. “Peaceful Discussion, and Not Tumultuary Violence the Means of
                   Redressing National Grievance.” 1795. <emph>Revolutions in Romantic Literature: An
                      Anthology of Print Culture 1780-1832</emph>. Ed. Paul Keen. Toronto: Broadview,
-                  2004. 222-26. Print.</p>
-               <p rend="noCount">---. <emph>Results of Experience in Treatment of Cases of Defective
+                  2004. 222-26. Print.</bibl>
+               <bibl>---. <emph>Results of Experience in Treatment of Cases of Defective
                      Utterance, from Deficiencies in the Roof of the Mouth and other
                      Mal‑conformations of the Organs of Speech, with Observations on Cases of
                      Amentia and Tardy and Imperfect Development of the Faculties</emph>. 1814.
                      <emph>Selected Political Writings of John Thelwall</emph>. Ed. Robert Lamb and
-                  Corinna Wagner. Vol. 4. London: Pickering and Chatto, 2008. 145-73. Print.</p>
-               <p rend="noCount">---. <emph>Rights of Nature Against the Usurpations of
+                  Corinna Wagner. Vol. 4. London: Pickering and Chatto, 2008. 145-73. Print.</bibl>
+               <bibl>---. <emph>Rights of Nature Against the Usurpations of
                      Establishments</emph>. 1796. <emph>The Politics of English Jacobinism: Writings
                      of John Thelwall</emph>. Ed. Gregory Claeys. University Park: Pennsylvania
-                  State UP, 1995. 390-500. Print.</p>
-               <p rend="noCount">---. <emph>The Tribune, a Periodical Publication, Consisting
+                  State UP, 1995. 390-500. Print.</bibl>
+               <bibl>---. <emph>The Tribune, a Periodical Publication, Consisting
                      Chiefly of the Political Lectures of J. Thelwall</emph>. London, 1795.
-                     <emph>Google Book Search</emph>. Web. 23 April 2010.</p>
-               <p rend="noCount">Thompson, E. P. “Hunting the Jacobin Fox.” <title level="j">Past
+                     <emph>Google Book Search</emph>. Web. 23 April 2010.</bibl>
+               <bibl>Thompson, E. P. “Hunting the Jacobin Fox.” <title level="j">Past
                      &amp; Present</title> 142.1 (1994): 94-140. <emph>JSTOR</emph>. Web. 23 April
-                  2010.</p>
-               <p rend="noCount">Thompson, Judith. “An Autumnal Blast, a Killing Frost: Coleridge’s
+                  2010.</bibl>
+               <bibl>Thompson, Judith. “An Autumnal Blast, a Killing Frost: Coleridge’s
                   Poetic Conversation with John Thelwall.” <title level="j">Studies in
-                     Romanticism</title> 36.3 (Fall 1997): 427-56. Print.</p>
-               <p rend="noCount">---. “Overlooking History: The Case of John Thelwall.”
+                     Romanticism</title> 36.3 (Fall 1997): 427-56. Print.</bibl>
+               <bibl>---. “Overlooking History: The Case of John Thelwall.”
                      <emph>Romanticism, History, Historicism: Essays on an Orthodoxy</emph>. Ed.
-                  Damian Walford Davies. New York: Routledge, 2009. 103-25. Print.</p>
-               <p rend="noCount">---. “Re-sounding Romanticism: John Thelwall and the Science and
+                  Damian Walford Davies. New York: Routledge, 2009. 103-25. Print.</bibl>
+               <bibl>---. “Re-sounding Romanticism: John Thelwall and the Science and
                   Practice of Elocution.” <emph>Spheres of Action: Speech and Performance in
                      Romantic Culture.</emph> Ed. Alexander Dick and Angela Esterhammer. Toronto: U
-                  of Toronto P, 2009. 21-45. Print.</p>
-               <p rend="noCount">---. “Why Kendal? John Thelwall, Laker Poet?” <title level="j"
+                  of Toronto P, 2009. 21-45. Print.</bibl>
+               <bibl>---. “Why Kendal? John Thelwall, Laker Poet?” <title level="j"
                      >Wordsworth Circle</title> 40.1 (Winter 2009). 16-22. <emph>Literature
-                     Online</emph>. Web. 31 December 2009.</p>
-               <p rend="noCount">Wontner, Thomas. “Household Servants.” <title level="j">Fraser’s
-                     Magazine for Town and Country</title> 33 (1833): 701-16. Print.</p>
-               <p rend="noCount">Wordsworth, William. <emph>The Major Works</emph>. Ed. Stephen
-                  Gill. Oxford: Oxford UP, 2000. Print.</p>
+                     Online</emph>. Web. 31 December 2009.</bibl>
+               <bibl>Wontner, Thomas. “Household Servants.” <title level="j">Fraser’s
+                     Magazine for Town and Country</title> 33 (1833): 701-16. Print.</bibl>
+               <bibl>Wordsworth, William. <emph>The Major Works</emph>. Ed. Stephen
+                  Gill. Oxford: Oxford UP, 2000. Print.</bibl>
             </div>
+         </div>
          </div>
       </body>
    </text>

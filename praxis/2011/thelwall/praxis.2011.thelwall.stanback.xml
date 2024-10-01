@@ -1,123 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">John Thelwall: Critical Reassessments</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Disability and Dissent: Thelwall’s Elocutionary Project</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Emily B. Stanback</name>
             </author>
-            <editor>Yasmin Solomonescu</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.stanback</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">September 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.thelwall.stanback</idno>
+            <idno type="resource"
+               >thelwall</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Disability and Dissent: Thelwall’s Elocutionary
-                     Project</title>
-
-                  <author>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                  <title level="a" type="main">Disability and Dissent: Thelwall’s Elocutionary Project
+                  </title>
+                  <author role="secondary">
                      <persName>
                         <forename>Emily B.</forename>
                         <surname>Stanback</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/thelwall/praxis.2011.thelwall.stanback"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">John Thelwall: Critical Reassessments</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >John Thelwall: Critical Reassessments</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2010-10-15">October 15, 2010</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for "," for ", ' for ',
-                  and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -138,132 +175,66 @@
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
             <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
             <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
             <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2011-05-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
          <div type="essay">
@@ -276,7 +247,7 @@
                inquiry. In the early 1790s John Thelwall participated in the ideologically charged
                conversations of science, medicine, and materialism while attending lectures at St.
                Thomas’s and Guy’s hospitals and as a member of the Physical Society.<note
-                  resp="editors" place="foot" n="1">Notably, Thelwall lent his voice to the debate
+                  resp="editors" place="foot">Notably, Thelwall lent his voice to the debate
                   surrounding the vital principle, which was often cast as a conflict between
                   traditional values and the radical, Jacobin ideals represented by materialism.
                   Nicholas Roe convincingly ventures that Thelwall’s materialist <title level="m">An
@@ -289,7 +260,7 @@
                understood as ideologically neutral in comparison to Thelwall’s earlier involvement
                in radical politics and materialist science—yet the political and humanistic
                implications of his elocutionary project are significant, and reveal an enduring
-               dedication to democratic ideals.<note resp="editors" place="foot" n="2">Michael
+               dedication to democratic ideals.<note resp="editors" place="foot">Michael
                   Scrivener, Andrew McCann, Nicholas Roe, and J. R. Allard have all argued for some
                   sense of political continuity across Thelwall’s diverse career. For Scrivener,
                   however, Thelwall’s elocutionary writings “are largely apolitical—or political in
@@ -302,7 +273,7 @@
                “mutes,” and “stutterers” at a key moment in the development of modern medicine and
                modern attitudes towards “disability,” and in these contexts we may more fully
                appreciate the importance of his therapeutic endeavor.<note resp="editors"
-                  place="foot" n="3">In keeping with contemporary disability theory, I use the term
+                  place="foot">In keeping with contemporary disability theory, I use the term
                   “disability” to invoke the complex social position of those with medicalized
                   biological differences—as opposed to the biological differences, or “impairments,”
                   themselves. As Susan Wendell has argued, “the biological and the social are
@@ -315,11 +286,11 @@
                   level="m">Results of Experience in the Treatment of Cases of Defective
                   Utterance</title> (1814)—may be read as actively resisting the normative views of
                disability that were beginning to consolidate during the era.</p>
-            <div type="section" n="2">
+            <div type="section">
                <head>The Practitioner and his Practice</head>
                <p>As Roy Porter and other medical historians have detailed, the practice of medicine
                   became increasingly effective, standardized, regulated, and scientific over the
-                  course of the nineteenth century.<note resp="editors" place="foot" n="4">The 1815
+                  course of the nineteenth century.<note resp="editors" place="foot">The 1815
                      Apothecaries Act, for example, required the certification of all apothecaries
                      and outlined a required course of academic and clinical training. Diagnostic
                      criteria and practices would become ever more standardized, in large part
@@ -334,7 +305,7 @@
                   Romantic medicine particularly calls to mind Porter’s phrase “histories of the
                   medicines,” appropriate because “there has never been a single, homogenous body of
                   theory and practice answering to the name ‘medicine’” (<title level="m"
-                     >Popularization </title>1).<note resp="editors" place="foot" n="5">For longer
+                     >Popularization </title>1).<note resp="editors" place="foot">For longer
                      accounts of eighteenth- and nineteenth-century medicine, see Porter, <title
                         level="m">Benefit</title>, Lawrence, and Bynum. For an account of speech
                      therapy at Thelwall’s time, see Rockey, “Origins.”</note> Because of the
@@ -359,7 +330,7 @@
                   nineteenth-century medicine. Mary E. Fissell describes the “profusion of
                   health-care providers eager for [each patient’s] custom” (37), which would have
                   put acute pressure on Thelwall to actively market his product, just as his
-                  competitors did.<note resp="editors" place="foot" n="6">Similarly, Dorothy and Roy
+                  competitors did.<note resp="editors" place="foot">Similarly, Dorothy and Roy
                      Porter have demonstrated that “Wherever money was to be made out of medicine,
                      the opportunity was seized,” and Thelwall’s professional success testifies to
                      the “genuine alternatives” presented to patients by the diversity of early
@@ -381,7 +352,7 @@
                   esoteric medical texts. Wesley’s manual provides simple remedies for conditions
                   ranging from breast cancer (“Use the <title level="m">Cold Bath</title>”) to
                   vertigo (“Take a <title level="m">Vomit</title> or two”) (xxiv, xiv, 40,
-                     110).<note resp="editors" place="foot" n="7">Multiple editions were published
+                     110).<note resp="editors" place="foot">Multiple editions were published
                      of Wesley’s and Buchan’s texts—originally of 1747 and 1769, respectively—and
                      new editions of the latter were available well into the nineteenth century.
                      Ginny Smith notes that “[f]or a large number of people [medical self-help
@@ -403,12 +374,12 @@
                   elocutionary texts (“Origins” 174). They may also be partly explained by
                   proprietary concerns in the competitive medical market—or perhaps, like Thomas
                   Beddoes, Thelwall feared the misapplication of medical treatments.<note
-                     resp="editors" place="foot" n="8">See Grinnell on Beddoes’s complex
+                     resp="editors" place="foot">See Grinnell on Beddoes’s complex
                      relationship with self-help medical texts and his distrust of the practices
                      they encouraged.</note> Because of the interactive—and, judging by his case
                   studies, individualized—nature of his elocutionary therapy, moreover, Thelwall’s
                   methods may have been impossible to generalize and describe at all, much less
-                     effectively.<note resp="editors" place="foot" n="9">It also bears mention that
+                     effectively.<note resp="editors" place="foot">It also bears mention that
                      self-help manuals did not necessarily live up to their democratic goals: “they
                      could reinforce the authority of the medical elite or they might encourage
                      independence of judgment, breeding that ‘health protestantism’ which fired
@@ -431,7 +402,7 @@
                   similarly evident in his reflection that “the successful practitioner must have
                   looked with scrutinizing eye into the motions of the heart, and of the
                   understanding” (<title level="m">Results</title> 74).<note resp="editors"
-                     place="foot" n="10">As G. Thomas Couser underscores, “discourse between patient
+                     place="foot">As G. Thomas Couser underscores, “discourse between patient
                      and doctor occurs in a way that may be at odds with the root meaning of <title
                         level="m">communication</title>, the making common of information”—because
                      of specialized discourse and because of the medical imperative to maintain
@@ -451,7 +422,7 @@
                   Tellingly, Thelwall remarks that “mental and moral causes step in to the
                   explanation” of what he calls his most successful elocutionary case: “I have never
                   met with so devoted an attention, and so entire a confidence” (<title level="m"
-                     >Cline</title> 64).<note resp="editors" place="foot" n="11">This is a point to
+                     >Cline</title> 64).<note resp="editors" place="foot">This is a point to
                      which Thelwall devotes a conspicuous amount of space and emphasis, and marks a
                      departure from many of his peers including Thomas Beddoes, who stresses the
                      authority of the physician and “describes the role of the patient as preventing
@@ -472,7 +443,7 @@
                   disability.</p>
             </div>
 
-            <div type="section" n="2">
+            <div type="section">
                <head>Lispers, Stutterers, Stammerers, and the Blind: Citizens, Patients</head>
 
                <p>In nineteenth-century medicine, an increase in institutional authority,
@@ -522,7 +493,7 @@
                      >Cline</title> 44, 5, 59). Accordingly, Thelwall’s prognosis for nearly all
                   speech impediments is uniform, regardless of context and cause: “a correct and
                   impressive elocution is attainable by all” (<title level="m">Vestibule</title>
-                     8).<note resp="editors" place="foot" n="12">Rockey indicates that when compared
+                     8).<note resp="editors" place="foot">Rockey indicates that when compared
                      to Victorian elocutionists, whose professional attention seemed to be focused
                      on “stuttering, lisping, and provincialisms” (“Logopaedic” 89), Thelwall’s
                      interests were remarkably broad, suggesting his optimism and willingness to
@@ -535,7 +506,7 @@
                   understandable, Thelwall’s emphasis on treatment is potentially problematical.
                   Disability scholars suggest that the imperative to treat or cure impairments often
                   goes hand in hand with the profound social exclusion of the disabled,<note
-                     resp="editors" place="foot" n="13">See Garland-Thomson and Wendell on the broad
+                     resp="editors" place="foot">See Garland-Thomson and Wendell on the broad
                      social implications of an emphasis on treating and curing disabilities. In
                      discussing “[t]he widespread message that they [the disabled] are not good
                      enough until they are ‘cured,’” Wendell argues that “the drive to find ‘cures’
@@ -561,7 +532,7 @@
                   creating in his London institution an alternate medico-educational system—one
                   might even say an alternate microcosmic democracy—in which the disabled and
                   able-bodied are part of a common project of self-improvement.<note resp="editors"
-                     place="foot" n="14">Thelwall reveals his continuing sense of sympathy and even
+                     place="foot">Thelwall reveals his continuing sense of sympathy and even
                      allegiance with the impaired when he asserts that they will rightly understand
                      the value of his techniques even if “senators, barristers, and divines may be
                      content to whine, and croak, and scream, in feeble and exhausting discord”
@@ -577,7 +548,7 @@
                   could hinder or altogether prevent a patient’s elocutionary progress. Instead he
                   emphasizes natural compensation, accommodation, and functional improvement—and
                   thus often leaves his patients’ physical variations unaffected.<note
-                     resp="editors" place="foot" n="15">Indeed, Thelwall asserts that “more serious
+                     resp="editors" place="foot">Indeed, Thelwall asserts that “more serious
                      and irremediable mischiefs [are] produced . . . by giving the tongue too much
                      liberty” by medical intervention “than ever resulted from its too great
                      restriction” (<title level="m">Cline </title>50-51).</note> Thelwall’s
@@ -595,7 +566,7 @@
                   need not lead to speechlessness, and that impairments need not amount to permanent
                   social exclusion, Thelwall challenged the limits of mainstream medicine. He also
                   challenged normative beliefs, and thereby sought to change the constitution of the
-                  public world.<note resp="editors" place="foot" n="16">The importance of social
+                  public world.<note resp="editors" place="foot">The importance of social
                      participation should not be underestimated. As Susan Wendell underscores, there
                      is a fundamental connection between the exclusion of the disabled from the
                      public world and their lack of access to—and a lack of social and governmental
@@ -620,7 +591,7 @@
                   beyond to the spiritual” (14). Ossian, Milton, and Homer are obvious templates for
                   the trope, and Edward Larissy underscores the sense of nostalgia and “inward
                   vision” common to Romantic depictions of blindness (1).<hi rend="sup">
-                     <note resp="editors" place="foot" n="17">According to Larissy, “The age . . .
+                     <note resp="editors" place="foot">According to Larissy, “The age . . .
                         understood that phenomenon as an historical one. Such visions were
                         appropriate to an earlier age” (1).</note>
                   </hi> But for Thelwall, unlike many of his contemporaries, Milton is very much of
@@ -665,7 +636,7 @@
                   citizenship and all may have access to, may participate in, and may contribute to
                   society—with adequate support and to the best of their diverse abilities.</p>
             </div>
-            <div type="section" n="3">
+            <div type="section">
                <head>Idiocy and the Bounds of Human Improvement</head>
                <p>Thelwall’s acceptance of biological difference is challenged when he turns his
                   attention to the cognitively impaired, whose place in society had long been
@@ -676,7 +647,7 @@
                   medically. In the seventeenth and eighteenth centuries, idiots were typically
                   cared for by their families and communities, and it was only at the close of the
                   eighteenth century that efforts to educate the cognitively impaired gained
-                     popularity.<note resp="editors" place="foot" n="18">For an account of the
+                     popularity.<note resp="editors" place="foot">For an account of the
                      “consistency down the centuries in basic terminology and definitions of mental
                      disability,” see Rushton 47. For an excellent discussion of neuroscience and
                      Romanticism—and of idiocy in particular—see Richardson. For an overview of
@@ -690,7 +661,7 @@
                   Adam Smith theorized that the rational subject cannot sympathize with the
                   unreasoning man, “the poor wretch . . . who laughs and sings . . . and is
                   altogether insensible of his own misery” (15).<note resp="editors" place="foot"
-                     n="19">Elsewhere in this passage Smith refers specifically to the “madman,”
+                     >Elsewhere in this passage Smith refers specifically to the “madman,”
                      that other class of humanity thought to lack reason—though not from birth, and
                      not necessarily permanently. Although Smith registers particular horror at the
                      idea of losing one’s reason, his discussion of sympathy here hinges on the
@@ -703,7 +674,7 @@
                   consequently evinces a deep ambivalence towards the idiot that was typical of the
                   time. </p>
                <p>Like many of his contemporaries, Thelwall hesitates when he turns his attention to
-                  the cognitively impaired.<note resp="editors" place="foot" n="20">Though Southey
+                  the cognitively impaired.<note resp="editors" place="foot">Though Southey
                      published his poem anonymously shortly before <title level="m">Lyrical Ballads
                      </title>(1798), Mary Jacobus has convincingly argued that he had the means and
                      motive to write his poem as a corrective response to the more progressive—and
@@ -732,7 +703,7 @@
                   insufficient socialization. Although not a proponent of education for all idiots,
                   Jean Itard gained fame by insisting that circumstance was the cause of imbecility
                   for Victor, the Wild Boy of Aveyron, and that he was therefore educable.<note
-                     resp="editors" place="foot" n="21">Itard ultimately achieved some level of
+                     resp="editors" place="foot">Itard ultimately achieved some level of
                      success with his pupil, confirming the validity of his approach in the
                      public—and medical—eye. There is the strong suggestion that Itard’s goal with
                      Victor was largely intellectual, and his therapeutic approach implies a desire
@@ -759,7 +730,7 @@
                   an important context in which we can better understand their views of the
                   cognitively impaired. According to specialists, the Selborne idiot, M. Barker, and
                   Augusta “fall within the scope of modern definitions of autism” (van Balkom),<note
-                     resp="editors" place="foot" n="22">Retrospective diagnoses are necessarily
+                     resp="editors" place="foot">Retrospective diagnoses are necessarily
                      speculative, largely because of the incomplete psychological profiles afforded
                      by centuries-old documents. Nevertheless, having read <title level="m">A Letter
                         to Henry Cline</title>, Ingrid van Balkom, a specialist in autism spectrum
@@ -776,7 +747,7 @@
                      The 1938 descriptions of Hans Asperger also bear note here; they, along with
                      Kanner’s descriptions, form the foundation of current understandings about
                      autism spectrum disorders.</note> and are among the earliest such descriptions
-                  on record.<note resp="editors" place="foot" n="23">A number of historical figures
+                  on record.<note resp="editors" place="foot">A number of historical figures
                      have been recently associated with what we now call “autism,” as in the
                      now-famous mid-eighteenth-century legal case of Hugh Blair, the son of a
                      Scottish landowner. (See Houston and Frith’s analysis of the case.) Lorna Wing
@@ -788,7 +759,7 @@
                   characteristics of autism in a group of children” (van Balkom). Moreover, by
                   focusing on social disconnection, their category of “moral idiocy” significantly
                   captures a central feature of autism.<hi rend="sup">
-                     <note resp="editors" place="foot" n="24">It should be noted that Thelwall and
+                     <note resp="editors" place="foot">It should be noted that Thelwall and
                         Gough also describe cases of “moral idiocy” that deviate from modern
                         definitions of “autism,” although they do possess key autistic features and
                         behaviors. </note>
@@ -813,7 +784,7 @@
                   required the Promethean torch; in the other, they seemed to exist only in
                   scattered particles; or, at best only in fragments, or disjointed parts, that
                   needed the articulation of connective ligament” (<title level="m">Results</title>
-                     64).<note resp="editors" place="foot" n="25">In their desire to suggest the
+                     64).<note resp="editors" place="foot">In their desire to suggest the
                      improvability of “moral idiots,” Gough and Thelwall also anticipated Leo
                      Kanner’s unfortunate misunderstanding about the etiology of autism. Though
                      Gough leaves open the possibility of natural antisocial inclinations, he also
@@ -865,7 +836,7 @@
                      British Medical Journal</title>, and helped to secure the successful passage of
                   the Mental Deficiency Act of 1913, whereby state funding for facilities replaced
                   charitable funding, institutional residence for idiots became lifelong, and the
-                  government took control over admissions.<note resp="editors" place="foot" n="26"
+                  government took control over admissions.<note resp="editors" place="foot"
                      >In the wake of the act, idiots could be removed from their families under the
                      charge of “neglect,” and family wishes—and even objections—were often ignored.
                      For an excellent survey of the broad impact of the 1913 Act, see Thomson, who
@@ -875,7 +846,7 @@
                   isolating ‘defectives’ to stop them from breeding” (Porter, <title level="m"
                      >Benefit</title> 507), and by the 1930s there were campaigns in Britain for the
                   voluntary sterilization of those with cognitive impairments.<note resp="editors"
-                     place="foot" n="27">Such attitudes were by no means confined to discussions of
+                     place="foot">Such attitudes were by no means confined to discussions of
                      idiocy. As the nineteenth century progressed, Darwinian theories of evolution
                      became increasingly important to attitudes about diverse medicalized classes
                      and the progress of the human race; as Janet Browne notes, <title level="m"
@@ -890,7 +861,7 @@
                      Davis.</note>
                </p>
             </div>
-            <div type="section" n="4">
+            <div type="section">
                <head>“Disability” and Thelwall’s Democratic Legacy</head>
                <p>Key aspects of twenty-first century medicine took shape in the decades after John
                   Thelwall’s death, and we are still all too familiar with the legacy left us by the
@@ -912,146 +883,147 @@
                   Thelwall lent his voice to an ideological struggle, one that, like the political
                   struggles of the 1790s, came to shape the treatment of whole classes of Western
                   society for the next two centuries.</p>
-            </div>
-            <div type="citations">
+           
+            <div type="citation">
                <head>Works Cited</head>
-               <p rend="noCount">Allard, J. R.  “John Thelwall and the Politics of Medicine.” 
+               <bibl>Allard, J. R.  “John Thelwall and the Politics of Medicine.” 
                      <title level="m">European Romantic Review</title> 15.1 (2004): 73-87. <title
-                     level="m">Humanities International Complete</title>. Web. 18 June 2009. </p>
-               <p rend="noCount">Bresnahan, Michaeline. Message to the author. 31 Jan. 2010.
-                  E-mail.</p>
-               <p rend="noCount">Browne, Janet. <title level="m">Darwin’s Origin of Species: A
-                     Biography</title>. New York: Grove, 2006. Print.</p>
-               <p rend="noCount">Buchan, William. <title level="m">Domestic Medicine: Or a Treatise
+                     level="m">Humanities International Complete</title>. Web. 18 June 2009. </bibl>
+               <bibl>Bresnahan, Michaeline. Message to the author. 31 Jan. 2010.
+                  E-mail.</bibl>
+               <bibl>Browne, Janet. <title level="m">Darwin’s Origin of Species: A
+                     Biography</title>. New York: Grove, 2006. Print.</bibl>
+               <bibl>Buchan, William. <title level="m">Domestic Medicine: Or a Treatise
                      on the Prevention and Cure of Diseases by Regimen and Simple Medicines.
                      </title>16<hi rend="sup">th</hi> ed. London, 1798. <title level="m">Google Book
-                     Search</title>. Web. 15 Jan. 2010.</p>
-               <p rend="noCount">Bynum, W. F. <title level="m">Science and the Practice of Medicine
-                     in the Nineteenth Century</title>. Cambridge: Cambridge UP, 1994. Print.</p>
-               <p rend="noCount">Couser, G. Thomas, <title level="m">Recovering Bodies: Illness,
+                     Search</title>. Web. 15 Jan. 2010.</bibl>
+               <bibl>Bynum, W. F. <title level="m">Science and the Practice of Medicine
+                     in the Nineteenth Century</title>. Cambridge: Cambridge UP, 1994. Print.</bibl>
+               <bibl>Couser, G. Thomas, <title level="m">Recovering Bodies: Illness,
                      Disability, and Life Writing</title>. Madison: U of Wisconsin P<title level="m"
-                     >, </title>1997. Print.</p>
-               <p rend="noCount">Davis, Lennard J., “Constructing Normalcy: The Bell Curve, the
+                     >, </title>1997. Print.</bibl>
+               <bibl>Davis, Lennard J., “Constructing Normalcy: The Bell Curve, the
                   Novel, and the Invention of the Disabled Body in the Nineteenth Century.” <title
                      level="m">The Disability Studies Reader</title>. 2nd ed. Ed. Davis. New York:
-                  Routledge, 2006. Print.</p>
-               <p rend="noCount">Dendy, Mary. “Feebleness of Mind, Pauperism, and Crime.” <title
+                  Routledge, 2006. Print.</bibl>
+               <bibl>Dendy, Mary. “Feebleness of Mind, Pauperism, and Crime.” <title
                      level="m">Report of the Seventy-First Meeting of the British Association for
-                     the Advancement of Science</title>. London: Murray, 1901. Print.</p>
-               <p rend="noCount">Digby, Anne. <title level="m">Making a Medical Living: Doctors and
+                     the Advancement of Science</title>. London: Murray, 1901. Print.</bibl>
+               <bibl>Digby, Anne. <title level="m">Making a Medical Living: Doctors and
                      Patients in the English Market for Medicine, 1720-1911</title>. Cambridge:
-                  Cambridge UP, 1994. Print.</p>
-               <p rend="noCount">Fissell, Mary E. <title level="m">Patients, Power, and the Poor in
-                     Eighteenth-Century Bristol</title>. Cambridge: Cambridge UP, 1991. Print.</p>
-               <p rend="noCount">Freidson, Eliot. <title level="m">Profession of Medicine: A Study
+                  Cambridge UP, 1994. Print.</bibl>
+               <bibl>Fissell, Mary E. <title level="m">Patients, Power, and the Poor in
+                     Eighteenth-Century Bristol</title>. Cambridge: Cambridge UP, 1991. Print.</bibl>
+               <bibl>Freidson, Eliot. <title level="m">Profession of Medicine: A Study
                      of the Sociology of Applied Knowledge</title>. Chicago: U of Chicago P, 1988.
-                  Print.</p>
-               <p rend="noCount">Garland-Thomson, Rosemarie. “The Cultural Logic of Euthanasia: ‘Sad
+                  Print.</bibl>
+               <bibl>Garland-Thomson, Rosemarie. “The Cultural Logic of Euthanasia: ‘Sad
                   Fancyings’ in Herman Melville’s ‘Bartleby.’” <title level="m">American
                      Literature</title> 76.4 (Dec. 2004): 777-806. <title level="m">Project
-                     Muse.</title> Web. 13 Feb. 2008.</p>
-               <p rend="noCount">Gladstone, David. “The Changing Dynamic of Institutional Care: The
-                  Western Counties Idiot Asylum, 1864-1914.” Wright and Digby 134-60.</p>
-               <p rend="noCount">Grinnell, George C. “Thomas Beddoes and the Physiology of Romantic
+                     Muse.</title> Web. 13 Feb. 2008.</bibl>
+               <bibl>Gladstone, David. “The Changing Dynamic of Institutional Care: The
+                  Western Counties Idiot Asylum, 1864-1914.” Wright and Digby 134-60.</bibl>
+               <bibl>Grinnell, George C. “Thomas Beddoes and the Physiology of Romantic
                   Medicine.” <title level="m">Studies in </title>
                   <title level="m">Romanticism</title> 45.2 (Summer 2006): 223-44. <title level="m"
-                     >ProQuest Platinum Periodicals</title>. Web. 18 June 2009.</p>
-               <p rend="noCount">Haslam, John. <title level="m">Observations on Madness and
-                     Melancholy</title>. London, 1809. Print.</p>
-               <p rend="noCount">Houston, Rab, and Uta Frith. <title level="m">Autism in History:
-                     the Case of Hugh Blair of Borgue</title>. Oxford: Blackwell, 2000. Print.</p>
-               <p rend="noCount">Jackson, Mark. “Institutional Provision for the Feeble-Minded in
+                     >ProQuest Platinum Periodicals</title>. Web. 18 June 2009.</bibl>
+               <bibl>Haslam, John. <title level="m">Observations on Madness and
+                     Melancholy</title>. London, 1809. Print.</bibl>
+               <bibl>Houston, Rab, and Uta Frith. <title level="m">Autism in History:
+                     the Case of Hugh Blair of Borgue</title>. Oxford: Blackwell, 2000. Print.</bibl>
+               <bibl>Jackson, Mark. “Institutional Provision for the Feeble-Minded in
                   Edwardian England: Sandlebridge and the Scientific Morality of Permanent Care.”
-                  Wright and Digby 161-83. </p>
-               <p rend="noCount">Jacobus, Mary. “Southey’s Debt to <title level="m">Lyrical
+                  Wright and Digby 161-83. </bibl>
+               <bibl>Jacobus, Mary. “Southey’s Debt to <title level="m">Lyrical
                      Ballads</title> (1798).” <title level="m">Review of English Studies</title>
-                  22.85 (Feb. 1971): 20-36. Print.</p>
-               <p rend="noCount">Lane, Harlan. <title level="m">The Wild Boy of Aveyron</title>.
-                  Cambridge: Harvard UP, 1976. Print.</p>
-               <p rend="noCount">Larissy, Edward. <title level="m">The Blind and Blindness in
+                  22.85 (Feb. 1971): 20-36. Print.</bibl>
+               <bibl>Lane, Harlan. <title level="m">The Wild Boy of Aveyron</title>.
+                  Cambridge: Harvard UP, 1976. Print.</bibl>
+               <bibl>Larissy, Edward. <title level="m">The Blind and Blindness in
                      Literature of the Romantic Period</title>. Edinburgh: Edinburgh UP, 2007.
-                  Print.</p>
-               <p rend="noCount">Lawrence, Christopher. <title level="m">Medicine in the Making of
-                     Modern Britain, 1700-1920</title>. London: Routledge, 1994. Print.</p>
-               <p rend="noCount">Locke, John. <title level="m">An Essay Concerning Human
+                  Print.</bibl>
+               <bibl>Lawrence, Christopher. <title level="m">Medicine in the Making of
+                     Modern Britain, 1700-1920</title>. London: Routledge, 1994. Print.</bibl>
+               <bibl>Locke, John. <title level="m">An Essay Concerning Human
                      Understanding</title>. Ed. Pauline Phemister. Oxford: Oxford UP, 2008.
-                  Print.</p>
-               <p rend="noCount">McCann, Andrew. “Romantic Self-Fashioning: John Thelwall and the
+                  Print.</bibl>
+               <bibl>McCann, Andrew. “Romantic Self-Fashioning: John Thelwall and the
                   Science of Elocution.” <title level="m">Studies in Romanticism</title> 40.2
                   (Summer 2001): 215-32. <title level="m">Wilson Art Index</title>. Web. 18 June
-                  2009.</p>
-               <p rend="noCount">McDonagh, Patrick. <title level="m">Idiocy: A Cultural
-                     History</title>. Liverpool: Liverpool UP, 2008. Print.</p>
-               <p rend="noCount">Paulson, William R. <title level="m">Enlightenment, Romanticism,
-                     and the Blind in France</title>. Princeton: Princeton UP, 1987. Print.</p>
-               <p rend="noCount">Porter, Dorothy, and Roy Porter. <title level="m">Patient’s
+                  2009.</bibl>
+               <bibl>McDonagh, Patrick. <title level="m">Idiocy: A Cultural
+                     History</title>. Liverpool: Liverpool UP, 2008. Print.</bibl>
+               <bibl>Paulson, William R. <title level="m">Enlightenment, Romanticism,
+                     and the Blind in France</title>. Princeton: Princeton UP, 1987. Print.</bibl>
+               <bibl>Porter, Dorothy, and Roy Porter. <title level="m">Patient’s
                      Progress: Doctors and Doctoring in Eighteenth-Century England</title>.
-                  Stanford: Stanford UP, 1989. Print.</p>
-               <p rend="noCount">Porter, Roy. <title level="m">The Greatest Benefit to Mankind: A
-                     Medical History of Humanity</title>. New York: Norton, 1997. Print.</p>
-               <p rend="noCount">---. Introduction. <title level="m">The Popularization of Medicine:
-                     1650-1850</title>. Ed. Porter. London: Routledge, 1992. 1-16. Print.</p>
-               <p rend="noCount">Richardson, Alan. <title level="m">British Romanticism and the
-                     Science of the Mind</title>. Cambridge: Cambridge UP, 2001. Print.</p>
-               <p rend="noCount">Roe, Nicholas. “ ‘Atmospheric Air Itself’: Medical Science,
+                  Stanford: Stanford UP, 1989. Print.</bibl>
+               <bibl>Porter, Roy. <title level="m">The Greatest Benefit to Mankind: A
+                     Medical History of Humanity</title>. New York: Norton, 1997. Print.</bibl>
+               <bibl>---. Introduction. <title level="m">The Popularization of Medicine:
+                     1650-1850</title>. Ed. Porter. London: Routledge, 1992. 1-16. Print.</bibl>
+               <bibl>Richardson, Alan. <title level="m">British Romanticism and the
+                     Science of the Mind</title>. Cambridge: Cambridge UP, 2001. Print.</bibl>
+               <bibl>Roe, Nicholas. “ ‘Atmospheric Air Itself’: Medical Science,
                   Politics and Poetry in Thelwall, Coleridge and Wordsworth.” <title level="m">1798:
                      The Year of the Lyrical Ballads</title>. Ed. Richard Cronin.
-                  Basingstoke: Macmillan, 1998. 185-202. Print.</p>
-               <p rend="noCount">Rockey, Denyse. “John Thelwall and the Origins of British Speech
+                  Basingstoke: Macmillan, 1998. 185-202. Print.</bibl>
+               <bibl>Rockey, Denyse. “John Thelwall and the Origins of British Speech
                   Therapy.” <title level="m">Medical History</title> 23.2 (1979): 156-75. Web. 31
-                  March 2010.</p>
-               <p rend="noCount">---. “The Logopaedic Thought of John Thelwall, 1764-1834: First
+                  March 2010.</bibl>
+               <bibl>---. “The Logopaedic Thought of John Thelwall, 1764-1834: First
                   British Speech Therapist. <title level="m">British Journal of Disorders of
-                     Communication</title> 12.2 (1977). 83-94. Print.</p>
-               <p rend="noCount">Rushton, Peter. “Idiocy, the Family and the Community in Early
-                  Modern Northeast England.” Wright and Digby 44-64.</p>
-               <p rend="noCount">Scrivener, Michael. <title level="m">Seditious Allegories: John
+                     Communication</title> 12.2 (1977). 83-94. Print.</bibl>
+               <bibl>Rushton, Peter. “Idiocy, the Family and the Community in Early
+                  Modern Northeast England.” Wright and Digby 44-64.</bibl>
+               <bibl>Scrivener, Michael. <title level="m">Seditious Allegories: John
                      Thelwall &amp; Jacobin Writing. </title>University Park: Pennsylvania State UP,
-                  2001. Print.</p>
-               <p rend="noCount">Smith, Adam, <title level="m">The Theory of Moral
+                  2001. Print.</bibl>
+               <bibl>Smith, Adam, <title level="m">The Theory of Moral
                      Sentiments</title>. 1759. Ed. Knud Haakonssen. Cambridge: Cambridge UP, 2002.
-                  Print.</p>
-               <p rend="noCount">Smith, Ginnie. “Prescribing the Rules of Health: Self-Help and
+                  Print.</bibl>
+               <bibl>Smith, Ginnie. “Prescribing the Rules of Health: Self-Help and
                   Advice in the Late Eighteenth Century.” <title level="m">Patients and
                      Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society</title>.
-                  Ed. Roy Porter. Cambridge: Cambridge UP, 1985. 249-82. Print.</p>
-               <p rend="noCount">Snyder, Sharon L., and David T. Mitchell. <title level="m">Cultural
-                     Locations of Disability</title>. Chicago: U of Chicago P, 2006. Print.</p>
-               <p rend="noCount">Southey, Robert. “The Idiot.” <title level="m">Lyrical Ballads and
+                  Ed. Roy Porter. Cambridge: Cambridge UP, 1985. 249-82. Print.</bibl>
+               <bibl>Snyder, Sharon L., and David T. Mitchell. <title level="m">Cultural
+                     Locations of Disability</title>. Chicago: U of Chicago P, 2006. Print.</bibl>
+               <bibl>Southey, Robert. “The Idiot.” <title level="m">Lyrical Ballads and
                      Related Writings</title>. Ed. William Richey and Daniel Robinson. Boston:
-                  Houghton Mifflin, 2002. 307-09. Print.</p>
-               <p rend="noCount">Thelwall, John. <title level="m">A Letter to Henry Cline,
-                     Esq</title>. London, 1810. Print.</p>
-               <p rend="noCount">---. <title level="m">Results of Experience in the Treatment of
+                  Houghton Mifflin, 2002. 307-09. Print.</bibl>
+               <bibl>Thelwall, John. <title level="m">A Letter to Henry Cline,
+                     Esq</title>. London, 1810. Print.</bibl>
+               <bibl>---. <title level="m">Results of Experience in the Treatment of
                      Cases of Defective Utterance</title>. London, 1814. <title level="m">Google
-                     Book Search</title>. Web. 5 Jan. 2010.</p>
-               <p rend="noCount">---. <title level="m">The Vestibule of Eloquence</title>. London,
-                  1810. <title level="m">Google Book Search</title>. Web. 20 June 2009.</p>
-               <p rend="noCount">Thomson, Matthew. “Family, Community, and State: The Micro-Politics
-                  of Mental Deficiency.” Wright and Digby 207-30.</p>
-               <p rend="noCount">van Balkom, Ingrid. Message to the author. 29 Jan. 2010. Email.</p>
-               <p rend="noCount">Weiner, Dora B. <title level="m">The Citizen-Patient in
+                     Book Search</title>. Web. 5 Jan. 2010.</bibl>
+               <bibl>---. <title level="m">The Vestibule of Eloquence</title>. London,
+                  1810. <title level="m">Google Book Search</title>. Web. 20 June 2009.</bibl>
+               <bibl>Thomson, Matthew. “Family, Community, and State: The Micro-Politics
+                  of Mental Deficiency.” Wright and Digby 207-30.</bibl>
+               <bibl>van Balkom, Ingrid. Message to the author. 29 Jan. 2010. Email.</bibl>
+               <bibl>Weiner, Dora B. <title level="m">The Citizen-Patient in
                      Revolutionary and Imperial Paris</title>. Baltimore: Johns Hopkins UP, 1993.
-                  Print.</p>
-               <p rend="noCount">Wendell, Susan. <title level="m">The Rejected Body: Feminist
+                  Print.</bibl>
+               <bibl>Wendell, Susan. <title level="m">The Rejected Body: Feminist
                      Philosophical Reflections on Disability</title>. New York: Routledge, 1996.
-                  Print.</p>
-               <p rend="noCount">Wesley, John. <title level="m">Primitive Physick: Or, an Easy and
+                  Print.</bibl>
+               <bibl>Wesley, John. <title level="m">Primitive Physick: Or, an Easy and
                      Natural Method of Curing Most Diseases</title>. 9th ed. London, 1761. <title
-                     level="m">Google Book Search</title>. Web. 5 Jan. 2010. </p>
-               <p rend="noCount">Winzer, Margret A. <title level="m">The History of Special
+                     level="m">Google Book Search</title>. Web. 5 Jan. 2010. </bibl>
+               <bibl>Winzer, Margret A. <title level="m">The History of Special
                      Education: From Isolation to Integration</title>. Washington: Gallaudet UP,
-                  1993. Print.</p>
-               <p rend="noCount">Wing, Lorna, “The History of Ideas on Autism.” <title level="m"
-                     >Autism</title> 1.1 (1997): 13-23. Print.</p>
-               <p rend="noCount">Wolff, Sula. “The History of Autism.” <title level="m">European
+                  1993. Print.</bibl>
+               <bibl>Wing, Lorna, “The History of Ideas on Autism.” <title level="m"
+                     >Autism</title> 1.1 (1997): 13-23. Print.</bibl>
+               <bibl>Wolff, Sula. “The History of Autism.” <title level="m">European
                      Child Adolescent Psychiatry</title> 13.4 (2004): 201-08. <title level="m"
-                     >Academic Search Complete</title>. Web. 29 Jan 2010.</p>
-               <p rend="noCount">Wright, David, and Anne Digby, eds. <title level="m">From Idiocy to
+                     >Academic Search Complete</title>. Web. 29 Jan 2010.</bibl>
+               <bibl>Wright, David, and Anne Digby, eds. <title level="m">From Idiocy to
                      Mental Deficiency: Historical Perspectives on People with Learning
-                     Disabilities</title>. London: Routledge, 1996. Print.</p>
-               <p rend="noCount">Youngquist, Paul. <title level="m">Monstrosities: Bodies and
-                     British Romanticism</title>. Minneapolis: U of Minnesota P, 2003. Print.</p>
+                     Disabilities</title>. London: Routledge, 1996. Print.</bibl>
+               <bibl>Youngquist, Paul. <title level="m">Monstrosities: Bodies and
+                     British Romanticism</title>. Minneapolis: U of Minnesota P, 2003. Print.</bibl>
+            </div>
             </div>
          </div>
       </body>
