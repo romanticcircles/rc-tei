@@ -1,121 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romantic Frictions</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">The Ruin of Things</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Jacques Khalip</name>
             </author>
-            <editor role="editor">Theresa M. Kelley</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.khalip</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">March 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.frictions.khalip</idno>
+            <idno type="resource"
+               >frictions</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                   <title level="a" type="main">The Ruin of Things</title>
-                  <author>
+                  <author role="secondary">
                      <persName>
-                        <forename>Jacques</forename>
+                        <forename>Jacques </forename>
                         <surname>Khalip</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/frictions/praxis.2011.frictions.khalip"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Romantic Frictions:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >Romantic Frictions</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-03-01">March 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -124,7 +162,6 @@
             <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
             <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
             <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
@@ -135,133 +172,71 @@
             <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
             <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-            <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>                         <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>                         <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>                         <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>                         <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
+            <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+            <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>David Rettenmaier</name>
-            <date>2010-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
    <text>
       <body>
-         <div type="essay" n="7">
+         <div type="essay">
             <head>
                
                <title level="a">The Ruin of Things</title>
@@ -317,7 +292,7 @@
                   which you cannot see: we die, my Friend,/Nor we alone, but that which each man
                   loved/And prized in his peculiar nook of earth/Dies with him, or is changed.”
                      (<title level="m">Ruined</title> 67-71).
-                     <note place="foot" resp="editors" n="1">All references to the poem are to this
+                     <note place="foot" resp="editors">All references to the poem are to this
                         edition and to the MS.D version, unless otherwise noted. </note>
                    In <title level="m">The Ruined Cottage</title>, Armytage hews an imaginary
                   path through disaster: he perceives the intangible things of his littered
@@ -360,7 +335,7 @@
                   rather as a bleak and elegant reimagination of sociality without a future. </p>
             
 
-            <div type="section" n="1">
+            <div type="section">
                <head>Harassed Unrest</head>
                <p>In “Building Dwelling Thinking,” Heidegger states that: ‘“Mortals dwell in that
                   they receive the sky as sky. They leave to the sun and the moon their journey, to
@@ -412,7 +387,7 @@
                      <l>Effort and expectation, and desire,</l>
                      <l>And something evermore about to be.</l>
                      <l> (<emph>Prelude</emph> 6.532-542)
-                           <note place="foot" resp="editors" n="2">I refer to the 1805 poem. In the
+                           <note place="foot" resp="editors">I refer to the 1805 poem. In the
                               1850 version, “nature” is replaced with “being’s heart.” </note>
                         
                      </l>
@@ -483,7 +458,7 @@
                   a kind of specialized knowledge of the modern habitus—something that is understood
                   by its unknownness, or the mind’s hospitality to formations it cannot anticipate
                   in advance.
-                     <note place="foot" resp="editors" n="3">See Terada’s “Living” for a
+                     <note place="foot" resp="editors">See Terada’s “Living” for a
                         non-traumatic exploration of discovering possibility in ruination.</note>
                    And new historicist criticism of a certain traumatic variety has taught us
                   to uncover these disasters, whether real or imagined, as in some way doubly dismal
@@ -529,7 +504,7 @@
                   intimates that progressive transformation is evanescent or slight or, moreover,
                   that disaster is an inertia, something passively imponderable. Disaster is
                   posthumous: it “neither is, nor is it not”
-                     <note place="foot" resp="editors" n="4">This is Ann Smock’s gloss in her
+                     <note place="foot" resp="editors">This is Ann Smock’s gloss in her
                         introduction to <title level="m">The Writing of the Disaster</title>
                         (x).</note>
                    an event over which a <emph>present</emph> judgment can be rendered because
@@ -628,7 +603,7 @@
                   life whose unrest <emph>is</emph> unharassed, non-coercive, and non-apocalyptic.
                   It scatters the fourfold. </p>
             </div>
-            <div type="section" n="2">
+            <div type="section">
                <head>Irreparable</head>
                <p>What if we were to conceive of the disasters of the past as pulverizing our
                   standard forms of attachment? Because disasters are silently happening all around
@@ -655,7 +630,7 @@
                   the fourfold is at once gathered <emph>and</emph> disseminated, where disaster is
                   kept open as a question over the ruins of a poem that has often been read as an
                   act of reparative memorialization.
-                     <note place="foot" resp="editors" n="5">See Schor and Fosso. </note>
+                     <note place="foot" resp="editors">See Schor and Fosso. </note>
                    In keeping with Clark’s definition, I want to suggest that the ruins
                   Wordsworth attends to closely resemble an “event of disrupting and unravelling,”
                   and are linked to his antirepresentational preoccupation with disaster’s ruination
@@ -667,7 +642,7 @@
                      give</emph>, and similarly does not owe (after Derrida): it disasters the
                   payments ordinarily recouped by acts of mourning that assure normative dwelling
                      “evermore.”
-                     <note place="foot" resp="editors" n="6">My thinking here is indebted to
+                     <note place="foot" resp="editors">My thinking here is indebted to
                         Freedgood’s manuscript, “That People Might Be Like Things and Live.” </note>
                    On the one hand, of course, <title level="m">The Ruined Cottage</title> does
                   seek to sublimate grief into what Joel Faflak calls a “desire for moral
@@ -799,14 +774,14 @@
                   readings: neither commodity, fetish, nor concrete object, the “things we cannot
                   see” disturb the gap between person and thing, self and other, and offer a
                   challenging ecological ethics.
-                     <note place="foot" resp="editors" n="7">See Potkay. </note>
+                     <note place="foot" resp="editors">See Potkay. </note>
                    Such things, in their utter disposability, are images of what remains
                   uncontaminated by time and hence resistant to any restorative, differential
                   desire. The lingering waste of the poem doesn’t ripen, but rather remains
                   unyielding to any future prospects—it is literally the “no future,” the
                   superfluity of stuff that glimmers in a history of disaster that divests the poem
                   of any redeemable conditions.
-                     <note place="foot" resp="editors" n="8">I allude here to Edelman. </note>
+                     <note place="foot" resp="editors">I allude here to Edelman. </note>
                   
                </p>
                <p>In this way, the elegy, while lamenting the substitution of non-human for human
@@ -878,7 +853,7 @@
                   incurs no obligation and fosters no dependency, as in gift exchange. On the
                   contrary, this object guarantees the discoverer’s independence for it asks nothing
                   and invites no attachments” (212-213).
-                     <note place="foot" resp="editors" n="9">Also see Mitchell and Collins.</note>
+                     <note place="foot" resp="editors">Also see Mitchell and Collins.</note>
                    Thus the picturesque economizes a non-reciprocal form of gift-giving that
                   assumes the found object as the ungiven gift. The strangeness of <title level="m"
                      >The Ruined Cottage</title> lies precisely in this emphasis on the foundness of
@@ -887,7 +862,7 @@
                   circulations of exchange or obligation. While their affective kitschiness
                   nostalgically recalls the commodified literary history out of which they have
                   emerged—as Karen Swann has taught us, they are almost certainly Gothic ephemera
-                     <note place="foot" resp="editors" n="10">See Swann. </note>
+                     <note place="foot" resp="editors">See Swann. </note>
                   —the elegy just as convincingly organizes the broken bowl, Margaret, her
                   child, the spear-grass, and the cottage itself as things found <emph>in</emph> a
                   limbic state between being for another and being for themselves. Like Van Gogh’s
@@ -978,7 +953,7 @@
                   participation, that endures not simply as the remnant of human life, but of life
                   itself in its state of desertion (<title level="m">Cinema</title>). After all,
                   garbage is precisely that which is prohibited, that which we ought not look at.
-                     <note place="foot" resp="editors" n="11">See Yaeger: “the binary trash/culture
+                     <note place="foot" resp="editors">See Yaeger: “the binary trash/culture
                         has become more ethically charged and aesthetically interesting than the
                         binary nature/culture. In a world where nature is dominated, polluted,
                         pocketed, eco-touristed, warming, melting, bleaching, dissipating, and
@@ -1006,589 +981,118 @@
                   recirculate persons in an aesthetic economy that cannot bear to possess or dwell
                   with anything, that treats persons as <emph>res nullius</emph>, and would have us
                   literally waste life.</p>
-            </div>
+        
 
-            <div type="citations">
+            <div type="citation">
                <head>Works Cited</head>
                <listBibl>
-                  <biblStruct>
-                     <monogr>
-                        <author>Adorno, Theodor</author>
-                        <author>Max Horkheimer</author>
-                        <title level="m">Dialectic of Enlightenment</title>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Verso</publisher>
-                           <date>1997</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Agamben, Giorgio</author>
-                        <title level="m">The Coming Community</title>
-                        <editor role="translator">Hardt, Michael</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <publisher>University of Minnesota Press</publisher>
-                           <date>1993</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+                  
+                  <bibl>Adorno, Theodor and Max Horkheimer. <title level="m">Dialectic of Enlightenment</title>. London, Verso, 1997. </bibl>
+                  
+                  <bibl>Agamben, Giorgio. <title level="m">The Coming Community</title>. Translated by Michael Hardt, Minneapolis, U of Minneapolis P, 1993. </bibl>
+                  
+                  <bibl>Alpers, Paul J. <title level="m">What is Pastoral?</title>. Chicago, U of Chicago P, 1996. </bibl>
+                  
+                  <bibl>Benjamin, Walter. <title level="a">Surrealism: The Last Snapshot of the European
+                     Intelligentsia</title>. <title level="m">Selected Writings: Volume 2, 1927–1934</title>, 
+                     translated by Edmund Jephcott, edited by Michael Jennings et al., Cambridge, Belknap/Harvard UP, 1999, pp. 207–21.</bibl>
+                  
+                  <bibl>Bewell, Alan. <title level="m">Romanticism and Colonial Disease</title>. Baltimore, Johns Hopkins UP, 2000.</bibl>
+                  
+                  <bibl>Blanchot, Maurice. <title level="m">The Writing of the Disaster</title>. Translated by Ann Smock, Lincoln, U of Nebraska P, 1995.</bibl>
+                  
+                  <bibl>Bloom, Harold.<title level="a">Visionary Cinema of Romantic Poetry</title>. <title level="m">The Ringers In The Tower: Studies in Romantic
+                     Tradition</title>. <title><ref target="http://www.cred.be/">Center for Research on the
+                        Epidemiology of Disaster (CRED)</ref></title>, Chicago, U of Chicago P, 1971, pp. 37-52. </bibl>
+                  
+                  <bibl>Clark, Nigel. <title level="a">Living Through the Tsunami: Vulnerability and Generosity On
+                     a Volatile Earth</title>. <title level="j">Geoforum</title>, vol. 38, 2007, pp. 1127-139.</bibl>
+                  
+                  <bibl>Collins, Douglas. <title level="a">The Found Object</title>. <title level="j">Willamette Journal</title>,  vol. 1.1, 1983, pp. 43-74. <title><ref target="http://www.deep.med.miami.edu/x314.xml">The Deep
+                     Center</ref></title>.</bibl>
+                  
+                  <bibl>Deleuze, Gilles. <title level="m">Cinema: The Movement-Image</title>. 
+                     Translated by Hugh Tomlinson and Barbara Habberjam, Minneapolis, U of Minneapolis P, 1989.</bibl>
+                  
+                  <bibl>Deleuze, Gilles and >Félix Guattari. <title level="m">What is Philosophy?</title>.
+                     Translated by Hugh Tomlinson and Graham Burchell, New York, Columbia UP, 1994. </bibl>
+                  
+                  <bibl>Derrida, Jacques. <title level="a">Hostipitality</title>. <title level="j">Angelaki</title>, December 2000, pp. 3-18.</bibl>
+                  
+                  <bibl>Edelman, Lee. <title level="m">No Future: Queer Theory and the Death-Drive</title>. Durham, Duke UP, 2004.</bibl>
+                  
+                  <bibl>Faflak, Joel. <title level="a"><ref target="http://www.erudit.org/revue/ron/1999/v/n16/005883ar.html"
+                     >Analysis Interminable in the Other Wordsworth</ref></title>. <title level="j">Romanticism On the Net</title>, November 1999. </bibl>
+                  
+                  <bibl>———. <title level="a">‘Was it for this?’: Romantic Psychiatry and the Addictive
+                     Pleasures of Moral Management</title>. <title level="m">Romanticism and Pleasure: Disciplined Delights in British
+                        Literary Culture, 1780-1830</title>, edited by Michelle Faubert and Tom Schmid, New York and London, Palgrave, forthcoming. </bibl>
+                  
+                  <bibl>Fosso, Kurt. <title level="a">Community and Mourning in William Wordsworth’s <emph>The
+                     Ruined Cottage</emph>, 1797-1798</title>. <title level="j">Studies in Philology</title>, Summer 1995, pp. 329-45. </bibl>
+                  
+                  <bibl>Freedgood, Elaine. <title level="a">"That People Might Be Like Things and Live."</title>. Unpublished ms., 2009.</bibl>
+                  
+                  <bibl>Heidegger, Martin. <title level="a">Building Dwelling Thinking</title>. 
+                     <title level="m">Poetry, Language, Thought</title>, translated by Albert Hofstadter, New York, Perennial, 1971, pp. 143-61.</bibl>
+                  
+                  <bibl>Huet, Marie-Hélène. <title level="a">The Face of Disaster</title>. <title level="j">Yale French Studies</title>, vol. 111, 2007, pp. 7-31. </bibl>
+                  
+                  <bibl>Koolhaas, Rem. <title level="a">Junkspace</title>. <title level="j">October</title>, Spring 2002, pp. 175-90.</bibl>
+                  
+                  <bibl>Lingis, Alphonso. <title level="a">Catastrophic Times</title>. <title level="m">Time and Value</title>, edited by Soctt Lash et al., London, Blackwell, 1998. </bibl>
+                  
+                  <bibl>Liu, Alan. <title level="m">Wordsworth: The Sense of History</title>. Stanford, Stanford UP, 1988.</bibl>
+                  
+                  <bibl>Mitchell, W.J.T. <title level="a">Founding Objects</title>. <title level="m">What Do Pictures Want?</title>, Chicago, U of Chicago P, 2005, pp. 111-24.</bibl>
+                  
+                  <bibl>Modiano, Raimonda. <title level="a">The Legacy of the Picturesque: Landscape, Property, and the
+                     Ruin</title>. <title level="m">The Politics of the Picturesque: Literature, Landscape and
+                        Aesthetics since 1770</title>, edited by Stephen Copley and Peter Garside, Cambridge, Cambridge UP, 1994, pp. 196-219. </bibl>
+                  
+                  <bibl>Morton, Timothy. <title level="m">Ecology Without Nature: Rethinking Environmental
+                     Aesthetics</title>. Cambridge, Harvard UP, 2007.</bibl>
+                  
+                  <bibl>Potkay, Adam. <title>Wordsworth and the Ethics of Things</title>. <title level="j">PMLA </title>, vol. 123:2, 2008, pp. 390-404.</bibl>
+                  
+                  <bibl>Rigby, Kate. <title level="a">Ecstatic Dwelling</title>. <title level="j">Angelaki</title>, August 2004, pp. 117-43.  </bibl>
+                  
+                  <bibl>Schor, Esther. <title level="m">Bearing the Dead: The British Culture of Mourning from the
+                     Enlightenment to Victoria</title>. Princeton, Princeton UP, 1994.</bibl>
+                  
+                  <bibl>Simpson, David. <title level="m">Wordsworth, Commodification, and Social Concern</title>. Cambridge, Cambridge UP, 2009.</bibl>
+                  
+                  <bibl>Swann, Karen. <title level="a">Suffering and Sensation in <title level="m">The Ruined
+                     Cottage</title></title>. <title level="j">PMLA</title>, January 1991, pp. 83-95. </bibl>
+                  
+                  <bibl>Terada, Rei. <title level="a">Living a Ruined Life: De Quincey Beyond the Worst</title>. 
+                     <title level="j">European Romantic Review</title>, April 2009, pp. 177–86.</bibl>
+                  
+                  <bibl>———. <title level="m">Looking Away: Phenomenality and Dissatisfaction, Kant to
+                     Adorno</title>. Cambridge, Harvard UP, 2009 </bibl>
+                  
+                  <bibl>Wordsworth, William. <title level="a">Preface to <title level="m">Literary Ballads, with Other
+                     Poems</title> (1800)</title>.  <title level="m">Literary Criticism of William Wordsworth</title>,
+                     edited by Paul M. Zall, Lincoln, U of Nebraska P, 1966, pp. 15-32.</bibl>
+                  
+                  <bibl>———. <title level="m">The Poems: Volume One</title>. Edited by John O. Hayden, New York, Penguin, 1977.</bibl>
+                  
+                  <bibl>———. <title level="m">The Prelude: 1799, 1805, 1850</title>. Edited by Jonathan Wordsworth et al., New York, Norton, 1979. </bibl>
+                  
+                  <bibl>———. <title level="m">The Ruined Cottage and The Pedlar</title>. Edited by James Butler, Ithaca, Cornell UP, 1979.</bibl>
+                  
+                  <bibl>World Health Organization. <title level="a"><ref target="http://www.who.int/en/">Hospitals Networking
+                     in Disaster</ref></title>. </bibl>
+                  
+                  <bibl>Yaeger, Patricia. <title level="a">The Death of Nature and the Apotheosis of Trash; or,
+                     Rubbish Ecology</title>. <title level="j">PMLA</title>, March 2008, pp. 321-39.  </bibl>
                   
                   
-                  <biblStruct>
-                     <monogr>
-                        <author>Alpers, Paul J</author>
-                        <title level="m">What is Pastoral?</title>
-                        <imprint>
-                           <pubPlace>Chicago</pubPlace>
-                           <publisher>University of Chicago Press</publisher>
-                           <date>1996</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
                   
-                  
-                  <biblStruct>
-                     <analytic>
-                        <author>Benjamin, Walter</author>
-                        <title level="a">Surrealism: The Last Snapshot of the European
-                           Intelligentsia</title>
-                        <editor role="translator">Jephcott, Edmund</editor>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Selected Writings: Volume 2, 1927–1934</title>
-                        <editor role="editor">Jennings, Michael</editor>
-                        <editor role="editor">Eiland, Michael</editor>
-                        <editor role="editor">Smith, Gary</editor>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Belknap/Harvard University Press</publisher>
-                           <date>1999</date>
-                           <biblScope type="pp">207–21</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct>
-                     <monogr>
-                        <author>Bewell, Alan</author>
-                        <title level="m">Romanticism and Colonial Disease</title>
-                        <imprint>
-                           <pubPlace>Baltimore</pubPlace>
-                           <publisher>Johns Hopkins University Press</publisher>
-                           <date>2000</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Blanchot, Maurice</author>
-                        <title level="m">The Writing of the Disaster</title>
-                        <editor role="translator">Smock, Ann</editor>
-                        <imprint>
-                           <pubPlace>Lincoln</pubPlace>
-                           <publisher>University of Nebraska Press</publisher>
-                           <date>1995</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Bloom, Harold</author>
-                        <title level="a">Visionary Cinema of Romantic Poetry</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Ringers In The Tower: Studies in Romantic
-                           Tradition</title>
-                        <imprint>
-                           <pubPlace>Chicago</pubPlace>
-                           <publisher>University of Chicago Press</publisher>
-                           <date>1971</date>
-                           <biblScope type="pp">37-52</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <title><ref target="http://www.cred.be/">Center for Research on the
-                              Epidemiology of Disaster (CRED)</ref></title>
-                        <imprint>
-                           <date type="access">2011-5-10</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Clark, Nigel</author>
-                        <title level="a">Living Through the Tsunami: Vulnerability and Generosity On
-                           a Volatile Earth</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Geoforum</title>
-                        <imprint>
-                           <biblScope type="vol">38</biblScope>
-                           <date>2007</date>
-                           <biblScope type="pp">1127-1139</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Collins, Douglas</author>
-                        <title level="a">The Found Object</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Willamette Journal</title>
-                        <imprint>
-                           <biblScope type="vol">1.1</biblScope>
-                           <date>1983</date>
-                           <biblScope type="pp">43-74</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <title><ref target="http://www.deep.med.miami.edu/x314.xml">The Deep
-                              Center</ref></title>
-                        <imprint>
-                           <date type="access">2011-5-10</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Deleuze, Gilles</author>
-                        <title level="m">Cinema: The Movement-Image</title>
-                        <editor role="translator">Tomlinson, Hugh</editor>
-                        <editor role="translator">Habberjam, Barbara</editor>
-                        <imprint>
-                           <pubPlace>Minneapolis</pubPlace>
-                           <publisher>University of Minnesota Press</publisher>
-                           <date>1989</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Deleuze, Gilles</author>
-                        <author>Félix Guattari</author>
-                        <title level="m">What is Philosophy?</title>
-                        <editor role="translator">Tomlinson, Hugh</editor>
-                        <editor role="translator">Burchell, Graham</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Columbia University Press</publisher>
-                           <date>1994</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Derrida, Jacques</author>
-                        <title level="a">Hostipitality</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Angelaki</title>
-                        <imprint>
-                           <date>December 2000</date>
-                           <biblScope type="pp">3-18</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Edelman, Lee</author>
-                        <title level="m">No Future: Queer Theory and the Death-Drive</title>
-                        <imprint>
-                           <pubPlace>Durham</pubPlace>
-                           <publisher>Duke University Press</publisher>
-                           <date>2004</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Faflak, Joel</author>
-                        <title level="a"><ref target="http://www.erudit.org/revue/ron/1999/v/n16/005883ar.html"
-                              >Analysis Interminable in the Other Wordsworth</ref></title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Romanticism On the Net</title>
-                        <imprint>
-                           <date type="update">November 1999</date>
-                           <date type="access">2011-5-10</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Faflak, Joel</author>
-                        <title level="a">‘Was it for this?’: Romantic Psychiatry and the Addictive
-                           Pleasures of Moral Management</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Romanticism and Pleasure: Disciplined Delights in British
-                           Literary Culture, 1780-1830</title>
-                        <editor role="editor">Faubert, Michelle</editor>
-                        <editor role="editor">Schmid, Tom</editor>
-                        <imprint>
-                           <pubPlace>New York and London</pubPlace>
-                           <publisher>Palgrave</publisher>
-                           <date>forthcoming</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Fosso, Kurt</author>
-                        <title level="a">Community and Mourning in William Wordsworth’s <emph>The
-                              Ruined Cottage</emph>, 1797-1798</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Studies in Philology</title>
-                        <imprint>
-                           <date>Summer 1995</date>
-                           <biblScope type="pp">329-345</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Freedgood, Elaine</author>
-                        <title level="u">"That People Might Be Like Things and Live."</title>
-                     
-                     
-                        <imprint>
-                           <publisher>Unpublished ms.</publisher>
-                           <date>2009.</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Heidegger, Martin</author>
-                        <title level="a">Building Dwelling Thinking</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Poetry, Language, Thought</title>
-                        <editor role="translator">Hofstadter, Albert</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Perennial</publisher>
-                           <date>1971</date>
-                           <biblScope type="pp">143-161</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Huet, Marie-Hélène</author>
-                        <title level="a">The Face of Disaster</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Yale French Studies</title>
-                        <imprint>
-                           <biblScope type="vol">111</biblScope>
-                           <date>2007</date>
-                           <biblScope type="pp">7-31</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Koolhaas, Rem</author>
-                        <title level="a">Junkspace</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">October</title>
-                        <imprint>
-                           <date>Spring 2002</date>
-                           <biblScope type="pp">175-190</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Lingis, Alphonso</author>
-                        <title level="a">Catastrophic Times</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Time and Value</title>
-                        <editor role="editor">Lash, Scott</editor>
-                        <editor role="editor">Quick, Scott</editor>
-                        <editor role="editor">Roberts, Scott</editor>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Blackwell</publisher>
-                           <date>1998</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Liu, Alan</author>
-                        <title level="m">Wordsworth: The Sense of History</title>
-                        <imprint>
-                           <pubPlace>Stanford</pubPlace>
-                           <publisher>Stanford University Press</publisher>
-                           <date>1988</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Mitchell, W.J.T</author>
-                        <title level="a">Founding Objects</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">What Do Pictures Want?</title>
-                        <imprint>
-                           <pubPlace>Chicago</pubPlace>
-                           <publisher>University of Chicago Press</publisher>
-                           <date>2005</date>
-                           <biblScope type="pp">111-124</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Modiano, Raimonda</author>
-                        <title level="a">The Legacy of the Picturesque: Landscape, Property, and the
-                           Ruin</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Politics of the Picturesque: Literature, Landscape and
-                           Aesthetics since 1770</title>
-                        <editor role="editor">Copley, Stephen</editor>
-                        <editor role="editor">Garside, Peter</editor>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge University Press</publisher>
-                           <date>1994</date>
-                           <biblScope type="pp">196-219</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Morton, Timothy</author>
-                        <title level="m">Ecology Without Nature: Rethinking Environmental
-                           Aesthetics</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Harvard University Press</publisher>
-                           <date>2007</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Potkay, Adam</author>
-                        <title>Wordsworth and the Ethics of Things</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">PMLA </title>
-                        <imprint>
-                           <biblScope type="vol">123:2</biblScope>
-                           <date>2008</date>
-                           <biblScope type="pp">390-404</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Rigby, Kate</author>
-                        <title level="a">Ecstatic Dwelling</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Angelaki</title>
-                        <imprint>
-                           <date>August 2004</date>
-                           <biblScope type="pp">117-143</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Schor, Esther</author>
-                        <title level="m">Bearing the Dead: The British Culture of Mourning from the
-                           Enlightenment to Victoria</title>
-                        <imprint>
-                           <pubPlace>Princeton</pubPlace>
-                           <publisher>Princeton University Press</publisher>
-                           <date>1994</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Simpson, David</author>
-                        <title level="m">Wordsworth, Commodification, and Social Concern</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Cambridge University Press</publisher>
-                           <date>2009</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Swann, Karen</author>
-                        <title level="a">Suffering and Sensation in <title level="m">The Ruined
-                              Cottage</title></title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">PMLA</title>
-                        <imprint>
-                           <date>January 1991</date>
-                           <biblScope type="pp">83-95</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Terada, Rei</author>
-                        <title level="a">Living a Ruined Life: De Quincey Beyond the Worst</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">European Romantic Review</title>
-                        <imprint>
-                           <date>April 2009</date>
-                           <biblScope type="pp">177–186</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Terada, Rei</author>
-                        <title level="m">Looking Away: Phenomenality and Dissatisfaction, Kant to
-                           Adorno</title>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Harvard University Press</publisher>
-                           <date>2009</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Wordsworth, William</author>
-                        <title level="a">Preface to <title level="m">Literary Ballads, with Other
-                              Poems</title> (1800)</title>
-                     </analytic>
-                     <monogr>
-                        <title level="m">Literary Criticism of William Wordsworth</title>
-                        <editor role="editor">Zall, Paul M.</editor>
-                        <imprint>
-                           <pubPlace>Lincoln</pubPlace>
-                           <publisher>University of Nebraska Press</publisher>
-                           <date>1966</date>
-                           <biblScope type="pp">15-32</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Wordsworth, William</author>
-                        <title level="m">The Poems: Volume One</title>
-                        <editor role="editor">Hayden, John O.</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Penguin</publisher>
-                           <date>1977</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Wordsworth, William</author>
-                        <title level="m">The Prelude: 1799, 1805, 1850</title>
-                        <editor role="editor">Wordsworth, Jonathan</editor>
-                        <editor role="editor">Abrams, M.H.</editor>
-                        <editor role="editor">Gill, Stephen</editor>
-                        <imprint>
-                           <pubPlace>New York</pubPlace>
-                           <publisher>Norton</publisher>
-                           <date>1979</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <monogr>
-                        <author>Wordsworth, William</author>
-                        <title level="m">The Ruined Cottage and The Pedlar</title>
-                        <editor role="editor">Butler, James</editor>
-                        <imprint>
-                           <pubPlace>Ithaca</pubPlace>
-                           <publisher>Cornell University Press</publisher>
-                           <date>1979</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                 
-                  <biblStruct>
-                     <monogr>
-                        <author>World Health Organization</author>
-                        <title level="a"><ref target="http://www.who.int/en/">Hospitals Networking
-                              in Disaster</ref></title>
-                        <imprint>
-                           <date type="access">2011-5-10</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-
-                  <biblStruct>
-                     <analytic>
-                        <author>Yaeger, Patricia</author>
-                        <title level="a">The Death of Nature and the Apotheosis of Trash; or,
-                           Rubbish Ecology</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j">PMLA</title>
-                        <imprint>
-                           <date>March 2008</date>
-                           <biblScope type="pp">321-339</biblScope>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
+        
+                   
                </listBibl>
+            </div>
             </div>
          </div>
       </body>

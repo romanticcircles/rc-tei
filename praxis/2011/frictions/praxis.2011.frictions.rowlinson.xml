@@ -1,121 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
+         
          <titleStmt>
-            <title type="main">Romantic Frictions</title>
-            <title type="subordinate">A Romantic Circles PRAXIS Volume</title>
+            <!--  The reading texts should all be encoded as level="m"  -->
             <title level="a">Allegory and Exchange in the Waverley Novels</title>
-            <author>
+            
+            
+            <author role="primary">
                <name>Matthew Rowlinson</name>
             </author>
-            <editor role="editor">Theresa M. Kelley</editor>
+            
             <sponsor>Romantic Circles</sponsor>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Neil Fraistat</name>
+               <resp>TEI Encoding</resp>
+               <name>EXTERNAL CODER</name>
             </respStmt>
+            
             <respStmt>
-               <resp>General Editor,</resp>
-               <name>Steven E. Jones</name>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
             </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
+            
             <respStmt>
                <resp>Praxis Editor</resp>
                <name>Orrin N.C. Wang</name>
             </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Jessica Tebo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Assistant Editor</resp>
+               <name>Anna Paige Wingfield</name>
+            </respStmt>
          </titleStmt>
+         
+         <editionStmt>
+            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+            <edition>YYYY-MM-DD</edition>
+         </editionStmt>
+         
          <publicationStmt>
-            <idno>praxis.2011.rowlinson</idno>
-            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-            <pubPlace>College Park, MD</pubPlace>
-            <date when="2010-11-01">March 1, 2011</date>
-            <availability status="restricted">
-               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or
-                  disseminated in any manner without authorization unless it is for purposes of
-                  criticism, comment, news reporting, teaching, and/or classroom use as provided by
-                  the Copyright Act of 1976, as amended.</p>
-               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are
-                  copyrighted by the author/editor and may be shared only in accordance with the
-                  Fair Use provisions of U.S. copyright law. Except as expressly permitted by this
-                  statement, redistribution or republication in any medium requires express prior
-                  written consent from the author/editors and advance notification of Romantic
-                  Circles. Any requests for authorization should be forwarded to Romantic
-                  Circles:&gt;
-                  <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
-               <p>By their use of these texts and images, users agree to the following conditions: <list>
-                     <item>These texts and images may not be used for any commercial purpose without
-                        prior written permission from Romantic Circles.</item>
-                     <item>These texts and images may not be re-distributed in any forms other than
-                        their current ones.</item>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+               Boulder</publisher>
+            <pubPlace>Boulder, CO</pubPlace>
+            <availability status="free">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced
+                  or disseminated in any manner without authorization unless it is for
+                  purposes of criticism, comment, news reporting, teaching, and/or classroom
+                  use as provided by the Copyright Act of 1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+                  are copyrighted by the author/editor and may be shared only in accordance
+                  with the Fair Use provisions of U.S. copyright law. Except as expressly
+                  permitted by this statement, redistribution or republication in any medium
+                  requires express prior written consent from the author(s)/ editor(s) and
+                  advance notification of Romantic Circles. Any requests for authorization
+                  should be forwarded to Romantic Circles: <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Thora Brylowe</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Colorado Boulder</addrLine>
+                     <addrLine>Boulder, CO 80309</addrLine>
+                     <addrLine>thora.brylowe@colorado.edu</addrLine>
+                  </address></p>
+               <p>By their use of these texts and images, users agree to the following
+                  conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose
+                        without prior written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms
+                        other than their current ones.</item>
                   </list></p>
-               <p>Users are not permitted to download these texts and images in order to mount them
-                  on their own servers. It is not in our interest or that of our users to have
-                  uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-                  corrections and additions to our edited resources on a continual basis, and we
-                  want the most current text to be the only one generally available to all Internet
-                  users. Institutions can, of course, make a link to the copies at Romantic Circles,
-                  subject to our conditions of use.</p>
+               <p>Users are not permitted to download these texts and images in order to mount
+                  them on their own servers. It is not in our interest or that of our users to
+                  have uncontrolled subsets of our holdings available elsewhere on the
+                  Internet. We make corrections and additions to our edited resources on a
+                  continual basis, and we want the most current text to be the only one
+                  generally available to all Internet users. Institutions can, of course, make
+                  a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
             </availability>
+            <!-- Be sure that the name below matches the file name-->
+            <idno type="edition"
+               >praxis.2011.frictions.rowlinson</idno>
+            <idno type="resource"
+               >frictions</idno>
          </publicationStmt>
+         
          <sourceDesc>
             <biblStruct>
                <analytic>
+                  <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                   <title level="a" type="main">Allegory and Exchange in the Waverley Novels</title>
-                  <author>
+                  <author role="secondary">
                      <persName>
                         <forename>Matthew</forename>
                         <surname>Rowlinson</surname>
                      </persName>
                   </author>
+                  <!-- Referenece the above <idno> tag but only change the final part-->
+                  <ptr
+                     target="praxis/frictions/praxis.2011.frictions.rowlinson"/>
+                  <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                </analytic>
+               
+               
                <monogr>
-                  <title level="m">Romantic Frictions:</title>
-                  <title level="j">A Romantic Circles Praxis Volume</title>
+                  <title level="m"
+                     >Romantic Frictions</title>
+                  <title level="s">Praxis</title>
+                  
                   <imprint>
-                     <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                        Maryland</publisher>
-                     <pubPlace>College Park, MD</pubPlace>
-                     <date when="2011-03-01">March 1, 2011</date>
+                     <publisher> Romantic Circles, https://romantic-circles.org, University
+                        of Colorado Boulder</publisher>
+                     <pubPlace>Boulder, CO</pubPlace>
+                     <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                     <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                   </imprint>
                </monogr>
+               
+               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for &#226;&#8364;&#339;,"
-                  for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+               <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                  &#8221;, and ' to &#8216; and &#8217;.</p>
             </quotation>
             <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Any dashes occurring in line breaks have been removed except in the case of
+                  diplomatic transcriptions.</p>
                <p>Because of web browser variability, all hyphens have been typed on the U.S.
                   keyboard</p>
-               <p>Em-dashes have been rendered as #8212</p>
+               <p>Em dashes have been rendered as &#8212;</p>
+               <p>En dashes have been rendered as &#8211;</p>
             </hyphenation>
             <normalization method="markup">
                <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+                  such, the content recorded in brackets.</p>
             </normalization>
             <normalization>
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
+               <p>&#35; has been used for #, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+                  been encoded in HTML entity decimals.</p>
             </normalization>
          </editorialDecl>
+         
          <tagsDecl>
             <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
             <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -124,7 +162,6 @@
             <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
             <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
             <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
-            <rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
             <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
             <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
             <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
@@ -135,148 +172,88 @@
             <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
             <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
             <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
-            <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>                         <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>                         <rendition xml:id="figure" scheme="css">text-align: center; font-size: 12pt;</rendition>                         <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>                         <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+            <rendition xml:id="figure" scheme="css">text-align: center; font-size:
+               12pt;</rendition>
+            <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+            <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
          </tagsDecl>
+         
          <classDecl>
             <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="genre">
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+               xml:id="g">
                <bibl>NINES categories for Genre and Material Form at
-                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-                  on 2009-02-26</bibl>
-               <category xml:id="g1">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>Artifacts</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Letters</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>Politics</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>Folklore</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>Leisure</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>Humor</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>Education</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>Music</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>nonfiction</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>Perodical</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>Philosphy</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>Family Life</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>Travel</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Law</catDesc>
-               </category>
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                  20014-02-27</bibl>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+               xml:id="dcType">
+               <bibl>NINES categories for document type at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+                  2014-02-27</bibl>
+            </taxonomy>
+            <taxonomy
+               corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+               xml:id="d">
+               <bibl>NINES categories for discplines at
+                  http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+                  2014-02-27</bibl>
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#Paratext"/>
+            <catRef scheme="#dcType" target="#Typescript"/>
+            <catRef scheme="#discipline" target="#Literature"/>
+            <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+            <keywords scheme="http://www.romantic-circles.org/#tags">
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+               <term subtype="tags"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
       <revisionDesc>
          <change>
-            <name>Mike Quilligan</name>
-            <date>2010-11-01</date>
+            <!--  Coder Name and Date Coded  -->
+            <name><!-- coder --></name>
             <list>
-               <item>TEI encoding the issue</item>
+               <item>TEI encoding the text</item>
             </list>
          </change>
       </revisionDesc>
    </teiHeader>
+   <!--END OF HEADER-->
+   <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+   
+
+
    <text>
       <body>
          <div type="essay">
             <head>
                
-               <title level="a">Allegory and Exchange in the Waverley Novels</title><note n="1"
-                  place="foot" resp="editors">With the permission of <ref
-                     target="http://cambridge.org/us/">Cambridge University Press</ref>, this essay
-                  includes excerpts from <title level="m"><ref
-                        target="http://cambridge.org/us/catalogue/catalogue.asp?isbn=9780521193795"
-                        >Real Money and Romanticism</ref></title>, by Matthew Rowlinson. Copyright
-                  &#169; 2010 Matthew Rowlinson.</note>
+               <title level="a">Allegory and Exchange in the Waverley Novels</title>
             </head>
             <byline>
                <docAuthor>Matthew Rowlinson</docAuthor>
                <affiliation>University of Western Ontario</affiliation>
             </byline>
-            <div type="section" n="1">
+            <div type="section">
+               <p>[With the permission of <ref
+                  target="http://cambridge.org/us/">Cambridge University Press</ref>, this essay
+                  includes excerpts from <title level="m"><ref
+                     target="http://cambridge.org/us/catalogue/catalogue.asp?isbn=9780521193795"
+                     >Real Money and Romanticism</ref></title>, by Matthew Rowlinson. Copyright
+                  &#169; 2010 Matthew Rowlinson.]</p>
+               
                <p>The third of Sir Walter Scott&#8217;s Waverley novels, <title level="m">The
                      Antiquary</title> was published in 1816 and set in 1794. It was Scott&#8217;s
                   favorite among his novels and of them all displays the most playful consciousness
@@ -289,7 +266,7 @@
                   &#8220;Scott undertakes what might be called the Shandyfication of historical
                   romance, glossing his earlier fiction and its cultural themes in a self-reflexive
                   and metafictional novel in which &#8216;nothing happens&#8217;&#8221; (<title
-                     level="m">Scott&#8217;s Shadow</title> 139).<note n="2" place="foot"
+                     level="m">Scott&#8217;s Shadow</title> 139).<note place="foot"
                      resp="editors">For much of the twentieth century criticism of the Waverley
                      novels had their place in the history of realism as its dominant topic; the
                      facetiousness of <title level="m">The Antiquary</title>&#8217;s representation
@@ -305,7 +282,7 @@
                      the conventions of gothic; see Robertson.</note> The conflict of the Stewart
                   and Hanoverian monarchies thus dwindles into the after-dinner quarrels of Jonathan
                   Oldbuck, the antiquary of the title, and his neighbor, Sir Arthur Wardour.<note
-                     n="3" place="foot" resp="editors">For a bravura return to Luk&#224;cs as an
+                      place="foot" resp="editors">For a bravura return to Luk&#224;cs as an
                      interpreter of Scott in an essay that, unlike Luk&#224;cs himself, deals at
                      length with <title level="m">The Antiquary</title>, see Maxwell. Regarding the
                      &#8220;emptiness&#8221; of history in the Waverley novels, of which the
@@ -322,16 +299,17 @@
                   disagreements arise, in their most elementary form, from the absence of single
                   standard of <emph>price</emph>, which thus functions in the novel as the belated
                   afterimage of a century-long absence in Scotland of a single accepted
-                     monarch.<note n="4" place="foot" resp="editors">See the argument that
+                     monarch.<note place="foot" resp="editors">See the argument that
                      antiquarianism&#8217;s &#8220;family resemblance to commerce&#8221; makes it
                      the &#8220;negation&#8221; of traditionalism in Lee 78-79.</note>
                </p>
                <p>Since Luk&#225;cs first read Scott in this way, much of the best criticism of his
                   fiction has adopted his conception of its characters as types, even when putting
                   it in service of political and historiographic arguments that differ widely from
-                     his.<note n="5" place="foot" resp="editors">Alexander Welsh treats
+                     his.<note place="foot" resp="editors">Alexander Welsh treats
                      Scott&#8217;s protagonists as types of a particular historical formation of
-                     masculinity in relation to landed property in his <title level="m">The Hero of the Waverley Novels</title>. More recently, Ian Duncan has read the characters of the Waverley novels as types of contrasting
+                     masculinity in relation to landed property in his <title level="m">The Hero of the Waverley Novels</title>. 
+                        More recently, Ian Duncan has read the characters of the Waverley novels as types of contrasting
                      narrative genres and discursive modes, whose dialectical engagement the novel
                      stages through their interaction&#8212;see Duncan <title level="m">Modern
                         Romance and Transformations of the Novel</title>. Among critical works on
@@ -389,7 +367,7 @@
                   a &#8220;bodle&#8221; (<title level="m">Antiquary</title> chs. 4, 44; <title
                      level="m">WN</title> 2: 42, 400). This joke is odder than it at first seems,
                   since the bodle was a copper two penny piece of the old Scots coinage, which had
-                  nominally been superseded at the Act of Union in 1707.<note n="6" place="foot"
+                  nominally been superseded at the Act of Union in 1707.<note place="foot"
                      resp="editors">Ochiltree&#8217;s Scots vernacular refers to money as either
                      &#8220;siller&#8221; or &#8220;gowd.&#8221; He distinguishes regularly between
                      the two, refusing gifts of gold as excessive, and begging only for silver. In
@@ -506,7 +484,7 @@
                   Edinburgh edition. Scott changed the story on the verso of his original manuscript
                   before the relevant passage had been set up in type, though, and it was the
                   revised version that appeared in print, both in the first edition and in each of
-                  the two or three subsequent editions that he oversaw.<note n="7" place="foot"
+                  the two or three subsequent editions that he oversaw.<note place="foot"
                      resp="editors">For the rationale of this emendation to his first edition base
                      text, see Hewitt 390. See 370-80 for the evolution of the text through
                      successive editions in Scott&#8217;s lifetime.</note>
@@ -535,7 +513,7 @@
                   fault.</p>
                <p>This fault does not arise from the divided political allegiance of
                   eighteenth-century Scots, but from divided allegiance among Scott&#8217;s modern
-                  editors with respect to the authority of manuscript and print.<note n="8"
+                  editors with respect to the authority of manuscript and print.<note
                      place="foot" resp="editors">See the appendix to this essay for a discussion of
                      the treatment of this and other textual problems in the Edinburgh Edition of
                      the Waverley Novels (EEWN).</note> The reason for this divided allegiance lies
@@ -548,7 +526,7 @@
                   consider them as <emph>allegorical</emph> presentations of a nineteenth-century
                   crisis in the process of literary production.</p>
             </div>
-            <div type="section" n="2">
+            <div type="section">
                <head>II</head>
                <p>&#8220;Mr. Cadell, there is a certain thing called Capital. You should look to
                   that, for these times are bad, and your transactions very large&#8221; (Constable
@@ -577,7 +555,7 @@
                   commodity is capital&#8217;s &#8220;disguised&#8221; mode of existence, while
                   money is its &#8220;general&#8221; one; capital&#8217;s &#8220;identity with
                   itself&#8221; can be affirmed only by its repeated re-embodiment of itself in
-                  money (Marx 255).<note n="9" place="foot" resp="editors">For discussion of capital
+                  money (Marx 255).<note place="foot" resp="editors">For discussion of capital
                      as a subject in Marx, see Postone 75-81.</note>
                </p>
                <p>For Marx money is both a commodity, the material product of social labor, and the
@@ -600,8 +578,7 @@
                   1797 and 1817, moreover, all of Britain was in the anomalous position of having
                      <emph>no</emph> legal tender in circulation. Owing to the exigencies of
                   wartime, the government prohibited the Bank of England from paying out gold and
-                  allowed issues of small-denomination bank notes to circulate in its place.<note
-                     n="10" place="foot" resp="editors">From 1797 to 1821 the Bank Restriction Act
+                  allowed issues of small-denomination bank notes to circulate in its place.<note place="foot" resp="editors">From 1797 to 1821 the Bank Restriction Act
                      forbade the Bank of England from redeeming its notes in gold. From 1817, the
                      Bank began to mint gold in the form of a new coin with a one-pound face value,
                      the sovereign. Owing to the overissue of notes that Restriction made possible,
@@ -644,7 +621,7 @@
                <p>It is my main theoretical claim in this essay that the indeterminate form in which
                   Scott sold the labor embodied in his novels is allegorized in traits of the novels
                   themselves. The most important of these for my purpose is their anonymity.<note
-                     n="11" place="foot" resp="editors">For a rich treatment of Scott&#8217;s
+                      place="foot" resp="editors">For a rich treatment of Scott&#8217;s
                      anonymous publication in the context of early nineteenth century Edinburgh
                      print culture, see Duncan <title level="m">Scott&#8217;s Shadow</title>.</note>
                   <title level="m">Waverley</title>, the first novel of the series, was published
@@ -676,7 +653,7 @@
                   as on their apparently limitless flow. Taken as a whole, the figure aligns the
                   authorship of the Waverley novels with possession of the money for which they were
                   sold, both the money and the novels being tokens of an identity that is
-                  constitutively secret and fated to vanish when revealed.<note n="12" place="foot"
+                  constitutively secret and fated to vanish when revealed.<note place="foot"
                      resp="editors">Scott&#8217;s money and his incognito really did vanish
                      together; as he faced insolvency in late 1825, he knew that one of the
                      consequences would be his exposure as the Author of Waverley. Hence his
@@ -719,7 +696,7 @@
                   protagonist thus also figures its identity with itself.</p>
                <p>Precisely because it recurs from novel to novel, the protagonist&#8217;s narrative
                   of self-discovery is a central topic in criticism of Scott&#8217;s fiction;<note
-                     n="13" place="foot" resp="editors">For Alexander Welsh this narrative is a
+                      place="foot" resp="editors">For Alexander Welsh this narrative is a
                      &#8220;romance of property.&#8221; He argues that in the Waverley novels the
                      protagonist&#8217;s discovery of his destiny, both as an heir and as a lover,
                      involves accession to real estate. The identity-conferring power of this kind
@@ -739,7 +716,7 @@
                   undermined by the traits that <title level="m">The Antiquary</title>&#8217;s
                   protagonist shares with those of other novels. These traits liken him for instance
                   to Waverley, to Harry Bertram, to Frank Osbaldistone, and to others from other
-                  novels in the series.<note n="14" place="foot" resp="editors">For a discussion of
+                  novels in the series.<note place="foot" resp="editors">For a discussion of
                      fraternal similarities among the Waverley protagonists, see Welsh 27.</note>
                   The truth of the protagonist&#8217;s identity and filiation was only apparently
                   contained within a single text; as soon as this appearance is breached, so too are
@@ -762,7 +739,7 @@
                   print collectively, in accordance with &#8220;the doctrine so well laid down by
                   the immortal Adam Smith, concerning the division of labour&#8221; (<title
                      level="m">Tales of the Crusaders</title>, Introduction; <title level="m"
-                     >WN</title> 19: 11).<note n="15" place="foot" resp="editors">For a treatment of
+                     >WN</title> 19: 11).<note place="foot" resp="editors">For a treatment of
                      this introduction, of Scott&#8217;s relation to Adam Smith, and of his
                      understanding of his novels as a commercial enterprise, see Sutherland.</note>
                   They meet here as joint proprietors of what the Author of Waverley describes as
@@ -772,7 +749,7 @@
                   a form of intellectual property, and a text representing in a single scene
                   characters from divers sources is thus in our own day not only an example of the
                   intertextual citation of character but also of the social circulation of
-                     value.<note n="16" place="foot" resp="editors">Think of Warner Bros. cartoons
+                     value.<note place="foot" resp="editors">Think of Warner Bros. cartoons
                      that represent a variety of characters from their &#8220;stable,&#8221; or of
                      the heterogeneous mass of personified intellectual properties that is Disney
                      World.</note> For Scott, the assembly of the characters is more ambiguous: they
@@ -806,7 +783,7 @@
                   appears in <title level="m">The Antiquary</title>&#8217;s representation of 1794
                   as an after-image of historic struggles that the novel regards as closed, it also
                   falls on it as a shadow of the future in which the novel itself will be written
-                  and published.<note n="17" place="foot" resp="editors"><emph>Untimeliness</emph>
+                  and published.<note place="foot" resp="editors"><emph>Untimeliness</emph>
                      is a crucial trait of the allegorical object in Walter Benjamin, whose
                      conception of it as an historical remainder that has been wrenched into service
                      as an arbitrary sign of modernity is the main theoretical point of reference in
@@ -818,7 +795,7 @@
                      239).</note>
                </p>
             </div>
-            <div type="section" n="3">
+            <div type="section">
                <head>III</head>
                <p>For historical and geographical reasons, Scott had a particularly acute experience
                   of the impossibility of fully identifying a capital: of specifying what is and
@@ -843,7 +820,7 @@
                   Scott&#8217;s identity was hidden by the Ballantynes. Much more closely held than
                   the secret of his authorship was the further secret that Scott himself owned more
                   than half of Ballantyne&#8217;s printing office and was in fact the dominant
-                     partner.<note n="18" place="foot" resp="editors">Scott had known James
+                     partner.<note place="foot" resp="editors">Scott had known James
                      Ballantyne since they were schoolboys together in Kelso. By 1800 Ballantyne was
                      the owner of a thriving print-shop and a newspaper there; at that date Scott
                      proposed to him that he should set up shop in Edinburgh. This he did in 1802,
@@ -870,7 +847,7 @@
                   the mystification of the commodity form into which his written work was absorbed
                   when it was sold and became capital. This mystification is in part due to the
                   relatively recent appearance of copyright as a commodity form in its own
-                     right.<note n="19" place="foot" resp="editors">See Rose 67-112 for an account
+                     right.<note place="foot" resp="editors">See Rose 67-112 for an account
                      of the eighteenth-century emergence of copyright as a form of abstract
                      intellectual property created by an author&#8217;s labor. Copyright in this
                      form replaced the earlier institution of copy; this was a license to print a
@@ -929,7 +906,7 @@
                   June, the publishers expected it to be bringing in revenue before they had to pay
                   even the first set of bills—though in the event Scott was more than a year late
                   with it, causing some anxious correspondence between Longmans and Constable.<note
-                     n="20" place="foot" resp="editors">For a general account of Scott&#8217;s
+                      place="foot" resp="editors">For a general account of Scott&#8217;s
                      contracts, see Grierson 145-46. For specific details of Scott&#8217;s payment
                      for <title level="m">The Antiquary</title>, see the essay on the text in the
                      EEWN edition, Hewitt 357-64.</note>
@@ -950,7 +927,7 @@
                   of his second novel, <title level="m">Guy Mannering</title>, and then of <title
                      level="m">The Antiquary</title>, precisely because fewer of their bills were in
                   the Edinburgh market than of Constable&#8217;s, and he wanted to give
-                  Constable&#8217;s credit a rest.<note n="21" place="foot" resp="editors">Scott
+                  Constable&#8217;s credit a rest.<note place="foot" resp="editors">Scott
                         <title level="m">Letters</title> 1: 473</note> The market value of a bill
                   thus depended on the state of an entire circulation of bills on which the
                   acceptor&#8217;s name appeared. For this reason, it represented a capital only
@@ -972,7 +949,7 @@
                   was so difficult, was that neither the acceptance of a payment nor the discharge
                   of a debt could be considered final until the bill involved had finally been paid
                   by its original acceptor—possibly years after many of the transactions in which
-                  it had played a part.<note n="22" place="foot" resp="editors">". . . hence it
+                  it had played a part.<note place="foot" resp="editors">". . . hence it
                      comes to be a proverbial Saying, <emph>That no man knows what a Tradesman is
                         till he is dead</emph>" (Defoe 2: 204).</note> In the crash of 1826, many of
                   the debts of Constable that Scott was required to pay were thus debts which had
@@ -993,7 +970,7 @@
                   and eventual insolvency was the historical necessity that dictated the mode of his
                   payment. The phenomenon of the Waverley novels could not have been financed by a
                   capital embodied in a retail bookselling establishment or in a printing shop, as
-                  publishing ordinarily had been hitherto.<note n="23" place="foot" resp="editors"
+                  publishing ordinarily had been hitherto.<note place="foot" resp="editors"
                      >John Feather asserts that in the eighteenth century publishing was invariably
                      associated with the retail sale of books; the earlier model, in which
                      publishing is a branch of the printing trade, disappears in the seventeenth
@@ -1019,7 +996,7 @@
                   versions of the author-function is one of the Waverley novels&#8217; cardinal
                   features, and it has determined my use of the text of Scott&#8217;s final edition
                   of the novels, which he termed his Magnum Opus, as the source for citations in
-                  this essay.<note n="24" place="foot" resp="editors">For discussion of the Magnum
+                  this essay.<note place="foot" resp="editors">For discussion of the Magnum
                      Opus edition and the circumstances under which it was produced, see Millgate
                         <title level="m">Scott&#8217;s Last Edition</title>.</note> In the Magnum
                   text, Scott appears as the no longer-anonymous author, as editor and annotator,
@@ -1048,7 +1025,7 @@
                   used with some caution, as its editorial procedures do not take sufficient account
                   of the novels&#8217; social origin. The general editor states that the EEWN aims
                   to produce an &#8220;ideal text&#8221; of the novels&#8217; first editions (Hewitt
-                     xv),<note n="25" place="foot" resp="editors">The general introduction including
+                     xv),<note place="foot" resp="editors">The general introduction including
                      this statement appears in every volume of the edition published before 1999,
                      and in an expanded and somewhat modified form after.</note> rectifying errors
                   that were the result of haste and pressure in the production process. As we have
@@ -1100,7 +1077,7 @@
                   coherence for which there is every evidence Scott cared very little.</p>
                <p>3) Most egregious is the case of <title level="m">The Bride of Lammermoor</title>.
                   The dating of this novel&#8217;s action has long been a matter of dispute;<note
-                     n="26" place="foot" resp="editors">A full discussion of the topic appears in
+                      place="foot" resp="editors">A full discussion of the topic appears in
                      Millgate <title level="m">Walter Scott: The Making of the Novelist</title>
                      171-73.</note> in every edition Scott published there are indications that
                   point to dates in the eighteenth century both before and after the crucial year of
@@ -1137,8 +1114,8 @@
                   discussion of <title level="m">The Antiquary</title> in the context of
                   Scott&#8217;s own antiquarian collections and of the construction of the
                   &#8220;new/old&#8221; structure of Abbotsford.</p>
-            </div>
-            <div type="citations">
+            
+            <div type="citation">
                <head>Works Cited</head>
                <listBibl>
                   
@@ -1149,7 +1126,7 @@
                         <title level="m">The Bride of Lammermoor</title>
                         <title level="s">The Edinburgh Edition of the Waverley Novels. </title>
                         <imprint>
-                           <biblScope type="vol">Vol 7a</biblScope>
+                           <biblScope>vol 7a</biblScope>
                            <pubPlace>Edinburgh and New York</pubPlace>
                            
                            <publisher>Edinburgh University Press and Columbia University Press</publisher>
@@ -1191,7 +1168,7 @@
                            <pubPlace>Cambridge</pubPlace>
                            <publisher>Cambridge University Press</publisher>
                            <date>1944</date>
-                           <biblScope type="vol">2 vols</biblScope>
+                           <biblScope>2 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1204,7 +1181,7 @@
                            <pubPlace>Edinburgh</pubPlace>
                            <publisher>Edmonston &amp; Douglas</publisher>
                            <date>1873</date>
-                           <biblScope type="vol">3 vols</biblScope>
+                           <biblScope>3 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1217,7 +1194,7 @@
                            <pubPlace>London</pubPlace>
                            <publisher>C. Rivington</publisher>
                            <date>1732</date>
-                           <biblScope type="vol">2 vols</biblScope>
+                           <biblScope>2 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1290,10 +1267,10 @@
                      <monogr>
                         <title level="j">European Romantic Review</title>
                         <imprint>
-                           <biblScope type="vol">13</biblScope>
-                           <biblScope type="no">3</biblScope>
+                           <biblScope>vol. 13</biblScope>
+                           <biblScope>no. 3</biblScope>
                            <date>2002</date>
-                           <biblScope type="pp">273-83</biblScope>
+                           <biblScope>pp. 273-83</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1329,9 +1306,9 @@
                      <monogr>
                         <title level="j">Representations</title>
                         <imprint>
-                           <biblScope type="vol">82</biblScope>
+                           <biblScope>vol. 82</biblScope>
                            <date>2003</date>
-                           <biblScope type="pp">52-86</biblScope>
+                           <biblScope>pp. 52-86</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1359,7 +1336,7 @@
                            <publisher>Edinburgh University Press</publisher>
                            <publisher>Columbia University Press</publisher>
                            <date>1993</date>
-                           <biblScope type="vol">Vol 3</biblScope>
+                           <biblScope>vol 3</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1399,7 +1376,7 @@
                            <pubPlace>New York</pubPlace>
                            <publisher>Norton</publisher>
                            <date>1992</date>
-                           <biblScope type="vol">Vol 7</biblScope>
+                           <biblScope>vol 7</biblScope>
                         </imprint>
                      </monogr>
                      <series><title level="s">The Seminar of Jacques Lacan</title></series>
@@ -1438,10 +1415,10 @@
                      <monogr>
                         <title level="j">SiR</title>
                         <imprint>
-                           <biblScope type="vol">40</biblScope>
-                           <biblScope type="no">2</biblScope>
+                           <biblScope>vol. 40</biblScope>
+                           <biblScope>no. 2</biblScope>
                            <date>2001</date>
-                           <biblScope type="pp">233-51</biblScope>
+                           <biblScope>pp. 233-51</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1466,10 +1443,10 @@
                      <monogr>
                         <title level="j">ELH</title>
                         <imprint>
-                           <biblScope type="vol">68</biblScope>
-                           <biblScope type="no">2</biblScope>
+                           <biblScope>vol. 68</biblScope>
+                           <biblScope>no. 2</biblScope>
                            <date>2001</date>
-                           <biblScope type="pp">419-68</biblScope>
+                           <biblScope>pp. 419-68</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1555,7 +1532,7 @@
                            <pubPlace>Philadelphia</pubPlace>
                            <publisher>Carey &amp; Hart</publisher>
                            <date>1841</date>
-                           <biblScope type="vol">3 vols</biblScope>
+                           <biblScope>3 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1568,7 +1545,7 @@
                            <pubPlace>Oxford</pubPlace>
                            <publisher>Clarendon Press</publisher>
                            <date>1972</date>
-                           <biblScope type="vol">12 vols</biblScope>
+                           <biblScope>12 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1593,7 +1570,7 @@
                            <pubPlace>Chicago</pubPlace>
                            <publisher>University of Chicago Press</publisher>
                            <date>1976</date>
-                           <biblScope type="vol">2 vols</biblScope>
+                           <biblScope>2 vols</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1640,10 +1617,10 @@
                      <monogr>
                         <title level="j">ELH</title>
                         <imprint>
-                           <biblScope type="vol">54</biblScope>
-                           <biblScope type="no">1</biblScope>
+                           <biblScope>vol. 54</biblScope>
+                           <biblScope>no. 1</biblScope>
                            <date>1987</date>
-                           <biblScope type="pp">97-127</biblScope>
+                           <biblScope>pp. 97-127</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1660,7 +1637,7 @@
                            <publisher>Edinburgh University Press</publisher>
                            <publisher>Columbia University Press</publisher>
                            <date>1995</date>
-                           <biblScope type="vol">Vol 16</biblScope>
+                           <biblScope>vol 16</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -1689,6 +1666,7 @@
                      </monogr>
                   </biblStruct>
                </listBibl>
+            </div>
             </div>
          </div>
       </body>
