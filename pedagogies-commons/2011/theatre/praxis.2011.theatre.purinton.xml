@@ -1,41 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
+		
 		<fileDesc>
+			
 			<titleStmt>
-				<title type="main">Teaching British Romantic Drama: </title>
-				<title type="subordinate">A Senior Seminar in Studies in Drama</title>
-				<author>
+				<!--  The reading texts should all be encoded as level="m"  -->
+				<title level="a">Teaching British Romantic Drama: A Senior Seminar in Studies in Drama</title>
+				
+				
+				<author role="primary">
 					<name>Marjean D. Purinton</name>
 				</author>
-				<editor role='editor'>
-					<name>Thomas Crochunis</name>
-				</editor>
+				
 				<sponsor>Romantic Circles</sponsor>
+				
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Neil Fraistat</name>
+					<resp>TEI Encoding</resp>
+					<name>EXTERNAL CODER</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Praxis Editor</resp>
+					<name>Orrin N.C. Wang</name>
 				</respStmt>
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Steven E. Jones</name>
+					<resp>Assistant Editor</resp>
+					<name>Jessica Tebo</name>
 				</respStmt>
 				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-				<respStmt>
-					<resp>Pedagogies Editor</resp>
-					<name>Kate Singer</name>
+					<resp>Assistant Editor</resp>
+					<name>Anna Paige Wingfield</name>
 				</respStmt>
 			</titleStmt>
+			
+			<editionStmt>
+				<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+				<edition>YYYY-MM-DD</edition>
+			</editionStmt>
+			
 			<publicationStmt>
-				<idno>commons4.2011.purinton</idno>
-				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-					Maryland</publisher>
-				<pubPlace>College Park, MD</pubPlace>
-				<date when="2011-02-23">February 23, 2011</date>
-				<availability status="restricted">
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					Boulder</publisher>
+				<pubPlace>Boulder, CO</pubPlace>
+				<availability status="free">
 					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
 						or disseminated in any manner without authorization unless it is for
 						purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -44,16 +56,15 @@
 						are copyrighted by the author/editor and may be shared only in accordance
 						with the Fair Use provisions of U.S. copyright law. Except as expressly
 						permitted by this statement, redistribution or republication in any medium
-						requires express prior written consent from the author/editors and advance
-						notification of Romantic Circles. Any requests for authorization should be
-						forwarded to Romantic Circles:&gt;
-						<address>
+						requires express prior written consent from the author(s)/ editor(s) and
+						advance notification of Romantic Circles. Any requests for authorization
+						should be forwarded to Romantic Circles: <address>
 							<addrLine>Romantic Circles</addrLine>
-							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>c/o Professor Thora Brylowe</addrLine>
 							<addrLine>Department of English</addrLine>
-							<addrLine>University of Maryland</addrLine>
-							<addrLine>College Park, MD 20742</addrLine>
-							<addrLine>fraistat@umd.edu</addrLine>
+							<addrLine>University of Colorado Boulder</addrLine>
+							<addrLine>Boulder, CO 80309</addrLine>
+							<addrLine>thora.brylowe@colorado.edu</addrLine>
 						</address></p>
 					<p>By their use of these texts and images, users agree to the following
 						conditions: <list>
@@ -71,45 +82,65 @@
 						a link to the copies at Romantic Circles, subject to our conditions of
 						use.</p>
 				</availability>
+				<!-- Be sure that the name below matches the file name-->
+				<idno type="edition"
+					>praxis.2011.theatre.purinton</idno>
+				<idno type="resource"
+					>theatre</idno>
 			</publicationStmt>
+			
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title level="a" type="main">Teaching British Romantic Drama: </title>
-						<title level="a" type="subordinate">A Senior Seminar in Studies in
-							Drama</title>
-						<author>
+						<!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+						<title level="a" type="main">Teaching British Romantic Drama: A Senior Seminar in Studies in Drama</title>
+						
+						<author role="secondary">
 							<persName>
 								<forename>Marjean D.</forename>
 								<surname>Purinton</surname>
 							</persName>
 						</author>
+						<!-- Referenece the above <idno> tag but only change the final part-->
+						<ptr
+							target="praxis/theatre/praxis.2011.theatre.purinton"/>
+						<!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
 					</analytic>
+					
+					
 					<monogr>
-						<title level="m">Teaching Romantic Drama: </title>
-						<title level="j">A Romantic Circles Pedagogies Commons Volume</title>
+						<title level="m"
+							>Teaching Romantic Drama</title>
+						<title level="s">Praxis</title>
+						
 						<imprint>
-							<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-								Maryland</publisher>
-							<pubPlace>College Park, MD</pubPlace>
-							<date when="2011-02-23">February 23, 2011</date>
-							<biblScope type="vol">4</biblScope>
+							<publisher> Romantic Circles, https://romantic-circles.org, University
+								of Colorado Boulder</publisher>
+							<pubPlace>Boulder, CO</pubPlace>
+							<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+							<date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
 						</imprint>
 					</monogr>
+					
+					
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
+		
 		<encodingDesc>
 			<editorialDecl>
 				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
+					<p>All quotation marks and apostrophes have been changed: " to &#8220; or
+						&#8221;, and ' to &#8216; and &#8217;.</p>
 				</quotation>
 				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Any dashes occurring in line breaks have been removed except in the case of
+						diplomatic transcriptions.</p>
 					<p>Because of web browser variability, all hyphens have been typed on the U.S.
 						keyboard</p>
-					<p>Em-dashes have been rendered as #8212</p>
+					<p>Em dashes have been rendered as &#8212;</p>
+					<p>En dashes have been rendered as &#8211;</p>
 				</hyphenation>
 				<normalization method="markup">
 					<p>Spelling has not been regularized.</p>
@@ -118,11 +149,12 @@
 				</normalization>
 				<normalization>
 					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
+					<p>&#35; has been used for #, the pound sign</p>
 					<p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
 				</normalization>
 			</editorialDecl>
+			
 			<tagsDecl>
 				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
 				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -142,138 +174,68 @@
 				<rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
 				<rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
 				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
 				<rendition xml:id="figure" scheme="css">text-align: center; font-size:
-					10pt;</rendition>
+					12pt;</rendition>
+				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
 			</tagsDecl>
+			
 			<classDecl>
 				<taxonomy
-					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-					xml:id="genre">
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+					xml:id="g">
 					<bibl>NINES categories for Genre and Material Form at
-						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-						on 2009-02-26</bibl>
-					<category xml:id="g1">
-						<catDesc>Architecture</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Artifacts</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Letters</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Politics</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Folklore</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>History</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Leisure</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Humor</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Education</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Music</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>nonfiction</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Perodical</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Philosphy</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Family Life</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Visual Art</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Travel</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Book History</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Law</catDesc>
-					</category>
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+						20014-02-27</bibl>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="dcType">
+					<bibl>NINES categories for document type at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+					xml:id="d">
+					<bibl>NINES categories for discplines at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+						2014-02-27</bibl>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
+		
+		<profileDesc>
+			<textClass>
+				<catRef scheme="#genre" target="#Paratext"/>
+				<catRef scheme="#dcType" target="#Typescript"/>
+				<catRef scheme="#discipline" target="#Literature"/>
+				<!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+				<keywords scheme="http://www.romantic-circles.org/#tags">
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		
 		<revisionDesc>
 			<change>
-				<name>Dave Rettenmaier</name>
-				<date>2010-06-01</date>
+				<!--  Coder Name and Date Coded  -->
+				<name><!-- coder --></name>
 				<list>
-					<item>TEI encoding the issue</item>
-				</list>
-			</change>
-			<change>
-				<name>Thomas Crochunis</name>
-				<date>2009-11-01T15:01:00</date>
-				<list>
-					<item>Proofed issue in Open Office Format</item>
+					<item>TEI encoding the text</item>
 				</list>
 			</change>
 		</revisionDesc>
 	</teiHeader>
+	<!--END OF HEADER-->
+	<!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
 	<text>
 		<body>
 
@@ -288,38 +250,35 @@
 				</byline>
 
 
-				<div type="section" n="1">
+				<div type="section" >
 					<head>Background</head>
 					<p> During the spring 2006 semester, I taught a senior-level course in British
 						Romantic Drama for English majors, a course that satisfied for them a genre
 						upper-division requirement. My first-day assessments of my students revealed
 						that several had taken an introductory course in drama, and some had taken a
-						junior-level course in <name ref="ShakespeareWilliam">Shakespeare</name>,
+						junior-level course in Shakespeare,
 						but no one enrolled in the course had pursued a course in the Romantic
 						period. This course was, therefore, the students’ only contact with the
 						Romantic period as well as a course involving the reading, discussing,
 						writing, and performing of drama from the 1780s to the 1830s. </p>
 					<p> During the spring 2005, when I was teaching the senior capstone course in
-						English, I included <name ref="BaillieJoanna">Joanna Baillie</name>’s 1798
+						English, I included Joanna Baillie’s 1798
 							<title level="m">Plays on the Passions</title> (<title level="m">Count
 							Basil, The Tryal, and De Monfort</title>) in a culminating activity I
-						termed “The <name ref="BaillieJoanna">Baillie</name> Project,” and during
-						the fall 2006 semester, I included <name ref="BaillieJoanna"
-						>Baillie</name>’s <title level="m">Count Basil</title> in a sequence of
+						termed “The Baillie Project,” and during
+						the fall 2006 semester, I included Baillie’s <title level="m">Count Basil</title> in a sequence of
 						plays for an Honors College course entitled Introduction to Drama:
 						Tragically Monstrous, a course that is offered as a First-Year Experience
 						requirement for incoming Honors College students. The first-year students
 						read <title level="m">Count Basil</title> in tandem with Euripedes’ <title
-							level="m">Medea</title> and <name ref="ShakespeareWilliam"
-							>Shakespeare</name>’s <title level="m">Othello</title>. When I teach the
+							level="m">Medea</title> and Shakespeare’s <title level="m">Othello</title>. When I teach the
 						junior-level course in the British Romantic period, I routinely include two
 						or three dramas, including <title level="m">Count Basil</title> and Thomas
 						Bellamy’s 1789 <title level="m">The Benevolent Planters</title> (both are
 						anthologized in Mellor and Matlak’s <title level="m">British Literature
 							1780-1830</title>). And when I teach the graduate-level course in
-						British Romantic literature, I add <name ref="ShelleyPercyBysshe">P. B.
-							Shelley</name>’s 1819 <title level="m">The Cenci</title> and <name
-							ref="ByronGeorgeGordonByronBaron">Lord Byron</name>’s 1822 <title
+						British Romantic literature, I add P. B.
+							Shelley’s 1819 <title level="m">The Cenci</title> and Lord Byron’s 1822 <title
 							level="m">Manfred</title> to the two plays from the undergraduate
 						course. My point is that while I had integrated Romantic drama into other
 						courses I had taught, I had never taught an entire course devoted to
@@ -332,7 +291,7 @@
 				</div>
 
 
-				<div type="section" n="2">
+				<div type="section" >
 					<head>Course Description</head>
 					<p> To help students identify what a course entitled Senior Seminar in Studies
 						in Drama: British Romantic Drama was about, I supplied the following
@@ -366,20 +325,19 @@
 						playwriting was particularly problematic for women. We will situate Romantic
 						drama in the history of theatre. </p>
 				</div>
-				<div type="section" n="3">
+				<div type="section" >
 					<head>Textbooks</head>
 					<list>
-						<item><name ref="BaillieJoanna">Baillie</name>, Joanna. <title level="m"
+						<item>Baillie, Joanna. <title level="m"
 								>Plays on the Passions</title>. 1798. Ed. Peter Duthie.
 							Peterborough, ON: Broadview, 2001. ISBN: 1-55111-185-3</item>
-						<item><name ref="CoxJeffreyN">Cox</name>, Jeffrey N., and <name
-								ref="GamerMichael">Michael Gamer</name>, eds. <title level="m">The
+						<item>Cox, Jeffrey N., and Michael Gamer, eds. <title level="m">The
 								Broadview Anthology of Romantic Drama</title>. Peterborough, ON:
 							Broadview, 2003. ISBN: 1-55111-298-1</item>
 					</list>
 				</div>
 
-				<div type="section" n="4">
+				<div type="section" >
 					<head>Teaching Philosophy</head>
 					<p rend="noCount"> I ask students to come to this seminar prepared to engage in
 						interactive learning, to be willing to explore all dimensions of Romantic
@@ -396,7 +354,7 @@
 						own interests and lines of inquiry involving the drama, and my writing and
 						discussion prompts are directive but open-ended. </p>
 				</div>
-				<div type="section" n="5">
+				<div type="section" >
 					<head>Learning Outcomes</head>
 					<p rend="noCount">If you successfully complete this course, you should be able </p>
 					<list type="unordered">
@@ -413,7 +371,7 @@
 							about it have contributed to our understanding of Romanticism.</item>
 					</list>
 				</div>
-				<div type="section" n="6">
+				<div type="section" >
 					<head>Learning Outcomes Assessments</head>
 					<ab>If you successfully complete this course, you should be able to demonstrate
 						the above learning outcomes by</ab>
@@ -433,7 +391,7 @@
 						</item>
 					</list>
 				</div>
-				<div type="section" n="7">
+				<div type="section">
 					<head>Other Course Objectives</head>
 					<list type="unordered">
 						<item>To consider the ways in which Romantic drama has affected the field of
@@ -453,7 +411,7 @@
 						</item>
 					</list>
 				</div>
-				<div type="section" n="8">
+				<div type="section">
 					<head>Course Policies</head>
 					<list type="unordered">
 						<item>Come to class ready to share and to learn. Read assignments and bring
@@ -479,7 +437,7 @@
 						</item>
 					</list>
 				</div>
-				<div type="section" n="9">
+				<div type="section" >
 					<head>Learning Environment</head>
 					<list type="unordered">
 						<item>This is a discussion/participation seminar. Everyone should feel free
@@ -508,7 +466,7 @@
 							this seminar hopes to engender. </item>
 					</list>
 				</div>
-				<div type="section" n="10">
+				<div type="section">
 					<head>Course Requirements and Grade Determination</head>
 					<list type="unordered">
 						<item>3 Response Papers (3-5 pages each) = 300 points (100 points
@@ -522,7 +480,7 @@
 					</list>
 				</div>
 
-				<div type="section" n="11">
+				<div type="section">
 					<head>Tentative Assignments Schedule</head>
 					<table>
 						<row>
@@ -555,20 +513,18 @@
 						</row>
 					</table>
 				</div>
-				<div type="section" n="12">
+				<div type="section">
 					<head>Tentative Reading Schedule</head>
 					<table cols="2">
 						<row>
 							<cell width="300">Thursday, January 12</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. vii-xxxiv and 325-329 <lb/>
+							<cell width="400">Cox &amp; Gamer, pp. vii-xxxiv and 325-329 <lb/>
 								<title level="m">A Bold Stroke for a Husband</title> (C&amp;G
 								1-38)</cell>
 						</row>
 						<row>
 							<cell width="300">Tuesday, January 17</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 311-317</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 311-317</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, January 19</cell>
@@ -577,8 +533,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, January 24</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 318-325</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 318-325</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, January 26</cell>
@@ -596,8 +551,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, February 7</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 380-383</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 380-383</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, February 9</cell>
@@ -613,8 +567,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, February 21</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 370-378</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 370-378</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, February 23</cell>
@@ -623,8 +576,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, February 28</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 389-392</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 389-392</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, March 2</cell>
@@ -649,8 +601,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, March 21</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 393-398</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 393-398</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, March 23</cell>
@@ -684,8 +635,7 @@
 						</row>
 						<row>
 							<cell width="300">Tuesday, April 18</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 398-392</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 398-392</cell>
 						</row>
 						<row>
 							<cell width="300">Thursday, April 20</cell>
@@ -699,8 +649,7 @@
 						</row>
 						<row>
 							<cell width="300">Thursday, April 27</cell>
-							<cell width="400"><name ref="CoxJeffreyN">Cox</name> &amp; <name
-									ref="GamerMichael">Gamer</name>, pp. 329-351</cell>
+							<cell width="400">Cox &amp; Gamer, pp. 329-351</cell>
 						</row>
 						<row>
 							<cell width="300">Tuesday, May 2</cell>
@@ -708,7 +657,7 @@
 						</row>
 					</table>
 				</div>
-				<div type="section" n="13">
+				<div type="section">
 					<head>Descriptions of Assignments</head>
 					<ab>
 						<emph>Response Papers</emph>
@@ -727,7 +676,7 @@
 					<lb/>
 				</div>
 
-				<div type="section" n="14">
+				<div type="section">
 					<head>Discovery Activities</head>
 
 					<ab>
@@ -776,7 +725,7 @@
 					<list type="unordered">
 						<item>Studies in Romanticism</item>
 						<item>Nineteenth-Century Contexts</item>
-						<item>The <name ref="WordsworthWilliam">Wordsworth</name> Circle</item>
+						<item>The Wordsworth Circle</item>
 						<item>Romanticism</item>
 						<item>Women’s Writing</item>
 						<item>The Keats-Shelley Journal</item>
@@ -940,7 +889,7 @@
 							>www.lib.ttu.edu/reference.style.htm</ref>
 					</ab>
 				</div>
-				<div type="section" n="15">
+				<div type="section">
 					<head>Attendance/Participation/Performance</head>
 					<ab> Come to each seminar prepared to participate in your own learning process.
 						Read the assigned plays and reviews. Bring questions to share and to
@@ -976,7 +925,7 @@
 				</div>
 
 
-				<div type="section" n="16">
+				<div type="section">
 					<head>Discussion of Course Sequence and Pedagogical Strategies</head>
 					<ab>
 						<emph>Course Sequence</emph>
@@ -984,56 +933,49 @@
 					<p> The selection and sequencing of the dramas for the course reflects
 						quasi-chronological progression, quasi-generic groupings, and thematic
 						clustering so that plays can be read dialogically.<note place="foot"
-							resp="editors" n="1">For another syllabus and discussion of teaching
-							British Romantic drama by women, see <name ref="BurroughsCatherineB"
-								>Catherine Burroughs</name>, “Teaching the Theory and Practice of
+							resp="editors" >For another syllabus and discussion of teaching
+							British Romantic drama by women, see ]Catherine Burroughs, “Teaching the Theory and Practice of
 							Women’s Dramaturgy,” <title level="j">Romanticism on the Net</title> 12
 							(November 1998) [22 February 2010]
 							http://www.erudit.org/revue/ron/1998/v/n12/005823ar.html</note> One
-						reason for my including so much drama by <name ref="BaillieJoanna">Joanna
-							Baillie</name> is that about one third of my students needed to satisfy
+						reason for my including so much drama by Joanna
+							Baillie is that about one third of my students needed to satisfy
 						a major requirement for a single author, and so they were able to do so by
-						taking this course that highlighted <name ref="BaillieJoanna">Baillie</name>
+						taking this course that highlighted Baillie
 						as its major playwright. I tried to include representative plays by male and
 						female playwrights, but we began with three late eighteenth-century comedies
-						by women: <name ref="CowleyHannah">Hannah Cowley</name>’s <title level="m">A
-							Bold Stroke for a Husband</title> (1783), <name ref="InchbaldMrs"
-							>Elizabeth Inchbald</name>’s <title level="m">Everyone Has His
-							Fault</title> (1793), and <name ref="BaillieJoanna">Joanna
-							Baillie</name>’s <title level="m">The Tryal</title> (1798). These
+						by women: Hannah Cowley’s <title level="m">A
+							Bold Stroke for a Husband</title> (1783), Elizabeth Inchbald’s <title level="m">Everyone Has His
+							Fault</title> (1793), and Joanna
+							Baillie’s <title level="m">The Tryal</title> (1798). These
 						comedies opened onto discussions of Georgian courtship and marriage customs
 						that cast men and women in stereotypical relationships that favored men. We
-						discovered how <name ref="CowleyHannah">Cowley</name> displaces British
-						manner and customs onto Madrid, and, like <name ref="BaillieJoanna"
-							>Baillie</name>, relies on disguise and cross-dressing to suggest
-						gender-bending in which women gain control over their lives. <name
-							ref="InchbaldMrs">Inchbald</name>’s comedy, we agreed, brings the legal
+						discovered how Cowley displaces British
+						manner and customs onto Madrid, and, like Baillie, relies on disguise and cross-dressing to suggest
+						gender-bending in which women gain control over their lives. Inchbald’s comedy, we agreed, brings the legal
 						issues of divorce, custody, adoption, bankruptcy, and robbery into the
 						contexts of women’s rights and gender stereotypes. While <title level="m">A
 							Bold Stroke for a Husband</title> is also a play that stages ambivalent,
 						gender-bending heroines, we looked at how gender was even more complicated
 						in performances featuring Mary Robinson as Victoria. All three plays show
 						the centrality of marriage for women of Georgian Britain. All three comedies
-						also push generic bounds. <name ref="CowleyHannah">Cowley</name> deploys
+						also push generic bounds. Cowley deploys
 						conventions of Spanish intrigue and recycles the motifs of the comedy of
-							manners.<note place="foot" resp="editors" n="2">See my essay “On
+							manners.<note place="foot" resp="editors">See my essay “On
 							Teaching <title level="m">A Bold Stroke for a Husband</title> and Other
 							Comedies by Romantic Women Playwrights,” <title level="j">European
 								Romantic Review</title> 17.3 (July 2006): 351-60, for an extended
-							discussion of teaching <name ref="CowleyHannah">Hannah Cowley</name>’s
+							discussion of teaching Hannah Cowley’s
 							comedy.</note>
-						<name ref="InchbaldMrs">Inchbald</name>’s play resonates with pathos of
-						character and novel-like structure. <name ref="BaillieJoanna"
-						>Baillie</name>’s comedy revolves around subplots of play-making; Marianne
+						Inchbald’s play resonates with pathos of
+						character and novel-like structure. Baillie’s comedy revolves around subplots of play-making; Marianne
 						and Agnes are themselves playwrights in this metadramatic comedy. Because
 						these comedies are critical of the culture’s dominant practices, the
 						students find them fun, but they help to draw students into Romantic period
 						culture as well as into the playwrights’ resistance to its dominant
 						ideologies.</p>
-					<p> We next turned to tragedies, beginning the next cluster of plays with <name
-							ref="BaillieJoanna">Baillie</name>’s <title level="m">De Monfort</title>
-						(1798), <title level="m">Orra</title> (1812), and <name
-							ref="ColeridgeSamuelTaylor">Samuel Taylor Coleridge</name>’s <title
+					<p> We next turned to tragedies, beginning the next cluster of plays with Baillie’s <title level="m">De Monfort</title>
+						(1798), <title level="m">Orra</title> (1812), and Samuel Taylor Coleridge’s <title
 							level="m">Remorse</title> (1813)—three plays that address sensibilities
 						of the early nineteenth-century, including the Gothic. In <title level="m"
 							>De Monfort</title>, we continued our exploration of gender-bending
@@ -1041,14 +983,11 @@
 						play holds up a tragic hero for emulation or admiration, whether it hints at
 						homoerotic or incestuous relationships, and whether it presents the tragic
 						consequences of immoderate passions, especially hatred.<note place="foot"
-							resp="editors" n="3">For a discussion of the teaching of <name
-								ref="BaillieJoanna">Joanna Baillie</name>’s dramas, see my essay,
-							“Pedagogy and Passions: Teaching <name ref="BaillieJoanna">Joanna
-								Baillie</name>’s Dramas,” in <title level="m">Joanna Baillie,
-								Romantic Dramatist: Critical Essays</title>, ed. <name
-								ref="CrochunisThomasC">Thomas Crochunis</name> (New York: Routledge,
-							2004), 315-47.</note> We learned how <name ref="BaillieJoanna"
-							>Baillie</name> stages the Gothic, more fully developed, in the
+							resp="editors">For a discussion of the teaching of Joanna Baillie’s dramas, see my essay,
+							“Pedagogy and Passions: Teaching Joanna
+								Baillie’s Dramas,” in <title level="m">Joanna Baillie,
+								Romantic Dramatist: Critical Essays</title>, ed. Thomas Crochunis (New York: Routledge,
+							2004), 315-47.</note> We learned how Baillie stages the Gothic, more fully developed, in the
 						kidnapping and brainwashing of the tragic heroine in <title level="m"
 							>Orra</title>. Like the other plays we had read, <title level="m"
 							>Orra</title> puts marriage center stage, as well as the heroine’s
@@ -1058,10 +997,8 @@
 						limited critical ability to discern reality from fiction. Similarly, <title
 							level="m">Remorse</title>, we agreed, explores gender-bending and
 						mistaken identities so as to expose the fallacies and inconsistencies in
-						social orders that are shaped by misogyny. While <name ref="BaillieJoanna"
-							>Baillie</name>’s tragedies explore the crises for female identity and
-						expose the subjection of femininity within patriarchal structures, <name
-							ref="ColeridgeSamuelTaylor">Coleridge</name>’s tragedy brings early
+						social orders that are shaped by misogyny. While Baillie’s tragedies explore the crises for female identity and
+						expose the subjection of femininity within patriarchal structures, Coleridge’s tragedy brings early
 						nineteenth-century constructions of masculinity under scrutiny. All three
 						plays can be read through postmodern lenses as historically specific—both in
 						terms of their medieval settings and their Romantic-era contexts of
@@ -1069,11 +1006,10 @@
 						performance, furthermore, expose the artificiality and even the fluidity of
 						gender roles and gendered behaviors at the very time when codifications of
 						those roles were being scripted off-stage as well as on-stage. </p>
-					<p> The next grouping of tragedies—<name ref="ShelleyPercyBysshe">P. B.
-							Shelley</name>’s <title level="m">The Cenci</title> (1816), <name
-							ref="BaillieJoanna">Baillie</name>’s <title level="m">Count
-							Basil</title> (1798), and <name ref="ByronGeorgeGordonByronBaron">Lord
-							Byron</name>’s <title level="m">Sardanapalus</title> (1821)—took us into
+					<p> The next grouping of tragedies—P. B.
+							Shelley’s <title level="m">The Cenci</title> (1816), Baillie’s <title level="m">Count
+							Basil</title> (1798), and Lord
+							Byron’s <title level="m">Sardanapalus</title> (1821)—took us into
 						deeper and darker spaces of Romantic thought by way of historically based
 						incidents and characters. All three of these plays involve despotic rulers
 						of corrupt governments, but they similarly feature stories of dysfunctional
@@ -1090,8 +1026,8 @@
 						and the pathology of madness. <title level="m">Count Basil</title> exposes
 						the folly of excessive passions, coded masculine or feminine, and the
 						segregated and gendered spaces that impede an individual’s healthy
-						participation in the public sphere. <name ref="ShelleyPercyBysshe">P. B.
-							Shelley</name>’s tragedy presents us also with the problem of morality
+						participation in the public sphere. P. B.
+							Shelley’s tragedy presents us also with the problem of morality
 						sanctioned by state and religion. <title level="m">Sardanapalus</title> adds
 						layers of colonialism and orientalism to its questioning of gendered agency
 						and effective leadership. All three tragedies hint at Romantic
@@ -1112,8 +1048,8 @@
 						we talked about why Romantic theatergoers would find these characters so
 						interesting and engaging. </p>
 					<p> To supplement each clustering of dramas, we read, as the schedule above
-						indicates, the performance reviews that <name ref="CoxJeffreyN">Cox</name>
-						and <name ref="GamerMichael">Gamer</name> have included in the Broadview
+						indicates, the performance reviews that Cox
+						and Gamer have included in the Broadview
 						anthology and that Duthie has included in his edition of <title level="m"
 							>Plays on the Passions</title> and that are relevant to the play we are
 						discussing. The creative discovery activity enables students to work closely
@@ -1122,8 +1058,8 @@
 						additional performance information and reviews from online and traditional
 						scholarly sources in the preparation of their assignment. They may also look
 						at reviews of contemporary stagings of Romantic plays.<note place="foot"
-							resp="editors" n="4">See, for example, <name ref="CoxJeffreyN">Jeffrey
-								N. Cox</name>, “Theatrical Forms, Ideological Conflicts, and the
+							resp="editors">See, for example, Jeffrey
+								N. Cox, “Theatrical Forms, Ideological Conflicts, and the
 							Staging of <title level="m">Obi</title>,” <title level="j">Romantic
 								Circles Praxis Series</title>, ed. Charles Rzepka (February 4,
 							2005), [March 24, 2006] <ptr
@@ -1134,15 +1070,14 @@
 								target="http://www.rc.umd.edu/praxis/obi/hogle/hogle.html"/></note>
 					</p>
 				</div>
-				<div type="section" n="17">
+				<div type="section">
 					<head>Pedagogical Strategies</head>
 					<p> As the syllabus indicates, our class frequently read parts aloud (often in
 						character) to get a feel for the language and the performance aspects of the
 						play. For example, </p>
 					<list type="unordered">
 						<item>From <title level="m">A Bold Stroke for a Husband</title>, we read
-							aloud act 2, scene 2 (pp. 12-15 from the <name ref="CoxJeffreyN"
-								>Cox</name> and <name ref="GamerMichael">Gamer</name> edition) and
+							aloud act 2, scene 2 (pp. 12-15 from the Cox and Gamer edition) and
 							act 4, scene 1 (pp. 25-27) </item>
 						<item>From <title level="m">Everyone Has His Fault</title>, we read aloud
 							act 2, scene 1 (pp. 46-54) and act 3, scene 1 (pp. 55-57) </item>
@@ -1157,7 +1092,7 @@
 						paper cardboard masks that can be easily distributed and worn from such
 						sources as <title level="m">Madame Tussaud’s Book of Victorian Masks,
 							Venetian Masks</title>, and <title level="m">Famous Figures Historical
-							Masks</title>.<note place="foot" resp="editors" n="5">Lionel Lambourne,
+							Masks</title>.<note place="foot" resp="editors">Lionel Lambourne,
 								<title level="m">Madame Tussaud’s Book of Victorian Masks</title>
 							(New York: E.P. Dutton, 1987).</note> Occasionally, students make their
 						own masks for the parts they are reading. </p>
@@ -1165,13 +1100,10 @@
 						supplement our readings and discussions of these plays. When students
 						entered the classroom on the first day of class, they were greeted by the
 						sounds of the CD <emph>Playhouse Aires: 18<hi rendition="#sup"
-							>th</hi>-Century English Theatre Music</emph>, performed by The <name
-							ref="London">London</name> Oboe Band to set the stage for the
-						Introductory reading in the <name ref="CoxJeffreyN">Cox</name> and <name
-							ref="GamerMichael">Gamer</name> Broadview anthology.<note place="foot"
-							resp="editors" n="6"><emph>Playhouse Aires: 18<hi rendition="#sup"
-									>th</hi>-Century English Theatre Music</emph>, The <name
-								ref="London">London</name> Oboe Band, lead by Paul Goodwin (France:
+							>th</hi>-Century English Theatre Music</emph>, performed by The London Oboe Band to set the stage for the
+						Introductory reading in the Cox and Gamer Broadview anthology.<note place="foot"
+							resp="editors"><emph>Playhouse Aires: 18<hi rendition="#sup"
+									>th</hi>-Century English Theatre Music</emph>, The London Oboe Band, lead by Paul Goodwin (France:
 							Harmonia Mundi, 1996).</note> With <title level="m">A Bold Stroke for a
 							Husband,</title> I played excerpts from the CD <title level="m">A Bold
 							Stroke for a Husband</title>, from the production directed by Frederick
@@ -1179,7 +1111,7 @@
 						have created an invaluable resource, a website entitled “Theatre and Popular
 						Songs, Catches, Airs, and Art Songs of the Romantic Period,” which features
 						CD recordings at nominal cost, thereby making them accessible for
-						pedagogical use.<note place="foot" resp="editors" n="7">See <title level="s"
+						pedagogical use.<note place="foot" resp="editors">See <title level="s"
 								>Romantic-Era Songs: A site Devoted to Theater and Popular Songs,
 								Catches, Airs, and Art Songs of the Romantic Period</title>,
 							maintained by Paul Douglass and Frederick Burwick: <ptr
@@ -1187,8 +1119,7 @@
 							/></note>Two other recordings Burwick and Douglass have made and that
 						are useful for the teaching of British Romantic drama are the recording of a
 						live performance of Thomas Lovell Beddoes’s <title level="m">Death’s
-							Jest-Book: A Grotesque Musical Comedy</title> and <name
-							ref="InchbaldMrs">Inchbald</name>’s <title level="m">Animal
+							Jest-Book: A Grotesque Musical Comedy</title> and Inchbald’s <title level="m">Animal
 							Magnetism</title>. </p>
 					<p>As we moved to the cluster of tragic plays with gothic overtones, I
 						introduced the cluster with a small segment of the video of the Readers’
@@ -1205,10 +1136,7 @@
 							level="m">Count Basil</title> was enriched by two video supplements. In
 						March of 2002, in celebration of Women’s History Month, the Women’s Studies
 						Program and the Theatre Department at Texas Tech University worked together
-						to present a parlour reading of Romantic period dramas by <name
-							ref="HemansFeliciaDorotheaBrowne">Felicia Hemans</name>, <name
-							ref="InchbaldMrs">Elizabeth Inchbald</name>, and <name
-							ref="BaillieJoanna">Joanna Baillie</name>. We held the reading in the
+						to present a parlour reading of Romantic period dramas by Felicia Hemans, Elizabeth Inchbald, and Joanna Baillie. We held the reading in the
 						parlor of a local, private home, and relied on student and faculty volunteer
 						performers, and I served as dramaturg for the production. We videotaped the
 						performance, and thus, I have a segment of <title level="m">Count
@@ -1221,10 +1149,9 @@
 						entire performance of <title level="m">Count Basil</title>. I can also refer
 						students to reviews of that production that were published in <title
 							level="j">European Romantic Review</title>.<note place="foot"
-							resp="editors" n="8">See Reviews of the Horizons Theatre Production of
-								<name ref="BaillieJoanna">Joanna Baillie</name>’s <title level="m"
-								>Count Basil</title>, New York City, August 2003, edited by <name
-								ref="BurroughsCatherineB">Catherine B. Burroughs</name> in <title
+							resp="editors">See Reviews of the Horizons Theatre Production of
+								Joanna Baillie’s <title level="m"
+								>Count Basil</title>, New York City, August 2003, edited by Catherine B. Burroughs in <title
 								level="j">European Romantic Review</title> 15.2 (June 2004):
 							351-85.</note>
 					</p>
@@ -1233,8 +1160,8 @@
 							Tartar,</title> I relied on reproductions of artwork, all of which are
 						easily available online for showing in class or for reproducing as handouts.
 						In particular, we looked at the “Sirani Elisabetta Portrait of Beatrice
-						Cenci” attributed to Guido Reni that <name ref="ShelleyPercyBysshe">P. B.
-							Shelley</name> saw in Palazzo Colonna in 1818. This visual served as a
+						Cenci” attributed to Guido Reni that P. B.
+							Shelley saw in Palazzo Colonna in 1818. This visual served as a
 						starting point for our discussion of the enduring interest in Beatrice
 						Cenci, as demonstrated by the many revisions of her life story in plays,
 						operas, novel, and film. For <title level="m">Sardanapalus</title>, we
@@ -1255,34 +1182,31 @@
 						that these sites bring to students. For my graduate seminar, students work
 						with at least one hypertext found on <title level="m">British Women
 							Playwrights around 1800</title>, or they work with a novel and its
-						dramatic adaptation.<note place="foot" resp="editors" n="9">For a discussion
+						dramatic adaptation.<note place="foot" resp="editors">For a discussion
 							of teaching gothic dramas adapted from gothic novels, see my essay
 							“Teaching the Gothic Novel and Dramatic Adaptations,” in <title
 								level="m">Approaches to Teaching Gothic Fiction: The British and
 								American Traditions</title>, ed. Diane Long Hoeveler and Tamar
 							Heller (New York: Modern Language Association, 2003), 326-42. See also
-							Susan J. Wolfson, “Teaching <name ref="HemansFeliciaDorotheaBrowne"
-								>Hemans</name> with <name ref="ByronGeorgeGordonByronBaron"
-								>Byron</name>,” <title level="j">European Romantic Review</title>
+							Susan J. Wolfson, “Teaching Hemans with Byron,” <title level="j">European Romantic Review</title>
 							17.1 (January 2006): 93-99 and Tricia Lootens, “New Criticism and New
-							Classrooms: Teaching <name ref="HemansFeliciaDorotheaBrowne">Felicia
-								Hemans</name>,” <title level="j">European Romantic Review
+							Classrooms: Teaching Felicia
+								Hemans,” <title level="j">European Romantic Review
 							</title>17.1 (January 2006): 101-109.</note>
 					</p>
 				</div>
 
 
-				<div type="section" n="18">
+				<div type="section">
 					<head>Sample Student Responses</head>
 					<p> In the creative discovery activity #2, one student took the reviewers of
-							<name ref="BaillieJoanna">Joanna Baillie</name>’s <title level="m">Plays
+							Joanna Baillie’s <title level="m">Plays
 							on the Passions</title>, in particular of an 1804 staging of <title
 							level="m">Count Basil</title>, to task. She writes: “…I find Baillie’s
 						endeavors to capture the state of one passion incredibly impressive and
 						thought provoking. The reviewers seemed to have missed some of the points of
-							<name ref="BaillieJoanna">Baillie</name>’s unchecked and exaggerated
-						passions.” A researched critical analysis of <name ref="BaillieJoanna"
-							>Baillie</name>’s <title level="m">Orra</title> explores the
+							Baillie’s unchecked and exaggerated
+						passions.” A researched critical analysis of Baillie’s <title level="m">Orra</title> explores the
 						“patriarchal-taught self-fear” that Orra experiences and its contribution to
 						her madness. The student writes: “This self fear is beneficial to the
 						patriarchal, hierarchal society because it keeps women in their ‘place’ by
@@ -1291,7 +1215,7 @@
 						astutely observes gender dichotomies: “[v]iolence directed at women in
 						Romantic drama serves the masculine standard by placing the dramatic burden
 						firmly on the shoulders of the female characters—both as actor and acted
-						upon.… Clearly, <name ref="BaillieJoanna">Baillie</name> is interested in
+						upon.… Clearly, Baillie is interested in
 						how her contemporaries utilized violence and gender both to control action
 						on stage and, in many ways, to control the making of this action.” </p>
 					<p> For the re-staging of <title level="m">The Cenci</title>, one student
@@ -1304,8 +1228,7 @@
 						father’s murder, she changes to richly colored costumes so that by the
 						height of her madness, she would be donning apparel almost equal to the
 						richness and color of the costuming worn by Cenci.” Another student proposes
-						a contemporary cast for a new film version of <name ref="ShelleyPercyBysshe"
-							>P. B. Shelley</name>’s tragedy: Scarlet Johansen as Beatrice, Michael
+						a contemporary cast for a new film version of P. B. Shelley’s tragedy: Scarlet Johansen as Beatrice, Michael
 						Douglas as Count Cenci, Jessica Lange as Lucretia, and Anthony Hopkins as
 						Cardinal Camillo. As for an interesting stage effect at the end of the play,
 						another student writes: “The Hall of Justice would be a long hallway, with
@@ -1314,8 +1237,7 @@
 						to speak, their chairs roll forward toward the judges, and as they are
 						dismissed, their chairs will roll into a doorway off to the side of the
 						hall.”</p>
-					<p> A response to 1813 reviews of <name ref="ColeridgeSamuelTaylor"
-							>Coleridge</name>’s tragedy <title level="m">Remorse</title> indicates
+					<p> A response to 1813 reviews of Coleridge’s tragedy <title level="m">Remorse</title> indicates
 						how the student better appreciates the importance of the play’s scenery for
 						spectators. He writes: “With these reviews, it was somewhat easier to
 						imagine what key scenes would have looked like, the sorcery scene
@@ -1330,13 +1252,13 @@
 						schools, despite the fact that Teresa finds him attractive. When Alvar
 						returns to the school months later, he has lost weight, wears contacts, and
 						is immediately a hit with the popular crowd.” Another student recommends
-						filming <name ref="ByronGeorgeGordonByronBaron">Byron</name>’s <title
+						filming Byron’s <title
 							level="m">Sardanapalus</title> for the big screen, with a setting in the
 						1940s in Washington, D.C. and involving a congressional scandal with a
 						closeted effeminate male and a press leak, so that the story would be about
 						the fall of democratic leadership rather than the fall of the Assyrian
 						empire. Another student, however, sees contemporary appeal for a movie that
-						retains <name ref="ByronGeorgeGordonByronBaron">Byron</name>’s Near East
+						retains Byron’s Near East
 						setting, particularly given our political interests in the very region that
 						was seen as vital to the emerging commercial economy of early
 						nineteenth-century Britain. A passage from a researched critical analysis of
@@ -1369,14 +1291,13 @@
 						but finds it a surprisingly pleasant and instructional experience: “This
 						class has been an invaluable learning experience for me. I thoroughly
 						enjoyed the curriculum and loved learning about, for me, a new kind of
-						drama. <name ref="BaillieJoanna">Joanna Baillie</name> was my favorite
-						dramatist, and I must confess that I took this course because the <name
-							ref="ShakespeareWilliam">Shakespeare</name> class was full, but I am
+						drama. Joanna Baillie was my favorite
+						dramatist, and I must confess that I took this course because the Shakespeare class was full, but I am
 						very glad that I had this opportunity.” </p>
 				</div>
 
 
-				<div type="section" n="19">
+				<div type="section">
 					<head>Expected Outcomes</head>
 					<p>At the end of the semester, I was able to report to my department chair that
 						students who successfully completed English 4312: Studies in Drama: British

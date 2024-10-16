@@ -1,44 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
+		
 		<fileDesc>
+			
 			<titleStmt>
-				<title type="main">Staging the 18<hi rendition="#sup">th</hi>-Century Prostitute for
-					the 21<hi rend="sup">st</hi>-Century: </title>
-				<title type="subordinate">A Dramaturgical Approach to Teaching <name
-						ref="CowleyHannah">Cowley</name>’s <title level="m">The Belle’s
+				<!--  The reading texts should all be encoded as level="m"  -->
+				<title level="a">Staging the 18th-Century Prostitute for
+					the 21st-Century: A Dramaturgical Approach to Teaching Cowley’s <title level="m">The Belle’s
 						Stratagem</title></title>
-				<author>
+				
+				
+				<author role="primary">
 					<name>Melinda C. Finberg</name>
 				</author>
-				<editor role='editor'>
-					<name>Thomas Crochunis</name>
-				</editor>
+				
 				<sponsor>Romantic Circles</sponsor>
+				
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Neil Fraistat</name>
+					<resp>TEI Encoding</resp>
+					<name>EXTERNAL CODER</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Praxis Editor</resp>
+					<name>Orrin N.C. Wang</name>
 				</respStmt>
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Steven E. Jones</name>
+					<resp>Assistant Editor</resp>
+					<name>Jessica Tebo</name>
 				</respStmt>
 				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-				<respStmt>
-					<resp>Pedagogies Editor</resp>
-					<name>Kate Singer</name>
+					<resp>Assistant Editor</resp>
+					<name>Anna Paige Wingfield</name>
 				</respStmt>
 			</titleStmt>
+			
+			<editionStmt>
+				<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+				<edition>YYYY-MM-DD</edition>
+			</editionStmt>
+			
 			<publicationStmt>
-				<idno>commons4.2011.finberg</idno>
-				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-					Maryland</publisher>
-				<pubPlace>College Park, MD</pubPlace>
-				<date when="2011-02-23">February 23, 2011</date>
-				<availability status="restricted">
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					Boulder</publisher>
+				<pubPlace>Boulder, CO</pubPlace>
+				<availability status="free">
 					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
 						or disseminated in any manner without authorization unless it is for
 						purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -47,16 +58,15 @@
 						are copyrighted by the author/editor and may be shared only in accordance
 						with the Fair Use provisions of U.S. copyright law. Except as expressly
 						permitted by this statement, redistribution or republication in any medium
-						requires express prior written consent from the author/editors and advance
-						notification of Romantic Circles. Any requests for authorization should be
-						forwarded to Romantic Circles:&gt;
-						<address>
+						requires express prior written consent from the author(s)/ editor(s) and
+						advance notification of Romantic Circles. Any requests for authorization
+						should be forwarded to Romantic Circles: <address>
 							<addrLine>Romantic Circles</addrLine>
-							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>c/o Professor Thora Brylowe</addrLine>
 							<addrLine>Department of English</addrLine>
-							<addrLine>University of Maryland</addrLine>
-							<addrLine>College Park, MD 20742</addrLine>
-							<addrLine>fraistat@umd.edu</addrLine>
+							<addrLine>University of Colorado Boulder</addrLine>
+							<addrLine>Boulder, CO 80309</addrLine>
+							<addrLine>thora.brylowe@colorado.edu</addrLine>
 						</address></p>
 					<p>By their use of these texts and images, users agree to the following
 						conditions: <list>
@@ -74,47 +84,67 @@
 						a link to the copies at Romantic Circles, subject to our conditions of
 						use.</p>
 				</availability>
+				<!-- Be sure that the name below matches the file name-->
+				<idno type="edition"
+					>praxis.2011.theatre.finberg</idno>
+				<idno type="resource"
+					>theatre</idno>
 			</publicationStmt>
+			
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title level="a" type="main">Staging the 18<hi rendition="#sup"
-							>th</hi>-Century Prostitute for the 21<hi rend="sup">st</hi>-Century: </title>
-						<title level="a" type="subordinate">A Dramaturgical Approach to Teaching
-								<name ref="CowleyHannah">Cowley</name>’s <title level="m">The
-								Belle’s Stratagem</title></title>
-						<author>
+						<!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+						<title level="a" type="main">Staging the 18th-Century Prostitute for
+							the 21st-Century: A Dramaturgical Approach to Teaching Cowley’s <title level="m">The Belle’s
+								Stratagem</title>
+						</title>
+						<author role="secondary">
 							<persName>
 								<forename>Melinda C.</forename>
 								<surname>Finberg</surname>
 							</persName>
 						</author>
+						<!-- Referenece the above <idno> tag but only change the final part-->
+						<ptr
+							target="praxis/theatre/praxis.2011.theatre.finberg"/>
+						<!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
 					</analytic>
+					
+					
 					<monogr>
-						<title level="m">Teaching Romantic Drama: </title>
-						<title level="j">A Romantic Circles Pedagogies Commons Volume</title>
+						<title level="m"
+							>Teaching Romantic Drama</title>
+						<title level="s">Praxis</title>
+						
 						<imprint>
-							<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-								Maryland</publisher>
-							<pubPlace>College Park, MD</pubPlace>
-							<date when="2011-02-23">February 23, 2011</date>
-							<biblScope type="vol">4</biblScope>
+							<publisher> Romantic Circles, https://romantic-circles.org, University
+								of Colorado Boulder</publisher>
+							<pubPlace>Boulder, CO</pubPlace>
+							<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+							<date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
 						</imprint>
 					</monogr>
+					
+					
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
+		
 		<encodingDesc>
 			<editorialDecl>
 				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
+					<p>All quotation marks and apostrophes have been changed: " to &#8220; or
+						&#8221;, and ' to &#8216; and &#8217;.</p>
 				</quotation>
 				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Any dashes occurring in line breaks have been removed except in the case of
+						diplomatic transcriptions.</p>
 					<p>Because of web browser variability, all hyphens have been typed on the U.S.
 						keyboard</p>
-					<p>Em-dashes have been rendered as #8212</p>
+					<p>Em dashes have been rendered as &#8212;</p>
+					<p>En dashes have been rendered as &#8211;</p>
 				</hyphenation>
 				<normalization method="markup">
 					<p>Spelling has not been regularized.</p>
@@ -123,11 +153,12 @@
 				</normalization>
 				<normalization>
 					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
+					<p>&#35; has been used for #, the pound sign</p>
 					<p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
 				</normalization>
 			</editorialDecl>
+			
 			<tagsDecl>
 				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
 				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -149,150 +180,67 @@
 				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
 				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
 				<rendition xml:id="figure" scheme="css">text-align: center; font-size:
-					10pt;</rendition>
+					12pt;</rendition>
 				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
 				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
 			</tagsDecl>
+			
 			<classDecl>
-				<taxonomy xml:id="genre">
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+					xml:id="g">
 					<bibl>NINES categories for Genre and Material Form at
-						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-						on 2009-02-26</bibl>
-					<category xml:id="g1">
-						<catDesc>Architecture</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Artifacts</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Letters</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Politics</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Folklore</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>History</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Leisure</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Humor</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Education</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Music</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>nonfiction</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Perodical</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Philosphy</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Family Life</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Visual Art</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Travel</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Book History</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Law</catDesc>
-					</category>
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+						20014-02-27</bibl>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="dcType">
+					<bibl>NINES categories for document type at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+					xml:id="d">
+					<bibl>NINES categories for discplines at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+						2014-02-27</bibl>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
+		
 		<profileDesc>
 			<textClass>
-				<catRef target="#g18" scheme="#genre"/>
+				<catRef scheme="#genre" target="#Paratext"/>
+				<catRef scheme="#dcType" target="#Typescript"/>
+				<catRef scheme="#discipline" target="#Literature"/>
+				<!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+				<keywords scheme="http://www.romantic-circles.org/#tags">
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+				</keywords>
 			</textClass>
 		</profileDesc>
+		
 		<revisionDesc>
 			<change>
-				<name>Laura Mandell</name>
-				<date>2011-02-18</date>
+				<!--  Coder Name and Date Coded  -->
+				<name><!-- coder --></name>
 				<list>
-					<item>revised TEI</item>
-					<item>XSLT</item>
-				</list>
-			</change>
-			<change>
-				<name>Dave Rettenmaier</name>
-				<date>2010-06-01</date>
-				<list>
-					<item>TEI encoding the issue</item>
-				</list>
-			</change>
-			<change>
-				<name>Thomas Crochunis</name>
-				<date>2009-11-01T15:01:00</date>
-				<list>
-					<item>Proofed issue in Open Office Format</item>
+					<item>TEI encoding the text</item>
 				</list>
 			</change>
 		</revisionDesc>
 	</teiHeader>
+	<!--END OF HEADER-->
+	<!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
+
 	<text>
 		<body>
 			<div type="essay">
@@ -300,7 +248,7 @@
 				<head>
 					<title level="a">Staging the 18<hi rendition="#sup">th</hi>-Century Prostitute
 						for the 21<hi rendition="#sup">st</hi>-Century: A Dramaturgical Approach to
-						Teaching <name ref="CowleyHannah">Cowley</name>’s <title level="m">The
+						Teaching Cowley’s <title level="m">The
 							Belle’s Stratagem</title></title>
 				</head>
 				<byline>
@@ -309,18 +257,17 @@
 				</byline>
 
 
-				<div type="section" n="1">
+				<div type="section">
 					<head>The Classroom Dramaturg</head>
-					<p n="1">In most theater survey or dramatic literature classes, plays are
+					<p>In most theater survey or dramatic literature classes, plays are
 						treated as literature. The term “dramaturgy” never comes up, either as a
 						theatrical discipline or as a critical tool for helping our students
-						understand drama. I propose changing this situation, and I will use <name
-							ref="CowleyHannah">Hannah Cowley</name>’s comic masterpiece, <title
+						understand drama. I propose changing this situation, and I will use Hannah Cowley’s comic masterpiece, <title
 							level="m">The Belle’s Stratagem</title> (1780), to demonstrate how
 						looking at plays from a dramaturgical perspective can provide both students
 						and teachers with a more dynamic relationship to Romantic dramatic
 						texts.</p>
-					<p n="2">As a dramaturg, scholar, and teacher working with historical
+					<p>As a dramaturg, scholar, and teacher working with historical
 						playwrights, I seek to bridge the worlds of the academy and the professional
 						theater. I find my scholarly background imparts a rigor to my dramaturgy and
 						my dramaturgical perspective colors my approach in the classroom. The job of
@@ -332,7 +279,7 @@
 						economic realities of the theater. As a dramaturg, I consider it most
 						important that my students be aware that drama is a form of literature not
 						meant primarily to be read but to be heard and seen. </p>
-					<p n="3">Theater is, by its very nature, a collaborative art. The text of a play
+					<p>Theater is, by its very nature, a collaborative art. The text of a play
 						is the skeleton, the bones of the work of art, that must be fleshed out by
 						the joint efforts of actors, directors, designers, and even dramaturgs. The
 						final collaborator is the audience. Every performance is individual and
@@ -341,7 +288,7 @@
 						performance both a public and an intimate event. Part of a dramaturg’s
 						function is to facilitate that connection. The dramaturg must always be
 						asking, “What is the play’s relationship with the audience?”<note
-							place="foot" resp="editors" n="1"> For those who have never worked on a
+							place="foot" resp="editors"> For those who have never worked on a
 							historical production with a dramaturg, I wish to clarify some of the
 							differences between the roles of director and dramaturg. The director
 							chooses what the overall interpretation of the script will be and the
@@ -354,7 +301,7 @@
 							pass them on to the director to help make sure the overall narrative
 							doesn’t get lost in the development of a particular scene. </note>
 					</p>
-					<p n="4">To understand what that relationship is, more questions must be asked.
+					<p>To understand what that relationship is, more questions must be asked.
 						What is left unsaid in the play? Are there assumptions the audience is
 						supposed to make? Are these assumptions culturally or historically specific?
 						If so, what can theater artists do to recreate the appropriate receptivity
@@ -367,8 +314,8 @@
 						questions that broaden our understanding of a play beyond the simply
 						literary perspective and lead us to a multidisciplinary approach to this art
 						form that requires our active participation.</p>
-					<p n="5">I propose to look at teaching <name ref="CowleyHannah">Hannah
-							Cowley</name>’s comic masterpiece <title level="m">The Belle’s
+					<p>I propose to look at teaching Hannah
+							Cowley’s comic masterpiece <title level="m">The Belle’s
 							Stratagem</title> (1780) from a dramaturgical perspective, and that
 						means that the first task is to shatter the preconception that a Romantic
 						play is a dusty period piece from a quaint and less sophisticated time. I
@@ -380,18 +327,16 @@
 				</div>
 
 
-				<div type="section" n="2">
+				<div type="section">
 					<head>On the Margins of <title level="m">The Belle’s Stratagem</title></head>
 
-					<p n="6">While <title level="m">The Belle’s Stratagem</title> is set firmly in
-						the fashionable society of late eighteenth-century <name ref="London"
-							>London</name>, and its style is reminiscent of <name ref="CowleyHannah"
-							>Cowley</name>’s Restoration and Augustan predecessors, <name
-							ref="CowleyHannah">Cowley</name>’s comedy demonstrates concerns about
+					<p>While <title level="m">The Belle’s Stratagem</title> is set firmly in
+						the fashionable society of late eighteenth-century London, and its style is reminiscent of 
+						Cowley’s Restoration and Augustan predecessors, Cowley’s comedy demonstrates concerns about
 						the laboring classes and their relationship to the moneyed elite. The title
-						of <name ref="CowleyHannah">Cowley</name>’s comedy pays homage to one of her
-						favorite Augustan playwrights, <name ref="FarquharGeorge">George
-							Farquhar</name> (1677-1707), and his <title level="m">The Beaux’s
+						of Cowley’s comedy pays homage to one of her
+						favorite Augustan playwrights, George
+							Farquhar (1677-1707), and his <title level="m">The Beaux’s
 							Stratagem</title> (1707), and like many of these earlier comedies,
 							<title level="m">The Belle’s Stratagem</title> juxtaposes two story
 						lines: Letitia Hardy’s ingenious plot to win the heart of her betrothed,
@@ -402,18 +347,16 @@
 						Interwoven with these plots are transitional scenes among servants,
 						tradesmen and con artists who make their livings off the excesses of
 						fashionable life.</p>
-					<p n="7">The title plot revolves around Letitia Hardy and her fiancé Doricourt,
+					<p>The title plot revolves around Letitia Hardy and her fiancé Doricourt,
 						who have been engaged since childhood, but who have not seen each other in
-						years. Doricourt, back from his tour of the continent, has returned to <name
-							ref="London">London</name> as its most fashionable and seemingly
+						years. Doricourt, back from his tour of the continent, has returned to London as its most fashionable and seemingly
 						eligible bachelor. Abroad, he has learned to appreciate continental beauty
 						and manners and he disparages Englishwomen (much to the disgust of his good
 						friend, Saville). Letitia finds herself captivated by the man Doricourt has
 						become, but dashed by his apparent indifference to her. She vows to “win his
-						heart or never be his wife.”<note place="foot" resp="editors" n="2">
-							<name ref="CowleyHannah">Hannah Cowley</name>, <title level="m">The
-								Belle’s Stratagem </title> (1780), in <name ref="FinbergMelindaC"
-								>Melinda C. Finberg</name>, <title level="m">Eighteenth-Century
+						heart or never be his wife.”<note place="foot" resp="editors">
+							Hannah Cowley, <title level="m">The
+								Belle’s Stratagem </title> (1780), in Melinda C. Finberg, <title level="m">Eighteenth-Century
 								Women Dramatists </title> (Oxford: Oxford University Press, 2001),
 							225 (1.4.145). All citations from play taken from this volume. </note>
 						Her stratagem, as she confides to her doting father and her cousin, Mrs.
@@ -421,37 +364,34 @@
 						its opposite than to transform indifference into tender passion” (p. 227
 						[1.4.225-26]). Letitia plans to disgust Doricourt by posing as an ignorant,
 						vulgar rustic and later to enchant him in masquerade as a cosmopolitan lady
-						of mystery. In many ways, this plot is a reversal of <name
-							ref="GoldsmithOliver">Goldsmith</name>’s <title level="m">She Stoops to
+						of mystery. In many ways, this plot is a reversal of Goldsmith’s <title level="m">She Stoops to
 							Conquer</title>, in which Kate Hardcastle wins her lover by abasing
 						herself. Kate is building up the confidence of a man too insecure to address
 						women of his own class; Letitia, on the other hand, cuts Doricourt down to
 						size and makes him acknowledge his own naïveté. </p>
-					<p n="8"><name ref="CowleyHannah">Cowley</name>’s secondary story line is a
-						retelling of the Pinchwife plot of <name ref="WycherleyWilliam"
-							>Wycherley</name>’s <title level="m">The Country Wife</title>. Sir
+					<p>Cowley’s secondary story line is a
+						retelling of the Pinchwife plot of Wycherley’s <title level="m">The Country Wife</title>. Sir
 						George Touchwood, a man of the world and former avowed bachelor, has married
 						the lovely but sheltered Lady Frances. He has been compelled to bring her to
-							<name ref="London">London</name> to be presented at court, but aspires
+							London to be presented at court, but aspires
 						to keep her all to himself and away from the pernicious pleasures of the
 						town that once made up his own life. While Sir George lacks Pinchwife’s
-						overt cruelty, <name ref="CowleyHannah">Cowley</name> uses his character to
+						overt cruelty, Cowley uses his character to
 						question whether jealousy and the concomitant infantilization of the beloved
-						is not cruelty in and of itself. <name ref="CowleyHannah">Cowley</name>’s
-						character Courtall, a rewrite of <name ref="WycherleyWilliam"
-							>Wycherley</name>’s Horner, the man out to seduce the naïve bride, is a
+						is not cruelty in and of itself. Cowley’s
+						character Courtall, a rewrite of Wycherley’s Horner, the man out to seduce the naïve bride, is a
 						rake in the wrong century. His seduction plots backfire and sexual
 						humiliation is his to receive, not to inflict.</p>
-					<p n="9">Bridging the two stories are Mrs. Racket, a merry widow, and Villers, a
+					<p>Bridging the two stories are Mrs. Racket, a merry widow, and Villers, a
 						debonair bachelor – a witty sophisticated pair who egg on the mischief, and
 						each other – as well as Flutter, a gossipy fop who can be counted on to get
 						every story wrong, and loyal Saville, Doricourt’s best friend, who still
 						pines for Lady Frances.</p>
-					<p n="10">The major plots of <title level="m">The Belle’s Stratagem </title>can
+					<p>The major plots of <title level="m">The Belle’s Stratagem </title>can
 						be staged as an effervescent confection – fast-paced, intricately
 						choreographed and filled with sparkling repartée. The transitional scenes
 						ground the plot by revealing the sordid underpinnings of frivolous
-						fashionable life. <name ref="CowleyHannah">Cowley</name> gives us our first
+						fashionable life. Cowley gives us our first
 						glimpse of laboring life in the second scene of the comedy, among
 						Doricourt’s servants. A tabloid reporter bribes Doricourt’s porter for
 						information on any romantic liaisons involving his quasi-celebrity master.
@@ -462,7 +402,7 @@
 						them for their masters and customers. Later there is a scene between an
 						auctioneer and his shills. These lower-class hirelings pose as people of
 						fashion, bidding on items to help drive up the prices. </p>
-					<p n="11">Each of these scenes serves as a precursor to the later grand
+					<p>Each of these scenes serves as a precursor to the later grand
 						masquerade. Below stairs at Doricourt’s and at the auction house, we see the
 						lower classes masquerading as the elite for various motives. In the first,
 						they are creating a parallel world to those of the upper classes: just as
@@ -476,11 +416,11 @@
 						people of fashion. A female puffer complains Silvertongue doesn’t pay her
 						enough to afford appropriate clothes and they argue about wages, comparing
 						them to soldier’s wages. The behind-the-scenes scrapping reminds the
-						audience that <name ref="London">London</name>’s fashionable life is based
+						audience that London’s fashionable life is based
 						on a teetering economy: everyone at the auction is there to ogle or buy
 						items seized to settle debts of those financially ruined by gambling and
 						extravagance. </p>
-					<p n="12">These scenes stand out from the general effervescence with their ugly
+					<p>These scenes stand out from the general effervescence with their ugly
 						glimpses of the economic realities behind the glamour. They have grit. They
 						rub our noses into the fact that this is a society of many degrees of haves
 						and have-nots. And some of these have-nots are finding and taking every
@@ -488,21 +428,21 @@
 						the cannibalistic nature of this society, as we watch different classes prey
 						upon each other and even on the remains of members of their own class who
 						have fallen into financial ruin.</p>
-					<p n="13">These transitional scenes present us with dramaturgical choices: how
+					<p>These transitional scenes present us with dramaturgical choices: how
 						much attention should they be given in comparison to the scenes of the major
 						action? Are they casual moments the audience catches in passing, or are they
 						moments that deliberately stop the forward motion of the plot? How much do
 						they infiltrate or color our perception of the fashionable society that
 						dominates the plot? In some productions, historically as well as today, they
 						are cut entirely.</p>
-					<p n="14">There is no right or wrong answer, but whatever choice we make will
+					<p>There is no right or wrong answer, but whatever choice we make will
 						color the audience’s understanding of the text. We can compare a dramatic
 						work to a diamond: letting different facets catch the light changes our view
 						of the stone itself – its color, its reflective capacities, even its beauty.
 						In teaching a play, examining several of the different facets and their
 						coloring of the interpretation of the piece will give students a richer
 						understanding of how a dramatic text comes to life.</p>
-					<p n="15">Furthermore, to understand the possible choices, we will need to
+					<p>Furthermore, to understand the possible choices, we will need to
 						encourage our students to do multidisciplinary research. In the case of
 							<title level="m">The Belle’s Stratagem</title>, such research will
 						involve cultural and economic history of the period. What did the people
@@ -518,11 +458,10 @@
 						share them with the whole class. Once everyone has a substantial background
 						in the social world of the play, discussions can take place about how to
 						incorporate this new understanding into the staging of the play. </p>
-					<p n="16">To demonstrate how a class might go about this process, I will use the
+					<p>To demonstrate how a class might go about this process, I will use the
 						example of one marginal character within <title level="m">Belle’s
-							Stratagem</title> and the questions that are raised by <name
-							ref="CowleyHannah">Cowley</name>’s employment of her. Kitty Willis comes
-						to play an important role in one of <name ref="CowleyHannah">Cowley</name>’s
+							Stratagem</title> and the questions that are raised by Cowley’s employment of her. Kitty Willis comes
+						to play an important role in one of Cowley’s
 						major plots, although Kitty has very few lines. Courtall, the supposed rake,
 						has taunted Saville, Doricourt’s best friend, over Saville’s chaste passion
 						for Lady Frances Touchwood. Saville insults Courtall by casting doubts on
@@ -532,15 +471,14 @@
 						plotter. Saville confides in Doricourt that he has found a woman “whose
 						reputation cannot be hurt” (p. 256, [4.1.155]) to masquerade as Lady Frances
 						and deceive Courtall. That woman is Kitty Willis. This is the only
-						description we are given of Kitty. As <name ref="ShakespeareWilliam"
-							>Shakespeare</name> would say, “The rest is silence.” (<title level="m"
+						description we are given of Kitty. As Shakespeare would say, “The rest is silence.” (<title level="m"
 							>Hamlet</title>, 5.2.360) But for drama to live, the silence has to be
 						filled. How do we discover how to fill it?</p>
 				</div>
 
 
 
-				<div type="section" n="3">
+				<div type="section">
 					<head>Staging the Prostitute</head>
 					<epigraph>
 						<quote>
@@ -549,10 +487,10 @@
 								playwright! If you really want to be, you’d better know who you are
 								when the play begins, and how you got to be that way!</ab>
 							<ab rend="#indent8">
-								<bibl><name ref="HagenUta">Uta Hagen</name>, <title level="m"
+								<bibl>Uta Hagen, <title level="m"
 										>Respect for Acting</title></bibl>
-								<note place="foot" resp="editors" n="3"><name ref="HagenUta">Uta
-										Hagen</name>, <title level="m">Respect for Acting</title>
+								<note place="foot" resp="editors">Uta
+										Hagen, <title level="m">Respect for Acting</title>
 									(New York: Macmillan Publishing Co., Inc. 1977), 152.</note>
 							</ab>
 						</quote>
@@ -565,18 +503,18 @@
 								on in the creative process, the actor’s emotions will instinctively
 								be sincere and his feelings true to life.</ab>
 							<ab rend="#indent8">
-								<bibl><name ref="StanislavskiConstantin">Constantin
-										Stanislavski</name>, <title level="m">Creating a
+								<bibl>Constantin
+										Stanislavski, <title level="m">Creating a
 										Role</title></bibl>
-								<note place="foot" resp="editors" n="4">
-									<name ref="StanislavskiConstantin">Constantin
-										Stanislavski</name>, <title level="m">Creating a
+								<note place="foot" resp="editors">
+									Constantin
+										Stanislavski, <title level="m">Creating a
 										Role</title>, Elizabeth Reynolds Hapgood, trans. (New York:
 									Theatre Arts Books, 1961), 9. </note>
 							</ab>
 						</quote>
 					</epigraph>
-					<p n="17"> To understand how to teach our students how to approach the dramatic
+					<p> To understand how to teach our students how to approach the dramatic
 						text as the framework for a performance, I suggest starting with the
 						language of theater practitioners. One of the first tasks a director, actor,
 						designer, or dramaturg undertakes when beginning to work with a script is to
@@ -591,8 +529,7 @@
 						about what each character knows are often the basis of comedy and farce.
 						Differences about who characters are provide depth and variety to the life
 						of the play. </p>
-					<p n="18"> What are Kitty Willis’s given circumstances? <name ref="CowleyHannah"
-							>Cowley</name> provides us with minimal information. Kitty: <list
+					<p> What are Kitty Willis’s given circumstances? Cowley provides us with minimal information. Kitty: <list
 							type="bulleted">
 							<item>has a distinctive, diminutive name.</item>
 							<item>is a woman whose reputation cannot be hurt.</item>
@@ -609,29 +546,27 @@
 							<item>teases Courtall about his former adoration of her.</item>
 						</list> From these given circumstances, we must make deductions and begin
 						our research.</p>
-					<p n="19"> Kitty appears to be a publicly known woman whose reputation seems to
+					<p> Kitty appears to be a publicly known woman whose reputation seems to
 						be beyond being able to be damaged, written by a publicly known woman who
 						was always having to defend her respectability from damage. (By 1780 women
 						novelists could be respectable, while actresses were still considered not
-						much better than prostitutes. As a playwright, <name ref="CowleyHannah"
-							>Cowley</name> found herself in disputed territory: did the public
+						much better than prostitutes. As a playwright, Cowley found herself in disputed territory: did the public
 						confer upon her the respectability of the novelist or the opprobrium of the
 						actress/prostitute? Although she asserted her respectability – even when
 						writing the words of disreputable characters – critics challenged “whether
-						Mrs. <name ref="CowleyHannah">Cowley</name> ought so to have expressed
-							herself?”)<note place="foot" resp="editors" n="5">
-							<name ref="CowleyHannah">Hannah Cowley</name>, <title level="m">A School
+						Mrs. Cowley ought so to have expressed
+							herself?”)<note place="foot" resp="editors">
+							Hannah Cowley, <title level="m">A School
 								for Greybeards; or, the Mourning Bride</title> (London: G. G. J.
-							&amp; J. Robinson, 1786), Preface vii. In this preface, <name
-								ref="CowleyHannah">Cowley</name> defends herself from attacks from
+							&amp; J. Robinson, 1786), Preface vii. In this preface, Cowley defends herself from attacks from
 							her critics based not on her talent and the realism of her character
 							creations, but on her gender and whether she should write such
-							characters so well. <name ref="ToddJanet">Janet Todd</name> (in <title
+							characters so well. Janet Todd (in <title
 								level="m">The Sign of Angellica: Women, Writing and Fiction, 1660 –
 								1800 </title>(New York: Columbia University Press, 1989) traces the
 							woman writer’s concern with being a public woman, and thus being equated
-							with the disreputable prostitute, back to <name ref="BehnAphra">Aphra
-								Behn</name>’s character of Angellica Bianca, in <title level="m">The
+							with the disreputable prostitute, back to Aphra
+								Behn’s character of Angellica Bianca, in <title level="m">The
 								Rover</title>, who hangs her picture with her price outside her door
 							and tries to claim the same sexual freedom as men. </note> Kitty’s very
 						name suggests animality, sexuality and lack of will. Her circumstances
@@ -642,14 +577,14 @@
 						make one strong choice about Kitty and allow that choice to influence the
 						staging of her relationships with each of the characters she encounters,
 						including the effect her presence brings to the central masquerade scene. </p>
-					<p n="20">During the eighteenth and nineteenth centuries, prostitution was the
+					<p>During the eighteenth and nineteenth centuries, prostitution was the
 						subject of much public debate and fascination. It not only played a part in
 						many of the novels of the day, but prostitute narratives, purported to be
 						the true histories or memoirs of real prostitutes and courtesans,
 						proliferated and were vastly popular. In her recent study, <title level="m"
 							>Infamous Commerce: Prostitution in Eighteenth-Century British
-							Literature and Culture</title>, <name ref="RosenthalLaura">Laura
-							Rosenthal</name> points out that these novels and narratives took
+							Literature and Culture</title>, Laura
+							Rosenthal points out that these novels and narratives took
 						primarily two different approaches to the profession. The first took the
 						form of libertine narrative in which a woman rises through her labors to
 						fame (or infamy) and fortune. There is a quality of entrepreneurship to her
@@ -657,82 +592,88 @@
 						rising from the brothel to the life of celebrity as a courtesan; sometimes
 						they show her fall back into degradation and poverty, but still she remains
 						a sympathetic representative of upward mobility, using what she has to
-							succeed.<note place="foot" resp="editors" n="6"> For this discussion of
-							prostitute narratives, I am indebted to <name ref="RosenthalLaura">Laura
-								J. Rosenthal</name>, <title level="m">Infamous Commerce:
+							succeed.<note place="foot" resp="editors"> For this discussion of
+							prostitute narratives, I am indebted to Laura
+								J. Rosenthal, <title level="m">Infamous Commerce:
 								Prostitution in Eighteenth-Century British Culture and Fiction
 							</title>(Ithaca: Cornell University Press, 2006), 97-105. Future
 							references are cited in the text. </note>
 					</p>
-					<p n="21"> The second type of prostitution narrative shows the prostitute as
+					<p> The second type of prostitution narrative shows the prostitute as
 						tragic victim. She is driven by economic necessity to degradation and her
 						feelings are sentimentalized. As one such writer describes, <quote>There are
 							not perhaps on Earth greater Objects of Compassion; all Sense of
 							Pleasure are lost to them, the whole is mere Labour and Wretchedness,
 							they are Slaves to, and buffeted by every drunken Ruffian, they are the
 							Tools of, and tryrannized over by the Imps of Bawds.<note place="foot"
-								resp="editors" n="7">
-								<title level="m">The Vices of the Cities of <name ref="London"
-										>London</name> and <name ref="Westminster"
-										>Westminster</name></title>, (Dublin: Printed for G.
+								resp="editors">
+								<title level="m">The Vices of the Cities of London and Westminster</title>, (Dublin: Printed for G.
 								Faulkner and R. James, 1751), 21-22. </note>
 						</quote> This sentimental view was pervasive in the mid-eighteenth century,
 						as is evident in the wide public support given to the founding, in 1758, of
-						the famous <name ref="London">London</name> Magdalen Hospital for Penitent
+						the famous London Magdalen Hospital for Penitent
 						Prostitutes, dedicated to restoring these victimized women to their natural
-							virtue.<note place="foot" resp="editors" n="8"> For a full discussion of
+							virtue.<note place="foot" resp="editors"> For a full discussion of
 							the founding of Magdalen Hospital and the varying views of its inmates,
-							see <name ref="PeaceMary">Mary Peace</name>, “The Magdalen Hospital and
+							see Mary Peace, “The Magdalen Hospital and
 							the Fortunes of Whiggish Sentimentality in Mid-Eighteenth-Century
 							Britain: ‘Well-Grounded’ Exemplarity vs. ‘Romantic’ Exceptionality” in
 								<title level="m">The Eighteenth Century: Theory and
 								Interpretation</title> 8.2 (Summer 2007): 125-148. </note></p>
 
-					<p n="22">That two seemingly disparate views of prostitution could be held
+					<p>That two seemingly disparate views of prostitution could be held
 						synchronously reflected the ambivalence with which the British viewed the
-						institution. Contemporary travel writer <name ref="ArcheholzJW">J. W.
-							Archeholz</name> commented in his <title level="m">A Picture of England:
+						institution. Contemporary travel writer J. W.
+							Archeholz commented in his <title level="m">A Picture of England:
 							Containing a Description of the Laws, Customs, and Manners</title>, that
 						the British had no real stake in ending prostitution. While English laws
 						“are not favourable to the fair sex,” successful prostitutes enjoy
-						independence and add glamour to <name ref="London">London</name>.<note
-							place="foot" resp="editors" n="9">
-							<name ref="ArcheholzJW">J. W. Archeholz</name>, <title level="m">A
+						independence and add glamour to London.<note
+							place="foot" resp="editors">
+							J. W. Archeholz, <title level="m">A
 								Picture of England: Containing a Description of the Laws, Customs,
 								and Manners, </title>(London: Edward Jeffrey, 1789) 2:90, as quoted
-							in <name ref="RosenthalLaura">Rosenthal</name>, 99. </note> While social
+							in Rosenthal, 99. </note> While social
 						reformers might call attention to the degraded streetwalker, abandoned by
 						her family to the horrors of poverty and violence, the courtesans of the day
 						were the objects of insatiable voyeurism, much like celebrities in our
-						tabloids today. <name ref="HogarthWilliam">Hogarth</name> painted the former
-						in his scenes of <name ref="London">London</name> life; <name
-							ref="ReynoldsJoshuaSir">Reynolds</name> glorified the latter.</p>
-					<p n="23">In fact <name ref="ReynoldsJoshuaSir">Sir Joshua Reynolds</name>
+						tabloids today. Hogarth painted the former
+						in his scenes of London life; Reynolds glorified the latter.</p>
+					<p>In fact Sir Joshua Reynolds
 						painted several magnificent portraits of Kitty Fisher (d. 1767), who may
 						have been the namesake of Kitty Willis. Kitty Fisher was one of the most
-						famous courtesans of the 1760’s and a great favorite of <name
-							ref="ReynoldsJoshuaSir">Reynolds</name>. <figure n="1">
+						famous courtesans of the 1760’s and a great favorite of Reynolds.</p>
+					<p>
+					<figure>
+						<graphic url="/prod/sites/default/files/imported/pedagogies/theatre/images/reynolds-fisher.jpg"/>
 							<figDesc>Reynolds, Joshua. <title level="m">Kitty Fisher as Cleopatra
 									Dissolving the Pearl</title> (1759), “Painted Ladies,” <title
 									level="m">Reynold: Joshua Reynolds and The Creation of
 									Celebrity</title>. Tate Online.
 								http://www.tate.org.uk/britain/exhibitions/reynolds/roomguide7.shtm</figDesc>
-							<graphic url="../images/reynolds-fisher.jpg"/>
+							
 						</figure>
-						<name ref="HoneNathaniel">Nathaniel Hone</name> also painted her in 1765 in
-						a portrait which made a visual pun on her name.  In <ref target="http://www.npg.org.uk/collections/search/portrait/mw02230/Catherine-Maria-Kitty-Fisher">Hone’s portrait of Kitty Fisher</ref>, he seats her next to a kitten trying to fish a goldfish out of its
+					</p>
+					<p>Fig. 1 Reynolds, Joshua. <title level="m">Kitty Fisher as Cleopatra
+						Dissolving the Pearl</title> (1759), “Painted Ladies,” <title
+							level="m">Reynold: Joshua Reynolds and The Creation of
+							Celebrity</title>. Tate Online.
+						http://www.tate.org.uk/britain/exhibitions/reynolds/roomguide7.shtm</p>
+						
+					<p>Nathaniel Hone also painted her in 1765 in
+						a portrait which made a visual pun on her name. 
+						In <ref target="http://www.npg.org.uk/collections/search/portrait/mw02230/Catherine-Maria-Kitty-Fisher">Hone’s portrait of Kitty Fisher</ref>,
+						he seats her next to a kitten trying to fish a goldfish out of its
 						bowl. Kitty had begun her career as an actress, but found more lucrative
 						work and celebrity as a courtesan. Her narrative reflects the typical view
 						of both reformers and libertine writers that some young women believed their
 						beauty and accomplishments made them eligible to rise socially and turned to
 						prostitution as a business to make the most of their talents. Kitty Fisher
 						was one of those who succeeded.</p>
-					<p n="24"><name ref="HogarthWilliam">Hogarth</name>, on the other hand,
+					<p>Hogarth, on the other hand,
 						portrayed <title level="m">The Harlot’s Progress</title> in a series of
-						paintings dating from 1732 in which the painter satirizes <name ref="London"
-							>London</name> corruption by tracing the history of a young country girl
-						who is accosted by a bawd upon her arrival in <name ref="London"
-							>London</name> to seek work. She rises as high as a kept mistress, but
+						paintings dating from 1732 in which the painter satirizes London corruption by tracing the history of a young country girl
+						who is accosted by a bawd upon her arrival in London to seek work. She rises as high as a kept mistress, but
 						then is reduced to a common prostitute, an inmate in debtor’s prison, and
 						finally she dies of venereal disease. Such a degraded woman is also
 						described by <title level="j">The Spectator</title>: <quote>I could observe
@@ -745,19 +686,25 @@
 							and to avoid being seen with her I went away, but could nor forbear
 							giving her a Crown. The poor thing sighed, curtsied, and with a
 							Blessing, expressed with the utmost Vehemence, turned from me.<note
-								place="foot" n="10"> Joseph Addison and Richard Steele, <title
+								place="foot" resp="editors"> Joseph Addison and Richard Steele, <title
 									level="j">The Spectator,</title> ed. Donald F. Bond, 2:534 – 535; no. 266, Friday, January 4, 1712. </note>
 						</quote>
 					</p>
 					<lb/>
-					<figure n="3">
-						<figDesc>Hogarth, William. <title level="m">Harlot’s Progress: Scene in
+					<p>
+					<figure>
+						<graphic url="/prod/sites/default/files/imported/pedagogies/theatre/images/hogarth-harlot.jpg"/>
+						<figDesc>Fig. 2 Hogarth, William. <title level="m">Harlot’s Progress: Scene in
 								Bridewell</title>, 1732. British Museum, The Image Gallery, Data
 							from University of California, San Diego. </figDesc>
-						<graphic url="../images/hogarth-harlot.jpg"/>
+						
 					</figure>
+					</p>
+					<p>Fig. 2 Hogarth, William. <title level="m">Harlot’s Progress: Scene in
+						Bridewell</title>, 1732. British Museum, The Image Gallery, Data
+						from University of California, San Diego.</p>
 
-					<p n="25"> Even some of the libertine narratives show how the most successful
+					<p> Even some of the libertine narratives show how the most successful
 						and celebrated courtesan can be vulnerable to a fall into want, degradation,
 						and decrepitude. “Simon Trusty” wrote a public letter to Kitty Fisher
 						herself to warn her of such a possibility:</p>
@@ -780,11 +727,11 @@
 							<emph>The cull’d Darling of the World,</emph>
 						</quote>
 						<ab>And, at last, the hackneyed Prostitute of every Passenger?<note
-								place="foot" resp="editors" n="11">
-								<name ref="TrustySimon">Simon Trusty</name>. <title level="m">An odd
+								place="foot" resp="editors">
+								Simon Trusty. <title level="m">An odd
 									letter, on a most interesting subject, to Miss K---- F--h--r.
 									Recommended to the perusal of the ladies of Great Britain. By
-										<name ref="TrustySimon">Simon Trusty</name>, Esq.</title>
+										Simon Trusty, Esq.</title>
 								(London, 1760), <title level="s">Eighteenth Century Collections
 									Online</title>, Gale Group,
 								http://galenet.galegroup.com/servlet/ECCO . Gale Document
@@ -796,35 +743,31 @@
 						destitute and desperate? Or is she an actress? And once we have decided what
 						kind of public woman she is, how will we stage her and how will she fit into
 						the ensemble of other characters?</p>
-					<p n="26"> As is typical of many skilled dramatists, <name ref="CowleyHannah"
-							>Cowley</name> provides us with information that can be interpreted in a
-						number of ways. On the one hand, Kitty’s name recalls the late famous <name
-							ref="FisherKitty">Kitty Fisher</name>, but on the other hand, another
-						famed “Kitty” was the great actress <name ref="CliveKitty">Kitty
-							Clive</name> (1711-85). Both <name ref="FisherKitty">Kitty Fisher</name>
-						and <name ref="CliveKitty">Kitty Clive</name> were well-known celebrities
-						and women of wit, intelligence and ambition, but <name ref="CowleyHannah"
-							>Cowley</name>’s Kitty is “Willis” or perhaps, “will-less,” that is
+					<p> As is typical of many skilled dramatists, Cowley provides us with information that can be interpreted in a
+						number of ways. On the one hand, Kitty’s name recalls the late famous Kitty Fisher, but on the other hand, another
+						famed “Kitty” was the great actress Kitty
+							Clive (1711-85). Both Kitty Fisher
+						and Kitty Clive were well-known celebrities
+						and women of wit, intelligence and ambition, but Cowley’s Kitty is “Willis” or perhaps, “will-less,” that is
 						without inner strength or ambition, a woman who has simply “fallen” into her
-						line of work because of her lack of discipline or fortitude. <name
-							ref="CowleyHannah">Cowley</name> even makes a subtle allusion to the
+						line of work because of her lack of discipline or fortitude. Cowley even makes a subtle allusion to the
 						desperation of this latter kind of prostitute when she has the fop Flutter
 						entertain Lady Frances with the description of a family at the masquerade:
 							<quote>In the next apartment there’s a whole family, who, to my
 							knowledge, have lived on watercresses this month to make a figure here
 							tonight; but, to make up for that, they’ll cram their pockets with cold
 							ducks and chickens for a carnival tomorrow. (4.1.82-86)</quote>
-						<name ref="CowleyHannah">Cowley</name> here alludes to Henry Fielding’s
+						Cowley here alludes to Henry Fielding’s
 						poetic description in his <title level="m">The Masquerade</title>: <quote>
 							<lg>
 								<l>Below stairs hungry whores are picking</l>
 								<l>The bones of wild-fowl and of chicken;</l>
 								<l>And into pockets some convey</l>
 								<l>Provisions for another day.<note place="foot" resp="editors"
-										n="12"><name ref="FieldingHenry">Henry Fielding</name>,
+										>Henry Fielding,
 											<title level="m">The Masquerade</title> (London, 1728.
-										Reprinted in <name ref="FieldingHenry">Henry
-										Fielding</name>, <title level="m">The Female Husband and
+										Reprinted in Henry
+										Fielding, <title level="m">The Female Husband and
 											Other Writings,</title> ed. Claude E. Jones, English
 										Reprint Series, 1960), p. 32 (lines 191-94).</note>
 								</l>
@@ -832,15 +775,15 @@
 						</quote> Might Kitty be a desperate woman eager to take this job for the
 						free food at the masquerade, like the provident family and hungry whores, in
 						addition to her pay for the deception at Courtall’s?</p>
-					<p n="27">And how precisely do the men “know” Kitty? They are all on familiar
+					<p>And how precisely do the men “know” Kitty? They are all on familiar
 						enough terms with her to address her simply as “Kitty,” when they discover
 						her in Courtall’s rooms, while they address none of the women of their own
 						class so informally. Is she communal property? As a whore or as a celebrity?
 						Is there anything particular about her relationship with Courtall that might
 						add to her enjoyment of the joke? </p>
-					<p n="28">Again, I reiterate, there is no one right answer to this question,
+					<p>Again, I reiterate, there is no one right answer to this question,
 						only choices – although some choices are more interesting than others. These
-						are more places where <name ref="CowleyHannah">Cowley</name> is silent and
+						are more places where Cowley is silent and
 						where the script must be fleshed out. This is where actors and directors
 						ask, “What if?” What if Courtall was Kitty’s original seducer? Or what if he
 						had formerly kept her? How would such possibilities contribute to deepening
@@ -853,13 +796,12 @@
 				</div>
 
 
-				<div type="section" n="4">
+				<div type="section">
 					<head>Applying Dramaturgical Theory</head>
-					<p n="29">When staging a performance of <title level="m">Belle’s
+					<p>When staging a performance of <title level="m">Belle’s
 							Stratagem</title>, one has to make one choice and commit to it. All
 						further choices build upon those that have gone before. How should Kitty be
-						costumed? If she is wearing a domino, as <name ref="CowleyHannah"
-							>Cowley</name> describes, do we see her own clothes under it when she
+						costumed? If she is wearing a domino, as Cowley describes, do we see her own clothes under it when she
 						unmasks? If so, will they be the equivalent of the society women’s we have
 						seen. More ornate? Will they be shabby or dirty? Who is revealed when Kitty
 						unmasks? A proud woman of the world or one closer to the prostitute
@@ -867,21 +809,26 @@
 						evening in the early part of the century? Kitty’s unmasking prefigures
 						Letitia’s unmasking at the conclusion of the play. How do they connect to
 						each other? </p>
-					<figure n="4">
-						<figDesc>Cooper, David, photographer. Kitty Willis (Aisha Kabia) taunts
+					<p>
+					<figure>
+						<graphic width="600px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/kitty's_revenge.jpg"/>
+						<figDesc>Fig. 3 Cooper, David, photographer. Kitty Willis (Aisha Kabia) taunts
 							Courtall (Mirron E. Willis), <title level="m">The Belle’s
 								Stratagem</title>, Oregon Shakespeare Festival, 2005. </figDesc>
-						<graphic width="600px" url="../images/kitty's_revenge.jpg"/>
+						
 					</figure>
+					</p>
+					<p>Fig. 3 Cooper, David, photographer. Kitty Willis (Aisha Kabia) taunts
+						Courtall (Mirron E. Willis), <title level="m">The Belle’s
+							Stratagem</title>, Oregon Shakespeare Festival, 2005. </p>
 
-					<p n="30">Understanding who prostitutes were in the <name ref="London"
-							>London</name> of the late eighteenth century as well as understanding
+					<p>Understanding who prostitutes were in the London of the late eighteenth century as well as understanding
 						who the women of high society were and what was expected of them, gives
 						students a grasp of the visceral reaction an audience would have to seeing
 						both respectable and disreputable women in the same public place or
 						confusing them. It calls their attention to questions the play is raising
 						about how women are categorized and about the fluidity of anyone’s identity.
-						When <name ref="CowleyHannah">Cowley</name> dresses Sir George, Lady
+						When Cowley dresses Sir George, Lady
 						Frances, Courtall, and Kitty in interchangeable costumes, she suggests with
 						the different pairings that result in the course of the ball, the ease with
 						which the rake can be confused with the devoted husband and the harlot with
@@ -890,7 +837,7 @@
 						distinguish between the masked Kitty Willis and Lady Frances reflect on
 						Doricourt’s inability to distinguish the real Letitia behind her many masks?
 						If so, how?</p>
-					<p n="31">When teaching the play in class, however, I advocate exploring as many
+					<p>When teaching the play in class, however, I advocate exploring as many
 						of the choices as time permits. Asking our students to look at a variety of
 						perspectives increases their understanding of a play as a living art. Each
 						choice is an interpretation of the play. How do we come to see how examining
@@ -899,22 +846,21 @@
 						based on a particular interpretation? For this, I recommend further readings
 						about the art of dramaturgy and ideas and theories about how to connect
 						audiences with classic productions.</p>
-					<p n="32">One of the best texts for introducing students to dramaturgy as a
+					<p>One of the best texts for introducing students to dramaturgy as a
 						discipline is <title level="m">Dramaturgy in American Theater: A Source
 							Book</title>, a collection of essays on various aspects and uses of
 						dramaturgical theory and practice. Selected essays from the section entitled
 						“New Contexts” are especially appropriate for teachers and students of
 						Romantic Drama. In her essay, “Aiming the Canon at Now: Strategies for
-						Adaptation,” <name ref="JonasSusan">Susan Jonas</name> examines “how
+						Adaptation,” Susan Jonas examines “how
 						theatermakers can employ the canon to <hi>reveal</hi> its own biases” <note
-							place="foot" resp="editors" n="13">
-							<name ref="JonasSusan">Susan Jonas</name>, “Aiming the Canon at Now:
-							Strategies for Adaptation,” in <name ref="JonasSusan">Susan
-							Jonas</name>, Geoffrey Proehl, and Michael Lupu, <title level="m"
+							place="foot" resp="editors">
+							Susan Jonas, “Aiming the Canon at Now:
+							Strategies for Adaptation,” in Susan
+							Jonas, Geoffrey Proehl, and Michael Lupu, <title level="m"
 								>Dramaturgy in American Theater: A Source Book.</title> (Orlando,
 							FL: Harcourt, Brace and Company, 1997), 244. Future references are cited
-							in the text. </note>(emphasis hers). One technique <name
-							ref="JonasSusan">Jonas</name> suggests to amplify marginalized voices
+							in the text. </note>(emphasis hers). One technique Jonas suggests to amplify marginalized voices
 						from an historical text is one she terms “simultaneity” (255). Simultaneity
 						refers to seeing a silenced aspect of the play at the same time as the play
 						proceeds as scripted. Such a technique encourages the audience to view the
@@ -923,8 +869,8 @@
 						understanding of the world of the play. I will use this technique to suggest
 						one possible way of exploring <title level="m">Belle’s Stratagem</title>
 						dramaturgically. </p>
-					<p n="33">While there are several scenes of lower-class characters used as
-						transitions in <name ref="CowleyHannah">Cowley</name>’s comedy, there are
+					<p>While there are several scenes of lower-class characters used as
+						transitions in Cowley’s comedy, there are
 						also public scenes for which little description is provided. The play opens
 						with Saville arriving with his servant at Lincoln’s Inn, one of the inns of
 						court where lawyers keep offices. Courtall describes the place as “the most
@@ -944,9 +890,8 @@
 						over the production? Or is Kitty some relic from his past? Is he in her
 						debt? Does he owe her money? No dialogue needs to be spoken, yet questions
 						can be raised in the audience’s mind. </p>
-					<p n="34">Other public scenes include the auction and the masquerade. Are there
-						possibilities for simultaneous actions in any of these? <name
-							ref="CowleyHannah">Cowley</name> provides dialogue for the auctioneer
+					<p>Other public scenes include the auction and the masquerade. Are there
+						possibilities for simultaneous actions in any of these? Cowley provides dialogue for the auctioneer
 						and his puffers before the gentry enter, yet she doesn’t account for the
 						actions of the shills once the fashionable characters arrive. What are they
 						doing? Are they interacting? Pickpocketing? Are they successful in
@@ -959,43 +904,41 @@
 						a courtesan out for a lark? Do we recognize any of the servants or tradesmen
 						at the masquerade? Is the tabloid writer lurking there (or at the auction,
 						for that matter)? Simultaneous actions fill in the world of the play.</p>
-					<p n="35">Other possible dramaturgical approaches might be to create framing
+					<p>Other possible dramaturgical approaches might be to create framing
 						devices or to utilize Brechtian alienation techniques. In the first
-						transitional scene in the play, <name ref="CowleyHannah">Cowley</name> shows
+						transitional scene in the play, Cowley shows
 						us servants and tradespeople actively observing and feeding off the lives of
 						the fashionable. Might these working-class people observe, judge and/or
 						profit from their masters throughout the play? Might they be watching
 						everything from the sidelines or margins? Might we see their reactions to
-						the stratagems and counter-stratagems of those who live the high life? <name
-							ref="CowleyHannah">Cowley</name> embeds many metatheatrical elements
+						the stratagems and counter-stratagems of those who live the high life? Cowley embeds many metatheatrical elements
 						within the comedy of various characters performing for others. Could we
 						expand on the metatheatrics and create a variation of the Shakespearean
 						conceit of one set of characters watching and reacting to another set
 						performing a play for them? When she is not part of the action, could Kitty
 						be watching and forming her own judgments that color her responses within
 						her scenes? </p>
-					<p n="36">Might some, or all, of the actors be playing their lines to the
+					<p>Might some, or all, of the actors be playing their lines to the
 						audience by calling attention to their own judgment of the characters? This
 						type of approach deliberately distances the audience from the action of the
 						play rather than draws it into a suspension of disbelief. It is part of the
-						technique <name ref="BrechtBertolt">Bertolt Brecht</name> uses to create
+						technique Bertolt Brecht uses to create
 						what he calls the “alienation effect,” and its purpose is to call attention
 						to the economic, political and class issues inherent in a dramatic text.
-							<name ref="BrechtBertolt">Brecht</name> does not want the audience to
+							Brecht does not want the audience to
 						“feel” for the characters so much as to “think” about them and the
-						significance of what they do. <name ref="BrechtBertolt">Brecht</name> lays
+						significance of what they do. Brecht lays
 						forth his theories in <title level="m">The Messingkauf Dialogues.</title>
-						<note place="foot" resp="editors" n="14"><name ref="BrechtBertolt">Bertolt
-								Brecht</name>, <title level="m">The Messingkauf Dialogues
+						<note place="foot" resp="editors">Bertolt
+								Brecht, <title level="m">The Messingkauf Dialogues
 							</title>(London: Methuen, Ltd., 1965).</note> A useful assignment to
 						help students understand how Brechtian theory can be applied to historical
-						drama, is to have them read and compare <name ref="GayJohn">John
-						Gay</name>’s <title level="m">The Beggar’s Opera</title> (1728) to <name
-							ref="BrechtBertolt">Brecht</name>’s adaptation of it, <title level="m"
+						drama, is to have them read and compare John
+						Gay’s <title level="m">The Beggar’s Opera</title> (1728) to Brecht’s adaptation of it, <title level="m"
 							>The Threepenny Opera</title> (1928). What if the actress playing Kitty
 						plays her as if she is an observer commenting on her character and the
 						actions of the scene in Brechtian fashion?</p>
-					<p n="37">All of the questions I have suggested derive from the initial question
+					<p>All of the questions I have suggested derive from the initial question
 						of how to stage the character of Kitty Willis, a character who appears in
 						only two scenes of <title level="m">The Belle’s Stratagem</title> and who
 						only speaks five lines in those scenes, and yet the choices we make about
@@ -1003,7 +946,7 @@
 						dramaturgical questions must be asked about every character and every scene
 						in every production of a dramatic text, and so infinite interpretations are
 						possible and valid. Each staging must simply be consistent within itself. </p>
-					<p n="38">Teaching our students to approach Romantic Drama dramaturgically
+					<p>Teaching our students to approach Romantic Drama dramaturgically
 						teaches them to work in a multidisciplinary fashion and create a dynamic
 						relationship with the text. It encourages them to perform primary research
 						into the period and to track down images, music and cultural artifacts of
@@ -1012,13 +955,14 @@
 						to a play helps them to make personal connections as well. Our goal is to
 						help students see Romantic Drama as a multi-faceted art form as alive and
 						open to interpretation today as it was two hundred years ago.</p>
-				</div>
+			
 
-			</div>
-			<div type="citations">
+			
+			<div type="citation">
 				<head>Bibliography/Suggested Reading</head>
 				<listBibl>
-					<biblStruct xml:id="JARS">
+					
+					<biblStruct>
 						<monogr>
 							<author>Addison, Joseph</author>
 							<author>Steele, Richard</author>
@@ -1032,6 +976,7 @@
 							<extent>5 vols</extent>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Archenholz, J[ohann] W[ilhelm von]</author>
@@ -1045,6 +990,7 @@
 							<extent>2 vols</extent>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Brecht, Berthold</author>
@@ -1056,6 +1002,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Castle, Terry</author>
@@ -1068,18 +1015,20 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<analytic>
 							<author>Cattaneo, Anne</author>
 							<title level="a">Dramaturgy, An Overview</title>
 						</analytic>
 						<monogr>
-							<ref target="#JPL"/>
+							
 							<imprint>
-								<biblScope type="pp">3-15</biblScope>
+								<biblScope>pp. 3-15</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Cowley, Hannah</author>
@@ -1093,6 +1042,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Defoe, Daniel</author>
@@ -1104,6 +1054,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Fielding, Henry</author>
@@ -1113,7 +1064,9 @@
 								<date>1728</date>
 							</imprint>
 						</monogr>
-						<relatedItem type="otherEdition">
+					
+					</biblStruct>
+						
 							<biblStruct>
 								<monogr>
 									<title level="m">The Female Husband and Other Writings</title>
@@ -1127,8 +1080,9 @@
 									<title level="s">English Reprint Series</title>
 								</series>
 							</biblStruct>
-						</relatedItem>
-					</biblStruct>
+					
+						
+					
 					<biblStruct>
 						<monogr>
 							<author>Gay, John</author>
@@ -1141,6 +1095,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Hagen, Uta</author>
@@ -1152,6 +1107,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<analytic>
 							<author>Jonas, Susan</author>
@@ -1159,13 +1115,14 @@
 								Adaptation</title>
 						</analytic>
 						<monogr>
-							<ref target="#JPL"/>
+							
 							<imprint>
-								<biblScope type="pp">244-265</biblScope>
+								<biblScope>pp. 244-265</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
-					<biblStruct xml:id="JPL">
+					
+					<biblStruct>
 						<monogr>
 							<editor role='editor'>Jonas, Susan</editor>
 							<editor role='editor'>Proehl, Geoffrey</editor>
@@ -1194,6 +1151,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<analytic>
 							<author>Mazer, Cary M</author>
@@ -1201,12 +1159,13 @@
 								Directors</title>
 						</analytic>
 						<monogr>
-							<ref target="#JPL"/>
+							
 							<imprint>
-								<biblScope type="pp">292-307</biblScope>
+								<biblScope>pp. 292-307</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<analytic>
 							<author>Peace, Mary</author>
@@ -1219,13 +1178,14 @@
 							<title level="j">The Eighteenth Century: Theory and
 								Interpretation</title>
 							<imprint>
-								<biblScope type="vol">8</biblScope>
-								<biblScope type="pp">125-48</biblScope>
-								<biblScope type="no">2</biblScope>
+								<biblScope>vol. 8</biblScope>
+								<biblScope>pp. 125-48</biblScope>
+								<biblScope>no. 2</biblScope>
 								<date>Summer 2007</date>
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Rosenthal, Laura J</author>
@@ -1238,6 +1198,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Shakespeare, William</author>
@@ -1250,6 +1211,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<monogr>
 							<author>Stanislavski, Constantin</author>
@@ -1262,6 +1224,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+					
 					<biblStruct>
 						<analytic>
 							<author>Steele, Richard</author>
@@ -1270,23 +1233,17 @@
 						<monogr>
 							<title level="j">The Spectator</title>
 							<imprint>
-								<biblScope type="vol">2</biblScope>
-								<biblScope type="no">266</biblScope>
+								<biblScope>vol. 2</biblScope>
+								<biblScope>no. 266</biblScope>
 								<date>Friday, January 4, 1712</date>
 							</imprint>
 						</monogr>
-						<relatedItem type="otherEdition">
-							<biblStruct>
-								<monogr>
-									<ref target="#JARS"/>
-									<imprint>
-										<biblScope type="vol">[vol. #?]</biblScope>
-										<biblScope type="pp">534–535</biblScope>
-									</imprint>
-								</monogr>
-							</biblStruct>
-						</relatedItem>
 					</biblStruct>
+						
+						
+						
+						
+					
 					<biblStruct>
 						<monogr>
 							<author>Todd, Janet</author>
@@ -1299,6 +1256,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
+						
 					<biblStruct>
 						<monogr>
 							<author>Trusty, Simon</author>
@@ -1310,7 +1268,9 @@
 								<date>1760</date>
 							</imprint>
 						</monogr>
-						<relatedItem type="otherEdition">
+					</biblStruct>
+						
+						
 							<biblStruct>
 								<monogr>
 									<title level="m">
@@ -1319,21 +1279,21 @@
 									</title>
 									<imprint>
 										<publisher>Gale-Cengage Learning</publisher>
-										<date type="update">n.d. </date>
-										<date type="access">2010-12-09</date>
-										<biblScope type="no">CW3305850508</biblScope>
+										<date>n.d. </date>
+										
+										<biblScope>no. CW3305850508</biblScope>
 									</imprint>
 								</monogr>
 							</biblStruct>
-						</relatedItem>
-					</biblStruct>
+						
+					
 				</listBibl>
 			</div>
 			<!-- 
             <p>
                <hi>Illustrations </hi>(attached separately)</p>
             <p>Cooper, David, photographer. Kitty Willis (Aisha Kabia) taunts Courtall (Mirron E.
-               Willis), <emph>The Belle’s Stratagem</emph>, Oregon <name ref="ShakespeareWilliam">Shakespeare</name> Festival, 2005.</p>
+               Willis), <emph>The Belle’s Stratagem</emph>, Oregon <name ref="ShakespeareWilliam">Shakespeare Festival, 2005.</p>
             <p>Hogarth, William <emph>Harlot’s Progress: Scene in Bridewell</emph>, 1732. British
                Museum, The Image Gallery, Data from University of California, San Diego.</p>
             <p>Hone, Nathaniel. <emph>Catherine Maria (‘Kitty’</emph>)<emph> </emph>Fisher, 1765,
@@ -1343,7 +1303,8 @@
                </emph>Tate Online.<emph
                > </emph>http://www.tate.org.uk/britain/exhibitions/reynolds/roomguide7.shtm</p> -->
 
-
+			</div>
+			</div>
 		</body>
 	</text>
 </TEI>

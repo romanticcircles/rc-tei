@@ -1,0 +1,811 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		
+		<fileDesc>
+			
+			<titleStmt>
+				<!--  The reading texts should all be encoded as level="m"  -->
+				<title level="a">Teaching Romantic Drama: Production and Performance of the <title level="m">Haunted Tower</title></title>
+				
+				
+				<author role="primary">
+					<name>Frederick Burwick</name>
+				</author>
+				
+				<sponsor>Romantic Circles</sponsor>
+				
+				<respStmt>
+					<resp>TEI Encoding</resp>
+					<name>EXTERNAL CODER</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Praxis Editor</resp>
+					<name>Orrin N.C. Wang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Assistant Editor</resp>
+					<name>Jessica Tebo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Assistant Editor</resp>
+					<name>Anna Paige Wingfield</name>
+				</respStmt>
+			</titleStmt>
+			
+			<editionStmt>
+				<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+				<edition>YYYY-MM-DD</edition>
+			</editionStmt>
+			
+			<publicationStmt>
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					Boulder</publisher>
+				<pubPlace>Boulder, CO</pubPlace>
+				<availability status="free">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
+						or disseminated in any manner without authorization unless it is for
+						purposes of criticism, comment, news reporting, teaching, and/or classroom
+						use as provided by the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+						are copyrighted by the author/editor and may be shared only in accordance
+						with the Fair Use provisions of U.S. copyright law. Except as expressly
+						permitted by this statement, redistribution or republication in any medium
+						requires express prior written consent from the author(s)/ editor(s) and
+						advance notification of Romantic Circles. Any requests for authorization
+						should be forwarded to Romantic Circles: <address>
+							<addrLine>Romantic Circles</addrLine>
+							<addrLine>c/o Professor Thora Brylowe</addrLine>
+							<addrLine>Department of English</addrLine>
+							<addrLine>University of Colorado Boulder</addrLine>
+							<addrLine>Boulder, CO 80309</addrLine>
+							<addrLine>thora.brylowe@colorado.edu</addrLine>
+						</address></p>
+					<p>By their use of these texts and images, users agree to the following
+						conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose
+								without prior written permission from Romantic Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms
+								other than their current ones.</item>
+						</list></p>
+					<p>Users are not permitted to download these texts and images in order to mount
+						them on their own servers. It is not in our interest or that of our users to
+						have uncontrolled subsets of our holdings available elsewhere on the
+						Internet. We make corrections and additions to our edited resources on a
+						continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make
+						a link to the copies at Romantic Circles, subject to our conditions of
+						use.</p>
+				</availability>
+				<!-- Be sure that the name below matches the file name-->
+				<idno type="edition"
+					>praxis.2011.theatre.burwick</idno>
+				<idno type="resource"
+					>theatre</idno>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+						<title level="a" type="main">Teaching Romantic Drama: Production and Performance of the <title level="m">Haunted Tower</title>
+						</title>
+						<author role="secondary">
+							<persName>
+								<forename>Frederick</forename>
+								<surname>Burwick</surname>
+							</persName>
+						</author>
+						<!-- Referenece the above <idno> tag but only change the final part-->
+						<ptr
+							target="praxis/theatre/praxis.2011.theatre.burwick"/>
+						<!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+					</analytic>
+					
+					
+					<monogr>
+						<title level="m"
+							>Teaching Romantic Drama</title>
+						<title level="s">Praxis</title>
+						
+						<imprint>
+							<publisher> Romantic Circles, https://romantic-circles.org, University
+								of Colorado Boulder</publisher>
+							<pubPlace>Boulder, CO</pubPlace>
+							<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+							<date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+						</imprint>
+					</monogr>
+					
+					
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " to &#8220; or
+						&#8221;, and ' to &#8216; and &#8217;.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed except in the case of
+						diplomatic transcriptions.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em dashes have been rendered as &#8212;</p>
+					<p>En dashes have been rendered as &#8211;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>&#35; has been used for #, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+				<rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+				<rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+				<rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+				<rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+				<rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+				<rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+				<rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+				<rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+				<rendition xml:id="center" scheme="css">text-align: center;</rendition>
+				<rendition xml:id="left" scheme="css">text-align: left;</rendition>
+				<rendition xml:id="right" scheme="css">text-align: right;</rendition>
+				<rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+				<rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+				<rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+				<rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="figure" scheme="css">text-align: center; font-size:
+					12pt;</rendition>
+				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+			</tagsDecl>
+			
+			<classDecl>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+					xml:id="g">
+					<bibl>NINES categories for Genre and Material Form at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+						20014-02-27</bibl>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="dcType">
+					<bibl>NINES categories for document type at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+					xml:id="d">
+					<bibl>NINES categories for discplines at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		
+		<profileDesc>
+			<textClass>
+				<catRef scheme="#genre" target="#Paratext"/>
+				<catRef scheme="#dcType" target="#Typescript"/>
+				<catRef scheme="#discipline" target="#Literature"/>
+				<!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+				<keywords scheme="http://www.romantic-circles.org/#tags">
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		
+		<revisionDesc>
+			<change>
+				<!--  Coder Name and Date Coded  -->
+				<name><!-- coder --></name>
+				<list>
+					<item>TEI encoding the text</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<!--END OF HEADER-->
+	<!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+	<text>
+		<body>
+			<div type="essay">
+				<head>
+					<title level="a">Teaching Romantic Drama: Production and Performance of <title level="m">The Haunted Tower</title></title>
+				</head>
+				<byline>
+					<docAuthor>
+						<name ref="BurwickFrederick">Frederick Burwick</name>
+					</docAuthor>
+					<affiliation>Professor Emeritus, University of California Los Angeles</affiliation>
+				</byline>
+
+				<ab>Audio files for <title level="m">The Haunted Tower</title> can be found <ref target="http://www.sjsu.edu/faculty/douglass/music/album-haunted.html">here</ref>.</ab>
+				<p>Even after directing a dozen full productions of the plays of the Romantic period,<note place="foot" resp="editors">
+						Thomas Morton, <title level="m">Speed the Plough</title>, Grasmere, England, August 11, 2000; Elizabeth Inchbald, <title level="m">To Marry or Not to Marry</title>, 
+					Grasmere, England, August 10, 2001; Christian Dietrich Grabbe, <title level="m">Jest, Satire, Irony, and
+							Deeper Meaning</title>, Northwest Campus Auditorium, UCLA, March 1, 2; 3; Balch Auditorium, Scripps College, March 5,
+						2002; Joanna Baillie, <title level="m">The Tryal</title>, Grasmere, England, August 9, 2002;Thomas Lovell Beddoes, <title level="m">Death’s Jest Book</title>,
+						Northwest Campus Auditorium, UCLA, Feb. 28, March 1, 2; Balch Auditorium, Scripps College, March 6; Lincoln Center, Fordham
+						University, August 2; Grasmere, England,
+						August 22, 2003; Elizabeth Inchbald, <title level="m">Animal
+							Magnetism</title>, Balch Auditorium, Scripps College, March 4; Northwest Campus Auditorium, UCLA, March 5, 6, 7; CSU Long
+						Beach; Grasmere, England, August 13, 2004;
+							Hannah Cowley, <title level="m">A Bold Stroke for a Husband</title>,
+						Northwest Campus Auditorium, UCLA, March 4, 5, 6; University Theater, CSU Long Beach, March 10; Chapman University, March 12;
+							Grasmere, England, August 12, 2005; Marquis de Sade, <title level="m">The Haunted Tower</title> (<title level="m">La
+							Tour enchantée</title>), Northwest Campus Auditorium, UCLA, March 3, 4, 5; University Theater, CSU Long Beach, March 9;
+							Grasmere, England, August 11, 2006; Thomas Moore, <title level="m">The Gipsy Prince</title>, Balch Auditorium, Scripps
+						College, June 20, 2009.</note> I continue to alter my teaching of production and performance with each new play. One reason
+					for change is that each play brings its own peculiar set of demands on the cast. Another reason for change is that each new cast
+					brings a different set of talents to be developed. A third factor is my own evolving attention to the characteristics of period
+						acting.<note place="foot" resp="editors">
+						Frederick Burwick, “Ideal Shattered: Sarah Siddons, Madness, and the Dynamics of Gesture,” in <title level="m">Notorious Muse: The Actress in British
+							Art and Culture 1776-1812</title>, ed. Robyn Asleson (Yale UP,
+						2003), pp. 129-50; and Burwick, “Telling Lies with Body Language,” <title
+							level="m">Spheres of Action: The Concept of Performance</title>
+						<title level="m">in Romantic Thought</title>, ed. Alex J. Dick and Angela Esterhammer (U of Toronto P, 2008).</note>
+				</p>
+				<p>As an introduction to the drama of 1780-1830, with emphasis on production and performance, English 97H: <emph>Romantic Drama.
+					Production and Performance</emph>, includes practice in acting styles of the period (gesture, elocution, delivery), historical theater
+					construction, period costumes, and stage design. Although a large number of theater majors, music majors, and English majors turn
+					out, auditions are open to all students. They are asked to prepare a monologue, a song, and to provide a “cold” reading of a
+					dramatic passage. In selecting the play to be performed each year, the primary concerns are to find a play that will challenge
+					student abilities, that will be accessible to our audiences, that will be rich in historical relevance, and that will depict the
+					temper and tastes of the period. Because the theater of the period is musical theater, there is also the difficulty of securing a
+					musical score. Many productions relied on interpolated songs, and even where full scores exist, those score were often altered
+					with changes in the cast from one season to the next. Obviously the music, then as now, had to suit the abilities of the cast.</p>
+				<p>As offered during the Winter Quarter (January through March) 2006, the course actually began with enrollment/auditions at the
+					end of November in the preceding term. The course description was also the call to auditions.<note place="foot"
+						resp="editors"> English 97H. Romantic Drama. Production and Performance. Marquis de
+							Sade. <lb/> (by permission of instructor only; auditions to be held in Southbay Room, Covel Common, 7-10 p.m. Nov.
+						21 and 22): Introduction to the drama of 1780-1830, with emphasis on production and performance, including practice in acting
+						styles of the period (gesture, elocution, delivery), historical theater construction, period costumes, and stage design.
+						Because the course aims at performance and production, eight weeks will be spent in mastering the play, rehearsing, preparing
+						costumes, set, and props, followed by two weeks to perform (four performances on the UCLA campus, followed by invitational
+						performances at nearby campuses). The play selected for Winter Quarter, 2006, was the Marquis de Sade’s 
+						<title level="m">La Tour enchantée</title> (1788; revised 1810), adapted as <title level="m">The
+							Haunted Tower</title> (1789) by James Cobb, with a musical score by Stephen Storace.</note> Casting and stage crew assignments were completed the
+					following week,<note place="foot" resp="editors">
+						<hi>DRAMATIS PERSONÆ</hi>
+						<list>
+							<item>Lord William, disguised as Palamede — Erik Finck</item>
+							<item>Edmund, Baron of Oakland, usurper — Greg Cragg
+							</item>
+							<item>De Courcy, brother to Lady Elinor — Charles Maas
+							</item>
+							<item>Edward, son of false Baron — Brian Hayden
+							</item>
+							<item>Grouffing, collector of taxes — Danny Cowan
+							</item>
+							<item>Hugo, old servant of Oakland Castle — A. J. Rodriguez
+							</item>
+							<item>Lewis, servant to Lady Elinor — Robby Nadler
+							</item>
+							<item>Robert, servant of Oakland Castle — Amy Cox
+							</item>
+							<item>Charles, servant to De Courcy — Debbie Fry</item>
+							<item>Lady Elinor, in love with Lorville — Kristin Crawford</item>
+							<item>Adela, in love with Edward — Schuyler Hudak</item>
+							<item>Cicely, maid to Lady Elinor — Lauren Cheak
+							</item>
+							<item>Martina, village girl, sister to Maud — Melanie Wong</item>
+							<item>Maud, village girl, sister to Martina — Tammy Wang
+							</item>
+							<item>Fishermen, Servants, Huntsmen, Cooks, Soldiers — <lb/>
+								Sean Berquist<lb/>
+								Yvette Holzwarth
+								<lb/>
+								Nathalie Walker<lb/>
+								Kelsey Ramos</item>
+							<item>Musicians:<lb/>
+								Jong-Ling Wu (keyboard, flute)<lb/>
+								Marjorie Burns (keyboard)<lb/>
+								Stephanie Cash (clarinet)<lb/>
+								Audrey Van Norman (cello)<lb/>
+								Trevor Pratt (violin) </item>
+							<item>Vocal Director: Stephen Pu
+							</item>
+							<item>Production Manager: Vicki Leung
+							</item>
+							<item>Stage Manager: Dean Leng </item>
+							<item>Lighting: Justyna Maslowska</item>
+							<item>Costuming: Megan Correnti<lb/>
+								Mary Huang<lb/>
+								Sarah Densmore</item>
+							<item>Set Design: Jenna Murphy</item>
+						</list>
+					</note> so that all participants had the play script and musical score over the December holidays. Rehearsals commenced
+					immediately with beginning of the winter term, 7 to 10 p.m. Tuesdays and Thursdays 1<hi rendition="#sup">st</hi> through 8<hi
+						rendition="#sup">th</hi> week, with additional vocal rehearsals on Wednesday evenings. Because the course aims at performance
+					and production, the first eight weeks (of the ten-week quarter term) are spent in mastering the play, rehearsing, preparing
+					costumes, set, and props, followed by two weeks to perform. Performances were scheduled at the end of the 8<hi rendition="#sup"
+						>th</hi> week: UCLA, March 3, 4, matinee and evening of March 5; Cal State Long Beach, March 9.</p>
+				<p>The selection of the play to be performed each year is usually made during the preceding summer, when I have the opportunity
+					to browse through the archives of the Theatre Museum in Covent Garden, London. During the summer of 2005 I came across <title level="m">The Haunted Tower, a Comic
+						Opera</title>, with the compete musical score by Stephen Storace (1763-1796))
+					and the libretto by James Cobb (1756-1818). Opening at Drury Lane November 24, 1789, this comic opera was a significant success, with
+					eighty-four performances in its first two seasons, many more throughout the 1790s, and frequent revivals for the next half
+						century.<note place="foot" resp="editors">
+						Genest, <title level="m">The English Stage</title>, 6:586-88.</note> For the
+					purpose of this essay, it seemed useful to highlight a single production, so that a coherent set of examples could be provided for
+					all aspects of our efforts in a single term.<note place="foot" resp="editors"> For their usefulness in teaching Romantic
+						Drama, I am especially indebted to three essays by Marjean Purinton: “On
+						Teaching <title level="m">A Bold Stroke for a Husband</title> and Other Comedies by Romantic Women Playwrights,” <title
+							level="j">European Romantic Review</title> 17.3 (July 2006): 351-60; “Romantic Praxis: Teaching British Romanticism with
+						Drama.”  <title level="m">Engaged Romanticism</title>.  Ed. Mark Lussier and Bruce Matsunaga (Newcastle: Cambridge Scholars Press, 2008), 228-41; “Teaching
+						Orientalism through British Romantic Drama: Representations of Arabia,” <title level="m">Romantic Border Crossings</title>. 
+						Ed. Jeffrey Cass and Larry Peer
+						(Aldershot: Ashgate, 2008), 135-146.</note>
+					<title level="m">The Haunted Tower</title> provides an excellent example because of its particularly rich fabric of historical,
+					social, theatrical, and musical issues. Having in previous years directed Elizabeth
+						Inchbald’s <title level="m">Animal Magnetism</title> and Hannah Cowley’s
+						<title level="m">A Bold Stroke for a Husband</title>, I was ready to prompt students to give special attention to disguise and
+					role-playing as a dramatic means of exposing prejudicial assumptions about gender, class, and national character. <title level="m"
+						>The Haunted Tower</title> proved a good choice both pedagogically and dramatically, providing insight into social issues,
+					political tensions, national and international turmoil. The representation of English-French relations on the very eve of the
+					Revolution would, in itself, amply justify the focus on <title level="m">The Haunted Tower</title>. The fact that it is also a
+					play adapted from the French of the Marquis de Sade for performance on the English
+					stage gives it an added dimension of political complexity.</p>
+				<div type="section">
+					<head>Discovering Storace and Cobb</head>
+
+					<p>Storace and Cobb began their
+						collaboration with a translation of <title level="m">The Doctor and the Apothecary</title>, which opened at Drury Lane on October 25, 1788.
+						This production closely followed the Viennese
+						original, <title level="m">Doktor und Apotheker</title> (1786), with a score by Carl Ditters von Dittersdorf (1739-1799) 
+						and libretto by Gottlieb Stephanie (1741-1800). After the great success of <title level="m"
+							>The Haunted Tower</title>, Cobb and Storace continued their collaboration with another comic opera, <title level="m">The Siege of Belgrade</title>,
+						first performed on January 1, 1791; <title level="m">The Pirates</title>, performed at the King’s Theatre on November 21, 1792; 
+						and <title level="m">The Cherokee</title>,
+						performed December 20, 1794. In addition to his collaboration with Cobb, Storace also wrote the score for <title level="m">No Song No Supper</title>, an
+						opera in two acts by Prince Hoare (1755-1834), performed at Drury Lane
+						April 16, 1790. For Hoare’s libretto Storace introduced some of the music that
+						he had written in Venice of his opera, <title level="m">Gli equivoci</title> (December 27, 1786), based on Shakespeare’s
+							<title level="m">Comedy of Errors</title>. The music forGeorge Colman’s
+							<title level="m">The Iron Chest</title> (March 12, 1796) was also composed by Storace.</p>
+					<p> Although I was excited about working with a musical score that included 29 songs, with overture and finale, I also
+						recognized that the music would be a challenge vocally to a student cast. 
+						The success was due to the Vocal Director, Stephen Pu, graduate student in Musicology at UCLA. In an attempt to trace the origin
+						of the plot, and hoping to find hints on performance, I turned to Michael Kelly’s
+							<title level="m">Reminiscences</title> (1826). Kelly performed with the
+						Storaces in Vienna and returned with them to London in March, 1787. Kelly made regular trips to Paris in search of material for the London stage.
+						At the Comédie-Italienne in Paris, 1790, Kelly saw <title level="m">Raoul Barbe-Bleue</title>, a comic opera by Ernest Modeste Grétry (1741–1813), 
+						with libretto by Michel-Jean Sedaine (1719-1797). Kelly not only persuaded George Colman to write an English adaptation,
+							Kelly himself composed the musical score. <title level="m">Blue-Beard; or,
+							Female Curiosity</title> opened at Drury Lane on January 16, 1798.</p>
+				</div>
+				<div type="section">
+					<head>Cobb's Adaptation of Sade</head>
+
+					<p>When Kelly made the trip to Paris in
+						1788, he returned with a work entitled, <title level="m">La tour enchantée, un opéra-comique</title>. In searching for the
+						author of this French work, I discovered that it was none other than the infamous Marquis de Sade, who had sent it, along with several other plays,
+						to theaters in Paris in late summer, 1788.<note place="foot" resp="editors">
+							<title level="m">La tour enchantée, un opéra-comique</title>, as described in the Marquis de Sade’s 
+							<title level="m">Catalogue raisonné</title> (October 1, 1788), was the concluding episode to
+							a sequence of six plays entitled <title level="m">L’union des arts.</title> On February 27, 1791, Monsieur Framery, agent
+							for playwrights, informed Sade that several of the plays had been accepted
+							for performance. They remained unstaged, but <title level="m">La tour enchantée, un opéra-comique</title> made its way
+							from Paris to London. </note> This discovery
+						was not mine. John and Ben
+							Franceschina provide a comparison of the French and English versions in the introduction to their translation,
+							<title level="m">The Plays of the Marquis de Sade,</title> 3 vols. (2000).
+						Serendipitously, I also discovered that UCLA’s Clark Library possessed a manuscript of Sade’s 
+						<title level="m">La tour enchantée</title> and that the manuscript of Cobb’s libretto was in the Larpent Collection at the nearby Huntington Library.</p>
+					<p>During the Fall term I set to work with the necessary adaptations. First, I turned to Brian Holmes (San Jose State University) 
+						to adapt the musical score for performance
+						by a chamber ensemble (violin, viola, flute, keyboard) rather than a full orchestra. Brian also provided an additional song
+						for a scene that had been omitted by Cobb (“My love is not a problem” II.vi). This
+						song is sung by a tax collector, whom two young ladies are trying to persuade to enter the Haunted Tower (“Attune the pipe”
+						II.vi). The first week began with discussion of plot, character, and acting styles, and many improvisation exercises in period
+						acting accompanied scene by scene blocking of the play. For the first several weeks vocal rehearsals were held separate from
+						acting rehearsals, but because this production is so extensively musical, the two had to be integrated by the fourth week.
+						Additional time was required for vocal rehearsals right up to the time of performance at the end of the eighth week. For our
+						final dress/tech on Thursday, March 1, we had the benefit of an exclusive audience of specialists: Catherine Burroughs (Wells College), Jeff
+							Cox (Colorado), and Jane Moody (York), who provided a useful critique
+						following the performance.</p>
+					<p>The great advantage of utilizing performance and production in teaching Romantic Drama is that the students learn the
+						material literally from the inside out. They gain an understanding of the language, the acting, and the music that mere
+						reading cannot provide. With this particular play, the students were made aware of gender issues, as well as national tensions
+						(French vs. English) and social tensions (aristocracy vs. lower classes) that prevailed during the period. As the only work of
+						the Marquis de Sade to be performed on the London stage during his own lifetime,
+							<title level="m">The Haunted Tower</title> also gave students insight into the international reach of the drama of the
+						period.</p>
+				</div>
+				<div type="section">
+					<head><title level="m">The Haunted Tower</title> and its Historical Context</head>
+
+					<p>The task of rendering <title level="m">La tour enchantée</title> palatable to an English audience was far more
+						complicated than simply excising Sade’s comments about the English. Cobb had to tell the
+						story from an English rather than a French perspective. He was
+						greatly assisted in this task by Storace, who provided several set pieces to
+						reinforce a sense of British tradition: an opening chorus “To Albion’s Genius” (I.i), a hunting song, “Hark! The sweet horn”
+						(I.iii), a chorus to the “Roast Beef of Old England”(II.vii), and a drinking song
+						praising English ale, “And now we're met, a jolly set” (III.iv).<note place="foot" resp="editors"> The songs for this
+							production are available at “Romantic-Era Songs: A Site Devoted to Theater and Popular Songs,” <ref
+								target="http://www.sjsu.edu/faculty/douglass/music/index.html"
+								>http://www.sjsu.edu/faculty/douglass/music/index.html</ref>
+							<lb/> For account of past productions, with images and musical excerpts, see the site prepared by Laura Mandell (Miami
+							University, OH): <ref
+								target="http://www.units.muohio.edu/visualrhetoric/rc/burwick.html">
+								<hi>http://www.units.muohio.edu/visualrhetoric/rc/burwick.html</hi>
+							</ref>
+						</note> Further, Cobb’s version, with its marriage between Lady Elinor de Courcy and
+						Lord William, restored to his estate as the true Baron of Oakland, reestablishes harmony between France and England. The division between the
+						aristocracy and the common folk is not overcome, but the virtues and advantages of the commoners are repeatedly affirmed.
+						Indeed, the significant contribution of the subplot, the love of Edward and Adela, was to emphasize the sincerity and
+						integrity of the lower classes. Michael Kelly declares that the subplot “was
+						taken from an Italian intermezzo opera,” and it was clear that Stephen Storace
+						intended the role of Adela as a showcase for his sister Anna Storace’s
+						accomplishments, “both as a singer and an actress.” Kelly describes his own solos
+						as Lord William, “From hope's fond dream” (I.i) and “Spirit of my sainted Sire” (III.iv), as “fine songs,” but notes that the
+						latter was “one of the most difficult songs ever composed for the tenor voice.”<note place="foot" resp="editors">
+							<title level="m">Reminiscences of Michael Kelly, of the King's Theatre, and Theatre royal Drury Lane, including a period of nearly 
+								half a century; with original anecdotes of many distinguished
+								persons, political, literary, and musical</title>. Written by Theodore
+								Edward Hook, from materials furnished by Michael Kelly. 2 vols.
+							(London, H. Colburn, 1826), 1:318-20.</note>
+					</p>
+					<p>Revolutionary themes are incorporated but controverted: the corrupt aristocracy is overthrown, but the usurping Baron
+						was only a fake aristocrat. The class hierarchy is topsy-turvy. In his endeavor to fulfill his father’s expectations as heir
+						to the Baron’s estate, “plain Edward the ploughman” introduces his beloved Adela, a cottager, into court disguised as Lady
+						Elinor. Meanwhile, to avoid the unwanted marriage, Lady Elinor pretends to be her own maid-in-waiting and Lord William passes
+						himself off as a court jester. As jester, Lord William mocks the false Baron, who can only pretend to sexual attraction and
+						prowess, but is still rich enough to pay for flattery and other services: </p>
+					<quote>
+						<lg>
+							<l>Whate'er your faults, in person, mind,</l>
+							<l>(However gross) you chance to find,</l>
+							<l>Yet why should you despair?</l>
+							<l>Of flattery you must buy advice,</l>
+							<l>You're rich enough to pay the price,</l>
+							<l>So that removes your care.</l>
+							<lb/>
+							<l>(“Tho’ time has from your lordship’s face” II.ii).</l>
+						</lg>
+					</quote>
+					<p>Several songs express the honesty and freedom of the lower class. Cicely, for example, sings of her freedom “From high birth
+						and all its fetters” which allows her, in contrast to Lady Elinor who is bound in an arranged marriage, to choose the “youth I
+						love” (III.iii). Edward and Adela ridicule aristocratic pretensions in their duet, “Will great lords and ladies” (I.iii). The
+						conflict between upper and lower class is given full expression in the sestetto, “Alas! behold the silly maid” (II.iv), and
+						more directly in the cat-fight duet with Adela and Lady Elinor, “Begone! I discharge you!” (III.iii).</p>
+					<p>As John and Ben
+							Franceschina argue in the head note to their translation, a more persistent evidence of Cobb’s reliance on his source is “in the lyrics 
+							and situations of several songs that
+						seem to serve parallel functions in both shows.”<note place="foot" resp="editors">
+							Sade, <title level="m">The Plays of the Marquis de Sade.</title> Trans. and ed. John and Ben Franceschina.
+							3:4. “For example, Juliette’s opening air, 'Love, listen to my sorrow' evokes Adela’s 'Whither, my love!' (I.iii) in Cobb’s libretto. 
+							Both pieces depict long-suffering heroines yearning to be
+							reunited to their long-lost lovers in lyrics that evoke images of bondage, lovers’ tokens, and an obsession with the
+							lover’s image. Lorville’s lament recalling his leaving his lover behind, 'Oh! Juliette' is echoed in Cobb’s libretto with
+							Charles’s 'My native land I bade adieu' (I.iv), in which the
+							noble servant character philosophizes about the girl he left behind. In both airs, the characters singing imagine that the
+							intensity of emotion has changed on the part of the women involved. In the English work, Charles accepts the situation
+							with wry humor; in the French, Lorville responds melodramatically in images of bondage and death.” </note> Indeed, <title
+							level="m">La tour enchantée</title> provides prime evidence of Sade’s skill
+						as lyricist, and Cobb followed Sade’s
+						lead in his English adaptation. It was also to Cobb’s great advantage that he had
+						the collaboration of Stephen Storace, whose score has been judged “the most
+						successful full-length opera that Drury Lane staged in the entire century.”<note
+							place="foot" resp="editors">Roger Fiske, <title level="m">English Theatre Music in the Eighteenth Century</title>
+							(Oxford UP, 1986), p. 501; cited in <title level="m">The Plays of the Marquis de
+									Sade</title>, p. 3</note>
+					</p>
+					<p>Sade’s setting was contemporary. Cobb changed the setting back to the time of William the Conqueror. In adapting <title level="m">The Haunted
+							Tower</title>, I brought the time forward again to the reign of George III in order to make the references to the French
+						Revolution more evident. Among other changes, I restored the opening dialogue between Juliette and Louise (Lady Elinor and
+						Cicely), which provides at the very beginning of the play the explanation of the haunting. I also restored the scene in which
+						an attempt is made to persuade Grouffignac, the tax collector, to enter the haunted tower. Here I made the further change of
+						giving the task of seducing the tax collector to two village girls rather than to Juliette and Louise. </p>
+					<p>Much of the humor of the play derives from differences in manner and speech between French and English, and between
+						upper and lower classes. These differences are compounded by the many role reversals. Having fled as a young boy to France, 
+						the exiled Lord William has survived as the Frenchman Sir Palamede, is concealed
+						in the De Courcy estate dressed as a girl by Cicely, and presented at the English court as a Jester. In his role as the
+						usurping Baron, Edmund the ploughman is boorishly clumsy in affecting grand airs, and obnoxious in his presumption of sexual
+						liberties. To marry her beloved Edward, Adela must disguise herself as Lady Elinor, and Lady Elinor, to avoid marriage to
+						Edward, pretends to be her own maid-in-waiting.</p>
+				</div>
+				<div type="section">
+					<head>Period Acting and Gesture</head>
+
+					<p>Practice in physical expression, “carriage and deportment,” were a part of the improvisational warm-up exercises at the
+						beginning of each class. A major source on body language in the period is Johann
+							Jacob Engel’s <title level="m">Ideen zu einer Mimik</title> (1785). “Adapted to the English Drama” by Henry Siddons in 
+						<title level="m">Practical Illustrations of Rhetorical Gesture
+							and Action</title> (1807; 2nd ed. 1822). Siddons retained Engel’s emphasis on “natural” gestures and augmented his commentary with
+						cross-references to the English stage, with numerous examples drawn from the acting of John Philip Kemble and Sarah
+							Siddons.<note place="foot" resp="editors">
+							Johann Jacob Engel (1741-1802) based his observations in his <title
+								level="m">Ideen zu einer Mimik</title> (2 vols. Berlin, 1785/86; rpt. Hildesheim, 1968) primarily on the performances
+							of Friedrich Ludwig Schröder and August Wilhelm Iffland. Engel, contemporary with Lessing, Mendelssohn, Goethe, and Schiller, 
+							was a recognized critic of the drama.
+							Following his work, <title level="m">Über Handlung, Gespräch und Erzählung</title> (<title level="m">On Plot, Dialogue,
+								and Narrative</title>; 1774), his study of gesture was recognized as the major work on mimic, mimetic, and mimismetic
+							expression. See: Doris Bachmann-Medick, <title level="m">Die ästhetische Ordnung des Handelns. Moralphilosophie und
+								ästhetik in der Populärphilosophie des 18. Jahrhunderts</title> (Stuttgart: Metzler, 1989), pp. 78-137.</note>
+						Anecdotal, yet with many well-delineated examples of the mannerisms of individual performers, 
+						Michael Kelly’s <title level="m">Reminiscences</title> (1826) provides useful
+						insights into character acting.<note place="foot" resp="editors">
+							Kelly, <title level="m">Reminiscences</title>; see note 8 above.</note> Many
+						of the illustrations for the Boydell Shakespeare Gallery document stage gesture and movement,<note place="foot" 
+							resp="editors">
+							<title level="m">The Boydell Shakespeare Gallery</title>, ed. Frederick
+								Burwick and Walter Pape (Bottrop: Peter Pomp, 1996).</note> and the Kemble Promptbooks give detailed information
+						on blocking.<note place="foot" resp="editors">
+							<title level="m">John Philip Kemble’s Promptbooks of Plays by Shakespeare, and others, published between 1799-1811</title>, 11 vols., ed.
+								Charles H. Shattuck. Charlottesville: Published for the Folger
+							Shakespeare Library by the University Press of Virginia, 1974. </note>
+					</p>
+
+					<p>Typical improvisational exercises involved creating scenarios for selected poses among the sixty-nine plates from Engel/Siddons: Suspicion,
+						Contempt, Pride, Phlegm, Hauteur, Doubt, Scorn, Astonishment, etc. In their initial reaction, students found the gestures
+						highly stylized and artificial. The strangeness of period conventions, however, soon became familiar with practice. Typical of
+						these exercises were the enactment Doubt and Apprehension in the manner of John
+							Philip Kemble’s performance of Hamlet’s soliloquy: <lb/>
+						<figure>
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/apprehension.jpg"/>
+							<figDesc>Apprehension, Engel/Siddons Plate 10</figDesc>
+						</figure></p>
+						<p>Fig. 1 Apprehension, Engel/Siddons Plate 10</p>
+						<p>The pace and the movement of arms are synchronized with the movement of the mind: now moving slowly, now irregular,
+						now agitated and quick. “The moment that a difficulty presents itself, the play of the hands entirely ceases – the eye, which,
+						as well as the head, had a gentle and placid motion, while the thought was easy, and unfolded itself without labour, [...] in
+						this new situation looks straight forward, and the load falls on the heart, until, after the first shock of doubt [...]
+						suspended activity resumes its former walk.” The pace, the tilt of head, the movement of the hands and arms, must undergo a
+						transformation from agitation to control. As if he catches himself, he stops still, gathers composure, then delivers his
+						soliloquy. Hamlet’s reflections bring him to a crux: “To die, to sleep;/ To sleep, perchance to dream” (III.i). Hamlet comes
+						to a full halt, pauses a moment, then exclaims “ay, there’s the rub,” and at the same moment should give the exterior sign of
+						that which his interior penetration alone has enabled him to discover.</p>
+				</div>
+
+				<div type="section">
+					<head>Set Design, Costume, and Performance</head>
+
+					<p>In spite of a strong commitment to recreating the conditions of Romantic performance, I make only a modest attempt to
+						recreate stage designs and no attempt at all to imitate what was accomplished with traps, painted backdrops, wing-in-groove
+						scenery, or the lamp lighting of the period.<note place="foot" resp="editors"> On stage design and mechanics, see:
+							Ulf Küster, ed.<title level="m"> Theatrum Mundi, Die Welt als Bühne</title>
+							(Munich: Minerva, 2003); on stage lighting, see: Terence Rees, <title level="m">Theatre Lighting in the Age of Gas</title>
+							(London: The Society for Theatre Research, 1978); on special effects, see: Burwick, “Romantic Drama: from Optics to Illusion,” 
+							<title level="m">Literature and Science: Theory and
+								Practice</title>, ed.Stuart Peterfreund (Boston: Northeastern
+							University Press, 1990), pp. 167-208.</note> Instead, I rely on conventional stage lighting, colored spots, and, as much as
+						possible, single-set staging with a minimum use of larger props (tables, chairs). The set for <title level="m">The Haunted
+							Tower</title>, designed and constructed under the supervision of Jenna Murphy and her crew of five students, was based on
+						the title-page copper-plate engraving by Simkins depicting the original setting for <title level="m">The Haunted Tower</title>
+						in 1790.<note place="foot" resp="editors">
+							<title level="m">The Haunted Tower, a Comic Opera in Three Acts, as Performed at the Theatre Royal Drury Lane, the Music Selected, Adapted, &amp; 
+								Composed by Stephen Storace</title> (London: Longman and Broderip, 1790).</note> As
+						may be seen in the photographs below, the set was dominated by a 17-foot haunted tower, flanked by flats with two gnarled trees
+						on one side, and an arcade of pillars on the other. The tower featured an up-stairs window, from which a light flickered as
+						cued in the script.</p>
+					<p n="18">Those who were involved in costume design had the complex task of gleaning from source books costumes suitable for
+						period, nationality, class, and trade.<note place="foot" resp="editors"> Among the numerous reference books for
+							historical costume, the two that we relied on for this production were: Jack
+								Cassin-Scott, <title level="m">Costumes and settings for staging historical plays</title>, vol. 4
+								<title level="m">The Georgian Period</title> (London: Batsford, 1979), and Auguste Racinet, 
+							<title level="m">Le costume historique: Cinq cents planches, trois cents en couleurs,
+								or et argent, deux cents en camaieu. Types principaux du vêtement et de la parure, rapprochées de ceux de l'intérieur
+								de l'habitation dans tous les temps et chez tous les peuples, avec de nombreux détails sur le mobilier, les armes, les
+								objets usuels, les moyens de transport, etc.</title> (Paris: Firmin-Didot, 1888). Vol. 1 is mainly explanatory text
+							with an "Introduction générale"; Vols. 2-6, each with half-title only, are mainly plates accompanied by descriptive text;
+							Vol.7 is index in pamphlet binder. We also consulted: Sharon Ann
+								Burnston, <title level="m">Fitting &amp; proper: 18th century clothing from the collection of the Chester County
+									Historical Society</title>, photography by George J.
+								Fistrovich (Texarkana: Scurlock, 1998). </note> It was important that the usurping false Baron of Oakland be
+						represented in character and costume as crudely flamboyant. His costume was exaggeratedly ostentatious:</p>
+					<p>
+					<figure>
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/baronoakland.jpg"/>
+							<figDesc>Baron, Costume designed by Megan Correnti</figDesc>
+						</figure> 
+					</p>
+					<p>Fig. 2 Baron, Costume designed by Megan Correnti</p>
+						
+						
+						<p> By contrast, the French aristocrat De Courcy, brother to Lady Elinor, had to maintain a conservative dignity:</p>
+					<p>
+							<figure>
+								<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/decourcy.jpg"/>
+							<figDesc>De Courcy, Costume designed by Megan Correnti</figDesc>
+						</figure></p> 
+						<p>Fig. 3 De Courcy, Costume designed by Megan Correnti</p>
+						
+						
+				<p>		The village girls, Martina and Maud, are among the characters in the opening scene with arrival on the Kentish shore
+						of the ship bearing Lady Elinor and her retinue from <name ref="France">France</name>. As the play opens, the two
+						appear as modest peasants. In Act II, scene vi, however, they are called upon by the lecherous Baron to seduce Grouffing, the
+						tax-collector, in order to persuade him to fetch the chest of gold stored in the haunted tower. For this scene, in which they
+						sing “Attune the pipe,” their modest peasant dresses must be modified into seductive attire.</p>
+					<p>
+					<figure>
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/martinaandmaud.jpg"/>
+							<figDesc>Martina and Maud, Costumes designed by Megan Correnti</figDesc>
+						</figure>
+					</p>
+					<p>Fig. 4 Martina and Maud, Costumes designed by Megan Correnti</p>
+					
+
+					<p> In the comedies of the period, an heiress and her maid are often depicted as companions: the lady demur and modest, the
+						maid daring, witty, and saucy. The relationship between Lady Elinor and her maid Cicely adheres to this pattern, except that
+						Cicely is several degrees more assertive and commanding. She constantly interrupts Lady Elinor, gives orders to Sir Palamede,
+						and directs their actions. Her solo in Act I, “Nature to woman still so kind,” based on a Welch folk tune, asserts her sense
+						of a woman’s advantage.</p>
+					<p>
+					<figure n="5">
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/cicelyandelinor.jpg"/>
+							<figDesc>Cicely and Lady Elinor (I.ii)</figDesc>
+						
+						</figure> </p>
+					<p>Fig. 5 Cicely and Lady Elinor (I.ii)</p>
+						
+						
+						<p>Although herself a member of the serving class, Cicely is haughty and officious when addressing other servants. In
+						Act I, scene ii, as depicted, she is insulting in her rude dismissal of Maud, the village girl who has offered shelter and
+						guidance to the newly arrived party from France. The gestures, it may be noted, are
+						those prescribed by Engel/Siddons: Palamede’s contemplative curiosity, Maud’s offended astonishment, Cicely’s arrogant authority.</p>
+					<p>
+					<figure
+							n="6">
+						<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/palamede-maud-cicely.jpg"/>
+							<figDesc>Palamede, Maud, and Cicely (I.ii)</figDesc>
+						</figure></p>
+					<p>Fig. 6 Palamede, Maud, and Cicely (I.ii)</p>
+				<p>	The role of Lord William is, in effect, several roles in one. He was but a boy of twelve when the false slander
+						against his father, the Baron of Oakland, forced him into exile. Following the death of his father, a distant cousin, Edmund
+						the ploughman, has seized power as usurping Baron. In France, William took on the
+						disguise of Palamede, and matured into a promising young soldier in service to De Courcy. Here he fell in love with Lady
+						Elinor and she with him. Her father, however, has pledged her in marriage to the heir of the Baron of Oakland. Lord William,
+						of course, is the rightful heir, but he dare not make that claim until he has received the official pardon from the King. He
+						thus must remain docile and submissive, even to the demands of Cicely. Assisting him to gain access to Lady Elinor’s quarters
+						in her father’s estate, Cicely has disguised him as Lily, a maid-in-waiting. As Lily, William/Palamede was also able to make
+						the crossing in the same ship with Lady Elinor. He is caught in the dilemma of asserting his masculinity while Cicely
+						teasingly reminds him of his female role. Whatever other roles he is forced to assume, the audience must perceive that he is
+						indeed his own man and capable heir to his father’s lands. When he steps forth from the haunted tower dressed in his father’s
+						armor, singing the powerful aria, “Spirit of my sainted sire” (III.iv), he has fully assumed his proper heroic stature. The
+						backflashes that explain the usurpation and exile are provided, first, by the village girl Maud, then by Hugo, faithful
+						servant of the family. Cicely’s abrupt dismissal of Maud in the above depicted scene (I.ii) is motivated by her anxiety that
+						she will lose control of the situation if Maud reveals too much of William’s eminent restoration. When William is introduced
+						as De Courcy’s court jester, the Baron ridicules his debased status, but deftly turns the tables with a satirical song
+						laughing at the Baron’s impotent and ineffectual prowess. </p>
+					<p>
+					<figure n="7">
+						<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/huntsmenandrobert.jpg"/>
+							<figDesc>The Huntsmen (Chorus) and Robert (I.iii)</figDesc>
+						</figure> 
+					</p>
+					<p>Fig. 7 The Huntsmen (Chorus) and Robert (I.iii)</p>
+						
+					<p>	As noted above, Cobb and Storace fortified the Englishness of their adaptation by introducing traditional English themes in their songs. How
+						the entrance and exit of a chorus was managed at Drury Lane I could discover neither
+						in Kelly’s account in his <title level="m">Reminiscences</title> nor in Genest’s commentary on the premier performance.<note place="foot"
+							resp="editors">
+							Kelly, <title level="m">Reminiscences</title>, 1:318-20; Genest, <title level="m">The English Stage</title>, 6:586-88. </note> My
+						solution was to present a quartet (two sopranos, an alto, and a tenor) with changes in costume but always the same as
+						characters. For the opening chorus (I.i) they were costumed as fishermen, as huntsmen led in song by Robert (I.iii), as
+						servants to the false Baron (I.iii), as cooks, again led by Robert in singing the “Roast Beef of Old <name
+							ref="England">England</name>”(II.vii), and as soldiers (I.iv and III.vi). The chorus thus had four costume
+						changes, but they were instructed always to synchronize their movements and gestures, as in the above scene as huntsmen. The
+						one exception was their signature entrance: they would march on stage perfectly coordinated, then stumble and bump into each
+						other when they came to a halt.</p>
+					<p>
+					<figure>
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/decourcyandbaron.jpg"/>
+							<figDesc>De Courcy and the Baron (III.i)</figDesc>
+						</figure>
+					</p>
+					<p>Fig. 8 De Courcy and the Baron (III.i)</p>
+
+					<p>The comic center of <title level="m">The Haunted Tower</title> is the lecherous and self-aggrandizing fake Baron. He
+						exploits and abuses the lower classes as mere objects of his desires. Just clever enough to be aware of his own clumsiness in
+						pretending to nobility, he constantly suspects that others of rank and power are laughing at his pretensions and attempting to
+						undermine his authority. His suspicions are not ill-founded. In the scene depicted above (III.i), the Baron expresses to De
+						Courcy his fears that a revolution, led by De Courcy’s court jester, is at hand. De Courcy, of course, perceives that the
+						court jester is Sir Palamede, one of his own retinue. He knows Palamede’s affections for his sister, yet he has assumed that
+						Lady Elinor would not dishonor her father’s pledge that she marry the son of the Baron of Oakland. In performing the role of
+						the false Baron, Greg Cragg followed my cues in adapting several of Robert Baddeley’s mannerisms, 
+						including what Michael Kelly described as Baddeley’s “habit of smacking his lips always when
+							speaking.”<note place="foot" resp="editors">
+							Kelly, Reminiscences, 2:70. See also: William Davenport Adams. <title level="m">A Dictionary of the
+								Drama: A Guide to the Plays, Playwrights, Players, and Playhouses of the United Kingdom and America, from the Earliest
+								Times to the Present</title>. 2 vols. (London: Chatto &amp; Windus, 1904), 1:99.</note> In this performance the
+						Baron’s lip-smacking made his words seem all the more lecherous. In the early scenes he performed his entrances with a pompous
+							strut.<note place="foot" resp="editors"> See Engel/Siddons, <title level="m">Rhetorical Gesture</title>, on Pride, Hauteur,
+							Voluptuary, and Vulgar Arrogance, pp. 51, 52, 97, 153.</note> Only when he realizes that he is under siege by the rightful
+						heir of Oakland does his pretentious “Hauteur” lapse into distraught fear.</p>
+					<p>
+					<figure >
+							<graphic width="400px" url="/prod/sites/default/files/imported/pedagogies/theatre/images/edward-adela-baron.jpg"/>
+							<figDesc>Edward, Adela, and the Baron (III.i)</figDesc>
+						</figure>
+					</p>
+					<p>Fig. 9 Edward, Adela, and the Baron (III.i)</p>
+
+					<p>At the beginning of Act III, De Courcy finally meets Adela, the peasant girl who has been impersonating his sister.
+						Edward, son of the false Baron, is in love with the peasant girl Adela. Just as Lady Elinor must accept her father’s decision
+						that she marry the heir of the Baron of Oakland, Edward must comply with his father’s eager pursuit of the marriage which will
+						lend legitimacy to his own claims of nobility. Edward contrives the plot to disguise Adela as Lady Elinor and thus consummate
+						the marriage before the real Lady Elinor arrives. The real Lady Elinor arrives too early, but is readily persuaded by Cicely
+						to play along with the hoax in order to escape an unwanted marriage to Edward. This scene commences with De Courcy in pursuit
+						of Sir Palamede, whom he now fears has turned traitor and seeks to elope with his sister. After the false Baron informs him
+						that a revolution is underway, Edward arrives half-drunk from his tryst with Adela, whom he has introduced into the Oakland
+						court as Lady Elinor. Considering his sister’s honor insulted by Edward’s overly familiar claims of intimacy with “my wife
+						that is to be,” De Courcy is about to draw his sword. At this moment Adela arrives, and is greeted as “Lady Elinor” by the
+						Baron and his son. Suspecting that this false identity must be a plot of Palamede’s, De Courcy declares, “I perceive, my lord,
+						you have been imposed on, but you shall soon be avenged.” Edward and Adela stand aside looking guilty and exposed, while the
+						Baron tries to puzzle out how he might have been “imposed on.” Not suspecting his son’s ruse and unable to determine any
+						source of imposition, he follows after De Courcy to “ask whether I ought to be in a passion or not.” The scene closes with
+						Adela singing a plaintive love song to Edward, “Love from the heart” (III.i). In referring to the penultimate scene (III.v),
+						when “the Baron enters with his sword drawn, and some old armour awkwardly put on,” Genest cites Hannah Cowley’s remarks on Baddeley’s performance: “a
+						great actor, holding a sword in his left hand, and making awkward passes with it, charms the audience; and brings down such
+						applauses as the bewitching dialogue of Farquhar pants for in vain.”<note place="foot" resp="editors">
+							Genest, <title level="m">The English Stage</title>, 6:588; Hannah Cowley, Preface, <title level="m">The Town Before You: a Comedy, as
+								acted at the Theatre-Royal, Covent Garden</title> (London: Printed by G. Woodfall, for T. N. Longman, 1795), p.
+							vi.</note> The implication would seem to be that by some degradation of popular taste, the comedy of gesture has gained an
+						unwarranted advantage over the comedy of witty dialogue. The charge is not without truth: Romantic comedy is not particularly
+						noted for its clever dialogue, and it does rely frequently on body language, indeed more and more so with the increasing
+						popularity of pantomime and melodrama. But this was not a passing phase. The Baron frantically waving his sword still brings
+						down the house. Nevertheless it is also true that the dialogue contains a great deal of allusive irony concerning the politics
+						of revolution.</p>
+					<p>Although the performers were well cued on pacing their delivery to allow that irony to emerge, many of the potential
+						laugh-lines were missed by the student audiences during our four performances at UCLA. The cast and crew were therefore
+						pleased and surprised by the much more responsive audience of literary scholars attending the performance on March 9, at the
+						41st Annual Comparative Literature Conference, California State University, Long Beach. The success of our performances were
+						due entirely to the talent and dedication of the students involved. Gifted singers like Schuyler Hudak as Adela, Kristin
+						Crawford as Lady Elinor, and Lauren Cheak as Cicely brought Storace’s score to
+						life, and Stephen Pu as vocal director enabled the entire cast to achieve excellence in virtuoso solos as well as complex
+						choral pieces.</p>
+					<p>In the final scene (III.vi), Lord William is revealed as rightful Baron of Oakland. He reconciled with De Courcy who
+						affirms that no obstacle interferes with his father’s pledge of Lady Elinor’s hand in marriage. Edward is free to marry Adela.
+						The comic opera concludes with the first Grand Finale to be performed on a London Stage: <quote>
+							<lg>
+								<l>The banished ills of heretofore</l>
+								<l>At happy distance viewing;</l>
+								<l>Of the past we’ll think no more,</l>
+								<l>While future bliss pursing. <lb/>
+									(III.vi)</l>
+							</lg>
+						</quote> Crucial here is that Lord William exonerates the false Baron of all crimes related to his usurpation and committed
+						under his rule. The “happy ending” reconciles French-English animosities and class conflict at the very moment in history,
+						immediately following the outbreak of the French Revolution, when these tensions were at a peak. Whether or not the audience
+						saw any contemporary relevance in this doctrine of reconciliation, the finale gave an optimistic “feel good” conclusion to a
+						comedy of disguise, deceit, and sadistic exploitation.</p>
+					<lb/>
+					<lb/>
+					<ab>Audio files for <title level="m">The Haunted Tower</title> can be found <ref target="http://www.sjsu.edu/faculty/douglass/music/album-haunted.html">here</ref>.</ab>
+				</div>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

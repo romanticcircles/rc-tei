@@ -1,112 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
+		
 		<fileDesc>
+			
 			<titleStmt>
-				<title type="main">“La Belle Dame sans Merci”: </title>
-				<title type="subordinate">a multimedia introduction to interpretive dynamics</title>
-				<author>
+				<!--  The reading texts should all be encoded as level="m"  -->
+				<title level="a">“La Belle Dame sans Merci”: a multimedia introduction to interpretive dynamics</title>
+				
+				
+				<author role="primary">
 					<name>Noah Comet</name>
 				</author>
-				<editor role='editor'>
-					<name>Thomas Crochunis</name>
-				</editor>
+				
 				<sponsor>Romantic Circles</sponsor>
+				
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Neil Fraistat</name>
+					<resp>TEI Encoding</resp>
+					<name>EXTERNAL CODER</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Praxis Editor</resp>
+					<name>Orrin N.C. Wang</name>
 				</respStmt>
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Steven E. Jones</name>
+					<resp>Assistant Editor</resp>
+					<name>Jessica Tebo</name>
 				</respStmt>
 				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-				<respStmt>
-					<resp>Pedagogies Editor</resp>
-					<name>Kate Singer</name>
+					<resp>Assistant Editor</resp>
+					<name>Anna Paige Wingfield</name>
 				</respStmt>
 			</titleStmt>
+			
+			<editionStmt>
+				<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+				<edition>YYYY-MM-DD</edition>
+			</editionStmt>
+			
 			<publicationStmt>
-				<idno>commons4.2011.comet</idno>
-				<publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-				<pubPlace>College Park, MD</pubPlace>
-				<date when="2011-02-23">February 23, 2011</date>
-				<availability status="restricted">
-					<p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in any manner without
-						authorization unless it is for purposes of criticism, comment, news reporting, teaching, and/or classroom use as provided by
-						the Copyright Act of 1976, as amended.</p>
-					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by the author/editor and may be
-						shared only in accordance with the Fair Use provisions of U.S. copyright law. Except as expressly permitted by this statement,
-						redistribution or republication in any medium requires express prior written consent from the author/editors and advance
-						notification of Romantic Circles. Any requests for authorization should be forwarded to Romantic Circles:&gt;
-						<address>
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					Boulder</publisher>
+				<pubPlace>Boulder, CO</pubPlace>
+				<availability status="free">
+					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
+						or disseminated in any manner without authorization unless it is for
+						purposes of criticism, comment, news reporting, teaching, and/or classroom
+						use as provided by the Copyright Act of 1976, as amended.</p>
+					<p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles
+						are copyrighted by the author/editor and may be shared only in accordance
+						with the Fair Use provisions of U.S. copyright law. Except as expressly
+						permitted by this statement, redistribution or republication in any medium
+						requires express prior written consent from the author(s)/ editor(s) and
+						advance notification of Romantic Circles. Any requests for authorization
+						should be forwarded to Romantic Circles: <address>
 							<addrLine>Romantic Circles</addrLine>
-							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>c/o Professor Thora Brylowe</addrLine>
 							<addrLine>Department of English</addrLine>
-							<addrLine>University of Maryland</addrLine>
-							<addrLine>College Park, MD 20742</addrLine>
-							<addrLine>fraistat@umd.edu</addrLine>
+							<addrLine>University of Colorado Boulder</addrLine>
+							<addrLine>Boulder, CO 80309</addrLine>
+							<addrLine>thora.brylowe@colorado.edu</addrLine>
 						</address></p>
-					<p>By their use of these texts and images, users agree to the following conditions: <list>
-							<item>These texts and images may not be used for any commercial purpose without prior written permission from Romantic
-								Circles.</item>
-							<item>These texts and images may not be re-distributed in any forms other than their current ones.</item>
+					<p>By their use of these texts and images, users agree to the following
+						conditions: <list>
+							<item>These texts and images may not be used for any commercial purpose
+								without prior written permission from Romantic Circles.</item>
+							<item>These texts and images may not be re-distributed in any forms
+								other than their current ones.</item>
 						</list></p>
-					<p>Users are not permitted to download these texts and images in order to mount them on their own servers. It is not in our
-						interest or that of our users to have uncontrolled subsets of our holdings available elsewhere on the Internet. We make
-						corrections and additions to our edited resources on a continual basis, and we want the most current text to be the only one
-						generally available to all Internet users. Institutions can, of course, make a link to the copies at Romantic Circles, subject
-						to our conditions of use.</p>
+					<p>Users are not permitted to download these texts and images in order to mount
+						them on their own servers. It is not in our interest or that of our users to
+						have uncontrolled subsets of our holdings available elsewhere on the
+						Internet. We make corrections and additions to our edited resources on a
+						continual basis, and we want the most current text to be the only one
+						generally available to all Internet users. Institutions can, of course, make
+						a link to the copies at Romantic Circles, subject to our conditions of
+						use.</p>
 				</availability>
+				<!-- Be sure that the name below matches the file name-->
+				<idno type="edition"
+					>praxis.2011.theatre.comet</idno>
+				<idno type="resource"
+					>theatre</idno>
 			</publicationStmt>
+			
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title level="a" type="main">“La Belle Dame sans Merci”: </title>
-						<title level="a" type="subordinate">a multimedia introduction to interpretive dynamics</title>
-						<author>
+						<!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+						<title level="a" type="main">“La Belle Dame sans Merci”: a multimedia introduction to interpretive dynamics
+						</title>
+						<author role="secondary">
 							<persName>
 								<forename>Noah</forename>
 								<surname>Comet</surname>
 							</persName>
 						</author>
+						<!-- Referenece the above <idno> tag but only change the final part-->
+						<ptr
+							target="praxis/theatre/praxis.2011.theatre.comet"/>
+						<!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
 					</analytic>
+					
+					
 					<monogr>
-						<title level="m">Teaching Romantic Drama: </title>
-						<title level="j">A Romantic Circles Pedagogies Commons Volume</title>
+						<title level="m"
+							>Teaching Romantic Drama</title>
+						<title level="s">Praxis</title>
+						
 						<imprint>
-							<publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
-							<pubPlace>College Park, MD</pubPlace>
-							<date when="2011-02-23">February 23, 2011</date>
-							<biblScope type="vol">4</biblScope>
+							<publisher> Romantic Circles, https://romantic-circles.org, University
+								of Colorado Boulder</publisher>
+							<pubPlace>Boulder, CO</pubPlace>
+							<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+							<date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
 						</imprint>
 					</monogr>
+					
+					
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
+		
 		<encodingDesc>
 			<editorialDecl>
 				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for ’.</p>
+					<p>All quotation marks and apostrophes have been changed: " to &#8220; or
+						&#8221;, and ' to &#8216; and &#8217;.</p>
 				</quotation>
 				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
-					<p>Em-dashes have been rendered as #8212</p>
+					<p>Any dashes occurring in line breaks have been removed except in the case of
+						diplomatic transcriptions.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em dashes have been rendered as &#8212;</p>
+					<p>En dashes have been rendered as &#8211;</p>
 				</hyphenation>
 				<normalization method="markup">
 					<p>Spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as such, the content recorded in brackets.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
 				</normalization>
 				<normalization>
 					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML entity decimals.</p>
+					<p>&#35; has been used for #, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
 				</normalization>
 			</editorialDecl>
+			
 			<tagsDecl>
 				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
 				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -126,147 +174,67 @@
 				<rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
 				<rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
 				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
-				<rendition xml:id="figure" scheme="css">text-align: center; font-size: 10pt;</rendition>
+				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+				<rendition xml:id="figure" scheme="css">text-align: center; font-size:
+					12pt;</rendition>
+				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
 			</tagsDecl>
+			
 			<classDecl>
-				<taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E" xml:id="genre">
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+					xml:id="g">
 					<bibl>NINES categories for Genre and Material Form at
-						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on 2009-02-26</bibl>
-					<category xml:id="g1">
-						<catDesc>Architecture</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Artifacts</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Letters</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Politics</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Folklore</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>History</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Leisure</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Humor</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Education</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Music</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>nonfiction</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Perodical</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Philosphy</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Family Life</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Visual Art</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Travel</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Book History</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Law</catDesc>
-					</category>
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+						20014-02-27</bibl>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="dcType">
+					<bibl>NINES categories for document type at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+					xml:id="d">
+					<bibl>NINES categories for discplines at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+						2014-02-27</bibl>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
+		
 		<profileDesc>
 			<textClass>
-				<catRef target="#g18" scheme="#genre"/>
+				<catRef scheme="#genre" target="#Paratext"/>
+				<catRef scheme="#dcType" target="#Typescript"/>
+				<catRef scheme="#discipline" target="#Literature"/>
+				<!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+				<keywords scheme="http://www.romantic-circles.org/#tags">
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+				</keywords>
 			</textClass>
 		</profileDesc>
+		
 		<revisionDesc>
 			<change>
-				<name>Laura Mandell</name>
-				<date>2011-02-18</date>
+				<!--  Coder Name and Date Coded  -->
+				<name><!-- coder --></name>
 				<list>
-					<item>revised TEI</item>
-					<item>XSLT</item>
-				</list>
-			</change>
-			<change>
-				<name>Dave Rettenmaier</name>
-				<date>2010-06-01</date>
-				<list>
-					<item>TEI encoding the issue</item>
-				</list>
-			</change>
-			<change>
-				<name>Thomas Crochunis</name>
-				<date>2009-11-01T15:01:00</date>
-				<list>
-					<item>Proofed issue in Open Office Format</item>
+					<item>TEI encoding the text</item>
 				</list>
 			</change>
 		</revisionDesc>
 	</teiHeader>
+	<!--END OF HEADER-->
+	<!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
 	<text>
 		<body>
 			<div type="essay">
@@ -280,11 +248,11 @@
 				</byline>
 
 
-				<div type="section" n="1">
+				<div type="section">
 					<head>Overview</head>
 					<p>This exercise consists of two parts: a take-home assignment (about 25 minutes), and an in-class movie screening, followed by
-						classroom discussion (50 minutes or more). Students are to compare their own seemingly objective responses to <name
-							ref="KeatsJohn">John Keats</name>’s “La Belle Dame sans Merci” with filmmaker Hidetoshi Oneda’s short adaptation of the
+						classroom discussion (50 minutes or more). Students are to compare their own seemingly objective responses to John Keats’s 
+						“La Belle Dame sans Merci” with filmmaker Hidetoshi Oneda’s short adaptation of the
 						poem (for more information, see <ptr target="http://www.celophaine.com/lbdsm/lbdsm_top.html"/>). The aim of the exercise is to
 						challenge students’ notions of objectivity, and to make them self-aware readers, thus classroom discussion should emphasize
 						the ambiguities of poetic language, and the role of the reader/viewer as co-creator of meaning. Additionally, you might ask
@@ -293,110 +261,105 @@
 						to help students to appreciate the ostensibly passive act of reading as an active, creative process, it is most useful early
 						in the term as a methodological primer. In addition, the exercise can be easily adapted to advanced courses specializing in
 						Romanticism. To that end, below, I have suggested how an instructor might connect the themes at hand to other literary and
-						generic contexts, with a particular emphasis on Romantic drama.<note place="foot" resp="editors" n="1"><ab>For an
-								upper-division course, <name ref="LambCharles">Charles Lamb</name>’s essay “On the Tragedies of <name
-									ref="ShakespeareWilliam">Shakespeare</name>” would make for a fine companion-text to this exercise. <name
-									ref="LambCharles">Lamb</name> states that, in seeing a <name ref="ShakespeareWilliam">Shakespeare</name> tragedy
+						generic contexts, with a particular emphasis on Romantic drama.<note place="foot" resp="editors"><ab>For an
+								upper-division course, Charles Lamb’s essay “On the Tragedies of Shakespeare” would make for a fine companion-text to this exercise. 
+								Lamb states that, in seeing a Shakespeare tragedy
 								performed, “we have given up that vantage-ground of abstraction which reading possesses over seeing” (I. 106). Given
 								the task at hand, to compare reading and seeing, the generic distinction between our interest in dramatic poetry and
-									<name ref="LambCharles">Lamb</name>’s interest in drama matters very little. This is not to argue that “La Belle
-								Dame” confronts the reader with the range of complexities that <name ref="LambCharles">Lamb</name> notices in <title
+									Lamb’s interest in drama matters very little. This is not to argue that “La Belle
+								Dame” confronts the reader with the range of complexities that Lamb notices in <title
 									level="m">Hamlet</title>, but rather to point out similarities in practice as <emph>readers</emph> and
 									<emph>seers</emph>, whether of poetry or drama.</ab><lb/>
-							<ab> An advanced version of this exercise might consider the nature of filmic adaptation in <name ref="LambCharles"
-									>Lamb</name>’s terms: “When the novelty is past, we find to our cost that, instead of realising an idea, we have
+							<ab> An advanced version of this exercise might consider the nature of filmic adaptation in Lamb’s terms: “When the novelty is past,
+								we find to our cost that, instead of realising an idea, we have
 								only materialised and brought down a fine vision to the standard of flesh and blood. We have let go a dream, in quest
 								of an unattainable substance” (I. 98). The students should not be led to a simplistic hierarchy of reading over
-									performance—<name ref="LambCharles">Lamb</name> himself is careful to note that he is “not arguing that Hamlet
+									performance—Lamb himself is careful to note that he is “not arguing that Hamlet
 								should not be acted, but how much Hamlet is <emph>made another thing</emph> by being acted” (I. 101, my emphasis).
 								Instead, they should develop a critique both for and against the idea of performance as transformative and
 								simplifying, as detrimental to creative liberty and multidimensionality.</ab><lb/>
 							<ab> Upper-division students might also explore such concerns about reading and seeing among the writings of other
-								Romantic critics. <name ref="BaillieJoanna">Joanna Baillie</name> considered the unsuitability of her own plays for
+								Romantic critics. Joanna Baillie considered the unsuitability of her own plays for
 								stage performance in her note “To the Reader,” appended to <title level="m">A Series of Plays</title> (1812, also
-								included as an appendix in <title level="m">The Broadview Anthology of Romantic Drama,</title> pp. 370-78). <name
-									ref="BaillieJoanna">Baillie</name>’s argument complements <name ref="LambCharles">Lamb</name>’s in several
+								included as an appendix in <title level="m">The Broadview Anthology of Romantic Drama,</title> pp. 370-78). 
+								Baillie’s argument complements Lamb’s in several
 								respects, especially in her emphasis on the limitations of stage-mechanics and the difficulty of communicating emotion
-								to an audience in one of <name ref="London">London</name>’s vast playhouses. <name ref="ColeridgeSamuelTaylor">Samuel
-									Taylor Coleridge</name>’s lectures on <name ref="ShakespeareWilliam">Shakespeare</name> also provide numerous
-								points of comparison, most importantly his agreement with <name ref="LambCharles">Lamb</name> that <name
-									ref="ShakespeareWilliam">Shakespeare</name> suffered in performance, thus the ineptitude of modern production
+								to an audience in one of London’s vast playhouses. Samuel
+									Taylor Coleridge’s lectures on Shakespeare also provide numerous
+								points of comparison, most importantly his agreement with Lamb that Shakespeare suffered in performance, thus the ineptitude of modern production
 								companies “drove Shakespear[e] from the stage, to find his proper place, in the heart and in the closet” (<title
-									level="m">Lectures</title> I, 563). <name ref="HazlittWilliam">William Hazlitt</name> went further than <name
-									ref="LambCharles">Lamb</name> or <name ref="ColeridgeSamuelTaylor">Coleridge</name>, declaring that “the reader of
-								the plays of <name ref="ShakespeareWilliam">Shakespeare</name> is almost always disappointed in seeing them acted;
+									level="m">Lectures</title> I, 563). William Hazlitt went further than Lamb or Coleridge, declaring that “the reader of
+								the plays of Shakespeare is almost always disappointed in seeing them acted;
 								and, for our own parts, we should never go to see them acted if we could help it” (<title level="m">A View of the
 									English Stage</title>, V, 222). (When introducing the subject of Romantic attitudes toward performance vis-à-vis
-									<name ref="ShakespeareWilliam">Shakespeare</name>, it might be useful to point students to <name
-									ref="BurwickFrederick">Frederick Burwick</name>’s essay on the subject in the Blackwell <title level="m">Companion
+									Shakespeare, it might be useful to point students to Frederick Burwick’s essay on the subject in the Blackwell <title level="m">Companion
 									to Romanticism,</title> edited by Duncan Wu.)</ab><lb/>
-							<ab>If we choose to point out these similarities underlying the dramatic criticism of <name ref="LambCharles">Lamb</name>,
-									<name ref="BaillieJoanna">Baillie</name>, <name ref="ColeridgeSamuelTaylor">Coleridge</name>, and <name
-									ref="HazlittWilliam">Hazlitt</name>, it makes good sense to spend some time talking about the history of English
-								theater, including developments in licensing, bowdlerization (again, <name ref="LambCharles">Lamb</name> would figure
-								prominently), celebrity culture, and leisure activities among the new middle class. The <name ref="KeatsJohn"
-									>Keats</name> exercise could therefore take on a historical dimension it lacks in its present lower-division form.
-								Furthermore, <name ref="KeatsJohn">Keats</name>’s own commentary on reading and seeing, his 1817 letter on Edmund Kean
+							<ab>If we choose to point out these similarities underlying the dramatic criticism of Lamb,
+									Baillie, Coleridge, and Hazlitt, it makes good sense to spend some time talking about the history of English
+								theater, including developments in licensing, bowdlerization (again, Lamb would figure
+								prominently), celebrity culture, and leisure activities among the new middle class. The Keats exercise could therefore take on a 
+								historical dimension it lacks in its present lower-division form.
+								Furthermore, Keats’s own commentary on reading and seeing, his 1817 letter on Edmund Kean
 								and “negative capability,” connects well with the themes at hand, and might be employed in tandem with or instead of
 								the aforementioned prose writings.</ab></note></p>
 				</div>
 
 
-				<div type="section" n="2">
+				<div type="section">
 					<head>Directions</head>
 					<list type="simple">
 						<head>Required:</head>
-						<item>Text of <name ref="KeatsJohn">Keats</name>’s “La Belle Dame sans Merci” (either version)</item>
+						<item>Text of Keats’s “La Belle Dame sans Merci” (either version)</item>
 						<item>Handout (see below)</item>
 						<item>DVD of Hidetoshi Oneda’s short film, <emph>La Belle Dame sans Merci</emph></item>
 						<item>Media-equipped classroom</item>
 					</list>
 
 					<p>For the first part of the exercise (here conceived as a take-home assignment, though it can be done in-class if time allows)
-						students should read <name ref="KeatsJohn">Keats</name>’s “La Belle Dame sans Merci” and respond to questions on a handout.
+						students should read Keats’s “La Belle Dame sans Merci” and respond to questions on a handout.
 						For the exercise to be most effective they should read the poem, put away their books, and then respond to the questions, thus
 						referring back not to the text itself, but to their memories of it. Admittedly, this is a ruse: students relying on their
 						memories are likely to conflate their own subjective contributions to the poem with textual details, and this conflation is
 						the impetus for the second part of the exercise. This portion takes about 25 minutes.</p>
 					<p>The second part of the exercise is based on an in-class screening of the short film (runtime approx. 15 min). Students should
-						be attentive to Oneda’s creative liberties with <name ref="KeatsJohn">Keats</name>’s poem. After the screening the students
+						be attentive to Oneda’s creative liberties with Keats’s poem. After the screening the students
 						should take a few minutes to review their own responses to the handout, comparing their answers with Oneda’s interpretation.
 						Consider beginning the discussion by asking them how <title level="m">Oneda</title> would have responded to the handout
 						questions.</p>
-					<p>Ask the students if they thought that Oneda’s handling of <name ref="KeatsJohn">Keats</name>’s poem was “faithful” or “loose.”
+					<p>Ask the students if they thought that Oneda’s handling of Keats’s poem was “faithful” or “loose.”
 						Have them identify both obvious and subtle variations between the poem and the film. Oneda’s directorial choices are in many
 						instances quite startling, and the students will inevitably mention his liberties with the kinds of details they worked
 						through in their handouts, particularly the age and appearance of the knight, and the identity of the first speaker. At this
-						point, shift the discussion back to the text of the poem, perhaps even reading it aloud, and emphasize <name ref="KeatsJohn"
-							>Keats</name>’s evasive use of descriptive detail. Have the students share their responses from the handout questions, and
-						ask them to find strong textual support for them. In most cases, they will find sufficient ambiguity in <name ref="KeatsJohn"
-							>Keats</name>’s poem to support Oneda’s choices with as much (or as little) stability as their own. This revelation should
+						point, shift the discussion back to the text of the poem, perhaps even reading it aloud, and emphasize Keats’s evasive use of descriptive detail. 
+						Have the students share their responses from the handout questions, and
+						ask them to find strong textual support for them. In most cases, they will find sufficient ambiguity in Keats’s poem to support Oneda’s choices with as much 
+						(or as little) stability as their own. This revelation should
 						energize a discussion of reading as a creative act, even reading in its most apparently objective guise. If time permits, you
 						might briefly discuss the semantic distinctions between an “adaptation” and an “interpretation.” Which term applies to Oneda’s
 						film, and which term applies to the act of reading?</p>
-					<p>Note: as laid out here, this exercise primarily addresses <name ref="KeatsJohn">Keats</name>’s poem <emph>vis-à-vis</emph> the
+					<p>Note: as laid out here, this exercise primarily addresses Keats’s poem <emph>vis-à-vis</emph> the
 						practice and phenomenology of reading and dramatic interpretation, not as a Romantic text in all of its historical and textual
 						glory. Below, I offer a few brief thoughts on what implications the exercise might have for our understanding of, and perhaps
-						an extended classroom discussion about, <name ref="KeatsJohn">Keats</name>’s poem itself.<note place="foot" resp="editors"
-							n="2"><ab>Much has been made of the fact that “La Belle Dame sans Merci” exists in two states, the 1820 <title level="j"
+						an extended classroom discussion about, Keats’s poem itself.<note place="foot" resp="editors"><ab>Much has been made of the 
+							fact that “La Belle Dame sans Merci” exists in two states, the 1820 <title level="j"
 									>Indicator</title> text, beginning “Ah what can ail thee, wretched wight,” and the better known 1848 Charles Brown
 								text, beginning “Oh what can ail thee, knight-at-arms.” Scholars will always debate over which version—if either—ought
 								to be seen as definitive. While the nuances of publication history and textual variants might not enliven classroom
 								discussion, the concerns about authority they raise can do so. The present exercise, with its emphasis on the
 								collaborative nature of reading, calls into question the function of textual-authority and authorial-textuality, and
 								enables, even at the undergraduate level, a discussion of the relative merits of Formalist and Historicist approaches.
-								Are we reading <name ref="KeatsJohn">Keats</name>’s poem or a poem by <name ref="KeatsJohn">Keats</name>, belatedly
-								inflected (perhaps first by a slightly older <name ref="KeatsJohn">Keats</name>, then) by Leigh Hunt or Charles Brown
+								Are we reading Keats’s poem or a poem by Keats, belatedly
+								inflected (perhaps first by a slightly older Keats, then) by Leigh Hunt or Charles Brown
 								or Richard Milnes, then by ourselves or perhaps by Hidetoshi Oneda? This is fairly well-trodden theoretical ground,
 								but it is especially apt with respect to the textual history of “La Belle Dame” and the potential of this exercise to
 								problematize authorial and readerly intention and mediation.</ab><lb/>
-							<ab>As <name ref="McGannJeromeJ">Jerome McGann</name>, <name ref="KelleyTheresa">Theresa Kelley</name>, and others have
+							<ab>As Jerome McGann, Theresa Kelley, and others have
 								shown, “La Belle Dame” proposes a number of ambiguities—and its textual history only compounds these ambiguities—but
 								this is not so much a problem as it is a provocation. Is it “merci” or “mercy,” “wild wild eyes” or “wild sad eyes”?
-								It is, of course, all of the above, and therein lies not only the appeal of <name ref="KeatsJohn">Keats</name>’s
-								poem(s) but also the immediacy of <name ref="McGannJeromeJ">McGann</name>’s early appeal for historical method.
+								It is, of course, all of the above, and therein lies not only the appeal of Keats’s
+								poem(s) but also the immediacy of McGann’s early appeal for historical method.
 								Moreover, the poem’s internal ambiguities, as outlined in the exercise (and present in either version of the poem),
-								reinforce <name ref="KelleyTheresa">Kelley</name>’s persuasive argument that “‘La Belle Dame sans Merci’ explores the
+								reinforce Kelley’s persuasive argument that “‘La Belle Dame sans Merci’ explores the
 								value of poetic figures whose meaning is not intuited but learned” (333). This is not to claim a unique status for “La
 								Belle Dame,” but to suggest that, more insistently than many other works, it is a poem that invites and rewards
 								analysis of its own processing (both of its production and its reception).</ab><lb/>
@@ -411,7 +374,7 @@
 
 
 
-				<div type="section" n="3">
+				<div type="section">
 					<head>Handout Questions</head>
 					<list type="ordered">
 						<item>Draw and/or give a brief physical description of the Knight.</item>
@@ -420,21 +383,18 @@
 					</list>
 				</div>
 
-				<div type="section" n="4">
+				<div type="section">
 					<head>The Exercise in Practice: A Writeup</head>
 					<ab>
 						<hi rend="emph">Introduction:</hi>
 					</ab>
-					<p>Director Hidetoshi Oneda’s <title level="m">La Belle Dame sans Merci</title> evinces his keen familiarity not only with <name
-							ref="KeatsJohn">Keats</name>’s poem, but with many other canonical works and conventions of Romantic literature. <name
-							ref="KeatsJohn">Keats</name>’s ballad guides the storyline of the film: a lovelorn knight, abandoned on a hillside,
+					<p>Director Hidetoshi Oneda’s <title level="m">La Belle Dame sans Merci</title> evinces his keen familiarity not only with Keats’s poem, but
+						with many other canonical works and conventions of Romantic literature. Keats’s ballad guides the storyline of the film: a lovelorn knight, abandoned on a hillside,
 						recollects his encounter with an unforgiving, wild-eyed lady. But Oneda places the knight’s tale within a narrative frame akin
-						to that of <title level="m">Frankenstein</title>, or <title level="m">The Rime of the Ancient Mariner</title>, and like <name
-							ref="ShelleyMaryWollstonecraft">Mary Shelley</name> and <name ref="ColeridgeSamuelTaylor">Samuel Taylor Coleridge</name>,
+						to that of <title level="m">Frankenstein</title>, or <title level="m">The Rime of the Ancient Mariner</title>, and like Mary Shelley and Samuel Taylor Coleridge,
 						Oneda employs this framing technique to gain moral perspective on his story. Whereas the speaker of the first three stanzas in
-							<name ref="KeatsJohn">Keats</name>’s poem is an ambiguous voice, all provocation with no discernible means of registering
-						and responding to the story he or she provokes, in the film the speaker is embodied as the unwitting pupil—<name
-							ref="ShelleyMaryWollstonecraft">Shelley</name>’s Walton, or <name ref="ColeridgeSamuelTaylor">Coleridge</name>’s wedding
+							Keats’s poem is an ambiguous voice, all provocation with no discernible means of registering
+						and responding to the story he or she provokes, in the film the speaker is embodied as the unwitting pupil—Shelley’s Walton, or Coleridge’s wedding
 						guest—here re-imagined as a shipwrecked English navigator. The navigator, deposited on a desert island, finds the ancient and
 						haggard knight, and is transfixed (and transformed) by his story. Oneda dramatizes the knight’s memories, presenting the belle
 						dame as the archetypal Romantic <emph>femme fatale</emph>. Like Geraldine or Lamia, her seductive exterior belies a cold,
@@ -443,13 +403,13 @@
 						fact, after the knight tells his tale of destiny unfulfilled, he dies and disintegrates before the navigator’s eyes, leaving
 						the younger man sadder, wiser, and with a renewed commitment to his own dream: to be an artist. The <emph>kunstleroman</emph>
 						concludes with a close-up shot of the navigator being rescued, a sparkle of creative determination in his eyes.</p>
-					<p>This is, of course, the work of a director playing fast-and-loose with his literary source. However, <name ref="KeatsJohn"
-							>Keats</name>’s “La Belle Dame sans Merci” is a sparsely detailed poem that relies upon a communal knowledge of medieval
+					<p>This is, of course, the work of a director playing fast-and-loose with his literary source. However, Keats’s “La Belle Dame sans Merci” is a 
+						sparsely detailed poem that relies upon a communal knowledge of medieval
 						romantic tropes and ballad traditions, thus each reader must provide his or her own cultural capital as flesh for a skeletal
-						story. If Oneda’s version is a bit fleshier than some, still there is little in <name ref="KeatsJohn">Keats</name>’s poem that
+						story. If Oneda’s version is a bit fleshier than some, still there is little in Keats’s poem that
 						undermines his interpretation. </p>
 				</div>
-				<div type="section" n="5">
+				<div type="section">
 					<head>Responses to the handout:</head>
 					<p>[Note: I did not have access to the students' responses until after the in-class screening and discussion; my point in
 						presenting the responses here, before recounting the classroom discussion, is to offer a summary of the exercise from the
@@ -462,24 +422,30 @@
 						on the mental and emotional toll of his experience. One student likened the knight’s trauma to that of the survivors of 9/11:
 						“like the extreme shock people experience after a terrorist attack.”</p>
 					<p>The 9/11 example is a good indicator of the extent to which each student made the poem personal. But even conventional
-						medievalist renderings of the knight were drawn from within: after all, <name ref="KeatsJohn">Keats</name>’s description of
+						medievalist renderings of the knight were drawn from within: after all, Keats’s description of
 						the knight is little more than a fragmentary <emph>blason</emph> on a tormented face. Bodily, the knight loiters alone, but
 						his face is our only index of his physical and mental attributes: it is pale, haggard, woeful, clammy, feverish, blushing. He
 						is a “knight at arms” (or a “wretched wight”), but to envision a handsome man in the prime of his life wearing a (perhaps
 						disheveled) suit of armor is to provide a chivalric archetype in the place of a few vague details. Although my students were
-						more familiar with Tolkien than with Spenser, from their descriptions and drawings it was clear that they had melded <name
-							ref="KeatsJohn">Keats</name>’s language with their own preconceptions of medieval knights.</p>
+						more familiar with Tolkien than with Spenser, from their descriptions and drawings it was clear that they had melded Keats’s language 
+						with their own preconceptions of medieval knights.</p>
+					<p>
 
 								<figure n="1">
+									<graphic url="/prod/sites/default/files/imported/pedagogies/theatre/images/fig1.jpg"/>
 									<figDesc>Oneda envisions the knight as ancient and gaunt, with unkempt white hair, dark, deep-set eyes, and a
 										haunting voice. After telling his story to the navigator, the old knight dies and rapidly decomposes into
 										dust.</figDesc>
-									<graphic url="../images/fig1.jpg"/>
+									
 								</figure>
+					</p>
+					<p>Fig. 1 Oneda envisions the knight as ancient and gaunt, with unkempt white hair, dark, deep-set eyes, and a
+						haunting voice. After telling his story to the navigator, the old knight dies and rapidly decomposes into
+						dust.</p>
 
 					<p>The second question elicited mixed but intriguing responses. Of the eighteen students participating, only five suggested that the
-						first speaker of <name ref="KeatsJohn">Keats</name>’s poem is unidentifiable—an “omniscient voice,” “perhaps <name
-							ref="KeatsJohn">Keats</name> himself.” Of that group, three went on to conjecture that this unidentifiable voice conveys a
+						first speaker of Keats’s poem is unidentifiable—an “omniscient voice,” “perhaps Keats himself.” Of that group, three went on to conjecture
+						that this unidentifiable voice conveys a
 						sense of sympathy in the act of questioning. In total, “sympathetic” “concerned” and “compassionate” turn up in eleven of the
 						students' responses, whether describing an anonymous voice, a “stranger,” a “physician,” “another knight at arms,” or—the most
 						popular response—the belle dame herself. Six students shared this idea, mostly without further justification, though one
@@ -487,8 +453,11 @@
 						[…] She allows him to ‘wake up’ and she is narrating to him to help him psychologically grasp what happened.” This tendency
 						among the students to reach after ethical fact and reason deserves greater attention, but suffice to say it is another
 						imposition of the reader on the text. </p>
+					
+					<p>
 
 								<figure n="2">
+									<graphic url="/prod/sites/default/files/imported/pedagogies/theatre/images/fig2.jpg"/>
 									<figDesc>Oneda not only grants the poem’s first speaker an identity (the shipwrecked navigator), but he also
 										presents the poem’s conversation out of sequence: his knight <emph>begins</emph> the conversation, startling
 										the navigator who is leaning down to drink from an inland lake, unaware that the ancient knight is sitting on
@@ -496,8 +465,16 @@
 										navigator’s interest in hearing the knight’s tale (‘have I seen whom?’) stems not from sympathy, but from his
 										instinct toward self-preservation, that is, his hope that someone else is on the island who might aid his
 										return to safety (something the invalid knight cannot do).</figDesc>
-									<graphic url="../images/fig2.jpg"/>
+									
 								</figure>
+					</p>
+					<p>Fig. 2 Oneda not only grants the poem’s first speaker an identity (the shipwrecked navigator), but he also
+						presents the poem’s conversation out of sequence: his knight <emph>begins</emph> the conversation, startling
+						the navigator who is leaning down to drink from an inland lake, unaware that the ancient knight is sitting on
+						a hillside just behind him. “Have you seen her?” the knight asks, referring to his long-lost belle dame. The
+						navigator’s interest in hearing the knight’s tale (‘have I seen whom?’) stems not from sympathy, but from his
+						instinct toward self-preservation, that is, his hope that someone else is on the island who might aid his
+						return to safety (something the invalid knight cannot do).</p>
 
 					<p>The third question divided the class. Roughly half of the students felt that the lady represented neither good nor evil; they
 						resisted reading her as an allegorical figure or as a type, instead envisioning her as a human character with interiority and
@@ -515,42 +492,49 @@
 						not seem to pose any problems for them in addressing the handout question (it became problematic when discussing the film; see
 						below).</p>
 					
+					<p>
+					
 								<figure>
-									<figDesc>Oneda’s thoughtful treatment of the belle dame is paradoxical: she is malevolent (her face momentarily
+									<graphic url="/prod/sites/default/files/imported/pedagogies/theatre/images/fig3.jpg"/>
+									<figDesc>Fig. 3 Oneda’s thoughtful treatment of the belle dame is paradoxical: she is malevolent (her face momentarily
 										flickers into a skull-like visage) and representative of the seemingly impossible obstacles that we must
 										overcome in order to fulfill our greatest desires. She is merciless, but only in the form of regret, and only
 										to those who lack the courage to commit themselves to her.</figDesc>
-									<graphic url="../images/fig3.jpg"/>
+									
 								</figure>
+					</p>
+					<p>Fig. 3 Oneda’s thoughtful treatment of the belle dame is paradoxical: she is malevolent (her face momentarily
+						flickers into a skull-like visage) and representative of the seemingly impossible obstacles that we must
+						overcome in order to fulfill our greatest desires. She is merciless, but only in the form of regret, and only
+						to those who lack the courage to commit themselves to her.</p>
 				</div>
 
-				<div type="section" n="6">
+				<div type="section">
 					<head>Screening and discussion:</head>
-					<p>When we screened the film in class, the students were quick to note Oneda’s contributions to <name ref="KeatsJohn"
-						>Keats</name>’s story, especially his addition of a fourth character (the navigator survives the shipwreck with an ailing,
+					<p>When we screened the film in class, the students were quick to note Oneda’s contributions to Keats’s story, especially his
+						addition of a fourth character (the navigator survives the shipwreck with an ailing,
 						alcoholic ship’s physician who dies within the first few minutes; this character is likely a conjecture as to what the
-						apothecary <name ref="KeatsJohn">Keats</name> might have amounted to, had he not become a poet and a consumptive). The
+						apothecary Keats might have amounted to, had he not become a poet and a consumptive). The
 						enthusiasm with which they noted and critiqued these differences between the poem and the film, even while the screening was
 						underway, boded well for the more nuanced discussion to follow. After the screening, I gave the class five minutes to reflect
 						on their own responses to the handout questions, and to consider Oneda’s implied responses to the same questions, given his
 						handling of the poem.</p>
 					<p>We opened the discussion by reviewing the first issue from the handout, the description of the knight. The students were
 						unanimous in voicing their surprise (both approving and disapproving) at Oneda’s decision to cast the knight as an old man—and
-						within seconds, a student noted the similarity to <name ref="ColeridgeSamuelTaylor">Coleridge</name>’s <title level="m"
+						within seconds, a student noted the similarity to Coleridge’s <title level="m"
 							>Ancient Mariner</title>, which we had read earlier. By depicting the knight as elderly, one student contended, Oneda gave
 						the character an air of wisdom and experience, a superior position from which to impart a moral lesson to the young navigator:
 						“do as I say, not as I have done.” Another student suggested that the casting choice made the knight seem feeble or senile,
 						and that his story was somehow less convincing and reliable because of the amount of time elapsed since the events related.
-						(Not surprisingly, both of these arguments had also informed our discussion of <name ref="ColeridgeSamuelTaylor"
-							>Coleridge</name>.)</p>
-					<p>I asked the class if they thought this directorial choice was unfaithful to <name ref="KeatsJohn">Keats</name>’s poem or merely
+						(Not surprisingly, both of these arguments had also informed our discussion of Coleridge.)</p>
+					<p>I asked the class if they thought this directorial choice was unfaithful to Keats’s poem or merely
 						an interpretation made possible by the poem’s ambiguities. A number of students quickly answered that Oneda had strayed from
-							<name ref="KeatsJohn">Keats</name>’s text; no one disagreed, though I noticed many thoughtful stares. We opened our books
-						and I read through the stanzas in which <name ref="KeatsJohn">Keats</name> offers descriptive details of the knight:
+							Keats’s text; no one disagreed, though I noticed many thoughtful stares. We opened our books
+						and I read through the stanzas in which Keats offers descriptive details of the knight:
 							<quote>“palely,” “haggard,” “woe-begone,” “a lily on thy brow,” “with anguish moist and fever dew”; “on thy cheeks a
 							fading rose / withereth,”</quote> We agreed that none of these details explicitly tells us the knight’s age, or anything
-						substantial about him beyond the expressiveness and sickliness of his face. I suggested that, for all <name ref="KeatsJohn"
-							>Keats</name> tells us, the knight could be three feet tall with one eye and no teeth, wearing a ball gown and army boots.
+						substantial about him beyond the expressiveness and sickliness of his face. I suggested that, for all Keats tells us, the knight could be 
+						three feet tall with one eye and no teeth, wearing a ball gown and army boots.
 						Within the vast realm of <emph>possibility</emph> (ignoring, for the moment, the smaller realm of <emph>probability</emph>)
 						Oneda’s version of the knight actually seemed approximate to their own envisioning; but where did the students’ and Oneda’s
 						ideas about the knight come from? Not from the text of “La Belle Dame” itself, I assured them.</p>
@@ -559,7 +543,7 @@
 						the exercise. The next handout question, involving the first speaker of the poem, drew mixed responses (I did not yet know the
 						variety of explanations the question had elicited). It was generally agreed that Oneda’s invention of the navigator (or
 						rather, his distillation of the poem’s narrator into the navigator), and his employment of a frame narrative, distorted the
-						content and form of <name ref="KeatsJohn">Keats</name>’s poem. This agreement took a few minutes to materialize among a group
+						content and form of Keats’s poem. This agreement took a few minutes to materialize among a group
 						of students now wary of my evidently deceptive questions. But even looking at the text, it seemed difficult to find anything
 						defensible in Oneda’s handling of the poem’s first speaker.</p>
 					<p>I asked the students to tell me how <emph>they</emph> had responded to the question—if not a stranded ship’s navigator, who
@@ -611,8 +595,8 @@
 						inability to commit to her. “Does the knight really understand her?” I asked.</p>
 					<p>A number of hands went up immediately. The students had appreciated Oneda’s use of voiceover narration to convey ambiguity,
 						and—to my delight—they noted the same ambiguity in lines 27-28 of the poem without my prompting. One of them suggested that
-						the knight in the film was an unreliable narrator. I asked if the same might be said of the knight in <name ref="KeatsJohn"
-							>Keats</name>’s poem, and the overwhelming response was “yes.” “It was way more obvious in the movie, though,” one student
+						the knight in the film was an unreliable narrator. I asked if the same might be said of the knight in Keats’s poem, and
+						the overwhelming response was “yes.” “It was way more obvious in the movie, though,” one student
 						added. I told her to hang onto that thought.</p>
 					<p>With the three handout questions laid out before us, we now had two big issues to consider: from the first question, the issue
 						of <emph>where our visual ideas of the knight came from</emph>; from the second and third questions, the issue of <emph>the
@@ -622,8 +606,8 @@
 						cumulative) process? Is it an active or passive engagement with a text? I established these questions as the basis for our
 						discussion, then I asked a more finite question: “when you addressed the first prompt on the handout (before seeing the film)
 						did you think it was an objective or subjective question?” The response, predictably, was that they had thought of the
-						question as “more on the objective side,” though they now realized the problems with this conclusion. “<name ref="KeatsJohn"
-							>Keats</name> doesn’t tell us what the knight looks like, or the lady. It’s like we have to picture them in our heads as
+						question as “more on the objective side,” though they now realized the problems with this conclusion. “
+							Keats doesn’t tell us what the knight looks like, or the lady. It’s like we have to picture them in our heads as
 						we read.” After some more discussion, another student added, “even the most basic details in this poem—we have to create
 						them.” I suggested, then, that reading—especially reading a poem like this one—is an active process in which the reader fills
 						in a lot of gaps, often without realizing that he or she has done so. </p>
@@ -633,21 +617,21 @@
 						information we get from the text we are reading (whether a sparsely detailed poem like this, or a richly detailed realist
 						novel) with information we already have. Being aware of, and analyzing this synthetic process, I argued, makes us sharper,
 						more sophisticated readers and critics.</p>
-					<p>We talked about this a little more, in reference to other texts we had read (and again, <name ref="ColeridgeSamuelTaylor"
-							>Coleridge</name> loomed large in the discussion). By way of analogy, someone mentioned the great difference between
+					<p>We talked about this a little more, in reference to other texts we had read (and again, Coleridge loomed large in the discussion). 
+						By way of analogy, someone mentioned the great difference between
 						reading a play and seeing it performed. I explained that this was not a distinction lost on the Romantics (a few of the
-						students had, in fact, read <name ref="LambCharles">Lamb</name>’s essay on the topic in a <name ref="ShakespeareWilliam"
-							>Shakespeare</name> course). In the remaining time, I turned to the comparison of reading and filmic adaptation.</p>
+						students had, in fact, read Lamb’s essay on the topic in a Shakespeare course). In the remaining time, I turned to the 
+						comparison of reading and filmic adaptation.</p>
 					<p>I began, “Someone mentioned that the possibility of seeing the knight as an unreliable narrator was ‘more obvious in the
 						movie.’ Why?” A few students replied that “seeing it [the poem] visualized made it more obvious.” Again I asked why, and was
 						met with silence. I offered more: “In the film, you tended to notice the moment when the knight interprets—probably
 							<emph>misinterprets</emph>—the lady’s words, ‘I love you.’ But this moment is there in the text too. Specifically, what
 						made this moment stand out in the film, more so than in the poem?” I suggested that the answer might be somehow related to the
-						just-mentioned differences between reading and watching <name ref="ShakespeareWilliam">Shakespeare</name>. A student answered
+						just-mentioned differences between reading and watching Shakespeare. A student answered
 						that Oneda had decided to make this issue important in his film, and that was why he used the voiceover technique. “Good,” I
 						said, “as with his use of the navigator as the first speaker in the poem, Oneda makes a series of interpretive choices in his
 						film. We’ve mentioned that we like to ‘cast’ actors in the mental performances of our readings—so let me ask you this: is what
-						Oneda does in adapting <name ref="KeatsJohn">Keats</name>’s poem for a movie different from or similar to what we do in
+						Oneda does in adapting Keats’s poem for a movie different from or similar to what we do in
 						reading the poem on our own? Indeed, is there a big difference between reading—what we might call interpretation—and adapting?
 						Or is all reading adaptation?”</p>
 					<p>With time running out, I left them with this question. This had been a lively discussion, and the questions it raised
@@ -662,8 +646,8 @@
 						literary criticism, in which a director makes an argument about a text through a series of interpretive choices.</p>
 				</div>
 
-			</div>
-			<div type="citations">
+	
+			<div type="citation">
 				<head>Works Cited</head>
 				<listBibl>
 					<biblStruct>
@@ -673,7 +657,7 @@
 
 							<editor role='editor'>Foakes, R.A.</editor>
 							<imprint>
-								<biblScope type="vol">2 vols</biblScope>
+								<biblScope>2 vols</biblScope>
 								<pubPlace>Princeton</pubPlace>
 								<publisher>Princeton UP</publisher>
 								<date>1987</date>
@@ -699,7 +683,7 @@
 
 							<editor role='editor'>Howe, P.P.</editor>
 							<imprint>
-								<biblScope type="vol">21 vols</biblScope>
+								<biblScope>21 vols</biblScope>
 								<pubPlace>Oxford</pubPlace>
 								<publisher>Oxford UP</publisher>
 								<date>1956-71</date>
@@ -726,10 +710,10 @@
 						<monogr>
 							<title level="j">ELH</title>
 							<imprint>
-								<biblScope type="vol">54</biblScope>
-								<biblScope type="no">2</biblScope>
+								<biblScope>vol. 54</biblScope>
+								<biblScope>no. 2</biblScope>
 								<date>Summer 1987</date>
-								<biblScope type="pp">333-62</biblScope>
+								<biblScope>pp. 333-62</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -763,7 +747,7 @@
 
 							<editor role='editor'>Lucas, E.V.</editor>
 							<imprint>
-								<biblScope type="vol">7 vols</biblScope>
+								<biblScope>7 vols</biblScope>
 								<pubPlace>London</pubPlace>
 								<publisher>Methuen &amp; Co.</publisher>
 								<date>1903-05</date>
@@ -771,6 +755,7 @@
 						</monogr>
 					</biblStruct>
 				</listBibl>
+			</div>
 			</div>
 		</body>
 	</text>

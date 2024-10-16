@@ -1,42 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="RCs.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
+		
 		<fileDesc>
+			
 			<titleStmt>
-				<title type="main">Lifting the Painted Veil: </title>
-				<title type="subordinate">Romantic Drama as Holy Theatre</title>
-				<author>
+				<!--  The reading texts should all be encoded as level="m"  -->
+				<title level="a">Lifting the Painted Veil: Romantic Drama as Holy Theatre</title>
+				
+				
+				<author role="primary">
 					<name>Amy Muse</name>
 				</author>
-				<editor role='editor'>
-					<name>Thomas Crochunis</name>
-				</editor>
+				
 				<sponsor>Romantic Circles</sponsor>
+				
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Neil Fraistat</name>
+					<resp>TEI Encoding</resp>
+					<name>EXTERNAL CODER</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				
+				<respStmt>
+					<resp>Praxis Editor</resp>
+					<name>Orrin N.C. Wang</name>
 				</respStmt>
 				<respStmt>
-					<resp>General Editor, </resp>
-					<name>Steven E. Jones</name>
+					<resp>Assistant Editor</resp>
+					<name>Jessica Tebo</name>
 				</respStmt>
 				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-				<respStmt>
-					<resp>Pedagogies Editor</resp>
-					<name>Kate Singer</name>
+					<resp>Assistant Editor</resp>
+					<name>Anna Paige Wingfield</name>
 				</respStmt>
 			</titleStmt>
+			
+			<editionStmt>
+				<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+				<edition>YYYY-MM-DD</edition>
+			</editionStmt>
+			
 			<publicationStmt>
-				<idno>commons4.2011.muse_holy_theatre</idno>
-				<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-					Maryland</publisher>
-				<pubPlace>College Park, MD</pubPlace>
-				<date when="2011-02-23">February 23, 2011</date>
-				<availability status="restricted">
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					Boulder</publisher>
+				<pubPlace>Boulder, CO</pubPlace>
+				<availability status="free">
 					<p>Material from the Romantic Circles Website may not be downloaded, reproduced
 						or disseminated in any manner without authorization unless it is for
 						purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -45,16 +56,15 @@
 						are copyrighted by the author/editor and may be shared only in accordance
 						with the Fair Use provisions of U.S. copyright law. Except as expressly
 						permitted by this statement, redistribution or republication in any medium
-						requires express prior written consent from the author/editors and advance
-						notification of Romantic Circles. Any requests for authorization should be
-						forwarded to Romantic Circles:&gt;
-						<address>
+						requires express prior written consent from the author(s)/ editor(s) and
+						advance notification of Romantic Circles. Any requests for authorization
+						should be forwarded to Romantic Circles: <address>
 							<addrLine>Romantic Circles</addrLine>
-							<addrLine>c/o Professor Neil Fraistat</addrLine>
+							<addrLine>c/o Professor Thora Brylowe</addrLine>
 							<addrLine>Department of English</addrLine>
-							<addrLine>University of Maryland</addrLine>
-							<addrLine>College Park, MD 20742</addrLine>
-							<addrLine>fraistat@umd.edu</addrLine>
+							<addrLine>University of Colorado Boulder</addrLine>
+							<addrLine>Boulder, CO 80309</addrLine>
+							<addrLine>thora.brylowe@colorado.edu</addrLine>
 						</address></p>
 					<p>By their use of these texts and images, users agree to the following
 						conditions: <list>
@@ -72,44 +82,65 @@
 						a link to the copies at Romantic Circles, subject to our conditions of
 						use.</p>
 				</availability>
+				<!-- Be sure that the name below matches the file name-->
+				<idno type="edition"
+					>praxis.2011.theatre.muse</idno>
+				<idno type="resource"
+					>theatre</idno>
 			</publicationStmt>
+			
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title level="a" type="main">Lifting the Painted Veil: </title>
-						<title level="a" type="subordinate">Romantic Drama as Holy Theatre</title>
-						<author>
+						<!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+						<title level="a" type="main">Lifting the Painted Veil: Romantic Drama as Holy Theatre</title>
+						
+						<author role="secondary">
 							<persName>
 								<forename>Amy</forename>
 								<surname>Muse</surname>
 							</persName>
 						</author>
+						<!-- Referenece the above <idno> tag but only change the final part-->
+						<ptr
+							target="praxis/theatre/praxis.2011.theatre.muse"/>
+						<!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
 					</analytic>
+					
+					
 					<monogr>
-						<title level="m">Teaching Romantic Drama: </title>
-						<title level="j">A Romantic Circles Pedagogies Commons Volume</title>
+						<title level="m"
+							>Teaching Romantic Drama</title>
+						<title level="s">Praxis</title>
+						
 						<imprint>
-							<publisher>Romantic Circles, http://www.rc.umd.edu, University of
-								Maryland</publisher>
-							<pubPlace>College Park, MD</pubPlace>
-							<date when="2011-02-23">February 23, 2011</date>
-							<biblScope type="vol">4</biblScope>
+							<publisher> Romantic Circles, https://romantic-circles.org, University
+								of Colorado Boulder</publisher>
+							<pubPlace>Boulder, CO</pubPlace>
+							<!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+							<date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
 						</imprint>
 					</monogr>
+					
+					
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
+		
 		<encodingDesc>
 			<editorialDecl>
 				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
+					<p>All quotation marks and apostrophes have been changed: " to &#8220; or
+						&#8221;, and ' to &#8216; and &#8217;.</p>
 				</quotation>
 				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Any dashes occurring in line breaks have been removed except in the case of
+						diplomatic transcriptions.</p>
 					<p>Because of web browser variability, all hyphens have been typed on the U.S.
 						keyboard</p>
-					<p>Em-dashes have been rendered as #8212</p>
+					<p>Em dashes have been rendered as &#8212;</p>
+					<p>En dashes have been rendered as &#8211;</p>
 				</hyphenation>
 				<normalization method="markup">
 					<p>Spelling has not been regularized.</p>
@@ -118,11 +149,12 @@
 				</normalization>
 				<normalization>
 					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
+					<p>&#35; has been used for #, the pound sign</p>
 					<p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
 				</normalization>
 			</editorialDecl>
+			
 			<tagsDecl>
 				<rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
 				<rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -144,150 +176,67 @@
 				<rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
 				<rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
 				<rendition xml:id="figure" scheme="css">text-align: center; font-size:
-					10pt;</rendition>
+					12pt;</rendition>
 				<rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
 				<rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
 			</tagsDecl>
+			
 			<classDecl>
-				<taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
+					xml:id="g">
 					<bibl>NINES categories for Genre and Material Form at
-						http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E
-						on 2009-02-26</bibl>
-					<category xml:id="g1">
-						<catDesc>Architecture</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Artifacts</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Letters</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Politics</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Folklore</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>History</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Leisure</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Humor</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Education</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Music</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>nonfiction</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Perodical</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Philosphy</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Family Life</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Visual Art</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Travel</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Book History</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Law</catDesc>
-					</category>
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+						20014-02-27</bibl>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="dcType">
+					<bibl>NINES categories for document type at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
+						2014-02-27</bibl>
+				</taxonomy>
+				<taxonomy
+					corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
+					xml:id="d">
+					<bibl>NINES categories for discplines at
+						http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
+						2014-02-27</bibl>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
+		
 		<profileDesc>
 			<textClass>
-				<catRef target="#g18" scheme="#genre"/>
+				<catRef scheme="#genre" target="#Paratext"/>
+				<catRef scheme="#dcType" target="#Typescript"/>
+				<catRef scheme="#discipline" target="#Literature"/>
+				<!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+				<keywords scheme="http://www.romantic-circles.org/#tags">
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+					<term subtype="tags"/>
+				</keywords>
 			</textClass>
 		</profileDesc>
+		
 		<revisionDesc>
 			<change>
-				<name>Laura Mandell</name>
-				<date>2011-02-18</date>
+				<!--  Coder Name and Date Coded  -->
+				<name><!-- coder --></name>
 				<list>
-					<item>revised TEI</item>
-					<item>XSLT</item>
-				</list>
-			</change>
-			<change>
-				<name>Dave Rettenmaier</name>
-				<date>2010-06-01</date>
-				<list>
-					<item>TEI encoding the issue</item>
-				</list>
-			</change>
-			<change>
-				<name>Thomas Crochunis</name>
-				<date>2009-11-01T15:01:00</date>
-				<list>
-					<item>Proofed issue in Open Office Format</item>
+					<item>TEI encoding the text</item>
 				</list>
 			</change>
 		</revisionDesc>
 	</teiHeader>
+	<!--END OF HEADER-->
+	<!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
+
+
 	<text>
 		<body>
 			<div type="essay">
@@ -301,30 +250,24 @@
 					<affiliation>University of St. Thomas</affiliation>
 				</byline>
 
-				<p n="1">“Holy Theatre” is a term known to drama students and theatre practitioners
-					primarily from <name ref="BrookPeter">Peter Brook</name>’s treatment of it in
-					his 1968 classic, <title level="m">The Empty Space</title>. It is, <name
-						ref="BrookPeter">Brook</name> says, “the Theatre of the Invisible – Made –
+				<p>“Holy Theatre” is a term known to drama students and theatre practitioners
+					primarily from Peter Brook’s treatment of it in
+					his 1968 classic, <title level="m">The Empty Space</title>. It is, Brook says, “the Theatre of the Invisible – Made –
 					Visible” (42); it is the kind of theatre that arises from a deeply felt urge to
-					“capture in our arts the invisible currents that rule our lives” (45). <name
-						ref="InnesChristopher">Christopher Innes</name>, in his study <title
+					“capture in our arts the invisible currents that rule our lives” (45). Christopher Innes, in his study <title
 						level="m">Holy Theatre</title>, observes that its “hallmark” is an
 					“aspiration to transcendence, to the spiritual in its widest sense” (3) and that
 					it attempts to “transcribe subjective experience directly into stage terms”
 					(29). The effect is meant to be communal: a theatre “that brings its spectators
 					into emotional harmony with one another by celebrating their common identity as
-					human beings” (Auslander 13).<note place="foot" resp="editors" n="1">Innes’s and
+					human beings” (Auslander 13).<note place="foot" resp="editors">Innes’s and
 						Auslander’s descriptions may strike readers as very Romantic and therefore
 						familiar, but some further clarification may be in order since the term
 						“holy theatre” can be misleading and, for some, off-putting. It does not
-						mean, for instance, a “religious” drama; indeed, much of <name
-							ref="ArtaudAntonin">Artaud</name>’s and <name ref="GrotowskiJerzy"
-							>Grotowski</name>’s work in the twentieth century (and <name
-							ref="IbsenHenrik">Ibsen</name>’s and <name ref="StrindbergAugust"
-							>Strindberg</name>’s, for that matter) was considered sacrilegious, even
+						mean, for instance, a “religious” drama; indeed, much of Artaud’s and Grotowski’s work in the twentieth century 
+						(and Ibsen’s and Strindberg’s, for that matter) was considered sacrilegious, even
 						blasphemous. Most theatre that meets the criteria I discuss in this essay is
-						no longer given the label of “holy,” and a look at the scholarship of <name
-							ref="InnesChristopher">Christopher Innes</name> is instructive for
+						no longer given the label of “holy,” and a look at the scholarship of Christopher Innes is instructive for
 						understanding why. His book <title level="m">Holy Theatre: Ritual and the
 							Avant Garde</title> (1981) was revised and updated in 1992 under the
 						title <title level="m">Avant Garde Theatre 1892-1992</title>. While the
@@ -332,27 +275,23 @@
 						little over a decade, he felt it necessary to change his title: the term
 						“holy theatre” had apparently run its course. Did it seem hopelessly dated,
 						a hangover from the 1960s, like “groovy” and “far out”? The clue is found in
-							<name ref="InnesChristopher">Innes</name>’s initial definition of his
+							Innes’s initial definition of his
 						book’s subject. In the 1981 <title level="m">Holy Theatre</title> his
 						introduction describes a number of qualities (e.g., exploration of dream
 						states, interest in ritual) that the works of this master current of theatre
 						share, and observes that “it is in light of these qualities that the term
-						coined by <name ref="ArtaudAntonin">Antonin Artaud</name> is so apt: ‘the
+						coined by Antonin Artaud is so apt: ‘the
 						Holy Theatre’” (3). However, in 1993’s <title level="m">Avant Garde Theatre
-							1892-1992</title>, following the same description of qualities, <name
-							ref="InnesChristopher">Innes</name> remarks that “<name
-							ref="ArtaudAntonin">Antonin Artaud</name>’s pretentious claim to a ‘Holy
+							1892-1992</title>, following the same description of qualities, Innes remarks that “Antonin Artaud’s pretentious claim to a ‘Holy
 						Theatre’—picked up by various avant garde artists . . . is revealing” (3).
 						Perhaps there’s little talk of a holy theatre, then, because the idea (and
 						the ideal?) of a holy theatre has become pretentious. It is considered
 						affected, showy, claims more than it can actually demonstrate. This course
 						is hoping to revive the term for its evocative power—or at least to revive
 						an interest in this theoretical approach to theatre and its plays.</note>
-					<name ref="BrookPeter">Brook</name> took the term “holy” from Antonin <name
-						ref="ArtaudAntonin">Artaud</name>’s vision of theatre as “a metaphysical
-					force,” “holy rite and quasi-religious practice” (<name ref="EsslinMartin"
-						>Esslin</name>, <title level="m"><name ref="ArtaudAntonin">Antonin
-							Artaud</name></title> 101). <name ref="ArtaudAntonin">Artaud</name>’s
+					Brook took the term “holy” from Antonin Artaud’s vision of theatre as “a metaphysical
+					force,” “holy rite and quasi-religious practice” (Esslin, <title level="m">Antonin
+							Artaud</title> 101). Artaud’s
 					work was in part a return to and a nostalgia for the prehistory of theatre, the
 					ancient cult rituals and goat-songs that developed into Greek drama, and that
 					were celebrated as the “Dionysian” split from “Apollonian” harmony, rationalism,
@@ -360,12 +299,10 @@
 						Tragedy</title> (1872). This metaphysical or “holy” impulse in theatre has a
 					long history, and can be seen as one of the “master currents” of dramatic
 					literature and theatre theory. </p>
-				<p n="2">As is well known, the study of European drama has greatly favored the
+				<p >As is well known, the study of European drama has greatly favored the
 					master current that flows toward realism and naturalism, a narrative of progress
 					that celebrates the late nineteenth century arrival of the “well-made play” and
-					the “problem play” (ushered in by the reigning triumvirate of <name
-						ref="IbsenHenrik">Ibsen</name>, <name ref="StrindbergAugust"
-						>Strindberg</name>, and <name ref="ChekhovAnton">Chekhov</name>, with the
+					the “problem play” (ushered in by the reigning triumvirate of Ibsen, Strindberg, and Chekhov, with the
 					frequent addition of Shaw), dramas that work from the “bottom up,” grounded in
 					the material world and social issues. Plays that endeavor something else, namely
 					to stage subjective states, have been dropped into the valley of the unstageable
@@ -375,15 +312,14 @@
 					concerned with revealing states of mind, consciousness, dreams, ghosts, magic,
 					they work from the “top down” and begin in abstraction, “sojourning through
 					consciousness and affecting the ‘reality’ of the material world beneath it,” as
-						<name ref="DemastesWilliam">William Demastes</name> explains in <title
+						William Demastes explains in <title
 						level="m">Staging Consciousness: Theater and the Materialization of
 						Mind</title> (15). The plays are an exploration of the human condition, but
 					from the “inside out” rather than the social realism approach of “outside in.”
 					(However, plays with the greatest lasting impact tend to be a combination of
 					both these traditions, from <title level="m">Hamlet</title> to <title level="m"
 						>Death of a Salesman</title> to <title level="m">Angels in
-						America</title>.)<note place="foot" resp="editors" n="2"><name
-							ref="DemastesWilliam">William Demastes</name> argues in <title level="m"
+						America</title>.)<note place="foot" resp="editors" >William Demastes argues in <title level="m"
 							>Staging Consciousness: Theater and the Materialization of Mind</title>
 						(Ann Arbor: U of Michigan P, 2002) that “<emph>either</emph> consciousness
 							<emph>or</emph> materiality is not really a choice. Inevitably, theater
@@ -392,15 +328,13 @@
 						(41). I have borrowed the useful terms “bottom up” and “top down” from his
 						work. </note>
 				</p>
-				<p n="3">The dramatists of this lineage (loosely defined) were also deeply invested
+				<p >The dramatists of this lineage (loosely defined) were also deeply invested
 					as theorists of the theatre (or, put differently, this way of seeing theatre
 					attracted theorists who became dramatists to test their theories). We see this
 					pattern very clearly in the emergent Romantic theatre of the eighteenth century
 					in Germany (e.g., in the work of Lessing, Schiller, Tieck, and Kleist) and in
-					early nineteenth-century England in the staged theories of <name
-						ref="BaillieJoanna">Joanna Baillie</name> and <name
-						ref="ColeridgeSamuelTaylor"> Samuel Taylor Coleridge</name>.<note
-						place="foot" resp="editors" n="3">Theatre and consciousness studies have
+					early nineteenth-century England in the staged theories of Joanna Baillie and  Samuel Taylor Coleridge.<note
+						place="foot" resp="editors" >Theatre and consciousness studies have
 						only grown more popular in recent years, alongside and as a result of the
 						rise of cognitive sciences in humanities research. In addition to Demastes’s
 							<title level="m">Staging Consciousness</title>, see Ralph Yarrow, <title
@@ -417,12 +351,11 @@
 							the Science of the Mind</title> (2005) and <title level="m">The Neural
 							Sublime: Cognitive Theories and Romantic Texts</title> (2010).</note>
 				</p>
-				<p n="4">In this drama course we examine some of the major dramatic texts that could
-					be said to make up a holy theatre tradition, with <name
-						ref="ColeridgeSamuelTaylor">Coleridge</name>’s <title level="m"
-						>Remorse</title> (1813) and <name ref="BaillieJoanna">Baillie</name>’s
+				<p >In this drama course we examine some of the major dramatic texts that could
+					be said to make up a holy theatre tradition, with Coleridge’s <title level="m"
+						>Remorse</title> (1813) and Baillie’s
 						<title level="m">Orra</title> (1812) representing Romantic drama.<note
-						place="foot" resp="editors" n="4">My argument is to incorporate Romantic
+						place="foot" resp="editors" >My argument is to incorporate Romantic
 						drama into courses on drama (where it has long been neglected), but the
 						approach I outline in this essay could certainly be used for an entire
 						course on Romantic drama. Plays such as <title level="m">Manfred</title> and
@@ -437,15 +370,14 @@
 					these plays we read theatre theory and study developments in stagecraft that
 					allowed dramatists to explore subjective states onstage. In this context
 					students are encouraged to see Romantic drama as inspired by the vision and
-					techniques learned from <name ref="ShakespeareWilliam">Shakespeare</name>’s
-					plays (rather than weak imitations of <name ref="ShakespeareWilliam"
-						>Shakespeare</name>), as a reworking and transformation of the Gothic, and
+					techniques learned from Shakespeare’s
+					plays (rather than weak imitations of Shakespeare), as a reworking and transformation of the Gothic, and
 					as the birthplace of the modern avant garde. To many Romanticists this is going
 					to look (suspiciously, perhaps) like the “old” approach to Romantic drama—that
 					is, Romantic drama as “mental theatre,” a label under which it has not tended to
 					fare well in criticism. However, when studied within the lineage of holy
 					theatre, Romantic drama can stand out as a peak—rather than a valley—in the
-					history of dramatic literature and theatre theory.<note place="foot" n="5"
+					history of dramatic literature and theatre theory.<note place="foot" 
 						resp="editors">
 						<p rend="noCount">I am not interested in establishing a new hierarchy. But,
 							for illustrative purposes only, let's say we charted a theatre history
@@ -477,7 +409,7 @@
 							more effective method. </p>
 						<p rend="noCount"> One key reason Romantic drama has been seen as odd is
 							because of the way theatre history was produced and, later, reproduced
-							in teaching. As <name ref="BrattonJacky">Jacky Bratton</name> has
+							in teaching. As Jacky Bratton has
 							written, “the continuing strength of the received way of reading theatre
 							history can be gauged from the difficulties critics, performers and
 							historians still have when they attempt to recuperate anything from the
@@ -487,8 +419,7 @@
 							history and dramatic literature. For instance, instead of the standard
 							two-semester survey that moves chronologically from the ancient Greeks
 							to the present, we could teach a course in two master currents of world
-							drama, the “holy” and the “rough,” to use Peter <name ref="BrookPeter"
-								>Brook</name>’s terms, or the “top down” and “inside out” interest
+							drama, the “holy” and the “rough,” to use Peter Brook’s terms, or the “top down” and “inside out” interest
 							in consciousness, versus the “bottom up” and “outside in” interest in
 							social realism. While the typical historical timeline reveals the
 							dialectical development of theatre and drama between “outside in” and
@@ -509,93 +440,82 @@
 							161-81.</p>
 					</note>
 				</p>
-				<p n="5">There are several tributaries of the master current of holy theatre: one
+				<p >There are several tributaries of the master current of holy theatre: one
 					focuses on pure form (we see this in the modernist avant garde in particular,
 					e.g., in the theatrical experiments of Gertrude Stein and Wassily Kandinsky),
 					another on myth and ritual (which points up the ancient origins of holy theatre,
 					running from Euripides’s <title level="m">The Bacchae</title> to Peter Shaffer’s
 						<title level="m">Equus</title>). In order to highlight the stream of holy
 					theatre attempting the revelation of consciousness, this version of the course
-					begins with <name ref="ShakespeareWilliam">Shakespeare</name>’s “strategic
+					begins with Shakespeare’s “strategic
 					opacity” and <title level="m">Hamlet</title>, the Ur-text of the dramatic
 					representation of consciousness.</p>
-				<p n="6">To Romantics and their followers, the conditions of the Elizabethan theatre
+				<p >To Romantics and their followers, the conditions of the Elizabethan theatre
 					(and the thereby conditioned Elizabethan audiences) were ideal because they drew
 					upon the imagination, truly created a “theatre of the mind.” Those early modern
 					audiences viewed a virtually bare stage with no external lighting (at the
 					outdoor theatres such as the Globe, anyway); the language of the plays
 					frequently remind them to imagine the scene that is being played out before
-					them. <name ref="ShakespeareWilliam">Shakespeare</name>’s eighteenth-century
+					them. Shakespeare’s eighteenth-century
 					admirers developed a new form of literary criticism—“character criticism”—in
 					response to the complexity and seeming humanness of his characters, and gave us
-					the now-familiar figure of the natural genius <name ref="ShakespeareWilliam"
-						>Shakespeare</name> who had discovered the secret to how to reveal
-					interiority on the stage. <name ref="SchlegelAugustWilhelmvon">A. W.
-						Schlegel</name>’s image from his 1808 lectures is a familiar one: <name
-						ref="ShakespeareWilliam">Shakespeare</name>’s characters are like “watches
+					the now-familiar figure of the natural genius Shakespeare who had discovered the secret to how to reveal
+					interiority on the stage. A. W.
+						Schlegel’s image from his 1808 lectures is a familiar one: Shakespeare’s characters are like “watches
 					with crystalline plates and cases, which, while they point out the hours as
 					correctly as other watches, enable us at the same time to perceive the inward
 					springs whereby all this is accomplished” (“A Course of Lectures on Dramatic Art
-					and Literature” 362). More recently, <name ref="GreenblattStephen">Stephen
-						Greenblatt</name> has echoed this language in <title level="m">Will in the
-						World</title> when he argues that <name ref="ShakespeareWilliam"
-						>Shakespeare</name> “perfected the means to represent inwardness” (299)
-					through the innovation of the soliloquy, in particular what <name
-						ref="GreenblattStephen">Greenblatt</name> refers to as “strategic opacity,”
-					or a new technique of “radical excision” in which <name ref="ShakespeareWilliam"
-						>Shakespeare</name> took out a “key explanatory element, thereby occluding
+					and Literature” 362). More recently, Stephen
+						Greenblatt has echoed this language in <title level="m">Will in the
+						World</title> when he argues that Shakespeare “perfected the means to represent inwardness” (299)
+					through the innovation of the soliloquy, in particular what Greenblatt refers to as “strategic opacity,”
+					or a new technique of “radical excision” in which Shakespeare took out a “key explanatory element, thereby occluding
 					the rationale, motivation, or ethical principle that accounted for the action
 					that was to unfold” (323-24). Relying on “inner logic” rather than causal
-					events, <name ref="ShakespeareWilliam">Shakespeare</name> “fashioned an inner
+					events, Shakespeare “fashioned an inner
 					structure through the resonant echoing of key terms, the subtle development of
 					images, the brilliant orchestration of scenes, the complex unfolding of ideas,
 					the intertwining of parallel plots, the uncovering of psychological obsession”
-					(324). <name ref="GreenblattStephen">Greenblatt</name>’s <name
-						ref="ShakespeareWilliam">Shakespeare</name> is remarkably Romantic, and
+					(324). Greenblatt’s Shakespeare is remarkably Romantic, and
 					effectively introduces holy theatre dramaturgy; strategic opacity was “not only
-					a new aesthetic strategy,” but “expressed <name ref="ShakespeareWilliam"
-						>Shakespeare</name>’s root perception of existence, his understanding of
+					a new aesthetic strategy,” but “expressed Shakespeare’s root perception of existence, his understanding of
 					what could be said and what should remain unspoken, his preference for things
 					untidy, damaged, and unresolved over things neatly arranged, well made, and
 					settled” (324). </p>
-				<p n="7">Both <title level="m">Hamlet</title> (1600-01) and <title level="m">The
+				<p >Both <title level="m">Hamlet</title> (1600-01) and <title level="m">The
 						Tempest</title> (1610-11) exhibit the Renaissance view of the world as a
 					stage and faith in theatre as a means of revealing truth. Thanks in large part
 					to Romantic writers and critics—Goethe, Lamb, Hazlitt, Coleridge—<title
 						level="m">Hamlet</title> has come to be considered a play about
-					consciousness, and Hamlet the “prince of the inward insurrection” (<name
-						ref="GreenblattStephen">Greenblatt</name> 303). When read as a foundational
+					consciousness, and Hamlet the “prince of the inward insurrection” (Greenblatt 303). When read as a foundational
 					text of holy theatre, what comes into focus are Hamlet's conversation with the
 					Ghost and the unfolding of Hamlet’s consciousness through the soliloquies,
 					tracing the fluctuations of his mind from his first appearance to Act V. The
 					course then moves to <title level="m">The Tempest</title>, which, among its
 					dominant interpretations, can be seen as a play about the magical power of
 					theatre to bring about reconciliation and forgiveness. It also provides an
-					excellent entrance into <name ref="ColeridgeSamuelTaylor">Coleridge</name>’s
+					excellent entrance into Coleridge’s
 						<title level="m">Remorse</title>, as both plays use an act of magic, of
 					dramatic illusion, to prick the conscience of and draw remorse from a wayward
-						brother.<note place="foot" resp="editors" n="6"><name
-								ref="BaillieJoanna">Baillie</name>’s <title level="m">Orra</title>
+						brother.<note place="foot" resp="editors">Baillie’s <title level="m">Orra</title>
 							(1812) is chronologically prior to <title level="m">Remorse</title>
 							(1813), but teaching it afterward allows the course to move immediately
-							into <name ref="StrindbergAugust">Strindberg</name>’s <title level="m"
+							into Strindberg’s <title level="m"
 								>The Ghost Sonata</title>, which is similarly “hauntological” and
 							includes an apparition as well as “living ghosts,” characters who are,
 							like Orra in the final scene of the play, psychologically haunted and
-							poised between death and life. Moreover, <name ref="StrindbergAugust"
-								>Strindberg</name>’s desire for an intimate performance space that
+							poised between death and life. Moreover, Strindberg’s desire for an intimate performance space that
 							could capture the nuances of his plays—which resulted in the founding of
 							the Intimate Theater in Stockholm in 1907—carries startling echoes of
-								<name ref="BaillieJoanna">Baillie</name>’s “Introductory
+								Baillie’s “Introductory
 							Discourse.”
 						</note>
 				</p>
 
-				<div type="section" n="2">
-					<head>Teaching Samuel Taylor <name ref="ColeridgeSamuelTaylor"
-						>Coleridge</name>’s <title level="m">Remorse</title></head>
+				<div type="section" >
+					<head>Teaching Samuel Taylor Coleridge’s <title level="m">Remorse</title></head>
 
-					<p n="8">The main plotline of <title level="m">Remorse</title> echoes themes in
+					<p >The main plotline of <title level="m">Remorse</title> echoes themes in
 							<title level="m">The Tempest</title>; in both, an ambitious and
 						rebellious younger brother (Antonio in <title level="m">The Tempest</title>,
 						Ordonio in <title level="m">Remorse</title>) plots to kill a virtuous older
@@ -618,28 +538,25 @@
 						assassination attempt on Alvar, masterminded by Ordonio. Thus Ordonio
 						realizes (1) Alvar is still alive, and (2) he knows about the plot to kill
 						him. </p>
-					<p n="9">
+					<p >
 						<title level="m">Remorse</title> (1813) is a reworking of an earlier
 						revolution-oriented play entitled <title level="m">Osorio</title> (1797)
 						into a deeper, more psychological study of consciousness: the revision of
 						title alone gives us a clue. In <title level="m">Remorse</title>
-						<name ref="ColeridgeSamuelTaylor">Coleridge</name> is staging a shift in
+						Coleridge is staging a shift in
 						consciousness, which brings about a change in conscience.<note place="foot"
-							resp="editors" n="7">The psychological state of remorse was a familiar
-							theme in Gothic plays, although <name ref="CoxJeffreyN">Jeffrey
-								Cox</name> points out that <name ref="ColeridgeSamuelTaylor"
-								>Coleridge</name>'s work, as one in the second wave of Gothic
+							resp="editors" >The psychological state of remorse was a familiar
+							theme in Gothic plays, although Jeffrey
+								Cox points out that Coleridge's work, as one in the second wave of Gothic
 							popularity, reassesses the theme and can be read as a “culminating work
-							in the Gothic tradition” (30). <name ref="CoxJeffreyN">Cox</name> charts
-							two major surges of Gothic drama, the first in the 1790s, which <name
-								ref="ColeridgeSamuelTaylor">Coleridge</name> catches onto with
+							in the Gothic tradition” (30). Cox charts
+							two major surges of Gothic drama, the first in the 1790s, which Coleridge catches onto with
 								<title level="m">Osorio</title> (1797), the second hitting its peak
-							in 1815, which <name ref="ColeridgeSamuelTaylor">Coleridge</name>
-							anticipates with <title level="m">Remorse</title> (1813). <name
-								ref="CoxJeffreyN">Cox</name> links these two surges to political
+							in 1815, which Coleridge
+							anticipates with <title level="m">Remorse</title> (1813). Cox links these two surges to political
 							issues surrounding the French Revolution and Napoleonic Wars,
 							particularly the fall of the Bastille and the fall of Napoleon. See
-								<name ref="CoxJeffreyN">Cox</name>, ed. and intro., <title level="m"
+								Cox, ed. and intro., <title level="m"
 								>Seven Gothic Dramas 1789-1825</title> (Athens: Ohio UP, 1992),
 							30-32.</note> In the <title level="m">Table Talk</title> jottings,
 						Coleridge expressed a special fondness for <title level="m">Remorse</title>:
@@ -651,36 +568,31 @@
 						wake not just the character Ordonio but the audience from their dogmatic
 						slumbers or wrongdoings and force them to confront the Otherness that exists
 						inside as well as outside themselves. As has been discussed in a number of
-							studies,<note place="foot" resp="editors" n="8">As well as <name
-								ref="ThomasSophie">Sophie Thomas</name>’s “Seeing Things (‘As They
+							studies,<note place="foot" resp="editors" >As well as Sophie Thomas’s “Seeing Things (‘As They
 							Are’)” from <title level="j">Studies in Romanticism</title> (included on
-							the Reading List), see <name ref="MooreJohnDavid">John David
-								Moore</name>, “<name ref="ColeridgeSamuelTaylor">Coleridge</name>
+							the Reading List), see John David
+								Moore, “Coleridge
 							and the ‘modern Jacobinical Drama’: <title level="m">Osorio</title>,
-								<title level="m">Remorse</title>, and the Development of <name
-								ref="ColeridgeSamuelTaylor">Coleridge</name>’s Critique of the
+								<title level="m">Remorse</title>, and the Development of Coleridge’s Critique of the
 							Stage, 1797-1816” <title level="j">Bulletin of Research in the
-								Humanities</title> 85.4 (Winter 1982): 443-64; and <name
-								ref="MortensenPeter">Peter Mortensen</name>, “The Robbers and the
-							Police: British Romantic Drama and the Gothic Treacheries of <name
-								ref="ColeridgeSamuelTaylor">Coleridge</name>’s <title level="m"
+								Humanities</title> 85.4 (Winter 1982): 443-64; and Peter Mortensen, “The Robbers and the
+							Police: British Romantic Drama and the Gothic Treacheries of Coleridge’s <title level="m"
 								>Remorse</title>” in <title level="m">European Gothic: A Spirited
 								Exchange 1760 – 1960</title>, ed. Avril Horner (Manchester UP,
 							2002): 128–46.</note> in order to present this concept effectively,
-							<name ref="ColeridgeSamuelTaylor">Coleridge</name> drew upon the
+							Coleridge drew upon the
 						spectacular stagecraft of the popular Gothic drama, which contradicts his
 						theoretical writing, where he finds the Gothic weak and even dangerous.</p>
 					<p n="10">As a companion text, students can read “Letter II” of “Satyrane’s
 						Letters”—included in Chapter XXII of the 1816 <title level="m">Biographia
-							Literaria</title> but written in 1798—where <name
-							ref="ColeridgeSamuelTaylor">Coleridge</name> as much as accuses the
+							Literaria</title> but written in 1798—where Coleridge as much as accuses the
 						Gothic theatre of inciting terror. He found the self-reflection of Gothic
 						drama dangerous on at least two counts. The Gothic drama had a tendency
 						merely to reflect, rather than to challenge, the selves of the audience; the
 						values often reflected an easy morality that kept the audiences complacent
 						and inert. Also a dangerous aspect of facile self-reflection, and a more
-						tempting one for <name ref="ColeridgeSamuelTaylor">Coleridge</name> and
-						others, was, as <name ref="CoxJeffreyN">Jeffrey Cox</name> notes in his
+						tempting one for Coleridge and
+						others, was, as Jeffrey Cox notes in his
 						discussion of North's <title level="m">The Kentish Barons</title>, that the
 						emotions can be “more deeply rooted by reflection,” a feature much
 						glamourized in Gothic hero/villains. One ideally wants neither passive
@@ -689,26 +601,24 @@
 						self-consciousness which has its ultimate origin in a moral relation to
 						others and which develops dialectically in continual relation to others. One
 						way to break out of a potentially solipsistic cycle is to engage with
-						others, and for a writer, the stage is therefore an ideal medium. <name
-							ref="ColeridgeSamuelTaylor">Coleridge</name> was frustrated with the
+						others, and for a writer, the stage is therefore an ideal medium. Coleridge was frustrated with the
 						limitations of the commercial stage of his day, but he knew that that was
 						the means through which to present such ideas visibly and publicly, and to
-						reach the widest audience for his ideas. As <name ref="GalperinWilliam"
-							>William Galperin</name> points out in <title level="m">The Return of
+						reach the widest audience for his ideas. As William Galperin points out in <title level="m">The Return of
 							the Visible in British Romanticism</title>, issues of the visible
 						continually verge upon issues involving <emph>community</emph> (164) and,
-						though <name ref="ColeridgeSamuelTaylor">Coleridge</name> in his criticism
+						though Coleridge in his criticism
 						may have occasionally demonstrated an anti-theatrical bias, he reached for
 						the visible to present the transformation of a consciousness to and for a
 						community. In <title level="m">Remorse</title> he adapted the Gothic formula
 						to his own purpose, and used the Gothic spectacle to affect his audiences,
 						as he advises in “Satyrane’s Letters,” “in union with the activity both of
 						[their] understanding and imagination” (XXII:437).</p>
-					<p n="11">The Drury Lane playbill for <title level="m">Remorse</title>
+					<p>The Drury Lane playbill for <title level="m">Remorse</title>
 						advertises all new sets, which, according to the dictates of the stage
 						directions, included “wild and mountainous” country scenery and a desolate
 						cavern dripping with water; the setting is the Spanish Inquisition, a remote
-						and terror-ridden time. <name ref="ColeridgeSamuelTaylor">Coleridge</name>
+						and terror-ridden time. Coleridge
 						commissioned a score from Michael Kelly, who had composed the music for the
 						most successful of all Gothic dramas, Matthew Lewis’s <title level="m">The
 							Castle Spectre</title> (1797). As Paula Backscheider has noted, “Gothic
@@ -716,7 +626,7 @@
 						subliminally both exercising and containing anxieties” (173); it was as
 						crucial to the play as scores are to film and, increasingly, theatre today.
 						The dramatic structure of the play, however, is focused on Ordonio's
-						consciousness. <name ref="ColeridgeSamuelTaylor">Coleridge</name> wastes no
+						consciousness. Coleridge wastes no
 						time getting to his purpose; very little exposition is given before Alvar
 						declares that he has returned to confront his brother and “rouse within him
 						/ REMORSE!” in order to “save him from himself” (I.i.18-19). Preparations
@@ -731,12 +641,12 @@
 						way, Alvar discloses when alone, that “That worst bad man shall find / A
 						picture, which will wake the hell within him, / And rouse a fiery whirlwind
 						in his conscience” (II.ii.172-74).</p>
-					<p n="12">In order to understand how Gothic techniques can work to present
+					<p>In order to understand how Gothic techniques can work to present
 						onstage the awakening of a consciousness—and, perhaps, to model a
 						transformation of consciousness in the audience—try staging the key scene of
 						the play in your classroom. This is the moment of the climactic trick that
 						boomerangs on Ordonio, the overwhelming spectacle that results in the first
-						awakening of his conscience.<note place="foot" resp="editors" n="9">It
+						awakening of his conscience.<note place="foot" resp="editors">It
 							should be noted that the scene enacted, III.i, is <emph>not</emph> the
 							scene in which Ordonio feels remorse. It works much like “The Mouse
 							Trap” in <title level="m">Hamlet</title> in that the consequence is that
@@ -754,7 +664,7 @@
 							Morescos enter and demand Ordonio's life in exchange for his murder of
 							Isidore, a conclusion that comes far too quickly for many spectators
 							(and readers) to feel the full impact of the remorse, and undercuts
-								<name ref="ColeridgeSamuelTaylor">Coleridge</name>’s apparent
+								Coleridge’s apparent
 							design.</note> This spectacle is the showpiece of the evening. It was
 						well-advertised, and no theatrical elements were spared. Thomas Barnes’s
 						review of the play (included in the <title level="m">Broadview Anthology of
@@ -768,7 +678,7 @@
 				</div>
 
 
-				<div type="section" n="3">
+				<div type="section">
 					<head>EXERCISE 1: STAGING THE AWAKENING OF CONSCIOUSNESS</head>
 					<p>In this exercise students will perform Act III, scene I of <title level="m"
 							>Remorse</title>, recreating the Gothic setting for the “altar scene” in
@@ -780,21 +690,20 @@
 						directions, and sing the Chorus parts. A third crew can construct the altar
 						spectacle.</p>
 					<list type="ordered">
-						<item n="1">From the text, gather information about the stage setting and
-							recreate this in your classroom. For instance, <name
-								ref="ColeridgeSamuelTaylor">Coleridge</name>'s stage directions call
+						<item>From the text, gather information about the stage setting and
+							recreate this in your classroom. For instance, Coleridge's stage directions call
 							for <emph>“a Hall of Armory, with an Altar at the back of the
 								Stage”</emph> and <emph>“soft music from an instrument of Glass or
 								Steel.”</emph>
 						</item>
-						<item n="2">Onstage enter Alvar (dressed in a Sorcerer’s robe; the others
+						<item>Onstage enter Alvar (dressed in a Sorcerer’s robe; the others
 							don’t recognize him), Ordonio, Teresa, and Valdez (father of the
 							brothers Ordonio and Alvar). </item>
-						<item n="3">The music should score their dialogue and action. Beginning at
+						<item>The music should score their dialogue and action. Beginning at
 							about III.i.62, a “voice behind the scenes sings ‘Hear, sweet spirit’”
 							during (the disguised) Alvar’s incantation to raise up the soul of
 							Alvar.</item>
-						<item n="4">The goal of the altar spectacle is to awaken Ordonio’s
+						<item>The goal of the altar spectacle is to awaken Ordonio’s
 							consciousness, so the actor playing Ordonio needs to convey a change
 							over the course of the scene. In the early stages of Alvar’s
 							presentation, for instance, Ordonio still thinks that <emph>he</emph> is
@@ -808,22 +717,22 @@
 							turns away, shooing him “Away, away!” Then, like a director perfectly
 							timing his dramatic effects, he orders, “Now let me hear more music"
 							(III.i.110-14). </item>
-						<item n="5">Music cue: the stage directions read “The whole Music clashes
+						<item>Music cue: the stage directions read “The whole Music clashes
 							into a Chorus.” The Chorus chants “Wandering Demons! Hear the spell! /
 							Lest a Blacker charm compel—”</item>
-						<item n="6">Recreate the spectacle of the portrait: the stage directions
+						<item>Recreate the spectacle of the portrait: the stage directions
 							indicate that “the incense on the altar takes fire suddenly, and an
 							illuminated picture of Alvar's assassination is discovered, and having
 							remained a few seconds is then hidden by ascending flames.”</item>
-						<item n="7">Ordonio “<emph>start[s] in great agitation</emph>” and tries to
+						<item>Ordonio “<emph>start[s] in great agitation</emph>” and tries to
 							blame the situation on “the traitor Isidore.”</item>
-						<item n="8">Monviedro and the familiars of the Inquisition enter and seize
+						<item >Monviedro and the familiars of the Inquisition enter and seize
 							Alvar.</item>
-						<item n="9">Ordonio “<emph>recovers himself as from stupor</emph>” and
+						<item>Ordonio “<emph>recovers himself as from stupor</emph>” and
 							orders that they take Alvar to the dungeon.</item>
 					</list>
 				</div>
-				<div type="section" n="4">
+				<div type="section">
 					<head>CLASS DISCUSSION</head>
 					<p>Reflect on how the class’s performance affected you as an actor, designer,
 						and/or spectator. How did the Gothic elements, particularly the music and
@@ -842,15 +751,14 @@
 				</div>
 
 
-				<div type="section" n="5">
-					<head>Teaching <name ref="BaillieJoanna">Joanna Baillie</name>’s <title
+				<div type="section">
+					<head>Teaching Joanna Baillie’s <title
 							level="m">Orra</title></head>
-					<p n="13"><name ref="ShelleyPercyBysshe">Shelley</name>’s sonnet “Lift not the
+					<p>Shelley’s sonnet “Lift not the
 						painted veil” (1818) provides an effective lead-in to this reading of <title
 							level="m">Orra</title> because holy theatre, like Orra herself, seeks to
-						lift the painted veil, with often (and necessarily) painful—or, as <name
-							ref="ArtaudAntonin">Artaud</name> later famously phrased it,
-							<emph>cruel</emph>—results. <name ref="BaillieJoanna">Baillie</name>’s
+						lift the painted veil, with often (and necessarily) painful—or, as Artaud later famously phrased it,
+							<emph>cruel</emph>—results. Baillie’s
 						tragedy on <emph>fear</emph> in the <title level="m">Plays on the
 							Passions</title>, <title level="m">Orra</title>’s dramaturgical concept
 						is to show the progression of fear in Orra, which starts in a somewhat
@@ -860,32 +768,26 @@
 						Orra’s internal state; the audience doesn’t physically see any ghosts, but
 						instead watches the actor playing Orra unveil her hauntedness, or, in other
 						words, react to fear. </p>
-					<p n="14"><name ref="CarlsonJulieAnn">Julie Carlson</name>’s essay “<name
-							ref="BaillieJoanna">Baillie</name>’s <title level="m">Orra</title>:
-						Shrinking in Fear” (included in the recent collection <title level="m"><name
-								ref="BaillieJoanna">Joanna Baillie</name>, Romantic
+					<p>Julie Carlson’s essay “Baillie’s <title level="m">Orra</title>:
+						Shrinking in Fear” (included in the recent collection <title level="m">Joanna Baillie, Romantic
 							Dramatist</title>) works well as a contemporary supplement to the play.
-							<name ref="CarlsonJulieAnn">Carlson</name> proposes the idea that
+							Carlson proposes the idea that
 						“hauntology” rather than ontology describes our current being and time, and
 						writes that <title level="m">Orra</title> is a haunted and haunting play; it
 						is the exception rather than the rule in the <title level="m">Plays on the
-							Passions</title> and undermines <name ref="BaillieJoanna"
-						>Baillie</name>’s usual emphasis on rational morality. Orra herself is a
+							Passions</title> and undermines Baillie’s usual emphasis on rational morality. Orra herself is a
 						“spectral subject” in the play (216), a position between the “twos” of
-						binaries (much like <name ref="BaillieJoanna">Baillie</name>’s own unusual
+						binaries (much like Baillie’s own unusual
 						situation in Romanticism and theatre history—not yet acknowledged as a truly
 						“major” figure, yet too major to be “minor”).<note place="foot"
-							resp="editors" n="10">This conundrum is discussed in <name
-								ref="CrochunisThomas">Thomas Crochunis</name>’s introductory essay
-							to <title level="m"><name ref="BaillieJoanna">Joanna Baillie</name>,
-								Romantic Dramatist</title>, ed. <name ref="CrochunisThomasC"
-								>Crochunis</name> (New York and London: Routledge, 2004), 3.</note>
+							resp="editors">This conundrum is discussed in Thomas Crochunis’s introductory essay
+							to <title level="m">Joanna Baillie,
+								Romantic Dramatist</title>, ed. Crochunis (New York and London: Routledge, 2004), 3.</note>
 						Like <title level="m">Remorse</title>, <title level="m">Orra</title> draws
 						upon the conventions of the Gothic and of Romantic medievalism, and
-						similarly, the spectacle is utilized, <name ref="CarlsonJulieAnn"
-							>Carlson</name> argues, as a way of transporting us to a psychic space
+						similarly, the spectacle is utilized, Carlson argues, as a way of transporting us to a psychic space
 						of sensory perceptions—a “before-human” state that precedes meaning-making
-						(217)—a technique used in <name ref="ArtaudAntonin">Artaud</name>’s
+						(217)—a technique used in Artaud’s
 						twentieth-century performance events that gave audiences a “sensory
 						overload” to break down their habitual rational responses. Gothic spectacle
 						provided “a way of exploring the psychological even before twentieth-century
@@ -893,24 +795,22 @@
 						characters’ minds as authors explore how individuals react in times of great
 						stress,” Christine Colón explains (xxiii). Furthermore, since the Gothic
 						“compels an audience to derive pleasure from fear,” it “clearly allies
-						itself with the idea of the sublime”; and “for a playwright like <name
-							ref="BaillieJoanna">Baillie</name> who desperately wishes to stir her
+						itself with the idea of the sublime”; and “for a playwright like Baillie who desperately wishes to stir her
 						audience members’ imaginations and compel them to transform their lives, the
 						spectacle of the Gothic sublime would have been appealing. It had the
 						potential to awaken audiences and cause them to act” (Colón xxii-xxiii). </p>
-					<p n="15">In addition, <name ref="BaillieJoanna">Baillie</name>’s “Introductory
+					<p n="15">In addition, Baillie’s “Introductory
 						Discourse” and note “To the Reader” to the <title level="m">Plays on the
 							Passions</title> should be taught alongside <title level="m"
-							>Orra</title>.<note place="foot" resp="editors" n="11"><name
-								ref="BaillieJoanna">Baillie</name> is slowly becoming recognized as
+							>Orra</title>.<note place="foot" resp="editors">Baillie is slowly becoming recognized as
 							a significant theorist of theatre; each year a larger number of
-							articles, it seems, appears on <name ref="BaillieJoanna">Baillie</name>,
-							and <name ref="BurroughsCatherine">Catherine Burroughs</name>’s <title
+							articles, it seems, appears on Baillie,
+							and Catherine Burroughs’s <title
 								level="m">Closet Spaces</title> (1997), Judith Bailey Slagle’s
-							critical biography <title level="m"><name ref="BaillieJoanna">Joanna
-									Baillie</name>: A Literary Life</title> (2002), and Thomas C.
-								<name ref="CrochunisThomas">Crochunis</name>’s edited collection of
-							essays, <title level="m"><name ref="BaillieJoanna">Baillie</name>,
+							critical biography <title level="m">Joanna
+									Baillie: A Literary Life</title> (2002), and Thomas C.
+								Crochunis’s edited collection of
+							essays, <title level="m">Baillie,
 								Romantic Dramatist</title> (2004) have all been major contributions.
 							Excerpts or complete versions of her “Introductory Discourse” have been
 							anthologized for some time in collections of Romantic-era writing,
@@ -926,30 +826,25 @@
 							been given a paragraph in the latest (tenth) edition of the standard
 							textbook <title level="m">History of the Theatre</title>, by Oscar
 							Brockett and Franklin Hildy, but as a playwright, not a theatre
-							theorist. Furthermore, while scholarship on <name ref="BaillieJoanna"
-								>Baillie</name> has been impressive, it hasn’t yet penetrated drama
-							scholarship deeply to show <name ref="BaillieJoanna">Baillie</name>’s
+							theorist. Furthermore, while scholarship on Baillie has been impressive, it hasn’t yet penetrated drama
+							scholarship deeply to show Baillie’s
 							influence on the modern avant garde. For instance, one description of
 							expressionist drama is not just that it is a highly subjective art form
 							in which “internal acts become externalized,” but, more specifically,
 							that the “drama becomes concentrated to a point of ‘pure’ emotion”
-								(<name ref="InnesChristopher">Innes</name>, <title level="m">Holy
-								Theatre</title> 44, 45), an innovation of <name ref="BaillieJoanna"
-								>Baillie</name>’s. </note> (Both are excerpted in <title level="m"
+								(Innes, <title level="m">Holy
+								Theatre</title> 44, 45), an innovation of Baillie’s. </note> (Both are excerpted in <title level="m"
 							>The Broadview Anthology of </title>
 						<title level="m">Romantic Drama</title>.) As do the other
-						dramatist-theorists in the holy theatre tradition, <name ref="BaillieJoanna"
-							>Baillie</name> is writing a manifesto: creating drama for a theatre
+						dramatist-theorists in the holy theatre tradition, Baillie is writing a manifesto: creating drama for a theatre
 						that could be—that is, the theatre she wants rather than the theatre she
-						has. It is in the “Introductory Discourse” that <name ref="BaillieJoanna"
-							>Baillie</name> develops the idea for which she’s become best known,
+						has. It is in the “Introductory Discourse” that Baillie develops the idea for which she’s become best known,
 						that of “sympathetic curiosity.” She does not just make the point that we
 						are curious about other humans, especially when they are experiencing
 						emotional trauma, but that we want to fix our eyes on the manifestation of
 						such trauma on their bodies and faces—to observe their
 						<emph>symptoms</emph>, as it were. To take just one example that works well
-						with teaching <title level="m">Orra</title>, <name ref="BaillieJoanna"
-							>Baillie</name> writes that one of the things humans are most curious
+						with teaching <title level="m">Orra</title>, Baillie writes that one of the things humans are most curious
 						about, yet most scared of, are ghosts. “No man wishes to see the Ghost
 						himself, which would certainly procure him the best information on the
 						subject, but every man wishes to see one who believes that he sees it, in
@@ -970,11 +865,11 @@
 						inappropriate in polite society; however, our sympathetic curiosity is
 						satisfactorily aroused and exercised by attending the theatre. It gives
 						spectators the opportunity to vicariously steal into the closet—and into the
-						mind—of another. For, as <name ref="BaillieJoanna">Baillie</name> writes,
+						mind—of another. For, as Baillie writes,
 						“there is, perhaps, no employment which the human mind will with so much
 						avidity pursue, as the discovery of concealed passion, as the tracing the
 						varieties and progress of a perturbed soul” (360). </p>
-					<p n="16">The success of <name ref="BaillieJoanna">Baillie</name>’s designs to
+					<p n="16">The success of Baillie’s designs to
 						allow audiences to trace the varieties and progress of Orra’s perturbed soul
 						depend heavily on the skill and style of the actors, and thus it is no
 						surprise that her script is filled with detailed prescriptions for gesture
@@ -989,27 +884,23 @@
 						perturbed mind” with “muttered, imperfect articulation which grows by
 						degrees into words” or “that rapid burst of sounds which often succeeds the
 						slow languid tones of distress” (375). These precisely observed descriptions
-						remind us of what may be most remarked upon about <name ref="BaillieJoanna"
-							>Baillie</name>’s playwriting, in her own day as well as ours: her
+						remind us of what may be most remarked upon about Baillie’s playwriting, in her own day as well as ours: her
 						diagnostically observant eye and analytic, “anatomical” dramaturgy. The
 						reviewer from <title level="j">Edinburgh Magazine</title> writes in 1818
 						(excerpted in the <title level="m">Broadview Anthology of Romantic
-							Drama</title>) that “no one” except <name ref="BaillieJoanna"
-							>Baillie</name> ever thought of giving, in dramatic form, “an anatomical
+							Drama</title>) that “no one” except Baillie ever thought of giving, in dramatic form, “an anatomical
 						analysis, a philosophical dissection of a passion” (381). Her plays work as
 						a kind of “microscope, by means of which she seems to think that she has
 						brought within the sphere of our vision things too minute for the naked
 						intellectual eye” (381-2). The reviewer thinks this is the “radical defect”
 						of her plays, but today it is considered perhaps her most brilliant
 						endeavor, an innovative theatrical experiment. </p>
-					<p n="17">The names of <name ref="BaillieJoanna">Joanna Baillie</name> and <name
-							ref="StanislavskiConstantin">Constantin Stanislavski</name> are rarely,
+					<p>The names of Joanna Baillie and Constantin Stanislavski are rarely,
 						if ever, linked, but he too taught a form of anatomical observation, telling
 						his students that, when creating a role, they should first read the text
 						carefully for the “physical truths” about the character. The fame of
 						American Method acting’s “inside out” approach has obscured other ways of
-						building characters and distorted part of <name ref="StanislavskiConstantin"
-							>Stanislavski</name>’s original teachings; he instructs his actors not
+						building characters and distorted part of Stanislavski’s original teachings; he instructs his actors not
 						to “truncate” the “inner line” of a role and replace it with their own
 						“personal line,” but to begin with the “physical life” of the character,
 						which is tangible. “The spirit cannot but respond to the actions of the
@@ -1028,7 +919,7 @@
 						theatre, actors would strike archetypal poses, rather than move and pause in
 						the realistic manner that’s familiar to us now; these poses were meant to
 						convey certain emotional effects, indeed to heighten the emotional effect
-							altogether.)<note place="foot" resp="editors" n="12">It is not unusual
+							altogether.)<note place="foot" resp="editors">It is not unusual
 							for playwrights to prescribe the acting style that fits the view of how
 							consciousness is presented in the play, particularly in this holy
 							theatre tradition in which realistic causal explanations for behavior
@@ -1042,7 +933,7 @@
 							actor submerges himself into, he should consider instead a fractured
 							whole with bits and pieces of character flying off the central theme . .
 							. . In other words, more in terms of collage construction or jazz
-							improvisation” (105). See <name ref="SheweyDon">Don Shewey</name>,
+							improvisation” (105). See Don Shewey,
 								<title level="m">Sam Shepard</title> (New York: Da Capo Press,
 							1997).</note> The unveiling or revelation of a character’s internal
 						state was a primary feature of late eighteenth-century and Romantic acting
@@ -1059,15 +950,15 @@
 						inviting the audience to experience it. As we see featured in <title
 							level="m">Orra</title>, one way an actor would reveal the interiority of
 						a character was by focusing on the way the character <emph>reacted</emph> to
-						the dramatic situation. As <name ref="BateJonathan">Jonathan Bate</name> has
+						the dramatic situation. As Jonathan Bate has
 						written, the popular view among Romantic theatre artists was that “the
 						essence of human nature is to be found in reaction, not action, and so it
 						was that their performances were most intense at certain moments of
 						reflection” (“The Romantic Stage” 97). </p>
-					<p n="19"><name ref="BaillieJoanna">Baillie</name>’s detailed descriptions of
+					<p>Baillie’s detailed descriptions of
 						Orra’s physical actions and gestures, particularly in her mad scene,
 						instruct the actor on how to accurately depict the progression of her fear.
-						To see how <name ref="BaillieJoanna">Baillie</name>’s stage directions
+						To see how Baillie’s stage directions
 						“direct” the play and help her actors create their roles through anatomical
 						analysis, and to experience how physical gestures can work to help
 						performers feel for themselves and reveal to spectators the characters'
@@ -1075,38 +966,38 @@
 				</div>
 
 
-				<div type="section" n="6">
+				<div type="section">
 					<head>EXERCISE 2: PHYSICALLY CREATING THE INTERIOR STATE OF MADNESS</head>
-					<p>In this exercise students can test <name ref="BaillieJoanna">Baillie</name>’s
+					<p>In this exercise students can test Baillie’s
 						instructions to the actor playing Orra in the key scene where she finally
 						goes mad from fear (IV.iii). To play the entire scene you will need actors
 						for Orra, Rudigere, Cathrina, Theobald, and Franko. You could also choose to
 						play just Orra’s soliloquies (IV.iii.27-52 and IV.iii.147-165), as these are
-						the moments for which <name ref="BaillieJoanna">Baillie</name> provides most
+						the moments for which Baillie provides most
 						specific direction. </p>
 					<list type="ordered">
-						<item n="1">Make a list of all the stage directions that describe Orra’s
+						<item>Make a list of all the stage directions that describe Orra’s
 							actions (or reactions) in the scene. (For instance, “<emph>pacing to and
 								fro,” “stands fixed with her arms crossed on her breast,” “striking
 								the floor with her hands,”</emph> etc.) </item>
-						<item n="2">To experience the physical life of the character and the “arc”
+						<item>To experience the physical life of the character and the “arc”
 							or progression of Orra’s madness, practice enacting all of the stage
 							directions, the gestures and postures, <emph>without</emph> saying the
 							lines of the scene. You might treat this as a kind of dance, repeating
 							the series of gestures and movements until you begin to feel the
 							emotional life of the character.</item>
-						<item n="3">Then go back and play the scene in its entirety, following the
+						<item>Then go back and play the scene in its entirety, following the
 							directions as you deliver the lines. </item>
-						<item n="4">Everyone should have a chance both to enact Orra’s gestures and
+						<item>Everyone should have a chance both to enact Orra’s gestures and
 							to watch others doing so. </item>
 					</list>
 				</div>
-				<div type="section" n="7">
+				<div type="section">
 					<head>CLASS DISCUSSION</head>
 					<p>What did performing the gestures and actions feel like? Did you ever feel
 						fear rising in yourself simply from doing the physical gestures associated
 						with a person feeling fear? If so, when in particular did you feel it? Of
-							<name ref="BaillieJoanna">Baillie</name>’s descriptions of a person
+							Baillie’s descriptions of a person
 						becoming overwhelmed with fear, in what ways were they <emph>accurate</emph>
 						and in what ways merely <emph>literary</emph>?</p>
 					<p>How did others look when they played Orra? Which gestures or postures most
@@ -1141,44 +1032,38 @@
 				</div>
 
 
-				<div type="section" n="8">
+				<div type="section">
 					<head>Romantic drama as the birthplace of the modern avant garde</head>
-					<p n="20">When works of the modern avant garde are studied immediately after
+					<p>When works of the modern avant garde are studied immediately after
 							<title level="m">Remorse</title> and <title level="m">Orra</title>, the
 						kinship with Romantic drama becomes clear in both the shared vision of
-						theatre and the stagecraft employed to realize it. As <name ref="BrookPeter"
-							>Peter Brook</name> explains, the holy theatre does not only
+						theatre and the stagecraft employed to realize it. As Peter Brook explains, the holy theatre does not only
 							<emph>present</emph> the invisible in drama, it “also offers
 							<emph>conditions that make its perception possible</emph>” (56), such as
 						theatrical spectacle, lighting, a use of ritualistic devices, dance and
 						movement, musical scores and other kinds of sound, and even, in some cases,
-							smell.<note place="foot" resp="editors" n="13">Amiri Baraka’s use of
+							smell.<note place="foot" resp="editors">Amiri Baraka’s use of
 							smell in <title level="m">Slave Ship</title> to convey a sense of
 							“atmosfeeling” is a good example.</note> Far from being “mere” spectacle
 						or surface—an entertaining painted veil—these elements, whether labeled
-						Gothic, Romantic, or Holy, are employed to lift or transcend reality. <name
-							ref="BackscheiderPaula">Paula Backscheider</name> writes in <title
+						Gothic, Romantic, or Holy, are employed to lift or transcend reality. Paula Backscheider writes in <title
 							level="m">Spectacular Politics</title>, in a discussion of <title
 							level="m">The Castle Spectre</title>, that Gothic playwrights who added
 						the word “romance” to their titles “signaled their freedom from the
 						referential, veridical world of realist texts and allied themselves with a
 						highly symbolic art, often reaching for a higher reality or a deeper
-						psychology” (156). Theorists of the Gothic, <name ref="BackscheiderPaula"
-							>Backscheider</name> continues, have argued that the form “is best
+						psychology” (156). Theorists of the Gothic, Backscheider continues, have argued that the form “is best
 						distinguished by the experience its readers or spectators have, and it is
 						now widely accepted as an expression of dissatisfaction with the
 						possibilities of conventional literary realism” (156). This dissatisfaction
 						leads to the modern avant garde tendency to elevate mood over plot, or
-						internal over external states, presaged by <name ref="BaillieJoanna"
-							>Baillie</name>’s work in particular. </p>
-					<p n="21">The twentieth century part of the course looks at <name
-							ref="StrindbergAugust">Strindberg</name>’s <title level="m">A Dream
+						internal over external states, presaged by Baillie’s work in particular. </p>
+					<p>The twentieth century part of the course looks at Strindberg’s <title level="m">A Dream
 							Play</title> (1901); one-act experiments <title level="m"
 							>Interior</title> (1891) by Maurice Maeterlinck, <title level="m">The
 							Wayfarer</title> (1910) by Valery Briusov, and Wassily Kandinsky’s
 							<title level="m">The Yellow Sound</title> (1909); Beckett’s <title
-							level="m">Waiting for Godot</title> (1953), the text seen by <name
-							ref="BrookPeter">Peter Brook</name> as the apotheosis of holy theatre;
+							level="m">Waiting for Godot</title> (1953), the text seen by Peter Brook as the apotheosis of holy theatre;
 						Sam Shepard’s <title level="m">Suicide in B Flat</title> (1976) and the
 						off-off Broadway movement; Amiri Baraka’s Artaudian “historical pageant”
 							<title level="m">Slave Ship</title> (1967) and Ntozake Shange’s
@@ -1186,22 +1071,21 @@
 							rainbow is enuf</emph> (1975); and ends with consideration of the career
 						of Sarah Kane, particularly her plays <title level="m">Blasted</title>
 						(1995) and <title level="m">4:48 Psychosis</title> (2000). We also discuss
-						the influence of director-theorists <name ref="ArtaudAntonin">Antonin
-							Artaud</name> (<title level="m">The Theatre and Its Double</title>
-							[1938])<note place="foot" resp="editors" n="14">It might be interesting
-							for students to note that <name ref="ArtaudAntonin">Artaud</name>’s
-							Théâtre Alfred Jarry planned seasons that included <name
-								ref="StrindbergAugust">Strindberg</name>’s <title level="m">A Dream
+						the influence of director-theorists Antonin
+							Artaud (<title level="m">The Theatre and Its Double</title>
+							[1938])<note place="foot" resp="editors">It might be interesting
+							for students to note that Artaud’s
+							Théâtre Alfred Jarry planned seasons that included Strindberg’s <title level="m">A Dream
 								Play</title> (a favorite, intended for his first season, 1926/27,
 							but produced in 1928), Büchner’s <title level="m">Woyzeck</title> and
-								<name ref="ShelleyPercyBysshe">Shelley</name>’s <title level="m">The
-								Cenci</title> (perhaps <name ref="ArtaudAntonin">Artaud</name>’s
+								Shelley’s <title level="m">The
+								Cenci</title> (perhaps Artaud’s
 							best-known production—as well as the best-known version of <title
 								level="m">The Cenci</title>), as well as an archival reconstruction
 							of the story of Blue-Beard and the Jacobean drama <title level="m">The
-								Revenger’s Tragedy</title>) (<name ref="EsslinMartin">Esslin</name>,
-								<title level="m"><name ref="ArtaudAntonin">Antonin
-								Artaud</name></title> 96; <name ref="ArtaudAntonin">Artaud</name>,
+								Revenger’s Tragedy</title>) (Esslin,
+								<title level="m">Antonin
+								Artaud</title> 96; Artaud,
 								<title level="m">The Theatre and Its Double</title> 99-100).</note>
 						and Jerzy Grotowski (<title level="m">Towards a Poor Theatre</title>
 						[1968]—probably best known to people outside the theatre from Andre
@@ -1223,9 +1107,8 @@
 						(163) and her conceptualization of “utopian performatives” in <title
 							level="m">Utopia in Performance: Finding Hope at the Theater</title>
 						(2005). </p>
-					<p n="22">Film is probably the most engaging and accessible contemporary
-						porthole for entering the realms of the holy theatre tradition. As <name
-							ref="CardulloBert">Bert Cardullo</name> notes of modernist avant-garde
+					<p>Film is probably the most engaging and accessible contemporary
+						porthole for entering the realms of the holy theatre tradition. As Bert Cardullo notes of modernist avant-garde
 						plays, Romantic dramas would perhaps have been “better suited to the screen
 						than to the stage, assaulting as they did the theater’s traditional
 						objectivity or exteriority and its bondage to continuous time and space”
@@ -1251,11 +1134,11 @@
 						explore them, too, with the result that Romantic drama is seen as relevant,
 						even prescient, to our artistic concerns, and as a fertile ground for
 						theatrical experimentation.</p>
-				</div>
+	
 
-			</div>
+			
 
-			<div type="citations">
+			<div type="citation">
 				<head>Works Cited and Referenced</head>
 				<listBibl>
 					<biblStruct>
@@ -1300,9 +1183,9 @@
 									Passions</emph></title>
 						</analytic>
 						<monogr>
-							<ref target="#CG"/>
+							
 							<imprint>
-								<biblScope type="pp">357-370</biblScope>
+								<biblScope>pp. 357-370</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1312,9 +1195,9 @@
 							<title level="a">Orra</title>
 						</analytic>
 						<monogr>
-							<ref target="#CG"/>
+							
 							<imprint>
-								<biblScope type="pp">133-164</biblScope>
+								<biblScope>pp. 133-164</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1412,9 +1295,9 @@
 							<title level="a">Baillie’s <emph>Orra</emph>: Shrinking in Fear</title>
 						</analytic>
 						<monogr>
-							<ref target="#TCC"/>
+							
 							<imprint>
-								<biblScope type="pp">pp. 206-20</biblScope>
+								<biblScope>pp. 206-20</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1440,9 +1323,9 @@
 							<title level="a">Remorse</title>
 						</analytic>
 						<monogr>
-							<ref target="#CG"/>
+							
 							<imprint>
-								<biblScope type="pp">165-204</biblScope>
+								<biblScope>pp. 165-204</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1457,7 +1340,8 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
-					<biblStruct xml:id="CG">
+					
+					<biblStruct>
 						<monogr>
 							<editor role='editor'>Cox, Jeffrey N.</editor>
 							<editor role='editor'>Gamer, Michael</editor>
@@ -1469,7 +1353,7 @@
 							</imprint>
 						</monogr>
 					</biblStruct>
-					<biblStruct xml:id="TCC">
+					<biblStruct>
 						<monogr>
 							<editor role='editor'>Crochunis, Thomas C.</editor>
 							<title level="m">Joanna Baillie, Romantic Dramatist</title>
@@ -1610,10 +1494,10 @@
 						<monogr>
 							<title level="j">Bulletin of Research in the Humanities</title>
 							<imprint>
-								<biblScope type="vol">85</biblScope>
-								<biblScope type="no">4</biblScope>
+								<biblScope>vol. 85</biblScope>
+								<biblScope>no. 4</biblScope>
 								<date>Winter 1982</date>
-								<biblScope>443-464</biblScope>
+								<biblScope>pp. 443-464</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1630,7 +1514,7 @@
 								<pubPlace>Manchester and New York</pubPlace>
 								<publisher>Manchester UP</publisher>
 								<date>2002</date>
-								<biblScope>128–146</biblScope>
+								<biblScope>pp. 128–146</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1741,10 +1625,10 @@
 						<monogr>
 							<title level="j">Studies in Romanticism</title>
 							<imprint>
-								<biblScope type="vol">43</biblScope>
-								<biblScope type="no">4</biblScope>
+								<biblScope>vo. 43</biblScope>
+								<biblScope>no. 4</biblScope>
 								<date>2004</date>
-								<biblScope type="pp">537-55</biblScope>
+								<biblScope>pp. 537-55</biblScope>
 							</imprint>
 						</monogr>
 					</biblStruct>
@@ -1761,6 +1645,8 @@
 					</biblStruct>
 
 				</listBibl>
+			</div>
+			</div>
 			</div>
 		</body>
 	</text>
