@@ -1,35 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
+            
             <titleStmt>
-                <title type="main">Teaching Jane Austen</title>
-                <title type="subordinate">A Romantic Circles Pedagogies Commons Special
-                    Issue</title>
+                <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a">Teaching Jane Austen’s (Digitized) Manuscripts</title>
-                <author>
+                
+                
+                <author role="primary">
                     <name>Michelle Levy</name>
                 </author>
-                <editor role="editor">Michelle Levy</editor>
+                
                 <sponsor>Romantic Circles</sponsor>
+                
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Orrin N.C. Wang</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Pedagogies Commons Editor</resp>
-                    <name>Kate Singer</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+            
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition>YYYY-MM-DD</edition>
+            </editionStmt>
+            
             <publicationStmt>
-                <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                    Maryland</publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
                     <p>Material from the Romantic Circles Website may not be downloaded, reproduced
                         or disseminated in any manner without authorization unless it is for
                         purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -38,17 +56,16 @@
                         are copyrighted by the author/editor and may be shared only in accordance
                         with the Fair Use provisions of U.S. copyright law. Except as expressly
                         permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:&gt;
-                        <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles: <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
                     <p>By their use of these texts and images, users agree to the following
                         conditions: <list>
                             <item>These texts and images may not be used for any commercial purpose
@@ -65,48 +82,65 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <idno type="edition">pedagogies.commons.2015.levy</idno>
-                <idno type="resource">commons</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition"
+                    >praxis.austen.2015.levy</idno>
+                <idno type="resource"
+                    >austen</idno>
             </publicationStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a" type="main">Teaching Jane Austen’s (Digitized)
-                            Manuscripts</title>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Teaching Jane Austen’s (Digitized) Manuscripts
+                        </title>
                         <author role="secondary">
                             <persName>
                                 <forename>Michelle</forename>
                                 <surname>Levy</surname>
                             </persName>
                         </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr
+                            target="praxis/austen/praxis.2015.austen.levy"/>
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+                    
+                    
                     <monogr>
-                        <title level="m">Teaching Jane Austen</title>
-                        <title level="s">Pedagogies</title>
-                        <title level="s" type="sub">Romantic Pedagogy Commons</title>
+                        <title level="m"
+                            >Teaching Jane Austen</title>
+                        <title level="s">Praxis</title>
+                        
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-02-04">February 4, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/pedagogies/commons/austen/pedagogies.commons.2015.levy.html</biblScope>
+                            <publisher> Romantic Circles, https://romantic-circles.org, University
+                                of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
+                    
+                    
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for
-                        &#226;&#8364;&#339;," for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
                     <p>Because of web browser variability, all hyphens have been typed on the U.S.
                         keyboard</p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
@@ -115,11 +149,12 @@
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+                    <p>&#35; has been used for #, the pound sign</p>
                     <p>All other characters, those with accents, non-breaking spaces, etc., have
                         been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+            
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -145,6 +180,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+            
             <classDecl>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
@@ -152,161 +188,12 @@
                     <bibl>NINES categories for Genre and Material Form at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                         20014-02-27</bibl>
-                    <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
                     xml:id="dcType">
                     <bibl>NINES categories for document type at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
@@ -314,98 +201,38 @@
                     <bibl>NINES categories for discplines at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <keywords scheme="http://www.rc.umd.edu/#tags">
-                        <term subtype="tags">Jane Austen</term>
-                        <term subtype="tags">manuscript studies</term>
-                        <term subtype="tags">manuscript and print culture</term>
-                        <term subtype="tags">digital editions</term>
-                        <term subtype="tags">textual theory</term>
-                        <term subtype="tags">practices of authorship</term>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
                 </keywords>
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
             <change>
-                <name>Kyle Bickoff</name>
-                <date>2014-10-11</date>
+                <!--  Coder Name and Date Coded  -->
+                <name><!-- coder --></name>
                 <list>
-                    <item>TEI encoding the issue</item>
+                    <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+
+
     <text>
         <front>
             <div type="abstract">
@@ -877,25 +704,30 @@
                         divergence in the versions. The heavy rewriting apparent here may be
                         contrasted with the much lighter revisions towards the end of the
                         chapter, as seen in fig. 2.</p>
-                    <figure n="1">
+                    <figure>
                         <graphic n="1001" width="16.51cm" height="10.31875cm"
-                            url="/sites/default/files/imported/pedagogies/commons/austen/images/image1Thumb.png"
+                            url="/sites/default/files/imported/pedagogies/austen/images/image1Thumb.png"
                             rend="inline"/>
                         <figDesc>Screen shot of <ref target="http://juxtacommons.org/shares/8XuSA3">Juxta Commons comparison of the cancelled and
                             substituted final chapters of <title level="m"
                                 >Persuasion</title></ref></figDesc>
                     </figure>
+                    <p>Fig. 1 Screen shot of <ref target="http://juxtacommons.org/shares/8XuSA3">Juxta Commons comparison of the cancelled and
+                        substituted final chapters of <title level="m"
+                            >Persuasion</title></ref></p>
                     <!-- <p>http://juxtacommons.org/shares/8XuSA3<hi rend="background(yellow)"> [Editor: I would
                     like the live frames to be embedded; here is the link to my comparison set; it
                     still may make sense to retain the screen shot, for those who can’t access
                     juxta.]</hi></p>  -->
-                    <figure n="2">
+                    <figure>
                         <graphic n="1002" width="16.51cm" height="10.31875cm"
-                            url="/sites/default/files/imported/pedagogies/commons/austen/images/image2Thumb.png"
+                            url="/sites/default/files/imported/pedagogies/austen/images/image2Thumb.png"
                             rend="inline"/>
                         <figDesc>Screen shot of <ref target="http://juxtacommons.org/shares/ZlBzIv">Juxta Commons comparison of the cancelled and
                             substituted chapters of <title level="m">Persuasion</title></ref></figDesc>
                     </figure>
+                    <p>Fig. 2 Screen shot of <ref target="http://juxtacommons.org/shares/ZlBzIv">Juxta Commons comparison of the cancelled and
+                        substituted chapters of <title level="m">Persuasion</title></ref></p>
                     <!-- <p><ref target="http://juxtacommons.org/shares/ZlBzIv">http://juxtacommons.org/shares/ZlBzIv</ref><hi
                     rend="background(yellow)"> [Editor: I would like the live frames to be embedded;
                     here is the link to my comparison set; might it still may make sense to retain
@@ -1339,7 +1171,7 @@
                     <bibl><ref target="http://www.whatjanesaw.org/"><emph>What Jane Saw, 
                         edited by, Janine Barchas (2013)</emph></ref>: A scholarly resource
                         recreating an art exhibit Austen visited in 1813.</bibl>
-                </div>
+               
                 <div type="citations">
                     <head>Works Cited</head>
                     <bibl>Austen, Henry. “Biographical Notice of the Author” in James Edward
@@ -1491,6 +1323,7 @@
                             level="m">Collaborative Research in the Digital Humanities</title>. Ed.
                         Marilyn Deegan and Willard McCarty. Farnham, Surrey: Ashgate, 2012.
                         Print.</bibl>
+                </div>
                 </div>
             </div>
         </body>
