@@ -1,37 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
-                <title type="main">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                <title type="subordinate">A Romantic Circles Pedagogies Commons Special
-                    Issue</title>
+                <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a">Playing with Independence: Using Multiplayer Online Narratives to
                     Explore Independent and Interdependent Tensions in Romantic-Period
                     Literature</title>
-                <author>
+
+
+                <author role="primary">
                     <name>Jon Saklofske</name>
                 </author>
-                <editor role="editor">Suzanne Barnett</editor>
+
+
+
                 <sponsor>Romantic Circles</sponsor>
+
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Orrin N.C. Wang</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Pedagogies Commons Editor</resp>
-                    <name>Kate Singer</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition>YYYY-MM-DD</edition>
+            </editionStmt>
+
             <publicationStmt>
-                <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                    Maryland</publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
                     <p>Material from the Romantic Circles Website may not be downloaded, reproduced
                         or disseminated in any manner without authorization unless it is for
                         purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -40,17 +60,16 @@
                         are copyrighted by the author/editor and may be shared only in accordance
                         with the Fair Use provisions of U.S. copyright law. Except as expressly
                         permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:&gt;
-                        <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles: <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
                     <p>By their use of these texts and images, users agree to the following
                         conditions: <list>
                             <item>These texts and images may not be used for any commercial purpose
@@ -67,12 +86,15 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <idno type="edition">pedagogies.romantic_education.2016.saklofske</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.romantic_education.2016.saklofske</idno>
                 <idno type="resource">romantic_education</idno>
             </publicationStmt>
+
             <sourceDesc>
                 <biblStruct>
                     <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">Playing with Independence: Using Multiplayer
                             Online Narratives to Explore Independent and Interdependent Tensions in
                             Romantic-Period Literature</title>
@@ -82,34 +104,49 @@
                                 <surname>Saklofske</surname>
                             </persName>
                         </author>
+
+
+
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr
+                            target="praxis/romantic_education/praxis.2016.romantic_education.saklofske"/>
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+
+
                     <monogr>
-                        <title level="m">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                        <title level="s">Pedagogies</title>
-                        <title level="s" type="sub">Romantic Pedagogy Commons</title>
+                        <title level="m">Pedagogies Edition: Romantic Education: Romantic Pedagogies
+                            and New Approaches to Teaching Romanticism</title>
+                        <title level="s">Praxis</title>
+
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-04-28">April 28, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/pedagogies/commons/romantic_education/pedagogies.romantic_education.2016.saklofske.html</biblScope>
+                            <publisher> Romantic Circles, https://romantic-circles.org, University
+                                of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
+
+
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for
-                        &#226;&#8364;&#339;," for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
                     <p>Because of web browser variability, all hyphens have been typed on the U.S.
                         keyboard</p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
@@ -118,11 +155,12 @@
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+                    <p>&#35; has been used for #, the pound sign</p>
                     <p>All other characters, those with accents, non-breaking spaces, etc., have
                         been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -148,6 +186,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+
             <classDecl>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
@@ -155,161 +194,12 @@
                     <bibl>NINES categories for Genre and Material Form at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                         20014-02-27</bibl>
-                    <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
                     xml:id="dcType">
                     <bibl>NINES categories for document type at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
@@ -317,107 +207,57 @@
                     <bibl>NINES categories for discplines at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <keywords scheme="http://www.rc.umd.edu/#tags">
-                  <term subtype="tags">interdependence</term>
-                  <term subtype="tags">interactive</term>
-                  <term subtype="tags">game</term>
-                  <term subtype="tags">players</term>
-                  <term subtype="tags">collaboration</term>
-                  <term subtype="tags">builders</term>
-                  <term subtype="tags">independence</term>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
                 </keywords>
             </textClass>
         </profileDesc>
+
         <revisionDesc>
             <change>
-                <name>Kyle Bickoff</name>
-                <date>2016-04-01</date>
+                <!--  Coder Name and Date Coded  -->
+                <name><!-- coder --></name>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
     <text>
-      <front>
-        <div type="abstract">
-          <p rend="noCount">
-            This paper discusses the outcomes of a multi-year project to engage undergraduate students in active and constructive encounters with Romantic period themes and contexts via web-based, multi-user gamespaces. Interactive, participatory learning environments, akin to humanities “lab” spaces where controlled experimentation and exploration can take place, encourage students to innovate, create, share, and play together. This pedagogical strategy engages students with the complexities, advantages, and difficulties faced by the intersection of independent and interdependent approaches to creativity, communication, and action during the Romantic period, allowing them to become performatively involved in experiential situations (as players/classroom citizens and as builders/authors) that reflect the thematic issues that they are studying.
-          </p>
-        </div>
-      </front>
+        <front>
+            <div type="abstract">
+                <p rend="noCount"> This paper discusses the outcomes of a multi-year project to
+                    engage undergraduate students in active and constructive encounters with
+                    Romantic period themes and contexts via web-based, multi-user gamespaces.
+                    Interactive, participatory learning environments, akin to humanities “lab”
+                    spaces where controlled experimentation and exploration can take place,
+                    encourage students to innovate, create, share, and play together. This
+                    pedagogical strategy engages students with the complexities, advantages, and
+                    difficulties faced by the intersection of independent and interdependent
+                    approaches to creativity, communication, and action during the Romantic period,
+                    allowing them to become performatively involved in experiential situations (as
+                    players/classroom citizens and as builders/authors) that reflect the thematic
+                    issues that they are studying. </p>
+            </div>
+        </front>
         <body>
             <div type="essay">
                 <head>Playing with Independence: Using Multiplayer Online Narratives to Explore
@@ -594,13 +434,17 @@
                         scripts. Different scripts can be written for different interactions (based
                         on the player’s class or gender), and this scripting can be used to give
                         NPC’s “memories” of previous encounters with the player (Figure 1).</p>
-                    <figure n="1">
+                    <p>
+                    <figure>
                         <graphic n="1001" width="16.51cm" height="12.065cm"
-                            url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/sak_image1Thumb.jpg"
+                            url="/sites/default/files/imported/pedagogies/romantic_education/images/sak_image1Thumb.jpg"
                             rend="inline"> </graphic>
                         <figDesc>A screenshot of Golgonooza’s <title level="m">The Natural
                                 Daughter</title> game</figDesc>
                     </figure>
+                    </p>
+                    <p>Fig. 1 A screenshot of Golgonooza’s <title level="m">The Natural
+                        Daughter</title> game</p>
                 </div>
                 <div type="section">
                     <head>Programmed: All the men and women merely players</head>
@@ -798,16 +642,22 @@
                         expose them to modding and customizing practices that involve branching
                         narrative scripts without bottlenecking their potential to deliver a rich,
                         collaborative result (see figures 2 and 3).</p>
-                    <figure n="2">
+                    <p>
+                    <figure>
                         <graphic n="1002" width="16.66875cm" height="11.90625cm"
-                            url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/sak_image2Thumb.jpg"
+                            url="/sites/default/files/imported/pedagogies/romantic_education/images/sak_image2Thumb.jpg"
                             rend="inline"> </graphic>
                         <figDesc>The Resource Management GUI for student projects in Golgonooza
                             2.0</figDesc>
                     </figure>
-                    <figure n="3">
+                    </p>
+                    <p>Fig. 2 The Resource Management GUI for student projects in Golgonooza
+                        2.0</p>
+                    
+                    <p>
+                    <figure>
                         <graphic n="1003" width="16.483541666666667cm" height="11.27125cm"
-                            url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/sak_image3Thumb.jpg"
+                            url="/sites/default/files/imported/pedagogies/romantic_education/images/sak_image3Thumb.jpg"
                             rend="inline"> </graphic>
                         <figDesc>The flexible and robust script editor GUI for the creation of
                             conversations that players can have with non-player characters in
@@ -816,6 +666,14 @@
                             paths emulates the kinds of instructional processes that programmers
                             engage in. </figDesc>
                     </figure>
+                    </p>
+                        <p>Fig. 3 The flexible and robust script editor GUI for the creation of
+                            conversations that players can have with non-player characters in
+                            student-designed gamespaces. Note that no computer programming is
+                            necessary to create these scripts, but the process of scripting multiple
+                            paths emulates the kinds of instructional processes that programmers
+                            engage in. </p>
+                  
                     <p>The normal vehicle for student work and evaluation in undergraduate
                         humanities courses is—of course—the rhetorical essay. While this is a
                         tried-and-true method of critical expression, and one that I continue to use
@@ -841,12 +699,15 @@
                         as essay readers.</p>
                     <p> At the beginning of January, students receive the project briefing and the
                         required development timeline (see figure 4).</p>
+                    <p>
                     <figure n="4">
                         <graphic n="1004" width="16.51cm" height="8.604622222222222cm"
-                            url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/sak_image4Thumb.jpg"
+                            url="/sites/default/files/imported/pedagogies/romantic_education/images/sak_image4Thumb.jpg"
                             rend="inline"> </graphic>
                         <figDesc>A sample project timeline schedule.</figDesc>
                     </figure>
+                    </p>
+                        <p>Fig. 4 A sample project timeline schedule.</p>
                     <p>Early on, students are reminded that “Your players will not be playing a game
                         based on a poem, play, or novel, but will progress through an experiential
                         architecture that performatively exposes them to an argument relating to
@@ -1031,19 +892,19 @@
                         configuration program and within particular browsers. </p>
                     <p> While rapid obsolescence is a constant problem for digital tools and
                         resources, there are potential ways to work around this problem. We are
-                        currently looking into ways either to convert the MOO's Java-based frame into
-                        HTML, or—in the worst case scenario—to create a Virtual Machine “wrapper”
-                        (that is, to allow students to easily boot and run an older version of Linux
-                        with better compatibility with Java on their computers as a virtual
-                        machine). However, it is likely that the MOO will soon need to be retired and
-                        replaced. The crucial thing is not to abandon the ideas and methods that the
-                        technology enables. Unlike the now-defunct <title level="m">Villa
-                            Diodati</title> MOO that has fallen into inaccessible ruins, with only
-                        its vast and trunkless introductory page standing as a reminder that there
-                        was ever something there, Golgonooza will never truly be a ghost town: it
-                        will continue to be an activated complex, an organic archive of the fruits
-                        of exceptional student motivation and imagination and a valuable record of a
-                        learning process that will continue to grow until more effective
+                        currently looking into ways either to convert the MOO's Java-based frame
+                        into HTML, or—in the worst case scenario—to create a Virtual Machine
+                        “wrapper” (that is, to allow students to easily boot and run an older
+                        version of Linux with better compatibility with Java on their computers as a
+                        virtual machine). However, it is likely that the MOO will soon need to be
+                        retired and replaced. The crucial thing is not to abandon the ideas and
+                        methods that the technology enables. Unlike the now-defunct <title level="m"
+                            >Villa Diodati</title> MOO that has fallen into inaccessible ruins, with
+                        only its vast and trunkless introductory page standing as a reminder that
+                        there was ever something there, Golgonooza will never truly be a ghost town:
+                        it will continue to be an activated complex, an organic archive of the
+                        fruits of exceptional student motivation and imagination and a valuable
+                        record of a learning process that will continue to grow until more effective
                         alternatives emerge. One possible extension of this idea beyond the computer
                         screen and classroom walls that I am currently exploring is open source
                         game-based narrative platforms for mobile devices that work by tethering
@@ -1095,9 +956,9 @@
                         pedagogical game by encouraging individual student players to level-up and
                         become lucid, collaborative builders in the spirit of the Romantic period
                         authors that they study. </p>
-                </div>
+            
             </div>
-            <div type="citations">
+            <div type="citation">
                 <head>Works Cited</head>
                 <bibl>Bogost, I. <title level="m">Persuasive Games: The Expressive Power of
                         Videogames</title>. Cambridge: MIT Press, 2007. Print.</bibl>
@@ -1118,6 +979,7 @@
                             Game</title></ref>. Golgonooza MOO, Acadia University, 2006. Web. </bibl>
                 <bibl>Salen, K. and Eric Zimmerman. <title level="m">Rules of Play: Game Design
                         Fundamentals.</title> Cambridge: MIT Press, 2004. Print.</bibl>
+            </div>
             </div>
         </body>
     </text>

@@ -1,35 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
-                <title type="main">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                <title type="subordinate">A Romantic Circles Pedagogies Commons Special
-                    Issue</title>
-                <title level="a">Generic Mutability and the Pedagogy of Realism in Charlotte Smith’s <title level="m">The Romance of Real Life</title> and Mary Wollstonecraft’s <title level="m">Original Stories from Real Life</title></title>
-                <author>
-                    <name>Suzanne L. Barnett</name>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Generic Mutability and the Pedagogy of Realism in Charlotte Smith’s
+                        <title level="m">The Romance of Real Life</title> and Mary Wollstonecraft’s
+                        <title level="m">Original Stories from Real Life</title></title>
+
+
+                <author role="primary">
+                    <name>Suzanne Barnett</name>
                 </author>
-                <editor role="editor">Suzanne Barnett</editor>
+
                 <sponsor>Romantic Circles</sponsor>
+
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Orrin N.C. Wang</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Pedagogies Commons Editor</resp>
-                    <name>Kate Singer</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition>YYYY-MM-DD</edition>
+            </editionStmt>
+
             <publicationStmt>
-                <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                    Maryland</publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
                     <p>Material from the Romantic Circles Website may not be downloaded, reproduced
                         or disseminated in any manner without authorization unless it is for
                         purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -38,17 +58,16 @@
                         are copyrighted by the author/editor and may be shared only in accordance
                         with the Fair Use provisions of U.S. copyright law. Except as expressly
                         permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:&gt;
-                        <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles: <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
                     <p>By their use of these texts and images, users agree to the following
                         conditions: <list>
                             <item>These texts and images may not be used for any commercial purpose
@@ -65,50 +84,66 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <idno type="edition">pedagogies.romantic_education.2016.barnett</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.romantic_education.2016.barnett 2</idno>
                 <idno type="resource">romantic_education</idno>
             </publicationStmt>
+
             <sourceDesc>
                 <biblStruct>
                     <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">Generic Mutability and the Pedagogy of Realism
                             in Charlotte Smith’s <title level="m">The Romance of Real Life</title>
                             and Mary Wollstonecraft’s <title level="m">Original Stories from Real
-                                Life</title></title>
+                                Life</title>
+                        </title>
                         <author role="secondary">
                             <persName>
-                                <forename>Suzanne L.</forename>
+                                <forename>Suzanne</forename>
                                 <surname>Barnett</surname>
                             </persName>
                         </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr
+                            target="praxis/romantic_education/praxis.2016.romantic_education.barnett 2"/>
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+
+
                     <monogr>
-                        <title level="m">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                        <title level="s">Pedagogies</title>
-                        <title level="s" type="sub">Romantic Pedagogy Commons</title>
+                        <title level="m">Pedagogies Edition: Romantic Education: Romantic Pedagogies
+                            and New Approaches to Teaching Romanticism</title>
+                        <title level="s">Praxis</title>
+
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-04-28">April 28, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/pedagogies/commons/romantic_education/pedagogies.romantic_education.2016.barnett.html</biblScope>
+                            <publisher> Romantic Circles, https://romantic-circles.org, University
+                                of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
+
+
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for
-                        &#226;&#8364;&#339;," for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
                     <p>Because of web browser variability, all hyphens have been typed on the U.S.
                         keyboard</p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
@@ -117,11 +152,12 @@
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+                    <p>&#35; has been used for #, the pound sign</p>
                     <p>All other characters, those with accents, non-breaking spaces, etc., have
                         been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -147,6 +183,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+
             <classDecl>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
@@ -154,161 +191,12 @@
                     <bibl>NINES categories for Genre and Material Form at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                         20014-02-27</bibl>
-                    <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
                     xml:id="dcType">
                     <bibl>NINES categories for document type at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
@@ -316,106 +204,57 @@
                     <bibl>NINES categories for discplines at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <keywords scheme="http://www.rc.umd.edu/#tags">
-                  <term subtype="person">Mary Wollstonecraft</term>
-                  <term subtype="person">Charlotte Smith</term>
-                  <term subtype="tags">romance</term>
-                  <term subtype="tags">realism</term>
-                  <term subtype="title">Romance of Real Life</term>
-                  <term subtype="title">Original Stories</term>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
                 </keywords>
             </textClass>
         </profileDesc>
+
         <revisionDesc>
             <change>
-                <name>Kyle Bickoff</name>
-                <date>2016-04-01</date>
+                <!--  Coder Name and Date Coded  -->
+                <name><!-- coder --></name>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
     <text>
-      <front>
-        <div type="abstract">
-        <p rend="noCount">
-          This paper investigates the didactic and pedagogic values of Romantic realism by looking at the ways in which Wollstonecraft and Smith, in particular, experiment with the synthesis of Romance and history and how these experiments form the core of their pedagogical projects undertaken within the growing genre of children’s prose. Wollstonecraft’s and Smith’s productions for young readers address the anxiety about women’s ability to employ historical fact and realism in serious literature and replace women’s “state of perpetual childhood” with the powerful roles of educator and arbitrator. But these authors also help create a hybrid genre that allows them to temper history with the attractiveness of Romance and to elevate fiction by infusing it with realism, thus turning fiction into a medium that can address history, society, and all aspects of “real life” as it acts as a powerful pedagogical tool on young minds.
-        </p>
-        </div>
-      </front>
+        <front>
+            <div type="abstract">
+                <p rend="noCount"> This paper investigates the didactic and pedagogic values of
+                    Romantic realism by looking at the ways in which Wollstonecraft and Smith, in
+                    particular, experiment with the synthesis of Romance and history and how these
+                    experiments form the core of their pedagogical projects undertaken within the
+                    growing genre of children’s prose. Wollstonecraft’s and Smith’s productions for
+                    young readers address the anxiety about women’s ability to employ historical
+                    fact and realism in serious literature and replace women’s “state of perpetual
+                    childhood” with the powerful roles of educator and arbitrator. But these authors
+                    also help create a hybrid genre that allows them to temper history with the
+                    attractiveness of Romance and to elevate fiction by infusing it with realism,
+                    thus turning fiction into a medium that can address history, society, and all
+                    aspects of “real life” as it acts as a powerful pedagogical tool on young minds.
+                </p>
+            </div>
+        </front>
         <body>
             <div type="essay">
                 <head>Generic Mutability and the Pedagogy of Realism in Charlotte Smith’s <title
@@ -432,34 +271,34 @@
                     commercial literary success, running into six editions over twelve years and
                     establishing her reputation as an authority on both childhood education and
                     literature for children. However, despite its contemporary success, <title
-                        level="m">Original Stories</title><note place="foot" resp="editors">It
-                            is also interesting to note that when the work <emph>is</emph> cited—as
-                            in for example Alan Richardson’s <title level="m">Literature, Education,
-                                and Romanticism: Reading as Social Practice, 1780-1832</title>
-                            (1994), perhaps the most extensive treatment of the subject thus far—the
-                            title is usually elided to simply “<title level="m">Original
-                                Stories</title>”, thus de-emphasizing the work’s apparent
-                            preoccupation with realism; for the sake of brevity, however, this essay
-                            will hereafter use the same abbreviation. </note> has fallen off the
-                    radar of recent critical explorations of romantic-era children’s literature and
-                    of romantic views of childhood, perhaps mentioned in passing or relegated to a
-                    footnote while whole chapters are devoted to the works of Maria Edgeworth,
-                    William Wordsworth, Hannah More, or Sarah Trimmer. It is frequently dismissed as
-                    an anomalous example of a radical writer producing apparently conservative and
-                    apolitical work for children (see: Mary V. Jackson and Geoffrey Summerfield,
-                    among others<note place="foot" resp="editors"> Summerfield pulls no punches in
-                        expressing his dislike of<title level="m">Original Stories</title> and what
-                        he sees as its bland conservatism; his study’s very first mention of
-                        Wollstonecraft’s work is to claim that “<title level="m">Original
-                            Stories</title> has a strong claim to be the most sinister, ugly,
-                        overbearing book for children ever published. It is permeated by a grim,
-                        humorless, tyrannical spirit of hectoring and unswerving spiritual and
-                        mental rectitude—all in the name of healthy growth: a dream of reason
-                        producing, indeed, a veritable monster in the form of Mrs. Mason” (229).
-                    </note>) or as a mere illustration within discussions of radical writers for
-                    adults who “also” wrote for children. The role that Wollstonecraft’s works for
-                    children played in the veritable explosion of literature for children in the
-                    last two decades of the eighteenth century has yet to be explored fully.</p>
+                        level="m">Original Stories</title><note place="foot" resp="editors">It is
+                        also interesting to note that when the work <emph>is</emph> cited—as in for
+                        example Alan Richardson’s <title level="m">Literature, Education, and
+                            Romanticism: Reading as Social Practice, 1780-1832</title> (1994),
+                        perhaps the most extensive treatment of the subject thus far—the title is
+                        usually elided to simply “<title level="m">Original Stories</title>”, thus
+                        de-emphasizing the work’s apparent preoccupation with realism; for the sake
+                        of brevity, however, this essay will hereafter use the same abbreviation.
+                    </note> has fallen off the radar of recent critical explorations of romantic-era
+                    children’s literature and of romantic views of childhood, perhaps mentioned in
+                    passing or relegated to a footnote while whole chapters are devoted to the works
+                    of Maria Edgeworth, William Wordsworth, Hannah More, or Sarah Trimmer. It is
+                    frequently dismissed as an anomalous example of a radical writer producing
+                    apparently conservative and apolitical work for children (see: Mary V. Jackson
+                    and Geoffrey Summerfield, among others<note place="foot" resp="editors">
+                        Summerfield pulls no punches in expressing his dislike of<title level="m"
+                            >Original Stories</title> and what he sees as its bland conservatism;
+                        his study’s very first mention of Wollstonecraft’s work is to claim that
+                            “<title level="m">Original Stories</title> has a strong claim to be the
+                        most sinister, ugly, overbearing book for children ever published. It is
+                        permeated by a grim, humorless, tyrannical spirit of hectoring and
+                        unswerving spiritual and mental rectitude—all in the name of healthy growth:
+                        a dream of reason producing, indeed, a veritable monster in the form of Mrs.
+                        Mason” (229). </note>) or as a mere illustration within discussions of
+                    radical writers for adults who “also” wrote for children. The role that
+                    Wollstonecraft’s works for children played in the veritable explosion of
+                    literature for children in the last two decades of the eighteenth century has
+                    yet to be explored fully.</p>
                 <p>However, no attention whatsoever has yet been focused on <title level="m"
                         >Original Stories</title>’ own generic hybridity and the implications that
                     such hybridity has both on the way we read the <title level="m">Stories</title>
@@ -562,17 +401,18 @@
                     tales they tell— even the apparently “romantic” ones—are drawn from real life
                     imparts to women writers a certain palpable authority and prevents them from
                     becoming mere “novelists.”<note place="foot" resp="editors"> Cf. Maria
-                        Edgeworth’s reluctance to call her own works “novels” (Gamer, “Romance” 235).
-                    </note> If we recognize the proliferation of so-called realistic romances among
-                    early romantic women writers as a defensive fusion of romance with private
-                    memoirs, domestic biographies, and other allegedly ahistorical discourses in an
-                    attempt to attain the authority of truth, we are invited to read any such
-                    self-proclaimed real-life tales as an attempt at self-ratification. For example,
-                    although Wollstonecraft’s <title level="m">Stories</title> do not label
-                    themselves as “romances” per se, her title’s emphasis on both originality <title
-                        level="m">and </title>realistic mimesis suggest this same sort of
-                    self-conscious acknowledgement of the apparent difficulties of the female writer
-                    to duplicate faithfully the world around her.</p>
+                        Edgeworth’s reluctance to call her own works “novels” (Gamer, “Romance”
+                        235). </note> If we recognize the proliferation of so-called realistic
+                    romances among early romantic women writers as a defensive fusion of romance
+                    with private memoirs, domestic biographies, and other allegedly ahistorical
+                    discourses in an attempt to attain the authority of truth, we are invited to
+                    read any such self-proclaimed real-life tales as an attempt at
+                    self-ratification. For example, although Wollstonecraft’s <title level="m"
+                        >Stories</title> do not label themselves as “romances” per se, her title’s
+                    emphasis on both originality <title level="m">and </title>realistic mimesis
+                    suggest this same sort of self-conscious acknowledgement of the apparent
+                    difficulties of the female writer to duplicate faithfully the world around
+                    her.</p>
                 <p>Smith’s preface to <title level="m">The Romance of Real Life</title> provides as
                     clear and revealing a summary as one could seek of these tensions surrounding
                     one writer’s forays into the seemingly incompatible genres of romance and
@@ -939,33 +779,41 @@
                     immoderate Indulgence” and “The Danger of Delay” suggests a collection of
                     sermons or biblical parables. Mrs Mason repeatedly stresses that the way to do
                     the most good in the world is by imitating God: <quote><lg>
-                        <l>The greatest pleasure life affords [is] that of resembling God, by doing
-                            good. (368)</l>
-                        <l>You ought, by doing good, to imitate Him. (370)</l>
-                        <l>I now daily contemplate His wonderful goodness; and, though at an awful
-                            distance, try to imitate Him. (423)</l>
-                        <l>We are His children when we try to resemble Him. (431)</l>
-                    </lg></quote> William Blake clearly picks up on Mrs Mason’s messianic fervor when he
-                    illustrates her in the frontispiece of the third edition with her arms spreading
-                    over the heads of her young charges, simultaneously a mother hen sheltering her
-                    brood and a Christ figure framed in a cross-like doorway, vines piercing her
-                    outstretched palms (fig. 1). While the preface claims that children’s
-                    introduction to true religion must come from a recognition of the “Universal
-                    Father” whom they will then wish to imitate, we see the girls awed by the
-                    all-seeing eye of their guardian and expressing a desire to imitate not God, but
-                    Mrs Mason herself, the text’s divine substitute—“I wish to be a woman, said
+                            <l>The greatest pleasure life affords [is] that of resembling God, by
+                                doing good. (368)</l>
+                            <l>You ought, by doing good, to imitate Him. (370)</l>
+                            <l>I now daily contemplate His wonderful goodness; and, though at an
+                                awful distance, try to imitate Him. (423)</l>
+                            <l>We are His children when we try to resemble Him. (431)</l>
+                        </lg></quote> William Blake clearly picks up on Mrs Mason’s messianic fervor
+                    when he illustrates her in the frontispiece of the third edition with her arms
+                    spreading over the heads of her young charges, simultaneously a mother hen
+                    sheltering her brood and a Christ figure framed in a cross-like doorway, vines
+                    piercing her outstretched palms (fig. 1). While the preface claims that
+                    children’s introduction to true religion must come from a recognition of the
+                    “Universal Father” whom they will then wish to imitate, we see the girls awed by
+                    the all-seeing eye of their guardian and expressing a desire to imitate not God,
+                    but Mrs Mason herself, the text’s divine substitute—“I wish to be a woman, said
                     Mary, and to be like Mrs Mason” (389). The idea that the real life of earthly
                     existence is but preparation for a heavenly home—that the “Most High is
                     educating us for eternity” (437)—lends an added urgency to the text’s stated
-                    goal to “form the mind to truth <figure n="1">
-                        <graphic url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/bar_image1Thumb.jpg"/>
-                        <figDesc>William Blake’s illustration for <title level="m">Original
-                                Stories</title>. (Image courtesy of Wikimedia Commons).</figDesc>
-                    </figure> and goodness.” Patricia Demers claims that Evangelical writers like
+                    goal to “form the mind to truth and goodness.” Patricia Demers claims that Evangelical writers like
                     Wollstonecraft’s near-contemporary Mary Martha Butt Sherwood—one of a group
                     Demers dubs “Romantic Evangelicals”—adopt a method of “seeing into the life of
                     things, without contradiction or irony” which is “simultaneously domestic and
-                    eschatological” (131). As a result, <quote>Their characters’ zeal in finding and
+                    eschatological” (131).</p>
+                <p>
+                    <figure>
+                        <graphic
+                            url="/sites/default/files/imported/pedagogies/romantic_education/images/bar_image1Thumb.jpg"/>
+                        <figDesc>William Blake’s illustration for <title level="m">Original
+                            Stories</title>. (Image courtesy of Wikimedia Commons).</figDesc>
+                    </figure> 
+                </p>
+                    <p>Fig. 1 William Blake’s illustration for <title level="m">Original
+                        Stories</title>. (Image courtesy of Wikimedia Commons).</p>
+                    
+                  <p>  As a result, <quote>Their characters’ zeal in finding and
                         defining an earthly home prompts their almost automatic longing for a
                         heavenly home. Theirs is a consciously double vision, glimpsing the eternal
                         in the natural, the sublime in the quotidian. (131)</quote> This “glimpsing
@@ -1017,8 +865,8 @@
                     a rich tradition of texts in which the romantic and the realistic coalesced, a
                     combination that has at its core the generic experimentations of women like
                     Smith and Wollstonecraft.</p>
-            </div>
-            <div type="citations">
+     
+            <div type="citation">
                 <head>Works Cited</head>
                 <bibl>Demers, Patricia. “Mrs Sherwood and Hesba Stretton: the Letter and the Spirit
                     of Evangelical Writing of and for Children.” James Holt McGavran, Jr., ed.
@@ -1077,6 +925,7 @@
                     Chatto,1989. Print.</bibl>
                 <bibl>---. <title level="m">A Vindication of the Rights of Woman</title>. Ed. Carol
                     H. Poston. New York: Norton, 1988. Print.</bibl>
+            </div>
             </div>
         </body>
     </text>

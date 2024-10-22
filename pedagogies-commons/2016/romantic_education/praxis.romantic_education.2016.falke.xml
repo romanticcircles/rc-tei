@@ -1,36 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
-                <title type="main">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                <title type="subordinate">A Romantic Circles Pedagogies Commons Special
-                    Issue</title>
+                <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a">Byron’s <title level="m">Cain </title>and Romantic
                     Education</title>
-                <author>
+
+
+                <author role="primary">
                     <name>Cassandra Falke</name>
                 </author>
-                <editor role="editor">Suzanne Barnett</editor>
+
                 <sponsor>Romantic Circles</sponsor>
+
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Orrin N.C. Wang</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Pedagogies Commons Editor</resp>
-                    <name>Kate Singer</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition>YYYY-MM-DD</edition>
+            </editionStmt>
+
             <publicationStmt>
-                <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                    Maryland</publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
                     <p>Material from the Romantic Circles Website may not be downloaded, reproduced
                         or disseminated in any manner without authorization unless it is for
                         purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -39,17 +57,16 @@
                         are copyrighted by the author/editor and may be shared only in accordance
                         with the Fair Use provisions of U.S. copyright law. Except as expressly
                         permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:&gt;
-                        <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles: <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
                     <p>By their use of these texts and images, users agree to the following
                         conditions: <list>
                             <item>These texts and images may not be used for any commercial purpose
@@ -66,13 +83,16 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <idno type="edition">pedagogies.romantic_education.2016.falke</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.romantic_education.2016.falke</idno>
                 <idno type="resource">romantic_education</idno>
             </publicationStmt>
+
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a" type="main">Byron’s <title level="m">Cain</title> and
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Byron’s <title level="m">Cain </title>and
                             Romantic Education</title>
                         <author role="secondary">
                             <persName>
@@ -80,34 +100,45 @@
                                 <surname>Falke</surname>
                             </persName>
                         </author>
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/romantic_education/praxis.2016.romantic_education.falke"/>
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+
+
                     <monogr>
-                        <title level="m">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                        <title level="s">Pedagogies</title>
-                        <title level="s" type="sub">Romantic Pedagogy Commons</title>
+                        <title level="m">Pedagogies Edition: Romantic Education: Romantic Pedagogies
+                            and New Approaches to Teaching Romanticism</title>
+                        <title level="s">Praxis</title>
+
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-04-28">April 28, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/pedagogies/commons/romantic_education/pedagogies.romantic_education.2016.falke.html</biblScope>
+                            <publisher> Romantic Circles, https://romantic-circles.org, University
+                                of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
+
+
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for
-                        &#226;&#8364;&#339;," for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
                     <p>Because of web browser variability, all hyphens have been typed on the U.S.
                         keyboard</p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
@@ -116,11 +147,12 @@
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+                    <p>&#35; has been used for #, the pound sign</p>
                     <p>All other characters, those with accents, non-breaking spaces, etc., have
                         been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -146,6 +178,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+
             <classDecl>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
@@ -153,161 +186,12 @@
                     <bibl>NINES categories for Genre and Material Form at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                         20014-02-27</bibl>
-                    <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
                     xml:id="dcType">
                     <bibl>NINES categories for document type at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
@@ -315,106 +199,53 @@
                     <bibl>NINES categories for discplines at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <keywords scheme="http://www.rc.umd.edu/#tags">
-                  <term subtype="title">Cain</term>
-                  <term subtype="person">Lord Byron</term>
-                  <term subtype="tags">working class</term>
-                  <term subtype="tags">education</term>
-                  <term subtype="tags">knowledge</term>
-                  <term subtype="tags">epistemology</term>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
                 </keywords>
             </textClass>
         </profileDesc>
+
         <revisionDesc>
             <change>
-                <name>Kyle Bickoff</name>
-                <date>2016-04-01</date>
+                <!--  Coder Name and Date Coded  -->
+                <name><!-- coder --></name>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
     <text>
-      <front>
-        <div type="abstract">
-          <p rend="noCount">
-            Byron´s engagement with Romantic discourses of education in his closet drama <title level="m">Cain</title> has been overshadowed by critical discussions of the work´s theology. This essay repositions <title level="m">Cain</title> within period debates about the goals and possibilities of pursuing knowledge. Falke suggests that although <title level="m">Cain</title> appears to endorse the epistemology implied in many discussions of elite education, it ultimately undermines the dichotomies of knowledge vs. action and mind vs. body upon which these discussions relied.
-          </p>
-        </div>
-      </front>
+        <front>
+            <div type="abstract">
+                <p rend="noCount"> Byron´s engagement with Romantic discourses of education in his
+                    closet drama <title level="m">Cain</title> has been overshadowed by critical
+                    discussions of the work´s theology. This essay repositions <title level="m"
+                        >Cain</title> within period debates about the goals and possibilities of
+                    pursuing knowledge. Falke suggests that although <title level="m">Cain</title>
+                    appears to endorse the epistemology implied in many discussions of elite
+                    education, it ultimately undermines the dichotomies of knowledge vs. action and
+                    mind vs. body upon which these discussions relied. </p>
+            </div>
+        </front>
         <body>
             <div type="essay">
                 <head>Byron’s <title level="m">Cain </title>and Romantic Education</head>
@@ -521,8 +352,9 @@
                         intentions of the founder might have been, the school is not now adapted
                         generally for persons of low condition, but better suited to those of a
                         higher class” (“Harrow” 81). Moreover, through this schooling, endowed
-                        school students were supposedly rendered incapable of living working-class lives. As
-                        Leigh Hunt phrases it, “scholarship […] unfits a man for activity” (37). </p>
+                        school students were supposedly rendered incapable of living working-class
+                        lives. As Leigh Hunt phrases it, “scholarship […] unfits a man for activity”
+                        (37). </p>
                     <p>But, even as this defense of leisure-class traditions was going on, literacy
                         and schooling were becoming more widely available to the rest of the English
                         population. The spread of education in the early nineteenth century has
@@ -604,26 +436,26 @@
                         Byron’s side of the family we find Matthew Arnold with his mellifluous
                         learners gleaning sweetness and light from the best that has been thought
                         and written. Arnold asserts that it is part of our innate desire to perfect
-                        ourselves through the pursuit of knowledge. We find also John Henry Newman, whose
-                        1865 <title level="m">Idea of a University</title> articulates so eloquently
-                        why we should pursue knowledge with the same unconscious consistency with
-                        which we pursue our physical health. There is a comparable genealogy through
-                        our other line of educational heritage. On the opposite side of the family,
-                        we find W. E. Forster, for whom England’s 1870 Education Act was named,
-                        telling The House of Commons that “the speedy provision of elementary
-                        education” is essential for “our industrial prosperity […] [I]f we leave our
-                        work-folk any longer unskilled […] they will become overmatched in the
-                        competition of the world” (18). For Forster, education must be practical
-                        because it must serve the projected growth of a national economy. England’s
-                        future “work-folk” get to learn to read between the ages of five and twelve,
-                        but what they need to do after twelve is make money. Contemporary
-                        educational policy makers in the United States seem to be descended from
-                        this side of the family. When United States Secretary of Education Arne
-                        Duncan offered his 2014 report to the House Appropriations Committee, he
-                        extended the discourse of Forster, and Brougham, and the Sunday Schools,
-                        figuring education not in heroic but in economic terms. “Falling behind
-                        educationally now,” he warned, “will hurt our country economically for
-                        generations.” </p>
+                        ourselves through the pursuit of knowledge. We find also John Henry Newman,
+                        whose 1865 <title level="m">Idea of a University</title> articulates so
+                        eloquently why we should pursue knowledge with the same unconscious
+                        consistency with which we pursue our physical health. There is a comparable
+                        genealogy through our other line of educational heritage. On the opposite
+                        side of the family, we find W. E. Forster, for whom England’s 1870 Education
+                        Act was named, telling The House of Commons that “the speedy provision of
+                        elementary education” is essential for “our industrial prosperity […] [I]f
+                        we leave our work-folk any longer unskilled […] they will become overmatched
+                        in the competition of the world” (18). For Forster, education must be
+                        practical because it must serve the projected growth of a national economy.
+                        England’s future “work-folk” get to learn to read between the ages of five
+                        and twelve, but what they need to do after twelve is make money.
+                        Contemporary educational policy makers in the United States seem to be
+                        descended from this side of the family. When United States Secretary of
+                        Education Arne Duncan offered his 2014 report to the House Appropriations
+                        Committee, he extended the discourse of Forster, and Brougham, and the
+                        Sunday Schools, figuring education not in heroic but in economic terms.
+                        “Falling behind educationally now,” he warned, “will hurt our country
+                        economically for generations.” </p>
                 </div>
                 <div type="section">
                     <head>Byron and Working-Class Readers</head>
@@ -703,17 +535,17 @@
                         energy and longing for freedom. </p>
                     <p>In his comprehensive study of 142 working-class autobiographies from the
                         nineteenth century, David Vincent discusses the astounding commitment some
-                        men and women had to learning. A few examples will suggest the extent of the sacrifice
-                        of time and resources these individuals made in order to pursue knowledge.
-                        Yorkshire weaver William Heaton recalls that on the Sabbath, he would
-                        “wander forth” at around four in the morning with a group of like-minded
-                        naturalists in order to collect and study bird’s eggs or fossils. They would
-                        return at sundown “often having never tasted food all the day.”
-                        Nevertheless, they found resources to create a shared library (qtd. in
-                        Vincent 173). Some of his fellow weavers managed to “place books before them
-                        [on the loom] to read whilst at work,” but he confined himself to
-                        “ruminat[ing]” on his reading during work and recording his thoughts “in a
-                        memorandum book […] kept by the side of [his] loom for the purpose” (125).
+                        men and women had to learning. A few examples will suggest the extent of the
+                        sacrifice of time and resources these individuals made in order to pursue
+                        knowledge. Yorkshire weaver William Heaton recalls that on the Sabbath, he
+                        would “wander forth” at around four in the morning with a group of
+                        like-minded naturalists in order to collect and study bird’s eggs or
+                        fossils. They would return at sundown “often having never tasted food all
+                        the day.” Nevertheless, they found resources to create a shared library
+                        (qtd. in Vincent 173). Some of his fellow weavers managed to “place books
+                        before them [on the loom] to read whilst at work,” but he confined himself
+                        to “ruminat[ing]” on his reading during work and recording his thoughts “in
+                        a memorandum book […] kept by the side of [his] loom for the purpose” (125).
                         Thomas Cooper, recalling his apprenticeship as a shoemaker, records how
                         strategically he had to plan his reading in order to attain the breadth of
                         education he desired: <quote>Historical reading, or the grammar of some
@@ -731,16 +563,14 @@
                             <title level="m">Manfred</title> (qtd. in Collins 5). In the “Sonnet to
                         Chillon” Byron expresses a sentiment that must have resounded with the
                         workers reciting <title level="m">Hamlet</title> at their cobbler’s stalls
-                        and parsing verbs before their breakfast: 
-                      <quote>
-                        <lg>
-                            <l> Eternal Spirit of the chainless Mind!</l>
-                            <l> Brightest in dungeons, Liberty! thou art,</l>
-                            <l> For there thy habitation is the heart --</l>
-                            <l> The heart which love of thee alone can bind;</l>
-                        </lg>
-                      </quote> 
-                      Imaginative freedom from one’s surroundings—Byron’s liberty whose
+                        and parsing verbs before their breakfast: <quote>
+                            <lg>
+                                <l> Eternal Spirit of the chainless Mind!</l>
+                                <l> Brightest in dungeons, Liberty! thou art,</l>
+                                <l> For there thy habitation is the heart --</l>
+                                <l> The heart which love of thee alone can bind;</l>
+                            </lg>
+                        </quote> Imaginative freedom from one’s surroundings—Byron’s liberty whose
                         “habitation is the heart”—was only one kind of freedom that working-class
                         readers sought. Vincent lists the freedom from non-rational beliefs and from
                         non-rational behaviors (especially drunkenness) as common goals as well. He
@@ -751,20 +581,19 @@
                         is the prospect of freedom from “the world view of the educated” (174). It
                         is in his advocacy for individual questioning that Byron most appealed to
                         working-class readers. Cain reports that labour itself does not interfere
-                        with learning: 
-                      <quote>
-                        <lg>
-                            <l> It is not with the earth, though I must till it,</l>
-                            <l> I feel at war, but that I may not profit</l>
-                            <l> By what it bears of beautiful untoiling,</l>
-                            <l> Nor gratify my thousand swelling thoughts</l>
-                            <l> With knowledge (II; ii, 125-129)</l>
-                        </lg>
-                      </quote>
-                      He sees his parents and their religion as a barrier to knowledge in a
-                        way that many working-class learners must have sympathized with. The rest of
-                        his family has “but / One answer to all questions,
-                        “’Twas <emph>his</emph> will, / And <emph>he</emph> is good’” (I; i, 74-76). </p>
+                        with learning: <quote>
+                            <lg>
+                                <l> It is not with the earth, though I must till it,</l>
+                                <l> I feel at war, but that I may not profit</l>
+                                <l> By what it bears of beautiful untoiling,</l>
+                                <l> Nor gratify my thousand swelling thoughts</l>
+                                <l> With knowledge (II; ii, 125-129)</l>
+                            </lg>
+                        </quote> He sees his parents and their religion as a barrier to knowledge in
+                        a way that many working-class learners must have sympathized with. The rest
+                        of his family has “but / One answer to all questions,
+                            “’Twas <emph>his</emph> will, / And <emph>he</emph> is good’” (I; i,
+                        74-76). </p>
                     <p>Working-class autobiographers often expressed frustration with precisely this
                         alignment of community members’ lack of curiosity and religion’s one
                         serve-all answer. For example, when Christopher Thomson began to read beyond
@@ -790,35 +619,31 @@
                         III, we see that Cain’s search for knowledge excludes him from his community
                         because his limited learning has only strengthened the curiosity that others
                         cannot understand. His wife Adah remarks his change after Cain returns from
-                        his lesson with Lucifer: 
-                      <quote>
-                        <lg>
-                            <l> Cain! that proud Spirit, who withdrew thee hence,</l>
-                            <l> Hath saddened thine still deeper. I had hoped</l>
-                            <l> The promised wonders which thou hast beheld,</l>
-                            <l> Visions, thou say’st of past and present worlds,</l>
-                            <l> Would have composed thy mind into the calm</l>
-                            <l> Of a contented knowledge; but I see</l>
-                            <l> Thy guide hath done thee evil (III; i, 45-51)</l>
-                        </lg>
-                      </quote> 
-                      By contemplating the insignificance of his race and the confinement of
-                        his mortal subject position, Cain has isolated himself further from Adah and
-                        the rest of the family. Within his intellectually complacent community,
+                        his lesson with Lucifer: <quote>
+                            <lg>
+                                <l> Cain! that proud Spirit, who withdrew thee hence,</l>
+                                <l> Hath saddened thine still deeper. I had hoped</l>
+                                <l> The promised wonders which thou hast beheld,</l>
+                                <l> Visions, thou say’st of past and present worlds,</l>
+                                <l> Would have composed thy mind into the calm</l>
+                                <l> Of a contented knowledge; but I see</l>
+                                <l> Thy guide hath done thee evil (III; i, 45-51)</l>
+                            </lg>
+                        </quote> By contemplating the insignificance of his race and the confinement
+                        of his mortal subject position, Cain has isolated himself further from Adah
+                        and the rest of the family. Within his intellectually complacent community,
                         Cain’s isolation is made more profound by the threatening prospects of
                         nihilism and damnation. He has no means of answering the questions he is
-                        just learning to ask. “Gazing on eternity,” he says: 
-                      <quote>
-                      <lg>
-                            <l rendition="#indent1"> methought</l>
-                            <l> I had borrowed more by a few drops of ages</l>
-                            <l> From its immensity: but now I feel</l>
-                            <l> My littleness again. Well said the Spirit,</l>
-                            <l> That I was nothing! (III; i, 65-69)</l>
-                      </lg> 
-                      </quote>
-                      Nothing. Not a husband, not a father, not a brother, nothing. Both his
-                        personal and communal identities now seem insignificant.</p>
+                        just learning to ask. “Gazing on eternity,” he says: <quote>
+                            <lg>
+                                <l rendition="#indent1"> methought</l>
+                                <l> I had borrowed more by a few drops of ages</l>
+                                <l> From its immensity: but now I feel</l>
+                                <l> My littleness again. Well said the Spirit,</l>
+                                <l> That I was nothing! (III; i, 65-69)</l>
+                            </lg>
+                        </quote> Nothing. Not a husband, not a father, not a brother, nothing. Both
+                        his personal and communal identities now seem insignificant.</p>
                     <p> The lonely hero is already ringed-round and isolated by his unconscionable
                         longing for knowledge, and he becomes more isolated as he realizes that his
                         experiences are at once incommunicable and unnecessary to communicate.
@@ -871,31 +696,28 @@
                         Refocusing the conflict of the Cain and Abel story on the search for
                         knowledge, instead of an originary act of violence, is largely Byron’s
                         innovation. The biblical account, brief enough to quote in full, mentions
-                        the themes of envy, anger, and divine approval, but not knowledge. 
-                      <quote>
+                        the themes of envy, anger, and divine approval, but not knowledge. <quote>
                             Now Abel was a keeper of sheep, and Cain a tiller of the ground.<hi
-                                    rendition="#sup">3 </hi>In the course of time Cain brought to
-                              the Lord an offering of the fruit of the ground,<hi rendition="#sup">4 </hi>and Abel for his part brought of the firstlings of his
-                                flock, their fat portions. And the Lord had regard for Abel and his
-                                offering,<hi rendition="#sup">5 </hi>but for Cain and his offering he
-                              had no regard. So Cain was very angry, and his countenance fell.<hi rendition="#sup">6 </hi>The Lord said to Cain, “Why are you angry, and
-                              why has your countenance fallen?<hi rendition="#sup">7 </hi>If you do
-                                well, will you not be accepted? And if you do not do well, sin is
-                                lurking at the door; its desire is for you, but you must master
-                                it.”
-                        <lb/>
-                        <lb/>
-                        <hi rendition="#sup">8 </hi>Cain said to his brother Abel, “Let us go out
-                                to the field.” And when they were in the field, Cain rose up against
-                                his brother Abel, and killed him. (Genesis 4: 2b-8, NRSV)
-                      
-                      </quote> 
-                      Sin is pictured as aggressive, “lurking at the door,” and Byron might
-                        have found in this (and clearly also in his reading of Milton) inspiration
-                        for making Lucifer a dominant character as a kind of personification of this
-                        lurking power. However, the Bible offers no hint that Cain has sinned by
-                        demanding knowledge. The emphasis seems to be placed on action, to “do
-                        well,” rather than on thought. </p>
+                                rendition="#sup">3 </hi>In the course of time Cain brought to
+                            the Lord an offering of the fruit of the ground,<hi rendition="#sup"
+                                >4 </hi>and Abel for his part brought of the firstlings of his
+                            flock, their fat portions. And the Lord had regard for Abel and his
+                                offering,<hi rendition="#sup">5 </hi>but for Cain and his offering
+                            he had no regard. So Cain was very angry, and his countenance fell.<hi
+                                rendition="#sup">6 </hi>The Lord said to Cain, “Why are you angry,
+                            and why has your countenance fallen?<hi rendition="#sup">7 </hi>If you
+                            do well, will you not be accepted? And if you do not do well, sin is
+                            lurking at the door; its desire is for you, but you must master it.” <lb/>
+                            <lb/>
+                            <hi rendition="#sup">8 </hi>Cain said to his brother Abel, “Let us go
+                            out to the field.” And when they were in the field, Cain rose up against
+                            his brother Abel, and killed him. (Genesis 4: 2b-8, NRSV) </quote> Sin
+                        is pictured as aggressive, “lurking at the door,” and Byron might have found
+                        in this (and clearly also in his reading of Milton) inspiration for making
+                        Lucifer a dominant character as a kind of personification of this lurking
+                        power. However, the Bible offers no hint that Cain has sinned by demanding
+                        knowledge. The emphasis seems to be placed on action, to “do well,” rather
+                        than on thought. </p>
                     <p>The only mention of knowledge that occurs in Genesis Chapter Four comes after
                         the murder itself. The Lord asks Cain “Where is your brother Abel?” and Cain
                         replies, “I do not know; am I my brother’s keeper?” (Gen. 4:9). For the sake
@@ -968,19 +790,18 @@
                         motivation to highlight questions of knowledge, Byron also highlights
                         knowledge linguistically. Cognates of the word “to know” dominate the play,
                         recurring over one hundred times. “Knowledge” sometimes so crowds the
-                        dialogue that the word itself becomes oppressive. 
-                      <quote>
-                        <lg>
-                            <l><emph>Cain</emph> Deadly error!</l>
-                            <l>Not to snatch first that fruit:—but ere he plucked</l>
-                            <l>The knowledge, he was ignorant of Death.</l>
-                            <l>Alas! I scarcely now know what it is,</l>
-                            <l>And yet I fear it—fear I know not what!</l>
-                            <l><emph>Lucifer</emph> And I, who know all things, fear nothing;
-                                see</l>
-                            <l>What is true knowledge. (I: I, 295-301)</l>
-                        </lg>
-                      </quote> Five lines in a row mention knowledge, and the sound of the lines
+                        dialogue that the word itself becomes oppressive. <quote>
+                            <lg>
+                                <l><emph>Cain</emph> Deadly error!</l>
+                                <l>Not to snatch first that fruit:—but ere he plucked</l>
+                                <l>The knowledge, he was ignorant of Death.</l>
+                                <l>Alas! I scarcely now know what it is,</l>
+                                <l>And yet I fear it—fear I know not what!</l>
+                                <l><emph>Lucifer</emph> And I, who know all things, fear nothing;
+                                    see</l>
+                                <l>What is true knowledge. (I: I, 295-301)</l>
+                            </lg>
+                        </quote> Five lines in a row mention knowledge, and the sound of the lines
                         encourages readers to take note of the repetition. The pairing of “now know”
                         and “know not” turns the lines into such a sonic bog that it is difficult
                         not to be slowed down. Byron repeats the pairing of “know” and “not”
@@ -1047,12 +868,12 @@
                         use of the term “reasonable.” When he and Abel are offering their
                         sacrifices, he points to the injustice of shedding innocent blood. Only
                         twelve lines later, he unjustly sheds the blood of his brother. And yet,
-                        Cain’s angry expostulations do make sense according to a purely abstract logic.
-                        God loves lives, he concludes, since Abel’s sacrifice met God’s pleasure.
-                        “Take thy life unto thy God,” he says upon striking him, “Since he loves
-                        lives” (III: i, 316-317). Byron portrays here, it might be argued, what pure
-                        logic leads to, when it is exercised outside of the guidance of church
-                        (suggested by the ritual religious practice of sacrifice) and state
+                        Cain’s angry expostulations do make sense according to a purely abstract
+                        logic. God loves lives, he concludes, since Abel’s sacrifice met God’s
+                        pleasure. “Take thy life unto thy God,” he says upon striking him, “Since he
+                        loves lives” (III: i, 316-317). Byron portrays here, it might be argued,
+                        what pure logic leads to, when it is exercised outside of the guidance of
+                        church (suggested by the ritual religious practice of sacrifice) and state
                         (suggested by Adam, the paternal authority Cain resists throughout the
                         play). Neither the present, priest-like Abel, nor the absent father coerces
                         Cain into making a sacrifice. The only expression of authority in the scene
@@ -1082,18 +903,16 @@
                         communication between people rather than a crisis of phenomenological access
                         to knowledge of the objective world. The language of the murder scene shifts
                         from the language of knowledge that dominates the play, to a language of
-                        life and love: 
-                      <quote>
-                          <lg>
-                            <l> Abel: (opposing him) I love God far more</l>
-                            <l rendition="#indent1"> Than life.</l>
-                            <l> Cain: (striking him with the brand, on the temples, which he
-                                snatches from the altar)</l>
-                            <l rendition="#indent1"> Then take thy life unto thy God,</l>
-                            <l rendition="#indent1"> Since he loves lives. (III; i, 314-317)</l>
-                          </lg>
-                        </quote> 
-                      The stage directions here are the second most extensive ones in the
+                        life and love: <quote>
+                            <lg>
+                                <l> Abel: (opposing him) I love God far more</l>
+                                <l rendition="#indent1"> Than life.</l>
+                                <l> Cain: (striking him with the brand, on the temples, which he
+                                    snatches from the altar)</l>
+                                <l rendition="#indent1"> Then take thy life unto thy God,</l>
+                                <l rendition="#indent1"> Since he loves lives. (III; i, 314-317)</l>
+                            </lg>
+                        </quote> The stage directions here are the second most extensive ones in the
                         entire play, and they are followed by one of the few moments of physical
                         contact between characters. “[G]ive me thy hand” says Abel (III; i, 320).
                         Shifting to physical activity after two acts of only argument, Byron shows
@@ -1124,19 +943,17 @@
                         mechanism (III; i, 509-510). But his love for his brother drives him into
                         agency. He expresses the same willingness to sacrifice himself that Abel had
                         made for the sake of God, still not submitting himself to God, but to the
-                        love of his brother: 
-                      <quote>
-                        <lg>
-                            <l>[C]ould I</l>
-                            <l>With my own death redeem him from the dust – </l>
-                            <l>And why not so? let him return to day,</l>
-                            <l>And I lie ghastly! So shall be restored</l>
-                            <l>By God the life to him he loved: and taken</l>
-                            <l>From me a being I ne’er loved to bear. (III; i, 510-515)</l>
-                        </lg>
-                      </quote> 
-                      Logically, this proposition functions perfectly. If God loves Abel and
-                        he is omnipotent, then he will restore Abel to life. But, this syllogism
+                        love of his brother: <quote>
+                            <lg>
+                                <l>[C]ould I</l>
+                                <l>With my own death redeem him from the dust – </l>
+                                <l>And why not so? let him return to day,</l>
+                                <l>And I lie ghastly! So shall be restored</l>
+                                <l>By God the life to him he loved: and taken</l>
+                                <l>From me a being I ne’er loved to bear. (III; i, 510-515)</l>
+                            </lg>
+                        </quote> Logically, this proposition functions perfectly. If God loves Abel
+                        and he is omnipotent, then he will restore Abel to life. But, this syllogism
                         fails to account for the shattered materiality of Abel’s body. The knowledge
                         Cain finally achieves is the awareness that knowledge itself is the product
                         embodied action as well as purely cerebral thought. As violent as the play’s
@@ -1175,9 +992,9 @@
                         this opposition like one striking the skin of a drum. The sound caused,
                         re-sounds, its echo manifested in our search for knowledge that we cannot
                         harness in use.</p>
-                </div>
+              
             </div>
-            <div type="citations">
+            <div type="citation">
 
                 <head>Works Cited</head>
                 <bibl>Bezer, John James. The Autobiography of One of the Chartist Rebels of 1848.
@@ -1270,6 +1087,7 @@
                         Gaol: Lord Byron</ref>” <title level="j">The Republican</title>. 11:6
                     (1825). 161- 163. <title level="m">Google Book Search</title>. Web. </bibl>
 
+            </div>
             </div>
         </body>
     </text>

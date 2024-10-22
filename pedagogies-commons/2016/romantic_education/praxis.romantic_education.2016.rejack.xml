@@ -1,35 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
-                <title type="main">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                <title type="subordinate">A Romantic Circles Pedagogies Commons Special
-                    Issue</title>
+                <!--  The reading texts should all be encoded as level="m"  -->
                 <title level="a">Imagining the Internet Through the Romantics</title>
-                <author>
+
+
+                <author role="primary">
                     <name>Brian Rejack</name>
                 </author>
-                <editor role="editor">Suzanne Barnett</editor>
+
+
+
                 <sponsor>Romantic Circles</sponsor>
+
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Neil Fraistat</name>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Orrin N.C. Wang</name>
                 </respStmt>
                 <respStmt>
-                    <resp>General Editor,</resp>
-                    <name>Steven E. Jones</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Pedagogies Commons Editor</resp>
-                    <name>Kate Singer</name>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
                 </respStmt>
             </titleStmt>
+
+            <editionStmt>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition>YYYY-MM-DD</edition>
+            </editionStmt>
+
             <publicationStmt>
-                <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                    Maryland</publisher>
-                <pubPlace>College Park, MD</pubPlace>
-                <availability status="restricted">
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
                     <p>Material from the Romantic Circles Website may not be downloaded, reproduced
                         or disseminated in any manner without authorization unless it is for
                         purposes of criticism, comment, news reporting, teaching, and/or classroom
@@ -38,17 +58,16 @@
                         are copyrighted by the author/editor and may be shared only in accordance
                         with the Fair Use provisions of U.S. copyright law. Except as expressly
                         permitted by this statement, redistribution or republication in any medium
-                        requires express prior written consent from the author/editors and advance
-                        notification of Romantic Circles. Any requests for authorization should be
-                        forwarded to Romantic Circles:&gt;
-                        <address>
-            <addrLine>Romantic Circles</addrLine>
-            <addrLine>c/o Professor Neil Fraistat</addrLine>
-            <addrLine>Department of English</addrLine>
-            <addrLine>University of Maryland</addrLine>
-            <addrLine>College Park, MD 20742</addrLine>
-            <addrLine>fraistat@umd.edu</addrLine>
-          </address></p>
+                        requires express prior written consent from the author(s)/ editor(s) and
+                        advance notification of Romantic Circles. Any requests for authorization
+                        should be forwarded to Romantic Circles: <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
                     <p>By their use of these texts and images, users agree to the following
                         conditions: <list>
                             <item>These texts and images may not be used for any commercial purpose
@@ -65,12 +84,15 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <idno type="edition">pedagogies.romantic_education.2016.rejack</idno>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.romantic_education.2016.rejack</idno>
                 <idno type="resource">romantic_education</idno>
             </publicationStmt>
+
             <sourceDesc>
                 <biblStruct>
                     <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
                         <title level="a" type="main">Imagining the Internet Through the
                             Romantics</title>
                         <author role="secondary">
@@ -79,34 +101,49 @@
                                 <surname>Rejack</surname>
                             </persName>
                         </author>
+
+
+
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr
+                            target="praxis/romantic_education/praxis.2016.romantic_education.rejack"/>
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
                     </analytic>
+
+
                     <monogr>
-                        <title level="m">Romantic Education: Romantic Pedagogies and New Approaches to Teaching Romanticism</title>
-                        <title level="s">Pedagogies</title>
-                        <title level="s" type="sub">Romantic Pedagogy Commons</title>
+                        <title level="m">Pedagogies Edition: Romantic Education: Romantic Pedagogies
+                            and New Approaches to Teaching Romanticism</title>
+                        <title level="s">Praxis</title>
+
                         <imprint>
-                            <publisher>Romantic Circles, http://www.rc.umd.edu, University of
-                                Maryland</publisher>
-                            <pubPlace>College Park, MD</pubPlace>
-                            <date when="2014-04-28">April 28, 2014</date>
-                            <biblScope type="URL"
-                                >http://www.rc.umd.edu/pedagogies/commons/romantic_education/pedagogies.romantic_education.2016.rejack.html</biblScope>
+                            <publisher> Romantic Circles, https://romantic-circles.org, University
+                                of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
                         </imprint>
                     </monogr>
+
+
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+
         <encodingDesc>
             <editorialDecl>
                 <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for
-                        &#226;&#8364;&#339;," for &#226;&#8364;, ' for &#8216;, and ' for '.</p>
+                    <p>All quotation marks and apostrophes have been changed: " to &#8220; or
+                        &#8221;, and ' to &#8216; and &#8217;.</p>
                 </quotation>
                 <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Any dashes occurring in line breaks have been removed except in the case of
+                        diplomatic transcriptions.</p>
                     <p>Because of web browser variability, all hyphens have been typed on the U.S.
                         keyboard</p>
-                    <p>Em-dashes have been rendered as #8212</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
                 </hyphenation>
                 <normalization method="markup">
                     <p>Spelling has not been regularized.</p>
@@ -115,11 +152,12 @@
                 </normalization>
                 <normalization>
                     <p>&amp; has been used for the ampersand sign.</p>
-                    <p>&#194;&#163; has been used for &#194;&#163;, the pound sign</p>
+                    <p>&#35; has been used for #, the pound sign</p>
                     <p>All other characters, those with accents, non-breaking spaces, etc., have
                         been encoded in HTML entity decimals.</p>
                 </normalization>
             </editorialDecl>
+
             <tagsDecl>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
                 <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
@@ -145,6 +183,7 @@
                 <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
                 <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
             </tagsDecl>
+
             <classDecl>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E"
@@ -152,161 +191,12 @@
                     <bibl>NINES categories for Genre and Material Form at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
                         20014-02-27</bibl>
-                    <!-- <category xml:id="Bibliography">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="Catalog">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="Citation">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Correspondence">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="Criticism">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="Drama">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="Ephemera">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="Fiction">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="Historiography">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Life Writing">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="Liturgy">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="Music, Other">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="Musical Recording">
-                  <catDesc>Musical Recording</catDesc>
-               </category>
-               <category xml:id="Musical Score">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="Nonfiction">
-                  <catDesc>Nonfiction</catDesc>
-               </category>
-               <category xml:id="Paratext">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Photograph">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="Poetry">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="Religion">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="Religion, Other">
-                  <catDesc>Religion, Other</catDesc>
-               </category>
-               <category xml:id="Reference Works">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="Review">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="Scripture">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="Sermon">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="Translation">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="Travel Writing">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="Unspecified">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="Visual Art">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>Book History</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
                     xml:id="dcType">
                     <bibl>NINES categories for document type at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Codex">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="Collection">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="Drawing">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="Illustration">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="Interactive Resource">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="Manuscript">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="Map">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="Moving Image">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="Periodical">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="Physical Object">
-                  <catDesc>Physical Object</catDesc>
-               </category>
-               <category xml:id="Roll">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="Sheet">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="Sound">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="Still Image">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="Typescript">
-                  <catDesc>Typescript</catDesc>
-               </category>
-                -->
                 </taxonomy>
                 <taxonomy
                     corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E"
@@ -314,107 +204,57 @@
                     <bibl>NINES categories for discplines at
                         http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on
                         2014-02-27</bibl>
-                    <!-- <category xml:id="Anthropology">
-                  <catDesc>Anthropology</catDesc>
-               </category>
-               <category xml:id="Archaeology">
-                  <catDesc>Archaeology</catDesc>
-               </category>
-               <category xml:id="Architecture">
-                  <catDesc>Architecture</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Art History</catDesc>
-               </category>
-               <category xml:id="Art History">
-                  <catDesc>Book History</catDesc>
-               </category>
-               <category xml:id="Classics and Ancient History">
-                  <catDesc>Classics and Ancient History</catDesc>
-               </category>
-               <category xml:id="Ethnic Studies">
-                  <catDesc>Ethnic Studies</catDesc>
-               </category>
-               <category xml:id="Film Studies">
-                  <catDesc>Film Studies</catDesc>
-               </category>
-               <category xml:id="Gender Studies">
-                  <catDesc>Gender Studies</catDesc>
-               </category>
-               <category xml:id="Geography">
-                  <catDesc>Geography</catDesc>
-               </category>
-               <category xml:id="History">
-                  <catDesc>History</catDesc>
-               </category>
-               <category xml:id="Law">
-                  <catDesc>Law</catDesc>
-               </category>
-               <category xml:id="Literature">
-                  <catDesc>Literature</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Math">
-                  <catDesc>Math</catDesc>
-               </category>
-               <category xml:id="Manuscript Studies">
-                  <catDesc>Manuscript Studies</catDesc>
-               </category>
-               <category xml:id="Musicology">
-                  <catDesc>Musicology</catDesc>
-               </category>
-               <category xml:id="Philosophy">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="Religious Studies">
-                  <catDesc>Religious Studies</catDesc>
-               </category>
-               <category xml:id="Science">
-                  <catDesc>Science</catDesc>
-               </category>
-               <category xml:id="Theater Studies">
-                  <catDesc>Theater Studies</catDesc>
-               </category>
-                -->
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+
         <profileDesc>
             <textClass>
-                <catRef scheme="#genre" target="#Criticism"/>
+                <catRef scheme="#genre" target="#Paratext"/>
                 <catRef scheme="#dcType" target="#Typescript"/>
                 <catRef scheme="#discipline" target="#Literature"/>
-                <keywords scheme="http://www.rc.umd.edu/#tags">
-                  <term subtype="tags">imagination</term>
-                  <term subtype="tags">new media</term>
-                  <term subtype="tags">Apple</term>
-                  <term subtype="tags">clouds</term>
-                  <term subtype="tags">cyberpunk</term>
-                  <term subtype="tags">materiality</term>
-                  <term subtype="tags">media studies</term>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
+                    <term subtype="tags"/>
                 </keywords>
             </textClass>
         </profileDesc>
+
         <revisionDesc>
             <change>
-                <name>Kyle Bickoff</name>
-                <date>2016-04-01</date>
+                <!--  Coder Name and Date Coded  -->
+                <name><!-- coder --></name>
                 <list>
                     <item>TEI encoding the text</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
+
+
     <text>
-      <front>
-        <div type="abstract">
-          <p rend="noCount">
-            This essay chronicles my experience teaching a course outside of the realm of Romanticism (a first-year writing course focused on digital media), an experience which occasioned reflection on the lessons that Romanticism can offer us about contemporary new media, and in particular how we approach new media pedagogically. The essay begins with an overview of new media scholarship which seeks to redress the tendency to view new media as always immaterial, the scholarship that informed much of the focus of the course in question. I next discuss some of the tools and methods adopted in teaching the course. And the final move in the essay turns toward Romanticism, and specifically to theories of and scholarship on the Romantic imagination. My final contention is that the Romantic imagination offers ways to resist the ideology of immateriality which characterizes so much of new media discourse.
-          </p>
-        </div>
-      </front>
+        <front>
+            <div type="abstract">
+                <p rend="noCount"> This essay chronicles my experience teaching a course outside of
+                    the realm of Romanticism (a first-year writing course focused on digital media),
+                    an experience which occasioned reflection on the lessons that Romanticism can
+                    offer us about contemporary new media, and in particular how we approach new
+                    media pedagogically. The essay begins with an overview of new media scholarship
+                    which seeks to redress the tendency to view new media as always immaterial, the
+                    scholarship that informed much of the focus of the course in question. I next
+                    discuss some of the tools and methods adopted in teaching the course. And the
+                    final move in the essay turns toward Romanticism, and specifically to theories
+                    of and scholarship on the Romantic imagination. My final contention is that the
+                    Romantic imagination offers ways to resist the ideology of immateriality which
+                    characterizes so much of new media discourse. </p>
+            </div>
+        </front>
         <body>
             <div type="essay">
                 <head>Imagining the Internet Through the Romantics</head>
@@ -655,8 +495,8 @@
                             ourselves back to us” (<title level="m">Radiant Textuality</title>
                             143).</note> When the class read Rudy Rucker’s classic cyberpunk novel
                             <title level="m">Software</title> (1982), we put the novel’s entire text
-                        into a web-based program called <ref target="http://voyant-tools.org"
-                                ><title level="m">Voyant</title></ref>, which analyzes the number of
+                        into a web-based program called <ref target="http://voyant-tools.org"><title
+                                level="m">Voyant</title></ref>, which analyzes the number of
                         occurrences of distinct words, and allows the manipulation of them in
                         various ways. One can view a word cloud (the larger words representing
                         visually their higher relative frequency), chart one word against another,
@@ -802,15 +642,23 @@
                         form by conscious manipulation of the software that enables her to compose
                         her essay. The essay itself, a product of the course being queried in her
                         altered Google, becomes another digital object subject to the conscious
-                        manipulation of media she describes in the paper’s argument and analysis.
-                            <figure n="1">
+                        manipulation of media she describes in the paper’s argument and analysis.</p>
+                    <p>
+                            <figure>
                             <graphic n="1001" width="16.617597222222223cm" height="6.985cm"
-                                url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/rej_image1Thumb.png"
+                                url="/sites/default/files/imported/pedagogies/romantic_education/images/rej_image1Thumb.png"
                                 rend="block"> </graphic>
                             <figDesc>An image from a student’s paper. She created the image by
                                 taking a screenshot of her manipulation of <title level="m">Google
                                     Variations</title>’ “Paint it Google” mod.</figDesc>
-                        </figure> Entering into this assignment, and into the course more generally,
+                        </figure> 
+                    </p>
+                    <p>Fig. 1 An image from a student’s paper. She created the image by
+                        taking a screenshot of her manipulation of <title level="m">Google
+                            Variations</title>’ “Paint it Google” mod.</p>
+                    
+                        
+                       <p> Entering into this assignment, and into the course more generally,
                         I assumed that it would be valuable to adopt digital methods and tools since
                         the course content was focused on new media. I came to realize more
                         strikingly what I had only intuited to be true before: that such tools are
@@ -910,11 +758,11 @@
                             designs), leaving behind the emphasis on the cold aluminum for a
                             seemingly more warm and inviting sky-blue logo. The original images
                             discussed here can be viewed via the <ref
-                                target="http://web.archive.org/web/20110808042738/http://www.apple.com/icloud/features/photo-stream.html">Internet
-                                Archive’s Wayback Machine</ref>.</note> The carefully machined
-                        aluminum comforts because it connects us to loved ones through near magical
-                        transactions that elide material considerations—like the mining of bauxite
-                        needed to produce the aluminum that makes the device possible. </p>
+                                target="http://web.archive.org/web/20110808042738/http://www.apple.com/icloud/features/photo-stream.html"
+                                >Internet Archive’s Wayback Machine</ref>.</note> The carefully
+                        machined aluminum comforts because it connects us to loved ones through near
+                        magical transactions that elide material considerations—like the mining of
+                        bauxite needed to produce the aluminum that makes the device possible. </p>
                     <p> The cloud, then, is a medium that erases its presence, even if we think of
                         ontology in terms of “commands, addresses and data,” as Friedrich Kittler
                         argues we should when concerned with technical media. Doing so eliminates,
@@ -936,12 +784,13 @@
                         computing, however—the image of little blue rays connecting your device to
                         the cloud, the logo of the metallic cloud itself—obscure the very material,
                         economic and political interactions which become reinscribed as processes
-                        that occur <ref target="http://web.archive.org/web/20140501063941/http://www.apple.com/icloud/">“Everywhere.
-                            Automatically… Just like that”</ref> (“Apple—iCloud”).<note place="foot"
-                            resp="editors"> Coinciding with Earth Day in April 2014, Apple began a
-                            new <ref
-                                target="http://web.archive.org/web/20140729215146/https://www.apple.com/environment/">ad
-                                campaign called “Better,”</ref> which aims to highlight its
+                        that occur <ref
+                            target="http://web.archive.org/web/20140501063941/http://www.apple.com/icloud/"
+                            >“Everywhere. Automatically… Just like that”</ref>
+                            (“Apple—iCloud”).<note place="foot" resp="editors"> Coinciding with
+                            Earth Day in April 2014, Apple began a new <ref
+                                target="http://web.archive.org/web/20140729215146/https://www.apple.com/environment/"
+                                >ad campaign called “Better,”</ref> which aims to highlight its
                             commitments to environmental responsibility. Part of the media rollout
                             included <ref
                                 target="http://www.today.com/video/today/55025951#55025951">a story
@@ -1271,13 +1120,21 @@
                         of <title level="m">Google Variations</title> mentioned earlier). For his
                         multimedia component, Neo wrote a computer program. He gave me instructions
                         on how to compile the Java program on my computer, and when I eventually
-                        managed it, it produced the following. (Figure 2). <figure n="2">
+                        managed it, it produced the following. (Figure 2).</p>
+                    <p>
+                    <figure>
                             <graphic n="1002" width="15.24cm" height="15.432272222222222cm"
-                                url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/rej_image2Thumb.jpg"
+                                url="/sites/default/files/imported/pedagogies/romantic_education/images/rej_image2Thumb.jpg"
                                 rend="inline"> </graphic>
-                            <figDesc>A screenshot showing the narrative produced by my
-                                student’s Java program.</figDesc>
-                        </figure> The program asks you to enter your name, and once you do, it
+                            <figDesc>A screenshot showing the narrative produced by my student’s
+                                Java program.</figDesc>
+                        </figure>
+                    </p>
+                    <p>Fig. 2 A screenshot showing the narrative produced by my student’s
+                        Java program.</p>
+                        
+                        
+                      <p>The program asks you to enter your name, and once you do, it
                         produces this narrative, inspired by and loosely adapted from <title
                             level="m">The Matrix</title>. A mysterious figure offers you truth in
                         the form of a red pill. Prompted again to type “red” of “blue,” the input
@@ -1286,16 +1143,23 @@
                         book with a beaten spine. ‘Read,’ he says. ‘Read and be free.’” The program
                         that has produced the narrative, also produces the content of the essay, the
                         “book” that will lead to freedom. After the introductory narrative, the
-                        program outputs the entire essay text. (Figure 3). <figure n="3">
+                        program outputs the entire essay text. (Figure 3).</p>
+                          <p>
+                          <figure>
                             <graphic n="1003" width="16.497652777777777cm"
                                 height="11.234208333333333cm"
-                                url="/sites/default/files/imported/pedagogies/commons/romantic_education/images/rej_image3Thumb.jpg"
+                                url="/sites/default/files/imported/pedagogies/romantic_education/images/rej_image3Thumb.jpg"
                                 rend="inline"> </graphic>
-                            <figDesc>The end of the introductory narrative and the
-                                beginning of the student’s essay. In between are the formatting
-                                details from Word that the particular software environment cannot
-                                interpret.</figDesc>
-                        </figure> With this creative representation, Neo recognized his remediated
+                            <figDesc>The end of the introductory narrative and the beginning of the
+                                student’s essay. In between are the formatting details from Word
+                                that the particular software environment cannot interpret.</figDesc>
+                        </figure></p>
+                    <p>Fig. 3 The end of the introductory narrative and the beginning of the
+                        student’s essay. In between are the formatting details from Word
+                        that the particular software environment cannot interpret.</p>
+                              
+                              
+                           <p>   With this creative representation, Neo recognized his remediated
                         paper as part of a history of mediation. The green text on black screen
                         recalls an earlier era in computing, inspired by <title level="m">The
                             Matrix</title>’s popularization of the green on black image, while the
@@ -1320,8 +1184,8 @@
                         disembodied in the evolution of digital discourse, can help us see the
                         materials that make up that history. </p>
                 </div>
-            </div>
-            <div type="citations">
+           
+            <div type="citation">
                 <head>Works Cited</head>
                 <bibl>“<ref target="http://www.apple.com/environment/">Apple—Environmental
                         Responsibility</ref>.” <title level="m">Apple</title>. Web. 30 Apr.
@@ -1447,6 +1311,7 @@
                     Custance. Cambridge: MIT Press, 2006. Print.</bibl>
                 <bibl>Zittrain, Jonathan. <title level="m">The Future of the Internet—And How to
                         Stop It</title>. New Haven: Yale UP, 2008. Print.</bibl>
+            </div>
             </div>
         </body>
     </text>
