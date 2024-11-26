@@ -1,106 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Untitled Document</title>
-                <author>Commenter</author>
-            </titleStmt>
-            <editionStmt>
-                <edition><date>2022-02-03T16:45:00</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <p>no publication statement available</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Written by OpenOffice</p>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2022-02-03T16:45:00</date></change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <!--  The reading texts should all be encoded as level="m"  -->
+                                <title level="a">Romanticism and the Abolitionist Turn</title>
+                                
+                                <author role="primary">
+                                        <name>Patricia A. Matthew</name>
+                                </author>
+                                
+                                <sponsor>Romantic Circles</sponsor>
+                                
+                                <respStmt>
+                                        <resp>TEI Encoding</resp>
+                                        <name>EXTERNAL CODER</name>
+                                </respStmt>            
+                                
+                                <respStmt>
+                                        <resp>Director</resp>
+                                        <name>Thora Brylowe</name>
+                                </respStmt>
+                                
+                                <respStmt>
+                                        <resp>Praxis Editor</resp>
+                                        <name>Brian McGrath</name>
+                                </respStmt>
+                                <respStmt>
+                                        <resp>Assistant Editor</resp>
+                                        <name>Jessica Tebo</name>
+                                </respStmt>
+                                <respStmt>
+                                        <resp>Assistant Editor</resp>
+                                        <name>Anna Paige Wingfield</name>
+                                </respStmt>
+                        </titleStmt>
+                        
+                        <editionStmt>
+                                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                                <edition><date>2024-11-25</date></edition>
+                        </editionStmt>
+                        
+                        <publicationStmt>
+                                <publisher>Romantic Circles, https://romantic-circles.org, 
+                                        University of Colorado Boulder</publisher>
+                                <pubPlace>Boulder, CO</pubPlace>
+                                <availability status="free">
+                                        <p>Material from the Romantic Circles Website may not be downloaded, 
+                                                reproduced or disseminated in any manner without authorization unless 
+                                                it is for purposes of criticism, comment, news reporting, teaching, 
+                                                and/or classroom use as provided by the Copyright Act of 1976, as 
+                                                amended.</p>
+                                        <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                                                Circles are copyrighted by the author/editor and may be shared only in 
+                                                accordance with the Fair Use provisions of U.S. copyright law. Except 
+                                                as expressly permitted by this statement, redistribution or republication 
+                                                in any medium requires express prior written consent from the author(s)/
+                                                editor(s) and advance notification of Romantic Circles. Any requests 
+                                                for authorization should be forwarded to Romantic Circles:
+                                                <address>
+                                                        <addrLine>Romantic Circles</addrLine>
+                                                        <addrLine>c/o Professor Thora Brylowe</addrLine>
+                                                        <addrLine>Department of English</addrLine>
+                                                        <addrLine>University of Colorado Boulder</addrLine>
+                                                        <addrLine>Boulder, CO 80309</addrLine>
+                                                        <addrLine>thora.brylowe@colorado.edu</addrLine>
+                                                </address></p>
+                                        <p>By their use of these texts and images, users agree to the following 
+                                                conditions: 
+                                                <list>
+                                                        <item>These texts and images may not be used for any commercial 
+                                                                purpose without prior written permission from Romantic Circles.</item>
+                                                        <item>These texts and images may not be re-distributed in any 
+                                                                forms other than their current ones.</item>
+                                                </list></p>
+                                        <p>Users are not permitted to download these texts and images in order 
+                                                to mount them on their own servers. It is not in our interest or that 
+                                                of our users to have uncontrolled subsets of our holdings available 
+                                                elsewhere on the Internet. We make corrections and additions to our 
+                                                edited resources on a continual basis, and we want the most current text 
+                                                to be the only one generally available to all Internet users. Institutions 
+                                                can, of course, make a link to the copies at Romantic Circles, subject 
+                                                to our conditions of use.</p>
+                                </availability>
+                                <!-- Be sure that the name below matches the file name-->
+                                <idno type="edition">praxis.2024.race.lee</idno> 
+                                <idno type="resource">race</idno>
+                        </publicationStmt>
+                        
+                        <sourceDesc>
+                                <biblStruct>
+                                        <analytic>
+                                                <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                                                <title level="a" type="main">Romanticism and the Abolitionist Turn  
+                                                </title>
+                                                <author role="secondary">
+                                                        <persName>
+                                                                <forename>Patricia A.</forename>
+                                                                <surname>Matthew</surname>
+                                                        </persName>
+                                                </author>
+                                              
+                                                <!-- Referenece the above <idno> tag but only change the final part-->
+                                                <ptr target="praxis/contingent/praxis.2024.race.lee"/> 
+                                                <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                                        </analytic>
+                                        
+                                        <monogr>
+                                                <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                                                <title level="s">Praxis</title>
+                                                <imprint>
+                                                        <publisher>Romantic Circles, https://romantic-circles.org, 
+                                                                University of Colorado Boulder</publisher>
+                                                        <pubPlace>Boulder, CO</pubPlace>
+                                                        <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                                                        <date when="2024-11-22">November 25, 2024</date>
+                                                </imprint>
+                                        </monogr>
+                                </biblStruct>
+                        </sourceDesc>
+                </fileDesc>
+                
+                <encodingDesc>
+                        <editorialDecl>
+                                <quotation>
+                                        <p>All quotation marks and apostrophes have been changed: 
+                                                " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                                </quotation>
+                                <hyphenation eol="none">
+                                        <p>Any dashes occurring in line breaks have been removed 
+                                                except in the case of diplomatic transcriptions.</p>
+                                        <p>Because of web browser variability, all hyphens 
+                                                have been typed on the U.S. keyboard</p>
+                                        <p>Em dashes have been rendered as &#8212;</p>
+                                        <p>En dashes have been rendered as &#8211;</p>
+                                </hyphenation>
+                                <normalization method="markup">
+                                        <p>Spelling has not been regularized.</p>
+                                        <p>Writing in other hands appearing on these manuscripts 
+                                                has been indicated as such, the content recorded in brackets.</p>
+                                </normalization>
+                                <normalization>
+                                        <p>&amp; has been used for the ampersand sign.</p>
+                                        <p>&#35; has been used for #, the pound sign</p>
+                                        <p>All other characters, those with accents, non-breaking spaces, 
+                                                etc., have been encoded in HTML entity decimals.</p>
+                                </normalization>
+                        </editorialDecl>
+                        
+                        <tagsDecl>
+                                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                                <rendition xml:id="figure" scheme="css">text-align: center; 
+                                        font-size: 12pt;</rendition>
+                                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+                        </tagsDecl>
+                        
+                        <classDecl>
+                                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                                        <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                                                20014-02-27</bibl>
+                                </taxonomy>
+                                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                                        <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                                </taxonomy>
+                                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                                        <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                                </taxonomy>
+                        </classDecl>
+                </encodingDesc>
+                
+                <profileDesc>
+                        <textClass>
+                                <catRef scheme="#genre" target="#Paratext"/>
+                                <catRef scheme="#dcType" target="#Typescript"/>
+                                <catRef scheme="#discipline" target="#Literature"/>
+                                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                                <keywords scheme="http://www.romantic-circles.org/#tags">
+                                        <term subtype="tags"></term>
+                                        <term subtype="tags"></term>
+                                        <term subtype="tags"></term>
+                                        <term subtype="tags"></term>
+                                        <term subtype="tags"></term>
+                                </keywords>
+                        </textClass>
+                </profileDesc>
+                
+                <revisionDesc>
+                        <change>
+                                <!--  Coder Name and Date Coded  -->
+                                <name>Anna Paige Wingfield</name>
+                                <date>11.25.2024</date>
+                                <list>
+                                        <item>TEI encoding the text</item>
+                                </list>
+                        </change>
+                </revisionDesc>
+        </teiHeader>
+        <!--END OF HEADER-->
     <text>
         <body>
-            <p><hi rend="color(#000000)">­­­­­Emergent </hi></p>
-            <p><hi rend="color(#000000)italic">an index </hi></p>
-            <p><hi rend="color(#000000)">            </hi></p>
-            <p><hi rend="color(#000000)">emergent: </hi></p>
-            <p><hi rend="color(#000000)">defined;</hi></p>
-            <p><hi rend="color(#000000)">as fragment;</hi></p>
-            <p><hi rend="color(#000000)">and the romantic period; </hi></p>
-            <p><hi rend="color(#000000)">as signifyin’; </hi></p>
-            <p><hi rend="color(#000000)">and police violence;</hi></p>
-            <p><hi rend="color(#000000)">and orality;</hi></p>
-            <p><hi rend="color(#000000)">as geometry; </hi></p>
-            <p><hi rend="color(#000000)">and abolition;</hi></p>
-            <p><hi rend="color(#000000)">as collectivity; </hi></p>
-            <p rend="justify"><hi rend="color(#000000)italic">see also </hi><hi
-                    rend="color(#000000)">emergency;</hi></p>
-            <p rend="justify"><hi rend="color(#000000)">and the future</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: defined; </hi></p>
-            <p><hi rend="color(#000000)">I like the word: emerge. What it conjures: Motion.
-                    Risk-taking. Ideas on the verge. </hi></p>
-            <p><hi rend="color(#000000)">adrienne maree brown wasn’t the first to highlight
-                    emergence for me, but her 2017 book </hi><hi rend="color(#000000)italic"
-                    >Emergent Strategy: Shaping Change, Changing Worlds</hi><hi
-                    rend="color(#000000)"> rooted me in the concept’s importance to teaching,
+            <div type="epigraph">
+                    
+                    <p>­­­­­Emergent </p>
+            <p><hi rend="italic">an index </hi></p>
+            <p>emergent:</p>
+            <p>defined;</p>
+            <p>as fragment;</p>
+            <p>and the romantic period;</p>
+            <p>as signifyin’; </p>
+            <p>and police violence;</p>
+            <p>and orality;</p>
+            <p>as geometry; ></p>
+            <p>and abolition;</p>
+            <p>as collectivity;</p>
+            <p><hi rend="italic">see also </hi> emergency;</p>
+            <p>and the future</p>
+            </div>
+                
+                <div type="essay">
+                        
+               <div type="section">
+            <head>Emergent: defined; </head>
+                    
+            <p>I like the word: emerge. What it conjures: Motion.
+                    Risk-taking. Ideas on the verge. </p>
+                       
+            <p>adrienne maree brown wasn’t the first to highlight
+                    emergence for me, but her 2017 book <hi rend="italic">Emergent Strategy: Shaping Change, Changing Worlds</hi> rooted me in the concept’s importance to teaching,
                     writing, and being in these charged times. Emergent strategy originated as a
-                    business model in </hi><hi rend="color(#000000)">the 1970s meaning “a pattern of
+                    business model in the 1970s meaning “a pattern of
                     action that develops over time in an organization in the absence of a specific
-                    mission and goals.”</hi><hi rend="color(#000000)"><note xml:id="ftn1"
-                        place="end" n="1">
-                        https://interactioninstitute.org/emergent-strategy/</note></hi><hi
-                    rend="color(#000000)"> brown says that her engagement with the concept began
+                    mission and goals.”<note place="foot" resp="author">
+                        <ref target="https://interactioninstitute.org/emergent-strategy/">Interaction Institute</ref></note>
+                     brown says that her engagement with the concept began
                     with her reading of Black science fiction author Octavia Butler’s notion of
                     change as small, decentralized, and intentional. In brown’s introduction to
                     “intentional adaptation,” she quotes Butler: “We are Earthseed / The life that
                     perceives itself Changing” (46). From there, brown grew the idea to describe
                     myriad forms of brokenness and transformation needed for a more just
-                world.</hi></p>
-            <p><hi rend="color(#000000)">“Emergent” also aptly describes the pedagogical
+                world.</p>
+                       
+            <p>“Emergent” also aptly describes the pedagogical
                     interventions in this volume, where scholar-teachers take risks and adapt as
                     they develop new curriculums. Like the resourceful practice of “tunyuhan”
                     suggested by Fran Botkin. The word, Botkin tells us, comes from a Jamaican
                     proverb: “tunyuhan (turn your hand) and mek (make) fashion,” or “make the best
                     use of any available resources to create something new.” Or Ivan Ortiz’s
                     evocation of literary séance to make Black voices audible. Ortiz uses texts as
-                    mediums and mediations, especially </hi><hi rend="color(#000000)">those that
-                    crack open history like M. NourbeSe Philip’s </hi><hi
-                    rend="color(#000000)italic">Zong! </hi><hi rend="color(#000000)">poems broken
+                    mediums and mediations, especially those that
+                    crack open history like M. NourbeSe Philip’s <hi rend="italic">Zong!</hi> poems broken
                     across pages and centuries. There is also Elizabeth Fay’s emphasis on the
                     violent movement of bodies and selves across the Atlantic, as well as Nicholas
                     Blaisdell’s ability to link eighteenth and nineteenth-century scholarship “to
                     our present.” And, Sean Gordon’s amplification of “dehiscence,” a practice
-                    described by Fred Moten as a Black studies </hi><hi rend="color(#000000)"
-                    >“emergent poetics” (1743). </hi></p>
-            <p><hi rend="color(#000000)">Clearly, these examples show how emergent strategy can
+                    described by Fred Moten as a Black studies “emergent poetics” (1743). </p>
+                       
+            <p>Clearly, these examples show how emergent strategy can
                     vitalize the teaching of romantic literature in 2021 and beyond. In the years
                     before I read brown, I was drawn to anthropologist Kathleen Stewart’s idea of
                     emergence aligned with the changes in my scholarly work and my teaching some
-                    years ago. In her 2007 book </hi><hi rend="color(#000000)italic">Ordinary
-                    Affects</hi><hi rend="color(#000000)">, Stewart wrote about the “emergent
-                    present,” the shifting, fragmented, heightened </hi><hi rend="color(#000000)"
-                    >moments of the everyday. Her book indexes potent encounters that we can’t quite
+                    years ago. In her 2007 book <hi rend="italic">>Ordinary
+                    Affects</hi>, Stewart wrote about the “emergent
+                    present,” the shifting, fragmented, heightened moments of the everyday. Her book indexes potent encounters that we can’t quite
                     categorize, intimate moments that merge with public issues and then evaporate
                     like a mist only to reappear later in another form. Such moments, she says,
                     “will shift people’s life trajectories in some small way, change them by
                     literally changing their course for a minute or a day” (12). More often than
                     not, I will add, emergent moments change us as they remake the ghostly past in
-                    the embodied present. </hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: as fragment </hi></p>
-            <p><hi rend="color(#000000)">In June 2013, I was at a house party in Chicago’s Belmont
+                    the embodied present. </p>
+               </div>
+                        
+                        <div type="section">
+                                <head>Emergent: as fragment </head>
+                                
+            <p>In June 2013, I was at a house party in Chicago’s Belmont
                     district, mingling with people in the leafy backyard. These were people I didn’t
                     see at my university; founders of arts programs and alternative newspapers and
                     activist organizations. A little Scotty dog dashed around. Everyone except me
                     knew his name. Wearing mismatched stockings and skirts, asymmetrical hemlines,
                     and bright earrings, the guests were hip and creative. They seemed cool and I
                     wanted to join in, but when I edged into a circle, people spoke past me. Hot
-                    dampness hung in the air, evoking a longing feeling, an </hi><hi
-                    rend="color(#000000)">ache for the experiences I didn’t have with these people
-                    but which they had with one another. </hi></p>
-            <p><hi rend="color(#000000)">The yard was crowded and sweaty and I moved inside. Only
+                    dampness hung in the air, evoking a longing feeling, an ache for the experiences I didn’t have with these people
+                    but which they had with one another. </p>
+                                
+            <p>The yard was crowded and sweaty and I moved inside. Only
                     one other person sat in the dimly lit living room where a melancholy tune of
                     trombones and violins played. I drifted over and sat next to Marvin, as he later
                     introduced himself. He raised his beer and smiled. The heat inside was
@@ -110,8 +313,9 @@
                     he worked. “I don’t work now,” he said. There was something about this party
                     that suppressed my normal social instincts. In any other context I would have
                     talked about my job and family. But all I seemed to be able to do was
-                    listen.</hi></p>
-            <p><hi rend="color(#000000)">While Black and white people mingled, I connected with
+                    listen.</p>
+                                
+            <p>While Black and white people mingled, I connected with
                     Marvin as a parent. I noticed he had a way of smiling that seemed new, as if
                     he’d just rediscovered those muscles around his mouth. He’d had a hard time
                     finding a job since he got out of prison, he said. It was hard when you’d been
@@ -119,37 +323,43 @@
                     around people. He told me how his daughter grew up while he was locked up, how
                     he was getting to know her for the first time. He rubbed his eyebrow shyly. He
                     had just bought her a house with the compensation he received for being
-                    wrongfully accused. </hi></p>
-            <p><hi rend="color(#000000)">I thought of my own daughter as Marvin talked. She and I
+                    wrongfully accused. </p>
+                                
+            <p>I thought of my own daughter as Marvin talked. She and I
                     were estranged at the time. I had desperately tried to contact her to no avail.
                     Forced alienation from a daughter, one of the deepest human hurts—it was a
                     feeling I could touch. But as I looked into Marvin’s intense eyes, my internal
                     screen went blank. How could I know wrongful conviction and forced separation
                     from a child, from an entire family, in the context of the experience he related
-                    to me? I couldn’t. But he was telling me his story, and I listened.</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: and the romantic period; </hi></p>
-            <p><hi rend="color(#000000)">One of the most striking features of this volume is how the
+                    to me? I couldn’t. But he was telling me his story, and I listened.</p>
+                                
+                        </div>
+                        
+                        <div type="section">
+                <head>Emergent: and the romantic period;</head>
+                                
+            <p>One of the most striking features of this volume is how the
                     pastness of the British slave trade, abolition, and emancipation emerge in
                     current poems, novels, plays, songs and movies, across the internet, on the
                     streets, and, crucially, within schools and classrooms. Patricia A. Matthew
-                    acknowledges that although early abolitionist texts are not “</hi>documentaries
-                that teach us about the past,” they can speak to current race issues. <hi
-                    rend="color(#000000)">Her students discuss slavery and abolition at a historic
+                    acknowledges that although early abolitionist texts are not “ documentaries
+                that teach us about the past,” they can speak to current race issues. Her students discuss slavery and abolition at a historic
                     and geographic remove and yet feel the issues press closely on their lives as
-                    they learn to adapt one era’s practices to their own. </hi></p>
-            <p><hi rend="color(#000000)">Adaptation is central to Botkin’s method as well. She puts
-                    Marlon James’s contemporary novel </hi><hi rend="color(#000000)italic">The Book
-                    of Night Women</hi><hi rend="color(#000000)"> in dialogue with romantic
+                    they learn to adapt one era’s practices to their own. </p>
+                                
+            <p>Adaptation is central to Botkin’s method as well. She puts
+                    Marlon James’s contemporary novel <hi rend="italic">The Book
+                    of Night Women</hi> in dialogue with romantic
                     literature. James’s dizzying historical remix, Botkin says, features graphic
-                    scenes of trauma, which unsettles what students think they know </hi><hi
-                    rend="color(#000000)">about enslavement. At the same time it informs their
+                    scenes of trauma, which unsettles what students think they know about enslavement. At the same time it informs their
                     current experience. Likewise, Fay reveals that for her students, the Black Lives
                     Matter protests give writers like Olaudah Equiano and Mary Prince “a new
                     legitimacy” unheard of in previous generations of students. And Gordon boldly
                     leads students to question their assumptions about “the ‘pastness’ of slavery,
                     the progressiveness of liberal democracy, and the post-racialism of the
-                    contemporary.”</hi></p>
-            <p><hi rend="color(#000000)">Surely my conversation with Marvin held so much import for
+                    contemporary.”</p>
+                                
+            <p>Surely my conversation with Marvin held so much import for
                     me because of how the past emerged in the present. For twelve of the years
                     Marvin was in prison, I spent almost every waking moment steeped in literature
                     of the slave trade, abolition, and emancipation during the British romantic
@@ -158,35 +368,33 @@
                     books. But it was only when I stepped away from literary criticism and all I had
                     learned that the meaning of that awful history started to emerge in a different
                     way, rushing into my life in fleeting, transitory moments, informing and
-                    complicating the present. The 13</hi><hi rend="sup color(#000000)">th</hi><hi
-                    rend="color(#000000)"> Amendment abolished slavery with one major exception:
+                    complicating the present. The 13<hi rend="sup">th</hi> Amendment abolished slavery with one major exception:
                     slavery remained appropriate punishment for a crime. The Virginia Supreme Court
-                    defined convicts as synonymous with enslaved people.</hi><hi
-                    rend="color(#000000)"><note xml:id="ftn6" place="end" n="2">
-                        <hi rend="color(#000000)">Thanks to my colleague Aaron Oforlea for inserting
+                    defined convicts as synonymous with enslaved people. <note place="foot" resp="author">
+                        Thanks to my colleague Aaron Oforlea for inserting
                             this sentence and offering other insights in early drafts of this essay.
-                            See also Michelle Alexander, </hi><hi rend="color(#000000)italic">The
-                            New Jim Crow: Mass Incarceration in the Age of Colorblindness</hi><hi
-                            rend="color(#000000)">. New York: The New Press, 2010.
-                    </hi></note></hi><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: as signifying;</hi></p>
-            <p><hi rend="color(#000000)">I set upon the topic of the slave trade, abolition, and
+                            See also Michelle Alexander, <hi rend="italic">The
+                            New Jim Crow: Mass Incarceration in the Age of Colorblindness</hi>. New York: The New Press, 2010.
+                    </note></p>
+                                
+                        </div>
+                        <div type="section">
+            <head>Emergent: as signifying;</head>
+                                
+            <p>I set upon the topic of the slave trade, abolition, and
                     emancipation through a chance encounter with Henry Louis Gates Jr., when I was a
                     meek graduate student at the University of Arizona. I had read Gates’s book,
-                    </hi><hi rend="color(#000000)italic">The Signifying Monkey, </hi><hi
-                    rend="color(#000000)">which had recently come out, and </hi><hi
-                    rend="color(#000000)italic">The History of Mary Prince</hi><hi
-                    rend="color(#000000)"> in a postcolonial literature course, and was excited that
+                    <hi rend="italic">The Signifying Monkey, </hi> which had recently come out, and <hi
+                    rend="italic">The History of Mary Prince</hi> in a postcolonial literature course, and was excited that
                     he was giving a talk at the university. Gates spoke about race and the literary
                     canon and about recovering texts written by formerly enslaved men and women.
                     There was a dinner after the talk, and to my astonishment, I ended up seated
                     elbow-to-elbow with the great scholar with the smiling eyes. He was casual and
                     friendly, fluffing out his napkin and pouring me a glass of water before filling
-                    his own. </hi></p>
-            <p><hi rend="color(#000000)"> I’d never read anything like</hi><hi
-                    rend="color(#000000)italic">The Signifying Monkey.</hi><hi rend="color(#000000)"
-                    > I still recall being mesmerized by how Gates harnessed the African American
+                    his own. </p>
+                                
+            <p> I’d never read anything like <hi
+                    rend="italic">The Signifying Monkey.</hi> I still recall being mesmerized by how Gates harnessed the African American
                     vernacular tradition and the double-voiced Yoruba trickster Esu to develop the
                     “signifyin’ figure” who danced through the pages of African American literature.
                     “To rename is to revise,” Gates wrote, “and to revise is to Signify” (xxiii).
@@ -195,8 +403,9 @@
                     lists, not just because of Gates’s ideas, brilliant as they were, but because of
                     how he himself had written a scholarly work so alive, multiplicious, and full of
                     intellectual trickery. It struck me as, well, not entirely academic in style.
-                    How did he do it?</hi></p>
-            <p><hi rend="color(#000000)">In my eyes Gates may as well have been a movie star (and he
+                    How did he do it?</p>
+                                
+            <p>In my eyes Gates may as well have been a movie star (and he
                     would go on to become a TV celebrity and witness in free speech court
                     proceedings). I was too nervous to utter a word, so I just stared at his nice
                     old-fashioned wrist watch that fit the persona of someone with schedules to
@@ -204,36 +413,40 @@
                     remember telling him, in a stumbling monologue full of ums and ahs, about
                     romantic literature and how only a shred of scholarship about the slave trade
                     and abolition had been produced. I had pored over Eva Beatrice Dyke’s 1942
-                    book</hi><hi rend="color(#000000)italic"> The Negro in English Romantic
-                    Thought</hi><hi rend="color(#000000)">. I had attended Alan Richardson’s 1990
+                    book<hi rend="italic"> The Negro in English Romantic
+                    Thought</hi>. I had attended Alan Richardson’s 1990
                     MLA panel. I was drawn to the topic, I told him, but I confessed my worry. As a
                     non-Black person, did I have a right to pursue this research? Was it my story to
                     tell? Perhaps I was also afraid to confront the culpability of my own European
-                    ancestry.</hi></p>
-            <p><hi rend="color(#000000)">Gates’s eyes grew serious through huge glasses resting on
+                    ancestry.</p>
+                                
+            <p>Gates’s eyes grew serious through huge glasses resting on
                     his cheeks. “Absolutely!” he said. I must “absolutely choose this topic” for my
                     dissertation. Was I going to the archive? Texts, voices, needed to be brought to
                     light. Though my work might never “signify,’” I understood, it could have
                     significance. Or that maybe that as a white woman writing about the atrocities
-                    of Europeans, my work could signify on early white men and women. </hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: and police violence;</hi></p>
-            <p><hi rend="color(#000000)">A few months after I met Marvin, I had lunch with Alice,
+                    of Europeans, my work could signify on early white men and women. </p>
+                        </div>
+                        <div type="section">
+            <head>Emergent: and police violence;</head>
+                                
+            <p>A few months after I met Marvin, I had lunch with Alice,
                     the woman who had hosted the house party. I told her about my conversation with
                     Marvin. Though it lasted an hour at most, he kept surfacing in my thoughts. Was
-                    he okay? What had happened? </hi></p>
-            <p><hi rend="color(#000000)">Chicago cops were the worst, she said through frowning eyes
+                    he okay? What had happened? </p>
+                                
+            <p>Chicago cops were the worst, she said through frowning eyes
                     and pursed lips. Some twenty years earlier, two women and three children were
                     found dead in what appeared to be a house fire. The police questioned suspects,
                     and their evidence suggested a family member had committed the murders and
                     started the fire as a cover up. Instead of pursuing that lead, the police
                     arrested Marvin and another man, Ronald Kitchen, who happened to live nearby.
-                </hi></p>
-            <p><hi rend="color(#000000)">Alice pointed me to some online articles, and I later found
-                    more on my own.</hi><hi rend="color(#000000)"><note xml:id="ftn6" place="end"
-                        n="3"> See Andrew Baer's recent Beyond the Usual Beating: The Jon Burge
+                </p>
+                                
+            <p>Alice pointed me to some online articles, and I later found
+                    more on my own.<note place="foot"> See Andrew Baer's recent Beyond the Usual Beating: The Jon Burge
                         Police Torture Scandal and Social Movements for Police Accountability in
-                        Chicago (University of Chicago Press, 2021).</note></hi><hi
-                    rend="color(#000000)"> Marvin and Ronald’s injustice started with Chicago police
+                        Chicago (University of Chicago Press, 2021).</note> Marvin and Ronald’s injustice started with Chicago police
                     detective and commander Jon Burge, who spent eighteen years leading a campaign
                     against innocent Black men. Before his crimes were exposed in 1990, Burge
                     targeted some 200 Black men, torturing, imprisoning, and killing many them for
@@ -242,8 +455,9 @@
                     different race (Conroy). Burge unleashed his crimes unchallenged and even
                     received numerous honors, including a Bronze Star. Today his career stands as
                     one of the most egregious examples of serial police violence against Black men
-                    in U.S. history.</hi></p>
-            <p><hi rend="color(#000000)">When Marvin was exonerated in 2009, media stories emerged.
+                    in U.S. history.</p>
+                                
+            <p>When Marvin was exonerated in 2009, media stories emerged.
                     In an interview with Marlene Martin of the Campaign to End the Death Penalty,
                     Marvin told how police broke down the door to his sister’s house, kidnapped him,
                     and then beat him. I felt the intensity of the injustice when Marvin related
@@ -252,53 +466,54 @@
                     hang out. His favorite memory was a camping trip. A local pastor had organized
                     the trip for him and a bunch of neighborhood kids. “He made sure we went on this
                     weekend camping trip to show us another side of life,” Marvin said. “I'll never
-                    forget that—it made such an impression on me” (Martin). </hi></p>
-            <p><hi rend="color(#000000)">I’ll never forget how at the lunch meeting, when I
+                    forget that—it made such an impression on me” (Martin). </p>
+                                
+            <p>I’ll never forget how at the lunch meeting, when I
                     mentioned Marvin’s name, Alice smiled so wide, the lines around her eyes
                     sprawled across her temples and down the sides of her face. Her face drew me in
                     like a force. She nodded and peeked cautiously from over her glasses, as if the
                     thought of him gave her a feeling of deep fondness with agony mixed in. Even
                     after we parted, her expression appeared before me, slowly gathered resonance
-                    rather than settling something.</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: and orality;</hi></p>
-            <p><hi rend="color(#000000)"> The authors of the essays in this volume rightly champion
-                    first-hand accounts. Fay</hi><hi rend="color(#000018)">argues that “for some
+                    rather than settling something.</p>
+                        </div>
+                        <div type="section">
+            <head>Emergent: and orality;</head>
+                                
+            <p>The authors of the essays in this volume rightly champion
+                    first-hand accounts. Fay argues that “for some
                     students of color . . . first-hand accounts can be empowering.” Ortiz shows how
-                    ballads are </hi><hi rend="color(#000000)">oral forms </hi><hi
-                    rend="color(#000000)">migrated to print, and how these forms now act as mediums
+                    ballads are oral forms migrated to print, and how these forms now act as mediums
                     for Black voices. Yet even in canonical literary works by non-Black writers,
-                    Black voices can be heard, as Toni Morrison points out in </hi><hi
-                    rend="color(#000000)italic">Playing in the Dark</hi><hi rend="color(#000000)">,
+                    Black voices can be heard, as Toni Morrison points out in <hi rend="italic">Playing in the Dark</hi>,
                     giving expression to “social decay and economic division” of white culture
-                    (63).</hi></p>
-            <p><hi rend="color(#000000)">I spent what felt like a lifetime examining the documents
+                    (63).</p>
+                                
+            <p>I spent what felt like a lifetime examining the documents
                     of British antislavery, following trails, uncovering metaphors, reading works by
-                    mostly non-Black authors—</hi><hi rend="color(#000000)">the court cases, the
+                    mostly non-Black authors—the court cases, the
                     tracts and polemics, the debates, the newspaper articles, the dubious scientific
                     theories, the iconography, the mounds of antislavery poetry and plays and novels
                     and the thousands of travel texts. I was tireless in my research, mesmerized by
                     how one source led to another and then another, by the physical act of filling
                     out the request forms in the British Library, the Cambridge University Library,
                     the University of London, and farther flung archives in cities like Liverpool,
-                    Bristol, and Hull.</hi><hi rend="color(#000000)"><note xml:id="ftn6" place="end"
-                        n="4"> This archival work became the basis of the 8-volume <hi rend="italic"
+                    Bristol, and Hull.<note place="foot" resp="author"> This archival work became the basis of the 8-volume <hi rend="italic"
                             >Slavery, Abolition, and Emancipation: Writings in the British Romantic
                             Period</hi>, published by Routledge (then Pickering &amp; Chatto) in
                         1999. I served as co-general editor with Peter J. Kitson. Individual volume
                         editors were Sukhdev Sandu, David Dabydeen, Alan Richardson, Jeffrey Cox,
                         Srivinas Aravamudan, and Alan Bewell with Anne K. Mellor and James Walvin as
-                        advisory editors.</note></hi><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)">I remember the feeling of heaviness created by the sheer
+                        advisory editors.</note></p>
+                                
+            <p>I remember the feeling of heaviness created by the sheer
                     number of documents in dark rooms guarded by stone-faced librarians, and I often
-                    fell</hi><hi rend="color(#000000)"> ill thinking about how antislavery writings
+                    fell ill thinking about how antislavery writings
                     and contemporary literary theory rarely let the people taken from Africa or born
-                    into the system of enslavement speak for themselves. </hi><hi
-                    rend="color(#000018)">I became increasingly concerned with finding those voices,
+                    into the system of enslavement speak for themselves. I became increasingly concerned with finding those voices,
                     even if they were sometimes mediated through white institutions and scribes. I
                     read the letters of the Sierra Leone settlers, which were scattered in libraries
-                    across England and the US. In one collection, I </hi><hi rend="color(#000018)"
-                    >stumbled upon a small account of enslaved women—mothers and daughters—wresting
-                    control of a plantation. </hi><hi rend="color(#000000)">In London a series of
+                    across England and the US. In one collection, I stumbled upon a small account of enslaved women—mothers and daughters—wresting
+                    control of a plantation. In London a series of
                     slave complaints emerged from the House of Commons Parliamentary papers dating
                     to 1816. In select colonies including Berbice and Demerara, as I learned, the
                     enslaved could report abuses to a British officer—called a Fiscal—who took down
@@ -306,12 +521,13 @@
                     aspects of Black culture hidden from most other accounts. I learned about
                     working conditions, living quarters, the amount of food, clothing, and other
                     supplies people had access to, and about their resistances and
-                rebellions. </hi></p>
-            <p><hi rend="color(#000000)">One afternoon in the British Library I found myself reading
+                rebellions. </p>
+                                
+            <p>One afternoon in the British Library I found myself reading
                     the account of Tommy again and again, a story that stays with me to this
-                    day:</hi></p>
-            <p><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)">February 19, 1819. Negro Tommy, belonging to William
+                    day:
+                    
+            <quote>February 19, 1819. Negro Tommy, belonging to William
                     Fraser:--Says, he is a cooper by trade, and employed as such by his master on
                     plantation Goldstone Hall; that on Friday morning last he went in the
                     boiling-house for nails, and there saw another cooper heading up sugars; Tommy
@@ -319,209 +535,232 @@
                     three gallons of hot water; did not hide the same, but proceeded with it in his
                     hand from the boiling-house; was met by his master, Mr. Fraser, who inquired
                     where he got the sugar, Tommy informed him of his having taken it, and for what
-                    purpose, his master immediately </hi><hi rend="color(#000000)">ordered him to be
+                    purpose, his master immediately ordered him to be
                     laid down, tied to stakes, put two drivers over him, and one hundred lashes
                     inflicted upon him. Mr. Fraser went to Tommy’s house and searched it, found in
                     his tool chest a quantity of old nails, among which were also a very few new
                     ones; Mr. Fraser went to the trouble of weighing them, there were fourteen
-                    pounds.</hi><hi rend="color(#000000)"><note xml:id="ftn6" place="end" n="5"> The
+                    pounds.<note place="foot" resp="author"> The
                         full account of Tommy is republished in the volume I co-edited with Alan
                             Richardson,<hi rend="italic">Early Black British Writing: Olaudah
                             Equiano, Mary Prince, and Others</hi> in 2014 with Houghton Mifflin. I’m
                         especially grateful to Richardson for his pioneering work on antislavery and
                         Black writers during the romantic period, and for mentoring me during my
-                        career.</note></hi></p>
-            <p><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)">It took years to unravel the meaning of this account, but I
+                        career.</note></quote>
+            
+            It took years to unravel the meaning of this account, but I
                     couldn’t let it go. Tommy’s actions replayed in my imagination until I saw
-                    </hi><hi rend="color(#000018)">Tommy’s self-determination in every word of this
+                    Tommy’s self-determination in every word of this
                     complaint. By stealing sugar—the product of his own labor—Tommy was subverting
                     capitalism, which slave labor made possible. Subverting but also using. By
                     collecting a great quantity of nails, Tommy was exploiting capitalism. The fact
                     that Fraser weighed the nails implied he suspected Tommy was selling
-                them.</hi></p>
-            <p><hi rend="color(#000018)">The account continues beyond the segment I’ve included
+                them.</p>
+                                
+            <p>The account continues beyond the segment I’ve included
                     here. In it, Tommy complains of not enough food and clothing, and of being
                     harassed by Fraser, but his primary objection is the 100 lashes, when the legal
                     limit was 41. The court interviewed various witnesses, each claiming Tommy
                     received a different number of lashes. Finally, the court asked Tommy to
                     “exhibit his posterior,” and he had very little sign of being lashed. Tommy
-                    explains: “I was favored by the drivers who threw the whips over me.” </hi></p>
-            <p><hi rend="color(#000018)">Between the lines, I saw, Tommy was complaining to the
+                    explains: “I was favored by the drivers who threw the whips over me.” </p>
+                                
+            <p>Between the lines, I saw, Tommy was complaining to the
                     court about harassment and torture, but he was also announcing agency over the
-                    </hi><hi rend="color(#000018)">plantation system. When he said he was favored by
-                    the drivers, he was issuing a warning. </hi><hi rend="color(#000000)">Drivers
+                   plantation system. When he said he was favored by
+                    the drivers, he was issuing a warning. Drivers
                     were enslaved men who received larger food and clothing rations. They commanded
                     other enslaved people, which made it dangerous for planters to upset a driver’s
-                    authority once it was established. Drivers </hi><hi rend="color(#000000)">could
-                    be mediators, cops, or potential rebel leaders. </hi></p>
-            <p><hi rend="color(#000000)">For </hi><hi rend="color(#000000)">me, what mattered most
+                    authority once it was established. Drivers could
+                    be mediators, cops, or potential rebel leaders. </p>
+                                
+            <p>For me, what mattered most
                     about Tommy’s story was how his first-hand account bubbled up through the
-                    testimony recorded by colonists. </hi>Although, at first glance, the court’s
+                    testimony recorded by colonists. Although, at first glance, the court’s
                 order for Tommy to remove his clothing might seem degrading, it also offers Tommy a
-                chance to reveal how he has been able to retain his agency<hi rend="color(#000000)"
-                    >. Tommy proved how the drivers favored him b</hi><hi rend="color(#000018)">y
-                    “exhibiting his posterior.” With that act, he</hi><hi rend="color(#000018)"> was
+                chance to reveal how he has been able to retain his agency. Tommy proved how the drivers favored him by
+                    “exhibiting his posterior.” With that act, he was
                     literally mooning them (and mooning was a word and concept dating back to 1600).
-                    “Kiss my ass,” he was saying.</hi><hi rend="color(#000000)"> </hi><hi
-                    rend="color(#000018)">Most importantly, although Tommy was probably illiterate,
+                    “Kiss my ass,” he was saying. Most importantly, although Tommy was probably illiterate,
                     he staged his action in a way that would be recorded in the colonial discourse
                     for centuries to come. In other words, by showing the court his backside and
                     letting them know he wasn’t powerless, he was signifying on the institution that
-                    sought to oppress him. </hi></p>
-            <p><hi rend="color(#000000)bold">Emergent; as geometry;</hi></p>
-            <p><hi rend="color(#000000)">My years of research across continents piecing together
+                    sought to oppress him. </p>
+                        </div>
+                        
+                        <div type="section">
+            <head>Emergent; as geometry;</head>
+                                
+            <p>My years of research across continents piecing together
                     Britain’s antislavery project and searching for voices like Tommy’s and
                     listening to stories like Marvin’s changed me. At Washington State University, I
                     taught entire courses on the subject, highlighting the rebellions and
-                    revolutions in </hi><hi rend="color(#000000)">Jamaica, Saint Domingue, and
+                    revolutions in Jamaica, Saint Domingue, and
                     elsewhere, as well as the many ways the enslaved survived, resisted, and
                     overturned. I stood over photocopy machines and heavy-duty staplers creating
                     handmade booklets for my students of these defiant texts. In the geometry of my
                     classroom, we stood in a perfect circle and read them aloud. As students took
                     the words inside their bodies and made them live, we heard power shift from the
                     institution of slavery to a group of Black women taking charge of a plantation
-                    or to a household servant poisoning an abusive white man. </hi></p>
-            <p><hi rend="color(#000000)">But my old-school ways were not nearly as inventive as the
+                    or to a household servant poisoning an abusive white man. </p>
+                                
+            <p>But my old-school ways were not nearly as inventive as the
                     methods adopted in this volume. Methods like Botkin’s Zoom dialogue with Maroons
                     or Fay’s triangulations, a practice she adapted from nautical strategy and
-                    scholar Christina Sharpe. </hi>Blaisdell also triangulates his work—reading
+                    scholar Christina Sharpe. Blaisdell also triangulates his work—reading
                 Cugoano, Prince, and Engels together help him understand the relationship between
                 nineteenth century problems of unfree labor, free labor, and capitalism.</p>
-            <p><hi rend="color(#000000)">“Emergence,” brown writes, “is our inheritance as part of
+                                
+            <p>“Emergence,” brown writes, “is our inheritance as part of
                     this universe; it is how we change” (3). She consults nature for lessons on
                     teaching, organizing, and taking care of one another and oneself: birds
                     flocking, earthworms burrowing, leaves decaying, roots going deep offer
                     different instructions. But one of nature’s most fascinating forms—the
                     fractal—is for brown the geometry of transformation. “What we do on a small
                     scale reverberates on a large scale,” she reminds us. I found this self-similar,
-                    iterative process evident across the essays of this volume, each </hi><hi
-                    rend="color(#000000)">piece unfolding like an offering for how to teach an
-                    abolitionist romanticism.</hi></p>
-            <p><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: and abolition;</hi></p>
-            <p><hi rend="color(#000000)">A few months ago, I read a review by Carvell Wallace in the
-                    </hi><hi rend="color(#000000)italic">New York Times</hi><hi
-                    rend="color(#000000)"> about “The Good Lord Bird,” a TV miniseries about the
-                    19</hi><hi rend="sup color(#000000)">th</hi><hi rend="color(#000000)">-century
+                    iterative process evident across the essays of this volume, each piece unfolding like an offering for how to teach an
+                    abolitionist romanticism.</p>
+                        </div>
+                        
+           <div type="section">
+                   <head>Emergent: and abolition;</head>
+                   
+            <p>A few months ago, I read a review by Carvell Wallace in the
+                    <hi rend="italic">New York Times</hi> about “The Good Lord Bird,” a TV miniseries about the
+                    19<hi rend="sup">th</hi>-century
                     American abolitionist John Brown, produced by Ethan Hawke. “Can a white person
                     ever usefully tell a slave story,” Wallace asked, “or, more specifically, can
                     they tell a story that is useful to the descendants of the enslaved, rather than
-                    to their own egos or cinematic fantasies?” (Wallace). </hi></p>
-            <p><hi rend="color(#000000)">I felt a bright sting. Though the great Henry Louis Gates
+                    to their own egos or cinematic fantasies?” (Wallace).</p>
+                   
+            <p>I felt a bright sting. Though the great Henry Louis Gates
                     Jr. had once encouraged me to tell the stories of Black lives, I continue to
                     wonder—can I? I sometimes doubt my right to write about the stories of enslaved
                     people by romantic-era authors. I decided I would not watch the
-                series. </hi></p>
-            <p><hi rend="color(#000000)">Yet I kept returning to the fact that abolition was the
+                series. </p>
+                   
+            <p>Yet I kept returning to the fact that abolition was the
                     most pressing topic of the British romantic period. At the time I started my
                     research and writing, nothing could have been clearer to me. Several authors in
                     this collection cite Coleridge’s sermon on abolition in 1795 on the steps of the
                     Bristol docks in the heart of that city’s slave business; Equiano’s and
                     Cugoano’s fierce agitation for abolition; and Mary Prince’s narrative told to
                     the London Anti-Slavery Society. Not to mention the millions of pages of
-                    antislavery writings by Black and white activist men and women.</hi></p>
+                    antislavery writings by Black and white activist men and women.</p>
+                   
             <p>Antislavery was pursued with such intensity, it shouldn’t come as a surprise to find
                 abolition, albeit much transformed since the Romantic period, emergent among some
-                young activists today. <hi rend="color(#000000)">Syrus Marcus Ware, a transgender
+                young activists today. Syrus Marcus Ware, a transgender
                     scholar and artist, urges academics, writers, poets, activists,
                     performers—everyone—to “approach abolition as the most loving thing that we can
                     do for one another” (Ware). Last year I attended Ware’s workshop on abolition,
                     in which participants listened to Angela Davis while we imagined futures full of
                     love and freedom and justice. As Petra Kuppers, the workshop organizer, put it:
-                </hi></p>
-            <p><hi rend="color(#000000)">This personal sensation of a white cis queer disabled women
+               
+                   
+            <quote>This personal sensation of a white cis queer disabled women
                     feels far away from the project of ending slavery’s long reach, I know, and I
                     feel immediately the concern of projecting my own sense of unfreedom, being
                     denied access to my range-giving wheelchair, onto the experiences of people
                     racialized as Black. But that’s what Syrus is offering to me here: charting my
                     experience, my sense, from wherever I come from. Grounding a sense of justice in
                     a personal felt, lived experience, in connection. So I let it stand, that moment
-                    of loosening the armor, and I touch into it to be present” (Kuppers). </hi></p>
-            <p><hi rend="color(#000000)">The experience was visceral, uncomfortable, on the verge of
-                    something new. </hi></p>
-            <p><hi rend="color(#000000)">Many of the teacher-scholars in this volume embrace
+                    of loosening the armor, and I touch into it to be present” (Kuppers).</quote>
+                   
+           The experience was visceral, uncomfortable, on the verge of
+                    something new. </p>
+                   
+            <p>Many of the teacher-scholars in this volume embrace
                     abolition. I see a wonderful, complementary rhythm between Ortiz’s call to
-                    listen to romantic </hi><hi rend="color(#000000)">“sounds </hi>we would
+                    listen to romantic “sounds we would
                 otherwise block out because they are too raucous, inarticulate, or inconvenient” and
-                    <hi rend="color(#000000)">Ware’s invitation to embody the sounds of a world
-                    rooted in liberation and self-determination.</hi> I’m moved by <hi
-                    rend="color(#000000)">Matthew’s account of how when students learn an
-                    “abolitionist Romanticism” they are also learning “</hi><hi
-                    rend="color(#000000)">about the intricacies of society, protest, and
+                    Ware’s invitation to embody the sounds of a world
+                    rooted in liberation and self-determination. I’m moved by Matthew’s account of how when students learn an
+                    “abolitionist Romanticism” they are also learning “about the intricacies of society, protest, and
                     revolution.” As Alan Richardson observes in his response here, I too am
                     heartened by how Blaisdell's report of being inspired by Granville Sharp working
                     shoulder-to-shoulder with Olaudah Equiano and Ottobah Cugoano. Such
                     collaborative abolitionism prompted Blaisdell to found a community tutoring
                     center. Reading about his actions also brought to mind Ware’s words: The
-                    “abolitionist struggle </hi><hi rend="color(#000000)">that is 500 years strong,”
+                    “abolitionist struggle that is 500 years strong,”
                     he writes, and “now is a time to reflect on the history of the abolition
                     movement and what the future could look like if we reach abolition in our
-                    lifetime” (Ware). </hi></p>
-            <p><hi rend="color(#000000)">I’ve also understood that the backward glances, missteps,
+                    lifetime” (Ware). </p>
+                   
+            <p>I’ve also understood that the backward glances, missteps,
                     doubts, and mistakes I make when writing and speaking about abolition are part
-                    the fractal nature of learning. Shortly after I read the </hi><hi
-                    rend="color(#000000)italic">Times</hi><hi rend="color(#000000)"> review about
+                    the fractal nature of learning. Shortly after I read the <hi rend="italic">Times</hi> review about
                     “The Good Lord Bird,” one of my African American students who writes eloquently
-                    about </hi><hi rend="color(#000000)italic">The History of Mary Prince </hi><hi
-                    rend="color(#000000)">called me by Zoom and said, completely unsolicited, “You
+                    about <hi rend="italic">The History of Mary Prince</hi> called me by Zoom and said, completely unsolicited, “You
                     should watch that series!” The coincidence captured meant I had to respond.
-                </hi></p>
-            <p><hi rend="color(#000000)">“But can a white person really tell that story?” I told her
-                    about the review. </hi></p>
-            <p><hi rend="color(#000000)">She shrugged. “Different people have different views,” she
-                    said. “I like it.”</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: as collectivity;</hi></p>
-            <p><hi rend="color(#000000)">“What does it mean to function as a group in a changing
-                    environment?” asks Alexis Pauline Gumbs in </hi><hi rend="color(#000000)italic"
-                    >Undrowned: Black Feminist Lessons from Marine Animals</hi><hi
-                    rend="color(#000000)">, part of the Emergent Strategy series (51). Gumbs
+              
+            <quote>
+                    <p>“But can a white person really tell that story?” I told her
+                    about the review.</p>
+            <p>She shrugged. “Different people have different views,” she
+                    said. “I like it.”</p>
+            </quote>
+            </p>
+           </div>
+                        <div type="section">
+                                
+            <head>Emergent: as collectivity;</head>
+                                
+            <p>“What does it mean to function as a group in a changing
+                    environment?” asks Alexis Pauline Gumbs in <hi rend="italic">
+                    >Undrowned: Black Feminist Lessons from Marine Animals</hi>, part of the Emergent Strategy series (51). Gumbs
                     consults sea life, animals adept at fluidity, for teachable moments and
                     parallels to the current work of abolition. Mothering and gathering in super
                     pods are dolphin strategies just as communities of care and cooperatives have
-                    been part of the Black Diaspora for centuries. </hi></p>
-            <p><hi rend="color(#000000)">Caregiving. Collectivity. These ancient principles are
+                    been part of the Black Diaspora for centuries. </p>
+                                
+            <p>Caregiving. Collectivity. These ancient principles are
                     emergent in this volume’s classroom practices. For instance, the way Matthew
-                    begins her courses with </hi>“a conversation about the various ways civic groups
+                    begins her courses with “a conversation about the various ways civic groups
                 try to effect broad change and a low-stakes free association exercise about the word
-                sugar.” The way <hi rend="color(#000000)">Gordon encourages crosstalk by assigning
+                sugar.” The way Gordon encourages crosstalk by assigning
                     student support groups for writing and responding. How Blaisdell had his
-                    students </hi>enact a letter-writing campaign against unjust school dress codes,
+                    students enact a letter-writing campaign against unjust school dress codes,
                 where they learned “that the power of social change begins and is sustained through
-                collective civic action.” And how <hi rend="color(#000000)">MaMa G, the elder
+                collective civic action.” And how MaMa G, the elder
                     featured in Botkin’s essay, envisions opening a “borderless university,” rooted
                     in Jamaica but developed online, to unite local and global communities in the
-                    growth and dissemination of indigenous knowledge. </hi></p>
-            <p><hi rend="color(#000000)"> Young Black feminist theorists and embodiment scholars
+                    growth and dissemination of indigenous knowledge. </p>
+                                
+            <p> Young Black feminist theorists and embodiment scholars
                     like Gumbs, brown, Ware, and Kuppers—poets, memoirists, artists, scholars, and
                     activists—also offer new cooperative models. Gumbs, for instance, collaborates
                     with sperm whales—breathing, stretching, finding intentionality. Further, her
-                    brilliant book </hi><hi rend="color(#000000)italic">Spill</hi><hi
-                    rend="color(#000000)"> is a cross-generation, trans-temporal partnership with
+                    brilliant book <hi rend="italic">Spill</hi> is a cross-generation, trans-temporal partnership with
                     Hortense Spillers that calls to mind collaborations with history like Philip’s
-                    </hi><hi rend="color(#000000)italic">Zong! </hi><hi rend="color(#000000)">poems,
-                    where meaning is “not to be ‘made’ but, rather, felt” (Wah), and the </hi><hi
-                    rend="color(#000000)italic">Lost Privilege Company, or the book of
-                    listening</hi><hi rend="color(#000000)">, an assemblage from the archives of
+                    <hi rend="italic">Zong! </hi>poems,
+                    where meaning is “not to be ‘made’ but, rather, felt” (Wah), and the <hi rend="italic">Lost Privilege Company, or the book of
+                    listening</hi>, an assemblage from the archives of
                     California’s Eugenics Records Office between 1910 and 1925 by an anonymous
-                    poetry collective.</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: </hi><hi rend="color(#000000)bold italic">see
-                    also </hi><hi rend="color(#000000)bold">emergency</hi></p>
-            <p><hi rend="color(#000000)">Marvin, the man I met at the Chicago house party, spent
+                    poetry collective.</p>
+                        </div>
+                        
+                        <div type="section">
+                                
+            <head>Emergent: <hi rend="italic">see
+                    also </hi> emergency</head>
+                                
+            <p>Marvin, the man I met at the Chicago house party, spent
                     twenty-one years in prison while his friend Ronald Kitchen was sentenced to
                     death. I never saw Marvin again, and I lost touch with Alice, but I didn’t
                     forget them. The tangle of connections and resonances remained emergent for me,
-                    demanding my continuing attention.</hi></p>
-            <p><hi rend="color(#000000)">I learned that while Ronald was in prison, he became one of
+                    demanding my continuing attention.</p>
+                                
+            <p>I learned that while Ronald was in prison, he became one of
                     the “Death Row 10,” Black men tortured and wrongfully accused by Burge and his
                     gang of corrupt cops. Ronald went on to write his story in his 2018 book
-                    </hi><hi rend="color(#000000)italic">My Midnight Years: Surviving Jon Burge’s
-                    Police Torture Ring and Death Row</hi><hi rend="color(#000000)">. In a 2019
-                    interview, he and one of his coauthors, Thai Jones, spoke </hi><hi
-                    rend="color(#000000)">about the police brutality that called to mind so many
+                    <hi rend="italic">My Midnight Years: Surviving Jon Burge’s
+                    Police Torture Ring and Death Row</hi>. In a 2019
+                    interview, he and one of his coauthors, Thai Jones, spoke about the police brutality that called to mind so many
                     descriptions in British antislavery writing. They also spoke about importance of
-                    storytelling.</hi></p>
-            <p><hi rend="color(#000000)">Marvin and Ronald may never have been exonerated if
+                    storytelling.</p>
+                                
+            <p>Marvin and Ronald may never have been exonerated if
                     activists on the outside, including Ronald’s mother, and, it turns out, Alice
                     and some of the people at her house party in June 2013, had not made their
                     innocence a major story in Chicago. The activists’ work centered on building
@@ -531,135 +770,158 @@
                     media, lawmakers, and people like Jesse Jackson, finally forcing Chicago to a
                     pass a reparations package, the first of its kind on the country. The
                     legislation provides compensation, restitution and rehabilitation services for
-                    those tortured by Jon Burge. </hi></p>
-            <p><hi rend="color(#000000)">Recently, Marvin joined Alice for a presentation of Alice’s
-                    co-edited book, </hi><hi rend="color(#000000)italic">The Long Term: Resisting
-                    Life Sentences, Working Toward Freedom</hi><hi rend="color(#000000)">. The book
+                    those tortured by Jon Burge. </p>
+                                
+            <p>Recently, Marvin joined Alice for a presentation of Alice’s
+                    co-edited book, <hi rend="italic">The Long Term: Resisting
+                    Life Sentences, Working Toward Freedom</hi>. The book
                     contains an essay by adrienne maree brown, among many others. Ronald is now an
                     activist speaking out against police brutality and corruption. Even so, police
                     continue to harass him. Whenever he’s back in Chicago visiting relatives, as he
                     explained in the 2019 interview, police stop him numerous times, a reminder of
                     the ruthless stop and frisk policies he grew up with on the South Side.
-                </hi></p>
-            <p><hi rend="color(#000000)">Now, however, the routine is different. When the police
+                </p>
+                                
+            <p>Now, however, the routine is different. When the police
                     pull him over, Ronald signifies. He always says, “Officer, why are you pulling
-                    me over?” </hi><hi rend="color(#000000)">The officer will reply: “Your
+                    me over?” The officer will reply: “Your
                     seatbelt.” But Ronald has tinted windows, and he points this out. Finally, the
                     officer says, “Is this your car?” “Yes it is,” Ronald says in a calm, steady
                     voice. “Where did you get this Mercedes Benz?” the officer demands. “Well,
-                    officer,” Ronald says, “you all bought this for me” (Kitchen).</hi></p>
-            <p><hi rend="color(#000000)bold">Emergent: and the future</hi></p>
-            <p><hi rend="color(#000000)">What does the future of romantic pedagogy look like? The
-                    essays in this </hi><hi rend="color(#000000)">volume offer some direction. In
+                    officer,” Ronald says, “you all bought this for me” (Kitchen).</p>
+                        </div>
+                        
+                        <div type="section">
+            <head>Emergent: and the future</head>
+                                
+            <p>What does the future of romantic pedagogy look like? The
+                    essays in this volume offer some direction. In
                     the spirit of multiplicity and nonlinearity, Botkin reports, “I incorporated
                     interviews, images, and films to complement and challenge the conventions of
                     literary historiography.” Gordon includes the speculative mode, teaching authors
                     like Mat Johnson, Celu Amberstone, and Octavia Butler, while Fay focuses on
-                    Afrofuturism with the film </hi><hi rend="color(#000000)italic">Black </hi><hi
-                    rend="color(#000000)italic">Panther</hi><hi rend="color(#000000)"> and N.K.
+                    Afrofuturism with the film <hi rend="italic">Black Panther</hi> and N.K.
                     Jemisin’s “How Long ’til Black Future Month?” Such texts, she says, present a
                     way of talking about the future in terms other than intergenerational trauma and
-                    posthumanism. </hi></p>
-            <p><hi rend="color(#000000)"> I am grateful to Joselyn M. Almeida and Amelia Worsley for
+                    posthumanism. </p>
+                                
+            <p> I am grateful to Joselyn M. Almeida and Amelia Worsley for
                     editing this powerful constellation of essays and for inviting me to respond and
                     giving me room to offer a few of my own pedagogical practices. To begin with, I
                     want to advocate for new ways of writing scholarship and assigning student work.
-                    Part of the power of brown’s</hi><hi rend="color(#000000)italic">Emergent
-                    Strategy</hi><hi rend="color(#000000)">, after all, is its form. An assemblage
+                    Part of the power of brown’s <hi rend="italic">>Emergent
+                    Strategy</hi>, after all, is its form. An assemblage
                     of narratives, memories, theories, spells, poetry, lists, assessment sheets,
-                    oral histories, questions, anecdotes, guiding </hi><hi rend="color(#000000)"
-                    >quotations, icons, images, and Afro-futures. Such an approach to romantic
+                    oral histories, questions, anecdotes, guiding quotations, icons, images, and Afro-futures. Such an approach to romantic
                     scholarship and classroom work can help liberate the field. I wholly support
-                    Kathleen Stewart’s </hi>argument that language like “neoliberalism, advanced
+                    Kathleen Stewart’s argument that language like “neoliberalism, advanced
                 capitalism, and globalization . . . do not in themselves begin to describe the
                 situation we find ourselves in. The notion of a totalized system, of which
                 everything is always already somehow a part, is not helpful (to say the least) in
                 the effort to approach a weighted and reeling present” (5). Equally, I’m in line
-                with <hi rend="color(#000000)">brown’s recommendation that we need to “give each
-                    other more time to feel, to be in our humanity” (105). </hi></p>
-            <p><hi rend="color(#000000)">The center of my pedagogical practice today compels
+                with brown’s recommendation that we need to “give each
+                    other more time to feel, to be in our humanity” (105). </p>
+                                
+            <p>The center of my pedagogical practice today compels
                     students to experiment with modes of expression and to co-create with whatever
                     texts we’re discussing. I present them with dozens of forms, written and
                     otherwise: letters, manifestos, photo essays, short films, fragments, artist
                     books, mixed media collages, erasure poetry, assemblage poetry, catalogs,
                     almanacs, and indexes, to name a few. I ask them to experiment. I also encourage
-                    them to feel. </hi>I value experience over explication of literary works<hi
-                    rend="color(#000000)">, ordinary affects over totalizing systems. In my own
+                    them to feel. I value experience over explication of literary works, ordinary affects over totalizing systems. In my own
                     writing, I’ve pursued an emergent scholarship, one mixed up and messy, nonlinear
                     and adaptive, rooted in feeling and imagining as much as thinking. Which is why,
                     these last years, I’ve been compiling a catalog of emotions to use as a
                     resource. Not big, singular emotions like fear or shock or sudden love, but the
-                    complex, contradictory, ambivalent churning inside us as we try to find </hi><hi
-                    rend="color(#000000)">stability in an unstable universe, as we try to put past
+                    complex, contradictory, ambivalent churning inside us as we try to find stability in an unstable universe, as we try to put past
                     and present in place, as we try to find new forms and expressions for the
-                    emergent present.</hi></p>
-            <p><hi rend="color(#000000)">And then, suddenly, some appear from a corner of the world,
+                    emergent present.</p>
+                                
+            <p>And then, suddenly, some appear from a corner of the world,
                     and we are moved, as when Amanda Gorman stood at the podium during Presidential
                     Inauguration on January 20, 2021, and her words, emerging, held us all—not just
-                    America, but the world: </hi></p>
-            <p><hi rend="color(#000000)"> </hi></p>
-            <p><hi rend="color(#000000)italic">We will rebuild, reconcile and recover </hi></p>
-            <p><hi rend="color(#000000)italic">and every known nook of our nation </hi></p>
-            <p><hi rend="color(#000000)italic">and every corner called our country, </hi></p>
-            <p><hi rend="color(#000000)italic">our people diverse and beautiful will emerge . . .
+                    America, but the world: 
+            <quote>
+            <p><hi rend="italic">We will rebuild, reconcile and recover </hi></p>
+            <p><hi rend="italic">and every known nook of our nation </hi></p>
+            <p><hi rend="italic">and every corner called our country, </hi></p>
+            <p><hi rend="italic">our people diverse and beautiful will emerge . . .
                 </hi></p>
-            <pb/>
-            <p>Works Cited</p>
-            <p><hi rend="color(#000000)">Alexander, Michelle. </hi><hi rend="color(#000000)italic"
-                    >The New Jim Crow: Mass Incarceration in the Age of Colorblindness</hi><hi
-                    rend="color(#000000)">.</hi></p>
-            <p><hi rend="color(#000000)"> New York: The New Press, 2010.</hi><hi
-                    rend="color(#000000)"> </hi></p>
-            <p>Andrew Baer<hi rend="italic">, Beyond the Usual Beating: The Jon Burge Police Torture
-                    Scandal and Social</hi></p>
-            <p><hi rend="italic"> Movements for Police Accountability in Chicago</hi> (University of
-                Chicago Press, 2021).</p>
-            <p>brown, adrienne maree. <hi rend="italic">Emergent Strategy: Shaping Change, Changing
-                    Worlds</hi>. <hi rend="color(#000000)">AK Press, 2017.</hi></p>
-            <p>Conroy, John. "Tools of Torture." <hi rend="italic">Reader</hi>. February 3,
-                2005.</p>
-            <p> https://chicagoreader.com/news-politics/tools-of-torture/</p>
-            <p>Gates , Henry Louis, Jr. <hi rend="italic">The Signifying Monkey: A Theory of
-                    Afro-American Literary Criticism</hi>. Oxford University Press, 1988.</p>
-            <p><hi rend="color(#000000)">Gorman, Amanda. </hi><hi rend="color(#000000)italic">The
-                    Hill We Climb: An Inaugural Poem for the Country</hi><hi rend="color(#000000)">.
-                    Viking Books, 2021. Kindle.</hi></p>
-            <p><hi rend="color(#000000)">Gumbs, Alexis Pauline. </hi><hi rend="color(#000000)italic"
-                    >Undrowned: Black Feminist Lessons from Marine Animals</hi><hi
-                    rend="color(#000000)">. AK Press, 2020.</hi></p>
-            <p>Kim, Alice, et. al. eds. <hi rend="italic">The Long Term: Resisting Life Sentences,
-                    Working Toward Freedom</hi>. Haymarket Books, 2018.</p>
-            <p>Kitchen, Ronald. Interview and Q&amp;A with Thai Joes and Alice Green, Sanctuary for
+            </quote>
+            </p>
+                        </div>
+                       
+              <div type="citation">
+            <head>Works Cited</head>
+                      
+            <bibl>Alexander, Michelle. <hi rend="italic">
+                    >The New Jim Crow: Mass Incarceration in the Age of Colorblindness</hi>. New York: The New Press, 2010.</bibl>
+                      
+            <bibl>Andrew Baer<hi rend="italic">, Beyond the Usual Beating: The Jon Burge Police Torture
+                    Scandal and Social Movements for Police Accountability in Chicago</hi> (University of
+                Chicago Press, 2021).</bibl>
+                      
+            <bibl>brown, adrienne maree. <hi rend="italic">Emergent Strategy: Shaping Change, Changing
+                    Worlds</hi>. AK Press, 2017.</bibl>
+                      
+            <bibl>Conroy, John. "Tools of Torture." <hi rend="italic">Reader</hi>. February 3,
+                2005.<ref target=" https://chicagoreader.com/news-politics/tools-of-torture/">Chicago Reader</ref>.</bibl>
+                      
+            <bibl>Gates , Henry Louis, Jr. <hi rend="italic">The Signifying Monkey: A Theory of
+                    Afro-American Literary Criticism</hi>. Oxford University Press, 1988.</bibl>
+                      
+            <bibl>Gorman, Amanda. <hi rend="italic">The
+                    Hill We Climb: An Inaugural Poem for the Country</hi>.
+                    Viking Books, 2021. Kindle.</bibl>
+                      
+            <bibl>Gumbs, Alexis Pauline. <hi rend="italic">
+                    Undrowned: Black Feminist Lessons from Marine Animals</hi>. AK Press, 2020.</bibl>
+                      
+            <bibl>Kim, Alice, et. al. eds. <hi rend="italic">The Long Term: Resisting Life Sentences,
+                    Working Toward Freedom</hi>. Haymarket Books, 2018.</bibl>
+                      
+            <bibl>Kitchen, Ronald. Interview and Q&amp;A with Thai Joes and Alice Green, Sanctuary for
                 Independent Media, Troy, New York, November 30, 2018,
-                youtube.com/watch?v=w7yWUPcR9ow</p>
-            <p>Kuppers, Petra. “<hi rend="color(#222222) background-color(#ffffff)">Field Notes:
+                <ref target="youtube.com/watch?v=w7yWUPcR9ow">Youtube</ref>.</bibl>
+                      
+            <bibl>Kuppers, Petra. “Field Notes:
                     Eco-Somatics Symposium 2020: An Assemblage of Multiple Participants.”
-                    Unpublished manuscript.</hi></p>
-            <p>Martin, Marlene. “A Free Man at Last,” <hi rend="italic">SocialistWorker.org</hi>,
-                March 26, 2010, socialistworker.org/2010/03/26/a-free-man-at-last</p>
-            <p>Menakem, Resmaa. <hi rend="italic">My Grandmother’s Hands: </hi><hi rend="italic"
-                    >Racialized Trauma and the Pathway to Mending Our Hearts and Bodies</hi>.
-                Central Recovery Press, 2017.</p>
-            <p>Morrison, Toni. <hi rend="italic">Playing in the Dark: Whiteness and the Literary
-                    Imagination</hi>. Harvard University Press, 1992.</p>
-            <p>Moten, Fred. “Black Op.” <hi rend="italic">PMLA</hi> Oct., 2008, Vol. 123, No. 5,
-                Special Topic: Comparative Racialization, 1743-1747.</p>
-            <p><hi rend="italic">Olaudah Equiano, Mary Prince, and Others</hi>, eds Alan Richardson
-                and Debbie Lee. New York: Houghton Mifflin, 2004. </p>
-            <p>‘Our Children Free and Happy’: Letters from Black Settlers in Africa in the 1790s,
-                ed. Christopher Fyfe, Edinburgh University Press, 1991.</p>
-            <p>Stewart, Kathleen. <hi rend="italic">Ordinary Affects</hi>. Duke University Press,
-                2007. </p>
-            <p>Wah, Fred. “Reading M. NourbeSe Philip's 'Zong!'” <hi rend="italic">Jacket 2</hi>,
-                March 29, 2013, jacket2.org/article/reading-m-nourbese-philips-zong</p>
-            <p><hi rend="color(#000000)">Wallace, Carvell. “‘The Good Lord Bird’ Is Good IV. But Mix
-                    Art and Slavery at Your Peril,” </hi><hi rend="color(#000000)italic">The New
-                    York Times</hi><hi rend="color(#000000)">. October 6, 2020.
-                    nytimes.com/2020/10/06/magazine/good-lord-bird-tv-slavery.html</hi></p>
-            <p>Ware, Syrus Marcus. “We want abolition in our lifetime,” <hi rend="italic">This</hi>.
-                November 5, 2020, this.org/2020/11/05/we-want-abolition-in-our-lifetime/</p>
-            <pb/>
-            <p>Notes</p>
+                    Unpublished manuscript.</bibl>
+                      
+            <bibl>Martin, Marlene. “A Free Man at Last,” <hi rend="italic">SocialistWorker.org</hi>,
+                March 26, 2010, <ref target="socialistworker.org/2010/03/26/a-free-man-at-last">Socialist Worker</ref>.</bibl>
+                      
+            <bibl>Menakem, Resmaa. <hi rend="italic">My Grandmother’s Hands: Racialized Trauma and the Pathway to Mending Our Hearts and Bodies</hi>.
+                Central Recovery Press, 2017.</bibl>
+                      
+            <bibl>Morrison, Toni. <hi rend="italic">Playing in the Dark: Whiteness and the Literary
+                    Imagination</hi>. Harvard University Press, 1992.</bibl>
+                      
+            <bibl>Moten, Fred. “Black Op.” <hi rend="italic">PMLA</hi> Oct., 2008, Vol. 123, No. 5,
+                Special Topic: Comparative Racialization, 1743-1747.</bibl>
+                      
+            <bibl><hi rend="italic">Olaudah Equiano, Mary Prince, and Others</hi>, eds Alan Richardson
+                and Debbie Lee. New York: Houghton Mifflin, 2004. </bibl>
+                      
+            <bibl><hi rend="italic">‘Our Children Free and Happy’: Letters from Black Settlers in Africa in the 1790s,</hi>
+                ed. Christopher Fyfe, Edinburgh University Press, 1991.</bibl>
+                      
+            <bibl>Stewart, Kathleen. <hi rend="italic">Ordinary Affects</hi>. Duke University Press,
+                2007. </bibl>
+                      
+            <bibl>Wah, Fred. “Reading M. NourbeSe Philip's 'Zong!'” <hi rend="italic">Jacket 2</hi>,
+                March 29, 2013, <ref target="jacket2.org/article/reading-m-nourbese-philips-zong">Jacket2</ref>.</bibl>
+                      
+            <bibl>Wallace, Carvell. “‘The Good Lord Bird’ Is Good IV. But Mix
+                    Art and Slavery at Your Peril,” <hi rend="italic">The New
+                    York Times</hi>. October 6, 2020.
+                    <ref target="nytimes.com/2020/10/06/magazine/good-lord-bird-tv-slavery.html">New York Times</ref>.</bibl>
+                      
+            <bibl>Ware, Syrus Marcus. “We want abolition in our lifetime,” <hi rend="italic">This</hi>.
+                November 5, 2020, <ref target="this.org/2020/11/05/we-want-abolition-in-our-lifetime/">This.org</ref>.</bibl>
+                      
+              </div>
+                </div>
         </body>
     </text>
 </TEI>
