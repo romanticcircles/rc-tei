@@ -1,30 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Untitled Document</title>
-                <author>Ivan Ortiz</author>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Listening for Noise in Anti-Slavery Poetry </title>
+                
+                <author role="primary">
+                    <name>Ivan Ortiz</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2021-12-18T23:48:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-11-25</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.race.ortiz</idno> 
+                <idno type="resource">race</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Listening for Noise in Anti-Slavery Poetry 
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Ivan</forename>
+                                <surname>Ortiz</surname>
+                            </persName>
+                        </author>
+                       
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.race.ortiz"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-11-22">November 25, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2021-12-18T23:50:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>11.25.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    
     <text>
         <body>
-            <p rend="center">Listening to Noise in Antislavery Poetry</p>
-            <p>I. Listening for Noise </p>
+            <div type="essay">
+                
+            <div type="section">
+                <head>I. Listening for Noise</head>
+            
             <p> For those of us who study and teach the literature of slavery and abolition,
                 listening for silences as attentively as voices is a matter of ethical urgency.
                 Since the publication of Gayatri Spivak’s “Can the Subaltern Speak?” (1988), critics
@@ -37,7 +237,7 @@
                     >Mansfield Park</hi>, a novel that notoriously dials down the volume on the
                 subject of slavery and empire that haunts its geographic and fictional borders.
                 Critics have taken turns defending Austen’s evident reserve on the slavery question
-                in the novel. <note xml:id="ftn1" place="end" n="1"><p> For a few excellent defenses
+                in the novel. <note place="foot" resp="author"> For a few excellent defenses
                         of Austen on this front, see George E. Boulukos, “The Politics of
                             Silence:<hi rend="italic">Mansfield Park</hi> and the Amelioration of
                         Slavery,” <hi rend="italic">NOVEL: A Forum on Fiction</hi> 39:3 (Summer,
@@ -45,7 +245,7 @@
                         Slavery, Colonialism, and Gender,” <hi rend="italic">Oxford Literary
                             Review</hi> 13:1/2 (1991): 181-139; and Susan Fraiman, “Jane Austen and
                         Edward Said: Gender, Culture and Empire,” <hi rend="italic">Critical Inquiry
-                        </hi>21 (1995): 805-21. </p></note> Many have insisted that, if it is
+                        </hi>21 (1995): 805-21. </note> Many have insisted that, if it is
                 silent, Austen’s novel faithfully captures the taboo nature of the theme in its own
                 historical context and assumes an implicit contemporary understanding of and
                 sensitivity to the moral crisis at the center of the Bertram estate.</p>
@@ -75,6 +275,7 @@
                 Pondering the marked noisiness of <hi rend="italic">Mansfield Park</hi>, Festa
                 concludes that Austen implores us to open our ears to precisely this kind of
                 imperial static. </p>
+                
             <p>In this essay I propose that we accept Festa’s invitation to listen for noise in the
                 literature of slavery and abolition in the Atlantic world. Instead of attending to
                 fiction, however, I invite us to listen to the poetry that fills the archive. Poetry
@@ -84,8 +285,7 @@
                 of poetry, primarily because abolitionists understood verse as a powerful medium
                 that arouses the moral sentiments. One of the most popular forms embraced by
                 antislavery poets was the ballad, a poetic genre that is particularly noisy because
-                it reverberates a national history and an oral tradition <hi rend="color(#ff0000)"
-                    >that is only rarely attended to</hi>. While balladeers construct a voice (or
+                it reverberates a national history and an oral tradition that is only rarely attended to. While balladeers construct a voice (or
                 voices) in their ballads, other historical noises haunt the form, including a
                 musical tradition. When I teach ballads by abolitionist poets like William Cowper
                 and Hannah More in my classroom, I begin by asking my students to examine the formal
@@ -103,6 +303,7 @@
                 media history as a kind of meaningful noise that, in the context of British slavery
                 and abolition, raises important questions about the limits of political
                 representation and voice for enslaved subjects. </p>
+                
             <p>I teach eighteenth and early nineteenth-century British antislavery ballads alongside
                 M. NourbeSe Philip’s astounding collection of poems, <hi rend="italic">Zong!</hi>
                 (2008), which taps into a related, but altogether distinct form of static—the noise
@@ -128,7 +329,10 @@
                 archive. To this end I engage my students in a conversation about the limits of
                 poetic justice in verse about transatlantic slavery by uncovering the profound
                 historical and interpretive potential of what I have outlined here as noise. </p>
-            <p>II. Ballad Noise</p>
+            </div>
+                
+                <div type="section">
+            <head>II. Ballad Noise</head>
             <p>The task of listening for noise in antislavery ballads is perhaps more challenging
                 than in a study of fiction because, of course, poetry is so noisy. At the same time,
                 critics and teachers of poetry are used to being attentive to sounds that students
@@ -146,6 +350,7 @@
                 media history places the genre in a special category in the poetic tradition because
                 ballads carry a musical past that is now commonly ignored as <hi rend="italic"
                     >noise</hi>.</p>
+                    
             <p>Two canonical eighteenth century antislavery ballads carry an old tune that we should
                 listen for: William Cowper’s “The Negro’s Complaint” (1788) and Hannah More’s “The
                 Sorrows of Yamba” (1797). The old song these poems echo is Richard Glover’s “Admiral
@@ -161,6 +366,7 @@
                 poses for the political and literary representation of African slaves during the
                 abolition debate? In other words, I ask how we might read “Admiral Hosier’s Ghost”
                 as a kind of meaningful noise.</p>
+                    
             <p> All of these questions stem from a common problem—<hi rend="italic">mediation</hi>.
                 Fortunately for us the thematic ghostliness of Glover’s ballad allows us to bring
                 all of the ways in which mediation is in play into clear focus. The most obvious
@@ -174,6 +380,7 @@
                 between oral and printed ballad forms in crafting new ballads during a period of
                 media transition (242). Indeed Cowper and More are members of the last generation of
                 poets to seriously and intentionally engage the musical dimension of the ballad. </p>
+                    
             <p>Another way to think about mediation in these poems is in spiritual terms. Mediums,
                 after all, are those persons who channel spirits from another world to our own. In
                 “Admiral Hosier’s Ghost,” Glover performs the task of giving voice to the sailors
@@ -181,7 +388,7 @@
                 enslaved speakers function as another kind of medium altogether in their
                 reverberation of the older naval song. These enslaved subjects both echo and jar
                 against the voices of the sailors in Glover’s poem because their historical
-                situations couldn’t be more different.<note xml:id="ftn7" place="end" n="2"><p> This
+                situations couldn’t be more different.<note place="foot" resp="author"> This
                         conflation between sailor and slave may recall Robert Southey’s “The Sailor
                         who had Served in the Slave Trade” (1798). See his<hi rend="italic"
                             >Poems</hi>, 2 vols. (Bristol, 1799), II, pp. 107-119. In this ballad
@@ -192,13 +399,13 @@
                         this sailor may similarly be deprived of their will. While in Cowper and
                         More’s ballads, the slave speakers are haunted by music expressing the
                         plaints of dead sailors in Glover’s song, Southey’s sailor is haunted by the
-                        enslaved victim he was compelled to torture. </p></note> Further still,
+                        enslaved victim he was compelled to torture. </note> Further still,
                 Cowper and More act as mediums for <hi rend="italic">both</hi> the Black voices they
                 represent <hi rend="italic">and</hi> the ghosts of Glover’s ballad. When I present
                 the layered and haunted quality of these ballads in my classroom, my students are
                 often surprised and provoked by the racial complexity of the voices they hear—the
                 enslaved African speakers are politically mediated by both white poets and the
-                spirits of white British sailors.<note xml:id="ftn7" place="end" n="3"> The relaying
+                spirits of white British sailors.<note place="foot" resp="author"> The relaying
                     of voice found in Cowper and More’s ballads offers a related, but contrasting
                     example of what Maureen McLane has identified in the remediation of songs by
                     Africans and Native Americans collected from imperial borders. In ballads like
@@ -225,6 +432,7 @@
                     Empire.</note> Understanding these layers, they are more fully aware of the
                 rhetorical strategies and stakes involved in the ballad form in the abolition
                 context. </p>
+                    
             <p>What becomes clear in this triad of ballads is that haunting is both formal and
                 political. “Admiral Hosier’s Ghost” functions as a kind of historical white noise
                 resounding in the later soundscapes of “The Negro’s Complaint” and “The Sorrows of
@@ -251,6 +459,7 @@
                 their attempts to embody the experience of enslaved persons while conjuring a formal
                 and national history. Moreover, the voices we find ringing in the ballads form a
                 strange and spectral chorus of competing political pleas. </p>
+                    
             <p>As scholars like Simon Gikandi, Laura Doyle, and Ian Baucom argue, the archive of
                 Atlantic Slavery is hauntological and generically marked by the gothic. One of the
                 Afro-Caribbean spiritual practices that I share with my students in our discussion
@@ -259,8 +468,8 @@
                 slave practice that struck fear among the British in the Caribbean and in England
                 after it began to appear in popular fiction and poetry in the late eighteenth
                 century, as we find in William Earle’s sensational novel, <hi rend="italic">Obi; or
-                    the History of Three-Fingered Jack </hi>(1800).<note xml:id="ftn7" place="end"
-                    n="4"><p> As Richardson proposes, representations of obeah increased anxiety and
+                    the History of Three-Fingered Jack </hi>(1800).<note place="foot"
+                    resp="author"> As Richardson proposes, representations of obeah increased anxiety and
                         agitation in the wake of slave uprisings. See Alan Richardson, “Romantic
                         Voodoo: Obeah and British Culture 1797-1807,”<hi rend="italic">Studies in
                             Romanticism</hi> 32:1 (1993): 3-28. See also William Earle’s sensational
@@ -268,7 +477,7 @@
                             rend="italic">Obi; or the History of Three-Fingered Jack</hi>, ed.
                         Srinivas Aravamudan (Ontario, CA: Broadview, 2005). The politics of lyric
                         possession we find in the antislavery ballad seems in dialogue with charged
-                        spiritual practices like obeah.</p></note> Accounts of obeah rituals also
+                        spiritual practices like obeah.</note> Accounts of obeah rituals also
                 filled popular histories of the West Indies, including Edward Long’s <hi
                     rend="italic">History of Jamaica</hi> (1774). These representations amplified
                 colonial anxiety in the wake of slave rebellions in the West Indies, and exacerbated
@@ -279,13 +488,20 @@
                 Afro-Caribbean analogue to lyric possession, as we see in William Shepherd’s poem
                 “The Negro Incantation” (1797). In this poem, Shepherd parrots an obi priest via the
                 ode form as he calls for “the white man’s doom” by spurring a slave insurgency using
-                material rituals and lyric conjuring:</p>
-            <p><hi rend="color(#000000)">Haste! the magic shreds prepare—<lb/>Thus the white man's
-                    corse we tear.<lb/>Lo! feathers from the raven's plume,<lb/>That croaks our
-                    proud Oppressor's doom.<lb/>Now to aid the potent spell,<lb/>Crush we next the
-                    brittle shell—<lb/>Fearful omen to the foe,<lb/>Look! the blanched bones we
-                    throw (ll. 25-32).</hi></p>
-            <p>If the lyric possession we find in ballads by Cowper and More summons the specters of
+                material rituals and lyric conjuring:
+                
+            <lg type="stanza">
+                <l>Haste! the magic shreds prepare—</l>
+                    <l>Thus the white man's corse we tear.</l>
+                   <l> Lo! feathers from the raven's plume,</l>
+                    <l>That croaks our proud Oppressor's doom.</l>
+                    <l>Now to aid the potent spell,</l>
+                    <l>Crush we next the brittle shell—</l>
+                    <l>Fearful omen to the foe,</l>
+                    <l>Look! the blanched bones we throw (ll. 25-32).</l>
+            </lg>
+                
+           If the lyric possession we find in ballads by Cowper and More summons the specters of
                 British imperial history through music, Shepherd invokes the spirit of obeah to
                 craft a political ode designed to raise alarm about racial and imperial tensions in
                 the West Indies. Discussing obeah alongside M. NourbeSe Philip’s own incantatory
@@ -298,6 +514,7 @@
                 feel historically authentic and politically effective. Form, Philip teaches us, can
                 sometimes speak so loudly as to drown out the voices poetry is meant to broadcast. I
                 will return to obeah in the third section. </p>
+                    
             <p>By reading British antislavery and naval ballads together with my students, I aim to
                 accomplish several things. First, I demonstrate how a Black voice is constructed in
                 an antislavery ballad and generate discussion around the politics of that
@@ -309,6 +526,7 @@
                 students to think critically about what it means for Cowper and More to have chosen
                 Glover’s song as a tune and a spirit for the voices of enslaved Black subjects in
                 their poems. </p>
+                    
             <p>My approach to these complex poems in the classroom is that I first invite my
                 students to close read Cowper and More’s ballads together and to pay close attention
                 to voice. Whose voice(s) are we hearing? And, who is listening? I remind them that
@@ -327,12 +545,12 @@
                 in writings like the <hi rend="italic">Cheap Repository Tracts</hi> (where Yamba
                 appeared). These biographical details help students understand that there are
                 personal traces of Cowper and More in the Black voices they construct.<note
-                    xml:id="ftn7" place="end" n="5"><p> Hannah More’s “The Sorrows of Yamba”
+                    place="foot" resp="author"> Hannah More’s “The Sorrows of Yamba”
                         introduces new complications to the political voice constructed in the
                         abolition ballad. Alan Richardson has exposed a fascinating conflict of
                         authorial voice in the poem’s textual history. According to Richardson, the
                         poem was originally penned by minor Scottish poet, Eaglesfield Smith, and
-                        first published in<hi rend="italic">Universal Magazine</hi>, and
+                        first published in <hi rend="italic">Universal Magazine</hi>, and
                         subsequently expanded by More under an anonymous re-publication in the
                         highly popular <hi rend="italic">Cheap Repository Tracts</hi>, which
                         promoted middle-class values of religious and social obedience. Such mixed
@@ -352,7 +570,7 @@
                         eds. Alan Richardson and Sonia Hofkosh (Bloomington: Indiana UP, 1996):
                         311-29. See also Moira Ferguson, <hi rend="italic">Subject to Others: Women
                             Writers and Colonial Slavery, 1670-1834</hi> (New York: Routledge,
-                        1992). </p></note> One of the awkward attunements we find in More’s poem is
+                        1992). </note> One of the awkward attunements we find in More’s poem is
                 that it displays an attempt at Afro-Caribbean dialect. This is common among ballads
                 in the abolition archive and significant because ballads must also adhere to the
                 genre’s metrical patterns. What does it mean, I ask my students, that poets
@@ -362,6 +580,7 @@
                 Haitian Revolutions, which may account for its more conservative tone and narrative.
                 I often generate discussion around the political efficacy of each ballad by asking
                 students to compare their strengths and weaknesses.</p>
+                    
             <p> Because these poems were distributed as broadsides and our attention is on ballad
                 media, I share images of both broadsides with my students. As popular forms,
                 broadsides were inexpensive literature and news media that circulated widely in town
@@ -375,8 +594,8 @@
                 ballads usually advertise “Admiral Hosier’s Ghost” as the tune for their poems
                 underneath the title. Glover’s song was a popular tune that one might hear played in
                 an eighteenth century drawing room, and so I make sure to play a recording of the
-                song, accessible to everyone on YouTube, in my classroom (<ptr
-                    target="https://www.youtube.com/watch?v=Uudj1au2H9M"/>). The purpose of this
+                song, accessible to everyone on YouTube, in my classroom (<ref
+                    target="https://www.youtube.com/watch?v=Uudj1au2H9M">Youtube</ref>). The purpose of this
                 demonstration is to immerse my students in the ballad’s media history. In the past I
                 have even printed the ballads on single sheets so that students might read the poem
                 as the tune plays. Once students hear the tune, they are immediately struck by the
@@ -386,6 +605,7 @@
                 audience, and the sensitive political debate around slavery happening at the time.
                 In order for a British public to connect and sympathize with an enslaved African
                 subject, he or she needed to sound as British as possible. </p>
+                    
             <p>Next we turn to the broadside for “Admiral Hosier’s Ghost” (1740), which features a
                 striking political cartoon of maritime specters rising from the Caribbean Sea. I
                 offer my students an account of the dynamic political climate surrounding Richard
@@ -406,23 +626,33 @@
                 Vernon, who successfully sacked Porto Bello twelve years later in 1739. The ballad
                 thus mourns the lives of the sailors lost in Porto Bello due to Walpole’s military
                 failure, while celebrating Vernon’s later victory for Britain. </p>
-            <p rend="center"><figure>
-                    <graphic url="Pictures/10000000000001F4000002AF910E54D9492222FA.png"/>
-                </figure></p>
-            <p rend="center">“Admiral Hosier’s Ghost,” by Richard Glover (1740), colored etching by
-                C. Mosley (1740)</p>
-            <p rend="center">National Maritime Museum, Greenwich, London.</p>
+                    
+            <figure>
+                    <graphic url="Pictures/10000000000001F4000002AF910E54D9492222FA.png" width="400px" rend="inline"/>
+                    
+            <head>Admiral Hosier’s Ghost</head> 
+                
+            </figure>
+            
             <p>In “Admiral Hosier’s Ghost,” Glover’s strategy is to exhume recent history from the
                 sea for political purposes, which is also the strategy employed by Cowper and More
                 in their later antislavery ballads. When we read the poem in the classroom, I ask
                 students to consider the dead sailors’ spectral plea to be remembered for their
                 sacrifice in the midst of imperial triumph. Hosier’s ghost rises from the waters and
-                addresses the victorious Vernon on behalf of his crew:</p>
-            <p>See these mournful Spectres sweeping,<lb/>Ghastly, o’er this hated wave,<lb/>Whose
-                wan Cheeks are stain’d with weeping:<lb/>These were English Captains brave:<lb/>Mark
-                those Numbers pale and horrid,<lb/>Who were once my sailors bold,<lb/>Lo, each hangs
-                his drooping Forehead,<lb/>While his dismal Fate is told. (ll. 32-40)</p>
-            <p>I ask my students to think about what this plea for remembrance means when the tune
+                addresses the victorious Vernon on behalf of his crew:
+                    
+            <lg type="stanza">
+                <l>See these mournful Spectres sweeping,</l>
+                    <l>Ghastly, o’er this hated wave,</l>
+                    <l>Whose wan Cheeks are stain’d with weeping:</l>
+                   <l> These were English Captains brave:</l>
+               <l> Mark those Numbers pale and horrid,</l>
+                    <l>Who were once my sailors bold,</l>
+                    <l>Lo, each hangs his drooping Forehead,</l>
+                    <l>While his dismal Fate is told. (ll. 32-40)</l>
+            </lg>
+                    
+           I ask my students to think about what this plea for remembrance means when the tune
                 of Glover’s poem transfers the sentiment to the tongue of the enslaved speaker in
                 Cowper and More’s later ballads. As a way to think through this question, I offer
                 more historical context to Porto Bello, the port where Hosier and his men perished.
@@ -447,6 +677,7 @@
                 be offered is that the poets sought to reform the imperial economic impulse of
                 Glover’s song by purging it of the moral stain of slavery and overwriting its voices
                 with those of the disenfranchised. </p>
+                    
             <p>Coming back to the question of voice can help students understand the real
                 limitations of political sympathy in this context. Whose voice(s) do we hear in
                 these poems, and why does it matter? The white noise we hear in antislavery ballads
@@ -465,13 +696,12 @@
                 imperial history. In doing so, they sought to facilitate as much sympathy as
                 possible, but that mediation certainly comes at the cost of an authentic encounter
                 with human otherness. To encounter otherness more directly would require a
-                recognition of the limitations of sympathy given our <anchor type="bookmark-start"
-                    xml:id="id__GoBack"/>own <ptr type="bookmark-end" target="#id__GoBack"
-                />national, racial, and gendered identity. It would also require an understanding of
+                recognition of the limitations of sympathy given our own national, racial, and gendered identity. It would also require an understanding of
                 the limitations of the British abolitionist archive, which might be supplemented by
                 West African or Caribbean texts that may have seemed alien to the British public,
                 particularly those less mediated by abolitionist leaders, such as African music and
                 song. </p>
+                    
             <p>Another complication with respect to sympathy is the difference in situation between
                 an encounter with one voice as opposed to many. While it seems natural to feel a
                 more powerful sympathy for an individual, these sonically layered poems do in fact
@@ -487,7 +717,11 @@
                 the horrific Zong Massacre into a kind of poetry whose aim is not to generate
                 sympathy, but to stage an ethical encounter with the victims of history that is as
                 irrational as the event itself. </p>
-            <p>III. Listening for Noise in the Law</p>
+                </div>
+                
+                <div type="section">
+            <head>III. Listening for Noise in the Law</head>
+                    
             <p>When I turn to M. NourbeSe Philip’s <hi rend="italic">Zong!</hi> collection with my
                 students, I ask them to think about noise and formal haunting in a slightly
                 different way about a similar scene and situation. Both the Zong Massacre and the
@@ -507,6 +741,7 @@
                 Philip’s challenge in <hi rend="italic">Zong!</hi>, then, is to use that same
                 language to attempt to give voice and reconstitute subjectivity, even if only in a
                 fragmentary way. </p>
+                    
             <p>Understanding that the task of mediating individual voices is impossible and perhaps
                 ethically problematic, Philip allows testimony to come through as linguistic noise.
                 We might say she is attempting to reconstruct historical subjectivity <hi
@@ -528,6 +763,7 @@
                 language accomplishes that a ballad narrative cannot. Ultimately, I am interested in
                 what kinds of justice, poetic or otherwise, emerge in each of these poems and what
                 obstacles lie in the way of that justice. </p>
+                    
             <p>Aside from assigning the first section of Philip’s collection called “Os,” I also ask
                 my students to read Philip’s essay describing the project (“Notanda”), as well as
                 Lord Mansfield’s brief decision in <hi rend="italic">Gregson v. Gilbert</hi> (1783),
@@ -555,6 +791,7 @@
                 echo the senselessness of the Zong Massacre in language that never really settles
                 into a coherent account. Philip’s poems are thus fragments of voices that bubble up
                 to the surface from the sea of history. </p>
+                    
             <p>Because Philip’s poems begin from a place of abstraction, they pose many interpretive
                 challenges for scholars and students alike. As spare word arrangements floating on
                 the white page, Philip encourages a kind of reading that breaks free from tradition.
@@ -572,11 +809,14 @@
                 receive. After the exercise, come back together as a class and project each poem on
                 the screen for everyone to see, one at a time. Individual groups review their notes
                 with the class and report on what the poem spoke to them. </p>
+                    
             <p>Before each group reports back to the whole class, I like to revisit Philip’s journal
                 entry from July, 12, 2002, which she includes in “Notanda”. Reading this entry
                 informs our understanding of the element of haunting involved in Philip’s process of
-                composition, which complicates my students’ sense of poetic agency:</p>
-            <p><hi rend="italic">Some—all the poems—need a great deal of space around them—as if
+                composition, which complicates my students’ sense of poetic agency:
+                
+            <quote>
+                <p><hi rend="italic">Some—all the poems—need a great deal of space around them—as if
                     there is too much cramping around them, as if they need to breathe…</hi></p>
             <list type="unordered">
                 <item><hi rend="italic">what am I doing? Giving voice—crying out?</hi></item>
@@ -590,7 +830,9 @@
                 <item><hi rend="italic">the text is whole</hi></item>
                 <item><hi rend="italic">then rent </hi>(195)</item>
             </list>
-            <p>This journal entry describes a conjuring. Philip’s process recalls a form of lyric
+            </quote>
+                
+            This journal entry describes a conjuring. Philip’s process recalls a form of lyric
                 possession described by Susan Stewart, but one that is markedly different as well.
                 While the possession Stewart describes involves submitting one’s will to convention
                 and to the irrationality of tune and meter, Philip is not plugging into the poetic
@@ -615,6 +857,7 @@
                 enslaved Black peoples in the discourse of the law while offering them a different
                 kind of testimony, one that falls short of political voice, but transcends legal
                 silence. </p>
+                    
             <p>What students may realize during their own reading experience is that it resembles
                 Philip’s process of composition. That is, just as the words suggested their own
                 arrangement to the poet, they also offer up bits of meaning in dynamic
@@ -626,6 +869,7 @@
                 available to readers, Philip seems to suggest, sometimes involves dialing down the
                 message of most of the original document(s) to make more audible those parts that we
                 should linger on. </p>
+                    
             <p>After each group presents their reflections to the class, I ask my students to
                 critique Philip’s project and her creative/destructive dialogue between poetry and
                 the law. I ask them what poetic justice means in a project like <hi rend="italic"
@@ -641,6 +885,7 @@
                 whether sympathy is possible in such fragmented language? If sympathy can’t be
                 generated, what is achieved by Philip? Whatever it is, is it more powerful than
                 sympathy? If so, why? </p>
+                    
             <p>One of the memorable classroom conversations that has emerged from this series of
                 questions is one about the similarities between sympathy and haunting. If, as Adam
                 Smith famously theorized, sympathy is the imaginative mechanism whereby we place
@@ -658,7 +903,10 @@
                 hearing voices or testimonies from the sea of history, we can only listen to noise.
                 Being attentive to that noise offers us, according to Philip, a more expansive
                 ethical relationship to our traumatic past.</p>
-            <p>IV. Visual Noise</p>
+                </div>
+                <div type="section">
+            <head>IV. Visual Noise</head>
+                    
             <p>As a final exercise, one may introduce a group reflection devoted to visual noise by
                 examining the political cartoon presented in Glover’s broadside alongside J.M.W.
                 Turner’s famous painting, <hi rend="italic">The Slave Ship</hi> (1840), which Ian
@@ -674,108 +922,157 @@
                 detailing in the painting. Turner could have chosen to capture a scene of the Zong’s
                 slaves being thrown overboard, as his original title suggests, but he chose instead
                 to eliminate identifiable human bodies from his work altogether. Human life is
-                hauntingly signaled by red and orange color in the water.<note xml:id="ftn7"
-                    place="end" n="6"><p> Baucom writes, “Turner ... manages both to acknowledge the
+                hauntingly signaled by red and orange color in the water.<note place="foot" resp="author">
+                    Baucom writes, “Turner ... manages both to acknowledge the
                         unevenness of time, to admit the uncanny, repetitive presentness of the past
                         within the present,<hi rend="italic">and</hi> to smooth time out, to contain
                         the massacre within ‘past’ time by appearing to enjoin a choice between the
                         past and en emergent modernized present while indicating that there really
                         is no choice, only an occasion for disinterested sympathy and a decent
                         burial (of the dead, of the slave trade) that the living might live on
-                        undaunted by these specters of the Atlantic" (282).</p><p><hi rend="bold"
-                            >Works Cited</hi></p><p>Baucom, Ian. Specters of the Atlantic: Finance
-                        Capital, Slavery, and the Philosophy of History. </p><p> North Carolina:
-                        Duke University Press, 2006.</p><p>Boulukos, George E. “The Politics of
+                        undaunted by these specters of the Atlantic" (282).</note></p>
+                    
+                    <figure>
+                        <graphic url="Pictures/10000000000001900000012C507C766409157A21.jpg" width="400px" rend="inline"/>
+                        
+                        <head>The Slave Ship </head>
+                        <figDesc>Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On, JMW Turner (1840)</figDesc>
+                        
+                    </figure>
+                
+                <p>What does it mean, one could ask the class, that the sailors of Hosier’s expedition receive individuality 
+                and voice as they address the victorious Admiral Vernon, who triumphantly captures Porto Bello with ships 
+                that proudly display the flag of Britannia? And, what does it mean that in Turner’s painting the slaves thrown 
+                overboard become one with the sea in a horrifying, swelling tide of color and light? What is the power of Turner’s 
+                decision to abstract the human bodies in the water beyond recognition? After a conversation about this pictorial 
+                distinction, one could observe that these two images strikingly reflect the differences in representation we 
+                find between the abolition ballads by Cowper and More and Philip’s fragmented voices in Zong!. In the latter,
+                there is no lyric voice or identity to be distinguished in the text, only traces of subjectivity floating on 
+                the page. Visually, Turner found abstraction to be appropriate for an event so lacking in humanity. 
+                Why is that? While a clear picture of the atrocity is unavailable to us in Turner’s painting, the 
+                vibrant fragments in the water certainly come through as an alarming form of noise.</p>  
+                </div>
+                
+                <div type="citation">
+                 <head>Works Cited</head>
+                    
+                    <bibl>Baucom, Ian. <hi rend="italic">Specters of the Atlantic: Finance
+                        Capital, Slavery, and the Philosophy of History.</hi>  North Carolina:
+                        Duke University Press, 2006.</bibl>
+                    
+                    <bibl>Boulukos, George E. “The Politics of
                         Silence: <hi rend="italic">Mansfield Park</hi> and the Amelioration of
                         Slavery,” <hi rend="italic">NOVEL: A Forum on Fiction</hi> 39:3 (Summer,
-                        2006): 361-383;</p><p>Carey, Brycchan. <hi rend="italic">British
+                        2006): 361-383;</bibl>
+                    
+                    <bibl>Carey, Brycchan. <hi rend="italic">British
                             Abolitionism and the Rhetoric of Sensibility: Writing, Sentiment, and
                             Slavery, 1760-1807</hi>. New York: Palgrave Macmillan, 2005.
-                        </p><p>Craig, Daniel. “The Negro's Complaint, an abolitionist poem by
+                        </bibl>
+                    
+                    <bibl>Craig, Daniel. “The Negro's Complaint, an abolitionist poem by
                         William Cowper, set to the tune of The Sailor's Complaint, Hosier's Ghost or
                         Cease Rude Boreas (The Storm) 1788.” <hi rend="italic">YouTube</hi>. 5 Nov,
-                        2018, <ptr target="https://www.youtube.com/watch?v=Uudj1au2H9M"
-                        /></p><p>Earle, William. <hi rend="italic">Obi; or the History of
+                        2018, <ref target="https://www.youtube.com/watch?v=Uudj1au2H9M"
+                            >https://www.youtube.com/watch?v=Uudj1au2H9M</ref></bibl>
+                    
+                    <bibl>Earle, William. <hi rend="italic">Obi; or the History of
                             Three-Fingered Jack</hi>, ed. Srinivas Aravamudan. Ontario, CA:
-                        Broadview, 2005.</p><p>Festa, Lynn. “The Noise in <hi rend="italic"
+                        Broadview, 2005.</bibl>
+                    
+                    <bibl>Festa, Lynn. “The Noise in <hi rend="italic"
                             >Mansfield Park</hi>.” <hi rend="italic">Persuasions</hi> 36 (2014):
-                        151-164.</p><p>Ferguson, Moira. “<hi rend="italic">Mansfield Park</hi>:
+                        151-164.</bibl>
+                    
+                    <bibl>Ferguson, Moira. “<hi rend="italic">Mansfield Park</hi>:
                         Slavery, Colonialism, and Gender,” <hi rend="italic">Oxford Literary
-                            Review</hi> 13:1/2 (1991): 181-139.</p><p>Ferguson, Moira. <hi
+                            Review</hi> 13:1/2 (1991): 181-139.</bibl>
+                    
+                    <bibl>Ferguson, Moira. <hi
                             rend="italic">Subject to Others: Women Writers and Colonial Slavery,
-                            1670-1834</hi>. New York: Routledge, 1992.</p><p>Fraiman, Susan. “Jane
+                            1670-1834</hi>. New York: Routledge, 1992.</bibl>
+                    
+                    <bibl>Fraiman, Susan. “Jane
                         Austen and Edward Said: Gender, Culture and Empire,” <hi rend="italic"
-                            >Critical Inquiry </hi>21 (1995): 805-21.</p><p>Glover, Richard.
+                            >Critical Inquiry </hi>21 (1995): 805-21.</bibl>
+                    
+                    <bibl>Glover, Richard.
                         “Admiral Hosier’s Ghost.” National Maritime Museum Digital Collections
-                        Online. London, Greenwich. [<ptr
+                        Online. London, Greenwich. [<ref
                             target="https://collections.rmg.co.uk/collections/objects/128094.html"
-                        />]</p><p>Hartman, Saidiya. <hi rend="italic">Scenes of Subjection: Terror,
+                        />https://collections.rmg.co.uk/collections/objects/128094.html</bibl>
+                    
+                    <bibl>Hartman, Saidiya. <hi rend="italic">Scenes of Subjection: Terror,
                             Slavery, and Self-Making in Nineteenth-Century America</hi>. Oxford:
-                        Oxford UP, 1997. </p><p>Cowper, William. “The Negro’s Complaint.” <hi
+                        Oxford UP, 1997. </bibl>
+                    
+                    <bibl>Cowper, William. “The Negro’s Complaint.” <hi
                             rend="italic">Slavery, Abolition, and Emancipation: Writings in the
                             British Romantic Period</hi>, Vol. 4: <hi rend="italic">Verse</hi>,
                         edited by Kitson, Peter L., Debbie Lee, &amp; Alan Richardson. London:
-                        Pickering and Chatto, 1999. 74-75. </p><p>Langan, Celeste &amp; Maureen
+                        Pickering and Chatto, 1999. 74-75. </bibl>
+                    
+                    <bibl>Langan, Celeste &amp; Maureen
                         McLane. “The Mediums of Romantic Poetry.” <hi rend="italic">The Cambridge
                             Companion to Romantic Poetry</hi>, ed. James Chandler and Maureen
-                        McLane. New York: Cambridge UP, 2010. 239-262.</p><p>Lohse, Russell. <hi
+                        McLane. New York: Cambridge UP, 2010. 239-262.</bibl>
+                    
+                    <bibl>Lohse, Russell. <hi
                             rend="italic">Africans into Creoles: Slavery, Ethnicity, and Identity in
                             Colonial Costa Rica</hi>. Albuquerque: U of New Mexico Press, 2014.
-                        </p><p>Mellor, Anne K. “‘Am I not a woman, and a sister?’: Slavery,
-                        Romanticism, and Gender,” in<hi rend="italic">Romanticism, Race, and
+                        </bibl>
+                    
+                    <bibl>Mellor, Anne K. “‘Am I not a woman, and a sister?’: Slavery,
+                        Romanticism, and Gender,” in <hi rend="italic">Romanticism, Race, and
                             Imperial Culture: 1780-1834</hi>, eds. Alan Richardson and Sonia
-                        Hofkosh. Bloomington: Indiana UP, 1996.</p><p>More, Hannah. “The Sorrows of
+                        Hofkosh. Bloomington: Indiana UP, 1996.</bibl>
+                    
+                    <bibl>More, Hannah. “The Sorrows of
                         Yamba.” <hi rend="italic">Slavery, Abolition, and Emancipation: Writings in
                             the British Romantic Period</hi>, Vol. 4: <hi rend="italic">Verse</hi>,
                         edited by Peter L. Kitson, Debbie Lee, &amp; Alan Richardson. London:
-                        Pickering and Chatto, 1999. 224-232.</p><p>Ortiz, Ivan. “Lyric Possession in
+                        Pickering and Chatto, 1999. 224-232.</bibl>
+                    
+                    <bibl>Ortiz, Ivan. “Lyric Possession in
                         the Abolition Ballad.” <hi rend="italic">Eighteenth-Century Studies</hi>
-                        51:2 (Winter 2018): 197-218.</p><p>Percy, Thomas. <hi rend="italic">Reliques
+                        51:2 (Winter 2018): 197-218.</bibl>
+                    
+                    <bibl>Percy, Thomas. <hi rend="italic">Reliques
                             of Ancient English Poetry</hi>, 2 vols., ed. Ernest Rhys. New York:
-                        Everyman’s Library, 1938. </p><p>Philip, M. NourbeSe. <hi rend="italic"
+                        Everyman’s Library, 1938. </bibl>
+                    
+                    <bibl>Philip, M. NourbeSe. <hi rend="italic"
                             >Zong! as told to the author by Setaey Adamu Boateng</hi>. Middleton:
-                        Wesleyan UP, 2008. </p><p>Richardson, Alan. “Romantic Voodoo: Obeah and
+                        Wesleyan UP, 2008. </bibl>
+                    
+                    <bibl>Richardson, Alan. “Romantic Voodoo: Obeah and
                         British Culture 1797-1807,” <hi rend="italic">Studies in Romanticism</hi>
-                        32:1 (1993): 3-28.</p><p>---.“'The Sorrows of Yamba,' by Eaglesfield Smith
+                        32:1 (1993): 3-28.</bibl>
+                    
+                    <bibl>---.“'The Sorrows of Yamba,' by Eaglesfield Smith
                         and Hannah More: Authorship, Ideology and the Fractures of Antislavery
                         Discourse,” <hi rend="italic">Romanticism on the Net</hi> (November,
-                        2002).</p><p>Rodger, N.A.M. <hi rend="italic">The Command of the Ocean: A
-                            Naval History of Britain</hi>. New York: Norton, 2005. </p><p>Said,
+                        2002).</bibl>
+                    
+                    <bibl>Rodger, N.A.M. <hi rend="italic">The Command of the Ocean: A
+                            Naval History of Britain</hi>. New York: Norton, 2005. </bibl><bibl>Said,
                         Edward. <hi rend="italic">Culture and Imperialism</hi>. New York: Knopf,
-                        1993. </p><p>Shepherd, William. “The Negro Incantation. <hi rend="italic"
+                        1993. </bibl>
+                    
+                    <bibl>Shepherd, William. “The Negro Incantation. <hi rend="italic"
                             >Slavery, Abolition, and Emancipation: Writings in the British Romantic
                             Period</hi>, Vol. 4: <hi rend="italic">Verse</hi>, edited by Peter L.
                         Kitson, Debbie Lee, &amp; Alan Richardson. London: Pickering and Chatto,
-                        1999. 235-239.</p><p>Spivak, Gayatri Chakravorty. “Can the Subaltern Speak?”
+                        1999. 235-239.</bibl>
+                    
+                    <bibl>Spivak, Gayatri Chakravorty. “Can the Subaltern Speak?”
                             <hi rend="italic">Marxism and the Interpretation of Literature</hi>,
                         edited by Carry Nelson and Lawrence Grossberg. Urbana, IL: U of Illinois
-                        Press, 1988. 271-313. </p><p>Stewart, Susan. “Lyric Possession.” <hi
-                            rend="italic">Critical Inquiry</hi> 22:1 (1995): 34-63.</p></note>
-            </p>
-            <p rend="center"><figure><graphic
-                        url="Pictures/10000000000001900000012C507C766409157A21.jpg"/>Macintosh
-                    HD:Users:ivanortiz:Desktop:400px-Slave-ship.jpg</figure></p>
-            <div type="div1" rend="P3">
-                <head><hi rend="italic">The Slave Ship</hi> (<hi rend="italic">Slavers Throwing
-                        Overboard the Dead and Dying, Typhoon Coming On</hi>), JMW Turner,
-                    (1840)</head>
-                <p>What does it mean, one could ask the class, that the sailors of Hosier’s
-                    expedition receive individuality and voice as they address the victorious
-                    Admiral Vernon, who triumphantly captures Porto Bello with ships that proudly
-                    display the flag of Britannia? And, what does it mean that in Turner’s painting
-                    the slaves thrown overboard become one with the sea in a horrifying, swelling
-                    tide of color and light? What is the power of Turner’s decision to abstract the
-                    human bodies in the water beyond recognition? After a conversation about this
-                    pictorial distinction, one could observe that these two images strikingly
-                    reflect the differences in representation we find between the abolition ballads
-                    by Cowper and More and Philip’s fragmented voices in <hi rend="italic"
-                        >Zong!</hi>. In the latter, there is no lyric voice or identity to be
-                    distinguished in the text, only traces of subjectivity floating on the page.
-                    Visually, Turner found abstraction to be appropriate for an event so lacking in
-                    humanity. Why is that? While a clear picture of the atrocity is unavailable to
-                    us in Turner’s painting, the vibrant fragments in the water certainly come
-                    through as an alarming form of noise. </p>
-                <p><hi rend="bold">Notes</hi></p>
+                        Press, 1988. 271-313. </bibl>
+                    
+                    <bibl>Stewart, Susan. “Lyric Possession.” <hi
+                            rend="italic">Critical Inquiry</hi> 22:1 (1995): 34-63.</bibl>
+                </div>
             </div>
         </body>
     </text>
