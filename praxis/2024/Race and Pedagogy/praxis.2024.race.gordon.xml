@@ -1,36 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Untitled Document</title>
-                <author/>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Afterthoughts on a Pedagogy of Dehiscence</title>
+                
+                <author role="primary">
+                    <name>Sean Gordon</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2021-12-18T23:40:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-11-25</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.race.gordon</idno> 
+                <idno type="resource">race</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Afterthoughts on a Pedagogy of Dehiscence 
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Sean</forename>
+                                <surname>Gordon</surname>
+                            </persName>
+                        </author>
+                        
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.race.gordon"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-11-25">November 22, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2021-12-18T23:40:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>11.24.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    
     <text>
         <body>
-            <p rend="center"><hi rend="bold"><lb/>Afterthoughts on a Pedagogy of Dehiscence</hi></p>
+            <div type="epigraph">
+            
             <p>Black studies is a dehiscence at the heart of the institution and at its edge; its
                 broken, coded documents sanction walking in another world while passing through this
                 one, graphically disordering the administered scarcity from which black studies
                 flows as wealth. The cultivated nature of this situated volatility, this emergent
                 poetics of the emergency in which the poor trouble the proper, is our open
                 secret.</p>
-            <p rend="end">— Fred Moten, “Black Op” (2008a)</p>
+            <p>— Fred Moten, “Black Op” (2008a)</p>
+            </div>
+            
+            <div type="essay">
             <p>In the spring semester of 2014, eighteen months prior to the course I describe in
                 this essay, I had begun to study Afropessimism during a graduate seminar on global
                 modernism. The following summer—when officers of the New York Police Department
@@ -47,6 +248,7 @@
                 of civic reason and historical progress and produces a conceptual break to think
                 through the paradigmatic anti-Blackness of global modernity in “the afterlife of
                 slavery” (Hartman 2006).</p>
+                
             <p>In Afropessimism, the paradigm of anti-Blackness explains the performance of
                 anti-Black racism in higher education as much as it explains the performance of
                 anti-Black policing. As context for the discussion on pedagogy that follows, I will
@@ -60,14 +262,14 @@
                 organization of somber events about “standing together against racism,” to
                 sanctimonious acts of “reflection,” to repetitious commitments to “diversity and
                 tolerance,” and to administrative calls to “work together to reaffirm our values of
-                inclusion and respect for all.”<hi rend="sup"><note xml:id="ftn1" place="foot" n="1"
+                inclusion and respect for all.”<note place="foot" resp="author">
                         > An event called “Standing Together Against Racism: A Week of Reflection, A
                         Day of Solidarity” was organized by The Anti-Racism Committee of English
                         Students and Faculty and featured a full-day “Solidarity Read-In” that I
                         participated in on November 4, 2014. The phrase “work together to reaffirm
                         our values of inclusion and respect for all“ was published in a
                         university-wide email by Chancellor Kumble Subbaswamy, “Incidents of Racist
-                        Vandalism,” on October 14, 2014.</note></hi> There was little institutional
+                        Vandalism,” on October 14, 2014.</note> There was little institutional
                 recognition, however, of the well-documented history of anti-Black violence as a
                 longstanding tenet of the University at large, little space or outlet for the
                 expression of Black anger, suffering, or rage, and no answer as to why incidents of
@@ -80,6 +282,7 @@
                 institutions solutions to the very problems they give rise to. I therefore refer to
                 the following language in the spirit of anti-romance and an anti-redemptive
                 abolitionism. in the service of an imperfect union.</p>
+                
             <p>In October 2014, amidst the cries and lamentations of protestors, a statement calling
                 for the killing of two Black students in Harambee (a defined residential community
                 for African and African American students) was written on their front door with a
@@ -103,6 +306,7 @@
                 the antidote to (rather than the cause of) anti-Black racism. There was nothing
                 unknowing or unintentional about these acts of violence. Their effect appears to
                 have been to restore the order of institutional power.</p>
+                
             <p>A year later, in the fall of 2015, I taught an introductory Ethnic American
                 Literature course oriented toward transatlantic (anti)slavery literature whose
                 emphasis on <hi rend="italic">legacies </hi>engaged constructions of race, gender,
@@ -134,6 +338,7 @@
                 Studies and Black Studies. Though the course I taught was not envisioned a course on
                 Romanticism, then, I hope it will be useful to colleagues wishing to experiment with
                 the dialogue between Romantic texts and more recent speculative fiction. </p>
+                
             <p>In the initial course design, Afropessimism provided a framework for understanding
                 the wave of anti-Black terror as a brief moment of disequilibrium in the hegemony of
                 everyday violence held over from slavery, rather than some shocking set of events
@@ -154,6 +359,7 @@
                 this shifted the goals of student learning from individual mastery of the subject
                 toward “unthinking mastery” through expressions of humility, collectivity, and
                 selflessness (Singh).</p>
+                
             <p>As we moved from Johnson’s <hi rend="italic">Pym</hi> to the text it annotates (Poe’s
                     <hi rend="italic">The Narrative of Arthur Gordon Pym</hi>), the first half of
                 the course addressed what Johnson calls “the pathology of Whiteness,” a subject that
@@ -172,7 +378,10 @@
                 dehiscence as diaspora and wound, the essay then concludes with some afterthoughts
                 on pedagogy: what do students learn and unlearn when asked to bear witness to the
                 collective and enduring traumas of slavery?</p>
-            <p rend="center"><hi rend="bold">The Pathology of Whiteness</hi></p>
+                
+                <div type="section">
+            <head>The Pathology of Whiteness</head>
+                    
             <p><hi rend="italic">Pym</hi>, Mat Johnson’s third novel, follows protagonist Chris
                 Jaynes, an Assistant Professor of African American Literature, whose desire to
                 uncover “how the pathology of Whiteness was constructed” shapes his obsessive
@@ -192,6 +401,7 @@
                 were retained to purvey the minority perspective” [13]) against Chris’s heroic
                 ambition to “[cure] America’s racial pathology,” which “like all diseases… had to be
                 analyzed at a microscopic level” (8).</p>
+                    
             <p><hi rend="italic">Pym </hi>staged a series of questions for us to consider at the
                 outset of the course. Why does the College President say “<hi rend="italic">Not
                     just</hi> American Literature”? Is African American Literature (or Ethnic
@@ -213,6 +423,7 @@
                 and engage it” (209). For Chris, though, whiteness is not something “to stand.” From
                 New York to Antarctica, whiteness is the inescapable background of his every
                 movement.</p>
+                    
             <p>To facilitate conversation between and among students, I assigned everyone to a
                 small, three- to four-person online writing group where they submitted short essays
                 and reading responses and provided each other with written feedback. In addition to
@@ -250,6 +461,7 @@
                 premature death” (Gilmore 2007). In <hi rend="italic">Pym</hi>, the impossibility of
                 reverse racism is made clear: Chris, a captive subject to the institutional and
                 interpersonal violence of the Tekelians, cannot possibly return the same threat.</p>
+                    
             <p>The satirical tone and allegorical humor of <hi rend="italic">Pym</hi> makes it an
                 accessible index for critiquing whiteness and engendering generous if sometimes
                 painful (auto)critique. Having read it prior to Poe’s <hi rend="italic"
@@ -268,16 +480,19 @@
                 segregation (29). I taught Poe’s imagery as an anti-Black fantasy of (social)
                 control over the distribution of color, however, pointing out that this fantasy is
                 represented repeatedly in both novels.</p>
+                    
             <p>In <hi rend="italic">Pym</hi>, for instance, there is Poe’s fictional “hybrid” Dirk
                 Peters’ great-great-granddaughter, Mahalia Mathis, who despite appearing to Chris as
                 phenotypically Black, refuses African heritage. Mathis heads the Native American
                 Ancestry Collective of Gary, Indiana (NAACG), a group that uses DNA testing to prove
-                that their genes have “no kind of Africa”:</p>
-            <p>I got lots of Indian in me. I got Irish and I got a little French too. I got some
+                that their genes have “no kind of Africa”:
+                
+            <quote>I got lots of Indian in me. I got Irish and I got a little French too. I got some
                 German, or so I’m told. I even got a little Chinese in me, on my mother’s side.
                 Matter of fact, I’m sure I got more bloods in me that I knows. But I do knows this:
-                I ain’t got no kind of Africa in these bones. (49)</p>
-            <p>This anti-Black fantasy, which plays itself out in the self-recognition of several
+                I ain’t got no kind of Africa in these bones. (49)</quote>
+                
+            This anti-Black fantasy, which plays itself out in the self-recognition of several
                 “colors” ostensibly excluding the color “black,” also plays out in the color
                 symbolism of Chris’s Antarctic expedition. After he and his best friend Garth escape
                 their captivity among the Tekelians, they flee to an Antarctic BioDome owned by the
@@ -290,6 +505,7 @@
                 complains to Garth that Karvel’s paintings never have Black people in them; even
                 worse, he suspects that in Karvel’s work, “black people couldn’t exist, so thorough
                 was its European romanticization” (184).</p>
+                    
             <p>In “The Case of the Blackness,” Fred Moten writes that “the cultural and political
                 discourse on black pathology has been so pervasive that it could be said to
                 constitute the background against which all representations of blacks, blackness, or
@@ -310,7 +526,11 @@
                 chromatic equivalent of refusing this violent speciation through absorption,
                 whiteness is by definition antagonistic to such a politics: the refusal of
                 every-color.</p>
-            <p rend="center"><hi rend="bold">The “Slave Grammar of Suffering”</hi></p>
+                </div>
+                
+                <div type="section">
+            <head>The “Slave Grammar of Suffering”</head>
+                    
             <p>In the anti-Black environment in which my students took this course, I was not
                 surprised that some would perform whiteness by being defensive or by making
                 discreditable claims of “reverse racism.” I was heartened, however, that for the
@@ -328,13 +548,12 @@
                 yourself.” Moreover, the questioner should develop “ways and means for your speech
                 and action to be authorized by a Black/slave grammar of suffering rather than the
                 grammar of suffering of subalterns.” Wilderson concluded the answer by remarking on
-                the radical potential of the questioner’s “undoing”: “<hi
-                    rend="background-color(#ffffff)">You are far more dangerous by being committed
+                the radical potential of the questioner’s “undoing”: “You are far more dangerous by being committed
                     in this long, protracted struggle than you are or would be if you just check
-                    out.” </hi>Thus, in the second half of the course, I aimed to give students
+                    out.” Thus, in the second half of the course, I aimed to give students
                 space to take up “the Slave grammar of suffering” as a pedagogy of “speech and
-                action” oriented toward “undoing” the pathology of whiteness<hi rend="italic"
-                >.</hi></p>
+                action” oriented toward “undoing” the pathology of whiteness.</p>
+                    
             <p>What is the difference between the subaltern grammar of suffering and the Slave
                 grammar of suffering, and what does it mean to be “authorized” by the latter?
                 Wilderson defines grammar as “the structure through which the labor of speech is
@@ -354,6 +573,7 @@
                 suffering therefore begins with refusing the “prescriptive gesture” of
                 reconciliation. For Wilderson, it continues (through Fanon via Cesaire) with “the
                 end of the world… the only thing… worth the effort of starting” (337).</p>
+                    
             <p>As literary texts, Celu Amberstone’s “Refugees,” Octavia Butler’s “Amnesty” and
                 “Bloodchild,” Samuel Delany’s <hi rend="italic">Empire Star</hi>, and Equiano’s <hi
                     rend="italic">Interesting Narrative</hi> are all available to interpretation
@@ -376,20 +596,23 @@
                 of slavery” (30). However, as one student observed about the gender and reproductive
                 politics of the story, Butler was probably right to call her narrative about the
                 implantation of a male human named Gan with Tlic larvae her “pregnant man story,”
-                and a “love story,” rather than a “slave narrative”: </p>
-            <p>It is interesting that in a society where women get pregnant and have children all
+                and a “love story,” rather than a “slave narrative”: 
+                
+            <quote>It is interesting that in a society where women get pregnant and have children all
                 the time, it is often called love, but when it is a man being impregnated in almost
                 the same exact way, it can be seen as slavery. Perhaps this happens because sci-fi
                 novels are seen as so drastically different in their own imagined worlds that it is
                 hard to see their similarity to the reality of life on Earth, or it is because of
                 the patriarchal views that have been instilled in the reader that affect how
-                ‘Bloodchild’ is read.</p>
-            <p>Prompted by such articulate student writing, I wonder, then, when I thought I was
+                ‘Bloodchild’ is read.</quote>
+                
+            Prompted by such articulate student writing, I wonder, then, when I thought I was
                 teaching about slavery several years ago, if I was not, perhaps, teaching about
                 something else. Recognizing that not all of these texts are engaged with the grammar
                 of Slave suffering places pressure on how I would teach Romantic antislavery
                 literature and its legacies in the future, especially when the topic is “the slave
                 narrative” (See Matthew and Chander 2018).</p>
+                    
             <p>Of all the texts we read together, Samuel Delany’s <hi rend="italic">Empire Star
                 </hi>gets nearest to representing what Wilderson calls “the suffering of the Slave,”
                 as it were, grammatically. At the center of the novella about slavery and
@@ -411,6 +634,7 @@
                 the continuum of slavery and emancipation as a formal element of the text, the
                 novella ends exactly where it began, with Comet Jo realizing he has been tasked with
                 Lll emancipation perhaps many times before.</p>
+                    
             <p>By contrast, Equiano’s <hi rend="italic">Interesting Narrative</hi> appears to end on
                 a somewhat hopeful, solution-oriented note based on free market liberalism, the
                 British state’s capacity for “justice,” and the good will of “every man of
@@ -429,6 +653,7 @@
                 narrative but to understand what literary and political concerns may have motivated
                 the decision, if it were indeed true — an intention I therefore posed to the class
                 as a question. Why would Equiano fabricate aspects of his autobiography?</p>
+                    
             <p>Having posed the question, the ensuing conversation more or less followed Carretta’s
                 own conclusions: Equiano’s political motivation was to abolish slavery, and an
                 account of his capture and Middle Passage journey was the most likely way to provoke
@@ -440,6 +665,7 @@
                 necessary. Others went so far as to suggest that it was “natural and unavoidable to
                 lie when selling a story,” and that lying “is practically part of the social
                 contract” between writers and readers.</p>
+                    
             <p>This conversation was enormously productive for nuancing the understanding of at
                 least one non-Black student, who wrote online that before the full unfolding of our
                 class discussion he viewed Equiano’s potential fabrication as a way to disguise his
@@ -460,6 +686,7 @@
                 intention “to voice stories of other [enslaved people] that do not have the
                 opportunity to.” In other words, was Equiano’s narrative more of a social history
                 than an autobiography?</p>
+                    
             <p>In <hi rend="italic">The Intimacies of Four Continents</hi>, Lisa Lowe demonstrates
                 how Equiano’s narrative, given voice through a genre of liberalism (“In a sense,
                 autobiography is the liberal genre par excellence” [46]), reveals a connection
@@ -476,7 +703,11 @@
                 individual suffering. The internal differentiation of Equiano’s narrative into that
                 of Gustavus Vassa <hi rend="italic">as well as </hi>“[enslaved people] that do not
                 have the opportunity” leads us to think and imagine antislavery everywhere.</p>
-            <p rend="center"><hi rend="bold">Toward a Pedagogy of Dehiscence</hi></p>
+                    
+                </div>
+                <div type="section">
+            <head>Toward a Pedagogy of Dehiscence</head>
+                    
             <p>In recent years, the field of Black Studies has become, perhaps more consciously than
                 ever before, an interdisciplinary mode, a fugitive method, and an intellectual
                 itinerary inseparable but nevertheless distinguishable from the disciplinary study
@@ -505,6 +736,7 @@
                     >vulnus,</hi> or psychosocial wounds of Atlantic slavery; when that “wound” is
                 understood as an atmosphere of violence which extends beyond the site of the
                 original cut.</p>
+                    
             <p>My use of the word dehiscence to describe a method of teaching (anti)slavery
                 literature and its legacies thus weaves together Black studies pedagogy with the
                 intellectual and scholarly protocols of Afropessimism, which repeatedly express
@@ -523,6 +755,7 @@
                 from a classroom informed by these practices. However, the feelings of woundedness
                 and vulnerability in my class did not immediately lend themselves, nor should they
                 have, to being neatly, cleanly sutured.</p>
+                    
             <p>In a well-known passage of <hi rend="italic">Teaching to Transgress: Education as the
                     Practice of Freedom</hi>, bell hooks shares an anecdote about the pain her
                 students feel when they take her classes: “We take your class. We learn to look at
@@ -544,77 +777,110 @@
                 colonialism, and slavery, and accepts that the wound this causes ought to cause one
                 (one? many? who? us?) to pursue the abolitionist endeavor of ending <hi
                     rend="italic">this</hi> kind of world. </p>
-            <p rend="center"><hi rend="bold">Works Cited</hi></p>
-            <p>Butler, Octavia E. <hi rend="italic">Bloodchild and Other Stories.</hi> 1995. Seven
-                Stories Press, 2005.</p>
-            <p>Castro, Andres Fabian Henao. “Teaching to Transgress’ Death Drive, or bell hooks as
+                </div>
+                
+                <div type="citation">
+            <head>Works Cited</head>
+                    
+            <bibl>Butler, Octavia E. <hi rend="italic">Bloodchild and Other Stories.</hi> 1995. Seven
+                Stories Press, 2005.</bibl>
+                    
+            <bibl>Castro, Andres Fabian Henao. “Teaching to Transgress’ Death Drive, or bell hooks as
                 Educator.” <hi rend="italic">La Deleuziana Online Journal of Philosophy</hi>, no. 6
-                (2007): pp. 145-157.</p>
-            <p>Carretta, Vincent, <hi rend="italic">Equiano, the African: Biography of a Self-Made
-                    Man</hi>. U of Georgia P, 2005.</p>
-            <p>Chander, Manu Samriti and Patricia A. Matthew. “Abolitionist Interruptions:
-                Romanticism, Slavery, and Genre.” <hi rend="italic">Romantic Review</hi> 29.4<anchor
-                    type="bookmark-start" xml:id="id__GoBack"/>(2018)<ptr type="bookmark-end"
-                    target="#id__GoBack"/>: pp. 431-434.</p>
-            <p>Delany, Samuel. <hi rend="italic">Babel-17/Empire Star</hi>. 1966. Vintage, 2001.</p>
-            <p>Equiano, Olaudah. <hi rend="italic">The Interesting Narrative of Olaudah Equiano, or
+                (2007): pp. 145-157.</bibl>
+                    
+            <bibl>Carretta, Vincent, <hi rend="italic">Equiano, the African: Biography of a Self-Made
+                    Man</hi>. U of Georgia P, 2005.</bibl>
+                    
+            <bibl>Chander, Manu Samriti and Patricia A. Matthew. “Abolitionist Interruptions:
+                Romanticism, Slavery, and Genre.” <hi rend="italic">Romantic Review</hi> 29.4 (2018): pp. 431-434.</bibl>
+                    
+            <bibl>Delany, Samuel. <hi rend="italic">Babel-17/Empire Star</hi>. 1966. Vintage, 2001.</bibl>
+                    
+            <bibl>Equiano, Olaudah. <hi rend="italic">The Interesting Narrative of Olaudah Equiano, or
                     Gustavus Vassa, an African, Written by Himself.</hi> 1789. W. W. Norton &amp;
-                Company, 2001.</p>
-            <p>Gilmore, Ruth Wilson. <hi rend="italic">Golden Gulag: Prisons, Surplus, Crisis, and
-                    Opposition in Globalizing California</hi>. U of California P, 2007.</p>
-            <p>Harney, Stefano and Fred Moten, <hi rend="italic">The Undercommons: Fugitive Planning
-                    and Black Study</hi>. Minor Compositions, 2013.</p>
-            <p>Hartman, Saidiya. <hi rend="italic">Lose Your Mother</hi>. Farrar, Straus and Giroux,
-                2006.</p>
-            <p>------. <hi rend="italic">Scenes of Subjection: Terror, Slavery and Self-Making in
-                    Nineteenth-Century America</hi>. Oxford UP, 1997.</p>
-            <p>hooks, bell. <hi rend="italic">Teaching to Transgress: Education as the Practice of
-                    Freedom.</hi> Routledge, 1994.</p>
-            <p>Johnson, Mat. <hi rend="italic">Pym.</hi> Spiegel and Grau, 2011.</p>
-            <p>Lederman, Diane. “UMass student charged with racist messages must stay away from
+                Company, 2001.</bibl>
+                    
+            <bibl>Gilmore, Ruth Wilson. <hi rend="italic">Golden Gulag: Prisons, Surplus, Crisis, and
+                    Opposition in Globalizing California</hi>. U of California P, 2007.</bibl>
+                    
+            <bibl>Harney, Stefano and Fred Moten, <hi rend="italic">The Undercommons: Fugitive Planning
+                    and Black Study</hi>. Minor Compositions, 2013.</bibl>
+                    
+            <bibl>Hartman, Saidiya. <hi rend="italic">Lose Your Mother</hi>. Farrar, Straus and Giroux,
+                2006.</bibl>
+                    
+            <bibl>---. <hi rend="italic">Scenes of Subjection: Terror, Slavery and Self-Making in
+                    Nineteenth-Century America</hi>. Oxford UP, 1997.</bibl>
+                    
+            <bibl>hooks, bell. <hi rend="italic">Teaching to Transgress: Education as the Practice of
+                    Freedom.</hi> Routledge, 1994.</bibl>
+                    
+            <bibl>Johnson, Mat. <hi rend="italic">Pym.</hi> Spiegel and Grau, 2011.</bibl>
+                    
+            <bibl>Lederman, Diane. “UMass student charged with racist messages must stay away from
                 campus; police continue investigating other incidents.” MassLive, 20 Oct. 2014.
                 https://www.masslive.com/news/2014/10/umass_student_charged_with_rac.html. Accessed
-                6 March 2020.</p>
-            <p>Lowe, Lisa. <hi rend="italic">The Intimacies of Four Continents</hi>. Duke UP,
-                2015.</p>
-            <p>Moten, Fred. “Black Op.” <hi rend="italic">PMLA</hi>, vol. 123, no. 5, 2008a, pp:
-                1743-1747.</p>
-            <p>------. “The Case of Blackness.” <hi rend="italic">Criticism</hi>, vol. 50, no. 2,
-                2008b, pp: 177-218.</p>
-            <p>------. <hi rend="italic">The Universal Machine</hi>. Duke UP, 2018.</p>
-            <p>Odam, Josh. “#WrongDoor: Ethno-stress and racially charged attacks on the UMass
+                6 March 2020.</bibl>
+                    
+            <bibl>Lowe, Lisa. <hi rend="italic">The Intimacies of Four Continents</hi>. Duke UP,
+                2015.</bibl>
+                    
+            <bibl>Moten, Fred. “Black Op.” <hi rend="italic">PMLA</hi>, vol. 123, no. 5, 2008a, pp:
+                1743-1747.</bibl>
+                    
+            <bibl>------. “The Case of Blackness.” <hi rend="italic">Criticism</hi>, vol. 50, no. 2,
+                2008b, pp: 177-218.</bibl>
+                    
+            <bibl>---. <hi rend="italic">The Universal Machine</hi>. Duke UP, 2018.</bibl>
+                    
+            <bibl>Odam, Josh. “#WrongDoor: Ethno-stress and racially charged attacks on the UMass
                 campus.” <hi rend="italic">The Massachusetts Daily Collegian</hi>, 16 Oct. 2014.
-                https://dailycollegian.com/2014/10/wrongdoor-ethno-stress-and-racially-charged-attacks-on-the-umass-campus/.
-                Accessed 6 March 2020.</p>
-            <p>Patterson, Orlando. <hi rend="italic">Slavery and Social Death: A Comparative
-                    Study</hi>. Harvard UP, 1982.</p>
-            <p>Poe, Edgar Allan. <hi rend="italic">The Narrative of Arthur Gordon Pym of
-                    Nantucket.</hi> 1838. Melville House, 2013.</p>
-            <p>Sexton, Jared. “People-of-Color-Blindness: Notes on the Afterlife of Slavery.” <hi
-                    rend="italic">Social Text</hi>, vol. 28, no. 2, 2010, pp. 31–56.</p>
-            <p>------. “The Social Life of Social Death: On Afro-Pessimism and Black Optimism.” <hi
-                    rend="italic">InTensions</hi>, vol. 5, 2011.</p>
-            <p>Shephard, W. Andrew. “‘All Is Always Now’: Slavery, Retrocausality, and Recidivistic
+                <ref target="https://dailycollegian.com/2014/10/wrongdoor-ethno-stress-and-racially-charged-attacks-on-the-umass-campus/">Daily Collegian</ref>.
+                Accessed 6 March 2020.</bibl>
+                    
+            <bibl>Patterson, Orlando. <hi rend="italic">Slavery and Social Death: A Comparative
+                    Study</hi>. Harvard UP, 1982.</bibl>
+                    
+            <bibl>Poe, Edgar Allan. <hi rend="italic">The Narrative of Arthur Gordon Pym of
+                    Nantucket.</hi> 1838. Melville House, 2013.</bibl>
+                    
+            <bibl>Sexton, Jared. “People-of-Color-Blindness: Notes on the Afterlife of Slavery.” <hi
+                    rend="italic">Social Text</hi>, vol. 28, no. 2, 2010, pp. 31–56.</bibl>
+                    
+            <bibl>---. “The Social Life of Social Death: On Afro-Pessimism and Black Optimism.” <hi
+                    rend="italic">InTensions</hi>, vol. 5, 2011.</bibl>
+                    
+            <bibl>Shephard, W. Andrew. “‘All Is Always Now’: Slavery, Retrocausality, and Recidivistic
                 Progress in Samuel R. Delany's <hi rend="italic">Empire Star</hi>.” <hi
                     rend="italic">CR: The New Centennial Review</hi> vol. 19, no. 2, 2019, pp
-                1-20..</p>
-            <p>Sharpe, Christina and Selmawit Terrefe. “What Exceeds the Hold?: An Interview with
+                1-20.</bibl>
+                    
+            <bibl>Sharpe, Christina and Selmawit Terrefe. “What Exceeds the Hold?: An Interview with
                 Christina Sharpe.” <hi rend="italic">Rhizomes: Cultural Studies in Emerging
-                    Knowledge</hi> 29, 2016. https://doi.org/10.20415/rhiz/029.e06</p>
-            <p>Vidales, Santiago. “‘Whose University? Our University:’ A Report on Racist Hate
+                    Knowledge</hi> 29, 2016. <ref target="https://doi.org/10.20415/rhiz/029.e06">https://doi.org/10.20415/rhiz/029.e06</ref>.</bibl>
+                    
+            <bibl>Vidales, Santiago. “‘Whose University? Our University:’ A Report on Racist Hate
                 Crimes at UMass Amherst.” <hi rend="italic">Latino Rebels</hi>, 19 Oct. 2014.
-                https://www.latinorebels.com/2014/10/19/whose-university-our-university-a-report-on-racist-hate-crimes-at-umass-amherst/.
-                Accessed 6 March 2020. </p>
-            <p>Singh, Julietta. <hi rend="italic">Unthinking Mastery: Dehumanism and Decolonial
-                    Entanglements.</hi> Duke UP, 2018.</p>
-            <p>Warren, Calvin. <hi rend="italic">Ontological Terror: Blackness, Nihilism, and
-                    Emancipation</hi>. Duke UP, 2018.</p>
-            <p>Wilderson, Frank. “I Am Frank Wilderson AMA.”
-                https://www.reddit.com/r/Debate/comments/5al9pl/i_am_frank_wilderson_ama/</p>
-            <p>------. <hi rend="italic">Red, White, &amp; Black: Cinema and the Structure of U.S.
-                    Antagonisms.</hi> Duke UP, 2010.</p>
-            <p>Youngquist, Paul. “The Afro Futurism of DJ Vassa.” <hi rend="italic">European
-                    Romantic Review</hi> vol. 16, no. 2, 2005, pp. 181-192.</p>
+                <ref target="https://www.latinorebels.com/2014/10/19/whose-university-our-university-a-report-on-racist-hate-crimes-at-umass-amherst/">Latino Rebels</ref>.
+                Accessed 6 March 2020. </bibl>
+                    
+            <bibl>Singh, Julietta. <hi rend="italic">Unthinking Mastery: Dehumanism and Decolonial
+                    Entanglements.</hi> Duke UP, 2018.</bibl>
+                    
+            <bibl>Warren, Calvin. <hi rend="italic">Ontological Terror: Blackness, Nihilism, and
+                    Emancipation</hi>. Duke UP, 2018.</bibl>
+                    
+            <bibl>Wilderson, Frank. “I Am Frank Wilderson AMA.”
+                <ref target="https://www.reddit.com/r/Debate/comments/5al9pl/i_am_frank_wilderson_ama/">Reddit</ref>.</bibl>
+                    
+            <bibl>---. <hi rend="italic">Red, White, &amp; Black: Cinema and the Structure of U.S.
+                    Antagonisms.</hi> Duke UP, 2010.</bibl>
+                    
+            <bibl>Youngquist, Paul. “The Afro Futurism of DJ Vassa.” <hi rend="italic">European
+                    Romantic Review</hi> vol. 16, no. 2, 2005, pp. 181-192.</bibl>
+                </div>
+            </div>
         </body>
     </text>
 </TEI>
