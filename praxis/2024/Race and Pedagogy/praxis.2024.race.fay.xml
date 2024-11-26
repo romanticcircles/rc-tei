@@ -1,32 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Untitled Document</title>
-                <author>ELIZABETH FAY</author>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Triangulating (Textual) History: What Early Black British Narratives Teach Us about the Future To Come </title>
+                
+                <author role="primary">
+                    <name>Elizabeth Fay</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2022-02-03T16:47:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-11-25</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.race.fay</idno> 
+                <idno type="resource">race</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Triangulating (Textual) History: What Early Black British Narratives Teach Us about the Future To Come
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Elizabeth</forename>
+                                <surname>Fay</surname>
+                            </persName>
+                        </author>
+                        
+                        
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.race.fay"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-11-22">November 25, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2022-02-03T16:47:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>11.25.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    
     <text>
         <body>
-            <p><hi rend="color(#201f1e)"> “Triangulating (Textual) History: What Early Black British
-                    Narratives Teach us about the Future to Come”</hi></p>
-            <p><hi rend="color(#201f1e)">Elizabeth Fay</hi><anchor xml:id="id__GoBack"/></p>
-            <p>Abstract:</p>
+            <div type="abstract">
+               
             <p> I argue that a transatlantic perspective is not enough when we teach our students
                 about the slave trade and the Abolition movement during the Romantic period. What is
                 needed is an Atlantic studies perspective that involves the circum-Atlantic trade of
@@ -46,24 +242,20 @@
                 approach has the depth and breadth to put history, economic trade, political
                 movements, and maritime realities in relation to rhetorical and figurative analysis
                 of literary texts.</p>
-            <p><hi rend="color(#000000) background-color(#ffffff)">Romantic Period studies has
-                    tended to focus on those literary and cultural concerns that apply to
-                    Anglo-American relations </hi><hi
-                    rend="color(#000000) background-color(#ffffff)">in terms of a transatlanticism
+            </div>
+            
+            <div type="essay">
+            <p>Romantic Period studies has tended to focus on those literary and cultural concerns that apply to
+                    Anglo-American relations in terms of a transatlanticism
                     belonging to a determinate timeframe. However, the Romantic Period was actually
-                    an age of global capitalism, </hi><hi
-                    rend="color(#000000) background-color(#ffffff)">plundered resources, and
+                    an age of global capitalism, plundered resources, and
                     cross-contamination; therefore, enlarging the Anglo-American dialogue of public
-                    voices and efficacious texts more expansively makes sense</hi><hi
-                    rend="color(#000000) background-color(#ffff00)"> </hi><hi
-                    rend="color(#000000) background-color(#ffffff)">as Bernard Bailyn and Joselyn M.
-                    Almeida have argued in separate contexts.</hi><hi
-                    rend="color(#000000) background-color(#ffffff)"><note xml:id="ftn1" place="end"
-                        n="1"> See Bernard Bailyn, <hi rend="italic">Atlantic History: Concepts and
+                    voices and efficacious texts more expansively makes sense as Bernard Bailyn and Joselyn M.
+                    Almeida have argued in separate contexts. <note place="foot"
+                        resp="author"> See Bernard Bailyn, <hi rend="italic">Atlantic History: Concepts and
                             Contours, Cambridge: Harvard University Press,</hi> 2005, and Joselyn M.
                         Almeida, <hi rend="italic">Reimagining the Transatlantic</hi>, 1780-1890 New
-                        York: Routledge, 2016).</note></hi><hi
-                    rend="color(#000000) background-color(#ffffff)"> Although I will be focusing
+                        York: Routledge, 2016).</note> Although I will be focusing
                     here on the triangular relation of Africa, Britain, and British holdings in the
                     Caribbean, folding into that relation the French colony of San Domingue and the
                     American city Philadelphia for two of the texts discussed, the same argument
@@ -71,8 +263,7 @@
                     territories belonging to panatlantic land masses. The point of engaging with
                     these histories, the ideologies that produced them, and the testimonies of
                     survivors is that the concerns of the Atlantic world remain central to the
-                    concerns of today’s Atlantic and global reality.</hi><hi
-                    rend="color(#000000) background-color(#ffffff)"> Historically, too, a more
+                    concerns of today’s Atlantic and global reality. Historically, too, a more
                     expansive treatment of the Romantic-era Atlantic world could put the trading
                     circuits of the West Indies and the East Indies in dialogue; or one might make
                     the connection for students between the working of West Indian plantations and
@@ -81,22 +272,20 @@
                     profit from the rapacious mining of their land by others. In terms of the
                     transatlantic, this more expanded perspective is the domain of Atlantic World
                     studies, which is interdisciplinary, and involves a deep sense of history from
-                    plate changes in the ocean’s </hi><hi
-                    rend="color(#000000) background-color(#ffffff)">bottom to human geography
+                    plate changes in the ocean’s bottom to human geography
                     (which, for example, examines migration patterns over centuries, death tolls
-                    amongst enslaved people, movement between Caribbean islands and plantations).
-                </hi></p>
-            <p><hi rend="color(#000000) background-color(#ffffff)">The dilemma of what can be
+                    amongst enslaved people, movement between Caribbean islands and plantations).</p>
+                
+            <p>The dilemma of what can be
                     crammed into a class discussion arises when the materials concerning the sites
                     of literary production and dissemination (important for emphasizing the
-                    precarity of </hi><hi rend="color(#000000) background-color(#ffffff)">narratives
-                    and testimonials of enslaved peoples</hi><hi
-                    rend="color(#000000) background-color(#ffffff)">) can be enriched by
+                    precarity of narratives
+                    and testimonials of enslaved peoples) can be enriched by
                     contextualizing them with charity organizations and Parliamentary records of
-                    Abolitionist and conservative documents. Yet </hi>I want to argue instead for a
+                    Abolitionist and conservative documents. Yet I want to argue instead for a
                 more engaged Atlanticist lens to broaden how we situate and affirm the complexities
                 of Atlantic life for students, the malleable nature of Atlantic identity, and its
-                opportunities for self-reinvention.<note xml:id="ftn17" place="end" n="2"> I also
+                opportunities for self-reinvention.<note place="foot" resp="author"> I also
                     want to caution against restricting ourselves to the British imperial when
                     teaching the Romantic period: the Black Atlantic intersects with the Red
                     Atlantic (the circulation, exchanges, and material productions of indigenous
@@ -112,8 +301,7 @@
                 enslaved persons, historical texts or information, related texts and websites in
                 groups of three, and to apply Atlantic studies concepts and methods in connection
                 with literary analysis. The strategy of triangulation has been richly explored in
-                the work of Bailyn, Jeremy Smith, Almeida, and others.<note xml:id="ftn17"
-                    place="end" n="3"> See also Aguirre, <hi rend="italic">Informal Empire</hi>;
+                the work of Bailyn, Jeremy Smith, Almeida, and others.<note place="foot" resp="author"> See also Aguirre, <hi rend="italic">Informal Empire</hi>;
                     Brown, <hi rend="italic">Informal Empire in Latin America</hi>; Heinowitz, <hi
                         rend="italic">Spanish America and British Romanticism</hi>; Robson, <hi
                         rend="italic">Britain, Portugal and South America in the Napoleonic
@@ -127,10 +315,10 @@
                 necessary and deepening rather than repetitive. This strategy has helped me unpack
                 with my students a vitally mobile and contingent arena in which texts embodying this
                 dynamic can be read against those stemming from empire, against each other, and
-                within a network of unstable conditions and circumstances.<note xml:id="ftn17"
-                    place="end" n="4"> See in particular Bailyn’s <hi rend="italic">Atlantic
+                within a network of unstable conditions and circumstances.<note place="foot" resp="author"> See in particular Bailyn’s <hi rend="italic">Atlantic
                         History</hi> and Joselyn Almeida’s <hi rend="italic">Reimagining the
                         Transatlantic</hi>, esp. 69, 105-6, 197, 200, 325.</note></p>
+                
             <p>Moreover, broadening the historical horizon from an Atlantic World perspective allows
                 students to view the slave trade, Abolition, and radical politics during the
                 Romantic period as conversant with our contemporary politics. The courageous voices
@@ -144,18 +332,15 @@
                 resilience such accounts express was necessary then, and comes across all these many
                 years later to be heard in all its dignity. These voices, then, can be further
                 complicated (rather than polarizing them against the claims of colonists and
-                politicians), with the biographies of figures like <hi
-                    rend="color(#000000) background-color(#ffffff)">Baron de Vastey, who Marlene
+                politicians), with the biographies of figures like Baron de Vastey, who Marlene
                     Daut has argued was signal for the development of a “[B]lack Atlantic humanism.”
                     In counterpoint to Toussaint L’Ouverture’s rhetorical promotion of brotherhood
                     across color lines, Vastey, a Haitian of biracial descent and Toussaint’s
                     contemporary, critiques colonial dependencies on slavery. The slave trade and
                     the high morbidity of slave labor, Vastey unceasingly argued, reveals that a
                     free-market economy is merely an ideological justification for the
-                    inexcusability of racism.</hi><hi
-                    rend="color(#000000) background-color(#ffffff)"><note xml:id="ftn17" place="end"
-                        n="5"> See Daut, <hi rend="italic">Baron de Vastey.</hi></note></hi><hi
-                    rend="color(#000000) background-color(#ffffff)"> </hi></p>
+                    inexcusability of racism.<note place="foot" resp="author"> See Daut, <hi rend="italic">Baron de Vastey.</hi></note></p>
+                
             <p>Using material like Daut’s to set the triangle trade within cosmopolitan humanism, as
                 well as other globalizing contextual materials (the competition between goods
                 produced in the East Indies and the West Indies, for instance), expands the horizon
@@ -165,7 +350,7 @@
                 audience, they make disclosures about lived experience that novels can only gesture
                 to, especially for those students who resist the empathy necessarily involved in
                 reading actual accounts, and worse, the documentation of abusive planter
-                    practices.<note xml:id="ftn17" place="end" n="6"> See Helen Thomas’ excellent<hi
+                    practices.<note place="foot" resp="author"> See Helen Thomas’ excellent<hi
                         rend="italic">Romanticism and Slave Narratives, </hi>which has greatly
                     helped me in teaching Black British writing, as well as Nicole Aljoe’s <hi
                         rend="italic">Creole Testimonies, </hi>which distinguishes between the
@@ -187,12 +372,14 @@
                 and her sisters to the slave market to be sold after the death of her mistress,
                 despite the distance of years at the time of writing, is suffused with emotional
                 pain at confronting this final separation from family and home. Beginning with the
-                day before, she writes:</p>
-            <p>Oh dear! I cannot bear to think of that day,--it is too much.—It recalls the great
+                day before, she writes:
+                
+            <quote>Oh dear! I cannot bear to think of that day,--it is too much.—It recalls the great
                 grief that filled my heart, and the woeful thoughts that passed to and fro through
                 my mind, whilst listening to the pitiful words of my poor mother, weeping for the
-                loss of her children. (Prince, <hi rend="italic">History</hi> [1831], 3)</p>
-            <p>In describing the next morning, Prince uses funereal language to depict the emotional
+                loss of her children. (Prince, <hi rend="italic">History</hi> [1831], 3)</quote>
+                
+            In describing the next morning, Prince uses funereal language to depict the emotional
                 death she and her mother feel at this moment: “The black morning at length came . .
                 . whilst she was putting on us the new osnaburgs in we were to be sold, she said, in
                 a sorrowful voice, (I shall never forget it!) ‘See, I am <hi rend="italic">shrouding
@@ -206,22 +393,24 @@
                 subjectivity in a way that students can now see is revealed throughout her
                 narrative; Prince is a strong woman, one who can advocate through her story, and so
                 providing a heroic model of fortitude in the face of extreme suffering. </p>
+                
             <p> Equiano has a similar story to tell that usefully compares to Prince’s of the
                 rending of the family. Although his begins with his sister’s and his abduction by
                 African “slavers,” his parents never to be seen again, their strong sibling bond
-                sustains them until the fatal moment when they are broken apart.<note xml:id="ftn17"
-                    place="end" n="7"> “Slavers” was the term commonly used in the period for those
+                sustains them until the fatal moment when they are broken apart.<note place="foot" resp="author"> “Slavers” was the term commonly used in the period for those
                     engaged in capturing or gathering individuals for selling to others.</note> I
                 ask students to closely compare the two scenes, Prince’s and Equiano’s, to compare
-                the affective impact of their uses of rhetoric. </p>
-            <p>One day . . . I saw one of those people come into the year of our next neighbor but
+                the affective impact of their uses of rhetoric. 
+                
+                <quote>"One day . . . I saw one of those people come into the year of our next neighbor but
                 one, to kidnap, there being many stout young people in it. Immediately on this I
                 gave the alarm . . . But alas! Ere long it was my fate to be thus attached, and to
                 be carried off, when none of the grown people were nigh . . . But alas! we were soon
                 deprived of even the small comfort of weeping together . . . for my sister and I
-                were then separated, while we lay clasped in each other’s arms. (Equiano,<hi
-                    rend="italic">Interesting Narrative</hi> (1789, 62)</p>
-            <p>Rhetorically, the “But, alas!” repetition has a lot of work to do, but for a modern
+                were then separated, while we lay clasped in each other’s arms." (Equiano,<hi
+                    rend="italic">Interesting Narrative</hi> (1789, 62)</quote>
+                
+           Rhetorically, the “But, alas!” repetition has a lot of work to do, but for a modern
                 reader, it can’t carry the weight of the experienced trauma in the way that Prince’s
                 “Oh dear! I cannot bear to think of that day,--it is too much.—” still does. If
                 Equiano’s response to the loss of his sister is different from Prince’s strikes the
@@ -232,8 +421,7 @@
                 influence us to value or devalue one person’s pain over another’s given our
                 historical biases. Critical context thus informs students’ understanding ofthe
                 disruptive force of the Atlantic trade during this period and the valuation of
-                bodies in a marketplace that took no account of pain.<note xml:id="ftn17"
-                    place="end" n="8"> The Portuguese created a slave-trade category for the
+                bodies in a marketplace that took no account of pain.<note place="foot" resp="author"> The Portuguese created a slave-trade category for the
                     standard measure in valuing Black lives, “pieza.” Drawing on James’s research,
                     Wynter explains in another article that a pieza “was a man of twenty-five years,
                     approximately, in good health, calculated to give a certain amount of physical
@@ -255,6 +443,7 @@
                 temporal distance between the act of writing and biographical events; Equiano is
                 becalmed as he writes his narrative, stilled by the land he now inhabits and the
                 perhaps unyielding political audience he addresses.</p>
+                
             <p> In C.L.R. James’s<hi rend="italic">The Black Jacobins</hi>, which tells the history
                 of San Domingo and Toussaint L’Ouverture’s extraordinary transformation of the
                 colony into a free state by 1803, James refuses the fiction of historical
@@ -279,6 +468,7 @@
                 though one could trap them like animals . . . and beat both [man and animal] with
                 the same stick . . . they remained, despite their black skins and curly hair, quite
                 invincibly human beings” (11). </p>
+                
             <p> To situate James’s passionate history I ask students to read Sylvia Wynter’s article
                 on C.L.R. James, “Beyond the Categories of the Master Conception,” which clarifies
                 her own theoretical adaptation of James’s Afro-Caribbean based theory of capitalism
@@ -290,12 +480,13 @@
                 was replaced by a symbolics of skin color, the effects of which still reverberate
                 today. Wynter posits the human condition of “becoming [B]lack” to explain the way
                 that discourse co-produces social experience along with colonial capitalism for
-                anyone who, we could say, has not undergone “becoming white.”<hi rend="sup"><note
-                        xml:id="ftn17" place="end" n="9"> Mignolo, 116. “Becoming white” is my
+                anyone who, we could say, has not undergone “becoming white.”<note
+                        place="foot" resp="author"> Mignolo, 116. “Becoming white” is my
                         addition so that students understand the concept of race as a discursive
-                        formation.</note></hi> Discourse produces the knowledge that one is becoming
+                        formation.</note> Discourse produces the knowledge that one is becoming
                 Black in a repetition of experience that daily announces this condition, whether the
                 year is 1800 or 2021. </p>
+                
             <p> For students then, first-hand accounts put the entire phenomenon of the slave trade
                 into perspective, and for some students of color, especially those who are African,
                 African American, or Caribbean American, first-hand accounts can be empowering while
@@ -315,6 +506,7 @@
                 practices in theperiod on the Barbary Coast and in the Ottoman Empire to develop a
                 paper on Equiano that sets him in a wider context of slaver practices historically
                 and within the period. </p>
+                
             <p> In using an Atlanticist lens to teach this material, I try to return our focus to
                 the networks of colonialism wherever this makes sense because more was at stake in
                 the triangle slave trade than the economy of bodies. The forward trajectory of the
@@ -326,15 +518,16 @@
                 Through increased commerce in peoples, animals, plants, and goods, the slave trade
                 also grossly heightened the effects and pace of anthropocenic change, giving
                 students a sense of how disastrous history can affect worlds as well as
-                    peoples.<note xml:id="ftn17" place="end" n="10"> See Carney and Rosomoff’s <hi
+                    peoples.<note place="foot" resp="author"> See Carney and Rosomoff’s <hi
                         rend="italic">In the Shadow of Slavery. </hi>To teach students about the the
                     expansiveness of trade networks involving African kingdoms, see Thornton’s
                     authoritative <hi rend="italic">Africa and Africans in the Making of the
                         Atlantic World, 1400-1800</hi>.</note>
             </p>
+                
             <p>But the textual analysis I’ve been putting forth still doesn’t suggest the economy of
                 movement that Atlantic life involves, and metaphor is a helpful intervention here,
-                specifically the chronotope of the ship.<note xml:id="ftn17" place="end" n="11">
+                specifically the chronotope of the ship.<note place="foot" resp="author">
                     This is the chronotope Paul Gilroy, following Bakhtin, explicitly calls
                     attention to in <hi rend="italic">The Black Atlantic</hi>. 17.</note> That the
                 ship should also be understood literally through viewing the virtual slave ship on
@@ -354,6 +547,7 @@
                 learning to navigate—as Equiano does—requires a more flexible thinking, one based on
                 a triangulating impulse that can reconcile oppositions through adjacencies and
                 affiliations.</p>
+                
             <p> Triangulation—not just the juxtaposition of three terms but the fluid and dynamic
                 movement between them—is key, I would argue, to teaching Romanticism in terms of
                 Atlantic movement, whether we are working with the binaries of the Anglo-American
@@ -375,6 +569,7 @@
                 in the narratives of formerly enslaved persons where singular voices, accounts of
                 uprisings and attempted uprisings, and the hopes and aspirations that fueled
                 Abolition and Emancipation can be found.</p>
+                
             <p> To think Atlantically allows me to pose one regulative idea—that of the world as a
                 centered experience that affirms the uniqueness of the white enfranchised self that
                 is supported by peripheral others and contrast it to the disenfranchised (the world,
@@ -386,13 +581,14 @@
                 years past Romantic studies mainly focused on; they have only been transformed, but
                 not displaced, in the slave trade economy and are the problems that Equiano marshals
                 so well for his tale of self-recovery, innovation, and reinvention. </p>
+                
             <p> The triangulation of texts (contextualized through websites on the histories of
                 Abolition and the slave trade, as well as a web-video of life on a virtual slave
-                ship, a reconstruction of L’Aurore<note xml:id="ftn17" place="end" n="12"> See also
+                ship, a reconstruction of L’Aurore <note place="foot" resp="author"> See also
                     Rediker’s <hi rend="italic">The Slave Ship.</hi></note>) allows student to
                 connect to the voices that so clearly and emphatically tell their story or the
                 stories of others. Most recently the three texts were those of Prince<note
-                    xml:id="ftn17" place="end" n="13"> I find that research on slave testimonials
+                   place="foot" resp="author"> I find that research on slave testimonials
                     further helps students metabolize the truly painful passages of these texts:
                     both Helen Thomas’ <hi rend="italic">Romanticism and Slave Narratives:
                         Transatlantic Testimonies</hi> and Nicole Aljoe’s <hi rend="italic">Creole
@@ -413,6 +609,7 @@
                 slaves and his island from colonial legal, economic, and political control enable
                 students to bring together the three texts through both formal and experiential
                 commonalities and differences. </p>
+                
             <p>To balance the first-hand narrative unit on Prince, Equiano and the Haitian
                 Revolution, I designed a second unit focusing on women’s experience in fictional
                 texts. Beginning with the anonymous <hi rend="italic">The</hi>
@@ -441,6 +638,7 @@
                 And both make observations that explicitly (Olivia) or implicitly (Fanny) compare
                 the women of their adoptive families to the “decadent” behavior of West Indian
                 women. </p>
+                
             <p> However, in both novels the authorial insistence on a moral tale to be made of plot
                 and characters enables the Caribbean plantation system itself to be glossed over.
                     In<hi rend="italic">The Woman of Colour</hi> this gloss is effected through
@@ -460,6 +658,7 @@
                 Mary. Not only are women of Domingue castes regulated by sartorial distinctions, but
                 “here every female virtue is blasted in the bud by the contagious influence of
                 example” (Sansay 96).</p>
+                
             <p>As Sansay presents it, the very Caribbean air taints moral choice since sexual
                 attraction alone determines women’s (limited) agency, so that “the mulatto women are
                 the hated but successful rivals of the Creole ladies,” for they not only appear to
@@ -468,12 +667,12 @@
                 infatuated lovers, so powerfully excited the jealousy of the white ladies, that they
                 complained to the council of the ruin their [“mulatto” women’s] extravagance
                 occasioned to many [white] families, and a decree was issued imposing restrictions
-                on their dress” (Sansay 95).<hi rend="sup"><note xml:id="ftn17" place="end" n="14">
+                on their dress” (Sansay 95).<note place="foot" resp="author">
                         Mary doesn’t seem to know that “Mulatto” wealth more usually came from sons
                         inheriting land and money from their white fathers. She also doesn’t
                         acknowledge Noirs (persons of African birth, freed by Toussaint’s
                         revolution), or most of the other caste divisions that regulated Domingue
-                        life.</note></hi> Contrasted with the decadence of sexually explicit
+                        life.</note> Contrasted with the decadence of sexually explicit
                 behavior is the novel’s real focus on political revolution; Toussaint’s
                 post-revolutionary reign is looked forward to as utopian in comparison to the
                 invading French forces, there to support the white plantation owners. The armed
@@ -485,9 +684,10 @@
                 suddenly students can realize how the sexual politics of those novels divide out
                 into sexual aggression, the politics of race, and the loss of any moral compass when
                 wealth depends on the unacknowledged suffering of enslaved laborers. </p>
+                
             <p> To provide a real-life component to this fictional unit that ties it back to the
                 real life narratives of Prince, Equiano and Toussaint, I include here the first
-                chapter of Sharpe’s<hi rend="italic">In the Wake</hi>.<hi rend="sup"> </hi> Sharpe’s
+                chapter of Sharpe’s<hi rend="italic">In the Wake</hi>.Sharpe’s
                 meditations on, and theorization of, the historical effects of colonial schemes of
                 skin color symbolism that Wynter analyzes yoke thedevelopment of colonial economies
                 based on unpaid and enslaved labor. Sharpe’s reflections on her own and her family’s
@@ -515,6 +715,7 @@
                 a quite different way to think about movement as well as of the stormy violence of
                 the colonial economy, and requires thinking harder about the movement through the
                 color caste system in both British and French colonial and post-colonial life. </p>
+                
             <p> Regardless of the texts selected to teach students how to see the experience of
                 enslaved persons as belonging to lives that mattered, what has made the most
                 difference in teaching this topic has been to find ways to make historical texts
@@ -522,23 +723,18 @@
                 events and Afrofuturism. A useful supplemental text for exploring Afrofuturism is an
                 essay by the award-winning novelist N.K. Jemisin, “How Long ’til Black Future
                 Month?,” which provides a quick introduction to the main ideas of Afrofuturism.<note
-                    xml:id="ftn17" place="end" n="15"> This is also the title of a collection of
+                   place="foot" resp="author"> This is also the title of a collection of
                     short stories by Jemisin, who is best known for her three-times Hugo-award
                     winning <hi rend="italic">Broken Earth </hi>trilogy.</note> Beginning with
                 Octavia Butler (who coined the term Afrofuturism), science fiction has been the main
                 genre for Afrofuturist literature and film; these are texts that recast enslavers
                 and colonists through the sci-fi tradition of encounter narratives.<note
-                    xml:id="ftn17" place="end" n="16">
-                    <hi rend="background-color(#ffffff)">H. G. Wells</hi><hi
-                        rend="color(#222222) background-color(#ffffff)">'s </hi><hi
-                        rend="background-color(#ffffff)italic">The Time Machine</hi><hi
-                        rend="color(#222222) background-color(#ffffff)"> (1895), </hi><hi
-                        rend="background-color(#ffffff)italic">The War of the Worlds</hi><hi
-                        rend="color(#222222) background-color(#ffffff)"> (1898) and </hi><hi
-                        rend="background-color(#ffffff)italic">The First Men in the Moon</hi><hi
-                        rend="color(#222222) background-color(#ffffff)"> (1901) established the
+                    place="foot" resp="author">
+                    H. G. Wells's <hi rend="italic">The Time Machine</hi>(1895), <hi
+                        rend="italic">The War of the Worlds</hi>(1898) and <hi
+                        rend="italic">The First Men in the Moon</hi> (1901) established the
                         tradition. Andre Norton’s 1960s series and Arthur C. Clarke’s “Time Odyssey”
-                        series are well-known first encounter narratives.</hi></note> An easily
+                        series are well-known first encounter narratives.</note> An easily
                 referenced text for teaching is the 2018 film <hi rend="italic">Black Panther,
                 </hi>in which the imbrication of past, present and future is clearly dramatized. In
                 the film, the villain (Klaue) is depicted as an archetypal white adventurer
@@ -551,6 +747,7 @@
                 should have been colonized by the Wakandan citizens, so asking students why Klaue’s
                 death at the hands of T’Challa is a departure from AfroFuturism helps them see how
                 easy it is to accept more pasteurized versions of Black narratives. </p>
+                
             <p>“First encounter” narratives, made standard through works such as H.G. Wells’s <hi
                     rend="italic">The War of the Worlds</hi>, merge with “second encounter”
                 narratives so that the slave trade and colonial past is the pattern through which
@@ -567,6 +764,7 @@
                 problem of both individual sovereignty and national sovereignty as the product of
                 fluidity and movement. It is not a given, it can be taken away, and it must always
                 be put into conversation with the interrelatedness of ocean and land. </p>
+                
             <p> In revisiting Equiano’s narrative after the<hi rend="italic">Black Panther</hi>
                 exercise, I focused class discussion on the plan for a free Black state in Sierra
                 Leone that Equiano participates in near the very end of his narrative; my students
@@ -587,6 +785,7 @@
                 provided here in thinking about our own future regarding territorialization
                 practices versus Atlantic fluidity, the circulation and triangulations of persons
                 and things versus the requirement for self-determination and lives well lived. </p>
+                
             <p> Just as the slave trade fueled white liberationist politics in both Britain’s
                 American colonies and Revolutionary France, so too has it grounded and set the stage
                 for the more expansive empire through an increasingly laissez-faire liberally
@@ -609,6 +808,7 @@
                 self-heroism, and a Toussaint-like tolerance. It seems to me that Atlanticism is
                 poised to locate such an imagination, if we allow its triangulatory effects room to
                 do this kind of work. </p>
+            </div>
         </body>
     </text>
 </TEI>
