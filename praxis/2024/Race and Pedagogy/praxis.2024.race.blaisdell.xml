@@ -1,33 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Untitled Document</title>
-                <author/>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Introduction</title>
+                
+                <author role="primary">
+                    <name>Nick Blaisdell</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2021-12-18T23:57:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-11-22</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.race.blaisdell</idno> 
+                <idno type="resource">race</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Historic Agency and Civic Action Through Anti-Slavery Pedagogy
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Nick</forename>
+                                <surname>Blaisdell</surname>
+                            </persName>
+                        </author>
+                        
+                        
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.race.blaisdell"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-11-22">November 24, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2021-12-19T00:00:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>11.24.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
     <text>
         <body>
-            <p>Nicolas Blaisdell</p>
-            <p>Romantic Circles Essay</p>
-            <table rend="frame" xml:id="Table1">
-                <row>
-                    <cell><hi rend="bold">Abstract: </hi>This essay analyzes the powerful nexus
+            <div type="abstract">
+            <p>This essay analyzes the powerful nexus
                         between anti-slavery pedagogy, recognizing one’s own historical agency, and
                         engaging in civic action in the context of the Black Lives Matter movement.
                         Here, I explore my own role as a pre-service teacher, social justice
@@ -36,16 +230,14 @@
                         place the work of Ottobah Cugoano and other Romantic-era and long-nineteenth
                         century authors in dialogue with Marxist theory, as well as the work of
                         Paulo Freire, to explore how unexpected interconnections between these texts
-                        emerge in the contexts of teaching, scholarship, and activism. </cell>
-                </row>
-            </table>
-            <p rend="center"><hi rend="bold underline">Historical Agency and Civic Action Through
-                    Anti-Slavery Pedagogy</hi></p>
-            <p>The debate’s over. I’m not going to debate with you any further. We have an area set
+                        emerge in the contexts of teaching, scholarship, and activism. </p>
+            </div>
+            <div type="essay">
+            <quote>The debate’s over. I’m not going to debate with you any further. We have an area set
                 aside for you. We’re providing you an area to go to that’s a public area, that’s
                 visible, that you can do whatever you want to do. We’re not denying you a public
-                spot. We’re denying you that one.</p>
-            <p> – Peabody Police Captain Scott Richards (July 14, 2020)</p>
+                spot. We’re denying you that one. – Peabody Police Captain Scott Richards (July 14, 2020)</quote>
+                
             <p> When my fellow Black Lives Matter activists and I arrived at the corner of Lowell
                 Street and Russell Street in West Peabody in order to stage a counter-protest in
                 July 2020, we were immediately approached by the Peabody Police Department and told
@@ -60,6 +252,7 @@
                 right to occupy this public space, was told: “the debate’s over.” Yet the end of the
                 debate about which space we should occupy would also have meant an end to the
                 counter-protest itself, since that too was a form of debate.</p>
+                
             <p>Fortunately, I know that a permit is not needed to protest in the city of Peabody,
                 and that public sidewalks cannot be reserved without proper documentation. At that
                 point, a friend of mine signaled to one of our legal observers for assistance and
@@ -75,8 +268,9 @@
                 legally continue, even when we had been told that it could not. More importantly, it
                 also revealed the need for persistence, and for more sustained efforts in organizing
                 for Black lives in my hometown.</p>
-            <p><p>Fig 1. Black Lives Matter Protest in July 2020 in Peabody, MA. Credit: Casey K.
-                    Perez</p></p>
+                
+            <p>Fig 1. Black Lives Matter Protest in July 2020 in Peabody, MA. Credit: Casey K.
+                    Perez</p>
             <table rend="frame" xml:id="Table2">
                 <row>
                     <cell><figure>
@@ -101,6 +295,7 @@
                                 News</hi></ref>(7/14/2020).</p></cell>
                 </row>
             </table>
+                
             <p> Reflecting on this moment in which the police tried to quell our protest with the
                 phrase “the debate’s over” has led me to examine the powerful effect that
                 anti-slavery pedagogy has had on my understanding of my own historico-political
@@ -115,7 +310,10 @@
                 Paulo Freire’s concept of <hi rend="italic">praxis</hi>, or as he defines it,
                 “reflection and action upon the world in order to transform it” (Freire, <hi
                     rend="italic">Pedagogy of the Oppressed,</hi> 51).</p>
-            <p><hi rend="italic">Reading Anti-Slavery Discourse at the Undergraduate Level</hi></p>
+                
+            <div type="section">
+                <head>Reading Anti-Slavery Discourse at the Undergraduate Level</head>
+                
             <p> My initial contact with anti-slavery pedagogy began in Professor Joselyn M.
                 Almeida’s “Introduction to British Literature” course when I was a first year
                 student at the University of Massachusetts Amherst. Over the course of the semester,
@@ -136,6 +334,7 @@
                 (Cugoano 51). In critiquing these “infamous ways of getting rich,” Cugoano splices
                 together the despicable history of slavery and that of capitalism (70), anticipating
                 the work of scholars such as Eric Williams, Ian Baucom, and Walter Mignolo.</p>
+                
             <p>Mary Prince makes a similar point while describing her own experiences working as an
                 enslaved person in the salt ponds of the Turks Islands. Prince notes how slave
                 owners “received a certain sum for every slave that worked upon [their] premises”
@@ -153,6 +352,7 @@
                 calf or a lamb he was about to purchase,” Prince’s enslavement, the separation of
                 her family, and the sale of her body and labor power could be reduced to “knock[ing]
                 down to the highest bidder” (4).</p>
+                
             <p>Cugoano’s powerful critique of capitalism and Prince’s vivid depiction of the
                 conditions of slavery connects with the work of Friedrich Engels in unexpected ways.
                 Only a decade after Prince published her <hi rend="italic">History</hi>, in his <hi
@@ -170,6 +370,7 @@
                 Cugoano, Prince, and Engels together led me to interrogate the complex relationship
                 between unfree labor, free labor, and capitalism unfolding in the nineteenth
                 century.</p>
+                
             <p>This inquiry resulted in a term paper, which challenged me, as a student at the time,
                 to reflect on ways I could deploy my writing against oppressive institutions, and
                 resulted in a more focused independent study on free and unfree labor with Professor
@@ -179,29 +380,30 @@
                 Global North (e.g. United States and Britain), and capitalism as an international
                 politico-economic system. In the syllabus we planned together, I aimed to deepen my
                 knowledge of writers from the introductory course, as well as read other
-                lesser-known figures, such as Thomas Spence and Robert Wedderburn.<hi rend="sup"
-                        ><note xml:id="ftn1" place="end" n="i"><p> Spence, Thomas. “The Restorer of
+                lesser-known figures, such as Thomas Spence and Robert Wedderburn.
+                <note place="foot" resp="author"> Spence, Thomas. “The Restorer of
                             Society to its Natural State.”<hi rend="italic">The Political Works of
                                 Thomas Spence</hi>, edited by H. T. Dickinson, Newcastle upon Tyne,
-                            Avero, 1982.</p><p>Wedderburn, Robert. <hi rend="italic">The Horrors of
+                            Avero, 1982. Wedderburn, Robert. <hi rend="italic">The Horrors of
                                 Slavery and Other Writings</hi>, edited by Iain McCalman, New York,
-                            Marcus Wiener, 1991.</p></note></hi> In addition, we sought to include
+                            Marcus Wiener, 1991.</note> In addition, we sought to include
                 more contemporary scholarship on the topic of slavery, such as texts by C.L.R.
-                James, Eric Williams, David Brion Davis, Sidney Mintz, and David Eltis.<hi
-                    rend="sup"><note xml:id="ftn4" place="end" n="ii"><p> Davis, David Brion.<hi
+                James, Eric Williams, David Brion Davis, Sidney Mintz, and David Eltis.
+                <note place="foot" resp="author"> Davis, David Brion.<hi
                                 rend="italic">Inhuman Bondage: The Rise and Fall of Slavery in the
-                                New World</hi>, Oxford University Press, 2006.</p><p>Eltis, David.
+                                New World</hi>, Oxford University Press, 2006. Eltis, David.
                             “Labour and Coercion in the English Atlantic World from the Seventeenth
                             to Early Twentieth Century.” <hi rend="italic">The Slavery Reader</hi>,
                             edited by Gad J. Heuman and James Walvin, London, Routledge,
-                            2003.</p><p>James, C.L.R. <hi rend="italic">The Black Jacobins:
+                            2003. James, C.L.R. <hi rend="italic">The Black Jacobins:
                                 Toussaint L'Ouverture and the San Domingo Revolution</hi>, New York,
-                            Vintage, 1989.</p><p>Mintz, Sidney. “Was the Plantation Slave a
+                            Vintage, 1989. Mintz, Sidney. “Was the Plantation Slave a
                             Proletarian?” <hi rend="italic">Review (Fernand Braudel Center)</hi>,
-                            vol. 2, no. 1, 1978, pp. 81-98.</p><p>Williams, Eric. <hi rend="italic"
+                            vol. 2, no. 1, 1978, pp. 81-98. Williams, Eric. <hi rend="italic"
                                 >Capitalism and Slavery</hi>, Chapel Hill, University of North
-                            Carolina, 1994.</p></note></hi>
+                            Carolina, 1994.</note>
             </p>
+                
             <p>In reading these authors and scholars, it soon became more evident to me that the
                 relationship between capitalism and slavery in the nineteenth century encompassed
                 what Cugoano acutely established in his <hi rend="italic">Thoughts and
@@ -214,6 +416,7 @@
                 capitalism as an economic force not only accommodated transatlantic slavery but
                 shared in a deep-rooted and fundamental relationship with slavery’s nineteenth
                 century development.</p>
+                
             <p>This idea became the basis for my undergraduate honors thesis the following academic
                 year. Learning about the field of nineteenth-century anti-slavery literature led me
                 to analyze the structural relationship between capitalism and unfree labor in the
@@ -228,6 +431,7 @@
                 production. As I examined specific examples of contemporary unfree labor, and
                 provided readers with direct action steps to advocate for unfree laborers today, I
                 began to become more deeply aware of my own historical agency.</p>
+                
             <p>Drawing on the research of modern scholars across numerous disciplines, the three
                 major forms of unfree labor in the twenty-first century that I explored in my thesis
                 were unfree prison labor, unfree migrant labor, and unfree international labor. By
@@ -247,17 +451,17 @@
                 of immigration and slavery scholars Nicholas De Genova, Kevin Bales, Ron Soodalter,
                 and Tanya Maria Golash ­Boza to elucidate how U.S. immigration policy routinely
                 converts already vulnerable migrant laborers into an illegal and, therefore, a
-                highly docile and exploitable, unfree workforce.<hi rend="sup"><note xml:id="ftn4"
-                        place="end" n="iii"><p> Bales, Kevin and Ron Soodalter.<hi rend="italic">The
+                highly docile and exploitable, unfree workforce.
+                <note place="foot" resp="author"> Bales, Kevin and Ron Soodalter.<hi rend="italic">The
                                 Slave Next Door: Human Trafficking and Slavery in America
-                            Today</hi>, University of California, 2009.</p><p> De Genova, Nicholas.
+                            Today</hi>, University of California, 2009. De Genova, Nicholas.
                             “ “Immigration ‘Reform’ and the Production of Migrant ‘Illegality’.”<hi
                                 rend="italic">Constructing Immigrant ‘Illegality’: Critiques,
                                 Experiences, and Responses</hi>, edited by Cecilia Menjívar and Dan
-                            Kanstroom, New York, Cambridge University Press, 2014.</p><p>
+                            Kanstroom, New York, Cambridge University Press, 2014.
                             Golash-Boza, Tanya Maria.<hi rend="italic">Deported: Immigrant Policing,
                                 Disposable Labor, and Global Capitalism</hi>, New York University
-                            Press, 2015.</p></note></hi> For instance, one of the main areas of
+                            Press, 2015.</note> For instance, one of the main areas of
                 investigation of this portion of my thesis were the methods through which
                 corporations like Gargiulo, Pacific, Nobles Collier, the Six L’s, Exxon, John Deere,
                 Monsanto, Taco Bell, KFC, Long John Silver, Pizza Hut, A&amp;W, McDonalds, Burger
@@ -272,6 +476,7 @@
                 reportedly being forced to “hand[le] noxious chemicals sometimes without proper
                 gloves or masks” while working “10 hours a day in hot workshops slicing and blasting
                 iPhone casings” (Gao and Webb).</p>
+                
             <p>Ultimately, the overarching claim of my undergraduate honors thesis was that the
                 production and exploitation of maximally vulnerable and exploitable unfree laborers
                 in the twenty-first century is the result of a structural tendency inextricable to
@@ -284,6 +489,7 @@
                 a panoply of state institutions and functions responsible for incarceration,
                 immigration, and international trade in order to realize its structural impetus for
                 producing, accumulating, and maximizing its share of surplus value.</p>
+                
             <table rend="frame" xml:id="Table3">
                 <row>
                     <cell rend="center"><figure>
@@ -295,6 +501,7 @@
                         Research Conference (April 2018)</cell>
                 </row>
             </table>
+                
             <p>Overall, with my focus now shifted toward uncovering and critiquing manifestations of
                 slavery today, I soon began to recognize the relationship between my research of
                 anti-slavery literature and the contemporary need to dismantle the political and
@@ -310,8 +517,11 @@
                 anti-slavery pedagogy again shifted: rather than merely focusing on finishing my
                 thesis, I also had a growing desire to engage in more direct civic action (Freire,
                     <hi rend="italic">Education for Critical Consciousness </hi>135).</p>
-            <p><hi rend="italic">Translating Anti-Slavery Discourse into Action as an Undergraduate
-                    Student</hi></p>
+            </div>
+                <div type="section">
+            <head>Translating Anti-Slavery Discourse into Action as an Undergraduate
+                    Student</head>
+                    
             <p> One of the first methods I explored for participating in civic engagement was
                 petitioning the state. The murder of Heather Heyer at a white supremacist rally in
                 Charlottesville, Virginia in August 2017 moved me to action. That year, I started a
@@ -325,6 +535,7 @@
                 historical relevance of nationwide protests aimed at removing public statues
                 commemorating Confederate soldiers in response to the rise of far-right extremism
                 and violence.</p>
+                    
             <p> I was also led by my studies to engage with my local and state government in more
                 direct modes of action. After my examination of prison labor in my thesis, I began
                 drafting public records requests under the Freedom of Information Act and
@@ -344,6 +555,7 @@
                 vigorously alongside Olaudah Equiano and Ottobah Cugoano in the <hi rend="italic"
                     >Zong </hi>case (1781) to apprehend the slave traders who massacred over 130
                 enslaved people in order to fraudulently collect insurance money.</p>
+                    
             <p>Filing public records requests in Massachusetts also allowed me to find more specific
                 data regarding the potential collusion between the state, prisons, and capital in
                 relation to the production and exploitation of unfree prison laborers. The outcome
@@ -361,6 +573,7 @@
                 street signs, park benches, picnic tables, fire pits, bike racks, trash receptacles,
                 engraved wood, brick, granite and stone, sheets, and towels” for purchase by both
                 public and private entities (MA DOC 3).</p>
+                    
             <p> The principles I garnered from reading and analyzing abolitionist and Marxist
                 literature also led me toward other avenues for realizing mypotential for being an
                 agent of social change, specifically in the field of education. During the summer of
@@ -385,8 +598,12 @@
                 dispossession of students of color and students of disadvantaged economic
                 backgrounds was a process historically deeply rooted in the rise and expansion of
                 capitalism and the Atlantic slave trade.</p>
-            <p><hi rend="italic">Realizing my Historical Agency in Responding to Racialized
-                    Dispossession in the Classroom</hi></p>
+                </div>
+                
+            <div type="section">
+                <head>Realizing my Historical Agency in Responding to Racialized
+                    Dispossession in the Classroom</head>
+                
             <p> Upon graduating from UMass Amherst with my bachelor’s degree in English, I began to
                 more directly witness the “accumulation by dispossession” process firsthand while
                 entering a high poverty, urban school district as part of the residency portion of
@@ -398,6 +615,7 @@
                 and social mobility. Before elaborating on the relationship between my own
                 undergraduate work and my experiences in this particular school district, I will
                 first detail the contexts of student learning in this setting.</p>
+                
             <p> The school itself, formerly a Massachusetts Mutual Life Insurance corporate
                 building, was located across the street from a brand new MassMutual location. In a
                 stark contrast to the $39.2 billion MassMutual earned in revenue last year
@@ -419,6 +637,7 @@
                     rend="italic">Brown v. Board of Education</hi> (1953) Supreme Court ruling
                 declaring that “separate educational facilities are inherently unequal” nearly 70
                 years ago (Warren 495).</p>
+                
             <p> The teachers and administrators in this school yielded a disproportionate amount of
                 power over students. As a space in which the school’s staff were mostly white, and
                 of upper-middle class backgrounds, it was clear to me that this school was the
@@ -433,6 +652,7 @@
                 (Au 90). This awareness led me to design a pedagogical unit that aimed to dismantle
                 one particular instance of a racialized and classist school policy harming my new
                 students: the school dress code.</p>
+                
             <p>The district’s dress code policy, which banned any article of clothing with a hood,
                 was firmly entrenched in a history of anti-Black and anti-Brown racism in the United
                 States. Under the guise of promoting public safety, Black and Brown children were
@@ -459,6 +679,7 @@
                 winter, even as outdoor temperatures fell well below zero degrees and even as some
                 of the school’s defective HVAC systems blasted freezing outdoor air directly into
                 classrooms.</p>
+                
             <table rend="frame" xml:id="Table4">
                 <row>
                     <cell rend="center"><figure>
@@ -469,6 +690,7 @@
                     <cell>Fig. 3. The School’s Hoodie Cart</cell>
                 </row>
             </table>
+                
             <p> The racialized, institutional violence and dispossession that the school’s dress
                 code posed to my new students prompted me to reflect on ways I could leverage my
                 curriculum to ignite student-based civic action. More specifically, reflecting on
@@ -483,6 +705,7 @@
                 approach that was based on synthesizing research and their specific day-to-day
                 material conditions, my students wrote cogent and powerful arguments for why the
                 dress code should be changed.</p>
+                
             <p>Unfortunately, however, these arguments were censored by the administration of the
                 school. Upon learning that I was working with students to present at the school
                 committee, my classroom was visited by a number of administrators who aimed to
@@ -498,18 +721,21 @@
                 not so uncertain terms that being vocal about this issue could potentially impact my
                 future career prospects as an educator because “principals and superintendents
                 talk.”</p>
+                
             <p>In the end, we were unable to send the letters. However, despite this repression of
                 student and teacher resistance, the instructional unit still had a tremendous impact
                 on my students’ historical and political conceptions of themselves. In a post-unit
                 reflection, one of my former students, who gave me permission to share his response,
-                wrote:</p>
-            <p>Having gone through this unit, I would want you to teach your future students this
+                wrote:
+                
+            <quote>Having gone through this unit, I would want you to teach your future students this
                 lesson. You taught us that we must stand up against the people of power and that
                 it’s wrong for them to be holding us back. This lesson taught me that we have rights
                 that are being taken away and changed just because the color of our skin and because
                 [of] our ages. You told us to fight against the system because the system is
-                corrupt.</p>
-            <p>Overall, my former students’ powerful remarks indicated that the unit succeeded in
+                corrupt.</quote>
+                
+            Overall, my former students’ powerful remarks indicated that the unit succeeded in
                 promoting my students’ awareness of their historical agency and capacity for civic
                 action. By the end, students were able to recognize that there will always be
                 pathways for resistance and subversion and that they must always continue fighting
@@ -518,8 +744,12 @@
                 change begins and is sustained through collective civic action. In short, my unit
                 was able to teach students the core values I internalized from studying anti-slavery
                 pedagogy, all through the framework of a curriculum of praxis.</p>
-            <p><hi rend="italic">The Black Lives Matter Movement and Teaching for Civic
-                Action</hi></p>
+            </div>
+                
+            <div type="section">
+                <head>The Black Lives Matter Movement and Teaching for Civic
+                Action</head>
+                
             <p> Notwithstanding experiences that could have derailed me from the path towards
                 becoming an educator, the lesson of resilience allows me toconclude this essay with
                 a reflection on what I have learned in my latest role as a teacher in the city of
@@ -545,6 +775,7 @@
                 services for racial or class-based biases; collecting and publishing data regarding
                 the day-to-day operations of city institutions; and organizing rallies and other
                 events related to promoting the need for social justice.</p>
+                
             <p>As revealed by the Black Lives Matter activists of Bristol dumping Edward Colston’s
                 statue into Bristol Harbor due to his ties to transatlantic slavery, this current
                 wave of civic action across the United States can clearly be traced back to the
@@ -563,6 +794,7 @@
                 utilize their ability to read, analyze, and produce sustained discourse to influence
                 social change, as well as participate in more physical instances of civic
                 action.</p>
+                
             <p>Now more than ever, we must embrace this emancipatory praxis promulgated by Paulo
                 Freire. As critical educators, we are constantly reminded that our roles and
                 responsibilities to our students extend far beyond dominant “‘banking’ concept of
@@ -575,6 +807,7 @@
                 justice, equality, and fairness. In my classroom, this looks like students
                 conducting individually-led, sustained action research projects surrounding social
                 justice issues related to the courses’ theoretical frameworks. </p>
+                
             <p>For instance, one project that encapsulates these ideas is the final project for my
                 world revolutions unit. Upon learning about the conditions, beliefs, and triggers of
                 some of the world’s most significant revolutions, I ask students to research a
@@ -591,18 +824,21 @@
                 was ultimately these types of undertakings at various stages of my development that
                 guided and critically informed my trajectory from student to researcher to educator
                 to social activist and back. </p>
+                
             <p> Although the challenges and institutional powers before us today in the twenty-first
                 century are unprecedented and complex, we cannot forget the historical importance of
                 the spirit of resilience to the project of abolition and social justice. As Cugoano
-                wrote:</p>
-            <p>For any man to carry on a traffic in the merchandize of slaves, and to keep them in
+                wrote:
+                
+            <quote>For any man to carry on a traffic in the merchandize of slaves, and to keep them in
                 slavery; or for any nation to oppress, extirpate and destroy others; that these are
                 crimes of the greatest magnitude, and a most daring violation of the laws and
                 commandments of the Most High, and which, at last, will be evidenced in the
                 destruction and overthrow of all the transgressors. And nothing else can be expected
                 for such violations of taking away the natural rights and liberties of men...
-                (61)</p>
-            <p>The abolitionists of the nineteenth century were up against some of the most
+                (61)</quote>
+                
+            The abolitionists of the nineteenth century were up against some of the most
                 powerful, vicious, and despicable institutions of modern human history. Yet in their
                 fight against the transatlantic slave trade — the cradle of capitalism and
                 present-day neoslavery — the abolitionists, radicals, and revolutionaries never
@@ -612,117 +848,120 @@
                 to promote freedom and equality for all. Claiming our own historical agency and the
                 field for civic action means insisting that debate should persist, even when
                 authorities tell us it cannot.</p>
-            <pb/>
-            <p rend="center">Work Cited</p>
+            </div>
+           
+            <div type="citation">
+                <head>Works Cited</head>
+                
             <p>Alexander, Michelle. <hi rend="italic">The New Jim Crow: Mass Incarceration in the
-                    Age of Colorblindness</hi>, New</p>
-            <p>York, The New Press, 2012.</p>
+                    Age of Colorblindness</hi>, New York, The New Press, 2012.</p>
+                
             <p>Alvarez, Lizette and Cara Buckley. “Zimmerman Is Acquitted in Killing of Trayvon
-                Martin.”</p>
-            <p>The New York Times, 14 July 2013, <ptr
-                    target="https://www.nytimes.com/2013/07/15/us/george-zimmerman-verdict-trayvon-martin.html"
-                />. Accessed 23 August 2020.</p>
-            <p>“Apple.” <hi rend="italic">Fortune 500</hi>, 2019, <ptr
-                    target="https://fortune.com/company/apple/fortune500/"/>. Accessed on 17</p>
-            <p> August 2020.</p>
+                Martin.” <hi rend="italic">The New York Times</hi>, 14 July 2013, <ref
+                    target="https://www.nytimes.com/2013/07/15/us/george-zimmerman-verdict-trayvon-martin.html">New York Times</ref>. Accessed 23 August 2020.</p>
+                
+            <p>“Apple.” <hi rend="italic">Fortune 500</hi>, 2019, <ref
+                target="https://fortune.com/company/apple/fortune500/">https://fortune.com/company/apple/fortune500</ref>. Accessed on 17 August 2020.</p>
+                
             <p>Au, Wayne. <hi rend="italic">A Marxist Education: Learning to Change the World</hi>,
-                Chicago, Haymarket Books,</p>
-            <p> 2018.</p>
+                Chicago, Haymarket Books, 2018.</p>
+                
             <p>Bales, Kevin and Ron Soodalter. <hi rend="italic">The Slave Next Door: Human
-                    Trafficking and Slavery in</hi></p>
-            <p><hi rend="italic"> America Today</hi>, University of California, 2009.</p>
+                    Trafficking and Slavery in America Today</hi>, University of California, 2009.</p>
+                
             <p>Campos, Jaime. “SLIDESHOW: Back The Blue, Black Lives Matter protests take place in
-                West</p>
-            <p>Peabody, 14 July 2020, <ref
+                West Peabody, 14 July 2020, <ref
                     target="https://www.salemnews.com/coronavirus/slideshow-back-the-blue-black-lives-matter-protests-take-place-in-west-peabody/collection_cd49a4b8-c62e-11ea-ac80-ef0d03c7afb4.html#1"
-                    >https://www.salemnews.com/coronavirus/slideshow-back-the-blue-</ref><ref
-                    target="https://www.salemnews.com/coronavirus/slideshow-back-the-blue-black-lives-matter-protests-take-place-in-west-peabody/collection_cd49a4b8-c62e-11ea-ac80-ef0d03c7afb4.html#1"
-                    >black-lives-matter-protests-take-place-in-west-peabody/collection_cd49a4b8-c62e-11ea-ac80-ef0d03c7afb4.html#1</ref>
-            </p>
+                    >https://www.salemnews.com/coronavirus/slideshow-back-the-blue-</ref></p>
+                
             <p>Cugoano, Ottobah. <hi rend="italic">Thoughts and Sentiments on the Evil of Slavery
-                    and Other Writings</hi>, edited by</p>
-            <p> Vincent Carretta, New York, Penguin, 1999.</p>
+                    and Other Writings</hi>, edited by Vincent Carretta, New York, Penguin, 1999.</p>
+                
             <p>Engels, Friedrich. <hi rend="italic">The Condition of the Working Class in
-                    England</hi>, edited by David McLellan,</p>
-            <p> translated by Florence Kelley-Wischnewsky, Oxford University Press, 2009.</p>
+                    England</hi>, edited by David McLellan, translated by Florence Kelley-Wischnewsky, Oxford University Press, 2009.</p>
+                
             <p>Federal Financial Institutions Examination Council (FFIEC).<hi rend="italic">
-                    Geocoding/Mapping System</hi>.</p>
-            <p> Federal Financial Institutions Examination Council [2020],<ptr
-                    target="https://geomap.ffiec.gov/FFIECGeocMap/GeocodeMap1.aspx"/>. Accessed 23
+                    Geocoding/Mapping System</hi>. Federal Financial Institutions Examination Council [2020],<ref
+                target="https://geomap.ffiec.gov/FFIECGeocMap/GeocodeMap1.aspx">https://geomap.ffiec.gov/FFIECGeocMap/GeocodeMap1.aspx</ref>. Accessed 23
                 August 2020. </p>
+                
             <p>Freire, Paulo. <hi rend="italic">Education for Critical Consciousness</hi>, New York,
                 Bloomsbury Academic, 2013.</p>
+                
             <p>Freire, Paulo. <hi rend="italic">Pedagogy of the Oppressed</hi>, translated by Myra
-                Bergman Ramos, New York,</p>
-            <p> Continuum, 2005.</p>
+                Bergman Ramos, New York,<hi rend="italic">Continuum</hi>, 2005.</p>
+                
             <p>Fryer, Peter. <hi rend="italic">Staying Power: The History of Black People in
                     Britain</hi>, Pluto Press, 2010.</p>
+                
             <p>Fortas, Abe, and Supreme Court of the United States. <hi rend="italic">U.S. Reports:
                     Tinker v. Des Moines School Dist., 393 U.S. 503.</hi>1968. Periodical. Retrieved
-                from the Library of Congress, <ref target="http://www.loc.gov/item/usrep393503/"><hi
-                        rend="color(#1155cc)underline">www.loc.gov/item/usrep393503/</hi></ref>.</p>
+                from the Library of Congress, <ref target="http://www.loc.gov/item/usrep393503/">www.loc.gov/item/usrep393503/</ref>.</p>
+                
             <p>Foucault, Michel. <hi rend="italic">The History of Sexuality, Volume 1: An
-                    Introduction</hi>, translated by Robert</p>
-            <p> Hurley, New York, Pantheon, 1978.</p>
+                    Introduction</hi>, translated by Robert Hurley, New York, Pantheon, 1978.</p>
+                
             <p>Gao, Yuan, and Alex Webb. “Apple Supplier Workers Describe Noxious Hazards at
-                China</p>
-            <p>Factory.” <hi rend="italic">Bloomberg News</hi>, 16 January 2018, <ptr
+                China Factory.” <hi rend="italic">Bloomberg News</hi>, 16 January 2018, <ref
                     target="https://www.bloomberg.com/news/articles/2018-01-16/workers-at-apple-supplier-catcher-describe-harsh-conditions"
                 />. Accessed on 17 August 2020.</p>
+                
             <p>Harvey, David. <hi rend="italic">The New Imperialism</hi>, Oxford University Press,
                 2003.</p>
+                
             <p>Harvey, David. <hi rend="italic">Seventeen Contradictions and the End of
-                    Capitalism</hi>, Oxford University Press,</p>
-            <p> 2014.</p>
+                    Capitalism</hi>, Oxford University Press, 2014.</p>
+                
             <p>Knopp, Sarah. “Schools, Marxism, and Liberation.” <hi rend="italic">Education and
-                    Capitalism: Struggles for</hi></p>
-            <p><hi rend="italic">Learning and Liberation</hi>, edited by Jeff Bale and Sarah Knopp,
+                    Capitalism: Struggles for Learning and Liberation</hi>, edited by Jeff Bale and Sarah Knopp,
                 Chicago, Haymarket Books, 2012.</p>
+                
             <p>Massachusetts, Department of Correction (MA DOC). <hi rend="italic">MassCor
-                    Catalog</hi>. Massachusetts.</p>
-            <p> Department of Correction [2020],<ptr target="http://www.masscor.us/"/>. Accessed 20
+                Catalog</hi>. Massachusetts. Department of Correction [2020],<ref target="http://www.masscor.us/">http://www.masscor.us</ref>. Accessed 20
                 August 2020.</p>
+                
             <p>Massachusetts, Department of Elementary and Secondary Education (MA DESE). <hi
-                    rend="italic">School and</hi></p>
-            <p><hi rend="italic">District Profiles</hi>. Massachusetts. Department of Elementary and
-                Secondary Education [2020], <ptr target="http://profiles.doe.mass.edu"/>. Accessed
+                    rend="italic">School and District Profiles</hi>. Massachusetts. Department of Elementary and
+                Secondary Education [2020], <ref target="http://profiles.doe.mass.edu">http://profiles.doe.mass.edu</ref>. Accessed
                 23 August 2020.</p>
-            <p>Massachusetts General Law, Chapter 171, Section 51, <ptr
-                    target="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVIII/Chapter127/Section51"
-                />. Accessed on 20 August 2020.</p>
-            <p>“Massachusetts Mutual Life Insurance.” <hi rend="italic">Fortune 500</hi>, 2019,</p>
-            <p><ptr
-                    target="https://fortune.com/fortune500/2019/massachusetts-mutual-life-insurance/"
-                />. Accessed on 23 August 2020.</p>
+                
+            <p>Massachusetts General Law, Chapter 171, Section 51, <ref
+                    target="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVIII/Chapter127/Section51">GeneralLaws</ref>. Accessed on 20 August 2020.</p>
+                
+            <p>“Massachusetts Mutual Life Insurance.” <hi rend="italic">Fortune 500</hi>, 2019, 
+                    <ref target="https://fortune.com/fortune500/2019/massachusetts-mutual-life-insurance/">Fortune</ref>. Accessed on 23 August 2020.</p>
+                
             <p>Marx, Karl. <hi rend="italic">Capital, Volume 1</hi>, edited by Friedrich Engels and
-                Ernest Untermann,</p>
-            <p>translated by. Samuel Moore and Edward Aveling, New York, The Modern Library,
+                Ernest Untermann, translated by. Samuel Moore and Edward Aveling, New York, The Modern Library,
                 1906.</p>
-            <p>Mosher, Clayton, Gregory Hooks, and Peter Wood. “Don’t Build It Here: The Hype</p>
-            <p>Versus the Reality of Prisons and Local Employment.” <hi rend="italic">Prison
+                
+            <p>Mosher, Clayton, Gregory Hooks, and Peter Wood. “Don’t Build It Here: The Hype Versus the Reality of Prisons and Local Employment.” <hi rend="italic">Prison
                     Profiteers: Who Makes Money from Mass Incarceration</hi>, edited by Tara Herivel
                 and Paul Wright, New York, The New Press, 2007.</p>
+                
             <p>Pratt, Mary Louise. “Arts of the Contact Zone.” <hi rend="italic">Profession</hi>,
                 1991.</p>
+                
             <p>Prince, Mary. <hi rend="italic">The History of Mary Prince, a West Indian Slave</hi>,
-                Chapel Hill, University</p>
-            <p> of North Carolina, 2017.</p>
+                Chapel Hill, University of North Carolina, 2017.</p>
+                
             <p>Taylor, Derrick Bryson and Allyson Waller. “Radio Host Loses Her Show Over
-                English</p>
-            <p>-Only Rant.” <hi rend="italic">The New York Times</hi>, 14 July 2020, <ptr
-                    target="https://www.nytimes.com/2020/07/14/us/dianna-ploss-new-hampshire-radio.html"
-                />. Accessed 15 August 2020.</p>
+                English-Only Rant.” <hi rend="italic">The New York Times</hi>, 14 July 2020, <ref
+                    target="https://www.nytimes.com/2020/07/14/us/dianna-ploss-new-hampshire-radio.html">New York Times</ref>. Accessed 15 August 2020.</p>
+                
             <p>United States Census. <hi rend="italic">Quick Facts: Massachusetts</hi>. United
-                States. U.S. Census Bureau</p>
-            <p> [2020],<ptr target="https://www.census.gov/quickfacts/MA"/>. Accessed 23 August
+                States. U.S. Census Bureau [2020],<ref target="https://www.census.gov/quickfacts/MA">https://www.census.gov/quickfacts/MA</ref>. Accessed 23 August
                 2020. </p>
+                
             <p>Warren, Earl, and Supreme Court of the United States. <hi rend="italic">U.S. Reports:
-                    Brown v. Board of</hi></p>
-            <p><hi rend="italic">Education, 347 U.S. 483.</hi>1953. Periodical. Retrieved from the
+                    Brown v. Board of Education, 347 U.S. 483.</hi>1953. Periodical. Retrieved from the
                 Library of Congress, <ref target="http://www.loc.gov/item/usrep347483/"
-                    >www.loc.gov/item/usrep347483/</ref>. </p>
+                    >www.loc.gov/item/usrep347483/</ref>.</p>
+                
             <p>Williams, Eric. <hi rend="italic">Capitalism and Slavery</hi>, Chapel Hill,
                 University of North Carolina, 1994.</p>
+            </div>
+            </div>
         </body>
     </text>
 </TEI>
