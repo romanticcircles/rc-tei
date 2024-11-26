@@ -1,36 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Untitled Document</title>
-                <author>Microsoft Office User</author>
+                <!--  The reading texts should all be encoded as level="m"  -->
+                <title level="a">Romanticism and the Abolitionist Turn </title>
+                
+                <author role="primary">
+                    <name>Patricia A. Matthew</name>
+                </author>
+                
+                <sponsor>Romantic Circles</sponsor>
+                
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>EXTERNAL CODER</name>
+                </respStmt>            
+                
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Praxis Editor</resp>
+                    <name>Brian McGrath</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Jessica Tebo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name>Anna Paige Wingfield</name>
+                </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition><date>2021-12-18T23:34:00</date></edition>
+                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                <edition><date>2024-11-25</date></edition>
             </editionStmt>
+            
             <publicationStmt>
-                <p>no publication statement available</p>
+                <publisher>Romantic Circles, https://romantic-circles.org, 
+                    University of Colorado Boulder</publisher>
+                <pubPlace>Boulder, CO</pubPlace>
+                <availability status="free">
+                    <p>Material from the Romantic Circles Website may not be downloaded, 
+                        reproduced or disseminated in any manner without authorization unless 
+                        it is for purposes of criticism, comment, news reporting, teaching, 
+                        and/or classroom use as provided by the Copyright Act of 1976, as 
+                        amended.</p>
+                    <p>Unless otherwise noted, all Pages and Resources mounted on Romantic 
+                        Circles are copyrighted by the author/editor and may be shared only in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Except 
+                        as expressly permitted by this statement, redistribution or republication 
+                        in any medium requires express prior written consent from the author(s)/
+                        editor(s) and advance notification of Romantic Circles. Any requests 
+                        for authorization should be forwarded to Romantic Circles:
+                        <address>
+                            <addrLine>Romantic Circles</addrLine>
+                            <addrLine>c/o Professor Thora Brylowe</addrLine>
+                            <addrLine>Department of English</addrLine>
+                            <addrLine>University of Colorado Boulder</addrLine>
+                            <addrLine>Boulder, CO 80309</addrLine>
+                            <addrLine>thora.brylowe@colorado.edu</addrLine>
+                        </address></p>
+                    <p>By their use of these texts and images, users agree to the following 
+                        conditions: 
+                        <list>
+                            <item>These texts and images may not be used for any commercial 
+                                purpose without prior written permission from Romantic Circles.</item>
+                            <item>These texts and images may not be re-distributed in any 
+                                forms other than their current ones.</item>
+                        </list></p>
+                    <p>Users are not permitted to download these texts and images in order 
+                        to mount them on their own servers. It is not in our interest or that 
+                        of our users to have uncontrolled subsets of our holdings available 
+                        elsewhere on the Internet. We make corrections and additions to our 
+                        edited resources on a continual basis, and we want the most current text 
+                        to be the only one generally available to all Internet users. Institutions 
+                        can, of course, make a link to the copies at Romantic Circles, subject 
+                        to our conditions of use.</p>
+                </availability>
+                <!-- Be sure that the name below matches the file name-->
+                <idno type="edition">praxis.2024.race.matthew</idno> 
+                <idno type="resource">race</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <biblStruct>
+                    <analytic>
+                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
+                        <title level="a" type="main">Romanticism and the Abolitionist Turn  
+                        </title>
+                        <author role="secondary">
+                            <persName>
+                                <forename>Patricia A.</forename>
+                                <surname>Matthew</surname>
+                            </persName>
+                        </author>
+                        
+                        
+                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <ptr target="praxis/contingent/praxis.2024.race.matthew"/> 
+                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
+                        Ex: praxis/wellbeing/praxis.2024.wellbeing.intro-->
+                    </analytic>
+                    
+                    <monogr>
+                        <title level="m">Romanticism and Anti-Slavery Literatures: Pedagogies and Contexts </title>
+                        <title level="s">Praxis</title>
+                        <imprint>
+                            <publisher>Romantic Circles, https://romantic-circles.org, 
+                                University of Colorado Boulder</publisher>
+                            <pubPlace>Boulder, CO</pubPlace>
+                            <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
+                            <date when="2024-11-25">November 22, 2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: 
+                        " to &#8220; or &#8221;, and ' to &#8216; and &#8217;.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed 
+                        except in the case of diplomatic transcriptions.</p>
+                    <p>Because of web browser variability, all hyphens 
+                        have been typed on the U.S. keyboard</p>
+                    <p>Em dashes have been rendered as &#8212;</p>
+                    <p>En dashes have been rendered as &#8211;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts 
+                        has been indicated as such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>&#35; has been used for #, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, 
+                        etc., have been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <tagsDecl>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1em;</rendition>
+                <rendition xml:id="indent2" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent3" scheme="css">margin-left: 2em;</rendition>
+                <rendition xml:id="indent4" scheme="css">margin-left: 2.5em;</rendition>
+                <rendition xml:id="indent5" scheme="css">margin-left: 3em;</rendition>
+                <rendition xml:id="indent6" scheme="css">margin-left: 3.5em;</rendition>
+                <rendition xml:id="indent7" scheme="css">margin-left: 4em;</rendition>
+                <rendition xml:id="indent8" scheme="css">margin-left: 4.5em;</rendition>
+                <rendition xml:id="indent9" scheme="css">margin-left: 5em;</rendition>
+                <rendition xml:id="indent10" scheme="css">margin-left: 5.5em;</rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+                <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition xml:id="small" scheme="css">font-size: 12pt;</rendition>
+                <rendition xml:id="large" scheme="css">font-size: 16pt;</rendition>
+                <rendition xml:id="largest" scheme="css">font-size: 18pt;</rendition>
+                <rendition xml:id="smallest" scheme="css">font-size: 10pt;</rendition>
+                <rendition xml:id="titlem" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="titlej" scheme="css">font-style: italic;</rendition>
+                <rendition xml:id="figure" scheme="css">text-align: center; 
+                    font-size: 12pt;</rendition>
+                <rendition xml:id="sup" scheme="css">vertical-align: super;</rendition>
+                <rendition xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+            </tagsDecl>
+            
+            <classDecl>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E" xml:id="g">
+                    <bibl>NINES categories for Genre and Material Form at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:genre.3E on
+                        20014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="dcType">
+                    <bibl>NINES categories for document type at http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E on 2014-02-27</bibl>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E" xml:id="d">
+                    <bibl>NINES categories for discplines at http://wiki.collex.org/index.php/Submitting_RDF#.3Ccollex:discipline.3E on 2014-02-27</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#Paratext"/>
+                <catRef scheme="#dcType" target="#Typescript"/>
+                <catRef scheme="#discipline" target="#Literature"/>
+                <!-- ADD IN 4-6 KEYWORDS, THESE WILL BE PROVIDED BY EDITORS -->
+                <keywords scheme="http://www.romantic-circles.org/#tags">
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                    <term subtype="tags"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
         <revisionDesc>
-            <listChange>
-                <change><name>Amelia Worsley</name><date>2021-12-18T23:36:00</date></change>
-            </listChange>
+            <change>
+                <!--  Coder Name and Date Coded  -->
+                <name>Anna Paige Wingfield</name>
+                <date>11.22.2024</date>
+                <list>
+                    <item>TEI encoding the text</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
+    <!--END OF HEADER-->
+    
     <text>
         <body>
-            <p rend="center">Romanticism and the Abolitionist Turn</p>
-            <p rend="center">Patricia A. Matthew<lb/>Montclair State University<note xml:id="ftn1"
-                    place="end" n="1"><p> I am <anchor type="bookmark-start" xml:id="id__GoBack"
-                        />grateful to Amelia Worsley and Joselyn M. Almeida<hi
-                            rend="background-color(#ffffff)"> for their work on this essay and to
+            <div type="essay">
+                
+            <p><note place="foot" resp="author"> I am grateful to Amelia Worsley and Joselyn M. Almeida for their work on this essay and to
                             Manu Chander, Tina Iemma, and Deanna Koretsky for reading
-                            recommendations.</hi><hi rend="background-color(#ffffff)"> </hi><ptr
-                            type="bookmark-end" target="#id__GoBack"/></p></note></p>
+                            recommendations.</note></p>
+                
             <p>My decision to design a class that focuses on Romantic-era abolitionist literature
                 was sparked by a student debate about how to interpret William Blake’s “The Little
                 Black Boy.” It was in the spring of 2006, the semester before my tenure file was due
@@ -41,66 +237,49 @@
                 paid very little attention to the debates about how these same writers responded to
                 debates about England’s participation in the transatlantic slave trade, and for the
                 first three years that I taught the poem, no student had challenged the line that we
-                ended up discussing for a full 75-minute class period: “<hi
-                    rend="background-color(#ffffff)">And I am black, but O! my soul is white”
-                    (l.2)</hi><hi rend="background-color(#ffffff)bold"> </hi><hi
-                    rend="background-color(#ffffff)"> On a handout that included the poem and a few
+                ended up discussing for a full 75-minute class period: “And I am black, but O! my soul is white”
+                    (l.2) On a handout that included the poem and a few
                     warm-up questions, a student circled the line and wrote: “WTF??!!?” next to it.
                     A rambunctious debate that I wasn’t quite prepared to moderate followed. As a
                     specialist in regency and romantic-era fiction, I knew enough about Black
-                    figures in eighteenth and nineteenth-century literature to</hi><hi
-                    rend="background-color(#ffffff)bold"> </hi><hi rend="background-color(#ffffff)"
-                    >help them understand the presence of Black people in Romantic-era
-                    England.</hi><hi rend="background-color(#ffffff)"><note xml:id="ftn10"
-                        place="end" n="2"><p> See also: Gretchen, Gerzina<hi rend="italic">Black
+                    figures in eighteenth and nineteenth-century literature to help them understand the presence of Black people in Romantic-era
+                    England.<note place="foot" resp="author"> See also: Gretchen, Gerzina, <hi rend="italic">Black
                                 London: Life Before Emancipation</hi>, Rutgers University Press,
-                            1995. David Olusoga<hi rend="color(#202122)italic">Black and British: A
-                                Forgotten History. Macmillan 2016. </hi><hi
-                                rend="color(#202122) background-color(#ffffff)"
-                    > </hi></p></note></hi><hi rend="background-color(#ffffff)"> As a Black woman
+                            1995. David Olusoga, <hi rend="italic">Black and British: A
+                                Forgotten History.</hi> Macmillan 2016. </note> As a Black woman
                     who spends a good amount of time navigating tense conversations about racism
                     with her students, I knew how to keep the conversation open, provocative, and
                     productive all at once. I did not, however, know enough about Blackness in
                     Romanticism to help my students think as carefully as I wanted them to about the
-                    line. Working through what my students needed to contextualize the</hi><hi
-                    rend="background-color(#ffffff)bold"> </hi><hi rend="background-color(#ffffff)"
-                    >line and sorting out how to cultivate the same analytical energy in response to
-                    </hi><hi rend="background-color(#ffffff)">their other readings, lead to this
+                    line. Working through what my students needed to contextualize the line and sorting out how to cultivate the same analytical energy in response to
+                    their other readings lead to this
                     “abolitionist turn” in my teaching of Romanticism. In what follows I show how I
-                    made this transition in my undergraduate and graduate courses</hi><hi
-                    rend="background-color(#ffffff)">. </hi><hi rend="background-color(#ffffff)">I
+                    made this transition in my undergraduate and graduate courses. I
                     discuss critical essays that have been most useful for students and assignments
                     that can potentially take the work of the class beyond the university classroom.
                     Threaded through this reflection is a consideration of the question of how much
                     of the success of these curricular revisions is because they have responded to
                     students’ curiosity and their unusually animated response to Romantic-era
-                    questions about race and social justice that resonate as contemporary</hi><hi
-                    rend="background-color(#ffffff)">.</hi><hi rend="background-color(#ffffff)bold"
-                    > </hi><hi rend="background-color(#ffffff)">As I explain in my essay “Academic
-                    Freedom: Students and the Problem with Labels,”</hi><hi
-                    rend="background-color(#ffffff)"><note xml:id="ftn10" place="end" n="3">
-                        Matthew, Patricia A.<hi rend="background-color(#ffffff)">“Academic Freedom:
-                            Students and the Problem with Labels,”</hi>
-                        <hi rend="italic">Profession</hi> Winter 2019.</note></hi><hi
-                    rend="background-color(#ffffff)"> I expend a great deal of energy preserving
+                    questions about race and social justice that resonate as contemporary. As I explain in my essay “Academic
+                    Freedom: Students and the Problem with Labels,”<note place="foot" resp="author">
+                        Matthew, Patricia A. “Academic Freedom:
+                            Students and the Problem with Labels,”
+                        <hi rend="italic">Profession</hi> Winter 2019.</note> I expend a great deal of energy preserving
                     class discussions as a space where students feel free to wrestle with complex
                     ideas, free from expectations that they reflect a specific political point of
-                    view. I aim for what bell hooks calls for, namely the classroom as: “</hi><hi
-                    rend="color(#222222)">a democratic setting where everyone feels a responsibility
-                    to contribute to a central goal of transformative pedagogy”</hi><hi
-                    rend="color(#222222)"> (39). Teaching Romanticism with a focus on abolitionist
-                    culture has made this goal easier to reach.</hi><hi rend="color(#222222)bold"
-                > </hi>I have found that in learning about an abolitionist Romanticism, students are
+                    view. I aim for what bell hooks calls for, namely the classroom as: “a democratic setting where everyone feels a responsibility
+                    to contribute to a central goal of transformative pedagogy” (39). Teaching Romanticism with a focus on abolitionist
+                    culture has made this goal easier to reach.I have found that in learning about an abolitionist Romanticism, students are
                 not only studying historical texts and their connection to a movement, but are
                 learning more about the intricacies of society, protest, and revolution. </p>
-            <p><hi rend="background-color(#ffffff)">When I started this process, I faced two
+                
+            <p>When I started this process, I faced two
                     obstacles. First, my graduate training, which in 2006 was still the foundation
                     for teaching Romanticism, did not bring questions of race or Blackness to bear
                     on Romanticism. Additionally, as a new professor, I was anxious to teach
                     Romantic poetry in a way that was legible to senior British faculty, especially
                     those who looked askance at my decision to include novels in a course they
-                    believed should only focus on poetry. I was also </hi><hi
-                    rend="background-color(#ffffff)">facing a short tenure clock and an
+                    believed should only focus on poetry. I was also facing a short tenure clock and an
                     institutional environment hostile to faculty of color, realities that left me
                     little time to substantially revise the course I was hired to teach. As a
                     result, my first instinct was simply to add more texts that explicitly included
@@ -110,8 +289,7 @@
                     alter students understanding of the Romantic period. To put it simply, would it
                     matter if I added Ottobah Cugoano without thinking about how to reframe “The
                     Little Black Boy” or Blake and his contemporaries? In response to this set of
-                    concerns,</hi><hi rend="color(#222222)"> </hi><hi
-                    rend="background-color(#ffffff)">my initial impulse was to gather articles and
+                    concerns, my initial impulse was to gather articles and
                     book chapters that focused on how the writers already on the syllabus thought
                     about the slave trade, abolition, amelioration, and emancipation. I also
                     experimented in the undergraduate classes I regularly taught (Introduction to
@@ -124,20 +302,21 @@
                     By the time my department added a new required course, “Writing for the Major,”
                     designed for students new to the English major in 2014, I had the materials to
                     plan an entire course that focused on the writers included on my Romanticism
-                    syllabus and their contemporaries,</hi><hi rend="background-color(#ffffff)"
-                        ><note xml:id="ftn10" place="end" n="4"/></hi><hi
-                    rend="background-color(#ffffff)"> and provided an opportunity for students to
+                    syllabus and their contemporaries, and provided an opportunity for students to
                     think about race, abolition, and freedom as essential to how we read literature
                     regardless of the time period from which it emerges and not as a special course
-                    but as a matter of course. </hi></p>
-            <p><hi rend="background-color(#ffffff)">***</hi></p>
-            <div type="div1" rend="P2">
-                <head>The student’s visceral response to “<hi rend="background-color(#ffffff)">And I
-                        am black, but O! my soul is white” </hi>was because they were shocked about
+                    but as a matter of course. </p>
+                
+              
+              <div type="section">
+                  <head>***</head>
+            
+            
+                <p>The student’s visceral response to “And I
+                        am black, but O! my soul is white” was because they were shocked about
                     what they interpreted as an exceptionally explicit affirmation of white
                     supremacy even given a time period they understood as less enlightened about
-                    race. The debate that followed the <hi rend="background-color(#ffffff)"
-                        >WTF??!!?” </hi>mirrored tense exchanges I have seen among Romanticists and
+                    race. The debate that followed the WTF??!!?” mirrored tense exchanges I have seen among Romanticists and
                     scholars of pre-1900 British literature. Students who were troubled by the line
                     and those who read it as innocuous faced charges of either over or under reading
                     the line, with most Black students inclined to find it offensive and many white
@@ -171,10 +350,11 @@
                     trade—abolition, emancipation, amelioration, freedom—do not necessarily
                     correlate to notions of anti-racism, equality, and equity. It is, I made clear,
                     entirely possible for Blake to be opposed to slavery and still cling to racial
-                    hierarchies.</head>
+                    hierarchies.</p>
+                  
                 <p>David Bindman’s “Blake’s Vision of Slavery Revisited” proved an especially useful
                     follow-up to these questions about the poem. Despite more recent readings of
-                    Blake and race,<note xml:id="ftn10" place="end" n="5"><p> See also: Lily
+                    Blake and race,<note place="foot" resp="author"> See also: Lily
                             Gurton-Wachter, “Blake’s ‘Little Black Thing’: Happiness and Injury in
                             the Age of Slavery,”<hi rend="italic">ELH</hi> 87, no. 2 (2020): 519–52,
                                 <ref target="http://doi.org/10.1353/elh.2020.0017"
@@ -185,7 +365,7 @@
                             Cambridge University Press, 1998., and Saree Makdisi “The Political
                             Aesthetic of Blake’s Images” in <hi rend="italic">The Cambridge
                                 Companion to William Blake</hi> edited by Eaves, Morris, 110-132.
-                            Cambridge: Cambridge University Press, 2003. </p></note> Bindman’s work
+                            Cambridge: Cambridge University Press, 2003. </note> Bindman’s work
                     here offers a compelling, accessible history that answers students’ questions
                     about Blake’s understanding of race and how consistent it is with the period.
                     Bindman points us to work by Christopher Miller about how ancient Greeks
@@ -193,54 +373,61 @@
                     of the sun, but my soul, ever blooming with white flowers, won my prudent
                     master’s good will” (374). The essay also models for them student what it
                     requires to credibly reach the understanding that Bindman offers near the end of
-                    his essay:</p>
-                <p>These two examples do not, of course, cast doubt on the sincerity of Blake’s
+                    his essay:
+                    
+                <quote>These two examples do not, of course, cast doubt on the sincerity of Blake’s
                     opposition to the slavery…They do, however, suggest that Blake was unable to
                     free himself—<hi rend="italic">no more than anyone else at the time</hi>—from
                     the complex and often contradictory web of ancient and modern beliefs that had
                     settled around African and Africans in the late eighteenth century. (382;
-                    emphasis mine)</p>
-                <p>Where I might quibble with the aside I emphasized above—and I share my
+                    emphasis mine)</quote>
+                    
+                Where I might quibble with the aside I emphasized above—and I share my
                     disagreement with my students—I nonetheless have found Bindman’s essay
                     exceptionally useful because he models what students need to think about when
                     considering nineteenth-century representations of race. Bindman’s essay has been
                     a mainstay whenever I teach Blake and I pair it with Kwame Anthony Appiah’s
                     “Race”—an essay that succinctly traces how race functions as a social construct
                     in the nineteenth century and clearly explains that despite its constructedness,
-                    it still carries social weight: </p>
-                <p>For, however mythical the notion of race seems to be, we cannot deny the obvious
+                    it still carries social weight: 
+                    
+                <quote>For, however mythical the notion of race seems to be, we cannot deny the obvious
                     fact that having one set of heritable characteristics—dark skin, say—rather than
                     another—blonde hair, for example—can have profound psychological, economic, and
                     other social consequences, especially in societies where many people are not
-                    only racialists but racists. </p>
-                <p>Appiah’s assertations here, about “heritable characteristics” made some students
+                    only racialists but racists. </quote>
+                    
+                Appiah’s assertations here, about “heritable characteristics” made some students
                     uncomfortable, those who felt implicated by the idea that the characteristics
                     they were born with have social capital and those who chafed against the idea
                     that their characteristics may not overcome the obstacles they believe can be
                     dismantled with education. My students are wary of the idea of “white privilege”
                     because they associate it with economic wealth, but Appiah in this moment
                     articulates what the “privilege” looks like, quite literally.<note
-                        xml:id="ftn10" place="end" n="6"> For notes on how to talk about white
+                        place="foot" resp="6"> For notes on how to talk about white
                         privilege with undergraduate, see my blog post “The Poetry of Race and
                         Privilege” https://patriciamatthew.blog/tag/miley-cyrus/</note> Despite
                     their discomfort, students responded well to the accessibility of Appiah’s
                     analogies in the essay and, as a result, were better prepared to do the more
                     difficult conceptual work it takes to understand how he lays out the consequent
-                    process of nation building and understandings of race: </p>
-                <p>the dual connection made in eighteenth-and nineteenth-century thought between, on
+                    process of nation building and understandings of race: 
+                    
+                <quote>the dual connection made in eighteenth-and nineteenth-century thought between, on
                     the one hand, race and nationality, and, on the other, nationality and
                     literature. In short, the nation is the key middle term in understanding the
-                    relations between the concept of race and the idea of literature. (282)</p>
-                <p>Appiah also addresses the impact of the idea of race as a social construction, an
+                    relations between the concept of race and the idea of literature. (282)</quote>
+                    
+               Appiah also addresses the impact of the idea of race as a social construction, an
                     idea too many of my students have turned to as a way to dismiss racism. In
                     “Writing for the Major” students also watched <ref
-                        target="https://www.youtube.com/watch?v=EEOQcVLvnKo)">his interview with a
-                        Foreign Affairs correspondent</ref>. His observations in the interview
+                        target="https://www.youtube.com/watch?v=EEOQcVLvnKo)">his interview</ref> with a
+                        Foreign Affairs correspondent. His observations in the interview
                     prompts open and productive conversations about race and racism where student
                     curiosity about the history of race and earnest desire to understand how racism
                     work overcomes some of the defensiveness and anxiety they felt about a topic
                     that became increasingly fraught as their understanding of the world as racially
                     just was undermined by national events. </p>
+                    
                 <p>Although the “Writing for the Major” course began with “The Black Boy” and the
                     readings included poetry and prose by Wordsworth, Coleridge, and Southey, the
                     class was less explicitly about Romanticism as literary period and more about
@@ -261,18 +448,24 @@
                     taught the class the free association began with “honey” and invariably ended
                     with students listing songs that reference “Sugar Daddy” in their titles or
                     lyrics. This conflation of commodity, commerce, and desire prepared them for a
-                    discussion <hi rend="color(#202122) background-color(#ffffff)">Tina Turner and
+                    discussion Tina Turner and
                         Mick Jagger’s performance of “Brown Sugar.” This is a song that was still
                         familiar to most of them, one they grew up hearing. They may never have seen
                         the Turner-Jagger performance, but they recognize the opening chords and
                         know the start of the chorus. Students watched the video without the benefit
                         of having the lyrics in front of them, and then listened to the song again
                         while reading the lyrics. The conversation sparked by what the lines reveal
-                        is not as angry as the debate about Blake, but it is intense:</hi></p>
-                <p><hi rend="color(#202124)">Gold Coast slave ship bound for cotton fields<lb/>Sold
-                        in the market down in New Orleans<lb/>Skydog slaver know he's doin' all
-                        right<lb/>Hear him whip the women, just around midnight.</hi></p>
-                <p><hi rend="color(#202122) background-color(#ffffff)">I want to be clear here that
+                        is not as angry as the debate about Blake, but it is intense:
+                        
+                <lg type="stanza">
+                    <l>Gold Coast slave ship bound for cotton fields</l>
+                        <l>Sold in the market down in New Orleans</l>
+                    <l>Skydog slaver know he's doin' all
+                        right</l>
+                        <l>Hear him whip the women, just around midnight.</l>
+                </lg>
+                    
+               I want to be clear here that
                         the point of this exercise was not to hunt for moments of popular culture
                         and vet them for their politics. Instead, I wanted to show students the long
                         reach of the tropes they were about to encounter. Still in each class some
@@ -283,41 +476,39 @@
                         These early class exercises primed students to push past any neat
                         assumptions about race, abolition, visual culture, and representations of
                         Black women in literature, visual culture, and film. It also prepared them
-                        to think along with Christina Sharpe when we listened </hi><ref
-                        target="https://www.youtube.com/watch?v=IhHmHYBssMc"><hi
-                            rend="background-color(#ffffff)">to her response to Kara Walker’s art
-                            installation</hi></ref><hi
-                        rend="color(#202122) background-color(#ffffff)">“The Subtlety.” Sharpe not
+                        to think along with Christina Sharpe when we listened to <ref
+                        target="https://www.youtube.com/watch?v=IhHmHYBssMc">her response </ref> to Kara Walker’s art
+                            installation “The Subtlety.” Sharpe not
                         only provided a pointed critique of Walker and her use of the Black female
                         form but offered a model for students about how to ask productive questions
-                        from the texts they read and see. </hi></p>
+                        from the texts they read and see. </p>
+                  
                 <p>In addition to “The Little Black Boy,” the primary texts in the class included:
                     Coleridge’s 1795 lecture “On the Slave Trade,” Robert Southey’s six sonnet
                     sequence “Poems on the Slave Trade,” Amelia Opie’s “The Black Man’s Lament; or,
                     How to Make Sugar,” Wordsworth’s “The Mad Mother” and Hannah More and
                     Eaglesfield Smith’s “The Sorrows of Yamba”—a poem students found particularly
                     compelling when they were assigned an excerpt from Alan Richardson’s essay about
-                    its authorship: <hi rend="background-color(#ffffff)">“The Sorrows of Yamba,” by
+                    its authorship: “The Sorrows of Yamba,” by
                         Eaglesfield Smith and Hannah More: Authorship, Ideology, and the Fractures
-                        of Antislavery Discourse.”</hi>
-                    <hi rend="background-color(#ffffff)">The excerpts I used from Richardson’s essay
+                        of Antislavery Discourse.”
+                    The excerpts I used from Richardson’s essay
                         were particularly generative. Students read the poem over two class periods.
                         In the first class, their work with the poem was a mix of their initial
-                        reactions and my lecture on motherhood and infanticide. </hi><hi
-                        rend="background-color(#ffffff)">On the second day students work with the
+                        reactions and my lecture on motherhood and infanticide. On the second day students work with the
                         poem, I used this excerpt from the essay to take students back to the
                         primary text and asked students to identity what in the poem supports
-                        Richardson’s claim: </hi></p>
-                <p><hi rend="background-color(#ffffff)">In what follows, then, I will establish the
+                        Richardson’s claim: </p>
+                  
+                <p>In what follows, then, I will establish the
                         dual authorship of the Cheap Repository “Sorrows of Yamba” on the basis both
                         of external evidence (including new evidence that I discovered in the course
                         of preparing a collection of British antislavery poems) and internal
                         evidence. Indeed, a crucial part of the argument—for the priority and
                         relative integrity of Smith's version of the poem—depends almost wholly on
-                        internal evidence, but of an unusually persuasive kind. (para 4)</hi><hi
-                        rend="background-color(#ffffff)"><note xml:id="ftn10" place="end" n="7"
-                        /></hi><hi rend="background-color(#ffffff)"> </hi></p>
-                <p><hi rend="background-color(#ffffff)">This exercise was particularly rewarding for
+                        internal evidence, but of an unusually persuasive kind. (para 4) </p>
+                  
+                <p>This exercise was particularly rewarding for
                         students who had completed the reading before class and followed my
                         recommendation to mark passages they found intriguing and/or troubling.
                         Those who read carefully reported the poem “feeling” different in moments.
@@ -331,36 +522,39 @@
                         historical account of the experiences of the enslaved. They tended to forget
                         this. This was especially important for students to understand as they read
                         Equiano and Mary Prince, narratives about slavery written for a white
-                        audience. </hi></p>
+                        audience. </p>
                 <p>These opening exercises gave students a set of signposts to look for as they
                     read, making it easier for their initial encounters with the readings. This made
                     even the most tedious poems like Opie’s <lb/>“How to Make Sugar” manageable, but
-                    it didn’t help much with Coleridge’s “Lecture on the Slave Trade.”<hi
-                        rend="color(#202122) background-color(#ffffff)">It needs a great deal of
+                    it didn’t help much with Coleridge’s “Lecture on the Slave Trade.” It needs a great deal of
                         glossing to help students understand the many references to people and
                         places they don’t know, and it is written to be heard rather than read. I
                         had to develop a rhetorical map to help students understand it. Many of them
                         believed that Coleridge’s recitation of pro-slavery arguments that he later
                         dismantles are actually his own beliefs and ideas, so we read the lecture
-                    </hi>as much for the structure of his argument as for his thoughts about the
+                    as much for the structure of his argument as for his thoughts about the
                     slave trade. Students studied the tonal shifts in the essay—from its bombastic
                     opening to its almost clinical recitation of the argument for slavery that he is
                     challenging to its use of poetry. I noted that he is preacher, parliamentarian,
                     and poet all in one lecture, and then asked them to identify which moments in
                     the lecture fit under those categories. </p>
+                  
                 <p>Coleridge provides a useful introduction Southey’s anti-slavery sonnet series. In
                     the preface to the six sonnets that grow increasingly violent in tone, Southey
                     speculates about the necessary conditions for the slave trade to end and points
                     to what will happen with sugar specifically. After referencing the 1792
-                    anti-sugar campaigns, he predicts: </p>
-                <p>There are yet two other methods remaining, by which this traffic will probably be
+                    anti-sugar campaigns, he predicts: 
+                    
+                <quote>There are yet two other methods remaining, by which this traffic will probably be
                     abolished. By the introduction of East-Indian or Maple Sugar, or by the just and
                     general rebellion of the Negroes; by the vindictive justice of the Africans, or
-                    by the civilized Christians finding it in their interest to be humane. </p>
-                <p>Students read Coleridge and Southey about midway through the semester, and his
+                    by the civilized Christians finding it in their interest to be humane. </quote>
+                    
+                Students read Coleridge and Southey about midway through the semester, and his
                     predictions about the conditions necessary for abolition offered a prompt for
                     students to revisit the question of what mechanisms are required for meaningful
                     societal change. </p>
+                    
                 <p>When it came to student work in this course, I aimed to develop a series of
                     assignments that reflected how my students imagined their lives after college.
                     When I was a new professor, my writing assignments did not offer students enough
@@ -378,7 +572,7 @@
                     that his primary job is to support them as they cultivate and refine their
                     intellectual practices. What this has meant for my praxis is to think of
                     assignments as preparing students to make a choice about how they present their
-                    analytical work.<hi rend="background-color(#ffffff)"> </hi>Roughly a third of my
+                    analytical work. Roughly a third of my
                     students have plans to teach English, primarily in high school. To work with
                     them to develop a research-based lesson plan was a useful, organic way to assess
                     how they took primary readings, class discussions, journal articles, and their
@@ -395,64 +589,60 @@
                     about their analytical processes for their final project. The assignment that
                     required them to read two refereed journal articles made more sense to them
                     because it was not simply offering them “context” but showing them how to engage
-                    with complex representations and ideologies.<note xml:id="ftn10" place="end"
-                        n="8"><p> Deirdre Coleman’s<hi rend="italic">Conspicuous Consumption: White
+                    with complex representations and ideologies.<note place="foot"
+                        resp="author"> Deirdre Coleman’s<hi rend="italic">Conspicuous Consumption: White
                                 Abolitionism and English Women’s Protest Writing in the 1790s</hi>
                             (2005) was very popular, especially for students looking for a way to
                             understand what ungirds women’s participation in abolitionist discourse.
-                            By far, Matthew D. Brown’s Callaloo essay “<hi
-                                rend="background-color(#ffffff)">Olaudah Equiano and the Sailor's
-                                Telegraph: </hi><hi rend="background-color(#ffffff)italic">The
-                                Interesting Narrative</hi><hi rend="background-color(#ffffff)"> and
+                            By far, Matthew D. Brown’s Callaloo essay “Olaudah Equiano and the Sailor's
+                                Telegraph: <hi rend="italic">The
+                                Interesting Narrative</hi> and
                                 the Source of Black Abolitionism” was the most popular. Students
                                 tend to find Equiano particularly compelling and Brown’s reading of
                                 the memoir points to moments of community and egalitarianism that I
                                 suspect appeals to their need for hopeful moments of solidarity in a
-                                violent ecosystem. </hi></p></note>
+                                violent ecosystem. </note>
                 </p>
-                <p>***</p>
+                  </div>
+                
+                <div type="section">
+                <head>***</head>
                 <p>The graduate seminars I teach in my department’s MA program are a mix of students
                     planning for doctoral studies, teachers seeking the Master of Arts in Teaching,
                     and students interested in a graduate-level engagement with literature. The
                     course I planned for this group of students in 2018 provided an opportunity to
-                    bring primary texts into dialogue with :<hi rend="color(#000000)">Critical Race
+                    bring primary texts into dialogue with "Critical Race
                         Theory, feminist literary criticism, and emergent Romanticist critical
-                        discourses that reimagine the post-colonial project.”</hi>. Here is the full
-                    description from the syllabus:</p>
-                <p><hi rend="color(#000000)">Students in this course will consider how our
+                        discourses that reimagine the post-colonial project.”. Here is the full
+                    description from the syllabus:
+                    
+                <quote>
+                    <p>Students in this course will consider how our
                         understanding of nineteenth-century Britain shifts when we take into account
                         how much of the culture that gave us Shelley, Austen, and, eventually,
                         the Brontës relied on the transatlantic slave trade. Our work will focus on
                         Romantic-era writers who shaped, reflected, and contributed to England’s
                         abolitionist movement.  We will read anti-slavery writing by canonical poets
-                        (Blake, Coleridge, and Wordsworth); consider the </hi><hi
-                        rend="color(#000000)">rhetorical moves in Ottobah Cugoano’s </hi><hi
-                        rend="color(#000000)italic">Thoughts and Sentiments on the Evils of Slavery
-                        </hi><hi rend="color(#000000)">and Olaudah Equiano’s </hi><hi
-                        rend="color(#000000)italic">Interesting Narrative</hi><hi
-                        rend="color(#000000)">; and read novels and novel fragments that tell the
-                        story of mixed-race heroines, including </hi><hi rend="color(#000000)italic"
-                        >The Woman of Colour, A Tale </hi><hi rend="color(#000000)">and </hi><hi
-                        rend="color(#000000)italic">Narrative of Joanna; An Emancipated Slave, of
-                        Surinam</hi><hi rend="color(#000000)">. We will also read a few anti-slavery
+                        (Blake, Coleridge, and Wordsworth); consider the rhetorical moves in Ottobah Cugoano’s <hi rend="italic">Thoughts and Sentiments on the Evils of Slavery
+                        </hi> and Olaudah Equiano’s <hi rend="italic">Interesting Narrative</hi>; and read novels and novel fragments that tell the
+                        story of mixed-race heroines, including <hi rend="italic">The Woman of Colour, A Tale </hi> and <hi rend="italic">Narrative of Joanna; An Emancipated Slave, of
+                        Surinam</hi>. We will also read a few anti-slavery
                         poems and lectures with an eye towards thinking about how representations of
-                        people of color are shaped by generic conventions.  </hi></p>
-                <p><hi rend="color(#000000)"> </hi></p>
-                <p><hi rend="color(#000000)">The abolitionist movement is one of the first political
+                        people of color are shaped by generic conventions.</p>
+                    
+                <p>The abolitionist movement is one of the first political
                         events British white women organized themselves around, so we will pay
                         special attention to nineteenth-century women writers including Jane Austen
-                        (</hi><hi rend="color(#000000)italic">Sanditon</hi><hi rend="color(#000000)"
-                        >), Maria Edgeworth (“The Grateful Negro”), Amelia Opie (</hi><hi
-                        rend="color(#000000)italic">Adeline Mowbray</hi><hi rend="color(#000000)">),
-                        and Mary Wollstonecraft (excerpts from </hi><hi rend="color(#000000)italic"
-                        >A Vindication of the Rights of Woman</hi><hi rend="color(#000000)">). In
+                        (<hi rend="italic">Sanditon</hi>), Maria Edgeworth (“The Grateful Negro”), Amelia Opie (<hi rend="italic">Adeline Mowbray</hi>),
+                        and Mary Wollstonecraft (excerpts from <hi rend="italic">A Vindication of the Rights of Woman</hi>). In
                         addition to these primary texts, we will also consider the period’s material
                         and visual culture and spend time thinking about how anti-slavery ideologies
                         are reinterpreted in popular culture. We’ll read these primary texts in the
                         context of Critical Race Theory, feminist literary criticism, and emergent
                         Romanticist critical discourses that reimagine the post-colonial
-                        project.</hi></p>
-                <p>In the first few classes, students reacted to this course in a number of ways,
+                        project.</p></quote>
+                    
+                In the first few classes, students reacted to this course in a number of ways,
                     almost all of which resisted its premise. Some of this was, I suspect, the
                     natural performance of skepticism that graduate students bring to courses as
                     they feel their way through the dynamics of the class. Some of the resistance
@@ -467,15 +657,15 @@
                     reasons I didn’t begin this with Wordsworth’s “To Toussaint L’Ouverture.” With
                     its “whistling rustic” and “common wind,” Wordsworth’s sonnet reads to students
                     as consistent with Romantic tropes in general and the aesthetics of his work. I
-                    followed up this sonnet with C.L.R James’s <hi rend="italic">The</hi>
-                    <hi rend="italic">Black Jacobins </hi>and that helped reorient students to the
-                    geographies of slavery and abolition.<hi rend="italic"> </hi>For students
+                    followed up this sonnet with C.L.R James’s <hi rend="italic">The Black Jacobins</hi> and that helped reorient students to the
+                    geographies of slavery and abolition.For students
                     trained in African-American studies, this class was a revelation that invited
                     them to revisit the “Trans” in the Transatlantic Slave Trade. For so many of
                     them the history of the transatlantic slave trade has elided England’s role in
                     it and the hollowness of “emancipation.” </p>
+                    
                 <p>The most animated class discussions were sparked by the 1808 <hi rend="italic"
-                        >The Woman of Colour, A Tale</hi>, <hi rend="italic">A Novel</hi>. Even
+                        >The Woman of Colour, A Tale, A Novel</hi>. Even
                     though they preferred reading novels to poetry, graduate students loved and
                     hated the novel in equal measure. The novel, which tells the story about the
                     daughter of an enslaved Black woman and a planter with family in England,
@@ -502,16 +692,15 @@
                     we read. We compared Olivia to Wollstonecraft’s description of ideal women in
                         <hi rend="italic">Vindication of the Rights of Woman </hi>and considered the
                     end of the novel in the context of the matriarchal utopia episode of John
-                    Stedman’s <hi rend="background-color(#ffffff)italic">Narrative of </hi><hi
-                        rend="italic">Joanna</hi><hi rend="background-color(#ffffff)italic">;
-                        An </hi><hi rend="italic">Emancipated Slave</hi><hi
-                        rend="background-color(#ffffff)italic">, of Surinam</hi><hi
-                        rend="background-color(#ffffff)">.</hi>
+                    Stedman’s <hi rend="italic">Narrative of Joanna;
+                        An Emancipated Slave, of Surinam</hi>.
                 </p>
+                
+                    
                 <p>Student resistance to the course’s central goal diminished as the course
                     progressed, but it was replaced by an intellectual sentimentalism that I found
                     reductive. In my essay on a similar subject (“Jane Austen and the Abolitionist
-                        Turn”<note xml:id="ftn10" place="end" n="9"> See Matthew, Patricia A. Jane
+                        Turn”<note place="foot" resp="author"> See Matthew, Patricia A. Jane
                         Austen and the Abolitionist Turn”<hi rend="italic">Texas Studies in
                             Literature and Language. </hi>61.4 (Winter 2019):345-61</note>), I talk
                     about the collegial but earnest tug-of-war I have with graduate students who
@@ -528,13 +717,15 @@
                     approach that reads these works as ways to “humanize” people of color by reading
                     the primary texts (the literary and the historical) as documentaries that teach
                     us about the past. They don’t. They show us select representations of the past.
-                    As <hi rend="background-color(#ffffff)">Marcus Wood observes in </hi><hi
-                        rend="background-color(#ffffff)italic">Blind Memory: Visual Representations
-                        of Slavery in England and America</hi><hi rend="background-color(#ffffff)">:
+                    As Marcus Wood observes in <hi rend="italic">Blind Memory: Visual Representations
+                        of Slavery in England and America</hi>:
+                    <quote>
                         “The experiences of millions of individuals who were the victims of slavery
                         is not collectable; it is unrecoverable as a set of relics. There can be no
                         archeology of the memory of slavery that corresponds to an emotional
-                        identification with a lost reality” (7). </hi>Those representations
+                        identification with a lost reality” (7).</quote> 
+                    
+                    Those representations
                     certainly influence our contemporary notions of race, but Britain’s abolitionist
                     project feels too complex to be read as a template for what we can and cannot do
                     in the twenty-first century. It is a viewpoint that is appealing to students who
@@ -549,6 +740,7 @@
                     abolitionist construct themselves in relationship to the Black figures they
                     claim to support. Graduate students, especially women of color and white women,
                     tend to see in the struggles of the past their own oppressive experiences.</p>
+                    
                 <p> One way this is evident is in reactions to Olivia Fairfield in<hi rend="italic"
                         >The Woman of Colour, A Tale</hi>. Whereas, as I note above, graduate
                     students wrestle with wanting a traditional, heteronormative ending for Olivia,
@@ -573,7 +765,11 @@
                     an intellectual project. This seems a good pedagogical problem to have; in both
                     cases students are animated about and engaged with the work of understanding and
                     ecosystem that they still see as operating today. </p>
-                <p>***</p>
+                </div>
+                
+                <div type="section">
+                <head>***</head>
+                    
                 <p> For all that I want students to see my class discussions, indeed my class as a
                     whole, as a place to work out ideas, free from punitive critique and the
                     pressure to perform a particular politics, I have been gratified when they make
@@ -594,14 +790,14 @@
                     description of psychological violence and the case of Kalief Browder, wrongly
                     imprisoned after police suspected him of stealing a backpack. Another student
                     prepared a research presentation that traced depictions of Black women’s bodies
-                        from<hi rend="background-color(#ffffff)">Sarah Baartman</hi><hi
-                        rend="color(#4d5156) background-color(#ffffff)"> </hi>to the present,
+                        fromSarah Baartman to the present,
                     revisiting Christina Sharpe’s discussion of Kara Walker. Among themselves
                     students started discussing the challenges and risks of confronting racist
                     moments in their lives away from school. Ave DuVernay’s <hi rend="italic"
-                        >13</hi><hi rend="sup italic">th</hi><hi rend="italic"> </hi>was released in
+                        >13<hi rend="sup">th</hi></hi>was released in
                     2016, and by 2017 some of my students had watched, and brought it up enough in
                     class discussions that their peers watched it too. </p>
+                    
                 <p>There were difficult debates too. Smart, thoughtful students asked earnest
                     questions with racist overtones, and I had to walk a fine line. I had to
                     moderate those discussions without leaving students asking troubling questions
@@ -611,6 +807,7 @@
                     He lays out five pro-slavery arguments and then debunks them. In more than one
                     class, skeptical students benefitted from our close attention to what
                     underscored the pro-slavery debates Coleridge references. </p>
+                    
                 <p>In the scant ground of a course reading list, it can be particularly challenging
                     to include new authors, especially if one wants to go about the work with care.
                     As Miriam Wallace and I noted in our Romantic Pedagogy Commons issue, Annette
@@ -619,11 +816,10 @@
                     wholly beyond our comprehension” (12). But I think the outcomes are worth the
                     effort, and no one taking on this work is doing so alone. There are so many
                     resources available and models to follow. I am thinking especially of the “<ref
-                        target="https://undiscipliningvc.org/index.html"><hi
-                            rend="background-color(#ffffff)">Undisciplining the Victorian
-                            Classroom”</hi></ref><hi rend="background-color(#ffffff)">digital
+                        target="https://undiscipliningvc.org/index.html">Undisciplining the Victorian
+                            Classroom”</ref> digital
                         humanities project. The site is a repository of peer-reviewed syllabi,
-                        recorded discussions about teaching, and sample units for faculty use. </hi>
+                        recorded discussions about teaching, and sample units for faculty use. 
                     Similar projects are in the works in eighteenth-century studies as well.An
                     abolitionist Romanticism course captures most students’ imaginations because
                     they tend to think of slavery and abolition as uniquely American. Thinking about
@@ -633,56 +829,59 @@
                     found that in learning about an abolitionist Romanticism, students are not only
                     studying historical texts and their connection to a movement, but are learning
                     more about the intricacies of society, protest, and revolution.</p>
-                <p rend="center">Works Cited</p>
-                <p>Appiah, Kwame Anthony. “Race,” Critical Terms for Literary Studies eds. Frank
-                    Lentricchia and Thomas McLaughlin. Chicago: U of Chicago P, 1990: 274-87.</p>
-                <p>Blake, William. “The Little Black Boy.” <hi rend="italic">The Longman Anthology
+                </div>
+                <div type="citation">
+                    
+                <head>Works Cited</head>
+                    
+                <bibl>Appiah, Kwame Anthony. “Race,” Critical Terms for Literary Studies eds. Frank
+                    Lentricchia and Thomas McLaughlin. Chicago: U of Chicago P, 1990: 274-87.</bibl>
+                    
+                <bibl>Blake, William. “The Little Black Boy.” <hi rend="italic">The Longman Anthology
                         of British Literature: The Romantic and Their Contemporaries</hi>, Third
-                    Edition, Damrosch, et al. New York: Pearson, 2006<hi rend="italic">.</hi></p>
-                <p>Bindman, David. “Blake’s Vision of Slavery Revisited” Huntington Library
+                    Edition, Damrosch, et al. New York: Pearson, 2006.</bibl>
+                    
+                <bibl>Bindman, David. “Blake’s Vision of Slavery Revisited” Huntington Library
                     Quarterly, 1995, Vol. 58, No. 3/4, William Blake: Images and Texts (1995), pp.
-                    373-382.</p>
-                <p><hi rend="color(#000000)">Brown, Matthew D. “OLAUDAH EQUIANO AND THE SAILOR’S
+                    373-382.</bibl>
+                    
+                <bibl>Brown, Matthew D. “OLAUDAH EQUIANO AND THE SAILOR’S
                         TELEGRAPH: ‘The Interesting Narrative’ and the Source of Black
-                        Abolitionism.” </hi><hi rend="color(#000000)italic">Callaloo</hi><hi
-                        rend="color(#000000)">, vol. 36, no. 1, The Johns Hopkins University Press,
-                        2013, pp. 191–201, </hi><ptr target="http://www.jstor.org/stable/24264796"
-                        /><hi rend="color(#000000)">.</hi></p>
-                <p><hi rend="color(#000000)">hooks, bell. </hi><hi rend="color(#000000)italic"
-                        >Teaching to Transgress: Education as the Practice of Freedom</hi><hi
-                        rend="color(#000000)">. New York: Routledge, 1994.</hi></p>
-                <p><hi rend="color(#000000)">Jagger, Mick, et al. “Brown Sugar” </hi><hi
-                        rend="color(#000000)italic">Sticky Fingers</hi><hi rend="color(#000000)">.
-                        Muscle Shoals Sound, 1971. </hi></p>
-                <p><hi rend="color(#000000)">Moten, Fred. </hi><hi rend="color(#000000)italic"
-                        >Stolen Life</hi><hi rend="color(#000000)">. Durham: Duke UP, 2018.</hi></p>
-                <p><hi rend="color(#333333) background-color(#ffffff)">Kolodny, Annette. “Dancing
+                        Abolitionism.” <hi rend="italic">Callaloo</hi>, vol. 36, no. 1, The Johns Hopkins University Press,
+                        2013, pp. 191–201, <ref target="http://www.jstor.org/stable/24264796"
+                        >JSTOR</ref>.</bibl>
+                    
+                <bibl>hooks, bell. <hi rend="italic">Teaching to Transgress: Education as the Practice of Freedom</hi>. New York: Routledge, 1994.</bibl>
+                    
+                <bibl>Jagger, Mick, et al. “Brown Sugar” <hi rend="italic">Sticky Fingers</hi>.
+                        Muscle Shoals Sound, 1971. </bibl>
+                    
+                <bibl>Moten, Fred. <hi rend="italic">Stolen Life</hi>. Durham: Duke UP, 2018.</bibl>
+                    
+                <bibl>Kolodny, Annette. “Dancing
                         through the Minefield: Some Observations on the Theory, Practice and
-                        Politics of a Feminist Literary Criticism.” </hi><hi
-                        rend="color(#333333) background-color(#ffffff)italic">Feminist
-                        Studies,</hi><hi rend="color(#333333) background-color(#ffffff)"> vol. 6,
-                        no. 1, 1980, pp. 1–25. </hi><hi
-                        rend="color(#333333) background-color(#ffffff)">JSTOR</hi><hi
-                        rend="color(#333333) background-color(#ffffff)">,
-                        www.jstor.org/stable/3177648. Accessed 11 November 2019.</hi></p>
-                <p><hi rend="color(#000000) background-color(#ffffff)">Richardson, Alan. “‘The
+                        Politics of a Feminist Literary Criticism.” <hi rend="italic">Feminist
+                        Studies,</hi> vol. 6,
+                        no. 1, 1980, pp. 1–25,
+                        <ref target="www.jstor.org/stable/3177648">JSTOR</ref>. Accessed 11 November 2019.</bibl>
+                    
+                <bibl>Richardson, Alan. “‘The
                         Sorrows of Yamba,’ by Eaglesfield Smith and Hannah More: Authorship,
-                        Ideology, and the Fractures of Antislavery Discourse." </hi><hi
-                        rend="color(#000000) background-color(#ffffff)italic">Romanticism on the
-                        Net</hi><hi rend="color(#000000) background-color(#ffffff)">, number 28,
-                        November 2002. </hi><ptr target="https://doi.org/10.7202/007209ar"/></p>
-                <p>Schneider, Rebecca. “‘He says he is free’: Narrative Fragments and
+                        Ideology, and the Fractures of Antislavery Discourse." <hi rend="italic">Romanticism on the
+                        Net</hi>, number 28,
+                    November 2002. <ref target="https://doi.org/10.7202/007209ar">https://doi.org/10.7202/007209ar</ref>.</bibl>
+                    
+                <bibl>Schneider, Rebecca. “‘He says he is free’: Narrative Fragments and
                     Self-Emancipation in West Indian Runaway Advertisements.” <hi rend="italic"
-                        >European Romantic Review</hi>, Vol. 29, No. 4 (2018). </p>
-                <p>Southey, Robert. [need citation]</p>
-                <p><hi rend="color(#000000) background-color(#ffffff)">Wood, Marcus. </hi><hi
-                        rend="color(#000000) background-color(#ffffff)italic">Blind Memory: Visual
-                        Representations of Slavery in England and America, 1780-1865.</hi><hi
-                        rend="color(#000000) background-color(#ffffff)"> Manchester, Manchester UP,
-                        2000.</hi></p>
+                        >European Romantic Review</hi>, Vol. 29, No. 4 (2018). </bibl>
+                    
+                <bibl>Southey, Robert. [need citation]</bibl>
+                    
+                <bibl>Wood, Marcus. <hi rend="italic">Blind Memory: Visual
+                        Representations of Slavery in England and America, 1780-1865.</hi> Manchester, Manchester UP,
+                        2000.</bibl>
+                    
             </div>
-            <div type="div1" rend="P3">
-                <head/>
             </div>
         </body>
     </text>
