@@ -4,12 +4,16 @@
         <fileDesc>
 
             <titleStmt>
-                <!--  The reading texts should all be encoded as level="m"  -->
-                <title level="a"><!-- Name of Essay, reading text, etc. --></title>
+              
+                <title level="a"><!-- Name of your project. Ex: "Six inches deep in mud": Lizzie Runs XC--></title>
 
 
                 <author role="primary">
-                    <name><!-- Name of writer. For multiple authors copy and paste in the appropriate number of nested <author><name> tags --></name>
+                    <name>Jane Austen</name>
+                </author>
+                
+                <author role="secondary">
+                    <name><!-- Your name! --></name>
                 </author>
 
                 <sponsor>Romantic Circles</sponsor>
@@ -25,22 +29,19 @@
                 </respStmt>
 
                 <respStmt>
-                    <resp><!-- Name of section. Ex: Electronic Editions, Praxis --> Editor</resp>
-                    <name><!-- Name of Section Editor --></name>
+                    <resp> Editions Editor</resp>
+                    <name> Michelle Speitz</name>
                 </respStmt>
                 <respStmt>
                     <resp>Assistant Editor</resp>
                     <name>Jessica Tebo</name>
                 </respStmt>
-                <respStmt>
-                    <resp>Assistant Editor</resp>
-                    <name>Anna Paige Wingfield</name>
-                </respStmt>
+               
             </titleStmt>
 
             <editionStmt>
-                <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                <edition>YYYY-MM-DD</edition>
+                <!-- CHANGE DATE BEFORE SUBMITTING YOUR FINAL XML FILE -->
+                <edition>2026-MM-DD</edition>
             </editionStmt>
 
             <publicationStmt>
@@ -82,44 +83,44 @@
                         a link to the copies at Romantic Circles, subject to our conditions of
                         use.</p>
                 </availability>
-                <!-- Be sure that the name below matches the file name-->
-                <idno type="edition"
-                    ><!-- section name.year.shortened name of volume/edition.last name of author or intro, biblio, etc. Example: praxis.2023.psychosis.intro --></idno>
+                <!-- Add your last-name to the <idno> tag below. Now rename/resave this file so that it matches the path below. 
+                    It should look something like this: editions.2026.pandp.tebo.xml
+                   -->
+                <idno type="edition">editions.2026.pandp.YOURLASTNAME</idno>
                 <idno type="resource"
-                    ><!-- shortened name of volume/editio, be sure that it matches what is above. Ex: psychosis --></idno>
+                    >pandp</idno>
             </publicationStmt>
 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <!-- CHANGE TITLE AND PTR // if this is a book-length unit, level="m" -->
-                        <title level="a" type="main"><!-- Essay or manuscript name -->
+                        
+                        <title level="a" type="main"><!-- Name of your project -->
                         </title>
                         <author role="secondary">
                             <persName>
-                                <forename><!-- First name --></forename>
-                                <surname><!-- Last Name --></surname>
+                                <forename><!-- Your first name --></forename>
+                                <surname><!-- Your last Name --></surname>
                             </persName>
                         </author>
-                        <!-- Referenece the above <idno> tag but only change the final part-->
+                        <!-- Once again, you will edit the <ptr> tag below by adding your last name to the end-->
                         <ptr
-                            target="sectionName/shortenedName/sectionName.year.shortenedName.last name of author or intro, biblio"/>
-                        <!-- section name/shortened name of volume or edition/section name.year.shortened name of volume or edition.last name of author or intro, biblio
-                        Ex: praxis/psychosis/praxis.2023.psychosis.intro-->
+                            target="editions/pandp/editions.2025.pandp.your last name"/>
+                        
                     </analytic>
 
 
                     <monogr>
                         <title level="m"
-                            ><!-- Parent name of volume or edition. Ex: Romantic Psychosis --></title>
-                        <title level="s"><!-- Section name. Ex: Praxis --></title>
+                            >Pride and Prejudice Remixed, Abridged, and Annotated</title>
+                        <title level="s">Editions</title>
 
                         <imprint>
                             <publisher> Romantic Circles, https://romantic-circles.org, University
                                 of Colorado Boulder</publisher>
                             <pubPlace>Boulder, CO</pubPlace>
                             <!-- CHANGE DATE RIGHT BEFORE PUBLICATION -->
-                            <date when="YYYY-MM-DD">MONTH DAY, YEAR</date>
+                            <date when="2026-MM-DD">MONTH DAY, 2026</date>
                         </imprint>
                     </monogr>
 
@@ -234,20 +235,18 @@
     <!--END OF HEADER-->
     <!-- The Following is primarily relevant to Praxis volumes, but can be adapted for Editions -->
     <text>
-        <front>
-            <div type="abstract"/>
-
-        </front>
+        
         <body>
             <div type="essay">
-                <head><!-- Title --></head>
+                <head><!-- Title of your project --></head>
                 <byline>
-                    <docAuthor/>
-                    <affiliation/>
+                    <docAuthor><!-- Your name --></docAuthor>
+                    <affiliation>University of Colorado, Boulder</affiliation>
                 </byline>
                 <div type="section"
                     ><!-- The number of these tags will depend upon whether or not the essay/text has been divided into different sections. 
-                    You will want to use the <head> tag to add in any section headings --></div>
+                    You will want to use the <head> tag to add in any section headings -->
+                </div>
 
                 <div type="citation">
                     <head>Works Cited</head>
