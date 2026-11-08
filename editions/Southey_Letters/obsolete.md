@@ -1,0 +1,1 @@
+The Southey Letters for Volume 7 were corrected directly in Drupal, rendering the xml files here obsolete. The editors redid the corrections in the TEI which has never been uploaded here. That XML, the most correct and final version, is in editionMigration/Southey Letters.
